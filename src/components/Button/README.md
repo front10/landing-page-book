@@ -23,7 +23,7 @@ import {Button} from '`@front10/landing-page-book/src/components';
 | block  | `Boolean` | Define if a button is expanded. Default `false`                                                                     |  
 | disabled  | `Boolean` | Enable or disable the button. Default `false`                                                                     |  
 | outline  | `Boolean` | Show button outline style. Default `false`                                                                     |  
-| color  | `String` | Define button color. Default `primary`                                                                     |  
+| color  | `String` | Define button color. Default `""`                                                                     |  
 | className  | `String` | Define a class attribute. Default `""`                                                                     |  
 | size  | `String` | Define the button size. Default `"md"`                                                                     |  
 | tooltip  | `String` | Define the button tooltip (if this attr not have value, tooltip not be show). Default `""`                                                                     |  

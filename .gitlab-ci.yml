@@ -9,15 +9,8 @@ cache:
     - node_modules/
 
 stages:  
-  - test
   - deploy  
 
-check_for_err:
-  stage: test
-  script: npm run eslint
-  only:
-    - master@front10-devs/landing-page-book
-    
 pages:
   stage: deploy  
   before_script: 

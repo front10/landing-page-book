@@ -4,15 +4,15 @@
     </a>
 </h1>
 
-`@front10/Car-dealership-book` is a kit of car-dealership components to be share across the web.
+`@front10/landing-page-book` is a kit of landing-page components to be share across the web.
 
-# Car Dealership Component
+# Landin Page Component
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 ## Overview
 
-`@front10/Car-dealership-book` set of fully customizable Car-dealership components written in React.
+`@front10/landing-page-book` set of fully customizable landing-page components written in React.
 
 ## Browsers support 
 
@@ -34,11 +34,7 @@ npm test or yarn test
 
 ## Features
 
-- Vehicle Home
-- Vehicle Finder
-- Vehicle Details
-- Theming
- 
+
 ## Coding styles
 
 * [Airbnb Styleguide](https://github.com/airbnb/javascript/tree/master/react)

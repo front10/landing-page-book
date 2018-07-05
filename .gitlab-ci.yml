@@ -1,0 +1,25 @@
+# This file is a template, and might need editing before it works on your project.
+# Official framework image. Look for the different tagged releases at:
+# https://hub.docker.com/r/library/node/tags/ 
+#Front10 CI/CD file
+image: node:latest
+
+cache:
+  paths:
+    - node_modules/
+
+stages:  
+  - deploy  
+
+pages:
+  stage: deploy  
+  before_script: 
+  - npm install
+  script:
+   - npm run build-storybook   
+   - gzip -k -6 -r public
+  artifacts:
+    paths:
+      - public
+  only:
+  - master@front10-devs/landing-page-book

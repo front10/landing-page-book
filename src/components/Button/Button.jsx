@@ -78,7 +78,7 @@ Button.defaultProps = {
 	block: false,
 	disabled: false,
 	outline: false,
-	color: "primary",
+	color: "",
 	className: "",
 	size: "md",
 	tooltip: "",

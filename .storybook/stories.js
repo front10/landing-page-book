@@ -8,5 +8,3 @@
 import '../src/stories/documentation/Introduction';
 
 //Components
-import '../src/stories/components/button';
-import '../src/stories/components/navbar';

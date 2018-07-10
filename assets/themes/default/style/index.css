@@ -11321,5 +11321,49 @@ a.text-dark:hover, a.text-dark:focus {
 
 /*Variables*/
 /*Colors*/
+/*
+ *Hero
+ */
 /*Custom*/
 /*Components*/
+.Hero .Hero__Header {
+  font-weight: 700;
+  font-size: 75px;
+  font-style: normal;
+  color: white; }
+
+.Hero .Hero__SubHeader {
+  font-size: 40px;
+  font-style: italic;
+  color: white; }
+
+.Hero .Hero__Button {
+  padding: 20px 40px;
+  color: white;
+  background-color: #fed136; }
+
+.Hero .Hero__Particles {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  z-index: 1; }
+  .Hero .Hero__Particles div {
+    height: 100%; }
+
+.Hero .Hero__Container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2; }
+  .Hero .Hero__Container .container {
+    margin: auto; }
+
+@media (max-width: 768px) {
+  .Hero__Header {
+    font-size: 30px !important; }
+  .Hero__SubHeader {
+    font-size: 20px !important; } }

@@ -1,0 +1,51 @@
+.Hero {
+  .Hero__Header {
+    font-weight: $Hero__Header-fontWeight;
+    font-size: $Hero__Header-fontSize;
+    font-style: $Hero__Header-fontStyle;
+    color: $Hero__Header-color;
+  }
+  .Hero__SubHeader {
+    font-size: $Hero__SubHeader-fontSize;
+    font-style: $Hero__SubHeader-fontStyle;
+    color: $Hero__SubHeader-color;
+  }
+  .Hero__Button {
+    padding: 20px 40px;
+    color: $Hero__Button-color;
+    background-color: $Hero__Button-backgroundColor;
+  }
+  .Hero__Particles {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
+
+    div {
+      height: 100%;
+    }
+  }
+  .Hero__Container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    .container{
+      margin: auto;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .Hero__Header {
+    font-size: $Hero__Header--phone-fontSize !important;
+  }
+  .Hero__SubHeader {
+    font-size: $Hero__SubHeader--phone-fontSize !important;
+  }
+}

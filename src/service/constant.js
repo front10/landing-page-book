@@ -1,0 +1,1 @@
+export const GRAPHQL_API_URL="https://api.github.com/graphql";

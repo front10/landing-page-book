@@ -1,12 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import GithubService from '../../service/GithubDetail.services';
 
 class GithubDetail extends React.Component {
     constructor(props) {
-        super(props);        
+        super(props); 
+        this.state = {};       
     }
 
     componentWillMount() {      
+        GithubService.getRepository().then(res => {
+            console.log('====================================');
+            console.log('Result',res.data);
+            console.log('====================================');
+        });
     }
 
     componentWillReceiveProps(nextProps) {
@@ -16,7 +23,8 @@ class GithubDetail extends React.Component {
     render() {        
         return (<div>
             <h1>github</h1>
-            <h3>Pendiente</h3>
+            <button><i className="fa fa-github" aria-hidden="true"/><span><b> Follow</b></span></button>
+            
         </div>           
         );
 

@@ -3,7 +3,15 @@
 exports[`Header Header should render 1`] = `
 ReactWrapper {
   "length": 1,
-  Symbol(enzyme.__unrendered__): <Header />,
+  Symbol(enzyme.__unrendered__): <Header
+    companyLink=""
+    companyLogo=""
+    companyName=""
+    fixed={false}
+    leftItems={Array []}
+    rightItems={Array []}
+    transparent={false}
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -35,19 +43,43 @@ ReactWrapper {
           "memoizedProps": Object {
             "Component": [Function],
             "context": null,
-            "props": Object {},
+            "props": Object {
+              "companyLink": "",
+              "companyLogo": "",
+              "companyName": "",
+              "fixed": false,
+              "leftItems": Array [],
+              "rightItems": Array [],
+              "transparent": false,
+            },
           },
           "memoizedState": Object {
             "context": null,
             "mount": true,
-            "props": Object {},
+            "props": Object {
+              "companyLink": "",
+              "companyLogo": "",
+              "companyName": "",
+              "fixed": false,
+              "leftItems": Array [],
+              "rightItems": Array [],
+              "transparent": false,
+            },
           },
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "Component": [Function],
             "context": null,
-            "props": Object {},
+            "props": Object {
+              "companyLink": "",
+              "companyLogo": "",
+              "companyName": "",
+              "fixed": false,
+              "leftItems": Array [],
+              "rightItems": Array [],
+              "transparent": false,
+            },
           },
           "ref": null,
           "return": FiberNode {
@@ -83,11 +115,27 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                    class="Header"
+                  <nav
+                    class="navbar navbar-expand-lg Header"
                   >
-                    Hello Header
-                  </div>
+                    <button
+                      aria-label="Toggle navigation"
+                      class="navbar-toggler mr-3 Header__Toggler"
+                      data-toggle="collapse"
+                      type="button"
+                    >
+                      <i
+                        class="fa fa-bars"
+                      />
+                    </button>
+                    <a
+                      class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                      href=""
+                    >
+                      
+                      
+                    </a>
+                  </nav>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -123,7 +171,17 @@ ReactWrapper {
                     "element": <WrapperComponent
                       Component={[Function]}
                       context={null}
-                      props={Object {}}
+                      props={
+                        Object {
+                          "companyLink": "",
+                          "companyLogo": "",
+                          "companyName": "",
+                          "fixed": false,
+                          "leftItems": Array [],
+                          "rightItems": Array [],
+                          "transparent": false,
+                        }
+                      }
                     />,
                   },
                   "tag": 0,
@@ -140,7 +198,17 @@ ReactWrapper {
                     "element": <WrapperComponent
                       Component={[Function]}
                       context={null}
-                      props={Object {}}
+                      props={
+                        Object {
+                          "companyLink": "",
+                          "companyLogo": "",
+                          "companyName": "",
+                          "fixed": false,
+                          "leftItems": Array [],
+                          "rightItems": Array [],
+                          "transparent": false,
+                        }
+                      }
                     />,
                   },
                   "tag": 0,
@@ -159,7 +227,17 @@ ReactWrapper {
               "element": <WrapperComponent
                 Component={[Function]}
                 context={null}
-                props={Object {}}
+                props={
+                  Object {
+                    "companyLink": "",
+                    "companyLogo": "",
+                    "companyName": "",
+                    "fixed": false,
+                    "leftItems": Array [],
+                    "rightItems": Array [],
+                    "transparent": false,
+                  }
+                }
               />,
             },
             "mode": 0,
@@ -171,11 +249,27 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <div
-                  class="Header"
+                <nav
+                  class="navbar navbar-expand-lg Header"
                 >
-                  Hello Header
-                </div>
+                  <button
+                    aria-label="Toggle navigation"
+                    class="navbar-toggler mr-3 Header__Toggler"
+                    data-toggle="collapse"
+                    type="button"
+                  >
+                    <i
+                      class="fa fa-bars"
+                    />
+                  </button>
+                  <a
+                    class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                    href=""
+                  >
+                    
+                    
+                  </a>
+                </nav>
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -201,7 +295,17 @@ ReactWrapper {
                 "element": <WrapperComponent
                   Component={[Function]}
                   context={null}
-                  props={Object {}}
+                  props={
+                    Object {
+                      "companyLink": "",
+                      "companyLogo": "",
+                      "companyName": "",
+                      "fixed": false,
+                      "leftItems": Array [],
+                      "rightItems": Array [],
+                      "transparent": false,
+                    }
+                  }
                 />,
               },
               "expirationTime": 0,
@@ -224,13 +328,29 @@ ReactWrapper {
             "props": Object {
               "Component": [Function],
               "context": null,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "refs": Object {},
             "state": Object {
               "context": null,
               "mount": true,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "updater": Object {
               "enqueueForceUpdate": [Function],
@@ -256,7 +376,205 @@ ReactWrapper {
           "actualDuration": 0,
           "actualStartTime": 0,
           "alternate": null,
-          "child": null,
+          "child": FiberNode {
+            "_debugID": 7,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": 0,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 9,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": 0,
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "className": "fa fa-bars",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "className": "fa fa-bars",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseTime": 0,
+              "sibling": null,
+              "stateNode": <i
+                class="fa fa-bars"
+              />,
+              "tag": 5,
+              "treeBaseTime": 0,
+              "type": "i",
+              "updateQueue": null,
+            },
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "aria-label": "Toggle navigation",
+              "children": <i
+                className="fa fa-bars"
+              />,
+              "className": "navbar-toggler mr-3 Header__Toggler",
+              "data-toggle": "collapse",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "aria-label": "Toggle navigation",
+              "children": <i
+                className="fa fa-bars"
+              />,
+              "className": "navbar-toggler mr-3 Header__Toggler",
+              "data-toggle": "collapse",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseTime": 0,
+            "sibling": FiberNode {
+              "_debugID": 8,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": 0,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 10,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": 0,
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": "",
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": "",
+                "ref": null,
+                "return": [Circular],
+                "selfBaseTime": 0,
+                "sibling": FiberNode {
+                  "_debugID": 11,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": 0,
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": "",
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": "",
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseTime": 0,
+                  "sibling": null,
+                  "stateNode": ,
+                  "tag": 6,
+                  "treeBaseTime": 0,
+                  "type": null,
+                  "updateQueue": null,
+                },
+                "stateNode": ,
+                "tag": 6,
+                "treeBaseTime": 0,
+                "type": null,
+                "updateQueue": null,
+              },
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  "",
+                  "",
+                ],
+                "className": "navbar-brand mr-auto Header__Brand d-flex align-items-center",
+                "href": "",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  "",
+                  "",
+                ],
+                "className": "navbar-brand mr-auto Header__Brand d-flex align-items-center",
+                "href": "",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseTime": 0,
+              "sibling": null,
+              "stateNode": <a
+                class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                href=""
+              >
+                
+                
+              </a>,
+              "tag": 5,
+              "treeBaseTime": 0,
+              "type": "a",
+              "updateQueue": null,
+            },
+            "stateNode": <button
+              aria-label="Toggle navigation"
+              class="navbar-toggler mr-3 Header__Toggler"
+              data-toggle="collapse"
+              type="button"
+            >
+              <i
+                class="fa fa-bars"
+              />
+            </button>,
+            "tag": 5,
+            "treeBaseTime": 0,
+            "type": "button",
+            "updateQueue": null,
+          },
           "effectTag": 0,
           "expirationTime": 0,
           "firstEffect": null,
@@ -264,28 +582,86 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": "Hello Header",
-            "className": "Header",
+            "children": Array [
+              <button
+                aria-label="Toggle navigation"
+                className="navbar-toggler mr-3 Header__Toggler"
+                data-toggle="collapse"
+                onClick={[Function]}
+                type="button"
+              >
+                <i
+                  className="fa fa-bars"
+                />
+              </button>,
+              <a
+                className="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                href=""
+              >
+                
+                
+              </a>,
+              false,
+              false,
+            ],
+            "className": "navbar navbar-expand-lg Header",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": "Hello Header",
-            "className": "Header",
+            "children": Array [
+              <button
+                aria-label="Toggle navigation"
+                className="navbar-toggler mr-3 Header__Toggler"
+                data-toggle="collapse"
+                onClick={[Function]}
+                type="button"
+              >
+                <i
+                  className="fa fa-bars"
+                />
+              </button>,
+              <a
+                className="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                href=""
+              >
+                
+                
+              </a>,
+              false,
+              false,
+            ],
+            "className": "navbar navbar-expand-lg Header",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
-          "stateNode": <div
-            class="Header"
+          "stateNode": <nav
+            class="navbar navbar-expand-lg Header"
           >
-            Hello Header
-          </div>,
+            <button
+              aria-label="Toggle navigation"
+              class="navbar-toggler mr-3 Header__Toggler"
+              data-toggle="collapse"
+              type="button"
+            >
+              <i
+                class="fa fa-bars"
+              />
+            </button>
+            <a
+              class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+              href=""
+            >
+              
+              
+            </a>
+          </nav>,
           "tag": 5,
           "treeBaseTime": 0,
-          "type": "div",
+          "type": "nav",
           "updateQueue": null,
         },
         "effectTag": 1,
@@ -294,11 +670,29 @@ ReactWrapper {
         "index": 0,
         "key": null,
         "lastEffect": null,
-        "memoizedProps": Object {},
-        "memoizedState": null,
+        "memoizedProps": Object {
+          "companyLink": "",
+          "companyLogo": "",
+          "companyName": "",
+          "fixed": false,
+          "leftItems": Array [],
+          "rightItems": Array [],
+          "transparent": false,
+        },
+        "memoizedState": Object {
+          "collapse": false,
+        },
         "mode": 0,
         "nextEffect": null,
-        "pendingProps": Object {},
+        "pendingProps": Object {
+          "companyLink": "",
+          "companyLogo": "",
+          "companyName": "",
+          "fixed": false,
+          "leftItems": Array [],
+          "rightItems": Array [],
+          "transparent": false,
+        },
         "ref": null,
         "return": FiberNode {
           "_debugID": 4,
@@ -318,19 +712,43 @@ ReactWrapper {
           "memoizedProps": Object {
             "Component": [Function],
             "context": null,
-            "props": Object {},
+            "props": Object {
+              "companyLink": "",
+              "companyLogo": "",
+              "companyName": "",
+              "fixed": false,
+              "leftItems": Array [],
+              "rightItems": Array [],
+              "transparent": false,
+            },
           },
           "memoizedState": Object {
             "context": null,
             "mount": true,
-            "props": Object {},
+            "props": Object {
+              "companyLink": "",
+              "companyLogo": "",
+              "companyName": "",
+              "fixed": false,
+              "leftItems": Array [],
+              "rightItems": Array [],
+              "transparent": false,
+            },
           },
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "Component": [Function],
             "context": null,
-            "props": Object {},
+            "props": Object {
+              "companyLink": "",
+              "companyLogo": "",
+              "companyName": "",
+              "fixed": false,
+              "leftItems": Array [],
+              "rightItems": Array [],
+              "transparent": false,
+            },
           },
           "ref": null,
           "return": FiberNode {
@@ -366,11 +784,27 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                    class="Header"
+                  <nav
+                    class="navbar navbar-expand-lg Header"
                   >
-                    Hello Header
-                  </div>
+                    <button
+                      aria-label="Toggle navigation"
+                      class="navbar-toggler mr-3 Header__Toggler"
+                      data-toggle="collapse"
+                      type="button"
+                    >
+                      <i
+                        class="fa fa-bars"
+                      />
+                    </button>
+                    <a
+                      class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                      href=""
+                    >
+                      
+                      
+                    </a>
+                  </nav>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -406,7 +840,17 @@ ReactWrapper {
                     "element": <WrapperComponent
                       Component={[Function]}
                       context={null}
-                      props={Object {}}
+                      props={
+                        Object {
+                          "companyLink": "",
+                          "companyLogo": "",
+                          "companyName": "",
+                          "fixed": false,
+                          "leftItems": Array [],
+                          "rightItems": Array [],
+                          "transparent": false,
+                        }
+                      }
                     />,
                   },
                   "tag": 0,
@@ -423,7 +867,17 @@ ReactWrapper {
                     "element": <WrapperComponent
                       Component={[Function]}
                       context={null}
-                      props={Object {}}
+                      props={
+                        Object {
+                          "companyLink": "",
+                          "companyLogo": "",
+                          "companyName": "",
+                          "fixed": false,
+                          "leftItems": Array [],
+                          "rightItems": Array [],
+                          "transparent": false,
+                        }
+                      }
                     />,
                   },
                   "tag": 0,
@@ -442,7 +896,17 @@ ReactWrapper {
               "element": <WrapperComponent
                 Component={[Function]}
                 context={null}
-                props={Object {}}
+                props={
+                  Object {
+                    "companyLink": "",
+                    "companyLogo": "",
+                    "companyName": "",
+                    "fixed": false,
+                    "leftItems": Array [],
+                    "rightItems": Array [],
+                    "transparent": false,
+                  }
+                }
               />,
             },
             "mode": 0,
@@ -454,11 +918,27 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <div
-                  class="Header"
+                <nav
+                  class="navbar navbar-expand-lg Header"
                 >
-                  Hello Header
-                </div>
+                  <button
+                    aria-label="Toggle navigation"
+                    class="navbar-toggler mr-3 Header__Toggler"
+                    data-toggle="collapse"
+                    type="button"
+                  >
+                    <i
+                      class="fa fa-bars"
+                    />
+                  </button>
+                  <a
+                    class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                    href=""
+                  >
+                    
+                    
+                  </a>
+                </nav>
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -484,7 +964,17 @@ ReactWrapper {
                 "element": <WrapperComponent
                   Component={[Function]}
                   context={null}
-                  props={Object {}}
+                  props={
+                    Object {
+                      "companyLink": "",
+                      "companyLogo": "",
+                      "companyName": "",
+                      "fixed": false,
+                      "leftItems": Array [],
+                      "rightItems": Array [],
+                      "transparent": false,
+                    }
+                  }
                 />,
               },
               "expirationTime": 0,
@@ -507,13 +997,29 @@ ReactWrapper {
             "props": Object {
               "Component": [Function],
               "context": null,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "refs": Object {},
             "state": Object {
               "context": null,
               "mount": true,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "updater": Object {
               "enqueueForceUpdate": [Function],
@@ -533,13 +1039,37 @@ ReactWrapper {
         "tag": 2,
         "treeBaseTime": 0,
         "type": [Function],
-        "updateQueue": null,
+        "updateQueue": Object {
+          "baseState": Object {
+            "collapse": false,
+          },
+          "expirationTime": 0,
+          "firstCapturedEffect": null,
+          "firstCapturedUpdate": null,
+          "firstEffect": null,
+          "firstUpdate": null,
+          "lastCapturedEffect": null,
+          "lastCapturedUpdate": null,
+          "lastEffect": null,
+          "lastUpdate": null,
+        },
       },
       "_reactInternalInstance": Object {},
+      "collapse": [Function],
       "context": Object {},
-      "props": Object {},
+      "props": Object {
+        "companyLink": "",
+        "companyLogo": "",
+        "companyName": "",
+        "fixed": false,
+        "leftItems": Array [],
+        "rightItems": Array [],
+        "transparent": false,
+      },
       "refs": Object {},
-      "state": null,
+      "state": Object {
+        "collapse": false,
+      },
       "updater": Object {
         "enqueueForceUpdate": [Function],
         "enqueueReplaceState": [Function],
@@ -549,25 +1079,137 @@ ReactWrapper {
     },
     "key": undefined,
     "nodeType": "class",
-    "props": Object {},
+    "props": Object {
+      "companyLink": "",
+      "companyLogo": "",
+      "companyName": "",
+      "fixed": false,
+      "leftItems": Array [],
+      "rightItems": Array [],
+      "transparent": false,
+    },
     "ref": null,
     "rendered": Object {
-      "instance": <div
-        class="Header"
+      "instance": <nav
+        class="navbar navbar-expand-lg Header"
       >
-        Hello Header
-      </div>,
+        <button
+          aria-label="Toggle navigation"
+          class="navbar-toggler mr-3 Header__Toggler"
+          data-toggle="collapse"
+          type="button"
+        >
+          <i
+            class="fa fa-bars"
+          />
+        </button>
+        <a
+          class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+          href=""
+        >
+          
+          
+        </a>
+      </nav>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": "Hello Header",
-        "className": "Header",
+        "children": Array [
+          <button
+            aria-label="Toggle navigation"
+            className="navbar-toggler mr-3 Header__Toggler"
+            data-toggle="collapse"
+            onClick={[Function]}
+            type="button"
+          >
+            <i
+              className="fa fa-bars"
+            />
+          </button>,
+          <a
+            className="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+            href=""
+          >
+            
+            
+          </a>,
+          false,
+          false,
+        ],
+        "className": "navbar navbar-expand-lg Header",
       },
       "ref": null,
       "rendered": Array [
-        "Hello Header",
+        Object {
+          "instance": <button
+            aria-label="Toggle navigation"
+            class="navbar-toggler mr-3 Header__Toggler"
+            data-toggle="collapse"
+            type="button"
+          >
+            <i
+              class="fa fa-bars"
+            />
+          </button>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "aria-label": "Toggle navigation",
+            "children": <i
+              className="fa fa-bars"
+            />,
+            "className": "navbar-toggler mr-3 Header__Toggler",
+            "data-toggle": "collapse",
+            "onClick": [Function],
+            "type": "button",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": <i
+                class="fa fa-bars"
+              />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "fa fa-bars",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "i",
+            },
+          ],
+          "type": "button",
+        },
+        Object {
+          "instance": <a
+            class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+            href=""
+          >
+            
+            
+          </a>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              "",
+            ],
+            "className": "navbar-brand mr-auto Header__Brand d-flex align-items-center",
+            "href": "",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            "",
+          ],
+          "type": "a",
+        },
       ],
-      "type": "div",
+      "type": "nav",
     },
     "type": [Function],
   },
@@ -595,19 +1237,43 @@ ReactWrapper {
             "memoizedProps": Object {
               "Component": [Function],
               "context": null,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "memoizedState": Object {
               "context": null,
               "mount": true,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "Component": [Function],
               "context": null,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "ref": null,
             "return": FiberNode {
@@ -643,11 +1309,27 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <div
-                      class="Header"
+                    <nav
+                      class="navbar navbar-expand-lg Header"
                     >
-                      Hello Header
-                    </div>
+                      <button
+                        aria-label="Toggle navigation"
+                        class="navbar-toggler mr-3 Header__Toggler"
+                        data-toggle="collapse"
+                        type="button"
+                      >
+                        <i
+                          class="fa fa-bars"
+                        />
+                      </button>
+                      <a
+                        class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                        href=""
+                      >
+                        
+                        
+                      </a>
+                    </nav>
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -683,7 +1365,17 @@ ReactWrapper {
                       "element": <WrapperComponent
                         Component={[Function]}
                         context={null}
-                        props={Object {}}
+                        props={
+                          Object {
+                            "companyLink": "",
+                            "companyLogo": "",
+                            "companyName": "",
+                            "fixed": false,
+                            "leftItems": Array [],
+                            "rightItems": Array [],
+                            "transparent": false,
+                          }
+                        }
                       />,
                     },
                     "tag": 0,
@@ -700,7 +1392,17 @@ ReactWrapper {
                       "element": <WrapperComponent
                         Component={[Function]}
                         context={null}
-                        props={Object {}}
+                        props={
+                          Object {
+                            "companyLink": "",
+                            "companyLogo": "",
+                            "companyName": "",
+                            "fixed": false,
+                            "leftItems": Array [],
+                            "rightItems": Array [],
+                            "transparent": false,
+                          }
+                        }
                       />,
                     },
                     "tag": 0,
@@ -719,7 +1421,17 @@ ReactWrapper {
                 "element": <WrapperComponent
                   Component={[Function]}
                   context={null}
-                  props={Object {}}
+                  props={
+                    Object {
+                      "companyLink": "",
+                      "companyLogo": "",
+                      "companyName": "",
+                      "fixed": false,
+                      "leftItems": Array [],
+                      "rightItems": Array [],
+                      "transparent": false,
+                    }
+                  }
                 />,
               },
               "mode": 0,
@@ -731,11 +1443,27 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                    class="Header"
+                  <nav
+                    class="navbar navbar-expand-lg Header"
                   >
-                    Hello Header
-                  </div>
+                    <button
+                      aria-label="Toggle navigation"
+                      class="navbar-toggler mr-3 Header__Toggler"
+                      data-toggle="collapse"
+                      type="button"
+                    >
+                      <i
+                        class="fa fa-bars"
+                      />
+                    </button>
+                    <a
+                      class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                      href=""
+                    >
+                      
+                      
+                    </a>
+                  </nav>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -761,7 +1489,17 @@ ReactWrapper {
                   "element": <WrapperComponent
                     Component={[Function]}
                     context={null}
-                    props={Object {}}
+                    props={
+                      Object {
+                        "companyLink": "",
+                        "companyLogo": "",
+                        "companyName": "",
+                        "fixed": false,
+                        "leftItems": Array [],
+                        "rightItems": Array [],
+                        "transparent": false,
+                      }
+                    }
                   />,
                 },
                 "expirationTime": 0,
@@ -784,13 +1522,29 @@ ReactWrapper {
               "props": Object {
                 "Component": [Function],
                 "context": null,
-                "props": Object {},
+                "props": Object {
+                  "companyLink": "",
+                  "companyLogo": "",
+                  "companyName": "",
+                  "fixed": false,
+                  "leftItems": Array [],
+                  "rightItems": Array [],
+                  "transparent": false,
+                },
               },
               "refs": Object {},
               "state": Object {
                 "context": null,
                 "mount": true,
-                "props": Object {},
+                "props": Object {
+                  "companyLink": "",
+                  "companyLogo": "",
+                  "companyName": "",
+                  "fixed": false,
+                  "leftItems": Array [],
+                  "rightItems": Array [],
+                  "transparent": false,
+                },
               },
               "updater": Object {
                 "enqueueForceUpdate": [Function],
@@ -816,7 +1570,205 @@ ReactWrapper {
             "actualDuration": 0,
             "actualStartTime": 0,
             "alternate": null,
-            "child": null,
+            "child": FiberNode {
+              "_debugID": 7,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": 0,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 9,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": 0,
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "className": "fa fa-bars",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "className": "fa fa-bars",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseTime": 0,
+                "sibling": null,
+                "stateNode": <i
+                  class="fa fa-bars"
+                />,
+                "tag": 5,
+                "treeBaseTime": 0,
+                "type": "i",
+                "updateQueue": null,
+              },
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "aria-label": "Toggle navigation",
+                "children": <i
+                  className="fa fa-bars"
+                />,
+                "className": "navbar-toggler mr-3 Header__Toggler",
+                "data-toggle": "collapse",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "aria-label": "Toggle navigation",
+                "children": <i
+                  className="fa fa-bars"
+                />,
+                "className": "navbar-toggler mr-3 Header__Toggler",
+                "data-toggle": "collapse",
+                "onClick": [Function],
+                "type": "button",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseTime": 0,
+              "sibling": FiberNode {
+                "_debugID": 8,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": 0,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 10,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": 0,
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": "",
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": "",
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseTime": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 11,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": 0,
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "",
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseTime": 0,
+                    "sibling": null,
+                    "stateNode": ,
+                    "tag": 6,
+                    "treeBaseTime": 0,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "stateNode": ,
+                  "tag": 6,
+                  "treeBaseTime": 0,
+                  "type": null,
+                  "updateQueue": null,
+                },
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    "",
+                    "",
+                  ],
+                  "className": "navbar-brand mr-auto Header__Brand d-flex align-items-center",
+                  "href": "",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    "",
+                    "",
+                  ],
+                  "className": "navbar-brand mr-auto Header__Brand d-flex align-items-center",
+                  "href": "",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseTime": 0,
+                "sibling": null,
+                "stateNode": <a
+                  class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                  href=""
+                >
+                  
+                  
+                </a>,
+                "tag": 5,
+                "treeBaseTime": 0,
+                "type": "a",
+                "updateQueue": null,
+              },
+              "stateNode": <button
+                aria-label="Toggle navigation"
+                class="navbar-toggler mr-3 Header__Toggler"
+                data-toggle="collapse"
+                type="button"
+              >
+                <i
+                  class="fa fa-bars"
+                />
+              </button>,
+              "tag": 5,
+              "treeBaseTime": 0,
+              "type": "button",
+              "updateQueue": null,
+            },
             "effectTag": 0,
             "expirationTime": 0,
             "firstEffect": null,
@@ -824,28 +1776,86 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": "Hello Header",
-              "className": "Header",
+              "children": Array [
+                <button
+                  aria-label="Toggle navigation"
+                  className="navbar-toggler mr-3 Header__Toggler"
+                  data-toggle="collapse"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <i
+                    className="fa fa-bars"
+                  />
+                </button>,
+                <a
+                  className="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                  href=""
+                >
+                  
+                  
+                </a>,
+                false,
+                false,
+              ],
+              "className": "navbar navbar-expand-lg Header",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": "Hello Header",
-              "className": "Header",
+              "children": Array [
+                <button
+                  aria-label="Toggle navigation"
+                  className="navbar-toggler mr-3 Header__Toggler"
+                  data-toggle="collapse"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <i
+                    className="fa fa-bars"
+                  />
+                </button>,
+                <a
+                  className="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                  href=""
+                >
+                  
+                  
+                </a>,
+                false,
+                false,
+              ],
+              "className": "navbar navbar-expand-lg Header",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
-            "stateNode": <div
-              class="Header"
+            "stateNode": <nav
+              class="navbar navbar-expand-lg Header"
             >
-              Hello Header
-            </div>,
+              <button
+                aria-label="Toggle navigation"
+                class="navbar-toggler mr-3 Header__Toggler"
+                data-toggle="collapse"
+                type="button"
+              >
+                <i
+                  class="fa fa-bars"
+                />
+              </button>
+              <a
+                class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                href=""
+              >
+                
+                
+              </a>
+            </nav>,
             "tag": 5,
             "treeBaseTime": 0,
-            "type": "div",
+            "type": "nav",
             "updateQueue": null,
           },
           "effectTag": 1,
@@ -854,11 +1864,29 @@ ReactWrapper {
           "index": 0,
           "key": null,
           "lastEffect": null,
-          "memoizedProps": Object {},
-          "memoizedState": null,
+          "memoizedProps": Object {
+            "companyLink": "",
+            "companyLogo": "",
+            "companyName": "",
+            "fixed": false,
+            "leftItems": Array [],
+            "rightItems": Array [],
+            "transparent": false,
+          },
+          "memoizedState": Object {
+            "collapse": false,
+          },
           "mode": 0,
           "nextEffect": null,
-          "pendingProps": Object {},
+          "pendingProps": Object {
+            "companyLink": "",
+            "companyLogo": "",
+            "companyName": "",
+            "fixed": false,
+            "leftItems": Array [],
+            "rightItems": Array [],
+            "transparent": false,
+          },
           "ref": null,
           "return": FiberNode {
             "_debugID": 4,
@@ -878,19 +1906,43 @@ ReactWrapper {
             "memoizedProps": Object {
               "Component": [Function],
               "context": null,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "memoizedState": Object {
               "context": null,
               "mount": true,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "Component": [Function],
               "context": null,
-              "props": Object {},
+              "props": Object {
+                "companyLink": "",
+                "companyLogo": "",
+                "companyName": "",
+                "fixed": false,
+                "leftItems": Array [],
+                "rightItems": Array [],
+                "transparent": false,
+              },
             },
             "ref": null,
             "return": FiberNode {
@@ -926,11 +1978,27 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <div
-                      class="Header"
+                    <nav
+                      class="navbar navbar-expand-lg Header"
                     >
-                      Hello Header
-                    </div>
+                      <button
+                        aria-label="Toggle navigation"
+                        class="navbar-toggler mr-3 Header__Toggler"
+                        data-toggle="collapse"
+                        type="button"
+                      >
+                        <i
+                          class="fa fa-bars"
+                        />
+                      </button>
+                      <a
+                        class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                        href=""
+                      >
+                        
+                        
+                      </a>
+                    </nav>
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -966,7 +2034,17 @@ ReactWrapper {
                       "element": <WrapperComponent
                         Component={[Function]}
                         context={null}
-                        props={Object {}}
+                        props={
+                          Object {
+                            "companyLink": "",
+                            "companyLogo": "",
+                            "companyName": "",
+                            "fixed": false,
+                            "leftItems": Array [],
+                            "rightItems": Array [],
+                            "transparent": false,
+                          }
+                        }
                       />,
                     },
                     "tag": 0,
@@ -983,7 +2061,17 @@ ReactWrapper {
                       "element": <WrapperComponent
                         Component={[Function]}
                         context={null}
-                        props={Object {}}
+                        props={
+                          Object {
+                            "companyLink": "",
+                            "companyLogo": "",
+                            "companyName": "",
+                            "fixed": false,
+                            "leftItems": Array [],
+                            "rightItems": Array [],
+                            "transparent": false,
+                          }
+                        }
                       />,
                     },
                     "tag": 0,
@@ -1002,7 +2090,17 @@ ReactWrapper {
                 "element": <WrapperComponent
                   Component={[Function]}
                   context={null}
-                  props={Object {}}
+                  props={
+                    Object {
+                      "companyLink": "",
+                      "companyLogo": "",
+                      "companyName": "",
+                      "fixed": false,
+                      "leftItems": Array [],
+                      "rightItems": Array [],
+                      "transparent": false,
+                    }
+                  }
                 />,
               },
               "mode": 0,
@@ -1014,11 +2112,27 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                    class="Header"
+                  <nav
+                    class="navbar navbar-expand-lg Header"
                   >
-                    Hello Header
-                  </div>
+                    <button
+                      aria-label="Toggle navigation"
+                      class="navbar-toggler mr-3 Header__Toggler"
+                      data-toggle="collapse"
+                      type="button"
+                    >
+                      <i
+                        class="fa fa-bars"
+                      />
+                    </button>
+                    <a
+                      class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+                      href=""
+                    >
+                      
+                      
+                    </a>
+                  </nav>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1044,7 +2158,17 @@ ReactWrapper {
                   "element": <WrapperComponent
                     Component={[Function]}
                     context={null}
-                    props={Object {}}
+                    props={
+                      Object {
+                        "companyLink": "",
+                        "companyLogo": "",
+                        "companyName": "",
+                        "fixed": false,
+                        "leftItems": Array [],
+                        "rightItems": Array [],
+                        "transparent": false,
+                      }
+                    }
                   />,
                 },
                 "expirationTime": 0,
@@ -1067,13 +2191,29 @@ ReactWrapper {
               "props": Object {
                 "Component": [Function],
                 "context": null,
-                "props": Object {},
+                "props": Object {
+                  "companyLink": "",
+                  "companyLogo": "",
+                  "companyName": "",
+                  "fixed": false,
+                  "leftItems": Array [],
+                  "rightItems": Array [],
+                  "transparent": false,
+                },
               },
               "refs": Object {},
               "state": Object {
                 "context": null,
                 "mount": true,
-                "props": Object {},
+                "props": Object {
+                  "companyLink": "",
+                  "companyLogo": "",
+                  "companyName": "",
+                  "fixed": false,
+                  "leftItems": Array [],
+                  "rightItems": Array [],
+                  "transparent": false,
+                },
               },
               "updater": Object {
                 "enqueueForceUpdate": [Function],
@@ -1093,13 +2233,37 @@ ReactWrapper {
           "tag": 2,
           "treeBaseTime": 0,
           "type": [Function],
-          "updateQueue": null,
+          "updateQueue": Object {
+            "baseState": Object {
+              "collapse": false,
+            },
+            "expirationTime": 0,
+            "firstCapturedEffect": null,
+            "firstCapturedUpdate": null,
+            "firstEffect": null,
+            "firstUpdate": null,
+            "lastCapturedEffect": null,
+            "lastCapturedUpdate": null,
+            "lastEffect": null,
+            "lastUpdate": null,
+          },
         },
         "_reactInternalInstance": Object {},
+        "collapse": [Function],
         "context": Object {},
-        "props": Object {},
+        "props": Object {
+          "companyLink": "",
+          "companyLogo": "",
+          "companyName": "",
+          "fixed": false,
+          "leftItems": Array [],
+          "rightItems": Array [],
+          "transparent": false,
+        },
         "refs": Object {},
-        "state": null,
+        "state": Object {
+          "collapse": false,
+        },
         "updater": Object {
           "enqueueForceUpdate": [Function],
           "enqueueReplaceState": [Function],
@@ -1109,25 +2273,137 @@ ReactWrapper {
       },
       "key": undefined,
       "nodeType": "class",
-      "props": Object {},
+      "props": Object {
+        "companyLink": "",
+        "companyLogo": "",
+        "companyName": "",
+        "fixed": false,
+        "leftItems": Array [],
+        "rightItems": Array [],
+        "transparent": false,
+      },
       "ref": null,
       "rendered": Object {
-        "instance": <div
-          class="Header"
+        "instance": <nav
+          class="navbar navbar-expand-lg Header"
         >
-          Hello Header
-        </div>,
+          <button
+            aria-label="Toggle navigation"
+            class="navbar-toggler mr-3 Header__Toggler"
+            data-toggle="collapse"
+            type="button"
+          >
+            <i
+              class="fa fa-bars"
+            />
+          </button>
+          <a
+            class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+            href=""
+          >
+            
+            
+          </a>
+        </nav>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": "Hello Header",
-          "className": "Header",
+          "children": Array [
+            <button
+              aria-label="Toggle navigation"
+              className="navbar-toggler mr-3 Header__Toggler"
+              data-toggle="collapse"
+              onClick={[Function]}
+              type="button"
+            >
+              <i
+                className="fa fa-bars"
+              />
+            </button>,
+            <a
+              className="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+              href=""
+            >
+              
+              
+            </a>,
+            false,
+            false,
+          ],
+          "className": "navbar navbar-expand-lg Header",
         },
         "ref": null,
         "rendered": Array [
-          "Hello Header",
+          Object {
+            "instance": <button
+              aria-label="Toggle navigation"
+              class="navbar-toggler mr-3 Header__Toggler"
+              data-toggle="collapse"
+              type="button"
+            >
+              <i
+                class="fa fa-bars"
+              />
+            </button>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "aria-label": "Toggle navigation",
+              "children": <i
+                className="fa fa-bars"
+              />,
+              "className": "navbar-toggler mr-3 Header__Toggler",
+              "data-toggle": "collapse",
+              "onClick": [Function],
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": <i
+                  class="fa fa-bars"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "fa fa-bars",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "i",
+              },
+            ],
+            "type": "button",
+          },
+          Object {
+            "instance": <a
+              class="navbar-brand mr-auto Header__Brand d-flex align-items-center"
+              href=""
+            >
+              
+              
+            </a>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                "",
+                "",
+              ],
+              "className": "navbar-brand mr-auto Header__Brand d-flex align-items-center",
+              "href": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              "",
+              "",
+            ],
+            "type": "a",
+          },
         ],
-        "type": "div",
+        "type": "nav",
       },
       "type": [Function],
     },

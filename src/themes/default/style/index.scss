@@ -1,4 +1,5 @@
 /*Bootstarp*/
+
 @import '~bootstrap/dist/css/bootstrap.css';
 
 /*Font-awesome*/
@@ -14,3 +15,6 @@
 @import "custom";
 
 /*Components*/
+
+@import '../../../components/GithubDetail/style.scss';
+@import '../../../components/Code/style.scss';

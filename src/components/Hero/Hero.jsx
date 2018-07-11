@@ -48,12 +48,12 @@ class Hero extends Component {
 			          color={overlayColor}
 			          parallaxOffset={parallaxOffset}
 			          minHeight={minHeight}>
-				<div className="Hero__Particles">
-					{
-						particles &&
+				{
+					particles &&
+					<div className="Hero__Particles">
 						<Particles params={particlesParams}/>
-					}
-				</div>
+					</div>
+				}
 				<div className="Hero__Container d-flex align-content-center">
 					<div className="container">
 						{

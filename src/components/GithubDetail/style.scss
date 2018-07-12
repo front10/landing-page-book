@@ -4,8 +4,8 @@
     border-radius: .4em;
     padding: 6px;
     margin-left: 11px;
-    margin-right: 28px;
     border: 1px solid #DCDCDC;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 
 .speech-bubble:after {
@@ -24,4 +24,10 @@
 
 .buttonText {
     margin-left: 5px;
+}
+
+.GithubDetail_btn {}
+
+.GithubDetail_btn_container {
+    padding: 5px;
 }

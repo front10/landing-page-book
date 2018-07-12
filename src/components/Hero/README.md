@@ -15,6 +15,27 @@ import {Hero} from '@front10/landing-page-book/src/components';
 ```html
 <Hero />
 ```
+You can use Hero component with children too:
+```html
+<Hero>
+    <div className="container">
+        <img className="w-75"
+             src="http://www.pngpix.com/wp-content/uploads/2016/06/PNGPIX-COM-Aston-Martin-White-Car-PNG-Image.png"/>
+        <h1 className="display-3 text-white">GET YOUR CAR</h1>
+        <div>
+            <button className="btn btn-success btn-lg">
+                Go now
+            </button>
+        </div>
+        <div className="btn-group mt-4" role="group" aria-label="Basic example">
+            <button className="btn btn-secondary"><i className="fa fa-facebook"></i></button>
+            <button className="btn btn-secondary"><i className="fa fa-instagram"></i></button>
+            <button className="btn btn-secondary"><i className="fa fa-google-plus"></i></button>
+        </div>
+    </div>
+</Hero>
+```
+Note: if you use Hero component with children, properties `buttons`, `header`, `subHeader` and `subHeaderPosition` will not work
 
 ## Properties:
 

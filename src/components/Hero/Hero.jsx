@@ -38,7 +38,8 @@ class Hero extends Component {
 			minHeight,
 			subHeaderPosition,
 			particles,
-			particlesParams
+			particlesParams,
+			children
 		} = this.props;
 		return <div className="Hero">
 			<LazyHero isFixed={isFixed}
@@ -55,22 +56,26 @@ class Hero extends Component {
 					</div>
 				}
 				<div className="Hero__Container d-flex align-content-center">
-					<div className="container">
-						{
-							subHeader && subHeaderPosition === "top" &&
-							<h1 className="Hero__SubHeader mb-5">{subHeader}</h1>
-						}
-						{
-							header &&
-							<h1 className="Hero__Header mb-5">{header}</h1>
-						}
-						{
-							subHeader && subHeaderPosition !== "top" &&
-							<h1 className="Hero__SubHeader mb-5">{subHeader}</h1>
-						}
-						{this.rendersButtons()}
+					{
+						!children &&
+						<div className="container">
+							{
+								subHeader && subHeaderPosition === "top" &&
+								<h1 className="Hero__SubHeader mb-5">{subHeader}</h1>
+							}
+							{
+								header &&
+								<h1 className="Hero__Header mb-5">{header}</h1>
+							}
+							{
+								subHeader && subHeaderPosition !== "top" &&
+								<h1 className="Hero__SubHeader mb-5">{subHeader}</h1>
+							}
+							{this.rendersButtons()}
 
-					</div>
+						</div>
+					}
+					{children}
 				</div>
 			</LazyHero>
 		</div>

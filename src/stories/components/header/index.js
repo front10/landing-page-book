@@ -24,29 +24,67 @@ const leftItems = [{
 }];
 
 const rightItems = [{
-	title: "Our Services"
+	title: "Services"
 }, {
 	title: "What we do"
 }, {
-	title: "The Process"
+	title: "Process"
 }, {
 	title: "Founders"
 }, {
 	title: "Contact"
 }];
 
+const onItemClick = ({item}) => {
+	alert(`Item ${JSON.stringify(item)} has clicked`);
+};
+
+
 stories.add('Header', withReadme([Readme], () => {
 	return (
 		<ThemeSelector>
+			<h4>Scrip mode</h4>
+			<div className="dropdown-divider"/>
 			<Header
 				transparent={boolean("Transparent", false)}
 				fixed={boolean("Fixed", false)}
 				companyName={text("Company name", "Front10")}
 				companyLink={text("Company link", "https://front10.com")}
 				companyLogo={text("Company logo", "images/logo/front10.png")}
+				expand={text("Expand", "md")}
 				rightItems={rightItems}
 				leftItems={leftItems}
+				onItemClick={onItemClick}
+				className="mb-2"
 			/>
+			<h4 className="mt-5">With children elements</h4>
+			<div className="dropdown-divider"/>
+			<Header
+				transparent={boolean("Transparent", false)}
+				fixed={boolean("Fixed", false)}
+				companyName={text("Company name", "Front10")}
+				companyLink={text("Company link", "https://front10.com")}
+				companyLogo={text("Company logo", "images/logo/front10.png")}
+				expand={text("Expand", "md")}>
+				<ul className="navbar-nav mr-auto">
+					<li className="nav-item active">
+						<a className="nav-link text-light" href="#">
+							<i className="fa fa-google mr-1"/>
+							Google
+						</a>
+					</li>
+					<li className="nav-item">
+						<a className="nav-link text-light" href="#">
+							<i className="fa fa-facebook-official mr-1"/>
+							Facebook
+						</a>
+					</li>
+				</ul>
+				<form className="form-inline mt-2 mt-md-0">
+					<input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>
+					<button className="btn btn-outline-warning my-2 my-sm-0" type="submit">Search</button>
+				</form>
+			</Header>
 		</ThemeSelector>
 	);
 }));

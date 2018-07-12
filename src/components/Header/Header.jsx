@@ -22,7 +22,8 @@ class Header extends Component {
 			return <li className="nav-item" key={index}>
 				<a className="nav-link Header__Link"
 				   href={item.href}
-				   target={item.target}>
+				   target={item.target}
+				   onClick={() => this.props.onItemClick({item})}>
 					<i className={`${item.icon} mr-1`}></i>
 					{item.title}
 				</a>
@@ -35,7 +36,8 @@ class Header extends Component {
 			return <li className="nav-item" key={index}>
 				<a className="nav-link Header__Link"
 				   href={item.href}
-				   target={item.target}>
+				   target={item.target}
+				   onClick={() => this.props.onItemClick({item})}>
 					<i className={`${item.icon} mr-1`}></i>
 					{item.title}
 				</a>
@@ -52,16 +54,19 @@ class Header extends Component {
 			rightItems,
 			companyLogo,
 			transparent,
-			fixed
+			fixed,
+			className,
+			expand,
+			children
 		} = this.props;
 
-		let className = "navbar navbar-expand-lg Header";
-		if(transparent)
-			className += ` Header--transparent`;
-		if(fixed)
-			className += ` fixed-top`;
+		let navClassName = `${className} navbar navbar-expand-${expand} Header`;
+		if (transparent)
+			navClassName += ` Header--transparent`;
+		if (fixed)
+			navClassName += ` fixed-top`;
 
-		return <nav className={className}>
+		return <nav className={navClassName}>
 			<button className="navbar-toggler mr-3 Header__Toggler" type="button" data-toggle="collapse"
 			        aria-label="Toggle navigation"
 			        onClick={this.collapse}>
@@ -77,7 +82,7 @@ class Header extends Component {
 				{companyName}
 			</a>
 			{
-				leftItems.length > 0 &&
+				leftItems.length > 0 && !children &&
 				<div className={`${!state.collapse ? 'collapse' : ''} navbar-collapse ml-4`}>
 					<ul className="navbar-nav mr-auto">
 						{this.renderLeftItems()}
@@ -85,11 +90,17 @@ class Header extends Component {
 				</div>
 			}
 			{
-				rightItems.length > 0 &&
+				rightItems.length > 0 && !children &&
 				<div className={`${!state.collapse ? 'collapse' : ''} navbar-collapse`}>
 					<ul className="navbar-nav ml-auto">
 						{this.renderRightItems()}
 					</ul>
+				</div>
+			}
+			{
+				children &&
+				<div className={`${!state.collapse ? 'collapse' : ''} navbar-collapse ml-4`}>
+					{children}
 				</div>
 			}
 		</nav>
@@ -102,8 +113,11 @@ Header.propTypes = {
 	companyName: PropTypes.string,
 	companyLink: PropTypes.string,
 	companyLogo: PropTypes.string,
+	className: PropTypes.string,
+	expand: PropTypes.string,
 	leftItems: PropTypes.array,
 	rightItems: PropTypes.array,
+	onItemClick: PropTypes.func,
 };
 Header.defaultProps = {
 	transparent: false,
@@ -111,8 +125,13 @@ Header.defaultProps = {
 	companyName: "",
 	companyLink: "",
 	companyLogo: "",
+	className: "",
+	expand: "md",
 	leftItems: [],
 	rightItems: [],
+	onItemClick: ({item}) => {
+		console.warn(`onItemClick prop is not defined. Item ${JSON.stringify(item)}`)
+	}
 };
 
 export default Header;

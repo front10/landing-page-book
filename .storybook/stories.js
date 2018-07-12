@@ -8,6 +8,9 @@
 import '../src/stories/documentation/Introduction';
 
 //Components
+
+import '../src/stories/components/GithubDetail';
+import '../src/stories/components/Code';
 import '../src/stories/components/copyright';
 import '../src/stories/components/header';
 import '../src/stories/components/hero';

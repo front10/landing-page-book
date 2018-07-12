@@ -22,23 +22,41 @@ $primary-color: $blue1;
 /*
  *Hero
  */
+
 $Hero__Header-fontSize: 75px;
 $Hero__Header-fontStyle: normal;
 $Hero__Header-color: $white1;
 $Hero__Header-fontWeight: 700;
 $Hero__Header--phone-fontSize: 30px;
-
 $Hero__SubHeader-fontSize: 40px;
 $Hero__SubHeader-color: $white1;
 $Hero__SubHeader-fontStyle: italic;
 $Hero__SubHeader--phone-fontSize: 20px;
-
 $Hero__Button-color: $white1;
 $Hero__Button-backgroundColor: #fed136;
 
 /*
  * Header
  */
+
 $Header-backgroundColor: #383d45;
 $Header-color: $grey1;
 $Header--hover-color: #fed136;
+
+/*
+* GithubDetail
+*/
+
+$GithubDetail__countbubble-backgroundColor:#DCDCDC;
+$GithubDetail__countbubble-borderradius: .4em;
+$GithubDetail__countbubble-padding: 6px;
+$GithubDetail__countbubble-ml: 11px;
+$GithubDetail__countbubble-border: 1px solid #DCDCDC;
+$GithubDetail__countbubble-transition: color 0.15s ease-in-out,
+background-color 0.15s ease-in-out,
+border-color 0.15s ease-in-out,
+box-shadow 0.15s ease-in-out;
+$GithubDetail__countbubble_after-border: 7px solid transparent;
+$GithubDetail__countbubble_after-borderColor: transparent #DCDCDC transparent transparent;
+$GithubDetail__buttonText-ml:5px;
+$GithubDetail__btn_container-padding: 5px;

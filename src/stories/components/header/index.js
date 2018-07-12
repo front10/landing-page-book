@@ -7,7 +7,7 @@ import {ThemeSelector} from "../../../addons/ThemeSwitcher";
 import {Header} from '../../../components';
 import Readme from '../../../components/Header/README.md';
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Header', module);
 
 stories.addDecorator(withKnobs);
 
@@ -40,11 +40,9 @@ const onItemClick = ({item}) => {
 };
 
 
-stories.add('Header', withReadme([Readme], () => {
+stories.add('Default', withReadme([Readme], () => {
 	return (
 		<ThemeSelector>
-			<h4>Scrip mode</h4>
-			<div className="dropdown-divider"/>
 			<Header
 				transparent={boolean("Transparent", false)}
 				fixed={boolean("Fixed", false)}
@@ -57,8 +55,13 @@ stories.add('Header', withReadme([Readme], () => {
 				onItemClick={onItemClick}
 				className="mb-2"
 			/>
-			<h4 className="mt-5">With children elements</h4>
-			<div className="dropdown-divider"/>
+		</ThemeSelector>
+	);
+}));
+
+stories.add('Children', withReadme([Readme], () => {
+	return (
+		<ThemeSelector>
 			<Header
 				transparent={boolean("Transparent", false)}
 				fixed={boolean("Fixed", false)}

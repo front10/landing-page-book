@@ -91,7 +91,8 @@ class Social extends Component {
 			}
 			{
 				pinterest &&
-				<PinterestShareButton url={url}>
+				<PinterestShareButton url={url}
+				                      media="Share in Pinterest">
 					<PinterestIcon round={rounded}/>
 				</PinterestShareButton>
 			}

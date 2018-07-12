@@ -11327,6 +11327,9 @@ a.text-dark:hover, a.text-dark:focus {
 /*
  * Header
  */
+/*
+* GithubDetail
+*/
 /*Custom*/
 /*Components*/
 /* BASICS */
@@ -11679,7 +11682,7 @@ span.CodeMirror-selectedtext { background: none; }
 .speech-bubble {
   position: relative;
   background: #DCDCDC;
-  border-radius: .4em;
+  border-radius: 0.4em;
   padding: 6px;
   margin-left: 11px;
   border: 1px solid #DCDCDC;
@@ -11696,7 +11699,8 @@ span.CodeMirror-selectedtext { background: none; }
   border-color: transparent #DCDCDC transparent transparent;
   border-left: 0;
   margin-top: -7px;
-  margin-left: -8px; }
+  margin-left: -8px;
+  z-index: 999; }
 
 .buttonText {
   margin-left: 5px; }

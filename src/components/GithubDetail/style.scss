@@ -1,11 +1,11 @@
 .speech-bubble {
     position: relative;
-    background: #DCDCDC;
-    border-radius: .4em;
-    padding: 6px;
-    margin-left: 11px;
-    border: 1px solid #DCDCDC;
-    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    background: $GithubDetail__countbubble-backgroundColor;
+    border-radius: $GithubDetail__countbubble-borderradius;
+    padding: $GithubDetail__countbubble-padding;
+    margin-left: $GithubDetail__countbubble-ml;
+    border: $GithubDetail__countbubble-border;
+    transition: $GithubDetail__countbubble-transition;
 }
 
 .speech-bubble:after {
@@ -15,19 +15,20 @@
     top: 50%;
     width: 0;
     height: 0;
-    border: 7px solid transparent;
-    border-color: transparent #DCDCDC transparent transparent;
+    border: $GithubDetail__countbubble_after-border;
+    border-color: $GithubDetail__countbubble_after-borderColor;
     border-left: 0;
     margin-top: -7px;
     margin-left: -8px;
+    z-index: 999;
 }
 
 .buttonText {
-    margin-left: 5px;
+    margin-left: $GithubDetail__buttonText-ml;
 }
 
 .GithubDetail_btn {}
 
 .GithubDetail_btn_container {
-    padding: 5px;
+    padding: $GithubDetail__btn_container-padding;
 }

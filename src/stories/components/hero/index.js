@@ -4,7 +4,7 @@ import {withKnobs, text, number, boolean, array} from '@storybook/addon-knobs/re
 import withReadme from 'storybook-readme/with-readme';
 import {ThemeSelector} from "../../../addons/ThemeSwitcher";
 
-import {Hero} from '../../../components';
+import {Hero, Social} from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
 const stories = storiesOf('Components/Hero', module);
@@ -59,16 +59,24 @@ stories.add('Children', withReadme([Readme], () => {
 						alt="Cool car"
 						src="http://www.pngpix.com/wp-content/uploads/2016/06/PNGPIX-COM-Aston-Martin-White-Car-PNG-Image.png"/>
 					<h1 className="display-3 text-white">GET YOUR CAR</h1>
-					<div>
+					<div className="mb-5">
 						<button className="btn btn-success btn-lg">
 							Go now
 						</button>
 					</div>
-					<div className="btn-group mt-4" role="group" aria-label="Basic example">
-						<button className="btn btn-secondary"><i className="fa fa-facebook"/></button>
-						<button className="btn btn-secondary"><i className="fa fa-instagram"/></button>
-						<button className="btn btn-secondary"><i className="fa fa-google-plus"/></button>
-					</div>
+					<Social
+						whatsapp={false}
+						vk={false}
+						viber={false}
+						tumblr={false}
+						telegram={false}
+						reddit={false}
+						pinterest={false}
+						ok={false}
+						livejournal={false}
+						email={false}
+						url="https://front10.com"
+					/>
 				</div>
 			</Hero>
 		</ThemeSelector>

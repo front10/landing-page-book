@@ -5,10 +5,6 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
-/*Video*/
-
-@import "~video-react/styles/scss/video-react";
-
 /*Variables*/
 
 @import "./variables.scss";
@@ -21,3 +17,4 @@
 @import "../../../components/Copyright/style";
 @import "../../../components/Header/style";
 @import "../../../components/Hero/style";
+@import "../../../components/Social/style";

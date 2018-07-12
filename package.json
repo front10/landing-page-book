@@ -11,8 +11,7 @@
         "eslint": "./node_modules/.bin/eslint ./src",
         "gitlab-pages": "git push master gitlab-pages",
         "precommit": "npm run eslint",
-        "prepush": "npm run eslint",
-        "relay": "relay-compiler --src ./src --schema ./schema.graphql --extensions js jsx"
+        "prepush": "npm run eslint"
     },
     "repository": {
         "type": "git",
@@ -40,7 +39,6 @@
         "babel-eslint": "^8.2.1",
         "babel-jest": "^22.4.3",
         "babel-plugin-macros": "^2.2.0",
-        "babel-plugin-relay": "^1.6.0",
         "babel-plugin-transform-object-rest-spread": "^6.26.0",
         "babel-plugin-transform-runtime": "^6.23.0",
         "babel-preset-env": "^1.6.1",
@@ -82,7 +80,6 @@
         "react-codemirror": "^1.0.0",
         "react-dom": "^16.2.0",
         "react-markdown": "^3.1.5",
-        "react-relay": "^1.6.0",
         "reactstrap": "^6.2.0",
         "sass-loader": "^6.0.6",
         "style-loader": "^0.20.1",

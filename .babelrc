@@ -2,10 +2,6 @@
     "presets": ["env", "react"],
     "plugins": [
         "babel-plugin-macros",
-        "transform-object-rest-spread",
-        "relay", ["transform-runtime", {
-            "polyfill": false,
-            "regenerator": true
-        }]
+        "transform-object-rest-spread"
     ]
 }

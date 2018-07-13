@@ -16,8 +16,8 @@ stories.add('GithubDetail', withReadme([Readme], () => {
 return (
   <ThemeSelector>
     <GithubDetail 
-      username={text("Username", "chubin")}
-      repository={text("Repository", "cheat.sh")}
+      username="chubin"
+      repository="cheat.sh"
       showFollow={boolean("Show Followers", true)}
       showWatch={boolean("Show Watchers", true)}
       showStar={boolean("Show Stars", true)}

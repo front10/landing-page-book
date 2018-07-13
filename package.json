@@ -83,7 +83,6 @@
         "react-particles-js": "^2.2.0",
         "react-player": "^1.6.4",
         "react-share": "^2.2.0",
-        "reactstrap": "^6.2.0",
         "sass-loader": "^6.0.6",
         "style-loader": "^0.20.1",
         "wix-storybook-utils": "^1.0.31"

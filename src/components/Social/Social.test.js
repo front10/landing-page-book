@@ -24,9 +24,5 @@ describe("Social", () => {
 		it('should render', () => {
 			expect(shallow(<Social {...props} />)).toMatchSnapshot();
 		});
-		it("always renders a div", () => {
-			const divs = social().find("div");
-			expect(divs.length).toBeGreaterThan(0);
-		});
 	});
 })

@@ -11,6 +11,7 @@ import '../src/stories/documentation/Introduction';
 
 import '../src/stories/components/GithubDetail';
 import '../src/stories/components/Code';
+import '../src/stories/components/contact-us';
 import '../src/stories/components/copyright';
 import '../src/stories/components/header';
 import '../src/stories/components/hero';

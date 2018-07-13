@@ -11372,6 +11372,9 @@ a.text-dark:hover, a.text-dark:focus {
 /*
 * GithubDetail
 */
+/*
+ * ContactUs
+ */
 /*Custom*/
 /*Components*/
 /* BASICS */
@@ -11752,6 +11755,24 @@ span.CodeMirror-selectedtext { background: none; }
 
 .CodeMirror-line {
   padding-left: 30px; }
+
+.ContactUs .ContactUs__Label {
+  font-weight: bold;
+  font-size: 12px; }
+
+.ContactUs .ContactUs__Input {
+  border-radius: 0px;
+  font-size: 12px; }
+
+.ContactUs .ContactUs__SubmitButton {
+  color: white;
+  background-color: #4285f4;
+  border-radius: 0px; }
+
+.ContactUs .ContactUs__SubmitButton:not(:disabled):hover,
+.ContactUs .ContactUs__SubmitButton:not(:disabled):focus {
+  color: white;
+  background-color: #065AC5; }
 
 .Header {
   background-color: #383d45; }

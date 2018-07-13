@@ -47,7 +47,7 @@ $Header--hover-color: #fed136;
 * GithubDetail
 */
 
-$GithubDetail__countbubble-backgroundColor:#DCDCDC;
+$GithubDetail__countbubble-backgroundColor: #DCDCDC;
 $GithubDetail__countbubble-borderradius: .4em;
 $GithubDetail__countbubble-padding: 6px;
 $GithubDetail__countbubble-ml: 11px;
@@ -56,13 +56,13 @@ $GithubDetail__countbubble-transition: color 0.15s ease-in-out,
 background-color 0.15s ease-in-out,
 border-color 0.15s ease-in-out,
 box-shadow 0.15s ease-in-out;
-$GithubDetail__countbubble-Color:#000;
+$GithubDetail__countbubble-Color: #000;
 $GithubDetail__countbubble_after-border: 7px solid transparent;
 $GithubDetail__countbubble_after-borderColor: transparent #DCDCDC transparent transparent;
-$GithubDetail__buttonText-ml:5px;
+$GithubDetail__buttonText-ml: 5px;
 $GithubDetail__btn_container-padding: 5px;
-$GithubDetail_btn-backgroundColor:#DCDCDC;
-$GithubDetail_btn-Color:#000;
+$GithubDetail_btn-backgroundColor: #DCDCDC;
+$GithubDetail_btn-Color: #000;
 
 /*
  * ContactUs
@@ -77,3 +77,14 @@ $ContactUs__SubmitButton-backgroundColor: $blue1;
 $ContactUs__SubmitButton-borderRadius: 0px;
 $ContactUs__SubmitButton--hover-color: $white1;
 $ContactUs__SubmitButton--hover-backgroundColor: $blue2;
+
+/*
+ * Team
+ */
+$Team__Name-fontSize: 1.5rem;
+$Team__Name-color: #000;
+$Team__Job-fontSize: 0.9rem;
+$Team__Job-color: #b5b5b5;
+$Team__Summary-fontSize: 0.8rem;
+$Team__Summary-color: #000;
+$Team__Card-borderRadius: 0px;

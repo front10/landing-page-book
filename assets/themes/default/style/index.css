@@ -11375,6 +11375,9 @@ a.text-dark:hover, a.text-dark:focus {
 /*
  * ContactUs
  */
+/*
+ * Team
+ */
 /*Custom*/
 /*Components*/
 /* BASICS */
@@ -11724,6 +11727,27 @@ div.CodeMirror-dragcursors {
 /* Help users use markselection to safely style text background */
 span.CodeMirror-selectedtext { background: none; }
 
+.CodeMirror-line {
+  padding-left: 30px; }
+
+.ContactUs .ContactUs__Label {
+  font-weight: bold;
+  font-size: 12px; }
+
+.ContactUs .ContactUs__Input {
+  border-radius: 0px;
+  font-size: 12px; }
+
+.ContactUs .ContactUs__SubmitButton {
+  color: white;
+  background-color: #4285f4;
+  border-radius: 0px; }
+
+.ContactUs .ContactUs__SubmitButton:not(:disabled):hover,
+.ContactUs .ContactUs__SubmitButton:not(:disabled):focus {
+  color: white;
+  background-color: #065AC5; }
+
 .speech-bubble {
   position: relative;
   background: #DCDCDC;
@@ -11758,27 +11782,6 @@ span.CodeMirror-selectedtext { background: none; }
 
 .GithubDetail_btn_container {
   padding: 5px; }
-
-.CodeMirror-line {
-  padding-left: 30px; }
-
-.ContactUs .ContactUs__Label {
-  font-weight: bold;
-  font-size: 12px; }
-
-.ContactUs .ContactUs__Input {
-  border-radius: 0px;
-  font-size: 12px; }
-
-.ContactUs .ContactUs__SubmitButton {
-  color: white;
-  background-color: #4285f4;
-  border-radius: 0px; }
-
-.ContactUs .ContactUs__SubmitButton:not(:disabled):hover,
-.ContactUs .ContactUs__SubmitButton:not(:disabled):focus {
-  color: white;
-  background-color: #065AC5; }
 
 .Header {
   background-color: #383d45; }
@@ -11846,3 +11849,18 @@ span.CodeMirror-selectedtext { background: none; }
   .SocialMediaShareButton svg {
     width: 30px;
     height: 30px; }
+
+.Team .Team__Name {
+  font-size: 1.5rem;
+  color: #000; }
+
+.Team .Team__Job {
+  font-size: 0.9rem;
+  color: #b5b5b5; }
+
+.Team .Team__Summary {
+  font-size: 0.8rem;
+  color: #000; }
+
+.Team .Team__Card {
+  border-radius: 0px; }

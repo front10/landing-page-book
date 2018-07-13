@@ -19,49 +19,15 @@ import {GithubDetail} from '@front10/landing-page-book/src/components';
     repository="repository"
 />
 ```
-3- Create an Service file with needed functions for get access to github api.
-
-```javascript
-
-    static getRepositoriesStats(username,repository) {
-        return fetch('https://api.github.com/repos/'+username+'/'+repository).then((response) => {
-            return response.json();
-        });  
-    }    
-    static getUserFallowers(username) {
-        return fetch('https://api.github.com/users/'+username+'/followers').then((response) => {
-            return response.json();
-        });  
-    }      
-    static getRepositoriesDownloads(username,repository) {
-        return fetch('https://api.github.com/repos/'+username+'/'+repository+'/downloads').then((response) => {
-            return response.json();
-        });  
-    }
-
-```
 
 ## Properties
 
 | </br>Name   | </br>Type | </br>Summary                                                                                 | 
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
-| username      | `String` | Github username, it is mandatory
-| repository      | `String` | Github repository, it is mandatory
-| showFollow      | `Boolean` | Show Follow button, Default `true`
-| showWatch      | `Boolean` | Show Watch button, Default `true`
-| showStar      | `Boolean` | Show Star button, Default `true`
-| showFork      | `Boolean` | Show Fork button, Default `true`
-| showIssue      | `Boolean` | Show Issue button, Default `true`
-| showDownload      | `Boolean` | Show Download button, Default `true`
-| FollowText      | `String` | Text to show on Follow button, Default `"Follow"`
-| WatchText      | `String` | Text to show on Watch button, Default `"Watch"`
-| StarText      | `String` | Text to show on Star button, Default `"Star"`
-| ForkText      | `String` | Text to show on Fork button, Default `"Fork"`
-| IssueText      | `String` | Text to show on Issue button, Default `"Issue"`
-| DownloadText      | `String` | Text to show on Download button, Default `"Download"`
-| showFollowCount      | `Boolean` | Show Follow count beside the button, Default `true`
-| showWatchCount      | `Boolean` | Show Watch count beside the button, Default `true`
-| showStarCount      | `Boolean` | Show Star count beside the button, Default `true`
-| showForkCount      | `Boolean` | Show Fork count beside the button, Default `true`
-| showIssueCount      | `Boolean` | Show Issue count beside the button, Default `true`
-| showDownloadCount      | `Boolean` | Show Download count beside the button, Default `true`
+| showCounter      | `Boolean` | Shows the total next to the button, Default `true`
+| showBtnText      | `Boolean` | Shows the text inside the button, Default `true`
+| showGithubIcon   | `Boolean` | Shows github icon on the button, Default `false`
+| username         | `String`  | Github username, it is mandatory
+| repository       | `String`  | Github repository, it is mandatory
+| btntype          | `String`  | What button show, options: `fork, follow, star, download, watch, issue` 
+| btnText          | `String`  | text to show inside the button

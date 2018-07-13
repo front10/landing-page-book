@@ -55,27 +55,26 @@ stories.add('Children', withReadme([Readme], () => {
 				particlesParams={{"move": {"speed": 2}}}>
 				<div className="container">
 					<img
-						className="w-75"
+						className="w-25"
 						alt="Cool car"
-						src="http://www.pngpix.com/wp-content/uploads/2016/06/PNGPIX-COM-Aston-Martin-White-Car-PNG-Image.png"/>
-					<h1 className="display-3 text-white">GET YOUR CAR</h1>
-					<div className="mb-5">
-						<button className="btn btn-success btn-lg">
+						src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png"/>
+					<h1 className="display-3 text-white">Landing Page Book</h1>
+					<div className="mb-5 mt-5">
+						<a href="https://front10.com/" className="btn btn-primary btn-lg pl-5 pr-5 pt-2 pb-2">
 							Go now
-						</button>
+						</a>
 					</div>
 					<Social
-						whatsapp={false}
-						vk={false}
-						viber={false}
-						tumblr={false}
-						telegram={false}
-						reddit={false}
-						pinterest={false}
-						ok={false}
-						livejournal={false}
-						email={false}
-						url="https://front10.com"
+						type="facebook"
+						url="https://landing-page-book.front10.com/"
+					/>
+					<Social
+						type="twitter"
+						url="https://landing-page-book.front10.com/"
+					/>
+					<Social
+						type="linkedin"
+						url="https://landing-page-book.front10.com/"
 					/>
 				</div>
 			</Hero>

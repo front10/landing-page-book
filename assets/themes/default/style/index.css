@@ -11687,6 +11687,8 @@ span.CodeMirror-selectedtext { background: none; }
   margin-left: 11px;
   border: 1px solid #DCDCDC;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  .speech-bubble a {
+    color: #000; }
 
 .speech-bubble:after {
   content: '';
@@ -11704,6 +11706,10 @@ span.CodeMirror-selectedtext { background: none; }
 
 .buttonText {
   margin-left: 5px; }
+
+.GithubDetail_btn {
+  background: #DCDCDC;
+  color: #000; }
 
 .GithubDetail_btn_container {
   padding: 5px; }
@@ -11772,5 +11778,12 @@ p {
   .Hero__SubHeader {
     font-size: 20px !important; } }
 
-.Social .SocialMediaShareButton {
-  display: inline-block; }
+.SocialMediaShareButton {
+  display: inline-block;
+  cursor: pointer; }
+  .SocialMediaShareButton div {
+    width: 35px !important;
+    height: 35px !important; }
+  .SocialMediaShareButton svg {
+    width: 30px;
+    height: 30px; }

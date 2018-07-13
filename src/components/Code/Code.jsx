@@ -5,43 +5,39 @@ require('codemirror/mode/javascript/javascript');
 require('codemirror/mode/xml/xml');
 require('codemirror/mode/markdown/markdown');
 
-var defaults = {
-	markdown: '# Heading\n\nSome **bold** and _italic_ text\nBy [Jed Watson](https://github.com/JedWatson)',
-	javascript: 'var component = {\n\tname: "react-codemirror",\n\tauthor: "Jed Watson",\n\trepo: "https://github.com/JedWatson/react-codemirror"\n};'
-};
-
 class Code extends React.Component {
     constructor(props) {
         super(props);  
-        this.state = {
-            code: defaults.markdown,
-			readOnly: false,
-			mode: 'markdown',
-        };   
+        this.state = {};   
         this.updateCode = this.updateCode.bind(this);   
-        this.changeMode = this.changeMode.bind(this);   
         this.toggleReadOnly = this.toggleReadOnly.bind(this);   
     }
 
     componentWillMount() {      
+        this.setState({
+            code: this.props.code,
+			readOnly: this.props.readOnly,
+            mode: this.props.languageCode,
+            lineNumbers: this.props.lineNumbers
+		});
     }
 
     componentWillReceiveProps(nextProps) {
-        
+        if(nextProps.readOnly != this.state.readOnly)
+        this.setState({            
+			readOnly: nextProps.readOnly        
+        });
+        if(nextProps.lineNumbers != this.state.lineNumbers)
+        this.setState({            
+			lineNumbers: nextProps.lineNumbers        
+		});
     }
     
     updateCode (newCode) {
 		this.setState({
 			code: newCode
 		});
-	}
-	changeMode (e) {
-		var mode = e.target.value;
-		this.setState({
-			mode: mode,
-			code: defaults[mode]
-		});
-	}
+	}	
 	toggleReadOnly () {
 		this.setState({
 			readOnly: !this.state.readOnly
@@ -51,21 +47,13 @@ class Code extends React.Component {
     render() {
         
         var options = {
-            lineNumbers: true,
+            lineNumbers: this.state.lineNumbers,
 			readOnly: this.state.readOnly,
 			mode: this.state.mode
 		};
         return (
-
             <div>
-            <CodeMirror ref="editor" value={this.state.code} onChange={this.updateCode} options={options} autoFocus={true} />
-            <div style={{ marginTop: 10 }}>
-                <select onChange={this.changeMode} value={this.state.mode}>
-                    <option value="markdown">Markdown</option>
-                    <option value="javascript">JavaScript</option>
-                </select>
-                <button onClick={this.toggleReadOnly}>Toggle read-only mode (currently {this.state.readOnly ? 'on' : 'off'})</button>
-            </div>
+            <CodeMirror value={this.state.code} onChange={this.updateCode} options={options} autoFocus={true} />            
         </div>         
         );
 
@@ -73,11 +61,21 @@ class Code extends React.Component {
 }
 
 Code.propTypes = {
-   
+    code: PropTypes.string,
+    languageCode: PropTypes.string,
+    readOnly: PropTypes.bool,
+    lineNumbers: PropTypes.bool,
+    updateCode: PropTypes.func,
 };
 
 Code.defaultProps = {
-   
+    code: 'var component = {\n\tname: "react-codemirror",\n\tauthor: "front10",\n\trepo: "https://gitlab.com/front10/landing-page"\n};',
+    languageCode: 'javascript',
+    readOnly: false,
+    lineNumbers: true,
+    updateCode: ({item}) => {
+		console.warn(`Code has changed!`)
+	}
 };
 
 export default Code;

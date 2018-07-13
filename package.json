@@ -67,6 +67,7 @@
         "@kadira/storybook-addon-options": "^1.0.2",
         "@storybook/addon-options": "^3.3.12",
         "bootstrap": "^4.1.1",
+        "codemirror": "^5.39.0",
         "css-loader": "^0.28.9",
         "font-awesome": "^4.7.0",
         "github-markdown-css": "^2.10.0",

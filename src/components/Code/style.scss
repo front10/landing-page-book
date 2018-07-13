@@ -1,5 +1,10 @@
-.CodeMirror-line {
-    padding-left: 30px;
+.CodeMirror-lines {
+    background-color: #DCDCDC;
+}
+
+h1,
+p {
+    font-family: Lato;
 }
 
 @import "~codemirror/lib/codemirror.css";

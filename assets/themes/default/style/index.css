@@ -11708,8 +11708,12 @@ span.CodeMirror-selectedtext { background: none; }
 .GithubDetail_btn_container {
   padding: 5px; }
 
-.CodeMirror-line {
-  padding-left: 30px; }
+.CodeMirror-lines {
+  background-color: #DCDCDC; }
+
+h1,
+p {
+  font-family: Lato; }
 
 .Header {
   background-color: #383d45; }

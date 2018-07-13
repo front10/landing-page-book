@@ -15,20 +15,7 @@ stories.add('Social', withReadme([Readme], () => {
 	return (
 		<ThemeSelector>
 			<Social
-				email={boolean("Email", true)}
-				facebook={boolean("Facebook", true)}
-				google={boolean("Google", true)}
-				linkedin={boolean("Linkedin", true)}
-				livejournal={boolean("Livejournal", true)}
-				ok={boolean("Ok", true)}
-				pinterest={boolean("Pinterest", true)}
-				reddit={boolean("Reddit", true)}
-				telegram={boolean("Telegram", true)}
-				tumblr={boolean("Tumblr", true)}
-				twitter={boolean("Twitter", true)}
-				viber={boolean("Viber", true)}
-				vk={boolean("Vk", true)}
-				whatsapp={boolean("Whatsapp", true)}
+				type={text("Button type", "facebook")}
 				rounded={boolean("Rounded", true)}
 				url={text("Url", "https://front10.com")}
 			/>

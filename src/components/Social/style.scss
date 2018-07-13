@@ -1,5 +1,14 @@
-.Social{
-  .SocialMediaShareButton{
-    display: inline-block;
+.SocialMediaShareButton {
+  display: inline-block;
+  cursor: pointer;
+
+  div{
+    width: 35px !important;
+    height: 35px !important;
+  }
+
+  svg{
+    width: 30px;
+    height: 30px;
   }
 }

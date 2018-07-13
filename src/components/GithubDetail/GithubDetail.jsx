@@ -11,7 +11,7 @@ class GithubDetail extends React.Component {
     }
 
     componentWillMount() {
-        this.setState({showCounter: this.props.showCounter, btntype: this.props.btntype, showBtnText: this.props.showBtnText});
+        this.setState({showCounter: this.props.showCounter, btntype: this.props.btntype, showBtnText: this.props.showBtnText, showGithubIcon: this.props.showGithubIcon });
         if (this.props.btntype === "fork" || this.props.btntype === "star" || this.props.btntype === "watch" || this.props.btntype === "issue") {
             GithubService
                 .getRepositoriesStats(this.props.username, this.props.repository)
@@ -47,6 +47,10 @@ class GithubDetail extends React.Component {
         if (nextProps.showCounter != this.state.showCounter) {
             this.setState({showCounter: nextProps.showCounter});
         }
+        if (nextProps.showGithubIcon != this.state.showGithubIcon) {
+            this.setState({showGithubIcon: nextProps.showGithubIcon});
+        }
+        
         if (nextProps.showBtnText != this.state.showBtnText) {
             this.setState({showBtnText: nextProps.showBtnText});
         }
@@ -88,7 +92,7 @@ class GithubDetail extends React.Component {
     render() {
         return (
             <div className="GithubDetail_btn_container">
-                <a className="btn GithubDetail_btn" href={this.state.linkUrl} target="_blank"><i className={this.state.iconClass} aria-hidden="true"/> {this.state.showBtnText && <span className="buttonText">{this.props.btnText}</span>}
+                <a className="btn GithubDetail_btn" href={this.state.linkUrl} target="_blank"><i className={ this.state.showGithubIcon?'fa fa-github':this.state.iconClass} aria-hidden="true"/> {this.state.showBtnText && <span className="buttonText">{this.props.btnText}</span>}
                 </a>
                 {this.state.showCounter && <span className="speech-bubble">{(this.state.counter != null)
                         ?<a href={this.state.linkUrl} target="_blank"> {this.state.counter} </a>
@@ -104,6 +108,7 @@ class GithubDetail extends React.Component {
 GithubDetail.propTypes = {
     showCounter: PropTypes.bool,
     showBtnText: PropTypes.bool,
+    showGithubIcon: PropTypes.bool,
     username: PropTypes.string,
     repository: PropTypes.string,
     btntype: PropTypes.string,
@@ -113,6 +118,7 @@ GithubDetail.propTypes = {
 GithubDetail.defaultProps = {
     showCounter: true,
     showBtnText: true,
+    showGithubIcon: false,
     username: "chubin",
     repository: "cheat.sh",
     btntype: "fork",

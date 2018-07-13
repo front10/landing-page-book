@@ -26,6 +26,7 @@ import {GithubDetail} from '@front10/landing-page-book/src/components';
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
 | showCounter      | `Boolean` | Shows the total next to the button, Default `true`
 | showBtnText      | `Boolean` | Shows the text inside the button, Default `true`
+| showGithubIcon   | `Boolean` | Shows github icon on the button, Default `false`
 | username         | `String`  | Github username, it is mandatory
 | repository       | `String`  | Github repository, it is mandatory
 | btntype          | `String`  | What button show, options: `fork, follow, star, download, watch, issue` 

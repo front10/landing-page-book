@@ -30,6 +30,7 @@ return (
       btnText={text("Btn text", "Follow")}
       showCounter={boolean("Show count", true)}      
       showBtnText={boolean("Show button text", true)} 
+      showGithubIcon={boolean("Show Github icon", false)} 
     />
   </ThemeSelector>
 );

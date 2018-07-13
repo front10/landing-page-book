@@ -1,4 +1,5 @@
 import React from "react";
+import fetch from 'node-fetch';
 import {GITHUB_API_URL} from './constant';
 
 class GithubService { 

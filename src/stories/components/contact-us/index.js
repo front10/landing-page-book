@@ -17,10 +17,10 @@ stories.add('ContactUs', withReadme([Readme], () => {
 			<ContactUs
 				showText={boolean("Show text", false)}
 				showPlaceholder={boolean("Show placeholder", true)}
-				name={text("Name", "")}
-				mail={text("Email", "")}
-				phone={text("Phone", "")}
-				message={text("Message", "")}
+				name={text("Name", "John")}
+				mail={text("Email", "john.email@domain.com")}
+				phone={text("Phone", "2 578 1545")}
+				message={text("Message", "This is my message")}
 				nameText={text("Name text", "Your Name")}
 				mailText={text("Email text", "Your email")}
 				messageText={text("Message text", "Your Message")}
@@ -31,6 +31,9 @@ stories.add('ContactUs', withReadme([Readme], () => {
 					"left": "left",
 					"right": "right",
 				}, "center")}
+				onSubmit={({name, mail, phone, message}) => {
+					alert(`Send data with {"name":"${name}", "mail": "${mail}", "phone":"${phone}", "message":"${message}"}`)
+				}}
 			/>
 		</ThemeSelector>
 	);

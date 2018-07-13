@@ -32,7 +32,6 @@ describe("ContactUs", () => {
 		it("always renders a div", () => {
 			const divs = contactUs().find("div");
 			expect(divs.length).toBeGreaterThan(0);
-			expect(contactUs().state("message")).toEqual("This is a new message");
 		});
 		it("on change message", () => {
 			const $event = {currentTarget:{value: "abc"}};
@@ -49,7 +48,7 @@ describe("ContactUs", () => {
 			contactUs().instance().onChangeMail($event);
 			expect(contactUs().state("mail")).toEqual("abc@gmail.com");
 		});
-		it("on change email", () => {
+		it("on change message", () => {
 			const $event = {currentTarget:{value: "my name"}};
 			contactUs().instance().onChangeName($event);
 			expect(contactUs().state("name")).toEqual("my name");

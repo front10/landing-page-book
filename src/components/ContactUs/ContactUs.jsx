@@ -34,7 +34,7 @@ class ContactUs extends Component {
 	}
 
 	onSubmit() {
-		this.props.onSubmit({...this.state});
+		this.props.onSubmit(this.state);
 	}
 
 	onChangeName($event) {
@@ -108,7 +108,7 @@ class ContactUs extends Component {
 			<div className={`text-${submitButtonAlign}`}>
 				<button className="btn ContactUs__SubmitButton"
 				        disabled={!this.state.name || !this.state.message || !EmailValidator.validate(this.state.mail)}
-				        onClick={this.props.onSubmit}>
+				        onClick={this.onSubmit}>
 					<i className="fa fa"/>
 					{submitButtonText}
 				</button>

@@ -5,6 +5,7 @@ import GithubDetail from './GithubDetail';
 import Header from "./Header";
 import Hero from "./Hero";
 import Social from "./Social";
+import Team from "./Team";
 import Video from "./Video";
 
 export {
@@ -14,6 +15,7 @@ export {
 	Header,
 	Hero,
 	Social,
+	Team,
 	Video,
 	GithubDetail
 };

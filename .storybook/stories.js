@@ -16,6 +16,7 @@ import '../src/stories/components/github-detail';
 import '../src/stories/components/header';
 import '../src/stories/components/hero';
 import '../src/stories/components/social';
+import '../src/stories/components/team';
 import '../src/stories/components/video';
 
 //Pages

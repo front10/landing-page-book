@@ -1,6 +1,6 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
-import {withKnobs, text, number, boolean, array} from '@storybook/addon-knobs/react';
+import {withKnobs, text, number, boolean, select, color} from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import {ThemeSelector} from "../../../addons/ThemeSwitcher";
 
@@ -28,11 +28,11 @@ stories.add('Default', withReadme([Readme], () => {
 				image={text("Image", "https://front10.com/img/header-bg.jpg")}
 				opacity={number("Opacity", 1)}
 				parallaxOffset={number("Parallax offset", 0)}
-				overlayColor={text("Overlay color", "#d43131")}
+				overlayColor={color("Overlay color", "#d43131", "GROUP-ID1")}
 				minHeight={text("Min height", "100vh")}
 				header={text("Header", "REACT & ANGULARJS COMPONENTS")}
 				subHeader={text("Sub header", "Leverage your process!")}
-				subHeaderPosition={text("Sub header position", "top")}
+				subHeaderPosition={select("Sub header position", {"top": "top", "bottom": "bottom"}, "top")}
 				buttons={buttons}
 				particlesParams={{"move": {"speed": 2}}}
 			/>
@@ -50,7 +50,7 @@ stories.add('Children', withReadme([Readme], () => {
 				image={text("Image", "https://front10.com/img/header-bg.jpg")}
 				opacity={number("Opacity", 1)}
 				parallaxOffset={number("Parallax offset", 0)}
-				overlayColor={text("Overlay color", "#d43131")}
+				overlayColor={color("Overlay color", "#d43131", "GROUP-ID1")}
 				minHeight={text("Min height", "100vh")}
 				particlesParams={{"move": {"speed": 2}}}>
 				<div className="container">

@@ -11729,6 +11729,8 @@ span.CodeMirror-selectedtext { background: none; }
   margin-left: 11px;
   border: 1px solid #DCDCDC;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
+  .speech-bubble a {
+    color: #000; }
 
 .speech-bubble:after {
   content: '';
@@ -11746,6 +11748,10 @@ span.CodeMirror-selectedtext { background: none; }
 
 .buttonText {
   margin-left: 5px; }
+
+.GithubDetail_btn {
+  background: #DCDCDC;
+  color: #000; }
 
 .GithubDetail_btn_container {
   padding: 5px; }

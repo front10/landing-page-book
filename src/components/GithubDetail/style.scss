@@ -6,6 +6,9 @@
     margin-left: $GithubDetail__countbubble-ml;
     border: $GithubDetail__countbubble-border;
     transition: $GithubDetail__countbubble-transition;
+    a {
+        color: $GithubDetail__countbubble-Color;
+    }
 }
 
 .speech-bubble:after {
@@ -27,7 +30,10 @@
     margin-left: $GithubDetail__buttonText-ml;
 }
 
-.GithubDetail_btn {}
+.GithubDetail_btn {
+    background: $GithubDetail_btn-backgroundColor;
+    color: $GithubDetail_btn-Color;
+}
 
 .GithubDetail_btn_container {
     padding: $GithubDetail__btn_container-padding;

@@ -1,0 +1,17 @@
+.Team{
+  .Team__Name{
+    font-size: $Team__Name-fontSize;
+    color: $Team__Name-color;
+  }
+  .Team__Job{
+    font-size: $Team__Job-fontSize;
+    color: $Team__Job-color;
+  }
+  .Team__Summary{
+    font-size: $Team__Summary-fontSize;
+    color: $Team__Summary-color;
+  }
+  .Team__Card{
+    border-radius: $Team__Card-borderRadius;
+  }
+}

@@ -1,6 +1,6 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
-import {withKnobs, text, number, boolean, array} from '@storybook/addon-knobs/react';
+import {withKnobs, text, select, boolean} from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import {ThemeSelector} from "../../../addons/ThemeSwitcher";
 
@@ -49,7 +49,11 @@ stories.add('Default', withReadme([Readme], () => {
 				companyName={text("Company name", "Front10")}
 				companyLink={text("Company link", "https://front10.com")}
 				companyLogo={text("Company logo", "images/logo/front10.png")}
-				expand={text("Expand", "md")}
+				expand={select("Expand", {
+					"sm": "sm",
+					"md": "md",
+					"lg": "lg",
+				}, "md")}
 				rightItems={rightItems}
 				leftItems={leftItems}
 				onItemClick={onItemClick}
@@ -68,7 +72,11 @@ stories.add('Children', withReadme([Readme], () => {
 				companyName={text("Company name", "Front10")}
 				companyLink={text("Company link", "https://front10.com")}
 				companyLogo={text("Company logo", "images/logo/front10.png")}
-				expand={text("Expand", "md")}>
+				expand={select("Expand", {
+					"sm": "sm",
+					"md": "md",
+					"lg": "lg",
+				}, "md")}>
 				<ul className="navbar-nav mr-auto">
 					<li className="nav-item active">
 						<a className="nav-link text-light" href="#">

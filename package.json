@@ -69,6 +69,7 @@
         "bootstrap": "^4.1.1",
         "codemirror": "^5.39.0",
         "css-loader": "^0.28.9",
+        "email-validator": "^2.0.4",
         "font-awesome": "^4.7.0",
         "github-markdown-css": "^2.10.0",
         "highlight.js": "^9.12.0",

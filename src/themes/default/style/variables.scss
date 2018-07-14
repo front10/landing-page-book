@@ -61,17 +61,42 @@ $GithubDetail__countbubble_after-border: 7px solid transparent;
 $GithubDetail__countbubble_after-borderColor: transparent #DCDCDC transparent transparent;
 $GithubDetail__buttonText-ml: 5px;
 $GithubDetail__btn_container-padding: 5px;
-$GithubDetail_btn-backgroundColor: #DCDCDC;
-$GithubDetail_btn-Color: #000;
+$GithubDetail_btn-backgroundColor:#DCDCDC;
+$GithubDetail_btn-Color:#000;
+
+/*
+* Code
+*/
+
+$CodeMirror__lines_backgroundColor:#FFF;
+$CodeMirror__lines_backgroundColor-dark:#DCDCDC;
+$CodeMirror__header_with: 100%;
+$CodeMirror__header_height: 45px;
+$CodeMirror__header_backgroundColor: #DCDCDC;
+$CodeMirror__footer_with: 100%;
+$CodeMirror__footer_height: 15px;
+$CodeMirror__footer_backgroundColor: #DCDCDC;
+$CodeMirror__headerDark_with: 100%;
+$CodeMirror__headerDark_height: 45px;
+$CodeMirror__headerDark_backgroundColor: rgb(68, 68, 68);
+$CodeMirror__headerDark_Color: #FFF;
+$CodeMirror__footerDark_with: 100%;
+$CodeMirror__footerDark_height: 15px;
+$CodeMirror__footerDark_backgroundColor: rgb(68, 68, 68);
+$CodeMirror__footerDark_Color: #FFF;
+$CodeMirror__header_copybtn_margin: 10px -10px 0 0;
+$CodeMirror__header_deletebtn_margin: 10px 20px 0 0;
+$CodeMirror__height:250px;
+$CodeMirror__font_family: Lato;
 
 /*
  * ContactUs
  */
+
 $ContactUs__Label-fontWeight: bold;
 $ContactUs__Label-fontSize: 12px;
 $ContactUs__Input-borderRadius: 0px;
 $ContactUs__Input-fontSize: 12px;
-
 $ContactUs__SubmitButton-color: $white1;
 $ContactUs__SubmitButton-backgroundColor: $blue1;
 $ContactUs__SubmitButton-borderRadius: 0px;
@@ -81,6 +106,7 @@ $ContactUs__SubmitButton--hover-backgroundColor: $blue2;
 /*
  * Team
  */
+
 $Team__Name-fontSize: 1.5rem;
 $Team__Name-color: #000;
 $Team__Job-fontSize: 0.9rem;

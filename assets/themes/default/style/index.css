@@ -11372,6 +11372,9 @@ a.text-dark:hover, a.text-dark:focus {
 /*
 * GithubDetail
 */
+/*
+* Code
+*/
 /*Custom*/
 /*Components*/
 /* BASICS */
@@ -11777,12 +11780,13 @@ span.CodeMirror-selectedtext { background: none; }
   width: 100%;
   height: 45px;
   color: #FFF;
-  background-color: #444444 !important; }
+  background-color: #444444; }
 
 .CodeMirror__footer-dark {
   width: 100%;
   height: 15px;
-  background-color: #444444; }
+  background-color: #444444;
+  color: #FFF; }
 
 .CodeMirror__header_copybtn {
   margin: 10px -10px 0 0; }

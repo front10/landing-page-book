@@ -4,12 +4,16 @@ exports[`ContactUs ContactUs should render 1`] = `
 ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <ContactUs
+    apiUrl=""
+    loading={false}
     mail="mail@gmail.com"
     mailText="Your Email"
     message="This is a new message"
     messageText="Your Message"
     name="name"
     nameText="Your Name"
+    onApiFail={[Function]}
+    onApiSuccess={[Function]}
     onSubmit={[Function]}
     phone="5476"
     phoneText="Your Phone"
@@ -50,12 +54,16 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "apiUrl": "",
+              "loading": false,
               "mail": "mail@gmail.com",
               "mailText": "Your Email",
               "message": "This is a new message",
               "messageText": "Your Message",
               "name": "name",
               "nameText": "Your Name",
+              "onApiFail": [Function],
+              "onApiSuccess": [Function],
               "onSubmit": [Function],
               "phone": "5476",
               "phoneText": "Your Phone",
@@ -69,12 +77,16 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "apiUrl": "",
+              "loading": false,
               "mail": "mail@gmail.com",
               "mailText": "Your Email",
               "message": "This is a new message",
               "messageText": "Your Message",
               "name": "name",
               "nameText": "Your Name",
+              "onApiFail": [Function],
+              "onApiSuccess": [Function],
               "onSubmit": [Function],
               "phone": "5476",
               "phoneText": "Your Phone",
@@ -90,12 +102,16 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "apiUrl": "",
+              "loading": false,
               "mail": "mail@gmail.com",
               "mailText": "Your Email",
               "message": "This is a new message",
               "messageText": "Your Message",
               "name": "name",
               "nameText": "Your Name",
+              "onApiFail": [Function],
+              "onApiSuccess": [Function],
               "onSubmit": [Function],
               "phone": "5476",
               "phoneText": "Your Phone",
@@ -193,9 +209,6 @@ ReactWrapper {
                       <button
                         class="btn ContactUs__SubmitButton"
                       >
-                        <i
-                          class="fa fa"
-                        />
                         Submit
                       </button>
                     </div>
@@ -237,12 +250,16 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "apiUrl": "",
+                          "loading": false,
                           "mail": "mail@gmail.com",
                           "mailText": "Your Email",
                           "message": "This is a new message",
                           "messageText": "Your Message",
                           "name": "name",
                           "nameText": "Your Name",
+                          "onApiFail": [Function],
+                          "onApiSuccess": [Function],
                           "onSubmit": [Function],
                           "phone": "5476",
                           "phoneText": "Your Phone",
@@ -270,12 +287,16 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "apiUrl": "",
+                          "loading": false,
                           "mail": "mail@gmail.com",
                           "mailText": "Your Email",
                           "message": "This is a new message",
                           "messageText": "Your Message",
                           "name": "name",
                           "nameText": "Your Name",
+                          "onApiFail": [Function],
+                          "onApiSuccess": [Function],
                           "onSubmit": [Function],
                           "phone": "5476",
                           "phoneText": "Your Phone",
@@ -305,12 +326,16 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "apiUrl": "",
+                    "loading": false,
                     "mail": "mail@gmail.com",
                     "mailText": "Your Email",
                     "message": "This is a new message",
                     "messageText": "Your Message",
                     "name": "name",
                     "nameText": "Your Name",
+                    "onApiFail": [Function],
+                    "onApiSuccess": [Function],
                     "onSubmit": [Function],
                     "phone": "5476",
                     "phoneText": "Your Phone",
@@ -385,9 +410,6 @@ ReactWrapper {
                     <button
                       class="btn ContactUs__SubmitButton"
                     >
-                      <i
-                        class="fa fa"
-                      />
                       Submit
                     </button>
                   </div>
@@ -419,12 +441,16 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "apiUrl": "",
+                      "loading": false,
                       "mail": "mail@gmail.com",
                       "mailText": "Your Email",
                       "message": "This is a new message",
                       "messageText": "Your Message",
                       "name": "name",
                       "nameText": "Your Name",
+                      "onApiFail": [Function],
+                      "onApiSuccess": [Function],
                       "onSubmit": [Function],
                       "phone": "5476",
                       "phoneText": "Your Phone",
@@ -457,12 +483,16 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -477,12 +507,16 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -928,7 +962,7 @@ ReactWrapper {
                       "child": FiberNode {
                         "_debugID": 17,
                         "_debugIsCurrentlyTiming": false,
-                        "_debugOwner": [Circular],
+                        "_debugOwner": null,
                         "_debugSource": null,
                         "actualDuration": 0,
                         "actualStartTime": 0,
@@ -940,54 +974,19 @@ ReactWrapper {
                         "index": 0,
                         "key": null,
                         "lastEffect": null,
-                        "memoizedProps": Object {
-                          "className": "fa fa",
-                        },
+                        "memoizedProps": "Submit",
                         "memoizedState": null,
                         "mode": 0,
                         "nextEffect": null,
-                        "pendingProps": Object {
-                          "className": "fa fa",
-                        },
+                        "pendingProps": "Submit",
                         "ref": null,
                         "return": [Circular],
                         "selfBaseTime": 0,
-                        "sibling": FiberNode {
-                          "_debugID": 18,
-                          "_debugIsCurrentlyTiming": false,
-                          "_debugOwner": null,
-                          "_debugSource": null,
-                          "actualDuration": 0,
-                          "actualStartTime": 0,
-                          "alternate": null,
-                          "child": null,
-                          "effectTag": 0,
-                          "expirationTime": 0,
-                          "firstEffect": null,
-                          "index": 1,
-                          "key": null,
-                          "lastEffect": null,
-                          "memoizedProps": "Submit",
-                          "memoizedState": null,
-                          "mode": 0,
-                          "nextEffect": null,
-                          "pendingProps": "Submit",
-                          "ref": null,
-                          "return": [Circular],
-                          "selfBaseTime": 0,
-                          "sibling": null,
-                          "stateNode": Submit,
-                          "tag": 6,
-                          "treeBaseTime": 0,
-                          "type": null,
-                          "updateQueue": null,
-                        },
-                        "stateNode": <i
-                          class="fa fa"
-                        />,
-                        "tag": 5,
+                        "sibling": null,
+                        "stateNode": Submit,
+                        "tag": 6,
                         "treeBaseTime": 0,
-                        "type": "i",
+                        "type": null,
                         "updateQueue": null,
                       },
                       "effectTag": 0,
@@ -998,10 +997,8 @@ ReactWrapper {
                       "lastEffect": null,
                       "memoizedProps": Object {
                         "children": Array [
-                          <i
-                            className="fa fa"
-                          />,
                           "Submit",
+                          false,
                         ],
                         "className": "btn ContactUs__SubmitButton",
                         "disabled": false,
@@ -1012,10 +1009,8 @@ ReactWrapper {
                       "nextEffect": null,
                       "pendingProps": Object {
                         "children": Array [
-                          <i
-                            className="fa fa"
-                          />,
                           "Submit",
+                          false,
                         ],
                         "className": "btn ContactUs__SubmitButton",
                         "disabled": false,
@@ -1028,9 +1023,6 @@ ReactWrapper {
                       "stateNode": <button
                         class="btn ContactUs__SubmitButton"
                       >
-                        <i
-                          class="fa fa"
-                        />
                         Submit
                       </button>,
                       "tag": 5,
@@ -1050,9 +1042,6 @@ ReactWrapper {
                         disabled={false}
                         onClick={[Function]}
                       >
-                        <i
-                          className="fa fa"
-                        />
                         Submit
                       </button>,
                       "className": "text-center",
@@ -1066,9 +1055,6 @@ ReactWrapper {
                         disabled={false}
                         onClick={[Function]}
                       >
-                        <i
-                          className="fa fa"
-                        />
                         Submit
                       </button>,
                       "className": "text-center",
@@ -1083,9 +1069,6 @@ ReactWrapper {
                       <button
                         class="btn ContactUs__SubmitButton"
                       >
-                        <i
-                          class="fa fa"
-                        />
                         Submit
                       </button>
                     </div>,
@@ -1223,9 +1206,6 @@ ReactWrapper {
                   disabled={false}
                   onClick={[Function]}
                 >
-                  <i
-                    className="fa fa"
-                  />
                   Submit
                 </button>
               </div>,
@@ -1293,9 +1273,6 @@ ReactWrapper {
                   disabled={false}
                   onClick={[Function]}
                 >
-                  <i
-                    className="fa fa"
-                  />
                   Submit
                 </button>
               </div>,
@@ -1360,9 +1337,6 @@ ReactWrapper {
               <button
                 class="btn ContactUs__SubmitButton"
               >
-                <i
-                  class="fa fa"
-                />
                 Submit
               </button>
             </div>
@@ -1379,12 +1353,16 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
+          "apiUrl": "",
+          "loading": false,
           "mail": "mail@gmail.com",
           "mailText": "Your Email",
           "message": "This is a new message",
           "messageText": "Your Message",
           "name": "name",
           "nameText": "Your Name",
+          "onApiFail": [Function],
+          "onApiSuccess": [Function],
           "onSubmit": [Function],
           "phone": "5476",
           "phoneText": "Your Phone",
@@ -1394,6 +1372,7 @@ ReactWrapper {
           "submitButtonText": "Submit",
         },
         "memoizedState": Object {
+          "loading": false,
           "mail": "mail@gmail.com",
           "message": "This is a new message",
           "name": "name",
@@ -1402,12 +1381,16 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "apiUrl": "",
+          "loading": false,
           "mail": "mail@gmail.com",
           "mailText": "Your Email",
           "message": "This is a new message",
           "messageText": "Your Message",
           "name": "name",
           "nameText": "Your Name",
+          "onApiFail": [Function],
+          "onApiSuccess": [Function],
           "onSubmit": [Function],
           "phone": "5476",
           "phoneText": "Your Phone",
@@ -1436,12 +1419,16 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "apiUrl": "",
+              "loading": false,
               "mail": "mail@gmail.com",
               "mailText": "Your Email",
               "message": "This is a new message",
               "messageText": "Your Message",
               "name": "name",
               "nameText": "Your Name",
+              "onApiFail": [Function],
+              "onApiSuccess": [Function],
               "onSubmit": [Function],
               "phone": "5476",
               "phoneText": "Your Phone",
@@ -1455,12 +1442,16 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "apiUrl": "",
+              "loading": false,
               "mail": "mail@gmail.com",
               "mailText": "Your Email",
               "message": "This is a new message",
               "messageText": "Your Message",
               "name": "name",
               "nameText": "Your Name",
+              "onApiFail": [Function],
+              "onApiSuccess": [Function],
               "onSubmit": [Function],
               "phone": "5476",
               "phoneText": "Your Phone",
@@ -1476,12 +1467,16 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "apiUrl": "",
+              "loading": false,
               "mail": "mail@gmail.com",
               "mailText": "Your Email",
               "message": "This is a new message",
               "messageText": "Your Message",
               "name": "name",
               "nameText": "Your Name",
+              "onApiFail": [Function],
+              "onApiSuccess": [Function],
               "onSubmit": [Function],
               "phone": "5476",
               "phoneText": "Your Phone",
@@ -1579,9 +1574,6 @@ ReactWrapper {
                       <button
                         class="btn ContactUs__SubmitButton"
                       >
-                        <i
-                          class="fa fa"
-                        />
                         Submit
                       </button>
                     </div>
@@ -1623,12 +1615,16 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "apiUrl": "",
+                          "loading": false,
                           "mail": "mail@gmail.com",
                           "mailText": "Your Email",
                           "message": "This is a new message",
                           "messageText": "Your Message",
                           "name": "name",
                           "nameText": "Your Name",
+                          "onApiFail": [Function],
+                          "onApiSuccess": [Function],
                           "onSubmit": [Function],
                           "phone": "5476",
                           "phoneText": "Your Phone",
@@ -1656,12 +1652,16 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "apiUrl": "",
+                          "loading": false,
                           "mail": "mail@gmail.com",
                           "mailText": "Your Email",
                           "message": "This is a new message",
                           "messageText": "Your Message",
                           "name": "name",
                           "nameText": "Your Name",
+                          "onApiFail": [Function],
+                          "onApiSuccess": [Function],
                           "onSubmit": [Function],
                           "phone": "5476",
                           "phoneText": "Your Phone",
@@ -1691,12 +1691,16 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "apiUrl": "",
+                    "loading": false,
                     "mail": "mail@gmail.com",
                     "mailText": "Your Email",
                     "message": "This is a new message",
                     "messageText": "Your Message",
                     "name": "name",
                     "nameText": "Your Name",
+                    "onApiFail": [Function],
+                    "onApiSuccess": [Function],
                     "onSubmit": [Function],
                     "phone": "5476",
                     "phoneText": "Your Phone",
@@ -1771,9 +1775,6 @@ ReactWrapper {
                     <button
                       class="btn ContactUs__SubmitButton"
                     >
-                      <i
-                        class="fa fa"
-                      />
                       Submit
                     </button>
                   </div>
@@ -1805,12 +1806,16 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "apiUrl": "",
+                      "loading": false,
                       "mail": "mail@gmail.com",
                       "mailText": "Your Email",
                       "message": "This is a new message",
                       "messageText": "Your Message",
                       "name": "name",
                       "nameText": "Your Name",
+                      "onApiFail": [Function],
+                      "onApiSuccess": [Function],
                       "onSubmit": [Function],
                       "phone": "5476",
                       "phoneText": "Your Phone",
@@ -1843,12 +1848,16 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -1863,12 +1872,16 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -1898,6 +1911,7 @@ ReactWrapper {
         "type": [Function],
         "updateQueue": Object {
           "baseState": Object {
+            "loading": false,
             "mail": "mail@gmail.com",
             "message": "This is a new message",
             "name": "name",
@@ -1922,12 +1936,16 @@ ReactWrapper {
       "onChangePhone": [Function],
       "onSubmit": [Function],
       "props": Object {
+        "apiUrl": "",
+        "loading": false,
         "mail": "mail@gmail.com",
         "mailText": "Your Email",
         "message": "This is a new message",
         "messageText": "Your Message",
         "name": "name",
         "nameText": "Your Name",
+        "onApiFail": [Function],
+        "onApiSuccess": [Function],
         "onSubmit": [Function],
         "phone": "5476",
         "phoneText": "Your Phone",
@@ -1938,6 +1956,7 @@ ReactWrapper {
       },
       "refs": Object {},
       "state": Object {
+        "loading": false,
         "mail": "mail@gmail.com",
         "message": "This is a new message",
         "name": "name",
@@ -1953,12 +1972,16 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "apiUrl": "",
+      "loading": false,
       "mail": "mail@gmail.com",
       "mailText": "Your Email",
       "message": "This is a new message",
       "messageText": "Your Message",
       "name": "name",
       "nameText": "Your Name",
+      "onApiFail": [Function],
+      "onApiSuccess": [Function],
       "onSubmit": [Function],
       "phone": "5476",
       "phoneText": "Your Phone",
@@ -2023,9 +2046,6 @@ ReactWrapper {
           <button
             class="btn ContactUs__SubmitButton"
           >
-            <i
-              class="fa fa"
-            />
             Submit
           </button>
         </div>
@@ -2090,9 +2110,6 @@ ReactWrapper {
               disabled={false}
               onClick={[Function]}
             >
-              <i
-                className="fa fa"
-              />
               Submit
             </button>
           </div>,
@@ -2338,9 +2355,6 @@ ReactWrapper {
             <button
               class="btn ContactUs__SubmitButton"
             >
-              <i
-                class="fa fa"
-              />
               Submit
             </button>
           </div>,
@@ -2352,9 +2366,6 @@ ReactWrapper {
               disabled={false}
               onClick={[Function]}
             >
-              <i
-                className="fa fa"
-              />
               Submit
             </button>,
             "className": "text-center",
@@ -2365,19 +2376,14 @@ ReactWrapper {
               "instance": <button
                 class="btn ContactUs__SubmitButton"
               >
-                <i
-                  class="fa fa"
-                />
                 Submit
               </button>,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
                 "children": Array [
-                  <i
-                    className="fa fa"
-                  />,
                   "Submit",
+                  false,
                 ],
                 "className": "btn ContactUs__SubmitButton",
                 "disabled": false,
@@ -2385,21 +2391,6 @@ ReactWrapper {
               },
               "ref": null,
               "rendered": Array [
-                Object {
-                  "instance": <i
-                    class="fa fa"
-                  />,
-                  "key": undefined,
-                  "nodeType": "host",
-                  "props": Object {
-                    "className": "fa fa",
-                  },
-                  "ref": null,
-                  "rendered": Array [
-                    undefined,
-                  ],
-                  "type": "i",
-                },
                 "Submit",
               ],
               "type": "button",
@@ -2437,12 +2428,16 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -2456,12 +2451,16 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -2477,12 +2476,16 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -2580,9 +2583,6 @@ ReactWrapper {
                         <button
                           class="btn ContactUs__SubmitButton"
                         >
-                          <i
-                            class="fa fa"
-                          />
                           Submit
                         </button>
                       </div>
@@ -2624,12 +2624,16 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "apiUrl": "",
+                            "loading": false,
                             "mail": "mail@gmail.com",
                             "mailText": "Your Email",
                             "message": "This is a new message",
                             "messageText": "Your Message",
                             "name": "name",
                             "nameText": "Your Name",
+                            "onApiFail": [Function],
+                            "onApiSuccess": [Function],
                             "onSubmit": [Function],
                             "phone": "5476",
                             "phoneText": "Your Phone",
@@ -2657,12 +2661,16 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "apiUrl": "",
+                            "loading": false,
                             "mail": "mail@gmail.com",
                             "mailText": "Your Email",
                             "message": "This is a new message",
                             "messageText": "Your Message",
                             "name": "name",
                             "nameText": "Your Name",
+                            "onApiFail": [Function],
+                            "onApiSuccess": [Function],
                             "onSubmit": [Function],
                             "phone": "5476",
                             "phoneText": "Your Phone",
@@ -2692,12 +2700,16 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "apiUrl": "",
+                      "loading": false,
                       "mail": "mail@gmail.com",
                       "mailText": "Your Email",
                       "message": "This is a new message",
                       "messageText": "Your Message",
                       "name": "name",
                       "nameText": "Your Name",
+                      "onApiFail": [Function],
+                      "onApiSuccess": [Function],
                       "onSubmit": [Function],
                       "phone": "5476",
                       "phoneText": "Your Phone",
@@ -2772,9 +2784,6 @@ ReactWrapper {
                       <button
                         class="btn ContactUs__SubmitButton"
                       >
-                        <i
-                          class="fa fa"
-                        />
                         Submit
                       </button>
                     </div>
@@ -2806,12 +2815,16 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "apiUrl": "",
+                        "loading": false,
                         "mail": "mail@gmail.com",
                         "mailText": "Your Email",
                         "message": "This is a new message",
                         "messageText": "Your Message",
                         "name": "name",
                         "nameText": "Your Name",
+                        "onApiFail": [Function],
+                        "onApiSuccess": [Function],
                         "onSubmit": [Function],
                         "phone": "5476",
                         "phoneText": "Your Phone",
@@ -2844,12 +2857,16 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "apiUrl": "",
+                  "loading": false,
                   "mail": "mail@gmail.com",
                   "mailText": "Your Email",
                   "message": "This is a new message",
                   "messageText": "Your Message",
                   "name": "name",
                   "nameText": "Your Name",
+                  "onApiFail": [Function],
+                  "onApiSuccess": [Function],
                   "onSubmit": [Function],
                   "phone": "5476",
                   "phoneText": "Your Phone",
@@ -2864,12 +2881,16 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "apiUrl": "",
+                  "loading": false,
                   "mail": "mail@gmail.com",
                   "mailText": "Your Email",
                   "message": "This is a new message",
                   "messageText": "Your Message",
                   "name": "name",
                   "nameText": "Your Name",
+                  "onApiFail": [Function],
+                  "onApiSuccess": [Function],
                   "onSubmit": [Function],
                   "phone": "5476",
                   "phoneText": "Your Phone",
@@ -3315,7 +3336,7 @@ ReactWrapper {
                         "child": FiberNode {
                           "_debugID": 17,
                           "_debugIsCurrentlyTiming": false,
-                          "_debugOwner": [Circular],
+                          "_debugOwner": null,
                           "_debugSource": null,
                           "actualDuration": 0,
                           "actualStartTime": 0,
@@ -3327,54 +3348,19 @@ ReactWrapper {
                           "index": 0,
                           "key": null,
                           "lastEffect": null,
-                          "memoizedProps": Object {
-                            "className": "fa fa",
-                          },
+                          "memoizedProps": "Submit",
                           "memoizedState": null,
                           "mode": 0,
                           "nextEffect": null,
-                          "pendingProps": Object {
-                            "className": "fa fa",
-                          },
+                          "pendingProps": "Submit",
                           "ref": null,
                           "return": [Circular],
                           "selfBaseTime": 0,
-                          "sibling": FiberNode {
-                            "_debugID": 18,
-                            "_debugIsCurrentlyTiming": false,
-                            "_debugOwner": null,
-                            "_debugSource": null,
-                            "actualDuration": 0,
-                            "actualStartTime": 0,
-                            "alternate": null,
-                            "child": null,
-                            "effectTag": 0,
-                            "expirationTime": 0,
-                            "firstEffect": null,
-                            "index": 1,
-                            "key": null,
-                            "lastEffect": null,
-                            "memoizedProps": "Submit",
-                            "memoizedState": null,
-                            "mode": 0,
-                            "nextEffect": null,
-                            "pendingProps": "Submit",
-                            "ref": null,
-                            "return": [Circular],
-                            "selfBaseTime": 0,
-                            "sibling": null,
-                            "stateNode": Submit,
-                            "tag": 6,
-                            "treeBaseTime": 0,
-                            "type": null,
-                            "updateQueue": null,
-                          },
-                          "stateNode": <i
-                            class="fa fa"
-                          />,
-                          "tag": 5,
+                          "sibling": null,
+                          "stateNode": Submit,
+                          "tag": 6,
                           "treeBaseTime": 0,
-                          "type": "i",
+                          "type": null,
                           "updateQueue": null,
                         },
                         "effectTag": 0,
@@ -3385,10 +3371,8 @@ ReactWrapper {
                         "lastEffect": null,
                         "memoizedProps": Object {
                           "children": Array [
-                            <i
-                              className="fa fa"
-                            />,
                             "Submit",
+                            false,
                           ],
                           "className": "btn ContactUs__SubmitButton",
                           "disabled": false,
@@ -3399,10 +3383,8 @@ ReactWrapper {
                         "nextEffect": null,
                         "pendingProps": Object {
                           "children": Array [
-                            <i
-                              className="fa fa"
-                            />,
                             "Submit",
+                            false,
                           ],
                           "className": "btn ContactUs__SubmitButton",
                           "disabled": false,
@@ -3415,9 +3397,6 @@ ReactWrapper {
                         "stateNode": <button
                           class="btn ContactUs__SubmitButton"
                         >
-                          <i
-                            class="fa fa"
-                          />
                           Submit
                         </button>,
                         "tag": 5,
@@ -3437,9 +3416,6 @@ ReactWrapper {
                           disabled={false}
                           onClick={[Function]}
                         >
-                          <i
-                            className="fa fa"
-                          />
                           Submit
                         </button>,
                         "className": "text-center",
@@ -3453,9 +3429,6 @@ ReactWrapper {
                           disabled={false}
                           onClick={[Function]}
                         >
-                          <i
-                            className="fa fa"
-                          />
                           Submit
                         </button>,
                         "className": "text-center",
@@ -3470,9 +3443,6 @@ ReactWrapper {
                         <button
                           class="btn ContactUs__SubmitButton"
                         >
-                          <i
-                            class="fa fa"
-                          />
                           Submit
                         </button>
                       </div>,
@@ -3610,9 +3580,6 @@ ReactWrapper {
                     disabled={false}
                     onClick={[Function]}
                   >
-                    <i
-                      className="fa fa"
-                    />
                     Submit
                   </button>
                 </div>,
@@ -3680,9 +3647,6 @@ ReactWrapper {
                     disabled={false}
                     onClick={[Function]}
                   >
-                    <i
-                      className="fa fa"
-                    />
                     Submit
                   </button>
                 </div>,
@@ -3747,9 +3711,6 @@ ReactWrapper {
                 <button
                   class="btn ContactUs__SubmitButton"
                 >
-                  <i
-                    class="fa fa"
-                  />
                   Submit
                 </button>
               </div>
@@ -3766,12 +3727,16 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
+            "apiUrl": "",
+            "loading": false,
             "mail": "mail@gmail.com",
             "mailText": "Your Email",
             "message": "This is a new message",
             "messageText": "Your Message",
             "name": "name",
             "nameText": "Your Name",
+            "onApiFail": [Function],
+            "onApiSuccess": [Function],
             "onSubmit": [Function],
             "phone": "5476",
             "phoneText": "Your Phone",
@@ -3781,6 +3746,7 @@ ReactWrapper {
             "submitButtonText": "Submit",
           },
           "memoizedState": Object {
+            "loading": false,
             "mail": "mail@gmail.com",
             "message": "This is a new message",
             "name": "name",
@@ -3789,12 +3755,16 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "apiUrl": "",
+            "loading": false,
             "mail": "mail@gmail.com",
             "mailText": "Your Email",
             "message": "This is a new message",
             "messageText": "Your Message",
             "name": "name",
             "nameText": "Your Name",
+            "onApiFail": [Function],
+            "onApiSuccess": [Function],
             "onSubmit": [Function],
             "phone": "5476",
             "phoneText": "Your Phone",
@@ -3823,12 +3793,16 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -3842,12 +3816,16 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -3863,12 +3841,16 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "apiUrl": "",
+                "loading": false,
                 "mail": "mail@gmail.com",
                 "mailText": "Your Email",
                 "message": "This is a new message",
                 "messageText": "Your Message",
                 "name": "name",
                 "nameText": "Your Name",
+                "onApiFail": [Function],
+                "onApiSuccess": [Function],
                 "onSubmit": [Function],
                 "phone": "5476",
                 "phoneText": "Your Phone",
@@ -3966,9 +3948,6 @@ ReactWrapper {
                         <button
                           class="btn ContactUs__SubmitButton"
                         >
-                          <i
-                            class="fa fa"
-                          />
                           Submit
                         </button>
                       </div>
@@ -4010,12 +3989,16 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "apiUrl": "",
+                            "loading": false,
                             "mail": "mail@gmail.com",
                             "mailText": "Your Email",
                             "message": "This is a new message",
                             "messageText": "Your Message",
                             "name": "name",
                             "nameText": "Your Name",
+                            "onApiFail": [Function],
+                            "onApiSuccess": [Function],
                             "onSubmit": [Function],
                             "phone": "5476",
                             "phoneText": "Your Phone",
@@ -4043,12 +4026,16 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "apiUrl": "",
+                            "loading": false,
                             "mail": "mail@gmail.com",
                             "mailText": "Your Email",
                             "message": "This is a new message",
                             "messageText": "Your Message",
                             "name": "name",
                             "nameText": "Your Name",
+                            "onApiFail": [Function],
+                            "onApiSuccess": [Function],
                             "onSubmit": [Function],
                             "phone": "5476",
                             "phoneText": "Your Phone",
@@ -4078,12 +4065,16 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "apiUrl": "",
+                      "loading": false,
                       "mail": "mail@gmail.com",
                       "mailText": "Your Email",
                       "message": "This is a new message",
                       "messageText": "Your Message",
                       "name": "name",
                       "nameText": "Your Name",
+                      "onApiFail": [Function],
+                      "onApiSuccess": [Function],
                       "onSubmit": [Function],
                       "phone": "5476",
                       "phoneText": "Your Phone",
@@ -4158,9 +4149,6 @@ ReactWrapper {
                       <button
                         class="btn ContactUs__SubmitButton"
                       >
-                        <i
-                          class="fa fa"
-                        />
                         Submit
                       </button>
                     </div>
@@ -4192,12 +4180,16 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "apiUrl": "",
+                        "loading": false,
                         "mail": "mail@gmail.com",
                         "mailText": "Your Email",
                         "message": "This is a new message",
                         "messageText": "Your Message",
                         "name": "name",
                         "nameText": "Your Name",
+                        "onApiFail": [Function],
+                        "onApiSuccess": [Function],
                         "onSubmit": [Function],
                         "phone": "5476",
                         "phoneText": "Your Phone",
@@ -4230,12 +4222,16 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "apiUrl": "",
+                  "loading": false,
                   "mail": "mail@gmail.com",
                   "mailText": "Your Email",
                   "message": "This is a new message",
                   "messageText": "Your Message",
                   "name": "name",
                   "nameText": "Your Name",
+                  "onApiFail": [Function],
+                  "onApiSuccess": [Function],
                   "onSubmit": [Function],
                   "phone": "5476",
                   "phoneText": "Your Phone",
@@ -4250,12 +4246,16 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "apiUrl": "",
+                  "loading": false,
                   "mail": "mail@gmail.com",
                   "mailText": "Your Email",
                   "message": "This is a new message",
                   "messageText": "Your Message",
                   "name": "name",
                   "nameText": "Your Name",
+                  "onApiFail": [Function],
+                  "onApiSuccess": [Function],
                   "onSubmit": [Function],
                   "phone": "5476",
                   "phoneText": "Your Phone",
@@ -4285,6 +4285,7 @@ ReactWrapper {
           "type": [Function],
           "updateQueue": Object {
             "baseState": Object {
+              "loading": false,
               "mail": "mail@gmail.com",
               "message": "This is a new message",
               "name": "name",
@@ -4309,12 +4310,16 @@ ReactWrapper {
         "onChangePhone": [Function],
         "onSubmit": [Function],
         "props": Object {
+          "apiUrl": "",
+          "loading": false,
           "mail": "mail@gmail.com",
           "mailText": "Your Email",
           "message": "This is a new message",
           "messageText": "Your Message",
           "name": "name",
           "nameText": "Your Name",
+          "onApiFail": [Function],
+          "onApiSuccess": [Function],
           "onSubmit": [Function],
           "phone": "5476",
           "phoneText": "Your Phone",
@@ -4325,6 +4330,7 @@ ReactWrapper {
         },
         "refs": Object {},
         "state": Object {
+          "loading": false,
           "mail": "mail@gmail.com",
           "message": "This is a new message",
           "name": "name",
@@ -4340,12 +4346,16 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "apiUrl": "",
+        "loading": false,
         "mail": "mail@gmail.com",
         "mailText": "Your Email",
         "message": "This is a new message",
         "messageText": "Your Message",
         "name": "name",
         "nameText": "Your Name",
+        "onApiFail": [Function],
+        "onApiSuccess": [Function],
         "onSubmit": [Function],
         "phone": "5476",
         "phoneText": "Your Phone",
@@ -4410,9 +4420,6 @@ ReactWrapper {
             <button
               class="btn ContactUs__SubmitButton"
             >
-              <i
-                class="fa fa"
-              />
               Submit
             </button>
           </div>
@@ -4477,9 +4484,6 @@ ReactWrapper {
                 disabled={false}
                 onClick={[Function]}
               >
-                <i
-                  className="fa fa"
-                />
                 Submit
               </button>
             </div>,
@@ -4725,9 +4729,6 @@ ReactWrapper {
               <button
                 class="btn ContactUs__SubmitButton"
               >
-                <i
-                  class="fa fa"
-                />
                 Submit
               </button>
             </div>,
@@ -4739,9 +4740,6 @@ ReactWrapper {
                 disabled={false}
                 onClick={[Function]}
               >
-                <i
-                  className="fa fa"
-                />
                 Submit
               </button>,
               "className": "text-center",
@@ -4752,19 +4750,14 @@ ReactWrapper {
                 "instance": <button
                   class="btn ContactUs__SubmitButton"
                 >
-                  <i
-                    class="fa fa"
-                  />
                   Submit
                 </button>,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
                   "children": Array [
-                    <i
-                      className="fa fa"
-                    />,
                     "Submit",
+                    false,
                   ],
                   "className": "btn ContactUs__SubmitButton",
                   "disabled": false,
@@ -4772,21 +4765,6 @@ ReactWrapper {
                 },
                 "ref": null,
                 "rendered": Array [
-                  Object {
-                    "instance": <i
-                      class="fa fa"
-                    />,
-                    "key": undefined,
-                    "nodeType": "host",
-                    "props": Object {
-                      "className": "fa fa",
-                    },
-                    "ref": null,
-                    "rendered": Array [
-                      undefined,
-                    ],
-                    "type": "i",
-                  },
                   "Submit",
                 ],
                 "type": "button",

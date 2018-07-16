@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import EmailValidator from 'email-validator';
+import ContactUsService from "../../service/ContactUs.services";
 
 class ContactUs extends Component {
 	constructor(props) {
@@ -19,6 +20,7 @@ class ContactUs extends Component {
 			mail: this.props.mail,
 			phone: this.props.phone,
 			message: this.props.message,
+			loading: this.props.loading
 		});
 	}
 
@@ -31,10 +33,25 @@ class ContactUs extends Component {
 			this.setState({phone: nextProps.phone});
 		if (nextProps.message !== this.state.message)
 			this.setState({message: nextProps.message});
+		if (nextProps.loading !== this.state.loading)
+			this.setState({loading: nextProps.loading});
 	}
 
 	onSubmit() {
 		this.props.onSubmit(this.state);
+		if (this.props.apiUrl) {
+			this.setState({loading: true}, () => {
+				ContactUsService.send(this.props.apiUrl, this.state.name, this.state.mail, this.state.phone, this.state.message)
+					.then(() => {
+						this.props.onApiSuccess();
+						this.setState({loading: false});
+					})
+					.catch(() => {
+						this.props.onApiFail();
+						this.setState({loading: false});
+					});
+			});
+		}
 	}
 
 	onChangeName($event) {
@@ -107,10 +124,10 @@ class ContactUs extends Component {
 			</div>
 			<div className={`text-${submitButtonAlign}`}>
 				<button className="btn ContactUs__SubmitButton"
-				        disabled={!this.state.name || !this.state.message || !EmailValidator.validate(this.state.mail)}
+				        disabled={!this.state.name || !this.state.message || !EmailValidator.validate(this.state.mail) || this.state.loading}
 				        onClick={this.onSubmit}>
-					<i className="fa fa"/>
-					{submitButtonText}
+					{!this.state.loading && submitButtonText}
+					{this.state.loading && <i className="fa fa-circle-o-notch fa-spin" aria-hidden="true"/>}
 				</button>
 			</div>
 		</div>
@@ -120,6 +137,7 @@ class ContactUs extends Component {
 ContactUs.propTypes = {
 	showText: PropTypes.bool,
 	showPlaceholder: PropTypes.bool,
+	loading: PropTypes.bool,
 	nameText: PropTypes.string,
 	mailText: PropTypes.string,
 	phoneText: PropTypes.string,
@@ -130,11 +148,15 @@ ContactUs.propTypes = {
 	message: PropTypes.string,
 	submitButtonText: PropTypes.string,
 	submitButtonAlign: PropTypes.string,
+	apiUrl: PropTypes.string,
 	onSubmit: PropTypes.func,
+	onApiSuccess: PropTypes.func,
+	onApiFail: PropTypes.func,
 };
 ContactUs.defaultProps = {
 	showText: false,
 	showPlaceholder: true,
+	loading: false,
 	nameText: "Your Name",
 	mailText: "Your Email",
 	phoneText: "Your Phone",
@@ -145,7 +167,12 @@ ContactUs.defaultProps = {
 	message: "",
 	submitButtonText: "Submit",
 	submitButtonAlign: "center",
+	apiUrl: "",
 	onSubmit: ({name, mail, phone, message}) => {
+	},
+	onApiSuccess: () => {
+	},
+	onApiFail: () => {
 	}
 };
 

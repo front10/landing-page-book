@@ -17,6 +17,7 @@ stories.add('ContactUs', withReadme([Readme], () => {
 			<ContactUs
 				showText={boolean("Show text", false)}
 				showPlaceholder={boolean("Show placeholder", true)}
+					loading={boolean("Sending", false)}
 				name={text("Name", "John")}
 				mail={text("Email", "john.email@domain.com")}
 				phone={text("Phone", "2 578 1545")}
@@ -31,9 +32,12 @@ stories.add('ContactUs', withReadme([Readme], () => {
 					"left": "left",
 					"right": "right",
 				}, "center")}
+				apiUrl={text("Api url", "https://maker.ifttt.com/trigger/front10_contactform/with/key/dFOibtTrDh8pCZ9laeYno")}
 				onSubmit={({name, mail, phone, message}) => {
-					alert(`Send data with {"name":"${name}", "mail": "${mail}", "phone":"${phone}", "message":"${message}"}`)
+					console.log(`Send data with {"name":"${name}", "mail": "${mail}", "phone":"${phone}", "message":"${message}"}`)
 				}}
+				onApiSuccess={()=>{console.log("Message has been sent.")}}
+				onApiFail={()=>{console.log("Message fail.")}}
 			/>
 		</ThemeSelector>
 	);

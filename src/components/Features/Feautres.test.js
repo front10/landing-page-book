@@ -1,20 +1,20 @@
 import React from 'react';
 import { configure, shallow, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Code from './Code';
+import Features from './Features';
 
 configure({ adapter: new Adapter() });
 
-describe("Code", () => {
+describe("Features", () => {
 	let props;
 	let mounted;
-	const code = () => {
+	const features = () => {
 		if (!mounted) {
-			mounted = mount(<Code {...props} />);
+			mounted = mount(<Features {...props} />);
 		}
 		return mounted;
 	};
-	describe('Code', () => {
+	describe('Features', () => {
 
 		beforeEach(() => {
 			props = {};
@@ -22,15 +22,11 @@ describe("Code", () => {
 		});
 
 		it('should render', () => {
-			expect(mount(<Code {...props} />)).toMatchSnapshot();
+			expect(mount(<Features {...props} />)).toMatchSnapshot();
 		});
 		it("always renders a div", () => {
-			const divs = code().find("div");
+			const divs = features().find("div");
 			expect(divs.length).toBeGreaterThan(0);
         });
-        it("download", async () => {
-			let res = await GithubService.getRepositoriesDownloads("chubin","chubin");
-			expect(res);
-		});
 	});
 })

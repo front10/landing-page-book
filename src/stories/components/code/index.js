@@ -14,10 +14,8 @@ stories.addDecorator(withKnobs);
 
 const langoptions = {
   javascript: 'javascript',
-  xml: 'xml',
   markdown: 'markdown',
   jsx: 'jsx',
-  php: 'php',
   css: 'css',
   sass: 'sass'
 }; 

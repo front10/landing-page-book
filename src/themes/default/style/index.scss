@@ -6,6 +6,17 @@
 
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
+/* Code component themes*/
+
+@import "~codemirror/lib/codemirror.css";
+@import "~codemirror/theme/idea.css";
+// @import "~codemirror/theme/blackboard.css";
+// @import "~codemirror/theme/material.css";
+// @import "~codemirror/theme/ambiance.css";
+// @import "~codemirror/theme/darcula.css";
+// @import "~codemirror/theme/3024-night.css";
+// @import "~codemirror/theme/abcdef.css";
+
 /*Variables*/
 
 @import "./variables.scss";

@@ -1,6 +1,7 @@
 import Code from './Code';
 import ContactUs from './ContactUs';
 import Copyright from "./Copyright";
+import Features from "./Features";
 import GithubDetail from './GithubDetail';
 import Header from "./Header";
 import Hero from "./Hero";
@@ -19,5 +20,6 @@ export {
 	Social,
 	Team,
 	Video,
-	GithubDetail
+	GithubDetail,
+	Features
 };

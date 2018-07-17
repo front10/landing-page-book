@@ -81,30 +81,30 @@ class Features extends React.Component {
     render() {
 
         return (<div>
-            <div className={`card ${this.state.cardClass}`}>
+            <div className={`card features__card ${this.state.cardClass}`}>
             { this.state.showImage &&
-                <img className={`card-img-top ${this.state.imageClass}`} src={ this.state.imageSrc} alt={this.state.imageAlt}/>
+                <img className={`card-img-top features__card_img ${this.state.imageClass}`} src={ this.state.imageSrc} alt={this.state.imageAlt}/>
             }
-            <div className="card-body">
+            <div className="card-body features__card_boddy">
             { this.state.showTitle &&
 
-                <h4 className={`card-title ${this.state.titleClass}`}>{this.state.titleText}</h4>
+                <h4 className={`card-title features__card_title ${this.state.titleClass}`}>{this.state.titleText}</h4>
             }
             { this.state.showSubTitle &&
-                <h6 className={`card-subtitle mb-2 text-muted ${this.state.subTitleClass}`}>{this.state.subTitleText}</h6>
+                <h6 className={`card-subtitle mb-2 text-muted features__card_subtitle ${this.state.subTitleClass}`}>{this.state.subTitleText}</h6>
             }
             { this.state.showDescriptionText &&
 
-                <p className={`card-text ${this.state.descriptionClass}`}>
+                <p className={`card-text features__card_description ${this.state.descriptionClass}`}>
                 {this.state.descriptionText}
                 </p>
             }
             </div>
             { this.state.showFooter &&
 
-            <div className={`card-footer ${this.state.footerClass}`}>
+            <div className={`card-footer features__card_footer ${this.state.footerClass}`}>
             { this.state.showFooterLink &&
-                <a href={this.state.footerLinkHref} className={`card-link ${this.state.footerLinkClass}`}>{this.state.footerLinkText}</a>
+                <a href={this.state.footerLinkHref} className={`card-link features__card_footer_link ${this.state.footerLinkClass}`}>{this.state.footerLinkText}</a>
             }
             </div>
             }

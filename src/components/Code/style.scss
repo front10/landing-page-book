@@ -1,14 +1,3 @@
-.CodeMirror-lines {
-    background-color: $CodeMirror__lines_backgroundColor;
-}
-
-.CodeMirror__bgColor-dark {
-    .CodeMirror-lines,
-    .CodeMirror-scroll {
-        background-color: $CodeMirror__lines_backgroundColor-dark;
-    }
-}
-
 .CodeMirror__header {
     width: $CodeMirror__header_with;
     height: $CodeMirror__header_height;
@@ -46,10 +35,3 @@
 .CodeMirror {
     height: $CodeMirror__height !important;
 }
-
-h1,
-p {
-    font-family: $CodeMirror__font_family;
-}
-
-@import "~codemirror/lib/codemirror.css";

@@ -1,3 +1,5 @@
+import Browser from './Browser';
+import BrowserSupport from './BrowserSupport';
 import Code from './Code';
 import ContactUs from './ContactUs';
 import Copyright from "./Copyright";
@@ -11,6 +13,8 @@ import Team from "./Team";
 import Video from "./Video";
 
 export {
+	BrowserSupport,
+	Browser,
 	Code,
 	ContactUs,
 	Copyright,

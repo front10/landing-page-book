@@ -11771,6 +11771,9 @@ span.CodeMirror-selectedtext { background: none; }
 /*
  * Team
  */
+/*
+ * Card
+ */
 /*Custom*/
 /*Components*/
 .Browser .Browser__Icon {
@@ -11782,6 +11785,19 @@ span.CodeMirror-selectedtext { background: none; }
 
 .Browser .Browser__Version {
   font-size: .6rem; }
+
+.Card .Card__Summary {
+  font-size: 0.8rem;
+  color: #000;
+  background-color: #fff; }
+
+.Card .Card__Title {
+  font-size: 2rem;
+  color: #000; }
+
+.Card .Card__Subtitle {
+  font-size: 0.9rem;
+  color: #b5b5b5; }
 
 .CodeMirror__header {
   width: 100%;

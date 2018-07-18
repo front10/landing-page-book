@@ -1,5 +1,6 @@
 import Browser from './Browser';
 import BrowserSupport from './BrowserSupport';
+import Card from './Card';
 import Code from './Code';
 import ContactUs from './ContactUs';
 import Copyright from "./Copyright";
@@ -15,6 +16,7 @@ import Video from "./Video";
 export {
 	BrowserSupport,
 	Browser,
+	Card,
 	Code,
 	ContactUs,
 	Copyright,

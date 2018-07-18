@@ -11783,6 +11783,15 @@ span.CodeMirror-selectedtext { background: none; }
 .Browser .Browser__Version {
   font-size: .6rem; }
 
+.BuiltWith .BuiltWith__Container {
+  margin-left: auto;
+  margin-right: auto; }
+  .BuiltWith .BuiltWith__Container .Card img {
+    max-width: 100px; }
+
+.BuiltWith .BuiltWith__Container--grayScale .Card img {
+  filter: grayscale(1); }
+
 .Card .Card__Summary {
   font-size: 0.8rem;
   color: #000;

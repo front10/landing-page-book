@@ -1,5 +1,6 @@
 import Browser from './Browser';
 import BrowserSupport from './BrowserSupport';
+import BuiltWith from './BuiltWith';
 import Card from './Card';
 import Code from './Code';
 import ContactUs from './ContactUs';
@@ -16,6 +17,7 @@ import Video from "./Video";
 export {
 	BrowserSupport,
 	Browser,
+	BuiltWith,
 	Card,
 	Code,
 	ContactUs,

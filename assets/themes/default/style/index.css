@@ -11769,9 +11769,6 @@ span.CodeMirror-selectedtext { background: none; }
  * ContactUs
  */
 /*
- * Team
- */
-/*
  * Card
  */
 /*Custom*/
@@ -11949,21 +11946,6 @@ span.CodeMirror-selectedtext { background: none; }
   .SocialMediaShareButton svg {
     width: 30px;
     height: 30px; }
-
-.Team .Team__Name {
-  font-size: 1.5rem;
-  color: #000; }
-
-.Team .Team__Job {
-  font-size: 0.9rem;
-  color: #b5b5b5; }
-
-.Team .Team__Summary {
-  font-size: 0.8rem;
-  color: #000; }
-
-.Team .Team__Card {
-  border-radius: 0px; }
 
 .CodeMirror__header {
   width: 100%;

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import Social from "../Social";
+import Card from "../Card";
 
 class Team extends Component {
 
@@ -17,40 +18,26 @@ class Team extends Component {
 			showName,
 			showJob,
 			showSummary,
+			showBorder,
 			socials,
 			members,
 			imageCircle,
 			contentAlign
 		} = this.props;
 		return members.map((member, index) => {
-			return <div className={`col col-md-4 col-lg-3 text-${contentAlign} mb-4`} key={index}>
-				<div className="card h-100 Team__Card">
-					<div className="card-body">
-						{
-							showImage &&
-							<img className={`${imageCircle ? 'rounded-circle' : ''}`} src={member.image}
-							     alt="Generic placeholder image"
-							     width="140"
-							     height="140"/>
-						}
-						{
-							showName &&
-							<div className="Team__Name">{member.name}</div>
-						}
-						{
-							showJob &&
-							<div className="Team__Job">{member.job}</div>
-						}
-						{
-							showSummary &&
-							<p className="Team__Summary">{member.summary}</p>
-						}
-						{
-							socials.length > 0 &&
-							<div>{this.renderSocials(member.profile)}</div>
-						}
-					</div>
-				</div>
+			return <div className={`col-12 col-md-4 text-${contentAlign} mb-4`} key={index}>
+				<Card imageCircle={imageCircle}
+				      subTitle={showJob ? member.job : ""}
+				      title={showName ? member.name : ""}
+				      summary={showSummary ? member.summary : ""}
+				      showBorder={showBorder}
+				      contentAlign={contentAlign}
+				      image={showImage ? member.image : ""}>
+					{
+						socials.length > 0 &&
+						<div>{this.renderSocials(member.profile)}</div>
+					}
+				</Card>
 			</div>
 		});
 	}
@@ -64,6 +51,7 @@ class Team extends Component {
 }
 
 Team.propTypes = {
+	showBorder: PropTypes.bool,
 	showImage: PropTypes.bool,
 	showName: PropTypes.bool,
 	showJob: PropTypes.bool,
@@ -74,6 +62,7 @@ Team.propTypes = {
 	members: PropTypes.array
 };
 Team.defaultProps = {
+	showBorder: true,
 	showImage: true,
 	showName: true,
 	showJob: true,

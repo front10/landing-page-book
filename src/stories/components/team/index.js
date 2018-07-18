@@ -9,25 +9,25 @@ import Readme from '../../../components/Team/README.md';
 
 const members = [{
 	image: "https://randomuser.me/api/portraits/men/11.jpg",
-	name: "Sander Coleman",
-	job: "CEO",
+	name: "Sander",
+	job: "Architect",
 	summary: "Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.",
 	profile: "https://front10.com"
 }, {
 	image: "https://randomuser.me/api/portraits/women/2.jpg",
-	name: "Rachel Lee",
-	job: "Developer",
+	name: "Rachel",
+	job: "QA",
 	summary: "Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.",
 	profile: "https://front10.com"
 }, {
 	image: "https://randomuser.me/api/portraits/men/11.jpg",
-	name: "Sander Coleman",
-	job: "CEO",
+	name: "Nick",
+	job: "Developer",
 	summary: "Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.",
 	profile: "https://front10.com"
 }, {
 	image: "https://randomuser.me/api/portraits/women/2.jpg",
-	name: "Rachel Lee",
+	name: "Anna",
 	job: "Developer",
 	summary: "Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.",
 	profile: "https://front10.com"
@@ -41,6 +41,7 @@ stories.add('Team', withReadme([Readme], () => {
 	return (
 		<ThemeSelector>
 			<Team
+				showBorder={boolean("Show border", true)}
 				showName={boolean("Show name", true)}
 				showImage={boolean("Show image", true)}
 				showJob={boolean("Show job", true)}

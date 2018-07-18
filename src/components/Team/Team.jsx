@@ -25,7 +25,7 @@ class Team extends Component {
 			contentAlign
 		} = this.props;
 		return members.map((member, index) => {
-			return <div className={`col col-md-4 col-lg-3 text-${contentAlign} mb-4`} key={index}>
+			return <div className={`col-12 col-md-4 text-${contentAlign} mb-4`} key={index}>
 				<Card imageCircle={imageCircle}
 				      subTitle={showJob ? member.job : ""}
 				      title={showName ? member.name : ""}

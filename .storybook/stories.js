@@ -11,6 +11,7 @@ import '../src/stories/documentation/Introduction';
 
 import '../src/stories/components/browser';
 import '../src/stories/components/browser-support';
+import '../src/stories/components/card';
 import '../src/stories/components/code';
 import '../src/stories/components/contact-us';
 import '../src/stories/components/copyright';

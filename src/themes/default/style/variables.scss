@@ -61,15 +61,15 @@ $GithubDetail__countbubble_after-border: 7px solid transparent;
 $GithubDetail__countbubble_after-borderColor: transparent #DCDCDC transparent transparent;
 $GithubDetail__buttonText-ml: 5px;
 $GithubDetail__btn_container-padding: 5px;
-$GithubDetail_btn-backgroundColor:#DCDCDC;
-$GithubDetail_btn-Color:#000;
+$GithubDetail_btn-backgroundColor: #DCDCDC;
+$GithubDetail_btn-Color: #000;
 
 /*
 * Code
 */
 
-$CodeMirror__lines_backgroundColor:#FFF;
-$CodeMirror__lines_backgroundColor-dark:#DCDCDC;
+$CodeMirror__lines_backgroundColor: #FFF;
+$CodeMirror__lines_backgroundColor-dark: #DCDCDC;
 $CodeMirror__header_with: 100%;
 $CodeMirror__header_height: 45px;
 $CodeMirror__header_backgroundColor: #DCDCDC;
@@ -86,7 +86,7 @@ $CodeMirror__footerDark_backgroundColor: rgb(68, 68, 68);
 $CodeMirror__footerDark_Color: #FFF;
 $CodeMirror__header_copybtn_margin: 10px -10px 0 0;
 $CodeMirror__header_deletebtn_margin: 10px 20px 0 0;
-$CodeMirror__height:250px;
+$CodeMirror__height: 250px;
 $CodeMirror__font_family: Lato;
 
 /*
@@ -114,3 +114,15 @@ $Team__Job-color: #b5b5b5;
 $Team__Summary-fontSize: 0.8rem;
 $Team__Summary-color: #000;
 $Team__Card-borderRadius: 0px;
+
+/*
+ * Card
+ */
+
+$Card__Summary-fontSize: 0.8rem;
+$Card__Summary-color: #000;
+$Card__Summary-backgroundColor: #fff;
+$Card__Title-fontSize: 2rem;
+$Card__Title-color: #000;
+$Card__Subtitle-fontSize: 0.9rem;
+$Card__Subtitle-color: #b5b5b5;

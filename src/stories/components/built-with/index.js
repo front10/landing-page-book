@@ -25,13 +25,13 @@ stories.addDecorator(withKnobs);
 
 stories.add('BuiltWith', withReadme([Readme], () => {
 	return (
-		<ThemeSelector>
-			<div className="container">
-				<BuiltWith
-					gray={boolean("Use gray", true)}
-					companies={companies}
-				/>
-			</div>
-		</ThemeSelector>
+  <ThemeSelector>
+    <div className="container">
+      <BuiltWith
+        gray={boolean("Use gray", true)}
+        companies={companies}
+      />
+    </div>
+  </ThemeSelector>
 	);
 }));

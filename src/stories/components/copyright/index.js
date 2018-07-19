@@ -13,16 +13,16 @@ stories.addDecorator(withKnobs);
 
 stories.add('Copyright', withReadme([Readme], () => {
 	return (
-		<ThemeSelector>
-			<Copyright
-				showAllRightText={boolean("Show all right text", true)}
-				showCopyRightSymbol={boolean("Show copy right symbol", true)}
-				showCopyRightText={boolean("Show copy right text", true)}
-				showYear={boolean("Show year", true)}
-				allRightText={text("All right text", "All rights reserved")}
-				copyRightText={text("Copy right text", "Copyright")}
-				text={text("Text", "Fron10, inc")}
-			/>
-		</ThemeSelector>
+  <ThemeSelector>
+    <Copyright
+      showAllRightText={boolean("Show all right text", true)}
+      showCopyRightSymbol={boolean("Show copy right symbol", true)}
+      showCopyRightText={boolean("Show copy right text", true)}
+      showYear={boolean("Show year", true)}
+      allRightText={text("All right text", "All rights reserved")}
+      copyRightText={text("Copy right text", "Copyright")}
+      text={text("Text", "Fron10, inc")}
+    />
+  </ThemeSelector>
 	);
 }));

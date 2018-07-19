@@ -13,20 +13,20 @@ stories.addDecorator(withKnobs);
 
 stories.add('Browser', withReadme([Readme], () => {
 	return (
-		<ThemeSelector>
-			<Browser
-				showText={boolean("Show text", true)}
-				type={select("Type", {
-					"firefox": "firefox",
-					"chrome": "chrome",
-					"iexplore": "iexplore",
-					"safari": "safari",
-					"opera": "opera",
-					"maxthon": "maxthon",
-					"flock": "flock"
-				}, "chrome")}
-				version={text("Version", ">= 20.0")}
-			/>
-		</ThemeSelector>
+  <ThemeSelector>
+    <Browser
+      showText={boolean("Show text", true)}
+      type={select("Type", {
+        "firefox": "firefox",
+        "chrome": "chrome",
+        "iexplore": "iexplore",
+        "safari": "safari",
+        "opera": "opera",
+        "maxthon": "maxthon",
+        "flock": "flock"
+      }, "chrome")}
+      version={text("Version", ">= 20.0")}
+    />
+  </ThemeSelector>
 	);
 }));

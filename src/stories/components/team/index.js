@@ -39,22 +39,22 @@ stories.addDecorator(withKnobs);
 
 stories.add('Team', withReadme([Readme], () => {
 	return (
-		<ThemeSelector>
-			<Team
-				showBorder={boolean("Show border", true)}
-				showName={boolean("Show name", true)}
-				showImage={boolean("Show image", true)}
-				showJob={boolean("Show job", true)}
-				showSummary={boolean("Show summary", true)}
-				imageCircle={boolean("Image circle", true)}
-				contentAlign={select("Content align", {
-					"center": "center",
-					"left": "left",
-					"right": "right"
-				}, "center")}
-				members={members}
-				socials={array("Socials", ["facebook", "linkedin", "google", "twitter"], ",")}
-			/>
-		</ThemeSelector>
+  <ThemeSelector>
+    <Team
+      showBorder={boolean("Show border", true)}
+      showName={boolean("Show name", true)}
+      showImage={boolean("Show image", true)}
+      showJob={boolean("Show job", true)}
+      showSummary={boolean("Show summary", true)}
+      imageCircle={boolean("Image circle", true)}
+      contentAlign={select("Content align", {
+        "center": "center",
+        "left": "left",
+        "right": "right"
+      }, "center")}
+      members={members}
+      socials={array("Socials", ["facebook", "linkedin", "google", "twitter"], ",")}
+    />
+  </ThemeSelector>
 	);
 }));

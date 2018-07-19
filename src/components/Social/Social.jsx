@@ -37,91 +37,93 @@ class Social extends Component {
 		const {
 			url,
 			rounded,
-			type
+			type,
+			gray
 		} = this.props;
 		return <React.Fragment>
 			{
 				type === 'facebook' &&
-				<FacebookShareButton url={url}>
+				<FacebookShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<FacebookIcon round={rounded}/>
 				</FacebookShareButton>
 			}
 			{
 				type === 'google' &&
-				<GooglePlusShareButton url={url}>
+				<GooglePlusShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<GooglePlusIcon round={rounded}/>
 				</GooglePlusShareButton>
 			}
 			{
 				type === 'linkedin' &&
-				<LinkedinShareButton url={url}>
+				<LinkedinShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<LinkedinIcon round={rounded}/>
 				</LinkedinShareButton>
 			}
 			{
 				type === 'twitter' &&
-				<TwitterShareButton url={url}>
+				<TwitterShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<TwitterIcon round={rounded}/>
 				</TwitterShareButton>
 			}
 			{
 				type === 'telegram' &&
-				<TelegramShareButton url={url}>
+				<TelegramShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<TelegramIcon round={rounded}/>
 				</TelegramShareButton>
 			}
 			{
 				type === 'whatsapp' &&
-				<WhatsappShareButton url={url}>
+				<WhatsappShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<WhatsappIcon round={rounded}/>
 				</WhatsappShareButton>
 			}
 			{
 				type === 'pinterest' &&
 				<PinterestShareButton url={url}
-				                      media="Share in Pinterest">
+				                      media="Share in Pinterest"
+				                      className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<PinterestIcon round={rounded}/>
 				</PinterestShareButton>
 			}
 			{
 				type === 'vk' &&
-				<VKShareButton url={url}>
+				<VKShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<VKIcon round={rounded}/>
 				</VKShareButton>
 			}
 			{
 				type === 'ok' &&
-				<OKShareButton url={url}>
+				<OKShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<OKIcon round={rounded}/>
 				</OKShareButton>
 			}
 			{
 				type === 'reddit' &&
-				<RedditShareButton url={url}>
+				<RedditShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<RedditIcon round={rounded}/>
 				</RedditShareButton>
 			}
 			{
 				type === 'tumblr' &&
-				<TumblrShareButton url={url}>
+				<TumblrShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<TumblrIcon round={rounded}/>
 				</TumblrShareButton>
 			}
 			{
 				type === 'livejournal' &&
-				<LivejournalShareButton url={url}>
+				<LivejournalShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<LivejournalIcon round={rounded}/>
 				</LivejournalShareButton>
 			}
 			{
 				type === 'viber' &&
-				<ViberShareButton url={url}>
+				<ViberShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<ViberIcon round={rounded}/>
 				</ViberShareButton>
 			}
 			{
 				type === 'email' &&
-				<EmailShareButton url={url}>
+				<EmailShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
 					<EmailIcon round={rounded}/>
 				</EmailShareButton>
 			}
@@ -130,13 +132,15 @@ class Social extends Component {
 }
 
 Social.propTypes = {
-	type: PropTypes.string,
+	gray: PropTypes.bool,
 	rounded: PropTypes.bool,
+	type: PropTypes.string,
 	url: PropTypes.string,
 };
 Social.defaultProps = {
-	type: "email",
+	gray: false,
 	rounded: true,
+	type: "email",
 	url: ""
 };
 

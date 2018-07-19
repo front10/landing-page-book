@@ -6,6 +6,7 @@ import Code from './Code';
 import ContactUs from './ContactUs';
 import Copyright from "./Copyright";
 import Features from "./Features";
+import Footer from "./Footer";
 import GithubDetail from './GithubDetail';
 import Header from "./Header";
 import Hero from "./Hero";
@@ -22,6 +23,7 @@ export {
 	Code,
 	ContactUs,
 	Copyright,
+	Footer,
 	Header,
 	Hero,
 	Location,

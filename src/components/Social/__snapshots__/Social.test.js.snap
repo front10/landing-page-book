@@ -5,6 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Social
+    gray={false}
     rounded={true}
     type="email"
     url=""
@@ -36,6 +37,7 @@ ShallowWrapper {
         false,
         false,
         <CreatedButton
+          className=""
           onClick={[Function]}
           openWindow={false}
           url=""
@@ -77,6 +79,7 @@ ShallowWrapper {
             round={true}
             size={64}
           />,
+          "className": "",
           "onClick": [Function],
           "openWindow": false,
           "url": "",
@@ -123,6 +126,7 @@ ShallowWrapper {
           false,
           false,
           <CreatedButton
+            className=""
             onClick={[Function]}
             openWindow={false}
             url=""
@@ -164,6 +168,7 @@ ShallowWrapper {
               round={true}
               size={64}
             />,
+            "className": "",
             "onClick": [Function],
             "openWindow": false,
             "url": "",

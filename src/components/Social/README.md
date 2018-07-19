@@ -21,6 +21,7 @@ import {Social} from '@front10/landing-page-book/src/components';
 
 | </br>Name   | </br>Type | </br>Summary                                                                                 | 
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
+| gray      | `Boolean` | Define if image is gray scale. Default `false` |
 | rounded      | `Boolean` | Show buttons rounded or square. Default `true` |
 | type      | `String` | Type of button. Default `"email"`, possibles values are: `facebook`, `google`, `linkedin`, `twitter`, `telegram`, `whatsapp`, `pinterest`, `vk`, `ok`, `reddit`, `tumblr`, `livejournal`, `email`, `viber` |
 | url      | `String` | Url to share. Default `""` |

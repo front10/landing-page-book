@@ -11771,6 +11771,9 @@ span.CodeMirror-selectedtext { background: none; }
 /*
  * Card
  */
+/*
+ * Footer
+ */
 /*Custom*/
 /*Components*/
 .Browser .Browser__Icon {
@@ -11853,6 +11856,21 @@ span.CodeMirror-selectedtext { background: none; }
 .ContactUs .ContactUs__SubmitButton:not(:disabled):focus {
   color: white;
   background-color: #065AC5; }
+
+.Footer {
+  padding: 2.5rem 0;
+  color: #CCCCCC;
+  text-align: center;
+  background-color: #383d45; }
+  .Footer .Footer__Copyright {
+    font-size: 0.8rem; }
+  .Footer .Footer__Sections__Header {
+    font-size: 1.5rem; }
+  .Footer .Footer__Sections__Link {
+    color: #CCCCCC;
+    font-size: 0.8rem; }
+  .Footer .Footer__Sections__Link:hover {
+    color: #fed136; }
 
 .speech-bubble {
   position: relative;
@@ -11955,6 +11973,9 @@ span.CodeMirror-selectedtext { background: none; }
   .SocialMediaShareButton svg {
     width: 30px;
     height: 30px; }
+
+.SocialMediaShareButton--grayScale svg {
+  filter: grayscale(1); }
 
 .CodeMirror__header {
   width: 100%;

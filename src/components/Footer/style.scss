@@ -1,0 +1,22 @@
+.Footer {
+  padding: 2.5rem 0;
+  color: $Footer-color;
+  text-align: center;
+  background-color: $Footer-backgroundColor;
+
+  .Footer__Copyright{
+    font-size: $Footer__Copyright-fontSize;
+  }
+
+  .Footer__Sections__Header{
+    font-size: $Footer__Sections__Header-fontSize;
+  }
+
+  .Footer__Sections__Link{
+    color: $Footer-color;
+    font-size: $Footer__Sections__Link-fontSize;
+  }
+  .Footer__Sections__Link:hover{
+    color: $Footer__Sections__Link--hover-color;
+  }
+}

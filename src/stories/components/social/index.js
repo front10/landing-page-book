@@ -15,6 +15,7 @@ stories.add('Social', withReadme([Readme], () => {
 	return (
 		<ThemeSelector>
 			<Social
+				gray={boolean("Use gray", false)}
 				type={select("Button type", {
 					"email": "email",
 					"facebook": "facebook",

@@ -17,6 +17,7 @@ import '../src/stories/components/code';
 import '../src/stories/components/contact-us';
 import '../src/stories/components/copyright';
 import '../src/stories/components/features';
+import '../src/stories/components/footer';
 import '../src/stories/components/github-detail';
 import '../src/stories/components/header';
 import '../src/stories/components/hero';

@@ -17,28 +17,44 @@ import {Feature} from '@front10/landing-page-book/src/components';
 
 ```html
 
- <Features 
-          cardClass="bg-primary"
-          showImage
-          imageSrc="images/features/dashboard.png"
-          imageClass="bg-white"
-          imageAlt="Features example"
-          showTitle
-          titleText="Features"
-          titleClass="text-white"
-          showSubTitle
-          subTitleText="Blue theme"
-          subTitleClass="text-white"
-          showDescriptionText
-          descriptionText="React component to show all your project features!"
-          descriptionClass="text-white"
-          showFooter
-          footerClass=""
-          showFooterLink
-          footerLinkText="See more..."
-          footerLinkClass="text-white"
-          footerLinkHref="#!"
+ <Features
+      features={featuress}
         />
+
+```
+
+## Example
+
+```js
+const members = [{
+	image: "images/features/dashboard.png",
+	title: "Dashboard",
+	subtitle: "Dashboard for Admin",
+	summary: "Example of feature text, this component will allow to you to show all your features.",
+  link: "https://front10.com",
+  linktext: "See more..."
+}, {
+	image: "images/features/react.png",
+	title: "ReactJS",
+	subtitle: "Build with ReactJS",
+	summary: "Example of feature text, this component will allow to you to show all your features.",
+  link: "https://front10.com",
+  linktext: "See more..."
+}, {
+	image: "images/features/angular.png",
+	title: "AngularJS",
+	subtitle: "Powered by Angular 5",
+	summary: "Example of feature text, this component will allow to you to show all your features.",
+  link: "https://front10.com",
+  linktext: "See more..."
+}, {
+	image: "images/features/graphql.png",
+	title: "GraphQL",
+	subtitle: "GraphQL API",
+	summary: "Example of feature text, this component will allow to you to show all your features.",
+  link: "https://front10.com",
+  linktext: "See more..."
+}];
 
 ```
 
@@ -46,23 +62,10 @@ import {Feature} from '@front10/landing-page-book/src/components';
 
 | </br>Name             | </br>Type | </br>Summary                                                                          | 
 | ----------------------| --------- | ------------------------------------------------------------------------------------- |
-| showImage             | `Boolean` | Shows image on top of the card, Default `true`
-| showTitle             | `Boolean` | Shows Title text, Default `true`
-| showSubTitle          | `Boolean` | Shows Subtitle text, Default `true`
-| showDescriptionText   | `Boolean` | Shows Description text, Default `true`
-| showfooter            | `Boolean` | Shows footer, Default `true`
-| showFooterLink        | `String`  | Shows footer link, Default `true`
-| cardClass             | `String`  | Add class name to card.
-| imageSrc              | `String`  | source from image to show, `path, url`
-| imageClass            | `String`  | Add class to img element.
-| imageAlt              | `String`  | Alt text on img element.
-| titleText             | `String`  | Title text.
-| titleClass            | `String`  | Add class to Title text.
-| subTitleText          | `String`  | Subtitle text.
-| subTitleClass         | `String`  | Add class to subtitle text.
-| descriptionText       | `String`  | Description text.
-| descriptionClass      | `String`  | Add class to description text.
-| footerClass           | `String`  | Add class to Footer element.
-| footerLinkText        | `String`  | Footer link text, i. g. `see more...`
-| footerLinkClass       | `String`  | Add class to footer link
-| footerLinkHref        | `String`  | Footer link hrf property, `href="#!"`
+| showImage             | `Boolean` | Show or hide image. Default `true`                                                    |
+| showTitle             | `Boolean` | Show or hide title. Default `true`                                                    |
+| showSubtitle          | `Boolean` | Show or hide subtitle. Default `true`                                                 |
+| showSummary           | `Boolean` | Show or hide summary. Default `true`                                                  |
+| imageCircle           | `Boolean` | Establishes if image is circled. Default `true`                                       |
+| contentAlign          | `String`  | Align of a component content. Default `"center"`, can be `left` and `right` too       |
+| features              | `Array`   | Array of features to show. Default `[]`, see example section.                         |

@@ -66,37 +66,37 @@ stories.addDecorator(withKnobs);
 
 stories.add('Default', withReadme([Readme], () => {
 	return (
-		<ThemeSelector>
-			<Footer
-				socialGray={boolean("Social gray", false)}
-				socialRounded={boolean("Social rounded", true)}
-				socialUrl={text("Social url", "https://front10.com")}
-				copyright={text("Copyright", "Front10, Inc")}
-				socials={array("Socials", ["facebook", "linkedin", "google", "twitter"], ",")}
-				sections={sections}
-			/>
-		</ThemeSelector>
+  <ThemeSelector>
+    <Footer
+      socialGray={boolean("Social gray", false)}
+      socialRounded={boolean("Social rounded", true)}
+      socialUrl={text("Social url", "https://front10.com")}
+      copyright={text("Copyright", "Front10, Inc")}
+      socials={array("Socials", ["facebook", "linkedin", "google", "twitter"], ",")}
+      sections={sections}
+    />
+  </ThemeSelector>
 	);
 }));
 
 stories.add('Children', withReadme([Readme], () => {
 	return (
-		<ThemeSelector>
-			<Footer>
-				<div className="row">
-					<div className="col-sm-12 col-md">
-						<Copyright text="Front10, Inc" showAllRightText={false}/>
-					</div>
-					<div className="col-sm-12 col-md mt-3 mt-md-0">
-						<img src="https://front10.com/img/logos/logo-main.png" width={80} alt="Front 10 logo"/>
-					</div>
-					<div className="col-sm-12 col-md mt-3 mt-md-0">
-						<Social type="twitter" url="https://front10.com" gray/>
-						<Social type="facebook" url="https://front10.com" gray/>
-						<Social type="linkedin" url="https://front10.com" gray/>
-					</div>
-				</div>
-			</Footer>
-		</ThemeSelector>
+  <ThemeSelector>
+    <Footer>
+      <div className="row">
+        <div className="col-sm-12 col-md">
+          <Copyright text="Front10, Inc" showAllRightText={false} />
+        </div>
+        <div className="col-sm-12 col-md mt-3 mt-md-0" >
+          <img src="https://front10.com/img/logos/logo-main.png" width={80} alt="Front 10 logo" />
+        </div>
+        <div className="col-sm-12 col-md mt-3 mt-md-0">
+          <Social type="twitter" url="https://front10.com" gray />
+          <Social type="facebook" url="https://front10.com" gray />
+          <Social type="linkedin" url="https://front10.com" gray />
+        </div>
+      </div>
+    </Footer>
+  </ThemeSelector>
 	);
 }));

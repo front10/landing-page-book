@@ -31,21 +31,21 @@ stories.addDecorator(withKnobs);
 
 stories.add('Front10', () => {
 	return (
-		<ThemeSelector>
-			<Header
-				companyName="Front10"
-				companyLink="https://front10.com"
-				companyLogo="images/logo/front10.png"
-				rightItems={rightItems}
-			/>
-			<Hero
-				overlayColor="#383d45"
-				opacity={1}
-				subHeaderPosition="top"
-				subHeader="Leverage your process!"
-				header="REACT & ANGULARJS COMPONENTS"
-				buttons={buttons}
-			/>
-		</ThemeSelector>
+  <ThemeSelector>
+    <Header
+      companyName="Front10"
+      companyLink="https://front10.com"
+      companyLogo="images/logo/front10.png"
+      rightItems={rightItems}
+    />
+    <Hero
+      overlayColor="#383d45"
+      opacity={1}
+      subHeaderPosition="top"
+      subHeader="Leverage your process!"
+      header="REACT & ANGULARJS COMPONENTS"
+      buttons={buttons}
+    />
+  </ThemeSelector>
 	);
 });

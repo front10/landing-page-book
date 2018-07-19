@@ -56,26 +56,26 @@ class Notes extends React.Component {
 
 	render() {
 		return (
-			<div style={styles}>
-				{themes.map((theme) => {
-					return (
-						<button
-							key={theme.id}
-							id={theme.id}
-							style={
-								this.state.theme === theme.id ? {
-									...button,
-									backgroundColor: "#4285f4",
-									color: "#fff",
-								} : button
-							}
-							onClick={this.changeTheme}
-						>
-							{theme.name}
-						</button>
-					);
-				})}
-			</div>
+  <div style={styles}>
+    {themes.map((theme) => {
+      return (
+        <button
+          key={theme.id}
+          id={theme.id}
+          style={
+            this.state.theme === theme.id ? {
+              ...button,
+              backgroundColor: "#4285f4",
+              color: "#fff",
+            } : button
+          }
+          onClick={this.changeTheme}
+        >
+          {theme.name}
+        </button>
+      );
+    })}
+  </div>
 		);
 	}
 }
@@ -86,10 +86,10 @@ addons
 		'theme/switcher'
 		, (api) => {
 			const
-				notesLocal = <Notes channel={addons.getChannel()} api={api}/>;
+				notesLocal = <Notes channel={addons.getChannel()} api={api} />;
 			// Also need to set a unique name to the panel.
 			const
-				NotesLocal = <Notes channel={addons.getChannel()} api={api}/>;
+				NotesLocal = <Notes channel={addons.getChannel()} api={api} />;
 			addons
 				.addPanel(
 					'theme/switcher/panel'

@@ -25,16 +25,16 @@ stories.addDecorator(withKnobs);
 
 stories.add('Location', withReadme([Readme], () => {
 	return (
-		<ThemeSelector>
-			<div style={{height: "300px"}}>
-				<Location
-					apiKey="AIzaSyAP5ycGdpjGBUU-u6vZ8fwx_ybbyzgYXfM"
-					lat={26.5}
-					lng={-80.2}
-					zoom={10}
-					markers={markers}
-				/>
-			</div>
-		</ThemeSelector>
+  <ThemeSelector>
+    <div style={{height: "300px"}}>
+      <Location
+        apiKey="AIzaSyAP5ycGdpjGBUU-u6vZ8fwx_ybbyzgYXfM"
+        lat={26.5}
+        lng={-80.2}
+        zoom={10}
+        markers={markers}
+      />
+    </div>
+  </ThemeSelector>
 	);
 }));

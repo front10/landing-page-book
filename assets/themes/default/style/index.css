@@ -11977,7 +11977,5 @@ span.CodeMirror-selectedtext { background: none; }
 .SocialMediaShareButton--grayScale svg {
   filter: grayscale(1); }
 
-.CodeMirror__header {
-  width: 100%;
-  height: 45px;
-  background-color: #DCDCDC; }
+.features img {
+  /* width: 100px;*/ }

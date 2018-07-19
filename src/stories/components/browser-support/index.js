@@ -36,11 +36,11 @@ stories.addDecorator(withKnobs);
 
 stories.add('Browsers support', withReadme([Readme], () => {
 	return (
-		<ThemeSelector>
-			<BrowserSupport
-				items={browsers}
-				showText={boolean("Show text", true)}
-			/>
-		</ThemeSelector>
+  <ThemeSelector>
+    <BrowserSupport
+      items={browsers}
+      showText={boolean("Show text", true)}
+    />
+  </ThemeSelector>
 	);
 }));

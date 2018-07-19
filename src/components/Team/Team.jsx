@@ -4,6 +4,9 @@ import Social from "../Social";
 import Card from "../Card";
 
 class Team extends Component {
+	constructor(props) {
+        super(props);        
+    }
 
 	renderSocials(url) {
 		const {socials} = this.props;

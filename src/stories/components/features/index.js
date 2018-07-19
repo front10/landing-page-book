@@ -1,6 +1,6 @@
 import React from 'react';
 import {storiesOf} from '@storybook/react';
-import {withKnobs, text, boolean} from '@storybook/addon-knobs/react';
+import {withKnobs, select, boolean} from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import {ThemeSelector} from "../../../addons/ThemeSwitcher";
 
@@ -11,85 +11,53 @@ const stories = storiesOf('Components', module);
 
 
 stories.addDecorator(withKnobs);
+const featuress = [{
+	image: "images/features/dashboard.png",
+	title: "Dashboard",
+	subtitle: "Dashboard for Admin",
+	summary: "Example of feature text, this component will allow to you to show all your features.",
+  link: "https://front10.com",
+  linktext: "See more..."
+}, {
+	image: "images/features/react.png",
+	title: "ReactJS",
+	subtitle: "Build with ReactJS",
+	summary: "Example of feature text, this component will allow to you to show all your features.",
+  link: "https://front10.com",
+  linktext: "See more..."
+}, {
+	image: "images/features/angular.png",
+	title: "AngularJS",
+	subtitle: "Powered by Angular 5",
+	summary: "Example of feature text, this component will allow to you to show all your features.",
+  link: "https://front10.com",
+  linktext: "See more..."
+}, {
+	image: "images/features/graphql.png",
+	title: "GraphQL",
+	subtitle: "GraphQL API",
+	summary: "Example of feature text, this component will allow to you to show all your features.",
+  link: "https://front10.com",
+  linktext: "See more..."
+}];
 
 stories.add('Features', withReadme([Readme], () => {
 return (
-  <ThemeSelector>
-    <div className="row mt-5 d-flex justify-content-center">
-      <div className=" col-md-3">
-        <Features 
-          cardClass="bg-dark"
-          showImage
-          imageSrc="images/features/dashboard.png"
-          imageClass="bg-white"
-          imageAlt="Features example"
-          showTitle
-          titleText="Features"
-          titleClass="text-white"
-          showSubTitle
-          subTitleText="dark theme"
-          subTitleClass="text-white"
-          showDescriptionText
-          descriptionText="React component to show all your project features!"
-          descriptionClass="text-white"
-          showFooter
-          footerClass=""
-          showFooterLink
-          footerLinkText="See more..."
-          footerLinkClass=""
-          footerLinkHref="#!"
-        />
-      </div>
-      <div className=" col-md-3">
-        <Features 
-          cardClass="bg-primary"
-          showImage
-          imageSrc="images/features/dashboard.png"
-          imageClass="bg-white"
-          imageAlt="Features example"
-          showTitle
-          titleText="Features"
-          titleClass="text-white"
-          showSubTitle
-          subTitleText="Blue theme"
-          subTitleClass="text-white"
-          showDescriptionText
-          descriptionText="React component to show all your project features!"
-          descriptionClass="text-white"
-          showFooter
-          footerClass=""
-          showFooterLink
-          footerLinkText="See more..."
-          footerLinkClass="text-white"
-          footerLinkHref="#!"
-        />
-      </div>
-      <div className=" col-md-6">
-        <Features 
-          cardClass={text("Card class", '')}
-          showImage={boolean("Show image", true)}
-          imageSrc={text("Image src", 'images/features/dashboard.png')}
-          imageClass={text("Image class", '')}
-          imageAlt={text("Image alt text", 'dashboard')}
-          showTitle={boolean("Show title", true)}
-          titleText={text("Title text", 'Feature')}
-          titleClass={text("Title class", '')}
-          showSubTitle={boolean("Show subtitle", true)}
-          subTitleText={text("SubTitle text", 'Feature')}
-          subTitleClass={text("SubTitle class", '')}
-          showDescriptionText={boolean("Show description text", true)}
-          descriptionText={text("Description text", 'React component to show all your project features!')}
-          descriptionClass={text("Description class", '')}
-          showFooter={boolean("Show footer", true)}
-          footerClass={text("Footer class", '')}
-          showFooterLink={boolean("Show footer link", true)}
-          footerLinkText={text("Footer text", 'See more...')}
-          footerLinkClass={text("Footer class", '')}
-          footerLinkHref={text("Footer link href", '#!')}
-        />
-      </div>
-    </div>
-  
+  <ThemeSelector>    
+    <Features 
+      showBorder={boolean("Show border", false)}
+      showTitle={boolean("Show Title", true)}
+      showImage={boolean("Show image", true)}
+      showSubtitle={boolean("Show Subtitle", false)}
+      showSummary={boolean("Show summary", true)}
+      imageCircle={boolean("Image circle", false)}
+      contentAlign={select("Content align", {
+      "center": "center",
+      "left": "left",
+      "right": "right"
+    }, "center")}
+      features={featuress}
+    />      
   </ThemeSelector>
 );
 }));

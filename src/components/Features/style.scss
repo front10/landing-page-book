@@ -1,37 +1,3 @@
-.CodeMirror__header {
-    width: $CodeMirror__header_with;
-    height: $CodeMirror__header_height;
-    background-color: $CodeMirror__header_backgroundColor;
-}
-
-.CodeMirror__footer {
-    width: $CodeMirror__footer_with;
-    height: $CodeMirror__footer_height;
-    background-color: $CodeMirror__footer_backgroundColor;
-}
-
-.CodeMirror__header-dark {
-    width: $CodeMirror__headerDark_with;
-    height: $CodeMirror__headerDark_height;
-    color: $CodeMirror__headerDark_Color;
-    background-color: $CodeMirror__headerDark_backgroundColor;
-}
-
-.CodeMirror__footer-dark {
-    width: $CodeMirror__footerDark_with;
-    height: $CodeMirror__footerDark_height;
-    background-color: $CodeMirror__footerDark_backgroundColor;
-    color: $CodeMirror__footerDark_Color;
-}
-
-.CodeMirror__header_copybtn {
-    margin: $CodeMirror__header_copybtn_margin;
-}
-
-.CodeMirror__header_deletebtn {
-    margin: $CodeMirror__header_deletebtn_margin;
-}
-
-.CodeMirror {
-    height: $CodeMirror__height !important;
+.features img {
+    /* width: 100px;*/
 }

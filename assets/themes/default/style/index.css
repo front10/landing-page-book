@@ -11774,6 +11774,9 @@ span.CodeMirror-selectedtext { background: none; }
 /*
  * Footer
  */
+/*
+ * Section
+ */
 /*Custom*/
 /*Components*/
 .Browser .Browser__Icon {
@@ -11795,18 +11798,18 @@ span.CodeMirror-selectedtext { background: none; }
 .BuiltWith .BuiltWith__Container--grayScale .Card img {
   filter: grayscale(1); }
 
-.Card .Card__Summary {
-  font-size: 0.8rem;
-  color: #000;
-  background-color: #fff; }
-
-.Card .Card__Title {
-  font-size: 2rem;
-  color: #000; }
-
-.Card .Card__Subtitle {
-  font-size: 0.9rem;
-  color: #b5b5b5; }
+.Card {
+  background-color: transparent; }
+  .Card .Card__Summary {
+    font-size: 0.8rem;
+    color: #000;
+    background-color: #fff; }
+  .Card .Card__Title {
+    font-size: 2rem;
+    color: #000; }
+  .Card .Card__Subtitle {
+    font-size: 0.9rem;
+    color: #b5b5b5; }
 
 .CodeMirror__header {
   width: 100%;
@@ -11963,6 +11966,21 @@ span.CodeMirror-selectedtext { background: none; }
     font-size: 30px !important; }
   .Hero__SubHeader {
     font-size: 20px !important; } }
+
+.Section div {
+  margin-left: auto;
+  margin-right: auto; }
+
+.Section .Section__Title {
+  font-size: 2rem;
+  color: #000; }
+
+.Section .Section__Subtitle {
+  font-size: 0.9rem;
+  color: #b5b5b5; }
+
+.Section--gray {
+  background-color: #f8f9fa; }
 
 .SocialMediaShareButton {
   display: inline-block;

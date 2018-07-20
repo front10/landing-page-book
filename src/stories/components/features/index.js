@@ -51,6 +51,7 @@ return (
       showSubtitle={boolean("Show Subtitle", false)}
       showSummary={boolean("Show summary", true)}
       imageCircle={boolean("Image circle", false)}
+      imageBorder={boolean("Image border", false)}
       contentAlign={select("Content align", {
       "center": "center",
       "left": "left",

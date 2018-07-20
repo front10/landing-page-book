@@ -39,9 +39,10 @@ class Hero extends Component {
 			subHeaderPosition,
 			particles,
 			particlesParams,
+			backgroundColor,
 			children
 		} = this.props;
-		return <div className="Hero">
+		return <div className="Hero" style={{backgroundColor: backgroundColor}}>
 			<LazyHero isFixed={isFixed}
 			          isCentered={isCentered}
 			          imageSrc={image}
@@ -94,6 +95,7 @@ Hero.propTypes = {
 	subHeader: PropTypes.string,
 	subHeaderPosition: PropTypes.string,
 	minHeight: PropTypes.string,
+	backgroundColor: PropTypes.string,
 	buttons: PropTypes.array,
 	particlesParams: PropTypes.object,
 };
@@ -109,6 +111,7 @@ Hero.defaultProps = {
 	subHeader: "",
 	subHeaderPosition: "bottom",
 	minHeight: "100vh",
+	backgroundColor: "transparent",
 	buttons: [],
 	particlesParams: {}
 };

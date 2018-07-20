@@ -33,6 +33,7 @@ You can use Hero component with children too:
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
 | showBorder      | `Boolean` | Show or hide border. Default `true` |
 | imageCircle      | `Boolean` | Define if image is circular. Default `true` |
+| imageBorder      | `Boolean` | Define if image is with border. Default `false` |
 | image      | `String` | Image url. Default `""` |
 | title      | `String` | Card title. Default `""` |
 | subTitle      | `String` | Card subtitle. Default `""` |

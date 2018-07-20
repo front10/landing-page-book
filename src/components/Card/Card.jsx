@@ -9,6 +9,7 @@ class Card extends Component {
 		const {
 			image,
 			imageCircle,
+			imageBorder,
 			title,
 			subTitle,
 			summary,
@@ -20,7 +21,7 @@ class Card extends Component {
 			<div className={`card-body text-${contentAlign}`}>
 				{
 					image &&
-					<img className={`${imageCircle ? 'rounded-circle' : ''} img-fluid`} src={image}
+					<img className={`${imageCircle ? 'rounded-circle' : ''} ${imageBorder ? 'img-thumbnail' : ''} img-fluid`} src={image}
 					     alt="Generic placeholder image"/>
 				}
 				{
@@ -49,6 +50,7 @@ class Card extends Component {
 Card.propTypes = {
 	showBorder: PropTypes.bool,
 	imageCircle: PropTypes.bool,
+	imageBorder: PropTypes.bool,
 	image: PropTypes.string,
 	title: PropTypes.string,
 	subTitle: PropTypes.string,
@@ -58,6 +60,7 @@ Card.propTypes = {
 Card.defaultProps = {
 	showBorder: true,
 	imageCircle: true,
+	imageBorder: false,
 	image: "",
 	title: "",
 	subTitle: "",

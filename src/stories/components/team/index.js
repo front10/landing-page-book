@@ -47,6 +47,8 @@ stories.add('Team', withReadme([Readme], () => {
       showJob={boolean("Show job", true)}
       showSummary={boolean("Show summary", true)}
       imageCircle={boolean("Image circle", true)}
+      imageBorder={boolean("Image border", false)}
+      socialGray={boolean("Social gray", false)}
       contentAlign={select("Content align", {
         "center": "center",
         "left": "left",

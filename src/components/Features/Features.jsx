@@ -3,11 +3,11 @@ import PropTypes from 'prop-types';
 import Card from "../Card";
 
 class Features extends React.Component {
-    constructor(props) {
-        super(props);        
-    }
+	constructor(props) {
+		super(props);
+	}
 
-   
+
 	renderLinks() {
 		const {links} = this.props;
 		return links.map((link, index) => {
@@ -24,6 +24,7 @@ class Features extends React.Component {
 			showBorder,
 			features,
 			imageCircle,
+			imageBorder,
 			contentAlign
 		} = this.props;
 		return features.map((feature, index) => {
@@ -34,10 +35,11 @@ class Features extends React.Component {
 				      summary={showSummary ? feature.summary : ""}
 				      showBorder={showBorder}
 				      contentAlign={contentAlign}
+				      imageBorder={imageBorder}
 				      image={showImage ? feature.image : ""}>
-					
-						<a href={feature.link}>{feature.linktext}</a>
-					
+
+					<a href={feature.link}>{feature.linktext}</a>
+
 				</Card>
 			</div>
 		});
@@ -52,23 +54,25 @@ class Features extends React.Component {
 }
 
 Features.propTypes = {
-    showBorder: PropTypes.bool,
+	showBorder: PropTypes.bool,
 	showImage: PropTypes.bool,
 	showTitle: PropTypes.bool,
 	showSubtitle: PropTypes.bool,
 	showSummary: PropTypes.bool,
 	imageCircle: PropTypes.bool,
+	imageBorder: PropTypes.bool,
 	contentAlign: PropTypes.string,
 	features: PropTypes.array
 };
 
 Features.defaultProps = {
-    showBorder: true,
+	showBorder: true,
 	showImage: true,
 	showTitle: true,
 	showSubtitle: true,
 	showSummary: true,
 	imageCircle: true,
+	imageBorder: false,
 	contentAlign: "center",
 	features: []
 };

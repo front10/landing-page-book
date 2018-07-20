@@ -1,0 +1,19 @@
+.Section{
+  div{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .Section__Title{
+    font-size: $Section__Title-fontSize;
+    color: $Section__Title-color;
+  }
+  .Section__Subtitle{
+    font-size: $Section__Subtitle-fontSize;
+    color: $Section__Subtitle-color;
+  }
+}
+
+.Section--gray{
+  background-color: $Section--gray-backgroundColor;
+}

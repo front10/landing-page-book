@@ -19,6 +19,7 @@ stories.add('Default', withReadme([Readme], () => {
         <Card
           showBorder={boolean("Show border", true)}
           imageCircle={boolean("Image cilcle", true)}
+          imageBorder={boolean("Image border", false)}
           title={text("Title", "Front10 landing page")}
           subTitle={text("Sub title", "This is a card example")}
           summary={text("Summary", "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.")}
@@ -43,6 +44,7 @@ stories.add('Children', withReadme([Readme], () => {
         <Card
           showBorder={boolean("Show border", true)}
           imageCircle={boolean("Image cilcle", true)}
+          imageBorder={boolean("Image border", false)}
           title={text("Title", "Front10 landing page")}
           subTitle={text("Sub title", "This is a card example")}
           summary={text("Summary", "This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.")}

@@ -1,4 +1,4 @@
-# Code
+# Features
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -17,9 +17,7 @@ import {Feature} from '@front10/landing-page-book/src/components';
 
 ```html
 
- <Features
-      features={featuress}
-        />
+ <Features features={featuress} />
 
 ```
 
@@ -66,6 +64,8 @@ const members = [{
 | showTitle             | `Boolean` | Show or hide title. Default `true`                                                    |
 | showSubtitle          | `Boolean` | Show or hide subtitle. Default `true`                                                 |
 | showSummary           | `Boolean` | Show or hide summary. Default `true`                                                  |
+| showBorder           | `Boolean` | Show or hide card border. Default `true`                                                  |
 | imageCircle           | `Boolean` | Establishes if image is circled. Default `true`                                       |
+| imageBorder           | `Boolean` | Establishes if image is with border. Default `false`                                       |
 | contentAlign          | `String`  | Align of a component content. Default `"center"`, can be `left` and `right` too       |
 | features              | `Array`   | Array of features to show. Default `[]`, see example section.                         |

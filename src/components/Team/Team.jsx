@@ -9,9 +9,9 @@ class Team extends Component {
     }
 
 	renderSocials(url) {
-		const {socials} = this.props;
+		const {socials, socialGray} = this.props;
 		return socials.map((social, index) => {
-			return <Social key={index} url={url} type={social}/>
+			return <Social key={index} url={url} type={social} gray={socialGray}/>
 		});
 	}
 
@@ -25,7 +25,8 @@ class Team extends Component {
 			socials,
 			members,
 			imageCircle,
-			contentAlign
+			contentAlign,
+			imageBorder
 		} = this.props;
 		return members.map((member, index) => {
 			return <div className={`col-12 col-md-4 text-${contentAlign} mb-4`} key={index}>
@@ -35,6 +36,7 @@ class Team extends Component {
 				      summary={showSummary ? member.summary : ""}
 				      showBorder={showBorder}
 				      contentAlign={contentAlign}
+				      imageBorder={imageBorder}
 				      image={showImage ? member.image : ""}>
 					{
 						socials.length > 0 &&
@@ -60,6 +62,8 @@ Team.propTypes = {
 	showJob: PropTypes.bool,
 	showSummary: PropTypes.bool,
 	imageCircle: PropTypes.bool,
+	imageBorder: PropTypes.bool,
+	socialGray: PropTypes.bool,
 	contentAlign: PropTypes.string,
 	socials: PropTypes.array,
 	members: PropTypes.array
@@ -71,6 +75,8 @@ Team.defaultProps = {
 	showJob: true,
 	showSummary: true,
 	imageCircle: true,
+	imageBorder: false,
+	socialGray: false,
 	contentAlign: "center",
 	socials: [],
 	members: []

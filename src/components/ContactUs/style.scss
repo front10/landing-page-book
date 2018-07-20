@@ -1,0 +1,20 @@
+.ContactUs {
+  .ContactUs__Label {
+    font-weight: $ContactUs__Label-fontWeight;
+    font-size: $ContactUs__Label-fontSize;
+  }
+  .ContactUs__Input{
+    border-radius: $ContactUs__Input-borderRadius;
+    font-size: $ContactUs__Input-fontSize;
+  }
+  .ContactUs__SubmitButton{
+    color: $ContactUs__SubmitButton-color;
+    background-color: $ContactUs__SubmitButton-backgroundColor;
+    border-radius: $ContactUs__SubmitButton-borderRadius;
+  }
+  .ContactUs__SubmitButton:not(:disabled):hover,
+  .ContactUs__SubmitButton:not(:disabled):focus{
+    color: $ContactUs__SubmitButton--hover-color;
+    background-color: $ContactUs__SubmitButton--hover-backgroundColor;
+  }
+}

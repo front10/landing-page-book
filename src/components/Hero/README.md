@@ -52,5 +52,6 @@ Note: if you use Hero component with children, properties `buttons`, `header`, `
 | subHeader      | `String` | Sub header of the hero . Default `""`
 | subHeaderPosition      | `String` | Position of hero sub header. Default `"bottom"`, can be `"top"`
 | minHeight      | `String` | Min height of hero. Default `"100vh"`
+| backgroundColor      | `String` | Background color of the hero. Default `"transparent"`
 | particlesParams      | `Object` | Object with particles config. Default `{}`, yow can see [react-particles-js](https://www.npmjs.com/package/react-particles-js)
 | buttons      | `Array` | Array with buttons to show in hero. Default `[]`, each element must be a object with this structure: `{text: "TELL ME MORE", onClick: ({button})=>{}}`

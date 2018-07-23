@@ -13,31 +13,31 @@ import {BrowserSupport} from '@front10/landing-page-book/src/components';
 
 2- Put this code into jsx page:
 ```html
-<BrowserSupport items={browsers}/>
+<BrowserSupport browsers={browsers}/>
 ```
 
 ## Example
 ```js
 const browsers = [{
-	type: "firefox",
+	vendor: "firefox",
 	version: "> 56"
 },{
-	type: "chrome",
+	vendor: "chrome",
 	version: "= 62"
 },{
-	type: "iexplore",
+	vendor: "iexplore",
 	version: "> 9"
 },{
-	type: "safari",
+	vendor: "safari",
 	version: "> 25"
 },{
-	type: "netscape",
+	vendor: "netscape",
 	version: "> 42.6"
 },{
-	type: "opera",
+	vendor: "opera",
 	version: "< 15.6"
 },{
-	type: "maxthon",
+	vendor: "maxthon",
 	version: ">= 10"
 }];
 ```
@@ -47,4 +47,4 @@ const browsers = [{
 | </br>Name   | </br>Type | </br>Summary                                                                                 | 
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
 | showText      | `Boolean` | Show or hide text in browsers. Default `true` |
-| items      | `Array` | Array of browsers. Default `[]`, see example section |
+| browsers      | `Array` | Array of browsers. Default `[]`, see example section |

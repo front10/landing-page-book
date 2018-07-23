@@ -1,12 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Browser Browser should render 1`] = `
+exports[`Container Container should render 1`] = `
 ReactWrapper {
   "length": 1,
-  Symbol(enzyme.__unrendered__): <Browser
-    showText={true}
-    vendor=""
-    version=""
+  Symbol(enzyme.__unrendered__): <Container
+    fluid={false}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -17,7 +15,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": Browser {
+    "instance": Container {
       "_reactInternalFiber": FiberNode {
         "_debugID": 5,
         "_debugIsCurrentlyTiming": false,
@@ -40,18 +38,14 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "showText": true,
-              "vendor": "",
-              "version": "",
+              "fluid": false,
             },
           },
           "memoizedState": Object {
             "context": null,
             "mount": true,
             "props": Object {
-              "showText": true,
-              "vendor": "",
-              "version": "",
+              "fluid": false,
             },
           },
           "mode": 0,
@@ -60,9 +54,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "showText": true,
-              "vendor": "",
-              "version": "",
+              "fluid": false,
             },
           },
           "ref": null,
@@ -100,7 +92,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="d-inline Browser"
+                    class="container"
                   />
                 </div>,
                 "context": Object {},
@@ -139,9 +131,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "showText": true,
-                          "vendor": "",
-                          "version": "",
+                          "fluid": false,
                         }
                       }
                     />,
@@ -162,9 +152,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "showText": true,
-                          "vendor": "",
-                          "version": "",
+                          "fluid": false,
                         }
                       }
                     />,
@@ -187,9 +175,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "showText": true,
-                    "vendor": "",
-                    "version": "",
+                    "fluid": false,
                   }
                 }
               />,
@@ -204,7 +190,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="d-inline Browser"
+                  class="container"
                 />
               </div>,
               "context": Object {},
@@ -233,9 +219,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "showText": true,
-                      "vendor": "",
-                      "version": "",
+                      "fluid": false,
                     }
                   }
                 />,
@@ -261,9 +245,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "refs": Object {},
@@ -271,9 +253,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "updater": Object {
@@ -308,40 +288,22 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": Array [
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-            ],
-            "className": "d-inline Browser",
+            "children": undefined,
+            "className": "container",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": Array [
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-              false,
-            ],
-            "className": "d-inline Browser",
+            "children": undefined,
+            "className": "container",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div
-            class="d-inline Browser"
+            class="container"
           />,
           "tag": 5,
           "treeBaseTime": 0,
@@ -355,17 +317,13 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
-          "showText": true,
-          "vendor": "",
-          "version": "",
+          "fluid": false,
         },
         "memoizedState": null,
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
-          "showText": true,
-          "vendor": "",
-          "version": "",
+          "fluid": false,
         },
         "ref": null,
         "return": FiberNode {
@@ -387,18 +345,14 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "showText": true,
-              "vendor": "",
-              "version": "",
+              "fluid": false,
             },
           },
           "memoizedState": Object {
             "context": null,
             "mount": true,
             "props": Object {
-              "showText": true,
-              "vendor": "",
-              "version": "",
+              "fluid": false,
             },
           },
           "mode": 0,
@@ -407,9 +361,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "showText": true,
-              "vendor": "",
-              "version": "",
+              "fluid": false,
             },
           },
           "ref": null,
@@ -447,7 +399,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="d-inline Browser"
+                    class="container"
                   />
                 </div>,
                 "context": Object {},
@@ -486,9 +438,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "showText": true,
-                          "vendor": "",
-                          "version": "",
+                          "fluid": false,
                         }
                       }
                     />,
@@ -509,9 +459,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "showText": true,
-                          "vendor": "",
-                          "version": "",
+                          "fluid": false,
                         }
                       }
                     />,
@@ -534,9 +482,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "showText": true,
-                    "vendor": "",
-                    "version": "",
+                    "fluid": false,
                   }
                 }
               />,
@@ -551,7 +497,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="d-inline Browser"
+                  class="container"
                 />
               </div>,
               "context": Object {},
@@ -580,9 +526,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "showText": true,
-                      "vendor": "",
-                      "version": "",
+                      "fluid": false,
                     }
                   }
                 />,
@@ -608,9 +552,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "refs": Object {},
@@ -618,9 +560,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "updater": Object {
@@ -646,9 +586,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
-        "showText": true,
-        "vendor": "",
-        "version": "",
+        "fluid": false,
       },
       "refs": Object {},
       "state": null,
@@ -662,42 +600,22 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "showText": true,
-      "vendor": "",
-      "version": "",
+      "fluid": false,
     },
     "ref": null,
     "rendered": Object {
       "instance": <div
-        class="d-inline Browser"
+        class="container"
       />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-        ],
-        "className": "d-inline Browser",
+        "children": undefined,
+        "className": "container",
       },
       "ref": null,
       "rendered": Array [
-        Array [
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-          false,
-        ],
+        undefined,
       ],
       "type": "div",
     },
@@ -705,7 +623,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
-      "instance": Browser {
+      "instance": Container {
         "_reactInternalFiber": FiberNode {
           "_debugID": 5,
           "_debugIsCurrentlyTiming": false,
@@ -728,18 +646,14 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "memoizedState": Object {
               "context": null,
               "mount": true,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "mode": 0,
@@ -748,9 +662,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "ref": null,
@@ -788,7 +700,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="d-inline Browser"
+                      class="container"
                     />
                   </div>,
                   "context": Object {},
@@ -827,9 +739,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "showText": true,
-                            "vendor": "",
-                            "version": "",
+                            "fluid": false,
                           }
                         }
                       />,
@@ -850,9 +760,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "showText": true,
-                            "vendor": "",
-                            "version": "",
+                            "fluid": false,
                           }
                         }
                       />,
@@ -875,9 +783,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "showText": true,
-                      "vendor": "",
-                      "version": "",
+                      "fluid": false,
                     }
                   }
                 />,
@@ -892,7 +798,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="d-inline Browser"
+                    class="container"
                   />
                 </div>,
                 "context": Object {},
@@ -921,9 +827,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "showText": true,
-                        "vendor": "",
-                        "version": "",
+                        "fluid": false,
                       }
                     }
                   />,
@@ -949,9 +853,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "showText": true,
-                  "vendor": "",
-                  "version": "",
+                  "fluid": false,
                 },
               },
               "refs": Object {},
@@ -959,9 +861,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "showText": true,
-                  "vendor": "",
-                  "version": "",
+                  "fluid": false,
                 },
               },
               "updater": Object {
@@ -996,40 +896,22 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": Array [
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-              ],
-              "className": "d-inline Browser",
+              "children": undefined,
+              "className": "container",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": Array [
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-                false,
-              ],
-              "className": "d-inline Browser",
+              "children": undefined,
+              "className": "container",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="d-inline Browser"
+              class="container"
             />,
             "tag": 5,
             "treeBaseTime": 0,
@@ -1043,17 +925,13 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "showText": true,
-            "vendor": "",
-            "version": "",
+            "fluid": false,
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "showText": true,
-            "vendor": "",
-            "version": "",
+            "fluid": false,
           },
           "ref": null,
           "return": FiberNode {
@@ -1075,18 +953,14 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "memoizedState": Object {
               "context": null,
               "mount": true,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "mode": 0,
@@ -1095,9 +969,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "",
-                "version": "",
+                "fluid": false,
               },
             },
             "ref": null,
@@ -1135,7 +1007,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="d-inline Browser"
+                      class="container"
                     />
                   </div>,
                   "context": Object {},
@@ -1174,9 +1046,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "showText": true,
-                            "vendor": "",
-                            "version": "",
+                            "fluid": false,
                           }
                         }
                       />,
@@ -1197,9 +1067,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "showText": true,
-                            "vendor": "",
-                            "version": "",
+                            "fluid": false,
                           }
                         }
                       />,
@@ -1222,9 +1090,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "showText": true,
-                      "vendor": "",
-                      "version": "",
+                      "fluid": false,
                     }
                   }
                 />,
@@ -1239,7 +1105,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="d-inline Browser"
+                    class="container"
                   />
                 </div>,
                 "context": Object {},
@@ -1268,9 +1134,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "showText": true,
-                        "vendor": "",
-                        "version": "",
+                        "fluid": false,
                       }
                     }
                   />,
@@ -1296,9 +1160,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "showText": true,
-                  "vendor": "",
-                  "version": "",
+                  "fluid": false,
                 },
               },
               "refs": Object {},
@@ -1306,9 +1168,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "showText": true,
-                  "vendor": "",
-                  "version": "",
+                  "fluid": false,
                 },
               },
               "updater": Object {
@@ -1334,9 +1194,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
-          "showText": true,
-          "vendor": "",
-          "version": "",
+          "fluid": false,
         },
         "refs": Object {},
         "state": null,
@@ -1350,42 +1208,22 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "showText": true,
-        "vendor": "",
-        "version": "",
+        "fluid": false,
       },
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="d-inline Browser"
+          class="container"
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-          ],
-          "className": "d-inline Browser",
+          "children": undefined,
+          "className": "container",
         },
         "ref": null,
         "rendered": Array [
-          Array [
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-            false,
-          ],
+          undefined,
         ],
         "type": "div",
       },

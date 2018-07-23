@@ -8,25 +8,25 @@ import {BrowserSupport} from '../../../components';
 import Readme from '../../../components/BrowserSupport/README.md';
 
 const browsers = [{
-	type: "firefox",
+	vendor: "firefox",
 	version: "> 56"
 }, {
-	type: "chrome",
+	vendor: "chrome",
 	version: "= 62"
 }, {
-	type: "iexplore",
+	vendor: "iexplore",
 	version: "> 9"
 }, {
-	type: "safari",
+	vendor: "safari",
 	version: "> 25"
 }, {
-	type: "netscape",
+	vendor: "netscape",
 	version: "> 42.6"
 }, {
-	type: "opera",
+	vendor: "opera",
 	version: "< 15.6"
 }, {
-	type: "maxthon",
+	vendor: "maxthon",
 	version: ">= 10"
 }];
 
@@ -38,7 +38,7 @@ stories.add('Browsers support', withReadme([Readme], () => {
 	return (
   <ThemeSelector>
     <BrowserSupport
-      items={browsers}
+      browsers={browsers}
       showText={boolean("Show text", true)}
     />
   </ThemeSelector>

@@ -5,6 +5,7 @@ ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Team
     contentAlign="center"
+    imageBorder={false}
     imageCircle={true}
     members={Array []}
     showBorder={true}
@@ -12,6 +13,7 @@ ReactWrapper {
     showJob={true}
     showName={true}
     showSummary={true}
+    socialGray={false}
     socials={Array []}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -47,6 +49,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "contentAlign": "center",
+              "imageBorder": false,
               "imageCircle": true,
               "members": Array [],
               "showBorder": true,
@@ -54,6 +57,7 @@ ReactWrapper {
               "showJob": true,
               "showName": true,
               "showSummary": true,
+              "socialGray": false,
               "socials": Array [],
             },
           },
@@ -62,6 +66,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "contentAlign": "center",
+              "imageBorder": false,
               "imageCircle": true,
               "members": Array [],
               "showBorder": true,
@@ -69,6 +74,7 @@ ReactWrapper {
               "showJob": true,
               "showName": true,
               "showSummary": true,
+              "socialGray": false,
               "socials": Array [],
             },
           },
@@ -79,6 +85,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "contentAlign": "center",
+              "imageBorder": false,
               "imageCircle": true,
               "members": Array [],
               "showBorder": true,
@@ -86,6 +93,7 @@ ReactWrapper {
               "showJob": true,
               "showName": true,
               "showSummary": true,
+              "socialGray": false,
               "socials": Array [],
             },
           },
@@ -164,6 +172,7 @@ ReactWrapper {
                       props={
                         Object {
                           "contentAlign": "center",
+                          "imageBorder": false,
                           "imageCircle": true,
                           "members": Array [],
                           "showBorder": true,
@@ -171,6 +180,7 @@ ReactWrapper {
                           "showJob": true,
                           "showName": true,
                           "showSummary": true,
+                          "socialGray": false,
                           "socials": Array [],
                         }
                       }
@@ -193,6 +203,7 @@ ReactWrapper {
                       props={
                         Object {
                           "contentAlign": "center",
+                          "imageBorder": false,
                           "imageCircle": true,
                           "members": Array [],
                           "showBorder": true,
@@ -200,6 +211,7 @@ ReactWrapper {
                           "showJob": true,
                           "showName": true,
                           "showSummary": true,
+                          "socialGray": false,
                           "socials": Array [],
                         }
                       }
@@ -224,6 +236,7 @@ ReactWrapper {
                 props={
                   Object {
                     "contentAlign": "center",
+                    "imageBorder": false,
                     "imageCircle": true,
                     "members": Array [],
                     "showBorder": true,
@@ -231,6 +244,7 @@ ReactWrapper {
                     "showJob": true,
                     "showName": true,
                     "showSummary": true,
+                    "socialGray": false,
                     "socials": Array [],
                   }
                 }
@@ -276,6 +290,7 @@ ReactWrapper {
                   props={
                     Object {
                       "contentAlign": "center",
+                      "imageBorder": false,
                       "imageCircle": true,
                       "members": Array [],
                       "showBorder": true,
@@ -283,6 +298,7 @@ ReactWrapper {
                       "showJob": true,
                       "showName": true,
                       "showSummary": true,
+                      "socialGray": false,
                       "socials": Array [],
                     }
                   }
@@ -310,6 +326,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -317,6 +334,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -326,6 +344,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -333,6 +352,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -398,6 +418,7 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "contentAlign": "center",
+          "imageBorder": false,
           "imageCircle": true,
           "members": Array [],
           "showBorder": true,
@@ -405,6 +426,7 @@ ReactWrapper {
           "showJob": true,
           "showName": true,
           "showSummary": true,
+          "socialGray": false,
           "socials": Array [],
         },
         "memoizedState": null,
@@ -412,6 +434,7 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "contentAlign": "center",
+          "imageBorder": false,
           "imageCircle": true,
           "members": Array [],
           "showBorder": true,
@@ -419,6 +442,7 @@ ReactWrapper {
           "showJob": true,
           "showName": true,
           "showSummary": true,
+          "socialGray": false,
           "socials": Array [],
         },
         "ref": null,
@@ -442,6 +466,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "contentAlign": "center",
+              "imageBorder": false,
               "imageCircle": true,
               "members": Array [],
               "showBorder": true,
@@ -449,6 +474,7 @@ ReactWrapper {
               "showJob": true,
               "showName": true,
               "showSummary": true,
+              "socialGray": false,
               "socials": Array [],
             },
           },
@@ -457,6 +483,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "contentAlign": "center",
+              "imageBorder": false,
               "imageCircle": true,
               "members": Array [],
               "showBorder": true,
@@ -464,6 +491,7 @@ ReactWrapper {
               "showJob": true,
               "showName": true,
               "showSummary": true,
+              "socialGray": false,
               "socials": Array [],
             },
           },
@@ -474,6 +502,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "contentAlign": "center",
+              "imageBorder": false,
               "imageCircle": true,
               "members": Array [],
               "showBorder": true,
@@ -481,6 +510,7 @@ ReactWrapper {
               "showJob": true,
               "showName": true,
               "showSummary": true,
+              "socialGray": false,
               "socials": Array [],
             },
           },
@@ -559,6 +589,7 @@ ReactWrapper {
                       props={
                         Object {
                           "contentAlign": "center",
+                          "imageBorder": false,
                           "imageCircle": true,
                           "members": Array [],
                           "showBorder": true,
@@ -566,6 +597,7 @@ ReactWrapper {
                           "showJob": true,
                           "showName": true,
                           "showSummary": true,
+                          "socialGray": false,
                           "socials": Array [],
                         }
                       }
@@ -588,6 +620,7 @@ ReactWrapper {
                       props={
                         Object {
                           "contentAlign": "center",
+                          "imageBorder": false,
                           "imageCircle": true,
                           "members": Array [],
                           "showBorder": true,
@@ -595,6 +628,7 @@ ReactWrapper {
                           "showJob": true,
                           "showName": true,
                           "showSummary": true,
+                          "socialGray": false,
                           "socials": Array [],
                         }
                       }
@@ -619,6 +653,7 @@ ReactWrapper {
                 props={
                   Object {
                     "contentAlign": "center",
+                    "imageBorder": false,
                     "imageCircle": true,
                     "members": Array [],
                     "showBorder": true,
@@ -626,6 +661,7 @@ ReactWrapper {
                     "showJob": true,
                     "showName": true,
                     "showSummary": true,
+                    "socialGray": false,
                     "socials": Array [],
                   }
                 }
@@ -671,6 +707,7 @@ ReactWrapper {
                   props={
                     Object {
                       "contentAlign": "center",
+                      "imageBorder": false,
                       "imageCircle": true,
                       "members": Array [],
                       "showBorder": true,
@@ -678,6 +715,7 @@ ReactWrapper {
                       "showJob": true,
                       "showName": true,
                       "showSummary": true,
+                      "socialGray": false,
                       "socials": Array [],
                     }
                   }
@@ -705,6 +743,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -712,6 +751,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -721,6 +761,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -728,6 +769,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -755,6 +797,7 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "contentAlign": "center",
+        "imageBorder": false,
         "imageCircle": true,
         "members": Array [],
         "showBorder": true,
@@ -762,6 +805,7 @@ ReactWrapper {
         "showJob": true,
         "showName": true,
         "showSummary": true,
+        "socialGray": false,
         "socials": Array [],
       },
       "refs": Object {},
@@ -777,6 +821,7 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "contentAlign": "center",
+      "imageBorder": false,
       "imageCircle": true,
       "members": Array [],
       "showBorder": true,
@@ -784,6 +829,7 @@ ReactWrapper {
       "showJob": true,
       "showName": true,
       "showSummary": true,
+      "socialGray": false,
       "socials": Array [],
     },
     "ref": null,
@@ -831,6 +877,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -838,6 +885,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -846,6 +894,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -853,6 +902,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -863,6 +913,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -870,6 +921,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -948,6 +1000,7 @@ ReactWrapper {
                         props={
                           Object {
                             "contentAlign": "center",
+                            "imageBorder": false,
                             "imageCircle": true,
                             "members": Array [],
                             "showBorder": true,
@@ -955,6 +1008,7 @@ ReactWrapper {
                             "showJob": true,
                             "showName": true,
                             "showSummary": true,
+                            "socialGray": false,
                             "socials": Array [],
                           }
                         }
@@ -977,6 +1031,7 @@ ReactWrapper {
                         props={
                           Object {
                             "contentAlign": "center",
+                            "imageBorder": false,
                             "imageCircle": true,
                             "members": Array [],
                             "showBorder": true,
@@ -984,6 +1039,7 @@ ReactWrapper {
                             "showJob": true,
                             "showName": true,
                             "showSummary": true,
+                            "socialGray": false,
                             "socials": Array [],
                           }
                         }
@@ -1008,6 +1064,7 @@ ReactWrapper {
                   props={
                     Object {
                       "contentAlign": "center",
+                      "imageBorder": false,
                       "imageCircle": true,
                       "members": Array [],
                       "showBorder": true,
@@ -1015,6 +1072,7 @@ ReactWrapper {
                       "showJob": true,
                       "showName": true,
                       "showSummary": true,
+                      "socialGray": false,
                       "socials": Array [],
                     }
                   }
@@ -1060,6 +1118,7 @@ ReactWrapper {
                     props={
                       Object {
                         "contentAlign": "center",
+                        "imageBorder": false,
                         "imageCircle": true,
                         "members": Array [],
                         "showBorder": true,
@@ -1067,6 +1126,7 @@ ReactWrapper {
                         "showJob": true,
                         "showName": true,
                         "showSummary": true,
+                        "socialGray": false,
                         "socials": Array [],
                       }
                     }
@@ -1094,6 +1154,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "contentAlign": "center",
+                  "imageBorder": false,
                   "imageCircle": true,
                   "members": Array [],
                   "showBorder": true,
@@ -1101,6 +1162,7 @@ ReactWrapper {
                   "showJob": true,
                   "showName": true,
                   "showSummary": true,
+                  "socialGray": false,
                   "socials": Array [],
                 },
               },
@@ -1110,6 +1172,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "contentAlign": "center",
+                  "imageBorder": false,
                   "imageCircle": true,
                   "members": Array [],
                   "showBorder": true,
@@ -1117,6 +1180,7 @@ ReactWrapper {
                   "showJob": true,
                   "showName": true,
                   "showSummary": true,
+                  "socialGray": false,
                   "socials": Array [],
                 },
               },
@@ -1182,6 +1246,7 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "contentAlign": "center",
+            "imageBorder": false,
             "imageCircle": true,
             "members": Array [],
             "showBorder": true,
@@ -1189,6 +1254,7 @@ ReactWrapper {
             "showJob": true,
             "showName": true,
             "showSummary": true,
+            "socialGray": false,
             "socials": Array [],
           },
           "memoizedState": null,
@@ -1196,6 +1262,7 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "contentAlign": "center",
+            "imageBorder": false,
             "imageCircle": true,
             "members": Array [],
             "showBorder": true,
@@ -1203,6 +1270,7 @@ ReactWrapper {
             "showJob": true,
             "showName": true,
             "showSummary": true,
+            "socialGray": false,
             "socials": Array [],
           },
           "ref": null,
@@ -1226,6 +1294,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -1233,6 +1302,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -1241,6 +1311,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -1248,6 +1319,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -1258,6 +1330,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "contentAlign": "center",
+                "imageBorder": false,
                 "imageCircle": true,
                 "members": Array [],
                 "showBorder": true,
@@ -1265,6 +1338,7 @@ ReactWrapper {
                 "showJob": true,
                 "showName": true,
                 "showSummary": true,
+                "socialGray": false,
                 "socials": Array [],
               },
             },
@@ -1343,6 +1417,7 @@ ReactWrapper {
                         props={
                           Object {
                             "contentAlign": "center",
+                            "imageBorder": false,
                             "imageCircle": true,
                             "members": Array [],
                             "showBorder": true,
@@ -1350,6 +1425,7 @@ ReactWrapper {
                             "showJob": true,
                             "showName": true,
                             "showSummary": true,
+                            "socialGray": false,
                             "socials": Array [],
                           }
                         }
@@ -1372,6 +1448,7 @@ ReactWrapper {
                         props={
                           Object {
                             "contentAlign": "center",
+                            "imageBorder": false,
                             "imageCircle": true,
                             "members": Array [],
                             "showBorder": true,
@@ -1379,6 +1456,7 @@ ReactWrapper {
                             "showJob": true,
                             "showName": true,
                             "showSummary": true,
+                            "socialGray": false,
                             "socials": Array [],
                           }
                         }
@@ -1403,6 +1481,7 @@ ReactWrapper {
                   props={
                     Object {
                       "contentAlign": "center",
+                      "imageBorder": false,
                       "imageCircle": true,
                       "members": Array [],
                       "showBorder": true,
@@ -1410,6 +1489,7 @@ ReactWrapper {
                       "showJob": true,
                       "showName": true,
                       "showSummary": true,
+                      "socialGray": false,
                       "socials": Array [],
                     }
                   }
@@ -1455,6 +1535,7 @@ ReactWrapper {
                     props={
                       Object {
                         "contentAlign": "center",
+                        "imageBorder": false,
                         "imageCircle": true,
                         "members": Array [],
                         "showBorder": true,
@@ -1462,6 +1543,7 @@ ReactWrapper {
                         "showJob": true,
                         "showName": true,
                         "showSummary": true,
+                        "socialGray": false,
                         "socials": Array [],
                       }
                     }
@@ -1489,6 +1571,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "contentAlign": "center",
+                  "imageBorder": false,
                   "imageCircle": true,
                   "members": Array [],
                   "showBorder": true,
@@ -1496,6 +1579,7 @@ ReactWrapper {
                   "showJob": true,
                   "showName": true,
                   "showSummary": true,
+                  "socialGray": false,
                   "socials": Array [],
                 },
               },
@@ -1505,6 +1589,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "contentAlign": "center",
+                  "imageBorder": false,
                   "imageCircle": true,
                   "members": Array [],
                   "showBorder": true,
@@ -1512,6 +1597,7 @@ ReactWrapper {
                   "showJob": true,
                   "showName": true,
                   "showSummary": true,
+                  "socialGray": false,
                   "socials": Array [],
                 },
               },
@@ -1539,6 +1625,7 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "contentAlign": "center",
+          "imageBorder": false,
           "imageCircle": true,
           "members": Array [],
           "showBorder": true,
@@ -1546,6 +1633,7 @@ ReactWrapper {
           "showJob": true,
           "showName": true,
           "showSummary": true,
+          "socialGray": false,
           "socials": Array [],
         },
         "refs": Object {},
@@ -1561,6 +1649,7 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "contentAlign": "center",
+        "imageBorder": false,
         "imageCircle": true,
         "members": Array [],
         "showBorder": true,
@@ -1568,6 +1657,7 @@ ReactWrapper {
         "showJob": true,
         "showName": true,
         "showSummary": true,
+        "socialGray": false,
         "socials": Array [],
       },
       "ref": null,

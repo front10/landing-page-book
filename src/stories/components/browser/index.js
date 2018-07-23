@@ -16,7 +16,7 @@ stories.add('Browser', withReadme([Readme], () => {
   <ThemeSelector>
     <Browser
       showText={boolean("Show text", true)}
-      type={select("Type", {
+      vendor={select("Vendor", {
         "firefox": "firefox",
         "chrome": "chrome",
         "iexplore": "iexplore",

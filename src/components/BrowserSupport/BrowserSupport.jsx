@@ -5,10 +5,10 @@ import Browser from "../Browser";
 class BrowserSupport extends Component {
 
 	renderBrowsers() {
-		return this.props.items.map((browser, index) => {
+		return this.props.browsers.map((browser, index) => {
 			return <td className="text-center pl-3 pr-3"
 			           key={index}>
-				<Browser type={browser.type}
+				<Browser vendor={browser.vendor}
 				         version={browser.version}
 				         showText={this.props.showText}/>
 			</td>
@@ -16,7 +16,6 @@ class BrowserSupport extends Component {
 	}
 
 	render() {
-		const {} = this.props;
 		return <table className="Browser">
 			<tbody>
 			<tr>
@@ -29,11 +28,11 @@ class BrowserSupport extends Component {
 
 BrowserSupport.propTypes = {
 	showText: PropTypes.bool,
-	items: PropTypes.array,
+	browsers: PropTypes.array,
 };
 BrowserSupport.defaultProps = {
 	showText: true,
-	items: [],
+	browsers: [],
 };
 
 export default BrowserSupport;

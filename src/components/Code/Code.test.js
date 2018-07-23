@@ -29,9 +29,5 @@ describe("Code", () => {
 			const divs = code().find("div");
 			expect(divs.length).toBeGreaterThan(0);
         });
-        it("download", async () => {
-			let res = await GithubService.getRepositoriesDownloads("chubin","chubin");
-			expect(res);
-		});
 	});
 })

@@ -6,6 +6,7 @@ ReactWrapper {
   Symbol(enzyme.__unrendered__): <Features
     contentAlign="center"
     features={Array []}
+    imageBorder={false}
     imageCircle={true}
     showBorder={true}
     showImage={true}
@@ -47,6 +48,7 @@ ReactWrapper {
             "props": Object {
               "contentAlign": "center",
               "features": Array [],
+              "imageBorder": false,
               "imageCircle": true,
               "showBorder": true,
               "showImage": true,
@@ -61,6 +63,7 @@ ReactWrapper {
             "props": Object {
               "contentAlign": "center",
               "features": Array [],
+              "imageBorder": false,
               "imageCircle": true,
               "showBorder": true,
               "showImage": true,
@@ -77,6 +80,7 @@ ReactWrapper {
             "props": Object {
               "contentAlign": "center",
               "features": Array [],
+              "imageBorder": false,
               "imageCircle": true,
               "showBorder": true,
               "showImage": true,
@@ -161,6 +165,7 @@ ReactWrapper {
                         Object {
                           "contentAlign": "center",
                           "features": Array [],
+                          "imageBorder": false,
                           "imageCircle": true,
                           "showBorder": true,
                           "showImage": true,
@@ -189,6 +194,7 @@ ReactWrapper {
                         Object {
                           "contentAlign": "center",
                           "features": Array [],
+                          "imageBorder": false,
                           "imageCircle": true,
                           "showBorder": true,
                           "showImage": true,
@@ -219,6 +225,7 @@ ReactWrapper {
                   Object {
                     "contentAlign": "center",
                     "features": Array [],
+                    "imageBorder": false,
                     "imageCircle": true,
                     "showBorder": true,
                     "showImage": true,
@@ -270,6 +277,7 @@ ReactWrapper {
                     Object {
                       "contentAlign": "center",
                       "features": Array [],
+                      "imageBorder": false,
                       "imageCircle": true,
                       "showBorder": true,
                       "showImage": true,
@@ -303,6 +311,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -318,6 +327,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -389,6 +399,7 @@ ReactWrapper {
         "memoizedProps": Object {
           "contentAlign": "center",
           "features": Array [],
+          "imageBorder": false,
           "imageCircle": true,
           "showBorder": true,
           "showImage": true,
@@ -402,6 +413,7 @@ ReactWrapper {
         "pendingProps": Object {
           "contentAlign": "center",
           "features": Array [],
+          "imageBorder": false,
           "imageCircle": true,
           "showBorder": true,
           "showImage": true,
@@ -431,6 +443,7 @@ ReactWrapper {
             "props": Object {
               "contentAlign": "center",
               "features": Array [],
+              "imageBorder": false,
               "imageCircle": true,
               "showBorder": true,
               "showImage": true,
@@ -445,6 +458,7 @@ ReactWrapper {
             "props": Object {
               "contentAlign": "center",
               "features": Array [],
+              "imageBorder": false,
               "imageCircle": true,
               "showBorder": true,
               "showImage": true,
@@ -461,6 +475,7 @@ ReactWrapper {
             "props": Object {
               "contentAlign": "center",
               "features": Array [],
+              "imageBorder": false,
               "imageCircle": true,
               "showBorder": true,
               "showImage": true,
@@ -545,6 +560,7 @@ ReactWrapper {
                         Object {
                           "contentAlign": "center",
                           "features": Array [],
+                          "imageBorder": false,
                           "imageCircle": true,
                           "showBorder": true,
                           "showImage": true,
@@ -573,6 +589,7 @@ ReactWrapper {
                         Object {
                           "contentAlign": "center",
                           "features": Array [],
+                          "imageBorder": false,
                           "imageCircle": true,
                           "showBorder": true,
                           "showImage": true,
@@ -603,6 +620,7 @@ ReactWrapper {
                   Object {
                     "contentAlign": "center",
                     "features": Array [],
+                    "imageBorder": false,
                     "imageCircle": true,
                     "showBorder": true,
                     "showImage": true,
@@ -654,6 +672,7 @@ ReactWrapper {
                     Object {
                       "contentAlign": "center",
                       "features": Array [],
+                      "imageBorder": false,
                       "imageCircle": true,
                       "showBorder": true,
                       "showImage": true,
@@ -687,6 +706,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -702,6 +722,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -735,6 +756,7 @@ ReactWrapper {
       "props": Object {
         "contentAlign": "center",
         "features": Array [],
+        "imageBorder": false,
         "imageCircle": true,
         "showBorder": true,
         "showImage": true,
@@ -756,6 +778,7 @@ ReactWrapper {
     "props": Object {
       "contentAlign": "center",
       "features": Array [],
+      "imageBorder": false,
       "imageCircle": true,
       "showBorder": true,
       "showImage": true,
@@ -809,6 +832,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -823,6 +847,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -839,6 +864,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -923,6 +949,7 @@ ReactWrapper {
                           Object {
                             "contentAlign": "center",
                             "features": Array [],
+                            "imageBorder": false,
                             "imageCircle": true,
                             "showBorder": true,
                             "showImage": true,
@@ -951,6 +978,7 @@ ReactWrapper {
                           Object {
                             "contentAlign": "center",
                             "features": Array [],
+                            "imageBorder": false,
                             "imageCircle": true,
                             "showBorder": true,
                             "showImage": true,
@@ -981,6 +1009,7 @@ ReactWrapper {
                     Object {
                       "contentAlign": "center",
                       "features": Array [],
+                      "imageBorder": false,
                       "imageCircle": true,
                       "showBorder": true,
                       "showImage": true,
@@ -1032,6 +1061,7 @@ ReactWrapper {
                       Object {
                         "contentAlign": "center",
                         "features": Array [],
+                        "imageBorder": false,
                         "imageCircle": true,
                         "showBorder": true,
                         "showImage": true,
@@ -1065,6 +1095,7 @@ ReactWrapper {
                 "props": Object {
                   "contentAlign": "center",
                   "features": Array [],
+                  "imageBorder": false,
                   "imageCircle": true,
                   "showBorder": true,
                   "showImage": true,
@@ -1080,6 +1111,7 @@ ReactWrapper {
                 "props": Object {
                   "contentAlign": "center",
                   "features": Array [],
+                  "imageBorder": false,
                   "imageCircle": true,
                   "showBorder": true,
                   "showImage": true,
@@ -1151,6 +1183,7 @@ ReactWrapper {
           "memoizedProps": Object {
             "contentAlign": "center",
             "features": Array [],
+            "imageBorder": false,
             "imageCircle": true,
             "showBorder": true,
             "showImage": true,
@@ -1164,6 +1197,7 @@ ReactWrapper {
           "pendingProps": Object {
             "contentAlign": "center",
             "features": Array [],
+            "imageBorder": false,
             "imageCircle": true,
             "showBorder": true,
             "showImage": true,
@@ -1193,6 +1227,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -1207,6 +1242,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -1223,6 +1259,7 @@ ReactWrapper {
               "props": Object {
                 "contentAlign": "center",
                 "features": Array [],
+                "imageBorder": false,
                 "imageCircle": true,
                 "showBorder": true,
                 "showImage": true,
@@ -1307,6 +1344,7 @@ ReactWrapper {
                           Object {
                             "contentAlign": "center",
                             "features": Array [],
+                            "imageBorder": false,
                             "imageCircle": true,
                             "showBorder": true,
                             "showImage": true,
@@ -1335,6 +1373,7 @@ ReactWrapper {
                           Object {
                             "contentAlign": "center",
                             "features": Array [],
+                            "imageBorder": false,
                             "imageCircle": true,
                             "showBorder": true,
                             "showImage": true,
@@ -1365,6 +1404,7 @@ ReactWrapper {
                     Object {
                       "contentAlign": "center",
                       "features": Array [],
+                      "imageBorder": false,
                       "imageCircle": true,
                       "showBorder": true,
                       "showImage": true,
@@ -1416,6 +1456,7 @@ ReactWrapper {
                       Object {
                         "contentAlign": "center",
                         "features": Array [],
+                        "imageBorder": false,
                         "imageCircle": true,
                         "showBorder": true,
                         "showImage": true,
@@ -1449,6 +1490,7 @@ ReactWrapper {
                 "props": Object {
                   "contentAlign": "center",
                   "features": Array [],
+                  "imageBorder": false,
                   "imageCircle": true,
                   "showBorder": true,
                   "showImage": true,
@@ -1464,6 +1506,7 @@ ReactWrapper {
                 "props": Object {
                   "contentAlign": "center",
                   "features": Array [],
+                  "imageBorder": false,
                   "imageCircle": true,
                   "showBorder": true,
                   "showImage": true,
@@ -1497,6 +1540,7 @@ ReactWrapper {
         "props": Object {
           "contentAlign": "center",
           "features": Array [],
+          "imageBorder": false,
           "imageCircle": true,
           "showBorder": true,
           "showImage": true,
@@ -1518,6 +1562,7 @@ ReactWrapper {
       "props": Object {
         "contentAlign": "center",
         "features": Array [],
+        "imageBorder": false,
         "imageCircle": true,
         "showBorder": true,
         "showImage": true,

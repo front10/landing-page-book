@@ -13,7 +13,7 @@ import {Browser} from '@front10/landing-page-book/src/components';
 
 2- Put this code into jsx page:
 ```html
-<Browser type="chrome"/>
+<Browser vendor="chrome"/>
 ```
 
 ## Properties:
@@ -21,5 +21,5 @@ import {Browser} from '@front10/landing-page-book/src/components';
 | </br>Name   | </br>Type | </br>Summary                                                                                 | 
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
 | showText      | `Boolean` | Define if text is show. Default `true`|
-| type      | `String` | Type of button. Default `""`, can be `firefox`, `chrome`, `iexplore`, `safari`, `opera`, `maxthon`, `flock`|
+| vendor      | `String` | Vendor of button. Default `""`, can be `firefox`, `chrome`, `iexplore`, `safari`, `opera`, `maxthon`, `flock`|
 | version      | `String` | Version of browser. Default `""`|

@@ -14,13 +14,13 @@ class Browser extends Component {
 
 	render() {
 		const {
-			type,
+			vendor,
 			version,
 			showText
 		} = this.props;
 		return <div className="d-inline Browser">
 			{
-				type === "firefox" &&
+				vendor === "firefox" &&
 				<React.Fragment>
 					<img src={firefox}
 					     className="Browser__Icon"/>
@@ -35,7 +35,7 @@ class Browser extends Component {
 				</React.Fragment>
 			}
 			{
-				type === "chrome" &&
+				vendor === "chrome" &&
 				<React.Fragment>
 					<img src={chrome}
 					     className="Browser__Icon"/>
@@ -50,7 +50,7 @@ class Browser extends Component {
 				</React.Fragment>
 			}
 			{
-				type === "iexplore" &&
+				vendor === "iexplore" &&
 				<React.Fragment>
 					<img src={iexplore}
 					     className="Browser__Icon"/>
@@ -65,7 +65,7 @@ class Browser extends Component {
 				</React.Fragment>
 			}
 			{
-				type === "safari" &&
+				vendor === "safari" &&
 				<React.Fragment>
 					<img src={safari}
 					     className="Browser__Icon"/>
@@ -80,7 +80,7 @@ class Browser extends Component {
 				</React.Fragment>
 			}
 			{
-				type === "opera" &&
+				vendor === "opera" &&
 				<React.Fragment>
 					<img src={opera}
 					     className="Browser__Icon"/>
@@ -95,7 +95,7 @@ class Browser extends Component {
 				</React.Fragment>
 			}
 			{
-				type === "maxthon" &&
+				vendor === "maxthon" &&
 				<React.Fragment>
 					<img src={maxthon}
 					     className="Browser__Icon"/>
@@ -110,7 +110,7 @@ class Browser extends Component {
 				</React.Fragment>
 			}
 			{
-				type === "netscape" &&
+				vendor === "netscape" &&
 				<React.Fragment>
 					<img src={netscape}
 					     className="Browser__Icon"/>
@@ -125,7 +125,7 @@ class Browser extends Component {
 				</React.Fragment>
 			}
 			{
-				type === "flock" &&
+				vendor === "flock" &&
 				<React.Fragment>
 					<img src={flock}
 					     className="Browser__Icon"/>
@@ -145,12 +145,12 @@ class Browser extends Component {
 
 Browser.propTypes = {
 	showText: PropTypes.bool,
-	type: PropTypes.string,
+	vendor: PropTypes.string,
 	version: PropTypes.string,
 };
 Browser.defaultProps = {
 	showText: true,
-	type: "",
+	vendor: "",
 	version: "",
 };
 

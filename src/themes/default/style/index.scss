@@ -17,6 +17,10 @@
 // @import "~codemirror/theme/3024-night.css";
 // @import "~codemirror/theme/abcdef.css";
 
+/* React flags select */
+
+@import '~react-flags-select/scss/react-flags-select.scss';
+
 /*Variables*/
 
 @import "./variables.scss";
@@ -36,6 +40,7 @@
 @import '../../../components/GithubDetail/style.scss';
 @import "../../../components/Header/style";
 @import "../../../components/Hero/style";
+@import "../../../components/LanguageSwitcher/style";
 @import "../../../components/Section/style";
 @import "../../../components/Social/style";
 @import "../../../components/Team/style";

@@ -11,6 +11,7 @@ import Footer from "./Footer";
 import GithubDetail from './GithubDetail';
 import Header from "./Header";
 import Hero from "./Hero";
+import LanguageSwitcher from "./LanguageSwitcher";
 import Location from "./Location";
 import Section from "./Section";
 import Social from "./Social";
@@ -29,6 +30,7 @@ export {
 	Footer,
 	Header,
 	Hero,
+	LanguageSwitcher,
 	Location,
 	Section,
 	Social,

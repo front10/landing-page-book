@@ -21,6 +21,7 @@ import '../src/stories/components/footer';
 import '../src/stories/components/github-detail';
 import '../src/stories/components/header';
 import '../src/stories/components/hero';
+import '../src/stories/components/language-switcher';
 import '../src/stories/components/location';
 import '../src/stories/components/section';
 import '../src/stories/components/social';

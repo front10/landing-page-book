@@ -15,6 +15,7 @@ import LanguageSwitcher from "./LanguageSwitcher";
 import Location from "./Location";
 import Section from "./Section";
 import Social from "./Social";
+import Sponsors from "./Sponsors";
 import Team from "./Team";
 import Video from "./Video";
 
@@ -34,6 +35,7 @@ export {
 	Location,
 	Section,
 	Social,
+	Sponsors,
 	Team,
 	Video,
 	GithubDetail,

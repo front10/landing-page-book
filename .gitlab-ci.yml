@@ -8,8 +8,26 @@ cache:
   paths:
     - node_modules/
 
-stages:  
+stages:
+  - build
+  - test
   - deploy  
+
+install_dependencies:
+  stage: build
+  script:
+    - npm install
+  artifacts:
+    paths:
+      - node_modules/
+  only:
+    - master@front10-devs/landing-page-book
+
+check_for_err:
+  stage: test
+  script: npm run eslint
+  only:
+    - master@front10-devs/landing-page-book
 
 pages:
   stage: deploy  

@@ -21,6 +21,10 @@
 
 @import '~react-flags-select/scss/react-flags-select.scss';
 
+/* Gif player */
+
+@import '~react-gif-player/src/GifPlayer';
+
 /*Variables*/
 
 @import "./variables.scss";
@@ -37,6 +41,7 @@
 @import '../../../components/Code/style.scss';
 @import "../../../components/ContactUs/style";
 @import "../../../components/Footer/style";
+@import '../../../components/Gif/style.scss';
 @import '../../../components/GithubDetail/style.scss';
 @import "../../../components/Header/style";
 @import "../../../components/Hero/style";

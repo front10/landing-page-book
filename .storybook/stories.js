@@ -24,6 +24,7 @@ import '../src/stories/components/hero';
 import '../src/stories/components/location';
 import '../src/stories/components/section';
 import '../src/stories/components/social';
+import '../src/stories/components/sponsors';
 import '../src/stories/components/team';
 import '../src/stories/components/video';
 

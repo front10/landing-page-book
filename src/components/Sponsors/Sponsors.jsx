@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import {BuiltWith} from '../../components';
 
 class Sponsors extends React.Component {
     constructor(props) {
@@ -17,9 +18,11 @@ class Sponsors extends React.Component {
 
     render() {
         return (
-            <div >
-                <h1>Sponsors</h1>
-
+            <div >                
+                <BuiltWith
+                    gray={this.props.gray}
+                    companies={this.props.sponsors}
+                />
             </div>
 
         );
@@ -28,11 +31,13 @@ class Sponsors extends React.Component {
 }
 
 Sponsors.propTypes = {
-   
+    gray: PropTypes.bool,
+	companies: PropTypes.array
 };
 
 Sponsors.defaultProps = {
-   
+    gray: false,
+	sponsors: []
 };
 
 export default Sponsors;

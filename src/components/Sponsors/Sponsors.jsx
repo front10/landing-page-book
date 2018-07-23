@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class GithubDetail extends React.Component {
+class Sponsors extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
@@ -27,12 +27,12 @@ class GithubDetail extends React.Component {
     }
 }
 
-GithubDetail.propTypes = {
+Sponsors.propTypes = {
    
 };
 
-GithubDetail.defaultProps = {
+Sponsors.defaultProps = {
    
 };
 
-export default GithubDetail;
+export default Sponsors;

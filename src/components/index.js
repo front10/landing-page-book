@@ -8,6 +8,7 @@ import Container from './Container';
 import Copyright from "./Copyright";
 import Features from "./Features";
 import Footer from "./Footer";
+import Gif from './Gif';
 import GithubDetail from './GithubDetail';
 import Header from "./Header";
 import Hero from "./Hero";
@@ -28,7 +29,10 @@ export {
 	ContactUs,
 	Container,
 	Copyright,
+	Features,
 	Footer,
+	Gif,
+	GithubDetail,
 	Header,
 	Hero,
 	LanguageSwitcher,
@@ -38,6 +42,4 @@ export {
 	Sponsors,
 	Team,
 	Video,
-	GithubDetail,
-	Features
 };

@@ -1,33 +1,35 @@
 import React from 'react';
 import { configure, shallow, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Code from './Code';
-import GithubService from "../../service/GithubDetail.services";
+import Sponsors from './Sponsors';
 
 configure({ adapter: new Adapter() });
 
-describe("Code", () => {
+describe("Sponsors", () => {
 	let props;
 	let mounted;
-	const code = () => {
+	const sponsors = () => {
 		if (!mounted) {
-			mounted = shallow(<Code {...props} />);
+			mounted = mount(<Sponsors {...props} />);
 		}
 		return mounted;
 	};
-	describe('Code', () => {
+	describe('Sponsors', () => {
 
 		beforeEach(() => {
-			props = {};
+			props = {
+				gray: false,
+				sponsors: []
+			};
 			mounted = undefined;
 		});
 
 		it('should render', () => {
-			expect(shallow(<Code {...props} />)).toMatchSnapshot();
+			expect(mount(<Sponsors {...props} />)).toMatchSnapshot();
 		});
 		it("always renders a div", () => {
-			const divs = code().find("div");
+			const divs = sponsors().find("div");
 			expect(divs.length).toBeGreaterThan(0);
-        });
+		});		
 	});
 })

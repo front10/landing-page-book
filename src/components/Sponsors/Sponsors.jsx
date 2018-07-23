@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {BuiltWith} from '../../components';
+import BuiltWith from '../../components/BuiltWith';
 
 class Sponsors extends React.Component {
     constructor(props) {

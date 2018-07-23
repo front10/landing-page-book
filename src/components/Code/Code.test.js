@@ -11,7 +11,7 @@ describe("Code", () => {
 	let mounted;
 	const code = () => {
 		if (!mounted) {
-			mounted = mount(<Code {...props} />);
+			mounted = shallow(<Code {...props} />);
 		}
 		return mounted;
 	};
@@ -23,7 +23,7 @@ describe("Code", () => {
 		});
 
 		it('should render', () => {
-			expect(mount(<Code {...props} />)).toMatchSnapshot();
+			expect(shallow(<Code {...props} />)).toMatchSnapshot();
 		});
 		it("always renders a div", () => {
 			const divs = code().find("div");

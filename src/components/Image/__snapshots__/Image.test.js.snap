@@ -1,12 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Browser Browser should render 1`] = `
+exports[`Image Image should render 1`] = `
 ReactWrapper {
   "length": 1,
-  Symbol(enzyme.__unrendered__): <Browser
-    showText={true}
-    vendor="chrome"
-    version=""
+  Symbol(enzyme.__unrendered__): <Image
+    alt={undefined}
+    border={false}
+    className="img-fluid"
+    height={undefined}
+    rounded={false}
+    src={undefined}
+    width={undefined}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -17,7 +21,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": Browser {
+    "instance": Image {
       "_reactInternalFiber": FiberNode {
         "_debugID": 5,
         "_debugIsCurrentlyTiming": false,
@@ -40,18 +44,26 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "showText": true,
-              "vendor": "chrome",
-              "version": "",
+              "alt": undefined,
+              "border": false,
+              "className": "img-fluid",
+              "height": undefined,
+              "rounded": false,
+              "src": undefined,
+              "width": undefined,
             },
           },
           "memoizedState": Object {
             "context": null,
             "mount": true,
             "props": Object {
-              "showText": true,
-              "vendor": "chrome",
-              "version": "",
+              "alt": undefined,
+              "border": false,
+              "className": "img-fluid",
+              "height": undefined,
+              "rounded": false,
+              "src": undefined,
+              "width": undefined,
             },
           },
           "mode": 0,
@@ -60,9 +72,13 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "showText": true,
-              "vendor": "chrome",
-              "version": "",
+              "alt": undefined,
+              "border": false,
+              "className": "img-fluid",
+              "height": undefined,
+              "rounded": false,
+              "src": undefined,
+              "width": undefined,
             },
           },
           "ref": null,
@@ -99,21 +115,9 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                    class="d-inline Browser"
-                  >
-                    <img
-                      class="Browser__Icon"
-                      src="chrome.png"
-                    />
-                    <div
-                      class="Browser__Text"
-                    >
-                       
-                      Chrome
-                    </div>
-                    
-                  </div>
+                  <img
+                    class="img-fluid"
+                  />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -151,9 +155,13 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "showText": true,
-                          "vendor": "chrome",
-                          "version": "",
+                          "alt": undefined,
+                          "border": false,
+                          "className": "img-fluid",
+                          "height": undefined,
+                          "rounded": false,
+                          "src": undefined,
+                          "width": undefined,
                         }
                       }
                     />,
@@ -174,9 +182,13 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "showText": true,
-                          "vendor": "chrome",
-                          "version": "",
+                          "alt": undefined,
+                          "border": false,
+                          "className": "img-fluid",
+                          "height": undefined,
+                          "rounded": false,
+                          "src": undefined,
+                          "width": undefined,
                         }
                       }
                     />,
@@ -199,9 +211,13 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "showText": true,
-                    "vendor": "chrome",
-                    "version": "",
+                    "alt": undefined,
+                    "border": false,
+                    "className": "img-fluid",
+                    "height": undefined,
+                    "rounded": false,
+                    "src": undefined,
+                    "width": undefined,
                   }
                 }
               />,
@@ -215,21 +231,9 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <div
-                  class="d-inline Browser"
-                >
-                  <img
-                    class="Browser__Icon"
-                    src="chrome.png"
-                  />
-                  <div
-                    class="Browser__Text"
-                  >
-                     
-                    Chrome
-                  </div>
-                  
-                </div>
+                <img
+                  class="img-fluid"
+                />
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -257,9 +261,13 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "showText": true,
-                      "vendor": "chrome",
-                      "version": "",
+                      "alt": undefined,
+                      "border": false,
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "rounded": false,
+                      "src": undefined,
+                      "width": undefined,
                     }
                   }
                 />,
@@ -285,9 +293,13 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "refs": Object {},
@@ -295,9 +307,13 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "updater": Object {
@@ -324,178 +340,7 @@ ReactWrapper {
           "actualDuration": 0,
           "actualStartTime": 0,
           "alternate": null,
-          "child": FiberNode {
-            "_debugID": 7,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": 0,
-            "alternate": null,
-            "child": null,
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "className": "Browser__Icon",
-              "src": "chrome.png",
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "className": "Browser__Icon",
-              "src": "chrome.png",
-            },
-            "ref": null,
-            "return": [Circular],
-            "selfBaseTime": 0,
-            "sibling": FiberNode {
-              "_debugID": 8,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": 0,
-              "alternate": null,
-              "child": FiberNode {
-                "_debugID": 10,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": 0,
-                "alternate": null,
-                "child": null,
-                "effectTag": 0,
-                "expirationTime": 0,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": " ",
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": " ",
-                "ref": null,
-                "return": [Circular],
-                "selfBaseTime": 0,
-                "sibling": FiberNode {
-                  "_debugID": 11,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
-                  "_debugSource": null,
-                  "actualDuration": 0,
-                  "actualStartTime": 0,
-                  "alternate": null,
-                  "child": null,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstEffect": null,
-                  "index": 1,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": "Chrome",
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": "Chrome",
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseTime": 0,
-                  "sibling": null,
-                  "stateNode": Chrome,
-                  "tag": 6,
-                  "treeBaseTime": 0,
-                  "type": null,
-                  "updateQueue": null,
-                },
-                "stateNode":  ,
-                "tag": 6,
-                "treeBaseTime": 0,
-                "type": null,
-                "updateQueue": null,
-              },
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstEffect": null,
-              "index": 1,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": Array [
-                  " ",
-                  "Chrome",
-                ],
-                "className": "Browser__Text",
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": Array [
-                  " ",
-                  "Chrome",
-                ],
-                "className": "Browser__Text",
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseTime": 0,
-              "sibling": FiberNode {
-                "_debugID": 9,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": 0,
-                "alternate": null,
-                "child": null,
-                "effectTag": 0,
-                "expirationTime": 0,
-                "firstEffect": null,
-                "index": 2,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": "",
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": "",
-                "ref": null,
-                "return": [Circular],
-                "selfBaseTime": 0,
-                "sibling": null,
-                "stateNode": ,
-                "tag": 6,
-                "treeBaseTime": 0,
-                "type": null,
-                "updateQueue": null,
-              },
-              "stateNode": <div
-                class="Browser__Text"
-              >
-                 
-                Chrome
-              </div>,
-              "tag": 5,
-              "treeBaseTime": 0,
-              "type": "div",
-              "updateQueue": null,
-            },
-            "stateNode": <img
-              class="Browser__Icon"
-              src="chrome.png"
-            />,
-            "tag": 5,
-            "treeBaseTime": 0,
-            "type": "img",
-            "updateQueue": null,
-          },
+          "child": null,
           "effectTag": 0,
           "expirationTime": 0,
           "firstEffect": null,
@@ -503,62 +348,32 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": Array [
-              <img
-                className="Browser__Icon"
-                src="chrome.png"
-              />,
-              <div
-                className="Browser__Text"
-              >
-                 
-                Chrome
-              </div>,
-              "",
-            ],
-            "className": "d-inline Browser",
+            "alt": undefined,
+            "className": "img-fluid",
+            "height": undefined,
+            "src": undefined,
+            "width": undefined,
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": Array [
-              <img
-                className="Browser__Icon"
-                src="chrome.png"
-              />,
-              <div
-                className="Browser__Text"
-              >
-                 
-                Chrome
-              </div>,
-              "",
-            ],
-            "className": "d-inline Browser",
+            "alt": undefined,
+            "className": "img-fluid",
+            "height": undefined,
+            "src": undefined,
+            "width": undefined,
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
-          "stateNode": <div
-            class="d-inline Browser"
-          >
-            <img
-              class="Browser__Icon"
-              src="chrome.png"
-            />
-            <div
-              class="Browser__Text"
-            >
-               
-              Chrome
-            </div>
-            
-          </div>,
+          "stateNode": <img
+            class="img-fluid"
+          />,
           "tag": 5,
           "treeBaseTime": 0,
-          "type": "div",
+          "type": "img",
           "updateQueue": null,
         },
         "effectTag": 1,
@@ -568,17 +383,25 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
-          "showText": true,
-          "vendor": "chrome",
-          "version": "",
+          "alt": undefined,
+          "border": false,
+          "className": "img-fluid",
+          "height": undefined,
+          "rounded": false,
+          "src": undefined,
+          "width": undefined,
         },
         "memoizedState": null,
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
-          "showText": true,
-          "vendor": "chrome",
-          "version": "",
+          "alt": undefined,
+          "border": false,
+          "className": "img-fluid",
+          "height": undefined,
+          "rounded": false,
+          "src": undefined,
+          "width": undefined,
         },
         "ref": null,
         "return": FiberNode {
@@ -600,18 +423,26 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "showText": true,
-              "vendor": "chrome",
-              "version": "",
+              "alt": undefined,
+              "border": false,
+              "className": "img-fluid",
+              "height": undefined,
+              "rounded": false,
+              "src": undefined,
+              "width": undefined,
             },
           },
           "memoizedState": Object {
             "context": null,
             "mount": true,
             "props": Object {
-              "showText": true,
-              "vendor": "chrome",
-              "version": "",
+              "alt": undefined,
+              "border": false,
+              "className": "img-fluid",
+              "height": undefined,
+              "rounded": false,
+              "src": undefined,
+              "width": undefined,
             },
           },
           "mode": 0,
@@ -620,9 +451,13 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "showText": true,
-              "vendor": "chrome",
-              "version": "",
+              "alt": undefined,
+              "border": false,
+              "className": "img-fluid",
+              "height": undefined,
+              "rounded": false,
+              "src": undefined,
+              "width": undefined,
             },
           },
           "ref": null,
@@ -659,21 +494,9 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                    class="d-inline Browser"
-                  >
-                    <img
-                      class="Browser__Icon"
-                      src="chrome.png"
-                    />
-                    <div
-                      class="Browser__Text"
-                    >
-                       
-                      Chrome
-                    </div>
-                    
-                  </div>
+                  <img
+                    class="img-fluid"
+                  />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -711,9 +534,13 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "showText": true,
-                          "vendor": "chrome",
-                          "version": "",
+                          "alt": undefined,
+                          "border": false,
+                          "className": "img-fluid",
+                          "height": undefined,
+                          "rounded": false,
+                          "src": undefined,
+                          "width": undefined,
                         }
                       }
                     />,
@@ -734,9 +561,13 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "showText": true,
-                          "vendor": "chrome",
-                          "version": "",
+                          "alt": undefined,
+                          "border": false,
+                          "className": "img-fluid",
+                          "height": undefined,
+                          "rounded": false,
+                          "src": undefined,
+                          "width": undefined,
                         }
                       }
                     />,
@@ -759,9 +590,13 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "showText": true,
-                    "vendor": "chrome",
-                    "version": "",
+                    "alt": undefined,
+                    "border": false,
+                    "className": "img-fluid",
+                    "height": undefined,
+                    "rounded": false,
+                    "src": undefined,
+                    "width": undefined,
                   }
                 }
               />,
@@ -775,21 +610,9 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <div
-                  class="d-inline Browser"
-                >
-                  <img
-                    class="Browser__Icon"
-                    src="chrome.png"
-                  />
-                  <div
-                    class="Browser__Text"
-                  >
-                     
-                    Chrome
-                  </div>
-                  
-                </div>
+                <img
+                  class="img-fluid"
+                />
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -817,9 +640,13 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "showText": true,
-                      "vendor": "chrome",
-                      "version": "",
+                      "alt": undefined,
+                      "border": false,
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "rounded": false,
+                      "src": undefined,
+                      "width": undefined,
                     }
                   }
                 />,
@@ -845,9 +672,13 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "refs": Object {},
@@ -855,9 +686,13 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "updater": Object {
@@ -883,9 +718,13 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
-        "showText": true,
-        "vendor": "chrome",
-        "version": "",
+        "alt": undefined,
+        "border": false,
+        "className": "img-fluid",
+        "height": undefined,
+        "rounded": false,
+        "src": undefined,
+        "width": undefined,
       },
       "refs": Object {},
       "state": null,
@@ -899,96 +738,39 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "showText": true,
-      "vendor": "chrome",
-      "version": "",
+      "alt": undefined,
+      "border": false,
+      "className": "img-fluid",
+      "height": undefined,
+      "rounded": false,
+      "src": undefined,
+      "width": undefined,
     },
     "ref": null,
     "rendered": Object {
-      "instance": <div
-        class="d-inline Browser"
-      >
-        <img
-          class="Browser__Icon"
-          src="chrome.png"
-        />
-        <div
-          class="Browser__Text"
-        >
-           
-          Chrome
-        </div>
-        
-      </div>,
+      "instance": <img
+        class="img-fluid"
+      />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [
-          <img
-            className="Browser__Icon"
-            src="chrome.png"
-          />,
-          <div
-            className="Browser__Text"
-          >
-             
-            Chrome
-          </div>,
-          "",
-        ],
-        "className": "d-inline Browser",
+        "alt": undefined,
+        "className": "img-fluid",
+        "height": undefined,
+        "src": undefined,
+        "width": undefined,
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": <img
-            class="Browser__Icon"
-            src="chrome.png"
-          />,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "className": "Browser__Icon",
-            "src": "chrome.png",
-          },
-          "ref": null,
-          "rendered": Array [
-            undefined,
-          ],
-          "type": "img",
-        },
-        Object {
-          "instance": <div
-            class="Browser__Text"
-          >
-             
-            Chrome
-          </div>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              " ",
-              "Chrome",
-            ],
-            "className": "Browser__Text",
-          },
-          "ref": null,
-          "rendered": Array [
-            " ",
-            "Chrome",
-          ],
-          "type": "div",
-        },
-        "",
+        undefined,
       ],
-      "type": "div",
+      "type": "img",
     },
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
-      "instance": Browser {
+      "instance": Image {
         "_reactInternalFiber": FiberNode {
           "_debugID": 5,
           "_debugIsCurrentlyTiming": false,
@@ -1011,18 +793,26 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "memoizedState": Object {
               "context": null,
               "mount": true,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "mode": 0,
@@ -1031,9 +821,13 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "ref": null,
@@ -1070,21 +864,9 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <div
-                      class="d-inline Browser"
-                    >
-                      <img
-                        class="Browser__Icon"
-                        src="chrome.png"
-                      />
-                      <div
-                        class="Browser__Text"
-                      >
-                         
-                        Chrome
-                      </div>
-                      
-                    </div>
+                    <img
+                      class="img-fluid"
+                    />
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1122,9 +904,13 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "showText": true,
-                            "vendor": "chrome",
-                            "version": "",
+                            "alt": undefined,
+                            "border": false,
+                            "className": "img-fluid",
+                            "height": undefined,
+                            "rounded": false,
+                            "src": undefined,
+                            "width": undefined,
                           }
                         }
                       />,
@@ -1145,9 +931,13 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "showText": true,
-                            "vendor": "chrome",
-                            "version": "",
+                            "alt": undefined,
+                            "border": false,
+                            "className": "img-fluid",
+                            "height": undefined,
+                            "rounded": false,
+                            "src": undefined,
+                            "width": undefined,
                           }
                         }
                       />,
@@ -1170,9 +960,13 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "showText": true,
-                      "vendor": "chrome",
-                      "version": "",
+                      "alt": undefined,
+                      "border": false,
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "rounded": false,
+                      "src": undefined,
+                      "width": undefined,
                     }
                   }
                 />,
@@ -1186,21 +980,9 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                    class="d-inline Browser"
-                  >
-                    <img
-                      class="Browser__Icon"
-                      src="chrome.png"
-                    />
-                    <div
-                      class="Browser__Text"
-                    >
-                       
-                      Chrome
-                    </div>
-                    
-                  </div>
+                  <img
+                    class="img-fluid"
+                  />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1228,9 +1010,13 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "showText": true,
-                        "vendor": "chrome",
-                        "version": "",
+                        "alt": undefined,
+                        "border": false,
+                        "className": "img-fluid",
+                        "height": undefined,
+                        "rounded": false,
+                        "src": undefined,
+                        "width": undefined,
                       }
                     }
                   />,
@@ -1256,9 +1042,13 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "showText": true,
-                  "vendor": "chrome",
-                  "version": "",
+                  "alt": undefined,
+                  "border": false,
+                  "className": "img-fluid",
+                  "height": undefined,
+                  "rounded": false,
+                  "src": undefined,
+                  "width": undefined,
                 },
               },
               "refs": Object {},
@@ -1266,9 +1056,13 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "showText": true,
-                  "vendor": "chrome",
-                  "version": "",
+                  "alt": undefined,
+                  "border": false,
+                  "className": "img-fluid",
+                  "height": undefined,
+                  "rounded": false,
+                  "src": undefined,
+                  "width": undefined,
                 },
               },
               "updater": Object {
@@ -1295,178 +1089,7 @@ ReactWrapper {
             "actualDuration": 0,
             "actualStartTime": 0,
             "alternate": null,
-            "child": FiberNode {
-              "_debugID": 7,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": 0,
-              "alternate": null,
-              "child": null,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "className": "Browser__Icon",
-                "src": "chrome.png",
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "className": "Browser__Icon",
-                "src": "chrome.png",
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseTime": 0,
-              "sibling": FiberNode {
-                "_debugID": 8,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": [Circular],
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": 0,
-                "alternate": null,
-                "child": FiberNode {
-                  "_debugID": 10,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
-                  "_debugSource": null,
-                  "actualDuration": 0,
-                  "actualStartTime": 0,
-                  "alternate": null,
-                  "child": null,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstEffect": null,
-                  "index": 0,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": " ",
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": " ",
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseTime": 0,
-                  "sibling": FiberNode {
-                    "_debugID": 11,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
-                    "_debugSource": null,
-                    "actualDuration": 0,
-                    "actualStartTime": 0,
-                    "alternate": null,
-                    "child": null,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstEffect": null,
-                    "index": 1,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": "Chrome",
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": "Chrome",
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseTime": 0,
-                    "sibling": null,
-                    "stateNode": Chrome,
-                    "tag": 6,
-                    "treeBaseTime": 0,
-                    "type": null,
-                    "updateQueue": null,
-                  },
-                  "stateNode":  ,
-                  "tag": 6,
-                  "treeBaseTime": 0,
-                  "type": null,
-                  "updateQueue": null,
-                },
-                "effectTag": 0,
-                "expirationTime": 0,
-                "firstEffect": null,
-                "index": 1,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": Array [
-                    " ",
-                    "Chrome",
-                  ],
-                  "className": "Browser__Text",
-                },
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "children": Array [
-                    " ",
-                    "Chrome",
-                  ],
-                  "className": "Browser__Text",
-                },
-                "ref": null,
-                "return": [Circular],
-                "selfBaseTime": 0,
-                "sibling": FiberNode {
-                  "_debugID": 9,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
-                  "_debugSource": null,
-                  "actualDuration": 0,
-                  "actualStartTime": 0,
-                  "alternate": null,
-                  "child": null,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstEffect": null,
-                  "index": 2,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": "",
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": "",
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseTime": 0,
-                  "sibling": null,
-                  "stateNode": ,
-                  "tag": 6,
-                  "treeBaseTime": 0,
-                  "type": null,
-                  "updateQueue": null,
-                },
-                "stateNode": <div
-                  class="Browser__Text"
-                >
-                   
-                  Chrome
-                </div>,
-                "tag": 5,
-                "treeBaseTime": 0,
-                "type": "div",
-                "updateQueue": null,
-              },
-              "stateNode": <img
-                class="Browser__Icon"
-                src="chrome.png"
-              />,
-              "tag": 5,
-              "treeBaseTime": 0,
-              "type": "img",
-              "updateQueue": null,
-            },
+            "child": null,
             "effectTag": 0,
             "expirationTime": 0,
             "firstEffect": null,
@@ -1474,62 +1097,32 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": Array [
-                <img
-                  className="Browser__Icon"
-                  src="chrome.png"
-                />,
-                <div
-                  className="Browser__Text"
-                >
-                   
-                  Chrome
-                </div>,
-                "",
-              ],
-              "className": "d-inline Browser",
+              "alt": undefined,
+              "className": "img-fluid",
+              "height": undefined,
+              "src": undefined,
+              "width": undefined,
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": Array [
-                <img
-                  className="Browser__Icon"
-                  src="chrome.png"
-                />,
-                <div
-                  className="Browser__Text"
-                >
-                   
-                  Chrome
-                </div>,
-                "",
-              ],
-              "className": "d-inline Browser",
+              "alt": undefined,
+              "className": "img-fluid",
+              "height": undefined,
+              "src": undefined,
+              "width": undefined,
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
-            "stateNode": <div
-              class="d-inline Browser"
-            >
-              <img
-                class="Browser__Icon"
-                src="chrome.png"
-              />
-              <div
-                class="Browser__Text"
-              >
-                 
-                Chrome
-              </div>
-              
-            </div>,
+            "stateNode": <img
+              class="img-fluid"
+            />,
             "tag": 5,
             "treeBaseTime": 0,
-            "type": "div",
+            "type": "img",
             "updateQueue": null,
           },
           "effectTag": 1,
@@ -1539,17 +1132,25 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "showText": true,
-            "vendor": "chrome",
-            "version": "",
+            "alt": undefined,
+            "border": false,
+            "className": "img-fluid",
+            "height": undefined,
+            "rounded": false,
+            "src": undefined,
+            "width": undefined,
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "showText": true,
-            "vendor": "chrome",
-            "version": "",
+            "alt": undefined,
+            "border": false,
+            "className": "img-fluid",
+            "height": undefined,
+            "rounded": false,
+            "src": undefined,
+            "width": undefined,
           },
           "ref": null,
           "return": FiberNode {
@@ -1571,18 +1172,26 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "memoizedState": Object {
               "context": null,
               "mount": true,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "mode": 0,
@@ -1591,9 +1200,13 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "showText": true,
-                "vendor": "chrome",
-                "version": "",
+                "alt": undefined,
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "src": undefined,
+                "width": undefined,
               },
             },
             "ref": null,
@@ -1630,21 +1243,9 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <div
-                      class="d-inline Browser"
-                    >
-                      <img
-                        class="Browser__Icon"
-                        src="chrome.png"
-                      />
-                      <div
-                        class="Browser__Text"
-                      >
-                         
-                        Chrome
-                      </div>
-                      
-                    </div>
+                    <img
+                      class="img-fluid"
+                    />
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1682,9 +1283,13 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "showText": true,
-                            "vendor": "chrome",
-                            "version": "",
+                            "alt": undefined,
+                            "border": false,
+                            "className": "img-fluid",
+                            "height": undefined,
+                            "rounded": false,
+                            "src": undefined,
+                            "width": undefined,
                           }
                         }
                       />,
@@ -1705,9 +1310,13 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "showText": true,
-                            "vendor": "chrome",
-                            "version": "",
+                            "alt": undefined,
+                            "border": false,
+                            "className": "img-fluid",
+                            "height": undefined,
+                            "rounded": false,
+                            "src": undefined,
+                            "width": undefined,
                           }
                         }
                       />,
@@ -1730,9 +1339,13 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "showText": true,
-                      "vendor": "chrome",
-                      "version": "",
+                      "alt": undefined,
+                      "border": false,
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "rounded": false,
+                      "src": undefined,
+                      "width": undefined,
                     }
                   }
                 />,
@@ -1746,21 +1359,9 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <div
-                    class="d-inline Browser"
-                  >
-                    <img
-                      class="Browser__Icon"
-                      src="chrome.png"
-                    />
-                    <div
-                      class="Browser__Text"
-                    >
-                       
-                      Chrome
-                    </div>
-                    
-                  </div>
+                  <img
+                    class="img-fluid"
+                  />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1788,9 +1389,13 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "showText": true,
-                        "vendor": "chrome",
-                        "version": "",
+                        "alt": undefined,
+                        "border": false,
+                        "className": "img-fluid",
+                        "height": undefined,
+                        "rounded": false,
+                        "src": undefined,
+                        "width": undefined,
                       }
                     }
                   />,
@@ -1816,9 +1421,13 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "showText": true,
-                  "vendor": "chrome",
-                  "version": "",
+                  "alt": undefined,
+                  "border": false,
+                  "className": "img-fluid",
+                  "height": undefined,
+                  "rounded": false,
+                  "src": undefined,
+                  "width": undefined,
                 },
               },
               "refs": Object {},
@@ -1826,9 +1435,13 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "showText": true,
-                  "vendor": "chrome",
-                  "version": "",
+                  "alt": undefined,
+                  "border": false,
+                  "className": "img-fluid",
+                  "height": undefined,
+                  "rounded": false,
+                  "src": undefined,
+                  "width": undefined,
                 },
               },
               "updater": Object {
@@ -1854,9 +1467,13 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
-          "showText": true,
-          "vendor": "chrome",
-          "version": "",
+          "alt": undefined,
+          "border": false,
+          "className": "img-fluid",
+          "height": undefined,
+          "rounded": false,
+          "src": undefined,
+          "width": undefined,
         },
         "refs": Object {},
         "state": null,
@@ -1870,90 +1487,33 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "showText": true,
-        "vendor": "chrome",
-        "version": "",
+        "alt": undefined,
+        "border": false,
+        "className": "img-fluid",
+        "height": undefined,
+        "rounded": false,
+        "src": undefined,
+        "width": undefined,
       },
       "ref": null,
       "rendered": Object {
-        "instance": <div
-          class="d-inline Browser"
-        >
-          <img
-            class="Browser__Icon"
-            src="chrome.png"
-          />
-          <div
-            class="Browser__Text"
-          >
-             
-            Chrome
-          </div>
-          
-        </div>,
+        "instance": <img
+          class="img-fluid"
+        />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": Array [
-            <img
-              className="Browser__Icon"
-              src="chrome.png"
-            />,
-            <div
-              className="Browser__Text"
-            >
-               
-              Chrome
-            </div>,
-            "",
-          ],
-          "className": "d-inline Browser",
+          "alt": undefined,
+          "className": "img-fluid",
+          "height": undefined,
+          "src": undefined,
+          "width": undefined,
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": <img
-              class="Browser__Icon"
-              src="chrome.png"
-            />,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "className": "Browser__Icon",
-              "src": "chrome.png",
-            },
-            "ref": null,
-            "rendered": Array [
-              undefined,
-            ],
-            "type": "img",
-          },
-          Object {
-            "instance": <div
-              class="Browser__Text"
-            >
-               
-              Chrome
-            </div>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                " ",
-                "Chrome",
-              ],
-              "className": "Browser__Text",
-            },
-            "ref": null,
-            "rendered": Array [
-              " ",
-              "Chrome",
-            ],
-            "type": "div",
-          },
-          "",
+          undefined,
         ],
-        "type": "div",
+        "type": "img",
       },
       "type": [Function],
     },

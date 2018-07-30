@@ -3,7 +3,7 @@ import { configure, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Browser from './Browser';
 
-configure({ adapter: new Adapter() });
+configure({adapter: new Adapter()});
 
 describe('Browser', () => {
   let props;
@@ -20,6 +20,12 @@ describe('Browser', () => {
       mounted = undefined;
     });
 
+		beforeEach(() => {
+			props = {
+				vendor: 'chrome'
+			};
+			mounted = undefined;
+		});
     it('should render', () => {
       expect(mount(<Browser {...props} />)).toMatchSnapshot();
     });

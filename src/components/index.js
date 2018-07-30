@@ -14,6 +14,7 @@ import Gif from './Gif';
 import GithubDetail from './GithubDetail';
 import Header from "./Header";
 import Hero from "./Hero";
+import Image from "./Image";
 import Input from "./Input";
 import Label from "./Label";
 import LanguageSwitcher from "./LanguageSwitcher";
@@ -42,6 +43,7 @@ export {
 	GithubDetail,
 	Header,
 	Hero,
+	Image,
 	Input,
 	Label,
 	LanguageSwitcher,

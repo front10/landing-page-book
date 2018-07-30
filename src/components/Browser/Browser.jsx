@@ -10,7 +10,21 @@ import maxthon from "./images/maxthon.png";
 import netscape from "./images/netscape.png";
 import flock from "./images/flock.png";
 
+let available = {
+	firefox: {name: "Firefox", icon: firefox},
+	chrome: {name: "Chrome", icon: chrome},
+	iexplore: {name: "Internet explorer", icon: iexplore},
+	safari: {name: "Safari", icon: safari},
+	opera: {name: "Opera", icon: opera},
+	maxthon: {name: "maxthon", icon: maxthon},
+	netscape: {name: "Netscape", icon: netscape},
+	flock: {name: "Flock", icon: flock}
+};
+
 class Browser extends Component {
+	constructor(props) {
+		super(props);
+	}
 
 	render() {
 		const {
@@ -19,125 +33,15 @@ class Browser extends Component {
 			showText
 		} = this.props;
 		return <div className="d-inline Browser">
+			<img src={available[vendor].icon}
+			     className="Browser__Icon"/>
 			{
-				vendor === "firefox" &&
-				<React.Fragment>
-					<img src={firefox}
-					     className="Browser__Icon"/>
-					{
-						showText &&
-						<div className="Browser__Text"> Firefox</div>
-					}
-					{
-						version &&
-						<div className="Browser__Version"> {version}</div>
-					}
-				</React.Fragment>
+				showText &&
+				<div className="Browser__Text"> {available[vendor].name}</div>
 			}
 			{
-				vendor === "chrome" &&
-				<React.Fragment>
-					<img src={chrome}
-					     className="Browser__Icon"/>
-					{
-						showText &&
-						<div className="Browser__Text"> Chrome</div>
-					}
-					{
-						version &&
-						<div className="Browser__Version"> {version}</div>
-					}
-				</React.Fragment>
-			}
-			{
-				vendor === "iexplore" &&
-				<React.Fragment>
-					<img src={iexplore}
-					     className="Browser__Icon"/>
-					{
-						showText &&
-						<div className="Browser__Text"> Internet explorer</div>
-					}
-					{
-						version &&
-						<div className="Browser__Version"> {version}</div>
-					}
-				</React.Fragment>
-			}
-			{
-				vendor === "safari" &&
-				<React.Fragment>
-					<img src={safari}
-					     className="Browser__Icon"/>
-					{
-						showText &&
-						<div className="Browser__Text">Safari</div>
-					}
-					{
-						version &&
-						<div className="Browser__Version"> {version}</div>
-					}
-				</React.Fragment>
-			}
-			{
-				vendor === "opera" &&
-				<React.Fragment>
-					<img src={opera}
-					     className="Browser__Icon"/>
-					{
-						showText &&
-						<div className="Browser__Text">Opera</div>
-					}
-					{
-						version &&
-						<div className="Browser__Version"> {version}</div>
-					}
-				</React.Fragment>
-			}
-			{
-				vendor === "maxthon" &&
-				<React.Fragment>
-					<img src={maxthon}
-					     className="Browser__Icon"/>
-					{
-						showText &&
-						<div className="Browser__Text">Maxthon</div>
-					}
-					{
-						version &&
-						<div className="Browser__Version"> {version}</div>
-					}
-				</React.Fragment>
-			}
-			{
-				vendor === "netscape" &&
-				<React.Fragment>
-					<img src={netscape}
-					     className="Browser__Icon"/>
-					{
-						showText &&
-						<div className="Browser__Text">Netscape</div>
-					}
-					{
-						version &&
-						<div className="Browser__Version"> {version}</div>
-					}
-				</React.Fragment>
-			}
-			{
-				vendor === "flock" &&
-				<React.Fragment>
-					<img src={flock}
-					     className="Browser__Icon"/>
-					{
-						showText &&
-						<div className="Browser__Text">Flock</div>
-					}
-					{
-						version &&
-						<div className="Browser__Version"> {version}</div>
-					}
-				</React.Fragment>
+				version &&
+				<div className="Browser__Version"> {version}</div>
 			}
 		</div>
 	}

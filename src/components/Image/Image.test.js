@@ -1,33 +1,31 @@
 import React from 'react';
 import {configure, shallow, mount} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Browser from './Browser';
+import Image from './Image';
 
 configure({adapter: new Adapter()});
 
-describe("Browser", () => {
+describe("Image", () => {
 	let props;
 	let mounted;
-	const browser = () => {
+	const image = () => {
 		if (!mounted) {
-			mounted = mount(<Browser {...props} />);
+			mounted = mount(<Image {...props} />);
 		}
 		return mounted;
 	};
-	describe('Browser', () => {
+	describe('Image', () => {
 
 		beforeEach(() => {
-			props = {
-				vendor: 'chrome'
-			};
+			props = {};
 			mounted = undefined;
 		});
 
 		it('should render', () => {
-			expect(mount(<Browser {...props} />)).toMatchSnapshot();
+			expect(mount(<Image {...props} />)).toMatchSnapshot();
 		});
 		it("always renders a div", () => {
-			const divs = browser().find("div");
+			const divs = image().find("img");
 			expect(divs.length).toBeGreaterThan(0);
 		});
 	});

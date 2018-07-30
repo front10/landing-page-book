@@ -7,7 +7,7 @@ class LocationMarker extends Component {
 	}
 
 	render() {
-		const {icon, color, children} = this.props;
+		const {icon, color} = this.props;
 		return <i className={icon} style={{color, fontSize: "1.5rem"}}/>
 	}
 }

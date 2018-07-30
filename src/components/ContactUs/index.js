@@ -1,1 +1,1 @@
-export {default} from "./ContactUs";
+export { default } from './ContactUs';

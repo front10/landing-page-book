@@ -5,28 +5,27 @@ import Header from './Header';
 
 configure({ adapter: new Adapter() });
 
-describe("Header", () => {
-	let props;
-	let mounted;
-	const header = () => {
-		if (!mounted) {
-			mounted = mount(<Header {...props} />);
-		}
-		return mounted;
-	};
-	describe('Header', () => {
+describe('Header', () => {
+  let props;
+  let mounted;
+  const header = () => {
+    if (!mounted) {
+      mounted = mount(<Header {...props} />);
+    }
+    return mounted;
+  };
+  describe('Header', () => {
+    beforeEach(() => {
+      props = {};
+      mounted = undefined;
+    });
 
-		beforeEach(() => {
-			props = {};
-			mounted = undefined;
-		});
-
-		it('should render', () => {
-			expect(mount(<Header {...props} />)).toMatchSnapshot();
-		});
-		it("always renders a div", () => {
-			const divs = header().find("nav");
-			expect(divs.length).toBeGreaterThan(0);
-		});
-	});
-})
+    it('should render', () => {
+      expect(mount(<Header {...props} />)).toMatchSnapshot();
+    });
+    it('always renders a div', () => {
+      const divs = header().find('nav');
+      expect(divs.length).toBeGreaterThan(0);
+    });
+  });
+});

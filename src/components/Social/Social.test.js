@@ -5,24 +5,23 @@ import Social from './Social';
 
 configure({ adapter: new Adapter() });
 
-describe("Social", () => {
-	let props;
-	let mounted;
-	const social = () => {
-		if (!mounted) {
-			mounted = shallow(<Social {...props} />);
-		}
-		return mounted;
-	};
-	describe('Social', () => {
+describe('Social', () => {
+  let props;
+  let mounted;
+  const social = () => {
+    if (!mounted) {
+      mounted = shallow(<Social {...props} />);
+    }
+    return mounted;
+  };
+  describe('Social', () => {
+    beforeEach(() => {
+      props = {};
+      mounted = undefined;
+    });
 
-		beforeEach(() => {
-			props = {};
-			mounted = undefined;
-		});
-
-		it('should render', () => {
-			expect(shallow(<Social {...props} />)).toMatchSnapshot();
-		});
-	});
-})
+    it('should render', () => {
+      expect(shallow(<Social {...props} />)).toMatchSnapshot();
+    });
+  });
+});

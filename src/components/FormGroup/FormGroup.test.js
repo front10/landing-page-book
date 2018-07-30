@@ -5,28 +5,27 @@ import FormGroup from './FormGroup';
 
 configure({ adapter: new Adapter() });
 
-describe("FormGroup", () => {
-	let props;
-	let mounted;
-	const formGroup = () => {
-		if (!mounted) {
-			mounted = mount(<FormGroup {...props} />);
-		}
-		return mounted;
-	};
-	describe('FormGroup', () => {
+describe('FormGroup', () => {
+  let props;
+  let mounted;
+  const formGroup = () => {
+    if (!mounted) {
+      mounted = mount(<FormGroup {...props} />);
+    }
+    return mounted;
+  };
+  describe('FormGroup', () => {
+    beforeEach(() => {
+      props = {};
+      mounted = undefined;
+    });
 
-		beforeEach(() => {
-			props = {};
-			mounted = undefined;
-		});
-
-		it('should render', () => {
-			expect(mount(<FormGroup {...props} />)).toMatchSnapshot();
-		});
-		it("always renders a div", () => {
-			const divs = formGroup().find("div");
-			expect(divs.length).toBeGreaterThan(0);
-		});
-	});
-})
+    it('should render', () => {
+      expect(mount(<FormGroup {...props} />)).toMatchSnapshot();
+    });
+    it('always renders a div', () => {
+      const divs = formGroup().find('div');
+      expect(divs.length).toBeGreaterThan(0);
+    });
+  });
+});

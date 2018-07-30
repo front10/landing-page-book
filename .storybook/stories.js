@@ -11,6 +11,7 @@ import '../src/stories/documentation/Introduction';
 import '../src/stories/components/browser';
 import '../src/stories/components/button';
 import '../src/stories/components/input';
+import '../src/stories/components/label';
 
 //Components
 

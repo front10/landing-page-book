@@ -4,6 +4,7 @@ import EmailValidator from 'email-validator';
 import ContactUsService from "../../service/ContactUs.services";
 import Button from "../Button";
 import FormGroup from "../FormGroup";
+import Input from "../Input/Input";
 
 class ContactUs extends Component {
 	constructor(props) {
@@ -56,20 +57,20 @@ class ContactUs extends Component {
 		}
 	}
 
-	onChangeName($event) {
-		this.setState({name: $event.currentTarget.value});
+	onChangeName({value}) {
+		this.setState({name: value});
 	}
 
-	onChangeMail($event) {
-		this.setState({mail: $event.currentTarget.value});
+	onChangeMail({value}) {
+		this.setState({mail: value});
 	}
 
-	onChangePhone($event) {
-		this.setState({phone: $event.currentTarget.value});
+	onChangePhone({value}) {
+		this.setState({phone: value});
 	}
 
-	onChangeMessage($event) {
-		this.setState({message: $event.currentTarget.value});
+	onChangeMessage({value}) {
+		this.setState({message: value});
 	}
 
 	render() {
@@ -85,44 +86,38 @@ class ContactUs extends Component {
 		} = this.props;
 		return <div className="ContactUs">
 			<FormGroup>
-				{
-					showText &&
-					<label htmlFor="contactNameTextLabel" className="ContactUs__Label">{nameText}</label>
-				}
-				<input type="text" className="form-control ContactUs__Input" id="contactNameTextLabel"
-				       placeholder={showPlaceholder ? nameText : ""}
-				       value={this.state.name}
-				       onChange={this.onChangeName}/>
+				<Input
+					label={showText ? nameText : ''}
+					id="contactNameTextLabel"
+					placeholder={showPlaceholder ? nameText : ""}
+					value={this.state.name}
+					onChange={this.onChangeName}/>
 			</FormGroup>
 			<FormGroup>
-				{
-					showText &&
-					<label htmlFor="contactEmailTextLabel" className="ContactUs__Label">{mailText}</label>
-				}
-				<input type="email" className="form-control ContactUs__Input" id="contactEmailTextLabel"
-				       placeholder={showPlaceholder ? mailText : ""}
-				       value={this.state.mail}
-				       onChange={this.onChangeMail}/>
+				<Input
+					label={showText ? mailText : ''}
+					type="email"
+					id="contactEmailTextLabel"
+					placeholder={showPlaceholder ? mailText : ""}
+					value={this.state.mail}
+					onChange={this.onChangeMail}/>
 			</FormGroup>
 			<FormGroup>
-				{
-					showText &&
-					<label htmlFor="contactPhoneTextLabel" className="ContactUs__Label">{phoneText}</label>
-				}
-				<input type="text" className="form-control ContactUs__Input" id="contactPhoneTextLabel"
-				       placeholder={showPlaceholder ? phoneText : ""}
-				       value={this.state.phone}
-				       onChange={this.onChangePhone}/>
+				<Input
+					label={showText ? phoneText : ''}
+					id="contactPhoneTextLabel"
+					placeholder={showPlaceholder ? phoneText : ""}
+					value={this.state.phone}
+					onChange={this.onChangePhone}/>
 			</FormGroup>
 			<FormGroup>
-				{
-					showText &&
-					<label htmlFor="contactMessageTextLabel" className="ContactUs__Label">{messageText}</label>
-				}
-				<textarea className="form-control ContactUs__Input" id="contactMessageTextLabel" rows="5"
-				          placeholder={showPlaceholder ? messageText : ""}
-				          value={this.state.message}
-				          onChange={this.onChangeMessage}/>
+				<Input
+					label={showText ? messageText : ''}
+					type="textarea"
+					id="contactMessageTextLabel"
+					placeholder={showPlaceholder ? messageText : ""}
+					value={this.state.message}
+					onChange={this.onChangeMessage}/>
 			</FormGroup>
 			<div className={`text-${submitButtonAlign}`}>
 				<Button

@@ -1,1 +1,1 @@
-export {default} from "./BuiltWith";
+export { default } from './BuiltWith';

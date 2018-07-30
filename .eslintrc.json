@@ -4,7 +4,6 @@
         "eslint:recommended",
         "plugin:react/recommended"
     ],
-    "parser": "babel-eslint",
     "env": {
         "browser": true,
         "commonjs": true,
@@ -12,59 +11,37 @@
         "node": true,
         "jasmine": true
     },
-    "globals": {
-        "_": false,
-        "$": false,
-        "$module": false
-    },
     "parserOptions": {
-        "ecmaVersion": 2018,
         "ecmaFeatures": {
             "jsx": true
         },
         "sourceType": "module"
     },
     "rules": {
-        "no-redeclare": "warn",
         "no-const-assign": "warn",
         "no-this-before-super": "warn",
         "no-undef": "warn",
         "no-unreachable": "warn",
-        "no-unused-vars": 1,
+        "no-unused-vars": "warn",
         "constructor-super": "warn",
         "valid-typeof": "warn",
-        "no-useless-escape": "warn",
-        "no-empty": "warn",
-        "import/no-unresolved": "warn",
-        "react/jsx-indent": "warn",
-        "react/jsx-key": "warn",
-        "react/jsx-indent-props": "warn",
-        "react/jsx-closing-bracket-location": "warn",
-        "react/jsx-tag-spacing": "warn",
-        "import/no-dynamic-require": 0,
+        "no-underscore-dangle": " We use _ to define private variables and methods in clases",
         "no-underscore-dangle": 0,
+        "import/no-extraneous-dependencies": "This seems to be buggy we don't want eslint to check this",
         "import/no-extraneous-dependencies": 0,
+        "react/require-extension": "This is a depricated rule. So we turned off it.",
         "react/require-extension": 0,
+        "react/jsx-filename-extension": "We can write JSX in anyfile we want.",
         "react/jsx-filename-extension": 0,
+        "arrow-body-style": "We don't like this rule.",
         "arrow-body-style": 0,
+        "prefer-arrow-callback": "We don't like this rule. We write arrow functions only when we needed.",
         "prefer-arrow-callback": 0,
+        "func-names": "We don't need to write function names always.",
         "func-names": 0,
-        "no-console": 0,
-        "react/no-array-index-key": 0,
-        "jsx-a11y/no-static-element-interactions": 0,
-        "import/extensions": 1,
-        "import/prefer-default-export": 0,
+        "react/forbid-prop-types": "propTypes can be object",
         "react/forbid-prop-types": 0,
-        "react/prefer-stateless-function": 0,
         "jsx-a11y/href-no-hash": "off",
-        "jsx-a11y/label-has-for": "off",
-        "jsx-a11y/anchor-is-valid": [
-            "warn",
-            {
-                "aspects": [
-                    "invalidHref"
-                ]
-            }
-        ]
+        "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }]
     }
 }

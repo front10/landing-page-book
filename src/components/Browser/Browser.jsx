@@ -9,6 +9,7 @@ import opera from "./images/opera.png";
 import maxthon from "./images/maxthon.png";
 import netscape from "./images/netscape.png";
 import flock from "./images/flock.png";
+import Image from "../Image/Image";
 
 let available = {
 	firefox: {name: "Firefox", icon: firefox},
@@ -33,8 +34,9 @@ class Browser extends Component {
 			showText
 		} = this.props;
 		return <div className="d-inline Browser">
-			<img src={available[vendor].icon}
-			     className="Browser__Icon"/>
+			<Image src={available[vendor].icon}
+			       alt={`Browser ${available[vendor].name} icon`}
+			       className="Browser__Icon"/>
 			{
 				showText &&
 				<div className="Browser__Text"> {available[vendor].name}</div>

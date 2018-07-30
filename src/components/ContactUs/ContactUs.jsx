@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import EmailValidator from 'email-validator';
 import ContactUsService from "../../service/ContactUs.services";
+import Button from "../Button";
+import FormGroup from "../FormGroup";
 
 class ContactUs extends Component {
 	constructor(props) {
@@ -82,7 +84,7 @@ class ContactUs extends Component {
 			submitButtonAlign
 		} = this.props;
 		return <div className="ContactUs">
-			<div className="form-group">
+			<FormGroup>
 				{
 					showText &&
 					<label htmlFor="contactNameTextLabel" className="ContactUs__Label">{nameText}</label>
@@ -91,8 +93,8 @@ class ContactUs extends Component {
 				       placeholder={showPlaceholder ? nameText : ""}
 				       value={this.state.name}
 				       onChange={this.onChangeName}/>
-			</div>
-			<div className="form-group">
+			</FormGroup>
+			<FormGroup>
 				{
 					showText &&
 					<label htmlFor="contactEmailTextLabel" className="ContactUs__Label">{mailText}</label>
@@ -101,8 +103,8 @@ class ContactUs extends Component {
 				       placeholder={showPlaceholder ? mailText : ""}
 				       value={this.state.mail}
 				       onChange={this.onChangeMail}/>
-			</div>
-			<div className="form-group">
+			</FormGroup>
+			<FormGroup>
 				{
 					showText &&
 					<label htmlFor="contactPhoneTextLabel" className="ContactUs__Label">{phoneText}</label>
@@ -111,8 +113,8 @@ class ContactUs extends Component {
 				       placeholder={showPlaceholder ? phoneText : ""}
 				       value={this.state.phone}
 				       onChange={this.onChangePhone}/>
-			</div>
-			<div className="form-group">
+			</FormGroup>
+			<FormGroup>
 				{
 					showText &&
 					<label htmlFor="contactMessageTextLabel" className="ContactUs__Label">{messageText}</label>
@@ -121,14 +123,15 @@ class ContactUs extends Component {
 				          placeholder={showPlaceholder ? messageText : ""}
 				          value={this.state.message}
 				          onChange={this.onChangeMessage}/>
-			</div>
+			</FormGroup>
 			<div className={`text-${submitButtonAlign}`}>
-				<button className="btn ContactUs__SubmitButton"
-				        disabled={!this.state.name || !this.state.message || !EmailValidator.validate(this.state.mail) || this.state.loading}
-				        onClick={this.onSubmit}>
-					{!this.state.loading && submitButtonText}
-					{this.state.loading && <i className="fa fa-circle-o-notch fa-spin" aria-hidden="true"/>}
-				</button>
+				<Button
+					loading={this.state.loading}
+					disabled={!this.state.name || !this.state.message || !EmailValidator.validate(this.state.mail) || this.state.loading}
+					className="btn ContactUs__SubmitButton"
+					onClick={this.onSubmit}>
+					{submitButtonText}
+				</Button>
 			</div>
 		</div>
 	}

@@ -7,7 +7,7 @@ import {ThemeSelector} from "../../../addons/ThemeSwitcher";
 import {Browser} from '../../../components';
 import Readme from '../../../components/Browser/README.md';
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Elements', module);
 
 stories.addDecorator(withKnobs);
 

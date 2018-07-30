@@ -7,9 +7,13 @@
 // Introduction
 import '../src/stories/documentation/Introduction';
 
+// Elements
+import '../src/stories/components/browser';
+import '../src/stories/components/button';
+import '../src/stories/components/input';
+
 //Components
 
-import '../src/stories/components/browser';
 import '../src/stories/components/browser-support';
 import '../src/stories/components/built-with';
 import '../src/stories/components/card';

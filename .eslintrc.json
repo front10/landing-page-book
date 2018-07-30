@@ -1,47 +1,46 @@
 {
-    "extends": [
-        "airbnb",
-        "eslint:recommended",
-        "plugin:react/recommended"
-    ],
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es6": true,
-        "node": true,
-        "jasmine": true
+  "extends": [
+    "airbnb",
+    "eslint:recommended",
+    "plugin:react/recommended"
+  ],
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es6": true,
+    "node": true,
+    "jasmine": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "sourceType": "module"
-    },
-    "rules": {
-        "no-const-assign": "warn",
-        "no-this-before-super": "warn",
-        "no-undef": "warn",
-        "no-unreachable": "warn",
-        "no-unused-vars": "warn",
-        "constructor-super": "warn",
-        "valid-typeof": "warn",
-        "no-underscore-dangle": " We use _ to define private variables and methods in clases",
-        "no-underscore-dangle": 0,
-        "import/no-extraneous-dependencies": "This seems to be buggy we don't want eslint to check this",
-        "import/no-extraneous-dependencies": 0,
-        "react/require-extension": "This is a depricated rule. So we turned off it.",
-        "react/require-extension": 0,
-        "react/jsx-filename-extension": "We can write JSX in anyfile we want.",
-        "react/jsx-filename-extension": 0,
-        "arrow-body-style": "We don't like this rule.",
-        "arrow-body-style": 0,
-        "prefer-arrow-callback": "We don't like this rule. We write arrow functions only when we needed.",
-        "prefer-arrow-callback": 0,
-        "func-names": "We don't need to write function names always.",
-        "func-names": 0,
-        "react/forbid-prop-types": "propTypes can be object",
-        "react/forbid-prop-types": 0,
-        "jsx-a11y/href-no-hash": "off",
-        "jsx-a11y/anchor-is-valid": ["warn", { "aspects": ["invalidHref"] }]
-    }
+    "sourceType": "module"
+  },
+  "rules": {
+    "no-const-assign": "warn",
+    "no-this-before-super": "warn",
+    "no-undef": "warn",
+    "no-unreachable": "warn",
+    "no-unused-vars": "warn",
+    "constructor-super": "warn",
+    "valid-typeof": "warn",
+    "no-underscore-dangle": 0,
+    "import/no-extraneous-dependencies": 0,
+    "react/require-extension": 0,
+    "react/jsx-filename-extension": 0,
+    "arrow-body-style": 0,
+    "prefer-arrow-callback": 0,
+    "func-names": 0,
+    "react/forbid-prop-types": 0,
+    "jsx-a11y/href-no-hash": "off",
+    "jsx-a11y/anchor-is-valid": [
+      "warn",
+      {
+        "aspects": [
+          "invalidHref"
+        ]
+      }
+    ]
+  }
 }

@@ -2,17 +2,13 @@
     .ImageList__Container {
         margin-left: auto;
         margin-right: auto;
-        .Card {
-            img {
-                max-width: 100px;
-            }
+        img {
+            max-width: 100px;
         }
     }
     .ImageList__Container--grayScale {
-        .Card {
-            img {
-                filter: grayscale(1);
-            }
+        img {
+            filter: grayscale(1);
         }
     }
 }

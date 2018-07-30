@@ -1,23 +1,28 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Card from '../Card';
+import Image from '../Image';
 
 class ImageList extends Component {
 	constructor(props) {
         super(props);
-        this.state = {};
-    } 
+		this.state = {};
+	} 
 
 	render() {
 		const {images, gray} = this.props;
-		return images.map((company, index) => {
+		return <div className="ImageList row">
+			{images.map((Imag, index) => {
 			return <div className={`ImageList__Container ${gray ? 'ImageList__Container--grayScale' : ''}`}
 			            key={index}>
-				<Card imageCircle={false}
-				      image={company.image}
-				      showBorder={false}/>
+				<Image      
+     			 alt={"This is an image example"}
+    			  src={Imag.image}
+    			  width={"100"}
+    			  height={"100"}
+    			/>
 			</div>
-		});
+		})}
+		</div>
 	}
 }
 

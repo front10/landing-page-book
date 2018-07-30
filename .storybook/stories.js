@@ -35,6 +35,7 @@ import '../src/stories/components/social';
 import '../src/stories/components/sponsors';
 import '../src/stories/components/team';
 import '../src/stories/components/video';
+import '../src/stories/components/imagelist';
 
 //Pages
 import "../src/stories/pages/fron10";

@@ -30,10 +30,6 @@ describe('GithubDetail', () => {
 
     it('should render', () => {
       expect(mount(<GithubDetail {...props} />)).toMatchSnapshot();
-    });
-    it('always renders a div', () => {
-      const divs = githubDetail().find('div');
-      expect(divs.length).toBeGreaterThan(0);
-    });
+    });    
   });
 });

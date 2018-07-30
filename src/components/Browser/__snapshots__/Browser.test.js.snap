@@ -395,7 +395,7 @@ ReactWrapper {
               "src": "chrome.png",
               "width": undefined,
             },
-            "memoizedState": null,
+            "memoizedState": Object {},
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
@@ -558,7 +558,7 @@ ReactWrapper {
                 "width": undefined,
               },
               "refs": Object {},
-              "state": null,
+              "state": Object {},
               "updater": Object {
                 "enqueueForceUpdate": [Function],
                 "enqueueReplaceState": [Function],
@@ -1827,7 +1827,7 @@ ReactWrapper {
                 "src": "chrome.png",
                 "width": undefined,
               },
-              "memoizedState": null,
+              "memoizedState": Object {},
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
@@ -6796,7 +6796,7 @@ ReactWrapper {
               "width": undefined,
             },
             "refs": Object {},
-            "state": null,
+            "state": Object {},
             "updater": Object {
               "enqueueForceUpdate": [Function],
               "enqueueReplaceState": [Function],
@@ -7248,7 +7248,7 @@ ReactWrapper {
                 "src": "chrome.png",
                 "width": undefined,
               },
-              "memoizedState": null,
+              "memoizedState": Object {},
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
@@ -7411,7 +7411,7 @@ ReactWrapper {
                   "width": undefined,
                 },
                 "refs": Object {},
-                "state": null,
+                "state": Object {},
                 "updater": Object {
                   "enqueueForceUpdate": [Function],
                   "enqueueReplaceState": [Function],
@@ -8680,7 +8680,7 @@ ReactWrapper {
                   "src": "chrome.png",
                   "width": undefined,
                 },
-                "memoizedState": null,
+                "memoizedState": Object {},
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
@@ -13649,7 +13649,7 @@ ReactWrapper {
                 "width": undefined,
               },
               "refs": Object {},
-              "state": null,
+              "state": Object {},
               "updater": Object {
                 "enqueueForceUpdate": [Function],
                 "enqueueReplaceState": [Function],

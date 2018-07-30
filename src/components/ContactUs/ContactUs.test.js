@@ -34,22 +34,22 @@ describe("ContactUs", () => {
 			expect(divs.length).toBeGreaterThan(0);
 		});
 		it("on change message", () => {
-			const $event = {currentTarget:{value: "abc"}};
+			const $event = {value: "abc"};
 			contactUs().instance().onChangeMessage($event);
 			expect(contactUs().state("message")).toEqual("abc");
 		});
 		it("on change phone", () => {
-			const $event = {currentTarget:{value: "5476"}};
+			const $event = {value: "5476"};
 			contactUs().instance().onChangePhone($event);
 			expect(contactUs().state("phone")).toEqual("5476");
 		});
 		it("on change email", () => {
-			const $event = {currentTarget:{value: "abc@gmail.com"}};
+			const $event = {value: "abc@gmail.com"};
 			contactUs().instance().onChangeMail($event);
 			expect(contactUs().state("mail")).toEqual("abc@gmail.com");
 		});
 		it("on change message", () => {
-			const $event = {currentTarget:{value: "my name"}};
+			const $event = {value: "my name"};
 			contactUs().instance().onChangeName($event);
 			expect(contactUs().state("name")).toEqual("my name");
 		});

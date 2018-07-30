@@ -92,9 +92,6 @@ $CodeMirror__font_family: Lato;
 /*
  * ContactUs
  */
-
-$ContactUs__Label-fontWeight: bold;
-$ContactUs__Label-fontSize: 12px;
 $ContactUs__SubmitButton-color: $white1;
 $ContactUs__SubmitButton-backgroundColor: $blue1;
 $ContactUs__SubmitButton--hover-color: $white1;
@@ -154,3 +151,8 @@ $Button-fontSize: 0.7rem;
  */
 $Input-borderRadius: 0px;
 $Input-fontSize: 0.7rem;
+
+/*
+ * Label
+ */
+$Label-fontSize: 0.7rem;

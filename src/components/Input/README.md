@@ -1,29 +1,31 @@
-# Copyright
+# Input
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
 ## Overview
-`@front10/landing-page-book/Copyright` is used to create copyright.
+`@front10/landing-page-book/Input` is used to create input.
 
 ## How to use
 1- Add following content to import the component:
 ```js
-import {Copyright} from '@front10/landing-page-book/src/components';
+import {Input} from '@front10/landing-page-book/src/components';
 ```
 
 2- Put this code into jsx page:
 ```html
-<Copyright text="Fron10, inc"/>
+<Input />
 ```
 
 ## Properties:
 
 | </br>Name   | </br>Type | </br>Summary                                                                                 | 
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
-| showCopyRightSymbol      | `Boolean` | Show or hide `©` symbol. Default `true` |
-| showCopyRightText      | `Boolean` | Show or hide copy right text. Default `true` |
-| showYear      | `Boolean` | Show or hide year in copyright. Default `true` |
-| showAllRightText      | `Boolean` | Show or hide all right reserved text. Default `true` |
-| copyRightText      | `String` | Copy right text. Default `"Copyright"` |
-| allRightText      | `String` | All rights reserved text. Default `"All rights reserved"` |
-| text      | `String` | Text in copyright, ex: `Front10, Inc`. Default `""` |
+| labelColon | `Boolean` | Show or hide `:` in label. Default `false` |
+| className | `String` | Class to apply to input. Default `""` |
+| type | `String` | Input type. Default `"text"`, can be `text`, `number`, `email` and `textarea` |
+| id | `String` | Input id. Default `""` |
+| name | `String` | Input name. Default `""` |
+| value | `String` | Input value. Default `""` |
+| placeholder | `String` | Input placeholder. Default `""` |
+| label | `String` | Label to show on input top. Default `""` |
+| onChange | `Function` | Called when input change. Params `{value}` |

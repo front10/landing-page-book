@@ -11893,6 +11893,9 @@ span.CodeMirror-selectedtext { background: none; }
 /*
  * Input
  */
+/*
+ * Label
+ */
 /*Custom*/
 /*Components*/
 .Browser .Browser__Icon {
@@ -11961,10 +11964,6 @@ span.CodeMirror-selectedtext { background: none; }
 
 .CodeMirror {
   height: 250px !important; }
-
-.ContactUs .ContactUs__Label {
-  font-weight: bold;
-  font-size: 12px; }
 
 .ContactUs .ContactUs__SubmitButton {
   color: white;
@@ -12090,6 +12089,9 @@ span.CodeMirror-selectedtext { background: none; }
 
 .Input {
   border-radius: 0px;
+  font-size: 0.7rem; }
+
+.Label {
   font-size: 0.7rem; }
 
 .LanguageSwitcher .country-flag {

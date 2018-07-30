@@ -19,12 +19,12 @@ import {Location} from '@front10/landing-page-book/src/components';
 ## Example
 ```js
 const markers = [{
-	icon: "fa-map-marker",
+	icon: "fa fa-map-marker",
 	color: "#d20000",
 	lat: 26.5,
 	lng: -80.2
 },{
-	icon: "fa-map-marker",
+	icon: "fa fa-map-marker",
 	color: "#d2a430",
 	lat: 26.6,
 	lng: -80.3

@@ -1,17 +1,12 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import GoogleMapReact from 'google-map-react'
-
-const Marker = ({color = "#d20000", icon = "fa-map-marker"}) => <h1 style={{color}}>
-	<i className={`fa ${icon} fa-1x`}/>
-</h1>;
+import LocationMarker from '../LocationMarker';
 
 class Location extends Component {
 
-	renderMarkers() {
-		return this.props.markers.map((marker, index) => {
-			return <Marker key={index} color={marker.color} icon={marker.icon} lat={marker.lat} lng={marker.lng}/>
-		});
+	constructor(props) {
+		super(props);
 	}
 
 	render() {
@@ -21,12 +16,23 @@ class Location extends Component {
 			zoom,
 			apiKey,
 			language,
+			markers
 		} = this.props;
-		const Marker = ({color = markerColor, icon = markerIcon}) => <h1 style={{color}}><i
-			className={`fa ${icon} fa-1x`}/></h1>
-		return <GoogleMapReact defaultCenter={{lat: lat, lng: lng}} defaultZoom={zoom}
-		                       bootstrapURLKeys={{key: apiKey, language: language}}>
-			{this.renderMarkers()}
+
+		return <GoogleMapReact
+			center={{lat: lat, lng: lng}}
+			zoom={zoom}
+			bootstrapURLKeys={{key: apiKey, language: language}}>
+			{
+				markers.map((marker, index) => {
+					return <LocationMarker
+						key={index}
+						lat={marker.lat}
+						lng={marker.lng}
+						color={marker.color}
+						icon={marker.icon}/>
+				})
+			}
 		</GoogleMapReact>
 	}
 }

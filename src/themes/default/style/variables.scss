@@ -95,11 +95,8 @@ $CodeMirror__font_family: Lato;
 
 $ContactUs__Label-fontWeight: bold;
 $ContactUs__Label-fontSize: 12px;
-$ContactUs__Input-borderRadius: 0px;
-$ContactUs__Input-fontSize: 12px;
 $ContactUs__SubmitButton-color: $white1;
 $ContactUs__SubmitButton-backgroundColor: $blue1;
-$ContactUs__SubmitButton-borderRadius: 0px;
 $ContactUs__SubmitButton--hover-color: $white1;
 $ContactUs__SubmitButton--hover-backgroundColor: $blue2;
 
@@ -145,3 +142,15 @@ $LanguageSwitcher__Option--hover-backgroundColor: #eaeaea;
 $LanguageSwitcher__Option--hover-color: #000;
 $LanguageSwitcher__Option-color: #000;
 $LanguageSwitcher--disabled-color: #b5b5b5;
+
+/*
+ * Button
+ */
+$Button-borderRadius: 0px;
+$Button-fontSize: 0.7rem;
+
+/*
+ * Input
+ */
+$Input-borderRadius: 0px;
+$Input-fontSize: 0.7rem;

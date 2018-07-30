@@ -11887,6 +11887,12 @@ span.CodeMirror-selectedtext { background: none; }
 /*
  * Language switcher
  */
+/*
+ * Button
+ */
+/*
+ * Input
+ */
 /*Custom*/
 /*Components*/
 .Browser .Browser__Icon {
@@ -11907,6 +11913,10 @@ span.CodeMirror-selectedtext { background: none; }
 
 .BuiltWith .BuiltWith__Container--grayScale .Card img {
   filter: grayscale(1); }
+
+.Button {
+  border-radius: 0px;
+  font-size: 0.7rem; }
 
 .Card {
   background-color: transparent; }
@@ -11956,14 +11966,9 @@ span.CodeMirror-selectedtext { background: none; }
   font-weight: bold;
   font-size: 12px; }
 
-.ContactUs .ContactUs__Input {
-  border-radius: 0px;
-  font-size: 12px; }
-
 .ContactUs .ContactUs__SubmitButton {
   color: white;
-  background-color: #4285f4;
-  border-radius: 0px; }
+  background-color: #4285f4; }
 
 .ContactUs .ContactUs__SubmitButton:not(:disabled):hover,
 .ContactUs .ContactUs__SubmitButton:not(:disabled):focus {
@@ -12082,6 +12087,10 @@ span.CodeMirror-selectedtext { background: none; }
     font-size: 30px !important; }
   .Hero__SubHeader {
     font-size: 20px !important; } }
+
+.Input {
+  border-radius: 0px;
+  font-size: 0.7rem; }
 
 .LanguageSwitcher .country-flag {
   color: #000; }

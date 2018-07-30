@@ -1,8 +1,10 @@
 import Browser from './Browser';
 import BrowserSupport from './BrowserSupport';
 import BuiltWith from './BuiltWith';
+import Button from './Button';
 import Card from './Card';
 import Code from './Code';
+import Column from './Column';
 import ContactUs from './ContactUs';
 import Container from './Container';
 import Copyright from "./Copyright";
@@ -12,8 +14,10 @@ import Gif from './Gif';
 import GithubDetail from './GithubDetail';
 import Header from "./Header";
 import Hero from "./Hero";
+import Input from "./Input";
 import LanguageSwitcher from "./LanguageSwitcher";
 import Location from "./Location";
+import Row from "./Row";
 import Section from "./Section";
 import Social from "./Social";
 import Sponsors from "./Sponsors";
@@ -24,8 +28,10 @@ export {
 	BrowserSupport,
 	Browser,
 	BuiltWith,
+	Button,
 	Card,
 	Code,
+	Column,
 	ContactUs,
 	Container,
 	Copyright,
@@ -35,8 +41,10 @@ export {
 	GithubDetail,
 	Header,
 	Hero,
+	Input,
 	LanguageSwitcher,
 	Location,
+	Row,
 	Section,
 	Social,
 	Sponsors,

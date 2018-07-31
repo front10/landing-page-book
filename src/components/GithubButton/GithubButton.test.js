@@ -1,14 +1,14 @@
 import React from 'react';
 import { configure, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import GithubDetail from './GithubDetail';
+import GithubButton from './GithubButton';
 
 configure({ adapter: new Adapter() });
 
-describe('GithubDetail', () => {
+describe('GithubButton', () => {
   let props;
 
-  describe('GithubDetail', () => {
+  describe('GithubButton', () => {
     beforeEach(() => {
       props = {
         showCounter: true,
@@ -22,7 +22,7 @@ describe('GithubDetail', () => {
     });
 
     it('should render', () => {
-      expect(mount(<GithubDetail {...props} />)).toMatchSnapshot();
+      expect(mount(<GithubButton {...props} />)).toMatchSnapshot();
     });    
   });
 });

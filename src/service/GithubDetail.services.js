@@ -1,5 +1,5 @@
 import fetch from 'node-fetch';
-import { GITHUB_API_URL } from './constant';
+import GITHUB_API_URL from './constant';
 
 class GithubService {
   static getRepositoriesStats(username, repository) {

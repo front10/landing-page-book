@@ -11,7 +11,7 @@ import Copyright from './Copyright';
 import Features from './Features';
 import Footer from './Footer';
 import Gif from './Gif';
-import GithubDetail from './GithubDetail';
+import GithubButton from './GithubButton';
 import Hero from "./Hero";
 import Icon from "./Icon";
 import Image from "./Image";
@@ -46,7 +46,7 @@ export {
 	Features,
 	Footer,
 	Gif,
-	GithubDetail,
+	GithubButton,
 	Hero,
 	Icon,
 	Image,

@@ -26,7 +26,7 @@ import '../src/stories/components/copyright';
 import '../src/stories/components/features';
 import '../src/stories/components/footer';
 import '../src/stories/components/gif';
-import '../src/stories/components/github-detail';
+import '../src/stories/components/github-button';
 import '../src/stories/components/hero';
 import '../src/stories/components/language-switcher';
 import '../src/stories/components/location';

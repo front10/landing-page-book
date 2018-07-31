@@ -7,11 +7,11 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Social } from '../../../components';
 import Readme from '../../../components/Social/README.md';
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Social', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Social', withReadme([Readme], () => {
+stories.add('Default', withReadme([Readme], () => {
   return (
     <ThemeSelector>
       <Social
@@ -37,4 +37,95 @@ stories.add('Social', withReadme([Readme], () => {
       />
     </ThemeSelector>
   );
+}));
+
+stories.add('All', withReadme([Readme], () => {
+  return (
+    <ThemeSelector>
+      <Social
+        gray={boolean('Use gray', false)}
+        type="email"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="facebook"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="google"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="linkedin"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="livejournal"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="ok"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="pinterest"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="reddit"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="telegram"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="tumblr"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="twitter"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="viber"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="vk"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+      <Social
+        gray={boolean('Use gray', false)}
+        type="whatsapp"
+        rounded={boolean('Rounded', true)}
+        url={text('Url', 'https://front10.com')}
+      />
+    </ThemeSelector>
+	);
 }));

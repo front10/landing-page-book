@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, shallow, mount } from 'enzyme';
+import { configure, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import GithubDetail from './GithubDetail';
 
@@ -7,13 +7,7 @@ configure({ adapter: new Adapter() });
 
 describe('GithubDetail', () => {
   let props;
-  let mounted;
-  const githubDetail = () => {
-    if (!mounted) {
-      mounted = shallow(<GithubDetail {...props} />);
-    }
-    return mounted;
-  };
+
   describe('GithubDetail', () => {
     beforeEach(() => {
       props = {
@@ -25,7 +19,6 @@ describe('GithubDetail', () => {
         btntype: 'fork',
         btnText: 'Fork',
       };
-      mounted = undefined;
     });
 
     it('should render', () => {

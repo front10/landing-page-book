@@ -8,13 +8,6 @@ class Team extends Component {
 		super(props);
 	}
 
-	renderSocials(url) {
-		const {socials, socialGray} = this.props;
-		return socials.map((social, index) => {
-			return <Social key={index} url={url} type={social} gray={socialGray}/>
-		});
-	}
-
 	renderMembers() {
 		const {
 			showImage,
@@ -23,6 +16,7 @@ class Team extends Component {
 			showSummary,
 			showBorder,
 			socials,
+			socialGray,
 			members,
 			imageCircle,
 			contentAlign,
@@ -38,7 +32,11 @@ class Team extends Component {
 				      contentAlign={contentAlign}
 				      imageBorder={imageBorder}
 				      image={showImage ? member.image : ""}>
-					{this.renderSocials(member.profile)}
+					{
+						socials.map((social, index) => {
+							return <Social key={index} url={member.profile} type={social} gray={socialGray}/>
+						})
+					}
 				</Card>
 			</div>
 		});

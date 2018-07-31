@@ -91,8 +91,7 @@ class Code extends React.Component {
     };
 
     render() {
-
-        var options = {
+        const options = {
             lineNumbers: this.state.lineNumbers,
             readOnly: this.state.readOnly,
             mode: this.state.mode,

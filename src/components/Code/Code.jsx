@@ -43,23 +43,24 @@ class Code extends React.Component {
 		});
 	}
 
-	componentWillReceiveProps(nextProps) {
-		if (nextProps.readOnly !== this.state.readOnly)
-			this.setState({readOnly: nextProps.readOnly});
-		if (nextProps.lineNumbers !== this.state.lineNumbers)
-			this.setState({lineNumbers: nextProps.lineNumbers});
-		if (nextProps.bgColorDark !== this.state.bgColorDark)
-			this.setState({bgColorDark: nextProps.bgColorDark});
-		if (nextProps.languageCode !== this.state.mode)
-			this.setState({mode: nextProps.languageCode});
-		if (nextProps.code !== this.state.code)
-			this.setState({code: nextProps.code}, () => {
-				this.refs.editor.getCodeMirror().setValue(nextProps.code);
+	componentDidUpdate() {
+		const {readOnly, lineNumbers, bgColorDark, languageCode, code, showheader, showfooter} = this.props;
+		if (readOnly !== this.state.readOnly)
+			this.setState({readOnly: readOnly});
+		if (lineNumbers !== this.state.lineNumbers)
+			this.setState({lineNumbers: lineNumbers});
+		if (bgColorDark !== this.state.bgColorDark)
+			this.setState({bgColorDark: bgColorDark});
+		if (languageCode !== this.state.mode)
+			this.setState({mode: languageCode});
+		if (code !== this.state.code)
+			this.setState({code: code}, () => {
+				this.refs.editor.getCodeMirror().setValue(code);
 			});
-		if (nextProps.showheader !== this.state.showheader)
-			this.setState({showheader: nextProps.showheader});
-		if (nextProps.showfooter !== this.state.showfooter)
-			this.setState({showfooter: nextProps.showfooter});
+		if (showheader !== this.state.showheader)
+			this.setState({showheader: showheader});
+		if (showfooter !== this.state.showfooter)
+			this.setState({showfooter: showfooter});
 
 	}
 

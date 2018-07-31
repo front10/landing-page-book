@@ -7,15 +7,7 @@ class Features extends React.Component {
 		super(props);
 	}
 
-
-	renderLinks() {
-		const {links} = this.props;
-		return links.map((link, index) => {
-			return <a key={index} href={link.url}>{link.text}</a>
-		});
-	}
-
-	renderFeatures() {
+	render() {
 		const {
 			showImage,
 			showTitle,
@@ -27,7 +19,8 @@ class Features extends React.Component {
 			imageBorder,
 			contentAlign
 		} = this.props;
-		return features.map((feature, index) => {
+		return <div className="features d-flex flex-wrap">
+			{features.map((feature, index) => {
 			return <div className={`col-md-3 text-${contentAlign} mb-4`} key={index}>
 				<Card imageCircle={imageCircle}
 				      subTitle={showSubtitle ? feature.subtitle : ""}
@@ -37,18 +30,10 @@ class Features extends React.Component {
 				      contentAlign={contentAlign}
 				      imageBorder={imageBorder}
 				      image={showImage ? feature.image : ""}>
-
 					<a href={feature.link}>{feature.linktext}</a>
-
 				</Card>
 			</div>
-		});
-	}
-
-	render() {
-		const {} = this.props;
-		return <div className="features d-flex flex-wrap">
-			{this.renderFeatures()}
+		})}
 		</div>
 	}
 }

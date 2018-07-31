@@ -11908,15 +11908,6 @@ span.CodeMirror-selectedtext { background: none; }
 .Browser .Browser__Version {
   font-size: .6rem; }
 
-.BuiltWith .BuiltWith__Container {
-  margin-left: auto;
-  margin-right: auto; }
-  .BuiltWith .BuiltWith__Container .Card img {
-    max-width: 100px; }
-
-.BuiltWith .BuiltWith__Container--grayScale .Card img {
-  filter: grayscale(1); }
-
 .Button {
   border-radius: 0px;
   font-size: 0.7rem; }
@@ -12146,5 +12137,11 @@ span.CodeMirror-selectedtext { background: none; }
 .SocialMediaShareButton--grayScale svg {
   filter: grayscale(1); }
 
-.features img {
-  /* width: 100px;*/ }
+.ImageList .ImageList__Container {
+  margin-left: auto;
+  margin-right: auto; }
+  .ImageList .ImageList__Container img {
+    max-width: 100px; }
+
+.ImageList .ImageList__Container--grayScale img {
+  filter: grayscale(1); }

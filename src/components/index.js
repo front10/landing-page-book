@@ -30,6 +30,7 @@ import Social from "./Social";
 import Sponsors from "./Sponsors";
 import Team from "./Team";
 import Video from "./Video";
+import ImageList from './ImageList';
 
 export {
 	BrowserSupport,
@@ -49,6 +50,7 @@ export {
 	Hero,
 	Icon,
 	Image,
+	ImageList,
 	Input,
 	Label,
 	LanguageSwitcher,

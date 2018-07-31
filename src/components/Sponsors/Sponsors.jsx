@@ -1,33 +1,19 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import BuiltWith from '../../components/BuiltWith';
+import ImageList from '../../components/ImageList';
 
 class Sponsors extends React.Component {
     constructor(props) {
         super(props);
         this.state = {};
-    }
-
-    componentWillMount() {
-       
-    }
-
-    componentWillReceiveProps(nextProps) {
-
-    }
+    }   
 
     render() {
-        return (
-            <div >                
-                <BuiltWith
+        return <ImageList
                     gray={this.props.gray}
-                    companies={this.props.sponsors}
+                    images={this.props.sponsors}
                 />
-            </div>
-
-        );
-
-    }
+              }
 }
 
 Sponsors.propTypes = {

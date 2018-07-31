@@ -1,25 +1,18 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
-import Card from "../Card";
+import ImageList from '../../components/ImageList';
 
 class BuiltWith extends Component {
-
-	renderCompanies() {
-		const {companies, gray} = this.props;
-		return companies.map((company, index) => {
-			return <div className={`BuiltWith__Container ${gray ? 'BuiltWith__Container--grayScale' : ''}`}
-			            key={index}>
-				<Card imageCircle={false}
-				      image={company.image}
-				      showBorder={false}/>
-			</div>
-		});
-	}
-
+	constructor(props) {
+        super(props);
+        this.state = {};
+    }   
+	
 	render() {
-		return <div className="BuiltWith row">
-			{this.renderCompanies()}
-		</div>
+		return <ImageList
+                    gray={this.props.gray}
+                    images={this.props.companies}
+                />		
 	}
 }
 

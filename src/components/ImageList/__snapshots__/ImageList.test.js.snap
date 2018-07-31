@@ -1,16 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Image Image should render 1`] = `
+exports[`ImageList ImageList should render 1`] = `
 ReactWrapper {
   "length": 1,
-  Symbol(enzyme.__unrendered__): <Image
-    alt={undefined}
-    border={false}
-    className="img-fluid"
-    height={undefined}
-    rounded={false}
-    src={undefined}
-    width={undefined}
+  Symbol(enzyme.__unrendered__): <ImageList
+    gray={false}
+    images={Array []}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -21,7 +16,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": Image {
+    "instance": ImageList {
       "_reactInternalFiber": FiberNode {
         "_debugID": 5,
         "_debugIsCurrentlyTiming": false,
@@ -44,26 +39,16 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "alt": undefined,
-              "border": false,
-              "className": "img-fluid",
-              "height": undefined,
-              "rounded": false,
-              "src": undefined,
-              "width": undefined,
+              "gray": false,
+              "images": Array [],
             },
           },
           "memoizedState": Object {
             "context": null,
             "mount": true,
             "props": Object {
-              "alt": undefined,
-              "border": false,
-              "className": "img-fluid",
-              "height": undefined,
-              "rounded": false,
-              "src": undefined,
-              "width": undefined,
+              "gray": false,
+              "images": Array [],
             },
           },
           "mode": 0,
@@ -72,13 +57,8 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "alt": undefined,
-              "border": false,
-              "className": "img-fluid",
-              "height": undefined,
-              "rounded": false,
-              "src": undefined,
-              "width": undefined,
+              "gray": false,
+              "images": Array [],
             },
           },
           "ref": null,
@@ -115,8 +95,8 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <img
-                    class="img-fluid"
+                  <div
+                    class="ImageList row"
                   />
                 </div>,
                 "context": Object {},
@@ -155,13 +135,8 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "alt": undefined,
-                          "border": false,
-                          "className": "img-fluid",
-                          "height": undefined,
-                          "rounded": false,
-                          "src": undefined,
-                          "width": undefined,
+                          "gray": false,
+                          "images": Array [],
                         }
                       }
                     />,
@@ -182,13 +157,8 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "alt": undefined,
-                          "border": false,
-                          "className": "img-fluid",
-                          "height": undefined,
-                          "rounded": false,
-                          "src": undefined,
-                          "width": undefined,
+                          "gray": false,
+                          "images": Array [],
                         }
                       }
                     />,
@@ -211,13 +181,8 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "alt": undefined,
-                    "border": false,
-                    "className": "img-fluid",
-                    "height": undefined,
-                    "rounded": false,
-                    "src": undefined,
-                    "width": undefined,
+                    "gray": false,
+                    "images": Array [],
                   }
                 }
               />,
@@ -231,8 +196,8 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <img
-                  class="img-fluid"
+                <div
+                  class="ImageList row"
                 />
               </div>,
               "context": Object {},
@@ -261,13 +226,8 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "alt": undefined,
-                      "border": false,
-                      "className": "img-fluid",
-                      "height": undefined,
-                      "rounded": false,
-                      "src": undefined,
-                      "width": undefined,
+                      "gray": false,
+                      "images": Array [],
                     }
                   }
                 />,
@@ -293,13 +253,8 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "refs": Object {},
@@ -307,13 +262,8 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "updater": Object {
@@ -348,32 +298,26 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "alt": undefined,
-            "className": "img-fluid",
-            "height": undefined,
-            "src": undefined,
-            "width": undefined,
+            "children": Array [],
+            "className": "ImageList row",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "alt": undefined,
-            "className": "img-fluid",
-            "height": undefined,
-            "src": undefined,
-            "width": undefined,
+            "children": Array [],
+            "className": "ImageList row",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
-          "stateNode": <img
-            class="img-fluid"
+          "stateNode": <div
+            class="ImageList row"
           />,
           "tag": 5,
           "treeBaseTime": 0,
-          "type": "img",
+          "type": "div",
           "updateQueue": null,
         },
         "effectTag": 1,
@@ -383,25 +327,15 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
-          "alt": undefined,
-          "border": false,
-          "className": "img-fluid",
-          "height": undefined,
-          "rounded": false,
-          "src": undefined,
-          "width": undefined,
+          "gray": false,
+          "images": Array [],
         },
         "memoizedState": Object {},
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
-          "alt": undefined,
-          "border": false,
-          "className": "img-fluid",
-          "height": undefined,
-          "rounded": false,
-          "src": undefined,
-          "width": undefined,
+          "gray": false,
+          "images": Array [],
         },
         "ref": null,
         "return": FiberNode {
@@ -423,26 +357,16 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "alt": undefined,
-              "border": false,
-              "className": "img-fluid",
-              "height": undefined,
-              "rounded": false,
-              "src": undefined,
-              "width": undefined,
+              "gray": false,
+              "images": Array [],
             },
           },
           "memoizedState": Object {
             "context": null,
             "mount": true,
             "props": Object {
-              "alt": undefined,
-              "border": false,
-              "className": "img-fluid",
-              "height": undefined,
-              "rounded": false,
-              "src": undefined,
-              "width": undefined,
+              "gray": false,
+              "images": Array [],
             },
           },
           "mode": 0,
@@ -451,13 +375,8 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "alt": undefined,
-              "border": false,
-              "className": "img-fluid",
-              "height": undefined,
-              "rounded": false,
-              "src": undefined,
-              "width": undefined,
+              "gray": false,
+              "images": Array [],
             },
           },
           "ref": null,
@@ -494,8 +413,8 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <img
-                    class="img-fluid"
+                  <div
+                    class="ImageList row"
                   />
                 </div>,
                 "context": Object {},
@@ -534,13 +453,8 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "alt": undefined,
-                          "border": false,
-                          "className": "img-fluid",
-                          "height": undefined,
-                          "rounded": false,
-                          "src": undefined,
-                          "width": undefined,
+                          "gray": false,
+                          "images": Array [],
                         }
                       }
                     />,
@@ -561,13 +475,8 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "alt": undefined,
-                          "border": false,
-                          "className": "img-fluid",
-                          "height": undefined,
-                          "rounded": false,
-                          "src": undefined,
-                          "width": undefined,
+                          "gray": false,
+                          "images": Array [],
                         }
                       }
                     />,
@@ -590,13 +499,8 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "alt": undefined,
-                    "border": false,
-                    "className": "img-fluid",
-                    "height": undefined,
-                    "rounded": false,
-                    "src": undefined,
-                    "width": undefined,
+                    "gray": false,
+                    "images": Array [],
                   }
                 }
               />,
@@ -610,8 +514,8 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <img
-                  class="img-fluid"
+                <div
+                  class="ImageList row"
                 />
               </div>,
               "context": Object {},
@@ -640,13 +544,8 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "alt": undefined,
-                      "border": false,
-                      "className": "img-fluid",
-                      "height": undefined,
-                      "rounded": false,
-                      "src": undefined,
-                      "width": undefined,
+                      "gray": false,
+                      "images": Array [],
                     }
                   }
                 />,
@@ -672,13 +571,8 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "refs": Object {},
@@ -686,13 +580,8 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "updater": Object {
@@ -718,13 +607,8 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
-        "alt": undefined,
-        "border": false,
-        "className": "img-fluid",
-        "height": undefined,
-        "rounded": false,
-        "src": undefined,
-        "width": undefined,
+        "gray": false,
+        "images": Array [],
       },
       "refs": Object {},
       "state": Object {},
@@ -738,39 +622,31 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "alt": undefined,
-      "border": false,
-      "className": "img-fluid",
-      "height": undefined,
-      "rounded": false,
-      "src": undefined,
-      "width": undefined,
+      "gray": false,
+      "images": Array [],
     },
     "ref": null,
     "rendered": Object {
-      "instance": <img
-        class="img-fluid"
+      "instance": <div
+        class="ImageList row"
       />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "alt": undefined,
-        "className": "img-fluid",
-        "height": undefined,
-        "src": undefined,
-        "width": undefined,
+        "children": Array [],
+        "className": "ImageList row",
       },
       "ref": null,
       "rendered": Array [
-        undefined,
+        Array [],
       ],
-      "type": "img",
+      "type": "div",
     },
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
-      "instance": Image {
+      "instance": ImageList {
         "_reactInternalFiber": FiberNode {
           "_debugID": 5,
           "_debugIsCurrentlyTiming": false,
@@ -793,26 +669,16 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "memoizedState": Object {
               "context": null,
               "mount": true,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "mode": 0,
@@ -821,13 +687,8 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "ref": null,
@@ -864,8 +725,8 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <img
-                      class="img-fluid"
+                    <div
+                      class="ImageList row"
                     />
                   </div>,
                   "context": Object {},
@@ -904,13 +765,8 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "alt": undefined,
-                            "border": false,
-                            "className": "img-fluid",
-                            "height": undefined,
-                            "rounded": false,
-                            "src": undefined,
-                            "width": undefined,
+                            "gray": false,
+                            "images": Array [],
                           }
                         }
                       />,
@@ -931,13 +787,8 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "alt": undefined,
-                            "border": false,
-                            "className": "img-fluid",
-                            "height": undefined,
-                            "rounded": false,
-                            "src": undefined,
-                            "width": undefined,
+                            "gray": false,
+                            "images": Array [],
                           }
                         }
                       />,
@@ -960,13 +811,8 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "alt": undefined,
-                      "border": false,
-                      "className": "img-fluid",
-                      "height": undefined,
-                      "rounded": false,
-                      "src": undefined,
-                      "width": undefined,
+                      "gray": false,
+                      "images": Array [],
                     }
                   }
                 />,
@@ -980,8 +826,8 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <img
-                    class="img-fluid"
+                  <div
+                    class="ImageList row"
                   />
                 </div>,
                 "context": Object {},
@@ -1010,13 +856,8 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "alt": undefined,
-                        "border": false,
-                        "className": "img-fluid",
-                        "height": undefined,
-                        "rounded": false,
-                        "src": undefined,
-                        "width": undefined,
+                        "gray": false,
+                        "images": Array [],
                       }
                     }
                   />,
@@ -1042,13 +883,8 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "alt": undefined,
-                  "border": false,
-                  "className": "img-fluid",
-                  "height": undefined,
-                  "rounded": false,
-                  "src": undefined,
-                  "width": undefined,
+                  "gray": false,
+                  "images": Array [],
                 },
               },
               "refs": Object {},
@@ -1056,13 +892,8 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "alt": undefined,
-                  "border": false,
-                  "className": "img-fluid",
-                  "height": undefined,
-                  "rounded": false,
-                  "src": undefined,
-                  "width": undefined,
+                  "gray": false,
+                  "images": Array [],
                 },
               },
               "updater": Object {
@@ -1097,32 +928,26 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "alt": undefined,
-              "className": "img-fluid",
-              "height": undefined,
-              "src": undefined,
-              "width": undefined,
+              "children": Array [],
+              "className": "ImageList row",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "alt": undefined,
-              "className": "img-fluid",
-              "height": undefined,
-              "src": undefined,
-              "width": undefined,
+              "children": Array [],
+              "className": "ImageList row",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
-            "stateNode": <img
-              class="img-fluid"
+            "stateNode": <div
+              class="ImageList row"
             />,
             "tag": 5,
             "treeBaseTime": 0,
-            "type": "img",
+            "type": "div",
             "updateQueue": null,
           },
           "effectTag": 1,
@@ -1132,25 +957,15 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "alt": undefined,
-            "border": false,
-            "className": "img-fluid",
-            "height": undefined,
-            "rounded": false,
-            "src": undefined,
-            "width": undefined,
+            "gray": false,
+            "images": Array [],
           },
           "memoizedState": Object {},
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "alt": undefined,
-            "border": false,
-            "className": "img-fluid",
-            "height": undefined,
-            "rounded": false,
-            "src": undefined,
-            "width": undefined,
+            "gray": false,
+            "images": Array [],
           },
           "ref": null,
           "return": FiberNode {
@@ -1172,26 +987,16 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "memoizedState": Object {
               "context": null,
               "mount": true,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "mode": 0,
@@ -1200,13 +1005,8 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
-                "border": false,
-                "className": "img-fluid",
-                "height": undefined,
-                "rounded": false,
-                "src": undefined,
-                "width": undefined,
+                "gray": false,
+                "images": Array [],
               },
             },
             "ref": null,
@@ -1243,8 +1043,8 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <img
-                      class="img-fluid"
+                    <div
+                      class="ImageList row"
                     />
                   </div>,
                   "context": Object {},
@@ -1283,13 +1083,8 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "alt": undefined,
-                            "border": false,
-                            "className": "img-fluid",
-                            "height": undefined,
-                            "rounded": false,
-                            "src": undefined,
-                            "width": undefined,
+                            "gray": false,
+                            "images": Array [],
                           }
                         }
                       />,
@@ -1310,13 +1105,8 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "alt": undefined,
-                            "border": false,
-                            "className": "img-fluid",
-                            "height": undefined,
-                            "rounded": false,
-                            "src": undefined,
-                            "width": undefined,
+                            "gray": false,
+                            "images": Array [],
                           }
                         }
                       />,
@@ -1339,13 +1129,8 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "alt": undefined,
-                      "border": false,
-                      "className": "img-fluid",
-                      "height": undefined,
-                      "rounded": false,
-                      "src": undefined,
-                      "width": undefined,
+                      "gray": false,
+                      "images": Array [],
                     }
                   }
                 />,
@@ -1359,8 +1144,8 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <img
-                    class="img-fluid"
+                  <div
+                    class="ImageList row"
                   />
                 </div>,
                 "context": Object {},
@@ -1389,13 +1174,8 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "alt": undefined,
-                        "border": false,
-                        "className": "img-fluid",
-                        "height": undefined,
-                        "rounded": false,
-                        "src": undefined,
-                        "width": undefined,
+                        "gray": false,
+                        "images": Array [],
                       }
                     }
                   />,
@@ -1421,13 +1201,8 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "alt": undefined,
-                  "border": false,
-                  "className": "img-fluid",
-                  "height": undefined,
-                  "rounded": false,
-                  "src": undefined,
-                  "width": undefined,
+                  "gray": false,
+                  "images": Array [],
                 },
               },
               "refs": Object {},
@@ -1435,13 +1210,8 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "alt": undefined,
-                  "border": false,
-                  "className": "img-fluid",
-                  "height": undefined,
-                  "rounded": false,
-                  "src": undefined,
-                  "width": undefined,
+                  "gray": false,
+                  "images": Array [],
                 },
               },
               "updater": Object {
@@ -1467,13 +1237,8 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
-          "alt": undefined,
-          "border": false,
-          "className": "img-fluid",
-          "height": undefined,
-          "rounded": false,
-          "src": undefined,
-          "width": undefined,
+          "gray": false,
+          "images": Array [],
         },
         "refs": Object {},
         "state": Object {},
@@ -1487,33 +1252,25 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "alt": undefined,
-        "border": false,
-        "className": "img-fluid",
-        "height": undefined,
-        "rounded": false,
-        "src": undefined,
-        "width": undefined,
+        "gray": false,
+        "images": Array [],
       },
       "ref": null,
       "rendered": Object {
-        "instance": <img
-          class="img-fluid"
+        "instance": <div
+          class="ImageList row"
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "alt": undefined,
-          "className": "img-fluid",
-          "height": undefined,
-          "src": undefined,
-          "width": undefined,
+          "children": Array [],
+          "className": "ImageList row",
         },
         "ref": null,
         "rendered": Array [
-          undefined,
+          Array [],
         ],
-        "type": "img",
+        "type": "div",
       },
       "type": [Function],
     },

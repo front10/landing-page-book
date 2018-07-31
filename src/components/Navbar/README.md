@@ -80,7 +80,7 @@ const onItemClick= ({item})=>{
 | companyLink      | `String` | Link to go when company name or logo has clicked. Default `""` |
 | companyLogo      | `String` | Image logo url. Default `""` |
 | className      | `String` | Class to apply. Default `""` |
-| expand      | `String` | Resolution to expand Navbar. Default `"md"` |
+| expand      | `String` | Resolution to expand Navbar. Default `""` |
 | leftItems      | `Array` | Array of items to show in nav-bar left side. Default `[]` |
 | rightItems      | `Array` | Array of items to show in nav-bar right side. Default `[]`, see example section|
 | onItemClick      | `Function` | Called when item has clecked. See example section|

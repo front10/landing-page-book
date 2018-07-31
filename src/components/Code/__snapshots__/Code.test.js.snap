@@ -1,0 +1,704 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Code Code should render 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Code
+    bgColorDark={false}
+    code="var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};"
+    languageCode="javascript"
+    lineNumbers={true}
+    readOnly={false}
+    showfooter={true}
+    showheader={true}
+    updateCode={[Function]}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <ReactTooltip
+          insecure={true}
+          resizeHide={true}
+          wrapper="div"
+        />,
+        <Navbar
+          className="CodeMirror__header"
+          companyLink=""
+          companyLogo=""
+          companyName=""
+          expand=""
+          fixed={false}
+          leftItems={Array []}
+          onItemClick={[Function]}
+          rightItems={Array []}
+          transparent={false}
+        >
+          <NavbarNav
+            alignItems="right"
+          >
+            <CopyToClipboard
+              onCopy={[Function]}
+              options={undefined}
+              text="var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};"
+            >
+              <a
+                className="btn "
+                data-tip="copy"
+                onClick={[Function]}
+              >
+                <Icon
+                  className="CodeMirror__header_copybtn"
+                  icon="fa fa-clone"
+                />
+              </a>
+            </CopyToClipboard>
+            <a
+              className="btn "
+              data-tip="clear"
+              onClick={[Function]}
+            >
+              <Icon
+                className="CodeMirror__header_deletebtn"
+                icon="fa fa-trash-o"
+              />
+            </a>
+          </NavbarNav>
+        </Navbar>,
+        <Unknown
+          autoFocus={true}
+          className=""
+          onChange={[Function]}
+          options={
+            Object {
+              "lineNumbers": true,
+              "mode": "javascript",
+              "readOnly": false,
+              "theme": "idea",
+            }
+          }
+          preserveScrollPosition={false}
+          value="var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};"
+        />,
+        <Navbar
+          className="CodeMirror__header"
+          companyLink=""
+          companyLogo=""
+          companyName=""
+          expand=""
+          fixed={false}
+          leftItems={Array []}
+          onItemClick={[Function]}
+          rightItems={Array []}
+          transparent={false}
+        />,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "insecure": true,
+          "resizeHide": true,
+          "wrapper": "div",
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <NavbarNav
+            alignItems="right"
+          >
+            <CopyToClipboard
+              onCopy={[Function]}
+              options={undefined}
+              text="var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};"
+            >
+              <a
+                className="btn "
+                data-tip="copy"
+                onClick={[Function]}
+              >
+                <Icon
+                  className="CodeMirror__header_copybtn"
+                  icon="fa fa-clone"
+                />
+              </a>
+            </CopyToClipboard>
+            <a
+              className="btn "
+              data-tip="clear"
+              onClick={[Function]}
+            >
+              <Icon
+                className="CodeMirror__header_deletebtn"
+                icon="fa fa-trash-o"
+              />
+            </a>
+          </NavbarNav>,
+          "className": "CodeMirror__header",
+          "companyLink": "",
+          "companyLogo": "",
+          "companyName": "",
+          "expand": "",
+          "fixed": false,
+          "leftItems": Array [],
+          "onItemClick": [Function],
+          "rightItems": Array [],
+          "transparent": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "alignItems": "right",
+            "children": Array [
+              <CopyToClipboard
+                onCopy={[Function]}
+                options={undefined}
+                text="var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};"
+              >
+                <a
+                  className="btn "
+                  data-tip="copy"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    className="CodeMirror__header_copybtn"
+                    icon="fa fa-clone"
+                  />
+                </a>
+              </CopyToClipboard>,
+              <a
+                className="btn "
+                data-tip="clear"
+                onClick={[Function]}
+              >
+                <Icon
+                  className="CodeMirror__header_deletebtn"
+                  icon="fa fa-trash-o"
+                />
+              </a>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <a
+                  className="btn "
+                  data-tip="copy"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    className="CodeMirror__header_copybtn"
+                    icon="fa fa-clone"
+                  />
+                </a>,
+                "onCopy": [Function],
+                "options": undefined,
+                "text": "var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Icon
+                    className="CodeMirror__header_copybtn"
+                    icon="fa fa-clone"
+                  />,
+                  "className": "btn ",
+                  "data-tip": "copy",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "CodeMirror__header_copybtn",
+                    "icon": "fa fa-clone",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <Icon
+                  className="CodeMirror__header_deletebtn"
+                  icon="fa fa-trash-o"
+                />,
+                "className": "btn ",
+                "data-tip": "clear",
+                "onClick": [Function],
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "CodeMirror__header_deletebtn",
+                  "icon": "fa fa-trash-o",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": "a",
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "autoFocus": true,
+          "className": "",
+          "onChange": [Function],
+          "options": Object {
+            "lineNumbers": true,
+            "mode": "javascript",
+            "readOnly": false,
+            "theme": "idea",
+          },
+          "preserveScrollPosition": false,
+          "value": "var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};",
+        },
+        "ref": "editor",
+        "rendered": null,
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "className": "CodeMirror__header",
+          "companyLink": "",
+          "companyLogo": "",
+          "companyName": "",
+          "expand": "",
+          "fixed": false,
+          "leftItems": Array [],
+          "onItemClick": [Function],
+          "rightItems": Array [],
+          "transparent": false,
+        },
+        "ref": null,
+        "rendered": null,
+        "type": [Function],
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <ReactTooltip
+            insecure={true}
+            resizeHide={true}
+            wrapper="div"
+          />,
+          <Navbar
+            className="CodeMirror__header"
+            companyLink=""
+            companyLogo=""
+            companyName=""
+            expand=""
+            fixed={false}
+            leftItems={Array []}
+            onItemClick={[Function]}
+            rightItems={Array []}
+            transparent={false}
+          >
+            <NavbarNav
+              alignItems="right"
+            >
+              <CopyToClipboard
+                onCopy={[Function]}
+                options={undefined}
+                text="var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};"
+              >
+                <a
+                  className="btn "
+                  data-tip="copy"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    className="CodeMirror__header_copybtn"
+                    icon="fa fa-clone"
+                  />
+                </a>
+              </CopyToClipboard>
+              <a
+                className="btn "
+                data-tip="clear"
+                onClick={[Function]}
+              >
+                <Icon
+                  className="CodeMirror__header_deletebtn"
+                  icon="fa fa-trash-o"
+                />
+              </a>
+            </NavbarNav>
+          </Navbar>,
+          <Unknown
+            autoFocus={true}
+            className=""
+            onChange={[Function]}
+            options={
+              Object {
+                "lineNumbers": true,
+                "mode": "javascript",
+                "readOnly": false,
+                "theme": "idea",
+              }
+            }
+            preserveScrollPosition={false}
+            value="var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};"
+          />,
+          <Navbar
+            className="CodeMirror__header"
+            companyLink=""
+            companyLogo=""
+            companyName=""
+            expand=""
+            fixed={false}
+            leftItems={Array []}
+            onItemClick={[Function]}
+            rightItems={Array []}
+            transparent={false}
+          />,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "insecure": true,
+            "resizeHide": true,
+            "wrapper": "div",
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <NavbarNav
+              alignItems="right"
+            >
+              <CopyToClipboard
+                onCopy={[Function]}
+                options={undefined}
+                text="var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};"
+              >
+                <a
+                  className="btn "
+                  data-tip="copy"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    className="CodeMirror__header_copybtn"
+                    icon="fa fa-clone"
+                  />
+                </a>
+              </CopyToClipboard>
+              <a
+                className="btn "
+                data-tip="clear"
+                onClick={[Function]}
+              >
+                <Icon
+                  className="CodeMirror__header_deletebtn"
+                  icon="fa fa-trash-o"
+                />
+              </a>
+            </NavbarNav>,
+            "className": "CodeMirror__header",
+            "companyLink": "",
+            "companyLogo": "",
+            "companyName": "",
+            "expand": "",
+            "fixed": false,
+            "leftItems": Array [],
+            "onItemClick": [Function],
+            "rightItems": Array [],
+            "transparent": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "alignItems": "right",
+              "children": Array [
+                <CopyToClipboard
+                  onCopy={[Function]}
+                  options={undefined}
+                  text="var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};"
+                >
+                  <a
+                    className="btn "
+                    data-tip="copy"
+                    onClick={[Function]}
+                  >
+                    <Icon
+                      className="CodeMirror__header_copybtn"
+                      icon="fa fa-clone"
+                    />
+                  </a>
+                </CopyToClipboard>,
+                <a
+                  className="btn "
+                  data-tip="clear"
+                  onClick={[Function]}
+                >
+                  <Icon
+                    className="CodeMirror__header_deletebtn"
+                    icon="fa fa-trash-o"
+                  />
+                </a>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <a
+                    className="btn "
+                    data-tip="copy"
+                    onClick={[Function]}
+                  >
+                    <Icon
+                      className="CodeMirror__header_copybtn"
+                      icon="fa fa-clone"
+                    />
+                  </a>,
+                  "onCopy": [Function],
+                  "options": undefined,
+                  "text": "var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};",
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <Icon
+                      className="CodeMirror__header_copybtn"
+                      icon="fa fa-clone"
+                    />,
+                    "className": "btn ",
+                    "data-tip": "copy",
+                    "onClick": [Function],
+                  },
+                  "ref": null,
+                  "rendered": Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "className": "CodeMirror__header_copybtn",
+                      "icon": "fa fa-clone",
+                    },
+                    "ref": null,
+                    "rendered": null,
+                    "type": [Function],
+                  },
+                  "type": "a",
+                },
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": <Icon
+                    className="CodeMirror__header_deletebtn"
+                    icon="fa fa-trash-o"
+                  />,
+                  "className": "btn ",
+                  "data-tip": "clear",
+                  "onClick": [Function],
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "CodeMirror__header_deletebtn",
+                    "icon": "fa fa-trash-o",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": "a",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "autoFocus": true,
+            "className": "",
+            "onChange": [Function],
+            "options": Object {
+              "lineNumbers": true,
+              "mode": "javascript",
+              "readOnly": false,
+              "theme": "idea",
+            },
+            "preserveScrollPosition": false,
+            "value": "var component = {
+	name: \\"react-code\\",
+	author: \\"front10-devs\\",
+	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
+};",
+          },
+          "ref": "editor",
+          "rendered": null,
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "className": "CodeMirror__header",
+            "companyLink": "",
+            "companyLogo": "",
+            "companyName": "",
+            "expand": "",
+            "fixed": false,
+            "leftItems": Array [],
+            "onItemClick": [Function],
+            "rightItems": Array [],
+            "transparent": false,
+          },
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;

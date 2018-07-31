@@ -1,13 +1,13 @@
 .CodeMirror__header {
     width: $CodeMirror__header_with;
     height: $CodeMirror__header_height;
-    background-color: $CodeMirror__header_backgroundColor;
+    background-color: $CodeMirror__header_backgroundColor !important;
 }
 
 .CodeMirror__footer {
     width: $CodeMirror__footer_with;
     height: $CodeMirror__footer_height;
-    background-color: $CodeMirror__footer_backgroundColor;
+    background-color: $CodeMirror__footer_backgroundColor !important;
 }
 
 .CodeMirror__header-dark {

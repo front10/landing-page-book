@@ -7,7 +7,7 @@ import NavbarCollapse from "../NavbarCollapse/NavbarCollapse";
 import NavbarNav from "../NavbarNav/NavbarNav";
 import NavbarLink from "../NavbarLink/NavbarLink";
 
-class Header extends Component {
+class Navbar extends Component {
 
 	constructor(props) {
 		super(props);
@@ -62,7 +62,7 @@ class Header extends Component {
 			children
 		} = this.props;
 
-		let navClassName = `${className} navbar navbar-expand-${expand} Navbar`;
+		let navClassName = `${className} navbar ${expand ? `navbar-expand-${expand}` : `navbar-expand`} Navbar`;
 		if (transparent)
 			navClassName += ` Navbar--transparent`;
 		if (fixed)
@@ -109,7 +109,7 @@ class Header extends Component {
 	}
 }
 
-Header.propTypes = {
+Navbar.propTypes = {
 	transparent: PropTypes.bool,
 	fixed: PropTypes.bool,
 	companyName: PropTypes.string,
@@ -121,14 +121,14 @@ Header.propTypes = {
 	rightItems: PropTypes.array,
 	onItemClick: PropTypes.func,
 };
-Header.defaultProps = {
+Navbar.defaultProps = {
 	transparent: false,
 	fixed: false,
 	companyName: "",
 	companyLink: "",
 	companyLogo: "",
 	className: "",
-	expand: "md",
+	expand: "",
 	leftItems: [],
 	rightItems: [],
 	onItemClick: ({item}) => {
@@ -136,4 +136,4 @@ Header.defaultProps = {
 	}
 };
 
-export default Header;
+export default Navbar;

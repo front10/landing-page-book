@@ -78,6 +78,7 @@ stories.add('Front10', () => {
         companyLink="https://front10.com"
         companyLogo="images/logo/front10.png"
         rightItems={rightItems}
+        expand="md"
       />
       <Hero
         overlayColor="#383d45"

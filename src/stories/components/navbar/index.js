@@ -7,7 +7,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Navbar, NavbarNav, Input, Button, NavbarLink, Icon } from '../../../components';
 import Readme from '../../../components/Navbar/README.md';
 
-const stories = storiesOf('Components/Header', module);
+const stories = storiesOf('Components/Navbar', module);
 
 stories.addDecorator(withKnobs);
 

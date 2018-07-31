@@ -9,12 +9,10 @@ class BuiltWith extends Component {
     }   
 	
 	render() {
-		return <div className="row">
-			<ImageList
+		return <ImageList
                     gray={this.props.gray}
                     images={this.props.companies}
-                />
-		</div>
+                />		
 	}
 }
 

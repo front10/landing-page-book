@@ -9,17 +9,11 @@ class Sponsors extends React.Component {
     }   
 
     render() {
-        return (
-            <div >                
-                <ImageList
+        return <ImageList
                     gray={this.props.gray}
                     images={this.props.sponsors}
                 />
-            </div>
-
-        );
-
-    }
+              }
 }
 
 Sponsors.propTypes = {

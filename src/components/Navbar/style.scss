@@ -1,0 +1,24 @@
+.Navbar {
+  background-color: $Header-backgroundColor;
+
+  .NavbarLink,
+  .Navbar__Toggler,
+  .NavbarBrand {
+    color: $Header-color !important;
+    cursor: pointer;
+  }
+
+  .NavbarLink:hover {
+    color: $Header--hover-color !important;
+  }
+
+  .NavbarBrand {
+    .Logo {
+      max-height: 60px;
+    }
+  }
+}
+
+.Navbar--transparent {
+  background-color: transparent;
+}

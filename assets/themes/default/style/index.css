@@ -12030,19 +12030,19 @@ span.CodeMirror-selectedtext { background: none; }
 .GithubDetail_btn_container {
   padding: 5px; }
 
-.Header {
+.Navbar {
   background-color: #383d45; }
-  .Header .Header__Link,
-  .Header .Header__Toggler,
-  .Header .Header__Brand {
+  .Navbar .NavbarLink,
+  .Navbar .Navbar__Toggler,
+  .Navbar .NavbarBrand {
     color: #CCCCCC !important;
     cursor: pointer; }
-  .Header .Header__Link:hover {
+  .Navbar .NavbarLink:hover {
     color: #fed136 !important; }
-  .Header .Header__Brand__Logo {
+  .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
 
-.Header--transparent {
+.Navbar--transparent {
   background-color: transparent; }
 
 .Hero .Hero__Header {

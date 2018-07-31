@@ -22,12 +22,14 @@ Button.propTypes = {
 	disabled: PropTypes.bool,
 	loading: PropTypes.bool,
 	className: PropTypes.string,
+	ariaLabel: PropTypes.string,
 	onClick: PropTypes.func,
 };
 Button.defaultProps = {
 	disabled: false,
 	loading: false,
 	className: "",
+	ariaLabel:"",
 	onClick: () => {
 		console.warn(`onClick prop is not defined`);
 	}

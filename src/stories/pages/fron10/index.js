@@ -4,7 +4,7 @@ import { withKnobs } from '@storybook/addon-knobs/react';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import {
-  Header,
+  Navbar,
   Hero,
   Section,
   Video,
@@ -73,7 +73,7 @@ stories.addDecorator(withKnobs);
 stories.add('Front10', () => {
   return (
     <ThemeSelector>
-      <Header
+      <Navbar
         companyName="Front10"
         companyLink="https://front10.com"
         companyLogo="images/logo/front10.png"

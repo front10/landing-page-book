@@ -23,4 +23,5 @@ import {Button} from '@front10/landing-page-book/src/components';
 | disabled      | `Boolean` | Disable or enable button. Default `false` |
 | loading      | `Boolean` | Show loading mode. Default `false` |
 | className      | `String` | Class to apply to button. Default `""` |
+| ariaLabel      | `String` | Aria label of the button. Default `""` |
 | onClick      | `Function` | Called when button is clicked |

@@ -25,6 +25,7 @@ import Social from "./Social";
 import Sponsors from "./Sponsors";
 import Team from "./Team";
 import Video from "./Video";
+import ImageList from './ImageList';
 
 export {
 	BrowserSupport,
@@ -44,6 +45,7 @@ export {
 	Header,
 	Hero,
 	Image,
+	ImageList,
 	Input,
 	Label,
 	LanguageSwitcher,

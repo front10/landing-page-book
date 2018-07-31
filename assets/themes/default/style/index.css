@@ -12137,9 +12137,6 @@ span.CodeMirror-selectedtext { background: none; }
 .SocialMediaShareButton--grayScale svg {
   filter: grayscale(1); }
 
-.features img {
-  /* width: 100px;*/ }
-
 .ImageList .ImageList__Container {
   margin-left: auto;
   margin-right: auto; }

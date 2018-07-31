@@ -1,10 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`GithubDetail GithubDetail should render 1`] = `
+exports[`GithubButton GithubButton should render 1`] = `
 ReactWrapper {
   "length": 1,
-  Symbol(enzyme.__unrendered__): <GithubDetail
+  Symbol(enzyme.__unrendered__): <GithubButton
     btnText="Fork"
+    btnType="fork"
     btntype="fork"
     repository="cheat.sh"
     showBtnText={true}
@@ -21,7 +22,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": GithubDetail {
+    "instance": GithubButton {
       "_reactInternalFiber": FiberNode {
         "_debugID": 5,
         "_debugIsCurrentlyTiming": false,
@@ -45,6 +46,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "btnText": "Fork",
+              "btnType": "fork",
               "btntype": "fork",
               "repository": "cheat.sh",
               "showBtnText": true,
@@ -58,6 +60,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "btnText": "Fork",
+              "btnType": "fork",
               "btntype": "fork",
               "repository": "cheat.sh",
               "showBtnText": true,
@@ -73,6 +76,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "btnText": "Fork",
+              "btnType": "fork",
               "btntype": "fork",
               "repository": "cheat.sh",
               "showBtnText": true,
@@ -116,7 +120,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="GithubDetail_btn_container"
+                    class="GithubDetail_btn_container d-inline"
                   >
                     <a
                       class="btn GithubDetail_btn"
@@ -179,6 +183,7 @@ ReactWrapper {
                       props={
                         Object {
                           "btnText": "Fork",
+                          "btnType": "fork",
                           "btntype": "fork",
                           "repository": "cheat.sh",
                           "showBtnText": true,
@@ -206,6 +211,7 @@ ReactWrapper {
                       props={
                         Object {
                           "btnText": "Fork",
+                          "btnType": "fork",
                           "btntype": "fork",
                           "repository": "cheat.sh",
                           "showBtnText": true,
@@ -235,6 +241,7 @@ ReactWrapper {
                 props={
                   Object {
                     "btnText": "Fork",
+                    "btnType": "fork",
                     "btntype": "fork",
                     "repository": "cheat.sh",
                     "showBtnText": true,
@@ -255,7 +262,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="GithubDetail_btn_container"
+                  class="GithubDetail_btn_container d-inline"
                 >
                   <a
                     class="btn GithubDetail_btn"
@@ -308,6 +315,7 @@ ReactWrapper {
                   props={
                     Object {
                       "btnText": "Fork",
+                      "btnType": "fork",
                       "btntype": "fork",
                       "repository": "cheat.sh",
                       "showBtnText": true,
@@ -340,6 +348,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -354,6 +363,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -685,7 +695,7 @@ ReactWrapper {
                 />
               </span>,
             ],
-            "className": "GithubDetail_btn_container",
+            "className": "GithubDetail_btn_container d-inline",
           },
           "memoizedState": null,
           "mode": 0,
@@ -717,14 +727,14 @@ ReactWrapper {
                 />
               </span>,
             ],
-            "className": "GithubDetail_btn_container",
+            "className": "GithubDetail_btn_container d-inline",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div
-            class="GithubDetail_btn_container"
+            class="GithubDetail_btn_container d-inline"
           >
             <a
               class="btn GithubDetail_btn"
@@ -762,6 +772,7 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "btnText": "Fork",
+          "btnType": "fork",
           "btntype": "fork",
           "repository": "cheat.sh",
           "showBtnText": true,
@@ -770,7 +781,7 @@ ReactWrapper {
           "username": "chubin",
         },
         "memoizedState": Object {
-          "btntype": "fork",
+          "btnType": "fork",
           "counter": null,
           "showBtnText": true,
           "showCounter": true,
@@ -780,6 +791,7 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "btnText": "Fork",
+          "btnType": "fork",
           "btntype": "fork",
           "repository": "cheat.sh",
           "showBtnText": true,
@@ -808,6 +820,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "btnText": "Fork",
+              "btnType": "fork",
               "btntype": "fork",
               "repository": "cheat.sh",
               "showBtnText": true,
@@ -821,6 +834,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "btnText": "Fork",
+              "btnType": "fork",
               "btntype": "fork",
               "repository": "cheat.sh",
               "showBtnText": true,
@@ -836,6 +850,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "btnText": "Fork",
+              "btnType": "fork",
               "btntype": "fork",
               "repository": "cheat.sh",
               "showBtnText": true,
@@ -879,7 +894,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="GithubDetail_btn_container"
+                    class="GithubDetail_btn_container d-inline"
                   >
                     <a
                       class="btn GithubDetail_btn"
@@ -942,6 +957,7 @@ ReactWrapper {
                       props={
                         Object {
                           "btnText": "Fork",
+                          "btnType": "fork",
                           "btntype": "fork",
                           "repository": "cheat.sh",
                           "showBtnText": true,
@@ -969,6 +985,7 @@ ReactWrapper {
                       props={
                         Object {
                           "btnText": "Fork",
+                          "btnType": "fork",
                           "btntype": "fork",
                           "repository": "cheat.sh",
                           "showBtnText": true,
@@ -998,6 +1015,7 @@ ReactWrapper {
                 props={
                   Object {
                     "btnText": "Fork",
+                    "btnType": "fork",
                     "btntype": "fork",
                     "repository": "cheat.sh",
                     "showBtnText": true,
@@ -1018,7 +1036,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="GithubDetail_btn_container"
+                  class="GithubDetail_btn_container d-inline"
                 >
                   <a
                     class="btn GithubDetail_btn"
@@ -1071,6 +1089,7 @@ ReactWrapper {
                   props={
                     Object {
                       "btnText": "Fork",
+                      "btnType": "fork",
                       "btntype": "fork",
                       "repository": "cheat.sh",
                       "showBtnText": true,
@@ -1103,6 +1122,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -1117,6 +1137,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -1145,7 +1166,7 @@ ReactWrapper {
         "type": [Function],
         "updateQueue": Object {
           "baseState": Object {
-            "btntype": "fork",
+            "btnType": "fork",
             "counter": null,
             "showBtnText": true,
             "showCounter": true,
@@ -1166,6 +1187,7 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "btnText": "Fork",
+        "btnType": "fork",
         "btntype": "fork",
         "repository": "cheat.sh",
         "showBtnText": true,
@@ -1175,7 +1197,7 @@ ReactWrapper {
       },
       "refs": Object {},
       "state": Object {
-        "btntype": "fork",
+        "btnType": "fork",
         "counter": null,
         "showBtnText": true,
         "showCounter": true,
@@ -1192,6 +1214,7 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "btnText": "Fork",
+      "btnType": "fork",
       "btntype": "fork",
       "repository": "cheat.sh",
       "showBtnText": true,
@@ -1202,7 +1225,7 @@ ReactWrapper {
     "ref": null,
     "rendered": Object {
       "instance": <div
-        class="GithubDetail_btn_container"
+        class="GithubDetail_btn_container d-inline"
       >
         <a
           class="btn GithubDetail_btn"
@@ -1256,7 +1279,7 @@ ReactWrapper {
             />
           </span>,
         ],
-        "className": "GithubDetail_btn_container",
+        "className": "GithubDetail_btn_container d-inline",
       },
       "ref": null,
       "rendered": Array [
@@ -1381,7 +1404,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
-      "instance": GithubDetail {
+      "instance": GithubButton {
         "_reactInternalFiber": FiberNode {
           "_debugID": 5,
           "_debugIsCurrentlyTiming": false,
@@ -1405,6 +1428,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -1418,6 +1442,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -1433,6 +1458,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -1476,7 +1502,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="GithubDetail_btn_container"
+                      class="GithubDetail_btn_container d-inline"
                     >
                       <a
                         class="btn GithubDetail_btn"
@@ -1539,6 +1565,7 @@ ReactWrapper {
                         props={
                           Object {
                             "btnText": "Fork",
+                            "btnType": "fork",
                             "btntype": "fork",
                             "repository": "cheat.sh",
                             "showBtnText": true,
@@ -1566,6 +1593,7 @@ ReactWrapper {
                         props={
                           Object {
                             "btnText": "Fork",
+                            "btnType": "fork",
                             "btntype": "fork",
                             "repository": "cheat.sh",
                             "showBtnText": true,
@@ -1595,6 +1623,7 @@ ReactWrapper {
                   props={
                     Object {
                       "btnText": "Fork",
+                      "btnType": "fork",
                       "btntype": "fork",
                       "repository": "cheat.sh",
                       "showBtnText": true,
@@ -1615,7 +1644,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="GithubDetail_btn_container"
+                    class="GithubDetail_btn_container d-inline"
                   >
                     <a
                       class="btn GithubDetail_btn"
@@ -1668,6 +1697,7 @@ ReactWrapper {
                     props={
                       Object {
                         "btnText": "Fork",
+                        "btnType": "fork",
                         "btntype": "fork",
                         "repository": "cheat.sh",
                         "showBtnText": true,
@@ -1700,6 +1730,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "btnText": "Fork",
+                  "btnType": "fork",
                   "btntype": "fork",
                   "repository": "cheat.sh",
                   "showBtnText": true,
@@ -1714,6 +1745,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "btnText": "Fork",
+                  "btnType": "fork",
                   "btntype": "fork",
                   "repository": "cheat.sh",
                   "showBtnText": true,
@@ -2045,7 +2077,7 @@ ReactWrapper {
                   />
                 </span>,
               ],
-              "className": "GithubDetail_btn_container",
+              "className": "GithubDetail_btn_container d-inline",
             },
             "memoizedState": null,
             "mode": 0,
@@ -2077,14 +2109,14 @@ ReactWrapper {
                   />
                 </span>,
               ],
-              "className": "GithubDetail_btn_container",
+              "className": "GithubDetail_btn_container d-inline",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="GithubDetail_btn_container"
+              class="GithubDetail_btn_container d-inline"
             >
               <a
                 class="btn GithubDetail_btn"
@@ -2122,6 +2154,7 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "btnText": "Fork",
+            "btnType": "fork",
             "btntype": "fork",
             "repository": "cheat.sh",
             "showBtnText": true,
@@ -2130,7 +2163,7 @@ ReactWrapper {
             "username": "chubin",
           },
           "memoizedState": Object {
-            "btntype": "fork",
+            "btnType": "fork",
             "counter": null,
             "showBtnText": true,
             "showCounter": true,
@@ -2140,6 +2173,7 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "btnText": "Fork",
+            "btnType": "fork",
             "btntype": "fork",
             "repository": "cheat.sh",
             "showBtnText": true,
@@ -2168,6 +2202,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -2181,6 +2216,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -2196,6 +2232,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "btnText": "Fork",
+                "btnType": "fork",
                 "btntype": "fork",
                 "repository": "cheat.sh",
                 "showBtnText": true,
@@ -2239,7 +2276,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="GithubDetail_btn_container"
+                      class="GithubDetail_btn_container d-inline"
                     >
                       <a
                         class="btn GithubDetail_btn"
@@ -2302,6 +2339,7 @@ ReactWrapper {
                         props={
                           Object {
                             "btnText": "Fork",
+                            "btnType": "fork",
                             "btntype": "fork",
                             "repository": "cheat.sh",
                             "showBtnText": true,
@@ -2329,6 +2367,7 @@ ReactWrapper {
                         props={
                           Object {
                             "btnText": "Fork",
+                            "btnType": "fork",
                             "btntype": "fork",
                             "repository": "cheat.sh",
                             "showBtnText": true,
@@ -2358,6 +2397,7 @@ ReactWrapper {
                   props={
                     Object {
                       "btnText": "Fork",
+                      "btnType": "fork",
                       "btntype": "fork",
                       "repository": "cheat.sh",
                       "showBtnText": true,
@@ -2378,7 +2418,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="GithubDetail_btn_container"
+                    class="GithubDetail_btn_container d-inline"
                   >
                     <a
                       class="btn GithubDetail_btn"
@@ -2431,6 +2471,7 @@ ReactWrapper {
                     props={
                       Object {
                         "btnText": "Fork",
+                        "btnType": "fork",
                         "btntype": "fork",
                         "repository": "cheat.sh",
                         "showBtnText": true,
@@ -2463,6 +2504,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "btnText": "Fork",
+                  "btnType": "fork",
                   "btntype": "fork",
                   "repository": "cheat.sh",
                   "showBtnText": true,
@@ -2477,6 +2519,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "btnText": "Fork",
+                  "btnType": "fork",
                   "btntype": "fork",
                   "repository": "cheat.sh",
                   "showBtnText": true,
@@ -2505,7 +2548,7 @@ ReactWrapper {
           "type": [Function],
           "updateQueue": Object {
             "baseState": Object {
-              "btntype": "fork",
+              "btnType": "fork",
               "counter": null,
               "showBtnText": true,
               "showCounter": true,
@@ -2526,6 +2569,7 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "btnText": "Fork",
+          "btnType": "fork",
           "btntype": "fork",
           "repository": "cheat.sh",
           "showBtnText": true,
@@ -2535,7 +2579,7 @@ ReactWrapper {
         },
         "refs": Object {},
         "state": Object {
-          "btntype": "fork",
+          "btnType": "fork",
           "counter": null,
           "showBtnText": true,
           "showCounter": true,
@@ -2552,6 +2596,7 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "btnText": "Fork",
+        "btnType": "fork",
         "btntype": "fork",
         "repository": "cheat.sh",
         "showBtnText": true,
@@ -2562,7 +2607,7 @@ ReactWrapper {
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="GithubDetail_btn_container"
+          class="GithubDetail_btn_container d-inline"
         >
           <a
             class="btn GithubDetail_btn"
@@ -2616,7 +2661,7 @@ ReactWrapper {
               />
             </span>,
           ],
-          "className": "GithubDetail_btn_container",
+          "className": "GithubDetail_btn_container d-inline",
         },
         "ref": null,
         "rendered": Array [

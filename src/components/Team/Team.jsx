@@ -5,8 +5,8 @@ import Card from "../Card";
 
 class Team extends Component {
 	constructor(props) {
-        super(props);        
-    }
+		super(props);
+	}
 
 	renderSocials(url) {
 		const {socials, socialGray} = this.props;
@@ -38,10 +38,7 @@ class Team extends Component {
 				      contentAlign={contentAlign}
 				      imageBorder={imageBorder}
 				      image={showImage ? member.image : ""}>
-					{
-						socials.length > 0 &&
-						<div>{this.renderSocials(member.profile)}</div>
-					}
+					{this.renderSocials(member.profile)}
 				</Card>
 			</div>
 		});

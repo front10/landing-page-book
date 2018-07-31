@@ -10,19 +10,13 @@ class Location extends Component {
 	}
 
 	render() {
-		const {
-			lat,
-			lng,
-			zoom,
-			apiKey,
-			language,
-			markers
-		} = this.props;
+		const {lat, lng, zoom, apiKey, language, markers} = this.props;
+		const bootstrapURLKeys = {key: apiKey, language: language};
 
 		return <GoogleMapReact
 			center={{lat: lat, lng: lng}}
 			zoom={zoom}
-			bootstrapURLKeys={{key: apiKey, language: language}}>
+			bootstrapURLKeys={bootstrapURLKeys}>
 			{
 				markers.map((marker, index) => {
 					return <LocationMarker

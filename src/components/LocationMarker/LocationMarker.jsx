@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import Icon from "../Icon/Icon";
 
 class LocationMarker extends Component {
 	constructor(props) {
@@ -8,7 +9,7 @@ class LocationMarker extends Component {
 
 	render() {
 		const {icon, color} = this.props;
-		return <i className={icon} style={{color, fontSize: "1.5rem"}}/>
+		return <Icon icon={icon} style={{color, fontSize: "1.5rem"}}/>
 	}
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import GithubService from '../../service/GithubDetail.services';
+import Icon from "../Icon/Icon";
 
 class GithubButton extends React.Component {
     constructor(props) {
@@ -96,7 +97,7 @@ class GithubButton extends React.Component {
                 </a>
                 {this.state.showCounter && <span className="speech-bubble">{(this.state.counter != null)
                         ?<a href={this.state.linkUrl} target="_blank"> {this.state.counter} </a>
-                        : <i className="fa fa-circle-o-notch fa-spin" aria-hidden="true"/>}</span>}
+                        : <Icon icon="fa fa-circle-o-notch fa-spin"/>}</span>}
 
             </div>
 

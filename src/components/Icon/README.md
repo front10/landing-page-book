@@ -22,4 +22,5 @@ import {Icon} from '@front10/landing-page-book/src/components';
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
 | icon      | `String` | Icon name. Default `undefined`, this prop is required |
 | className      | `String` | Class to apply to icon. Default `""` |
+| style      | `Object` | Css to apply to component. Default `{}` |
 

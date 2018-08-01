@@ -35,6 +35,7 @@
 
 /*Components*/
 
+@import '../../../components/Backers/style.scss';
 @import '../../../components/Browser/style.scss';
 @import '../../../components/BuiltWith/style.scss';
 @import '../../../components/Button/style.scss';
@@ -43,7 +44,7 @@
 @import "../../../components/ContactUs/style";
 @import "../../../components/Footer/style";
 @import '../../../components/Gif/style.scss';
-@import '../../../components/GithubDetail/style.scss';
+@import '../../../components/GithubButton/style.scss';
 @import "../../../components/Navbar/style";
 @import "../../../components/Hero/style";
 @import "../../../components/Input/style";

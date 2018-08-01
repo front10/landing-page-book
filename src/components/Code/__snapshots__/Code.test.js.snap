@@ -68,6 +68,7 @@ ShallowWrapper {
                 <Icon
                   className="CodeMirror__header_copybtn"
                   icon="fa fa-clone"
+                  style={Object {}}
                 />
               </a>
             </CopyToClipboard>
@@ -79,6 +80,7 @@ ShallowWrapper {
               <Icon
                 className="CodeMirror__header_deletebtn"
                 icon="fa fa-trash-o"
+                style={Object {}}
               />
             </a>
           </NavbarNav>
@@ -156,6 +158,7 @@ ShallowWrapper {
                 <Icon
                   className="CodeMirror__header_copybtn"
                   icon="fa fa-clone"
+                  style={Object {}}
                 />
               </a>
             </CopyToClipboard>
@@ -167,6 +170,7 @@ ShallowWrapper {
               <Icon
                 className="CodeMirror__header_deletebtn"
                 icon="fa fa-trash-o"
+                style={Object {}}
               />
             </a>
           </NavbarNav>,
@@ -206,6 +210,7 @@ ShallowWrapper {
                   <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    style={Object {}}
                   />
                 </a>
               </CopyToClipboard>,
@@ -217,6 +222,7 @@ ShallowWrapper {
                 <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
+                  style={Object {}}
                 />
               </a>,
             ],
@@ -236,6 +242,7 @@ ShallowWrapper {
                   <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    style={Object {}}
                   />
                 </a>,
                 "onCopy": [Function],
@@ -255,6 +262,7 @@ ShallowWrapper {
                   "children": <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    style={Object {}}
                   />,
                   "className": "btn ",
                   "data-tip": "copy",
@@ -268,6 +276,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "CodeMirror__header_copybtn",
                     "icon": "fa fa-clone",
+                    "style": Object {},
                   },
                   "ref": null,
                   "rendered": null,
@@ -285,6 +294,7 @@ ShallowWrapper {
                 "children": <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
+                  style={Object {}}
                 />,
                 "className": "btn ",
                 "data-tip": "clear",
@@ -298,6 +308,7 @@ ShallowWrapper {
                 "props": Object {
                   "className": "CodeMirror__header_deletebtn",
                   "icon": "fa fa-trash-o",
+                  "style": Object {},
                 },
                 "ref": null,
                 "rendered": null,
@@ -402,6 +413,7 @@ ShallowWrapper {
                   <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    style={Object {}}
                   />
                 </a>
               </CopyToClipboard>
@@ -413,6 +425,7 @@ ShallowWrapper {
                 <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
+                  style={Object {}}
                 />
               </a>
             </NavbarNav>
@@ -490,6 +503,7 @@ ShallowWrapper {
                   <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    style={Object {}}
                   />
                 </a>
               </CopyToClipboard>
@@ -501,6 +515,7 @@ ShallowWrapper {
                 <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
+                  style={Object {}}
                 />
               </a>
             </NavbarNav>,
@@ -540,6 +555,7 @@ ShallowWrapper {
                     <Icon
                       className="CodeMirror__header_copybtn"
                       icon="fa fa-clone"
+                      style={Object {}}
                     />
                   </a>
                 </CopyToClipboard>,
@@ -551,6 +567,7 @@ ShallowWrapper {
                   <Icon
                     className="CodeMirror__header_deletebtn"
                     icon="fa fa-trash-o"
+                    style={Object {}}
                   />
                 </a>,
               ],
@@ -570,6 +587,7 @@ ShallowWrapper {
                     <Icon
                       className="CodeMirror__header_copybtn"
                       icon="fa fa-clone"
+                      style={Object {}}
                     />
                   </a>,
                   "onCopy": [Function],
@@ -589,6 +607,7 @@ ShallowWrapper {
                     "children": <Icon
                       className="CodeMirror__header_copybtn"
                       icon="fa fa-clone"
+                      style={Object {}}
                     />,
                     "className": "btn ",
                     "data-tip": "copy",
@@ -602,6 +621,7 @@ ShallowWrapper {
                     "props": Object {
                       "className": "CodeMirror__header_copybtn",
                       "icon": "fa fa-clone",
+                      "style": Object {},
                     },
                     "ref": null,
                     "rendered": null,
@@ -619,6 +639,7 @@ ShallowWrapper {
                   "children": <Icon
                     className="CodeMirror__header_deletebtn"
                     icon="fa fa-trash-o"
+                    style={Object {}}
                   />,
                   "className": "btn ",
                   "data-tip": "clear",
@@ -632,6 +653,7 @@ ShallowWrapper {
                   "props": Object {
                     "className": "CodeMirror__header_deletebtn",
                     "icon": "fa fa-trash-o",
+                    "style": Object {},
                   },
                   "ref": null,
                   "rendered": null,

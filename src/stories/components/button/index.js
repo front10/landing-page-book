@@ -17,6 +17,7 @@ stories.add('Button', withReadme([Readme], () => {
       <Button
         disabled={boolean('Disabled', false)}
         loading={boolean('Loading', false)}
+        tooltip={text('Tooltip', 'Tis is a button tooltip')}
         className={text('Class name', 'btn-primary btn-block active')}
       >
         <i className="fa fa-home" />

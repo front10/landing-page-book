@@ -17,6 +17,7 @@ import '../src/stories/components/label';
 
 //Components
 
+import '../src/stories/components/backers';
 import '../src/stories/components/browser-support';
 import '../src/stories/components/built-with';
 import '../src/stories/components/card';

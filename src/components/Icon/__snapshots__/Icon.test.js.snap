@@ -6,6 +6,7 @@ ReactWrapper {
   Symbol(enzyme.__unrendered__): <Icon
     className=""
     icon={undefined}
+    style={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -41,6 +42,7 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": undefined,
+              "style": Object {},
             },
           },
           "memoizedState": Object {
@@ -49,6 +51,7 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": undefined,
+              "style": Object {},
             },
           },
           "mode": 0,
@@ -59,6 +62,7 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": undefined,
+              "style": Object {},
             },
           },
           "ref": null,
@@ -137,6 +141,7 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "icon": undefined,
+                          "style": Object {},
                         }
                       }
                     />,
@@ -159,6 +164,7 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "icon": undefined,
+                          "style": Object {},
                         }
                       }
                     />,
@@ -183,6 +189,7 @@ ReactWrapper {
                   Object {
                     "className": "",
                     "icon": undefined,
+                    "style": Object {},
                   }
                 }
               />,
@@ -228,6 +235,7 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "icon": undefined,
+                      "style": Object {},
                     }
                   }
                 />,
@@ -255,6 +263,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "refs": Object {},
@@ -264,6 +273,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "updater": Object {
@@ -299,12 +309,14 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "className": "undefined ",
+            "style": Object {},
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "className": "undefined ",
+            "style": Object {},
           },
           "ref": null,
           "return": [Circular],
@@ -327,6 +339,7 @@ ReactWrapper {
         "memoizedProps": Object {
           "className": "",
           "icon": undefined,
+          "style": Object {},
         },
         "memoizedState": null,
         "mode": 0,
@@ -334,6 +347,7 @@ ReactWrapper {
         "pendingProps": Object {
           "className": "",
           "icon": undefined,
+          "style": Object {},
         },
         "ref": null,
         "return": FiberNode {
@@ -357,6 +371,7 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": undefined,
+              "style": Object {},
             },
           },
           "memoizedState": Object {
@@ -365,6 +380,7 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": undefined,
+              "style": Object {},
             },
           },
           "mode": 0,
@@ -375,6 +391,7 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": undefined,
+              "style": Object {},
             },
           },
           "ref": null,
@@ -453,6 +470,7 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "icon": undefined,
+                          "style": Object {},
                         }
                       }
                     />,
@@ -475,6 +493,7 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "icon": undefined,
+                          "style": Object {},
                         }
                       }
                     />,
@@ -499,6 +518,7 @@ ReactWrapper {
                   Object {
                     "className": "",
                     "icon": undefined,
+                    "style": Object {},
                   }
                 }
               />,
@@ -544,6 +564,7 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "icon": undefined,
+                      "style": Object {},
                     }
                   }
                 />,
@@ -571,6 +592,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "refs": Object {},
@@ -580,6 +602,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "updater": Object {
@@ -607,6 +630,7 @@ ReactWrapper {
       "props": Object {
         "className": "",
         "icon": undefined,
+        "style": Object {},
       },
       "refs": Object {},
       "state": null,
@@ -622,6 +646,7 @@ ReactWrapper {
     "props": Object {
       "className": "",
       "icon": undefined,
+      "style": Object {},
     },
     "ref": null,
     "rendered": Object {
@@ -632,6 +657,7 @@ ReactWrapper {
       "nodeType": "host",
       "props": Object {
         "className": "undefined ",
+        "style": Object {},
       },
       "ref": null,
       "rendered": Array [
@@ -668,6 +694,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "memoizedState": Object {
@@ -676,6 +703,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "mode": 0,
@@ -686,6 +714,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "ref": null,
@@ -764,6 +793,7 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "icon": undefined,
+                            "style": Object {},
                           }
                         }
                       />,
@@ -786,6 +816,7 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "icon": undefined,
+                            "style": Object {},
                           }
                         }
                       />,
@@ -810,6 +841,7 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "icon": undefined,
+                      "style": Object {},
                     }
                   }
                 />,
@@ -855,6 +887,7 @@ ReactWrapper {
                       Object {
                         "className": "",
                         "icon": undefined,
+                        "style": Object {},
                       }
                     }
                   />,
@@ -882,6 +915,7 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "icon": undefined,
+                  "style": Object {},
                 },
               },
               "refs": Object {},
@@ -891,6 +925,7 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "icon": undefined,
+                  "style": Object {},
                 },
               },
               "updater": Object {
@@ -926,12 +961,14 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "className": "undefined ",
+              "style": Object {},
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "className": "undefined ",
+              "style": Object {},
             },
             "ref": null,
             "return": [Circular],
@@ -954,6 +991,7 @@ ReactWrapper {
           "memoizedProps": Object {
             "className": "",
             "icon": undefined,
+            "style": Object {},
           },
           "memoizedState": null,
           "mode": 0,
@@ -961,6 +999,7 @@ ReactWrapper {
           "pendingProps": Object {
             "className": "",
             "icon": undefined,
+            "style": Object {},
           },
           "ref": null,
           "return": FiberNode {
@@ -984,6 +1023,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "memoizedState": Object {
@@ -992,6 +1032,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "mode": 0,
@@ -1002,6 +1043,7 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": undefined,
+                "style": Object {},
               },
             },
             "ref": null,
@@ -1080,6 +1122,7 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "icon": undefined,
+                            "style": Object {},
                           }
                         }
                       />,
@@ -1102,6 +1145,7 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "icon": undefined,
+                            "style": Object {},
                           }
                         }
                       />,
@@ -1126,6 +1170,7 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "icon": undefined,
+                      "style": Object {},
                     }
                   }
                 />,
@@ -1171,6 +1216,7 @@ ReactWrapper {
                       Object {
                         "className": "",
                         "icon": undefined,
+                        "style": Object {},
                       }
                     }
                   />,
@@ -1198,6 +1244,7 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "icon": undefined,
+                  "style": Object {},
                 },
               },
               "refs": Object {},
@@ -1207,6 +1254,7 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "icon": undefined,
+                  "style": Object {},
                 },
               },
               "updater": Object {
@@ -1234,6 +1282,7 @@ ReactWrapper {
         "props": Object {
           "className": "",
           "icon": undefined,
+          "style": Object {},
         },
         "refs": Object {},
         "state": null,
@@ -1249,6 +1298,7 @@ ReactWrapper {
       "props": Object {
         "className": "",
         "icon": undefined,
+        "style": Object {},
       },
       "ref": null,
       "rendered": Object {
@@ -1259,6 +1309,7 @@ ReactWrapper {
         "nodeType": "host",
         "props": Object {
           "className": "undefined ",
+          "style": Object {},
         },
         "ref": null,
         "rendered": Array [

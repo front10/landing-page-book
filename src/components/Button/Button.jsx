@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import ReactTooltip from 'react-tooltip';
 import Icon from "../Icon/Icon";
 
 class Button extends Component {
@@ -8,14 +9,18 @@ class Button extends Component {
 	}
 
 	render() {
-		const {disabled, className, loading, children} = this.props;
-		return <button
-			disabled={disabled}
-			className={`Button btn ${className}`}
-			onClick={this.props.onClick}>
-			{!loading && children}
-			{loading && <Icon icon="fa fa-circle-o-notch fa-spin"/>}
-		</button>
+		const {disabled, className, loading, tooltip, children} = this.props;
+		return <React.Fragment>
+			{tooltip && <ReactTooltip/>}
+			<button
+				data-tip={tooltip}
+				disabled={disabled}
+				className={`Button btn ${className}`}
+				onClick={this.props.onClick}>
+				{!loading && children}
+				{loading && <Icon icon="fa fa-circle-o-notch fa-spin"/>}
+			</button>
+		</React.Fragment>
 	}
 }
 
@@ -24,13 +29,15 @@ Button.propTypes = {
 	loading: PropTypes.bool,
 	className: PropTypes.string,
 	ariaLabel: PropTypes.string,
+	tooltip: PropTypes.string,
 	onClick: PropTypes.func,
 };
 Button.defaultProps = {
 	disabled: false,
 	loading: false,
 	className: "",
-	ariaLabel:"",
+	ariaLabel: "",
+	tooltip: "",
 	onClick: () => {
 		console.warn(`onClick prop is not defined`);
 	}

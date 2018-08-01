@@ -1,3 +1,4 @@
+import Backers from './Backers';
 import Browser from './Browser';
 import BrowserSupport from './BrowserSupport';
 import BuiltWith from './BuiltWith';
@@ -33,6 +34,7 @@ import Video from "./Video";
 import ImageList from './ImageList';
 
 export {
+	Backers,
 	BrowserSupport,
 	Browser,
 	BuiltWith,

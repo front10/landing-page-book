@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import Icon from "../Icon/Icon";
 
 class Button extends Component {
 	constructor(props) {
@@ -13,7 +14,7 @@ class Button extends Component {
 			className={`Button btn ${className}`}
 			onClick={this.props.onClick}>
 			{!loading && children}
-			{loading && <i className="fa fa-circle-o-notch fa-spin"/>}
+			{loading && <Icon icon="fa fa-circle-o-notch fa-spin"/>}
 		</button>
 	}
 }

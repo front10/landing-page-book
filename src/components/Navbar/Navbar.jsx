@@ -6,6 +6,7 @@ import Image from "../Image/Image";
 import NavbarCollapse from "../NavbarCollapse/NavbarCollapse";
 import NavbarNav from "../NavbarNav/NavbarNav";
 import NavbarLink from "../NavbarLink/NavbarLink";
+import Icon from "../Icon/Icon";
 
 class Navbar extends Component {
 
@@ -29,7 +30,7 @@ class Navbar extends Component {
 			                   href={item.href}
 			                   target={item.target}
 			                   onClick={() => this.props.onItemClick({item})}>
-				<i className={`${item.icon} mr-1`}/>
+				<Icon icon={item.icon} className="mr-1"/>
 				{item.title}
 			</NavbarLink>
 		});
@@ -41,7 +42,7 @@ class Navbar extends Component {
 			                   href={item.href}
 			                   target={item.target}
 			                   onClick={() => this.props.onItemClick({item})}>
-				<i className={`${item.icon} mr-1`}/>
+				<Icon icon={item.icon} className="mr-1"/>
 				{item.title}
 			</NavbarLink>
 		});
@@ -72,7 +73,7 @@ class Navbar extends Component {
 			<Button className="navbar-toggler mr-3 Navbar__Toggler"
 			        ariaLabel="Toggle navigation"
 			        onClick={this.collapse}>
-				<i className="fa fa-bars"/>
+				<Icon icon="fa fa-bars"/>
 			</Button>
 			<NavbarBrand className="mr-auto"
 			             href={companyLink}>

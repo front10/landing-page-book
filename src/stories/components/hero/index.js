@@ -4,7 +4,7 @@ import { withKnobs, text, number, boolean, select, color } from '@storybook/addo
 import withReadme from 'storybook-readme/with-readme';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Hero, Social } from '../../../components';
+import { Hero, Social, Container, Image } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
 const stories = storiesOf('Components/Hero', module);
@@ -52,8 +52,8 @@ stories.add('Children', withReadme([Readme], () => {
         minHeight={text('Min height', '100vh')}
         particlesParams={{ move: { speed: 2 } }}
       >
-        <div className="container">
-          <img
+        <Container>
+          <Image
             className="w-25"
             alt="Cool car"
             src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png"
@@ -81,7 +81,7 @@ stories.add('Children', withReadme([Readme], () => {
             type="linkedin"
             url="https://landing-page-book.front10.com/"
           />
-        </div>
+        </Container>
       </Hero>
     </ThemeSelector>
   );

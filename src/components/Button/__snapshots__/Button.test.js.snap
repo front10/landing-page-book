@@ -9,6 +9,7 @@ ReactWrapper {
     disabled={false}
     loading={false}
     onClick={[Function]}
+    tooltip=""
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -47,6 +48,7 @@ ReactWrapper {
               "disabled": false,
               "loading": false,
               "onClick": [Function],
+              "tooltip": "",
             },
           },
           "memoizedState": Object {
@@ -58,6 +60,7 @@ ReactWrapper {
               "disabled": false,
               "loading": false,
               "onClick": [Function],
+              "tooltip": "",
             },
           },
           "mode": 0,
@@ -71,6 +74,7 @@ ReactWrapper {
               "disabled": false,
               "loading": false,
               "onClick": [Function],
+              "tooltip": "",
             },
           },
           "ref": null,
@@ -107,8 +111,10 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
+                  
                   <button
                     class="Button btn "
+                    data-tip=""
                   />
                 </div>,
                 "context": Object {},
@@ -152,6 +158,7 @@ ReactWrapper {
                           "disabled": false,
                           "loading": false,
                           "onClick": [Function],
+                          "tooltip": "",
                         }
                       }
                     />,
@@ -177,6 +184,7 @@ ReactWrapper {
                           "disabled": false,
                           "loading": false,
                           "onClick": [Function],
+                          "tooltip": "",
                         }
                       }
                     />,
@@ -204,6 +212,7 @@ ReactWrapper {
                     "disabled": false,
                     "loading": false,
                     "onClick": [Function],
+                    "tooltip": "",
                   }
                 }
               />,
@@ -217,8 +226,10 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
+                
                 <button
                   class="Button btn "
+                  data-tip=""
                 />
               </div>,
               "context": Object {},
@@ -252,6 +263,7 @@ ReactWrapper {
                       "disabled": false,
                       "loading": false,
                       "onClick": [Function],
+                      "tooltip": "",
                     }
                   }
                 />,
@@ -282,6 +294,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "refs": Object {},
@@ -294,6 +307,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "updater": Object {
@@ -315,7 +329,7 @@ ReactWrapper {
         "child": FiberNode {
           "_debugID": 6,
           "_debugIsCurrentlyTiming": false,
-          "_debugOwner": [Circular],
+          "_debugOwner": null,
           "_debugSource": null,
           "actualDuration": 0,
           "actualStartTime": 0,
@@ -327,37 +341,69 @@ ReactWrapper {
           "index": 0,
           "key": null,
           "lastEffect": null,
-          "memoizedProps": Object {
-            "children": Array [
-              undefined,
-              false,
-            ],
-            "className": "Button btn ",
-            "disabled": false,
-            "onClick": [Function],
-          },
+          "memoizedProps": "",
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
-          "pendingProps": Object {
-            "children": Array [
-              undefined,
-              false,
-            ],
-            "className": "Button btn ",
-            "disabled": false,
-            "onClick": [Function],
-          },
+          "pendingProps": "",
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
-          "sibling": null,
-          "stateNode": <button
-            class="Button btn "
-          />,
-          "tag": 5,
+          "sibling": FiberNode {
+            "_debugID": 7,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": 0,
+            "alternate": null,
+            "child": null,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstEffect": null,
+            "index": 1,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                undefined,
+                false,
+              ],
+              "className": "Button btn ",
+              "data-tip": "",
+              "disabled": false,
+              "onClick": [Function],
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                undefined,
+                false,
+              ],
+              "className": "Button btn ",
+              "data-tip": "",
+              "disabled": false,
+              "onClick": [Function],
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseTime": 0,
+            "sibling": null,
+            "stateNode": <button
+              class="Button btn "
+              data-tip=""
+            />,
+            "tag": 5,
+            "treeBaseTime": 0,
+            "type": "button",
+            "updateQueue": null,
+          },
+          "stateNode": ,
+          "tag": 6,
           "treeBaseTime": 0,
-          "type": "button",
+          "type": null,
           "updateQueue": null,
         },
         "effectTag": 1,
@@ -372,6 +418,7 @@ ReactWrapper {
           "disabled": false,
           "loading": false,
           "onClick": [Function],
+          "tooltip": "",
         },
         "memoizedState": null,
         "mode": 0,
@@ -382,6 +429,7 @@ ReactWrapper {
           "disabled": false,
           "loading": false,
           "onClick": [Function],
+          "tooltip": "",
         },
         "ref": null,
         "return": FiberNode {
@@ -408,6 +456,7 @@ ReactWrapper {
               "disabled": false,
               "loading": false,
               "onClick": [Function],
+              "tooltip": "",
             },
           },
           "memoizedState": Object {
@@ -419,6 +468,7 @@ ReactWrapper {
               "disabled": false,
               "loading": false,
               "onClick": [Function],
+              "tooltip": "",
             },
           },
           "mode": 0,
@@ -432,6 +482,7 @@ ReactWrapper {
               "disabled": false,
               "loading": false,
               "onClick": [Function],
+              "tooltip": "",
             },
           },
           "ref": null,
@@ -468,8 +519,10 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
+                  
                   <button
                     class="Button btn "
+                    data-tip=""
                   />
                 </div>,
                 "context": Object {},
@@ -513,6 +566,7 @@ ReactWrapper {
                           "disabled": false,
                           "loading": false,
                           "onClick": [Function],
+                          "tooltip": "",
                         }
                       }
                     />,
@@ -538,6 +592,7 @@ ReactWrapper {
                           "disabled": false,
                           "loading": false,
                           "onClick": [Function],
+                          "tooltip": "",
                         }
                       }
                     />,
@@ -565,6 +620,7 @@ ReactWrapper {
                     "disabled": false,
                     "loading": false,
                     "onClick": [Function],
+                    "tooltip": "",
                   }
                 }
               />,
@@ -578,8 +634,10 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
+                
                 <button
                   class="Button btn "
+                  data-tip=""
                 />
               </div>,
               "context": Object {},
@@ -613,6 +671,7 @@ ReactWrapper {
                       "disabled": false,
                       "loading": false,
                       "onClick": [Function],
+                      "tooltip": "",
                     }
                   }
                 />,
@@ -643,6 +702,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "refs": Object {},
@@ -655,6 +715,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "updater": Object {
@@ -685,6 +746,7 @@ ReactWrapper {
         "disabled": false,
         "loading": false,
         "onClick": [Function],
+        "tooltip": "",
       },
       "refs": Object {},
       "state": null,
@@ -703,32 +765,38 @@ ReactWrapper {
       "disabled": false,
       "loading": false,
       "onClick": [Function],
+      "tooltip": "",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": <button
-        class="Button btn "
-      />,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          undefined,
-          false,
+    "rendered": Array [
+      "",
+      Object {
+        "instance": <button
+          class="Button btn "
+          data-tip=""
+        />,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            undefined,
+            false,
+          ],
+          "className": "Button btn ",
+          "data-tip": "",
+          "disabled": false,
+          "onClick": [Function],
+        },
+        "ref": null,
+        "rendered": Array [
+          Array [
+            undefined,
+            false,
+          ],
         ],
-        "className": "Button btn ",
-        "disabled": false,
-        "onClick": [Function],
+        "type": "button",
       },
-      "ref": null,
-      "rendered": Array [
-        Array [
-          undefined,
-          false,
-        ],
-      ],
-      "type": "button",
-    },
+    ],
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -761,6 +829,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "memoizedState": Object {
@@ -772,6 +841,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "mode": 0,
@@ -785,6 +855,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "ref": null,
@@ -821,8 +892,10 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
+                    
                     <button
                       class="Button btn "
+                      data-tip=""
                     />
                   </div>,
                   "context": Object {},
@@ -866,6 +939,7 @@ ReactWrapper {
                             "disabled": false,
                             "loading": false,
                             "onClick": [Function],
+                            "tooltip": "",
                           }
                         }
                       />,
@@ -891,6 +965,7 @@ ReactWrapper {
                             "disabled": false,
                             "loading": false,
                             "onClick": [Function],
+                            "tooltip": "",
                           }
                         }
                       />,
@@ -918,6 +993,7 @@ ReactWrapper {
                       "disabled": false,
                       "loading": false,
                       "onClick": [Function],
+                      "tooltip": "",
                     }
                   }
                 />,
@@ -931,8 +1007,10 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
+                  
                   <button
                     class="Button btn "
+                    data-tip=""
                   />
                 </div>,
                 "context": Object {},
@@ -966,6 +1044,7 @@ ReactWrapper {
                         "disabled": false,
                         "loading": false,
                         "onClick": [Function],
+                        "tooltip": "",
                       }
                     }
                   />,
@@ -996,6 +1075,7 @@ ReactWrapper {
                   "disabled": false,
                   "loading": false,
                   "onClick": [Function],
+                  "tooltip": "",
                 },
               },
               "refs": Object {},
@@ -1008,6 +1088,7 @@ ReactWrapper {
                   "disabled": false,
                   "loading": false,
                   "onClick": [Function],
+                  "tooltip": "",
                 },
               },
               "updater": Object {
@@ -1029,7 +1110,7 @@ ReactWrapper {
           "child": FiberNode {
             "_debugID": 6,
             "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
+            "_debugOwner": null,
             "_debugSource": null,
             "actualDuration": 0,
             "actualStartTime": 0,
@@ -1041,37 +1122,69 @@ ReactWrapper {
             "index": 0,
             "key": null,
             "lastEffect": null,
-            "memoizedProps": Object {
-              "children": Array [
-                undefined,
-                false,
-              ],
-              "className": "Button btn ",
-              "disabled": false,
-              "onClick": [Function],
-            },
+            "memoizedProps": "",
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
-            "pendingProps": Object {
-              "children": Array [
-                undefined,
-                false,
-              ],
-              "className": "Button btn ",
-              "disabled": false,
-              "onClick": [Function],
-            },
+            "pendingProps": "",
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
-            "sibling": null,
-            "stateNode": <button
-              class="Button btn "
-            />,
-            "tag": 5,
+            "sibling": FiberNode {
+              "_debugID": 7,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": 0,
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": Array [
+                  undefined,
+                  false,
+                ],
+                "className": "Button btn ",
+                "data-tip": "",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": Array [
+                  undefined,
+                  false,
+                ],
+                "className": "Button btn ",
+                "data-tip": "",
+                "disabled": false,
+                "onClick": [Function],
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseTime": 0,
+              "sibling": null,
+              "stateNode": <button
+                class="Button btn "
+                data-tip=""
+              />,
+              "tag": 5,
+              "treeBaseTime": 0,
+              "type": "button",
+              "updateQueue": null,
+            },
+            "stateNode": ,
+            "tag": 6,
             "treeBaseTime": 0,
-            "type": "button",
+            "type": null,
             "updateQueue": null,
           },
           "effectTag": 1,
@@ -1086,6 +1199,7 @@ ReactWrapper {
             "disabled": false,
             "loading": false,
             "onClick": [Function],
+            "tooltip": "",
           },
           "memoizedState": null,
           "mode": 0,
@@ -1096,6 +1210,7 @@ ReactWrapper {
             "disabled": false,
             "loading": false,
             "onClick": [Function],
+            "tooltip": "",
           },
           "ref": null,
           "return": FiberNode {
@@ -1122,6 +1237,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "memoizedState": Object {
@@ -1133,6 +1249,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "mode": 0,
@@ -1146,6 +1263,7 @@ ReactWrapper {
                 "disabled": false,
                 "loading": false,
                 "onClick": [Function],
+                "tooltip": "",
               },
             },
             "ref": null,
@@ -1182,8 +1300,10 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
+                    
                     <button
                       class="Button btn "
+                      data-tip=""
                     />
                   </div>,
                   "context": Object {},
@@ -1227,6 +1347,7 @@ ReactWrapper {
                             "disabled": false,
                             "loading": false,
                             "onClick": [Function],
+                            "tooltip": "",
                           }
                         }
                       />,
@@ -1252,6 +1373,7 @@ ReactWrapper {
                             "disabled": false,
                             "loading": false,
                             "onClick": [Function],
+                            "tooltip": "",
                           }
                         }
                       />,
@@ -1279,6 +1401,7 @@ ReactWrapper {
                       "disabled": false,
                       "loading": false,
                       "onClick": [Function],
+                      "tooltip": "",
                     }
                   }
                 />,
@@ -1292,8 +1415,10 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
+                  
                   <button
                     class="Button btn "
+                    data-tip=""
                   />
                 </div>,
                 "context": Object {},
@@ -1327,6 +1452,7 @@ ReactWrapper {
                         "disabled": false,
                         "loading": false,
                         "onClick": [Function],
+                        "tooltip": "",
                       }
                     }
                   />,
@@ -1357,6 +1483,7 @@ ReactWrapper {
                   "disabled": false,
                   "loading": false,
                   "onClick": [Function],
+                  "tooltip": "",
                 },
               },
               "refs": Object {},
@@ -1369,6 +1496,7 @@ ReactWrapper {
                   "disabled": false,
                   "loading": false,
                   "onClick": [Function],
+                  "tooltip": "",
                 },
               },
               "updater": Object {
@@ -1399,6 +1527,7 @@ ReactWrapper {
           "disabled": false,
           "loading": false,
           "onClick": [Function],
+          "tooltip": "",
         },
         "refs": Object {},
         "state": null,
@@ -1417,32 +1546,38 @@ ReactWrapper {
         "disabled": false,
         "loading": false,
         "onClick": [Function],
+        "tooltip": "",
       },
       "ref": null,
-      "rendered": Object {
-        "instance": <button
-          class="Button btn "
-        />,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [
-            undefined,
-            false,
+      "rendered": Array [
+        "",
+        Object {
+          "instance": <button
+            class="Button btn "
+            data-tip=""
+          />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              undefined,
+              false,
+            ],
+            "className": "Button btn ",
+            "data-tip": "",
+            "disabled": false,
+            "onClick": [Function],
+          },
+          "ref": null,
+          "rendered": Array [
+            Array [
+              undefined,
+              false,
+            ],
           ],
-          "className": "Button btn ",
-          "disabled": false,
-          "onClick": [Function],
+          "type": "button",
         },
-        "ref": null,
-        "rendered": Array [
-          Array [
-            undefined,
-            false,
-          ],
-        ],
-        "type": "button",
-      },
+      ],
       "type": [Function],
     },
   ],

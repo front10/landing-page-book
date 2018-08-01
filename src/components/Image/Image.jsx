@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
 import PropTypes from 'prop-types';
+import ReactTooltip from 'react-tooltip';
 
 class Image extends Component {
 	constructor(props) {
-        super(props);
+		super(props);
 		this.state = {};
-	} 
+	}
 
 
 	render() {
@@ -15,19 +16,24 @@ class Image extends Component {
 			rounded,
 			border,
 			width,
-			height
+			height,
+			tooltip
 		} = this.props;
 		let className = this.props.className;
 		if (rounded)
 			className += ` rounded-circle`;
 		if (border)
 			className += ` img-thumbnail`;
-		return <img
-			alt={alt}
-			src={src}
-			className={className}
-			width={width}
-			height={height}/>
+		return <React.Fragment>
+			{tooltip && <ReactTooltip/>}
+			<img
+				data-tip={tooltip}
+				alt={alt}
+				src={src}
+				className={className}
+				width={width}
+				height={height}/>
+		</React.Fragment>
 	}
 }
 
@@ -37,6 +43,7 @@ Image.propTypes = {
 	className: PropTypes.string,
 	width: PropTypes.string,
 	height: PropTypes.string,
+	tooltip: PropTypes.string,
 	alt: PropTypes.string.isRequired,
 	src: PropTypes.oneOfType([
 		PropTypes.string,
@@ -49,6 +56,7 @@ Image.defaultProps = {
 	className: "img-fluid",
 	width: undefined,
 	height: undefined,
+	tooltip: "",
 	alt: undefined,
 	src: undefined,
 };

@@ -79,6 +79,8 @@ stories.add('ImageList', withReadme([Readme], () => {
       <div className="container">
         <ImageList
           gray={boolean('Use gray', true)}
+          imageRounded={boolean('Rounded', false)}
+          imageBordered={boolean('Bordered', false)}
           images={companies}
         />
       </div>

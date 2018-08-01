@@ -27,4 +27,5 @@ import {Image} from '@front10/landing-page-book/src/components';
 | width      | `String` | Image width. Default `undefined` |
 | height      | `String` | Image height. Default `undefined` |
 | alt      | `String` | Image alt. Default `undefined`, this field is required |
+| tooltip      | `String` | Image tooltip. Default `""` |
 | src      | `String`,`Object` | Image source. Default `undefined`, this field is required |

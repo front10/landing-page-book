@@ -5,6 +5,10 @@ ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <ImageList
     gray={false}
+    imageBordered={false}
+    imageHeight="100"
+    imageRounded={false}
+    imageWidth="100"
     images={Array []}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -40,6 +44,10 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "gray": false,
+              "imageBordered": false,
+              "imageHeight": "100",
+              "imageRounded": false,
+              "imageWidth": "100",
               "images": Array [],
             },
           },
@@ -48,6 +56,10 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "gray": false,
+              "imageBordered": false,
+              "imageHeight": "100",
+              "imageRounded": false,
+              "imageWidth": "100",
               "images": Array [],
             },
           },
@@ -58,6 +70,10 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "gray": false,
+              "imageBordered": false,
+              "imageHeight": "100",
+              "imageRounded": false,
+              "imageWidth": "100",
               "images": Array [],
             },
           },
@@ -136,6 +152,10 @@ ReactWrapper {
                       props={
                         Object {
                           "gray": false,
+                          "imageBordered": false,
+                          "imageHeight": "100",
+                          "imageRounded": false,
+                          "imageWidth": "100",
                           "images": Array [],
                         }
                       }
@@ -158,6 +178,10 @@ ReactWrapper {
                       props={
                         Object {
                           "gray": false,
+                          "imageBordered": false,
+                          "imageHeight": "100",
+                          "imageRounded": false,
+                          "imageWidth": "100",
                           "images": Array [],
                         }
                       }
@@ -182,6 +206,10 @@ ReactWrapper {
                 props={
                   Object {
                     "gray": false,
+                    "imageBordered": false,
+                    "imageHeight": "100",
+                    "imageRounded": false,
+                    "imageWidth": "100",
                     "images": Array [],
                   }
                 }
@@ -227,6 +255,10 @@ ReactWrapper {
                   props={
                     Object {
                       "gray": false,
+                      "imageBordered": false,
+                      "imageHeight": "100",
+                      "imageRounded": false,
+                      "imageWidth": "100",
                       "images": Array [],
                     }
                   }
@@ -254,6 +286,10 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -263,6 +299,10 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -328,6 +368,10 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "gray": false,
+          "imageBordered": false,
+          "imageHeight": "100",
+          "imageRounded": false,
+          "imageWidth": "100",
           "images": Array [],
         },
         "memoizedState": Object {},
@@ -335,6 +379,10 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "gray": false,
+          "imageBordered": false,
+          "imageHeight": "100",
+          "imageRounded": false,
+          "imageWidth": "100",
           "images": Array [],
         },
         "ref": null,
@@ -358,6 +406,10 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "gray": false,
+              "imageBordered": false,
+              "imageHeight": "100",
+              "imageRounded": false,
+              "imageWidth": "100",
               "images": Array [],
             },
           },
@@ -366,6 +418,10 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "gray": false,
+              "imageBordered": false,
+              "imageHeight": "100",
+              "imageRounded": false,
+              "imageWidth": "100",
               "images": Array [],
             },
           },
@@ -376,6 +432,10 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "gray": false,
+              "imageBordered": false,
+              "imageHeight": "100",
+              "imageRounded": false,
+              "imageWidth": "100",
               "images": Array [],
             },
           },
@@ -454,6 +514,10 @@ ReactWrapper {
                       props={
                         Object {
                           "gray": false,
+                          "imageBordered": false,
+                          "imageHeight": "100",
+                          "imageRounded": false,
+                          "imageWidth": "100",
                           "images": Array [],
                         }
                       }
@@ -476,6 +540,10 @@ ReactWrapper {
                       props={
                         Object {
                           "gray": false,
+                          "imageBordered": false,
+                          "imageHeight": "100",
+                          "imageRounded": false,
+                          "imageWidth": "100",
                           "images": Array [],
                         }
                       }
@@ -500,6 +568,10 @@ ReactWrapper {
                 props={
                   Object {
                     "gray": false,
+                    "imageBordered": false,
+                    "imageHeight": "100",
+                    "imageRounded": false,
+                    "imageWidth": "100",
                     "images": Array [],
                   }
                 }
@@ -545,6 +617,10 @@ ReactWrapper {
                   props={
                     Object {
                       "gray": false,
+                      "imageBordered": false,
+                      "imageHeight": "100",
+                      "imageRounded": false,
+                      "imageWidth": "100",
                       "images": Array [],
                     }
                   }
@@ -572,6 +648,10 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -581,6 +661,10 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -608,6 +692,10 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "gray": false,
+        "imageBordered": false,
+        "imageHeight": "100",
+        "imageRounded": false,
+        "imageWidth": "100",
         "images": Array [],
       },
       "refs": Object {},
@@ -623,6 +711,10 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "gray": false,
+      "imageBordered": false,
+      "imageHeight": "100",
+      "imageRounded": false,
+      "imageWidth": "100",
       "images": Array [],
     },
     "ref": null,
@@ -670,6 +762,10 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -678,6 +774,10 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -688,6 +788,10 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -766,6 +870,10 @@ ReactWrapper {
                         props={
                           Object {
                             "gray": false,
+                            "imageBordered": false,
+                            "imageHeight": "100",
+                            "imageRounded": false,
+                            "imageWidth": "100",
                             "images": Array [],
                           }
                         }
@@ -788,6 +896,10 @@ ReactWrapper {
                         props={
                           Object {
                             "gray": false,
+                            "imageBordered": false,
+                            "imageHeight": "100",
+                            "imageRounded": false,
+                            "imageWidth": "100",
                             "images": Array [],
                           }
                         }
@@ -812,6 +924,10 @@ ReactWrapper {
                   props={
                     Object {
                       "gray": false,
+                      "imageBordered": false,
+                      "imageHeight": "100",
+                      "imageRounded": false,
+                      "imageWidth": "100",
                       "images": Array [],
                     }
                   }
@@ -857,6 +973,10 @@ ReactWrapper {
                     props={
                       Object {
                         "gray": false,
+                        "imageBordered": false,
+                        "imageHeight": "100",
+                        "imageRounded": false,
+                        "imageWidth": "100",
                         "images": Array [],
                       }
                     }
@@ -884,6 +1004,10 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "gray": false,
+                  "imageBordered": false,
+                  "imageHeight": "100",
+                  "imageRounded": false,
+                  "imageWidth": "100",
                   "images": Array [],
                 },
               },
@@ -893,6 +1017,10 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "gray": false,
+                  "imageBordered": false,
+                  "imageHeight": "100",
+                  "imageRounded": false,
+                  "imageWidth": "100",
                   "images": Array [],
                 },
               },
@@ -958,6 +1086,10 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "gray": false,
+            "imageBordered": false,
+            "imageHeight": "100",
+            "imageRounded": false,
+            "imageWidth": "100",
             "images": Array [],
           },
           "memoizedState": Object {},
@@ -965,6 +1097,10 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "gray": false,
+            "imageBordered": false,
+            "imageHeight": "100",
+            "imageRounded": false,
+            "imageWidth": "100",
             "images": Array [],
           },
           "ref": null,
@@ -988,6 +1124,10 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -996,6 +1136,10 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -1006,6 +1150,10 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "gray": false,
+                "imageBordered": false,
+                "imageHeight": "100",
+                "imageRounded": false,
+                "imageWidth": "100",
                 "images": Array [],
               },
             },
@@ -1084,6 +1232,10 @@ ReactWrapper {
                         props={
                           Object {
                             "gray": false,
+                            "imageBordered": false,
+                            "imageHeight": "100",
+                            "imageRounded": false,
+                            "imageWidth": "100",
                             "images": Array [],
                           }
                         }
@@ -1106,6 +1258,10 @@ ReactWrapper {
                         props={
                           Object {
                             "gray": false,
+                            "imageBordered": false,
+                            "imageHeight": "100",
+                            "imageRounded": false,
+                            "imageWidth": "100",
                             "images": Array [],
                           }
                         }
@@ -1130,6 +1286,10 @@ ReactWrapper {
                   props={
                     Object {
                       "gray": false,
+                      "imageBordered": false,
+                      "imageHeight": "100",
+                      "imageRounded": false,
+                      "imageWidth": "100",
                       "images": Array [],
                     }
                   }
@@ -1175,6 +1335,10 @@ ReactWrapper {
                     props={
                       Object {
                         "gray": false,
+                        "imageBordered": false,
+                        "imageHeight": "100",
+                        "imageRounded": false,
+                        "imageWidth": "100",
                         "images": Array [],
                       }
                     }
@@ -1202,6 +1366,10 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "gray": false,
+                  "imageBordered": false,
+                  "imageHeight": "100",
+                  "imageRounded": false,
+                  "imageWidth": "100",
                   "images": Array [],
                 },
               },
@@ -1211,6 +1379,10 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "gray": false,
+                  "imageBordered": false,
+                  "imageHeight": "100",
+                  "imageRounded": false,
+                  "imageWidth": "100",
                   "images": Array [],
                 },
               },
@@ -1238,6 +1410,10 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "gray": false,
+          "imageBordered": false,
+          "imageHeight": "100",
+          "imageRounded": false,
+          "imageWidth": "100",
           "images": Array [],
         },
         "refs": Object {},
@@ -1253,6 +1429,10 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "gray": false,
+        "imageBordered": false,
+        "imageHeight": "100",
+        "imageRounded": false,
+        "imageWidth": "100",
         "images": Array [],
       },
       "ref": null,

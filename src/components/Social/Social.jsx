@@ -31,6 +31,23 @@ import {
 	EmailIcon
 } from 'react-share';
 
+const available = {
+	"facebook": [FacebookShareButton, FacebookIcon],
+	"google": [GooglePlusShareButton, GooglePlusIcon],
+	"linkedin": [LinkedinShareButton, LinkedinIcon],
+	"twitter": [TwitterShareButton, TwitterIcon],
+	"telegram": [TelegramShareButton, TelegramIcon],
+	"whatsapp": [WhatsappShareButton, WhatsappIcon],
+	"pinterest": [PinterestShareButton, PinterestIcon],
+	"vk": [VKShareButton, VKIcon],
+	"ok": [OKShareButton, OKIcon],
+	"tumblr": [TumblrShareButton, TumblrIcon],
+	"livejournal": [LivejournalShareButton, LivejournalIcon],
+	"viber": [ViberShareButton, ViberIcon],
+	"email": [EmailShareButton, EmailIcon],
+	"reddit": [RedditShareButton, RedditIcon],
+};
+
 class Social extends Component {
 
 	render() {
@@ -40,94 +57,11 @@ class Social extends Component {
 			type,
 			gray
 		} = this.props;
-		return <React.Fragment>
-			{
-				type === 'facebook' &&
-				<FacebookShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<FacebookIcon round={rounded}/>
-				</FacebookShareButton>
-			}
-			{
-				type === 'google' &&
-				<GooglePlusShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<GooglePlusIcon round={rounded}/>
-				</GooglePlusShareButton>
-			}
-			{
-				type === 'linkedin' &&
-				<LinkedinShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<LinkedinIcon round={rounded}/>
-				</LinkedinShareButton>
-			}
-			{
-				type === 'twitter' &&
-				<TwitterShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<TwitterIcon round={rounded}/>
-				</TwitterShareButton>
-			}
-			{
-				type === 'telegram' &&
-				<TelegramShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<TelegramIcon round={rounded}/>
-				</TelegramShareButton>
-			}
-			{
-				type === 'whatsapp' &&
-				<WhatsappShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<WhatsappIcon round={rounded}/>
-				</WhatsappShareButton>
-			}
-			{
-				type === 'pinterest' &&
-				<PinterestShareButton url={url}
-				                      media="Share in Pinterest"
-				                      className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<PinterestIcon round={rounded}/>
-				</PinterestShareButton>
-			}
-			{
-				type === 'vk' &&
-				<VKShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<VKIcon round={rounded}/>
-				</VKShareButton>
-			}
-			{
-				type === 'ok' &&
-				<OKShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<OKIcon round={rounded}/>
-				</OKShareButton>
-			}
-			{
-				type === 'reddit' &&
-				<RedditShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<RedditIcon round={rounded}/>
-				</RedditShareButton>
-			}
-			{
-				type === 'tumblr' &&
-				<TumblrShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<TumblrIcon round={rounded}/>
-				</TumblrShareButton>
-			}
-			{
-				type === 'livejournal' &&
-				<LivejournalShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<LivejournalIcon round={rounded}/>
-				</LivejournalShareButton>
-			}
-			{
-				type === 'viber' &&
-				<ViberShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<ViberIcon round={rounded}/>
-				</ViberShareButton>
-			}
-			{
-				type === 'email' &&
-				<EmailShareButton url={url} className={`${gray ? 'SocialMediaShareButton--grayScale': ''}`}>
-					<EmailIcon round={rounded}/>
-				</EmailShareButton>
-			}
-		</React.Fragment>
+		return React.createElement(available[type] ? available[type][0] : available["email"][0], {
+			className: `${gray ? 'SocialMediaShareButton--grayScale' : ''}`,
+			url: url,
+			media: "Share in Pinterest",
+		}, React.createElement(available[type] ? available[type][1] : available["email"][1], {round: rounded}));
 	}
 }
 

@@ -288,12 +288,14 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
+            "children": undefined,
             "className": "row",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "children": undefined,
             "className": "row",
           },
           "ref": null,
@@ -608,6 +610,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
+        "children": undefined,
         "className": "row",
       },
       "ref": null,
@@ -893,12 +896,14 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
+              "children": undefined,
               "className": "row",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
+              "children": undefined,
               "className": "row",
             },
             "ref": null,
@@ -1213,6 +1218,7 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "children": undefined,
           "className": "row",
         },
         "ref": null,

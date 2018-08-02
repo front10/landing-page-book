@@ -11896,6 +11896,9 @@ span.CodeMirror-selectedtext { background: none; }
 /*
  * Label
  */
+/*
+ * ContactInfo
+ */
 /*Custom*/
 /*Components*/
 .Backers .ImageList .ImageList__Container {
@@ -11959,6 +11962,12 @@ span.CodeMirror-selectedtext { background: none; }
 
 .CodeMirror {
   height: 250px !important; }
+
+.ContactInfo__Location {
+  height: 300px; }
+
+.ContactInfo__Information {
+  font-size: 0.7rem; }
 
 .ContactUs .ContactUs__SubmitButton {
   color: white;

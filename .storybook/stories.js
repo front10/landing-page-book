@@ -23,6 +23,7 @@ import '../src/stories/components/browser-support';
 import '../src/stories/components/built-with';
 import '../src/stories/components/card';
 import '../src/stories/components/code';
+import '../src/stories/components/contact-info';
 import '../src/stories/components/contact-us';
 import '../src/stories/components/copyright';
 import '../src/stories/components/features';

@@ -9,9 +9,8 @@
         "build-theme": "gulp compile-themes-watch",
         "test": "jest --coverage --config ./jest.config.js",
         "eslint": "./node_modules/.bin/eslint ./src",
-        "gitlab-pages": "git push master gitlab-pages",
-        "precommit": "npm run eslint",
-        "prepush": "npm run eslint"
+        "gitlab-pages": "git push master gitlab-pages"
+       
     },
     "repository": {
         "type": "git",
@@ -35,6 +34,7 @@
         "@storybook/addon-viewport": "^3.3.12",
         "@storybook/addons": "^3.4.2",
         "@storybook/react": "^3.3.11",
+        "@types/prop-types": "^15.5.3",
         "babel-core": "^6.26.0",
         "babel-eslint": "^8.2.1",
         "babel-jest": "^22.4.3",

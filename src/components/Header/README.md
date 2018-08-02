@@ -22,6 +22,7 @@ import {Header} from '@front10/landing-page-book/src/components';
 
 | </br>Name   | </br>Type | </br>Summary                                                                                 | 
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
+| borderBottom      | `Boolean` | Define a border bottom in header. Default `false`|
 | className      | `String` | Class name of header. Default `""`|
 | type      | `String` | Type of tag element. Default `"h1"`, can be `h1`, `h2`, `h3`, `h4`, `h5`, `h6`|
 

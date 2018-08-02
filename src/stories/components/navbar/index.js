@@ -1,10 +1,10 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
-import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
+import {storiesOf} from '@storybook/react';
+import {withKnobs, text, select, boolean} from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
-import { ThemeSelector } from '../../../addons/ThemeSwitcher';
+import {ThemeSelector} from '../../../addons/ThemeSwitcher';
 
-import { Navbar, NavbarNav, Input, Button, NavbarLink, Icon } from '../../../components';
+import {Navbar, NavbarNav, Input, Button, NavbarLink, Icon} from '../../../components';
 import Readme from '../../../components/Navbar/README.md';
 
 const stories = storiesOf('Components/Navbar', module);
@@ -35,7 +35,8 @@ const rightItems = [{
   title: 'Contact',
 }];
 
-const onItemClick = () => {};
+const onItemClick = () => {
+};
 
 
 stories.add('Default', withReadme([Readme], () => {

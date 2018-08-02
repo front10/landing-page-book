@@ -11,8 +11,9 @@ const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Video', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Video',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Video
         playing={boolean('Playing', false)}
@@ -25,5 +26,5 @@ stories.add('Video', withReadme([Readme], () => {
         source={text('Source', 'https://youtu.be/dCrLwWdju68')}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);

@@ -11,8 +11,9 @@ const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('LanguageSwitcher', withReadme([Readme], () => {
-  return (
+stories.add(
+  'LanguageSwitcher',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <LanguageSwitcher
         showLabel={boolean('Show label', true)}
@@ -26,9 +27,9 @@ stories.add('LanguageSwitcher', withReadme([Readme], () => {
           US: 'English',
           FR: 'Français',
           ES: 'Español',
-          DE: 'Deutsch',
+          DE: 'Deutsch'
         }}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);

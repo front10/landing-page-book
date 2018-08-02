@@ -11,8 +11,9 @@ const stories = storiesOf('Elements', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Input', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Input',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Input
         labelColon={boolean('Label colon', false)}
@@ -21,7 +22,7 @@ stories.add('Input', withReadme([Readme], () => {
           text: 'text',
           number: 'number',
           email: 'email',
-          textarea: 'textarea',
+          textarea: 'textarea'
         })}
         name={text('Name', 'myInput')}
         value={text('Value', 'This is an input')}
@@ -29,5 +30,5 @@ stories.add('Input', withReadme([Readme], () => {
         label={text('Label', 'Input label')}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);

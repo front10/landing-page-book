@@ -11,8 +11,9 @@ const stories = storiesOf('Elements', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Label', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Label',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Label
         colon={boolean('Colon', false)}
@@ -20,5 +21,5 @@ stories.add('Label', withReadme([Readme], () => {
         label={text('Label', 'This is a label')}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);

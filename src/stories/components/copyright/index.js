@@ -11,8 +11,9 @@ const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Copyright', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Copyright',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Copyright
         showAllRightText={boolean('Show all right text', true)}
@@ -24,5 +25,5 @@ stories.add('Copyright', withReadme([Readme], () => {
         text={text('Text', 'Fron10, inc')}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);

@@ -11,7 +11,7 @@ module.exports = {
         "^(?!.*\\.(js|jsx|json)$)": "<rootDir>/jest/fileTransform.js"
     },
     moduleNameMapper: {
-        "^.+\.(css|less|scss)$": "babel-jest"
+
     },
     coverageReporters: ["json", "text", "html"],
 };

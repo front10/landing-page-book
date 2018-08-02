@@ -5,47 +5,51 @@ import LocationMarker from '../LocationMarker';
 
 class Location extends Component {
 
-	constructor(props) {
-		super(props);
-	}
+  constructor(props) {
+    super(props);
+  }
 
-	render() {
-		const {lat, lng, zoom, apiKey, language, markers} = this.props;
-		const bootstrapURLKeys = {key: apiKey, language: language};
+  render() {
+    const {lat, lng, zoom, apiKey, language, markers} = this.props;
+    const bootstrapURLKeys = {key: apiKey, language: language};
 
-		return <GoogleMapReact
-			center={{lat: lat, lng: lng}}
-			zoom={zoom}
-			bootstrapURLKeys={bootstrapURLKeys}>
-			{
-				markers.map((marker, index) => {
-					return <LocationMarker
-						key={index}
-						lat={marker.lat}
-						lng={marker.lng}
-						color={marker.color}
-						icon={marker.icon}/>
-				})
-			}
-		</GoogleMapReact>
-	}
+    return (
+      <GoogleMapReact
+        center={{lat: lat, lng: lng}}
+        zoom={zoom}
+        bootstrapURLKeys={bootstrapURLKeys}>
+        {
+          markers.map((marker, index) => {
+            return (
+              <LocationMarker
+                key={index}
+                lat={marker.lat}
+                lng={marker.lng}
+                color={marker.color}
+                icon={marker.icon}/>
+            )
+          })
+        }
+      </GoogleMapReact>
+    )
+  }
 }
 
 Location.propTypes = {
-	lat: PropTypes.number,
-	lng: PropTypes.number,
-	zoom: PropTypes.number,
-	apiKey: PropTypes.string,
-	language: PropTypes.string,
-	markers: PropTypes.array,
+  lat: PropTypes.number,
+  lng: PropTypes.number,
+  zoom: PropTypes.number,
+  apiKey: PropTypes.string,
+  language: PropTypes.string,
+  markers: PropTypes.array,
 };
 Location.defaultProps = {
-	lat: 0,
-	lng: 0,
-	zoom: 1,
-	apiKey: "",
-	language: "en",
-	markers: []
+  lat: 0,
+  lng: 0,
+  zoom: 1,
+  apiKey: "",
+  language: "en",
+  markers: []
 };
 
 export default Location;

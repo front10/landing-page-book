@@ -2,6 +2,9 @@ import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import LazyHero from 'react-lazy-hero';
 import Particles from 'react-particles-js';
+import Container from "../Container/Container";
+import Button from "../Button/Button";
+import Header from "../Header/Header";
 
 class Hero extends Component {
 	constructor(props) {
@@ -17,11 +20,11 @@ class Hero extends Component {
 
 	rendersButtons() {
 		return this.props.buttons.map((button, index) => {
-			return <button className="btn btn-xl Hero__Button"
+			return <Button className="btn-xl Hero__Button"
 			               key={index}
 			               onClick={() => this.onButtonClick(button)}>
 				{button.text}
-			</button>
+			</Button>
 		});
 	}
 
@@ -59,22 +62,22 @@ class Hero extends Component {
 				<div className="Hero__Container d-flex align-content-center">
 					{
 						!children &&
-						<div className="container">
+						<Container>
 							{
 								subHeader && subHeaderPosition === "top" &&
-								<h1 className="Hero__SubHeader mb-5">{subHeader}</h1>
+								<Header className="Hero__SubHeader mb-5">{subHeader}</Header>
 							}
 							{
 								header &&
-								<h1 className="Hero__Header mb-5">{header}</h1>
+								<Header className="Hero__Header mb-5">{header}</Header>
 							}
 							{
 								subHeader && subHeaderPosition !== "top" &&
-								<h1 className="Hero__SubHeader mb-5">{subHeader}</h1>
+								<Header className="Hero__SubHeader mb-5">{subHeader}</Header>
 							}
 							{this.rendersButtons()}
 
-						</div>
+						</Container>
 					}
 					{children}
 				</div>

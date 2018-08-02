@@ -4,7 +4,7 @@ import { withKnobs, text, number, boolean, select, color } from '@storybook/addo
 import withReadme from 'storybook-readme/with-readme';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Hero, Social, Container, Image } from '../../../components';
+import { Hero, Social, Container, Image, Header, Button } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
 const stories = storiesOf('Components/Hero', module);
@@ -58,16 +58,16 @@ stories.add('Children', withReadme([Readme], () => {
             alt="Cool car"
             src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png"
           />
-          <h1 className="display-3 text-white">
-          Landing Page Book
-          </h1>
+          <Header className="display-3 text-white">
+            Landing Page Book
+          </Header>
           <div className="mb-5 mt-5">
-            <a
+            <Button
               href="https://front10.com/"
               className="btn btn-primary btn-lg pl-5 pr-5 pt-2 pb-2"
             >
-            Go now
-            </a>
+              Go now
+            </Button>
           </div>
           <Social
             type="facebook"

@@ -4,22 +4,21 @@ import Browser from "../Browser";
 
 class BrowserSupport extends Component {
 
-	renderBrowsers() {
-		return this.props.browsers.map((browser, index) => {
-			return <td className="text-center pl-3 pr-3"
-			           key={index}>
-				<Browser vendor={browser.vendor}
-				         version={browser.version}
-				         showText={this.props.showText}/>
-			</td>
-		});
-	}
-
 	render() {
+		const {browsers, showText} = this.props;
 		return <table className="Browser">
 			<tbody>
 			<tr>
-				{this.renderBrowsers()}
+				{
+					browsers.map((browser, index) => {
+						return <td className="text-center pl-3 pr-3"
+						           key={index}>
+							<Browser vendor={browser.vendor}
+							         version={browser.version}
+							         showText={showText}/>
+						</td>
+					})
+				}
 			</tr>
 			</tbody>
 		</table>

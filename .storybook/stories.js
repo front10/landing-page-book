@@ -10,6 +10,7 @@ import '../src/stories/documentation/Introduction';
 // Elements
 import '../src/stories/components/browser';
 import '../src/stories/components/button';
+import '../src/stories/components/header';
 import '../src/stories/components/image';
 import '../src/stories/components/icon';
 import '../src/stories/components/input';

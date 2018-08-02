@@ -13,6 +13,7 @@ import Features from './Features';
 import Footer from './Footer';
 import Gif from './Gif';
 import GithubButton from './GithubButton';
+import Header from './Header';
 import Hero from "./Hero";
 import Icon from "./Icon";
 import Image from "./Image";
@@ -49,6 +50,7 @@ export {
 	Footer,
 	Gif,
 	GithubButton,
+	Header,
 	Hero,
 	Icon,
 	Image,

@@ -17,7 +17,7 @@ class Backers extends Component {
 		let backers = this.props.backers.map(backer => {
 			return {
 				image: backer.image,
-				tooltip: `$${backer.money} by ${backer.name}`,
+				tooltip: `$${backer.contributionAmount} by ${backer.name}`,
 				url: backer.profile
 			};
 		});

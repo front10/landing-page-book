@@ -21,15 +21,15 @@ class Card extends React.Component {
 		return (
 			<div className={`card h-100 Card ${!showBorder ? 'border-0'	: ''}`}>
 				<div className={`card-body text-${contentAlign}`}>
-					{image && (<img
+					{image && <img
 						className={`${imageCircle
 							? 'rounded-circle'
 							: ''} ${imageBorder
 								? 'img-thumbnail'
 								: ''} img-fluid`}
 						src={image}
-						alt="Generic placeholder image" />))}
-																				{title && <div className="Card__Title mb-2">
+						alt="Generic placeholder image" />}
+					{title && <div className="Card__Title mb-2">
 						{title}
 					</div>
 					}
@@ -41,14 +41,14 @@ class Card extends React.Component {
 						{summary}
 					</p>
 					}
-					{children && (
+					{children && 
 						<React.Fragment>
 							{children}
 						</React.Fragment>
-					)
+					
 					}
 				</div>
-			</div>
+			</div>		
 		);
 	}
 }

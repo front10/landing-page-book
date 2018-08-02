@@ -24,12 +24,12 @@ class Notes extends React.Component {
   changeTheme($event) {
     const iframe = document.getElementById('storybook-preview-iframe');
     if (iframe) {
-      const _document = iframe.contentDocument
+      const Iframedocument = iframe.contentDocument
         ? iframe.contentDocument
         : iframe.contentWindow.document;
-      const link = _document.getElementById('story-book-themes');
+      const link = Iframedocument.getElementById('story-book-themes');
       if (link) {
-        const root = _document.getElementById('root');
+        const root = Iframedocument.getElementById('root');
         if (root) {
           root.style.display = 'none';
         }
@@ -37,14 +37,14 @@ class Notes extends React.Component {
           'href',
           `themes/${$event.currentTarget.id.toLowerCase()}/style/index.css`
         );
-        let loaderTheme = _document.getElementById('story-book-loader-theme');
+        let loaderTheme = Iframedocument.getElementById('story-book-loader-theme');
         if (!loaderTheme) {
-          loaderTheme = _document.createElement('div');
+          loaderTheme = Iframedocument.createElement('div');
           loaderTheme.setAttribute('class', 'ui active inverted dimmer');
           loaderTheme.setAttribute('id', 'story-book-loader-theme');
           loaderTheme.innerHTML =
             '<div class="text-center mt-5"><i class="fa fa-circle-o-notch fa-spin" style="font-size:24px"></i></div><div class="text-center">Changing theme</div>';
-          _document.body.appendChild(loaderTheme);
+          Iframedocument.body.appendChild(loaderTheme);
         }
         loaderTheme.style.height = '90%';
         loaderTheme.style.display = 'block';
@@ -67,6 +67,7 @@ class Notes extends React.Component {
           <button
             key={theme.id}
             id={theme.id}
+            type="submit"
             style={
               this.state.theme === theme.id
                 ? {

@@ -62,7 +62,7 @@ stories.add(
             alt="Cool car"
             src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png"
           />
-          <Header className="display-3 text-white">Landing Page Book </Header>
+          <Header className="display-3 text-white">Landing Page Book</Header>
           <div className="mb-5 mt-5">
             <Button
               href="https://front10.com/"

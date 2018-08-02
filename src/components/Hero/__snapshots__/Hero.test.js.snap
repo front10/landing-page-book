@@ -32,13 +32,166 @@ ShallowWrapper {
     "key": undefined,
     "nodeType": "host",
     "props": Object {
+      "children": <LazyHero
+        className={undefined}
+        color="#fff"
+        imageSrc="https://front10.com/img/header-bg.jpg"
+        isCentered={true}
+        isFixed={true}
+        minHeight="100vh"
+        opacity={0}
+        parallaxOffset={0}
+        style={undefined}
+        transitionDuration={600}
+        transitionTimingFunction="ease-in-out"
+      >
+        <div
+          className="Hero__Particles"
+        >
+          <t
+            height="100%"
+            params={Object {}}
+            style={Object {}}
+            width="100%"
+          />
+        </div>
+        <div
+          className="Hero__Container d-flex align-content-center"
+        >
+          <Container
+            fluid={false}
+          >
+            
+            
+            
+          </Container>
+        </div>
+      </LazyHero>,
       "className": "Hero",
       "style": Object {
         "backgroundColor": "transparent",
       },
     },
     "ref": null,
-    "rendered": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <div
+            className="Hero__Particles"
+          >
+            <t
+              height="100%"
+              params={Object {}}
+              style={Object {}}
+              width="100%"
+            />
+          </div>,
+          <div
+            className="Hero__Container d-flex align-content-center"
+          >
+            <Container
+              fluid={false}
+            >
+              
+              
+              
+            </Container>
+          </div>,
+        ],
+        "className": undefined,
+        "color": "#fff",
+        "imageSrc": "https://front10.com/img/header-bg.jpg",
+        "isCentered": true,
+        "isFixed": true,
+        "minHeight": "100vh",
+        "opacity": 0,
+        "parallaxOffset": 0,
+        "style": undefined,
+        "transitionDuration": 600,
+        "transitionTimingFunction": "ease-in-out",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": <t
+              height="100%"
+              params={Object {}}
+              style={Object {}}
+              width="100%"
+            />,
+            "className": "Hero__Particles",
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "height": "100%",
+              "params": Object {},
+              "style": Object {},
+              "width": "100%",
+            },
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <Container
+                fluid={false}
+              >
+                
+                
+                
+              </Container>,
+              undefined,
+            ],
+            "className": "Hero__Container d-flex align-content-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  "",
+                  "",
+                  "",
+                  Array [],
+                ],
+                "fluid": false,
+              },
+              "ref": null,
+              "rendered": Array [
+                "",
+                "",
+                "",
+              ],
+              "type": [Function],
+            },
+            undefined,
+          ],
+          "type": "div",
+        },
+      ],
+      "type": [Function],
+    },
     "type": "div",
   },
   Symbol(enzyme.__nodes__): Array [
@@ -47,13 +200,166 @@ ShallowWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
+        "children": <LazyHero
+          className={undefined}
+          color="#fff"
+          imageSrc="https://front10.com/img/header-bg.jpg"
+          isCentered={true}
+          isFixed={true}
+          minHeight="100vh"
+          opacity={0}
+          parallaxOffset={0}
+          style={undefined}
+          transitionDuration={600}
+          transitionTimingFunction="ease-in-out"
+        >
+          <div
+            className="Hero__Particles"
+          >
+            <t
+              height="100%"
+              params={Object {}}
+              style={Object {}}
+              width="100%"
+            />
+          </div>
+          <div
+            className="Hero__Container d-flex align-content-center"
+          >
+            <Container
+              fluid={false}
+            >
+              
+              
+              
+            </Container>
+          </div>
+        </LazyHero>,
         "className": "Hero",
         "style": Object {
           "backgroundColor": "transparent",
         },
       },
       "ref": null,
-      "rendered": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <div
+              className="Hero__Particles"
+            >
+              <t
+                height="100%"
+                params={Object {}}
+                style={Object {}}
+                width="100%"
+              />
+            </div>,
+            <div
+              className="Hero__Container d-flex align-content-center"
+            >
+              <Container
+                fluid={false}
+              >
+                
+                
+                
+              </Container>
+            </div>,
+          ],
+          "className": undefined,
+          "color": "#fff",
+          "imageSrc": "https://front10.com/img/header-bg.jpg",
+          "isCentered": true,
+          "isFixed": true,
+          "minHeight": "100vh",
+          "opacity": 0,
+          "parallaxOffset": 0,
+          "style": undefined,
+          "transitionDuration": 600,
+          "transitionTimingFunction": "ease-in-out",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <t
+                height="100%"
+                params={Object {}}
+                style={Object {}}
+                width="100%"
+              />,
+              "className": "Hero__Particles",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "height": "100%",
+                "params": Object {},
+                "style": Object {},
+                "width": "100%",
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <Container
+                  fluid={false}
+                >
+                  
+                  
+                  
+                </Container>,
+                undefined,
+              ],
+              "className": "Hero__Container d-flex align-content-center",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": Array [
+                    "",
+                    "",
+                    "",
+                    Array [],
+                  ],
+                  "fluid": false,
+                },
+                "ref": null,
+                "rendered": Array [
+                  "",
+                  "",
+                  "",
+                ],
+                "type": [Function],
+              },
+              undefined,
+            ],
+            "type": "div",
+          },
+        ],
+        "type": [Function],
+      },
       "type": "div",
     },
   ],

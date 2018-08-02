@@ -9,23 +9,12 @@ import Header from "../Header/Header";
 class Hero extends Component {
 	constructor(props) {
 		super(props);
-		this.rendersButtons = this.rendersButtons.bind(this);
 		this.onButtonClick = this.onButtonClick.bind(this);
 	}
 
 	onButtonClick(button) {
 		if (button.onClick && typeof button.onClick === "function")
 			button.onClick({button});
-	}
-
-	rendersButtons() {
-		return this.props.buttons.map((button, index) => {
-			return <Button className="btn-xl Hero__Button"
-			               key={index}
-			               onClick={() => this.onButtonClick(button)}>
-				{button.text}
-			</Button>
-		});
 	}
 
 	render() {
@@ -43,6 +32,7 @@ class Hero extends Component {
 			particles,
 			particlesParams,
 			backgroundColor,
+			buttons,
 			children
 		} = this.props;
 		return <div className="Hero" style={{backgroundColor: backgroundColor}}>
@@ -75,7 +65,15 @@ class Hero extends Component {
 								subHeader && subHeaderPosition !== "top" &&
 								<Header className="Hero__SubHeader mb-5">{subHeader}</Header>
 							}
-							{this.rendersButtons()}
+							{
+								buttons.map((button, index) => {
+									return <Button className="btn-xl Hero__Button"
+									               key={index}
+									               onClick={() => this.onButtonClick(button)}>
+										{button.text}
+									</Button>
+								})
+							}
 
 						</Container>
 					}

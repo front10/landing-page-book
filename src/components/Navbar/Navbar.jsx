@@ -10,131 +10,126 @@ import Icon from "../Icon/Icon";
 
 class Navbar extends Component {
 
-	constructor(props) {
-		super(props);
-		this.state = {};
-		this.collapse = this.collapse.bind(this);
-	}
+  constructor(props) {
+    super(props);
+    this.state = {};
+    this.collapse = this.collapse.bind(this);
+  }
 
-	componentWillMount() {
-		this.setState({collapse: false});
-	}
+  componentWillMount() {
+    this.setState({collapse: false});
+  }
 
-	collapse() {
-		this.setState({collapse: !this.state.collapse});
-	}
+  collapse() {
+    this.setState({collapse: !this.state.collapse});
+  }
 
-	renderLeftItems() {
-		return this.props.leftItems.map((item, index) => {
-			return <NavbarLink key={index}
-			                   href={item.href}
-			                   target={item.target}
-			                   onClick={() => this.props.onItemClick({item})}>
-				<Icon icon={item.icon} className="mr-1"/>
-				{item.title}
-			</NavbarLink>
-		});
-	}
+  renderItems(items) {
+    return items.map((item, index) => {
+      return <NavbarLink
+        key={index}
+        href={item.href}
+        target={item.target}
+        onClick={() => this.props.onItemClick({item})}>
+        <Icon icon={item.icon} className="mr-1"/>
+        {item.title}
+      </NavbarLink>
+    });
+  }
 
-	renderRightItems() {
-		return this.props.rightItems.map((item, index) => {
-			return <NavbarLink key={index}
-			                   href={item.href}
-			                   target={item.target}
-			                   onClick={() => this.props.onItemClick({item})}>
-				<Icon icon={item.icon} className="mr-1"/>
-				{item.title}
-			</NavbarLink>
-		});
-	}
+  render() {
+    const state = this.state;
+    const {
+      companyName,
+      companyLink,
+      leftItems,
+      rightItems,
+      companyLogo,
+      transparent,
+      fixed,
+      className,
+      expand,
+      children
+    } = this.props;
 
-	render() {
-		const state = this.state;
-		const {
-			companyName,
-			companyLink,
-			leftItems,
-			rightItems,
-			companyLogo,
-			transparent,
-			fixed,
-			className,
-			expand,
-			children
-		} = this.props;
+    let navClassName = `${className} navbar ${expand ? `navbar-expand-${expand}` : `navbar-expand`} Navbar`;
+    if (transparent)
+      navClassName += ` Navbar--transparent`;
+    if (fixed)
+      navClassName += ` fixed-top`;
 
-		let navClassName = `${className} navbar ${expand ? `navbar-expand-${expand}` : `navbar-expand`} Navbar`;
-		if (transparent)
-			navClassName += ` Navbar--transparent`;
-		if (fixed)
-			navClassName += ` fixed-top`;
-
-		return <nav className={navClassName}>
-			<Button className="navbar-toggler mr-3 Navbar__Toggler"
-			        ariaLabel="Toggle navigation"
-			        onClick={this.collapse}>
-				<Icon icon="fa fa-bars"/>
-			</Button>
-			<NavbarBrand className="mr-auto"
-			             href={companyLink}>
-				{
-					companyLogo &&
-					<Image alt="Company logo"
-					       src={companyLogo}
-					       className="d-inline-block align-top mr-1 Logo"/>
-				}
-			</NavbarBrand>
-			{
-				leftItems.length > 0 && !children &&
-				<NavbarCollapse isOpen={state.collapse}>
-					<NavbarNav>
-						{this.renderLeftItems()}
-					</NavbarNav>
-				</NavbarCollapse>
-			}
-			{
-				rightItems.length > 0 && !children &&
-				<NavbarCollapse isOpen={state.collapse}>
-					<NavbarNav alignItems="right">
-						{this.renderRightItems()}
-					</NavbarNav>
-				</NavbarCollapse>
-			}
-			{
-				children &&
-				<NavbarCollapse isOpen={state.collapse}>
-					{children}
-				</NavbarCollapse>
-			}
-		</nav>
-	}
+    return (
+      <nav className={navClassName}>
+        <Button
+          className="navbar-toggler mr-3 Navbar__Toggler"
+          ariaLabel="Toggle navigation"
+          onClick={this.collapse}>
+          <Icon icon="fa fa-bars"/>
+        </Button>
+        <NavbarBrand
+          className="mr-auto"
+          href={companyLink}>
+          {
+            companyLogo &&
+            <Image
+              alt="Company logo"
+              src={companyLogo}
+              className="d-inline-block align-top mr-1 Logo"/>
+          }
+          {companyName}
+        </NavbarBrand>
+        {
+          leftItems.length > 0 && !children &&
+          <NavbarCollapse isOpen={state.collapse}>
+            <NavbarNav>
+              {this.renderItems(leftItems)}
+            </NavbarNav>
+          </NavbarCollapse>
+        }
+        {
+          rightItems.length > 0 && !children &&
+          <NavbarCollapse isOpen={state.collapse}>
+            <NavbarNav alignItems="right">
+              {this.renderItems(rightItems)}
+            </NavbarNav>
+          </NavbarCollapse>
+        }
+        {
+          children &&
+          <NavbarCollapse isOpen={state.collapse}>
+            {children}
+          </NavbarCollapse>
+        }
+      </nav>
+    )
+  }
 }
 
 Navbar.propTypes = {
-	transparent: PropTypes.bool,
-	fixed: PropTypes.bool,
-	companyName: PropTypes.string,
-	companyLink: PropTypes.string,
-	companyLogo: PropTypes.string,
-	className: PropTypes.string,
-	expand: PropTypes.string,
-	leftItems: PropTypes.array,
-	rightItems: PropTypes.array,
-	onItemClick: PropTypes.func,
+  transparent: PropTypes.bool,
+  fixed: PropTypes.bool,
+  companyName: PropTypes.string,
+  companyLink: PropTypes.string,
+  companyLogo: PropTypes.string,
+  className: PropTypes.string,
+  expand: PropTypes.string,
+  leftItems: PropTypes.array,
+  rightItems: PropTypes.array,
+  onItemClick: PropTypes.func,
 };
 Navbar.defaultProps = {
-	transparent: false,
-	fixed: false,
-	companyName: "",
-	companyLink: "",
-	companyLogo: "",
-	className: "",
-	expand: "",
-	leftItems: [],
-	rightItems: [],
-	onItemClick: ({item}) => {
-		console.warn(`onItemClick prop is not defined. Item ${JSON.stringify(item)}`)
-	}
+  transparent: false,
+  fixed: false,
+  companyName: "",
+  companyLink: "",
+  companyLogo: "",
+  className: "",
+  expand: "",
+  leftItems: [],
+  rightItems: [],
+  onItemClick: ({item}) => {
+    console.warn(`onItemClick prop is not defined. Item ${JSON.stringify(item)}`)
+  }
 };
 
 export default Navbar;

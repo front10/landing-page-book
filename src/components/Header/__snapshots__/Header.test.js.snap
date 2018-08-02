@@ -4,6 +4,7 @@ exports[`Header Header should render 1`] = `
 ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Header
+    borderBottom={false}
     className=""
     type="h1"
     vendor="chrome"
@@ -40,6 +41,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "borderBottom": false,
               "className": "",
               "type": "h1",
               "vendor": "chrome",
@@ -49,6 +51,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "borderBottom": false,
               "className": "",
               "type": "h1",
               "vendor": "chrome",
@@ -60,6 +63,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "borderBottom": false,
               "className": "",
               "type": "h1",
               "vendor": "chrome",
@@ -100,7 +104,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <h1
-                    class=""
+                    class=" "
                   />
                 </div>,
                 "context": Object {},
@@ -139,6 +143,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "borderBottom": false,
                           "className": "",
                           "type": "h1",
                           "vendor": "chrome",
@@ -162,6 +167,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "borderBottom": false,
                           "className": "",
                           "type": "h1",
                           "vendor": "chrome",
@@ -187,6 +193,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "borderBottom": false,
                     "className": "",
                     "type": "h1",
                     "vendor": "chrome",
@@ -204,7 +211,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <h1
-                  class=""
+                  class=" "
                 />
               </div>,
               "context": Object {},
@@ -233,6 +240,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "borderBottom": false,
                       "className": "",
                       "type": "h1",
                       "vendor": "chrome",
@@ -261,6 +269,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -271,6 +280,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -309,21 +319,21 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": undefined,
-            "className": "",
+            "className": " ",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "children": undefined,
-            "className": "",
+            "className": " ",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <h1
-            class=""
+            class=" "
           />,
           "tag": 5,
           "treeBaseTime": 0,
@@ -337,6 +347,7 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
+          "borderBottom": false,
           "className": "",
           "type": "h1",
           "vendor": "chrome",
@@ -345,6 +356,7 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "borderBottom": false,
           "className": "",
           "type": "h1",
           "vendor": "chrome",
@@ -369,6 +381,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "borderBottom": false,
               "className": "",
               "type": "h1",
               "vendor": "chrome",
@@ -378,6 +391,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "borderBottom": false,
               "className": "",
               "type": "h1",
               "vendor": "chrome",
@@ -389,6 +403,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "borderBottom": false,
               "className": "",
               "type": "h1",
               "vendor": "chrome",
@@ -429,7 +444,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <h1
-                    class=""
+                    class=" "
                   />
                 </div>,
                 "context": Object {},
@@ -468,6 +483,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "borderBottom": false,
                           "className": "",
                           "type": "h1",
                           "vendor": "chrome",
@@ -491,6 +507,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "borderBottom": false,
                           "className": "",
                           "type": "h1",
                           "vendor": "chrome",
@@ -516,6 +533,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "borderBottom": false,
                     "className": "",
                     "type": "h1",
                     "vendor": "chrome",
@@ -533,7 +551,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <h1
-                  class=""
+                  class=" "
                 />
               </div>,
               "context": Object {},
@@ -562,6 +580,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "borderBottom": false,
                       "className": "",
                       "type": "h1",
                       "vendor": "chrome",
@@ -590,6 +609,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -600,6 +620,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -628,6 +649,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
+        "borderBottom": false,
         "className": "",
         "type": "h1",
         "vendor": "chrome",
@@ -644,6 +666,7 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "borderBottom": false,
       "className": "",
       "type": "h1",
       "vendor": "chrome",
@@ -651,13 +674,13 @@ ReactWrapper {
     "ref": null,
     "rendered": Object {
       "instance": <h1
-        class=""
+        class=" "
       />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": undefined,
-        "className": "",
+        "className": " ",
       },
       "ref": null,
       "rendered": Array [
@@ -692,6 +715,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -701,6 +725,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -712,6 +737,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -752,7 +778,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <h1
-                      class=""
+                      class=" "
                     />
                   </div>,
                   "context": Object {},
@@ -791,6 +817,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "borderBottom": false,
                             "className": "",
                             "type": "h1",
                             "vendor": "chrome",
@@ -814,6 +841,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "borderBottom": false,
                             "className": "",
                             "type": "h1",
                             "vendor": "chrome",
@@ -839,6 +867,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "borderBottom": false,
                       "className": "",
                       "type": "h1",
                       "vendor": "chrome",
@@ -856,7 +885,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <h1
-                    class=""
+                    class=" "
                   />
                 </div>,
                 "context": Object {},
@@ -885,6 +914,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "borderBottom": false,
                         "className": "",
                         "type": "h1",
                         "vendor": "chrome",
@@ -913,6 +943,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "borderBottom": false,
                   "className": "",
                   "type": "h1",
                   "vendor": "chrome",
@@ -923,6 +954,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "borderBottom": false,
                   "className": "",
                   "type": "h1",
                   "vendor": "chrome",
@@ -961,21 +993,21 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": undefined,
-              "className": "",
+              "className": " ",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "children": undefined,
-              "className": "",
+              "className": " ",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <h1
-              class=""
+              class=" "
             />,
             "tag": 5,
             "treeBaseTime": 0,
@@ -989,6 +1021,7 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
+            "borderBottom": false,
             "className": "",
             "type": "h1",
             "vendor": "chrome",
@@ -997,6 +1030,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "borderBottom": false,
             "className": "",
             "type": "h1",
             "vendor": "chrome",
@@ -1021,6 +1055,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -1030,6 +1065,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -1041,6 +1077,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "borderBottom": false,
                 "className": "",
                 "type": "h1",
                 "vendor": "chrome",
@@ -1081,7 +1118,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <h1
-                      class=""
+                      class=" "
                     />
                   </div>,
                   "context": Object {},
@@ -1120,6 +1157,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "borderBottom": false,
                             "className": "",
                             "type": "h1",
                             "vendor": "chrome",
@@ -1143,6 +1181,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "borderBottom": false,
                             "className": "",
                             "type": "h1",
                             "vendor": "chrome",
@@ -1168,6 +1207,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "borderBottom": false,
                       "className": "",
                       "type": "h1",
                       "vendor": "chrome",
@@ -1185,7 +1225,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <h1
-                    class=""
+                    class=" "
                   />
                 </div>,
                 "context": Object {},
@@ -1214,6 +1254,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "borderBottom": false,
                         "className": "",
                         "type": "h1",
                         "vendor": "chrome",
@@ -1242,6 +1283,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "borderBottom": false,
                   "className": "",
                   "type": "h1",
                   "vendor": "chrome",
@@ -1252,6 +1294,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "borderBottom": false,
                   "className": "",
                   "type": "h1",
                   "vendor": "chrome",
@@ -1280,6 +1323,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
+          "borderBottom": false,
           "className": "",
           "type": "h1",
           "vendor": "chrome",
@@ -1296,6 +1340,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "borderBottom": false,
         "className": "",
         "type": "h1",
         "vendor": "chrome",
@@ -1303,13 +1348,13 @@ ReactWrapper {
       "ref": null,
       "rendered": Object {
         "instance": <h1
-          class=""
+          class=" "
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": undefined,
-          "className": "",
+          "className": " ",
         },
         "ref": null,
         "rendered": Array [

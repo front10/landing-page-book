@@ -15,24 +15,24 @@ import Footer from './Footer';
 import Gif from './Gif';
 import GithubButton from './GithubButton';
 import Header from './Header';
-import Hero from "./Hero";
-import Icon from "./Icon";
-import Image from "./Image";
-import Input from "./Input";
-import Label from "./Label";
-import LanguageSwitcher from "./LanguageSwitcher";
-import Location from "./Location";
-import Navbar from "./Navbar";
-import NavbarBrand from "./NavbarBrand";
-import NavbarCollapse from "./NavbarCollapse";
-import NavbarLink from "./NavbarLink";
-import NavbarNav from "./NavbarNav";
-import Row from "./Row";
-import Section from "./Section";
-import Social from "./Social";
-import Sponsors from "./Sponsors";
-import Team from "./Team";
-import Video from "./Video";
+import Hero from './Hero';
+import Icon from './Icon';
+import Image from './Image';
+import Input from './Input';
+import Label from './Label';
+import LanguageSwitcher from './LanguageSwitcher';
+import Location from './Location';
+import Navbar from './Navbar';
+import NavbarBrand from './NavbarBrand';
+import NavbarCollapse from './NavbarCollapse';
+import NavbarLink from './NavbarLink';
+import NavbarNav from './NavbarNav';
+import Row from './Row';
+import Section from './Section';
+import Social from './Social';
+import Sponsors from './Sponsors';
+import Team from './Team';
+import Video from './Video';
 import ImageList from './ImageList';
 
 export {
@@ -71,5 +71,5 @@ export {
   Social,
   Sponsors,
   Team,
-  Video,
+  Video
 };

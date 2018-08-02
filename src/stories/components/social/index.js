@@ -11,36 +11,42 @@ const stories = storiesOf('Components/Social', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Default', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Default',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Social
         gray={boolean('Use gray', false)}
-        type={select('Button type', {
-          email: 'email',
-          facebook: 'facebook',
-          google: 'google',
-          linkedin: 'linkedin',
-          livejournal: 'livejournal',
-          ok: 'ok',
-          pinterest: 'pinterest',
-          reddit: 'reddit',
-          telegram: 'telegram',
-          tumblr: 'tumblr',
-          twitter: 'twitter',
-          viber: 'viber',
-          vk: 'vk',
-          whatsapp: 'whatsapp',
-        }, 'facebook')}
+        type={select(
+          'Button type',
+          {
+            email: 'email',
+            facebook: 'facebook',
+            google: 'google',
+            linkedin: 'linkedin',
+            livejournal: 'livejournal',
+            ok: 'ok',
+            pinterest: 'pinterest',
+            reddit: 'reddit',
+            telegram: 'telegram',
+            tumblr: 'tumblr',
+            twitter: 'twitter',
+            viber: 'viber',
+            vk: 'vk',
+            whatsapp: 'whatsapp'
+          },
+          'facebook'
+        )}
         rounded={boolean('Rounded', true)}
         url={text('Url', 'https://front10.com')}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);
 
-stories.add('All', withReadme([Readme], () => {
-  return (
+stories.add(
+  'All',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Social
         gray={boolean('Use gray', false)}
@@ -127,5 +133,5 @@ stories.add('All', withReadme([Readme], () => {
         url={text('Url', 'https://front10.com')}
       />
     </ThemeSelector>
-	);
-}));
+  ))
+);

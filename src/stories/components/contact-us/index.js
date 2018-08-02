@@ -11,8 +11,9 @@ const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('ContactUs', withReadme([Readme], () => {
-  return (
+stories.add(
+  'ContactUs',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <ContactUs
         showText={boolean('Show text', false)}
@@ -27,16 +28,23 @@ stories.add('ContactUs', withReadme([Readme], () => {
         messageText={text('Message text', 'Your Message')}
         phoneText={text('Phone text', 'Your Phone')}
         submitButtonText={text('Submit text', 'Submit')}
-        submitButtonAlign={select('Submit align', {
-          center: 'center',
-          left: 'left',
-          right: 'right',
-        }, 'center')}
-        apiUrl={text('Api url', 'https://maker.ifttt.com/trigger/front10_contactform/with/key/dFOibtTrDh8pCZ9laeYno')}
+        submitButtonAlign={select(
+          'Submit align',
+          {
+            center: 'center',
+            left: 'left',
+            right: 'right'
+          },
+          'center'
+        )}
+        apiUrl={text(
+          'Api url',
+          'https://maker.ifttt.com/trigger/front10_contactform/with/key/dFOibtTrDh8pCZ9laeYno'
+        )}
         onSubmit={() => {}}
         onApiSuccess={() => {}}
         onApiFail={() => {}}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);

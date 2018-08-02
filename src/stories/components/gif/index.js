@@ -11,19 +11,21 @@ const stories = storiesOf('Components/Gif', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Default', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Default',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Gif
         image={text('Image', 'images/gif/write.gif')}
         preview={text('Preview', 'images/demo/develop.png')}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);
 
-stories.add('Autoplay', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Autoplay',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Gif
         image={text('Image', 'images/gif/write.gif')}
@@ -31,5 +33,5 @@ stories.add('Autoplay', withReadme([Readme], () => {
         autoplay
       />
     </ThemeSelector>
-	);
-}));
+  ))
+);

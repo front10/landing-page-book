@@ -9,6 +9,7 @@
         "build-theme": "gulp compile-themes-watch",
         "test": "jest --coverage --config ./jest.config.js",
         "eslint": "./node_modules/.bin/eslint ./src",
+        "eslint:fix": "./node_modules/.bin/eslint --fix  ./src",
         "gitlab-pages": "git push master gitlab-pages"
        
     },

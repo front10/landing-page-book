@@ -9,11 +9,9 @@ class ContactUsService {
         name,
         email,
         phone,
-        message,
-      }),
-    }).then((response) => {
-      return response;
-    });
+        message
+      })
+    }).then(response => response);
   }
 }
 

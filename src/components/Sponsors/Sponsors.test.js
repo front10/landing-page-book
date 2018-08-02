@@ -18,7 +18,7 @@ describe('Sponsors', () => {
     beforeEach(() => {
       props = {
         gray: false,
-        sponsors: [],
+        sponsors: []
       };
       mounted = undefined;
     });

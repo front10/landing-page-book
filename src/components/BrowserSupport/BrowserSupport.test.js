@@ -17,10 +17,12 @@ describe('BrowserSupport', () => {
   describe('BrowserSupport', () => {
     beforeEach(() => {
       props = {
-        items: [{
-          type: 'firefox',
-          version: '> 56',
-        }],
+        items: [
+          {
+            type: 'firefox',
+            version: '> 56'
+          }
+        ]
       };
       mounted = undefined;
     });

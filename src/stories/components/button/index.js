@@ -11,8 +11,9 @@ const stories = storiesOf('Elements', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Button', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Button',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Button
         disabled={boolean('Disabled', false)}
@@ -21,8 +22,8 @@ stories.add('Button', withReadme([Readme], () => {
         className={text('Class name', 'btn-primary btn-block active')}
       >
         <i className="fa fa-home" />
-      Home
+        Home
       </Button>
     </ThemeSelector>
-  );
-}));
+  ))
+);

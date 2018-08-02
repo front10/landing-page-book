@@ -17,12 +17,12 @@ describe('GithubButton', () => {
         username: 'chubin',
         repository: 'cheat.sh',
         btntype: 'fork',
-        btnText: 'Fork',
+        btnText: 'Fork'
       };
     });
 
     it('should render', () => {
       expect(mount(<GithubButton {...props} />)).toMatchSnapshot();
-    });    
+    });
   });
 });

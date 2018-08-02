@@ -106,7 +106,9 @@ stories.add(
         </NavbarNav>
         <form className="form-inline mt-2 mt-md-0">
           <Input className="mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
-          <Button className="btn-outline-warning my-2 my-sm-0">Search</Button>
+          <Button className="btn-outline-warning my-2 my-sm-0">
+Search
+</Button>
         </form>
       </Navbar>
     </ThemeSelector>

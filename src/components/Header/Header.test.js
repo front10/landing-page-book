@@ -3,7 +3,7 @@ import { configure, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Header from './Header';
 
-configure({adapter: new Adapter()});
+configure({ adapter: new Adapter() });
 
 describe('Header', () => {
   let props;
@@ -20,12 +20,12 @@ describe('Header', () => {
       mounted = undefined;
     });
 
-		beforeEach(() => {
-			props = {
-				vendor: 'chrome'
-			};
-			mounted = undefined;
-		});
+    beforeEach(() => {
+      props = {
+        vendor: 'chrome'
+      };
+      mounted = undefined;
+    });
     it('should render', () => {
       expect(mount(<Header {...props} />)).toMatchSnapshot();
     });

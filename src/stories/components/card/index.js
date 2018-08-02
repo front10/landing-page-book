@@ -63,8 +63,8 @@ stories.add(
               right: 'right'
             })}
           >
-            <button className="btn btn-primary mr-1">Accept</button>
-            <button className="btn btn-danger ml-1">Decline</button>
+            <button className="btn btn-primary mr-1">{'Accept'}</button>
+            <button className="btn btn-danger ml-1">{'Decline'}</button>
           </Card>
         </div>
       </div>

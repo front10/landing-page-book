@@ -23,8 +23,10 @@ describe('Code', () => {
     it('should render', () => {
       expect(shallow(<Code {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = code().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

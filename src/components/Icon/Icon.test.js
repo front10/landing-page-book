@@ -23,8 +23,10 @@ describe('Icon', () => {
     it('should render', () => {
       expect(mount(<Icon {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = icon().find('i');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

@@ -23,8 +23,10 @@ describe('Team', () => {
     it('should render', () => {
       expect(mount(<Team {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = team().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

@@ -23,8 +23,10 @@ describe('Hero', () => {
     it('should render', () => {
       expect(shallow(<Hero {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = hero().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

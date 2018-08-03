@@ -1,4 +1,6 @@
-export default [{
-	"id": "default",
-	"name": "Default"
-}];
+export default [
+  {
+    id: 'default',
+    name: 'Default'
+  }
+];

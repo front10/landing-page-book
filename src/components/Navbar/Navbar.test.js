@@ -23,8 +23,10 @@ describe('Navbar', () => {
     it('should render', () => {
       expect(mount(<Navbar {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = navbar().find('nav');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

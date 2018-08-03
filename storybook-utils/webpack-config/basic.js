@@ -8,34 +8,26 @@ module.exports = (baseConfig, env, rootDirName) => {
   const config = genDefaultConfig(baseConfig, env);
 
   // SASS
-  config
-    .module
-    .rules
-    .push({
-      test: /\.scss$/,
-      loaders: [
-        'style-loader', 'css-loader', 'sass-loader'
-      ],
-      include: [
-        path.resolve(rootDirName, '../src'),
-        path.resolve(rootDirName, '../storybook-utils'),
-        fs.realpathSync(`${rootDirName}/../node_modules`)
-      ]
-    });
-    
-  config
-    .resolve
-    .extensions
-    .push('.scss');
+  config.module.rules.push({
+    test: /\.scss$/,
+    loaders: ['style-loader', 'css-loader', 'sass-loader'],
+    include: [
+      path.resolve(rootDirName, '../src'),
+      path.resolve(rootDirName, '../storybook-utils'),
+      fs.realpathSync(`${rootDirName}/../node_modules`)
+    ]
+  });
 
-    // Markdown
+  config.resolve.extensions.push('.scss');
 
-    config.module.rules.push({
-        test: /\.md$/,
-        loaders: ['raw-loader'],
-        include: [],
-    });
-    config.resolve.extensions.push('.md');
- 
+  // Markdown
+
+  config.module.rules.push({
+    test: /\.md$/,
+    loaders: ['raw-loader'],
+    include: []
+  });
+  config.resolve.extensions.push('.md');
+
   return config;
 };

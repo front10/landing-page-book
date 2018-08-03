@@ -23,8 +23,10 @@ describe('Video', () => {
     it('should render', () => {
       expect(mount(<Video {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = video().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

@@ -61,15 +61,16 @@ class Notes extends React.Component {
   }
 
   render() {
+    const { theme } = this.state;
     return (
       <div style={styles}>
-        {themes.map(theme => (
+        {themes.map(them => (
           <button
-            key={theme.id}
-            id={theme.id}
+            key={them.id}
+            id={them.id}
             type="submit"
             style={
-              this.state.theme === theme.id
+              theme === them.id
                 ? {
                     ...button,
                     backgroundColor: '#4285f4',
@@ -79,7 +80,7 @@ class Notes extends React.Component {
             }
             onClick={this.changeTheme}
           >
-            {theme.name}
+            {them.name}
           </button>
         ))}
       </div>

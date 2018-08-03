@@ -23,8 +23,10 @@ describe('Image', () => {
     it('should render', () => {
       expect(mount(<Image {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = image().find('img');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

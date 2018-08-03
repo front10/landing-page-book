@@ -23,8 +23,10 @@ describe('Gif', () => {
     it('should render', () => {
       expect(mount(<Gif {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = gif().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

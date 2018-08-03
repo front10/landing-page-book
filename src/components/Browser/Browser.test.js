@@ -26,11 +26,14 @@ describe('Browser', () => {
       };
       mounted = undefined;
     });
+
     it('should render', () => {
       expect(mount(<Browser {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = browser().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

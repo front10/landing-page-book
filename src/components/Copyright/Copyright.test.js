@@ -23,8 +23,10 @@ describe('Copyright', () => {
     it('should render', () => {
       expect(mount(<Copyright {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = copyright().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

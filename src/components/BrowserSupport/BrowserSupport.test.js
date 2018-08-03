@@ -30,8 +30,10 @@ describe('BrowserSupport', () => {
     it('should render', () => {
       expect(mount(<BrowserSupport {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = browserSupport().find('table');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

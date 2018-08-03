@@ -23,8 +23,10 @@ describe('Features', () => {
     it('should render', () => {
       expect(mount(<Features {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = features().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

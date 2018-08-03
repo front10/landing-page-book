@@ -26,8 +26,10 @@ describe('Sponsors', () => {
     it('should render', () => {
       expect(mount(<Sponsors {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = sponsors().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

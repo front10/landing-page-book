@@ -8,5 +8,5 @@ export const baseUrl = 'https://resilent-city--api.herokuapp.com/graphql';
 
 export const client = new ApolloClient({
   link: new HttpLink({ uri: baseUrl }),
-  cache: new InMemoryCache(),
+  cache: new InMemoryCache()
 });

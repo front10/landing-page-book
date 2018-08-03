@@ -26,11 +26,14 @@ describe('Header', () => {
       };
       mounted = undefined;
     });
+
     it('should render', () => {
       expect(mount(<Header {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = header().find('h1');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

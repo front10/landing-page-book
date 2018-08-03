@@ -23,8 +23,10 @@ describe('Input', () => {
     it('should render', () => {
       expect(mount(<Input {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = input().find('input');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

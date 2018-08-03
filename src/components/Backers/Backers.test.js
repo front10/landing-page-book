@@ -26,11 +26,14 @@ describe('Backers', () => {
       };
       mounted = undefined;
     });
+
     it('should render', () => {
       expect(mount(<Backers {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = backers().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

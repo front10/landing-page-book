@@ -1,29 +1,26 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import ImageList from '../../components/ImageList';
+import ImageList from '../ImageList';
 
 class Sponsors extends React.Component {
-    constructor(props) {
-        super(props);
-        this.state = {};
-    }   
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
 
-    render() {
-        return <ImageList
-                    gray={this.props.gray}
-                    images={this.props.sponsors}
-                />
-              }
+  render() {
+    return <ImageList gray={this.props.gray} images={this.props.sponsors} />;
+  }
 }
 
 Sponsors.propTypes = {
-    gray: PropTypes.bool,
-	companies: PropTypes.array
+  gray: PropTypes.bool,
+  companies: PropTypes.array
 };
 
 Sponsors.defaultProps = {
-    gray: false,
-	sponsors: []
+  gray: false,
+  sponsors: []
 };
 
 export default Sponsors;

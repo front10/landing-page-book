@@ -1,27 +1,22 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Container extends Component {
-	constructor(props) {
-		super(props);
-	}
+  constructor(props) {
+    super(props);
+  }
 
-	render() {
-		const {
-			fluid,
-			children
-		} = this.props;
-		return <div className={fluid ? 'container-fluid' : 'container'}>
-			{children}
-		</div>
-	}
+  render() {
+    const { fluid, children } = this.props;
+    return <div className={fluid ? 'container-fluid' : 'container'}>{children}</div>;
+  }
 }
 
 Container.propTypes = {
-	fluid: PropTypes.bool
+  fluid: PropTypes.bool
 };
 Container.defaultProps = {
-	fluid: false
+  fluid: false
 };
 
 export default Container;

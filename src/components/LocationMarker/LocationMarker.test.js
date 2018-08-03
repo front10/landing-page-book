@@ -23,8 +23,10 @@ describe('LocationMarker', () => {
     it('should render', () => {
       expect(mount(<LocationMarker {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = locationMarker().find('i');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

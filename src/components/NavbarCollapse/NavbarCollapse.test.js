@@ -23,8 +23,10 @@ describe('NavbarCollapse', () => {
     it('should render', () => {
       expect(mount(<NavbarCollapse {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = navbarCollapse().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

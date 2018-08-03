@@ -23,8 +23,10 @@ describe('FormGroup', () => {
     it('should render', () => {
       expect(mount(<FormGroup {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = formGroup().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

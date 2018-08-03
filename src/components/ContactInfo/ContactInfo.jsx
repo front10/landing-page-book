@@ -1,9 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Card from "../Card/Card";
-import Location from "../Location/Location";
-import Icon from "../Icon/Icon";
-import Header from "../Header/Header";
+import Card from '../Card/Card';
+import Location from '../Location/Location';
+import Icon from '../Icon/Icon';
+import Header from '../Header/Header';
 
 class ContactInfo extends Component {
   constructor(props) {
@@ -11,72 +11,79 @@ class ContactInfo extends Component {
   }
 
   render() {
-    const {showBorder, lng, lat, locationApiKey, address, email, phone, mobile, fax, website, contentAlign, showIcons} = this.props;
+    const {
+      showBorder,
+      lng,
+      lat,
+      locationApiKey,
+      address,
+      email,
+      phone,
+      mobile,
+      fax,
+      website,
+      contentAlign,
+      showIcons
+    } = this.props;
     return (
-      <Card
-        showBorder={showBorder}
-        contentAlign={contentAlign}
-      >
-        {
-          lng && lat && locationApiKey &&
-          <div className="ContactInfo__Location mb-3">
-            <Location
-              lng={lng}
-              lat={lat}
-              zoom={12}
-              markers={[{
-                color: "#d20000",
-                lat: lat,
-                lng: lng
-              }]}
-              apiKey={locationApiKey}
-            />
-          </div>
-        }
-        {
-          address &&
+      <Card showBorder={showBorder} contentAlign={contentAlign}>
+        {lng &&
+          lat &&
+          locationApiKey && (
+            <div className="ContactInfo__Location mb-3">
+              <Location
+                lng={lng}
+                lat={lat}
+                zoom={12}
+                markers={[
+                  {
+                    color: '#d20000',
+                    lat,
+                    lng
+                  }
+                ]}
+                apiKey={locationApiKey}
+              />
+            </div>
+          )}
+        {address && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-map-marker mr-2" />}
             {address}
           </div>
-        }
-        {
-          email &&
+        )}
+        {email && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-envelope mr-2" />}
             {email}
           </div>
-        }
-        {
-          phone &&
+        )}
+        {phone && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-phone mr-2" />}
             {phone}
           </div>
-        }
-        {
-          mobile &&
+        )}
+        {mobile && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-mobile mr-2" />}
             {mobile}
           </div>
-        }
-        {
-          fax &&
+        )}
+        {fax && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-fax mr-2" />}
             {fax}
           </div>
-        }
-        {
-          website &&
+        )}
+        {website && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-globe mr-2" />}
             {website}
           </div>
-        }
+        )}
       </Card>
-    )
+    );
   }
 }
 
@@ -92,21 +99,21 @@ ContactInfo.propTypes = {
   mobile: PropTypes.string,
   fax: PropTypes.string,
   website: PropTypes.string,
-  contentAlign: PropTypes.string,
+  contentAlign: PropTypes.string
 };
 ContactInfo.defaultProps = {
   showBorder: true,
   showIcons: true,
   lng: 0,
   lat: 0,
-  locationApiKey: "",
-  address: "",
-  email: "",
-  phone: "",
-  mobile: "",
-  fax: "",
-  website: "",
-  contentAlign: "left",
+  locationApiKey: '',
+  address: '',
+  email: '',
+  phone: '',
+  mobile: '',
+  fax: '',
+  website: '',
+  contentAlign: 'left'
 };
 
 export default ContactInfo;

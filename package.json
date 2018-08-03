@@ -90,6 +90,7 @@
         "react-particles-js": "^2.3.0",
         "react-player": "^1.6.4",
         "react-share": "^2.2.0",
+        "react-stepzilla": "^4.7.2",
         "react-tooltip": "^3.6.1",
         "sass-loader": "^6.0.6",
         "style-loader": "^0.20.1",

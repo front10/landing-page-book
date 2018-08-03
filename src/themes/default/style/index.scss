@@ -10,12 +10,6 @@
 
 @import "~codemirror/lib/codemirror.css";
 @import "~codemirror/theme/idea.css";
-// @import "~codemirror/theme/blackboard.css";
-// @import "~codemirror/theme/material.css";
-// @import "~codemirror/theme/ambiance.css";
-// @import "~codemirror/theme/darcula.css";
-// @import "~codemirror/theme/3024-night.css";
-// @import "~codemirror/theme/abcdef.css";
 
 /* React flags select */
 
@@ -24,6 +18,10 @@
 /* Gif player */
 
 @import '~react-gif-player/src/GifPlayer';
+
+/* Wizard */
+
+@import '~react-stepzilla/src/css/main.css';
 
 /*Variables*/
 
@@ -50,6 +48,7 @@
 @import "../../../components/Hero/style";
 @import "../../../components/Input/style";
 @import "../../../components/Label/style";
+@import "../../../components/Link/style";
 @import "../../../components/NavbarLink/style";
 @import "../../../components/LanguageSwitcher/style";
 @import "../../../components/Section/style";
@@ -57,3 +56,4 @@
 @import "../../../components/Team/style";
 @import "../../../components/Features/style";
 @import "../../../components/ImageList/style";
+@import "../../../components/Wizard/style";

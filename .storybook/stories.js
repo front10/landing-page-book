@@ -15,6 +15,7 @@ import '../src/stories/components/image';
 import '../src/stories/components/icon';
 import '../src/stories/components/input';
 import '../src/stories/components/label';
+import '../src/stories/components/link';
 
 //Components
 
@@ -26,11 +27,13 @@ import '../src/stories/components/code';
 import '../src/stories/components/contact-info';
 import '../src/stories/components/contact-us';
 import '../src/stories/components/copyright';
+import '../src/stories/components/donations';
 import '../src/stories/components/features';
 import '../src/stories/components/footer';
 import '../src/stories/components/gif';
 import '../src/stories/components/github-button';
 import '../src/stories/components/hero';
+import '../src/stories/components/imagelist';
 import '../src/stories/components/language-switcher';
 import '../src/stories/components/location';
 import '../src/stories/components/navbar';
@@ -39,7 +42,7 @@ import '../src/stories/components/social';
 import '../src/stories/components/sponsors';
 import '../src/stories/components/team';
 import '../src/stories/components/video';
-import '../src/stories/components/imagelist';
+import '../src/stories/components/wizard';
 
 //Pages
 import "../src/stories/pages/fron10";

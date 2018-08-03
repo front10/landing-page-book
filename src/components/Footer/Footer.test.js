@@ -23,8 +23,10 @@ describe('Footer', () => {
     it('should render', () => {
       expect(mount(<footer {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = footer().find('footer');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

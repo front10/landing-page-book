@@ -1,24 +1,22 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class NavbarCollapse extends Component {
-	constructor(props) {
-		super(props);
-	}
+  constructor(props) {
+    super(props);
+  }
 
-	render() {
-		const {isOpen, children} = this.props;
-		return <div className={`${!isOpen ? 'collapse' : ''} navbar-collapse`}>
-			{children}
-		</div>
-	}
+  render() {
+    const { isOpen, children } = this.props;
+    return <div className={`${!isOpen ? 'collapse' : ''} navbar-collapse`}>{children}</div>;
+  }
 }
 
 NavbarCollapse.propTypes = {
-	isOpen: PropTypes.bool,
+  isOpen: PropTypes.bool
 };
 NavbarCollapse.defaultProps = {
-	isOpen: true
+  isOpen: true
 };
 
 export default NavbarCollapse;

@@ -17,10 +17,12 @@ describe('BrowserSupport', () => {
   describe('BrowserSupport', () => {
     beforeEach(() => {
       props = {
-        items: [{
-          type: 'firefox',
-          version: '> 56',
-        }],
+        items: [
+          {
+            type: 'firefox',
+            version: '> 56'
+          }
+        ]
       };
       mounted = undefined;
     });
@@ -28,8 +30,10 @@ describe('BrowserSupport', () => {
     it('should render', () => {
       expect(mount(<BrowserSupport {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = browserSupport().find('table');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

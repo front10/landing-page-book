@@ -11,22 +11,27 @@ const stories = storiesOf('Elements', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add('Browser', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Browser',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Browser
         showText={boolean('Show text', true)}
-        vendor={select('Vendor', {
-          firefox: 'firefox',
-          chrome: 'chrome',
-          iexplore: 'iexplore',
-          safari: 'safari',
-          opera: 'opera',
-          maxthon: 'maxthon',
-          flock: 'flock',
-        }, 'chrome')}
+        vendor={select(
+          'Vendor',
+          {
+            firefox: 'firefox',
+            chrome: 'chrome',
+            iexplore: 'iexplore',
+            safari: 'safari',
+            opera: 'opera',
+            maxthon: 'maxthon',
+            flock: 'flock'
+          },
+          'chrome'
+        )}
         version={text('Version', '>= 20.0')}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);

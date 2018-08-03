@@ -23,8 +23,10 @@ describe('Label', () => {
     it('should render', () => {
       expect(mount(<Label {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = label().find('label');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

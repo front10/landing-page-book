@@ -20,7 +20,7 @@ describe('ContactUs', () => {
         name: 'name',
         mail: 'mail@gmail.com',
         phone: '5476',
-        message: 'This is a new message',
+        message: 'This is a new message'
       };
       mounted = undefined;
     });
@@ -30,7 +30,7 @@ describe('ContactUs', () => {
         name: 'name',
         mail: 'mail@gmail.com',
         phone: '5476',
-        message: 'This is a new message',
+        message: 'This is a new message'
       };
       mounted = undefined;
     });
@@ -38,28 +38,46 @@ describe('ContactUs', () => {
     it('should render', () => {
       expect(mount(<ContactUs {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = contactUs().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
+
     it('on change message', () => {
       const $event = { value: 'abc' };
-      contactUs().instance().onChangeMessage($event);
+      contactUs()
+        .instance()
+        .onChangeMessage($event);
+
       expect(contactUs().state('message')).toEqual('abc');
     });
+
     it('on change phone', () => {
       const $event = { value: '5476' };
-      contactUs().instance().onChangePhone($event);
+      contactUs()
+        .instance()
+        .onChangePhone($event);
+
       expect(contactUs().state('phone')).toEqual('5476');
     });
+
     it('on change email', () => {
       const $event = { value: 'abc@gmail.com' };
-      contactUs().instance().onChangeMail($event);
+      contactUs()
+        .instance()
+        .onChangeMail($event);
+
       expect(contactUs().state('mail')).toEqual('abc@gmail.com');
     });
+
     it('on change message', () => {
       const $event = { value: 'my name' };
-      contactUs().instance().onChangeName($event);
+      contactUs()
+        .instance()
+        .onChangeName($event);
+
       expect(contactUs().state('name')).toEqual('my name');
     });
   });

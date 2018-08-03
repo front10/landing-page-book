@@ -23,8 +23,10 @@ describe('Column', () => {
     it('should render', () => {
       expect(mount(<Column {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = column().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs, text, number, boolean, select, color } from '@storybook/addon-knobs/react';
@@ -9,15 +10,18 @@ import Readme from '../../../components/Hero/README.md';
 
 const stories = storiesOf('Components/Hero', module);
 
-const buttons = [{
-  text: 'TELL ME MORE',
-  onClick: () => {},
-}];
+const buttons = [
+  {
+    text: 'TELL ME MORE',
+    onClick: () => {}
+  }
+];
 
 stories.addDecorator(withKnobs);
 
-stories.add('Default', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Default',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Hero
         isFixed={boolean('Fixed', true)}
@@ -35,11 +39,12 @@ stories.add('Default', withReadme([Readme], () => {
         particlesParams={{ move: { speed: 2 } }}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);
 
-stories.add('Children', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Children',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <Hero
         isFixed={boolean('Fixed', true)}
@@ -58,9 +63,7 @@ stories.add('Children', withReadme([Readme], () => {
             alt="Cool car"
             src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png"
           />
-          <Header className="display-3 text-white">
-            Landing Page Book
-          </Header>
+          <Header className="display-3 text-white">Landing Page Book</Header>
           <div className="mb-5 mt-5">
             <Button
               href="https://front10.com/"
@@ -69,20 +72,11 @@ stories.add('Children', withReadme([Readme], () => {
               Go now
             </Button>
           </div>
-          <Social
-            type="facebook"
-            url="https://landing-page-book.front10.com/"
-          />
-          <Social
-            type="twitter"
-            url="https://landing-page-book.front10.com/"
-          />
-          <Social
-            type="linkedin"
-            url="https://landing-page-book.front10.com/"
-          />
+          <Social type="facebook" url="https://landing-page-book.front10.com/" />
+          <Social type="twitter" url="https://landing-page-book.front10.com/" />
+          <Social type="linkedin" url="https://landing-page-book.front10.com/" />
         </Container>
       </Hero>
     </ThemeSelector>
-  );
-}));
+  ))
+);

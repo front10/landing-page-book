@@ -15,13 +15,14 @@ const options = {
   star: 'Star',
   download: 'Download',
   watch: 'Watch',
-  issue: 'Issue',
+  issue: 'Issue'
 };
 
 stories.addDecorator(withKnobs);
 
-stories.add('Default', withReadme([Readme], () => {
-  return (
+stories.add(
+  'Default',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <GithubButton
         username="chubin"
@@ -33,11 +34,12 @@ stories.add('Default', withReadme([Readme], () => {
         showGithubIcon={boolean('Show Github icon', false)}
       />
     </ThemeSelector>
-  );
-}));
+  ))
+);
 
-stories.add('All', withReadme([Readme], () => {
-  return (
+stories.add(
+  'All',
+  withReadme([Readme], () => (
     <ThemeSelector>
       <GithubButton
         username="chubin"
@@ -94,5 +96,5 @@ stories.add('All', withReadme([Readme], () => {
         showGithubIcon={boolean('Show Github icon', false)}
       />
     </ThemeSelector>
-	);
-}));
+  ))
+);

@@ -1,9 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ReactPlayer from 'react-player'
+import ReactPlayer from 'react-player';
 
 class Video extends Component {
-
   render() {
     const {
       source,
@@ -46,7 +45,7 @@ class Video extends Component {
         onEnded={onEnded}
         onError={onError}
       />
-    )
+    );
   }
 }
 
@@ -68,7 +67,7 @@ Video.propTypes = {
   onBuffer: PropTypes.func,
   onSeek: PropTypes.func,
   onEnded: PropTypes.func,
-  onError: PropTypes.func,
+  onError: PropTypes.func
 };
 Video.defaultProps = {
   playing: false,
@@ -76,29 +75,19 @@ Video.defaultProps = {
   controls: true,
   muted: false,
   volume: 1,
-  source: "",
-  width: "640px",
-  height: "360px",
-  onReady: () => {
-  },
-  onStart: () => {
-  },
-  onPlay: () => {
-  },
-  onProgress: ({played, playedSeconds, loaded, loadedSeconds}) => {
-  },
-  onDuration: () => {
-  },
-  onPause: () => {
-  },
-  onBuffer: () => {
-  },
-  onSeek: () => {
-  },
-  onEnded: () => {
-  },
-  onError: () => {
-  }
+  source: '',
+  width: '640px',
+  height: '360px',
+  onReady: () => {},
+  onStart: () => {},
+  onPlay: () => {},
+  onProgress: () => {},
+  onDuration: () => {},
+  onPause: () => {},
+  onBuffer: () => {},
+  onSeek: () => {},
+  onEnded: () => {},
+  onError: () => {}
 };
 
 export default Video;

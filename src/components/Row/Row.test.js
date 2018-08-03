@@ -23,8 +23,10 @@ describe('Row', () => {
     it('should render', () => {
       expect(mount(<Row {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = row().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

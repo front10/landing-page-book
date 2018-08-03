@@ -23,8 +23,10 @@ describe('ImageList', () => {
     it('should render', () => {
       expect(mount(<ImageList {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = imageList().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

@@ -23,8 +23,10 @@ describe('Card', () => {
     it('should render', () => {
       expect(mount(<Card {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = card().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

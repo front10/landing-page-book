@@ -1,13 +1,9 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Social from "../Social";
-import Card from "../Card";
+import Social from '../Social';
+import Card from '../Card';
 
 class Team extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const {
       showImage,
@@ -24,31 +20,29 @@ class Team extends Component {
     } = this.props;
     return (
       <div className="Team row">
-        {
-          members.map((member, index) => {
-            return (
-              <div className={`col-12 col-md-4 text-${contentAlign} mb-4`} key={index}>
-                <Card
-                  imageCircle={imageCircle}
-                  subTitle={showJob ? member.job : ""}
-                  title={showName ? member.name : ""}
-                  summary={showSummary ? member.summary : ""}
-                  showBorder={showBorder}
-                  contentAlign={contentAlign}
-                  imageBorder={imageBorder}
-                  image={showImage ? member.image : ""}>
-                  {
-                    socials.map((social, index) => {
-                      return <Social key={index} url={member.profile} type={social} gray={socialGray}/>
-                    })
-                  }
-                </Card>
-              </div>
-            )
-          })
-        }
+        {members.map(member => (
+          <div
+            className={`col-12 col-md-4 text-${contentAlign} mb-4`}
+            key={`${member.name}${member.job}`}
+          >
+            <Card
+              imageCircle={imageCircle}
+              subTitle={showJob ? member.job : ''}
+              title={showName ? member.name : ''}
+              summary={showSummary ? member.summary : ''}
+              showBorder={showBorder}
+              contentAlign={contentAlign}
+              imageBorder={imageBorder}
+              image={showImage ? member.image : ''}
+            >
+              {socials.map(social => (
+                <Social key={member.profile} url={member.profile} type={social} gray={socialGray} />
+              ))}
+            </Card>
+          </div>
+        ))}
       </div>
-    )
+    );
   }
 }
 
@@ -62,7 +56,7 @@ Team.propTypes = {
   imageBorder: PropTypes.bool,
   socialGray: PropTypes.bool,
   contentAlign: PropTypes.string,
-  socials: PropTypes.array,
+  socials: PropTypes.arrayOf(PropTypes.string),
   members: PropTypes.array
 };
 Team.defaultProps = {
@@ -74,7 +68,7 @@ Team.defaultProps = {
   imageCircle: true,
   imageBorder: false,
   socialGray: false,
-  contentAlign: "center",
+  contentAlign: 'center',
   socials: [],
   members: []
 };

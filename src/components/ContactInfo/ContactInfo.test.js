@@ -23,8 +23,10 @@ describe('ContactInfo', () => {
     it('should render', () => {
       expect(mount(<ContactInfo {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = contactInfo().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

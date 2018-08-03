@@ -23,8 +23,10 @@ describe('Container', () => {
     it('should render', () => {
       expect(mount(<Container {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = container().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

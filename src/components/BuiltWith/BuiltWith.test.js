@@ -23,8 +23,10 @@ describe('BuiltWith', () => {
     it('should render', () => {
       expect(mount(<BuiltWith {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = builtWith().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

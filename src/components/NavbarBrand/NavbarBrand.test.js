@@ -23,8 +23,10 @@ describe('NavbarBrand', () => {
     it('should render', () => {
       expect(mount(<NavbarBrand {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = navbarBrand().find('a');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

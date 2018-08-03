@@ -23,8 +23,10 @@ describe('LanguageSwitcher', () => {
     it('should render', () => {
       expect(shallow(<LanguageSwitcher {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
       const divs = languageSwitcher().find('div');
+
       expect(divs.length).toBeGreaterThan(0);
     });
   });

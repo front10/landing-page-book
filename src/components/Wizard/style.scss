@@ -1,0 +1,11 @@
+.Wizard {
+  .multi-step{
+    .footer-buttons{
+      padding-top: 20px;
+
+      button{
+        border-radius: $Button-borderRadius;
+      }
+    }
+  }
+}

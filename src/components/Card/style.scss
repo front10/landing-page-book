@@ -1,5 +1,6 @@
 .Card{
   background-color: transparent;
+  border-radius: $Card-borderRadius;
 
   .Card__Summary{
     font-size: $Card__Summary-fontSize;

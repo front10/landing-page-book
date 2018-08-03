@@ -10,17 +10,21 @@ import ContactInfo from './ContactInfo';
 import ContactUs from './ContactUs';
 import Container from './Container';
 import Copyright from './Copyright';
+import Donation from './Donation';
 import Features from './Features';
 import Footer from './Footer';
+import FormGroup from './FormGroup';
 import Gif from './Gif';
 import GithubButton from './GithubButton';
 import Header from './Header';
 import Hero from './Hero';
 import Icon from './Icon';
 import Image from './Image';
+import ImageList from './ImageList';
 import Input from './Input';
 import Label from './Label';
 import LanguageSwitcher from './LanguageSwitcher';
+import Link from './Link';
 import Location from './Location';
 import Navbar from './Navbar';
 import NavbarBrand from './NavbarBrand';
@@ -33,7 +37,7 @@ import Social from './Social';
 import Sponsors from './Sponsors';
 import Team from './Team';
 import Video from './Video';
-import ImageList from './ImageList';
+import Wizard from './Wizard';
 
 export {
   Backers,
@@ -48,8 +52,10 @@ export {
   ContactUs,
   Container,
   Copyright,
+  Donation,
   Features,
   Footer,
+  FormGroup,
   Gif,
   GithubButton,
   Header,
@@ -60,6 +66,7 @@ export {
   Input,
   Label,
   LanguageSwitcher,
+  Link,
   Location,
   Navbar,
   NavbarBrand,
@@ -71,5 +78,6 @@ export {
   Social,
   Sponsors,
   Team,
-  Video
+  Video,
+  Wizard
 };

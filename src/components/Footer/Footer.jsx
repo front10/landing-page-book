@@ -4,10 +4,6 @@ import Social from '../Social';
 import Copyright from '../Copyright';
 
 class Footer extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   renderSocials() {
     const { socials, socialRounded, socialUrl, socialGray } = this.props;
     return socials.map((social, index) => (

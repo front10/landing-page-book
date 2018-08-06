@@ -21,21 +21,40 @@ class Code extends React.Component {
     this.toggleReadOnly = this.toggleReadOnly.bind(this);
     this.copyToClipboard = this.copyToClipboard.bind(this);
     this.clearCode = this.clearCode.bind(this);
+    this.onUpdate = this.onUpdate.bind(this);
   }
 
   componentWillMount() {
+    const {
+      code,
+      readOnly,
+      languageCode,
+      lineNumbers,
+      showheader,
+      showfooter,
+      bgColorDark
+    } = this.props;
     this.setState({
-      code: this.props.code,
-      readOnly: this.props.readOnly,
-      mode: this.props.languageCode,
-      lineNumbers: this.props.lineNumbers,
-      showheader: this.props.showheader,
-      showfooter: this.props.showfooter,
-      bgColorDark: this.props.bgColorDark
+      scode: code,
+      sreadOnly: readOnly,
+      slanguageCode: languageCode,
+      slineNumbers: lineNumbers,
+      sshowheader: showheader,
+      sshowfooter: showfooter,
+      sbgColorDark: bgColorDark
     });
   }
 
-  componentDidUpdate() {
+  componentDidMount() {
+    /* eslint-disable react/no-string-refs */
+    if (this.refs.editor) this.refs.editor.getCodeMirror().refresh();
+  }
+
+  componentDidUpdate(prevProps) {
+    this.onUpdate(prevProps);
+  }
+
+  onUpdate(prevProps) {
     const {
       readOnly,
       lineNumbers,
@@ -45,98 +64,127 @@ class Code extends React.Component {
       showheader,
       showfooter
     } = this.props;
-    if (readOnly !== this.state.readOnly) this.setState({ readOnly });
-    if (lineNumbers !== this.state.lineNumbers) this.setState({ lineNumbers });
-    if (bgColorDark !== this.state.bgColorDark) this.setState({ bgColorDark });
-    if (languageCode !== this.state.mode) this.setState({ mode: languageCode });
-    if (code !== this.state.code)
-      this.setState({ code }, () => {
+
+    if (prevProps.readOnly !== readOnly) {
+      this.setState({
+        sreadOnly: readOnly
+      });
+    }
+    if (prevProps.lineNumbers !== lineNumbers) {
+      this.setState({
+        slineNumbers: lineNumbers
+      });
+    }
+    if (prevProps.bgColorDark !== bgColorDark) {
+      this.setState({ sbgColorDark: bgColorDark });
+    }
+    if (prevProps.languageCode !== languageCode) {
+      this.setState({ slanguageCode: languageCode });
+    }
+    if (prevProps.code !== code) {
+      this.setState(code, () => {
         this.refs.editor.getCodeMirror().setValue(code);
       });
-    if (showheader !== this.state.showheader) this.setState({ showheader });
-    if (showfooter !== this.state.showfooter) this.setState({ showfooter });
-  }
+    }
 
-  componentDidMount() {
-    if (this.refs.editor) this.refs.editor.getCodeMirror().refresh();
+    if (prevProps.showheader !== showheader) {
+      this.setState({ sshowheader: showheader });
+    }
+    if (prevProps.showfooter !== showfooter) {
+      this.setState({ sshowfooter: showfooter });
+    }
   }
 
   updateCode(newCode) {
-    this.setState({ code: newCode, copied: false }, () => {
-      this.props.updateCode(newCode);
+    this.setState({ scode: newCode, scopied: false }, () => {
+      const { updateCode } = this.props;
+      updateCode(newCode);
     });
   }
 
   clearCode() {
-    this.setState({ code: '', copied: false }, () => {
-      this.props.updateCode('');
+    this.setState({ scode: '', scopied: false }, () => {
+      const { updateCode } = this.props;
+      updateCode('');
       this.refs.editor.getCodeMirror().setValue('');
     });
   }
 
   toggleReadOnly() {
+    const { sreadOnly } = this.state;
     this.setState(
       {
-        readOnly: !this.state.readOnly
+        sreadOnly: !sreadOnly
       },
       () => this.refs.editor.focus()
     );
   }
 
   copyToClipboard() {
-    this.setState({ copied: true });
+    this.setState({ scopied: true });
   }
 
   render() {
+    /* eslint no-script-url: "error" */
+    const {
+      sreadOnly,
+      slanguageCode,
+      slineNumbers,
+      sshowheader,
+      sbgColorDark,
+      scode,
+      scopied,
+      sshowfooter
+    } = this.state;
     const options = {
-      lineNumbers: this.state.lineNumbers,
-      readOnly: this.state.readOnly,
-      mode: this.state.mode,
+      lineNumbers: slineNumbers,
+      readOnly: sreadOnly,
+      mode: slanguageCode,
       theme: 'idea'
     };
     return (
       <div>
         <ReactTooltip />
-        {this.state.showheader && (
-          <Navbar
-            className={`${
-              this.state.bgColorDark ? 'CodeMirror__header-dark' : 'CodeMirror__header'
-            }`}
-          >
+        {sshowheader && (
+          <Navbar className={`${sbgColorDark ? 'CodeMirror__header-dark' : 'CodeMirror__header'}`}>
             <NavbarNav alignItems="right">
-              <CopyToClipboard text={this.state.code} onCopy={this.copyToClipboard}>
-                <a
+              <CopyToClipboard text={scode} onCopy={this.copyToClipboard}>
+                <button
                   onClick={this.copyToClipboard}
-                  className={`btn ${this.state.copied ? 'disabled' : ''}`}
+                  onKeyPress={this.copyToClipboard}
+                  type="submit"
+                  tabIndex={0}
+                  className={`btn ${scopied ? 'disabled' : ''} CodeMirror_btn`}
                   data-tip="copy"
                 >
-                  <Icon className="CodeMirror__header_copybtn" icon="fa fa-clone" />
-                </a>
+                  <Icon className="CodeMirror__header_copybtn" icon="fa fa-clone" role="link" />
+                </button>
               </CopyToClipboard>
-              <a
+              <button
                 onClick={this.clearCode}
-                className={`btn ${this.state.readOnly ? 'disabled' : ''}`}
+                onKeyPress={this.clearCode}
+                tabIndex={-1}
+                type="submit"
+                className={`btn ${sreadOnly ? 'disabled' : ''} CodeMirror_btn`}
                 data-tip="clear"
               >
                 <Icon className="CodeMirror__header_deletebtn" icon="fa fa-trash-o" />
-              </a>
+              </button>
             </NavbarNav>
           </Navbar>
         )}
 
         <CodeMirror
           ref="editor"
-          className={this.state.bgColorDark ? 'CodeMirror__bgColor-dark' : ''}
-          value={this.state.code}
+          className={sbgColorDark ? 'CodeMirror__bgColor-dark' : ''}
+          value={scode}
           onChange={this.updateCode}
           options={options}
           autoFocus
         />
 
-        {this.state.showfooter && (
-          <Navbar
-            className={this.state.bgColorDark ? 'CodeMirror__header-dark' : 'CodeMirror__header'}
-          />
+        {sshowfooter && (
+          <Navbar className={sbgColorDark ? 'CodeMirror__header-dark' : 'CodeMirror__header'} />
         )}
       </div>
     );
@@ -164,9 +212,7 @@ Code.defaultProps = {
   lineNumbers: true,
   showheader: true,
   showfooter: true,
-  updateCode: ({ item }) => {
-    console.warn(`Code has changed!`);
-  }
+  updateCode: () => {}
 };
 
 export default Code;

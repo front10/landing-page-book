@@ -23,7 +23,12 @@ class BrowserSupport extends Component {
 
 BrowserSupport.propTypes = {
   showText: PropTypes.bool,
-  browsers: PropTypes.array
+  browsers: PropTypes.arrayOf(
+    PropTypes.shape({
+      vendor: PropTypes.string,
+      version: PropTypes.string
+    })
+  )
 };
 BrowserSupport.defaultProps = {
   showText: true,

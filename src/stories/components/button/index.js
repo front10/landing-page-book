@@ -20,6 +20,7 @@ stories.add(
         loading={boolean('Loading', false)}
         tooltip={text('Tooltip', 'Tis is a button tooltip')}
         className={text('Class name', 'btn-primary btn-block active')}
+        btntype={text('Type', 'submit')}
       >
         <i className="fa fa-home" />
         Home

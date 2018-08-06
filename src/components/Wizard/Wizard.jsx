@@ -1,8 +1,8 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import StepZilla from 'react-stepzilla/dist/main';
-import Header from "../Header/Header";
-import Card from "../Card/Card";
+import Header from '../Header';
+import Card from '../Card';
 
 class Wizard extends Component {
   constructor(props) {
@@ -12,13 +12,14 @@ class Wizard extends Component {
   }
 
   componentWillMount() {
-    const {startAtStep, steps} = this.props;
-    this.setState({currentItem: steps[startAtStep].name});
+    const { startAtStep, steps } = this.props;
+    this.setState({ currentItem: steps[startAtStep].name });
   }
 
   onStepChange(step) {
-    this.setState({currentItem: this.props.steps[step].name});
-    this.props.onStepChange({step});
+    const { steps, onStepChange } = this.props;
+    this.setState({ currentItem: steps[step].name });
+    onStepChange({ step });
   }
 
   render() {
@@ -39,17 +40,15 @@ class Wizard extends Component {
       showHeader,
       steps
     } = this.props;
+    const { currentItem } = this.state;
     return (
       <div className="Wizard">
-        <Card
-          contentAlign={contentAlign}
-        >
-          {
-            showHeader &&
+        <Card contentAlign={contentAlign}>
+          {showHeader && (
             <Header type="h5" className="pb-3" borderBottom={showHeaderBorder}>
-              {this.state.currentItem}
+              {currentItem}
             </Header>
-          }
+          )}
           <StepZilla
             showNavigation={showNavigation}
             showSteps={false}
@@ -69,7 +68,7 @@ class Wizard extends Component {
           />
         </Card>
       </div>
-    )
+    );
   }
 }
 
@@ -87,11 +86,13 @@ Wizard.propTypes = {
   backButtonCls: PropTypes.string,
   nextTextOnFinalActionStep: PropTypes.string,
   contentAlign: PropTypes.string,
-  hocValidationAppliedTo: PropTypes.array,
-  steps: PropTypes.arrayOf(PropTypes.shape({
-    name: PropTypes.string.isRequired,
-    component: PropTypes.element.isRequired
-  })).isRequired,
+  hocValidationAppliedTo: PropTypes.arrayOf(PropTypes.number),
+  steps: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string.isRequired,
+      component: PropTypes.element.isRequired
+    })
+  ).isRequired,
   onStepChange: PropTypes.func
 };
 Wizard.defaultProps = {
@@ -102,15 +103,14 @@ Wizard.defaultProps = {
   dontValidate: true,
   preventEnterSubmission: true,
   startAtStep: 0,
-  nextButtonText: "Next",
-  backButtonText: "Back",
-  nextButtonCls: "btn btn-primary pull-right",
-  backButtonCls: "btn btn-primary pull-left",
-  nextTextOnFinalActionStep: "Next",
-  contentAlign: "left",
+  nextButtonText: 'Next',
+  backButtonText: 'Back',
+  nextButtonCls: 'btn btn-primary pull-right',
+  backButtonCls: 'btn btn-primary pull-left',
+  nextTextOnFinalActionStep: 'Next',
+  contentAlign: 'left',
   hocValidationAppliedTo: [],
-  onStepChange: () => {
-  }
+  onStepChange: () => {}
 };
 
 export default Wizard;

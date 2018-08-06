@@ -10,26 +10,30 @@ class Input extends Component {
   }
 
   componentWillMount() {
-    this.setState({ value: this.props.value });
+    const { value } = this.props;
+    this.setState({ value });
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.value !== this.state.value) this.setState({ value: nextProps.value });
+    const { value } = this.state;
+    if (nextProps.value !== value) this.setState({ value: nextProps.value });
   }
 
   onChange($event) {
+    const { onChange } = this.props;
     this.setState({ value: $event.target.value });
-    this.props.onChange({ value: this.state.value });
+    onChange({ value: $event.target.value });
   }
 
   render() {
     const { className, type, id, name, placeholder, label, labelColon } = this.props;
+    const { value } = this.state;
     const props = {
       className: `Input form-control ${className}`,
       type,
       name,
       id,
-      value: this.state.value,
+      value,
       placeholder,
       onChange: this.onChange
     };

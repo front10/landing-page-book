@@ -18,40 +18,38 @@ class ContactUs extends Component {
   }
 
   componentWillMount() {
+    const { name, mail, phone, message, loading } = this.props;
     this.setState({
-      name: this.props.name,
-      mail: this.props.mail,
-      phone: this.props.phone,
-      message: this.props.message,
-      loading: this.props.loading
+      name,
+      mail,
+      phone,
+      message,
+      loading
     });
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.name !== this.state.name) this.setState({ name: nextProps.name });
-    if (nextProps.mail !== this.state.mail) this.setState({ mail: nextProps.mail });
-    if (nextProps.phone !== this.state.phone) this.setState({ phone: nextProps.phone });
-    if (nextProps.message !== this.state.message) this.setState({ message: nextProps.message });
-    if (nextProps.loading !== this.state.loading) this.setState({ loading: nextProps.loading });
+    const { name, mail, phone, message, loading } = this.state;
+    if (nextProps.name !== name) this.setState({ name: nextProps.name });
+    if (nextProps.mail !== mail) this.setState({ mail: nextProps.mail });
+    if (nextProps.phone !== phone) this.setState({ phone: nextProps.phone });
+    if (nextProps.message !== message) this.setState({ message: nextProps.message });
+    if (nextProps.loading !== loading) this.setState({ loading: nextProps.loading });
   }
 
   onSubmit() {
-    this.props.onSubmit(this.state);
-    if (this.props.apiUrl) {
+    const { onSubmit, apiUrl, onApiSuccess, onApiFail } = this.props;
+    onSubmit(this.state);
+    if (apiUrl) {
       this.setState({ loading: true }, () => {
-        ContactUsService.send(
-          this.props.apiUrl,
-          this.state.name,
-          this.state.mail,
-          this.state.phone,
-          this.state.message
-        )
+        const { name, mail, phone, message } = this.state;
+        ContactUsService.send(apiUrl, name, mail, phone, message)
           .then(() => {
-            this.props.onApiSuccess();
+            onApiSuccess();
             this.setState({ loading: false });
           })
           .catch(() => {
-            this.props.onApiFail();
+            onApiFail();
             this.setState({ loading: false });
           });
       });
@@ -85,6 +83,7 @@ class ContactUs extends Component {
       submitButtonText,
       submitButtonAlign
     } = this.props;
+    const { name, mail, phone, message, loading } = this.state;
     return (
       <div className="ContactUs">
         <FormGroup>
@@ -92,7 +91,7 @@ class ContactUs extends Component {
             label={showText ? nameText : ''}
             id="contactNameTextLabel"
             placeholder={showPlaceholder ? nameText : ''}
-            value={this.state.name}
+            value={name}
             onChange={this.onChangeName}
           />
         </FormGroup>
@@ -102,7 +101,7 @@ class ContactUs extends Component {
             type="email"
             id="contactEmailTextLabel"
             placeholder={showPlaceholder ? mailText : ''}
-            value={this.state.mail}
+            value={mail}
             onChange={this.onChangeMail}
           />
         </FormGroup>
@@ -111,7 +110,7 @@ class ContactUs extends Component {
             label={showText ? phoneText : ''}
             id="contactPhoneTextLabel"
             placeholder={showPlaceholder ? phoneText : ''}
-            value={this.state.phone}
+            value={phone}
             onChange={this.onChangePhone}
           />
         </FormGroup>
@@ -121,19 +120,14 @@ class ContactUs extends Component {
             type="textarea"
             id="contactMessageTextLabel"
             placeholder={showPlaceholder ? messageText : ''}
-            value={this.state.message}
+            value={message}
             onChange={this.onChangeMessage}
           />
         </FormGroup>
         <div className={`text-${submitButtonAlign}`}>
           <Button
-            loading={this.state.loading}
-            disabled={
-              !this.state.name ||
-              !this.state.message ||
-              !EmailValidator.validate(this.state.mail) ||
-              this.state.loading
-            }
+            loading={loading}
+            disabled={!name || !message || !EmailValidator.validate(mail) || loading}
             className="btn ContactUs__SubmitButton"
             onClick={this.onSubmit}
           >
@@ -179,7 +173,7 @@ ContactUs.defaultProps = {
   submitButtonText: 'Submit',
   submitButtonAlign: 'center',
   apiUrl: '',
-  onSubmit: ({ name, mail, phone, message }) => {},
+  onSubmit: () => {},
   onApiSuccess: () => {},
   onApiFail: () => {}
 };

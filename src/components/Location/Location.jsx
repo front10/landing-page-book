@@ -4,19 +4,15 @@ import GoogleMapReact from 'google-map-react';
 import LocationMarker from '../LocationMarker';
 
 class Location extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { lat, lng, zoom, apiKey, language, markers } = this.props;
     const bootstrapURLKeys = { key: apiKey, language };
 
     return (
       <GoogleMapReact center={{ lat, lng }} zoom={zoom} bootstrapURLKeys={bootstrapURLKeys}>
-        {markers.map((marker, index) => (
+        {markers.map(marker => (
           <LocationMarker
-            key={index}
+            key={`${marker.lat}_${marker.lng}`}
             lat={marker.lat}
             lng={marker.lng}
             color={marker.color}
@@ -34,7 +30,14 @@ Location.propTypes = {
   zoom: PropTypes.number,
   apiKey: PropTypes.string,
   language: PropTypes.string,
-  markers: PropTypes.array
+  markers: PropTypes.arrayOf(
+    PropTypes.shape({
+      icon: PropTypes.string,
+      color: PropTypes.string,
+      lat: PropTypes.number,
+      lng: PropTypes.number
+    })
+  )
 };
 Location.defaultProps = {
   lat: 0,

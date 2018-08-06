@@ -20,25 +20,28 @@ class Navbar extends Component {
   }
 
   collapse() {
-    this.setState({ collapse: !this.state.collapse });
+    const { collapse } = this.state;
+    this.setState({ collapse: !collapse });
   }
 
   renderItems(items) {
-    return items.map((item, index) => (
+    const { onItemClick } = this.props;
+    return items.map(item => (
       <NavbarLink
-        key={index}
+        key={item.title}
         href={item.href}
         target={item.target}
-        onClick={() => this.props.onItemClick({ item })}
+        onClick={() => onItemClick({ item })}
       >
-        <Icon icon={item.icon} className="mr-1" />
+        {item.icon && <Icon icon={item.icon} className="mr-1" />}
         {item.title}
       </NavbarLink>
     ));
   }
 
   render() {
-    const state = this.state;
+    // const state = this.state;
+    const { collapse } = this.state;
     const {
       companyName,
       companyLink,
@@ -79,17 +82,17 @@ class Navbar extends Component {
         </NavbarBrand>
         {leftItems.length > 0 &&
           !children && (
-            <NavbarCollapse isOpen={state.collapse}>
+            <NavbarCollapse isOpen={collapse}>
               <NavbarNav>{this.renderItems(leftItems)}</NavbarNav>
             </NavbarCollapse>
           )}
         {rightItems.length > 0 &&
           !children && (
-            <NavbarCollapse isOpen={state.collapse}>
+            <NavbarCollapse isOpen={collapse}>
               <NavbarNav alignItems="right">{this.renderItems(rightItems)}</NavbarNav>
             </NavbarCollapse>
           )}
-        {children && <NavbarCollapse isOpen={state.collapse}>{children}</NavbarCollapse>}
+        {children && <NavbarCollapse isOpen={collapse}>{children}</NavbarCollapse>}
       </nav>
     );
   }
@@ -103,8 +106,23 @@ Navbar.propTypes = {
   companyLogo: PropTypes.string,
   className: PropTypes.string,
   expand: PropTypes.string,
-  leftItems: PropTypes.array,
-  rightItems: PropTypes.array,
+  leftItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      href: PropTypes.string,
+      target: PropTypes.string,
+      icon: PropTypes.string
+    })
+  ),
+  rightItems: PropTypes.arrayOf(
+    PropTypes.shape({
+      title: PropTypes.string,
+      href: PropTypes.string,
+      target: PropTypes.string,
+      icon: PropTypes.string
+    })
+  ),
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   onItemClick: PropTypes.func
 };
 Navbar.defaultProps = {
@@ -117,9 +135,8 @@ Navbar.defaultProps = {
   expand: '',
   leftItems: [],
   rightItems: [],
-  onItemClick: ({ item }) => {
-    console.warn(`onItemClick prop is not defined. Item ${JSON.stringify(item)}`);
-  }
+  children: null,
+  onItemClick: () => {}
 };
 
 export default Navbar;

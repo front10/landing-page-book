@@ -12,86 +12,80 @@ class GithubButton extends React.Component {
   }
 
   componentWillMount() {
+    const { btnType, showCounter, showBtnText, showGithubIcon, repository, username } = this.props;
     this.setState({
-      showCounter: this.props.showCounter,
-      btnType: this.props.btnType,
-      showBtnText: this.props.showBtnText,
-      showGithubIcon: this.props.showGithubIcon
+      showCounter,
+      btnType,
+      showBtnText,
+      showGithubIcon
     });
-    if (
-      this.props.btnType === 'fork' ||
-      this.props.btnType === 'star' ||
-      this.props.btnType === 'watch' ||
-      this.props.btnType === 'issue'
-    ) {
-      GithubService.getRepositoriesStats(this.props.username, this.props.repository)
+    if (btnType === 'fork' || btnType === 'star' || btnType === 'watch' || btnType === 'issue') {
+      GithubService.getRepositoriesStats(username, repository)
         .then(res => {
-          if (this.props.btnType === 'fork')
+          if (btnType === 'fork')
             this.setState({
               counter: res.forks_count,
               iconClass: 'fa fa-code-fork',
-              linkUrl: `https://github.com/${this.props.username}/${this.props.repository}/fork`
+              linkUrl: `https://github.com/${username}/${repository}/fork`
             });
-          if (this.props.btnType === 'star')
+          if (btnType === 'star')
             this.setState({
               counter: res.stargazers_count,
               iconClass: 'fa fa-star',
-              linkUrl: `https://github.com/${this.props.username}/${this.props.repository}`
+              linkUrl: `https://github.com/${username}/${repository}`
             });
-          if (this.props.btnType === 'watch')
+          if (btnType === 'watch')
             this.setState({
               counter: res.watchers_count,
               iconClass: 'fa fa-eye',
-              linkUrl: `https://github.com/${this.props.username}/${
-                this.props.repository
-              }/subscription`
+              linkUrl: `https://github.com/${username}/${repository}/subscription`
             });
-          if (this.props.btnType === 'issue')
+          if (btnType === 'issue')
             this.setState({
               counter: res.open_issues_count,
               iconClass: 'fa fa-exclamation-circle',
-              linkUrl: `https://github.com/${this.props.username}/${this.props.repository}/issues`
+              linkUrl: `https://github.com/${username}/${repository}/issues`
             });
         })
         .catch(err => err);
     }
-    if (this.props.btnType === 'follow') {
-      GithubService.getUserFallowers(this.props.username)
+    if (btnType === 'follow') {
+      GithubService.getUserFallowers(username)
         .then(res => {
           this.setState({
             counter: res.length,
             iconClass: 'fa fa-github',
-            linkUrl: `https://github.com/${this.props.username}`
+            linkUrl: `https://github.com/${username}`
           });
         })
         .catch(err => err);
     }
 
-    if (this.props.btnType === 'download') {
+    if (btnType === 'download') {
       this.setState({
         counter: null,
         showCounter: false,
         iconClass: 'fa fa-cloud-download',
-        linkUrl: `https://api.github.com/repos/${this.props.username}/${
-          this.props.repository
-        }/archive/master.zip`
+        linkUrl: `https://api.github.com/repos/${username}/${repository}/archive/master.zip`
       });
     }
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.showCounter != this.state.showCounter) {
+    const { showCounter, showGithubIcon, showBtnText, btnType } = this.state;
+    const { username, repository } = this.props;
+    if (nextProps.showCounter !== showCounter) {
       this.setState({ showCounter: nextProps.showCounter });
     }
-    if (nextProps.showGithubIcon != this.state.showGithubIcon) {
+    if (nextProps.showGithubIcon !== showGithubIcon) {
       this.setState({ showGithubIcon: nextProps.showGithubIcon });
     }
 
-    if (nextProps.showBtnText != this.state.showBtnText) {
+    if (nextProps.showBtnText !== showBtnText) {
       this.setState({ showBtnText: nextProps.showBtnText });
     }
 
-    if (nextProps.btnType != this.state.btnType) {
+    if (nextProps.btnType !== btnType) {
       this.setState({
         showCounter: nextProps.showCounter,
         btnType: nextProps.btnType,
@@ -111,27 +105,25 @@ class GithubButton extends React.Component {
               this.setState({
                 counter: res.forks_count,
                 iconClass: 'fa fa-code-fork',
-                linkUrl: `https://github.com/${this.props.username}/${this.props.repository}/fork`
+                linkUrl: `https://github.com/${username}/${repository}/fork`
               });
             if (nextProps.btnType === 'star')
               this.setState({
                 counter: res.stargazers_count,
                 iconClass: 'fa fa-star',
-                linkUrl: `https://github.com/${this.props.username}/${this.props.repository}`
+                linkUrl: `https://github.com/${username}/${repository}`
               });
             if (nextProps.btnType === 'watch')
               this.setState({
                 counter: res.watchers_count,
                 iconClass: 'fa fa-eye',
-                linkUrl: `https://github.com/${this.props.username}/${
-                  this.props.repository
-                }/subscription`
+                linkUrl: `https://github.com/${username}/${repository}/subscription`
               });
             if (nextProps.btnType === 'issue')
               this.setState({
                 counter: res.open_issues_count,
                 iconClass: 'fa fa-exclamation-circle',
-                linkUrl: `https://github.com/${this.props.username}/${this.props.repository}/issues`
+                linkUrl: `https://github.com/${username}/${repository}/issues`
               });
           })
           .catch(err => err);
@@ -142,7 +134,7 @@ class GithubButton extends React.Component {
             this.setState({
               counter: res.length,
               iconClass: 'fa fa-github',
-              linkUrl: `https://github.com/${this.props.username}`
+              linkUrl: `https://github.com/${username}`
             });
           })
           .catch(err => err);
@@ -153,30 +145,32 @@ class GithubButton extends React.Component {
           counter: null,
           showCounter: false,
           iconClass: 'fa fa-cloud-download',
-          linkUrl: `https://api.github.com/repos/${this.props.username}/${
-            this.props.repository
-          }/archive/master.zip`
+          linkUrl: `https://api.github.com/repos/${username}/${repository}/archive/master.zip`
         });
       }
     }
   }
 
   render() {
+    const { linkUrl, showGithubIcon, iconClass, showBtnText, showCounter, counter } = this.state;
+    const { btnText } = this.props;
     return (
       <div className="GithubDetail_btn_container d-inline">
-        <a className="btn GithubDetail_btn" href={this.state.linkUrl} target="_blank">
-          <i
-            className={this.state.showGithubIcon ? 'fa fa-github' : this.state.iconClass}
-            aria-hidden="true"
-          />{' '}
-          {this.state.showBtnText && <span className="buttonText">{this.props.btnText}</span>}
+        <a
+          className="btn GithubDetail_btn"
+          href={linkUrl}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className={showGithubIcon ? 'fa fa-github' : iconClass} aria-hidden="true" />{' '}
+          {showBtnText && <span className="buttonText">{btnText}</span>}
         </a>
-        {this.state.showCounter && (
+        {showCounter && (
           <span className="speech-bubble">
-            {this.state.counter != null ? (
-              <a href={this.state.linkUrl} target="_blank">
+            {counter != null ? (
+              <a href={linkUrl} target="_blank" rel="noopener noreferrer">
                 {' '}
-                {this.state.counter}{' '}
+                {counter}{' '}
               </a>
             ) : (
               <Icon icon="fa fa-circle-o-notch fa-spin" />

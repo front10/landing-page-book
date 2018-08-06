@@ -36,7 +36,7 @@ class Team extends Component {
               image={showImage ? member.image : ''}
             >
               {socials.map(social => (
-                <Social key={member.profile} url={member.profile} type={social} gray={socialGray} />
+                <Social key={social} url={member.profile} type={social} gray={socialGray} />
               ))}
             </Card>
           </div>
@@ -57,7 +57,15 @@ Team.propTypes = {
   socialGray: PropTypes.bool,
   contentAlign: PropTypes.string,
   socials: PropTypes.arrayOf(PropTypes.string),
-  members: PropTypes.array
+  members: PropTypes.arrayOf(
+    PropTypes.shape({
+      image: PropTypes.string,
+      name: PropTypes.string,
+      job: PropTypes.string,
+      summary: PropTypes.string,
+      profile: PropTypes.string
+    })
+  )
 };
 Team.defaultProps = {
   showBorder: true,

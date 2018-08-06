@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class NavbarBrand extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { className, href, children } = this.props;
     return (
@@ -18,11 +14,13 @@ class NavbarBrand extends Component {
 
 NavbarBrand.propTypes = {
   className: PropTypes.string,
-  href: PropTypes.string
+  href: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 NavbarBrand.defaultProps = {
   className: '',
-  href: '#'
+  href: '#',
+  children: null
 };
 
 export default NavbarBrand;

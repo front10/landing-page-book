@@ -3,13 +3,8 @@ import PropTypes from 'prop-types';
 import Card from '../Card/Card';
 import Location from '../Location/Location';
 import Icon from '../Icon/Icon';
-import Header from '../Header/Header';
 
 class ContactInfo extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const {
       showBorder,

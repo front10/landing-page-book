@@ -4,32 +4,34 @@ import Social from '../Social';
 import Copyright from '../Copyright';
 
 class Footer extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   renderSocials() {
     const { socials, socialRounded, socialUrl, socialGray } = this.props;
-    return socials.map((social, index) => (
-      <Social key={index} type={social} gray={socialGray} rounded={socialRounded} url={socialUrl} />
+    return socials.map(social => (
+      <Social
+        key={social}
+        type={social}
+        gray={socialGray}
+        rounded={socialRounded}
+        url={socialUrl}
+      />
     ));
   }
 
   renderSections() {
     const { sections } = this.props;
-    return sections.map((section, index) => (
-      <div className="col-sm-12 col-md text-center" key={index}>
+    return sections.map(section => (
+      <div className="col-sm-12 col-md text-center" key={section.name}>
         <div className="Footer__Sections__Header">{section.name}</div>
         {section.sections.length > 0 && (
-          <ul className="list-unstyled text-small">{this.renderLinks(section.sections)}</ul>
+          <ul className="list-unstyled text-small">{Footer.renderLinks(section.sections)}</ul>
         )}
       </div>
     ));
   }
 
-  renderLinks(links) {
-    return links.map((link, index) => (
-      <li key={index}>
+  static renderLinks(links) {
+    return links.map(link => (
+      <li key={link.name}>
         <a className="Footer__Sections__Link" href={link.url}>
           {link.name}
         </a>
@@ -59,8 +61,19 @@ Footer.propTypes = {
   socialGray: PropTypes.bool,
   socialUrl: PropTypes.string,
   copyright: PropTypes.string,
-  socials: PropTypes.array,
-  sections: PropTypes.array
+  socials: PropTypes.arrayOf(PropTypes.string),
+  sections: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+      sections: PropTypes.arrayOf(
+        PropTypes.shape({
+          name: PropTypes.string,
+          url: PropTypes.string
+        })
+      )
+    })
+  ),
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Footer.defaultProps = {
   socialRounded: true,
@@ -68,7 +81,8 @@ Footer.defaultProps = {
   socialUrl: '',
   copyright: '',
   socials: [],
-  sections: []
+  sections: [],
+  children: null
 };
 
 export default Footer;

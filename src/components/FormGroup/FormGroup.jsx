@@ -9,10 +9,12 @@ class FormGroup extends Component {
 }
 
 FormGroup.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 FormGroup.defaultProps = {
-  className: 'form-group'
+  className: 'form-group',
+  children: null
 };
 
 export default FormGroup;

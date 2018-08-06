@@ -7,12 +7,7 @@ import Button from '../Button/Button';
 import Header from '../Header/Header';
 
 class Hero extends Component {
-  constructor(props) {
-    super(props);
-    this.onButtonClick = this.onButtonClick.bind(this);
-  }
-
-  onButtonClick(button) {
+  static onButtonClick(button) {
     if (button.onClick && typeof button.onClick === 'function') button.onClick({ button });
   }
 
@@ -62,11 +57,11 @@ class Hero extends Component {
                   subHeaderPosition !== 'top' && (
                     <Header className="Hero__SubHeader mb-5">{subHeader}</Header>
                   )}
-                {buttons.map((button, index) => (
+                {buttons.map(button => (
                   <Button
                     className="btn-xl Hero__Button"
-                    key={index}
-                    onClick={() => this.onButtonClick(button)}
+                    key={button.text}
+                    onClick={() => Hero.onButtonClick(button)}
                   >
                     {button.text}
                   </Button>
@@ -94,8 +89,14 @@ Hero.propTypes = {
   subHeaderPosition: PropTypes.string,
   minHeight: PropTypes.string,
   backgroundColor: PropTypes.string,
-  buttons: PropTypes.array,
-  particlesParams: PropTypes.object
+  buttons: PropTypes.arrayOf(
+    PropTypes.shape({
+      text: PropTypes.string,
+      onClick: PropTypes.func
+    })
+  ),
+  particlesParams: PropTypes.objectOf(PropTypes.any),
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Hero.defaultProps = {
   isFixed: true,
@@ -111,7 +112,8 @@ Hero.defaultProps = {
   minHeight: '100vh',
   backgroundColor: 'transparent',
   buttons: [],
-  particlesParams: {}
+  particlesParams: {},
+  children: null
 };
 
 export default Hero;

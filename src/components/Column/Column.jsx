@@ -9,10 +9,12 @@ class Column extends Component {
 }
 
 Column.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Column.defaultProps = {
-  className: 'col'
+  className: 'col',
+  children: null
 };
 
 export default Column;

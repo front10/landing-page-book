@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class Container extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { fluid, children } = this.props;
     return <div className={fluid ? 'container-fluid' : 'container'}>{children}</div>;
@@ -13,10 +9,12 @@ class Container extends Component {
 }
 
 Container.propTypes = {
-  fluid: PropTypes.bool
+  fluid: PropTypes.bool,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Container.defaultProps = {
-  fluid: false
+  fluid: false,
+  children: null
 };
 
 export default Container;

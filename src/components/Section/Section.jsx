@@ -23,12 +23,14 @@ class Section extends Component {
 Section.propTypes = {
   gray: PropTypes.bool,
   title: PropTypes.string,
-  subTitle: PropTypes.string
+  subTitle: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Section.defaultProps = {
   gray: false,
   title: '',
-  subTitle: ''
+  subTitle: '',
+  children: null
 };
 
 export default Section;

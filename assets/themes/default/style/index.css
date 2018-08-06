@@ -12046,6 +12046,9 @@ ol.progtrckr li.progtrckr-done:hover:before {
   height: 45px;
   color: #FFF;
   background-color: #444444; }
+  .CodeMirror__header-dark .CodeMirror_btn {
+    font-weight: 600;
+    color: white; }
 
 .CodeMirror__footer-dark {
   width: 100%;
@@ -12061,6 +12064,10 @@ ol.progtrckr li.progtrckr-done:hover:before {
 
 .CodeMirror {
   height: 250px !important; }
+
+.CodeMirror_btn {
+  font-weight: 400;
+  background-color: transparent; }
 
 .ContactInfo__Location {
   height: 300px; }

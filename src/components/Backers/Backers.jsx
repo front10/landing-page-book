@@ -47,7 +47,14 @@ Backers.propTypes = {
   imageGray: PropTypes.bool,
   imageWidth: PropTypes.string,
   imageHeight: PropTypes.string,
-  backers: PropTypes.array
+  backers: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+      profile: PropTypes.string,
+      image: PropTypes.string,
+      contributionAmount: PropTypes.string
+    })
+  )
 };
 Backers.defaultProps = {
   imageRounded: true,

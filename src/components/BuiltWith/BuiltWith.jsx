@@ -16,7 +16,11 @@ class BuiltWith extends Component {
 
 BuiltWith.propTypes = {
   gray: PropTypes.bool,
-  companies: PropTypes.array
+  companies: PropTypes.arrayOf(
+    PropTypes.shape({
+      image: PropTypes.string
+    })
+  )
 };
 BuiltWith.defaultProps = {
   gray: false,

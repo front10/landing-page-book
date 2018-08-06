@@ -2,10 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 class Card extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const {
       image,
@@ -27,7 +23,7 @@ class Card extends React.Component {
                 imageBorder ? 'img-thumbnail' : ''
               } img-fluid`}
               src={image}
-              alt="Generic placeholder image"
+              alt="Generic placeholder"
             />
           )}
           {title && <div className="Card__Title mb-2">{title}</div>}
@@ -48,6 +44,7 @@ Card.propTypes = {
   title: PropTypes.string,
   subTitle: PropTypes.string,
   summary: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   contentAlign: PropTypes.string
 };
 Card.defaultProps = {
@@ -58,6 +55,7 @@ Card.defaultProps = {
   title: '',
   subTitle: '',
   summary: '',
+  children: null,
   contentAlign: 'center'
 };
 

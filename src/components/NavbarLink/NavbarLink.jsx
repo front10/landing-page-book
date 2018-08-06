@@ -2,10 +2,6 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class NavbarLink extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const { href, target, onClick, children } = this.props;
     return (
@@ -21,12 +17,14 @@ class NavbarLink extends Component {
 NavbarLink.propTypes = {
   href: PropTypes.string,
   target: PropTypes.string,
-  onClick: PropTypes.func
+  onClick: PropTypes.func,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 NavbarLink.defaultProps = {
   href: '#',
   target: '',
-  onClick: () => {}
+  onClick: () => {},
+  children: null
 };
 
 export default NavbarLink;

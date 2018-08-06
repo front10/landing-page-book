@@ -22,12 +22,14 @@ class Header extends Component {
 Header.propTypes = {
   borderBottom: PropTypes.bool,
   className: PropTypes.string,
-  type: PropTypes.string
+  type: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Header.defaultProps = {
   borderBottom: false,
   className: '',
-  type: 'h1'
+  type: 'h1',
+  children: null
 };
 
 export default Header;

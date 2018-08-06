@@ -9,10 +9,12 @@ class Row extends Component {
 }
 
 Row.propTypes = {
-  className: PropTypes.string
+  className: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Row.defaultProps = {
-  className: 'row'
+  className: 'row',
+  children: null
 };
 
 export default Row;

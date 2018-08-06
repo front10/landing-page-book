@@ -7,12 +7,7 @@ class Gif extends Component {
     const { autoplay, image, preview, onPlayPause } = this.props;
     return (
       <div className="Gif text-center">
-        <GifPlayer
-          gif={image}
-          autoplay={autoplay}
-          still={preview}
-          onTogglePlay={this.props.onPlayPause}
-        />
+        <GifPlayer gif={image} autoplay={autoplay} still={preview} onTogglePlay={onPlayPause} />
       </div>
     );
   }
@@ -28,9 +23,7 @@ Gif.defaultProps = {
   autoplay: false,
   image: '',
   preview: '',
-  onPlayPause: () => {
-    console.warn(`onPlayPause prop is not defined`);
-  }
+  onPlayPause: () => {}
 };
 
 export default Gif;

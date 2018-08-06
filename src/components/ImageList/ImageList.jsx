@@ -12,10 +12,10 @@ class ImageList extends Component {
     const { images, gray, imageRounded, imageWidth, imageHeight, imageBordered } = this.props;
     return (
       <div className="ImageList row">
-        {images.map((imag, index) => (
+        {images.map(imag => (
           <div
             className={`ImageList__Container ${gray ? 'ImageList__Container--grayScale' : ''}`}
-            key={index}
+            key={imag.image}
           >
             <a href={imag.url}>
               <Image
@@ -41,7 +41,11 @@ ImageList.propTypes = {
   imageBordered: PropTypes.bool,
   imageWidth: PropTypes.string,
   imageHeight: PropTypes.string,
-  images: PropTypes.array
+  images: PropTypes.arrayOf(
+    PropTypes.shape({
+      image: PropTypes.string
+    })
+  )
 };
 ImageList.defaultProps = {
   gray: false,

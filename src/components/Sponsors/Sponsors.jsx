@@ -9,13 +9,18 @@ class Sponsors extends React.Component {
   }
 
   render() {
-    return <ImageList gray={this.props.gray} images={this.props.sponsors} />;
+    const { gray, sponsors } = this.props;
+    return <ImageList gray={gray} images={sponsors} />;
   }
 }
 
 Sponsors.propTypes = {
   gray: PropTypes.bool,
-  companies: PropTypes.array
+  sponsors: PropTypes.arrayOf(
+    PropTypes.shape({
+      image: PropTypes.string
+    })
+  )
 };
 
 Sponsors.defaultProps = {

@@ -9,10 +9,10 @@ class Image extends Component {
   }
 
   render() {
-    const { alt, src, rounded, border, width, height, tooltip } = this.props;
-    let className = this.props.className;
-    if (rounded) className += ` rounded-circle`;
-    if (border) className += ` img-thumbnail`;
+    const { alt, src, rounded, border, width, height, tooltip, className } = this.props;
+    let tempClass = className;
+    if (rounded) tempClass += ` rounded-circle`;
+    if (border) tempClass += ` img-thumbnail`;
     return (
       <React.Fragment>
         {tooltip && <ReactTooltip />}
@@ -20,7 +20,7 @@ class Image extends Component {
           data-tip={tooltip}
           alt={alt}
           src={src}
-          className={className}
+          className={tempClass}
           width={width}
           height={height}
         />
@@ -45,9 +45,7 @@ Image.defaultProps = {
   className: 'img-fluid',
   width: undefined,
   height: undefined,
-  tooltip: '',
-  alt: undefined,
-  src: undefined
+  tooltip: ''
 };
 
 export default Image;

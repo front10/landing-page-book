@@ -1,28 +1,18 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactTooltip from 'react-tooltip';
 
 class Link extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    const {disabled, className, tooltip, href, target, children} = this.props;
+    const { disabled, className, tooltip, href, target, children } = this.props;
     return (
       <React.Fragment>
         {tooltip && <ReactTooltip />}
-        <a
-          data-tip={tooltip}
-          disabled={disabled}
-          className={className}
-          href={href}
-          target={target}
-        >
+        <a data-tip={tooltip} disabled={disabled} className={className} href={href} target={target}>
           {children}
         </a>
       </React.Fragment>
-    )
+    );
   }
 }
 
@@ -31,14 +21,15 @@ Link.propTypes = {
   className: PropTypes.string,
   tooltip: PropTypes.string,
   href: PropTypes.string.isRequired,
-  target: PropTypes.string
+  target: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Link.defaultProps = {
   disabled: false,
-  className: "",
-  tooltip: "",
-  href: undefined,
-  target: ""
+  className: '',
+  tooltip: '',
+  target: '',
+  children: null
 };
 
 export default Link;

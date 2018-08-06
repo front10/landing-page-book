@@ -3,10 +3,6 @@ import PropTypes from 'prop-types';
 import Card from '../Card';
 
 class Features extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
     const {
       showImage,
@@ -21,8 +17,8 @@ class Features extends React.Component {
     } = this.props;
     return (
       <div className="features d-flex flex-wrap">
-        {features.map((feature, index) => (
-          <div className={`col-md-3 text-${contentAlign} mb-4`} key={index}>
+        {features.map(feature => (
+          <div className={`col-md-3 text-${contentAlign} mb-4`} key={feature.link}>
             <Card
               imageCircle={imageCircle}
               subTitle={showSubtitle ? feature.subtitle : ''}
@@ -51,7 +47,16 @@ Features.propTypes = {
   imageCircle: PropTypes.bool,
   imageBorder: PropTypes.bool,
   contentAlign: PropTypes.string,
-  features: PropTypes.array
+  features: PropTypes.arrayOf(
+    PropTypes.shape({
+      image: PropTypes.string,
+      title: PropTypes.string,
+      subtitle: PropTypes.string,
+      summary: PropTypes.string,
+      link: PropTypes.string,
+      linktext: PropTypes.string
+    })
+  )
 };
 
 Features.defaultProps = {

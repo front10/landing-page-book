@@ -2,12 +2,8 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 class NavbarNav extends Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    const { isOpen, children, alignItems } = this.props;
+    const { children, alignItems } = this.props;
     return (
       <ul className={`navbar-nav ${alignItems === 'right' ? 'ml-auto' : 'mr-auto'}`}>{children}</ul>
     );
@@ -15,10 +11,12 @@ class NavbarNav extends Component {
 }
 
 NavbarNav.propTypes = {
-  alignItems: PropTypes.string
+  alignItems: PropTypes.string,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 NavbarNav.defaultProps = {
-  alignItems: 'left'
+  alignItems: 'left',
+  children: null
 };
 
 export default NavbarNav;

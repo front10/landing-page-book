@@ -10,11 +10,13 @@ class LanguageSwitcher extends Component {
   }
 
   componentWillMount() {
-    this.setState({ selectedLanguage: this.props.selectedLanguage });
+    const { selectedLanguage } = this.props;
+    this.setState({ selectedLanguage });
   }
 
   componentWillReceiveProps(nextProps) {
-    if (nextProps.selectedLanguage !== this.state.selectedLanguage) {
+    const { selectedLanguage } = this.state;
+    if (nextProps.selectedLanguage !== selectedLanguage) {
       this.setState({ selectedLanguage: nextProps.selectedLanguage }, () => {
         this.refs.languageSwitcher.updateSelected(nextProps.selectedLanguage);
       });
@@ -22,8 +24,9 @@ class LanguageSwitcher extends Component {
   }
 
   onSelect(countryCode) {
+    const { onSelect } = this.props;
     this.setState({ selectedLanguage: countryCode }, () => {
-      this.props.onSelect({ language: countryCode });
+      onSelect({ language: countryCode });
     });
   }
 
@@ -63,8 +66,8 @@ LanguageSwitcher.propTypes = {
   showFlag: PropTypes.bool,
   selectedLanguage: PropTypes.string,
   placeholder: PropTypes.string,
-  languages: PropTypes.array,
-  customLabels: PropTypes.object,
+  languages: PropTypes.arrayOf(PropTypes.string),
+  customLabels: PropTypes.objectOf(PropTypes.any),
   onSelect: PropTypes.func
 };
 LanguageSwitcher.defaultProps = {
@@ -76,9 +79,7 @@ LanguageSwitcher.defaultProps = {
   placeholder: 'Language',
   languages: [],
   customLabels: {},
-  onSelect: ({ language }) => {
-    console.warn(`onSelect prop is not defined. Language ${language}`);
-  }
+  onSelect: () => {}
 };
 
 export default LanguageSwitcher;

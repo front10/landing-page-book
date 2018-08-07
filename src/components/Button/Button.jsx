@@ -5,16 +5,7 @@ import Icon from '../Icon/Icon';
 
 class Button extends Component {
   render() {
-    const {
-      disabled,
-      className,
-      loading,
-      tooltip,
-      children,
-      btntype,
-      ariaLabel,
-      onClick
-    } = this.props;
+    const { disabled, className, loading, tooltip, children, ariaLabel, onClick } = this.props;
     return (
       <React.Fragment>
         {tooltip && <ReactTooltip />}
@@ -23,8 +14,8 @@ class Button extends Component {
           disabled={disabled}
           className={`Button btn ${className}`}
           onClick={onClick}
-          type={btntype}
           aria-label={ariaLabel}
+          type="submit"
         >
           {!loading && children}
           {loading && <Icon icon="fa fa-circle-o-notch fa-spin" />}
@@ -40,7 +31,6 @@ Button.propTypes = {
   className: PropTypes.string,
   ariaLabel: PropTypes.string,
   tooltip: PropTypes.string,
-  btntype: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   onClick: PropTypes.func
 };
@@ -50,7 +40,6 @@ Button.defaultProps = {
   className: '',
   ariaLabel: '',
   tooltip: '',
-  btntype: 'submit',
   children: null,
   onClick: () => {}
 };

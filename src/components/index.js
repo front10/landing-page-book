@@ -1,4 +1,5 @@
 import Backers from './Backers';
+import BackersOpenCollective from './BackersOpenCollective';
 import Browser from './Browser';
 import BrowserSupport from './BrowserSupport';
 import BuiltWith from './BuiltWith';
@@ -41,6 +42,7 @@ import Wizard from './Wizard';
 
 export {
   Backers,
+  BackersOpenCollective,
   BrowserSupport,
   Browser,
   BuiltWith,

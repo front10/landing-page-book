@@ -10,12 +10,13 @@ class ImageList extends Component {
 
   render() {
     const { images, gray, imageRounded, imageWidth, imageHeight, imageBordered } = this.props;
+    /* eslint-disable react/no-array-index-key */
     return (
       <div className="ImageList row">
-        {images.map(imag => (
+        {images.map((imag, key) => (
           <div
             className={`ImageList__Container ${gray ? 'ImageList__Container--grayScale' : ''}`}
-            key={imag.image}
+            key={key}
           >
             <a href={imag.url}>
               <Image
@@ -32,6 +33,7 @@ class ImageList extends Component {
         ))}
       </div>
     );
+    /* eslint-enable react/no-array-index-key */
   }
 }
 

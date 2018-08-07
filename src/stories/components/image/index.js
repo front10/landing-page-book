@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs, text, number, boolean } from '@storybook/addon-knobs/react';
+import { withKnobs, text, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
@@ -20,8 +20,8 @@ stories.add(
         rounded={boolean('Rounded', false)}
         alt={text('Alt', 'This is an image example')}
         src={text('Source', 'https://sbforge.org/images/icons/profilepics/default.png')}
-        width={number('Width', 100)}
-        height={number('Height', 100)}
+        width={text('Width', 100)}
+        height={text('Height', 100)}
       />
     </ThemeSelector>
   ))

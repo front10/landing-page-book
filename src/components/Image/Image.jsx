@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ReactTooltip from 'react-tooltip';
 
 class Image extends Component {
   constructor(props) {
@@ -8,22 +7,42 @@ class Image extends Component {
     this.state = {};
   }
 
+  componentWillMount() {
+    this.setState({
+      loaded: false
+    });
+  }
+
+  componentWillReceiveProps(nextProps) {
+    const { src } = this.props;
+    if (nextProps.src !== src) this.setState({ loaded: false });
+  }
+
   render() {
     const { alt, src, rounded, border, width, height, tooltip, className } = this.props;
+    const { loaded } = this.state;
     let tempClass = className;
     if (rounded) tempClass += ` rounded-circle`;
     if (border) tempClass += ` img-thumbnail`;
     return (
       <React.Fragment>
-        {tooltip && <ReactTooltip />}
         <img
-          data-tip={tooltip}
+          title={tooltip}
           alt={alt}
           src={src}
           className={tempClass}
           width={width}
           height={height}
+          style={!loaded ? { display: 'none' } : {}}
+          onLoad={() => this.setState({ loaded: true })}
         />
+        {!loaded && (
+          <svg alt={alt} className={tempClass} width={width} height={height} viewBox="0 0 100 100">
+            <rect width="100" height="100" fill="#CCC">
+              <title>{tooltip}</title>
+            </rect>
+          </svg>
+        )}
       </React.Fragment>
     );
   }

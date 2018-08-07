@@ -10,6 +10,7 @@ ReactWrapper {
     loading={false}
     onClick={[Function]}
     tooltip=""
+    type="button"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -50,6 +51,7 @@ ReactWrapper {
               "loading": false,
               "onClick": [Function],
               "tooltip": "",
+              "type": "button",
             },
           },
           "memoizedState": Object {
@@ -63,6 +65,7 @@ ReactWrapper {
               "loading": false,
               "onClick": [Function],
               "tooltip": "",
+              "type": "button",
             },
           },
           "mode": 0,
@@ -78,6 +81,7 @@ ReactWrapper {
               "loading": false,
               "onClick": [Function],
               "tooltip": "",
+              "type": "button",
             },
           },
           "ref": null,
@@ -114,12 +118,11 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  
                   <button
                     aria-label=""
                     class="Button btn "
-                    data-tip=""
-                    type="submit"
+                    title=""
+                    type="button"
                   />
                 </div>,
                 "context": Object {},
@@ -165,6 +168,7 @@ ReactWrapper {
                           "loading": false,
                           "onClick": [Function],
                           "tooltip": "",
+                          "type": "button",
                         }
                       }
                     />,
@@ -192,6 +196,7 @@ ReactWrapper {
                           "loading": false,
                           "onClick": [Function],
                           "tooltip": "",
+                          "type": "button",
                         }
                       }
                     />,
@@ -221,6 +226,7 @@ ReactWrapper {
                     "loading": false,
                     "onClick": [Function],
                     "tooltip": "",
+                    "type": "button",
                   }
                 }
               />,
@@ -234,12 +240,11 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                
                 <button
                   aria-label=""
                   class="Button btn "
-                  data-tip=""
-                  type="submit"
+                  title=""
+                  type="button"
                 />
               </div>,
               "context": Object {},
@@ -275,6 +280,7 @@ ReactWrapper {
                       "loading": false,
                       "onClick": [Function],
                       "tooltip": "",
+                      "type": "button",
                     }
                   }
                 />,
@@ -307,6 +313,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "refs": Object {},
@@ -321,6 +328,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "updater": Object {
@@ -342,7 +350,7 @@ ReactWrapper {
         "child": FiberNode {
           "_debugID": 6,
           "_debugIsCurrentlyTiming": false,
-          "_debugOwner": null,
+          "_debugOwner": [Circular],
           "_debugSource": null,
           "actualDuration": 0,
           "actualStartTime": 0,
@@ -354,75 +362,46 @@ ReactWrapper {
           "index": 0,
           "key": null,
           "lastEffect": null,
-          "memoizedProps": "",
+          "memoizedProps": Object {
+            "aria-label": "",
+            "children": Array [
+              null,
+              false,
+            ],
+            "className": "Button btn ",
+            "disabled": false,
+            "onClick": [Function],
+            "title": "",
+            "type": "button",
+          },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
-          "pendingProps": "",
+          "pendingProps": Object {
+            "aria-label": "",
+            "children": Array [
+              null,
+              false,
+            ],
+            "className": "Button btn ",
+            "disabled": false,
+            "onClick": [Function],
+            "title": "",
+            "type": "button",
+          },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
-          "sibling": FiberNode {
-            "_debugID": 7,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": 0,
-            "alternate": null,
-            "child": null,
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstEffect": null,
-            "index": 1,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "aria-label": "",
-              "children": Array [
-                null,
-                false,
-              ],
-              "className": "Button btn ",
-              "data-tip": "",
-              "disabled": false,
-              "onClick": [Function],
-              "type": "submit",
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "aria-label": "",
-              "children": Array [
-                null,
-                false,
-              ],
-              "className": "Button btn ",
-              "data-tip": "",
-              "disabled": false,
-              "onClick": [Function],
-              "type": "submit",
-            },
-            "ref": null,
-            "return": [Circular],
-            "selfBaseTime": 0,
-            "sibling": null,
-            "stateNode": <button
-              aria-label=""
-              class="Button btn "
-              data-tip=""
-              type="submit"
-            />,
-            "tag": 5,
-            "treeBaseTime": 0,
-            "type": "button",
-            "updateQueue": null,
-          },
-          "stateNode": ,
-          "tag": 6,
+          "sibling": null,
+          "stateNode": <button
+            aria-label=""
+            class="Button btn "
+            title=""
+            type="button"
+          />,
+          "tag": 5,
           "treeBaseTime": 0,
-          "type": null,
+          "type": "button",
           "updateQueue": null,
         },
         "effectTag": 1,
@@ -439,6 +418,7 @@ ReactWrapper {
           "loading": false,
           "onClick": [Function],
           "tooltip": "",
+          "type": "button",
         },
         "memoizedState": null,
         "mode": 0,
@@ -451,6 +431,7 @@ ReactWrapper {
           "loading": false,
           "onClick": [Function],
           "tooltip": "",
+          "type": "button",
         },
         "ref": null,
         "return": FiberNode {
@@ -479,6 +460,7 @@ ReactWrapper {
               "loading": false,
               "onClick": [Function],
               "tooltip": "",
+              "type": "button",
             },
           },
           "memoizedState": Object {
@@ -492,6 +474,7 @@ ReactWrapper {
               "loading": false,
               "onClick": [Function],
               "tooltip": "",
+              "type": "button",
             },
           },
           "mode": 0,
@@ -507,6 +490,7 @@ ReactWrapper {
               "loading": false,
               "onClick": [Function],
               "tooltip": "",
+              "type": "button",
             },
           },
           "ref": null,
@@ -543,12 +527,11 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  
                   <button
                     aria-label=""
                     class="Button btn "
-                    data-tip=""
-                    type="submit"
+                    title=""
+                    type="button"
                   />
                 </div>,
                 "context": Object {},
@@ -594,6 +577,7 @@ ReactWrapper {
                           "loading": false,
                           "onClick": [Function],
                           "tooltip": "",
+                          "type": "button",
                         }
                       }
                     />,
@@ -621,6 +605,7 @@ ReactWrapper {
                           "loading": false,
                           "onClick": [Function],
                           "tooltip": "",
+                          "type": "button",
                         }
                       }
                     />,
@@ -650,6 +635,7 @@ ReactWrapper {
                     "loading": false,
                     "onClick": [Function],
                     "tooltip": "",
+                    "type": "button",
                   }
                 }
               />,
@@ -663,12 +649,11 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                
                 <button
                   aria-label=""
                   class="Button btn "
-                  data-tip=""
-                  type="submit"
+                  title=""
+                  type="button"
                 />
               </div>,
               "context": Object {},
@@ -704,6 +689,7 @@ ReactWrapper {
                       "loading": false,
                       "onClick": [Function],
                       "tooltip": "",
+                      "type": "button",
                     }
                   }
                 />,
@@ -736,6 +722,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "refs": Object {},
@@ -750,6 +737,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "updater": Object {
@@ -782,6 +770,7 @@ ReactWrapper {
         "loading": false,
         "onClick": [Function],
         "tooltip": "",
+        "type": "button",
       },
       "refs": Object {},
       "state": null,
@@ -802,41 +791,39 @@ ReactWrapper {
       "loading": false,
       "onClick": [Function],
       "tooltip": "",
+      "type": "button",
     },
     "ref": null,
-    "rendered": Array [
-      "",
-      Object {
-        "instance": <button
-          aria-label=""
-          class="Button btn "
-          data-tip=""
-          type="submit"
-        />,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "aria-label": "",
-          "children": Array [
-            null,
-            false,
-          ],
-          "className": "Button btn ",
-          "data-tip": "",
-          "disabled": false,
-          "onClick": [Function],
-          "type": "submit",
-        },
-        "ref": null,
-        "rendered": Array [
-          Array [
-            null,
-            false,
-          ],
+    "rendered": Object {
+      "instance": <button
+        aria-label=""
+        class="Button btn "
+        title=""
+        type="button"
+      />,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "aria-label": "",
+        "children": Array [
+          null,
+          false,
         ],
+        "className": "Button btn ",
+        "disabled": false,
+        "onClick": [Function],
+        "title": "",
         "type": "button",
       },
-    ],
+      "ref": null,
+      "rendered": Array [
+        Array [
+          null,
+          false,
+        ],
+      ],
+      "type": "button",
+    },
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -871,6 +858,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "memoizedState": Object {
@@ -884,6 +872,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "mode": 0,
@@ -899,6 +888,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "ref": null,
@@ -935,12 +925,11 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    
                     <button
                       aria-label=""
                       class="Button btn "
-                      data-tip=""
-                      type="submit"
+                      title=""
+                      type="button"
                     />
                   </div>,
                   "context": Object {},
@@ -986,6 +975,7 @@ ReactWrapper {
                             "loading": false,
                             "onClick": [Function],
                             "tooltip": "",
+                            "type": "button",
                           }
                         }
                       />,
@@ -1013,6 +1003,7 @@ ReactWrapper {
                             "loading": false,
                             "onClick": [Function],
                             "tooltip": "",
+                            "type": "button",
                           }
                         }
                       />,
@@ -1042,6 +1033,7 @@ ReactWrapper {
                       "loading": false,
                       "onClick": [Function],
                       "tooltip": "",
+                      "type": "button",
                     }
                   }
                 />,
@@ -1055,12 +1047,11 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  
                   <button
                     aria-label=""
                     class="Button btn "
-                    data-tip=""
-                    type="submit"
+                    title=""
+                    type="button"
                   />
                 </div>,
                 "context": Object {},
@@ -1096,6 +1087,7 @@ ReactWrapper {
                         "loading": false,
                         "onClick": [Function],
                         "tooltip": "",
+                        "type": "button",
                       }
                     }
                   />,
@@ -1128,6 +1120,7 @@ ReactWrapper {
                   "loading": false,
                   "onClick": [Function],
                   "tooltip": "",
+                  "type": "button",
                 },
               },
               "refs": Object {},
@@ -1142,6 +1135,7 @@ ReactWrapper {
                   "loading": false,
                   "onClick": [Function],
                   "tooltip": "",
+                  "type": "button",
                 },
               },
               "updater": Object {
@@ -1163,7 +1157,7 @@ ReactWrapper {
           "child": FiberNode {
             "_debugID": 6,
             "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
+            "_debugOwner": [Circular],
             "_debugSource": null,
             "actualDuration": 0,
             "actualStartTime": 0,
@@ -1175,75 +1169,46 @@ ReactWrapper {
             "index": 0,
             "key": null,
             "lastEffect": null,
-            "memoizedProps": "",
+            "memoizedProps": Object {
+              "aria-label": "",
+              "children": Array [
+                null,
+                false,
+              ],
+              "className": "Button btn ",
+              "disabled": false,
+              "onClick": [Function],
+              "title": "",
+              "type": "button",
+            },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
-            "pendingProps": "",
+            "pendingProps": Object {
+              "aria-label": "",
+              "children": Array [
+                null,
+                false,
+              ],
+              "className": "Button btn ",
+              "disabled": false,
+              "onClick": [Function],
+              "title": "",
+              "type": "button",
+            },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
-            "sibling": FiberNode {
-              "_debugID": 7,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": 0,
-              "alternate": null,
-              "child": null,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstEffect": null,
-              "index": 1,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "aria-label": "",
-                "children": Array [
-                  null,
-                  false,
-                ],
-                "className": "Button btn ",
-                "data-tip": "",
-                "disabled": false,
-                "onClick": [Function],
-                "type": "submit",
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "aria-label": "",
-                "children": Array [
-                  null,
-                  false,
-                ],
-                "className": "Button btn ",
-                "data-tip": "",
-                "disabled": false,
-                "onClick": [Function],
-                "type": "submit",
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseTime": 0,
-              "sibling": null,
-              "stateNode": <button
-                aria-label=""
-                class="Button btn "
-                data-tip=""
-                type="submit"
-              />,
-              "tag": 5,
-              "treeBaseTime": 0,
-              "type": "button",
-              "updateQueue": null,
-            },
-            "stateNode": ,
-            "tag": 6,
+            "sibling": null,
+            "stateNode": <button
+              aria-label=""
+              class="Button btn "
+              title=""
+              type="button"
+            />,
+            "tag": 5,
             "treeBaseTime": 0,
-            "type": null,
+            "type": "button",
             "updateQueue": null,
           },
           "effectTag": 1,
@@ -1260,6 +1225,7 @@ ReactWrapper {
             "loading": false,
             "onClick": [Function],
             "tooltip": "",
+            "type": "button",
           },
           "memoizedState": null,
           "mode": 0,
@@ -1272,6 +1238,7 @@ ReactWrapper {
             "loading": false,
             "onClick": [Function],
             "tooltip": "",
+            "type": "button",
           },
           "ref": null,
           "return": FiberNode {
@@ -1300,6 +1267,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "memoizedState": Object {
@@ -1313,6 +1281,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "mode": 0,
@@ -1328,6 +1297,7 @@ ReactWrapper {
                 "loading": false,
                 "onClick": [Function],
                 "tooltip": "",
+                "type": "button",
               },
             },
             "ref": null,
@@ -1364,12 +1334,11 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    
                     <button
                       aria-label=""
                       class="Button btn "
-                      data-tip=""
-                      type="submit"
+                      title=""
+                      type="button"
                     />
                   </div>,
                   "context": Object {},
@@ -1415,6 +1384,7 @@ ReactWrapper {
                             "loading": false,
                             "onClick": [Function],
                             "tooltip": "",
+                            "type": "button",
                           }
                         }
                       />,
@@ -1442,6 +1412,7 @@ ReactWrapper {
                             "loading": false,
                             "onClick": [Function],
                             "tooltip": "",
+                            "type": "button",
                           }
                         }
                       />,
@@ -1471,6 +1442,7 @@ ReactWrapper {
                       "loading": false,
                       "onClick": [Function],
                       "tooltip": "",
+                      "type": "button",
                     }
                   }
                 />,
@@ -1484,12 +1456,11 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  
                   <button
                     aria-label=""
                     class="Button btn "
-                    data-tip=""
-                    type="submit"
+                    title=""
+                    type="button"
                   />
                 </div>,
                 "context": Object {},
@@ -1525,6 +1496,7 @@ ReactWrapper {
                         "loading": false,
                         "onClick": [Function],
                         "tooltip": "",
+                        "type": "button",
                       }
                     }
                   />,
@@ -1557,6 +1529,7 @@ ReactWrapper {
                   "loading": false,
                   "onClick": [Function],
                   "tooltip": "",
+                  "type": "button",
                 },
               },
               "refs": Object {},
@@ -1571,6 +1544,7 @@ ReactWrapper {
                   "loading": false,
                   "onClick": [Function],
                   "tooltip": "",
+                  "type": "button",
                 },
               },
               "updater": Object {
@@ -1603,6 +1577,7 @@ ReactWrapper {
           "loading": false,
           "onClick": [Function],
           "tooltip": "",
+          "type": "button",
         },
         "refs": Object {},
         "state": null,
@@ -1623,41 +1598,39 @@ ReactWrapper {
         "loading": false,
         "onClick": [Function],
         "tooltip": "",
+        "type": "button",
       },
       "ref": null,
-      "rendered": Array [
-        "",
-        Object {
-          "instance": <button
-            aria-label=""
-            class="Button btn "
-            data-tip=""
-            type="submit"
-          />,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "aria-label": "",
-            "children": Array [
-              null,
-              false,
-            ],
-            "className": "Button btn ",
-            "data-tip": "",
-            "disabled": false,
-            "onClick": [Function],
-            "type": "submit",
-          },
-          "ref": null,
-          "rendered": Array [
-            Array [
-              null,
-              false,
-            ],
+      "rendered": Object {
+        "instance": <button
+          aria-label=""
+          class="Button btn "
+          title=""
+          type="button"
+        />,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "aria-label": "",
+          "children": Array [
+            null,
+            false,
           ],
+          "className": "Button btn ",
+          "disabled": false,
+          "onClick": [Function],
+          "title": "",
           "type": "button",
         },
-      ],
+        "ref": null,
+        "rendered": Array [
+          Array [
+            null,
+            false,
+          ],
+        ],
+        "type": "button",
+      },
       "type": [Function],
     },
   ],

@@ -102,13 +102,26 @@ ReactWrapper {
                   <div
                     class="d-inline Browser"
                   >
-                    
                     <img
                       alt="Browser Chrome icon"
                       class="Browser__Icon"
-                      data-tip=""
                       src="chrome.png"
+                      style="display: none;"
+                      title=""
                     />
+                    <svg
+                      alt="Browser Chrome icon"
+                      class="Browser__Icon"
+                      viewBox="0 0 100 100"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                     <div
                       class="Browser__Text"
                     >
@@ -221,13 +234,26 @@ ReactWrapper {
                 <div
                   class="d-inline Browser"
                 >
-                  
                   <img
                     alt="Browser Chrome icon"
                     class="Browser__Icon"
-                    data-tip=""
                     src="chrome.png"
+                    style="display: none;"
+                    title=""
                   />
+                  <svg
+                    alt="Browser Chrome icon"
+                    class="Browser__Icon"
+                    viewBox="0 0 100 100"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>
                   <div
                     class="Browser__Text"
                   >
@@ -341,7 +367,7 @@ ReactWrapper {
             "child": FiberNode {
               "_debugID": 10,
               "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
+              "_debugOwner": [Circular],
               "_debugSource": null,
               "actualDuration": 0,
               "actualStartTime": 0,
@@ -353,11 +379,33 @@ ReactWrapper {
               "index": 0,
               "key": null,
               "lastEffect": null,
-              "memoizedProps": "",
+              "memoizedProps": Object {
+                "alt": "Browser Chrome icon",
+                "className": "Browser__Icon",
+                "height": undefined,
+                "onLoad": [Function],
+                "src": "chrome.png",
+                "style": Object {
+                  "display": "none",
+                },
+                "title": "",
+                "width": undefined,
+              },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
-              "pendingProps": "",
+              "pendingProps": Object {
+                "alt": "Browser Chrome icon",
+                "className": "Browser__Icon",
+                "height": undefined,
+                "onLoad": [Function],
+                "src": "chrome.png",
+                "style": Object {
+                  "display": "none",
+                },
+                "title": "",
+                "width": undefined,
+              },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
@@ -369,7 +417,89 @@ ReactWrapper {
                 "actualDuration": 0,
                 "actualStartTime": 0,
                 "alternate": null,
-                "child": null,
+                "child": FiberNode {
+                  "_debugID": 12,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": 0,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 13,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": 0,
+                    "alternate": null,
+                    "child": null,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": "",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": "",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseTime": 0,
+                    "sibling": null,
+                    "stateNode": <title />,
+                    "tag": 5,
+                    "treeBaseTime": 0,
+                    "type": "title",
+                    "updateQueue": null,
+                  },
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <title>
+                      
+                    </title>,
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": <title>
+                      
+                    </title>,
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseTime": 0,
+                  "sibling": null,
+                  "stateNode": <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title />
+                  </rect>,
+                  "tag": 5,
+                  "treeBaseTime": 0,
+                  "type": "rect",
+                  "updateQueue": null,
+                },
                 "effectTag": 0,
                 "expirationTime": 0,
                 "firstEffect": null,
@@ -378,10 +508,18 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "alt": "Browser Chrome icon",
+                  "children": <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title>
+                      
+                    </title>
+                  </rect>,
                   "className": "Browser__Icon",
-                  "data-tip": "",
                   "height": undefined,
-                  "src": "chrome.png",
+                  "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
                 "memoizedState": null,
@@ -389,31 +527,52 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "alt": "Browser Chrome icon",
+                  "children": <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title>
+                      
+                    </title>
+                  </rect>,
                   "className": "Browser__Icon",
-                  "data-tip": "",
                   "height": undefined,
-                  "src": "chrome.png",
+                  "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": null,
-                "stateNode": <img
+                "stateNode": <svg
                   alt="Browser Chrome icon"
                   class="Browser__Icon"
-                  data-tip=""
-                  src="chrome.png"
-                />,
+                  viewBox="0 0 100 100"
+                >
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title />
+                  </rect>
+                </svg>,
                 "tag": 5,
                 "treeBaseTime": 0,
-                "type": "img",
+                "type": "svg",
                 "updateQueue": null,
               },
-              "stateNode": ,
-              "tag": 6,
+              "stateNode": <img
+                alt="Browser Chrome icon"
+                class="Browser__Icon"
+                src="chrome.png"
+                style="display: none;"
+                title=""
+              />,
+              "tag": 5,
               "treeBaseTime": 0,
-              "type": null,
+              "type": "img",
               "updateQueue": null,
             },
             "effectTag": 1,
@@ -432,7 +591,9 @@ ReactWrapper {
               "tooltip": "",
               "width": undefined,
             },
-            "memoizedState": Object {},
+            "memoizedState": Object {
+              "loaded": false,
+            },
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
@@ -457,7 +618,7 @@ ReactWrapper {
               "actualStartTime": 0,
               "alternate": null,
               "child": FiberNode {
-                "_debugID": 12,
+                "_debugID": 14,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
                 "_debugSource": null,
@@ -480,7 +641,7 @@ ReactWrapper {
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": FiberNode {
-                  "_debugID": 13,
+                  "_debugID": 15,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
                   "_debugSource": null,
@@ -597,7 +758,9 @@ ReactWrapper {
                 "width": undefined,
               },
               "refs": Object {},
-              "state": Object {},
+              "state": Object {
+                "loaded": false,
+              },
               "updater": Object {
                 "enqueueForceUpdate": [Function],
                 "enqueueReplaceState": [Function],
@@ -608,7 +771,20 @@ ReactWrapper {
             "tag": 2,
             "treeBaseTime": 0,
             "type": [Function],
-            "updateQueue": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "loaded": false,
+              },
+              "expirationTime": 0,
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
           },
           "effectTag": 0,
           "expirationTime": 0,
@@ -670,13 +846,26 @@ ReactWrapper {
           "stateNode": <div
             class="d-inline Browser"
           >
-            
             <img
               alt="Browser Chrome icon"
               class="Browser__Icon"
-              data-tip=""
               src="chrome.png"
+              style="display: none;"
+              title=""
             />
+            <svg
+              alt="Browser Chrome icon"
+              class="Browser__Icon"
+              viewBox="0 0 100 100"
+            >
+              <rect
+                fill="#CCC"
+                height="100"
+                width="100"
+              >
+                <title />
+              </rect>
+            </svg>
             <div
               class="Browser__Text"
             >
@@ -791,13 +980,26 @@ ReactWrapper {
                   <div
                     class="d-inline Browser"
                   >
-                    
                     <img
                       alt="Browser Chrome icon"
                       class="Browser__Icon"
-                      data-tip=""
                       src="chrome.png"
+                      style="display: none;"
+                      title=""
                     />
+                    <svg
+                      alt="Browser Chrome icon"
+                      class="Browser__Icon"
+                      viewBox="0 0 100 100"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                     <div
                       class="Browser__Text"
                     >
@@ -910,13 +1112,26 @@ ReactWrapper {
                 <div
                   class="d-inline Browser"
                 >
-                  
                   <img
                     alt="Browser Chrome icon"
                     class="Browser__Icon"
-                    data-tip=""
                     src="chrome.png"
+                    style="display: none;"
+                    title=""
                   />
+                  <svg
+                    alt="Browser Chrome icon"
+                    class="Browser__Icon"
+                    viewBox="0 0 100 100"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>
                   <div
                     class="Browser__Text"
                   >
@@ -1043,13 +1258,26 @@ ReactWrapper {
       "instance": <div
         class="d-inline Browser"
       >
-        
         <img
           alt="Browser Chrome icon"
           class="Browser__Icon"
-          data-tip=""
           src="chrome.png"
+          style="display: none;"
+          title=""
         />
+        <svg
+          alt="Browser Chrome icon"
+          class="Browser__Icon"
+          viewBox="0 0 100 100"
+        >
+          <rect
+            fill="#CCC"
+            height="100"
+            width="100"
+          >
+            <title />
+          </rect>
+        </svg>
         <div
           class="Browser__Text"
         >
@@ -1173,13 +1401,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -1292,13 +1533,26 @@ ReactWrapper {
                         <div
                           class="d-inline Browser"
                         >
-                          
                           <img
                             alt="Browser Chrome icon"
                             class="Browser__Icon"
-                            data-tip=""
                             src="chrome.png"
+                            style="display: none;"
+                            title=""
                           />
+                          <svg
+                            alt="Browser Chrome icon"
+                            class="Browser__Icon"
+                            viewBox="0 0 100 100"
+                          >
+                            <rect
+                              fill="#CCC"
+                              height="100"
+                              width="100"
+                            >
+                              <title />
+                            </rect>
+                          </svg>
                           <div
                             class="Browser__Text"
                           >
@@ -1462,13 +1716,26 @@ ReactWrapper {
                   "stateNode": <div
                     class="d-inline Browser"
                   >
-                    
                     <img
                       alt="Browser Chrome icon"
                       class="Browser__Icon"
-                      data-tip=""
                       src="chrome.png"
+                      style="display: none;"
+                      title=""
                     />
+                    <svg
+                      alt="Browser Chrome icon"
+                      class="Browser__Icon"
+                      viewBox="0 0 100 100"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                     <div
                       class="Browser__Text"
                     >
@@ -1583,13 +1850,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -1702,13 +1982,26 @@ ReactWrapper {
                         <div
                           class="d-inline Browser"
                         >
-                          
                           <img
                             alt="Browser Chrome icon"
                             class="Browser__Icon"
-                            data-tip=""
                             src="chrome.png"
+                            style="display: none;"
+                            title=""
                           />
+                          <svg
+                            alt="Browser Chrome icon"
+                            class="Browser__Icon"
+                            viewBox="0 0 100 100"
+                          >
+                            <rect
+                              fill="#CCC"
+                              height="100"
+                              width="100"
+                            >
+                              <title />
+                            </rect>
+                          </svg>
                           <div
                             class="Browser__Text"
                           >
@@ -1831,7 +2124,7 @@ ReactWrapper {
               "child": FiberNode {
                 "_debugID": 10,
                 "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
+                "_debugOwner": [Circular],
                 "_debugSource": null,
                 "actualDuration": 0,
                 "actualStartTime": 0,
@@ -1843,11 +2136,33 @@ ReactWrapper {
                 "index": 0,
                 "key": null,
                 "lastEffect": null,
-                "memoizedProps": "",
+                "memoizedProps": Object {
+                  "alt": "Browser Chrome icon",
+                  "className": "Browser__Icon",
+                  "height": undefined,
+                  "onLoad": [Function],
+                  "src": "chrome.png",
+                  "style": Object {
+                    "display": "none",
+                  },
+                  "title": "",
+                  "width": undefined,
+                },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
-                "pendingProps": "",
+                "pendingProps": Object {
+                  "alt": "Browser Chrome icon",
+                  "className": "Browser__Icon",
+                  "height": undefined,
+                  "onLoad": [Function],
+                  "src": "chrome.png",
+                  "style": Object {
+                    "display": "none",
+                  },
+                  "title": "",
+                  "width": undefined,
+                },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
@@ -1859,7 +2174,89 @@ ReactWrapper {
                   "actualDuration": 0,
                   "actualStartTime": 0,
                   "alternate": null,
-                  "child": null,
+                  "child": FiberNode {
+                    "_debugID": 12,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": 0,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 13,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": 0,
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseTime": 0,
+                      "sibling": null,
+                      "stateNode": <title />,
+                      "tag": 5,
+                      "treeBaseTime": 0,
+                      "type": "title",
+                      "updateQueue": null,
+                    },
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <title>
+                        
+                      </title>,
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": <title>
+                        
+                      </title>,
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseTime": 0,
+                    "sibling": null,
+                    "stateNode": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>,
+                    "tag": 5,
+                    "treeBaseTime": 0,
+                    "type": "rect",
+                    "updateQueue": null,
+                  },
                   "effectTag": 0,
                   "expirationTime": 0,
                   "firstEffect": null,
@@ -1868,10 +2265,18 @@ ReactWrapper {
                   "lastEffect": null,
                   "memoizedProps": Object {
                     "alt": "Browser Chrome icon",
+                    "children": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title>
+                        
+                      </title>
+                    </rect>,
                     "className": "Browser__Icon",
-                    "data-tip": "",
                     "height": undefined,
-                    "src": "chrome.png",
+                    "viewBox": "0 0 100 100",
                     "width": undefined,
                   },
                   "memoizedState": null,
@@ -1879,31 +2284,52 @@ ReactWrapper {
                   "nextEffect": null,
                   "pendingProps": Object {
                     "alt": "Browser Chrome icon",
+                    "children": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title>
+                        
+                      </title>
+                    </rect>,
                     "className": "Browser__Icon",
-                    "data-tip": "",
                     "height": undefined,
-                    "src": "chrome.png",
+                    "viewBox": "0 0 100 100",
                     "width": undefined,
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
-                  "stateNode": <img
+                  "stateNode": <svg
                     alt="Browser Chrome icon"
                     class="Browser__Icon"
-                    data-tip=""
-                    src="chrome.png"
-                  />,
+                    viewBox="0 0 100 100"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>,
                   "tag": 5,
                   "treeBaseTime": 0,
-                  "type": "img",
+                  "type": "svg",
                   "updateQueue": null,
                 },
-                "stateNode": ,
-                "tag": 6,
+                "stateNode": <img
+                  alt="Browser Chrome icon"
+                  class="Browser__Icon"
+                  src="chrome.png"
+                  style="display: none;"
+                  title=""
+                />,
+                "tag": 5,
                 "treeBaseTime": 0,
-                "type": null,
+                "type": "img",
                 "updateQueue": null,
               },
               "effectTag": 1,
@@ -1922,7 +2348,9 @@ ReactWrapper {
                 "tooltip": "",
                 "width": undefined,
               },
-              "memoizedState": Object {},
+              "memoizedState": Object {
+                "loaded": false,
+              },
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
@@ -2023,13 +2451,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -2142,13 +2583,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -2345,13 +2799,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -2464,13 +2931,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -2729,13 +3209,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -2848,13 +3341,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -3051,13 +3557,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -3170,13 +3689,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -3297,13 +3829,26 @@ ReactWrapper {
                 "stateNode": <div
                   class="d-inline Browser"
                 >
-                  
                   <img
                     alt="Browser Chrome icon"
                     class="Browser__Icon"
-                    data-tip=""
                     src="chrome.png"
+                    style="display: none;"
+                    title=""
                   />
+                  <svg
+                    alt="Browser Chrome icon"
+                    class="Browser__Icon"
+                    viewBox="0 0 100 100"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>
                   <div
                     class="Browser__Text"
                   >
@@ -3405,13 +3950,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -3524,13 +4082,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -3694,13 +4265,26 @@ ReactWrapper {
                     "stateNode": <div
                       class="d-inline Browser"
                     >
-                      
                       <img
                         alt="Browser Chrome icon"
                         class="Browser__Icon"
-                        data-tip=""
                         src="chrome.png"
+                        style="display: none;"
+                        title=""
                       />
+                      <svg
+                        alt="Browser Chrome icon"
+                        class="Browser__Icon"
+                        viewBox="0 0 100 100"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                       <div
                         class="Browser__Text"
                       >
@@ -3815,13 +4399,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -3934,13 +4531,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -4061,7 +4671,7 @@ ReactWrapper {
                 "actualStartTime": 0,
                 "alternate": null,
                 "child": FiberNode {
-                  "_debugID": 12,
+                  "_debugID": 14,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
                   "_debugSource": null,
@@ -4084,7 +4694,7 @@ ReactWrapper {
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": FiberNode {
-                    "_debugID": 13,
+                    "_debugID": 15,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": null,
                     "_debugSource": null,
@@ -4230,13 +4840,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -4349,13 +4972,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -4552,13 +5188,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -4671,13 +5320,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -4936,13 +5598,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -5055,13 +5730,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -5258,13 +5946,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -5377,13 +6078,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -5504,13 +6218,26 @@ ReactWrapper {
                   "stateNode": <div
                     class="d-inline Browser"
                   >
-                    
                     <img
                       alt="Browser Chrome icon"
                       class="Browser__Icon"
-                      data-tip=""
                       src="chrome.png"
+                      style="display: none;"
+                      title=""
                     />
+                    <svg
+                      alt="Browser Chrome icon"
+                      class="Browser__Icon"
+                      viewBox="0 0 100 100"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                     <div
                       class="Browser__Text"
                     >
@@ -5633,13 +6360,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -5752,13 +6492,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -5955,13 +6708,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -6074,13 +6840,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -6339,13 +7118,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -6458,13 +7250,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -6661,13 +7466,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -6780,13 +7598,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -6907,13 +7738,26 @@ ReactWrapper {
                     "stateNode": <div
                       class="d-inline Browser"
                     >
-                      
                       <img
                         alt="Browser Chrome icon"
                         class="Browser__Icon"
-                        data-tip=""
                         src="chrome.png"
+                        style="display: none;"
+                        title=""
                       />
+                      <svg
+                        alt="Browser Chrome icon"
+                        class="Browser__Icon"
+                        viewBox="0 0 100 100"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                       <div
                         class="Browser__Text"
                       >
@@ -6950,7 +7794,20 @@ ReactWrapper {
               "tag": 2,
               "treeBaseTime": 0,
               "type": [Function],
-              "updateQueue": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "loaded": false,
+                },
+                "expirationTime": 0,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
             },
             "_reactInternalInstance": Object {},
             "context": Object {},
@@ -6965,7 +7822,9 @@ ReactWrapper {
               "width": undefined,
             },
             "refs": Object {},
-            "state": Object {},
+            "state": Object {
+              "loaded": false,
+            },
             "updater": Object {
               "enqueueForceUpdate": [Function],
               "enqueueReplaceState": [Function],
@@ -6987,22 +7846,26 @@ ReactWrapper {
           },
           "ref": null,
           "rendered": Array [
-            "",
             Object {
               "instance": <img
                 alt="Browser Chrome icon"
                 class="Browser__Icon"
-                data-tip=""
                 src="chrome.png"
+                style="display: none;"
+                title=""
               />,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
                 "alt": "Browser Chrome icon",
                 "className": "Browser__Icon",
-                "data-tip": "",
                 "height": undefined,
+                "onLoad": [Function],
                 "src": "chrome.png",
+                "style": Object {
+                  "display": "none",
+                },
+                "title": "",
                 "width": undefined,
               },
               "ref": null,
@@ -7010,6 +7873,79 @@ ReactWrapper {
                 undefined,
               ],
               "type": "img",
+            },
+            Object {
+              "instance": <svg
+                alt="Browser Chrome icon"
+                class="Browser__Icon"
+                viewBox="0 0 100 100"
+              >
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                >
+                  <title />
+                </rect>
+              </svg>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "alt": "Browser Chrome icon",
+                "children": <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                >
+                  <title>
+                    
+                  </title>
+                </rect>,
+                "className": "Browser__Icon",
+                "height": undefined,
+                "viewBox": "0 0 100 100",
+                "width": undefined,
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title />
+                  </rect>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": <title>
+                      
+                    </title>,
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <title />,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        "",
+                      ],
+                      "type": "title",
+                    },
+                  ],
+                  "type": "rect",
+                },
+              ],
+              "type": "svg",
             },
           ],
           "type": [Function],
@@ -7130,13 +8066,26 @@ ReactWrapper {
                     <div
                       class="d-inline Browser"
                     >
-                      
                       <img
                         alt="Browser Chrome icon"
                         class="Browser__Icon"
-                        data-tip=""
                         src="chrome.png"
+                        style="display: none;"
+                        title=""
                       />
+                      <svg
+                        alt="Browser Chrome icon"
+                        class="Browser__Icon"
+                        viewBox="0 0 100 100"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                       <div
                         class="Browser__Text"
                       >
@@ -7249,13 +8198,26 @@ ReactWrapper {
                   <div
                     class="d-inline Browser"
                   >
-                    
                     <img
                       alt="Browser Chrome icon"
                       class="Browser__Icon"
-                      data-tip=""
                       src="chrome.png"
+                      style="display: none;"
+                      title=""
                     />
+                    <svg
+                      alt="Browser Chrome icon"
+                      class="Browser__Icon"
+                      viewBox="0 0 100 100"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                     <div
                       class="Browser__Text"
                     >
@@ -7369,7 +8331,7 @@ ReactWrapper {
               "child": FiberNode {
                 "_debugID": 10,
                 "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
+                "_debugOwner": [Circular],
                 "_debugSource": null,
                 "actualDuration": 0,
                 "actualStartTime": 0,
@@ -7381,11 +8343,33 @@ ReactWrapper {
                 "index": 0,
                 "key": null,
                 "lastEffect": null,
-                "memoizedProps": "",
+                "memoizedProps": Object {
+                  "alt": "Browser Chrome icon",
+                  "className": "Browser__Icon",
+                  "height": undefined,
+                  "onLoad": [Function],
+                  "src": "chrome.png",
+                  "style": Object {
+                    "display": "none",
+                  },
+                  "title": "",
+                  "width": undefined,
+                },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
-                "pendingProps": "",
+                "pendingProps": Object {
+                  "alt": "Browser Chrome icon",
+                  "className": "Browser__Icon",
+                  "height": undefined,
+                  "onLoad": [Function],
+                  "src": "chrome.png",
+                  "style": Object {
+                    "display": "none",
+                  },
+                  "title": "",
+                  "width": undefined,
+                },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
@@ -7397,7 +8381,89 @@ ReactWrapper {
                   "actualDuration": 0,
                   "actualStartTime": 0,
                   "alternate": null,
-                  "child": null,
+                  "child": FiberNode {
+                    "_debugID": 12,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": 0,
+                    "alternate": null,
+                    "child": FiberNode {
+                      "_debugID": 13,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": 0,
+                      "alternate": null,
+                      "child": null,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": "",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": "",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseTime": 0,
+                      "sibling": null,
+                      "stateNode": <title />,
+                      "tag": 5,
+                      "treeBaseTime": 0,
+                      "type": "title",
+                      "updateQueue": null,
+                    },
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "children": <title>
+                        
+                      </title>,
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "children": <title>
+                        
+                      </title>,
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseTime": 0,
+                    "sibling": null,
+                    "stateNode": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>,
+                    "tag": 5,
+                    "treeBaseTime": 0,
+                    "type": "rect",
+                    "updateQueue": null,
+                  },
                   "effectTag": 0,
                   "expirationTime": 0,
                   "firstEffect": null,
@@ -7406,10 +8472,18 @@ ReactWrapper {
                   "lastEffect": null,
                   "memoizedProps": Object {
                     "alt": "Browser Chrome icon",
+                    "children": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title>
+                        
+                      </title>
+                    </rect>,
                     "className": "Browser__Icon",
-                    "data-tip": "",
                     "height": undefined,
-                    "src": "chrome.png",
+                    "viewBox": "0 0 100 100",
                     "width": undefined,
                   },
                   "memoizedState": null,
@@ -7417,31 +8491,52 @@ ReactWrapper {
                   "nextEffect": null,
                   "pendingProps": Object {
                     "alt": "Browser Chrome icon",
+                    "children": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title>
+                        
+                      </title>
+                    </rect>,
                     "className": "Browser__Icon",
-                    "data-tip": "",
                     "height": undefined,
-                    "src": "chrome.png",
+                    "viewBox": "0 0 100 100",
                     "width": undefined,
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
-                  "stateNode": <img
+                  "stateNode": <svg
                     alt="Browser Chrome icon"
                     class="Browser__Icon"
-                    data-tip=""
-                    src="chrome.png"
-                  />,
+                    viewBox="0 0 100 100"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>,
                   "tag": 5,
                   "treeBaseTime": 0,
-                  "type": "img",
+                  "type": "svg",
                   "updateQueue": null,
                 },
-                "stateNode": ,
-                "tag": 6,
+                "stateNode": <img
+                  alt="Browser Chrome icon"
+                  class="Browser__Icon"
+                  src="chrome.png"
+                  style="display: none;"
+                  title=""
+                />,
+                "tag": 5,
                 "treeBaseTime": 0,
-                "type": null,
+                "type": "img",
                 "updateQueue": null,
               },
               "effectTag": 1,
@@ -7460,7 +8555,9 @@ ReactWrapper {
                 "tooltip": "",
                 "width": undefined,
               },
-              "memoizedState": Object {},
+              "memoizedState": Object {
+                "loaded": false,
+              },
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
@@ -7485,7 +8582,7 @@ ReactWrapper {
                 "actualStartTime": 0,
                 "alternate": null,
                 "child": FiberNode {
-                  "_debugID": 12,
+                  "_debugID": 14,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
                   "_debugSource": null,
@@ -7508,7 +8605,7 @@ ReactWrapper {
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": FiberNode {
-                    "_debugID": 13,
+                    "_debugID": 15,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": null,
                     "_debugSource": null,
@@ -7625,7 +8722,9 @@ ReactWrapper {
                   "width": undefined,
                 },
                 "refs": Object {},
-                "state": Object {},
+                "state": Object {
+                  "loaded": false,
+                },
                 "updater": Object {
                   "enqueueForceUpdate": [Function],
                   "enqueueReplaceState": [Function],
@@ -7636,7 +8735,20 @@ ReactWrapper {
               "tag": 2,
               "treeBaseTime": 0,
               "type": [Function],
-              "updateQueue": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "loaded": false,
+                },
+                "expirationTime": 0,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
             },
             "effectTag": 0,
             "expirationTime": 0,
@@ -7698,13 +8810,26 @@ ReactWrapper {
             "stateNode": <div
               class="d-inline Browser"
             >
-              
               <img
                 alt="Browser Chrome icon"
                 class="Browser__Icon"
-                data-tip=""
                 src="chrome.png"
+                style="display: none;"
+                title=""
               />
+              <svg
+                alt="Browser Chrome icon"
+                class="Browser__Icon"
+                viewBox="0 0 100 100"
+              >
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                >
+                  <title />
+                </rect>
+              </svg>
               <div
                 class="Browser__Text"
               >
@@ -7819,13 +8944,26 @@ ReactWrapper {
                     <div
                       class="d-inline Browser"
                     >
-                      
                       <img
                         alt="Browser Chrome icon"
                         class="Browser__Icon"
-                        data-tip=""
                         src="chrome.png"
+                        style="display: none;"
+                        title=""
                       />
+                      <svg
+                        alt="Browser Chrome icon"
+                        class="Browser__Icon"
+                        viewBox="0 0 100 100"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                       <div
                         class="Browser__Text"
                       >
@@ -7938,13 +9076,26 @@ ReactWrapper {
                   <div
                     class="d-inline Browser"
                   >
-                    
                     <img
                       alt="Browser Chrome icon"
                       class="Browser__Icon"
-                      data-tip=""
                       src="chrome.png"
+                      style="display: none;"
+                      title=""
                     />
+                    <svg
+                      alt="Browser Chrome icon"
+                      class="Browser__Icon"
+                      viewBox="0 0 100 100"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                     <div
                       class="Browser__Text"
                     >
@@ -8071,13 +9222,26 @@ ReactWrapper {
         "instance": <div
           class="d-inline Browser"
         >
-          
           <img
             alt="Browser Chrome icon"
             class="Browser__Icon"
-            data-tip=""
             src="chrome.png"
+            style="display: none;"
+            title=""
           />
+          <svg
+            alt="Browser Chrome icon"
+            class="Browser__Icon"
+            viewBox="0 0 100 100"
+          >
+            <rect
+              fill="#CCC"
+              height="100"
+              width="100"
+            >
+              <title />
+            </rect>
+          </svg>
           <div
             class="Browser__Text"
           >
@@ -8201,13 +9365,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -8320,13 +9497,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -8490,13 +9680,26 @@ ReactWrapper {
                     "stateNode": <div
                       class="d-inline Browser"
                     >
-                      
                       <img
                         alt="Browser Chrome icon"
                         class="Browser__Icon"
-                        data-tip=""
                         src="chrome.png"
+                        style="display: none;"
+                        title=""
                       />
+                      <svg
+                        alt="Browser Chrome icon"
+                        class="Browser__Icon"
+                        viewBox="0 0 100 100"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                       <div
                         class="Browser__Text"
                       >
@@ -8611,13 +9814,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -8730,13 +9946,26 @@ ReactWrapper {
                           <div
                             class="d-inline Browser"
                           >
-                            
                             <img
                               alt="Browser Chrome icon"
                               class="Browser__Icon"
-                              data-tip=""
                               src="chrome.png"
+                              style="display: none;"
+                              title=""
                             />
+                            <svg
+                              alt="Browser Chrome icon"
+                              class="Browser__Icon"
+                              viewBox="0 0 100 100"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                             <div
                               class="Browser__Text"
                             >
@@ -8859,7 +10088,7 @@ ReactWrapper {
                 "child": FiberNode {
                   "_debugID": 10,
                   "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
+                  "_debugOwner": [Circular],
                   "_debugSource": null,
                   "actualDuration": 0,
                   "actualStartTime": 0,
@@ -8871,11 +10100,33 @@ ReactWrapper {
                   "index": 0,
                   "key": null,
                   "lastEffect": null,
-                  "memoizedProps": "",
+                  "memoizedProps": Object {
+                    "alt": "Browser Chrome icon",
+                    "className": "Browser__Icon",
+                    "height": undefined,
+                    "onLoad": [Function],
+                    "src": "chrome.png",
+                    "style": Object {
+                      "display": "none",
+                    },
+                    "title": "",
+                    "width": undefined,
+                  },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
-                  "pendingProps": "",
+                  "pendingProps": Object {
+                    "alt": "Browser Chrome icon",
+                    "className": "Browser__Icon",
+                    "height": undefined,
+                    "onLoad": [Function],
+                    "src": "chrome.png",
+                    "style": Object {
+                      "display": "none",
+                    },
+                    "title": "",
+                    "width": undefined,
+                  },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
@@ -8887,7 +10138,89 @@ ReactWrapper {
                     "actualDuration": 0,
                     "actualStartTime": 0,
                     "alternate": null,
-                    "child": null,
+                    "child": FiberNode {
+                      "_debugID": 12,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": 0,
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 13,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": 0,
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseTime": 0,
+                        "sibling": null,
+                        "stateNode": <title />,
+                        "tag": 5,
+                        "treeBaseTime": 0,
+                        "type": "title",
+                        "updateQueue": null,
+                      },
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": <title>
+                          
+                        </title>,
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": <title>
+                          
+                        </title>,
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseTime": 0,
+                      "sibling": null,
+                      "stateNode": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>,
+                      "tag": 5,
+                      "treeBaseTime": 0,
+                      "type": "rect",
+                      "updateQueue": null,
+                    },
                     "effectTag": 0,
                     "expirationTime": 0,
                     "firstEffect": null,
@@ -8896,10 +10229,18 @@ ReactWrapper {
                     "lastEffect": null,
                     "memoizedProps": Object {
                       "alt": "Browser Chrome icon",
+                      "children": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title>
+                          
+                        </title>
+                      </rect>,
                       "className": "Browser__Icon",
-                      "data-tip": "",
                       "height": undefined,
-                      "src": "chrome.png",
+                      "viewBox": "0 0 100 100",
                       "width": undefined,
                     },
                     "memoizedState": null,
@@ -8907,31 +10248,52 @@ ReactWrapper {
                     "nextEffect": null,
                     "pendingProps": Object {
                       "alt": "Browser Chrome icon",
+                      "children": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title>
+                          
+                        </title>
+                      </rect>,
                       "className": "Browser__Icon",
-                      "data-tip": "",
                       "height": undefined,
-                      "src": "chrome.png",
+                      "viewBox": "0 0 100 100",
                       "width": undefined,
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
                     "sibling": null,
-                    "stateNode": <img
+                    "stateNode": <svg
                       alt="Browser Chrome icon"
                       class="Browser__Icon"
-                      data-tip=""
-                      src="chrome.png"
-                    />,
+                      viewBox="0 0 100 100"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>,
                     "tag": 5,
                     "treeBaseTime": 0,
-                    "type": "img",
+                    "type": "svg",
                     "updateQueue": null,
                   },
-                  "stateNode": ,
-                  "tag": 6,
+                  "stateNode": <img
+                    alt="Browser Chrome icon"
+                    class="Browser__Icon"
+                    src="chrome.png"
+                    style="display: none;"
+                    title=""
+                  />,
+                  "tag": 5,
                   "treeBaseTime": 0,
-                  "type": null,
+                  "type": "img",
                   "updateQueue": null,
                 },
                 "effectTag": 1,
@@ -8950,7 +10312,9 @@ ReactWrapper {
                   "tooltip": "",
                   "width": undefined,
                 },
-                "memoizedState": Object {},
+                "memoizedState": Object {
+                  "loaded": false,
+                },
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
@@ -9051,13 +10415,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -9170,13 +10547,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -9373,13 +10763,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -9492,13 +10895,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -9757,13 +11173,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -9876,13 +11305,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -10079,13 +11521,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -10198,13 +11653,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -10325,13 +11793,26 @@ ReactWrapper {
                   "stateNode": <div
                     class="d-inline Browser"
                   >
-                    
                     <img
                       alt="Browser Chrome icon"
                       class="Browser__Icon"
-                      data-tip=""
                       src="chrome.png"
+                      style="display: none;"
+                      title=""
                     />
+                    <svg
+                      alt="Browser Chrome icon"
+                      class="Browser__Icon"
+                      viewBox="0 0 100 100"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                     <div
                       class="Browser__Text"
                     >
@@ -10433,13 +11914,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -10552,13 +12046,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -10722,13 +12229,26 @@ ReactWrapper {
                       "stateNode": <div
                         class="d-inline Browser"
                       >
-                        
                         <img
                           alt="Browser Chrome icon"
                           class="Browser__Icon"
-                          data-tip=""
                           src="chrome.png"
+                          style="display: none;"
+                          title=""
                         />
+                        <svg
+                          alt="Browser Chrome icon"
+                          class="Browser__Icon"
+                          viewBox="0 0 100 100"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                         <div
                           class="Browser__Text"
                         >
@@ -10843,13 +12363,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -10962,13 +12495,26 @@ ReactWrapper {
                             <div
                               class="d-inline Browser"
                             >
-                              
                               <img
                                 alt="Browser Chrome icon"
                                 class="Browser__Icon"
-                                data-tip=""
                                 src="chrome.png"
+                                style="display: none;"
+                                title=""
                               />
+                              <svg
+                                alt="Browser Chrome icon"
+                                class="Browser__Icon"
+                                viewBox="0 0 100 100"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                               <div
                                 class="Browser__Text"
                               >
@@ -11089,7 +12635,7 @@ ReactWrapper {
                   "actualStartTime": 0,
                   "alternate": null,
                   "child": FiberNode {
-                    "_debugID": 12,
+                    "_debugID": 14,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": null,
                     "_debugSource": null,
@@ -11112,7 +12658,7 @@ ReactWrapper {
                     "return": [Circular],
                     "selfBaseTime": 0,
                     "sibling": FiberNode {
-                      "_debugID": 13,
+                      "_debugID": 15,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": null,
                       "_debugSource": null,
@@ -11258,13 +12804,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -11377,13 +12936,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -11580,13 +13152,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -11699,13 +13284,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -11964,13 +13562,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -12083,13 +13694,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -12286,13 +13910,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -12405,13 +14042,26 @@ ReactWrapper {
                               <div
                                 class="d-inline Browser"
                               >
-                                
                                 <img
                                   alt="Browser Chrome icon"
                                   class="Browser__Icon"
-                                  data-tip=""
                                   src="chrome.png"
+                                  style="display: none;"
+                                  title=""
                                 />
+                                <svg
+                                  alt="Browser Chrome icon"
+                                  class="Browser__Icon"
+                                  viewBox="0 0 100 100"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                                 <div
                                   class="Browser__Text"
                                 >
@@ -12532,13 +14182,26 @@ ReactWrapper {
                     "stateNode": <div
                       class="d-inline Browser"
                     >
-                      
                       <img
                         alt="Browser Chrome icon"
                         class="Browser__Icon"
-                        data-tip=""
                         src="chrome.png"
+                        style="display: none;"
+                        title=""
                       />
+                      <svg
+                        alt="Browser Chrome icon"
+                        class="Browser__Icon"
+                        viewBox="0 0 100 100"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                       <div
                         class="Browser__Text"
                       >
@@ -12661,13 +14324,26 @@ ReactWrapper {
                                   <div
                                     class="d-inline Browser"
                                   >
-                                    
                                     <img
                                       alt="Browser Chrome icon"
                                       class="Browser__Icon"
-                                      data-tip=""
                                       src="chrome.png"
+                                      style="display: none;"
+                                      title=""
                                     />
+                                    <svg
+                                      alt="Browser Chrome icon"
+                                      class="Browser__Icon"
+                                      viewBox="0 0 100 100"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                     <div
                                       class="Browser__Text"
                                     >
@@ -12780,13 +14456,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -12983,13 +14672,26 @@ ReactWrapper {
                                   <div
                                     class="d-inline Browser"
                                   >
-                                    
                                     <img
                                       alt="Browser Chrome icon"
                                       class="Browser__Icon"
-                                      data-tip=""
                                       src="chrome.png"
+                                      style="display: none;"
+                                      title=""
                                     />
+                                    <svg
+                                      alt="Browser Chrome icon"
+                                      class="Browser__Icon"
+                                      viewBox="0 0 100 100"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                     <div
                                       class="Browser__Text"
                                     >
@@ -13102,13 +14804,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -13367,13 +15082,26 @@ ReactWrapper {
                                   <div
                                     class="d-inline Browser"
                                   >
-                                    
                                     <img
                                       alt="Browser Chrome icon"
                                       class="Browser__Icon"
-                                      data-tip=""
                                       src="chrome.png"
+                                      style="display: none;"
+                                      title=""
                                     />
+                                    <svg
+                                      alt="Browser Chrome icon"
+                                      class="Browser__Icon"
+                                      viewBox="0 0 100 100"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                     <div
                                       class="Browser__Text"
                                     >
@@ -13486,13 +15214,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -13689,13 +15430,26 @@ ReactWrapper {
                                   <div
                                     class="d-inline Browser"
                                   >
-                                    
                                     <img
                                       alt="Browser Chrome icon"
                                       class="Browser__Icon"
-                                      data-tip=""
                                       src="chrome.png"
+                                      style="display: none;"
+                                      title=""
                                     />
+                                    <svg
+                                      alt="Browser Chrome icon"
+                                      class="Browser__Icon"
+                                      viewBox="0 0 100 100"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                     <div
                                       class="Browser__Text"
                                     >
@@ -13808,13 +15562,26 @@ ReactWrapper {
                                 <div
                                   class="d-inline Browser"
                                 >
-                                  
                                   <img
                                     alt="Browser Chrome icon"
                                     class="Browser__Icon"
-                                    data-tip=""
                                     src="chrome.png"
+                                    style="display: none;"
+                                    title=""
                                   />
+                                  <svg
+                                    alt="Browser Chrome icon"
+                                    class="Browser__Icon"
+                                    viewBox="0 0 100 100"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                   <div
                                     class="Browser__Text"
                                   >
@@ -13935,13 +15702,26 @@ ReactWrapper {
                       "stateNode": <div
                         class="d-inline Browser"
                       >
-                        
                         <img
                           alt="Browser Chrome icon"
                           class="Browser__Icon"
-                          data-tip=""
                           src="chrome.png"
+                          style="display: none;"
+                          title=""
                         />
+                        <svg
+                          alt="Browser Chrome icon"
+                          class="Browser__Icon"
+                          viewBox="0 0 100 100"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                         <div
                           class="Browser__Text"
                         >
@@ -13978,7 +15758,20 @@ ReactWrapper {
                 "tag": 2,
                 "treeBaseTime": 0,
                 "type": [Function],
-                "updateQueue": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "loaded": false,
+                  },
+                  "expirationTime": 0,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
               },
               "_reactInternalInstance": Object {},
               "context": Object {},
@@ -13993,7 +15786,9 @@ ReactWrapper {
                 "width": undefined,
               },
               "refs": Object {},
-              "state": Object {},
+              "state": Object {
+                "loaded": false,
+              },
               "updater": Object {
                 "enqueueForceUpdate": [Function],
                 "enqueueReplaceState": [Function],
@@ -14015,22 +15810,26 @@ ReactWrapper {
             },
             "ref": null,
             "rendered": Array [
-              "",
               Object {
                 "instance": <img
                   alt="Browser Chrome icon"
                   class="Browser__Icon"
-                  data-tip=""
                   src="chrome.png"
+                  style="display: none;"
+                  title=""
                 />,
                 "key": undefined,
                 "nodeType": "host",
                 "props": Object {
                   "alt": "Browser Chrome icon",
                   "className": "Browser__Icon",
-                  "data-tip": "",
                   "height": undefined,
+                  "onLoad": [Function],
                   "src": "chrome.png",
+                  "style": Object {
+                    "display": "none",
+                  },
+                  "title": "",
                   "width": undefined,
                 },
                 "ref": null,
@@ -14038,6 +15837,79 @@ ReactWrapper {
                   undefined,
                 ],
                 "type": "img",
+              },
+              Object {
+                "instance": <svg
+                  alt="Browser Chrome icon"
+                  class="Browser__Icon"
+                  viewBox="0 0 100 100"
+                >
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title />
+                  </rect>
+                </svg>,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "alt": "Browser Chrome icon",
+                  "children": <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title>
+                      
+                    </title>
+                  </rect>,
+                  "className": "Browser__Icon",
+                  "height": undefined,
+                  "viewBox": "0 0 100 100",
+                  "width": undefined,
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": <title>
+                        
+                      </title>,
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <title />,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": "",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          "",
+                        ],
+                        "type": "title",
+                      },
+                    ],
+                    "type": "rect",
+                  },
+                ],
+                "type": "svg",
               },
             ],
             "type": [Function],

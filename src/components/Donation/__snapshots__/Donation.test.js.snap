@@ -105,14 +105,28 @@ ReactWrapper {
                     data-tip=""
                     target="_blank"
                   >
-                    
                     <img
                       alt="Open collective logo"
                       class="img-fluid"
-                      data-tip=""
                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      style="display: none;"
+                      title=""
                       width="300"
                     />
+                    <svg
+                      alt="Open collective logo"
+                      class="img-fluid"
+                      viewBox="0 0 100 100"
+                      width="300"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                   </a>
                 </div>,
                 "context": Object {},
@@ -221,14 +235,28 @@ ReactWrapper {
                   data-tip=""
                   target="_blank"
                 >
-                  
                   <img
                     alt="Open collective logo"
                     class="img-fluid"
-                    data-tip=""
                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                    style="display: none;"
+                    title=""
                     width="300"
                   />
+                  <svg
+                    alt="Open collective logo"
+                    class="img-fluid"
+                    viewBox="0 0 100 100"
+                    width="300"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>
                 </a>
               </div>,
               "context": Object {},
@@ -366,7 +394,7 @@ ReactWrapper {
                 "child": FiberNode {
                   "_debugID": 10,
                   "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
+                  "_debugOwner": [Circular],
                   "_debugSource": null,
                   "actualDuration": 0,
                   "actualStartTime": 0,
@@ -378,11 +406,33 @@ ReactWrapper {
                   "index": 0,
                   "key": null,
                   "lastEffect": null,
-                  "memoizedProps": "",
+                  "memoizedProps": Object {
+                    "alt": "Open collective logo",
+                    "className": "img-fluid",
+                    "height": undefined,
+                    "onLoad": [Function],
+                    "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                    "style": Object {
+                      "display": "none",
+                    },
+                    "title": "",
+                    "width": "300",
+                  },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
-                  "pendingProps": "",
+                  "pendingProps": Object {
+                    "alt": "Open collective logo",
+                    "className": "img-fluid",
+                    "height": undefined,
+                    "onLoad": [Function],
+                    "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                    "style": Object {
+                      "display": "none",
+                    },
+                    "title": "",
+                    "width": "300",
+                  },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
@@ -394,7 +444,89 @@ ReactWrapper {
                     "actualDuration": 0,
                     "actualStartTime": 0,
                     "alternate": null,
-                    "child": null,
+                    "child": FiberNode {
+                      "_debugID": 12,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": 0,
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 13,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": 0,
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseTime": 0,
+                        "sibling": null,
+                        "stateNode": <title />,
+                        "tag": 5,
+                        "treeBaseTime": 0,
+                        "type": "title",
+                        "updateQueue": null,
+                      },
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": <title>
+                          
+                        </title>,
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": <title>
+                          
+                        </title>,
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseTime": 0,
+                      "sibling": null,
+                      "stateNode": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>,
+                      "tag": 5,
+                      "treeBaseTime": 0,
+                      "type": "rect",
+                      "updateQueue": null,
+                    },
                     "effectTag": 0,
                     "expirationTime": 0,
                     "firstEffect": null,
@@ -403,10 +535,18 @@ ReactWrapper {
                     "lastEffect": null,
                     "memoizedProps": Object {
                       "alt": "Open collective logo",
+                      "children": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title>
+                          
+                        </title>
+                      </rect>,
                       "className": "img-fluid",
-                      "data-tip": "",
                       "height": undefined,
-                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "viewBox": "0 0 100 100",
                       "width": "300",
                     },
                     "memoizedState": null,
@@ -414,32 +554,54 @@ ReactWrapper {
                     "nextEffect": null,
                     "pendingProps": Object {
                       "alt": "Open collective logo",
+                      "children": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title>
+                          
+                        </title>
+                      </rect>,
                       "className": "img-fluid",
-                      "data-tip": "",
                       "height": undefined,
-                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "viewBox": "0 0 100 100",
                       "width": "300",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
                     "sibling": null,
-                    "stateNode": <img
+                    "stateNode": <svg
                       alt="Open collective logo"
                       class="img-fluid"
-                      data-tip=""
-                      src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      viewBox="0 0 100 100"
                       width="300"
-                    />,
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>,
                     "tag": 5,
                     "treeBaseTime": 0,
-                    "type": "img",
+                    "type": "svg",
                     "updateQueue": null,
                   },
-                  "stateNode": ,
-                  "tag": 6,
+                  "stateNode": <img
+                    alt="Open collective logo"
+                    class="img-fluid"
+                    src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                    style="display: none;"
+                    title=""
+                    width="300"
+                  />,
+                  "tag": 5,
                   "treeBaseTime": 0,
-                  "type": null,
+                  "type": "img",
                   "updateQueue": null,
                 },
                 "effectTag": 1,
@@ -458,7 +620,9 @@ ReactWrapper {
                   "tooltip": "",
                   "width": "300",
                 },
-                "memoizedState": Object {},
+                "memoizedState": Object {
+                  "loaded": false,
+                },
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
@@ -490,7 +654,9 @@ ReactWrapper {
                     "width": "300",
                   },
                   "refs": Object {},
-                  "state": Object {},
+                  "state": Object {
+                    "loaded": false,
+                  },
                   "updater": Object {
                     "enqueueForceUpdate": [Function],
                     "enqueueReplaceState": [Function],
@@ -501,7 +667,20 @@ ReactWrapper {
                 "tag": 2,
                 "treeBaseTime": 0,
                 "type": [Function],
-                "updateQueue": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "loaded": false,
+                  },
+                  "expirationTime": 0,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
               },
               "effectTag": 0,
               "expirationTime": 0,
@@ -555,14 +734,28 @@ ReactWrapper {
                 data-tip=""
                 target="_blank"
               >
-                
                 <img
                   alt="Open collective logo"
                   class="img-fluid"
-                  data-tip=""
                   src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                  style="display: none;"
+                  title=""
                   width="300"
                 />
+                <svg
+                  alt="Open collective logo"
+                  class="img-fluid"
+                  viewBox="0 0 100 100"
+                  width="300"
+                >
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title />
+                  </rect>
+                </svg>
               </a>,
               "tag": 5,
               "treeBaseTime": 0,
@@ -761,14 +954,28 @@ ReactWrapper {
                     data-tip=""
                     target="_blank"
                   >
-                    
                     <img
                       alt="Open collective logo"
                       class="img-fluid"
-                      data-tip=""
                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      style="display: none;"
+                      title=""
                       width="300"
                     />
+                    <svg
+                      alt="Open collective logo"
+                      class="img-fluid"
+                      viewBox="0 0 100 100"
+                      width="300"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                   </a>
                 </div>,
                 "context": Object {},
@@ -877,14 +1084,28 @@ ReactWrapper {
                   data-tip=""
                   target="_blank"
                 >
-                  
                   <img
                     alt="Open collective logo"
                     class="img-fluid"
-                    data-tip=""
                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                    style="display: none;"
+                    title=""
                     width="300"
                   />
+                  <svg
+                    alt="Open collective logo"
+                    class="img-fluid"
+                    viewBox="0 0 100 100"
+                    width="300"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>
                 </a>
               </div>,
               "context": Object {},
@@ -1092,14 +1313,28 @@ ReactWrapper {
                         data-tip=""
                         target="_blank"
                       >
-                        
                         <img
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
                           src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          style="display: none;"
+                          title=""
                           width="300"
                         />
+                        <svg
+                          alt="Open collective logo"
+                          class="img-fluid"
+                          viewBox="0 0 100 100"
+                          width="300"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                       </a>
                     </div>,
                     "context": Object {},
@@ -1208,14 +1443,28 @@ ReactWrapper {
                       data-tip=""
                       target="_blank"
                     >
-                      
                       <img
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        style="display: none;"
+                        title=""
                         width="300"
                       />
+                      <svg
+                        alt="Open collective logo"
+                        class="img-fluid"
+                        viewBox="0 0 100 100"
+                        width="300"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                     </a>
                   </div>,
                   "context": Object {},
@@ -1408,14 +1657,28 @@ ReactWrapper {
                         data-tip=""
                         target="_blank"
                       >
-                        
                         <img
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
                           src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          style="display: none;"
+                          title=""
                           width="300"
                         />
+                        <svg
+                          alt="Open collective logo"
+                          class="img-fluid"
+                          viewBox="0 0 100 100"
+                          width="300"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                       </a>
                     </div>,
                     "context": Object {},
@@ -1524,14 +1787,28 @@ ReactWrapper {
                       data-tip=""
                       target="_blank"
                     >
-                      
                       <img
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        style="display: none;"
+                        title=""
                         width="300"
                       />
+                      <svg
+                        alt="Open collective logo"
+                        class="img-fluid"
+                        viewBox="0 0 100 100"
+                        width="300"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                     </a>
                   </div>,
                   "context": Object {},
@@ -1765,14 +2042,28 @@ ReactWrapper {
                               data-tip=""
                               target="_blank"
                             >
-                              
                               <img
                                 alt="Open collective logo"
                                 class="img-fluid"
-                                data-tip=""
                                 src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                style="display: none;"
+                                title=""
                                 width="300"
                               />
+                              <svg
+                                alt="Open collective logo"
+                                class="img-fluid"
+                                viewBox="0 0 100 100"
+                                width="300"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                             </a>
                           </div>,
                           "context": Object {},
@@ -1881,14 +2172,28 @@ ReactWrapper {
                             data-tip=""
                             target="_blank"
                           >
-                            
                             <img
                               alt="Open collective logo"
                               class="img-fluid"
-                              data-tip=""
                               src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                              style="display: none;"
+                              title=""
                               width="300"
                             />
+                            <svg
+                              alt="Open collective logo"
+                              class="img-fluid"
+                              viewBox="0 0 100 100"
+                              width="300"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                           </a>
                         </div>,
                         "context": Object {},
@@ -2081,14 +2386,28 @@ ReactWrapper {
                               data-tip=""
                               target="_blank"
                             >
-                              
                               <img
                                 alt="Open collective logo"
                                 class="img-fluid"
-                                data-tip=""
                                 src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                style="display: none;"
+                                title=""
                                 width="300"
                               />
+                              <svg
+                                alt="Open collective logo"
+                                class="img-fluid"
+                                viewBox="0 0 100 100"
+                                width="300"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                             </a>
                           </div>,
                           "context": Object {},
@@ -2197,14 +2516,28 @@ ReactWrapper {
                             data-tip=""
                             target="_blank"
                           >
-                            
                             <img
                               alt="Open collective logo"
                               class="img-fluid"
-                              data-tip=""
                               src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                              style="display: none;"
+                              title=""
                               width="300"
                             />
+                            <svg
+                              alt="Open collective logo"
+                              class="img-fluid"
+                              viewBox="0 0 100 100"
+                              width="300"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                           </a>
                         </div>,
                         "context": Object {},
@@ -2320,7 +2653,7 @@ ReactWrapper {
                 "child": FiberNode {
                   "_debugID": 10,
                   "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
+                  "_debugOwner": [Circular],
                   "_debugSource": null,
                   "actualDuration": 0,
                   "actualStartTime": 0,
@@ -2332,11 +2665,33 @@ ReactWrapper {
                   "index": 0,
                   "key": null,
                   "lastEffect": null,
-                  "memoizedProps": "",
+                  "memoizedProps": Object {
+                    "alt": "Open collective logo",
+                    "className": "img-fluid",
+                    "height": undefined,
+                    "onLoad": [Function],
+                    "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                    "style": Object {
+                      "display": "none",
+                    },
+                    "title": "",
+                    "width": "300",
+                  },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
-                  "pendingProps": "",
+                  "pendingProps": Object {
+                    "alt": "Open collective logo",
+                    "className": "img-fluid",
+                    "height": undefined,
+                    "onLoad": [Function],
+                    "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                    "style": Object {
+                      "display": "none",
+                    },
+                    "title": "",
+                    "width": "300",
+                  },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
@@ -2348,7 +2703,89 @@ ReactWrapper {
                     "actualDuration": 0,
                     "actualStartTime": 0,
                     "alternate": null,
-                    "child": null,
+                    "child": FiberNode {
+                      "_debugID": 12,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": 0,
+                      "alternate": null,
+                      "child": FiberNode {
+                        "_debugID": 13,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": 0,
+                        "alternate": null,
+                        "child": null,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": "",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": "",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseTime": 0,
+                        "sibling": null,
+                        "stateNode": <title />,
+                        "tag": 5,
+                        "treeBaseTime": 0,
+                        "type": "title",
+                        "updateQueue": null,
+                      },
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstEffect": null,
+                      "index": 0,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "children": <title>
+                          
+                        </title>,
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "children": <title>
+                          
+                        </title>,
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseTime": 0,
+                      "sibling": null,
+                      "stateNode": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>,
+                      "tag": 5,
+                      "treeBaseTime": 0,
+                      "type": "rect",
+                      "updateQueue": null,
+                    },
                     "effectTag": 0,
                     "expirationTime": 0,
                     "firstEffect": null,
@@ -2357,10 +2794,18 @@ ReactWrapper {
                     "lastEffect": null,
                     "memoizedProps": Object {
                       "alt": "Open collective logo",
+                      "children": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title>
+                          
+                        </title>
+                      </rect>,
                       "className": "img-fluid",
-                      "data-tip": "",
                       "height": undefined,
-                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "viewBox": "0 0 100 100",
                       "width": "300",
                     },
                     "memoizedState": null,
@@ -2368,32 +2813,54 @@ ReactWrapper {
                     "nextEffect": null,
                     "pendingProps": Object {
                       "alt": "Open collective logo",
+                      "children": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title>
+                          
+                        </title>
+                      </rect>,
                       "className": "img-fluid",
-                      "data-tip": "",
                       "height": undefined,
-                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "viewBox": "0 0 100 100",
                       "width": "300",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
                     "sibling": null,
-                    "stateNode": <img
+                    "stateNode": <svg
                       alt="Open collective logo"
                       class="img-fluid"
-                      data-tip=""
-                      src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      viewBox="0 0 100 100"
                       width="300"
-                    />,
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>,
                     "tag": 5,
                     "treeBaseTime": 0,
-                    "type": "img",
+                    "type": "svg",
                     "updateQueue": null,
                   },
-                  "stateNode": ,
-                  "tag": 6,
+                  "stateNode": <img
+                    alt="Open collective logo"
+                    class="img-fluid"
+                    src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                    style="display: none;"
+                    title=""
+                    width="300"
+                  />,
+                  "tag": 5,
                   "treeBaseTime": 0,
-                  "type": null,
+                  "type": "img",
                   "updateQueue": null,
                 },
                 "effectTag": 1,
@@ -2412,7 +2879,9 @@ ReactWrapper {
                   "tooltip": "",
                   "width": "300",
                 },
-                "memoizedState": Object {},
+                "memoizedState": Object {
+                  "loaded": false,
+                },
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
@@ -2444,7 +2913,9 @@ ReactWrapper {
                     "width": "300",
                   },
                   "refs": Object {},
-                  "state": Object {},
+                  "state": Object {
+                    "loaded": false,
+                  },
                   "updater": Object {
                     "enqueueForceUpdate": [Function],
                     "enqueueReplaceState": [Function],
@@ -2455,7 +2926,20 @@ ReactWrapper {
                 "tag": 2,
                 "treeBaseTime": 0,
                 "type": [Function],
-                "updateQueue": null,
+                "updateQueue": Object {
+                  "baseState": Object {
+                    "loaded": false,
+                  },
+                  "expirationTime": 0,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": null,
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": null,
+                },
               },
               "effectTag": 0,
               "expirationTime": 0,
@@ -2509,14 +2993,28 @@ ReactWrapper {
                 data-tip=""
                 target="_blank"
               >
-                
                 <img
                   alt="Open collective logo"
                   class="img-fluid"
-                  data-tip=""
                   src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                  style="display: none;"
+                  title=""
                   width="300"
                 />
+                <svg
+                  alt="Open collective logo"
+                  class="img-fluid"
+                  viewBox="0 0 100 100"
+                  width="300"
+                >
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title />
+                  </rect>
+                </svg>
               </a>,
               "tag": 5,
               "treeBaseTime": 0,
@@ -2660,14 +3158,28 @@ ReactWrapper {
                         data-tip=""
                         target="_blank"
                       >
-                        
                         <img
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
                           src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          style="display: none;"
+                          title=""
                           width="300"
                         />
+                        <svg
+                          alt="Open collective logo"
+                          class="img-fluid"
+                          viewBox="0 0 100 100"
+                          width="300"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                       </a>
                     </div>,
                     "context": Object {},
@@ -2776,14 +3288,28 @@ ReactWrapper {
                       data-tip=""
                       target="_blank"
                     >
-                      
                       <img
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        style="display: none;"
+                        title=""
                         width="300"
                       />
+                      <svg
+                        alt="Open collective logo"
+                        class="img-fluid"
+                        viewBox="0 0 100 100"
+                        width="300"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                     </a>
                   </div>,
                   "context": Object {},
@@ -2976,14 +3502,28 @@ ReactWrapper {
                         data-tip=""
                         target="_blank"
                       >
-                        
                         <img
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
                           src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          style="display: none;"
+                          title=""
                           width="300"
                         />
+                        <svg
+                          alt="Open collective logo"
+                          class="img-fluid"
+                          viewBox="0 0 100 100"
+                          width="300"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                       </a>
                     </div>,
                     "context": Object {},
@@ -3092,14 +3632,28 @@ ReactWrapper {
                       data-tip=""
                       target="_blank"
                     >
-                      
                       <img
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        style="display: none;"
+                        title=""
                         width="300"
                       />
+                      <svg
+                        alt="Open collective logo"
+                        class="img-fluid"
+                        viewBox="0 0 100 100"
+                        width="300"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                     </a>
                   </div>,
                   "context": Object {},
@@ -3272,14 +3826,28 @@ ReactWrapper {
             data-tip=""
             target="_blank"
           >
-            
             <img
               alt="Open collective logo"
               class="img-fluid"
-              data-tip=""
               src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+              style="display: none;"
+              title=""
               width="300"
             />
+            <svg
+              alt="Open collective logo"
+              class="img-fluid"
+              viewBox="0 0 100 100"
+              width="300"
+            >
+              <rect
+                fill="#CCC"
+                height="100"
+                width="100"
+              >
+                <title />
+              </rect>
+            </svg>
           </a>,
           "key": undefined,
           "nodeType": "host",
@@ -3394,14 +3962,28 @@ ReactWrapper {
                                 data-tip=""
                                 target="_blank"
                               >
-                                
                                 <img
                                   alt="Open collective logo"
                                   class="img-fluid"
-                                  data-tip=""
                                   src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                  style="display: none;"
+                                  title=""
                                   width="300"
                                 />
+                                <svg
+                                  alt="Open collective logo"
+                                  class="img-fluid"
+                                  viewBox="0 0 100 100"
+                                  width="300"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                               </a>
                             </div>,
                             "context": Object {},
@@ -3510,14 +4092,28 @@ ReactWrapper {
                               data-tip=""
                               target="_blank"
                             >
-                              
                               <img
                                 alt="Open collective logo"
                                 class="img-fluid"
-                                data-tip=""
                                 src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                style="display: none;"
+                                title=""
                                 width="300"
                               />
+                              <svg
+                                alt="Open collective logo"
+                                class="img-fluid"
+                                viewBox="0 0 100 100"
+                                width="300"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                             </a>
                           </div>,
                           "context": Object {},
@@ -3697,14 +4293,28 @@ ReactWrapper {
                             data-tip=""
                             target="_blank"
                           >
-                            
                             <img
                               alt="Open collective logo"
                               class="img-fluid"
-                              data-tip=""
                               src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                              style="display: none;"
+                              title=""
                               width="300"
                             />
+                            <svg
+                              alt="Open collective logo"
+                              class="img-fluid"
+                              viewBox="0 0 100 100"
+                              width="300"
+                            >
+                              <rect
+                                fill="#CCC"
+                                height="100"
+                                width="100"
+                              >
+                                <title />
+                              </rect>
+                            </svg>
                           </a>,
                           "tag": 5,
                           "treeBaseTime": 0,
@@ -3903,14 +4513,28 @@ ReactWrapper {
                                 data-tip=""
                                 target="_blank"
                               >
-                                
                                 <img
                                   alt="Open collective logo"
                                   class="img-fluid"
-                                  data-tip=""
                                   src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                  style="display: none;"
+                                  title=""
                                   width="300"
                                 />
+                                <svg
+                                  alt="Open collective logo"
+                                  class="img-fluid"
+                                  viewBox="0 0 100 100"
+                                  width="300"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                               </a>
                             </div>,
                             "context": Object {},
@@ -4019,14 +4643,28 @@ ReactWrapper {
                               data-tip=""
                               target="_blank"
                             >
-                              
                               <img
                                 alt="Open collective logo"
                                 class="img-fluid"
-                                data-tip=""
                                 src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                style="display: none;"
+                                title=""
                                 width="300"
                               />
+                              <svg
+                                alt="Open collective logo"
+                                class="img-fluid"
+                                viewBox="0 0 100 100"
+                                width="300"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                             </a>
                           </div>,
                           "context": Object {},
@@ -4142,7 +4780,7 @@ ReactWrapper {
                   "child": FiberNode {
                     "_debugID": 10,
                     "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
+                    "_debugOwner": [Circular],
                     "_debugSource": null,
                     "actualDuration": 0,
                     "actualStartTime": 0,
@@ -4154,11 +4792,33 @@ ReactWrapper {
                     "index": 0,
                     "key": null,
                     "lastEffect": null,
-                    "memoizedProps": "",
+                    "memoizedProps": Object {
+                      "alt": "Open collective logo",
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "onLoad": [Function],
+                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "style": Object {
+                        "display": "none",
+                      },
+                      "title": "",
+                      "width": "300",
+                    },
                     "memoizedState": null,
                     "mode": 0,
                     "nextEffect": null,
-                    "pendingProps": "",
+                    "pendingProps": Object {
+                      "alt": "Open collective logo",
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "onLoad": [Function],
+                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "style": Object {
+                        "display": "none",
+                      },
+                      "title": "",
+                      "width": "300",
+                    },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
@@ -4170,7 +4830,89 @@ ReactWrapper {
                       "actualDuration": 0,
                       "actualStartTime": 0,
                       "alternate": null,
-                      "child": null,
+                      "child": FiberNode {
+                        "_debugID": 12,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": 0,
+                        "alternate": null,
+                        "child": FiberNode {
+                          "_debugID": 13,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": 0,
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": "",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseTime": 0,
+                          "sibling": null,
+                          "stateNode": <title />,
+                          "tag": 5,
+                          "treeBaseTime": 0,
+                          "type": "title",
+                          "updateQueue": null,
+                        },
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": <title>
+                            
+                          </title>,
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": <title>
+                            
+                          </title>,
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseTime": 0,
+                        "sibling": null,
+                        "stateNode": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>,
+                        "tag": 5,
+                        "treeBaseTime": 0,
+                        "type": "rect",
+                        "updateQueue": null,
+                      },
                       "effectTag": 0,
                       "expirationTime": 0,
                       "firstEffect": null,
@@ -4179,10 +4921,18 @@ ReactWrapper {
                       "lastEffect": null,
                       "memoizedProps": Object {
                         "alt": "Open collective logo",
+                        "children": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title>
+                            
+                          </title>
+                        </rect>,
                         "className": "img-fluid",
-                        "data-tip": "",
                         "height": undefined,
-                        "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                        "viewBox": "0 0 100 100",
                         "width": "300",
                       },
                       "memoizedState": null,
@@ -4190,32 +4940,54 @@ ReactWrapper {
                       "nextEffect": null,
                       "pendingProps": Object {
                         "alt": "Open collective logo",
+                        "children": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title>
+                            
+                          </title>
+                        </rect>,
                         "className": "img-fluid",
-                        "data-tip": "",
                         "height": undefined,
-                        "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                        "viewBox": "0 0 100 100",
                         "width": "300",
                       },
                       "ref": null,
                       "return": [Circular],
                       "selfBaseTime": 0,
                       "sibling": null,
-                      "stateNode": <img
+                      "stateNode": <svg
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
-                        src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        viewBox="0 0 100 100"
                         width="300"
-                      />,
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>,
                       "tag": 5,
                       "treeBaseTime": 0,
-                      "type": "img",
+                      "type": "svg",
                       "updateQueue": null,
                     },
-                    "stateNode": ,
-                    "tag": 6,
+                    "stateNode": <img
+                      alt="Open collective logo"
+                      class="img-fluid"
+                      src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      style="display: none;"
+                      title=""
+                      width="300"
+                    />,
+                    "tag": 5,
                     "treeBaseTime": 0,
-                    "type": null,
+                    "type": "img",
                     "updateQueue": null,
                   },
                   "effectTag": 1,
@@ -4234,7 +5006,9 @@ ReactWrapper {
                     "tooltip": "",
                     "width": "300",
                   },
-                  "memoizedState": Object {},
+                  "memoizedState": Object {
+                    "loaded": false,
+                  },
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
@@ -4341,14 +5115,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -4457,14 +5245,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -4657,14 +5459,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -4773,14 +5589,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -5054,14 +5884,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -5170,14 +6014,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -5370,14 +6228,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -5486,14 +6358,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -5778,14 +6664,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -5894,14 +6794,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -6094,14 +7008,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -6210,14 +7138,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -6491,14 +7433,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -6607,14 +7563,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -6807,14 +7777,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -6923,14 +7907,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -7083,14 +8081,28 @@ ReactWrapper {
                       data-tip=""
                       target="_blank"
                     >
-                      
                       <img
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        style="display: none;"
+                        title=""
                         width="300"
                       />
+                      <svg
+                        alt="Open collective logo"
+                        class="img-fluid"
+                        viewBox="0 0 100 100"
+                        width="300"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                     </a>,
                     "tag": 5,
                     "treeBaseTime": 0,
@@ -7103,7 +8115,20 @@ ReactWrapper {
                   "tag": 2,
                   "treeBaseTime": 0,
                   "type": [Function],
-                  "updateQueue": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "loaded": false,
+                    },
+                    "expirationTime": 0,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
                 },
                 "_reactInternalInstance": Object {},
                 "context": Object {},
@@ -7118,7 +8143,9 @@ ReactWrapper {
                   "width": "300",
                 },
                 "refs": Object {},
-                "state": Object {},
+                "state": Object {
+                  "loaded": false,
+                },
                 "updater": Object {
                   "enqueueForceUpdate": [Function],
                   "enqueueReplaceState": [Function],
@@ -7140,13 +8167,13 @@ ReactWrapper {
               },
               "ref": null,
               "rendered": Array [
-                "",
                 Object {
                   "instance": <img
                     alt="Open collective logo"
                     class="img-fluid"
-                    data-tip=""
                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                    style="display: none;"
+                    title=""
                     width="300"
                   />,
                   "key": undefined,
@@ -7154,9 +8181,13 @@ ReactWrapper {
                   "props": Object {
                     "alt": "Open collective logo",
                     "className": "img-fluid",
-                    "data-tip": "",
                     "height": undefined,
+                    "onLoad": [Function],
                     "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                    "style": Object {
+                      "display": "none",
+                    },
+                    "title": "",
                     "width": "300",
                   },
                   "ref": null,
@@ -7164,6 +8195,80 @@ ReactWrapper {
                     undefined,
                   ],
                   "type": "img",
+                },
+                Object {
+                  "instance": <svg
+                    alt="Open collective logo"
+                    class="img-fluid"
+                    viewBox="0 0 100 100"
+                    width="300"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "alt": "Open collective logo",
+                    "children": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title>
+                        
+                      </title>
+                    </rect>,
+                    "className": "img-fluid",
+                    "height": undefined,
+                    "viewBox": "0 0 100 100",
+                    "width": "300",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": <title>
+                          
+                        </title>,
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "ref": null,
+                      "rendered": Array [
+                        Object {
+                          "instance": <title />,
+                          "key": undefined,
+                          "nodeType": "host",
+                          "props": Object {
+                            "children": "",
+                          },
+                          "ref": null,
+                          "rendered": Array [
+                            "",
+                          ],
+                          "type": "title",
+                        },
+                      ],
+                      "type": "rect",
+                    },
+                  ],
+                  "type": "svg",
                 },
               ],
               "type": [Function],
@@ -7266,14 +8371,28 @@ ReactWrapper {
                       data-tip=""
                       target="_blank"
                     >
-                      
                       <img
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        style="display: none;"
+                        title=""
                         width="300"
                       />
+                      <svg
+                        alt="Open collective logo"
+                        class="img-fluid"
+                        viewBox="0 0 100 100"
+                        width="300"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                     </a>
                   </div>,
                   "context": Object {},
@@ -7382,14 +8501,28 @@ ReactWrapper {
                     data-tip=""
                     target="_blank"
                   >
-                    
                     <img
                       alt="Open collective logo"
                       class="img-fluid"
-                      data-tip=""
                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      style="display: none;"
+                      title=""
                       width="300"
                     />
+                    <svg
+                      alt="Open collective logo"
+                      class="img-fluid"
+                      viewBox="0 0 100 100"
+                      width="300"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                   </a>
                 </div>,
                 "context": Object {},
@@ -7527,7 +8660,7 @@ ReactWrapper {
                   "child": FiberNode {
                     "_debugID": 10,
                     "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
+                    "_debugOwner": [Circular],
                     "_debugSource": null,
                     "actualDuration": 0,
                     "actualStartTime": 0,
@@ -7539,11 +8672,33 @@ ReactWrapper {
                     "index": 0,
                     "key": null,
                     "lastEffect": null,
-                    "memoizedProps": "",
+                    "memoizedProps": Object {
+                      "alt": "Open collective logo",
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "onLoad": [Function],
+                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "style": Object {
+                        "display": "none",
+                      },
+                      "title": "",
+                      "width": "300",
+                    },
                     "memoizedState": null,
                     "mode": 0,
                     "nextEffect": null,
-                    "pendingProps": "",
+                    "pendingProps": Object {
+                      "alt": "Open collective logo",
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "onLoad": [Function],
+                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "style": Object {
+                        "display": "none",
+                      },
+                      "title": "",
+                      "width": "300",
+                    },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
@@ -7555,7 +8710,89 @@ ReactWrapper {
                       "actualDuration": 0,
                       "actualStartTime": 0,
                       "alternate": null,
-                      "child": null,
+                      "child": FiberNode {
+                        "_debugID": 12,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": 0,
+                        "alternate": null,
+                        "child": FiberNode {
+                          "_debugID": 13,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": 0,
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": "",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseTime": 0,
+                          "sibling": null,
+                          "stateNode": <title />,
+                          "tag": 5,
+                          "treeBaseTime": 0,
+                          "type": "title",
+                          "updateQueue": null,
+                        },
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": <title>
+                            
+                          </title>,
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": <title>
+                            
+                          </title>,
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseTime": 0,
+                        "sibling": null,
+                        "stateNode": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>,
+                        "tag": 5,
+                        "treeBaseTime": 0,
+                        "type": "rect",
+                        "updateQueue": null,
+                      },
                       "effectTag": 0,
                       "expirationTime": 0,
                       "firstEffect": null,
@@ -7564,10 +8801,18 @@ ReactWrapper {
                       "lastEffect": null,
                       "memoizedProps": Object {
                         "alt": "Open collective logo",
+                        "children": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title>
+                            
+                          </title>
+                        </rect>,
                         "className": "img-fluid",
-                        "data-tip": "",
                         "height": undefined,
-                        "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                        "viewBox": "0 0 100 100",
                         "width": "300",
                       },
                       "memoizedState": null,
@@ -7575,32 +8820,54 @@ ReactWrapper {
                       "nextEffect": null,
                       "pendingProps": Object {
                         "alt": "Open collective logo",
+                        "children": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title>
+                            
+                          </title>
+                        </rect>,
                         "className": "img-fluid",
-                        "data-tip": "",
                         "height": undefined,
-                        "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                        "viewBox": "0 0 100 100",
                         "width": "300",
                       },
                       "ref": null,
                       "return": [Circular],
                       "selfBaseTime": 0,
                       "sibling": null,
-                      "stateNode": <img
+                      "stateNode": <svg
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
-                        src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        viewBox="0 0 100 100"
                         width="300"
-                      />,
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>,
                       "tag": 5,
                       "treeBaseTime": 0,
-                      "type": "img",
+                      "type": "svg",
                       "updateQueue": null,
                     },
-                    "stateNode": ,
-                    "tag": 6,
+                    "stateNode": <img
+                      alt="Open collective logo"
+                      class="img-fluid"
+                      src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      style="display: none;"
+                      title=""
+                      width="300"
+                    />,
+                    "tag": 5,
                     "treeBaseTime": 0,
-                    "type": null,
+                    "type": "img",
                     "updateQueue": null,
                   },
                   "effectTag": 1,
@@ -7619,7 +8886,9 @@ ReactWrapper {
                     "tooltip": "",
                     "width": "300",
                   },
-                  "memoizedState": Object {},
+                  "memoizedState": Object {
+                    "loaded": false,
+                  },
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
@@ -7651,7 +8920,9 @@ ReactWrapper {
                       "width": "300",
                     },
                     "refs": Object {},
-                    "state": Object {},
+                    "state": Object {
+                      "loaded": false,
+                    },
                     "updater": Object {
                       "enqueueForceUpdate": [Function],
                       "enqueueReplaceState": [Function],
@@ -7662,7 +8933,20 @@ ReactWrapper {
                   "tag": 2,
                   "treeBaseTime": 0,
                   "type": [Function],
-                  "updateQueue": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "loaded": false,
+                    },
+                    "expirationTime": 0,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
                 },
                 "effectTag": 0,
                 "expirationTime": 0,
@@ -7716,14 +9000,28 @@ ReactWrapper {
                   data-tip=""
                   target="_blank"
                 >
-                  
                   <img
                     alt="Open collective logo"
                     class="img-fluid"
-                    data-tip=""
                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                    style="display: none;"
+                    title=""
                     width="300"
                   />
+                  <svg
+                    alt="Open collective logo"
+                    class="img-fluid"
+                    viewBox="0 0 100 100"
+                    width="300"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>
                 </a>,
                 "tag": 5,
                 "treeBaseTime": 0,
@@ -7922,14 +9220,28 @@ ReactWrapper {
                       data-tip=""
                       target="_blank"
                     >
-                      
                       <img
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        style="display: none;"
+                        title=""
                         width="300"
                       />
+                      <svg
+                        alt="Open collective logo"
+                        class="img-fluid"
+                        viewBox="0 0 100 100"
+                        width="300"
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>
                     </a>
                   </div>,
                   "context": Object {},
@@ -8038,14 +9350,28 @@ ReactWrapper {
                     data-tip=""
                     target="_blank"
                   >
-                    
                     <img
                       alt="Open collective logo"
                       class="img-fluid"
-                      data-tip=""
                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      style="display: none;"
+                      title=""
                       width="300"
                     />
+                    <svg
+                      alt="Open collective logo"
+                      class="img-fluid"
+                      viewBox="0 0 100 100"
+                      width="300"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
                   </a>
                 </div>,
                 "context": Object {},
@@ -8253,14 +9579,28 @@ ReactWrapper {
                           data-tip=""
                           target="_blank"
                         >
-                          
                           <img
                             alt="Open collective logo"
                             class="img-fluid"
-                            data-tip=""
                             src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                            style="display: none;"
+                            title=""
                             width="300"
                           />
+                          <svg
+                            alt="Open collective logo"
+                            class="img-fluid"
+                            viewBox="0 0 100 100"
+                            width="300"
+                          >
+                            <rect
+                              fill="#CCC"
+                              height="100"
+                              width="100"
+                            >
+                              <title />
+                            </rect>
+                          </svg>
                         </a>
                       </div>,
                       "context": Object {},
@@ -8369,14 +9709,28 @@ ReactWrapper {
                         data-tip=""
                         target="_blank"
                       >
-                        
                         <img
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
                           src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          style="display: none;"
+                          title=""
                           width="300"
                         />
+                        <svg
+                          alt="Open collective logo"
+                          class="img-fluid"
+                          viewBox="0 0 100 100"
+                          width="300"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                       </a>
                     </div>,
                     "context": Object {},
@@ -8569,14 +9923,28 @@ ReactWrapper {
                           data-tip=""
                           target="_blank"
                         >
-                          
                           <img
                             alt="Open collective logo"
                             class="img-fluid"
-                            data-tip=""
                             src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                            style="display: none;"
+                            title=""
                             width="300"
                           />
+                          <svg
+                            alt="Open collective logo"
+                            class="img-fluid"
+                            viewBox="0 0 100 100"
+                            width="300"
+                          >
+                            <rect
+                              fill="#CCC"
+                              height="100"
+                              width="100"
+                            >
+                              <title />
+                            </rect>
+                          </svg>
                         </a>
                       </div>,
                       "context": Object {},
@@ -8685,14 +10053,28 @@ ReactWrapper {
                         data-tip=""
                         target="_blank"
                       >
-                        
                         <img
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
                           src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          style="display: none;"
+                          title=""
                           width="300"
                         />
+                        <svg
+                          alt="Open collective logo"
+                          class="img-fluid"
+                          viewBox="0 0 100 100"
+                          width="300"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                       </a>
                     </div>,
                     "context": Object {},
@@ -8926,14 +10308,28 @@ ReactWrapper {
                                 data-tip=""
                                 target="_blank"
                               >
-                                
                                 <img
                                   alt="Open collective logo"
                                   class="img-fluid"
-                                  data-tip=""
                                   src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                  style="display: none;"
+                                  title=""
                                   width="300"
                                 />
+                                <svg
+                                  alt="Open collective logo"
+                                  class="img-fluid"
+                                  viewBox="0 0 100 100"
+                                  width="300"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                               </a>
                             </div>,
                             "context": Object {},
@@ -9042,14 +10438,28 @@ ReactWrapper {
                               data-tip=""
                               target="_blank"
                             >
-                              
                               <img
                                 alt="Open collective logo"
                                 class="img-fluid"
-                                data-tip=""
                                 src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                style="display: none;"
+                                title=""
                                 width="300"
                               />
+                              <svg
+                                alt="Open collective logo"
+                                class="img-fluid"
+                                viewBox="0 0 100 100"
+                                width="300"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                             </a>
                           </div>,
                           "context": Object {},
@@ -9242,14 +10652,28 @@ ReactWrapper {
                                 data-tip=""
                                 target="_blank"
                               >
-                                
                                 <img
                                   alt="Open collective logo"
                                   class="img-fluid"
-                                  data-tip=""
                                   src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                  style="display: none;"
+                                  title=""
                                   width="300"
                                 />
+                                <svg
+                                  alt="Open collective logo"
+                                  class="img-fluid"
+                                  viewBox="0 0 100 100"
+                                  width="300"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                               </a>
                             </div>,
                             "context": Object {},
@@ -9358,14 +10782,28 @@ ReactWrapper {
                               data-tip=""
                               target="_blank"
                             >
-                              
                               <img
                                 alt="Open collective logo"
                                 class="img-fluid"
-                                data-tip=""
                                 src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                style="display: none;"
+                                title=""
                                 width="300"
                               />
+                              <svg
+                                alt="Open collective logo"
+                                class="img-fluid"
+                                viewBox="0 0 100 100"
+                                width="300"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                             </a>
                           </div>,
                           "context": Object {},
@@ -9481,7 +10919,7 @@ ReactWrapper {
                   "child": FiberNode {
                     "_debugID": 10,
                     "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
+                    "_debugOwner": [Circular],
                     "_debugSource": null,
                     "actualDuration": 0,
                     "actualStartTime": 0,
@@ -9493,11 +10931,33 @@ ReactWrapper {
                     "index": 0,
                     "key": null,
                     "lastEffect": null,
-                    "memoizedProps": "",
+                    "memoizedProps": Object {
+                      "alt": "Open collective logo",
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "onLoad": [Function],
+                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "style": Object {
+                        "display": "none",
+                      },
+                      "title": "",
+                      "width": "300",
+                    },
                     "memoizedState": null,
                     "mode": 0,
                     "nextEffect": null,
-                    "pendingProps": "",
+                    "pendingProps": Object {
+                      "alt": "Open collective logo",
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "onLoad": [Function],
+                      "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "style": Object {
+                        "display": "none",
+                      },
+                      "title": "",
+                      "width": "300",
+                    },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
@@ -9509,7 +10969,89 @@ ReactWrapper {
                       "actualDuration": 0,
                       "actualStartTime": 0,
                       "alternate": null,
-                      "child": null,
+                      "child": FiberNode {
+                        "_debugID": 12,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": 0,
+                        "alternate": null,
+                        "child": FiberNode {
+                          "_debugID": 13,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": 0,
+                          "alternate": null,
+                          "child": null,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": "",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": "",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseTime": 0,
+                          "sibling": null,
+                          "stateNode": <title />,
+                          "tag": 5,
+                          "treeBaseTime": 0,
+                          "type": "title",
+                          "updateQueue": null,
+                        },
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstEffect": null,
+                        "index": 0,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "children": <title>
+                            
+                          </title>,
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "children": <title>
+                            
+                          </title>,
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseTime": 0,
+                        "sibling": null,
+                        "stateNode": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>,
+                        "tag": 5,
+                        "treeBaseTime": 0,
+                        "type": "rect",
+                        "updateQueue": null,
+                      },
                       "effectTag": 0,
                       "expirationTime": 0,
                       "firstEffect": null,
@@ -9518,10 +11060,18 @@ ReactWrapper {
                       "lastEffect": null,
                       "memoizedProps": Object {
                         "alt": "Open collective logo",
+                        "children": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title>
+                            
+                          </title>
+                        </rect>,
                         "className": "img-fluid",
-                        "data-tip": "",
                         "height": undefined,
-                        "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                        "viewBox": "0 0 100 100",
                         "width": "300",
                       },
                       "memoizedState": null,
@@ -9529,32 +11079,54 @@ ReactWrapper {
                       "nextEffect": null,
                       "pendingProps": Object {
                         "alt": "Open collective logo",
+                        "children": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title>
+                            
+                          </title>
+                        </rect>,
                         "className": "img-fluid",
-                        "data-tip": "",
                         "height": undefined,
-                        "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                        "viewBox": "0 0 100 100",
                         "width": "300",
                       },
                       "ref": null,
                       "return": [Circular],
                       "selfBaseTime": 0,
                       "sibling": null,
-                      "stateNode": <img
+                      "stateNode": <svg
                         alt="Open collective logo"
                         class="img-fluid"
-                        data-tip=""
-                        src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        viewBox="0 0 100 100"
                         width="300"
-                      />,
+                      >
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>
+                      </svg>,
                       "tag": 5,
                       "treeBaseTime": 0,
-                      "type": "img",
+                      "type": "svg",
                       "updateQueue": null,
                     },
-                    "stateNode": ,
-                    "tag": 6,
+                    "stateNode": <img
+                      alt="Open collective logo"
+                      class="img-fluid"
+                      src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      style="display: none;"
+                      title=""
+                      width="300"
+                    />,
+                    "tag": 5,
                     "treeBaseTime": 0,
-                    "type": null,
+                    "type": "img",
                     "updateQueue": null,
                   },
                   "effectTag": 1,
@@ -9573,7 +11145,9 @@ ReactWrapper {
                     "tooltip": "",
                     "width": "300",
                   },
-                  "memoizedState": Object {},
+                  "memoizedState": Object {
+                    "loaded": false,
+                  },
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
@@ -9605,7 +11179,9 @@ ReactWrapper {
                       "width": "300",
                     },
                     "refs": Object {},
-                    "state": Object {},
+                    "state": Object {
+                      "loaded": false,
+                    },
                     "updater": Object {
                       "enqueueForceUpdate": [Function],
                       "enqueueReplaceState": [Function],
@@ -9616,7 +11192,20 @@ ReactWrapper {
                   "tag": 2,
                   "treeBaseTime": 0,
                   "type": [Function],
-                  "updateQueue": null,
+                  "updateQueue": Object {
+                    "baseState": Object {
+                      "loaded": false,
+                    },
+                    "expirationTime": 0,
+                    "firstCapturedEffect": null,
+                    "firstCapturedUpdate": null,
+                    "firstEffect": null,
+                    "firstUpdate": null,
+                    "lastCapturedEffect": null,
+                    "lastCapturedUpdate": null,
+                    "lastEffect": null,
+                    "lastUpdate": null,
+                  },
                 },
                 "effectTag": 0,
                 "expirationTime": 0,
@@ -9670,14 +11259,28 @@ ReactWrapper {
                   data-tip=""
                   target="_blank"
                 >
-                  
                   <img
                     alt="Open collective logo"
                     class="img-fluid"
-                    data-tip=""
                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                    style="display: none;"
+                    title=""
                     width="300"
                   />
+                  <svg
+                    alt="Open collective logo"
+                    class="img-fluid"
+                    viewBox="0 0 100 100"
+                    width="300"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>
                 </a>,
                 "tag": 5,
                 "treeBaseTime": 0,
@@ -9821,14 +11424,28 @@ ReactWrapper {
                           data-tip=""
                           target="_blank"
                         >
-                          
                           <img
                             alt="Open collective logo"
                             class="img-fluid"
-                            data-tip=""
                             src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                            style="display: none;"
+                            title=""
                             width="300"
                           />
+                          <svg
+                            alt="Open collective logo"
+                            class="img-fluid"
+                            viewBox="0 0 100 100"
+                            width="300"
+                          >
+                            <rect
+                              fill="#CCC"
+                              height="100"
+                              width="100"
+                            >
+                              <title />
+                            </rect>
+                          </svg>
                         </a>
                       </div>,
                       "context": Object {},
@@ -9937,14 +11554,28 @@ ReactWrapper {
                         data-tip=""
                         target="_blank"
                       >
-                        
                         <img
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
                           src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          style="display: none;"
+                          title=""
                           width="300"
                         />
+                        <svg
+                          alt="Open collective logo"
+                          class="img-fluid"
+                          viewBox="0 0 100 100"
+                          width="300"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                       </a>
                     </div>,
                     "context": Object {},
@@ -10137,14 +11768,28 @@ ReactWrapper {
                           data-tip=""
                           target="_blank"
                         >
-                          
                           <img
                             alt="Open collective logo"
                             class="img-fluid"
-                            data-tip=""
                             src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                            style="display: none;"
+                            title=""
                             width="300"
                           />
+                          <svg
+                            alt="Open collective logo"
+                            class="img-fluid"
+                            viewBox="0 0 100 100"
+                            width="300"
+                          >
+                            <rect
+                              fill="#CCC"
+                              height="100"
+                              width="100"
+                            >
+                              <title />
+                            </rect>
+                          </svg>
                         </a>
                       </div>,
                       "context": Object {},
@@ -10253,14 +11898,28 @@ ReactWrapper {
                         data-tip=""
                         target="_blank"
                       >
-                        
                         <img
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
                           src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          style="display: none;"
+                          title=""
                           width="300"
                         />
+                        <svg
+                          alt="Open collective logo"
+                          class="img-fluid"
+                          viewBox="0 0 100 100"
+                          width="300"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                       </a>
                     </div>,
                     "context": Object {},
@@ -10433,14 +12092,28 @@ ReactWrapper {
               data-tip=""
               target="_blank"
             >
-              
               <img
                 alt="Open collective logo"
                 class="img-fluid"
-                data-tip=""
                 src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                style="display: none;"
+                title=""
                 width="300"
               />
+              <svg
+                alt="Open collective logo"
+                class="img-fluid"
+                viewBox="0 0 100 100"
+                width="300"
+              >
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                >
+                  <title />
+                </rect>
+              </svg>
             </a>,
             "key": undefined,
             "nodeType": "host",
@@ -10555,14 +12228,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -10671,14 +12358,28 @@ ReactWrapper {
                                 data-tip=""
                                 target="_blank"
                               >
-                                
                                 <img
                                   alt="Open collective logo"
                                   class="img-fluid"
-                                  data-tip=""
                                   src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                  style="display: none;"
+                                  title=""
                                   width="300"
                                 />
+                                <svg
+                                  alt="Open collective logo"
+                                  class="img-fluid"
+                                  viewBox="0 0 100 100"
+                                  width="300"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                               </a>
                             </div>,
                             "context": Object {},
@@ -10858,14 +12559,28 @@ ReactWrapper {
                               data-tip=""
                               target="_blank"
                             >
-                              
                               <img
                                 alt="Open collective logo"
                                 class="img-fluid"
-                                data-tip=""
                                 src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                style="display: none;"
+                                title=""
                                 width="300"
                               />
+                              <svg
+                                alt="Open collective logo"
+                                class="img-fluid"
+                                viewBox="0 0 100 100"
+                                width="300"
+                              >
+                                <rect
+                                  fill="#CCC"
+                                  height="100"
+                                  width="100"
+                                >
+                                  <title />
+                                </rect>
+                              </svg>
                             </a>,
                             "tag": 5,
                             "treeBaseTime": 0,
@@ -11064,14 +12779,28 @@ ReactWrapper {
                                   data-tip=""
                                   target="_blank"
                                 >
-                                  
                                   <img
                                     alt="Open collective logo"
                                     class="img-fluid"
-                                    data-tip=""
                                     src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                    style="display: none;"
+                                    title=""
                                     width="300"
                                   />
+                                  <svg
+                                    alt="Open collective logo"
+                                    class="img-fluid"
+                                    viewBox="0 0 100 100"
+                                    width="300"
+                                  >
+                                    <rect
+                                      fill="#CCC"
+                                      height="100"
+                                      width="100"
+                                    >
+                                      <title />
+                                    </rect>
+                                  </svg>
                                 </a>
                               </div>,
                               "context": Object {},
@@ -11180,14 +12909,28 @@ ReactWrapper {
                                 data-tip=""
                                 target="_blank"
                               >
-                                
                                 <img
                                   alt="Open collective logo"
                                   class="img-fluid"
-                                  data-tip=""
                                   src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                  style="display: none;"
+                                  title=""
                                   width="300"
                                 />
+                                <svg
+                                  alt="Open collective logo"
+                                  class="img-fluid"
+                                  viewBox="0 0 100 100"
+                                  width="300"
+                                >
+                                  <rect
+                                    fill="#CCC"
+                                    height="100"
+                                    width="100"
+                                  >
+                                    <title />
+                                  </rect>
+                                </svg>
                               </a>
                             </div>,
                             "context": Object {},
@@ -11303,7 +13046,7 @@ ReactWrapper {
                     "child": FiberNode {
                       "_debugID": 10,
                       "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": null,
+                      "_debugOwner": [Circular],
                       "_debugSource": null,
                       "actualDuration": 0,
                       "actualStartTime": 0,
@@ -11315,11 +13058,33 @@ ReactWrapper {
                       "index": 0,
                       "key": null,
                       "lastEffect": null,
-                      "memoizedProps": "",
+                      "memoizedProps": Object {
+                        "alt": "Open collective logo",
+                        "className": "img-fluid",
+                        "height": undefined,
+                        "onLoad": [Function],
+                        "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                        "style": Object {
+                          "display": "none",
+                        },
+                        "title": "",
+                        "width": "300",
+                      },
                       "memoizedState": null,
                       "mode": 0,
                       "nextEffect": null,
-                      "pendingProps": "",
+                      "pendingProps": Object {
+                        "alt": "Open collective logo",
+                        "className": "img-fluid",
+                        "height": undefined,
+                        "onLoad": [Function],
+                        "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                        "style": Object {
+                          "display": "none",
+                        },
+                        "title": "",
+                        "width": "300",
+                      },
                       "ref": null,
                       "return": [Circular],
                       "selfBaseTime": 0,
@@ -11331,7 +13096,89 @@ ReactWrapper {
                         "actualDuration": 0,
                         "actualStartTime": 0,
                         "alternate": null,
-                        "child": null,
+                        "child": FiberNode {
+                          "_debugID": 12,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": [Circular],
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": 0,
+                          "alternate": null,
+                          "child": FiberNode {
+                            "_debugID": 13,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": [Circular],
+                            "_debugSource": null,
+                            "actualDuration": 0,
+                            "actualStartTime": 0,
+                            "alternate": null,
+                            "child": null,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstEffect": null,
+                            "index": 0,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": Object {
+                              "children": "",
+                            },
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": Object {
+                              "children": "",
+                            },
+                            "ref": null,
+                            "return": [Circular],
+                            "selfBaseTime": 0,
+                            "sibling": null,
+                            "stateNode": <title />,
+                            "tag": 5,
+                            "treeBaseTime": 0,
+                            "type": "title",
+                            "updateQueue": null,
+                          },
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstEffect": null,
+                          "index": 0,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": Object {
+                            "children": <title>
+                              
+                            </title>,
+                            "fill": "#CCC",
+                            "height": "100",
+                            "width": "100",
+                          },
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": Object {
+                            "children": <title>
+                              
+                            </title>,
+                            "fill": "#CCC",
+                            "height": "100",
+                            "width": "100",
+                          },
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseTime": 0,
+                          "sibling": null,
+                          "stateNode": <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>,
+                          "tag": 5,
+                          "treeBaseTime": 0,
+                          "type": "rect",
+                          "updateQueue": null,
+                        },
                         "effectTag": 0,
                         "expirationTime": 0,
                         "firstEffect": null,
@@ -11340,10 +13187,18 @@ ReactWrapper {
                         "lastEffect": null,
                         "memoizedProps": Object {
                           "alt": "Open collective logo",
+                          "children": <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title>
+                              
+                            </title>
+                          </rect>,
                           "className": "img-fluid",
-                          "data-tip": "",
                           "height": undefined,
-                          "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                          "viewBox": "0 0 100 100",
                           "width": "300",
                         },
                         "memoizedState": null,
@@ -11351,32 +13206,54 @@ ReactWrapper {
                         "nextEffect": null,
                         "pendingProps": Object {
                           "alt": "Open collective logo",
+                          "children": <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title>
+                              
+                            </title>
+                          </rect>,
                           "className": "img-fluid",
-                          "data-tip": "",
                           "height": undefined,
-                          "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                          "viewBox": "0 0 100 100",
                           "width": "300",
                         },
                         "ref": null,
                         "return": [Circular],
                         "selfBaseTime": 0,
                         "sibling": null,
-                        "stateNode": <img
+                        "stateNode": <svg
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
-                          src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          viewBox="0 0 100 100"
                           width="300"
-                        />,
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>,
                         "tag": 5,
                         "treeBaseTime": 0,
-                        "type": "img",
+                        "type": "svg",
                         "updateQueue": null,
                       },
-                      "stateNode": ,
-                      "tag": 6,
+                      "stateNode": <img
+                        alt="Open collective logo"
+                        class="img-fluid"
+                        src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                        style="display: none;"
+                        title=""
+                        width="300"
+                      />,
+                      "tag": 5,
                       "treeBaseTime": 0,
-                      "type": null,
+                      "type": "img",
                       "updateQueue": null,
                     },
                     "effectTag": 1,
@@ -11395,7 +13272,9 @@ ReactWrapper {
                       "tooltip": "",
                       "width": "300",
                     },
-                    "memoizedState": Object {},
+                    "memoizedState": Object {
+                      "loaded": false,
+                    },
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
@@ -11502,14 +13381,28 @@ ReactWrapper {
                                       data-tip=""
                                       target="_blank"
                                     >
-                                      
                                       <img
                                         alt="Open collective logo"
                                         class="img-fluid"
-                                        data-tip=""
                                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                        style="display: none;"
+                                        title=""
                                         width="300"
                                       />
+                                      <svg
+                                        alt="Open collective logo"
+                                        class="img-fluid"
+                                        viewBox="0 0 100 100"
+                                        width="300"
+                                      >
+                                        <rect
+                                          fill="#CCC"
+                                          height="100"
+                                          width="100"
+                                        >
+                                          <title />
+                                        </rect>
+                                      </svg>
                                     </a>
                                   </div>,
                                   "context": Object {},
@@ -11618,14 +13511,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -11818,14 +13725,28 @@ ReactWrapper {
                                       data-tip=""
                                       target="_blank"
                                     >
-                                      
                                       <img
                                         alt="Open collective logo"
                                         class="img-fluid"
-                                        data-tip=""
                                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                        style="display: none;"
+                                        title=""
                                         width="300"
                                       />
+                                      <svg
+                                        alt="Open collective logo"
+                                        class="img-fluid"
+                                        viewBox="0 0 100 100"
+                                        width="300"
+                                      >
+                                        <rect
+                                          fill="#CCC"
+                                          height="100"
+                                          width="100"
+                                        >
+                                          <title />
+                                        </rect>
+                                      </svg>
                                     </a>
                                   </div>,
                                   "context": Object {},
@@ -11934,14 +13855,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -12215,14 +14150,28 @@ ReactWrapper {
                                       data-tip=""
                                       target="_blank"
                                     >
-                                      
                                       <img
                                         alt="Open collective logo"
                                         class="img-fluid"
-                                        data-tip=""
                                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                        style="display: none;"
+                                        title=""
                                         width="300"
                                       />
+                                      <svg
+                                        alt="Open collective logo"
+                                        class="img-fluid"
+                                        viewBox="0 0 100 100"
+                                        width="300"
+                                      >
+                                        <rect
+                                          fill="#CCC"
+                                          height="100"
+                                          width="100"
+                                        >
+                                          <title />
+                                        </rect>
+                                      </svg>
                                     </a>
                                   </div>,
                                   "context": Object {},
@@ -12331,14 +14280,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -12531,14 +14494,28 @@ ReactWrapper {
                                       data-tip=""
                                       target="_blank"
                                     >
-                                      
                                       <img
                                         alt="Open collective logo"
                                         class="img-fluid"
-                                        data-tip=""
                                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                        style="display: none;"
+                                        title=""
                                         width="300"
                                       />
+                                      <svg
+                                        alt="Open collective logo"
+                                        class="img-fluid"
+                                        viewBox="0 0 100 100"
+                                        width="300"
+                                      >
+                                        <rect
+                                          fill="#CCC"
+                                          height="100"
+                                          width="100"
+                                        >
+                                          <title />
+                                        </rect>
+                                      </svg>
                                     </a>
                                   </div>,
                                   "context": Object {},
@@ -12647,14 +14624,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -12939,14 +14930,28 @@ ReactWrapper {
                                       data-tip=""
                                       target="_blank"
                                     >
-                                      
                                       <img
                                         alt="Open collective logo"
                                         class="img-fluid"
-                                        data-tip=""
                                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                        style="display: none;"
+                                        title=""
                                         width="300"
                                       />
+                                      <svg
+                                        alt="Open collective logo"
+                                        class="img-fluid"
+                                        viewBox="0 0 100 100"
+                                        width="300"
+                                      >
+                                        <rect
+                                          fill="#CCC"
+                                          height="100"
+                                          width="100"
+                                        >
+                                          <title />
+                                        </rect>
+                                      </svg>
                                     </a>
                                   </div>,
                                   "context": Object {},
@@ -13055,14 +15060,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -13255,14 +15274,28 @@ ReactWrapper {
                                       data-tip=""
                                       target="_blank"
                                     >
-                                      
                                       <img
                                         alt="Open collective logo"
                                         class="img-fluid"
-                                        data-tip=""
                                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                        style="display: none;"
+                                        title=""
                                         width="300"
                                       />
+                                      <svg
+                                        alt="Open collective logo"
+                                        class="img-fluid"
+                                        viewBox="0 0 100 100"
+                                        width="300"
+                                      >
+                                        <rect
+                                          fill="#CCC"
+                                          height="100"
+                                          width="100"
+                                        >
+                                          <title />
+                                        </rect>
+                                      </svg>
                                     </a>
                                   </div>,
                                   "context": Object {},
@@ -13371,14 +15404,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -13652,14 +15699,28 @@ ReactWrapper {
                                       data-tip=""
                                       target="_blank"
                                     >
-                                      
                                       <img
                                         alt="Open collective logo"
                                         class="img-fluid"
-                                        data-tip=""
                                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                        style="display: none;"
+                                        title=""
                                         width="300"
                                       />
+                                      <svg
+                                        alt="Open collective logo"
+                                        class="img-fluid"
+                                        viewBox="0 0 100 100"
+                                        width="300"
+                                      >
+                                        <rect
+                                          fill="#CCC"
+                                          height="100"
+                                          width="100"
+                                        >
+                                          <title />
+                                        </rect>
+                                      </svg>
                                     </a>
                                   </div>,
                                   "context": Object {},
@@ -13768,14 +15829,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -13968,14 +16043,28 @@ ReactWrapper {
                                       data-tip=""
                                       target="_blank"
                                     >
-                                      
                                       <img
                                         alt="Open collective logo"
                                         class="img-fluid"
-                                        data-tip=""
                                         src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                        style="display: none;"
+                                        title=""
                                         width="300"
                                       />
+                                      <svg
+                                        alt="Open collective logo"
+                                        class="img-fluid"
+                                        viewBox="0 0 100 100"
+                                        width="300"
+                                      >
+                                        <rect
+                                          fill="#CCC"
+                                          height="100"
+                                          width="100"
+                                        >
+                                          <title />
+                                        </rect>
+                                      </svg>
                                     </a>
                                   </div>,
                                   "context": Object {},
@@ -14084,14 +16173,28 @@ ReactWrapper {
                                     data-tip=""
                                     target="_blank"
                                   >
-                                    
                                     <img
                                       alt="Open collective logo"
                                       class="img-fluid"
-                                      data-tip=""
                                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                                      style="display: none;"
+                                      title=""
                                       width="300"
                                     />
+                                    <svg
+                                      alt="Open collective logo"
+                                      class="img-fluid"
+                                      viewBox="0 0 100 100"
+                                      width="300"
+                                    >
+                                      <rect
+                                        fill="#CCC"
+                                        height="100"
+                                        width="100"
+                                      >
+                                        <title />
+                                      </rect>
+                                    </svg>
                                   </a>
                                 </div>,
                                 "context": Object {},
@@ -14244,14 +16347,28 @@ ReactWrapper {
                         data-tip=""
                         target="_blank"
                       >
-                        
                         <img
                           alt="Open collective logo"
                           class="img-fluid"
-                          data-tip=""
                           src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                          style="display: none;"
+                          title=""
                           width="300"
                         />
+                        <svg
+                          alt="Open collective logo"
+                          class="img-fluid"
+                          viewBox="0 0 100 100"
+                          width="300"
+                        >
+                          <rect
+                            fill="#CCC"
+                            height="100"
+                            width="100"
+                          >
+                            <title />
+                          </rect>
+                        </svg>
                       </a>,
                       "tag": 5,
                       "treeBaseTime": 0,
@@ -14264,7 +16381,20 @@ ReactWrapper {
                     "tag": 2,
                     "treeBaseTime": 0,
                     "type": [Function],
-                    "updateQueue": null,
+                    "updateQueue": Object {
+                      "baseState": Object {
+                        "loaded": false,
+                      },
+                      "expirationTime": 0,
+                      "firstCapturedEffect": null,
+                      "firstCapturedUpdate": null,
+                      "firstEffect": null,
+                      "firstUpdate": null,
+                      "lastCapturedEffect": null,
+                      "lastCapturedUpdate": null,
+                      "lastEffect": null,
+                      "lastUpdate": null,
+                    },
                   },
                   "_reactInternalInstance": Object {},
                   "context": Object {},
@@ -14279,7 +16409,9 @@ ReactWrapper {
                     "width": "300",
                   },
                   "refs": Object {},
-                  "state": Object {},
+                  "state": Object {
+                    "loaded": false,
+                  },
                   "updater": Object {
                     "enqueueForceUpdate": [Function],
                     "enqueueReplaceState": [Function],
@@ -14301,13 +16433,13 @@ ReactWrapper {
                 },
                 "ref": null,
                 "rendered": Array [
-                  "",
                   Object {
                     "instance": <img
                       alt="Open collective logo"
                       class="img-fluid"
-                      data-tip=""
                       src="https://opencollective.com/webpack/donate/button@2x.png?color=blue"
+                      style="display: none;"
+                      title=""
                       width="300"
                     />,
                     "key": undefined,
@@ -14315,9 +16447,13 @@ ReactWrapper {
                     "props": Object {
                       "alt": "Open collective logo",
                       "className": "img-fluid",
-                      "data-tip": "",
                       "height": undefined,
+                      "onLoad": [Function],
                       "src": "https://opencollective.com/webpack/donate/button@2x.png?color=blue",
+                      "style": Object {
+                        "display": "none",
+                      },
+                      "title": "",
                       "width": "300",
                     },
                     "ref": null,
@@ -14325,6 +16461,80 @@ ReactWrapper {
                       undefined,
                     ],
                     "type": "img",
+                  },
+                  Object {
+                    "instance": <svg
+                      alt="Open collective logo"
+                      class="img-fluid"
+                      viewBox="0 0 100 100"
+                      width="300"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "alt": "Open collective logo",
+                      "children": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title>
+                          
+                        </title>
+                      </rect>,
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "viewBox": "0 0 100 100",
+                      "width": "300",
+                    },
+                    "ref": null,
+                    "rendered": Array [
+                      Object {
+                        "instance": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        >
+                          <title />
+                        </rect>,
+                        "key": undefined,
+                        "nodeType": "host",
+                        "props": Object {
+                          "children": <title>
+                            
+                          </title>,
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "ref": null,
+                        "rendered": Array [
+                          Object {
+                            "instance": <title />,
+                            "key": undefined,
+                            "nodeType": "host",
+                            "props": Object {
+                              "children": "",
+                            },
+                            "ref": null,
+                            "rendered": Array [
+                              "",
+                            ],
+                            "type": "title",
+                          },
+                        ],
+                        "type": "rect",
+                      },
+                    ],
+                    "type": "svg",
                   },
                 ],
                 "type": [Function],

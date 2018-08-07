@@ -5,7 +5,6 @@ ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Icon
     className=""
-    icon={undefined}
     style={Object {}}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -41,7 +40,6 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "className": "",
-              "icon": undefined,
               "style": Object {},
             },
           },
@@ -50,7 +48,6 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "className": "",
-              "icon": undefined,
               "style": Object {},
             },
           },
@@ -61,7 +58,6 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "className": "",
-              "icon": undefined,
               "style": Object {},
             },
           },
@@ -140,7 +136,6 @@ ReactWrapper {
                       props={
                         Object {
                           "className": "",
-                          "icon": undefined,
                           "style": Object {},
                         }
                       }
@@ -163,7 +158,6 @@ ReactWrapper {
                       props={
                         Object {
                           "className": "",
-                          "icon": undefined,
                           "style": Object {},
                         }
                       }
@@ -188,7 +182,6 @@ ReactWrapper {
                 props={
                   Object {
                     "className": "",
-                    "icon": undefined,
                     "style": Object {},
                   }
                 }
@@ -234,7 +227,6 @@ ReactWrapper {
                   props={
                     Object {
                       "className": "",
-                      "icon": undefined,
                       "style": Object {},
                     }
                   }
@@ -262,7 +254,6 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -272,7 +263,6 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -338,7 +328,6 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "className": "",
-          "icon": undefined,
           "style": Object {},
         },
         "memoizedState": null,
@@ -346,7 +335,6 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "className": "",
-          "icon": undefined,
           "style": Object {},
         },
         "ref": null,
@@ -370,7 +358,6 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "className": "",
-              "icon": undefined,
               "style": Object {},
             },
           },
@@ -379,7 +366,6 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "className": "",
-              "icon": undefined,
               "style": Object {},
             },
           },
@@ -390,7 +376,6 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "className": "",
-              "icon": undefined,
               "style": Object {},
             },
           },
@@ -469,7 +454,6 @@ ReactWrapper {
                       props={
                         Object {
                           "className": "",
-                          "icon": undefined,
                           "style": Object {},
                         }
                       }
@@ -492,7 +476,6 @@ ReactWrapper {
                       props={
                         Object {
                           "className": "",
-                          "icon": undefined,
                           "style": Object {},
                         }
                       }
@@ -517,7 +500,6 @@ ReactWrapper {
                 props={
                   Object {
                     "className": "",
-                    "icon": undefined,
                     "style": Object {},
                   }
                 }
@@ -563,7 +545,6 @@ ReactWrapper {
                   props={
                     Object {
                       "className": "",
-                      "icon": undefined,
                       "style": Object {},
                     }
                   }
@@ -591,7 +572,6 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -601,7 +581,6 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -629,7 +608,6 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "className": "",
-        "icon": undefined,
         "style": Object {},
       },
       "refs": Object {},
@@ -645,7 +623,6 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "className": "",
-      "icon": undefined,
       "style": Object {},
     },
     "ref": null,
@@ -693,7 +670,6 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -702,7 +678,6 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -713,7 +688,6 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -792,7 +766,6 @@ ReactWrapper {
                         props={
                           Object {
                             "className": "",
-                            "icon": undefined,
                             "style": Object {},
                           }
                         }
@@ -815,7 +788,6 @@ ReactWrapper {
                         props={
                           Object {
                             "className": "",
-                            "icon": undefined,
                             "style": Object {},
                           }
                         }
@@ -840,7 +812,6 @@ ReactWrapper {
                   props={
                     Object {
                       "className": "",
-                      "icon": undefined,
                       "style": Object {},
                     }
                   }
@@ -886,7 +857,6 @@ ReactWrapper {
                     props={
                       Object {
                         "className": "",
-                        "icon": undefined,
                         "style": Object {},
                       }
                     }
@@ -914,7 +884,6 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "className": "",
-                  "icon": undefined,
                   "style": Object {},
                 },
               },
@@ -924,7 +893,6 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "className": "",
-                  "icon": undefined,
                   "style": Object {},
                 },
               },
@@ -990,7 +958,6 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "className": "",
-            "icon": undefined,
             "style": Object {},
           },
           "memoizedState": null,
@@ -998,7 +965,6 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "className": "",
-            "icon": undefined,
             "style": Object {},
           },
           "ref": null,
@@ -1022,7 +988,6 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -1031,7 +996,6 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -1042,7 +1006,6 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
-                "icon": undefined,
                 "style": Object {},
               },
             },
@@ -1121,7 +1084,6 @@ ReactWrapper {
                         props={
                           Object {
                             "className": "",
-                            "icon": undefined,
                             "style": Object {},
                           }
                         }
@@ -1144,7 +1106,6 @@ ReactWrapper {
                         props={
                           Object {
                             "className": "",
-                            "icon": undefined,
                             "style": Object {},
                           }
                         }
@@ -1169,7 +1130,6 @@ ReactWrapper {
                   props={
                     Object {
                       "className": "",
-                      "icon": undefined,
                       "style": Object {},
                     }
                   }
@@ -1215,7 +1175,6 @@ ReactWrapper {
                     props={
                       Object {
                         "className": "",
-                        "icon": undefined,
                         "style": Object {},
                       }
                     }
@@ -1243,7 +1202,6 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "className": "",
-                  "icon": undefined,
                   "style": Object {},
                 },
               },
@@ -1253,7 +1211,6 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "className": "",
-                  "icon": undefined,
                   "style": Object {},
                 },
               },
@@ -1281,7 +1238,6 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "className": "",
-          "icon": undefined,
           "style": Object {},
         },
         "refs": Object {},
@@ -1297,7 +1253,6 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "className": "",
-        "icon": undefined,
         "style": Object {},
       },
       "ref": null,

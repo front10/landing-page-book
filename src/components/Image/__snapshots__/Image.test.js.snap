@@ -4,12 +4,10 @@ exports[`Image Image should render 1`] = `
 ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Image
-    alt={undefined}
     border={false}
     className="img-fluid"
     height={undefined}
     rounded={false}
-    src={undefined}
     tooltip=""
     width={undefined}
   />,
@@ -45,12 +43,10 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "alt": undefined,
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
-              "src": undefined,
               "tooltip": "",
               "width": undefined,
             },
@@ -59,12 +55,10 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
-              "alt": undefined,
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
-              "src": undefined,
               "tooltip": "",
               "width": undefined,
             },
@@ -75,12 +69,10 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "alt": undefined,
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
-              "src": undefined,
               "tooltip": "",
               "width": undefined,
             },
@@ -161,12 +153,10 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "alt": undefined,
                           "border": false,
                           "className": "img-fluid",
                           "height": undefined,
                           "rounded": false,
-                          "src": undefined,
                           "tooltip": "",
                           "width": undefined,
                         }
@@ -189,12 +179,10 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "alt": undefined,
                           "border": false,
                           "className": "img-fluid",
                           "height": undefined,
                           "rounded": false,
-                          "src": undefined,
                           "tooltip": "",
                           "width": undefined,
                         }
@@ -219,12 +207,10 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "alt": undefined,
                     "border": false,
                     "className": "img-fluid",
                     "height": undefined,
                     "rounded": false,
-                    "src": undefined,
                     "tooltip": "",
                     "width": undefined,
                   }
@@ -272,12 +258,10 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "alt": undefined,
                       "border": false,
                       "className": "img-fluid",
                       "height": undefined,
                       "rounded": false,
-                      "src": undefined,
                       "tooltip": "",
                       "width": undefined,
                     }
@@ -305,12 +289,10 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -320,12 +302,10 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -429,12 +409,10 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
-          "alt": undefined,
           "border": false,
           "className": "img-fluid",
           "height": undefined,
           "rounded": false,
-          "src": undefined,
           "tooltip": "",
           "width": undefined,
         },
@@ -442,12 +420,10 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
-          "alt": undefined,
           "border": false,
           "className": "img-fluid",
           "height": undefined,
           "rounded": false,
-          "src": undefined,
           "tooltip": "",
           "width": undefined,
         },
@@ -471,12 +447,10 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "alt": undefined,
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
-              "src": undefined,
               "tooltip": "",
               "width": undefined,
             },
@@ -485,12 +459,10 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
-              "alt": undefined,
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
-              "src": undefined,
               "tooltip": "",
               "width": undefined,
             },
@@ -501,12 +473,10 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
-              "alt": undefined,
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
-              "src": undefined,
               "tooltip": "",
               "width": undefined,
             },
@@ -587,12 +557,10 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "alt": undefined,
                           "border": false,
                           "className": "img-fluid",
                           "height": undefined,
                           "rounded": false,
-                          "src": undefined,
                           "tooltip": "",
                           "width": undefined,
                         }
@@ -615,12 +583,10 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
-                          "alt": undefined,
                           "border": false,
                           "className": "img-fluid",
                           "height": undefined,
                           "rounded": false,
-                          "src": undefined,
                           "tooltip": "",
                           "width": undefined,
                         }
@@ -645,12 +611,10 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
-                    "alt": undefined,
                     "border": false,
                     "className": "img-fluid",
                     "height": undefined,
                     "rounded": false,
-                    "src": undefined,
                     "tooltip": "",
                     "width": undefined,
                   }
@@ -698,12 +662,10 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "alt": undefined,
                       "border": false,
                       "className": "img-fluid",
                       "height": undefined,
                       "rounded": false,
-                      "src": undefined,
                       "tooltip": "",
                       "width": undefined,
                     }
@@ -731,12 +693,10 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -746,12 +706,10 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -779,12 +737,10 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
-        "alt": undefined,
         "border": false,
         "className": "img-fluid",
         "height": undefined,
         "rounded": false,
-        "src": undefined,
         "tooltip": "",
         "width": undefined,
       },
@@ -800,12 +756,10 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
-      "alt": undefined,
       "border": false,
       "className": "img-fluid",
       "height": undefined,
       "rounded": false,
-      "src": undefined,
       "tooltip": "",
       "width": undefined,
     },
@@ -861,12 +815,10 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -875,12 +827,10 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -891,12 +841,10 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -977,12 +925,10 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "alt": undefined,
                             "border": false,
                             "className": "img-fluid",
                             "height": undefined,
                             "rounded": false,
-                            "src": undefined,
                             "tooltip": "",
                             "width": undefined,
                           }
@@ -1005,12 +951,10 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "alt": undefined,
                             "border": false,
                             "className": "img-fluid",
                             "height": undefined,
                             "rounded": false,
-                            "src": undefined,
                             "tooltip": "",
                             "width": undefined,
                           }
@@ -1035,12 +979,10 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "alt": undefined,
                       "border": false,
                       "className": "img-fluid",
                       "height": undefined,
                       "rounded": false,
-                      "src": undefined,
                       "tooltip": "",
                       "width": undefined,
                     }
@@ -1088,12 +1030,10 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "alt": undefined,
                         "border": false,
                         "className": "img-fluid",
                         "height": undefined,
                         "rounded": false,
-                        "src": undefined,
                         "tooltip": "",
                         "width": undefined,
                       }
@@ -1121,12 +1061,10 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "alt": undefined,
                   "border": false,
                   "className": "img-fluid",
                   "height": undefined,
                   "rounded": false,
-                  "src": undefined,
                   "tooltip": "",
                   "width": undefined,
                 },
@@ -1136,12 +1074,10 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "alt": undefined,
                   "border": false,
                   "className": "img-fluid",
                   "height": undefined,
                   "rounded": false,
-                  "src": undefined,
                   "tooltip": "",
                   "width": undefined,
                 },
@@ -1245,12 +1181,10 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "alt": undefined,
             "border": false,
             "className": "img-fluid",
             "height": undefined,
             "rounded": false,
-            "src": undefined,
             "tooltip": "",
             "width": undefined,
           },
@@ -1258,12 +1192,10 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "alt": undefined,
             "border": false,
             "className": "img-fluid",
             "height": undefined,
             "rounded": false,
-            "src": undefined,
             "tooltip": "",
             "width": undefined,
           },
@@ -1287,12 +1219,10 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -1301,12 +1231,10 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -1317,12 +1245,10 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
-                "alt": undefined,
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
-                "src": undefined,
                 "tooltip": "",
                 "width": undefined,
               },
@@ -1403,12 +1329,10 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "alt": undefined,
                             "border": false,
                             "className": "img-fluid",
                             "height": undefined,
                             "rounded": false,
-                            "src": undefined,
                             "tooltip": "",
                             "width": undefined,
                           }
@@ -1431,12 +1355,10 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
-                            "alt": undefined,
                             "border": false,
                             "className": "img-fluid",
                             "height": undefined,
                             "rounded": false,
-                            "src": undefined,
                             "tooltip": "",
                             "width": undefined,
                           }
@@ -1461,12 +1383,10 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
-                      "alt": undefined,
                       "border": false,
                       "className": "img-fluid",
                       "height": undefined,
                       "rounded": false,
-                      "src": undefined,
                       "tooltip": "",
                       "width": undefined,
                     }
@@ -1514,12 +1434,10 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
-                        "alt": undefined,
                         "border": false,
                         "className": "img-fluid",
                         "height": undefined,
                         "rounded": false,
-                        "src": undefined,
                         "tooltip": "",
                         "width": undefined,
                       }
@@ -1547,12 +1465,10 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
-                  "alt": undefined,
                   "border": false,
                   "className": "img-fluid",
                   "height": undefined,
                   "rounded": false,
-                  "src": undefined,
                   "tooltip": "",
                   "width": undefined,
                 },
@@ -1562,12 +1478,10 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
-                  "alt": undefined,
                   "border": false,
                   "className": "img-fluid",
                   "height": undefined,
                   "rounded": false,
-                  "src": undefined,
                   "tooltip": "",
                   "width": undefined,
                 },
@@ -1595,12 +1509,10 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
-          "alt": undefined,
           "border": false,
           "className": "img-fluid",
           "height": undefined,
           "rounded": false,
-          "src": undefined,
           "tooltip": "",
           "width": undefined,
         },
@@ -1616,12 +1528,10 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
-        "alt": undefined,
         "border": false,
         "className": "img-fluid",
         "height": undefined,
         "rounded": false,
-        "src": undefined,
         "tooltip": "",
         "width": undefined,
       },

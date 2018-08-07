@@ -40,6 +40,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -49,6 +50,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "children": null,
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -60,6 +62,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -145,6 +148,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "gray": false,
                           "subTitle": "",
                           "title": "",
@@ -168,6 +172,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "gray": false,
                           "subTitle": "",
                           "title": "",
@@ -193,6 +198,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "children": null,
                     "gray": false,
                     "subTitle": "",
                     "title": "",
@@ -245,6 +251,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "gray": false,
                       "subTitle": "",
                       "title": "",
@@ -273,6 +280,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -283,6 +291,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -359,7 +368,7 @@ ReactWrapper {
             "memoizedProps": Object {
               "children": Array [
                 "",
-                undefined,
+                null,
               ],
               "className": "p-5",
             },
@@ -369,7 +378,7 @@ ReactWrapper {
             "pendingProps": Object {
               "children": Array [
                 "",
-                undefined,
+                null,
               ],
               "className": "p-5",
             },
@@ -437,6 +446,7 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
+          "children": null,
           "gray": false,
           "subTitle": "",
           "title": "",
@@ -445,6 +455,7 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "children": null,
           "gray": false,
           "subTitle": "",
           "title": "",
@@ -469,6 +480,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -478,6 +490,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "children": null,
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -489,6 +502,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -574,6 +588,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "gray": false,
                           "subTitle": "",
                           "title": "",
@@ -597,6 +612,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "gray": false,
                           "subTitle": "",
                           "title": "",
@@ -622,6 +638,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "children": null,
                     "gray": false,
                     "subTitle": "",
                     "title": "",
@@ -674,6 +691,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "gray": false,
                       "subTitle": "",
                       "title": "",
@@ -702,6 +720,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -712,6 +731,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -740,6 +760,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
+        "children": null,
         "gray": false,
         "subTitle": "",
         "title": "",
@@ -756,6 +777,7 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "children": null,
       "gray": false,
       "subTitle": "",
       "title": "",
@@ -794,7 +816,7 @@ ReactWrapper {
           "props": Object {
             "children": Array [
               "",
-              undefined,
+              null,
             ],
             "className": "p-5",
           },
@@ -834,6 +856,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -843,6 +866,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -854,6 +878,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -939,6 +964,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "gray": false,
                             "subTitle": "",
                             "title": "",
@@ -962,6 +988,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "gray": false,
                             "subTitle": "",
                             "title": "",
@@ -987,6 +1014,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "gray": false,
                       "subTitle": "",
                       "title": "",
@@ -1039,6 +1067,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "children": null,
                         "gray": false,
                         "subTitle": "",
                         "title": "",
@@ -1067,6 +1096,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "children": null,
                   "gray": false,
                   "subTitle": "",
                   "title": "",
@@ -1077,6 +1107,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "children": null,
                   "gray": false,
                   "subTitle": "",
                   "title": "",
@@ -1153,7 +1184,7 @@ ReactWrapper {
               "memoizedProps": Object {
                 "children": Array [
                   "",
-                  undefined,
+                  null,
                 ],
                 "className": "p-5",
               },
@@ -1163,7 +1194,7 @@ ReactWrapper {
               "pendingProps": Object {
                 "children": Array [
                   "",
-                  undefined,
+                  null,
                 ],
                 "className": "p-5",
               },
@@ -1231,6 +1262,7 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
+            "children": null,
             "gray": false,
             "subTitle": "",
             "title": "",
@@ -1239,6 +1271,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "children": null,
             "gray": false,
             "subTitle": "",
             "title": "",
@@ -1263,6 +1296,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -1272,6 +1306,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -1283,6 +1318,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -1368,6 +1404,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "gray": false,
                             "subTitle": "",
                             "title": "",
@@ -1391,6 +1428,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "gray": false,
                             "subTitle": "",
                             "title": "",
@@ -1416,6 +1454,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "gray": false,
                       "subTitle": "",
                       "title": "",
@@ -1468,6 +1507,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "children": null,
                         "gray": false,
                         "subTitle": "",
                         "title": "",
@@ -1496,6 +1536,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "children": null,
                   "gray": false,
                   "subTitle": "",
                   "title": "",
@@ -1506,6 +1547,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "children": null,
                   "gray": false,
                   "subTitle": "",
                   "title": "",
@@ -1534,6 +1576,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
+          "children": null,
           "gray": false,
           "subTitle": "",
           "title": "",
@@ -1550,6 +1593,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "children": null,
         "gray": false,
         "subTitle": "",
         "title": "",
@@ -1588,7 +1632,7 @@ ReactWrapper {
             "props": Object {
               "children": Array [
                 "",
-                undefined,
+                null,
               ],
               "className": "p-5",
             },

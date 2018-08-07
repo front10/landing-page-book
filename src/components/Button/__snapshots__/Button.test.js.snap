@@ -44,6 +44,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "ariaLabel": "",
+              "children": null,
               "className": "",
               "disabled": false,
               "loading": false,
@@ -56,6 +57,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "ariaLabel": "",
+              "children": null,
               "className": "",
               "disabled": false,
               "loading": false,
@@ -70,6 +72,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "ariaLabel": "",
+              "children": null,
               "className": "",
               "disabled": false,
               "loading": false,
@@ -113,8 +116,10 @@ ReactWrapper {
                 "containerInfo": <div>
                   
                   <button
+                    aria-label=""
                     class="Button btn "
                     data-tip=""
+                    type="submit"
                   />
                 </div>,
                 "context": Object {},
@@ -154,6 +159,7 @@ ReactWrapper {
                       props={
                         Object {
                           "ariaLabel": "",
+                          "children": null,
                           "className": "",
                           "disabled": false,
                           "loading": false,
@@ -180,6 +186,7 @@ ReactWrapper {
                       props={
                         Object {
                           "ariaLabel": "",
+                          "children": null,
                           "className": "",
                           "disabled": false,
                           "loading": false,
@@ -208,6 +215,7 @@ ReactWrapper {
                 props={
                   Object {
                     "ariaLabel": "",
+                    "children": null,
                     "className": "",
                     "disabled": false,
                     "loading": false,
@@ -228,8 +236,10 @@ ReactWrapper {
               "containerInfo": <div>
                 
                 <button
+                  aria-label=""
                   class="Button btn "
                   data-tip=""
+                  type="submit"
                 />
               </div>,
               "context": Object {},
@@ -259,6 +269,7 @@ ReactWrapper {
                   props={
                     Object {
                       "ariaLabel": "",
+                      "children": null,
                       "className": "",
                       "disabled": false,
                       "loading": false,
@@ -290,6 +301,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -303,6 +315,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -365,35 +378,41 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
+              "aria-label": "",
               "children": Array [
-                undefined,
+                null,
                 false,
               ],
               "className": "Button btn ",
               "data-tip": "",
               "disabled": false,
               "onClick": [Function],
+              "type": "submit",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
+              "aria-label": "",
               "children": Array [
-                undefined,
+                null,
                 false,
               ],
               "className": "Button btn ",
               "data-tip": "",
               "disabled": false,
               "onClick": [Function],
+              "type": "submit",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <button
+              aria-label=""
               class="Button btn "
               data-tip=""
+              type="submit"
             />,
             "tag": 5,
             "treeBaseTime": 0,
@@ -414,6 +433,7 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "ariaLabel": "",
+          "children": null,
           "className": "",
           "disabled": false,
           "loading": false,
@@ -425,6 +445,7 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "ariaLabel": "",
+          "children": null,
           "className": "",
           "disabled": false,
           "loading": false,
@@ -452,6 +473,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "ariaLabel": "",
+              "children": null,
               "className": "",
               "disabled": false,
               "loading": false,
@@ -464,6 +486,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "ariaLabel": "",
+              "children": null,
               "className": "",
               "disabled": false,
               "loading": false,
@@ -478,6 +501,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "ariaLabel": "",
+              "children": null,
               "className": "",
               "disabled": false,
               "loading": false,
@@ -521,8 +545,10 @@ ReactWrapper {
                 "containerInfo": <div>
                   
                   <button
+                    aria-label=""
                     class="Button btn "
                     data-tip=""
+                    type="submit"
                   />
                 </div>,
                 "context": Object {},
@@ -562,6 +588,7 @@ ReactWrapper {
                       props={
                         Object {
                           "ariaLabel": "",
+                          "children": null,
                           "className": "",
                           "disabled": false,
                           "loading": false,
@@ -588,6 +615,7 @@ ReactWrapper {
                       props={
                         Object {
                           "ariaLabel": "",
+                          "children": null,
                           "className": "",
                           "disabled": false,
                           "loading": false,
@@ -616,6 +644,7 @@ ReactWrapper {
                 props={
                   Object {
                     "ariaLabel": "",
+                    "children": null,
                     "className": "",
                     "disabled": false,
                     "loading": false,
@@ -636,8 +665,10 @@ ReactWrapper {
               "containerInfo": <div>
                 
                 <button
+                  aria-label=""
                   class="Button btn "
                   data-tip=""
+                  type="submit"
                 />
               </div>,
               "context": Object {},
@@ -667,6 +698,7 @@ ReactWrapper {
                   props={
                     Object {
                       "ariaLabel": "",
+                      "children": null,
                       "className": "",
                       "disabled": false,
                       "loading": false,
@@ -698,6 +730,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -711,6 +744,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -742,6 +776,7 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "ariaLabel": "",
+        "children": null,
         "className": "",
         "disabled": false,
         "loading": false,
@@ -761,6 +796,7 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "ariaLabel": "",
+      "children": null,
       "className": "",
       "disabled": false,
       "loading": false,
@@ -772,25 +808,29 @@ ReactWrapper {
       "",
       Object {
         "instance": <button
+          aria-label=""
           class="Button btn "
           data-tip=""
+          type="submit"
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
+          "aria-label": "",
           "children": Array [
-            undefined,
+            null,
             false,
           ],
           "className": "Button btn ",
           "data-tip": "",
           "disabled": false,
           "onClick": [Function],
+          "type": "submit",
         },
         "ref": null,
         "rendered": Array [
           Array [
-            undefined,
+            null,
             false,
           ],
         ],
@@ -825,6 +865,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -837,6 +878,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -851,6 +893,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -894,8 +937,10 @@ ReactWrapper {
                   "containerInfo": <div>
                     
                     <button
+                      aria-label=""
                       class="Button btn "
                       data-tip=""
+                      type="submit"
                     />
                   </div>,
                   "context": Object {},
@@ -935,6 +980,7 @@ ReactWrapper {
                         props={
                           Object {
                             "ariaLabel": "",
+                            "children": null,
                             "className": "",
                             "disabled": false,
                             "loading": false,
@@ -961,6 +1007,7 @@ ReactWrapper {
                         props={
                           Object {
                             "ariaLabel": "",
+                            "children": null,
                             "className": "",
                             "disabled": false,
                             "loading": false,
@@ -989,6 +1036,7 @@ ReactWrapper {
                   props={
                     Object {
                       "ariaLabel": "",
+                      "children": null,
                       "className": "",
                       "disabled": false,
                       "loading": false,
@@ -1009,8 +1057,10 @@ ReactWrapper {
                 "containerInfo": <div>
                   
                   <button
+                    aria-label=""
                     class="Button btn "
                     data-tip=""
+                    type="submit"
                   />
                 </div>,
                 "context": Object {},
@@ -1040,6 +1090,7 @@ ReactWrapper {
                     props={
                       Object {
                         "ariaLabel": "",
+                        "children": null,
                         "className": "",
                         "disabled": false,
                         "loading": false,
@@ -1071,6 +1122,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "ariaLabel": "",
+                  "children": null,
                   "className": "",
                   "disabled": false,
                   "loading": false,
@@ -1084,6 +1136,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "ariaLabel": "",
+                  "children": null,
                   "className": "",
                   "disabled": false,
                   "loading": false,
@@ -1146,35 +1199,41 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
+                "aria-label": "",
                 "children": Array [
-                  undefined,
+                  null,
                   false,
                 ],
                 "className": "Button btn ",
                 "data-tip": "",
                 "disabled": false,
                 "onClick": [Function],
+                "type": "submit",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
+                "aria-label": "",
                 "children": Array [
-                  undefined,
+                  null,
                   false,
                 ],
                 "className": "Button btn ",
                 "data-tip": "",
                 "disabled": false,
                 "onClick": [Function],
+                "type": "submit",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <button
+                aria-label=""
                 class="Button btn "
                 data-tip=""
+                type="submit"
               />,
               "tag": 5,
               "treeBaseTime": 0,
@@ -1195,6 +1254,7 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "ariaLabel": "",
+            "children": null,
             "className": "",
             "disabled": false,
             "loading": false,
@@ -1206,6 +1266,7 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "ariaLabel": "",
+            "children": null,
             "className": "",
             "disabled": false,
             "loading": false,
@@ -1233,6 +1294,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -1245,6 +1307,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -1259,6 +1322,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "ariaLabel": "",
+                "children": null,
                 "className": "",
                 "disabled": false,
                 "loading": false,
@@ -1302,8 +1366,10 @@ ReactWrapper {
                   "containerInfo": <div>
                     
                     <button
+                      aria-label=""
                       class="Button btn "
                       data-tip=""
+                      type="submit"
                     />
                   </div>,
                   "context": Object {},
@@ -1343,6 +1409,7 @@ ReactWrapper {
                         props={
                           Object {
                             "ariaLabel": "",
+                            "children": null,
                             "className": "",
                             "disabled": false,
                             "loading": false,
@@ -1369,6 +1436,7 @@ ReactWrapper {
                         props={
                           Object {
                             "ariaLabel": "",
+                            "children": null,
                             "className": "",
                             "disabled": false,
                             "loading": false,
@@ -1397,6 +1465,7 @@ ReactWrapper {
                   props={
                     Object {
                       "ariaLabel": "",
+                      "children": null,
                       "className": "",
                       "disabled": false,
                       "loading": false,
@@ -1417,8 +1486,10 @@ ReactWrapper {
                 "containerInfo": <div>
                   
                   <button
+                    aria-label=""
                     class="Button btn "
                     data-tip=""
+                    type="submit"
                   />
                 </div>,
                 "context": Object {},
@@ -1448,6 +1519,7 @@ ReactWrapper {
                     props={
                       Object {
                         "ariaLabel": "",
+                        "children": null,
                         "className": "",
                         "disabled": false,
                         "loading": false,
@@ -1479,6 +1551,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "ariaLabel": "",
+                  "children": null,
                   "className": "",
                   "disabled": false,
                   "loading": false,
@@ -1492,6 +1565,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "ariaLabel": "",
+                  "children": null,
                   "className": "",
                   "disabled": false,
                   "loading": false,
@@ -1523,6 +1597,7 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "ariaLabel": "",
+          "children": null,
           "className": "",
           "disabled": false,
           "loading": false,
@@ -1542,6 +1617,7 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "ariaLabel": "",
+        "children": null,
         "className": "",
         "disabled": false,
         "loading": false,
@@ -1553,25 +1629,29 @@ ReactWrapper {
         "",
         Object {
           "instance": <button
+            aria-label=""
             class="Button btn "
             data-tip=""
+            type="submit"
           />,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
+            "aria-label": "",
             "children": Array [
-              undefined,
+              null,
               false,
             ],
             "className": "Button btn ",
             "data-tip": "",
             "disabled": false,
             "onClick": [Function],
+            "type": "submit",
           },
           "ref": null,
           "rendered": Array [
             Array [
-              undefined,
+              null,
               false,
             ],
           ],

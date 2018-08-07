@@ -6,8 +6,6 @@ ReactWrapper {
   Symbol(enzyme.__unrendered__): <LocationMarker
     color="#d43131"
     icon="fa fa-map-marker"
-    lat={undefined}
-    lng={undefined}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -43,8 +41,6 @@ ReactWrapper {
             "props": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
           },
           "memoizedState": Object {
@@ -53,8 +49,6 @@ ReactWrapper {
             "props": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
           },
           "mode": 0,
@@ -65,8 +59,6 @@ ReactWrapper {
             "props": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
           },
           "ref": null,
@@ -146,8 +138,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -170,8 +160,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -196,8 +184,6 @@ ReactWrapper {
                   Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   }
                 }
               />,
@@ -244,8 +230,6 @@ ReactWrapper {
                     Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     }
                   }
                 />,
@@ -273,8 +257,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "refs": Object {},
@@ -284,8 +266,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "updater": Object {
@@ -366,6 +346,8 @@ ReactWrapper {
           "memoizedProps": Object {
             "className": "",
             "icon": "fa fa-map-marker",
+            "lat": undefined,
+            "lng": undefined,
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
@@ -377,6 +359,8 @@ ReactWrapper {
           "pendingProps": Object {
             "className": "",
             "icon": "fa fa-map-marker",
+            "lat": undefined,
+            "lng": undefined,
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
@@ -393,6 +377,8 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": "fa fa-map-marker",
+              "lat": undefined,
+              "lng": undefined,
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
@@ -421,8 +407,6 @@ ReactWrapper {
         "memoizedProps": Object {
           "color": "#d43131",
           "icon": "fa fa-map-marker",
-          "lat": undefined,
-          "lng": undefined,
         },
         "memoizedState": null,
         "mode": 0,
@@ -430,8 +414,6 @@ ReactWrapper {
         "pendingProps": Object {
           "color": "#d43131",
           "icon": "fa fa-map-marker",
-          "lat": undefined,
-          "lng": undefined,
         },
         "ref": null,
         "return": FiberNode {
@@ -455,8 +437,6 @@ ReactWrapper {
             "props": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
           },
           "memoizedState": Object {
@@ -465,8 +445,6 @@ ReactWrapper {
             "props": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
           },
           "mode": 0,
@@ -477,8 +455,6 @@ ReactWrapper {
             "props": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
           },
           "ref": null,
@@ -558,8 +534,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -582,8 +556,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -608,8 +580,6 @@ ReactWrapper {
                   Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   }
                 }
               />,
@@ -656,8 +626,6 @@ ReactWrapper {
                     Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     }
                   }
                 />,
@@ -685,8 +653,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "refs": Object {},
@@ -696,8 +662,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "updater": Object {
@@ -725,8 +689,6 @@ ReactWrapper {
       "props": Object {
         "color": "#d43131",
         "icon": "fa fa-map-marker",
-        "lat": undefined,
-        "lng": undefined,
       },
       "refs": Object {},
       "state": null,
@@ -742,8 +704,6 @@ ReactWrapper {
     "props": Object {
       "color": "#d43131",
       "icon": "fa fa-map-marker",
-      "lat": undefined,
-      "lng": undefined,
     },
     "ref": null,
     "rendered": Object {
@@ -775,8 +735,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "memoizedState": Object {
@@ -785,8 +743,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "mode": 0,
@@ -797,8 +753,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "ref": null,
@@ -878,8 +832,6 @@ ReactWrapper {
                             Object {
                               "color": "#d43131",
                               "icon": "fa fa-map-marker",
-                              "lat": undefined,
-                              "lng": undefined,
                             }
                           }
                         />,
@@ -902,8 +854,6 @@ ReactWrapper {
                             Object {
                               "color": "#d43131",
                               "icon": "fa fa-map-marker",
-                              "lat": undefined,
-                              "lng": undefined,
                             }
                           }
                         />,
@@ -928,8 +878,6 @@ ReactWrapper {
                       Object {
                         "color": "#d43131",
                         "icon": "fa fa-map-marker",
-                        "lat": undefined,
-                        "lng": undefined,
                       }
                     }
                   />,
@@ -976,8 +924,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -1005,8 +951,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "refs": Object {},
@@ -1016,8 +960,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "updater": Object {
@@ -1046,8 +988,6 @@ ReactWrapper {
             "memoizedProps": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
             "memoizedState": null,
             "mode": 0,
@@ -1055,8 +995,6 @@ ReactWrapper {
             "pendingProps": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
             "ref": null,
             "return": FiberNode {
@@ -1080,8 +1018,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "memoizedState": Object {
@@ -1090,8 +1026,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "mode": 0,
@@ -1102,8 +1036,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "ref": null,
@@ -1183,8 +1115,6 @@ ReactWrapper {
                             Object {
                               "color": "#d43131",
                               "icon": "fa fa-map-marker",
-                              "lat": undefined,
-                              "lng": undefined,
                             }
                           }
                         />,
@@ -1207,8 +1137,6 @@ ReactWrapper {
                             Object {
                               "color": "#d43131",
                               "icon": "fa fa-map-marker",
-                              "lat": undefined,
-                              "lng": undefined,
                             }
                           }
                         />,
@@ -1233,8 +1161,6 @@ ReactWrapper {
                       Object {
                         "color": "#d43131",
                         "icon": "fa fa-map-marker",
-                        "lat": undefined,
-                        "lng": undefined,
                       }
                     }
                   />,
@@ -1281,8 +1207,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -1310,8 +1234,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "refs": Object {},
@@ -1321,8 +1243,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "updater": Object {
@@ -1346,8 +1266,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
               "refs": Object {},
               "state": null,
@@ -1421,6 +1339,8 @@ ReactWrapper {
           "memoizedProps": Object {
             "className": "",
             "icon": "fa fa-map-marker",
+            "lat": undefined,
+            "lng": undefined,
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
@@ -1432,6 +1352,8 @@ ReactWrapper {
           "pendingProps": Object {
             "className": "",
             "icon": "fa fa-map-marker",
+            "lat": undefined,
+            "lng": undefined,
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
@@ -1462,8 +1384,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "memoizedState": Object {
@@ -1472,8 +1392,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "mode": 0,
@@ -1484,8 +1402,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "ref": null,
@@ -1565,8 +1481,6 @@ ReactWrapper {
                             Object {
                               "color": "#d43131",
                               "icon": "fa fa-map-marker",
-                              "lat": undefined,
-                              "lng": undefined,
                             }
                           }
                         />,
@@ -1589,8 +1503,6 @@ ReactWrapper {
                             Object {
                               "color": "#d43131",
                               "icon": "fa fa-map-marker",
-                              "lat": undefined,
-                              "lng": undefined,
                             }
                           }
                         />,
@@ -1615,8 +1527,6 @@ ReactWrapper {
                       Object {
                         "color": "#d43131",
                         "icon": "fa fa-map-marker",
-                        "lat": undefined,
-                        "lng": undefined,
                       }
                     }
                   />,
@@ -1663,8 +1573,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -1692,8 +1600,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "refs": Object {},
@@ -1703,8 +1609,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "updater": Object {
@@ -1733,8 +1637,6 @@ ReactWrapper {
             "memoizedProps": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
             "memoizedState": null,
             "mode": 0,
@@ -1742,8 +1644,6 @@ ReactWrapper {
             "pendingProps": Object {
               "color": "#d43131",
               "icon": "fa fa-map-marker",
-              "lat": undefined,
-              "lng": undefined,
             },
             "ref": null,
             "return": FiberNode {
@@ -1767,8 +1667,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "memoizedState": Object {
@@ -1777,8 +1675,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "mode": 0,
@@ -1789,8 +1685,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "ref": null,
@@ -1870,8 +1764,6 @@ ReactWrapper {
                             Object {
                               "color": "#d43131",
                               "icon": "fa fa-map-marker",
-                              "lat": undefined,
-                              "lng": undefined,
                             }
                           }
                         />,
@@ -1894,8 +1786,6 @@ ReactWrapper {
                             Object {
                               "color": "#d43131",
                               "icon": "fa fa-map-marker",
-                              "lat": undefined,
-                              "lng": undefined,
                             }
                           }
                         />,
@@ -1920,8 +1810,6 @@ ReactWrapper {
                       Object {
                         "color": "#d43131",
                         "icon": "fa fa-map-marker",
-                        "lat": undefined,
-                        "lng": undefined,
                       }
                     }
                   />,
@@ -1968,8 +1856,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -1997,8 +1883,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "refs": Object {},
@@ -2008,8 +1892,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "updater": Object {
@@ -2033,8 +1915,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
               "refs": Object {},
               "state": null,
@@ -2063,6 +1943,8 @@ ReactWrapper {
         "props": Object {
           "className": "",
           "icon": "fa fa-map-marker",
+          "lat": undefined,
+          "lng": undefined,
           "style": Object {
             "color": "#d43131",
             "fontSize": "1.5rem",
@@ -2082,6 +1964,8 @@ ReactWrapper {
       "props": Object {
         "className": "",
         "icon": "fa fa-map-marker",
+        "lat": undefined,
+        "lng": undefined,
         "style": Object {
           "color": "#d43131",
           "fontSize": "1.5rem",
@@ -2139,8 +2023,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "memoizedState": Object {
@@ -2149,8 +2031,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "mode": 0,
@@ -2161,8 +2041,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "ref": null,
@@ -2242,8 +2120,6 @@ ReactWrapper {
                           Object {
                             "color": "#d43131",
                             "icon": "fa fa-map-marker",
-                            "lat": undefined,
-                            "lng": undefined,
                           }
                         }
                       />,
@@ -2266,8 +2142,6 @@ ReactWrapper {
                           Object {
                             "color": "#d43131",
                             "icon": "fa fa-map-marker",
-                            "lat": undefined,
-                            "lng": undefined,
                           }
                         }
                       />,
@@ -2292,8 +2166,6 @@ ReactWrapper {
                     Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     }
                   }
                 />,
@@ -2340,8 +2212,6 @@ ReactWrapper {
                       Object {
                         "color": "#d43131",
                         "icon": "fa fa-map-marker",
-                        "lat": undefined,
-                        "lng": undefined,
                       }
                     }
                   />,
@@ -2369,8 +2239,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "refs": Object {},
@@ -2380,8 +2248,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "updater": Object {
@@ -2462,6 +2328,8 @@ ReactWrapper {
             "memoizedProps": Object {
               "className": "",
               "icon": "fa fa-map-marker",
+              "lat": undefined,
+              "lng": undefined,
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
@@ -2473,6 +2341,8 @@ ReactWrapper {
             "pendingProps": Object {
               "className": "",
               "icon": "fa fa-map-marker",
+              "lat": undefined,
+              "lng": undefined,
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
@@ -2489,6 +2359,8 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-map-marker",
+                "lat": undefined,
+                "lng": undefined,
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
@@ -2517,8 +2389,6 @@ ReactWrapper {
           "memoizedProps": Object {
             "color": "#d43131",
             "icon": "fa fa-map-marker",
-            "lat": undefined,
-            "lng": undefined,
           },
           "memoizedState": null,
           "mode": 0,
@@ -2526,8 +2396,6 @@ ReactWrapper {
           "pendingProps": Object {
             "color": "#d43131",
             "icon": "fa fa-map-marker",
-            "lat": undefined,
-            "lng": undefined,
           },
           "ref": null,
           "return": FiberNode {
@@ -2551,8 +2419,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "memoizedState": Object {
@@ -2561,8 +2427,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "mode": 0,
@@ -2573,8 +2437,6 @@ ReactWrapper {
               "props": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
             },
             "ref": null,
@@ -2654,8 +2516,6 @@ ReactWrapper {
                           Object {
                             "color": "#d43131",
                             "icon": "fa fa-map-marker",
-                            "lat": undefined,
-                            "lng": undefined,
                           }
                         }
                       />,
@@ -2678,8 +2538,6 @@ ReactWrapper {
                           Object {
                             "color": "#d43131",
                             "icon": "fa fa-map-marker",
-                            "lat": undefined,
-                            "lng": undefined,
                           }
                         }
                       />,
@@ -2704,8 +2562,6 @@ ReactWrapper {
                     Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     }
                   }
                 />,
@@ -2752,8 +2608,6 @@ ReactWrapper {
                       Object {
                         "color": "#d43131",
                         "icon": "fa fa-map-marker",
-                        "lat": undefined,
-                        "lng": undefined,
                       }
                     }
                   />,
@@ -2781,8 +2635,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "refs": Object {},
@@ -2792,8 +2644,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
               },
               "updater": Object {
@@ -2821,8 +2671,6 @@ ReactWrapper {
         "props": Object {
           "color": "#d43131",
           "icon": "fa fa-map-marker",
-          "lat": undefined,
-          "lng": undefined,
         },
         "refs": Object {},
         "state": null,
@@ -2838,8 +2686,6 @@ ReactWrapper {
       "props": Object {
         "color": "#d43131",
         "icon": "fa fa-map-marker",
-        "lat": undefined,
-        "lng": undefined,
       },
       "ref": null,
       "rendered": Object {
@@ -2871,8 +2717,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "memoizedState": Object {
@@ -2881,8 +2725,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "mode": 0,
@@ -2893,8 +2735,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "ref": null,
@@ -2974,8 +2814,6 @@ ReactWrapper {
                               Object {
                                 "color": "#d43131",
                                 "icon": "fa fa-map-marker",
-                                "lat": undefined,
-                                "lng": undefined,
                               }
                             }
                           />,
@@ -2998,8 +2836,6 @@ ReactWrapper {
                               Object {
                                 "color": "#d43131",
                                 "icon": "fa fa-map-marker",
-                                "lat": undefined,
-                                "lng": undefined,
                               }
                             }
                           />,
@@ -3024,8 +2860,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -3072,8 +2906,6 @@ ReactWrapper {
                           Object {
                             "color": "#d43131",
                             "icon": "fa fa-map-marker",
-                            "lat": undefined,
-                            "lng": undefined,
                           }
                         }
                       />,
@@ -3101,8 +2933,6 @@ ReactWrapper {
                     "props": Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     },
                   },
                   "refs": Object {},
@@ -3112,8 +2942,6 @@ ReactWrapper {
                     "props": Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     },
                   },
                   "updater": Object {
@@ -3142,8 +2970,6 @@ ReactWrapper {
               "memoizedProps": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
               "memoizedState": null,
               "mode": 0,
@@ -3151,8 +2977,6 @@ ReactWrapper {
               "pendingProps": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
               "ref": null,
               "return": FiberNode {
@@ -3176,8 +3000,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "memoizedState": Object {
@@ -3186,8 +3008,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "mode": 0,
@@ -3198,8 +3018,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "ref": null,
@@ -3279,8 +3097,6 @@ ReactWrapper {
                               Object {
                                 "color": "#d43131",
                                 "icon": "fa fa-map-marker",
-                                "lat": undefined,
-                                "lng": undefined,
                               }
                             }
                           />,
@@ -3303,8 +3119,6 @@ ReactWrapper {
                               Object {
                                 "color": "#d43131",
                                 "icon": "fa fa-map-marker",
-                                "lat": undefined,
-                                "lng": undefined,
                               }
                             }
                           />,
@@ -3329,8 +3143,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -3377,8 +3189,6 @@ ReactWrapper {
                           Object {
                             "color": "#d43131",
                             "icon": "fa fa-map-marker",
-                            "lat": undefined,
-                            "lng": undefined,
                           }
                         }
                       />,
@@ -3406,8 +3216,6 @@ ReactWrapper {
                     "props": Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     },
                   },
                   "refs": Object {},
@@ -3417,8 +3225,6 @@ ReactWrapper {
                     "props": Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     },
                   },
                   "updater": Object {
@@ -3442,8 +3248,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
                 "refs": Object {},
                 "state": null,
@@ -3517,6 +3321,8 @@ ReactWrapper {
             "memoizedProps": Object {
               "className": "",
               "icon": "fa fa-map-marker",
+              "lat": undefined,
+              "lng": undefined,
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
@@ -3528,6 +3334,8 @@ ReactWrapper {
             "pendingProps": Object {
               "className": "",
               "icon": "fa fa-map-marker",
+              "lat": undefined,
+              "lng": undefined,
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
@@ -3558,8 +3366,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "memoizedState": Object {
@@ -3568,8 +3374,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "mode": 0,
@@ -3580,8 +3384,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "ref": null,
@@ -3661,8 +3463,6 @@ ReactWrapper {
                               Object {
                                 "color": "#d43131",
                                 "icon": "fa fa-map-marker",
-                                "lat": undefined,
-                                "lng": undefined,
                               }
                             }
                           />,
@@ -3685,8 +3485,6 @@ ReactWrapper {
                               Object {
                                 "color": "#d43131",
                                 "icon": "fa fa-map-marker",
-                                "lat": undefined,
-                                "lng": undefined,
                               }
                             }
                           />,
@@ -3711,8 +3509,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -3759,8 +3555,6 @@ ReactWrapper {
                           Object {
                             "color": "#d43131",
                             "icon": "fa fa-map-marker",
-                            "lat": undefined,
-                            "lng": undefined,
                           }
                         }
                       />,
@@ -3788,8 +3582,6 @@ ReactWrapper {
                     "props": Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     },
                   },
                   "refs": Object {},
@@ -3799,8 +3591,6 @@ ReactWrapper {
                     "props": Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     },
                   },
                   "updater": Object {
@@ -3829,8 +3619,6 @@ ReactWrapper {
               "memoizedProps": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
               "memoizedState": null,
               "mode": 0,
@@ -3838,8 +3626,6 @@ ReactWrapper {
               "pendingProps": Object {
                 "color": "#d43131",
                 "icon": "fa fa-map-marker",
-                "lat": undefined,
-                "lng": undefined,
               },
               "ref": null,
               "return": FiberNode {
@@ -3863,8 +3649,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "memoizedState": Object {
@@ -3873,8 +3657,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "mode": 0,
@@ -3885,8 +3667,6 @@ ReactWrapper {
                   "props": Object {
                     "color": "#d43131",
                     "icon": "fa fa-map-marker",
-                    "lat": undefined,
-                    "lng": undefined,
                   },
                 },
                 "ref": null,
@@ -3966,8 +3746,6 @@ ReactWrapper {
                               Object {
                                 "color": "#d43131",
                                 "icon": "fa fa-map-marker",
-                                "lat": undefined,
-                                "lng": undefined,
                               }
                             }
                           />,
@@ -3990,8 +3768,6 @@ ReactWrapper {
                               Object {
                                 "color": "#d43131",
                                 "icon": "fa fa-map-marker",
-                                "lat": undefined,
-                                "lng": undefined,
                               }
                             }
                           />,
@@ -4016,8 +3792,6 @@ ReactWrapper {
                         Object {
                           "color": "#d43131",
                           "icon": "fa fa-map-marker",
-                          "lat": undefined,
-                          "lng": undefined,
                         }
                       }
                     />,
@@ -4064,8 +3838,6 @@ ReactWrapper {
                           Object {
                             "color": "#d43131",
                             "icon": "fa fa-map-marker",
-                            "lat": undefined,
-                            "lng": undefined,
                           }
                         }
                       />,
@@ -4093,8 +3865,6 @@ ReactWrapper {
                     "props": Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     },
                   },
                   "refs": Object {},
@@ -4104,8 +3874,6 @@ ReactWrapper {
                     "props": Object {
                       "color": "#d43131",
                       "icon": "fa fa-map-marker",
-                      "lat": undefined,
-                      "lng": undefined,
                     },
                   },
                   "updater": Object {
@@ -4129,8 +3897,6 @@ ReactWrapper {
                 "props": Object {
                   "color": "#d43131",
                   "icon": "fa fa-map-marker",
-                  "lat": undefined,
-                  "lng": undefined,
                 },
                 "refs": Object {},
                 "state": null,
@@ -4159,6 +3925,8 @@ ReactWrapper {
           "props": Object {
             "className": "",
             "icon": "fa fa-map-marker",
+            "lat": undefined,
+            "lng": undefined,
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
@@ -4178,6 +3946,8 @@ ReactWrapper {
         "props": Object {
           "className": "",
           "icon": "fa fa-map-marker",
+          "lat": undefined,
+          "lng": undefined,
           "style": Object {
             "color": "#d43131",
             "fontSize": "1.5rem",

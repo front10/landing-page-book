@@ -6,7 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Code
     bgColorDark={false}
-    code="var component = {
+    code="const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
@@ -54,35 +54,42 @@ ShallowWrapper {
             <CopyToClipboard
               onCopy={[Function]}
               options={undefined}
-              text="var component = {
+              text="const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
             >
-              <a
-                className="btn "
+              <button
+                className="btn  CodeMirror_btn"
                 data-tip="copy"
                 onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+                type="submit"
               >
                 <Icon
                   className="CodeMirror__header_copybtn"
                   icon="fa fa-clone"
+                  role="link"
                   style={Object {}}
                 />
-              </a>
+              </button>
             </CopyToClipboard>
-            <a
-              className="btn "
+            <button
+              className="btn  CodeMirror_btn"
               data-tip="clear"
               onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={-1}
+              type="submit"
             >
               <Icon
                 className="CodeMirror__header_deletebtn"
                 icon="fa fa-trash-o"
                 style={Object {}}
               />
-            </a>
+            </button>
           </NavbarNav>
         </Navbar>,
         <Unknown
@@ -98,7 +105,7 @@ ShallowWrapper {
             }
           }
           preserveScrollPosition={false}
-          value="var component = {
+          value="const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
@@ -144,35 +151,42 @@ ShallowWrapper {
             <CopyToClipboard
               onCopy={[Function]}
               options={undefined}
-              text="var component = {
+              text="const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
             >
-              <a
-                className="btn "
+              <button
+                className="btn  CodeMirror_btn"
                 data-tip="copy"
                 onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={0}
+                type="submit"
               >
                 <Icon
                   className="CodeMirror__header_copybtn"
                   icon="fa fa-clone"
+                  role="link"
                   style={Object {}}
                 />
-              </a>
+              </button>
             </CopyToClipboard>
-            <a
-              className="btn "
+            <button
+              className="btn  CodeMirror_btn"
               data-tip="clear"
               onClick={[Function]}
+              onKeyPress={[Function]}
+              tabIndex={-1}
+              type="submit"
             >
               <Icon
                 className="CodeMirror__header_deletebtn"
                 icon="fa fa-trash-o"
                 style={Object {}}
               />
-            </a>
+            </button>
           </NavbarNav>,
           "className": "CodeMirror__header",
           "companyLink": "",
@@ -196,35 +210,42 @@ ShallowWrapper {
               <CopyToClipboard
                 onCopy={[Function]}
                 options={undefined}
-                text="var component = {
+                text="const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
               >
-                <a
-                  className="btn "
+                <button
+                  className="btn  CodeMirror_btn"
                   data-tip="copy"
                   onClick={[Function]}
+                  onKeyPress={[Function]}
+                  tabIndex={0}
+                  type="submit"
                 >
                   <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    role="link"
                     style={Object {}}
                   />
-                </a>
+                </button>
               </CopyToClipboard>,
-              <a
-                className="btn "
+              <button
+                className="btn  CodeMirror_btn"
                 data-tip="clear"
                 onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={-1}
+                type="submit"
               >
                 <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
                   style={Object {}}
                 />
-              </a>,
+              </button>,
             ],
           },
           "ref": null,
@@ -234,20 +255,24 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": <a
-                  className="btn "
+                "children": <button
+                  className="btn  CodeMirror_btn"
                   data-tip="copy"
                   onClick={[Function]}
+                  onKeyPress={[Function]}
+                  tabIndex={0}
+                  type="submit"
                 >
                   <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    role="link"
                     style={Object {}}
                   />
-                </a>,
+                </button>,
                 "onCopy": [Function],
                 "options": undefined,
-                "text": "var component = {
+                "text": "const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
@@ -262,11 +287,15 @@ ShallowWrapper {
                   "children": <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    role="link"
                     style={Object {}}
                   />,
-                  "className": "btn ",
+                  "className": "btn  CodeMirror_btn",
                   "data-tip": "copy",
                   "onClick": [Function],
+                  "onKeyPress": [Function],
+                  "tabIndex": 0,
+                  "type": "submit",
                 },
                 "ref": null,
                 "rendered": Object {
@@ -276,13 +305,14 @@ ShallowWrapper {
                   "props": Object {
                     "className": "CodeMirror__header_copybtn",
                     "icon": "fa fa-clone",
+                    "role": "link",
                     "style": Object {},
                   },
                   "ref": null,
                   "rendered": null,
                   "type": [Function],
                 },
-                "type": "a",
+                "type": "button",
               },
               "type": [Function],
             },
@@ -296,9 +326,12 @@ ShallowWrapper {
                   icon="fa fa-trash-o"
                   style={Object {}}
                 />,
-                "className": "btn ",
+                "className": "btn  CodeMirror_btn",
                 "data-tip": "clear",
                 "onClick": [Function],
+                "onKeyPress": [Function],
+                "tabIndex": -1,
+                "type": "submit",
               },
               "ref": null,
               "rendered": Object {
@@ -314,7 +347,7 @@ ShallowWrapper {
                 "rendered": null,
                 "type": [Function],
               },
-              "type": "a",
+              "type": "button",
             },
           ],
           "type": [Function],
@@ -336,7 +369,7 @@ ShallowWrapper {
             "theme": "idea",
           },
           "preserveScrollPosition": false,
-          "value": "var component = {
+          "value": "const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
@@ -351,6 +384,7 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "children": null,
           "className": "CodeMirror__header",
           "companyLink": "",
           "companyLogo": "",
@@ -399,35 +433,42 @@ ShallowWrapper {
               <CopyToClipboard
                 onCopy={[Function]}
                 options={undefined}
-                text="var component = {
+                text="const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
               >
-                <a
-                  className="btn "
+                <button
+                  className="btn  CodeMirror_btn"
                   data-tip="copy"
                   onClick={[Function]}
+                  onKeyPress={[Function]}
+                  tabIndex={0}
+                  type="submit"
                 >
                   <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    role="link"
                     style={Object {}}
                   />
-                </a>
+                </button>
               </CopyToClipboard>
-              <a
-                className="btn "
+              <button
+                className="btn  CodeMirror_btn"
                 data-tip="clear"
                 onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={-1}
+                type="submit"
               >
                 <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
                   style={Object {}}
                 />
-              </a>
+              </button>
             </NavbarNav>
           </Navbar>,
           <Unknown
@@ -443,7 +484,7 @@ ShallowWrapper {
               }
             }
             preserveScrollPosition={false}
-            value="var component = {
+            value="const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
@@ -489,35 +530,42 @@ ShallowWrapper {
               <CopyToClipboard
                 onCopy={[Function]}
                 options={undefined}
-                text="var component = {
+                text="const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
               >
-                <a
-                  className="btn "
+                <button
+                  className="btn  CodeMirror_btn"
                   data-tip="copy"
                   onClick={[Function]}
+                  onKeyPress={[Function]}
+                  tabIndex={0}
+                  type="submit"
                 >
                   <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
+                    role="link"
                     style={Object {}}
                   />
-                </a>
+                </button>
               </CopyToClipboard>
-              <a
-                className="btn "
+              <button
+                className="btn  CodeMirror_btn"
                 data-tip="clear"
                 onClick={[Function]}
+                onKeyPress={[Function]}
+                tabIndex={-1}
+                type="submit"
               >
                 <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
                   style={Object {}}
                 />
-              </a>
+              </button>
             </NavbarNav>,
             "className": "CodeMirror__header",
             "companyLink": "",
@@ -541,35 +589,42 @@ ShallowWrapper {
                 <CopyToClipboard
                   onCopy={[Function]}
                   options={undefined}
-                  text="var component = {
+                  text="const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
                 >
-                  <a
-                    className="btn "
+                  <button
+                    className="btn  CodeMirror_btn"
                     data-tip="copy"
                     onClick={[Function]}
+                    onKeyPress={[Function]}
+                    tabIndex={0}
+                    type="submit"
                   >
                     <Icon
                       className="CodeMirror__header_copybtn"
                       icon="fa fa-clone"
+                      role="link"
                       style={Object {}}
                     />
-                  </a>
+                  </button>
                 </CopyToClipboard>,
-                <a
-                  className="btn "
+                <button
+                  className="btn  CodeMirror_btn"
                   data-tip="clear"
                   onClick={[Function]}
+                  onKeyPress={[Function]}
+                  tabIndex={-1}
+                  type="submit"
                 >
                   <Icon
                     className="CodeMirror__header_deletebtn"
                     icon="fa fa-trash-o"
                     style={Object {}}
                   />
-                </a>,
+                </button>,
               ],
             },
             "ref": null,
@@ -579,20 +634,24 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": <a
-                    className="btn "
+                  "children": <button
+                    className="btn  CodeMirror_btn"
                     data-tip="copy"
                     onClick={[Function]}
+                    onKeyPress={[Function]}
+                    tabIndex={0}
+                    type="submit"
                   >
                     <Icon
                       className="CodeMirror__header_copybtn"
                       icon="fa fa-clone"
+                      role="link"
                       style={Object {}}
                     />
-                  </a>,
+                  </button>,
                   "onCopy": [Function],
                   "options": undefined,
-                  "text": "var component = {
+                  "text": "const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
@@ -607,11 +666,15 @@ ShallowWrapper {
                     "children": <Icon
                       className="CodeMirror__header_copybtn"
                       icon="fa fa-clone"
+                      role="link"
                       style={Object {}}
                     />,
-                    "className": "btn ",
+                    "className": "btn  CodeMirror_btn",
                     "data-tip": "copy",
                     "onClick": [Function],
+                    "onKeyPress": [Function],
+                    "tabIndex": 0,
+                    "type": "submit",
                   },
                   "ref": null,
                   "rendered": Object {
@@ -621,13 +684,14 @@ ShallowWrapper {
                     "props": Object {
                       "className": "CodeMirror__header_copybtn",
                       "icon": "fa fa-clone",
+                      "role": "link",
                       "style": Object {},
                     },
                     "ref": null,
                     "rendered": null,
                     "type": [Function],
                   },
-                  "type": "a",
+                  "type": "button",
                 },
                 "type": [Function],
               },
@@ -641,9 +705,12 @@ ShallowWrapper {
                     icon="fa fa-trash-o"
                     style={Object {}}
                   />,
-                  "className": "btn ",
+                  "className": "btn  CodeMirror_btn",
                   "data-tip": "clear",
                   "onClick": [Function],
+                  "onKeyPress": [Function],
+                  "tabIndex": -1,
+                  "type": "submit",
                 },
                 "ref": null,
                 "rendered": Object {
@@ -659,7 +726,7 @@ ShallowWrapper {
                   "rendered": null,
                   "type": [Function],
                 },
-                "type": "a",
+                "type": "button",
               },
             ],
             "type": [Function],
@@ -681,7 +748,7 @@ ShallowWrapper {
               "theme": "idea",
             },
             "preserveScrollPosition": false,
-            "value": "var component = {
+            "value": "const component = {
 	name: \\"react-code\\",
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
@@ -696,6 +763,7 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "children": null,
             "className": "CodeMirror__header",
             "companyLink": "",
             "companyLogo": "",

@@ -20,6 +20,7 @@ import '../src/stories/components/link';
 //Components
 
 import '../src/stories/components/backers';
+import '../src/stories/components/backers-open-collective';
 import '../src/stories/components/browser-support';
 import '../src/stories/components/built-with';
 import '../src/stories/components/card';
@@ -45,4 +46,4 @@ import '../src/stories/components/video';
 import '../src/stories/components/wizard';
 
 //Pages
-import "../src/stories/pages/fron10";
+import '../src/stories/pages/fron10';

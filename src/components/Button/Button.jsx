@@ -1,27 +1,34 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ReactTooltip from 'react-tooltip';
 import Icon from '../Icon/Icon';
 
 class Button extends Component {
   render() {
-    const { disabled, className, loading, tooltip, children, ariaLabel, onClick } = this.props;
+    const {
+      disabled,
+      className,
+      loading,
+      tooltip,
+      children,
+      ariaLabel,
+      type,
+      onClick
+    } = this.props;
+    /* eslint-disable react/button-has-type */
     return (
-      <React.Fragment>
-        {tooltip && <ReactTooltip />}
-        <button
-          data-tip={tooltip}
-          disabled={disabled}
-          className={`Button btn ${className}`}
-          onClick={onClick}
-          aria-label={ariaLabel}
-          type="submit"
-        >
-          {!loading && children}
-          {loading && <Icon icon="fa fa-circle-o-notch fa-spin" />}
-        </button>
-      </React.Fragment>
+      <button
+        title={tooltip}
+        disabled={disabled}
+        className={`Button btn ${className}`}
+        onClick={onClick}
+        aria-label={ariaLabel}
+        type={type}
+      >
+        {!loading && children}
+        {loading && <Icon icon="fa fa-circle-o-notch fa-spin" />}
+      </button>
     );
+    /* eslint-enable react/button-has-type */
   }
 }
 
@@ -31,6 +38,7 @@ Button.propTypes = {
   className: PropTypes.string,
   ariaLabel: PropTypes.string,
   tooltip: PropTypes.string,
+  type: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   onClick: PropTypes.func
 };
@@ -40,6 +48,7 @@ Button.defaultProps = {
   className: '',
   ariaLabel: '',
   tooltip: '',
+  type: 'button',
   children: null,
   onClick: () => {}
 };

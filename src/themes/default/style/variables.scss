@@ -18,7 +18,6 @@ $brown1: #6F392F;
 $brown2: #721c24;
 $brown3: #f5c6cb;
 $primary-color: $blue1;
-
 /*
  *Hero
  */
@@ -34,7 +33,6 @@ $Hero__SubHeader-fontStyle: italic;
 $Hero__SubHeader--phone-fontSize: 20px;
 $Hero__Button-color: $white1;
 $Hero__Button-backgroundColor: #fed136;
-
 /*
  * Header
  */
@@ -42,7 +40,6 @@ $Hero__Button-backgroundColor: #fed136;
 $Header-backgroundColor: #383d45;
 $Header-color: $grey1;
 $Header--hover-color: #fed136;
-
 /*
 * GithubDetail
 */
@@ -63,7 +60,6 @@ $GithubDetail__buttonText-ml: 5px;
 $GithubDetail__btn_container-padding: 5px;
 $GithubDetail_btn-backgroundColor: #DCDCDC;
 $GithubDetail_btn-Color: #000;
-
 /*
 * Code
 */
@@ -88,15 +84,14 @@ $CodeMirror__header_copybtn_margin: 10px -10px 0 0;
 $CodeMirror__header_deletebtn_margin: 10px 0 0 0;
 $CodeMirror__height: 250px;
 $CodeMirror__font_family: Lato;
-
 /*
  * ContactUs
  */
+
 $ContactUs__SubmitButton-color: $white1;
 $ContactUs__SubmitButton-backgroundColor: $blue1;
 $ContactUs__SubmitButton--hover-color: $white1;
 $ContactUs__SubmitButton--hover-backgroundColor: $blue2;
-
 /*
  * Card
  */
@@ -109,7 +104,6 @@ $Card__Title-fontSize: 2rem;
 $Card__Title-color: #000;
 $Card__Subtitle-fontSize: 0.9rem;
 $Card__Subtitle-color: #b5b5b5;
-
 /*
  * Footer
  */
@@ -120,7 +114,6 @@ $Footer__Sections__Link--hover-color: #fed136;
 $Footer__Sections__Header-fontSize: 1.5rem;
 $Footer__Sections__Link-fontSize: 0.8rem;
 $Footer__Copyright-fontSize: 0.8rem;
-
 /*
  * Section
  */
@@ -130,36 +123,42 @@ $Section__Title-color: #000;
 $Section__Subtitle-fontSize: 0.9rem;
 $Section__Subtitle-color: #b5b5b5;
 $Section--gray-backgroundColor: #f8f9fa;
-
 /*
  * Language switcher
  */
+
 $LanguageSwitcher-borderRadius: 0px;
 $LanguageSwitcher-fontSize: 0.7rem;
 $LanguageSwitcher__Option--hover-backgroundColor: #eaeaea;
 $LanguageSwitcher__Option--hover-color: #000;
 $LanguageSwitcher__Option-color: #000;
 $LanguageSwitcher--disabled-color: #b5b5b5;
-
 /*
  * Button
  */
+
 $Button-borderRadius: 0px;
 $Button-fontSize: 0.7rem;
-
 /*
  * Input
  */
+
 $Input-borderRadius: 0px;
 $Input-fontSize: 0.7rem;
-
 /*
  * Label
  */
-$Label-fontSize: 0.7rem;
 
+$Label-fontSize: 0.7rem;
 /*
  * ContactInfo
  */
+
 $ContactInfo__Location-height: 300px;
 $ContactInfo__Information-fontSize: 0.7rem;
+/*
+ * Backers
+ */
+
+$Backers__Image-width: 50px;
+$Backers__Image-height: 50px;

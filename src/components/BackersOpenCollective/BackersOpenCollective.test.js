@@ -1,20 +1,20 @@
 import React from 'react';
 import { configure, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Backers from './Backers';
+import BackersOpenCollective from './BackersOpenCollective';
 
 configure({ adapter: new Adapter() });
 
 describe('Backers', () => {
   let props;
   let mounted;
-  const backers = () => {
+  const backersOpenCollective = () => {
     if (!mounted) {
-      mounted = mount(<Backers {...props} />);
+      mounted = mount(<BackersOpenCollective {...props} />);
     }
     return mounted;
   };
-  describe('Backers', () => {
+  describe('BackersOpenCollective', () => {
     beforeEach(() => {
       props = {};
       mounted = undefined;
@@ -28,11 +28,11 @@ describe('Backers', () => {
     });
 
     it('should render', () => {
-      expect(mount(<Backers {...props} />)).toMatchSnapshot();
+      expect(mount(<BackersOpenCollective {...props} />)).toMatchSnapshot();
     });
 
     it('always renders a div', () => {
-      const divs = backers().find('div');
+      const divs = backersOpenCollective().find('div');
 
       expect(divs.length).toBeGreaterThan(0);
     });

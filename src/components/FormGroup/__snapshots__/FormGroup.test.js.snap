@@ -38,6 +38,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "className": "form-group",
             },
           },
@@ -45,6 +46,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "children": null,
               "className": "form-group",
             },
           },
@@ -54,6 +56,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "className": "form-group",
             },
           },
@@ -131,6 +134,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "className": "form-group",
                         }
                       }
@@ -152,6 +156,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "className": "form-group",
                         }
                       }
@@ -175,6 +180,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "children": null,
                     "className": "form-group",
                   }
                 }
@@ -219,6 +225,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "className": "form-group",
                     }
                   }
@@ -245,6 +252,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -253,6 +261,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -288,14 +297,14 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": undefined,
+            "children": null,
             "className": "form-group",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": undefined,
+            "children": null,
             "className": "form-group",
           },
           "ref": null,
@@ -317,12 +326,14 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
+          "children": null,
           "className": "form-group",
         },
         "memoizedState": null,
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "children": null,
           "className": "form-group",
         },
         "ref": null,
@@ -345,6 +356,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "className": "form-group",
             },
           },
@@ -352,6 +364,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "children": null,
               "className": "form-group",
             },
           },
@@ -361,6 +374,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "className": "form-group",
             },
           },
@@ -438,6 +452,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "className": "form-group",
                         }
                       }
@@ -459,6 +474,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "className": "form-group",
                         }
                       }
@@ -482,6 +498,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "children": null,
                     "className": "form-group",
                   }
                 }
@@ -526,6 +543,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "className": "form-group",
                     }
                   }
@@ -552,6 +570,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -560,6 +579,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -586,6 +606,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
+        "children": null,
         "className": "form-group",
       },
       "refs": Object {},
@@ -600,6 +621,7 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "children": null,
       "className": "form-group",
     },
     "ref": null,
@@ -610,12 +632,12 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": undefined,
+        "children": null,
         "className": "form-group",
       },
       "ref": null,
       "rendered": Array [
-        undefined,
+        null,
       ],
       "type": "div",
     },
@@ -646,6 +668,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -653,6 +676,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -662,6 +686,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -739,6 +764,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "className": "form-group",
                           }
                         }
@@ -760,6 +786,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "className": "form-group",
                           }
                         }
@@ -783,6 +810,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "className": "form-group",
                     }
                   }
@@ -827,6 +855,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "children": null,
                         "className": "form-group",
                       }
                     }
@@ -853,6 +882,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "children": null,
                   "className": "form-group",
                 },
               },
@@ -861,6 +891,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "children": null,
                   "className": "form-group",
                 },
               },
@@ -896,14 +927,14 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": undefined,
+              "children": null,
               "className": "form-group",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": undefined,
+              "children": null,
               "className": "form-group",
             },
             "ref": null,
@@ -925,12 +956,14 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
+            "children": null,
             "className": "form-group",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "children": null,
             "className": "form-group",
           },
           "ref": null,
@@ -953,6 +986,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -960,6 +994,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -969,6 +1004,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "form-group",
               },
             },
@@ -1046,6 +1082,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "className": "form-group",
                           }
                         }
@@ -1067,6 +1104,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "className": "form-group",
                           }
                         }
@@ -1090,6 +1128,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "className": "form-group",
                     }
                   }
@@ -1134,6 +1173,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "children": null,
                         "className": "form-group",
                       }
                     }
@@ -1160,6 +1200,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "children": null,
                   "className": "form-group",
                 },
               },
@@ -1168,6 +1209,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "children": null,
                   "className": "form-group",
                 },
               },
@@ -1194,6 +1236,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
+          "children": null,
           "className": "form-group",
         },
         "refs": Object {},
@@ -1208,6 +1251,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "children": null,
         "className": "form-group",
       },
       "ref": null,
@@ -1218,12 +1262,12 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": null,
           "className": "form-group",
         },
         "ref": null,
         "rendered": Array [
-          undefined,
+          null,
         ],
         "type": "div",
       },

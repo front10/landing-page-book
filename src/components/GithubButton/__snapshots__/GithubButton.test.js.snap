@@ -124,6 +124,7 @@ ReactWrapper {
                   >
                     <a
                       class="btn GithubDetail_btn"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <i
@@ -265,6 +266,7 @@ ReactWrapper {
                 >
                   <a
                     class="btn GithubDetail_btn"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     <i
@@ -529,6 +531,7 @@ ReactWrapper {
               ],
               "className": "btn GithubDetail_btn",
               "href": undefined,
+              "rel": "noopener noreferrer",
               "target": "_blank",
             },
             "memoizedState": null,
@@ -549,6 +552,7 @@ ReactWrapper {
               ],
               "className": "btn GithubDetail_btn",
               "href": undefined,
+              "rel": "noopener noreferrer",
               "target": "_blank",
             },
             "ref": null,
@@ -697,6 +701,7 @@ ReactWrapper {
             },
             "stateNode": <a
               class="btn GithubDetail_btn"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i
@@ -725,6 +730,7 @@ ReactWrapper {
               <a
                 className="btn GithubDetail_btn"
                 href={undefined}
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i
@@ -758,6 +764,7 @@ ReactWrapper {
               <a
                 className="btn GithubDetail_btn"
                 href={undefined}
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i
@@ -792,6 +799,7 @@ ReactWrapper {
           >
             <a
               class="btn GithubDetail_btn"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i
@@ -951,6 +959,7 @@ ReactWrapper {
                   >
                     <a
                       class="btn GithubDetail_btn"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <i
@@ -1092,6 +1101,7 @@ ReactWrapper {
                 >
                   <a
                     class="btn GithubDetail_btn"
+                    rel="noopener noreferrer"
                     target="_blank"
                   >
                     <i
@@ -1280,6 +1290,7 @@ ReactWrapper {
       >
         <a
           class="btn GithubDetail_btn"
+          rel="noopener noreferrer"
           target="_blank"
         >
           <i
@@ -1307,6 +1318,7 @@ ReactWrapper {
           <a
             className="btn GithubDetail_btn"
             href={undefined}
+            rel="noopener noreferrer"
             target="_blank"
           >
             <i
@@ -1337,6 +1349,7 @@ ReactWrapper {
         Object {
           "instance": <a
             class="btn GithubDetail_btn"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <i
@@ -1366,6 +1379,7 @@ ReactWrapper {
             ],
             "className": "btn GithubDetail_btn",
             "href": undefined,
+            "rel": "noopener noreferrer",
             "target": "_blank",
           },
           "ref": null,
@@ -1534,6 +1548,7 @@ ReactWrapper {
                               >
                                 <a
                                   class="btn GithubDetail_btn"
+                                  rel="noopener noreferrer"
                                   target="_blank"
                                 >
                                   <i
@@ -1675,6 +1690,7 @@ ReactWrapper {
                             >
                               <a
                                 class="btn GithubDetail_btn"
+                                rel="noopener noreferrer"
                                 target="_blank"
                               >
                                 <i
@@ -1939,6 +1955,7 @@ ReactWrapper {
                           ],
                           "className": "btn GithubDetail_btn",
                           "href": undefined,
+                          "rel": "noopener noreferrer",
                           "target": "_blank",
                         },
                         "memoizedState": null,
@@ -1959,6 +1976,7 @@ ReactWrapper {
                           ],
                           "className": "btn GithubDetail_btn",
                           "href": undefined,
+                          "rel": "noopener noreferrer",
                           "target": "_blank",
                         },
                         "ref": null,
@@ -2016,6 +2034,7 @@ ReactWrapper {
                         },
                         "stateNode": <a
                           class="btn GithubDetail_btn"
+                          rel="noopener noreferrer"
                           target="_blank"
                         >
                           <i
@@ -2044,6 +2063,7 @@ ReactWrapper {
                           <a
                             className="btn GithubDetail_btn"
                             href={undefined}
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i
@@ -2077,6 +2097,7 @@ ReactWrapper {
                           <a
                             className="btn GithubDetail_btn"
                             href={undefined}
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i
@@ -2111,6 +2132,7 @@ ReactWrapper {
                       >
                         <a
                           class="btn GithubDetail_btn"
+                          rel="noopener noreferrer"
                           target="_blank"
                         >
                           <i
@@ -2270,6 +2292,7 @@ ReactWrapper {
                               >
                                 <a
                                   class="btn GithubDetail_btn"
+                                  rel="noopener noreferrer"
                                   target="_blank"
                                 >
                                   <i
@@ -2411,6 +2434,7 @@ ReactWrapper {
                             >
                               <a
                                 class="btn GithubDetail_btn"
+                                rel="noopener noreferrer"
                                 target="_blank"
                               >
                                 <i
@@ -2747,6 +2771,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -2888,6 +2913,7 @@ ReactWrapper {
                               >
                                 <a
                                   class="btn GithubDetail_btn"
+                                  rel="noopener noreferrer"
                                   target="_blank"
                                 >
                                   <i
@@ -3152,6 +3178,7 @@ ReactWrapper {
                             ],
                             "className": "btn GithubDetail_btn",
                             "href": undefined,
+                            "rel": "noopener noreferrer",
                             "target": "_blank",
                           },
                           "memoizedState": null,
@@ -3172,6 +3199,7 @@ ReactWrapper {
                             ],
                             "className": "btn GithubDetail_btn",
                             "href": undefined,
+                            "rel": "noopener noreferrer",
                             "target": "_blank",
                           },
                           "ref": null,
@@ -3180,6 +3208,7 @@ ReactWrapper {
                           "sibling": [Circular],
                           "stateNode": <a
                             class="btn GithubDetail_btn"
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i
@@ -3208,6 +3237,7 @@ ReactWrapper {
                             <a
                               className="btn GithubDetail_btn"
                               href={undefined}
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <i
@@ -3241,6 +3271,7 @@ ReactWrapper {
                             <a
                               className="btn GithubDetail_btn"
                               href={undefined}
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <i
@@ -3275,6 +3306,7 @@ ReactWrapper {
                         >
                           <a
                             class="btn GithubDetail_btn"
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i
@@ -3434,6 +3466,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -3575,6 +3608,7 @@ ReactWrapper {
                               >
                                 <a
                                   class="btn GithubDetail_btn"
+                                  rel="noopener noreferrer"
                                   target="_blank"
                                 >
                                   <i
@@ -3880,6 +3914,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -4021,6 +4056,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -4277,6 +4313,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -4418,6 +4455,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -4696,6 +4734,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -4837,6 +4876,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -5093,6 +5133,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -5234,6 +5275,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -5512,6 +5554,7 @@ ReactWrapper {
                                       >
                                         <a
                                           class="btn GithubDetail_btn"
+                                          rel="noopener noreferrer"
                                           target="_blank"
                                         >
                                           <i
@@ -5653,6 +5696,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -5909,6 +5953,7 @@ ReactWrapper {
                                       >
                                         <a
                                           class="btn GithubDetail_btn"
+                                          rel="noopener noreferrer"
                                           target="_blank"
                                         >
                                           <i
@@ -6050,6 +6095,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -6372,6 +6418,7 @@ ReactWrapper {
                                           >
                                             <a
                                               class="btn GithubDetail_btn"
+                                              rel="noopener noreferrer"
                                               target="_blank"
                                             >
                                               <i
@@ -6513,6 +6560,7 @@ ReactWrapper {
                                         >
                                           <a
                                             class="btn GithubDetail_btn"
+                                            rel="noopener noreferrer"
                                             target="_blank"
                                           >
                                             <i
@@ -6769,6 +6817,7 @@ ReactWrapper {
                                           >
                                             <a
                                               class="btn GithubDetail_btn"
+                                              rel="noopener noreferrer"
                                               target="_blank"
                                             >
                                               <i
@@ -6910,6 +6959,7 @@ ReactWrapper {
                                         >
                                           <a
                                             class="btn GithubDetail_btn"
+                                            rel="noopener noreferrer"
                                             target="_blank"
                                           >
                                             <i
@@ -7151,6 +7201,7 @@ ReactWrapper {
                           ],
                           "className": "btn GithubDetail_btn",
                           "href": undefined,
+                          "rel": "noopener noreferrer",
                           "target": "_blank",
                         },
                         "memoizedState": null,
@@ -7171,6 +7222,7 @@ ReactWrapper {
                           ],
                           "className": "btn GithubDetail_btn",
                           "href": undefined,
+                          "rel": "noopener noreferrer",
                           "target": "_blank",
                         },
                         "ref": null,
@@ -7179,6 +7231,7 @@ ReactWrapper {
                         "sibling": [Circular],
                         "stateNode": <a
                           class="btn GithubDetail_btn"
+                          rel="noopener noreferrer"
                           target="_blank"
                         >
                           <i
@@ -7207,6 +7260,7 @@ ReactWrapper {
                           <a
                             className="btn GithubDetail_btn"
                             href={undefined}
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i
@@ -7240,6 +7294,7 @@ ReactWrapper {
                           <a
                             className="btn GithubDetail_btn"
                             href={undefined}
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i
@@ -7367,6 +7422,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -7508,6 +7564,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -7764,6 +7821,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -7905,6 +7963,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -8082,6 +8141,7 @@ ReactWrapper {
                       >
                         <a
                           class="btn GithubDetail_btn"
+                          rel="noopener noreferrer"
                           target="_blank"
                         >
                           <i
@@ -8283,6 +8343,7 @@ ReactWrapper {
                     >
                       <a
                         class="btn GithubDetail_btn"
+                        rel="noopener noreferrer"
                         target="_blank"
                       >
                         <i
@@ -8424,6 +8485,7 @@ ReactWrapper {
                   >
                     <a
                       class="btn GithubDetail_btn"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <i
@@ -8688,6 +8750,7 @@ ReactWrapper {
                 ],
                 "className": "btn GithubDetail_btn",
                 "href": undefined,
+                "rel": "noopener noreferrer",
                 "target": "_blank",
               },
               "memoizedState": null,
@@ -8708,6 +8771,7 @@ ReactWrapper {
                 ],
                 "className": "btn GithubDetail_btn",
                 "href": undefined,
+                "rel": "noopener noreferrer",
                 "target": "_blank",
               },
               "ref": null,
@@ -8856,6 +8920,7 @@ ReactWrapper {
               },
               "stateNode": <a
                 class="btn GithubDetail_btn"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i
@@ -8884,6 +8949,7 @@ ReactWrapper {
                 <a
                   className="btn GithubDetail_btn"
                   href={undefined}
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i
@@ -8917,6 +8983,7 @@ ReactWrapper {
                 <a
                   className="btn GithubDetail_btn"
                   href={undefined}
+                  rel="noopener noreferrer"
                   target="_blank"
                 >
                   <i
@@ -8951,6 +9018,7 @@ ReactWrapper {
             >
               <a
                 class="btn GithubDetail_btn"
+                rel="noopener noreferrer"
                 target="_blank"
               >
                 <i
@@ -9110,6 +9178,7 @@ ReactWrapper {
                     >
                       <a
                         class="btn GithubDetail_btn"
+                        rel="noopener noreferrer"
                         target="_blank"
                       >
                         <i
@@ -9251,6 +9320,7 @@ ReactWrapper {
                   >
                     <a
                       class="btn GithubDetail_btn"
+                      rel="noopener noreferrer"
                       target="_blank"
                     >
                       <i
@@ -9439,6 +9509,7 @@ ReactWrapper {
         >
           <a
             class="btn GithubDetail_btn"
+            rel="noopener noreferrer"
             target="_blank"
           >
             <i
@@ -9466,6 +9537,7 @@ ReactWrapper {
             <a
               className="btn GithubDetail_btn"
               href={undefined}
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i
@@ -9496,6 +9568,7 @@ ReactWrapper {
           Object {
             "instance": <a
               class="btn GithubDetail_btn"
+              rel="noopener noreferrer"
               target="_blank"
             >
               <i
@@ -9525,6 +9598,7 @@ ReactWrapper {
               ],
               "className": "btn GithubDetail_btn",
               "href": undefined,
+              "rel": "noopener noreferrer",
               "target": "_blank",
             },
             "ref": null,
@@ -9693,6 +9767,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -9834,6 +9909,7 @@ ReactWrapper {
                               >
                                 <a
                                   class="btn GithubDetail_btn"
+                                  rel="noopener noreferrer"
                                   target="_blank"
                                 >
                                   <i
@@ -10098,6 +10174,7 @@ ReactWrapper {
                             ],
                             "className": "btn GithubDetail_btn",
                             "href": undefined,
+                            "rel": "noopener noreferrer",
                             "target": "_blank",
                           },
                           "memoizedState": null,
@@ -10118,6 +10195,7 @@ ReactWrapper {
                             ],
                             "className": "btn GithubDetail_btn",
                             "href": undefined,
+                            "rel": "noopener noreferrer",
                             "target": "_blank",
                           },
                           "ref": null,
@@ -10175,6 +10253,7 @@ ReactWrapper {
                           },
                           "stateNode": <a
                             class="btn GithubDetail_btn"
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i
@@ -10203,6 +10282,7 @@ ReactWrapper {
                             <a
                               className="btn GithubDetail_btn"
                               href={undefined}
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <i
@@ -10236,6 +10316,7 @@ ReactWrapper {
                             <a
                               className="btn GithubDetail_btn"
                               href={undefined}
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <i
@@ -10270,6 +10351,7 @@ ReactWrapper {
                         >
                           <a
                             class="btn GithubDetail_btn"
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i
@@ -10429,6 +10511,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -10570,6 +10653,7 @@ ReactWrapper {
                               >
                                 <a
                                   class="btn GithubDetail_btn"
+                                  rel="noopener noreferrer"
                                   target="_blank"
                                 >
                                   <i
@@ -10906,6 +10990,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -11047,6 +11132,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -11311,6 +11397,7 @@ ReactWrapper {
                               ],
                               "className": "btn GithubDetail_btn",
                               "href": undefined,
+                              "rel": "noopener noreferrer",
                               "target": "_blank",
                             },
                             "memoizedState": null,
@@ -11331,6 +11418,7 @@ ReactWrapper {
                               ],
                               "className": "btn GithubDetail_btn",
                               "href": undefined,
+                              "rel": "noopener noreferrer",
                               "target": "_blank",
                             },
                             "ref": null,
@@ -11339,6 +11427,7 @@ ReactWrapper {
                             "sibling": [Circular],
                             "stateNode": <a
                               class="btn GithubDetail_btn"
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <i
@@ -11367,6 +11456,7 @@ ReactWrapper {
                               <a
                                 className="btn GithubDetail_btn"
                                 href={undefined}
+                                rel="noopener noreferrer"
                                 target="_blank"
                               >
                                 <i
@@ -11400,6 +11490,7 @@ ReactWrapper {
                               <a
                                 className="btn GithubDetail_btn"
                                 href={undefined}
+                                rel="noopener noreferrer"
                                 target="_blank"
                               >
                                 <i
@@ -11434,6 +11525,7 @@ ReactWrapper {
                           >
                             <a
                               class="btn GithubDetail_btn"
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <i
@@ -11593,6 +11685,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -11734,6 +11827,7 @@ ReactWrapper {
                                 >
                                   <a
                                     class="btn GithubDetail_btn"
+                                    rel="noopener noreferrer"
                                     target="_blank"
                                   >
                                     <i
@@ -12039,6 +12133,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -12180,6 +12275,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -12436,6 +12532,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -12577,6 +12674,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -12855,6 +12953,7 @@ ReactWrapper {
                                       >
                                         <a
                                           class="btn GithubDetail_btn"
+                                          rel="noopener noreferrer"
                                           target="_blank"
                                         >
                                           <i
@@ -12996,6 +13095,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -13252,6 +13352,7 @@ ReactWrapper {
                                       >
                                         <a
                                           class="btn GithubDetail_btn"
+                                          rel="noopener noreferrer"
                                           target="_blank"
                                         >
                                           <i
@@ -13393,6 +13494,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -13671,6 +13773,7 @@ ReactWrapper {
                                         >
                                           <a
                                             class="btn GithubDetail_btn"
+                                            rel="noopener noreferrer"
                                             target="_blank"
                                           >
                                             <i
@@ -13812,6 +13915,7 @@ ReactWrapper {
                                       >
                                         <a
                                           class="btn GithubDetail_btn"
+                                          rel="noopener noreferrer"
                                           target="_blank"
                                         >
                                           <i
@@ -14068,6 +14172,7 @@ ReactWrapper {
                                         >
                                           <a
                                             class="btn GithubDetail_btn"
+                                            rel="noopener noreferrer"
                                             target="_blank"
                                           >
                                             <i
@@ -14209,6 +14314,7 @@ ReactWrapper {
                                       >
                                         <a
                                           class="btn GithubDetail_btn"
+                                          rel="noopener noreferrer"
                                           target="_blank"
                                         >
                                           <i
@@ -14531,6 +14637,7 @@ ReactWrapper {
                                             >
                                               <a
                                                 class="btn GithubDetail_btn"
+                                                rel="noopener noreferrer"
                                                 target="_blank"
                                               >
                                                 <i
@@ -14672,6 +14779,7 @@ ReactWrapper {
                                           >
                                             <a
                                               class="btn GithubDetail_btn"
+                                              rel="noopener noreferrer"
                                               target="_blank"
                                             >
                                               <i
@@ -14928,6 +15036,7 @@ ReactWrapper {
                                             >
                                               <a
                                                 class="btn GithubDetail_btn"
+                                                rel="noopener noreferrer"
                                                 target="_blank"
                                               >
                                                 <i
@@ -15069,6 +15178,7 @@ ReactWrapper {
                                           >
                                             <a
                                               class="btn GithubDetail_btn"
+                                              rel="noopener noreferrer"
                                               target="_blank"
                                             >
                                               <i
@@ -15310,6 +15420,7 @@ ReactWrapper {
                             ],
                             "className": "btn GithubDetail_btn",
                             "href": undefined,
+                            "rel": "noopener noreferrer",
                             "target": "_blank",
                           },
                           "memoizedState": null,
@@ -15330,6 +15441,7 @@ ReactWrapper {
                             ],
                             "className": "btn GithubDetail_btn",
                             "href": undefined,
+                            "rel": "noopener noreferrer",
                             "target": "_blank",
                           },
                           "ref": null,
@@ -15338,6 +15450,7 @@ ReactWrapper {
                           "sibling": [Circular],
                           "stateNode": <a
                             class="btn GithubDetail_btn"
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i
@@ -15366,6 +15479,7 @@ ReactWrapper {
                             <a
                               className="btn GithubDetail_btn"
                               href={undefined}
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <i
@@ -15399,6 +15513,7 @@ ReactWrapper {
                             <a
                               className="btn GithubDetail_btn"
                               href={undefined}
+                              rel="noopener noreferrer"
                               target="_blank"
                             >
                               <i
@@ -15526,6 +15641,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -15667,6 +15783,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -15923,6 +16040,7 @@ ReactWrapper {
                                     >
                                       <a
                                         class="btn GithubDetail_btn"
+                                        rel="noopener noreferrer"
                                         target="_blank"
                                       >
                                         <i
@@ -16064,6 +16182,7 @@ ReactWrapper {
                                   >
                                     <a
                                       class="btn GithubDetail_btn"
+                                      rel="noopener noreferrer"
                                       target="_blank"
                                     >
                                       <i
@@ -16241,6 +16360,7 @@ ReactWrapper {
                         >
                           <a
                             class="btn GithubDetail_btn"
+                            rel="noopener noreferrer"
                             target="_blank"
                           >
                             <i

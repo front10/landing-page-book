@@ -16,7 +16,7 @@ stories.add(
   withReadme([Readme], () => (
     <ThemeSelector>
       <Row>
-        <Column className="col col-md-4">
+        <Column className="col col-md-5">
           <ContactInfo
             showBorder={boolean('Show border', true)}
             showIcons={boolean('Show icons', true)}

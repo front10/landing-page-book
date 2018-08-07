@@ -9,6 +9,7 @@ class GithubButton extends React.Component {
     this.state = {
       counter: null
     };
+    this.onChange = this.onChange.bind(this);
   }
 
   componentWillMount() {
@@ -71,55 +72,59 @@ class GithubButton extends React.Component {
     }
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(prevProps) {
+    this.onChange(prevProps);
+  }
+
+  onChange(prevProps) {
     const { showCounter, showGithubIcon, showBtnText, btnType } = this.state;
     const { username, repository } = this.props;
-    if (nextProps.showCounter !== showCounter) {
-      this.setState({ showCounter: nextProps.showCounter });
+    if (prevProps.showCounter !== showCounter) {
+      this.setState({ showCounter: prevProps.showCounter });
     }
-    if (nextProps.showGithubIcon !== showGithubIcon) {
-      this.setState({ showGithubIcon: nextProps.showGithubIcon });
-    }
-
-    if (nextProps.showBtnText !== showBtnText) {
-      this.setState({ showBtnText: nextProps.showBtnText });
+    if (prevProps.showGithubIcon !== showGithubIcon) {
+      this.setState({ showGithubIcon: prevProps.showGithubIcon });
     }
 
-    if (nextProps.btnType !== btnType) {
+    if (prevProps.showBtnText !== showBtnText) {
+      this.setState({ showBtnText: prevProps.showBtnText });
+    }
+
+    if (prevProps.btnType !== btnType) {
       this.setState({
-        showCounter: nextProps.showCounter,
-        btnType: nextProps.btnType,
+        showCounter: prevProps.showCounter,
+        btnType: prevProps.btnType,
         counter: null,
-        showBtnText: nextProps.showBtnText
+        showBtnText: prevProps.showBtnText
       });
 
       if (
-        nextProps.btnType === 'fork' ||
-        nextProps.btnType === 'star' ||
-        nextProps.btnType === 'watch' ||
-        nextProps.btnType === 'issue'
+        prevProps.btnType === 'fork' ||
+        prevProps.btnType === 'star' ||
+        prevProps.btnType === 'watch' ||
+        prevProps.btnType === 'issue'
       ) {
-        GithubService.getRepositoriesStats(nextProps.username, nextProps.repository)
+        GithubService.getRepositoriesStats(prevProps.username, prevProps.repository)
           .then(res => {
-            if (nextProps.btnType === 'fork')
+            if (prevProps.btnType === 'fork')
               this.setState({
                 counter: res.forks_count,
                 iconClass: 'fa fa-code-fork',
                 linkUrl: `https://github.com/${username}/${repository}/fork`
               });
-            if (nextProps.btnType === 'star')
+            if (prevProps.btnType === 'star')
               this.setState({
                 counter: res.stargazers_count,
                 iconClass: 'fa fa-star',
                 linkUrl: `https://github.com/${username}/${repository}`
               });
-            if (nextProps.btnType === 'watch')
+            if (prevProps.btnType === 'watch')
               this.setState({
                 counter: res.watchers_count,
                 iconClass: 'fa fa-eye',
                 linkUrl: `https://github.com/${username}/${repository}/subscription`
               });
-            if (nextProps.btnType === 'issue')
+            if (prevProps.btnType === 'issue')
               this.setState({
                 counter: res.open_issues_count,
                 iconClass: 'fa fa-exclamation-circle',
@@ -128,8 +133,8 @@ class GithubButton extends React.Component {
           })
           .catch(err => err);
       }
-      if (nextProps.btnType === 'follow') {
-        GithubService.getUserFallowers(nextProps.username)
+      if (prevProps.btnType === 'follow') {
+        GithubService.getUserFallowers(prevProps.username)
           .then(res => {
             this.setState({
               counter: res.length,
@@ -140,7 +145,7 @@ class GithubButton extends React.Component {
           .catch(err => err);
       }
 
-      if (nextProps.btnType === 'download') {
+      if (prevProps.btnType === 'download') {
         this.setState({
           counter: null,
           showCounter: false,

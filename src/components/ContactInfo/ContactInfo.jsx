@@ -43,37 +43,37 @@ class ContactInfo extends Component {
           )}
         {address && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-map-marker mr-2" />}
+            {showIcons && <Icon icon="fa fa-map-marker" />}
             {address}
           </div>
         )}
         {email && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-envelope mr-2" />}
+            {showIcons && <Icon icon="fa fa-envelope" />}
             {email}
           </div>
         )}
         {phone && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-phone mr-2" />}
+            {showIcons && <Icon icon="fa fa-phone" />}
             {phone}
           </div>
         )}
         {mobile && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-mobile mr-2" />}
+            {showIcons && <Icon icon="fa fa-mobile" />}
             {mobile}
           </div>
         )}
         {fax && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-fax mr-2" />}
+            {showIcons && <Icon icon="fa fa-fax" />}
             {fax}
           </div>
         )}
         {website && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-globe mr-2" />}
+            {showIcons && <Icon icon="fa fa-globe" />}
             {website}
           </div>
         )}

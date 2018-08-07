@@ -11995,7 +11995,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
  * Label
  */
 /*
- * ContactInfo
+ * ContactInfo 
  */
 /*
  * Backers
@@ -12040,17 +12040,17 @@ ol.progtrckr li.progtrckr-done:hover:before {
 .CodeMirror__header {
   width: 100%;
   height: 45px;
-  background-color: #DCDCDC !important; }
+  background-color: #dcdcdc !important; }
 
 .CodeMirror__footer {
   width: 100%;
   height: 15px;
-  background-color: #DCDCDC !important; }
+  background-color: #dcdcdc !important; }
 
 .CodeMirror__header-dark {
   width: 100%;
   height: 45px;
-  color: #FFF;
+  color: #fff;
   background-color: #444444; }
   .CodeMirror__header-dark .CodeMirror_btn {
     font-weight: 600;
@@ -12060,7 +12060,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
   width: 100%;
   height: 15px;
   background-color: #444444;
-  color: #FFF; }
+  color: #fff; }
 
 .CodeMirror__header_copybtn {
   margin: 10px -10px 0 0; }
@@ -12079,7 +12079,10 @@ ol.progtrckr li.progtrckr-done:hover:before {
   height: 300px; }
 
 .ContactInfo__Information {
-  font-size: 0.7rem; }
+  font-size: 0.7rem;
+  line-height: 2rem; }
+  .ContactInfo__Information i {
+    width: 25px; }
 
 .ContactUs .ContactUs__SubmitButton {
   color: white;
@@ -12088,11 +12091,11 @@ ol.progtrckr li.progtrckr-done:hover:before {
 .ContactUs .ContactUs__SubmitButton:not(:disabled):hover,
 .ContactUs .ContactUs__SubmitButton:not(:disabled):focus {
   color: white;
-  background-color: #065AC5; }
+  background-color: #065ac5; }
 
 .Footer {
   padding: 2.5rem 0;
-  color: #CCCCCC;
+  color: #cccccc;
   text-align: center;
   background-color: #383d45; }
   .Footer .Footer__Copyright {
@@ -12100,7 +12103,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
   .Footer .Footer__Sections__Header {
     font-size: 1.5rem; }
   .Footer .Footer__Sections__Link {
-    color: #CCCCCC;
+    color: #cccccc;
     font-size: 0.8rem; }
   .Footer .Footer__Sections__Link:hover {
     color: #fed136; }
@@ -12113,11 +12116,11 @@ ol.progtrckr li.progtrckr-done:hover:before {
 
 .speech-bubble {
   position: relative;
-  background: #DCDCDC;
+  background: #dcdcdc;
   border-radius: 0.4em;
   padding: 6px;
   margin-left: 11px;
-  border: 1px solid #DCDCDC;
+  border: 1px solid #dcdcdc;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out; }
   .speech-bubble a {
     color: #000; }
@@ -12130,7 +12133,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
   width: 0;
   height: 0;
   border: 7px solid transparent;
-  border-color: transparent #DCDCDC transparent transparent;
+  border-color: transparent #dcdcdc transparent transparent;
   border-left: 0;
   margin-top: -7px;
   margin-left: -8px;
@@ -12140,7 +12143,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
   margin-left: 5px; }
 
 .GithubDetail_btn {
-  background: #DCDCDC;
+  background: #dcdcdc;
   color: #000; }
 
 .GithubDetail_btn_container {
@@ -12151,7 +12154,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
-    color: #CCCCCC !important;
+    color: #cccccc !important;
     cursor: pointer; }
   .Navbar .NavbarLink:hover {
     color: #fed136 !important; }

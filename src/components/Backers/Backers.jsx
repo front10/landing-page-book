@@ -10,21 +10,27 @@ class Backers extends Component {
   }
 
   componentWillMount() {
-    this.formatData();
+    this.formatData(this.props);
   }
 
-  formatData() {
-    let { backers } = this.props;
-    backers = backers.map(backer => ({
+  componentWillReceiveProps(nextProps) {
+    const { backers } = this.state;
+    if (nextProps.backers !== backers) {
+      this.formatData(nextProps);
+    }
+  }
+
+  formatData({ backers }) {
+    const back = backers.map(backer => ({
       image: backer.image,
       tooltip: `$${backer.contributionAmount} by ${backer.name}`,
       url: backer.profile
     }));
-    this.setState({ backers });
+    this.setState({ backers: back });
   }
 
   render() {
-    const { imageWidth, imageHeight, imageRounded, imageGray, imageBordered } = this.props;
+    const { imageRounded, imageGray, imageBordered } = this.props;
     const { backers } = this.state;
     return (
       <div className="Backers">
@@ -33,8 +39,6 @@ class Backers extends Component {
           gray={imageGray}
           images={backers}
           imageBordered={imageBordered}
-          imageWidth={imageWidth}
-          imageHeight={imageHeight}
         />
       </div>
     );
@@ -45,14 +49,12 @@ Backers.propTypes = {
   imageRounded: PropTypes.bool,
   imageBordered: PropTypes.bool,
   imageGray: PropTypes.bool,
-  imageWidth: PropTypes.string,
-  imageHeight: PropTypes.string,
   backers: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,
       profile: PropTypes.string,
       image: PropTypes.string,
-      contributionAmount: PropTypes.string
+      contributionAmount: PropTypes.number
     })
   )
 };
@@ -60,8 +62,6 @@ Backers.defaultProps = {
   imageRounded: true,
   imageBordered: true,
   imageGray: false,
-  imageWidth: '50',
-  imageHeight: '50',
   backers: []
 };
 

@@ -1,8 +1,13 @@
-.Backers{
-  .ImageList{
-    .ImageList__Container{
+.Backers {
+  .ImageList {
+    .ImageList__Container {
       margin-left: 2px;
       margin-right: 2px;
+      img,
+      svg {
+        width: $Backers__Image-width;
+        height: $Backers__Image-height;
+      }
     }
   }
 }

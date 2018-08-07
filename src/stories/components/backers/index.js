@@ -106,7 +106,7 @@ const backers = [
     profile: 'https://www.facebook.com/ycbarroso',
     image:
       'https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-1/p160x160/33982916_1794458947240880_8061391612997009408_n.jpg?_nc_cat=0&oh=46256828ab9b2f3c3fe3b67cbd9e67c1&oe=5C134566',
-    contributionAmount: '250'
+    contributionAmount: 250
   },
   {
     name: 'Alberto Roman Vieito',

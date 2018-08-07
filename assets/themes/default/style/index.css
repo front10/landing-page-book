@@ -12003,8 +12003,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
 /*Custom*/
 /*Components*/
 .Backers .ImageList .ImageList__Container {
-  margin-left: 2px;
-  margin-right: 2px; }
+  margin: 2px; }
   .Backers .ImageList .ImageList__Container img,
   .Backers .ImageList .ImageList__Container svg {
     width: 50px;

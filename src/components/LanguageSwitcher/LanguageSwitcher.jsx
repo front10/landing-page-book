@@ -7,27 +7,23 @@ class LanguageSwitcher extends Component {
     super(props);
     this.state = {};
     this.onSelect = this.onSelect.bind(this);
+    this.onUpdate = this.onUpdate.bind(this);
   }
 
-  componentWillMount() {
+  componentDidUpdate(prevProps) {
+    this.onUpdate(prevProps);
+  }
+
+  onUpdate(prevProps) {
     const { selectedLanguage } = this.props;
-    this.setState({ selectedLanguage });
-  }
-
-  componentWillReceiveProps(nextProps) {
-    const { selectedLanguage } = this.state;
-    if (nextProps.selectedLanguage !== selectedLanguage) {
-      this.setState({ selectedLanguage: nextProps.selectedLanguage }, () => {
-        this.refs.languageSwitcher.updateSelected(nextProps.selectedLanguage); // eslint-disable-line
-      });
+    if (prevProps.selectedLanguage !== selectedLanguage) {
+      this.refs.languageSwitcher.updateSelected(selectedLanguage); // eslint-disable-line
     }
   }
 
   onSelect(countryCode) {
     const { onSelect } = this.props;
-    this.setState({ selectedLanguage: countryCode }, () => {
-      onSelect({ language: countryCode });
-    });
+    onSelect({ language: countryCode });
   }
 
   render() {

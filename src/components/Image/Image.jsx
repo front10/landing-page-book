@@ -5,6 +5,7 @@ class Image extends Component {
   constructor(props) {
     super(props);
     this.state = {};
+    this.onUpdate = this.onUpdate.bind(this);
   }
 
   componentWillMount() {
@@ -13,9 +14,13 @@ class Image extends Component {
     });
   }
 
-  componentWillReceiveProps(nextProps) {
+  componentDidUpdate(prevProps) {
+    this.onUpdate(prevProps);
+  }
+
+  onUpdate(prevProps) {
     const { src } = this.props;
-    if (nextProps.src !== src) this.setState({ loaded: false });
+    if (prevProps.src !== src) this.setState({ loaded: false });
   }
 
   render() {

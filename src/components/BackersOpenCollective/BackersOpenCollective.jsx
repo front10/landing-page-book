@@ -9,6 +9,7 @@ class BackersOpenCollective extends Component {
     this.state = {};
     this.getMembers = this.getMembers.bind(this);
     this.sort = this.sort.bind(this);
+    this.onUpdate = this.onUpdate.bind(this);
   }
 
   componentWillMount() {
@@ -23,11 +24,14 @@ class BackersOpenCollective extends Component {
     );
   }
 
-  componentWillReceiveProps(nextProps) {
-    const { sortDirection, backers } = this.state;
-    if (nextProps.sortDirection !== sortDirection) {
-      this.sort(backers, nextProps.sortDirection);
-    }
+  componentDidUpdate(prevProps) {
+    this.onUpdate(prevProps);
+  }
+
+  onUpdate(prevProps) {
+    const { sortDirection } = this.props;
+    const { backers } = this.state;
+    if (prevProps.sortDirection !== sortDirection) this.sort(backers, sortDirection);
   }
 
   getMembers() {

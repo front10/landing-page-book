@@ -39,6 +39,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "alignItems": "left",
+              "children": null,
             },
           },
           "memoizedState": Object {
@@ -46,6 +47,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "alignItems": "left",
+              "children": null,
             },
           },
           "mode": 0,
@@ -55,6 +57,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "alignItems": "left",
+              "children": null,
             },
           },
           "ref": null,
@@ -132,6 +135,7 @@ ReactWrapper {
                       props={
                         Object {
                           "alignItems": "left",
+                          "children": null,
                         }
                       }
                     />,
@@ -153,6 +157,7 @@ ReactWrapper {
                       props={
                         Object {
                           "alignItems": "left",
+                          "children": null,
                         }
                       }
                     />,
@@ -176,6 +181,7 @@ ReactWrapper {
                 props={
                   Object {
                     "alignItems": "left",
+                    "children": null,
                   }
                 }
               />,
@@ -220,6 +226,7 @@ ReactWrapper {
                   props={
                     Object {
                       "alignItems": "left",
+                      "children": null,
                     }
                   }
                 />,
@@ -246,6 +253,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "refs": Object {},
@@ -254,6 +262,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "updater": Object {
@@ -288,14 +297,14 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": undefined,
+            "children": null,
             "className": "navbar-nav mr-auto",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": undefined,
+            "children": null,
             "className": "navbar-nav mr-auto",
           },
           "ref": null,
@@ -318,12 +327,14 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "alignItems": "left",
+          "children": null,
         },
         "memoizedState": null,
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
           "alignItems": "left",
+          "children": null,
         },
         "ref": null,
         "return": FiberNode {
@@ -346,6 +357,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "alignItems": "left",
+              "children": null,
             },
           },
           "memoizedState": Object {
@@ -353,6 +365,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "alignItems": "left",
+              "children": null,
             },
           },
           "mode": 0,
@@ -362,6 +375,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "alignItems": "left",
+              "children": null,
             },
           },
           "ref": null,
@@ -439,6 +453,7 @@ ReactWrapper {
                       props={
                         Object {
                           "alignItems": "left",
+                          "children": null,
                         }
                       }
                     />,
@@ -460,6 +475,7 @@ ReactWrapper {
                       props={
                         Object {
                           "alignItems": "left",
+                          "children": null,
                         }
                       }
                     />,
@@ -483,6 +499,7 @@ ReactWrapper {
                 props={
                   Object {
                     "alignItems": "left",
+                    "children": null,
                   }
                 }
               />,
@@ -527,6 +544,7 @@ ReactWrapper {
                   props={
                     Object {
                       "alignItems": "left",
+                      "children": null,
                     }
                   }
                 />,
@@ -553,6 +571,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "refs": Object {},
@@ -561,6 +580,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "updater": Object {
@@ -587,6 +607,7 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "alignItems": "left",
+        "children": null,
       },
       "refs": Object {},
       "state": null,
@@ -601,6 +622,7 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "alignItems": "left",
+      "children": null,
     },
     "ref": null,
     "rendered": Object {
@@ -610,12 +632,12 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": undefined,
+        "children": null,
         "className": "navbar-nav mr-auto",
       },
       "ref": null,
       "rendered": Array [
-        undefined,
+        null,
       ],
       "type": "ul",
     },
@@ -647,6 +669,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "memoizedState": Object {
@@ -654,6 +677,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "mode": 0,
@@ -663,6 +687,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "ref": null,
@@ -740,6 +765,7 @@ ReactWrapper {
                         props={
                           Object {
                             "alignItems": "left",
+                            "children": null,
                           }
                         }
                       />,
@@ -761,6 +787,7 @@ ReactWrapper {
                         props={
                           Object {
                             "alignItems": "left",
+                            "children": null,
                           }
                         }
                       />,
@@ -784,6 +811,7 @@ ReactWrapper {
                   props={
                     Object {
                       "alignItems": "left",
+                      "children": null,
                     }
                   }
                 />,
@@ -828,6 +856,7 @@ ReactWrapper {
                     props={
                       Object {
                         "alignItems": "left",
+                        "children": null,
                       }
                     }
                   />,
@@ -854,6 +883,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "alignItems": "left",
+                  "children": null,
                 },
               },
               "refs": Object {},
@@ -862,6 +892,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "alignItems": "left",
+                  "children": null,
                 },
               },
               "updater": Object {
@@ -896,14 +927,14 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": undefined,
+              "children": null,
               "className": "navbar-nav mr-auto",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": undefined,
+              "children": null,
               "className": "navbar-nav mr-auto",
             },
             "ref": null,
@@ -926,12 +957,14 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "alignItems": "left",
+            "children": null,
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "alignItems": "left",
+            "children": null,
           },
           "ref": null,
           "return": FiberNode {
@@ -954,6 +987,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "memoizedState": Object {
@@ -961,6 +995,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "mode": 0,
@@ -970,6 +1005,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "alignItems": "left",
+                "children": null,
               },
             },
             "ref": null,
@@ -1047,6 +1083,7 @@ ReactWrapper {
                         props={
                           Object {
                             "alignItems": "left",
+                            "children": null,
                           }
                         }
                       />,
@@ -1068,6 +1105,7 @@ ReactWrapper {
                         props={
                           Object {
                             "alignItems": "left",
+                            "children": null,
                           }
                         }
                       />,
@@ -1091,6 +1129,7 @@ ReactWrapper {
                   props={
                     Object {
                       "alignItems": "left",
+                      "children": null,
                     }
                   }
                 />,
@@ -1135,6 +1174,7 @@ ReactWrapper {
                     props={
                       Object {
                         "alignItems": "left",
+                        "children": null,
                       }
                     }
                   />,
@@ -1161,6 +1201,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "alignItems": "left",
+                  "children": null,
                 },
               },
               "refs": Object {},
@@ -1169,6 +1210,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "alignItems": "left",
+                  "children": null,
                 },
               },
               "updater": Object {
@@ -1195,6 +1237,7 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "alignItems": "left",
+          "children": null,
         },
         "refs": Object {},
         "state": null,
@@ -1209,6 +1252,7 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "alignItems": "left",
+        "children": null,
       },
       "ref": null,
       "rendered": Object {
@@ -1218,12 +1262,12 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": null,
           "className": "navbar-nav mr-auto",
         },
         "ref": null,
         "rendered": Array [
-          undefined,
+          null,
         ],
         "type": "ul",
       },

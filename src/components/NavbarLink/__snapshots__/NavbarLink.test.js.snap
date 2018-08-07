@@ -40,6 +40,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "href": "#",
               "onClick": [Function],
               "target": "",
@@ -49,6 +50,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "children": null,
               "href": "#",
               "onClick": [Function],
               "target": "",
@@ -60,6 +62,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "href": "#",
               "onClick": [Function],
               "target": "",
@@ -145,6 +148,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "href": "#",
                           "onClick": [Function],
                           "target": "",
@@ -168,6 +172,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "href": "#",
                           "onClick": [Function],
                           "target": "",
@@ -193,6 +198,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "children": null,
                     "href": "#",
                     "onClick": [Function],
                     "target": "",
@@ -245,6 +251,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "href": "#",
                       "onClick": [Function],
                       "target": "",
@@ -273,6 +280,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -283,6 +291,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -328,7 +337,7 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": undefined,
+              "children": null,
               "className": "nav-link NavbarLink",
               "href": "#",
               "onClick": [Function],
@@ -338,7 +347,7 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": undefined,
+              "children": null,
               "className": "nav-link NavbarLink",
               "href": "#",
               "onClick": [Function],
@@ -410,6 +419,7 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
+          "children": null,
           "href": "#",
           "onClick": [Function],
           "target": "",
@@ -418,6 +428,7 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "children": null,
           "href": "#",
           "onClick": [Function],
           "target": "",
@@ -442,6 +453,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "href": "#",
               "onClick": [Function],
               "target": "",
@@ -451,6 +463,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "children": null,
               "href": "#",
               "onClick": [Function],
               "target": "",
@@ -462,6 +475,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "href": "#",
               "onClick": [Function],
               "target": "",
@@ -547,6 +561,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "href": "#",
                           "onClick": [Function],
                           "target": "",
@@ -570,6 +585,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "href": "#",
                           "onClick": [Function],
                           "target": "",
@@ -595,6 +611,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "children": null,
                     "href": "#",
                     "onClick": [Function],
                     "target": "",
@@ -647,6 +664,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "href": "#",
                       "onClick": [Function],
                       "target": "",
@@ -675,6 +693,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -685,6 +704,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -713,6 +733,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
+        "children": null,
         "href": "#",
         "onClick": [Function],
         "target": "",
@@ -729,6 +750,7 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "children": null,
       "href": "#",
       "onClick": [Function],
       "target": "",
@@ -766,7 +788,7 @@ ReactWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": undefined,
+            "children": null,
             "className": "nav-link NavbarLink",
             "href": "#",
             "onClick": [Function],
@@ -774,7 +796,7 @@ ReactWrapper {
           },
           "ref": null,
           "rendered": Array [
-            undefined,
+            null,
           ],
           "type": "a",
         },
@@ -808,6 +830,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -817,6 +840,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -828,6 +852,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -913,6 +938,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "href": "#",
                             "onClick": [Function],
                             "target": "",
@@ -936,6 +962,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "href": "#",
                             "onClick": [Function],
                             "target": "",
@@ -961,6 +988,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "href": "#",
                       "onClick": [Function],
                       "target": "",
@@ -1013,6 +1041,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "children": null,
                         "href": "#",
                         "onClick": [Function],
                         "target": "",
@@ -1041,6 +1070,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "children": null,
                   "href": "#",
                   "onClick": [Function],
                   "target": "",
@@ -1051,6 +1081,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "children": null,
                   "href": "#",
                   "onClick": [Function],
                   "target": "",
@@ -1096,7 +1127,7 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": undefined,
+                "children": null,
                 "className": "nav-link NavbarLink",
                 "href": "#",
                 "onClick": [Function],
@@ -1106,7 +1137,7 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": undefined,
+                "children": null,
                 "className": "nav-link NavbarLink",
                 "href": "#",
                 "onClick": [Function],
@@ -1178,6 +1209,7 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
+            "children": null,
             "href": "#",
             "onClick": [Function],
             "target": "",
@@ -1186,6 +1218,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "children": null,
             "href": "#",
             "onClick": [Function],
             "target": "",
@@ -1210,6 +1243,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -1219,6 +1253,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -1230,6 +1265,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "href": "#",
                 "onClick": [Function],
                 "target": "",
@@ -1315,6 +1351,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "href": "#",
                             "onClick": [Function],
                             "target": "",
@@ -1338,6 +1375,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "href": "#",
                             "onClick": [Function],
                             "target": "",
@@ -1363,6 +1401,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "href": "#",
                       "onClick": [Function],
                       "target": "",
@@ -1415,6 +1454,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "children": null,
                         "href": "#",
                         "onClick": [Function],
                         "target": "",
@@ -1443,6 +1483,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "children": null,
                   "href": "#",
                   "onClick": [Function],
                   "target": "",
@@ -1453,6 +1494,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "children": null,
                   "href": "#",
                   "onClick": [Function],
                   "target": "",
@@ -1481,6 +1523,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
+          "children": null,
           "href": "#",
           "onClick": [Function],
           "target": "",
@@ -1497,6 +1540,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "children": null,
         "href": "#",
         "onClick": [Function],
         "target": "",
@@ -1534,7 +1578,7 @@ ReactWrapper {
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": undefined,
+              "children": null,
               "className": "nav-link NavbarLink",
               "href": "#",
               "onClick": [Function],
@@ -1542,7 +1586,7 @@ ReactWrapper {
             },
             "ref": null,
             "rendered": Array [
-              undefined,
+              null,
             ],
             "type": "a",
           },

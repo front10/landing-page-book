@@ -158,7 +158,7 @@ ShallowWrapper {
                 
                 
               </Container>,
-              undefined,
+              null,
             ],
             "className": "Hero__Container d-flex align-content-center",
           },
@@ -185,7 +185,7 @@ ShallowWrapper {
               ],
               "type": [Function],
             },
-            undefined,
+            null,
           ],
           "type": "div",
         },
@@ -326,7 +326,7 @@ ShallowWrapper {
                   
                   
                 </Container>,
-                undefined,
+                null,
               ],
               "className": "Hero__Container d-flex align-content-center",
             },
@@ -353,7 +353,7 @@ ShallowWrapper {
                 ],
                 "type": [Function],
               },
-              undefined,
+              null,
             ],
             "type": "div",
           },

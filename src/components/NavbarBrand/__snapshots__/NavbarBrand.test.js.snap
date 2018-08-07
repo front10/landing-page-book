@@ -39,6 +39,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "className": "",
               "href": "#",
             },
@@ -47,6 +48,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "children": null,
               "className": "",
               "href": "#",
             },
@@ -57,6 +59,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "className": "",
               "href": "#",
             },
@@ -136,6 +139,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "className": "",
                           "href": "#",
                         }
@@ -158,6 +162,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "className": "",
                           "href": "#",
                         }
@@ -182,6 +187,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "children": null,
                     "className": "",
                     "href": "#",
                   }
@@ -228,6 +234,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "className": "",
                       "href": "#",
                     }
@@ -255,6 +262,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -264,6 +272,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -300,7 +309,7 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": undefined,
+            "children": null,
             "className": "NavbarBrand d-flex align-items-center navbar-brand ",
             "href": "#",
           },
@@ -308,7 +317,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": undefined,
+            "children": null,
             "className": "NavbarBrand d-flex align-items-center navbar-brand ",
             "href": "#",
           },
@@ -332,6 +341,7 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
+          "children": null,
           "className": "",
           "href": "#",
         },
@@ -339,6 +349,7 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "children": null,
           "className": "",
           "href": "#",
         },
@@ -362,6 +373,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "className": "",
               "href": "#",
             },
@@ -370,6 +382,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "children": null,
               "className": "",
               "href": "#",
             },
@@ -380,6 +393,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "children": null,
               "className": "",
               "href": "#",
             },
@@ -459,6 +473,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "className": "",
                           "href": "#",
                         }
@@ -481,6 +496,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "children": null,
                           "className": "",
                           "href": "#",
                         }
@@ -505,6 +521,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "children": null,
                     "className": "",
                     "href": "#",
                   }
@@ -551,6 +568,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "className": "",
                       "href": "#",
                     }
@@ -578,6 +596,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -587,6 +606,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -614,6 +634,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
+        "children": null,
         "className": "",
         "href": "#",
       },
@@ -629,6 +650,7 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "children": null,
       "className": "",
       "href": "#",
     },
@@ -641,13 +663,13 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": undefined,
+        "children": null,
         "className": "NavbarBrand d-flex align-items-center navbar-brand ",
         "href": "#",
       },
       "ref": null,
       "rendered": Array [
-        undefined,
+        null,
       ],
       "type": "a",
     },
@@ -678,6 +700,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -686,6 +709,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -696,6 +720,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -775,6 +800,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "className": "",
                             "href": "#",
                           }
@@ -797,6 +823,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "className": "",
                             "href": "#",
                           }
@@ -821,6 +848,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "className": "",
                       "href": "#",
                     }
@@ -867,6 +895,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "children": null,
                         "className": "",
                         "href": "#",
                       }
@@ -894,6 +923,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "children": null,
                   "className": "",
                   "href": "#",
                 },
@@ -903,6 +933,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "children": null,
                   "className": "",
                   "href": "#",
                 },
@@ -939,7 +970,7 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": undefined,
+              "children": null,
               "className": "NavbarBrand d-flex align-items-center navbar-brand ",
               "href": "#",
             },
@@ -947,7 +978,7 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": undefined,
+              "children": null,
               "className": "NavbarBrand d-flex align-items-center navbar-brand ",
               "href": "#",
             },
@@ -971,6 +1002,7 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
+            "children": null,
             "className": "",
             "href": "#",
           },
@@ -978,6 +1010,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "children": null,
             "className": "",
             "href": "#",
           },
@@ -1001,6 +1034,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -1009,6 +1043,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -1019,6 +1054,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "children": null,
                 "className": "",
                 "href": "#",
               },
@@ -1098,6 +1134,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "className": "",
                             "href": "#",
                           }
@@ -1120,6 +1157,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "children": null,
                             "className": "",
                             "href": "#",
                           }
@@ -1144,6 +1182,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "children": null,
                       "className": "",
                       "href": "#",
                     }
@@ -1190,6 +1229,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "children": null,
                         "className": "",
                         "href": "#",
                       }
@@ -1217,6 +1257,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "children": null,
                   "className": "",
                   "href": "#",
                 },
@@ -1226,6 +1267,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "children": null,
                   "className": "",
                   "href": "#",
                 },
@@ -1253,6 +1295,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
+          "children": null,
           "className": "",
           "href": "#",
         },
@@ -1268,6 +1311,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "children": null,
         "className": "",
         "href": "#",
       },
@@ -1280,13 +1324,13 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": undefined,
+          "children": null,
           "className": "NavbarBrand d-flex align-items-center navbar-brand ",
           "href": "#",
         },
         "ref": null,
         "rendered": Array [
-          undefined,
+          null,
         ],
         "type": "a",
       },

@@ -204,7 +204,7 @@ Code.propTypes = {
 
 Code.defaultProps = {
   code:
-    'var component = {\n\tname: "react-code",\n\tauthor: "front10-devs",\n\trepo: "ht' +
+    'const component = {\n\tname: "react-code",\n\tauthor: "front10-devs",\n\trepo: "ht' +
     'tps://gitlab.com/front10-devs/landing-page-book"\n};',
   bgColorDark: false,
   languageCode: 'javascript',

@@ -18,7 +18,7 @@ class LanguageSwitcher extends Component {
     const { selectedLanguage } = this.state;
     if (nextProps.selectedLanguage !== selectedLanguage) {
       this.setState({ selectedLanguage: nextProps.selectedLanguage }, () => {
-        this.refs.languageSwitcher.updateSelected(nextProps.selectedLanguage);
+        this.refs.languageSwitcher.updateSelected(nextProps.selectedLanguage); // eslint-disable-line
       });
     }
   }
@@ -44,7 +44,7 @@ class LanguageSwitcher extends Component {
     return (
       <div className={`LanguageSwitcher ${!showFlag ? 'LanguageSwitcher--noflag' : ''}`}>
         <ReactFlagsSelect
-          ref="languageSwitcher"
+          ref="languageSwitcher" // eslint-disable-line
           defaultCountry={selectedLanguage}
           disabled={disabled}
           countries={languages}

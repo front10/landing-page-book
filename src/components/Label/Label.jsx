@@ -5,7 +5,7 @@ class Label extends Component {
   render() {
     const { label, className, htmlFor, colon } = this.props;
     return (
-      <label className={`Label ${className}`} htmlFor={htmlFor}>
+      <label htmlFor={htmlFor} className={`Label ${className}`}>
         {label}
         {colon && ':'}
       </label>

@@ -8,31 +8,28 @@ cache:
   paths:
     - node_modules/
 
+before_script: 
+  - npm install
+
 stages:
-  - build
+  - linter
   - test
   - deploy  
 
 install_dependencies:
-  stage: build
-  script:
-    - npm install
-  artifacts:
-    paths:
-      - node_modules/
+  stage: linter
+  script: npm run eslint 
   only:
     - master@front10-devs/landing-page-book
 
 check_for_err:
-  stage: test
-  script: npm run eslint
+  stage: test  
+  script: npm run test
   only:
     - master@front10-devs/landing-page-book
 
 pages:
-  stage: deploy  
-  before_script: 
-  - npm install
+  stage: deploy    
   script:
    - npm run build-storybook   
    - gzip -k -6 -r public

@@ -14,22 +14,19 @@ import {
   ContactUs
 } from '../../../components';
 
-const rightItems = [
+const leftItems = [
   {
-    title: 'Documentation',
+    title: 'Docs',
     href: 'https://facebook.com'
   },
   {
-    title: 'Contribute'
+    title: 'Tutorial'
   },
   {
-    title: 'Vote'
+    title: 'Community'
   },
   {
     title: 'Blog'
-  },
-  {
-    title: 'Contact'
   }
 ];
 
@@ -81,7 +78,11 @@ const frameworks = [
 
 const buttons = [
   {
-    text: 'TELL ME MORE',
+    text: 'Get Started',
+    onClick: () => {}
+  },
+  {
+    text: 'Get the tutorial',
     onClick: () => {}
   }
 ];
@@ -96,16 +97,16 @@ stories.add('React', () => (
       companyName="React"
       companyLink="https://reactjs.org/"
       companyLogo="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K"
-      rightItems={rightItems}
+      leftItems={leftItems}
       expand="md"
     />
     <Hero
       overlayColor="#283A43"
       particles
       opacity={1}
-      subHeaderPosition="top"
-      subHeader="Leverage your process!"
-      header="REACT & ANGULARJS COMPONENTS"
+      subHeaderPosition="bottom"
+      subHeader="A JavaScript library for building user interfaces"
+      header="React"
       buttons={buttons}
     />
     <div className="mt-5">

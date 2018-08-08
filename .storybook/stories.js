@@ -46,4 +46,7 @@ import '../src/stories/components/video';
 import '../src/stories/components/wizard';
 
 //Pages
-import '../src/stories/pages/fron10';
+import '../src/stories/pages/front10';
+import '../src/stories/pages/webpack';
+import '../src/stories/pages/react';
+import '../src/stories/pages/graphql';

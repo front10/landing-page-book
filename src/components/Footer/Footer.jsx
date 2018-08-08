@@ -32,9 +32,7 @@ class Footer extends Component {
   static renderLinks(links) {
     return links.map(link => (
       <li key={link.name}>
-        <a className="Footer__Sections__Link" href={link.url}>
-          {link.name}
-        </a>
+        <a href={link.url}>{link.name}</a>
       </li>
     ));
   }

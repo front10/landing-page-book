@@ -747,6 +747,7 @@ ReactWrapper {
               "_reactInternalFiber": [Circular],
               "_reactInternalInstance": Object {},
               "context": Object {},
+              "onUpdate": [Function],
               "props": Object {
                 "alt": "Browser Chrome icon",
                 "border": false,
@@ -7811,6 +7812,7 @@ ReactWrapper {
             },
             "_reactInternalInstance": Object {},
             "context": Object {},
+            "onUpdate": [Function],
             "props": Object {
               "alt": "Browser Chrome icon",
               "border": false,
@@ -8711,6 +8713,7 @@ ReactWrapper {
                 "_reactInternalFiber": [Circular],
                 "_reactInternalInstance": Object {},
                 "context": Object {},
+                "onUpdate": [Function],
                 "props": Object {
                   "alt": "Browser Chrome icon",
                   "border": false,
@@ -15775,6 +15778,7 @@ ReactWrapper {
               },
               "_reactInternalInstance": Object {},
               "context": Object {},
+              "onUpdate": [Function],
               "props": Object {
                 "alt": "Browser Chrome icon",
                 "border": false,

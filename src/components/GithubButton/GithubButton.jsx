@@ -16,7 +16,6 @@ class GithubButton extends React.Component {
     const { btnType, showCounter, showBtnText, showGithubIcon, repository, username } = this.props;
     this.setState({
       showCounter,
-      btnType,
       showBtnText,
       showGithubIcon
     });

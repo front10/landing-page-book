@@ -43,7 +43,7 @@ const stories = storiesOf('Components', module);
 stories.addDecorator(withKnobs);
 
 stories.add(
-  'Browsers support',
+  'BrowsersSupport',
   withReadme([Readme], () => (
     <ThemeSelector>
       <BrowserSupport browsers={browsers} showText={boolean('Show text', true)} />

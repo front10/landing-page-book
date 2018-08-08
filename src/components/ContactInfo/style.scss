@@ -1,6 +1,11 @@
-.ContactInfo__Location{
-  height: $ContactInfo__Location-height;
+.ContactInfo__Location {
+    height: $ContactInfo__Location-height;
 }
-.ContactInfo__Information{
-  font-size: $ContactInfo__Information-fontSize;
+
+.ContactInfo__Information {
+    font-size: $ContactInfo__Information-fontSize;
+    line-height: 2rem;
+    i {
+        width: 25px;
+    }
 }

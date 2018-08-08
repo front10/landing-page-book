@@ -15,6 +15,7 @@ class ContactUs extends Component {
     this.onChangeMail = this.onChangeMail.bind(this);
     this.onChangePhone = this.onChangePhone.bind(this);
     this.onChangeMessage = this.onChangeMessage.bind(this);
+    this.onUpdate = this.onUpdate.bind(this);
   }
 
   componentWillMount() {
@@ -28,13 +29,17 @@ class ContactUs extends Component {
     });
   }
 
-  componentWillReceiveProps(nextProps) {
-    const { name, mail, phone, message, loading } = this.state;
-    if (nextProps.name !== name) this.setState({ name: nextProps.name });
-    if (nextProps.mail !== mail) this.setState({ mail: nextProps.mail });
-    if (nextProps.phone !== phone) this.setState({ phone: nextProps.phone });
-    if (nextProps.message !== message) this.setState({ message: nextProps.message });
-    if (nextProps.loading !== loading) this.setState({ loading: nextProps.loading });
+  componentDidUpdate(prevProps) {
+    this.onUpdate(prevProps);
+  }
+
+  onUpdate(prevProps) {
+    const { name, mail, phone, message, loading } = this.props;
+    if (prevProps.name !== name) this.setState({ name });
+    if (prevProps.mail !== mail) this.setState({ mail });
+    if (prevProps.phone !== phone) this.setState({ phone });
+    if (prevProps.message !== message) this.setState({ message });
+    if (prevProps.loading !== loading) this.setState({ loading });
   }
 
   onSubmit() {

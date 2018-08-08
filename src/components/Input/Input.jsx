@@ -7,6 +7,7 @@ class Input extends Component {
     super(props);
     this.state = {};
     this.onChange = this.onChange.bind(this);
+    this.onUpdate = this.onUpdate.bind(this);
   }
 
   componentWillMount() {
@@ -14,9 +15,13 @@ class Input extends Component {
     this.setState({ value });
   }
 
-  componentWillReceiveProps(nextProps) {
-    const { value } = this.state;
-    if (nextProps.value !== value) this.setState({ value: nextProps.value });
+  componentDidUpdate(prevProps) {
+    this.onUpdate(prevProps);
+  }
+
+  onUpdate(prevProps) {
+    const { value } = this.props;
+    if (prevProps.value !== value) this.setState({ value });
   }
 
   onChange($event) {

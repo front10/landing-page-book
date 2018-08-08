@@ -12,7 +12,7 @@ const stories = storiesOf('Components', module);
 stories.addDecorator(withKnobs);
 
 stories.add(
-  'Backers open collective',
+  'BackersOpenCollective',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Container>

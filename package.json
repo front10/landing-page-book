@@ -12,7 +12,7 @@
         "eslint:fix": "./node_modules/.bin/eslint --fix  ./src",
         "gitlab-pages": "git push master gitlab-pages",
         "precommit": "npm run eslint",
-        "prepush": "npm run eslint"
+        "prepush": "npm run eslint & npm run test"
     },
     "repository": {
         "type": "git",

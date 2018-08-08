@@ -26,8 +26,8 @@ import {
   Footer
 } from '../../../components';
 
-import lastBackers from '../../mock/pages/webpack/lastBackers.json';
-import platinumBackers from '../../mock/pages/webpack/platinumBackers.json';
+import lastBackers from '../../mock/pages/webpack/lastBackers';
+import platinumBackers from '../../mock/pages/webpack/platinumBackers';
 
 const languages = ['US', 'FR', 'ES', 'DE'];
 

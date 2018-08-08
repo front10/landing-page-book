@@ -931,6 +931,7 @@ ReactWrapper {
       },
       "_reactInternalInstance": Object {},
       "context": Object {},
+      "onUpdate": [Function],
       "props": Object {
         "border": false,
         "className": "img-fluid",
@@ -1976,6 +1977,7 @@ ReactWrapper {
         },
         "_reactInternalInstance": Object {},
         "context": Object {},
+        "onUpdate": [Function],
         "props": Object {
           "border": false,
           "className": "img-fluid",

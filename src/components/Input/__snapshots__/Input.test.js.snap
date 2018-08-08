@@ -837,6 +837,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "onChange": [Function],
+      "onUpdate": [Function],
       "props": Object {
         "className": "",
         "id": "",
@@ -1720,6 +1721,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "onChange": [Function],
+        "onUpdate": [Function],
         "props": Object {
           "className": "",
           "id": "",

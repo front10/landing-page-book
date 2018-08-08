@@ -896,6 +896,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "getMembers": [Function],
+      "onUpdate": [Function],
       "props": Object {
         "imageBordered": true,
         "imageGray": false,
@@ -1559,6 +1560,7 @@ ReactWrapper {
               "_reactInternalInstance": Object {},
               "context": Object {},
               "getMembers": [Function],
+              "onUpdate": [Function],
               "props": Object {
                 "imageBordered": true,
                 "imageGray": false,
@@ -2410,6 +2412,7 @@ ReactWrapper {
               "_reactInternalInstance": Object {},
               "context": Object {},
               "getMembers": [Function],
+              "onUpdate": [Function],
               "props": Object {
                 "imageBordered": true,
                 "imageGray": false,
@@ -3158,6 +3161,7 @@ ReactWrapper {
                       "_reactInternalInstance": Object {},
                       "context": Object {},
                       "getMembers": [Function],
+                      "onUpdate": [Function],
                       "props": Object {
                         "imageBordered": true,
                         "imageGray": false,
@@ -3909,6 +3913,7 @@ ReactWrapper {
                       "_reactInternalInstance": Object {},
                       "context": Object {},
                       "getMembers": [Function],
+                      "onUpdate": [Function],
                       "props": Object {
                         "imageBordered": true,
                         "imageGray": false,
@@ -4692,6 +4697,7 @@ ReactWrapper {
                         "_reactInternalInstance": Object {},
                         "context": Object {},
                         "getMembers": [Function],
+                        "onUpdate": [Function],
                         "props": Object {
                           "imageBordered": true,
                           "imageGray": false,
@@ -5388,6 +5394,7 @@ ReactWrapper {
                         "_reactInternalInstance": Object {},
                         "context": Object {},
                         "getMembers": [Function],
+                        "onUpdate": [Function],
                         "props": Object {
                           "imageBordered": true,
                           "imageGray": false,
@@ -6137,6 +6144,7 @@ ReactWrapper {
                         "_reactInternalInstance": Object {},
                         "context": Object {},
                         "getMembers": [Function],
+                        "onUpdate": [Function],
                         "props": Object {
                           "imageBordered": true,
                           "imageGray": false,
@@ -6833,6 +6841,7 @@ ReactWrapper {
                         "_reactInternalInstance": Object {},
                         "context": Object {},
                         "getMembers": [Function],
+                        "onUpdate": [Function],
                         "props": Object {
                           "imageBordered": true,
                           "imageGray": false,
@@ -7870,6 +7879,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "getMembers": [Function],
+        "onUpdate": [Function],
         "props": Object {
           "imageBordered": true,
           "imageGray": false,
@@ -8533,6 +8543,7 @@ ReactWrapper {
                 "_reactInternalInstance": Object {},
                 "context": Object {},
                 "getMembers": [Function],
+                "onUpdate": [Function],
                 "props": Object {
                   "imageBordered": true,
                   "imageGray": false,
@@ -9384,6 +9395,7 @@ ReactWrapper {
                 "_reactInternalInstance": Object {},
                 "context": Object {},
                 "getMembers": [Function],
+                "onUpdate": [Function],
                 "props": Object {
                   "imageBordered": true,
                   "imageGray": false,
@@ -10132,6 +10144,7 @@ ReactWrapper {
                         "_reactInternalInstance": Object {},
                         "context": Object {},
                         "getMembers": [Function],
+                        "onUpdate": [Function],
                         "props": Object {
                           "imageBordered": true,
                           "imageGray": false,
@@ -10883,6 +10896,7 @@ ReactWrapper {
                         "_reactInternalInstance": Object {},
                         "context": Object {},
                         "getMembers": [Function],
+                        "onUpdate": [Function],
                         "props": Object {
                           "imageBordered": true,
                           "imageGray": false,
@@ -11666,6 +11680,7 @@ ReactWrapper {
                           "_reactInternalInstance": Object {},
                           "context": Object {},
                           "getMembers": [Function],
+                          "onUpdate": [Function],
                           "props": Object {
                             "imageBordered": true,
                             "imageGray": false,
@@ -12362,6 +12377,7 @@ ReactWrapper {
                           "_reactInternalInstance": Object {},
                           "context": Object {},
                           "getMembers": [Function],
+                          "onUpdate": [Function],
                           "props": Object {
                             "imageBordered": true,
                             "imageGray": false,
@@ -13111,6 +13127,7 @@ ReactWrapper {
                           "_reactInternalInstance": Object {},
                           "context": Object {},
                           "getMembers": [Function],
+                          "onUpdate": [Function],
                           "props": Object {
                             "imageBordered": true,
                             "imageGray": false,
@@ -13807,6 +13824,7 @@ ReactWrapper {
                           "_reactInternalInstance": Object {},
                           "context": Object {},
                           "getMembers": [Function],
+                          "onUpdate": [Function],
                           "props": Object {
                             "imageBordered": true,
                             "imageGray": false,

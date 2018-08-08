@@ -12,7 +12,7 @@ const stories = storiesOf('Components', module);
 stories.addDecorator(withKnobs);
 
 stories.add(
-  'Contact info',
+  'ContactInfo',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Row>

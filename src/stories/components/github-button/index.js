@@ -7,7 +7,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { GithubButton } from '../../../components';
 import Readme from '../../../components/GithubButton/README.md';
 
-const stories = storiesOf('Components/Github button', module);
+const stories = storiesOf('Components/GithubButton', module);
 
 const options = {
   fork: 'Fork',

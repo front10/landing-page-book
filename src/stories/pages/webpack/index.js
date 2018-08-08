@@ -5,86 +5,38 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import {
   Navbar,
-  Hero,
-  Section,
-  Video,
-  Team,
+  NavbarNav,
+  NavbarLink,
+  NavbarBrand,
+  NavbarCollapse,
+  Icon,
+  Image,
   Container,
-  BuiltWith,
-  ContactUs
+  LanguageSwitcher,
+  Hero,
+  Header,
+  Section,
+  Column,
+  Row,
+  Code,
+  Link,
+  Backers,
+  Button,
+  BackersOpenCollective,
+  Footer
 } from '../../../components';
 
-const rightItems = [
-  {
-    title: 'Documentation',
-    href: 'https://facebook.com'
-  },
-  {
-    title: 'Contribute'
-  },
-  {
-    title: 'Vote'
-  },
-  {
-    title: 'Blog'
-  },
-  {
-    title: 'Contact'
-  }
-];
+import lastBackers from '../../mock/pages/webpack/lastBackers';
+import platinumBackers from '../../mock/pages/webpack/platinumBackers';
 
-const services = [
-  {
-    image: 'images/demo/default.svg',
-    name: 'Component libraries',
-    summary: 'React & AngularJs reusable component libraries creation.'
-  },
-  {
-    image: 'images/demo/default.svg',
-    name: 'Project acceleration',
-    summary: 'Help you to accelerate and scale your Front-End projects.'
-  },
-  {
-    image: 'images/demo/default.svg',
-    name: 'Consulting',
-    summary: 'More than 10 years of experience doing Front-End development.'
-  }
-];
+const languages = ['US', 'FR', 'ES', 'DE'];
 
-const team = [
-  {
-    image: 'https://front10.com/img/team/dariel.jpeg',
-    name: 'Dariel Vila',
-    job: 'Co-Founder'
-  },
-  {
-    image: 'https://front10.com/img/team/albe.jpeg',
-    name: 'Alberto Roman',
-    job: 'Co-Founder'
-  }
-];
-
-const frameworks = [
-  {
-    image: 'images/frameworks/react.png'
-  },
-  {
-    image: 'images/frameworks/angularjs.png'
-  },
-  {
-    image: 'images/frameworks/graphql.png'
-  },
-  {
-    image: 'images/frameworks/storybook.png'
-  }
-];
-
-const buttons = [
-  {
-    text: 'TELL ME MORE',
-    onClick: () => {}
-  }
-];
+const customLabels = {
+  US: 'English',
+  FR: 'Français',
+  ES: 'Español',
+  DE: 'Deutsch'
+};
 
 const stories = storiesOf('Pages', module);
 
@@ -92,52 +44,230 @@ stories.addDecorator(withKnobs);
 
 stories.add('Webpack', () => (
   <ThemeSelector>
-    <Navbar
-      companyLink="https://front10.com"
-      companyLogo="https://webpack.js.org/e0b5805d423a4ec9473ee315250968b2.svg"
-      rightItems={rightItems}
-      expand="md"
-    />
-    <Hero
-      overlayColor="#283A43"
-      particles
-      opacity={1}
-      subHeaderPosition="top"
-      subHeader="Leverage your process!"
-      header="REACT & ANGULARJS COMPONENTS"
-      buttons={buttons}
-    />
-    <div className="mt-5">
-      <Section title="OUR SERVICES" subTitle="We do scalable Front-End development 3x faster.">
-        <Team members={services} imageBorder showBorder={false} />
-      </Section>
-      <Section gray title="WHAT WE DO" subTitle="One Look Is Worth A Thousand Words.">
-        <Video source="https://youtu.be/dCrLwWdju68" />
-      </Section>
-      <Section title="OUR FOUNDERS" subTitle="Dariel & Alberto.">
-        <Container>
-          <Team
-            members={team}
-            imageBorder
-            showBorder={false}
-            socials={['twitter', 'facebook', 'linkedin']}
-            socialGray
-          />
-        </Container>
-      </Section>
-      <Section gray>
-        <Container>
-          <BuiltWith companies={frameworks} gray />
-        </Container>
-      </Section>
-      <Hero
-        isFixed={false}
-        image="images/hero/map-image.png"
-        particles={false}
-        backgroundColor="#383d45"
-      >
-        <ContactUs />
-      </Hero>
-    </div>
+    <Navbar expand="md">
+      <Container>
+        <NavbarCollapse>
+          <NavbarBrand>
+            <Image
+              width="120"
+              src="https://webpack.js.org/e0b5805d423a4ec9473ee315250968b2.svg"
+              alt="Webpack logo"
+            />
+          </NavbarBrand>
+          <NavbarNav alignItems="right">
+            <NavbarLink>Documentation</NavbarLink>
+            <NavbarLink>Contribute</NavbarLink>
+            <NavbarLink>Vote</NavbarLink>
+            <NavbarLink>Blog</NavbarLink>
+            <NavbarLink>
+              <Icon icon="fa fa-search" />
+            </NavbarLink>
+            <NavbarLink>
+              <Icon icon="fa fa-github" />
+            </NavbarLink>
+            <NavbarLink>
+              <Icon icon="fa fa-stack-overflow" />
+            </NavbarLink>
+            <NavbarLink>
+              <LanguageSwitcher languages={languages} customLabels={customLabels} />
+            </NavbarLink>
+          </NavbarNav>
+        </NavbarCollapse>
+      </Container>
+    </Navbar>
+    <Hero particles={false} overlayColor="#383d45" opacity={1}>
+      <Container>
+        <Header className="text-white">bundle your scripts</Header>
+        <Image src="images/pages/webpack/hero.svg" alt="Webpack flow" />
+      </Container>
+    </Hero>
+    <Section title="Write your code" gray>
+      <Container>
+        <Row>
+          <Column className="col-md-6">
+            <Header type="h6" className="mb-4">
+              <b>src/index.js</b>
+            </Header>
+            <Code
+              showheader={false}
+              showfooter={false}
+              lineNumbers={false}
+              readOnly
+              code={`
+              import bar from './bar';
+            
+              bar();`}
+            />
+          </Column>
+          <Column className="col-md-6">
+            <Header type="h6" className="mb-4">
+              <b>src/bar.js</b>
+            </Header>
+            <Code
+              showheader={false}
+              showfooter={false}
+              lineNumbers={false}
+              readOnly
+              code={`
+              export default function bar() {
+                //
+              }`}
+            />
+          </Column>
+        </Row>
+      </Container>
+    </Section>
+    <Section title="Bundle with webpack" gray>
+      <Container>
+        <Row>
+          <Column className="col-md-6">
+            <Header type="h6" className="mb-4">
+              <Link href="https://youtu.be/3Nv9muOkb6k?t=21293">Without config</Link>
+              <Link href="http://savefrom.net/?url=https%3A%2F%2Fyoutu.be%2F3Nv9muOkb6k%3Ft%3D21293&utm_source=chameleon&utm_medium=extensions&utm_campaign=link_modifier" />{' '}
+              or provide custom <b>webpack.config.js</b>
+            </Header>
+            <Code
+              showheader={false}
+              showfooter={false}
+              lineNumbers={false}
+              readOnly
+              code={`
+              const path = require('path');
+
+              module.exports = {
+                entry: './src/index.js',
+                output: {
+                  path: path.resolve(__dirname, 'dist'),
+                  filename: 'bundle.js'
+                }
+              };`}
+            />
+          </Column>
+          <Column className="col-md-6">
+            <Header type="h6" className="mb-4">
+              <b>page.html</b>
+            </Header>
+            <Code
+              showheader={false}
+              showfooter={false}
+              lineNumbers={false}
+              readOnly
+              languageCode="jsx"
+              code={`
+              <!doctype html>
+              <html>
+                <head>
+                  ...
+                </head>
+                <body>
+                  ...
+                  <script src="dist/bundle.js"></script>
+                </body>
+              </html>`}
+            />
+          </Column>
+          <Column className="col-12 mt-5">
+            Then run <span className="badge badge-light">webpack</span> on the command-line to
+            create <span className="badge badge-light">bundle.js</span>.
+          </Column>
+        </Row>
+      </Container>
+    </Section>
+    <Section title="It's that simple" gray>
+      <Container>
+        <Link href="https://webpack.js.org/guides/getting-started">Get Started</Link> quickly in our
+        <b>Guides</b> section, or dig into the{' '}
+        <Link href="https://webpack.js.org/concepts">Concepts</Link> section for more high-level
+        information on the core notions behind webpack.
+      </Container>
+    </Section>
+    <Section title="Support the Team">
+      <Container>
+        <p>
+          Through contributions, donations, and sponsorship, you allow webpack to thrive. Your
+          donations directly support office hours, continued enhancements, and most importantly,
+          great documentation and learning material!
+        </p>
+        <Header type="h4"> Latest Sponsors </Header>
+        <p>The following persons/organizations made their first donation in the last 14 days.</p>
+        <Backers backers={lastBackers} imageRounded={false} imageBordered={false} />
+        <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+        <Header type="h4"> Platinum Sponsors </Header>
+        <p>
+          <b>Platinum Sponsors</b> are those who have pledged $50,000 or more to webpack.
+        </p>
+        <Backers backers={platinumBackers} imageRounded={false} imageBordered={false} />
+        <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+        <Header type="h4"> Gold Sponsors </Header>
+        <p>
+          <b>Gold Sponsors</b> are those who have pledged $10,000 to $50,000 to webpack.
+        </p>
+        <Backers backers={lastBackers} imageRounded={false} imageBordered={false} />
+        <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+        <Header type="h4"> Silver Sponsors </Header>
+        <p>
+          <b>Silver Sponsors</b> are those who have pledged $2,000 to $10,000 to webpack.
+        </p>
+        <Backers backers={lastBackers} imageRounded={false} imageBordered={false} />
+        <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+        <Header type="h4"> Bronze Sponsors </Header>
+        <p>
+          <b>Bronze Sponsors</b> are those who have pledged $200 to $2,000 to webpack.
+        </p>
+        <Backers backers={lastBackers} imageRounded={false} imageBordered={false} />
+        <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+        <Header type="h4"> Backers </Header>
+        <p>
+          The following <b>Backers</b> are individuals who have contributed various amounts of money
+          in order to help support webpack. Every little bit helps, and we appreciate even the
+          smallest contributions.
+        </p>
+        <BackersOpenCollective collective="webpack" />
+        <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A BACKER</Button>
+      </Container>
+    </Section>
+    <Footer>
+      <Container>
+        <Row>
+          <Column className="col-sm-12 col-md-5 text-left">
+            <Link className="p-2" href="https://webpack.js.org/guides/getting-started/">
+              Get Started
+            </Link>
+            <Link className="p-2" href="https://webpack.js.org/organization/">
+              Organization
+            </Link>
+            <Link className="p-2" href="https://webpack.js.org/starter-kits/">
+              Starter Kits
+            </Link>
+            <Link className="p-2" href="https://webpack.js.org/comparison/">
+              Comparison
+            </Link>
+          </Column>
+          <Column className="col-sm-12 col-md-2 mt-3 mt-md-0">
+            <Image
+              src="https://webpack.js.org/d19378a95ebe6b15d5ddea281138dcf4.svg"
+              alt="Webpack logo"
+              width="30"
+            />
+          </Column>
+          <Column className="col-sm-12 col-md-5 mt-3 mt-md-0 text-right">
+            <Link className="p-2" href="https://webpack.js.org/glossary/">
+              Glossary
+            </Link>
+            <Link className="p-2" href="https://webpack.js.org/branding/">
+              Branding
+            </Link>
+            <Link className="p-2" href="https://gitter.im/webpack/webpack">
+              Gitter
+            </Link>
+            <Link className="p-2" href="https://github.com/webpack/webpack/releases">
+              Changelog
+            </Link>
+            <Icon className="p-2" icon="fa fa-cc" />
+            <Icon className="p-2" icon="fa fa-male" />
+          </Column>
+        </Row>
+      </Container>
+    </Footer>
   </ThemeSelector>
 ));

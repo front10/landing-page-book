@@ -11970,7 +11970,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
 /*
 * Code
 */
-/*
+/* 
  * ContactUs
  */
 /*
@@ -12102,10 +12102,10 @@ ol.progtrckr li.progtrckr-done:hover:before {
     font-size: 0.8rem; }
   .Footer .Footer__Sections__Header {
     font-size: 1.5rem; }
-  .Footer .Footer__Sections__Link {
+  .Footer a {
     color: #cccccc;
     font-size: 0.8rem; }
-  .Footer .Footer__Sections__Link:hover {
+  .Footer a:hover {
     color: #fed136; }
 
 .Gif .gif_player {

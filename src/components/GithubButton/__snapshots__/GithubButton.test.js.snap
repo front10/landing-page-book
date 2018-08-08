@@ -842,7 +842,6 @@ ReactWrapper {
           "username": "chubin",
         },
         "memoizedState": Object {
-          "btnType": "fork",
           "counter": null,
           "showBtnText": true,
           "showCounter": true,
@@ -1227,7 +1226,6 @@ ReactWrapper {
         "type": [Function],
         "updateQueue": Object {
           "baseState": Object {
-            "btnType": "fork",
             "counter": null,
             "showBtnText": true,
             "showCounter": true,
@@ -1259,7 +1257,6 @@ ReactWrapper {
       },
       "refs": Object {},
       "state": Object {
-        "btnType": "fork",
         "counter": null,
         "showBtnText": true,
         "showCounter": true,
@@ -2176,7 +2173,6 @@ ReactWrapper {
                       "username": "chubin",
                     },
                     "memoizedState": Object {
-                      "btnType": "fork",
                       "counter": null,
                       "showBtnText": true,
                       "showCounter": true,
@@ -2572,7 +2568,6 @@ ReactWrapper {
                       },
                       "refs": Object {},
                       "state": Object {
-                        "btnType": "fork",
                         "counter": null,
                         "showBtnText": true,
                         "showCounter": true,
@@ -2590,7 +2585,6 @@ ReactWrapper {
                     "type": [Function],
                     "updateQueue": Object {
                       "baseState": Object {
-                        "btnType": "fork",
                         "counter": null,
                         "showBtnText": true,
                         "showCounter": true,
@@ -3351,7 +3345,6 @@ ReactWrapper {
                         "username": "chubin",
                       },
                       "memoizedState": Object {
-                        "btnType": "fork",
                         "counter": null,
                         "showBtnText": true,
                         "showCounter": true,
@@ -3747,7 +3740,6 @@ ReactWrapper {
                         },
                         "refs": Object {},
                         "state": Object {
-                          "btnType": "fork",
                           "counter": null,
                           "showBtnText": true,
                           "showCounter": true,
@@ -3765,7 +3757,6 @@ ReactWrapper {
                       "type": [Function],
                       "updateQueue": Object {
                         "baseState": Object {
-                          "btnType": "fork",
                           "counter": null,
                           "showBtnText": true,
                           "showCounter": true,
@@ -4199,7 +4190,6 @@ ReactWrapper {
                           "username": "chubin",
                         },
                         "memoizedState": Object {
-                          "btnType": "fork",
                           "counter": null,
                           "showBtnText": true,
                           "showCounter": true,
@@ -4595,7 +4585,6 @@ ReactWrapper {
                           },
                           "refs": Object {},
                           "state": Object {
-                            "btnType": "fork",
                             "counter": null,
                             "showBtnText": true,
                             "showCounter": true,
@@ -4613,7 +4602,6 @@ ReactWrapper {
                         "type": [Function],
                         "updateQueue": Object {
                           "baseState": Object {
-                            "btnType": "fork",
                             "counter": null,
                             "showBtnText": true,
                             "showCounter": true,
@@ -5020,7 +5008,6 @@ ReactWrapper {
                             "username": "chubin",
                           },
                           "memoizedState": Object {
-                            "btnType": "fork",
                             "counter": null,
                             "showBtnText": true,
                             "showCounter": true,
@@ -5416,7 +5403,6 @@ ReactWrapper {
                             },
                             "refs": Object {},
                             "state": Object {
-                              "btnType": "fork",
                               "counter": null,
                               "showBtnText": true,
                               "showCounter": true,
@@ -5434,7 +5420,6 @@ ReactWrapper {
                           "type": [Function],
                           "updateQueue": Object {
                             "baseState": Object {
-                              "btnType": "fork",
                               "counter": null,
                               "showBtnText": true,
                               "showCounter": true,
@@ -5841,7 +5826,6 @@ ReactWrapper {
                               "username": "chubin",
                             },
                             "memoizedState": Object {
-                              "btnType": "fork",
                               "counter": null,
                               "showBtnText": true,
                               "showCounter": true,
@@ -6237,7 +6221,6 @@ ReactWrapper {
                               },
                               "refs": Object {},
                               "state": Object {
-                                "btnType": "fork",
                                 "counter": null,
                                 "showBtnText": true,
                                 "showCounter": true,
@@ -6255,7 +6238,6 @@ ReactWrapper {
                             "type": [Function],
                             "updateQueue": Object {
                               "baseState": Object {
-                                "btnType": "fork",
                                 "counter": null,
                                 "showBtnText": true,
                                 "showCounter": true,
@@ -6706,7 +6688,6 @@ ReactWrapper {
                                   "username": "chubin",
                                 },
                                 "memoizedState": Object {
-                                  "btnType": "fork",
                                   "counter": null,
                                   "showBtnText": true,
                                   "showCounter": true,
@@ -7102,7 +7083,6 @@ ReactWrapper {
                                   },
                                   "refs": Object {},
                                   "state": Object {
-                                    "btnType": "fork",
                                     "counter": null,
                                     "showBtnText": true,
                                     "showCounter": true,
@@ -7120,7 +7100,6 @@ ReactWrapper {
                                 "type": [Function],
                                 "updateQueue": Object {
                                   "baseState": Object {
-                                    "btnType": "fork",
                                     "counter": null,
                                     "showBtnText": true,
                                     "showCounter": true,
@@ -7711,7 +7690,6 @@ ReactWrapper {
                           "username": "chubin",
                         },
                         "memoizedState": Object {
-                          "btnType": "fork",
                           "counter": null,
                           "showBtnText": true,
                           "showCounter": true,
@@ -8107,7 +8085,6 @@ ReactWrapper {
                           },
                           "refs": Object {},
                           "state": Object {
-                            "btnType": "fork",
                             "counter": null,
                             "showBtnText": true,
                             "showCounter": true,
@@ -8125,7 +8102,6 @@ ReactWrapper {
                         "type": [Function],
                         "updateQueue": Object {
                           "baseState": Object {
-                            "btnType": "fork",
                             "counter": null,
                             "showBtnText": true,
                             "showCounter": true,
@@ -9069,7 +9045,6 @@ ReactWrapper {
             "username": "chubin",
           },
           "memoizedState": Object {
-            "btnType": "fork",
             "counter": null,
             "showBtnText": true,
             "showCounter": true,
@@ -9454,7 +9429,6 @@ ReactWrapper {
           "type": [Function],
           "updateQueue": Object {
             "baseState": Object {
-              "btnType": "fork",
               "counter": null,
               "showBtnText": true,
               "showCounter": true,
@@ -9486,7 +9460,6 @@ ReactWrapper {
         },
         "refs": Object {},
         "state": Object {
-          "btnType": "fork",
           "counter": null,
           "showBtnText": true,
           "showCounter": true,
@@ -10403,7 +10376,6 @@ ReactWrapper {
                         "username": "chubin",
                       },
                       "memoizedState": Object {
-                        "btnType": "fork",
                         "counter": null,
                         "showBtnText": true,
                         "showCounter": true,
@@ -10799,7 +10771,6 @@ ReactWrapper {
                         },
                         "refs": Object {},
                         "state": Object {
-                          "btnType": "fork",
                           "counter": null,
                           "showBtnText": true,
                           "showCounter": true,
@@ -10817,7 +10788,6 @@ ReactWrapper {
                       "type": [Function],
                       "updateQueue": Object {
                         "baseState": Object {
-                          "btnType": "fork",
                           "counter": null,
                           "showBtnText": true,
                           "showCounter": true,
@@ -11578,7 +11548,6 @@ ReactWrapper {
                           "username": "chubin",
                         },
                         "memoizedState": Object {
-                          "btnType": "fork",
                           "counter": null,
                           "showBtnText": true,
                           "showCounter": true,
@@ -11974,7 +11943,6 @@ ReactWrapper {
                           },
                           "refs": Object {},
                           "state": Object {
-                            "btnType": "fork",
                             "counter": null,
                             "showBtnText": true,
                             "showCounter": true,
@@ -11992,7 +11960,6 @@ ReactWrapper {
                         "type": [Function],
                         "updateQueue": Object {
                           "baseState": Object {
-                            "btnType": "fork",
                             "counter": null,
                             "showBtnText": true,
                             "showCounter": true,
@@ -12426,7 +12393,6 @@ ReactWrapper {
                             "username": "chubin",
                           },
                           "memoizedState": Object {
-                            "btnType": "fork",
                             "counter": null,
                             "showBtnText": true,
                             "showCounter": true,
@@ -12822,7 +12788,6 @@ ReactWrapper {
                             },
                             "refs": Object {},
                             "state": Object {
-                              "btnType": "fork",
                               "counter": null,
                               "showBtnText": true,
                               "showCounter": true,
@@ -12840,7 +12805,6 @@ ReactWrapper {
                           "type": [Function],
                           "updateQueue": Object {
                             "baseState": Object {
-                              "btnType": "fork",
                               "counter": null,
                               "showBtnText": true,
                               "showCounter": true,
@@ -13247,7 +13211,6 @@ ReactWrapper {
                               "username": "chubin",
                             },
                             "memoizedState": Object {
-                              "btnType": "fork",
                               "counter": null,
                               "showBtnText": true,
                               "showCounter": true,
@@ -13643,7 +13606,6 @@ ReactWrapper {
                               },
                               "refs": Object {},
                               "state": Object {
-                                "btnType": "fork",
                                 "counter": null,
                                 "showBtnText": true,
                                 "showCounter": true,
@@ -13661,7 +13623,6 @@ ReactWrapper {
                             "type": [Function],
                             "updateQueue": Object {
                               "baseState": Object {
-                                "btnType": "fork",
                                 "counter": null,
                                 "showBtnText": true,
                                 "showCounter": true,
@@ -14068,7 +14029,6 @@ ReactWrapper {
                                 "username": "chubin",
                               },
                               "memoizedState": Object {
-                                "btnType": "fork",
                                 "counter": null,
                                 "showBtnText": true,
                                 "showCounter": true,
@@ -14464,7 +14424,6 @@ ReactWrapper {
                                 },
                                 "refs": Object {},
                                 "state": Object {
-                                  "btnType": "fork",
                                   "counter": null,
                                   "showBtnText": true,
                                   "showCounter": true,
@@ -14482,7 +14441,6 @@ ReactWrapper {
                               "type": [Function],
                               "updateQueue": Object {
                                 "baseState": Object {
-                                  "btnType": "fork",
                                   "counter": null,
                                   "showBtnText": true,
                                   "showCounter": true,
@@ -14933,7 +14891,6 @@ ReactWrapper {
                                     "username": "chubin",
                                   },
                                   "memoizedState": Object {
-                                    "btnType": "fork",
                                     "counter": null,
                                     "showBtnText": true,
                                     "showCounter": true,
@@ -15329,7 +15286,6 @@ ReactWrapper {
                                     },
                                     "refs": Object {},
                                     "state": Object {
-                                      "btnType": "fork",
                                       "counter": null,
                                       "showBtnText": true,
                                       "showCounter": true,
@@ -15347,7 +15303,6 @@ ReactWrapper {
                                   "type": [Function],
                                   "updateQueue": Object {
                                     "baseState": Object {
-                                      "btnType": "fork",
                                       "counter": null,
                                       "showBtnText": true,
                                       "showCounter": true,
@@ -15938,7 +15893,6 @@ ReactWrapper {
                             "username": "chubin",
                           },
                           "memoizedState": Object {
-                            "btnType": "fork",
                             "counter": null,
                             "showBtnText": true,
                             "showCounter": true,
@@ -16334,7 +16288,6 @@ ReactWrapper {
                             },
                             "refs": Object {},
                             "state": Object {
-                              "btnType": "fork",
                               "counter": null,
                               "showBtnText": true,
                               "showCounter": true,
@@ -16352,7 +16305,6 @@ ReactWrapper {
                           "type": [Function],
                           "updateQueue": Object {
                             "baseState": Object {
-                              "btnType": "fork",
                               "counter": null,
                               "showBtnText": true,
                               "showCounter": true,

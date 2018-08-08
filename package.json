@@ -13,7 +13,6 @@
         "gitlab-pages": "git push master gitlab-pages",
         "precommit": "npm run eslint",
         "prepush": "npm run eslint"
-
     },
     "repository": {
         "type": "git",

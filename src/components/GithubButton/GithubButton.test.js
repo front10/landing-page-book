@@ -7,6 +7,14 @@ configure({ adapter: new Adapter() });
 
 describe('GithubButton', () => {
   let props;
+  let mounted;
+
+  const githubButton = () => {
+    if (!mounted) {
+      mounted = mount(<GithubButton {...props} />);
+    }
+    return mounted;
+  };
 
   describe('GithubButton', () => {
     beforeEach(() => {
@@ -23,6 +31,12 @@ describe('GithubButton', () => {
 
     it('should render', () => {
       expect(mount(<GithubButton {...props} />)).toMatchSnapshot();
+    });
+
+    it('always renders a span', () => {
+      const span = githubButton().find('span');
+
+      expect(span.length).toBeGreaterThan(0);
     });
   });
 });

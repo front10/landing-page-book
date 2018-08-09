@@ -16,6 +16,7 @@ ShallowWrapper {
     readOnly={false}
     showfooter={true}
     showheader={true}
+    theme="idea"
     updateCode={[Function]}
   />,
   Symbol(enzyme.__renderer__): Object {

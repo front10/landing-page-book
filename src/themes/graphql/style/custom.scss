@@ -1,0 +1,37 @@
+.GraphQL__page {
+  .Navbar {
+    background-color: #1d232a;
+    .Nav_search_icon {
+      color: white;
+      font-size: 18px;
+      padding: 8px;
+    }
+    .Nav_search_input {
+      width: 150px;
+      border-radius: 7px;
+      background-color: #33383e;
+      border-color: #33383e;
+    }
+  }
+  .Navbar .NavbarLink:hover {
+    color: #fff !important;
+  }
+  .Hero__btn {
+    border-radius: 6px;
+  }
+  .ReactCodeMirror {
+    text-align: left;
+    height: 160px !important;
+  }
+  .CodeMirror {
+    background: transparent;
+    font-size: 12px;
+  }
+  .Hero__code_header {
+    color: whitesmoke;
+    text-align: left;
+  }
+  .Hero__GraphQL_title {
+    color: #950d69;
+  }
+}

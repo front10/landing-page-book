@@ -11709,34 +11709,48 @@ div.CodeMirror-dragcursors {
 /* Help users use markselection to safely style text background */
 span.CodeMirror-selectedtext { background: none; }
 
-/* Loosely based on the Midnight Textmate theme */
+/**
+    Name:       IDEA default theme
+    From IntelliJ IDEA by JetBrains
+ */
 
-.cm-s-night.CodeMirror { background: #0a001f; color: #f8f8f8; }
-.cm-s-night div.CodeMirror-selected { background: #447; }
-.cm-s-night .CodeMirror-line::selection, .cm-s-night .CodeMirror-line > span::selection, .cm-s-night .CodeMirror-line > span > span::selection { background: rgba(68, 68, 119, .99); }
-.cm-s-night .CodeMirror-line::-moz-selection, .cm-s-night .CodeMirror-line > span::-moz-selection, .cm-s-night .CodeMirror-line > span > span::-moz-selection { background: rgba(68, 68, 119, .99); }
-.cm-s-night .CodeMirror-gutters { background: #0a001f; border-right: 1px solid #aaa; }
-.cm-s-night .CodeMirror-guttermarker { color: white; }
-.cm-s-night .CodeMirror-guttermarker-subtle { color: #bbb; }
-.cm-s-night .CodeMirror-linenumber { color: #f8f8f8; }
-.cm-s-night .CodeMirror-cursor { border-left: 1px solid white; }
+.cm-s-idea span.cm-meta { color: #808000; }
+.cm-s-idea span.cm-number { color: #0000FF; }
+.cm-s-idea span.cm-keyword { line-height: 1em; font-weight: bold; color: #000080; }
+.cm-s-idea span.cm-atom { font-weight: bold; color: #000080; }
+.cm-s-idea span.cm-def { color: #000000; }
+.cm-s-idea span.cm-variable { color: black; }
+.cm-s-idea span.cm-variable-2 { color: black; }
+.cm-s-idea span.cm-variable-3, .cm-s-idea span.cm-type { color: black; }
+.cm-s-idea span.cm-property { color: black; }
+.cm-s-idea span.cm-operator { color: black; }
+.cm-s-idea span.cm-comment { color: #808080; }
+.cm-s-idea span.cm-string { color: #008000; }
+.cm-s-idea span.cm-string-2 { color: #008000; }
+.cm-s-idea span.cm-qualifier { color: #555; }
+.cm-s-idea span.cm-error { color: #FF0000; }
+.cm-s-idea span.cm-attribute { color: #0000FF; }
+.cm-s-idea span.cm-tag { color: #000080; }
+.cm-s-idea span.cm-link { color: #0000FF; }
+.cm-s-idea .CodeMirror-activeline-background { background: #FFFAE3; }
 
-.cm-s-night span.cm-comment { color: #8900d1; }
-.cm-s-night span.cm-atom { color: #845dc4; }
-.cm-s-night span.cm-number, .cm-s-night span.cm-attribute { color: #ffd500; }
-.cm-s-night span.cm-keyword { color: #599eff; }
-.cm-s-night span.cm-string { color: #37f14a; }
-.cm-s-night span.cm-meta { color: #7678e2; }
-.cm-s-night span.cm-variable-2, .cm-s-night span.cm-tag { color: #99b2ff; }
-.cm-s-night span.cm-variable-3, .cm-s-night span.cm-def, .cm-s-night span.cm-type { color: white; }
-.cm-s-night span.cm-bracket { color: #8da6ce; }
-.cm-s-night span.cm-builtin, .cm-s-night span.cm-special { color: #ff9e59; }
-.cm-s-night span.cm-link { color: #845dc4; }
-.cm-s-night span.cm-error { color: #9d1e15; }
+.cm-s-idea span.cm-builtin { color: #30a; }
+.cm-s-idea span.cm-bracket { color: #cc7; }
+.cm-s-idea  { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;}
 
-.cm-s-night .CodeMirror-activeline-background { background: #1C005A; }
-.cm-s-night .CodeMirror-matchingbracket { outline:1px solid grey; color:white !important; }
 
+.cm-s-idea .CodeMirror-matchingbracket { outline:1px solid grey; color:black !important; }
+
+.CodeMirror-hints {
+  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+  color: #616569;
+  background-color: #ebf3fd !important;
+}
+
+.CodeMirror-hint-active {
+  background-color: #a2b8c9 !important;
+  color: #5c6065 !important;
+}
 /* React flags select */
 ol.progtrckr {
   list-style-type: none;
@@ -11987,6 +12001,39 @@ ol.progtrckr li.progtrckr-done:hover:before {
  * Backers
  */
 /*Custom*/
+.GraphQL__page .Navbar {
+  background-color: #1d232a; }
+  .GraphQL__page .Navbar .Nav_search_icon {
+    color: white;
+    font-size: 18px;
+    padding: 8px; }
+  .GraphQL__page .Navbar .Nav_search_input {
+    width: 150px;
+    border-radius: 7px;
+    background-color: #33383e;
+    border-color: #33383e; }
+
+.GraphQL__page .Navbar .NavbarLink:hover {
+  color: #fff !important; }
+
+.GraphQL__page .Hero__btn {
+  border-radius: 6px; }
+
+.GraphQL__page .ReactCodeMirror {
+  text-align: left;
+  height: 160px !important; }
+
+.GraphQL__page .CodeMirror {
+  background: transparent;
+  font-size: 12px; }
+
+.GraphQL__page .Hero__code_header {
+  color: whitesmoke;
+  text-align: left; }
+
+.GraphQL__page .Hero__GraphQL_title {
+  color: #950d69; }
+
 /*Components*/
 .Backers .ImageList .ImageList__Container {
   margin: 2px; }

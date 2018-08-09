@@ -4,12 +4,12 @@
 
 /*Font-awesome*/
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 
 /* Code component themes*/
 
-@import "~codemirror/lib/codemirror.css";
-@import "~codemirror/theme/idea.css";
+@import '~codemirror/lib/codemirror.css';
+@import '~codemirror/theme/night.css';
 
 /* React flags select */
 
@@ -25,11 +25,11 @@
 
 /*Variables*/
 
-@import "./variables.scss";
+@import './variables.scss';
 
 /*Custom*/
 
-@import "custom";
+@import 'custom';
 
 /*Components*/
 
@@ -39,21 +39,21 @@
 @import '../../../components/Button/style.scss';
 @import '../../../components/Card/style.scss';
 @import '../../../components/Code/style.scss';
-@import "../../../components/ContactInfo/style";
-@import "../../../components/ContactUs/style";
-@import "../../../components/Footer/style";
+@import '../../../components/ContactInfo/style';
+@import '../../../components/ContactUs/style';
+@import '../../../components/Footer/style';
 @import '../../../components/Gif/style.scss';
 @import '../../../components/GithubButton/style.scss';
-@import "../../../components/Navbar/style";
-@import "../../../components/Hero/style";
-@import "../../../components/Input/style";
-@import "../../../components/Label/style";
-@import "../../../components/Link/style";
-@import "../../../components/NavbarLink/style";
-@import "../../../components/LanguageSwitcher/style";
-@import "../../../components/Section/style";
-@import "../../../components/Social/style";
-@import "../../../components/Team/style";
-@import "../../../components/Features/style";
-@import "../../../components/ImageList/style";
-@import "../../../components/Wizard/style";
+@import '../../../components/Navbar/style';
+@import '../../../components/Hero/style';
+@import '../../../components/Input/style';
+@import '../../../components/Label/style';
+@import '../../../components/Link/style';
+@import '../../../components/NavbarLink/style';
+@import '../../../components/LanguageSwitcher/style';
+@import '../../../components/Section/style';
+@import '../../../components/Social/style';
+@import '../../../components/Team/style';
+@import '../../../components/Features/style';
+@import '../../../components/ImageList/style';
+@import '../../../components/Wizard/style';

@@ -503,7 +503,7 @@ ReactDOM.render(<TodoApp />, mountNode);
               </Column>
             </Row>
             <Row className="row mt-5">
-              <Column className="col text-left"/>
+              <Column className="col text-left" />
               <Column className="col text-left">
                 <Header className="Header">COMMUNITY</Header>
                 <Link className="d-block" href="https://reactjs.org/community/support.html">

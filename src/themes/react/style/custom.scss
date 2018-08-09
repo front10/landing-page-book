@@ -1,0 +1,87 @@
+.ReactPage {
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
+    Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  .Navbar {
+    .NavbarBrand {
+      color: #61dafb !important;
+      font-weight: bold;
+    }
+    .ReactPage__Navbar__SearchInput {
+      background-color: transparent;
+      border: none;
+    }
+  }
+  .Hero {
+    .Hero__Button {
+      font-size: 20px;
+      padding: 10px 20px;
+    }
+    .Hero__Button:hover {
+      background-color: #ffffff;
+    }
+    .Hero__ButtonTutorial {
+      color: #61dafb !important;
+      font-size: 20px;
+      background: transparent;
+    }
+    .Hero__ButtonTutorial:hover {
+      color: #ffffff !important;
+    }
+  }
+  .ReactPage__MainHeader {
+    font-size: 60px;
+    color: #61dafb;
+    font-weight: bold;
+  }
+  .ReactPage__MainSubHeader {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .ReactPage__FeaturesHeader {
+    font-size: 24px;
+    font-weight: 200;
+    color: #6d6d6d;
+  }
+  .ReactPage__FeaturesSummary {
+    line-height: 1.7;
+    .ReactPage__FeaturesSummary__ReacNativeLink {
+      background-color: rgba(187, 239, 253, 0.3);
+      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      color: #1a1a1a;
+    }
+  }
+  .ReactPage__ExampleHeader {
+    color: rgb(40, 44, 52);
+    font-size: 25px;
+    font-weight: bold;
+  }
+  code {
+    background: rgba(255, 229, 100, 0.2);
+    color: #1a1a1a;
+    padding: 0 3px;
+    font-size: 16px;
+    word-break: break-word;
+  }
+  .ReactCodeMirror {
+    .CodeMirror {
+      border-radius: 10px;
+      height: 400px !important;
+    }
+  }
+  .Footer {
+    .Header {
+      color: #999;
+      font-size: 14px;
+      font-weight: 700;
+    }
+    a {
+      color: white;
+      font-size: 14px;
+      line-height: 2;
+    }
+    a:hover {
+      color: #61dafb;
+      text-decoration: none;
+    }
+  }
+}

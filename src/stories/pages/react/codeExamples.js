@@ -113,7 +113,7 @@ class TodoList extends React.Component {
 
 ReactDOM.render(<TodoApp />, mountNode);
               `;
-const aComponentUsingExternalPlugins = `
+const aComponentUsingExternalPluginsCodeExample = `
               class TodoApp extends React.Component {
                 constructor(props) {
                   super(props);
@@ -183,5 +183,5 @@ export {
   simpleComponentCodeExample,
   statefulComponentCodeExample,
   anApplicationCodeExample,
-  aComponentUsingExternalPlugins
+  aComponentUsingExternalPluginsCodeExample
 };

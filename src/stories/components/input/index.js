@@ -28,6 +28,8 @@ stories.add(
         value={text('Value', 'This is an input')}
         placeholder={text('Placeholder', 'Enter a value')}
         label={text('Label', 'Input label')}
+        icon={text('Icon', 'fa fa-user')}
+        iconAlign={select('Icon align', { left: 'left', right: 'right' }, 'left')}
       />
     </ThemeSelector>
   ))

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import Label from '../Label/Label';
+import Label from '../Label';
+import Icon from '../Icon';
 
 class Input extends Component {
   constructor(props) {
@@ -31,10 +32,22 @@ class Input extends Component {
   }
 
   render() {
-    const { className, type, id, name, placeholder, label, labelColon } = this.props;
+    const {
+      className,
+      type,
+      id,
+      name,
+      placeholder,
+      label,
+      labelColon,
+      icon,
+      iconAlign
+    } = this.props;
     const { value } = this.state;
     const props = {
-      className: `Input form-control ${className}`,
+      className: `Input__Container__Conponent form-control ${className} ${
+        icon ? `Input__Container__Conponent--${iconAlign}` : ''
+      }`,
       type,
       name,
       id,
@@ -45,8 +58,16 @@ class Input extends Component {
     return (
       <React.Fragment>
         {label && <Label label={label} htmlFor={id} colon={labelColon} />}
-        {type !== 'textarea' && <input {...props} />}
-        {type === 'textarea' && <textarea {...props} />}
+        <div className="Input__Container">
+          {type !== 'textarea' && <input {...props} />}
+          {type === 'textarea' && <textarea {...props} />}
+          {icon && (
+            <Icon
+              icon={icon}
+              className={`Input__Container__Icon Input__Container__Icon--${iconAlign}`}
+            />
+          )}
+        </div>
       </React.Fragment>
     );
   }
@@ -60,6 +81,8 @@ Input.propTypes = {
   name: PropTypes.string,
   value: PropTypes.string,
   placeholder: PropTypes.string,
+  icon: PropTypes.string,
+  iconAlign: PropTypes.string,
   label: PropTypes.string,
   onChange: PropTypes.func
 };
@@ -72,6 +95,8 @@ Input.defaultProps = {
   value: '',
   placeholder: '',
   label: '',
+  icon: '',
+  iconAlign: 'left',
   onChange: () => {}
 };
 

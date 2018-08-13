@@ -111,7 +111,9 @@ stories.add('Front10', () => (
         <Team members={services} imageBorder showBorder={false} />
       </Section>
       <Section gray title="WHAT WE DO" subTitle="One Look Is Worth A Thousand Words.">
-        <Video source="https://youtu.be/dCrLwWdju68" />
+        <Container>
+          <Video source="https://youtu.be/dCrLwWdju68" />
+        </Container>
       </Section>
       <Section title="OUR FOUNDERS" subTitle="Dariel & Alberto.">
         <Container>

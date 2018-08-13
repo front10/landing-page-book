@@ -6,7 +6,7 @@ import {
   statefulComponentCodeExample,
   anApplicationCodeExample,
   aComponentUsingExternalPluginsCodeExample
-} from './codeExamples';
+} from '../../mock/pages/react/code';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import {

@@ -28,6 +28,12 @@ import {
 
 import lastBackers from '../../mock/pages/webpack/lastBackers';
 import platinumBackers from '../../mock/pages/webpack/platinumBackers';
+import {
+  indexCodeExample,
+  barCodeExample,
+  configCodeExample,
+  pageCodeExample
+} from '../../mock/pages/webpack/code';
 
 const languages = ['US', 'FR', 'ES', 'DE'];
 
@@ -85,7 +91,7 @@ stories.add('Webpack', () => (
       <Container>
         <Row>
           <Column className="col-md-6">
-            <Header type="h6" className="mb-4">
+            <Header type="h6" className="mb-4 text-center">
               <b>src/index.js</b>
             </Header>
             <Code
@@ -93,14 +99,11 @@ stories.add('Webpack', () => (
               showfooter={false}
               lineNumbers={false}
               readOnly
-              code={`
-              import bar from './bar';
-            
-              bar();`}
+              code={indexCodeExample}
             />
           </Column>
           <Column className="col-md-6">
-            <Header type="h6" className="mb-4">
+            <Header type="h6" className="mb-4 text-center">
               <b>src/bar.js</b>
             </Header>
             <Code
@@ -108,10 +111,7 @@ stories.add('Webpack', () => (
               showfooter={false}
               lineNumbers={false}
               readOnly
-              code={`
-              export default function bar() {
-                //
-              }`}
+              code={barCodeExample}
             />
           </Column>
         </Row>
@@ -121,7 +121,7 @@ stories.add('Webpack', () => (
       <Container>
         <Row>
           <Column className="col-md-6">
-            <Header type="h6" className="mb-4">
+            <Header type="h6" className="mb-4 text-center">
               <Link href="https://youtu.be/3Nv9muOkb6k?t=21293">Without config</Link>
               <Link href="http://savefrom.net/?url=https%3A%2F%2Fyoutu.be%2F3Nv9muOkb6k%3Ft%3D21293&utm_source=chameleon&utm_medium=extensions&utm_campaign=link_modifier" />{' '}
               or provide custom <b>webpack.config.js</b>
@@ -131,20 +131,11 @@ stories.add('Webpack', () => (
               showfooter={false}
               lineNumbers={false}
               readOnly
-              code={`
-              const path = require('path');
-
-              module.exports = {
-                entry: './src/index.js',
-                output: {
-                  path: path.resolve(__dirname, 'dist'),
-                  filename: 'bundle.js'
-                }
-              };`}
+              code={configCodeExample}
             />
           </Column>
           <Column className="col-md-6">
-            <Header type="h6" className="mb-4">
+            <Header type="h6" className="mb-4 text-center">
               <b>page.html</b>
             </Header>
             <Code
@@ -153,17 +144,7 @@ stories.add('Webpack', () => (
               lineNumbers={false}
               readOnly
               languageCode="jsx"
-              code={`
-              <!doctype html>
-              <html>
-                <head>
-                  ...
-                </head>
-                <body>
-                  ...
-                  <script src="dist/bundle.js"></script>
-                </body>
-              </html>`}
+              code={pageCodeExample}
             />
           </Column>
           <Column className="col-12 mt-5">

@@ -12293,6 +12293,19 @@ a[disabled] {
 .ImageList .ImageList__Container--grayScale img {
   filter: grayscale(1); }
 
+.Video div {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0 !important;
+  width: 100% !important; }
+  .Video div iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
+
 .Wizard .multi-step .footer-buttons {
   padding-top: 20px; }
   .Wizard .multi-step .footer-buttons button {

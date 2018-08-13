@@ -1,6 +1,8 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { withKnobs } from '@storybook/addon-knobs/react';
+import { GraphqlCodeBlock } from 'graphql-syntax-highlighter-react';
+import JSONPretty from 'react-json-pretty';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import {
@@ -10,8 +12,6 @@ import {
   NavbarCollapse,
   Hero,
   Section,
-  Video,
-  Team,
   Container,
   BuiltWith,
   Input,
@@ -22,37 +22,6 @@ import {
   Column,
   Code
 } from '../../../components';
-
-const services = [
-  {
-    image: 'images/demo/default.svg',
-    name: 'Component libraries',
-    summary: 'React & AngularJs reusable component libraries creation.'
-  },
-  {
-    image: 'images/demo/default.svg',
-    name: 'Project acceleration',
-    summary: 'Help you to accelerate and scale your Front-End projects.'
-  },
-  {
-    image: 'images/demo/default.svg',
-    name: 'Consulting',
-    summary: 'More than 10 years of experience doing Front-End development.'
-  }
-];
-
-const team = [
-  {
-    image: 'https://front10.com/img/team/dariel.jpeg',
-    name: 'Dariel Vila',
-    job: 'Co-Founder'
-  },
-  {
-    image: 'https://front10.com/img/team/albe.jpeg',
-    name: 'Alberto Roman',
-    job: 'Co-Founder'
-  }
-];
 
 const frameworks = [
   {
@@ -68,6 +37,14 @@ const frameworks = [
     image: 'images/frameworks/storybook.png'
   }
 ];
+
+const graphqlJson = {
+  hero: {
+    name: 'Luke Skywalker',
+    height: 1.72,
+    mass: 77
+  }
+};
 
 const stories = storiesOf('Pages', module);
 
@@ -161,23 +138,52 @@ stories.add('GraphQl', () => (
         </Container>
       </Hero>
       <div className="mt-5">
-        <Section title="OUR SERVICES" subTitle="We do scalable Front-End development 3x faster.">
-          <Team members={services} imageBorder showBorder={false} />
+        <Section title="A query language for your API">
+          <Row>
+            <Column />
+            <Column className="col col-md-8">
+              <p>
+                GraphQL is a query language for APIs and a runtime for fulfilling those queries with
+                your existing data. GraphQL provides a complete and understandable description of
+                the data in your API, gives clients the power to ask for exactly what they need and
+                nothing more, makes it easier to evolve APIs over time, and enables powerful
+                developer tools.
+              </p>
+            </Column>
+            <Column />
+          </Row>
+          <Row className="row mt-5 mb-5 First_section">
+            <Column />
+            <Column className="col col-md-3 col-ms-6 col-xs-12">
+              <div className="Code_container">
+                <GraphqlCodeBlock
+                  className="GraphqlCodeBlock"
+                  queryBody="{
+                      hero {
+                        name
+                        height
+                        mass
+                      }
+                    }"
+                />
+                <JSONPretty id="json-pretty" json={graphqlJson} />
+              </div>
+            </Column>
+            <Column className="col col-md-3 col-sm-6 col-xs-12">
+              <br />
+              <h3>Ask for what you need, get exactly that</h3>
+              <br />
+              <p>
+                Send a GraphQL query to your API and get exactly what you need, nothing more and
+                nothing less. GraphQL queries always return predictable results. Apps using GraphQL
+                are fast and stable because they control the data they get, not the server.
+              </p>
+            </Column>
+            <Column />
+          </Row>
         </Section>
-        <Section gray title="WHAT WE DO" subTitle="One Look Is Worth A Thousand Words.">
-          <Video source="https://youtu.be/dCrLwWdju68" />
-        </Section>
-        <Section title="OUR FOUNDERS" subTitle="Dariel & Alberto.">
-          <Container>
-            <Team
-              members={team}
-              imageBorder
-              showBorder={false}
-              socials={['twitter', 'facebook', 'linkedin']}
-              socialGray
-            />
-          </Container>
-        </Section>
+        <Section gray title="WHAT WE DO" subTitle="One Look Is Worth A Thousand Words." />
+        <Section title="OUR FOUNDERS" subTitle="Dariel & Alberto." />
         <Section gray>
           <Container>
             <BuiltWith companies={frameworks} gray />

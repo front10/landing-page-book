@@ -1,4 +1,26 @@
-.Input{
-  border-radius: $Input-borderRadius;
-  font-size: $Input-fontSize;
+.Input__Container {
+  position: relative;
+  .Input__Container__Conponent {
+    border-radius: $Input-borderRadius;
+    font-size: $Input-fontSize;
+    color: $Input-color;
+  }
+  .Input__Container__Icon {
+    position: absolute;
+    font-size: $Input-fontSize;
+    top: 10px;
+    color: $Input-color;
+  }
+  .Input__Container__Conponent--left {
+    padding-left: 30px;
+  }
+  .Input__Container__Conponent--right {
+    padding-right: 30px;
+  }
+  .Input__Container__Icon--left {
+    left: 10px;
+  }
+  .Input__Container__Icon--right {
+    right: 10px;
+  }
 }

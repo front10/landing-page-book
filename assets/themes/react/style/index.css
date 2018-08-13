@@ -12270,9 +12270,25 @@ ol.progtrckr li.progtrckr-done:hover:before {
   .Hero__SubHeader {
     font-size: 20px !important; } }
 
-.Input {
-  border-radius: 4px;
-  font-size: 1rem; }
+.Input__Container {
+  position: relative; }
+  .Input__Container .Input__Container__Conponent {
+    border-radius: 4px;
+    font-size: 1rem;
+    color: #cccccc; }
+  .Input__Container .Input__Container__Icon {
+    position: absolute;
+    font-size: 1rem;
+    top: 10px;
+    color: #cccccc; }
+  .Input__Container .Input__Container__Conponent--left {
+    padding-left: 30px; }
+  .Input__Container .Input__Container__Conponent--right {
+    padding-right: 30px; }
+  .Input__Container .Input__Container__Icon--left {
+    left: 10px; }
+  .Input__Container .Input__Container__Icon--right {
+    right: 10px; }
 
 .Label {
   font-size: 0.7rem; }

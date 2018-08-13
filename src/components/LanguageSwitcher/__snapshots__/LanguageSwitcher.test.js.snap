@@ -11,6 +11,7 @@ ShallowWrapper {
     onSelect={[Function]}
     placeholder="Language"
     selectedLanguage="US"
+    showArrow={true}
     showFlag={true}
     showLabel={false}
     showOptionLabel={true}
@@ -43,7 +44,7 @@ ShallowWrapper {
         showOptionLabel={true}
         showSelectedLabel={false}
       />,
-      "className": "LanguageSwitcher ",
+      "className": "LanguageSwitcher  ",
     },
     "ref": null,
     "rendered": Object {
@@ -94,7 +95,7 @@ ShallowWrapper {
           showOptionLabel={true}
           showSelectedLabel={false}
         />,
-        "className": "LanguageSwitcher ",
+        "className": "LanguageSwitcher  ",
       },
       "ref": null,
       "rendered": Object {

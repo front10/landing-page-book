@@ -20,6 +20,7 @@ stories.add(
         showOptionLabel={boolean('Show option label', true)}
         showFlag={boolean('Show option flag', true)}
         disabled={boolean('Disabled', false)}
+        showArrow={boolean('Show arrow', true)}
         placeholder={text('Placeholder', 'Language')}
         selectedLanguage={text('Selected language', 'DE')}
         languages={array('Languages', ['US', 'FR', 'ES', 'DE'], ',')}

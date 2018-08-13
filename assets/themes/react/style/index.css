@@ -12085,7 +12085,8 @@ ol.progtrckr li.progtrckr-done:hover:before {
 
 .Button {
   border-radius: 0px;
-  font-size: 0.7rem; }
+  font-size: 0.7rem;
+  padding: 0.375rem 0.75rem; }
 
 .Card {
   background-color: transparent;
@@ -12224,6 +12225,8 @@ ol.progtrckr li.progtrckr-done:hover:before {
     color: #61dafb !important; }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
+  .Navbar .LanguageSwitcher {
+    padding: 0.5rem 1rem; }
 
 .Navbar--transparent {
   background-color: transparent; }
@@ -12318,6 +12321,9 @@ a[disabled] {
   border-radius: 0px; }
 
 .LanguageSwitcher--noflag .flag-select img {
+  display: none; }
+
+.LanguageSwitcher--noarrow .arrow-down {
   display: none; }
 
 .Section div {

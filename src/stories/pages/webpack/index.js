@@ -75,9 +75,11 @@ stories.add('Webpack', () => (
               <NavbarLink>
                 <Icon icon="fa fa-stack-overflow" />
               </NavbarLink>
-              <NavbarLink>
-                <LanguageSwitcher languages={languages} customLabels={customLabels} />
-              </NavbarLink>
+              <LanguageSwitcher
+                languages={languages}
+                customLabels={customLabels}
+                showArrow={false}
+              />
             </NavbarNav>
           </NavbarCollapse>
         </Container>
@@ -178,31 +180,31 @@ stories.add('Webpack', () => (
           <Header type="h4"> Latest Sponsors </Header>
           <p>The following persons/organizations made their first donation in the last 14 days.</p>
           <Backers backers={lastBackers} imageRounded={false} imageBordered={false} />
-          <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+          <Button className="btn-outline-primary mt-3 mb-3">BECOME A SPONSOR</Button>
           <Header type="h4"> Platinum Sponsors </Header>
           <p>
             <b>Platinum Sponsors</b> are those who have pledged $50,000 or more to webpack.
           </p>
           <Backers backers={platinumBackers} imageRounded={false} imageBordered={false} />
-          <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+          <Button className="btn-outline-primary mt-3 mb-3">BECOME A SPONSOR</Button>
           <Header type="h4"> Gold Sponsors </Header>
           <p>
             <b>Gold Sponsors</b> are those who have pledged $10,000 to $50,000 to webpack.
           </p>
           <Backers backers={lastBackers} imageRounded={false} imageBordered={false} />
-          <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+          <Button className="btn-outline-primary mt-3 mb-3">BECOME A SPONSOR</Button>
           <Header type="h4"> Silver Sponsors </Header>
           <p>
             <b>Silver Sponsors</b> are those who have pledged $2,000 to $10,000 to webpack.
           </p>
           <Backers backers={lastBackers} imageRounded={false} imageBordered={false} />
-          <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+          <Button className="btn-outline-primary mt-3 mb-3">BECOME A SPONSOR</Button>
           <Header type="h4"> Bronze Sponsors </Header>
           <p>
             <b>Bronze Sponsors</b> are those who have pledged $200 to $2,000 to webpack.
           </p>
           <Backers backers={lastBackers} imageRounded={false} imageBordered={false} />
-          <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A SPONSOR</Button>
+          <Button className="btn-outline-primary mt-3 mb-3">BECOME A SPONSOR</Button>
           <Header type="h4"> Backers </Header>
           <p>
             The following <b>Backers</b> are individuals who have contributed various amounts of
@@ -210,7 +212,7 @@ stories.add('Webpack', () => (
             the smallest contributions.
           </p>
           <BackersOpenCollective collective="webpack" />
-          <Button className="btn-outline-primary mt-3 mb-3 rounded">BECOME A BACKER</Button>
+          <Button className="btn-outline-primary mt-3 mb-3">BECOME A BACKER</Button>
         </Container>
       </Section>
       <Footer>

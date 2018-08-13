@@ -103,7 +103,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Section text-center "
+                    class="Section "
                   >
                     <div
                       class="p-5"
@@ -216,7 +216,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="Section text-center "
+                  class="Section "
                 >
                   <div
                     class="p-5"
@@ -408,7 +408,7 @@ ReactWrapper {
             >
               
             </div>,
-            "className": "Section text-center ",
+            "className": "Section ",
           },
           "memoizedState": null,
           "mode": 0,
@@ -419,14 +419,14 @@ ReactWrapper {
             >
               
             </div>,
-            "className": "Section text-center ",
+            "className": "Section ",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div
-            class="Section text-center "
+            class="Section "
           >
             <div
               class="p-5"
@@ -543,7 +543,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Section text-center "
+                    class="Section "
                   >
                     <div
                       class="p-5"
@@ -656,7 +656,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="Section text-center "
+                  class="Section "
                 >
                   <div
                     class="p-5"
@@ -785,7 +785,7 @@ ReactWrapper {
     "ref": null,
     "rendered": Object {
       "instance": <div
-        class="Section text-center "
+        class="Section "
       >
         <div
           class="p-5"
@@ -801,7 +801,7 @@ ReactWrapper {
         >
           
         </div>,
-        "className": "Section text-center ",
+        "className": "Section ",
       },
       "ref": null,
       "rendered": Array [
@@ -919,7 +919,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="Section text-center "
+                      class="Section "
                     >
                       <div
                         class="p-5"
@@ -1032,7 +1032,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Section text-center "
+                    class="Section "
                   >
                     <div
                       class="p-5"
@@ -1224,7 +1224,7 @@ ReactWrapper {
               >
                 
               </div>,
-              "className": "Section text-center ",
+              "className": "Section ",
             },
             "memoizedState": null,
             "mode": 0,
@@ -1235,14 +1235,14 @@ ReactWrapper {
               >
                 
               </div>,
-              "className": "Section text-center ",
+              "className": "Section ",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="Section text-center "
+              class="Section "
             >
               <div
                 class="p-5"
@@ -1359,7 +1359,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="Section text-center "
+                      class="Section "
                     >
                       <div
                         class="p-5"
@@ -1472,7 +1472,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Section text-center "
+                    class="Section "
                   >
                     <div
                       class="p-5"
@@ -1601,7 +1601,7 @@ ReactWrapper {
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="Section text-center "
+          class="Section "
         >
           <div
             class="p-5"
@@ -1617,7 +1617,7 @@ ReactWrapper {
           >
             
           </div>,
-          "className": "Section text-center ",
+          "className": "Section ",
         },
         "ref": null,
         "rendered": Array [

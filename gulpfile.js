@@ -3,7 +3,7 @@ const sass = require('gulp-sass');
 const css = require('gulp-cssimport');
 const tildeImporter = require('node-sass-tilde-importer');
 
-const themes = ['default', 'react'];
+const themes = ['default', 'react', 'webpack'];
 const tasks = [];
 const watch = ['src/components/**/*.scss', 'src/themes/**/style/*.scss'];
 

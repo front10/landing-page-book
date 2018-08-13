@@ -11852,6 +11852,37 @@ ol.progtrckr li.progtrckr-done:hover:before {
   color: #333;
 }
 
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Code Pro'), local('SourceCodePro-Regular'), url(https://fonts.gstatic.com/s/sourcecodepro/v7/HI_SiYsKILxRpg3hIP6sJ7fM7PqlPevT.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Code Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Code Pro Semibold'), local('SourceCodePro-Semibold'), url(https://fonts.gstatic.com/s/sourcecodepro/v7/HI_XiYsKILxRpg3hIP6sJ7fM7Pqt4s_Ds-cv.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Source Sans Pro Italic'), local('SourceSansPro-Italic'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK1dSBYKcSV-LCoeQqfX1RYOo3qPZ7nsDc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Source Sans Pro Regular'), local('SourceSansPro-Regular'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7g.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Source Sans Pro SemiBold'), local('SourceSansPro-SemiBold'), url(https://fonts.gstatic.com/s/sourcesanspro/v11/6xKydSBYKcSV-LCoeQqfX1RYOo3i54rwlxdr.ttf) format('truetype');
+}
+
 .flag-select {
   position: relative;
   display: inline-block;
@@ -12004,66 +12035,12 @@ ol.progtrckr li.progtrckr-done:hover:before {
  * Backers
  */
 /*Custom*/
-.ReactPage {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif; }
-  .ReactPage .Navbar .NavbarBrand {
-    color: #61dafb !important;
-    font-weight: bold; }
-  .ReactPage .Navbar .ReactPage__Navbar__SearchInput {
-    background-color: transparent;
-    border: none; }
-  .ReactPage .Hero .Hero__Button {
-    font-size: 20px;
-    padding: 10px 20px; }
-  .ReactPage .Hero .Hero__Button:hover {
-    background-color: #ffffff; }
-  .ReactPage .Hero .Hero__ButtonTutorial {
-    color: #61dafb !important;
-    font-size: 20px;
-    background: transparent; }
-  .ReactPage .Hero .Hero__ButtonTutorial:hover {
-    color: #ffffff !important; }
-  .ReactPage .ReactPage__MainHeader {
-    font-size: 60px;
-    color: #61dafb;
-    font-weight: bold; }
-  .ReactPage .ReactPage__MainSubHeader {
-    font-size: 30px;
-    font-weight: normal; }
-  .ReactPage .ReactPage__FeaturesHeader {
-    font-size: 24px;
-    font-weight: 200;
-    color: #6d6d6d; }
-  .ReactPage .ReactPage__FeaturesSummary {
-    line-height: 1.7; }
-    .ReactPage .ReactPage__FeaturesSummary .ReactPage__FeaturesSummary__ReacNativeLink {
-      background-color: rgba(187, 239, 253, 0.3);
-      border-bottom: 1px solid rgba(0, 0, 0, 0.2);
-      color: #1a1a1a; }
-  .ReactPage .ReactPage__ExampleHeader {
-    color: #282c34;
-    font-size: 25px;
-    font-weight: bold; }
-  .ReactPage code {
-    background: rgba(255, 229, 100, 0.2);
-    color: #1a1a1a;
-    padding: 0 3px;
-    font-size: 16px;
-    word-break: break-word; }
-  .ReactPage .ReactCodeMirror .CodeMirror {
-    border-radius: 10px;
-    height: 400px !important; }
-  .ReactPage .Footer .Header {
-    color: #999;
-    font-size: 14px;
-    font-weight: 700; }
-  .ReactPage .Footer a {
-    color: white;
-    font-size: 14px;
-    line-height: 2; }
-  .ReactPage .Footer a:hover {
-    color: #61dafb;
-    text-decoration: none; }
+.WebpackPage {
+  color: #2b3a42;
+  font: 400 16px 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; }
+  .WebpackPage .ReactCodeMirror .CodeMirror {
+    border-radius: 4px;
+    height: auto !important; }
 
 /*Components*/
 .Backers .ImageList .ImageList__Container {
@@ -12214,7 +12191,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
   padding: 5px; }
 
 .Navbar {
-  background-color: #20232a; }
+  background-color: #383d45; }
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {

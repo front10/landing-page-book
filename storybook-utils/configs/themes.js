@@ -6,5 +6,9 @@ export default [
   {
     id: 'graphql',
     name: 'GraphQL'
+  },
+  {
+    id: 'react',
+    name: 'React'
   }
 ];

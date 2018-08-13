@@ -136,11 +136,12 @@ class Code extends React.Component {
       scopied,
       sshowfooter
     } = this.state;
+    const { theme } = this.props;
     const options = {
       lineNumbers: slineNumbers,
       readOnly: sreadOnly,
       mode: slanguageCode,
-      theme: 'idea'
+      theme
     };
     return (
       <div>
@@ -199,6 +200,7 @@ Code.propTypes = {
   showfooter: PropTypes.bool,
   code: PropTypes.string,
   languageCode: PropTypes.string,
+  theme: PropTypes.string,
   updateCode: PropTypes.func
 };
 
@@ -208,6 +210,7 @@ Code.defaultProps = {
     'tps://gitlab.com/front10-devs/landing-page-book"\n};',
   bgColorDark: false,
   languageCode: 'javascript',
+  theme: 'idea',
   readOnly: false,
   lineNumbers: true,
   showheader: true,

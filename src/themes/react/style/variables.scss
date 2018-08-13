@@ -49,8 +49,10 @@ $GithubDetail__countbubble-borderradius: 0.4em;
 $GithubDetail__countbubble-padding: 6px;
 $GithubDetail__countbubble-ml: 11px;
 $GithubDetail__countbubble-border: 1px solid #dcdcdc;
-$GithubDetail__countbubble-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
-  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+$GithubDetail__countbubble-transition: color 0.15s ease-in-out,
+background-color 0.15s ease-in-out,
+border-color 0.15s ease-in-out,
+box-shadow 0.15s ease-in-out;
 $GithubDetail__countbubble-Color: #000;
 $GithubDetail__countbubble_after-border: 7px solid transparent;
 $GithubDetail__countbubble_after-borderColor: transparent #dcdcdc transparent transparent;
@@ -137,6 +139,7 @@ $LanguageSwitcher--disabled-color: #b5b5b5;
 
 $Button-borderRadius: 0px;
 $Button-fontSize: 0.7rem;
+$Button-padding: 0.375rem 0.75rem;
 /*
  * Input
  */

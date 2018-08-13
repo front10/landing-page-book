@@ -12041,6 +12041,9 @@ ol.progtrckr li.progtrckr-done:hover:before {
   .WebpackPage .ReactCodeMirror .CodeMirror {
     border-radius: 4px;
     height: auto !important; }
+  .WebpackPage footer {
+    border-top: 1px solid #f2f2f2;
+    padding: 1.5rem 0 !important; }
 
 /*Components*/
 .Backers .ImageList .ImageList__Container {
@@ -12061,8 +12064,9 @@ ol.progtrckr li.progtrckr-done:hover:before {
   font-size: .6rem; }
 
 .Button {
-  border-radius: 0px;
-  font-size: 0.7rem; }
+  border-radius: 1.25rem;
+  font-size: 1rem;
+  padding: 0.5rem; }
 
 .Card {
   background-color: transparent;
@@ -12136,18 +12140,18 @@ ol.progtrckr li.progtrckr-done:hover:before {
 
 .Footer {
   padding: 2.5rem 0;
-  color: #cccccc;
+  color: #777676;
   text-align: center;
-  background-color: #383d45; }
+  background-color: #fff; }
   .Footer .Footer__Copyright {
     font-size: 0.8rem; }
   .Footer .Footer__Sections__Header {
     font-size: 1.5rem; }
   .Footer a {
-    color: #cccccc;
+    color: #777676;
     font-size: 0.8rem; }
   .Footer a:hover {
-    color: #fed136; }
+    color: #333333; }
 
 .Gif .gif_player {
   width: 100%; }
@@ -12201,6 +12205,8 @@ ol.progtrckr li.progtrckr-done:hover:before {
     color: #61dafb !important; }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
+  .Navbar .LanguageSwitcher {
+    padding: 0.5rem 1rem; }
 
 .Navbar--transparent {
   background-color: transparent; }
@@ -12297,6 +12303,9 @@ a[disabled] {
 .LanguageSwitcher--noflag .flag-select img {
   display: none; }
 
+.LanguageSwitcher--noarrow .arrow-down {
+  display: none; }
+
 .Section div {
   margin-left: auto;
   margin-right: auto; }
@@ -12352,4 +12361,4 @@ a[disabled] {
 .Wizard .multi-step .footer-buttons {
   padding-top: 20px; }
   .Wizard .multi-step .footer-buttons button {
-    border-radius: 0px; }
+    border-radius: 1.25rem; }

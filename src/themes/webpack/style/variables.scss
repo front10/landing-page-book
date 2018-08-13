@@ -49,10 +49,8 @@ $GithubDetail__countbubble-borderradius: 0.4em;
 $GithubDetail__countbubble-padding: 6px;
 $GithubDetail__countbubble-ml: 11px;
 $GithubDetail__countbubble-border: 1px solid #dcdcdc;
-$GithubDetail__countbubble-transition: color 0.15s ease-in-out,
-background-color 0.15s ease-in-out,
-border-color 0.15s ease-in-out,
-box-shadow 0.15s ease-in-out;
+$GithubDetail__countbubble-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 $GithubDetail__countbubble-Color: #000;
 $GithubDetail__countbubble_after-border: 7px solid transparent;
 $GithubDetail__countbubble_after-borderColor: transparent #dcdcdc transparent transparent;
@@ -108,9 +106,9 @@ $Card__Subtitle-color: #b5b5b5;
  * Footer
  */
 
-$Footer-color: $grey1;
-$Footer-backgroundColor: #383d45;
-$Footer__Sections__Link--hover-color: #fed136;
+$Footer-color: #777676;
+$Footer-backgroundColor: #fff;
+$Footer__Sections__Link--hover-color: #333333;
 $Footer__Sections__Header-fontSize: 1.5rem;
 $Footer__Sections__Link-fontSize: 0.8rem;
 $Footer__Copyright-fontSize: 0.8rem;
@@ -137,8 +135,9 @@ $LanguageSwitcher--disabled-color: #b5b5b5;
  * Button
  */
 
-$Button-borderRadius: 0px;
-$Button-fontSize: 0.7rem;
+$Button-borderRadius: 1.25rem;
+$Button-fontSize: 1rem;
+$Button-padding: 0.5rem;
 /*
  * Input
  */

@@ -35,10 +35,15 @@ class LanguageSwitcher extends Component {
       disabled,
       customLabels,
       showOptionLabel,
-      showFlag
+      showFlag,
+      showArrow
     } = this.props;
     return (
-      <div className={`LanguageSwitcher ${!showFlag ? 'LanguageSwitcher--noflag' : ''}`}>
+      <div
+        className={`LanguageSwitcher ${!showFlag ? 'LanguageSwitcher--noflag' : ''} ${
+          !showArrow ? 'LanguageSwitcher--noarrow' : ''
+        }`}
+      >
         <ReactFlagsSelect
           ref="languageSwitcher" // eslint-disable-line
           defaultCountry={selectedLanguage}
@@ -60,6 +65,7 @@ LanguageSwitcher.propTypes = {
   disabled: PropTypes.bool,
   showOptionLabel: PropTypes.bool,
   showFlag: PropTypes.bool,
+  showArrow: PropTypes.bool,
   selectedLanguage: PropTypes.string,
   placeholder: PropTypes.string,
   languages: PropTypes.arrayOf(PropTypes.string),
@@ -71,6 +77,7 @@ LanguageSwitcher.defaultProps = {
   disabled: false,
   showOptionLabel: true,
   showFlag: true,
+  showArrow: true,
   selectedLanguage: 'US',
   placeholder: 'Language',
   languages: [],

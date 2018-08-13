@@ -1,36 +1,40 @@
 .LanguageSwitcher {
-  .country-flag {
-    color: $LanguageSwitcher__Option-color;
-  }
-
-  .flag-select {
-    .no--focus .country-flag {
-      color: $LanguageSwitcher--disabled-color;
-
-      img {
-        filter: grayscale(0.5);
-      }
+    .country-flag {
+        color: $LanguageSwitcher__Option-color;
     }
-    .country-label {
-      font-size: $LanguageSwitcher-fontSize;
+    .flag-select {
+        .no--focus .country-flag {
+            color: $LanguageSwitcher--disabled-color;
+            img {
+                filter: grayscale(0.5);
+            }
+        }
+        .country-label {
+            font-size: $LanguageSwitcher-fontSize;
+        }
+        .flag-option:hover {
+            background: $LanguageSwitcher__Option--hover-backgroundColor;
+            color: $LanguageSwitcher__Option--hover-color;
+        }
+        img {
+            top: 0px;
+        }
     }
-    .flag-option:hover {
-      background: $LanguageSwitcher__Option--hover-backgroundColor;
-      color: $LanguageSwitcher__Option--hover-color;
+    .flag-options {
+        border-radius: $LanguageSwitcher-borderRadius;
     }
-    img {
-      top: 0px;
-    }
-  }
-  .flag-options {
-    border-radius: $LanguageSwitcher-borderRadius;
-  }
 }
 
 .LanguageSwitcher--noflag {
-  .flag-select {
-    img {
-      display: none;
+    .flag-select {
+        img {
+            display: none;
+        }
     }
-  }
+}
+
+.LanguageSwitcher--noarrow {
+    .arrow-down {
+        display: none;
+    }
 }

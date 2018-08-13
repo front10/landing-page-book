@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import ReactTooltip from 'react-tooltip';
 
 class Link extends Component {
   render() {
     const { disabled, className, tooltip, href, target, children } = this.props;
     return (
       <React.Fragment>
-        {tooltip && <ReactTooltip />}
-        <a data-tip={tooltip} disabled={disabled} className={className} href={href} target={target}>
+        <a title={tooltip} disabled={disabled} className={className} href={href} target={target}>
           {children}
         </a>
       </React.Fragment>

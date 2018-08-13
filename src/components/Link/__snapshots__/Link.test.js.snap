@@ -110,12 +110,11 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  
                   <a
                     class=""
-                    data-tip=""
                     href="https://front10.com"
                     target=""
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -227,12 +226,11 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                
                 <a
                   class=""
-                  data-tip=""
                   href="https://front10.com"
                   target=""
+                  title=""
                 />
               </div>,
               "context": Object {},
@@ -332,7 +330,7 @@ ReactWrapper {
         "child": FiberNode {
           "_debugID": 6,
           "_debugIsCurrentlyTiming": false,
-          "_debugOwner": null,
+          "_debugOwner": [Circular],
           "_debugSource": null,
           "actualDuration": 0,
           "actualStartTime": 0,
@@ -344,67 +342,38 @@ ReactWrapper {
           "index": 0,
           "key": null,
           "lastEffect": null,
-          "memoizedProps": "",
+          "memoizedProps": Object {
+            "children": null,
+            "className": "",
+            "disabled": false,
+            "href": "https://front10.com",
+            "target": "",
+            "title": "",
+          },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
-          "pendingProps": "",
+          "pendingProps": Object {
+            "children": null,
+            "className": "",
+            "disabled": false,
+            "href": "https://front10.com",
+            "target": "",
+            "title": "",
+          },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
-          "sibling": FiberNode {
-            "_debugID": 7,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": 0,
-            "alternate": null,
-            "child": null,
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstEffect": null,
-            "index": 1,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "children": null,
-              "className": "",
-              "data-tip": "",
-              "disabled": false,
-              "href": "https://front10.com",
-              "target": "",
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "children": null,
-              "className": "",
-              "data-tip": "",
-              "disabled": false,
-              "href": "https://front10.com",
-              "target": "",
-            },
-            "ref": null,
-            "return": [Circular],
-            "selfBaseTime": 0,
-            "sibling": null,
-            "stateNode": <a
-              class=""
-              data-tip=""
-              href="https://front10.com"
-              target=""
-            />,
-            "tag": 5,
-            "treeBaseTime": 0,
-            "type": "a",
-            "updateQueue": null,
-          },
-          "stateNode": ,
-          "tag": 6,
+          "sibling": null,
+          "stateNode": <a
+            class=""
+            href="https://front10.com"
+            target=""
+            title=""
+          />,
+          "tag": 5,
           "treeBaseTime": 0,
-          "type": null,
+          "type": "a",
           "updateQueue": null,
         },
         "effectTag": 1,
@@ -520,12 +489,11 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  
                   <a
                     class=""
-                    data-tip=""
                     href="https://front10.com"
                     target=""
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -637,12 +605,11 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                
                 <a
                   class=""
-                  data-tip=""
                   href="https://front10.com"
                   target=""
+                  title=""
                 />
               </div>,
               "context": Object {},
@@ -773,32 +740,29 @@ ReactWrapper {
       "tooltip": "",
     },
     "ref": null,
-    "rendered": Array [
-      "",
-      Object {
-        "instance": <a
-          class=""
-          data-tip=""
-          href="https://front10.com"
-          target=""
-        />,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": null,
-          "className": "",
-          "data-tip": "",
-          "disabled": false,
-          "href": "https://front10.com",
-          "target": "",
-        },
-        "ref": null,
-        "rendered": Array [
-          null,
-        ],
-        "type": "a",
+    "rendered": Object {
+      "instance": <a
+        class=""
+        href="https://front10.com"
+        target=""
+        title=""
+      />,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": null,
+        "className": "",
+        "disabled": false,
+        "href": "https://front10.com",
+        "target": "",
+        "title": "",
       },
-    ],
+      "ref": null,
+      "rendered": Array [
+        null,
+      ],
+      "type": "a",
+    },
     "type": [Function],
   },
   Symbol(enzyme.__nodes__): Array [
@@ -894,12 +858,11 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    
                     <a
                       class=""
-                      data-tip=""
                       href="https://front10.com"
                       target=""
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -1011,12 +974,11 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  
                   <a
                     class=""
-                    data-tip=""
                     href="https://front10.com"
                     target=""
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -1116,7 +1078,7 @@ ReactWrapper {
           "child": FiberNode {
             "_debugID": 6,
             "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
+            "_debugOwner": [Circular],
             "_debugSource": null,
             "actualDuration": 0,
             "actualStartTime": 0,
@@ -1128,67 +1090,38 @@ ReactWrapper {
             "index": 0,
             "key": null,
             "lastEffect": null,
-            "memoizedProps": "",
+            "memoizedProps": Object {
+              "children": null,
+              "className": "",
+              "disabled": false,
+              "href": "https://front10.com",
+              "target": "",
+              "title": "",
+            },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
-            "pendingProps": "",
+            "pendingProps": Object {
+              "children": null,
+              "className": "",
+              "disabled": false,
+              "href": "https://front10.com",
+              "target": "",
+              "title": "",
+            },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
-            "sibling": FiberNode {
-              "_debugID": 7,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": 0,
-              "alternate": null,
-              "child": null,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstEffect": null,
-              "index": 1,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": null,
-                "className": "",
-                "data-tip": "",
-                "disabled": false,
-                "href": "https://front10.com",
-                "target": "",
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": null,
-                "className": "",
-                "data-tip": "",
-                "disabled": false,
-                "href": "https://front10.com",
-                "target": "",
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseTime": 0,
-              "sibling": null,
-              "stateNode": <a
-                class=""
-                data-tip=""
-                href="https://front10.com"
-                target=""
-              />,
-              "tag": 5,
-              "treeBaseTime": 0,
-              "type": "a",
-              "updateQueue": null,
-            },
-            "stateNode": ,
-            "tag": 6,
+            "sibling": null,
+            "stateNode": <a
+              class=""
+              href="https://front10.com"
+              target=""
+              title=""
+            />,
+            "tag": 5,
             "treeBaseTime": 0,
-            "type": null,
+            "type": "a",
             "updateQueue": null,
           },
           "effectTag": 1,
@@ -1304,12 +1237,11 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    
                     <a
                       class=""
-                      data-tip=""
                       href="https://front10.com"
                       target=""
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -1421,12 +1353,11 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  
                   <a
                     class=""
-                    data-tip=""
                     href="https://front10.com"
                     target=""
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -1557,32 +1488,29 @@ ReactWrapper {
         "tooltip": "",
       },
       "ref": null,
-      "rendered": Array [
-        "",
-        Object {
-          "instance": <a
-            class=""
-            data-tip=""
-            href="https://front10.com"
-            target=""
-          />,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": null,
-            "className": "",
-            "data-tip": "",
-            "disabled": false,
-            "href": "https://front10.com",
-            "target": "",
-          },
-          "ref": null,
-          "rendered": Array [
-            null,
-          ],
-          "type": "a",
+      "rendered": Object {
+        "instance": <a
+          class=""
+          href="https://front10.com"
+          target=""
+          title=""
+        />,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": null,
+          "className": "",
+          "disabled": false,
+          "href": "https://front10.com",
+          "target": "",
+          "title": "",
         },
-      ],
+        "ref": null,
+        "rendered": Array [
+          null,
+        ],
+        "type": "a",
+      },
       "type": [Function],
     },
   ],

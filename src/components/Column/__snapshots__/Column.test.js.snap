@@ -4,7 +4,7 @@ exports[`Column Column should render 1`] = `
 ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Column
-    className="col"
+    className=""
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -39,7 +39,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
-              "className": "col",
+              "className": "",
             },
           },
           "memoizedState": Object {
@@ -47,7 +47,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "children": null,
-              "className": "col",
+              "className": "",
             },
           },
           "mode": 0,
@@ -57,7 +57,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
-              "className": "col",
+              "className": "",
             },
           },
           "ref": null,
@@ -95,7 +95,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="col"
+                    class="col "
                   />
                 </div>,
                 "context": Object {},
@@ -135,7 +135,7 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
-                          "className": "col",
+                          "className": "",
                         }
                       }
                     />,
@@ -157,7 +157,7 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
-                          "className": "col",
+                          "className": "",
                         }
                       }
                     />,
@@ -181,7 +181,7 @@ ReactWrapper {
                 props={
                   Object {
                     "children": null,
-                    "className": "col",
+                    "className": "",
                   }
                 }
               />,
@@ -196,7 +196,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="col"
+                  class="col "
                 />
               </div>,
               "context": Object {},
@@ -226,7 +226,7 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
-                      "className": "col",
+                      "className": "",
                     }
                   }
                 />,
@@ -253,7 +253,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "refs": Object {},
@@ -262,7 +262,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "updater": Object {
@@ -298,21 +298,21 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": null,
-            "className": "col",
+            "className": "col ",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "children": null,
-            "className": "col",
+            "className": "col ",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div
-            class="col"
+            class="col "
           />,
           "tag": 5,
           "treeBaseTime": 0,
@@ -327,14 +327,14 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "children": null,
-          "className": "col",
+          "className": "",
         },
         "memoizedState": null,
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
           "children": null,
-          "className": "col",
+          "className": "",
         },
         "ref": null,
         "return": FiberNode {
@@ -357,7 +357,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
-              "className": "col",
+              "className": "",
             },
           },
           "memoizedState": Object {
@@ -365,7 +365,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "children": null,
-              "className": "col",
+              "className": "",
             },
           },
           "mode": 0,
@@ -375,7 +375,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
-              "className": "col",
+              "className": "",
             },
           },
           "ref": null,
@@ -413,7 +413,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="col"
+                    class="col "
                   />
                 </div>,
                 "context": Object {},
@@ -453,7 +453,7 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
-                          "className": "col",
+                          "className": "",
                         }
                       }
                     />,
@@ -475,7 +475,7 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
-                          "className": "col",
+                          "className": "",
                         }
                       }
                     />,
@@ -499,7 +499,7 @@ ReactWrapper {
                 props={
                   Object {
                     "children": null,
-                    "className": "col",
+                    "className": "",
                   }
                 }
               />,
@@ -514,7 +514,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="col"
+                  class="col "
                 />
               </div>,
               "context": Object {},
@@ -544,7 +544,7 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
-                      "className": "col",
+                      "className": "",
                     }
                   }
                 />,
@@ -571,7 +571,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "refs": Object {},
@@ -580,7 +580,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "updater": Object {
@@ -607,7 +607,7 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "children": null,
-        "className": "col",
+        "className": "",
       },
       "refs": Object {},
       "state": null,
@@ -622,18 +622,18 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "children": null,
-      "className": "col",
+      "className": "",
     },
     "ref": null,
     "rendered": Object {
       "instance": <div
-        class="col"
+        class="col "
       />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": null,
-        "className": "col",
+        "className": "col ",
       },
       "ref": null,
       "rendered": Array [
@@ -669,7 +669,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "memoizedState": Object {
@@ -677,7 +677,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "mode": 0,
@@ -687,7 +687,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "ref": null,
@@ -725,7 +725,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="col"
+                      class="col "
                     />
                   </div>,
                   "context": Object {},
@@ -765,7 +765,7 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
-                            "className": "col",
+                            "className": "",
                           }
                         }
                       />,
@@ -787,7 +787,7 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
-                            "className": "col",
+                            "className": "",
                           }
                         }
                       />,
@@ -811,7 +811,7 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
-                      "className": "col",
+                      "className": "",
                     }
                   }
                 />,
@@ -826,7 +826,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="col"
+                    class="col "
                   />
                 </div>,
                 "context": Object {},
@@ -856,7 +856,7 @@ ReactWrapper {
                     props={
                       Object {
                         "children": null,
-                        "className": "col",
+                        "className": "",
                       }
                     }
                   />,
@@ -883,7 +883,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "children": null,
-                  "className": "col",
+                  "className": "",
                 },
               },
               "refs": Object {},
@@ -892,7 +892,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "children": null,
-                  "className": "col",
+                  "className": "",
                 },
               },
               "updater": Object {
@@ -928,21 +928,21 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": null,
-              "className": "col",
+              "className": "col ",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "children": null,
-              "className": "col",
+              "className": "col ",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="col"
+              class="col "
             />,
             "tag": 5,
             "treeBaseTime": 0,
@@ -957,14 +957,14 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": null,
-            "className": "col",
+            "className": "",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "children": null,
-            "className": "col",
+            "className": "",
           },
           "ref": null,
           "return": FiberNode {
@@ -987,7 +987,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "memoizedState": Object {
@@ -995,7 +995,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "mode": 0,
@@ -1005,7 +1005,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
-                "className": "col",
+                "className": "",
               },
             },
             "ref": null,
@@ -1043,7 +1043,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="col"
+                      class="col "
                     />
                   </div>,
                   "context": Object {},
@@ -1083,7 +1083,7 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
-                            "className": "col",
+                            "className": "",
                           }
                         }
                       />,
@@ -1105,7 +1105,7 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
-                            "className": "col",
+                            "className": "",
                           }
                         }
                       />,
@@ -1129,7 +1129,7 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
-                      "className": "col",
+                      "className": "",
                     }
                   }
                 />,
@@ -1144,7 +1144,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="col"
+                    class="col "
                   />
                 </div>,
                 "context": Object {},
@@ -1174,7 +1174,7 @@ ReactWrapper {
                     props={
                       Object {
                         "children": null,
-                        "className": "col",
+                        "className": "",
                       }
                     }
                   />,
@@ -1201,7 +1201,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "children": null,
-                  "className": "col",
+                  "className": "",
                 },
               },
               "refs": Object {},
@@ -1210,7 +1210,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "children": null,
-                  "className": "col",
+                  "className": "",
                 },
               },
               "updater": Object {
@@ -1237,7 +1237,7 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "children": null,
-          "className": "col",
+          "className": "",
         },
         "refs": Object {},
         "state": null,
@@ -1252,18 +1252,18 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "children": null,
-        "className": "col",
+        "className": "",
       },
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="col"
+          class="col "
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": null,
-          "className": "col",
+          "className": "col ",
         },
         "ref": null,
         "rendered": Array [

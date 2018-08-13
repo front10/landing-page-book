@@ -25,26 +25,28 @@ class Video extends Component {
       onError
     } = this.props;
     return (
-      <ReactPlayer
-        url={source}
-        playing={playing}
-        loop={loop}
-        controls={controls}
-        volume={volume}
-        muted={muted}
-        width={width}
-        height={height}
-        onReady={onReady}
-        onStart={onStart}
-        onPlay={onPlay}
-        onProgress={onProgress}
-        onDuration={onDuration}
-        onPause={onPause}
-        onBuffer={onBuffer}
-        onSeek={onSeek}
-        onEnded={onEnded}
-        onError={onError}
-      />
+      <div className="Video">
+        <ReactPlayer
+          url={source}
+          playing={playing}
+          loop={loop}
+          controls={controls}
+          volume={volume}
+          muted={muted}
+          width={width}
+          height={height}
+          onReady={onReady}
+          onStart={onStart}
+          onPlay={onPlay}
+          onProgress={onProgress}
+          onDuration={onDuration}
+          onPause={onPause}
+          onBuffer={onBuffer}
+          onSeek={onSeek}
+          onEnded={onEnded}
+          onError={onError}
+        />
+      </div>
     );
   }
 }

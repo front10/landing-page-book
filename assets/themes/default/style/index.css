@@ -12284,14 +12284,16 @@ a[disabled] {
 .SocialMediaShareButton--grayScale svg {
   filter: grayscale(1); }
 
-.ImageList .ImageList__Container {
-  margin-left: auto;
-  margin-right: auto; }
-  .ImageList .ImageList__Container img {
-    max-width: 100px; }
-
-.ImageList .ImageList__Container--grayScale img {
-  filter: grayscale(1); }
+.ImageList {
+  display: inline-flex;
+  flex-wrap: wrap; }
+  .ImageList .ImageList__Container {
+    margin-left: auto;
+    margin-right: auto; }
+    .ImageList .ImageList__Container img {
+      max-width: 100px; }
+  .ImageList .ImageList__Container--grayScale img {
+    filter: grayscale(1); }
 
 .Video div {
   position: relative;

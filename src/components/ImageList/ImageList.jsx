@@ -12,7 +12,7 @@ class ImageList extends Component {
     const { images, gray, imageRounded, imageWidth, imageHeight, imageBordered } = this.props;
     /* eslint-disable react/no-array-index-key */
     return (
-      <div className="ImageList row">
+      <div className="ImageList">
         {images.map((imag, key) => (
           <div
             className={`ImageList__Container ${gray ? 'ImageList__Container--grayScale' : ''}`}

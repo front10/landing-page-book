@@ -1,0 +1,16 @@
+@import 'https://fonts.googleapis.com/css?family=Source+Code+Pro:400,600|Source+Sans+Pro:400,400i,500,600';
+.WebpackPage {
+  color: #2b3a42;
+  font: 400 16px 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
+    sans-serif;
+  .ReactCodeMirror {
+    .CodeMirror {
+      border-radius: 4px;
+      height: auto !important;
+    }
+  }
+  footer {
+    border-top: 1px solid #f2f2f2;
+    padding: 1.5rem 0 !important;
+  }
+}

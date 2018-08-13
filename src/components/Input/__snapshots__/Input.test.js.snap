@@ -5,6 +5,8 @@ ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Input
     className=""
+    icon=""
+    iconAlign="left"
     id=""
     label=""
     labelColon={false}
@@ -47,6 +49,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "className": "",
+              "icon": "",
+              "iconAlign": "left",
               "id": "",
               "label": "",
               "labelColon": false,
@@ -62,6 +66,8 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "className": "",
+              "icon": "",
+              "iconAlign": "left",
               "id": "",
               "label": "",
               "labelColon": false,
@@ -79,6 +85,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "className": "",
+              "icon": "",
+              "iconAlign": "left",
               "id": "",
               "label": "",
               "labelColon": false,
@@ -124,14 +132,19 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   
-                  <input
-                    class="Input form-control "
-                    id=""
-                    name=""
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
+                  <div
+                    class="Input__Container"
+                  >
+                    <input
+                      class="Input__Container__Conponent form-control  "
+                      id=""
+                      name=""
+                      placeholder=""
+                      type="text"
+                      value=""
+                    />
+                    
+                  </div>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -170,6 +183,8 @@ ReactWrapper {
                       props={
                         Object {
                           "className": "",
+                          "icon": "",
+                          "iconAlign": "left",
                           "id": "",
                           "label": "",
                           "labelColon": false,
@@ -199,6 +214,8 @@ ReactWrapper {
                       props={
                         Object {
                           "className": "",
+                          "icon": "",
+                          "iconAlign": "left",
                           "id": "",
                           "label": "",
                           "labelColon": false,
@@ -230,6 +247,8 @@ ReactWrapper {
                 props={
                   Object {
                     "className": "",
+                    "icon": "",
+                    "iconAlign": "left",
                     "id": "",
                     "label": "",
                     "labelColon": false,
@@ -252,14 +271,19 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 
-                <input
-                  class="Input form-control "
-                  id=""
-                  name=""
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
+                <div
+                  class="Input__Container"
+                >
+                  <input
+                    class="Input__Container__Conponent form-control  "
+                    id=""
+                    name=""
+                    placeholder=""
+                    type="text"
+                    value=""
+                  />
+                  
+                </div>
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -288,6 +312,8 @@ ReactWrapper {
                   props={
                     Object {
                       "className": "",
+                      "icon": "",
+                      "iconAlign": "left",
                       "id": "",
                       "label": "",
                       "labelColon": false,
@@ -322,6 +348,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -338,6 +366,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -395,7 +425,88 @@ ReactWrapper {
             "actualDuration": 0,
             "actualStartTime": 0,
             "alternate": null,
-            "child": null,
+            "child": FiberNode {
+              "_debugID": 8,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": 0,
+              "alternate": null,
+              "child": null,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "className": "Input__Container__Conponent form-control  ",
+                "id": "",
+                "name": "",
+                "onChange": [Function],
+                "placeholder": "",
+                "type": "text",
+                "value": "",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "className": "Input__Container__Conponent form-control  ",
+                "id": "",
+                "name": "",
+                "onChange": [Function],
+                "placeholder": "",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseTime": 0,
+              "sibling": FiberNode {
+                "_debugID": 9,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": 0,
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 2,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": "",
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": "",
+                "ref": null,
+                "return": [Circular],
+                "selfBaseTime": 0,
+                "sibling": null,
+                "stateNode": ,
+                "tag": 6,
+                "treeBaseTime": 0,
+                "type": null,
+                "updateQueue": null,
+              },
+              "stateNode": <input
+                class="Input__Container__Conponent form-control  "
+                id=""
+                name=""
+                placeholder=""
+                type="text"
+                value=""
+              />,
+              "tag": 5,
+              "treeBaseTime": 0,
+              "type": "input",
+              "updateQueue": null,
+            },
             "effectTag": 0,
             "expirationTime": 0,
             "firstEffect": null,
@@ -403,41 +514,60 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "className": "Input form-control ",
-              "id": "",
-              "name": "",
-              "onChange": [Function],
-              "placeholder": "",
-              "type": "text",
-              "value": "",
+              "children": Array [
+                <input
+                  className="Input__Container__Conponent form-control  "
+                  id=""
+                  name=""
+                  onChange={[Function]}
+                  placeholder=""
+                  type="text"
+                  value=""
+                />,
+                false,
+                "",
+              ],
+              "className": "Input__Container",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "className": "Input form-control ",
-              "id": "",
-              "name": "",
-              "onChange": [Function],
-              "placeholder": "",
-              "type": "text",
-              "value": "",
+              "children": Array [
+                <input
+                  className="Input__Container__Conponent form-control  "
+                  id=""
+                  name=""
+                  onChange={[Function]}
+                  placeholder=""
+                  type="text"
+                  value=""
+                />,
+                false,
+                "",
+              ],
+              "className": "Input__Container",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
-            "stateNode": <input
-              class="Input form-control "
-              id=""
-              name=""
-              placeholder=""
-              type="text"
-              value=""
-            />,
+            "stateNode": <div
+              class="Input__Container"
+            >
+              <input
+                class="Input__Container__Conponent form-control  "
+                id=""
+                name=""
+                placeholder=""
+                type="text"
+                value=""
+              />
+              
+            </div>,
             "tag": 5,
             "treeBaseTime": 0,
-            "type": "input",
+            "type": "div",
             "updateQueue": null,
           },
           "stateNode": ,
@@ -454,6 +584,8 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "className": "",
+          "icon": "",
+          "iconAlign": "left",
           "id": "",
           "label": "",
           "labelColon": false,
@@ -470,6 +602,8 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "className": "",
+          "icon": "",
+          "iconAlign": "left",
           "id": "",
           "label": "",
           "labelColon": false,
@@ -500,6 +634,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "className": "",
+              "icon": "",
+              "iconAlign": "left",
               "id": "",
               "label": "",
               "labelColon": false,
@@ -515,6 +651,8 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "className": "",
+              "icon": "",
+              "iconAlign": "left",
               "id": "",
               "label": "",
               "labelColon": false,
@@ -532,6 +670,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "className": "",
+              "icon": "",
+              "iconAlign": "left",
               "id": "",
               "label": "",
               "labelColon": false,
@@ -577,14 +717,19 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   
-                  <input
-                    class="Input form-control "
-                    id=""
-                    name=""
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
+                  <div
+                    class="Input__Container"
+                  >
+                    <input
+                      class="Input__Container__Conponent form-control  "
+                      id=""
+                      name=""
+                      placeholder=""
+                      type="text"
+                      value=""
+                    />
+                    
+                  </div>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -623,6 +768,8 @@ ReactWrapper {
                       props={
                         Object {
                           "className": "",
+                          "icon": "",
+                          "iconAlign": "left",
                           "id": "",
                           "label": "",
                           "labelColon": false,
@@ -652,6 +799,8 @@ ReactWrapper {
                       props={
                         Object {
                           "className": "",
+                          "icon": "",
+                          "iconAlign": "left",
                           "id": "",
                           "label": "",
                           "labelColon": false,
@@ -683,6 +832,8 @@ ReactWrapper {
                 props={
                   Object {
                     "className": "",
+                    "icon": "",
+                    "iconAlign": "left",
                     "id": "",
                     "label": "",
                     "labelColon": false,
@@ -705,14 +856,19 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 
-                <input
-                  class="Input form-control "
-                  id=""
-                  name=""
-                  placeholder=""
-                  type="text"
-                  value=""
-                />
+                <div
+                  class="Input__Container"
+                >
+                  <input
+                    class="Input__Container__Conponent form-control  "
+                    id=""
+                    name=""
+                    placeholder=""
+                    type="text"
+                    value=""
+                  />
+                  
+                </div>
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -741,6 +897,8 @@ ReactWrapper {
                   props={
                     Object {
                       "className": "",
+                      "icon": "",
+                      "iconAlign": "left",
                       "id": "",
                       "label": "",
                       "labelColon": false,
@@ -775,6 +933,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -791,6 +951,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -840,6 +1002,8 @@ ReactWrapper {
       "onUpdate": [Function],
       "props": Object {
         "className": "",
+        "icon": "",
+        "iconAlign": "left",
         "id": "",
         "label": "",
         "labelColon": false,
@@ -864,6 +1028,8 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "className": "",
+      "icon": "",
+      "iconAlign": "left",
       "id": "",
       "label": "",
       "labelColon": false,
@@ -877,30 +1043,68 @@ ReactWrapper {
     "rendered": Array [
       "",
       Object {
-        "instance": <input
-          class="Input form-control "
-          id=""
-          name=""
-          placeholder=""
-          type="text"
-          value=""
-        />,
+        "instance": <div
+          class="Input__Container"
+        >
+          <input
+            class="Input__Container__Conponent form-control  "
+            id=""
+            name=""
+            placeholder=""
+            type="text"
+            value=""
+          />
+          
+        </div>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "className": "Input form-control ",
-          "id": "",
-          "name": "",
-          "onChange": [Function],
-          "placeholder": "",
-          "type": "text",
-          "value": "",
+          "children": Array [
+            <input
+              className="Input__Container__Conponent form-control  "
+              id=""
+              name=""
+              onChange={[Function]}
+              placeholder=""
+              type="text"
+              value=""
+            />,
+            false,
+            "",
+          ],
+          "className": "Input__Container",
         },
         "ref": null,
         "rendered": Array [
-          undefined,
+          Object {
+            "instance": <input
+              class="Input__Container__Conponent form-control  "
+              id=""
+              name=""
+              placeholder=""
+              type="text"
+              value=""
+            />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "className": "Input__Container__Conponent form-control  ",
+              "id": "",
+              "name": "",
+              "onChange": [Function],
+              "placeholder": "",
+              "type": "text",
+              "value": "",
+            },
+            "ref": null,
+            "rendered": Array [
+              undefined,
+            ],
+            "type": "input",
+          },
+          "",
         ],
-        "type": "input",
+        "type": "div",
       },
     ],
     "type": [Function],
@@ -931,6 +1135,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -946,6 +1152,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -963,6 +1171,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -1008,14 +1218,19 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     
-                    <input
-                      class="Input form-control "
-                      id=""
-                      name=""
-                      placeholder=""
-                      type="text"
-                      value=""
-                    />
+                    <div
+                      class="Input__Container"
+                    >
+                      <input
+                        class="Input__Container__Conponent form-control  "
+                        id=""
+                        name=""
+                        placeholder=""
+                        type="text"
+                        value=""
+                      />
+                      
+                    </div>
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1054,6 +1269,8 @@ ReactWrapper {
                         props={
                           Object {
                             "className": "",
+                            "icon": "",
+                            "iconAlign": "left",
                             "id": "",
                             "label": "",
                             "labelColon": false,
@@ -1083,6 +1300,8 @@ ReactWrapper {
                         props={
                           Object {
                             "className": "",
+                            "icon": "",
+                            "iconAlign": "left",
                             "id": "",
                             "label": "",
                             "labelColon": false,
@@ -1114,6 +1333,8 @@ ReactWrapper {
                   props={
                     Object {
                       "className": "",
+                      "icon": "",
+                      "iconAlign": "left",
                       "id": "",
                       "label": "",
                       "labelColon": false,
@@ -1136,14 +1357,19 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   
-                  <input
-                    class="Input form-control "
-                    id=""
-                    name=""
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
+                  <div
+                    class="Input__Container"
+                  >
+                    <input
+                      class="Input__Container__Conponent form-control  "
+                      id=""
+                      name=""
+                      placeholder=""
+                      type="text"
+                      value=""
+                    />
+                    
+                  </div>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1172,6 +1398,8 @@ ReactWrapper {
                     props={
                       Object {
                         "className": "",
+                        "icon": "",
+                        "iconAlign": "left",
                         "id": "",
                         "label": "",
                         "labelColon": false,
@@ -1206,6 +1434,8 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "className": "",
+                  "icon": "",
+                  "iconAlign": "left",
                   "id": "",
                   "label": "",
                   "labelColon": false,
@@ -1222,6 +1452,8 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "className": "",
+                  "icon": "",
+                  "iconAlign": "left",
                   "id": "",
                   "label": "",
                   "labelColon": false,
@@ -1279,7 +1511,88 @@ ReactWrapper {
               "actualDuration": 0,
               "actualStartTime": 0,
               "alternate": null,
-              "child": null,
+              "child": FiberNode {
+                "_debugID": 8,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": 0,
+                "alternate": null,
+                "child": null,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "className": "Input__Container__Conponent form-control  ",
+                  "id": "",
+                  "name": "",
+                  "onChange": [Function],
+                  "placeholder": "",
+                  "type": "text",
+                  "value": "",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "className": "Input__Container__Conponent form-control  ",
+                  "id": "",
+                  "name": "",
+                  "onChange": [Function],
+                  "placeholder": "",
+                  "type": "text",
+                  "value": "",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseTime": 0,
+                "sibling": FiberNode {
+                  "_debugID": 9,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": 0,
+                  "alternate": null,
+                  "child": null,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstEffect": null,
+                  "index": 2,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": "",
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": "",
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseTime": 0,
+                  "sibling": null,
+                  "stateNode": ,
+                  "tag": 6,
+                  "treeBaseTime": 0,
+                  "type": null,
+                  "updateQueue": null,
+                },
+                "stateNode": <input
+                  class="Input__Container__Conponent form-control  "
+                  id=""
+                  name=""
+                  placeholder=""
+                  type="text"
+                  value=""
+                />,
+                "tag": 5,
+                "treeBaseTime": 0,
+                "type": "input",
+                "updateQueue": null,
+              },
               "effectTag": 0,
               "expirationTime": 0,
               "firstEffect": null,
@@ -1287,41 +1600,60 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "className": "Input form-control ",
-                "id": "",
-                "name": "",
-                "onChange": [Function],
-                "placeholder": "",
-                "type": "text",
-                "value": "",
+                "children": Array [
+                  <input
+                    className="Input__Container__Conponent form-control  "
+                    id=""
+                    name=""
+                    onChange={[Function]}
+                    placeholder=""
+                    type="text"
+                    value=""
+                  />,
+                  false,
+                  "",
+                ],
+                "className": "Input__Container",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "className": "Input form-control ",
-                "id": "",
-                "name": "",
-                "onChange": [Function],
-                "placeholder": "",
-                "type": "text",
-                "value": "",
+                "children": Array [
+                  <input
+                    className="Input__Container__Conponent form-control  "
+                    id=""
+                    name=""
+                    onChange={[Function]}
+                    placeholder=""
+                    type="text"
+                    value=""
+                  />,
+                  false,
+                  "",
+                ],
+                "className": "Input__Container",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
-              "stateNode": <input
-                class="Input form-control "
-                id=""
-                name=""
-                placeholder=""
-                type="text"
-                value=""
-              />,
+              "stateNode": <div
+                class="Input__Container"
+              >
+                <input
+                  class="Input__Container__Conponent form-control  "
+                  id=""
+                  name=""
+                  placeholder=""
+                  type="text"
+                  value=""
+                />
+                
+              </div>,
               "tag": 5,
               "treeBaseTime": 0,
-              "type": "input",
+              "type": "div",
               "updateQueue": null,
             },
             "stateNode": ,
@@ -1338,6 +1670,8 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "className": "",
+            "icon": "",
+            "iconAlign": "left",
             "id": "",
             "label": "",
             "labelColon": false,
@@ -1354,6 +1688,8 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "className": "",
+            "icon": "",
+            "iconAlign": "left",
             "id": "",
             "label": "",
             "labelColon": false,
@@ -1384,6 +1720,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -1399,6 +1737,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -1416,6 +1756,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "className": "",
+                "icon": "",
+                "iconAlign": "left",
                 "id": "",
                 "label": "",
                 "labelColon": false,
@@ -1461,14 +1803,19 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     
-                    <input
-                      class="Input form-control "
-                      id=""
-                      name=""
-                      placeholder=""
-                      type="text"
-                      value=""
-                    />
+                    <div
+                      class="Input__Container"
+                    >
+                      <input
+                        class="Input__Container__Conponent form-control  "
+                        id=""
+                        name=""
+                        placeholder=""
+                        type="text"
+                        value=""
+                      />
+                      
+                    </div>
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1507,6 +1854,8 @@ ReactWrapper {
                         props={
                           Object {
                             "className": "",
+                            "icon": "",
+                            "iconAlign": "left",
                             "id": "",
                             "label": "",
                             "labelColon": false,
@@ -1536,6 +1885,8 @@ ReactWrapper {
                         props={
                           Object {
                             "className": "",
+                            "icon": "",
+                            "iconAlign": "left",
                             "id": "",
                             "label": "",
                             "labelColon": false,
@@ -1567,6 +1918,8 @@ ReactWrapper {
                   props={
                     Object {
                       "className": "",
+                      "icon": "",
+                      "iconAlign": "left",
                       "id": "",
                       "label": "",
                       "labelColon": false,
@@ -1589,14 +1942,19 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   
-                  <input
-                    class="Input form-control "
-                    id=""
-                    name=""
-                    placeholder=""
-                    type="text"
-                    value=""
-                  />
+                  <div
+                    class="Input__Container"
+                  >
+                    <input
+                      class="Input__Container__Conponent form-control  "
+                      id=""
+                      name=""
+                      placeholder=""
+                      type="text"
+                      value=""
+                    />
+                    
+                  </div>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1625,6 +1983,8 @@ ReactWrapper {
                     props={
                       Object {
                         "className": "",
+                        "icon": "",
+                        "iconAlign": "left",
                         "id": "",
                         "label": "",
                         "labelColon": false,
@@ -1659,6 +2019,8 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "className": "",
+                  "icon": "",
+                  "iconAlign": "left",
                   "id": "",
                   "label": "",
                   "labelColon": false,
@@ -1675,6 +2037,8 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "className": "",
+                  "icon": "",
+                  "iconAlign": "left",
                   "id": "",
                   "label": "",
                   "labelColon": false,
@@ -1724,6 +2088,8 @@ ReactWrapper {
         "onUpdate": [Function],
         "props": Object {
           "className": "",
+          "icon": "",
+          "iconAlign": "left",
           "id": "",
           "label": "",
           "labelColon": false,
@@ -1748,6 +2114,8 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "className": "",
+        "icon": "",
+        "iconAlign": "left",
         "id": "",
         "label": "",
         "labelColon": false,
@@ -1761,30 +2129,68 @@ ReactWrapper {
       "rendered": Array [
         "",
         Object {
-          "instance": <input
-            class="Input form-control "
-            id=""
-            name=""
-            placeholder=""
-            type="text"
-            value=""
-          />,
+          "instance": <div
+            class="Input__Container"
+          >
+            <input
+              class="Input__Container__Conponent form-control  "
+              id=""
+              name=""
+              placeholder=""
+              type="text"
+              value=""
+            />
+            
+          </div>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "className": "Input form-control ",
-            "id": "",
-            "name": "",
-            "onChange": [Function],
-            "placeholder": "",
-            "type": "text",
-            "value": "",
+            "children": Array [
+              <input
+                className="Input__Container__Conponent form-control  "
+                id=""
+                name=""
+                onChange={[Function]}
+                placeholder=""
+                type="text"
+                value=""
+              />,
+              false,
+              "",
+            ],
+            "className": "Input__Container",
           },
           "ref": null,
           "rendered": Array [
-            undefined,
+            Object {
+              "instance": <input
+                class="Input__Container__Conponent form-control  "
+                id=""
+                name=""
+                placeholder=""
+                type="text"
+                value=""
+              />,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "Input__Container__Conponent form-control  ",
+                "id": "",
+                "name": "",
+                "onChange": [Function],
+                "placeholder": "",
+                "type": "text",
+                "value": "",
+              },
+              "ref": null,
+              "rendered": Array [
+                undefined,
+              ],
+              "type": "input",
+            },
+            "",
           ],
-          "type": "input",
+          "type": "div",
         },
       ],
       "type": [Function],

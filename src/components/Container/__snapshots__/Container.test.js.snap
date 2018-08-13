@@ -4,6 +4,7 @@ exports[`Container Container should render 1`] = `
 ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Container
+    className=""
     fluid={false}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -39,6 +40,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
+              "className": "",
               "fluid": false,
             },
           },
@@ -47,6 +49,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "children": null,
+              "className": "",
               "fluid": false,
             },
           },
@@ -57,6 +60,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
+              "className": "",
               "fluid": false,
             },
           },
@@ -95,7 +99,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="container"
+                    class=" container"
                   />
                 </div>,
                 "context": Object {},
@@ -135,6 +139,7 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
+                          "className": "",
                           "fluid": false,
                         }
                       }
@@ -157,6 +162,7 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
+                          "className": "",
                           "fluid": false,
                         }
                       }
@@ -181,6 +187,7 @@ ReactWrapper {
                 props={
                   Object {
                     "children": null,
+                    "className": "",
                     "fluid": false,
                   }
                 }
@@ -196,7 +203,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="container"
+                  class=" container"
                 />
               </div>,
               "context": Object {},
@@ -226,6 +233,7 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
+                      "className": "",
                       "fluid": false,
                     }
                   }
@@ -253,6 +261,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -262,6 +271,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -298,21 +308,21 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": null,
-            "className": "container",
+            "className": " container",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "children": null,
-            "className": "container",
+            "className": " container",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div
-            class="container"
+            class=" container"
           />,
           "tag": 5,
           "treeBaseTime": 0,
@@ -327,6 +337,7 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "children": null,
+          "className": "",
           "fluid": false,
         },
         "memoizedState": null,
@@ -334,6 +345,7 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "children": null,
+          "className": "",
           "fluid": false,
         },
         "ref": null,
@@ -357,6 +369,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
+              "className": "",
               "fluid": false,
             },
           },
@@ -365,6 +378,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "children": null,
+              "className": "",
               "fluid": false,
             },
           },
@@ -375,6 +389,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
+              "className": "",
               "fluid": false,
             },
           },
@@ -413,7 +428,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="container"
+                    class=" container"
                   />
                 </div>,
                 "context": Object {},
@@ -453,6 +468,7 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
+                          "className": "",
                           "fluid": false,
                         }
                       }
@@ -475,6 +491,7 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
+                          "className": "",
                           "fluid": false,
                         }
                       }
@@ -499,6 +516,7 @@ ReactWrapper {
                 props={
                   Object {
                     "children": null,
+                    "className": "",
                     "fluid": false,
                   }
                 }
@@ -514,7 +532,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="container"
+                  class=" container"
                 />
               </div>,
               "context": Object {},
@@ -544,6 +562,7 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
+                      "className": "",
                       "fluid": false,
                     }
                   }
@@ -571,6 +590,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -580,6 +600,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -607,6 +628,7 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "children": null,
+        "className": "",
         "fluid": false,
       },
       "refs": Object {},
@@ -622,18 +644,19 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "children": null,
+      "className": "",
       "fluid": false,
     },
     "ref": null,
     "rendered": Object {
       "instance": <div
-        class="container"
+        class=" container"
       />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": null,
-        "className": "container",
+        "className": " container",
       },
       "ref": null,
       "rendered": Array [
@@ -669,6 +692,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -677,6 +701,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -687,6 +712,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -725,7 +751,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="container"
+                      class=" container"
                     />
                   </div>,
                   "context": Object {},
@@ -765,6 +791,7 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
+                            "className": "",
                             "fluid": false,
                           }
                         }
@@ -787,6 +814,7 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
+                            "className": "",
                             "fluid": false,
                           }
                         }
@@ -811,6 +839,7 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
+                      "className": "",
                       "fluid": false,
                     }
                   }
@@ -826,7 +855,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="container"
+                    class=" container"
                   />
                 </div>,
                 "context": Object {},
@@ -856,6 +885,7 @@ ReactWrapper {
                     props={
                       Object {
                         "children": null,
+                        "className": "",
                         "fluid": false,
                       }
                     }
@@ -883,6 +913,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "children": null,
+                  "className": "",
                   "fluid": false,
                 },
               },
@@ -892,6 +923,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "children": null,
+                  "className": "",
                   "fluid": false,
                 },
               },
@@ -928,21 +960,21 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": null,
-              "className": "container",
+              "className": " container",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "children": null,
-              "className": "container",
+              "className": " container",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="container"
+              class=" container"
             />,
             "tag": 5,
             "treeBaseTime": 0,
@@ -957,6 +989,7 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": null,
+            "className": "",
             "fluid": false,
           },
           "memoizedState": null,
@@ -964,6 +997,7 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "children": null,
+            "className": "",
             "fluid": false,
           },
           "ref": null,
@@ -987,6 +1021,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -995,6 +1030,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -1005,6 +1041,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
                 "fluid": false,
               },
             },
@@ -1043,7 +1080,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="container"
+                      class=" container"
                     />
                   </div>,
                   "context": Object {},
@@ -1083,6 +1120,7 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
+                            "className": "",
                             "fluid": false,
                           }
                         }
@@ -1105,6 +1143,7 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
+                            "className": "",
                             "fluid": false,
                           }
                         }
@@ -1129,6 +1168,7 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
+                      "className": "",
                       "fluid": false,
                     }
                   }
@@ -1144,7 +1184,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="container"
+                    class=" container"
                   />
                 </div>,
                 "context": Object {},
@@ -1174,6 +1214,7 @@ ReactWrapper {
                     props={
                       Object {
                         "children": null,
+                        "className": "",
                         "fluid": false,
                       }
                     }
@@ -1201,6 +1242,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "children": null,
+                  "className": "",
                   "fluid": false,
                 },
               },
@@ -1210,6 +1252,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "children": null,
+                  "className": "",
                   "fluid": false,
                 },
               },
@@ -1237,6 +1280,7 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "children": null,
+          "className": "",
           "fluid": false,
         },
         "refs": Object {},
@@ -1252,18 +1296,19 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "children": null,
+        "className": "",
         "fluid": false,
       },
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="container"
+          class=" container"
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": null,
-          "className": "container",
+          "className": " container",
         },
         "ref": null,
         "rendered": Array [

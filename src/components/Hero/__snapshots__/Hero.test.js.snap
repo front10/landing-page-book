@@ -59,6 +59,7 @@ ShallowWrapper {
           className="Hero__Container d-flex align-content-center"
         >
           <Container
+            className=""
             fluid={false}
           >
             
@@ -93,6 +94,7 @@ ShallowWrapper {
             className="Hero__Container d-flex align-content-center"
           >
             <Container
+              className=""
               fluid={false}
             >
               
@@ -152,6 +154,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <Container
+                className=""
                 fluid={false}
               >
                 
@@ -175,6 +178,7 @@ ShallowWrapper {
                   "",
                   Array [],
                 ],
+                "className": "",
                 "fluid": false,
               },
               "ref": null,
@@ -227,6 +231,7 @@ ShallowWrapper {
             className="Hero__Container d-flex align-content-center"
           >
             <Container
+              className=""
               fluid={false}
             >
               
@@ -261,6 +266,7 @@ ShallowWrapper {
               className="Hero__Container d-flex align-content-center"
             >
               <Container
+                className=""
                 fluid={false}
               >
                 
@@ -320,6 +326,7 @@ ShallowWrapper {
             "props": Object {
               "children": Array [
                 <Container
+                  className=""
                   fluid={false}
                 >
                   
@@ -343,6 +350,7 @@ ShallowWrapper {
                     "",
                     Array [],
                   ],
+                  "className": "",
                   "fluid": false,
                 },
                 "ref": null,

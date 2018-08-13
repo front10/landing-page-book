@@ -6,7 +6,7 @@ import {
   statefulComponentCodeExample,
   anApplicationCodeExample,
   aComponentUsingExternalPluginsCodeExample
-} from './codeExamples';
+} from '../../mock/pages/react/code';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import {
@@ -56,10 +56,11 @@ stories.add('React', () => (
               </NavbarLink>
             </NavbarNav>
             <NavbarNav alignItems="right">
-              <NavbarLink>
-                <Icon icon="fa fa-search" />
-              </NavbarLink>
-              <Input placeholder="Search docs" className="ReactPage__Navbar__SearchInput" />
+              <Input
+                placeholder="Search docs"
+                className="ReactPage__Navbar__SearchInput"
+                icon="fa fa-search"
+              />
               <NavbarLink>v16.4.2</NavbarLink>
               <NavbarLink>GitHub</NavbarLink>
               <NavbarLink>

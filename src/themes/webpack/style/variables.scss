@@ -1,0 +1,164 @@
+/*Colors*/
+
+$blue1: #4285f4;
+$blue2: #065ac5;
+$blue3: #61b8d5;
+$blue4: #bee5eb;
+$blue5: #062732;
+$blue6: rgb(63, 81, 181);
+$green1: #388438;
+$white1: white;
+$grey1: #cccccc;
+$grey2: rgb(236, 230, 221);
+$red1: #ff2800;
+$red2: #ff856f;
+$red3: #c81633;
+$red4: rgb(220, 20, 49);
+$brown1: #6f392f;
+$brown2: #721c24;
+$brown3: #f5c6cb;
+$primary-color: $blue1;
+/*
+ *Hero
+ */
+
+$Hero__Header-fontSize: 75px;
+$Hero__Header-fontStyle: normal;
+$Hero__Header-color: $white1;
+$Hero__Header-fontWeight: 700;
+$Hero__Header--phone-fontSize: 30px;
+$Hero__SubHeader-fontSize: 40px;
+$Hero__SubHeader-color: $white1;
+$Hero__SubHeader-fontStyle: italic;
+$Hero__SubHeader--phone-fontSize: 20px;
+$Hero__Button-color: #000000;
+$Hero__Button-backgroundColor: #61dafb;
+/*
+ * Header
+ */
+
+$Header-backgroundColor: #383d45;
+$Header-color: $grey1;
+$Header--hover-color: #61dafb;
+/*
+* GithubDetail
+*/
+
+$GithubDetail__countbubble-backgroundColor: #dcdcdc;
+$GithubDetail__countbubble-borderradius: 0.4em;
+$GithubDetail__countbubble-padding: 6px;
+$GithubDetail__countbubble-ml: 11px;
+$GithubDetail__countbubble-border: 1px solid #dcdcdc;
+$GithubDetail__countbubble-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+  border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+$GithubDetail__countbubble-Color: #000;
+$GithubDetail__countbubble_after-border: 7px solid transparent;
+$GithubDetail__countbubble_after-borderColor: transparent #dcdcdc transparent transparent;
+$GithubDetail__buttonText-ml: 5px;
+$GithubDetail__btn_container-padding: 5px;
+$GithubDetail_btn-backgroundColor: #dcdcdc;
+$GithubDetail_btn-Color: #000;
+/*
+* Code
+*/
+
+$CodeMirror__lines_backgroundColor: #fff;
+$CodeMirror__lines_backgroundColor-dark: #dcdcdc;
+$CodeMirror__header_with: 100%;
+$CodeMirror__header_height: 45px;
+$CodeMirror__header_backgroundColor: #dcdcdc;
+$CodeMirror__footer_with: 100%;
+$CodeMirror__footer_height: 15px;
+$CodeMirror__footer_backgroundColor: #dcdcdc;
+$CodeMirror__headerDark_with: 100%;
+$CodeMirror__headerDark_height: 45px;
+$CodeMirror__headerDark_backgroundColor: rgb(68, 68, 68);
+$CodeMirror__headerDark_Color: #fff;
+$CodeMirror__footerDark_with: 100%;
+$CodeMirror__footerDark_height: 15px;
+$CodeMirror__footerDark_backgroundColor: rgb(68, 68, 68);
+$CodeMirror__footerDark_Color: #fff;
+$CodeMirror__header_copybtn_margin: 10px -10px 0 0;
+$CodeMirror__header_deletebtn_margin: 10px 0 0 0;
+$CodeMirror__height: 250px;
+$CodeMirror__font_family: Lato;
+/* 
+ * ContactUs
+ */
+
+$ContactUs__SubmitButton-color: $white1;
+$ContactUs__SubmitButton-backgroundColor: $blue1;
+$ContactUs__SubmitButton--hover-color: $white1;
+$ContactUs__SubmitButton--hover-backgroundColor: $blue2;
+/*
+ * Card
+ */
+
+$Card-borderRadius: 0px;
+$Card__Summary-fontSize: 17px;
+$Card__Summary-color: #000;
+$Card__Summary-backgroundColor: #fff;
+$Card__Title-fontSize: 23px;
+$Card__Title-color: #6d6d6d;
+$Card__Subtitle-fontSize: 0.9rem;
+$Card__Subtitle-color: #b5b5b5;
+/*
+ * Footer
+ */
+
+$Footer-color: #777676;
+$Footer-backgroundColor: #fff;
+$Footer__Sections__Link--hover-color: #333333;
+$Footer__Sections__Header-fontSize: 1.5rem;
+$Footer__Sections__Link-fontSize: 0.8rem;
+$Footer__Copyright-fontSize: 0.8rem;
+/*
+ * Section
+ */
+
+$Section__Title-fontSize: 2rem;
+$Section__Title-color: #000;
+$Section__Subtitle-fontSize: 0.9rem;
+$Section__Subtitle-color: #b5b5b5;
+$Section--gray-backgroundColor: #f8f9fa;
+/*
+ * Language switcher
+ */
+
+$LanguageSwitcher-borderRadius: 0px;
+$LanguageSwitcher-fontSize: 0.7rem;
+$LanguageSwitcher__Option--hover-backgroundColor: #eaeaea;
+$LanguageSwitcher__Option--hover-color: #000;
+$LanguageSwitcher__Option-color: #000;
+$LanguageSwitcher--disabled-color: #b5b5b5;
+/*
+ * Button
+ */
+
+$Button-borderRadius: 1.25rem;
+$Button-fontSize: 1rem;
+$Button-padding: 0.5rem;
+/*
+ * Input
+ */
+
+$Input-borderRadius: 4px;
+$Input-fontSize: 1rem;
+$Input-color: #cccccc;
+/*
+ * Label
+ */
+
+$Label-fontSize: 0.7rem;
+/*
+ * ContactInfo 
+ */
+
+$ContactInfo__Location-height: 300px;
+$ContactInfo__Information-fontSize: 0.7rem;
+/*
+ * Backers
+ */
+
+$Backers__Image-width: 50px;
+$Backers__Image-height: 50px;

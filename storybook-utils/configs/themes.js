@@ -10,5 +10,9 @@ export default [
   {
     id: 'react',
     name: 'React'
+  },
+  {
+    id: 'webpack',
+    name: 'Webpack'
   }
 ];

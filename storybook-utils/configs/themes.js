@@ -4,6 +4,10 @@ export default [
     name: 'Default'
   },
   {
+    id: 'graphql',
+    name: 'GraphQL'
+  },
+  {
     id: 'react',
     name: 'React'
   },

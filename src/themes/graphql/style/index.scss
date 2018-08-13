@@ -1,6 +1,7 @@
 /*Bootstarp*/
 
 @import '~bootstrap/dist/css/bootstrap.css';
+
 /*Font-awesome*/
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
@@ -8,18 +9,22 @@
 /* Code component themes*/
 
 @import '~codemirror/lib/codemirror.css';
-@import '~codemirror/theme/night.css';
 @import '~codemirror/theme/idea.css';
+
+@import '~react-json-pretty/src/JSONPretty.monikai.css';
 
 /* React flags select */
 
 @import '~react-flags-select/scss/react-flags-select.scss';
+
 /* Gif player */
 
 @import '~react-gif-player/src/GifPlayer';
+
 /* Wizard */
 
 @import '~react-stepzilla/src/css/main.css';
+
 /*Variables*/
 
 @import './variables.scss';
@@ -53,5 +58,4 @@
 @import '../../../components/Team/style';
 @import '../../../components/Features/style';
 @import '../../../components/ImageList/style';
-@import '../../../components/Video/style';
 @import '../../../components/Wizard/style';

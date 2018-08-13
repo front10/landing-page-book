@@ -387,9 +387,9 @@ stories.add('GraphQl', () => (
         <Section gray title="Who’s using GraphQL?">
           <Container>
             <p>
-              Facebook's mobile apps have been powered by GraphQL since 2012. A GraphQL spec was
-              open sourced in 2015 and is now available in many environments and used by teams of
-              all sizes.
+              Facebook mobile apps have been powered by GraphQL since 2012. A GraphQL spec was open
+              sourced in 2015 and is now available in many environments and used by teams of all
+              sizes.
             </p>
             <BuiltWith companies={frameworks} />
           </Container>

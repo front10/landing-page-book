@@ -99,6 +99,7 @@
         "react-stepzilla": "^4.7.2",
         "react-tooltip": "^3.6.1",
         "sass-loader": "^6.0.6",
+        "storybook-addon-jsx": "^5.4.0",
         "style-loader": "^0.20.1",
         "wix-storybook-utils": "^1.0.31"
     }

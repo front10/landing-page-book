@@ -1,9 +1,10 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
+import jsxConfig from '../../mock/jsxConfig';
 import { BuiltWith } from '../../../components';
 import Readme from '../../../components/BuiltWith/README.md';
 
@@ -26,11 +27,12 @@ const companies = [
   }
 ];
 
+setAddon(JSXAddon);
 const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'BuiltWith',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -38,5 +40,6 @@ stories.add(
         <BuiltWith gray={boolean('Use gray', true)} companies={companies} />
       </div>
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

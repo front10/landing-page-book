@@ -1,17 +1,19 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, select, boolean, number } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
+import jsxConfig from '../../mock/jsxConfig';
 import { ContactInfo, Row, Column } from '../../../components';
 import Readme from '../../../components/ContactInfo/README.md';
 
+setAddon(JSXAddon);
 const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'ContactInfo',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -38,5 +40,6 @@ stories.add(
         </Column>
       </Row>
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

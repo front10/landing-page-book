@@ -1,17 +1,19 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, select, boolean, text } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
+import jsxConfig from '../../mock/jsxConfig';
 import { Card } from '../../../components';
 import Readme from '../../../components/Card/README.md';
 
+setAddon(JSXAddon);
 const stories = storiesOf('Components/Card', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -37,10 +39,11 @@ stories.add(
         </div>
       </div>
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );
 
-stories.add(
+stories.addWithJSX(
   'Children',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -73,5 +76,6 @@ stories.add(
         </div>
       </div>
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

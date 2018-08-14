@@ -1,17 +1,19 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
+import jsxConfig from '../../mock/jsxConfig';
 import { Gif } from '../../../components';
 import Readme from '../../../components/Gif/README.md';
 
+setAddon(JSXAddon);
 const stories = storiesOf('Components/Gif', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -20,10 +22,11 @@ stories.add(
         preview={text('Preview', 'images/demo/develop.png')}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );
 
-stories.add(
+stories.addWithJSX(
   'Autoplay',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -33,5 +36,6 @@ stories.add(
         autoplay
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

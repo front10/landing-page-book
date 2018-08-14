@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import CodeMirror from 'react-codemirror';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-import ReactTooltip from 'react-tooltip';
 import Navbar from '../Navbar/Navbar';
 import NavbarNav from '../NavbarNav/NavbarNav';
 import Icon from '../Icon/Icon';
+import Button from '../Button/Button';
 
 require('codemirror/mode/javascript/javascript');
 require('codemirror/mode/markdown/markdown');
@@ -145,32 +145,25 @@ class Code extends React.Component {
     };
     return (
       <div>
-        <ReactTooltip />
         {sshowheader && (
           <Navbar className={`${sbgColorDark ? 'CodeMirror__header-dark' : 'CodeMirror__header'}`}>
             <NavbarNav alignItems="right">
               <CopyToClipboard text={scode} onCopy={this.copyToClipboard}>
-                <button
+                <Button
                   onClick={this.copyToClipboard}
-                  onKeyPress={this.copyToClipboard}
-                  type="submit"
-                  tabIndex={0}
                   className={`btn ${scopied ? 'disabled' : ''} CodeMirror_btn`}
-                  data-tip="copy"
+                  tooltip="Copy"
                 >
                   <Icon className="CodeMirror__header_copybtn" icon="fa fa-clone" role="link" />
-                </button>
+                </Button>
               </CopyToClipboard>
-              <button
+              <Button
                 onClick={this.clearCode}
-                onKeyPress={this.clearCode}
-                tabIndex={-1}
-                type="submit"
                 className={`btn ${sreadOnly ? 'disabled' : ''} CodeMirror_btn`}
-                data-tip="clear"
+                tooltip="Clear"
               >
                 <Icon className="CodeMirror__header_deletebtn" icon="fa fa-trash-o" />
-              </button>
+              </Button>
             </NavbarNav>
           </Navbar>
         )}

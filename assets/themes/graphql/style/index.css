@@ -12132,7 +12132,8 @@ ol.progtrckr li.progtrckr-done:hover:before {
 
 .Button {
   border-radius: 0px;
-  font-size: 0.7rem; }
+  font-size: 0.7rem;
+  padding: 0.375rem 0.75rem; }
 
 .Card {
   background-color: transparent;
@@ -12271,6 +12272,8 @@ ol.progtrckr li.progtrckr-done:hover:before {
     color: #fed136 !important; }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
+  .Navbar .LanguageSwitcher {
+    padding: 0.5rem 1rem; }
 
 .Navbar--transparent {
   background-color: transparent; }
@@ -12317,9 +12320,25 @@ ol.progtrckr li.progtrckr-done:hover:before {
   .Hero__SubHeader {
     font-size: 20px !important; } }
 
-.Input {
-  border-radius: 0px;
-  font-size: 0.7rem; }
+.Input__Container {
+  position: relative; }
+  .Input__Container .Input__Container__Conponent {
+    border-radius: 0px;
+    font-size: 0.7rem;
+    color: #000; }
+  .Input__Container .Input__Container__Icon {
+    position: absolute;
+    font-size: 0.7rem;
+    top: 10px;
+    color: #000; }
+  .Input__Container .Input__Container__Conponent--left {
+    padding-left: 30px; }
+  .Input__Container .Input__Container__Conponent--right {
+    padding-right: 30px; }
+  .Input__Container .Input__Container__Icon--left {
+    left: 10px; }
+  .Input__Container .Input__Container__Icon--right {
+    right: 10px; }
 
 .Label {
   font-size: 0.7rem; }
@@ -12351,6 +12370,9 @@ a[disabled] {
 .LanguageSwitcher--noflag .flag-select img {
   display: none; }
 
+.LanguageSwitcher--noarrow .arrow-down {
+  display: none; }
+
 .Section div {
   margin-left: auto;
   margin-right: auto; }
@@ -12379,14 +12401,16 @@ a[disabled] {
 .SocialMediaShareButton--grayScale svg {
   filter: grayscale(1); }
 
-.ImageList .ImageList__Container {
-  margin-left: auto;
-  margin-right: auto; }
-  .ImageList .ImageList__Container img {
-    max-width: 100px; }
-
-.ImageList .ImageList__Container--grayScale img {
-  filter: grayscale(1); }
+.ImageList {
+  display: inline-flex;
+  flex-wrap: wrap; }
+  .ImageList .ImageList__Container {
+    margin-left: auto;
+    margin-right: auto; }
+    .ImageList .ImageList__Container img {
+      max-width: 100px; }
+  .ImageList .ImageList__Container--grayScale img {
+    filter: grayscale(1); }
 
 .Wizard .multi-step .footer-buttons {
   padding-top: 20px; }

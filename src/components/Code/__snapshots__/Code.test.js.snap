@@ -56,13 +56,14 @@ ShallowWrapper {
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
             >
-              <button
+              <Button
+                ariaLabel=""
                 className="btn  CodeMirror_btn"
+                disabled={false}
+                loading={false}
                 onClick={[Function]}
-                onKeyPress={[Function]}
-                tabIndex={0}
-                title="Copy"
-                type="submit"
+                tooltip="Copy"
+                type="button"
               >
                 <Icon
                   className="CodeMirror__header_copybtn"
@@ -70,22 +71,23 @@ ShallowWrapper {
                   role="link"
                   style={Object {}}
                 />
-              </button>
+              </Button>
             </CopyToClipboard>
-            <button
+            <Button
+              ariaLabel=""
               className="btn  CodeMirror_btn"
+              disabled={false}
+              loading={false}
               onClick={[Function]}
-              onKeyPress={[Function]}
-              tabIndex={-1}
-              title="Clear"
-              type="submit"
+              tooltip="Clear"
+              type="button"
             >
               <Icon
                 className="CodeMirror__header_deletebtn"
                 icon="fa fa-trash-o"
                 style={Object {}}
               />
-            </button>
+            </Button>
           </NavbarNav>
         </Navbar>,
         <Unknown
@@ -140,13 +142,14 @@ ShallowWrapper {
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
             >
-              <button
+              <Button
+                ariaLabel=""
                 className="btn  CodeMirror_btn"
+                disabled={false}
+                loading={false}
                 onClick={[Function]}
-                onKeyPress={[Function]}
-                tabIndex={0}
-                title="Copy"
-                type="submit"
+                tooltip="Copy"
+                type="button"
               >
                 <Icon
                   className="CodeMirror__header_copybtn"
@@ -154,22 +157,23 @@ ShallowWrapper {
                   role="link"
                   style={Object {}}
                 />
-              </button>
+              </Button>
             </CopyToClipboard>
-            <button
+            <Button
+              ariaLabel=""
               className="btn  CodeMirror_btn"
+              disabled={false}
+              loading={false}
               onClick={[Function]}
-              onKeyPress={[Function]}
-              tabIndex={-1}
-              title="Clear"
-              type="submit"
+              tooltip="Clear"
+              type="button"
             >
               <Icon
                 className="CodeMirror__header_deletebtn"
                 icon="fa fa-trash-o"
                 style={Object {}}
               />
-            </button>
+            </Button>
           </NavbarNav>,
           "className": "CodeMirror__header",
           "companyLink": "",
@@ -199,13 +203,14 @@ ShallowWrapper {
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
               >
-                <button
+                <Button
+                  ariaLabel=""
                   className="btn  CodeMirror_btn"
+                  disabled={false}
+                  loading={false}
                   onClick={[Function]}
-                  onKeyPress={[Function]}
-                  tabIndex={0}
-                  title="Copy"
-                  type="submit"
+                  tooltip="Copy"
+                  type="button"
                 >
                   <Icon
                     className="CodeMirror__header_copybtn"
@@ -213,22 +218,23 @@ ShallowWrapper {
                     role="link"
                     style={Object {}}
                   />
-                </button>
+                </Button>
               </CopyToClipboard>,
-              <button
+              <Button
+                ariaLabel=""
                 className="btn  CodeMirror_btn"
+                disabled={false}
+                loading={false}
                 onClick={[Function]}
-                onKeyPress={[Function]}
-                tabIndex={-1}
-                title="Clear"
-                type="submit"
+                tooltip="Clear"
+                type="button"
               >
                 <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
                   style={Object {}}
                 />
-              </button>,
+              </Button>,
             ],
           },
           "ref": null,
@@ -238,13 +244,14 @@ ShallowWrapper {
               "key": undefined,
               "nodeType": "class",
               "props": Object {
-                "children": <button
+                "children": <Button
+                  ariaLabel=""
                   className="btn  CodeMirror_btn"
+                  disabled={false}
+                  loading={false}
                   onClick={[Function]}
-                  onKeyPress={[Function]}
-                  tabIndex={0}
-                  title="Copy"
-                  type="submit"
+                  tooltip="Copy"
+                  type="button"
                 >
                   <Icon
                     className="CodeMirror__header_copybtn"
@@ -252,7 +259,7 @@ ShallowWrapper {
                     role="link"
                     style={Object {}}
                   />
-                </button>,
+                </Button>,
                 "onCopy": [Function],
                 "options": undefined,
                 "text": "const component = {
@@ -265,8 +272,9 @@ ShallowWrapper {
               "rendered": Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
+                  "ariaLabel": "",
                   "children": <Icon
                     className="CodeMirror__header_copybtn"
                     icon="fa fa-clone"
@@ -274,11 +282,11 @@ ShallowWrapper {
                     style={Object {}}
                   />,
                   "className": "btn  CodeMirror_btn",
+                  "disabled": false,
+                  "loading": false,
                   "onClick": [Function],
-                  "onKeyPress": [Function],
-                  "tabIndex": 0,
-                  "title": "Copy",
-                  "type": "submit",
+                  "tooltip": "Copy",
+                  "type": "button",
                 },
                 "ref": null,
                 "rendered": Object {
@@ -295,26 +303,27 @@ ShallowWrapper {
                   "rendered": null,
                   "type": [Function],
                 },
-                "type": "button",
+                "type": [Function],
               },
               "type": [Function],
             },
             Object {
               "instance": null,
               "key": undefined,
-              "nodeType": "host",
+              "nodeType": "class",
               "props": Object {
+                "ariaLabel": "",
                 "children": <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
                   style={Object {}}
                 />,
                 "className": "btn  CodeMirror_btn",
+                "disabled": false,
+                "loading": false,
                 "onClick": [Function],
-                "onKeyPress": [Function],
-                "tabIndex": -1,
-                "title": "Clear",
-                "type": "submit",
+                "tooltip": "Clear",
+                "type": "button",
               },
               "ref": null,
               "rendered": Object {
@@ -330,7 +339,7 @@ ShallowWrapper {
                 "rendered": null,
                 "type": [Function],
               },
-              "type": "button",
+              "type": [Function],
             },
           ],
           "type": [Function],
@@ -417,13 +426,14 @@ ShallowWrapper {
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
               >
-                <button
+                <Button
+                  ariaLabel=""
                   className="btn  CodeMirror_btn"
+                  disabled={false}
+                  loading={false}
                   onClick={[Function]}
-                  onKeyPress={[Function]}
-                  tabIndex={0}
-                  title="Copy"
-                  type="submit"
+                  tooltip="Copy"
+                  type="button"
                 >
                   <Icon
                     className="CodeMirror__header_copybtn"
@@ -431,22 +441,23 @@ ShallowWrapper {
                     role="link"
                     style={Object {}}
                   />
-                </button>
+                </Button>
               </CopyToClipboard>
-              <button
+              <Button
+                ariaLabel=""
                 className="btn  CodeMirror_btn"
+                disabled={false}
+                loading={false}
                 onClick={[Function]}
-                onKeyPress={[Function]}
-                tabIndex={-1}
-                title="Clear"
-                type="submit"
+                tooltip="Clear"
+                type="button"
               >
                 <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
                   style={Object {}}
                 />
-              </button>
+              </Button>
             </NavbarNav>
           </Navbar>,
           <Unknown
@@ -501,13 +512,14 @@ ShallowWrapper {
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
               >
-                <button
+                <Button
+                  ariaLabel=""
                   className="btn  CodeMirror_btn"
+                  disabled={false}
+                  loading={false}
                   onClick={[Function]}
-                  onKeyPress={[Function]}
-                  tabIndex={0}
-                  title="Copy"
-                  type="submit"
+                  tooltip="Copy"
+                  type="button"
                 >
                   <Icon
                     className="CodeMirror__header_copybtn"
@@ -515,22 +527,23 @@ ShallowWrapper {
                     role="link"
                     style={Object {}}
                   />
-                </button>
+                </Button>
               </CopyToClipboard>
-              <button
+              <Button
+                ariaLabel=""
                 className="btn  CodeMirror_btn"
+                disabled={false}
+                loading={false}
                 onClick={[Function]}
-                onKeyPress={[Function]}
-                tabIndex={-1}
-                title="Clear"
-                type="submit"
+                tooltip="Clear"
+                type="button"
               >
                 <Icon
                   className="CodeMirror__header_deletebtn"
                   icon="fa fa-trash-o"
                   style={Object {}}
                 />
-              </button>
+              </Button>
             </NavbarNav>,
             "className": "CodeMirror__header",
             "companyLink": "",
@@ -560,13 +573,14 @@ ShallowWrapper {
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
                 >
-                  <button
+                  <Button
+                    ariaLabel=""
                     className="btn  CodeMirror_btn"
+                    disabled={false}
+                    loading={false}
                     onClick={[Function]}
-                    onKeyPress={[Function]}
-                    tabIndex={0}
-                    title="Copy"
-                    type="submit"
+                    tooltip="Copy"
+                    type="button"
                   >
                     <Icon
                       className="CodeMirror__header_copybtn"
@@ -574,22 +588,23 @@ ShallowWrapper {
                       role="link"
                       style={Object {}}
                     />
-                  </button>
+                  </Button>
                 </CopyToClipboard>,
-                <button
+                <Button
+                  ariaLabel=""
                   className="btn  CodeMirror_btn"
+                  disabled={false}
+                  loading={false}
                   onClick={[Function]}
-                  onKeyPress={[Function]}
-                  tabIndex={-1}
-                  title="Clear"
-                  type="submit"
+                  tooltip="Clear"
+                  type="button"
                 >
                   <Icon
                     className="CodeMirror__header_deletebtn"
                     icon="fa fa-trash-o"
                     style={Object {}}
                   />
-                </button>,
+                </Button>,
               ],
             },
             "ref": null,
@@ -599,13 +614,14 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "children": <button
+                  "children": <Button
+                    ariaLabel=""
                     className="btn  CodeMirror_btn"
+                    disabled={false}
+                    loading={false}
                     onClick={[Function]}
-                    onKeyPress={[Function]}
-                    tabIndex={0}
-                    title="Copy"
-                    type="submit"
+                    tooltip="Copy"
+                    type="button"
                   >
                     <Icon
                       className="CodeMirror__header_copybtn"
@@ -613,7 +629,7 @@ ShallowWrapper {
                       role="link"
                       style={Object {}}
                     />
-                  </button>,
+                  </Button>,
                   "onCopy": [Function],
                   "options": undefined,
                   "text": "const component = {
@@ -626,8 +642,9 @@ ShallowWrapper {
                 "rendered": Object {
                   "instance": null,
                   "key": undefined,
-                  "nodeType": "host",
+                  "nodeType": "class",
                   "props": Object {
+                    "ariaLabel": "",
                     "children": <Icon
                       className="CodeMirror__header_copybtn"
                       icon="fa fa-clone"
@@ -635,11 +652,11 @@ ShallowWrapper {
                       style={Object {}}
                     />,
                     "className": "btn  CodeMirror_btn",
+                    "disabled": false,
+                    "loading": false,
                     "onClick": [Function],
-                    "onKeyPress": [Function],
-                    "tabIndex": 0,
-                    "title": "Copy",
-                    "type": "submit",
+                    "tooltip": "Copy",
+                    "type": "button",
                   },
                   "ref": null,
                   "rendered": Object {
@@ -656,26 +673,27 @@ ShallowWrapper {
                     "rendered": null,
                     "type": [Function],
                   },
-                  "type": "button",
+                  "type": [Function],
                 },
                 "type": [Function],
               },
               Object {
                 "instance": null,
                 "key": undefined,
-                "nodeType": "host",
+                "nodeType": "class",
                 "props": Object {
+                  "ariaLabel": "",
                   "children": <Icon
                     className="CodeMirror__header_deletebtn"
                     icon="fa fa-trash-o"
                     style={Object {}}
                   />,
                   "className": "btn  CodeMirror_btn",
+                  "disabled": false,
+                  "loading": false,
                   "onClick": [Function],
-                  "onKeyPress": [Function],
-                  "tabIndex": -1,
-                  "title": "Clear",
-                  "type": "submit",
+                  "tooltip": "Clear",
+                  "type": "button",
                 },
                 "ref": null,
                 "rendered": Object {
@@ -691,7 +709,7 @@ ShallowWrapper {
                   "rendered": null,
                   "type": [Function],
                 },
-                "type": "button",
+                "type": [Function],
               },
             ],
             "type": [Function],

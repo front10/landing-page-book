@@ -12112,6 +12112,29 @@ ol.progtrckr li.progtrckr-done:hover:before {
   border: none;
   padding: 0.5rem 1.25rem; }
 
+.GraphQL__page .Section__background-dark {
+  background-color: #3f4850; }
+  .GraphQL__page .Section__background-dark .Section__Title {
+    color: white;
+    text-align: center; }
+
+.GraphQL__page .Graphql__p {
+  color: white;
+  text-align: center; }
+
+.GraphQL__page .Section__content-bottom {
+  padding-bottom: 0px !important; }
+
+.GraphQL__page .Section--gray {
+  background-color: #e5e7eb; }
+
+.GraphQL__page .Footer {
+  padding-bottom: 0px !important; }
+
+.GraphQL__page .ImageList .ImageList__Container {
+  margin-left: 20px;
+  margin-right: 20px; }
+
 /*Components*/
 .Backers .ImageList .ImageList__Container {
   margin: 2px; }

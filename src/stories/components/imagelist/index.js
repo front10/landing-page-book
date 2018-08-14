@@ -1,11 +1,16 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { ImageList } from '../../../components';
 import Readme from '../../../components/ImageList/README.md';
+
+setAddon(JSXAddon);
 
 const companies = [
   {
@@ -110,7 +115,7 @@ const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'ImageList',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -123,5 +128,6 @@ stories.add(
         />
       </div>
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

@@ -1,17 +1,22 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Image } from '../../../components';
 import Readme from '../../../components/Image/README.md';
 
+setAddon(JSXAddon);
+
 const stories = storiesOf('Elements', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Image',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -24,5 +29,6 @@ stories.add(
         height={text('Height', 100)}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

@@ -1,7 +1,10 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, select, boolean, array } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Team } from '../../../components';
@@ -42,11 +45,13 @@ const members = [
   }
 ];
 
+setAddon(JSXAddon);
+
 const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Team',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -72,5 +77,6 @@ stories.add(
         socials={array('Socials', ['facebook', 'linkedin', 'google', 'twitter'], ',')}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

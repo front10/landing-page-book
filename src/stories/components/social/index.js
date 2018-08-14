@@ -1,17 +1,22 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Social } from '../../../components';
 import Readme from '../../../components/Social/README.md';
 
+setAddon(JSXAddon);
+
 const stories = storiesOf('Components/Social', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -41,10 +46,11 @@ stories.add(
         url={text('Url', 'https://front10.com')}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );
 
-stories.add(
+stories.addWithJSX(
   'All',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -133,5 +139,6 @@ stories.add(
         url={text('Url', 'https://front10.com')}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

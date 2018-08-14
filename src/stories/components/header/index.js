@@ -1,17 +1,22 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Header } from '../../../components';
 import Readme from '../../../components/Header/README.md';
 
+setAddon(JSXAddon);
+
 const stories = storiesOf('Elements', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Header',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -23,5 +28,6 @@ stories.add(
         This is a header
       </Header>
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

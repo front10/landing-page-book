@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 class Section extends Component {
   render() {
-    const { gray, title, subTitle, children } = this.props;
+    const { gray, title, subTitle, children, sectionClass } = this.props;
     return (
-      <div className={`Section ${gray ? 'Section--gray' : ''}`}>
+      <div className={`Section ${gray ? 'Section--gray' : ''} ${sectionClass}`}>
         <div className="p-5">
           {(title || subTitle) && (
             <div className="mb-5 text-center">
@@ -24,12 +24,14 @@ Section.propTypes = {
   gray: PropTypes.bool,
   title: PropTypes.string,
   subTitle: PropTypes.string,
+  sectionClass: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Section.defaultProps = {
   gray: false,
   title: '',
   subTitle: '',
+  sectionClass: '',
   children: null
 };
 

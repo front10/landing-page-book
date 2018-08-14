@@ -5,7 +5,6 @@ import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 
 import jsxConfig from '../../mock/jsxConfig';
-
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import {

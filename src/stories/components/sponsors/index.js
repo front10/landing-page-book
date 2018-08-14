@@ -1,11 +1,16 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Sponsors } from '../../../components';
 import Readme from '../../../components/Features/README.md';
+
+setAddon(JSXAddon);
 
 const stories = storiesOf('Components', module);
 
@@ -29,7 +34,7 @@ const sponsors = [
   }
 ];
 
-stories.add(
+stories.addWithJSX(
   'Sponsors',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -37,5 +42,6 @@ stories.add(
         <Sponsors gray={boolean('Use gray', true)} sponsors={sponsors} />
       </div>
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

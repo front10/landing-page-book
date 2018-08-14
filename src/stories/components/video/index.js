@@ -1,17 +1,22 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, number, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Video } from '../../../components';
 import Readme from '../../../components/Video/README.md';
 
+setAddon(JSXAddon);
+
 const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Video',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -26,5 +31,6 @@ stories.add(
         source={text('Source', 'https://youtu.be/dCrLwWdju68')}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

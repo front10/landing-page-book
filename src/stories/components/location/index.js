@@ -1,11 +1,16 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, number } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Location } from '../../../components';
 import Readme from '../../../components/Location/README.md';
+
+setAddon(JSXAddon);
 
 const markers = [
   {
@@ -26,7 +31,7 @@ const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Location',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -40,5 +45,6 @@ stories.add(
         />
       </div>
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

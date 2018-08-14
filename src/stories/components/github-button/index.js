@@ -1,12 +1,14 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
+import jsxConfig from '../../mock/jsxConfig';
 import { GithubButton } from '../../../components';
 import Readme from '../../../components/GithubButton/README.md';
 
+setAddon(JSXAddon);
 const stories = storiesOf('Components/GithubButton', module);
 
 const options = {
@@ -20,7 +22,7 @@ const options = {
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -34,10 +36,11 @@ stories.add(
         showGithubIcon={boolean('Show Github icon', false)}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );
 
-stories.add(
+stories.addWithJSX(
   'All',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -96,5 +99,6 @@ stories.add(
         showGithubIcon={boolean('Show Github icon', false)}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

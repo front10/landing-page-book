@@ -32,11 +32,6 @@ ShallowWrapper {
     "nodeType": "host",
     "props": Object {
       "children": Array [
-        <ReactTooltip
-          insecure={true}
-          resizeHide={true}
-          wrapper="div"
-        />,
         <Navbar
           className="CodeMirror__header"
           companyLink=""
@@ -63,10 +58,10 @@ ShallowWrapper {
             >
               <button
                 className="btn  CodeMirror_btn"
-                data-tip="copy"
                 onClick={[Function]}
                 onKeyPress={[Function]}
                 tabIndex={0}
+                title="Copy"
                 type="submit"
               >
                 <Icon
@@ -79,10 +74,10 @@ ShallowWrapper {
             </CopyToClipboard>
             <button
               className="btn  CodeMirror_btn"
-              data-tip="clear"
               onClick={[Function]}
               onKeyPress={[Function]}
               tabIndex={-1}
+              title="Clear"
               type="submit"
             >
               <Icon
@@ -133,19 +128,6 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "insecure": true,
-          "resizeHide": true,
-          "wrapper": "div",
-        },
-        "ref": null,
-        "rendered": null,
-        "type": [Function],
-      },
-      Object {
-        "instance": null,
-        "key": undefined,
-        "nodeType": "class",
-        "props": Object {
           "children": <NavbarNav
             alignItems="right"
           >
@@ -160,10 +142,10 @@ ShallowWrapper {
             >
               <button
                 className="btn  CodeMirror_btn"
-                data-tip="copy"
                 onClick={[Function]}
                 onKeyPress={[Function]}
                 tabIndex={0}
+                title="Copy"
                 type="submit"
               >
                 <Icon
@@ -176,10 +158,10 @@ ShallowWrapper {
             </CopyToClipboard>
             <button
               className="btn  CodeMirror_btn"
-              data-tip="clear"
               onClick={[Function]}
               onKeyPress={[Function]}
               tabIndex={-1}
+              title="Clear"
               type="submit"
             >
               <Icon
@@ -219,10 +201,10 @@ ShallowWrapper {
               >
                 <button
                   className="btn  CodeMirror_btn"
-                  data-tip="copy"
                   onClick={[Function]}
                   onKeyPress={[Function]}
                   tabIndex={0}
+                  title="Copy"
                   type="submit"
                 >
                   <Icon
@@ -235,10 +217,10 @@ ShallowWrapper {
               </CopyToClipboard>,
               <button
                 className="btn  CodeMirror_btn"
-                data-tip="clear"
                 onClick={[Function]}
                 onKeyPress={[Function]}
                 tabIndex={-1}
+                title="Clear"
                 type="submit"
               >
                 <Icon
@@ -258,10 +240,10 @@ ShallowWrapper {
               "props": Object {
                 "children": <button
                   className="btn  CodeMirror_btn"
-                  data-tip="copy"
                   onClick={[Function]}
                   onKeyPress={[Function]}
                   tabIndex={0}
+                  title="Copy"
                   type="submit"
                 >
                   <Icon
@@ -292,10 +274,10 @@ ShallowWrapper {
                     style={Object {}}
                   />,
                   "className": "btn  CodeMirror_btn",
-                  "data-tip": "copy",
                   "onClick": [Function],
                   "onKeyPress": [Function],
                   "tabIndex": 0,
+                  "title": "Copy",
                   "type": "submit",
                 },
                 "ref": null,
@@ -328,10 +310,10 @@ ShallowWrapper {
                   style={Object {}}
                 />,
                 "className": "btn  CodeMirror_btn",
-                "data-tip": "clear",
                 "onClick": [Function],
                 "onKeyPress": [Function],
                 "tabIndex": -1,
+                "title": "Clear",
                 "type": "submit",
               },
               "ref": null,
@@ -411,11 +393,6 @@ ShallowWrapper {
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          <ReactTooltip
-            insecure={true}
-            resizeHide={true}
-            wrapper="div"
-          />,
           <Navbar
             className="CodeMirror__header"
             companyLink=""
@@ -442,10 +419,10 @@ ShallowWrapper {
               >
                 <button
                   className="btn  CodeMirror_btn"
-                  data-tip="copy"
                   onClick={[Function]}
                   onKeyPress={[Function]}
                   tabIndex={0}
+                  title="Copy"
                   type="submit"
                 >
                   <Icon
@@ -458,10 +435,10 @@ ShallowWrapper {
               </CopyToClipboard>
               <button
                 className="btn  CodeMirror_btn"
-                data-tip="clear"
                 onClick={[Function]}
                 onKeyPress={[Function]}
                 tabIndex={-1}
+                title="Clear"
                 type="submit"
               >
                 <Icon
@@ -512,19 +489,6 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "insecure": true,
-            "resizeHide": true,
-            "wrapper": "div",
-          },
-          "ref": null,
-          "rendered": null,
-          "type": [Function],
-        },
-        Object {
-          "instance": null,
-          "key": undefined,
-          "nodeType": "class",
-          "props": Object {
             "children": <NavbarNav
               alignItems="right"
             >
@@ -539,10 +503,10 @@ ShallowWrapper {
               >
                 <button
                   className="btn  CodeMirror_btn"
-                  data-tip="copy"
                   onClick={[Function]}
                   onKeyPress={[Function]}
                   tabIndex={0}
+                  title="Copy"
                   type="submit"
                 >
                   <Icon
@@ -555,10 +519,10 @@ ShallowWrapper {
               </CopyToClipboard>
               <button
                 className="btn  CodeMirror_btn"
-                data-tip="clear"
                 onClick={[Function]}
                 onKeyPress={[Function]}
                 tabIndex={-1}
+                title="Clear"
                 type="submit"
               >
                 <Icon
@@ -598,10 +562,10 @@ ShallowWrapper {
                 >
                   <button
                     className="btn  CodeMirror_btn"
-                    data-tip="copy"
                     onClick={[Function]}
                     onKeyPress={[Function]}
                     tabIndex={0}
+                    title="Copy"
                     type="submit"
                   >
                     <Icon
@@ -614,10 +578,10 @@ ShallowWrapper {
                 </CopyToClipboard>,
                 <button
                   className="btn  CodeMirror_btn"
-                  data-tip="clear"
                   onClick={[Function]}
                   onKeyPress={[Function]}
                   tabIndex={-1}
+                  title="Clear"
                   type="submit"
                 >
                   <Icon
@@ -637,10 +601,10 @@ ShallowWrapper {
                 "props": Object {
                   "children": <button
                     className="btn  CodeMirror_btn"
-                    data-tip="copy"
                     onClick={[Function]}
                     onKeyPress={[Function]}
                     tabIndex={0}
+                    title="Copy"
                     type="submit"
                   >
                     <Icon
@@ -671,10 +635,10 @@ ShallowWrapper {
                       style={Object {}}
                     />,
                     "className": "btn  CodeMirror_btn",
-                    "data-tip": "copy",
                     "onClick": [Function],
                     "onKeyPress": [Function],
                     "tabIndex": 0,
+                    "title": "Copy",
                     "type": "submit",
                   },
                   "ref": null,
@@ -707,10 +671,10 @@ ShallowWrapper {
                     style={Object {}}
                   />,
                   "className": "btn  CodeMirror_btn",
-                  "data-tip": "clear",
                   "onClick": [Function],
                   "onKeyPress": [Function],
                   "tabIndex": -1,
+                  "title": "Clear",
                   "type": "submit",
                 },
                 "ref": null,

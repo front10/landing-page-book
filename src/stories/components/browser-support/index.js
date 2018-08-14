@@ -1,9 +1,10 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
+import jsxConfig from '../../mock/jsxConfig';
 import { BrowserSupport } from '../../../components';
 import Readme from '../../../components/BrowserSupport/README.md';
 
@@ -38,15 +39,17 @@ const browsers = [
   }
 ];
 
+setAddon(JSXAddon);
 const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'BrowsersSupport',
   withReadme([Readme], () => (
     <ThemeSelector>
       <BrowserSupport browsers={browsers} showText={boolean('Show text', true)} />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

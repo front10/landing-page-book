@@ -1,17 +1,22 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, boolean, select } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Input } from '../../../components';
 import Readme from '../../../components/Input/README.md';
 
+setAddon(JSXAddon);
+
 const stories = storiesOf('Elements', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Input',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -32,5 +37,6 @@ stories.add(
         iconAlign={select('Icon align', { left: 'left', right: 'right' }, 'left')}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

@@ -1,12 +1,17 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, number, boolean, select, color } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Hero, Social, Container, Image, Header, Button } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
+
+setAddon(JSXAddon);
 
 const stories = storiesOf('Components/Hero', module);
 
@@ -19,7 +24,7 @@ const buttons = [
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -39,10 +44,11 @@ stories.add(
         particlesParams={{ move: { speed: 2 } }}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );
 
-stories.add(
+stories.addWithJSX(
   'Children',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -78,5 +84,6 @@ stories.add(
         </Container>
       </Hero>
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

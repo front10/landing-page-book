@@ -1,11 +1,16 @@
 import React from 'react';
-import { storiesOf } from '@storybook/react';
+import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, select, boolean, text, number } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
+import JSXAddon from 'storybook-addon-jsx';
+
+import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Wizard, Container, Video, Gif, FormGroup, Input, Social } from '../../../components';
 import Readme from '../../../components/Wizard/README.md';
+
+setAddon(JSXAddon);
 
 const steps = [
   {
@@ -50,7 +55,7 @@ const stories = storiesOf('Components', module);
 
 stories.addDecorator(withKnobs);
 
-stories.add(
+stories.addWithJSX(
   'Wizard',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -74,5 +79,6 @@ stories.add(
         steps={steps}
       />
     </ThemeSelector>
-  ))
+  )),
+  jsxConfig
 );

@@ -24,9 +24,10 @@ import { Section } from '@front10/landing-page-book/src/components';
 
 ## Properties:
 
-| </br>Name    | </br>Type | </br>Summary                                         |
-| ------------ | --------- | ---------------------------------------------------- |
-| gray         | `Boolean` | If section background color is gray. Default `false` |
-| title        | `String`  | Section title. Default `""`                          |
-| subTitle     | `String`  | Section subtitle. Default `""`                       |
-| sectionClass | `String`  | Section css class. Default `""`                      |
+| </br>Name        | </br>Type | </br>Summary                                         |
+| ---------------- | --------- | ---------------------------------------------------- |
+| gray             | `Boolean` | If section background color is gray. Default `false` |
+| title            | `String`  | Section title. Default `""`                          |
+| subTitle         | `String`  | Section subtitle. Default `""`                       |
+| sectionClass     | `String`  | Section css class. Default `""`                      |
+| contentClassName | `String`  | Section content css class. Default `""`              |

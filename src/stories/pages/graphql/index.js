@@ -262,21 +262,35 @@ stories.add('GraphQl', () => (
             </Column>
           </Row>
         </Section>
-        <Section id="dark-section" title="Move faster with powerful developer tools">
-          <p>
-            Know exactly what data you can request from your API without leaving your editor,
-            highlight potential issues before sending a query, and take advantage of improved code
-            intelligence. GraphQL makes it easy to build powerful tools like GraphiQL by leveraging
-            your API’s type system.
-          </p>
-          <Video
-            source="https://graphql.org/img/graphiql.mp4"
-            playing
-            loop
-            controls
-            width="640px"
-            height="360px"
-          />
+        <Section
+          className="Section__background-dark"
+          title="Move faster with powerful developer tools"
+          contentClassName="Section__content-bottom"
+        >
+          <Row>
+            <Column />
+            <Column className="col-md-6">
+              <p className="Graphql__p">
+                Know exactly what data you can request from your API without leaving your editor,
+                highlight potential issues before sending a query, and take advantage of improved
+                code intelligence. GraphQL makes it easy to build powerful tools like GraphiQL by
+                leveraging your API’s type system.
+              </p>
+            </Column>
+            <Column />
+          </Row>
+          <Row>
+            <Column>
+              <Video
+                source="https://graphql.org/img/graphiql.mp4"
+                playing
+                loop
+                width="1040px"
+                height="416px"
+                className="Video__botton"
+              />
+            </Column>
+          </Row>
         </Section>
         <Section gray>
           <Row className="row mt-5 mb-5 Code_section_vertical">
@@ -386,19 +400,32 @@ stories.add('GraphQl', () => (
         </Section>
         <Section gray title="Who’s using GraphQL?">
           <Container>
-            <p>
-              Facebook mobile apps have been powered by GraphQL since 2012. A GraphQL spec was open
-              sourced in 2015 and is now available in many environments and used by teams of all
-              sizes.
-            </p>
-            <BuiltWith companies={frameworks} />
+            <Row>
+              <Column>
+                <p>
+                  Facebook mobile apps have been powered by GraphQL since 2012. A GraphQL spec was
+                  open sourced in 2015 and is now available in many environments and used by teams
+                  of all sizes.
+                </p>
+              </Column>
+            </Row>
+            <Row>
+              <Column className="text-center">
+                <BuiltWith companies={frameworks} />
+              </Column>
+            </Row>
           </Container>
         </Section>
         <Footer>
           <Container>
             <Row>
               <Column>
-                <img src="https://graphql.org/img/logo-gray.svg" width={60} alt="GraphQL logo" />
+                <img
+                  src="https://graphql.org/img/logo-gray.svg"
+                  width={40}
+                  alt="GraphQL logo"
+                  className="float-right"
+                />
               </Column>
               <Column>
                 <ul className="list-group">
@@ -412,26 +439,32 @@ stories.add('GraphQl', () => (
               </Column>
               <Column>
                 <ul className="list-group">
-                  <li className="list-group-item disabled">Learn</li>
-                  <li className="list-group-item">Introduction</li>
-                  <li className="list-group-item">Query Language</li>
-                  <li className="list-group-item">Type System</li>
-                  <li className="list-group-item">Execution</li>
-                  <li className="list-group-item">Best Practices</li>
+                  <li className="list-group-item disabled">Code</li>
+                  <li className="list-group-item">Servers</li>
+                  <li className="list-group-item">Clients</li>
+                  <li className="list-group-item">Tools</li>
                 </ul>
               </Column>
               <Column>
                 <ul className="list-group">
-                  <li className="list-group-item disabled">Learn</li>
-                  <li className="list-group-item">Introduction</li>
-                  <li className="list-group-item">Query Language</li>
-                  <li className="list-group-item">Type System</li>
-                  <li className="list-group-item">Execution</li>
-                  <li className="list-group-item">Best Practices</li>
+                  <li className="list-group-item disabled">Community</li>
+                  <li className="list-group-item">Upcoming Events</li>
+                  <li className="list-group-item">Stack Overflow</li>
+                  <li className="list-group-item">Facebook Group</li>
+                  <li className="list-group-item">Twitter</li>
+                </ul>
+              </Column>
+              <Column>
+                <ul className="list-group">
+                  <li className="list-group-item disabled">More</li>
+                  <li className="list-group-item">GraphQL Team Blog</li>
+                  <li className="list-group-item">Read the Spec</li>
+                  <li className="list-group-item">GitHub</li>
+                  <li className="list-group-item">Edit this page</li>
                 </ul>
               </Column>
             </Row>
-            <Row>
+            <Row className="pt-5">
               <Column>
                 <Copyright text="Front10, Inc" showAllRightText={false} />
               </Column>

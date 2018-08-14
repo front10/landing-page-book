@@ -117,4 +117,30 @@
     border: none;
     padding: 0.5rem 1.25rem;
   }
+
+  .Section__background-dark {
+    background-color: #3f4850;
+    .Section__Title {
+      color: white;
+      text-align: center;
+    }
+  }
+
+  .Graphql__p {
+    color: white;
+    text-align: center;
+  }
+  .Section__content-bottom {
+    padding-bottom: 0px !important;
+  }
+  .Section--gray {
+    background-color: #e5e7eb;
+  }
+  .Footer {
+    padding-bottom: 0px !important;
+  }
+  .ImageList .ImageList__Container {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
 }

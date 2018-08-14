@@ -13,6 +13,7 @@ class Video extends Component {
       muted,
       width,
       height,
+      className,
       onReady,
       onStart,
       onPlay,
@@ -25,7 +26,7 @@ class Video extends Component {
       onError
     } = this.props;
     return (
-      <div className="Video">
+      <div className={`Video ${className}`}>
         <ReactPlayer
           url={source}
           playing={playing}
@@ -60,6 +61,7 @@ Video.propTypes = {
   source: PropTypes.string,
   width: PropTypes.string,
   height: PropTypes.string,
+  className: PropTypes.string,
   onReady: PropTypes.func,
   onStart: PropTypes.func,
   onPlay: PropTypes.func,
@@ -80,6 +82,7 @@ Video.defaultProps = {
   source: '',
   width: '640px',
   height: '360px',
+  className: '',
   onReady: () => {},
   onStart: () => {},
   onPlay: () => {},

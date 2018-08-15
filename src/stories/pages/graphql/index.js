@@ -15,12 +15,10 @@ import {
   Container,
   BuiltWith,
   Input,
-  Icon,
   Button,
   Image,
   Row,
   Column,
-  Code,
   Video,
   Footer,
   Copyright

@@ -42,7 +42,7 @@ stories.addDecorator(withKnobs);
 stories.addWithJSX(
   'React',
   () => (
-    <ThemeSelector>
+    <ThemeSelector theme="react">
       <div className="ReactPage">
         <Navbar expand="md">
           <Container>

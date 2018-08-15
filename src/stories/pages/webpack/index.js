@@ -56,7 +56,7 @@ stories.addDecorator(withKnobs);
 stories.addWithJSX(
   'Webpack',
   () => (
-    <ThemeSelector>
+    <ThemeSelector theme="webpack">
       <div className="WebpackPage">
         <Navbar expand="md">
           <Container>

@@ -15,12 +15,10 @@ import {
   Container,
   BuiltWith,
   Input,
-  Icon,
   Button,
   Image,
   Row,
   Column,
-  Code,
   Video,
   Footer,
   Copyright
@@ -54,6 +52,11 @@ const graphqlJson = {
     mass: 77
   }
 };
+const HerographqlResponseJson = {
+  project: {
+    tagline: 'A query language for APIs'
+  }
+};
 
 const stories = storiesOf('Pages', module);
 
@@ -73,73 +76,67 @@ stories.add('GraphQl', () => (
               <NavbarLink href="#">Spec</NavbarLink>
             </NavbarNav>
             <NavbarNav alignItems="right">
-              <Icon className="Nav_search_icon" icon="fa fa-search" />
-              <Input type="text" className="Nav_search_input right" placeholder="Search docs..." />
+              <Input
+                icon="fa fa-search text-white"
+                className="Nav_search_input right"
+                placeholder="Search docs..."
+              />
             </NavbarNav>
           </NavbarCollapse>
         </Container>
       </Navbar>
       <Hero
         particles={false}
-        image="https://graphql.org/img/graph-wash.png"
+        image="images/pages/graphql/hero.png"
         backgroundColor="#1D232A"
         subHeaderPosition="top"
-        minHeight="50vh"
+        minHeight="60vh"
       >
         <Container>
-          <Row className="row mt-5">
+          <Row className="mt-5">
             <Column>
               <Image
                 alt="GraphQL"
                 src="https://graphql.org/img/logo.svg"
-                width="100px"
-                height="auto"
+                width="90px"
+                height="90px"
               />
               <h2 className="Hero__GraphQL_title">GraphQL</h2>
             </Column>
             <Column>
               <h6 className="Hero__code_header">Describe your data</h6>
-              <Code
-                code={
-                  'type Project {\n\tname: String,\n\ttagline: String,\n\tcontributors: [User]\n};'
-                }
-                readOnly
-                lineNumbers={false}
-                showheader={false}
-                showfooter={false}
-                languageCode="css"
+              <GraphqlCodeBlock
+                className="GraphqlCodeBlock"
+                queryBody="type Project {
+                  name: String,
+                  tagline: String
+                  }
+                  "
               />
             </Column>
             <Column>
               <h6 className="Hero__code_header">Ask for what you want</h6>
-              <Code
-                code={'{\n\tproject(name: "GraphQL"){\n\t\ttagline\n\t}\n};'}
-                readOnly
-                lineNumbers={false}
-                showheader={false}
-                showfooter={false}
-                languageCode="css"
+              <GraphqlCodeBlock
+                className="GraphqlCodeBlock"
+                queryBody="{
+                  project(name: $Name) { 
+                    tagline 
+                  }
+                }"
               />
             </Column>
             <Column>
               <h6 className="Hero__code_header">Get predictable results</h6>
-              <Code
-                code={'"project": {\n\t"tagline": "A query language for APIs"\n};'}
-                readOnly
-                lineNumbers={false}
-                showheader={false}
-                showfooter={false}
-                languageCode="css"
-              />
+              <JSONPretty id="json-pretty" className="jsonPretty" json={HerographqlResponseJson} />
             </Column>
           </Row>
-          <Row>
+          <Row className="pt-5">
             <Column>
-              <Button type="button" className="btn btn-outline-light Hero__btn mr-2 btn-lg">
+              <Button type="button" className="btn btn-outline-light Hero__btn mr-2 btn-hero">
                 {'Get Started'}
               </Button>
 
-              <Button type="button" className="btn btn-outline-light Hero__btn ml-2 btn-lg">
+              <Button type="button" className="btn btn-outline-light Hero__btn ml-2 btn-hero">
                 {'Learn More'}
               </Button>
             </Column>

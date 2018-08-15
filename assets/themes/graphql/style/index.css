@@ -11709,48 +11709,40 @@ div.CodeMirror-dragcursors {
 /* Help users use markselection to safely style text background */
 span.CodeMirror-selectedtext { background: none; }
 
-/**
-    Name:       IDEA default theme
-    From IntelliJ IDEA by JetBrains
- */
+/*@import '~codemirror/theme/idea.css';*/
+/* Port of TextMate's Blackboard theme */
 
-.cm-s-idea span.cm-meta { color: #808000; }
-.cm-s-idea span.cm-number { color: #0000FF; }
-.cm-s-idea span.cm-keyword { line-height: 1em; font-weight: bold; color: #000080; }
-.cm-s-idea span.cm-atom { font-weight: bold; color: #000080; }
-.cm-s-idea span.cm-def { color: #000000; }
-.cm-s-idea span.cm-variable { color: black; }
-.cm-s-idea span.cm-variable-2 { color: black; }
-.cm-s-idea span.cm-variable-3, .cm-s-idea span.cm-type { color: black; }
-.cm-s-idea span.cm-property { color: black; }
-.cm-s-idea span.cm-operator { color: black; }
-.cm-s-idea span.cm-comment { color: #808080; }
-.cm-s-idea span.cm-string { color: #008000; }
-.cm-s-idea span.cm-string-2 { color: #008000; }
-.cm-s-idea span.cm-qualifier { color: #555; }
-.cm-s-idea span.cm-error { color: #FF0000; }
-.cm-s-idea span.cm-attribute { color: #0000FF; }
-.cm-s-idea span.cm-tag { color: #000080; }
-.cm-s-idea span.cm-link { color: #0000FF; }
-.cm-s-idea .CodeMirror-activeline-background { background: #FFFAE3; }
+.cm-s-blackboard.CodeMirror { background: #0C1021; color: #F8F8F8; }
+.cm-s-blackboard div.CodeMirror-selected { background: #253B76; }
+.cm-s-blackboard .CodeMirror-line::selection, .cm-s-blackboard .CodeMirror-line > span::selection, .cm-s-blackboard .CodeMirror-line > span > span::selection { background: rgba(37, 59, 118, .99); }
+.cm-s-blackboard .CodeMirror-line::-moz-selection, .cm-s-blackboard .CodeMirror-line > span::-moz-selection, .cm-s-blackboard .CodeMirror-line > span > span::-moz-selection { background: rgba(37, 59, 118, .99); }
+.cm-s-blackboard .CodeMirror-gutters { background: #0C1021; border-right: 0; }
+.cm-s-blackboard .CodeMirror-guttermarker { color: #FBDE2D; }
+.cm-s-blackboard .CodeMirror-guttermarker-subtle { color: #888; }
+.cm-s-blackboard .CodeMirror-linenumber { color: #888; }
+.cm-s-blackboard .CodeMirror-cursor { border-left: 1px solid #A7A7A7; }
 
-.cm-s-idea span.cm-builtin { color: #30a; }
-.cm-s-idea span.cm-bracket { color: #cc7; }
-.cm-s-idea  { font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;}
+.cm-s-blackboard .cm-keyword { color: #FBDE2D; }
+.cm-s-blackboard .cm-atom { color: #D8FA3C; }
+.cm-s-blackboard .cm-number { color: #D8FA3C; }
+.cm-s-blackboard .cm-def { color: #8DA6CE; }
+.cm-s-blackboard .cm-variable { color: #FF6400; }
+.cm-s-blackboard .cm-operator { color: #FBDE2D; }
+.cm-s-blackboard .cm-comment { color: #AEAEAE; }
+.cm-s-blackboard .cm-string { color: #61CE3C; }
+.cm-s-blackboard .cm-string-2 { color: #61CE3C; }
+.cm-s-blackboard .cm-meta { color: #D8FA3C; }
+.cm-s-blackboard .cm-builtin { color: #8DA6CE; }
+.cm-s-blackboard .cm-tag { color: #8DA6CE; }
+.cm-s-blackboard .cm-attribute { color: #8DA6CE; }
+.cm-s-blackboard .cm-header { color: #FF6400; }
+.cm-s-blackboard .cm-hr { color: #AEAEAE; }
+.cm-s-blackboard .cm-link { color: #8DA6CE; }
+.cm-s-blackboard .cm-error { background: #9D1E15; color: #F8F8F8; }
 
+.cm-s-blackboard .CodeMirror-activeline-background { background: #3C3636; }
+.cm-s-blackboard .CodeMirror-matchingbracket { outline:1px solid grey;color:white !important; }
 
-.cm-s-idea .CodeMirror-matchingbracket { outline:1px solid grey; color:black !important; }
-
-.CodeMirror-hints {
-  font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
-  color: #616569;
-  background-color: #ebf3fd !important;
-}
-
-.CodeMirror-hint-active {
-  background-color: #a2b8c9 !important;
-  color: #5c6065 !important;
-}
 .json-pretty{line-height:1.3;color:#66d9ef;background:#272822;}.json-pretty .json-key{color:#f92672}.json-pretty .json-value{color:#a6e22e}.json-pretty .json-string{color:#fd971f}.json-pretty .json-boolean{color:#ac81fe}
 
 /* React flags select */
@@ -12003,137 +11995,130 @@ ol.progtrckr li.progtrckr-done:hover:before {
  * Backers
  */
 /*Custom*/
-.GraphQL__page .Navbar {
-  background-color: #1d232a; }
-  .GraphQL__page .Navbar .Nav_search_icon {
-    color: white;
+.GraphQL__page {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #202020; }
+  .GraphQL__page p {
     font-size: 18px;
-    padding: 8px; }
-  .GraphQL__page .Navbar .Nav_search_input {
-    width: 150px;
-    border-radius: 7px;
-    background-color: #33383e;
-    border-color: #33383e; }
-
-.GraphQL__page .Navbar .NavbarLink:hover {
-  color: #fff !important; }
-
-.GraphQL__page .Hero .ReactCodeMirror {
-  text-align: left;
-  height: auto !important; }
-
-.GraphQL__page .Hero .CodeMirror {
-  background: transparent;
-  font-size: 12px; }
-
-.GraphQL__page .Hero__btn {
-  border-radius: 6px; }
-
-.GraphQL__page .Hero__code_header {
-  color: whitesmoke;
-  text-align: left; }
-
-.GraphQL__page .Hero__GraphQL_title {
-  color: #950d69; }
-
-.GraphQL__page .Code_section .ReactCodeMirror {
-  text-align: left; }
-
-.GraphQL__page .Code_section .CodeMirror {
-  font-size: 16px;
-  height: auto !important;
-  border: 1px solid #dbdbdb; }
-
-.GraphQL__page .Code_section .Code_container {
-  -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
-  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
-  background-color: #e3e3e4;
-  padding-top: 30px; }
-
-.GraphQL__page .Code_section .GraphqlCodeBlock {
-  background-color: whitesmoke;
-  padding-left: 10px; }
-
-.GraphQL__page .Code_section .json-pretty {
-  line-height: 1.3;
-  color: #2b2b2b;
-  background: #fff;
-  text-align: left;
-  border-top: 2px solid #e3e3e4;
-  padding-top: 5px;
-  background-color: whitesmoke;
-  padding-left: 10px; }
-
-.GraphQL__page .Code_section_vertical .ReactCodeMirror {
-  text-align: left; }
-
-.GraphQL__page .Code_section_vertical .CodeMirror {
-  font-size: 16px;
-  height: auto !important;
-  border: 1px solid #dbdbdb; }
-
-.GraphQL__page .Code_section_vertical .Code_container {
-  -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
-  -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
-  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
-  background-color: #e3e3e4;
-  padding-top: 30px;
-  display: inline-flex;
-  width: 100%;
-  height: 100%; }
-
-.GraphQL__page .Code_section_vertical .GraphqlCodeBlock {
-  background-color: whitesmoke;
-  width: 100%;
-  padding-left: 10px; }
-
-.GraphQL__page .Code_section_vertical .border_separator {
-  border-left: 5px solid #e3e3e4; }
-
-.GraphQL__page #dark-section {
-  background-color: #1d232a; }
-
-.GraphQL__page .list-group {
-  border: none;
-  background-color: transparent;
-  color: white;
-  text-align: left;
-  line-height: 1rem; }
-
-.GraphQL__page .list-group-item.disabled,
-.GraphQL__page .list-group-item:disabled {
-  color: #6c757d;
-  background-color: transparent;
-  border: none; }
-
-.GraphQL__page .list-group-item {
-  background-color: transparent;
-  border: none;
-  padding: 0.5rem 1.25rem; }
-
-.GraphQL__page .Section__background-dark {
-  background-color: #3f4850; }
-  .GraphQL__page .Section__background-dark .Section__Title {
+    text-align: center; }
+  .GraphQL__page .Navbar {
+    background-color: #1d232a; }
+    .GraphQL__page .Navbar .Nav_search_input {
+      width: 150px;
+      border-radius: 7px;
+      background-color: #33383e;
+      border-color: #33383e; }
+    .GraphQL__page .Navbar .Nav_search_input:focus {
+      border-color: #fff; }
+  .GraphQL__page .Navbar .NavbarLink:hover {
+    color: #fff !important; }
+  .GraphQL__page .Hero .ReactCodeMirror {
+    text-align: left;
+    height: auto !important; }
+  .GraphQL__page .Hero .CodeMirror {
+    background: transparent;
+    font-size: 12px; }
+  .GraphQL__page .Hero .json-pretty {
+    line-height: 1.3;
+    color: #66d9ef;
+    text-align: left;
+    background: transparent; }
+  .GraphQL__page .Hero__btn {
+    border-radius: 6px; }
+  .GraphQL__page .Hero__code_header {
+    color: whitesmoke;
+    text-align: left; }
+  .GraphQL__page .Hero__GraphQL_title {
+    color: #950d69; }
+  .GraphQL__page .Code_section .ReactCodeMirror {
+    text-align: left; }
+  .GraphQL__page .Code_section .CodeMirror {
+    font-size: 16px;
+    height: auto !important;
+    border: 1px solid #dbdbdb; }
+  .GraphQL__page .Code_section .Code_container {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
+    background-color: #e3e3e4;
+    padding-top: 30px; }
+  .GraphQL__page .Code_section .GraphqlCodeBlock {
+    background-color: whitesmoke;
+    padding-left: 10px; }
+  .GraphQL__page .Code_section .json-pretty {
+    line-height: 1.3;
+    color: #2b2b2b;
+    background: #fff;
+    text-align: left;
+    border-top: 2px solid #e3e3e4;
+    padding-top: 5px;
+    background-color: whitesmoke;
+    padding-left: 10px; }
+  .GraphQL__page .Code_section_vertical .ReactCodeMirror {
+    text-align: left; }
+  .GraphQL__page .Code_section_vertical .CodeMirror {
+    font-size: 16px;
+    height: auto !important;
+    border: 1px solid #dbdbdb; }
+  .GraphQL__page .Code_section_vertical .Code_container {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.45);
+    background-color: #e3e3e4;
+    padding-top: 30px;
+    display: inline-flex;
+    width: 100%;
+    height: 100%; }
+  .GraphQL__page .Code_section_vertical .GraphqlCodeBlock {
+    background-color: whitesmoke;
+    width: 100%;
+    padding-left: 10px; }
+  .GraphQL__page .Code_section_vertical .border_separator {
+    border-left: 5px solid #e3e3e4; }
+  .GraphQL__page #dark-section {
+    background-color: #1d232a; }
+  .GraphQL__page .list-group {
+    border: none;
+    background-color: transparent;
+    color: white;
+    text-align: left;
+    line-height: 1rem; }
+  .GraphQL__page .list-group-item.disabled,
+  .GraphQL__page .list-group-item:disabled {
+    color: #6c757d;
+    background-color: transparent;
+    border: none; }
+  .GraphQL__page .list-group-item {
+    background-color: transparent;
+    border: none;
+    padding: 0.5rem 1.25rem; }
+  .GraphQL__page .Section__background-dark {
+    background-color: #3f4850; }
+    .GraphQL__page .Section__background-dark .Section__Title {
+      color: white;
+      text-align: center; }
+  .GraphQL__page .Graphql__p {
     color: white;
     text-align: center; }
-
-.GraphQL__page .Graphql__p {
-  color: white;
-  text-align: center; }
-
-.GraphQL__page .Section__content-bottom {
-  padding-bottom: 0px !important; }
-
-.GraphQL__page .Section--gray {
-  background-color: #e5e7eb; }
-
-.GraphQL__page .Footer {
-  padding-bottom: 0px !important; }
-
-.GraphQL__page .ImageList .ImageList__Container {
-  margin-left: 20px;
-  margin-right: 20px; }
+  .GraphQL__page .Section__content-bottom {
+    padding-bottom: 0px !important; }
+  .GraphQL__page .Section--gray {
+    background-color: #e5e7eb; }
+  .GraphQL__page .Footer {
+    padding-bottom: 0px !important; }
+  .GraphQL__page .ImageList .ImageList__Container {
+    margin-left: 20px;
+    margin-right: 20px; }
+  .GraphQL__page .btn-hero {
+    padding: 0.5rem 1.5rem !important;
+    line-height: 1.5;
+    border-radius: 0.3rem; }
+  .GraphQL__page .Section__Title {
+    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    line-height: 56px;
+    text-rendering: optimizelegibility; }
 
 /*Components*/
 .Backers .ImageList .ImageList__Container {

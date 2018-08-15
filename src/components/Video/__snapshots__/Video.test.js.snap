@@ -4,6 +4,7 @@ exports[`Video Video should render 1`] = `
 ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Video
+    className=""
     controls={true}
     height="360px"
     loop={false}
@@ -348,7 +349,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -443,14 +444,14 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -972,7 +973,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -1067,14 +1068,14 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -1763,7 +1764,7 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "memoizedState": null,
               "mode": 0,
@@ -1858,14 +1859,14 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div
-                class="Video"
+                class="Video "
               >
                 <div
                   style="width: 640px; height: 360px;"
@@ -2060,6 +2061,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "className": "",
               "controls": true,
               "height": "360px",
               "loop": false,
@@ -2084,6 +2086,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "className": "",
               "controls": true,
               "height": "360px",
               "loop": false,
@@ -2110,6 +2113,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "className": "",
               "controls": true,
               "height": "360px",
               "loop": false,
@@ -2165,7 +2169,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -2208,6 +2212,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -2246,6 +2251,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -2576,7 +2582,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -2671,14 +2677,14 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -3200,7 +3206,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -3295,14 +3301,14 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -3513,6 +3519,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "className": "",
                     "controls": true,
                     "height": "360px",
                     "loop": false,
@@ -3545,7 +3552,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -3578,6 +3585,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -3621,6 +3629,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -3646,6 +3655,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -5608,7 +5618,7 @@ ReactWrapper {
               width="640px"
               wrapper="div"
             />,
-            "className": "Video",
+            "className": "Video ",
           },
           "memoizedState": null,
           "mode": 0,
@@ -5703,14 +5713,14 @@ ReactWrapper {
               width="640px"
               wrapper="div"
             />,
-            "className": "Video",
+            "className": "Video ",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div
-            class="Video"
+            class="Video "
           >
             <div
               style="width: 640px; height: 360px;"
@@ -6024,7 +6034,7 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "memoizedState": null,
               "mode": 0,
@@ -6119,14 +6129,14 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div
-                class="Video"
+                class="Video "
               >
                 <div
                   style="width: 640px; height: 360px;"
@@ -6648,7 +6658,7 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "memoizedState": null,
               "mode": 0,
@@ -6743,14 +6753,14 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div
-                class="Video"
+                class="Video "
               >
                 <div
                   style="width: 640px; height: 360px;"
@@ -7439,7 +7449,7 @@ ReactWrapper {
                 width="640px"
                 wrapper="div"
               />,
-              "className": "Video",
+              "className": "Video ",
             },
             "memoizedState": null,
             "mode": 0,
@@ -7534,14 +7544,14 @@ ReactWrapper {
                 width="640px"
                 wrapper="div"
               />,
-              "className": "Video",
+              "className": "Video ",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="Video"
+              class="Video "
             >
               <div
                 style="width: 640px; height: 360px;"
@@ -7733,6 +7743,7 @@ ReactWrapper {
           "updateQueue": null,
         },
         "memoizedProps": Object {
+          "className": "",
           "controls": true,
           "height": "360px",
           "loop": false,
@@ -7756,6 +7767,7 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "className": "",
           "controls": true,
           "height": "360px",
           "loop": false,
@@ -8088,7 +8100,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -8183,14 +8195,14 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -8712,7 +8724,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -8807,14 +8819,14 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -9503,7 +9515,7 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "memoizedState": null,
               "mode": 0,
@@ -9598,14 +9610,14 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div
-                class="Video"
+                class="Video "
               >
                 <div
                   style="width: 640px; height: 360px;"
@@ -9800,6 +9812,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "className": "",
               "controls": true,
               "height": "360px",
               "loop": false,
@@ -9824,6 +9837,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "className": "",
               "controls": true,
               "height": "360px",
               "loop": false,
@@ -9850,6 +9864,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "className": "",
               "controls": true,
               "height": "360px",
               "loop": false,
@@ -9905,7 +9920,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -9948,6 +9963,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -9986,6 +10002,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -10316,7 +10333,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -10411,14 +10428,14 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -10940,7 +10957,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -11035,14 +11052,14 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -11253,6 +11270,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "className": "",
                     "controls": true,
                     "height": "360px",
                     "loop": false,
@@ -11285,7 +11303,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -11318,6 +11336,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -11361,6 +11380,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -11386,6 +11406,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -11429,6 +11450,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
+        "className": "",
         "controls": true,
         "height": "360px",
         "loop": false,
@@ -11460,6 +11482,7 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "className": "",
       "controls": true,
       "height": "360px",
       "loop": false,
@@ -11482,7 +11505,7 @@ ReactWrapper {
     "ref": null,
     "rendered": Object {
       "instance": <div
-        class="Video"
+        class="Video "
       >
         <div
           style="width: 640px; height: 360px;"
@@ -11580,7 +11603,7 @@ ReactWrapper {
           width="640px"
           wrapper="div"
         />,
-        "className": "Video",
+        "className": "Video ",
       },
       "ref": null,
       "rendered": Array [
@@ -11658,6 +11681,7 @@ ReactWrapper {
                     "Component": [Function],
                     "context": null,
                     "props": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -11682,6 +11706,7 @@ ReactWrapper {
                     "context": null,
                     "mount": true,
                     "props": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -11708,6 +11733,7 @@ ReactWrapper {
                     "Component": [Function],
                     "context": null,
                     "props": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -11763,7 +11789,7 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                            class="Video"
+                            class="Video "
                           >
                             <div
                               style="width: 640px; height: 360px;"
@@ -11806,6 +11832,7 @@ ReactWrapper {
                               context={null}
                               props={
                                 Object {
+                                  "className": "",
                                   "controls": true,
                                   "height": "360px",
                                   "loop": false,
@@ -11844,6 +11871,7 @@ ReactWrapper {
                               context={null}
                               props={
                                 Object {
+                                  "className": "",
                                   "controls": true,
                                   "height": "360px",
                                   "loop": false,
@@ -11931,6 +11959,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -11963,7 +11992,7 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                          class="Video"
+                          class="Video "
                         >
                           <div
                             style="width: 640px; height: 360px;"
@@ -11996,6 +12025,7 @@ ReactWrapper {
                           context={null}
                           props={
                             Object {
+                              "className": "",
                               "controls": true,
                               "height": "360px",
                               "loop": false,
@@ -12039,6 +12069,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -12064,6 +12095,7 @@ ReactWrapper {
                       "context": null,
                       "mount": true,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -12252,7 +12284,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -12347,14 +12379,14 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -12419,6 +12451,7 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": [Circular],
                 "memoizedProps": Object {
+                  "className": "",
                   "controls": true,
                   "height": "360px",
                   "loop": false,
@@ -12442,6 +12475,7 @@ ReactWrapper {
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
+                  "className": "",
                   "controls": true,
                   "height": "360px",
                   "loop": false,
@@ -12528,6 +12562,7 @@ ReactWrapper {
                     "Component": [Function],
                     "context": null,
                     "props": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -12552,6 +12587,7 @@ ReactWrapper {
                     "context": null,
                     "mount": true,
                     "props": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -12578,6 +12614,7 @@ ReactWrapper {
                     "Component": [Function],
                     "context": null,
                     "props": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -12633,7 +12670,7 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                            class="Video"
+                            class="Video "
                           >
                             <div
                               style="width: 640px; height: 360px;"
@@ -12676,6 +12713,7 @@ ReactWrapper {
                               context={null}
                               props={
                                 Object {
+                                  "className": "",
                                   "controls": true,
                                   "height": "360px",
                                   "loop": false,
@@ -12714,6 +12752,7 @@ ReactWrapper {
                               context={null}
                               props={
                                 Object {
+                                  "className": "",
                                   "controls": true,
                                   "height": "360px",
                                   "loop": false,
@@ -12801,6 +12840,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -12833,7 +12873,7 @@ ReactWrapper {
                     "stateNode": Object {
                       "containerInfo": <div>
                         <div
-                          class="Video"
+                          class="Video "
                         >
                           <div
                             style="width: 640px; height: 360px;"
@@ -12866,6 +12906,7 @@ ReactWrapper {
                           context={null}
                           props={
                             Object {
+                              "className": "",
                               "controls": true,
                               "height": "360px",
                               "loop": false,
@@ -12909,6 +12950,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -12934,6 +12976,7 @@ ReactWrapper {
                       "context": null,
                       "mount": true,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -12973,6 +13016,7 @@ ReactWrapper {
                   "_reactInternalInstance": Object {},
                   "context": Object {},
                   "props": Object {
+                    "className": "",
                     "controls": true,
                     "height": "360px",
                     "loop": false,
@@ -13408,6 +13452,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -13432,6 +13477,7 @@ ReactWrapper {
                       "context": null,
                       "mount": true,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -13458,6 +13504,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -13513,7 +13560,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -13556,6 +13603,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -13594,6 +13642,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -13681,6 +13730,7 @@ ReactWrapper {
                           context={null}
                           props={
                             Object {
+                              "className": "",
                               "controls": true,
                               "height": "360px",
                               "loop": false,
@@ -13713,7 +13763,7 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                            class="Video"
+                            class="Video "
                           >
                             <div
                               style="width: 640px; height: 360px;"
@@ -13746,6 +13796,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -13789,6 +13840,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -13814,6 +13866,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -13905,6 +13958,7 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": [Circular],
                   "memoizedProps": Object {
+                    "className": "",
                     "controls": true,
                     "height": "360px",
                     "loop": false,
@@ -13928,6 +13982,7 @@ ReactWrapper {
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
+                    "className": "",
                     "controls": true,
                     "height": "360px",
                     "loop": false,
@@ -14014,6 +14069,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -14038,6 +14094,7 @@ ReactWrapper {
                       "context": null,
                       "mount": true,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -14064,6 +14121,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -14119,7 +14177,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -14162,6 +14220,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -14200,6 +14259,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -14287,6 +14347,7 @@ ReactWrapper {
                           context={null}
                           props={
                             Object {
+                              "className": "",
                               "controls": true,
                               "height": "360px",
                               "loop": false,
@@ -14319,7 +14380,7 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                            class="Video"
+                            class="Video "
                           >
                             <div
                               style="width: 640px; height: 360px;"
@@ -14352,6 +14413,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -14395,6 +14457,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -14420,6 +14483,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -14459,6 +14523,7 @@ ReactWrapper {
                     "_reactInternalInstance": Object {},
                     "context": Object {},
                     "props": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -14640,7 +14705,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -14735,7 +14800,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "ref": null,
                 "return": FiberNode {
@@ -14807,6 +14872,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -14831,6 +14897,7 @@ ReactWrapper {
                       "context": null,
                       "mount": true,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -14857,6 +14924,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -14912,7 +14980,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -14955,6 +15023,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -14993,6 +15062,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -15080,6 +15150,7 @@ ReactWrapper {
                           context={null}
                           props={
                             Object {
+                              "className": "",
                               "controls": true,
                               "height": "360px",
                               "loop": false,
@@ -15112,7 +15183,7 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                            class="Video"
+                            class="Video "
                           >
                             <div
                               style="width: 640px; height: 360px;"
@@ -15145,6 +15216,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -15188,6 +15260,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -15213,6 +15286,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -15304,6 +15378,7 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": [Circular],
                   "memoizedProps": Object {
+                    "className": "",
                     "controls": true,
                     "height": "360px",
                     "loop": false,
@@ -15327,6 +15402,7 @@ ReactWrapper {
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
+                    "className": "",
                     "controls": true,
                     "height": "360px",
                     "loop": false,
@@ -15413,6 +15489,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -15437,6 +15514,7 @@ ReactWrapper {
                       "context": null,
                       "mount": true,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -15463,6 +15541,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -15518,7 +15597,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -15561,6 +15640,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -15599,6 +15679,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -15686,6 +15767,7 @@ ReactWrapper {
                           context={null}
                           props={
                             Object {
+                              "className": "",
                               "controls": true,
                               "height": "360px",
                               "loop": false,
@@ -15718,7 +15800,7 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                            class="Video"
+                            class="Video "
                           >
                             <div
                               style="width: 640px; height: 360px;"
@@ -15751,6 +15833,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -15794,6 +15877,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -15819,6 +15903,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -15858,6 +15943,7 @@ ReactWrapper {
                     "_reactInternalInstance": Object {},
                     "context": Object {},
                     "props": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -15894,7 +15980,7 @@ ReactWrapper {
                 "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -16522,7 +16608,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -16617,14 +16703,14 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -17146,7 +17232,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -17241,14 +17327,14 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -17937,7 +18023,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -18032,14 +18118,14 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -18234,6 +18320,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -18258,6 +18345,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -18284,6 +18372,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -18339,7 +18428,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="Video"
+                      class="Video "
                     >
                       <div
                         style="width: 640px; height: 360px;"
@@ -18382,6 +18471,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -18420,6 +18510,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -18750,7 +18841,7 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -18845,14 +18936,14 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
                     "sibling": null,
                     "stateNode": <div
-                      class="Video"
+                      class="Video "
                     >
                       <div
                         style="width: 640px; height: 360px;"
@@ -19374,7 +19465,7 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -19469,14 +19560,14 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
                     "sibling": null,
                     "stateNode": <div
-                      class="Video"
+                      class="Video "
                     >
                       <div
                         style="width: 640px; height: 360px;"
@@ -19687,6 +19778,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -19719,7 +19811,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -19752,6 +19844,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -19795,6 +19888,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "className": "",
                   "controls": true,
                   "height": "360px",
                   "loop": false,
@@ -19820,6 +19914,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "className": "",
                   "controls": true,
                   "height": "360px",
                   "loop": false,
@@ -21782,7 +21877,7 @@ ReactWrapper {
                 width="640px"
                 wrapper="div"
               />,
-              "className": "Video",
+              "className": "Video ",
             },
             "memoizedState": null,
             "mode": 0,
@@ -21877,14 +21972,14 @@ ReactWrapper {
                 width="640px"
                 wrapper="div"
               />,
-              "className": "Video",
+              "className": "Video ",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="Video"
+              class="Video "
             >
               <div
                 style="width: 640px; height: 360px;"
@@ -22198,7 +22293,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -22293,14 +22388,14 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -22822,7 +22917,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -22917,14 +23012,14 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -23613,7 +23708,7 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "memoizedState": null,
               "mode": 0,
@@ -23708,14 +23803,14 @@ ReactWrapper {
                   width="640px"
                   wrapper="div"
                 />,
-                "className": "Video",
+                "className": "Video ",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div
-                class="Video"
+                class="Video "
               >
                 <div
                   style="width: 640px; height: 360px;"
@@ -23907,6 +24002,7 @@ ReactWrapper {
             "updateQueue": null,
           },
           "memoizedProps": Object {
+            "className": "",
             "controls": true,
             "height": "360px",
             "loop": false,
@@ -23930,6 +24026,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "className": "",
             "controls": true,
             "height": "360px",
             "loop": false,
@@ -24262,7 +24359,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -24357,14 +24454,14 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -24886,7 +24983,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -24981,14 +25078,14 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -25677,7 +25774,7 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -25772,14 +25869,14 @@ ReactWrapper {
                     width="640px"
                     wrapper="div"
                   />,
-                  "className": "Video",
+                  "className": "Video ",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseTime": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="Video"
+                  class="Video "
                 >
                   <div
                     style="width: 640px; height: 360px;"
@@ -25974,6 +26071,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -25998,6 +26096,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -26024,6 +26123,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "className": "",
                 "controls": true,
                 "height": "360px",
                 "loop": false,
@@ -26079,7 +26179,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="Video"
+                      class="Video "
                     >
                       <div
                         style="width: 640px; height: 360px;"
@@ -26122,6 +26222,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -26160,6 +26261,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -26490,7 +26592,7 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -26585,14 +26687,14 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
                     "sibling": null,
                     "stateNode": <div
-                      class="Video"
+                      class="Video "
                     >
                       <div
                         style="width: 640px; height: 360px;"
@@ -27114,7 +27216,7 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -27209,14 +27311,14 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
                     "sibling": null,
                     "stateNode": <div
-                      class="Video"
+                      class="Video "
                     >
                       <div
                         style="width: 640px; height: 360px;"
@@ -27427,6 +27529,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -27459,7 +27562,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"
@@ -27492,6 +27595,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -27535,6 +27639,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "className": "",
                   "controls": true,
                   "height": "360px",
                   "loop": false,
@@ -27560,6 +27665,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "className": "",
                   "controls": true,
                   "height": "360px",
                   "loop": false,
@@ -27603,6 +27709,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
+          "className": "",
           "controls": true,
           "height": "360px",
           "loop": false,
@@ -27634,6 +27741,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "className": "",
         "controls": true,
         "height": "360px",
         "loop": false,
@@ -27656,7 +27764,7 @@ ReactWrapper {
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="Video"
+          class="Video "
         >
           <div
             style="width: 640px; height: 360px;"
@@ -27754,7 +27862,7 @@ ReactWrapper {
             width="640px"
             wrapper="div"
           />,
-          "className": "Video",
+          "className": "Video ",
         },
         "ref": null,
         "rendered": Array [
@@ -27832,6 +27940,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -27856,6 +27965,7 @@ ReactWrapper {
                       "context": null,
                       "mount": true,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -27882,6 +27992,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -27937,7 +28048,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -27980,6 +28091,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -28018,6 +28130,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -28105,6 +28218,7 @@ ReactWrapper {
                           context={null}
                           props={
                             Object {
+                              "className": "",
                               "controls": true,
                               "height": "360px",
                               "loop": false,
@@ -28137,7 +28251,7 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                            class="Video"
+                            class="Video "
                           >
                             <div
                               style="width: 640px; height: 360px;"
@@ -28170,6 +28284,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -28213,6 +28328,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -28238,6 +28354,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -28426,7 +28543,7 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -28521,14 +28638,14 @@ ReactWrapper {
                         width="640px"
                         wrapper="div"
                       />,
-                      "className": "Video",
+                      "className": "Video ",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseTime": 0,
                     "sibling": null,
                     "stateNode": <div
-                      class="Video"
+                      class="Video "
                     >
                       <div
                         style="width: 640px; height: 360px;"
@@ -28593,6 +28710,7 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": [Circular],
                   "memoizedProps": Object {
+                    "className": "",
                     "controls": true,
                     "height": "360px",
                     "loop": false,
@@ -28616,6 +28734,7 @@ ReactWrapper {
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
+                    "className": "",
                     "controls": true,
                     "height": "360px",
                     "loop": false,
@@ -28702,6 +28821,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -28726,6 +28846,7 @@ ReactWrapper {
                       "context": null,
                       "mount": true,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -28752,6 +28873,7 @@ ReactWrapper {
                       "Component": [Function],
                       "context": null,
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -28807,7 +28929,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -28850,6 +28972,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -28888,6 +29011,7 @@ ReactWrapper {
                                 context={null}
                                 props={
                                   Object {
+                                    "className": "",
                                     "controls": true,
                                     "height": "360px",
                                     "loop": false,
@@ -28975,6 +29099,7 @@ ReactWrapper {
                           context={null}
                           props={
                             Object {
+                              "className": "",
                               "controls": true,
                               "height": "360px",
                               "loop": false,
@@ -29007,7 +29132,7 @@ ReactWrapper {
                       "stateNode": Object {
                         "containerInfo": <div>
                           <div
-                            class="Video"
+                            class="Video "
                           >
                             <div
                               style="width: 640px; height: 360px;"
@@ -29040,6 +29165,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -29083,6 +29209,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -29108,6 +29235,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -29147,6 +29275,7 @@ ReactWrapper {
                     "_reactInternalInstance": Object {},
                     "context": Object {},
                     "props": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -29582,6 +29711,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -29606,6 +29736,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -29632,6 +29763,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -29687,7 +29819,7 @@ ReactWrapper {
                           "stateNode": Object {
                             "containerInfo": <div>
                               <div
-                                class="Video"
+                                class="Video "
                               >
                                 <div
                                   style="width: 640px; height: 360px;"
@@ -29730,6 +29862,7 @@ ReactWrapper {
                                   context={null}
                                   props={
                                     Object {
+                                      "className": "",
                                       "controls": true,
                                       "height": "360px",
                                       "loop": false,
@@ -29768,6 +29901,7 @@ ReactWrapper {
                                   context={null}
                                   props={
                                     Object {
+                                      "className": "",
                                       "controls": true,
                                       "height": "360px",
                                       "loop": false,
@@ -29855,6 +29989,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -29887,7 +30022,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -29920,6 +30055,7 @@ ReactWrapper {
                               context={null}
                               props={
                                 Object {
+                                  "className": "",
                                   "controls": true,
                                   "height": "360px",
                                   "loop": false,
@@ -29963,6 +30099,7 @@ ReactWrapper {
                           "Component": [Function],
                           "context": null,
                           "props": Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -29988,6 +30125,7 @@ ReactWrapper {
                           "context": null,
                           "mount": true,
                           "props": Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -30079,6 +30217,7 @@ ReactWrapper {
                     "key": null,
                     "lastEffect": [Circular],
                     "memoizedProps": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -30102,6 +30241,7 @@ ReactWrapper {
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -30188,6 +30328,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -30212,6 +30353,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -30238,6 +30380,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -30293,7 +30436,7 @@ ReactWrapper {
                           "stateNode": Object {
                             "containerInfo": <div>
                               <div
-                                class="Video"
+                                class="Video "
                               >
                                 <div
                                   style="width: 640px; height: 360px;"
@@ -30336,6 +30479,7 @@ ReactWrapper {
                                   context={null}
                                   props={
                                     Object {
+                                      "className": "",
                                       "controls": true,
                                       "height": "360px",
                                       "loop": false,
@@ -30374,6 +30518,7 @@ ReactWrapper {
                                   context={null}
                                   props={
                                     Object {
+                                      "className": "",
                                       "controls": true,
                                       "height": "360px",
                                       "loop": false,
@@ -30461,6 +30606,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -30493,7 +30639,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -30526,6 +30672,7 @@ ReactWrapper {
                               context={null}
                               props={
                                 Object {
+                                  "className": "",
                                   "controls": true,
                                   "height": "360px",
                                   "loop": false,
@@ -30569,6 +30716,7 @@ ReactWrapper {
                           "Component": [Function],
                           "context": null,
                           "props": Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -30594,6 +30742,7 @@ ReactWrapper {
                           "context": null,
                           "mount": true,
                           "props": Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -30633,6 +30782,7 @@ ReactWrapper {
                       "_reactInternalInstance": Object {},
                       "context": Object {},
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -30814,7 +30964,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -30909,7 +31059,7 @@ ReactWrapper {
                       width="640px"
                       wrapper="div"
                     />,
-                    "className": "Video",
+                    "className": "Video ",
                   },
                   "ref": null,
                   "return": FiberNode {
@@ -30981,6 +31131,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -31005,6 +31156,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -31031,6 +31183,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -31086,7 +31239,7 @@ ReactWrapper {
                           "stateNode": Object {
                             "containerInfo": <div>
                               <div
-                                class="Video"
+                                class="Video "
                               >
                                 <div
                                   style="width: 640px; height: 360px;"
@@ -31129,6 +31282,7 @@ ReactWrapper {
                                   context={null}
                                   props={
                                     Object {
+                                      "className": "",
                                       "controls": true,
                                       "height": "360px",
                                       "loop": false,
@@ -31167,6 +31321,7 @@ ReactWrapper {
                                   context={null}
                                   props={
                                     Object {
+                                      "className": "",
                                       "controls": true,
                                       "height": "360px",
                                       "loop": false,
@@ -31254,6 +31409,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -31286,7 +31442,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -31319,6 +31475,7 @@ ReactWrapper {
                               context={null}
                               props={
                                 Object {
+                                  "className": "",
                                   "controls": true,
                                   "height": "360px",
                                   "loop": false,
@@ -31362,6 +31519,7 @@ ReactWrapper {
                           "Component": [Function],
                           "context": null,
                           "props": Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -31387,6 +31545,7 @@ ReactWrapper {
                           "context": null,
                           "mount": true,
                           "props": Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -31478,6 +31637,7 @@ ReactWrapper {
                     "key": null,
                     "lastEffect": [Circular],
                     "memoizedProps": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -31501,6 +31661,7 @@ ReactWrapper {
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
+                      "className": "",
                       "controls": true,
                       "height": "360px",
                       "loop": false,
@@ -31587,6 +31748,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -31611,6 +31773,7 @@ ReactWrapper {
                         "context": null,
                         "mount": true,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -31637,6 +31800,7 @@ ReactWrapper {
                         "Component": [Function],
                         "context": null,
                         "props": Object {
+                          "className": "",
                           "controls": true,
                           "height": "360px",
                           "loop": false,
@@ -31692,7 +31856,7 @@ ReactWrapper {
                           "stateNode": Object {
                             "containerInfo": <div>
                               <div
-                                class="Video"
+                                class="Video "
                               >
                                 <div
                                   style="width: 640px; height: 360px;"
@@ -31735,6 +31899,7 @@ ReactWrapper {
                                   context={null}
                                   props={
                                     Object {
+                                      "className": "",
                                       "controls": true,
                                       "height": "360px",
                                       "loop": false,
@@ -31773,6 +31938,7 @@ ReactWrapper {
                                   context={null}
                                   props={
                                     Object {
+                                      "className": "",
                                       "controls": true,
                                       "height": "360px",
                                       "loop": false,
@@ -31860,6 +32026,7 @@ ReactWrapper {
                             context={null}
                             props={
                               Object {
+                                "className": "",
                                 "controls": true,
                                 "height": "360px",
                                 "loop": false,
@@ -31892,7 +32059,7 @@ ReactWrapper {
                         "stateNode": Object {
                           "containerInfo": <div>
                             <div
-                              class="Video"
+                              class="Video "
                             >
                               <div
                                 style="width: 640px; height: 360px;"
@@ -31925,6 +32092,7 @@ ReactWrapper {
                               context={null}
                               props={
                                 Object {
+                                  "className": "",
                                   "controls": true,
                                   "height": "360px",
                                   "loop": false,
@@ -31968,6 +32136,7 @@ ReactWrapper {
                           "Component": [Function],
                           "context": null,
                           "props": Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -31993,6 +32162,7 @@ ReactWrapper {
                           "context": null,
                           "mount": true,
                           "props": Object {
+                            "className": "",
                             "controls": true,
                             "height": "360px",
                             "loop": false,
@@ -32032,6 +32202,7 @@ ReactWrapper {
                       "_reactInternalInstance": Object {},
                       "context": Object {},
                       "props": Object {
+                        "className": "",
                         "controls": true,
                         "height": "360px",
                         "loop": false,
@@ -32068,7 +32239,7 @@ ReactWrapper {
                   "selfBaseTime": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="Video"
+                    class="Video "
                   >
                     <div
                       style="width: 640px; height: 360px;"

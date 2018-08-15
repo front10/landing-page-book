@@ -4,6 +4,8 @@ exports[`Section Section should render 1`] = `
 ReactWrapper {
   "length": 1,
   Symbol(enzyme.__unrendered__): <Section
+    className=""
+    contentClassName=""
     gray={false}
     subTitle=""
     title=""
@@ -41,6 +43,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
+              "className": "",
+              "contentClassName": "",
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -51,6 +55,8 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "children": null,
+              "className": "",
+              "contentClassName": "",
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -63,6 +69,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
+              "className": "",
+              "contentClassName": "",
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -103,10 +111,10 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Section "
+                    class="Section  "
                   >
                     <div
-                      class="p-5"
+                      class="p-5 "
                     >
                       
                     </div>
@@ -149,6 +157,8 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
+                          "className": "",
+                          "contentClassName": "",
                           "gray": false,
                           "subTitle": "",
                           "title": "",
@@ -173,6 +183,8 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
+                          "className": "",
+                          "contentClassName": "",
                           "gray": false,
                           "subTitle": "",
                           "title": "",
@@ -199,6 +211,8 @@ ReactWrapper {
                 props={
                   Object {
                     "children": null,
+                    "className": "",
+                    "contentClassName": "",
                     "gray": false,
                     "subTitle": "",
                     "title": "",
@@ -216,10 +230,10 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="Section "
+                  class="Section  "
                 >
                   <div
-                    class="p-5"
+                    class="p-5 "
                   >
                     
                   </div>
@@ -252,6 +266,8 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
+                      "className": "",
+                      "contentClassName": "",
                       "gray": false,
                       "subTitle": "",
                       "title": "",
@@ -281,6 +297,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -292,6 +310,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -370,7 +390,7 @@ ReactWrapper {
                 "",
                 null,
               ],
-              "className": "p-5",
+              "className": "p-5 ",
             },
             "memoizedState": null,
             "mode": 0,
@@ -380,14 +400,14 @@ ReactWrapper {
                 "",
                 null,
               ],
-              "className": "p-5",
+              "className": "p-5 ",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="p-5"
+              class="p-5 "
             >
               
             </div>,
@@ -404,32 +424,32 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": <div
-              className="p-5"
+              className="p-5 "
             >
               
             </div>,
-            "className": "Section ",
+            "className": "Section  ",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "children": <div
-              className="p-5"
+              className="p-5 "
             >
               
             </div>,
-            "className": "Section ",
+            "className": "Section  ",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseTime": 0,
           "sibling": null,
           "stateNode": <div
-            class="Section "
+            class="Section  "
           >
             <div
-              class="p-5"
+              class="p-5 "
             >
               
             </div>
@@ -447,6 +467,8 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "children": null,
+          "className": "",
+          "contentClassName": "",
           "gray": false,
           "subTitle": "",
           "title": "",
@@ -456,6 +478,8 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "children": null,
+          "className": "",
+          "contentClassName": "",
           "gray": false,
           "subTitle": "",
           "title": "",
@@ -481,6 +505,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
+              "className": "",
+              "contentClassName": "",
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -491,6 +517,8 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "children": null,
+              "className": "",
+              "contentClassName": "",
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -503,6 +531,8 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "children": null,
+              "className": "",
+              "contentClassName": "",
               "gray": false,
               "subTitle": "",
               "title": "",
@@ -543,10 +573,10 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Section "
+                    class="Section  "
                   >
                     <div
-                      class="p-5"
+                      class="p-5 "
                     >
                       
                     </div>
@@ -589,6 +619,8 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
+                          "className": "",
+                          "contentClassName": "",
                           "gray": false,
                           "subTitle": "",
                           "title": "",
@@ -613,6 +645,8 @@ ReactWrapper {
                       props={
                         Object {
                           "children": null,
+                          "className": "",
+                          "contentClassName": "",
                           "gray": false,
                           "subTitle": "",
                           "title": "",
@@ -639,6 +673,8 @@ ReactWrapper {
                 props={
                   Object {
                     "children": null,
+                    "className": "",
+                    "contentClassName": "",
                     "gray": false,
                     "subTitle": "",
                     "title": "",
@@ -656,10 +692,10 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="Section "
+                  class="Section  "
                 >
                   <div
-                    class="p-5"
+                    class="p-5 "
                   >
                     
                   </div>
@@ -692,6 +728,8 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
+                      "className": "",
+                      "contentClassName": "",
                       "gray": false,
                       "subTitle": "",
                       "title": "",
@@ -721,6 +759,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -732,6 +772,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -761,6 +803,8 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "children": null,
+        "className": "",
+        "contentClassName": "",
         "gray": false,
         "subTitle": "",
         "title": "",
@@ -778,6 +822,8 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "children": null,
+      "className": "",
+      "contentClassName": "",
       "gray": false,
       "subTitle": "",
       "title": "",
@@ -785,10 +831,10 @@ ReactWrapper {
     "ref": null,
     "rendered": Object {
       "instance": <div
-        class="Section "
+        class="Section  "
       >
         <div
-          class="p-5"
+          class="p-5 "
         >
           
         </div>
@@ -797,17 +843,17 @@ ReactWrapper {
       "nodeType": "host",
       "props": Object {
         "children": <div
-          className="p-5"
+          className="p-5 "
         >
           
         </div>,
-        "className": "Section ",
+        "className": "Section  ",
       },
       "ref": null,
       "rendered": Array [
         Object {
           "instance": <div
-            class="p-5"
+            class="p-5 "
           >
             
           </div>,
@@ -818,7 +864,7 @@ ReactWrapper {
               "",
               null,
             ],
-            "className": "p-5",
+            "className": "p-5 ",
           },
           "ref": null,
           "rendered": Array [
@@ -857,6 +903,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -867,6 +915,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -879,6 +929,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -919,10 +971,10 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="Section "
+                      class="Section  "
                     >
                       <div
-                        class="p-5"
+                        class="p-5 "
                       >
                         
                       </div>
@@ -965,6 +1017,8 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
+                            "className": "",
+                            "contentClassName": "",
                             "gray": false,
                             "subTitle": "",
                             "title": "",
@@ -989,6 +1043,8 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
+                            "className": "",
+                            "contentClassName": "",
                             "gray": false,
                             "subTitle": "",
                             "title": "",
@@ -1015,6 +1071,8 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
+                      "className": "",
+                      "contentClassName": "",
                       "gray": false,
                       "subTitle": "",
                       "title": "",
@@ -1032,10 +1090,10 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Section "
+                    class="Section  "
                   >
                     <div
-                      class="p-5"
+                      class="p-5 "
                     >
                       
                     </div>
@@ -1068,6 +1126,8 @@ ReactWrapper {
                     props={
                       Object {
                         "children": null,
+                        "className": "",
+                        "contentClassName": "",
                         "gray": false,
                         "subTitle": "",
                         "title": "",
@@ -1097,6 +1157,8 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "children": null,
+                  "className": "",
+                  "contentClassName": "",
                   "gray": false,
                   "subTitle": "",
                   "title": "",
@@ -1108,6 +1170,8 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "children": null,
+                  "className": "",
+                  "contentClassName": "",
                   "gray": false,
                   "subTitle": "",
                   "title": "",
@@ -1186,7 +1250,7 @@ ReactWrapper {
                   "",
                   null,
                 ],
-                "className": "p-5",
+                "className": "p-5 ",
               },
               "memoizedState": null,
               "mode": 0,
@@ -1196,14 +1260,14 @@ ReactWrapper {
                   "",
                   null,
                 ],
-                "className": "p-5",
+                "className": "p-5 ",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseTime": 0,
               "sibling": null,
               "stateNode": <div
-                class="p-5"
+                class="p-5 "
               >
                 
               </div>,
@@ -1220,32 +1284,32 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": <div
-                className="p-5"
+                className="p-5 "
               >
                 
               </div>,
-              "className": "Section ",
+              "className": "Section  ",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "children": <div
-                className="p-5"
+                className="p-5 "
               >
                 
               </div>,
-              "className": "Section ",
+              "className": "Section  ",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseTime": 0,
             "sibling": null,
             "stateNode": <div
-              class="Section "
+              class="Section  "
             >
               <div
-                class="p-5"
+                class="p-5 "
               >
                 
               </div>
@@ -1263,6 +1327,8 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": null,
+            "className": "",
+            "contentClassName": "",
             "gray": false,
             "subTitle": "",
             "title": "",
@@ -1272,6 +1338,8 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "children": null,
+            "className": "",
+            "contentClassName": "",
             "gray": false,
             "subTitle": "",
             "title": "",
@@ -1297,6 +1365,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -1307,6 +1377,8 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -1319,6 +1391,8 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "children": null,
+                "className": "",
+                "contentClassName": "",
                 "gray": false,
                 "subTitle": "",
                 "title": "",
@@ -1359,10 +1433,10 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="Section "
+                      class="Section  "
                     >
                       <div
-                        class="p-5"
+                        class="p-5 "
                       >
                         
                       </div>
@@ -1405,6 +1479,8 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
+                            "className": "",
+                            "contentClassName": "",
                             "gray": false,
                             "subTitle": "",
                             "title": "",
@@ -1429,6 +1505,8 @@ ReactWrapper {
                         props={
                           Object {
                             "children": null,
+                            "className": "",
+                            "contentClassName": "",
                             "gray": false,
                             "subTitle": "",
                             "title": "",
@@ -1455,6 +1533,8 @@ ReactWrapper {
                   props={
                     Object {
                       "children": null,
+                      "className": "",
+                      "contentClassName": "",
                       "gray": false,
                       "subTitle": "",
                       "title": "",
@@ -1472,10 +1552,10 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="Section "
+                    class="Section  "
                   >
                     <div
-                      class="p-5"
+                      class="p-5 "
                     >
                       
                     </div>
@@ -1508,6 +1588,8 @@ ReactWrapper {
                     props={
                       Object {
                         "children": null,
+                        "className": "",
+                        "contentClassName": "",
                         "gray": false,
                         "subTitle": "",
                         "title": "",
@@ -1537,6 +1619,8 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "children": null,
+                  "className": "",
+                  "contentClassName": "",
                   "gray": false,
                   "subTitle": "",
                   "title": "",
@@ -1548,6 +1632,8 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "children": null,
+                  "className": "",
+                  "contentClassName": "",
                   "gray": false,
                   "subTitle": "",
                   "title": "",
@@ -1577,6 +1663,8 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "children": null,
+          "className": "",
+          "contentClassName": "",
           "gray": false,
           "subTitle": "",
           "title": "",
@@ -1594,6 +1682,8 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "children": null,
+        "className": "",
+        "contentClassName": "",
         "gray": false,
         "subTitle": "",
         "title": "",
@@ -1601,10 +1691,10 @@ ReactWrapper {
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="Section "
+          class="Section  "
         >
           <div
-            class="p-5"
+            class="p-5 "
           >
             
           </div>
@@ -1613,17 +1703,17 @@ ReactWrapper {
         "nodeType": "host",
         "props": Object {
           "children": <div
-            className="p-5"
+            className="p-5 "
           >
             
           </div>,
-          "className": "Section ",
+          "className": "Section  ",
         },
         "ref": null,
         "rendered": Array [
           Object {
             "instance": <div
-              class="p-5"
+              class="p-5 "
             >
               
             </div>,
@@ -1634,7 +1724,7 @@ ReactWrapper {
                 "",
                 null,
               ],
-              "className": "p-5",
+              "className": "p-5 ",
             },
             "ref": null,
             "rendered": Array [

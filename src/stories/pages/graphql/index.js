@@ -60,7 +60,7 @@ const stories = storiesOf('Pages', module);
 stories.addDecorator(withKnobs);
 
 stories.add('GraphQl', () => (
-  <ThemeSelector>
+  <ThemeSelector theme="graphql">
     <div className="GraphQL__page">
       <Navbar expand="md">
         <Container>

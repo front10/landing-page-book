@@ -82,7 +82,7 @@ class Code extends React.Component {
       this.setState({ slanguageCode: languageCode });
     }
     if (prevProps.code !== code) {
-      this.setState(code, () => {
+      this.setState({ scode: code }, () => {
         this.refs.editor.getCodeMirror().setValue(code);
       });
     }

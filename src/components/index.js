@@ -37,6 +37,7 @@ import Section from './Section';
 import Social from './Social';
 import Sponsors from './Sponsors';
 import Team from './Team';
+import ThemeBuilder from './ThemeBuilder';
 import Video from './Video';
 import Wizard from './Wizard';
 
@@ -80,6 +81,7 @@ export {
   Social,
   Sponsors,
   Team,
+  ThemeBuilder,
   Video,
   Wizard
 };

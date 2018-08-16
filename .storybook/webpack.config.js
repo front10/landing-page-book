@@ -1,3 +1,4 @@
+require('../storybook-utils/node-server/basic');
 const getConfig = require('../storybook-utils/webpack-config/basic');
 
 module.exports = (baseConfig, env) => {

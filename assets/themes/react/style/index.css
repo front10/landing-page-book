@@ -12279,6 +12279,8 @@ ol.progtrckr li.progtrckr-done:hover:before {
     border-radius: 4px;
     font-size: 1rem;
     color: #cccccc; }
+  .Input__Container .Input__Container__Conponent[type='color'] {
+    height: 30px; }
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: 1rem;

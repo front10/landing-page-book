@@ -5,6 +5,9 @@
     font-size: $Input-fontSize;
     color: $Input-color;
   }
+  .Input__Container__Conponent[type='color'] {
+    height: 30px;
+  }
   .Input__Container__Icon {
     position: absolute;
     font-size: $Input-fontSize;

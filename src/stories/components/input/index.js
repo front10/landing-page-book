@@ -23,12 +23,17 @@ stories.addWithJSX(
       <Input
         labelColon={boolean('Label colon', false)}
         className={text('Class name', '')}
-        type={select('Type', {
-          text: 'text',
-          number: 'number',
-          email: 'email',
-          textarea: 'textarea'
-        })}
+        type={select(
+          'Type',
+          {
+            color: 'color',
+            text: 'text',
+            number: 'number',
+            email: 'email',
+            textarea: 'textarea'
+          },
+          'text'
+        )}
         name={text('Name', 'myInput')}
         value={text('Value', 'This is an input')}
         placeholder={text('Placeholder', 'Enter a value')}

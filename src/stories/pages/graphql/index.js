@@ -93,9 +93,10 @@ stories.add('GraphQl', () => (
         minHeight="60vh"
       >
         <Container>
-          <Row className="mt-5">
-            <Column>
+          <Row className="first-hero-row justify-content-center">
+            <Column className="col-12 col-md-3">
               <Image
+                className="graphql-hero-logo"
                 alt="GraphQL"
                 src="https://graphql.org/img/logo.svg"
                 width="90px"
@@ -103,7 +104,7 @@ stories.add('GraphQl', () => (
               />
               <h2 className="Hero__GraphQL_title">GraphQL</h2>
             </Column>
-            <Column>
+            <Column className="col-12 col-md-3">
               <h6 className="Hero__code_header">Describe your data</h6>
               <GraphqlCodeBlock
                 className="GraphqlCodeBlock"
@@ -114,7 +115,7 @@ stories.add('GraphQl', () => (
                   "
               />
             </Column>
-            <Column>
+            <Column className="col-12 col-md-3">
               <h6 className="Hero__code_header">Ask for what you want</h6>
               <GraphqlCodeBlock
                 className="GraphqlCodeBlock"
@@ -125,7 +126,7 @@ stories.add('GraphQl', () => (
                 }"
               />
             </Column>
-            <Column>
+            <Column className="col-sm-12 col-md-3">
               <h6 className="Hero__code_header">Get predictable results</h6>
               <JSONPretty id="json-pretty" className="jsonPretty" json={HerographqlResponseJson} />
             </Column>
@@ -146,8 +147,7 @@ stories.add('GraphQl', () => (
       <div className="mt-5">
         <Section title="A query language for your API">
           <Row>
-            <Column />
-            <Column className="col col-md-8">
+            <Column className="col-12 col-md-8">
               <p>
                 GraphQL is a query language for APIs and a runtime for fulfilling those queries with
                 your existing data. GraphQL provides a complete and understandable description of
@@ -156,11 +156,9 @@ stories.add('GraphQl', () => (
                 developer tools.
               </p>
             </Column>
-            <Column />
           </Row>
           <Row className="row mt-5 mb-5 Code_section vertical">
-            <Column />
-            <Column className="col col-md-4 col-ms-6 col-xs-12">
+            <Column className="col-12 col-md-4">
               <div className="Code_container">
                 <GraphqlCodeBlock
                   className="GraphqlCodeBlock"
@@ -175,9 +173,9 @@ stories.add('GraphQl', () => (
                 <JSONPretty id="json-pretty" json={graphqlJson} />
               </div>
             </Column>
-            <Column className="col col-md-4 col-sm-6 col-xs-12">
+            <Column className="col-12 col-md-4">
               <br />
-              <h3>Ask for what you need, get exactly that</h3>
+              <h3 className="title">Ask for what you need, get exactly that</h3>
               <br />
               <p>
                 Send a GraphQL query to your API and get exactly what you need, nothing more and
@@ -185,14 +183,13 @@ stories.add('GraphQl', () => (
                 are fast and stable because they control the data they get, not the server.
               </p>
             </Column>
-            <Column />
           </Row>
         </Section>
         <Section gray>
           <Row>
-            <Column className="col col-md-4 col-sm-6 col-xs-12">
+            <Column className="col12 col-md-4">
               <br />
-              <h3>Get many resources in a single request</h3>
+              <h3 className="title">Get many resources in a single request</h3>
               <br />
               <p>
                 GraphQL queries access not just the properties of one resource but also smoothly
@@ -201,14 +198,14 @@ stories.add('GraphQl', () => (
                 Apps using GraphQL can be quick even on slow mobile network connections.
               </p>
             </Column>
-            <Column className="col col-md-4 col-sm-6 col-xs-12">
+            <Column className="col-12 col-md-4">
               <h6>Query & Response animation here</h6>
             </Column>
           </Row>
         </Section>
         <Section>
           <Row className="row mt-5 mb-5 Code_section_vertical">
-            <Column className="col col-md-6 col-sm-6 col-xs-12">
+            <Column className="col-12 col-md-6">
               <div className="Code_container">
                 <GraphqlCodeBlock
                   className="GraphqlCodeBlock"
@@ -246,9 +243,9 @@ stories.add('GraphQl', () => (
                 />
               </div>
             </Column>
-            <Column className="col col-md-4 col-sm-6 col-xs-12">
+            <Column className="col-12 col-md-4">
               <br />
-              <h3>Get many resources in a single request</h3>
+              <h3 className="title">Get many resources in a single request</h3>
               <br />
               <p>
                 GraphQL queries access not just the properties of one resource but also smoothly
@@ -266,7 +263,7 @@ stories.add('GraphQl', () => (
         >
           <Row>
             <Column />
-            <Column className="col-md-6">
+            <Column className="col-12 col-md-6">
               <p className="Graphql__p">
                 Know exactly what data you can request from your API without leaving your editor,
                 highlight potential issues before sending a query, and take advantage of improved
@@ -282,8 +279,6 @@ stories.add('GraphQl', () => (
                 source="https://graphql.org/img/graphiql.mp4"
                 playing
                 loop
-                width="1040px"
-                height="416px"
                 className="Video__botton"
               />
             </Column>
@@ -291,7 +286,7 @@ stories.add('GraphQl', () => (
         </Section>
         <Section gray>
           <Row className="row mt-5 mb-5 Code_section_vertical">
-            <Column className="col col-md-6 col-sm-6 col-xs-12">
+            <Column className="col-12 col-md-6">
               <div className="Code_container">
                 <GraphqlCodeBlock
                   className="GraphqlCodeBlock"
@@ -329,9 +324,9 @@ stories.add('GraphQl', () => (
                 />
               </div>
             </Column>
-            <Column className="col col-md-4 col-sm-6 col-xs-12">
+            <Column className="col-12 col-md-4">
               <br />
-              <h3>Evolve your API without versions</h3>
+              <h3 className="title">Evolve your API without versions</h3>
               <br />
               <p>
                 Add new fields and types to your GraphQL API without impacting existing queries.
@@ -344,9 +339,9 @@ stories.add('GraphQl', () => (
         </Section>
         <Section>
           <Row className="row mt-5 mb-5 Code_section_vertical">
-            <Column className="col col-md-4 col-sm-6 col-xs-12">
+            <Column className="col-12 col-md-4">
               <br />
-              <h3>Bring your own data and code</h3>
+              <h3 className="title">Bring your own data and code</h3>
               <br />
               <p>
                 GraphQL creates a uniform API across your entire application without being limited
@@ -355,7 +350,7 @@ stories.add('GraphQl', () => (
                 each field in the type system, and GraphQL calls them with optimal concurrency.
               </p>
             </Column>
-            <Column className="col col-md-6 col-sm-6 col-xs-12">
+            <Column className="col-12 col-md-6">
               <div className="Code_container">
                 <GraphqlCodeBlock
                   className="GraphqlCodeBlock"

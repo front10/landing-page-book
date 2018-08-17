@@ -11843,6 +11843,25 @@ ol.progtrckr li.progtrckr-done:hover:before {
   color: #333;
 }
 
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Rubik'), local('Rubik-Regular'), url(https://fonts.gstatic.com/s/rubik/v7/iJWKBXyIfDnIV7nBrXk.ttf) format('truetype');
+}
+
 .flag-select {
   position: relative;
   display: inline-block;
@@ -11996,7 +12015,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
  */
 /*Custom*/
 .GraphQL__page {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-weight: 300;
   color: #202020; }
   .GraphQL__page p {
@@ -12006,26 +12025,45 @@ ol.progtrckr li.progtrckr-done:hover:before {
     background-color: #1d232a; }
     .GraphQL__page .Navbar .Nav_search_input {
       width: 150px;
-      border-radius: 7px;
+      border-radius: 15px;
       background-color: #33383e;
       border-color: #33383e; }
     .GraphQL__page .Navbar .Nav_search_input:focus {
-      border-color: #fff; }
+      width: 230px; }
   .GraphQL__page .Navbar .NavbarLink:hover {
     color: #fff !important; }
-  .GraphQL__page .Hero .ReactCodeMirror {
-    text-align: left;
-    height: auto !important; }
-  .GraphQL__page .Hero .CodeMirror {
-    background: transparent;
-    font-size: 12px; }
-  .GraphQL__page .Hero .json-pretty {
-    line-height: 1.3;
-    color: #66d9ef;
-    text-align: left;
-    background: transparent; }
+  .GraphQL__page .Hero {
+    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #202020;
+    font-size: 15px;
+    line-height: 21px; }
+    .GraphQL__page .Hero .first-hero-row {
+      margin-top: 5px; }
+    .GraphQL__page .Hero .ReactCodeMirror {
+      text-align: left;
+      height: auto !important; }
+    .GraphQL__page .Hero .CodeMirror {
+      background: transparent;
+      font-size: 12px; }
+    .GraphQL__page .Hero .json-pretty {
+      line-height: 1.3;
+      color: #66d9ef;
+      text-align: left;
+      background: transparent; }
   .GraphQL__page .Hero__btn {
-    border-radius: 6px; }
+    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 17px;
+    border: solid 1px rgba(255, 255, 255, 0.4);
+    border-radius: 6px;
+    line-height: 1;
+    transition: background 0.1s ease-out, color 0.1s ease-out;
+    padding: 0.6em 1.6em;
+    margin: 0 0.8em;
+    display: inline-block;
+    text-decoration: none; }
   .GraphQL__page .Hero__code_header {
     color: whitesmoke;
     text-align: left; }
@@ -12119,6 +12157,39 @@ ol.progtrckr li.progtrckr-done:hover:before {
     font-weight: 300;
     line-height: 56px;
     text-rendering: optimizelegibility; }
+  .GraphQL__page .Video div {
+    position: relative;
+    padding-bottom: 0px;
+    padding-top: 0;
+    height: 100% !important;
+    width: 80% !important; }
+
+@media (max-width: 600px) {
+  .Hero {
+    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #202020;
+    font-size: 8px;
+    line-height: 10px;
+    height: 120vh; }
+  .first-hero-row {
+    margin-top: 0; }
+  .graphql-hero-logo {
+    width: 45px;
+    height: 45px; }
+  .Hero__GraphQL_title {
+    font-size: 12px;
+    display: block; }
+  .Hero__code_header {
+    text-align: center !important; }
+  .GraphqlCodeBlock {
+    padding-left: 20%; }
+  .GraphQL__page .btn-hero {
+    padding: 0.5rem 0.5rem !important;
+    border-radius: 0.3rem;
+    font-size: 14px; }
+  .Section > div {
+    padding: 0 !important; } }
 
 /*Components*/
 .Backers .ImageList .ImageList__Container {
@@ -12419,6 +12490,19 @@ a[disabled] {
       max-width: 100px; }
   .ImageList .ImageList__Container--grayScale img {
     filter: grayscale(1); }
+
+.Video div {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 25px;
+  height: 0 !important;
+  width: 100% !important; }
+  .Video div iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; }
 
 .Wizard .multi-step .footer-buttons {
   padding-top: 20px; }

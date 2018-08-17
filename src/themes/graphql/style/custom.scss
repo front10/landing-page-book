@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Rubik');
 .GraphQL__page {
-  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
   font-weight: 300;
   color: #202020;
 
@@ -12,18 +14,28 @@
     background-color: #1d232a;
     .Nav_search_input {
       width: 150px;
-      border-radius: 7px;
+      border-radius: 15px;
       background-color: #33383e;
       border-color: #33383e;
     }
     .Nav_search_input:focus {
-      border-color: #fff;
+      width: 230px;
     }
   }
   .Navbar .NavbarLink:hover {
     color: #fff !important;
   }
   .Hero {
+    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #202020;
+    font-size: 15px;
+    line-height: 21px;
+
+    .first-hero-row {
+      margin-top: 5px;
+    }
+
     .ReactCodeMirror {
       text-align: left;
       height: auto !important;
@@ -40,7 +52,18 @@
     }
   }
   .Hero__btn {
+    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 17px;
+    border: solid 1px rgba(255, 255, 255, 0.4);
     border-radius: 6px;
+    line-height: 1;
+    transition: background 0.1s ease-out, color 0.1s ease-out;
+    padding: 0.6em 1.6em;
+    margin: 0 0.8em;
+    display: inline-block;
+    text-decoration: none;
   }
 
   .Hero__code_header {
@@ -168,4 +191,53 @@
     line-height: 56px;
     text-rendering: optimizelegibility;
   }
+  .Video div {
+    position: relative;
+    padding-bottom: 0px;
+    padding-top: 0;
+    height: 100% !important;
+    width: 80% !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .Hero {
+    font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #202020;
+    font-size: 8px;
+    line-height: 10px;
+    height: 120vh;
+  }
+  .first-hero-row {
+    margin-top: 0;
+  }
+  .graphql-hero-logo {
+    width: 45px;
+    height: 45px;
+  }
+  .Hero__GraphQL_title {
+    font-size: 12px;
+    display: block;
+  }
+  .Hero__code_header {
+    text-align: center !important;
+  }
+  .GraphqlCodeBlock {
+    padding-left: 20%;
+  }
+  .GraphQL__page .btn-hero {
+    padding: 0.5rem 0.5rem !important;
+    border-radius: 0.3rem;
+    font-size: 14px;
+  }
+  .Section > div {
+    padding: 0 !important;
+  }
+}
+
+@media (min-width: 600px) {
+}
+
+@media (max-width: 420px) {
 }

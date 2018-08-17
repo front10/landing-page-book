@@ -12157,6 +12157,19 @@ ol.progtrckr li.progtrckr-done:hover:before {
     font-weight: 300;
     line-height: 56px;
     text-rendering: optimizelegibility; }
+  .GraphQL__page .TextBox {
+    text-align: left; }
+    .GraphQL__page .TextBox .TextBox__title {
+      font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      text-rendering: optimizelegibility; }
+    .GraphQL__page .TextBox .TextBox__text {
+      font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      color: #202020;
+      font-size: 18px;
+      line-height: 28.8px;
+      text-align: left; }
   .GraphQL__page .Video div {
     position: relative;
     padding-bottom: 0px;
@@ -12189,7 +12202,11 @@ ol.progtrckr li.progtrckr-done:hover:before {
     border-radius: 0.3rem;
     font-size: 14px; }
   .Section > div {
-    padding: 0 !important; } }
+    padding: 0 !important; }
+  .TextBox {
+    padding-top: 3%; }
+    .TextBox .TextBox__text {
+      font-size: 12px; } }
 
 /*Components*/
 .Backers .ImageList .ImageList__Container {

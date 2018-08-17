@@ -11780,6 +11780,116 @@ span.CodeMirror-selectedtext { background: none; }
   color: #5c6065 !important;
 }
 /* React flags select */
+.flag-select {
+  position: relative;
+  display: inline-block;
+  vertical-align: inherit;
+  padding-bottom: 5px;
+  color: #4d4d4d;
+  text-align: left; }
+  .flag-select img {
+    width: 1.3em;
+    height: 1.3em;
+    position: relative;
+    top: 0.3em; }
+  .flag-select .selected--flag--option {
+    cursor: pointer;
+    padding: 0 8px; }
+    .flag-select .selected--flag--option:before {
+      content: ' ';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 999; }
+    .flag-select .selected--flag--option:focus {
+      outline: none; }
+    .flag-select .selected--flag--option .country-label {
+      padding-left: 9px; }
+  .flag-select .country-flag {
+    cursor: pointer; }
+    .flag-select .country-flag .country-label {
+      font-size: 1em;
+      position: relative; }
+  .flag-select .flag-options {
+    position: absolute;
+    z-index: 999999;
+    border: 1px solid #bdbbbb;
+    border-radius: 3px;
+    background: #ffffff;
+    margin-top: 8px;
+    padding: 8px 0;
+    max-height: 160px;
+    overflow: auto; }
+    .flag-select .flag-options.to--left {
+      right: 10px; }
+  .flag-select .flag-option {
+    cursor: pointer;
+    padding: 0px 8px 3px 8px;
+    margin: 4px 0;
+    white-space: nowrap; }
+    .flag-select .flag-option.has-label {
+      padding: 0px 20px 3px 8px; }
+    .flag-select .flag-option:hover {
+      background: #eaeaea; }
+    .flag-select .flag-option:focus {
+      outline: none;
+      background: #eaeaea; }
+    .flag-select .flag-option .country-label {
+      padding: 0 9px; }
+  .flag-select .filterBox {
+    width: 100%; }
+    .flag-select .filterBox input {
+      width: 90%;
+      margin: 0 4%; }
+      .flag-select .filterBox input:focus {
+        outline: none; }
+  .flag-select .arrow-down {
+    color: #4d4d4d;
+    padding: 2px; }
+  .flag-select .hidden {
+    display: none; }
+  .flag-select .no--focus {
+    pointer-events: none; }
+
+/* Gif player */
+.gif_player {
+  display: inline-block;
+  position: relative;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-touch-callout: none;
+  -webkit-tap-highlight-color: transparent; }
+  .gif_player .play_button {
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px dashed #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
+    color: #fff;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    left: 50%;
+    opacity: 1;
+    padding: 14px 10px;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1) rotate(0deg);
+    transition: transform 0.4s, opacity 0.4s; }
+    .gif_player .play_button:hover {
+      background-color: rgba(0, 0, 0, 0.7);
+      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.7); }
+    .gif_player .play_button::after {
+      content: "GIF"; }
+  .gif_player.playing .play_button {
+    transform: translate(-50%, -50%) scale(0) rotate(180deg);
+    opacity: 0.5; }
+  .gif_player img {
+    max-width: 100%; }
+
+/* Wizard */
 ol.progtrckr {
   list-style-type: none;
   padding: 0;
@@ -11877,113 +11987,6 @@ ol.progtrckr li.progtrckr-done:hover:before {
   color: #333;
 }
 
-.flag-select {
-  position: relative;
-  display: inline-block;
-  vertical-align: inherit;
-  padding-bottom: 5px;
-  color: #4d4d4d;
-  text-align: left; }
-  .flag-select img {
-    width: 1.3em;
-    height: 1.3em;
-    position: relative;
-    top: 0.3em; }
-  .flag-select .selected--flag--option {
-    cursor: pointer;
-    padding: 0 8px; }
-    .flag-select .selected--flag--option:before {
-      content: ' ';
-      display: block;
-      width: 100%;
-      height: 100%;
-      position: absolute;
-      z-index: 999; }
-    .flag-select .selected--flag--option:focus {
-      outline: none; }
-    .flag-select .selected--flag--option .country-label {
-      padding-left: 9px; }
-  .flag-select .country-flag {
-    cursor: pointer; }
-    .flag-select .country-flag .country-label {
-      font-size: 1em;
-      position: relative; }
-  .flag-select .flag-options {
-    position: absolute;
-    z-index: 999999;
-    border: 1px solid #bdbbbb;
-    border-radius: 3px;
-    background: #ffffff;
-    margin-top: 8px;
-    padding: 8px 0;
-    max-height: 160px;
-    overflow: auto; }
-    .flag-select .flag-options.to--left {
-      right: 10px; }
-  .flag-select .flag-option {
-    cursor: pointer;
-    padding: 0px 8px 3px 8px;
-    margin: 4px 0;
-    white-space: nowrap; }
-    .flag-select .flag-option.has-label {
-      padding: 0px 20px 3px 8px; }
-    .flag-select .flag-option:hover {
-      background: #eaeaea; }
-    .flag-select .flag-option:focus {
-      outline: none;
-      background: #eaeaea; }
-    .flag-select .flag-option .country-label {
-      padding: 0 9px; }
-  .flag-select .filterBox {
-    width: 100%; }
-    .flag-select .filterBox input {
-      width: 90%;
-      margin: 0 4%; }
-      .flag-select .filterBox input:focus {
-        outline: none; }
-  .flag-select .arrow-down {
-    color: #4d4d4d;
-    padding: 2px; }
-  .flag-select .hidden {
-    display: none; }
-  .flag-select .no--focus {
-    pointer-events: none; }
-
-/* Gif player */
-.gif_player {
-  display: inline-block;
-  position: relative;
-  user-select: none;
-  -webkit-touch-callout: none;
-  -webkit-tap-highlight-color: transparent; }
-  .gif_player .play_button {
-    background-color: rgba(0, 0, 0, 0.5);
-    border: 2px dashed #fff;
-    border-radius: 50%;
-    box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.5);
-    color: #fff;
-    cursor: pointer;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 24px;
-    left: 50%;
-    opacity: 1;
-    padding: 14px 10px;
-    position: absolute;
-    top: 50%;
-    transform: translate(-50%, -50%) scale(1) rotate(0deg);
-    transition: transform 0.4s, opacity 0.4s; }
-    .gif_player .play_button:hover {
-      background-color: rgba(0, 0, 0, 0.7);
-      box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.7); }
-    .gif_player .play_button::after {
-      content: "GIF"; }
-  .gif_player.playing .play_button {
-    transform: translate(-50%, -50%) scale(0) rotate(180deg);
-    opacity: 0.5; }
-  .gif_player img {
-    max-width: 100%; }
-
-/* Wizard */
 /*Variables*/
 /*Colors*/
 /*
@@ -12243,6 +12246,8 @@ ol.progtrckr li.progtrckr-done:hover:before {
     border-radius: 0px;
     font-size: 0.7rem;
     color: #000; }
+  .Input__Container .Input__Container__Conponent[type='color'] {
+    height: 30px; }
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: 0.7rem;

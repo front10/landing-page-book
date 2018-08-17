@@ -191,6 +191,24 @@
     line-height: 56px;
     text-rendering: optimizelegibility;
   }
+
+  .TextBox {
+    text-align: left;
+    .TextBox__title {
+      font-family: 'Rubik', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      text-rendering: optimizelegibility;
+    }
+    .TextBox__text {
+      font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300;
+      color: #202020;
+      font-size: 18px;
+      line-height: 28.8px;
+      text-align: left;
+    }
+  }
+
   .Video div {
     position: relative;
     padding-bottom: 0px;
@@ -233,6 +251,12 @@
   }
   .Section > div {
     padding: 0 !important;
+  }
+  .TextBox {
+    padding-top: 3%;
+    .TextBox__text {
+      font-size: 12px;
+    }
   }
 }
 

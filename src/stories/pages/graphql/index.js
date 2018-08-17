@@ -21,7 +21,8 @@ import {
   Column,
   Video,
   Footer,
-  Copyright
+  Copyright,
+  TextBox
 } from '../../../components';
 
 const frameworks = [
@@ -174,32 +175,35 @@ stories.add('GraphQl', () => (
               </div>
             </Column>
             <Column className="col-12 col-md-4">
-              <br />
-              <h3 className="title">Ask for what you need, get exactly that</h3>
-              <br />
-              <p>
-                Send a GraphQL query to your API and get exactly what you need, nothing more and
-                nothing less. GraphQL queries always return predictable results. Apps using GraphQL
-                are fast and stable because they control the data they get, not the server.
-              </p>
+              <TextBox
+                className="TextBox"
+                title="Ask for what you need, get exactly that"
+                text="Send a GraphQL query to your API and get exactly what you need, nothing more and
+            nothing less. GraphQL queries always return predictable results. Apps using GraphQL
+            are fast and stable because they control the data they get, not the server."
+              />
             </Column>
           </Row>
         </Section>
         <Section gray>
           <Row>
             <Column className="col12 col-md-4">
-              <br />
-              <h3 className="title">Get many resources in a single request</h3>
-              <br />
-              <p>
-                GraphQL queries access not just the properties of one resource but also smoothly
+              <TextBox
+                className="TextBox"
+                title="Get many resources in a single request"
+                text="GraphQL queries access not just the properties of one resource but also smoothly
                 follow references between them. While typical REST APIs require loading from
                 multiple URLs, GraphQL APIs get all the data your app needs in a single request.
-                Apps using GraphQL can be quick even on slow mobile network connections.
-              </p>
+                Apps using GraphQL can be quick even on slow mobile network connections."
+              />
             </Column>
             <Column className="col-12 col-md-4">
-              <h6>Query & Response animation here</h6>
+              <Image
+                alt="Many resources in single request"
+                src="images/pages/graphql/code.png"
+                width="600px"
+                height="auto"
+              />
             </Column>
           </Row>
         </Section>
@@ -244,15 +248,14 @@ stories.add('GraphQl', () => (
               </div>
             </Column>
             <Column className="col-12 col-md-4">
-              <br />
-              <h3 className="title">Get many resources in a single request</h3>
-              <br />
-              <p>
-                GraphQL queries access not just the properties of one resource but also smoothly
-                follow references between them. While typical REST APIs require loading from
-                multiple URLs, GraphQL APIs get all the data your app needs in a single request.
-                Apps using GraphQL can be quick even on slow mobile network connections.
-              </p>
+              <TextBox
+                className="TextBox"
+                title="Get many resources in a single request"
+                text="GraphQL queries access not just the properties of one resource but also smoothly
+            follow references between them. While typical REST APIs require loading from
+            multiple URLs, GraphQL APIs get all the data your app needs in a single request.
+            Apps using GraphQL can be quick even on slow mobile network connections."
+              />
             </Column>
           </Row>
         </Section>
@@ -325,30 +328,28 @@ stories.add('GraphQl', () => (
               </div>
             </Column>
             <Column className="col-12 col-md-4">
-              <br />
-              <h3 className="title">Evolve your API without versions</h3>
-              <br />
-              <p>
-                Add new fields and types to your GraphQL API without impacting existing queries.
-                Aging fields can be deprecated and hidden from tools. By using a single evolving
-                version, GraphQL APIs give apps continuous access to new features and encourage
-                cleaner, more maintainable server code.
-              </p>
+              <TextBox
+                className="TextBox"
+                title="Evolve your API without versions"
+                text=" Add new fields and types to your GraphQL API without impacting existing queries.
+            Aging fields can be deprecated and hidden from tools. By using a single evolving
+            version, GraphQL APIs give apps continuous access to new features and encourage
+            cleaner, more maintainable server code."
+              />
             </Column>
           </Row>
         </Section>
         <Section>
           <Row className="row mt-5 mb-5 Code_section_vertical">
             <Column className="col-12 col-md-4">
-              <br />
-              <h3 className="title">Bring your own data and code</h3>
-              <br />
-              <p>
-                GraphQL creates a uniform API across your entire application without being limited
+              <TextBox
+                className="TextBox"
+                title="Bring your own data and code"
+                text="GraphQL creates a uniform API across your entire application without being limited
                 by a specific storage engine. Write GraphQL APIs that leverage your existing data
                 and code with GraphQL engines available in many languages. You provide functions for
-                each field in the type system, and GraphQL calls them with optimal concurrency.
-              </p>
+                each field in the type system, and GraphQL calls them with optimal concurrency."
+              />
             </Column>
             <Column className="col-12 col-md-6">
               <div className="Code_container">
@@ -403,7 +404,7 @@ stories.add('GraphQl', () => (
             </Row>
             <Row>
               <Column className="text-center">
-                <BuiltWith companies={frameworks} />
+                <BuiltWith companies={frameworks} className="justify-content-center" />
               </Column>
             </Row>
           </Container>

@@ -16,6 +16,7 @@ import '../src/stories/components/icon';
 import '../src/stories/components/input';
 import '../src/stories/components/label';
 import '../src/stories/components/link';
+import '../src/stories/components/textBox';
 
 //Components
 

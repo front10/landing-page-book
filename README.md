@@ -6,7 +6,7 @@
 
 `@front10/landing-page-book` is a kit of landing-page components to be share across the web.
 
-# Landin Page Component
+# Landing Page Component
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 

@@ -2,7 +2,7 @@
   "name": "@front10/landing-page-book",
   "version": "0.0.1",
   "description": "A react library for landing page",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "start": "node storybook-utils/node-server/basic.js & gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
     "build-storybook": "build-storybook -c .storybook -o public -s ./assets",
@@ -12,11 +12,17 @@
     "eslint:fix": "./node_modules/.bin/eslint --fix  ./src",
     "gitlab-pages": "git push master gitlab-pages",
     "precommit": "npm run eslint",
-    "prepush": "npm run eslint"
+    "prepush": "npm run eslint",
+    "transpile": "babel src -d dist --copy-files",
+    "prepublishOnly": "npm run transpile"
   },
   "repository": {
     "type": "git",
     "url": "git+https://gitlab.com/front10-devs/landing-page-book.git"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0"
   },
   "keywords": [
     "React",
@@ -37,6 +43,7 @@
     "@storybook/addons": "^3.4.2",
     "@storybook/react": "^3.3.11",
     "@types/prop-types": "^15.5.3",
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
     "babel-eslint": "^8.2.1",
     "babel-jest": "^22.4.3",

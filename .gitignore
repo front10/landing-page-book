@@ -1,6 +1,9 @@
 # dependencies
 /node_modules
 
+#dist 
+/dist
+
 # semantic
 /semantic
 # testing

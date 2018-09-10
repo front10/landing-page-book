@@ -1,0 +1,152 @@
+.storybook__mainMenu__a__logo {
+  height: 30px;
+  float: right;
+}
+
+.storybook__mainMenu__btn {
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.storybook__mainMenu__btnTheme {
+  float: right;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.storybook__mainMenu__btn__image {
+  height: 30px;
+}
+
+.Pane.vertical.Pane1 > div > div > div > div:first-child {
+  display: none !important;
+}
+
+#root > div > div > div > div.Pane:first-child,
+#root > div > div > div > div.Pane:last-child .Pane.vertical.Pane2 {
+  display: none;
+  margin-top: 54px;
+}
+
+#root > div > div > div > div.Pane:last-child .Pane.vertical.Pane1 div:first-child {
+  padding-top: 50px !important;
+}
+
+#root > div > div:first-child strong,
+#root > div > div:first-child a div strong {
+  color: black;
+}
+
+#root div[role='menuitem'] {
+  padding: 4px 0 !important;
+}
+
+#root > div > div:first-child a div {
+  color: #646464;
+  padding: 2px 0px 2px 4px;
+}
+
+@media only screen and (max-width: 450px) {
+  .storybook__mainMenu__btn svg {
+    width: 20px;
+    height: 20px;
+  }
+  .storybook__mainMenu__btnTheme svg {
+    width: 18px;
+    height: 18px;
+  }
+  .storybook__mainMenu__a__logo {
+    height: 25px;
+  }
+}
+
+/*------------------------------------
+ Theming 
+------------------------------------- */
+
+/* ----- Default ------ */
+
+/* Navbar */
+
+.storybook__mainMenu {
+  padding: 10px;
+  background-color: #fafafa;
+  position: fixed;
+  display: none;
+  z-index: 1000;
+  width: 100%;
+  top: 0;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+svg {
+  fill: #717171 !important;
+}
+
+.storybook__mainMenu__btn svg polyline,
+.storybook__mainMenu__btn svg polyline,
+.storybook__mainMenu__btn svg polyline {
+  stroke: #646464;
+}
+
+.storybook__mainMenu__btn svg rect,
+.storybook__mainMenu__btn svg path,
+.storybook__mainMenu__btn svg circle {
+  stroke: #646464;
+}
+
+.storybook__mainMenu__btn[data-collapsed='false'] svg rect,
+.storybook__mainMenu__btn[data-collapsed='false'] svg path,
+.storybook__mainMenu__btn[data-collapsed='false'] svg circle {
+  stroke: #000;
+}
+
+.css-glamorous-routedlink--1cigum0 {
+  background-color: #bdc3c7 !important;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+/* Panels */
+
+#root > div > div:first-child {
+  background-color: #fafafa;
+  color: #646464;
+}
+
+/* ----- Dark ------ */
+
+/* Navbar */
+
+body[theme='black'] .storybook__mainMenu {
+  background-color: #000000;
+}
+
+body[theme='black'] .storybook__mainMenu {
+  box-shadow: 0 2px 5px 0px rgba(253, 249, 249, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+}
+
+body[theme='black'] .storybook__mainMenu__btn[data-collapsed='false'] svg rect,
+body[theme='black'] .storybook__mainMenu__btn[data-collapsed='false'] svg path,
+body[theme='black'] .storybook__mainMenu__btn[data-collapsed='false'] svg circle {
+  stroke: #717171 !important;
+}
+
+body[theme='black'] .storybook__mainMenu__btn[data-collapsed='false'] svg rect,
+body[theme='black'] .storybook__mainMenu__btn[data-collapsed='false'] svg path,
+body[theme='black'] .storybook__mainMenu__btn[data-collapsed='false'] svg circle {
+  stroke: #888888 !important;
+}
+
+body[theme='black'] .storybook__mainMenu__btnTheme.dark svg rect:last-child {
+  stroke: #646464 !important;
+}
+
+/* Panels */
+
+body[theme='black'] #root > div > div:first-child {
+  background: linear-gradient(to left, #545151, #000000) !important;
+}

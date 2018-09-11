@@ -3,3 +3,11 @@ examples
 .babelrc
 .gitignore
 webpack.config.js
+.idea
+.storybook
+coverage
+node_modules
+dist/addons
+dist/stories
+jest
+storybook-utils

@@ -47,13 +47,13 @@ npm test or yarn test
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/rootlinux2/landing-page-book).
 
 ## Authors
 
 * **Front10** - *Initial work* - [Front10](http://front10.com/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/rootlinux2/landing-page-book/graphs/contributors) who participated in this project.
 
 ## License
 

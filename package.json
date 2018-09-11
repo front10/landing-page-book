@@ -1,8 +1,8 @@
 {
   "name": "@front10/landing-page-book",
-  "version": "0.1.1",
+  "version": "0.1.5",
   "description": "A react library for landing page",
-  "main": "dist/index.js",
+  "main": "dist/components/index.js",
   "scripts": {
     "start": "node storybook-utils/node-server/basic.js & gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
     "build-storybook": "build-storybook -c .storybook -o public -s ./assets",
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/front10-devs/landing-page-book.git"
+    "url": "git@github.com:rootlinux2/landing-page-book.git"
   },
   "peerDependencies": {
     "react": "^16.2.0",

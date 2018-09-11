@@ -4,7 +4,7 @@
 
 `@front10/landing-page-book` is a kit of landing-page components to be share across the web.
 
-## Landin Page Component
+## Landing Page Component
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 
@@ -45,9 +45,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Front10** - *Initial work* - [Front10](http://front10.com/)
-
-See also the list of [contributors](https://github.com/rootlinux2/landing-page-book/graphs/contributors) who participated in this project.
+* **Front10** - *Initial work* - [Front10-dev](https://github.com/orgs/front10/teams/front10-dev/members)
 
 ## License
 

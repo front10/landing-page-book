@@ -10,13 +10,12 @@
     "test": "jest --coverage --config ./jest.config.js",
     "eslint": "./node_modules/.bin/eslint './src/**'",
     "eslint:fix": "./node_modules/.bin/eslint --fix  ./src",
-    "gitlab-pages": "git push master gitlab-pages",
     "precommit": "npm run eslint",
     "prepush": "npm run eslint",
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "npm run transpile",
-    "build": "webpack --mode production",
-    "deploy": "gh-pages -d examples/dist",
+    "build": "npm run build-storybook",
+    "deploy": "gh-pages -d public",
     "publish-demo": "npm run build && npm run deploy"
   },
   "repository": {
@@ -35,9 +34,6 @@
   ],
   "author": "front10",
   "license": "ISC",
-  "bugs": {
-    "url": "https://gitlab.com/front10-devs/landing-page-book/issues"
-  },
   "homepage": "https://landing-page-book.front10.com",
   "devDependencies": {
     "@storybook/addon-centered": "^3.3.12",
@@ -45,6 +41,7 @@
     "@storybook/addon-viewport": "^3.3.12",
     "@storybook/addons": "^3.4.2",
     "@storybook/react": "^3.3.11",
+    "@storybook/storybook-deployer": "^2.3.0",
     "@types/prop-types": "^15.5.3",
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
@@ -86,10 +83,7 @@
     "react-test-renderer": "^16.3.2",
     "regenerator-runtime": "^0.11.1",
     "storybook-readme": "^3.3.0",
-    "style-loader": "^0.20.3",
-    "webpack": "^4.17.2",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.8"
+    "style-loader": "^0.20.3"
   },
   "dependencies": {
     "@kadira/storybook-addon-options": "^1.0.2",

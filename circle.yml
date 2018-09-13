@@ -1,20 +1,17 @@
-general:
-  branches:
-    ignore:
-      - gh-pages
+defaults: &defaults
+  #working_directory: ./circleci
+  docker:
+    - image: circleci/node:8
 
-test:
-  override:
-    - exit 0
-
-deployment:
-  staging:
-    branch: master
-    commands:
-      - ./scripts/deploy-ghpages.sh build
-
-deployment:
-  production:
-    branch: master
-    commands:
-    - ./scripts/deploy-ghpages.sh build
+version: 2
+jobs:
+    deploy-github:
+        <<: *defaults
+        steps:
+         - checkout
+         - attach_workspace:
+             at: .
+          - deploy:
+             name: Deploy to GitHub Pages
+            command:
+              - ./scripts/deploy-ghpages.sh build

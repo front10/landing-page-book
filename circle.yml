@@ -11,7 +11,7 @@ jobs:
          - checkout
          - attach_workspace:
              at: .
-          - deploy:
+         - deploy:
              name: Deploy to GitHub Pages
-            command:
-              - ./scripts/deploy-ghpages.sh build
+        command:
+         - ./scripts/deploy-ghpages.sh build

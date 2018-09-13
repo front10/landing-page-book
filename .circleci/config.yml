@@ -8,12 +8,12 @@ jobs:
     build:
         <<: *defaults
         steps:
-         - checkout
-         - compiling:
-            name: Compiling storybook code
-            command: npm run build-storybook
+         - checkout         
          - attach_workspace:
              at: .
+        - compiling:
+            name: Compiling storybook code
+            command: "npm run build-storybook"
          - deploy:
              name: Deploy to GitHub Pages
              command: "./scripts/deploy-ghpages.sh public"

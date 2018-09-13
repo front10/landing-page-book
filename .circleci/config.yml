@@ -18,11 +18,11 @@ jobs: # a collection of steps
           key: dependency-cache-{{ checksum "package.json" }}
           paths:
             - ./node_modules
-      - run: # run build
+      - run:
           name: build
           command: npm run build-storybook 
       - store_artifacts:
           path: public  
-      - deploy:
-             name: Deploy to GitHub Pages
-             command: "./scripts/deploy-ghpages.sh public"    
+      - run:
+         name: Deploy to GitHub Pages
+         command: "./scripts/deploy-ghpages.sh public"    

@@ -32,9 +32,6 @@ npm start or yarn start
 
 npm test or yarn test
 
-## Features
-
-
 ## Coding styles
 
 * [Airbnb Styleguide](https://github.com/airbnb/javascript/tree/master/react)

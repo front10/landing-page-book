@@ -10,13 +10,7 @@ jobs: # a collection of steps
           name: update-npm 
           command: 'sudo npm install -g npm@latest'
       - restore_cache: # special step to restore the dependency cache 
-          key: dependency-cache-{{ checksum "package.json" }}
-      - run:
-          name: installing dependency
-          command: npm install
-      - run:
-          name: build
-          command: npm run build-storybook 
+          key: dependency-cache-{{ checksum "package.json" }}      
       - run:
          name: Deploy to GitHub Pages
          command: "./scripts/deploy-ghpages.sh public"    

@@ -14,4 +14,4 @@ jobs:
          - deploy:
              name: Deploy to GitHub Pages
              command:
-                - ./scripts/deploy-ghpages.sh build
+                - "./scripts/deploy-ghpages.sh build"

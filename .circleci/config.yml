@@ -9,6 +9,9 @@ jobs:
         <<: *defaults
         steps:
          - checkout
+         - build
+            name: Compiling storybook code
+            command: npm run build-storybook
          - attach_workspace:
              at: .
          - deploy:

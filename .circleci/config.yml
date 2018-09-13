@@ -1,5 +1,5 @@
 defaults: &defaults
-  #working_directory: ./circleci
+  #working_directory: .
   docker:
     - image: circleci/node:8
 
@@ -9,7 +9,7 @@ jobs:
         <<: *defaults
         steps:
          - checkout
-         - build:
+         - compiling:
             name: Compiling storybook code
             command: npm run build-storybook
          - attach_workspace:

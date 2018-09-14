@@ -43,9 +43,9 @@ fi
 # copy over or recompile the new site
 
 npm run build-storybook
-
+ls -l 
 # stage any changes and new files
-git add public
+git add ./public
 # now commit, ignoring branch gh-pages doesn't seem to work, so trying skip
 git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
 # and push, but send any output to /dev/null to hide anything sensitive

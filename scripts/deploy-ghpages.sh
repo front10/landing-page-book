@@ -26,7 +26,7 @@ git config --global user.name "$GH_NAME" > /dev/null 2>&1
 git init
 git remote add --fetch origin "$remote"
 
-npm install -g npm@latest
+npm -v
 npm install
 
 # switch into the gh-pages branch

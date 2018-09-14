@@ -26,7 +26,7 @@ git config --global user.name "$GH_NAME" > /dev/null 2>&1
 git init
 git remote add --fetch origin "$remote"
 
-npm -v
+sudo npm update -g npm@latest
 npm install
 
 # switch into the gh-pages branch
@@ -45,7 +45,7 @@ fi
 npm run build-storybook
 
 # stage any changes and new files
-git add -A ./public
+git add -A
 # now commit, ignoring branch gh-pages doesn't seem to work, so trying skip
 git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
 # and push, but send any output to /dev/null to hide anything sensitive

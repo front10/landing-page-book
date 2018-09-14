@@ -12,7 +12,6 @@
         "eslint:fix": "./node_modules/.bin/eslint --fix  ./src",
         "gitlab-pages": "git push master gitlab-pages",
         "precommit": "npm run eslint",
-        "prepush": "npm run eslint",
         "transpile": "babel src -d dist --copy-files",
         "prepublishOnly": "npm run transpile"
     },

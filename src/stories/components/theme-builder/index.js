@@ -11,9 +11,7 @@ import { ThemeBuilder } from '../../../components';
 import Readme from '../../../components/ThemeBuilder/README.md';
 
 const onUpdateTheme = ({ variables }) => {
-  ThemeBuilderService.compile({ variables, theme: 'default' }).then(response => {
-    alert(response);
-  });
+  ThemeBuilderService.compile({ variables, theme: 'default' }).then(res => res);
 };
 
 setAddon(JSXAddon);

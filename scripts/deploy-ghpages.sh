@@ -53,7 +53,5 @@ git push --force --quiet origin gh-pages > /dev/null 2>&1
 
 # go back to where we started and remove the gh-pages git repo we made and used
 # for deployment
-cd ..
-rm -rf gh-pages-branch
 
 echo "Finished Deployment!"

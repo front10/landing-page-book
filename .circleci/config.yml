@@ -22,10 +22,7 @@ jobs:
       - save_cache:
           paths:
             - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-      - run:
-          name: Run tests
-          command: npm test
+          key: v1-dependencies-{{ checksum "package.json" }}   
       - deploy:
           name: Deploy
           command: |

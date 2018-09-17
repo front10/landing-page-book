@@ -46,7 +46,7 @@ npm run build-storybook
 
 
 # stage any changes and new files
-git add -A public
+git add -A
 # now commit, ignoring branch gh-pages doesn't seem to work, so trying skip
 git commit --allow-empty -m "Deploy to GitHub pages [ci skip]"
 # and push, but send any output to /dev/null to hide anything sensitive

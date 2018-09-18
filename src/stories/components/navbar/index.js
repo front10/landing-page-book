@@ -53,7 +53,7 @@ const rightItems = [
 stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
-    <ThemeSelector>
+    <ThemeSelector component="Header">
       <Navbar
         transparent={boolean('Transparent', false)}
         fixed={boolean('Fixed', false)}
@@ -81,7 +81,7 @@ stories.addWithJSX(
 stories.addWithJSX(
   'Mode container',
   withReadme([Readme], () => (
-    <ThemeSelector>
+    <ThemeSelector component="Header">
       <Navbar expand="md">
         <Container>
           <NavbarCollapse>
@@ -122,7 +122,7 @@ stories.addWithJSX(
 stories.addWithJSX(
   'Reversed',
   withReadme([Readme], () => (
-    <ThemeSelector>
+    <ThemeSelector component="Header">
       <Navbar expand="md">
         <Container>
           <NavbarCollapse>
@@ -165,7 +165,7 @@ stories.addWithJSX(
 stories.addWithJSX(
   'Via children',
   withReadme([Readme], () => (
-    <ThemeSelector>
+    <ThemeSelector component="Header">
       <Navbar expand="md">
         <NavbarCollapse>
           <NavbarBrand>
@@ -204,7 +204,7 @@ stories.addWithJSX(
 stories.addWithJSX(
   'With search',
   withReadme([Readme], () => (
-    <ThemeSelector>
+    <ThemeSelector component="Header">
       <Navbar
         transparent={boolean('Transparent', false)}
         fixed={boolean('Fixed', false)}
@@ -233,7 +233,7 @@ stories.addWithJSX(
 stories.addWithJSX(
   'With user photo',
   withReadme([Readme], () => (
-    <ThemeSelector>
+    <ThemeSelector component="Header">
       <Navbar expand="md">
         <NavbarCollapse>
           <NavbarBrand>

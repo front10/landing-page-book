@@ -12071,9 +12071,9 @@ ol.progtrckr li.progtrckr-done:hover:before {
   font-size: .6rem; }
 
 .Button {
-  border-radius: 1.25rem;
-  font-size: 1rem;
-  padding: 0.5rem; }
+  border-radius: var(--Button-borderRadius);
+  font-size: var(--Button-fontSize);
+  padding: var(--Button-padding); }
 
 .Card {
   background-color: transparent;
@@ -12202,14 +12202,14 @@ ol.progtrckr li.progtrckr-done:hover:before {
   padding: 5px; }
 
 .Navbar {
-  background-color: #383d45; }
+  background-color: var(--Header-backgroundColor); }
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
-    color: #cccccc !important;
+    color: var(--Header-color) !important;
     cursor: pointer; }
   .Navbar .NavbarLink:hover {
-    color: #61dafb !important; }
+    color: var(--Header--hover-color) !important; }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
   .Navbar .LanguageSwitcher {
@@ -12219,20 +12219,20 @@ ol.progtrckr li.progtrckr-done:hover:before {
   background-color: transparent; }
 
 .Hero .Hero__Header {
-  font-weight: 700;
-  font-size: 75px;
-  font-style: normal;
-  color: white; }
+  font-weight: var(--Hero__Header-fontWeight);
+  font-size: var(--Hero__Header-fontSize);
+  font-style: var(--Hero__Header-fontStyle);
+  color: var(--Hero__Header-color); }
 
 .Hero .Hero__SubHeader {
-  font-size: 40px;
-  font-style: italic;
-  color: white; }
+  font-size: var(--Hero__SubHeader-fontSize);
+  font-style: var(--Hero__SubHeader-fontStyle);
+  color: var(--Hero__SubHeader-color); }
 
 .Hero .Hero__Button {
   padding: 20px 40px;
-  color: #000000;
-  background-color: #61dafb; }
+  color: var(--Hero__Button-color);
+  background-color: var(--Hero__Button-backgroundColor); }
 
 .Hero .Hero__Particles {
   position: absolute;
@@ -12256,9 +12256,9 @@ ol.progtrckr li.progtrckr-done:hover:before {
 
 @media (max-width: 768px) {
   .Hero__Header {
-    font-size: 30px !important; }
+    font-size: var(--Hero__Header--phone-fontSize) !important; }
   .Hero__SubHeader {
-    font-size: 20px !important; } }
+    font-size: var(--Hero__SubHeader--phone-fontSize) !important; } }
 
 .Input__Container {
   position: relative; }

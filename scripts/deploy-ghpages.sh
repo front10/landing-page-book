@@ -35,7 +35,7 @@ rm -rf public &&
 git add -A .
 git commit -m "Automated deployment to GitHub Pages" --allow-empty
 
-git push origin $TARGET_BRANCH --force
+git push --force --quiet origin gh-pages > /dev/null 2>&1
 
 echo "gh-pages deployed"
           

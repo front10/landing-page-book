@@ -26,7 +26,8 @@ git rm -rf --cached . &&
 sudo npm update -g npm@latest &&
 npm install &&
 npm run build-storybook &&  
-find . | grep -v "public" | grep -v ".git" | xargs rm -rf &&
+
+find . | grep -v "public" | grep -v ".git"| grep -v "."| grep -v ".." | xargs rm -rf &&
 
 mv public/* . &&
 

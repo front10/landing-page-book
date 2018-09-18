@@ -20,9 +20,10 @@ git clone $CIRCLE_REPOSITORY_URL
 
 cd landing-page-book
 
-git checkout --orphan $TARGET_BRANCH
+git checkout --orphan gh-pages
 
 git rm -rf --cached .
+sudo npm update -g npm@latest
 npm install
 npm run build-storybook &&  
 find . | grep -v "public" | grep -v ".git" | xargs rm -rf &&

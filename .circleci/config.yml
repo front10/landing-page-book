@@ -16,5 +16,4 @@ jobs: # a collection of steps
           paths:
             - ./node_modules     
       - store_artifacts:
-          path: public  
-      
+          path: public

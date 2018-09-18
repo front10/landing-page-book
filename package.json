@@ -17,7 +17,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://gitlab.com/front10-devs/landing-page-book.git"
+        "url": "git@github.com:front10/landing-page-book.git"
     },
     "peerDependencies": {
         "react": "^16.2.0",
@@ -32,7 +32,7 @@
     "author": "front10",
     "license": "ISC",
     "bugs": {
-        "url": "https://gitlab.com/front10-devs/landing-page-book/issues"
+        "url": "https://github.com/front10/landing-page-book/issues"
     },
     "homepage": "https://front10.github.io/landing-page-book/",
     "devDependencies": {

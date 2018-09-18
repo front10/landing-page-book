@@ -8,6 +8,7 @@ set -e
 pwd
 
 remote=$(git config remote.origin.url)
+GH_EMAIL=""
 
 #siteSource="$1"
 

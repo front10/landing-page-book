@@ -34,7 +34,7 @@
     "bugs": {
         "url": "https://gitlab.com/front10-devs/landing-page-book/issues"
     },
-    "homepage": "https://landing-page-book.front10.com",
+    "homepage": "https://front10.github.io/landing-page-book/",
     "devDependencies": {
         "@storybook/addon-centered": "^3.3.12",
         "@storybook/addon-knobs": "^3.4.2",

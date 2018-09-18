@@ -22,13 +22,13 @@ cd landing-page-book
 
 git checkout --orphan gh-pages
 
-git rm -rf --cached .
-sudo npm update -g npm@latest
-npm install
+git rm -rf --cached . &&
+sudo npm update -g npm@latest &&
+npm install &&
 npm run build-storybook &&  
 find . | grep -v "public" | grep -v ".git" | xargs rm -rf &&
 
-mv public/* .
+mv public/* . &&
 
 rm -rf public &&
 

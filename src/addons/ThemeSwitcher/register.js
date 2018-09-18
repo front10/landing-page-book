@@ -13,6 +13,7 @@ const button = {
   border: 'none'
 };
 
+/* eslint-disable */
 class Notes extends React.Component {
   constructor(...args) {
     super(...args);

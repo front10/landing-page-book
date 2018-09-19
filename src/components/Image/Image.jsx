@@ -32,8 +32,6 @@ class Image extends Component {
     if (rounded) tempClass += ` rounded-circle`;
     if (border) tempClass += ` img-thumbnail`;
     if (!width) widthTemp = 100;
-    console.log(width);
-    console.log(!width);
     return (
       <React.Fragment>
         <img

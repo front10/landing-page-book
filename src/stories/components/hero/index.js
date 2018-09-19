@@ -27,7 +27,7 @@ stories.addDecorator(withKnobs);
 stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
-    <ThemeSelector>
+    <ThemeSelector component="Hero">
       <Hero
         isFixed={boolean('Fixed', true)}
         isCentered={boolean('Centered', true)}

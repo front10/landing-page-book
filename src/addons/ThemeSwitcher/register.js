@@ -1,6 +1,7 @@
 import React from 'react';
 import addons from '@storybook/addons';
 import themes from '../../../storybook-utils/configs/themes';
+import ThemeBuilder from './builder';
 
 const styles = {
   width: '100%'
@@ -12,13 +13,26 @@ const button = {
   border: 'none'
 };
 
+/* eslint-disable */
 class Notes extends React.Component {
   constructor(...args) {
     super(...args);
     this.state = {
-      theme: localStorage.getItem('selector-current-theme') || 'default'
+      theme: localStorage.getItem('selector-current-theme') || 'default',
+      component: ''
     };
     this.changeTheme = this.changeTheme.bind(this);
+    this.onComponent = this.onComponent.bind(this);
+  }
+
+  componentDidMount() {
+    const { channel } = this.props;
+    // Listen to the notes and render it.
+    channel.on('theme/switch', this.onComponent);
+  }
+
+  onComponent(component) {
+    this.setState({ component });
   }
 
   changeTheme($event) {
@@ -61,7 +75,7 @@ class Notes extends React.Component {
   }
 
   render() {
-    const { theme } = this.state;
+    const { theme, component } = this.state;
     return (
       <div style={styles}>
         {themes.map(them => (
@@ -83,6 +97,7 @@ class Notes extends React.Component {
             {them.name}
           </button>
         ))}
+        <ThemeBuilder component={component} theme={theme} />
       </div>
     );
   }

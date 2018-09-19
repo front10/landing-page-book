@@ -16,7 +16,7 @@ stories.addDecorator(withKnobs);
 stories.addWithJSX(
   'Button',
   withReadme([Readme], () => (
-    <ThemeSelector>
+    <ThemeSelector component="Button">
       <Button
         disabled={boolean('Disabled', false)}
         loading={boolean('Loading', false)}

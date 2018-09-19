@@ -35,19 +35,20 @@ export class ThemeSelector extends React.Component {
   }
 
   render() {
-    const { children } = this.props;
+    const { children, component } = this.props;
     const channel = addons.getChannel();
-
-    channel.emit('theme/switch');
+    channel.emit('theme/switch', component);
     return children;
   }
 }
 
 ThemeSelector.propTypes = {
   theme: PropTypes.string,
+  component: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 
 ThemeSelector.defaultProps = {
+  component: '',
   children: null
 };

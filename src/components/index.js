@@ -38,7 +38,6 @@ import Social from './Social';
 import Sponsors from './Sponsors';
 import Team from './Team';
 import TextBox from './TextBox';
-import ThemeBuilder from './ThemeBuilder';
 import Video from './Video';
 import Wizard from './Wizard';
 
@@ -83,7 +82,6 @@ export {
   Sponsors,
   Team,
   TextBox,
-  ThemeBuilder,
   Video,
   Wizard
 };

@@ -2,7 +2,6 @@
 
 exports[`TextBox TextBox should render 1`] = `
 ReactWrapper {
-  "length": 1,
   Symbol(enzyme.__unrendered__): <TextBox
     className=""
     text=""
@@ -12,6 +11,7 @@ ReactWrapper {
     "batchedUpdates": [Function],
     "getNode": [Function],
     "render": [Function],
+    "simulateError": [Function],
     "simulateEvent": [Function],
     "unmount": [Function],
   },
@@ -176,8 +176,20 @@ ReactWrapper {
     "adapter": ReactSixteenAdapter {
       "options": Object {
         "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
       },
     },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
   },
 }
 `;

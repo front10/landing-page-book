@@ -1,5 +1,5 @@
 .Button {
-  border-radius: $Button-borderRadius;
-  font-size: $Button-fontSize;
-  padding: $Button-padding;
+  border-radius: var(--Button-borderRadius);
+  font-size: var(--Button-fontSize);
+  padding: var(--Button-padding);
 }

@@ -25,11 +25,7 @@ themes.forEach(item => {
 });
 
 gulp.task('compile-themes-watch', () => {
-  gulp.watch(watch, tasks);
+  gulp.watch(watch, gulp.parallel(tasks));
 });
 
-gulp.task('compile-themes-force', () => {
-  themes.forEach(item => {
-    gulp.start(`compile-theme-${item}`);
-  });
-});
+gulp.task('compile-themes-force', gulp.parallel(tasks));

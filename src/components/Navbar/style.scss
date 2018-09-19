@@ -1,13 +1,13 @@
 .Navbar {
-  background-color: $Header-backgroundColor;
+  background-color: var(--Header-backgroundColor);
   .NavbarLink,
   .Navbar__Toggler,
   .NavbarBrand {
-    color: $Header-color !important;
+    color: var(--Header-color) !important;
     cursor: pointer;
   }
   .NavbarLink:hover {
-    color: $Header--hover-color !important;
+    color: var(--Header--hover-color) !important;
   }
   .NavbarBrand {
     .Logo {

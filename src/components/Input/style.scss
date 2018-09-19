@@ -1,18 +1,24 @@
+:root {
+  --Input-borderRadius: 0px;
+  --Input-fontSize: 0.7rem;
+  --Input-color: #000;
+}
+
 .Input__Container {
   position: relative;
   .Input__Container__Conponent {
-    border-radius: $Input-borderRadius;
-    font-size: $Input-fontSize;
-    color: $Input-color;
+    border-radius: var(--Input-borderRadius);
+    font-size: var(--Input-fontSize);
+    color: var(--Input-color);
   }
   .Input__Container__Conponent[type='color'] {
     height: 30px;
   }
   .Input__Container__Icon {
     position: absolute;
-    font-size: $Input-fontSize;
+    font-size: var(--Input-fontSize);
     top: 10px;
-    color: $Input-color;
+    color: var(--Input-color);
   }
   .Input__Container__Conponent--left {
     padding-left: 30px;

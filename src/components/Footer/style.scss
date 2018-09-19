@@ -1,19 +1,28 @@
+:root {
+    --Footer-color: #cccccc;
+    --Footer-backgroundColor: #383d45;
+    --Footer__Sections__Link--hover-color: #fed136;
+    --Footer__Sections__Header-fontSize: 1.5rem;
+    --Footer__Sections__Link-fontSize: 0.8rem;
+    --Footer__Copyright-fontSize: 0.8rem;
+}
+
 .Footer {
-  padding: 2.5rem 0;
-  color: $Footer-color;
-  text-align: center;
-  background-color: $Footer-backgroundColor;
-  .Footer__Copyright {
-    font-size: $Footer__Copyright-fontSize;
-  }
-  .Footer__Sections__Header {
-    font-size: $Footer__Sections__Header-fontSize;
-  }
-  a {
-    color: $Footer-color;
-    font-size: $Footer__Sections__Link-fontSize;
-  }
-  a:hover {
-    color: $Footer__Sections__Link--hover-color;
-  }
+    padding: 2.5rem 0;
+    color: var(--Footer-color);
+    text-align: center;
+    background-color: var(--Footer-backgroundColor);
+    .Footer__Copyright {
+        font-size: var(--Footer__Copyright-fontSize);
+    }
+    .Footer__Sections__Header {
+        font-size: var(--Footer__Sections__Header-fontSize);
+    }
+    a {
+        color: var(--Footer-color);
+        font-size: var(--Footer__Sections__Link-fontSize);
+    }
+    a:hover {
+        color: var(--Footer__Sections__Link--hover-color);
+    }
 }

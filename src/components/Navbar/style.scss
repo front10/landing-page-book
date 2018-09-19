@@ -1,24 +1,30 @@
+:root {
+    --Navbar-backgroundColor: #383d45;
+    --Navbar-color: var(--grey1);
+    --Navbar--hover-color: #fed136;
+}
+
 .Navbar {
-  background-color: $Header-backgroundColor;
-  .NavbarLink,
-  .Navbar__Toggler,
-  .NavbarBrand {
-    color: $Header-color !important;
-    cursor: pointer;
-  }
-  .NavbarLink:hover {
-    color: $Header--hover-color !important;
-  }
-  .NavbarBrand {
-    .Logo {
-      max-height: 60px;
+    background-color: var(--Navbar-backgroundColor);
+    .NavbarLink,
+    .Navbar__Toggler,
+    .NavbarBrand {
+        color: var(--Navbar-color) !important;
+        cursor: pointer;
     }
-  }
-  .LanguageSwitcher {
-    padding: 0.5rem 1rem;
-  }
+    .NavbarLink:hover {
+        color: var(--Navbar--hover-color) !important;
+    }
+    .NavbarBrand {
+        .Logo {
+            max-height: 60px;
+        }
+    }
+    .LanguageSwitcher {
+        padding: 0.5rem 1rem;
+    }
 }
 
 .Navbar--transparent {
-  background-color: transparent;
+    background-color: transparent;
 }

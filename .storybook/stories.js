@@ -43,7 +43,6 @@ import '../src/stories/components/section';
 import '../src/stories/components/social';
 import '../src/stories/components/sponsors';
 import '../src/stories/components/team';
-import '../src/stories/components/theme-builder';
 import '../src/stories/components/video';
 import '../src/stories/components/wizard';
 

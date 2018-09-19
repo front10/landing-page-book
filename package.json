@@ -4,7 +4,7 @@
     "description": "A react library for landing page",
     "main": "dist/index.js",
     "scripts": {
-        "start": "node storybook-utils/node-server/basic.js & gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
+        "start": "gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
         "build-storybook": "build-storybook -c .storybook -o public -s ./assets",
         "build-theme": "gulp compile-themes-watch",
         "test": "jest --coverage --config ./jest.config.js",
@@ -34,7 +34,7 @@
     "bugs": {
         "url": "https://github.com/front10/landing-page-book/issues"
     },
-    "homepage": "https://front10.github.io/landing-page-book/",
+    "homepage": "https://front10.github.io",
     "devDependencies": {
         "@storybook/addon-centered": "^3.3.12",
         "@storybook/addon-knobs": "^3.4.2",

@@ -8,5 +8,6 @@ module.exports = {
     '^(?!.*\\.(js|jsx|json)$)': '<rootDir>/jest/fileTransform.js'
   },
   moduleNameMapper: {},
-  coverageReporters: ['json', 'text', 'html']
+  coverageReporters: ['json', 'text', 'html'],
+  testURL: 'http://localhost/'
 };

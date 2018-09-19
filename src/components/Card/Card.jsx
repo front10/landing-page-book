@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Image from '../Image';
 
 class Card extends React.Component {
   render() {
@@ -18,12 +19,13 @@ class Card extends React.Component {
       <div className={`card h-100 Card ${!showBorder ? 'border-0' : ''}`}>
         <div className={`card-body text-${contentAlign}`}>
           {image && (
-            <img
-              className={`${imageCircle ? 'rounded-circle' : ''} ${
-                imageBorder ? 'img-thumbnail' : ''
-              } img-fluid`}
-              src={image}
+            <Image
+              border={imageBorder}
+              rounded={imageCircle}
               alt="Generic placeholder"
+              src={image}
+              width={300}
+              height={300}
             />
           )}
           {title && <div className="Card__Title mb-2">{title}</div>}

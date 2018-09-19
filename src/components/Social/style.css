@@ -1,0 +1,12 @@
+.SocialMediaShareButton {
+  display: inline-block;
+  cursor: pointer; }
+  .SocialMediaShareButton div {
+    width: 35px !important;
+    height: 35px !important; }
+  .SocialMediaShareButton svg {
+    width: 30px;
+    height: 30px; }
+
+.SocialMediaShareButton--grayScale svg {
+  filter: grayscale(1); }

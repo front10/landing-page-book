@@ -1,39 +1,31 @@
 /*Bootstarp*/
 
 @import '~bootstrap/dist/css/bootstrap.css';
-
 /*Font-awesome*/
 
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
-
 /* Code component themes*/
 
 @import '~codemirror/lib/codemirror.css';
 /*@import '~codemirror/theme/idea.css';*/
+
 @import '~codemirror/theme/blackboard.css';
-
 @import '~react-json-pretty/src/JSONPretty.monikai.css';
-
 /* React flags select */
 
 @import '~react-flags-select/scss/react-flags-select.scss';
-
 /* Gif player */
 
 @import '~react-gif-player/src/GifPlayer';
-
 /* Wizard */
 
 @import '~react-stepzilla/src/css/main.css';
-
 /*Variables*/
 
 @import './variables.scss';
-
 /*Custom*/
 
 @import 'custom';
-
 /*Components*/
 
 @import '../../../components/Backers/style.scss';
@@ -42,23 +34,23 @@
 @import '../../../components/Button/style.scss';
 @import '../../../components/Card/style.scss';
 @import '../../../components/Code/style.scss';
-@import '../../../components/ContactInfo/style';
-@import '../../../components/ContactUs/style';
-@import '../../../components/Footer/style';
+@import '../../../components/ContactInfo/style.scss';
+@import '../../../components/ContactUs/style.scss';
+@import '../../../components/Footer/style.scss';
 @import '../../../components/Gif/style.scss';
 @import '../../../components/GithubButton/style.scss';
-@import '../../../components/Navbar/style';
-@import '../../../components/Hero/style';
-@import '../../../components/Input/style';
-@import '../../../components/Label/style';
-@import '../../../components/Link/style';
-@import '../../../components/NavbarLink/style';
-@import '../../../components/LanguageSwitcher/style';
-@import '../../../components/Section/style';
-@import '../../../components/Social/style';
-@import '../../../components/Team/style';
-@import '../../../components/Features/style';
-@import '../../../components/ImageList/style';
-@import '../../../components/Video/style';
-@import '../../../components/Wizard/style';
-@import '../../../components/TextBox/style';
+@import '../../../components/Navbar/style.scss';
+@import '../../../components/Hero/style.scss';
+@import '../../../components/Input/style.scss';
+@import '../../../components/Label/style.scss';
+@import '../../../components/Link/style.scss';
+@import '../../../components/NavbarLink/style.scss';
+@import '../../../components/LanguageSwitcher/style.scss';
+@import '../../../components/Section/style.scss';
+@import '../../../components/Social/style.scss';
+@import '../../../components/Team/style.scss';
+@import '../../../components/Features/style.scss';
+@import '../../../components/ImageList/style.scss';
+@import '../../../components/Video/style.scss';
+@import '../../../components/Wizard/style.scss';
+@import '../../../components/TextBox/style.scss';

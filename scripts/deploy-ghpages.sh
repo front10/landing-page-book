@@ -25,6 +25,8 @@ git checkout --orphan gh-pages
 git rm -rf --cached . &&
 sudo npm update -g npm@latest &&
 npm install &&
+npm run eslint &&
+npm run test -- -u &&
 npm run build-storybook &&  
 
 find . | grep -v "public" | grep -v ".git"| grep -v "."| grep -v ".." | xargs rm -rf &&

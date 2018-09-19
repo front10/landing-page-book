@@ -1,19 +1,33 @@
+:root {
+  --Hero__Header-fontSize: 75px;
+  --Hero__Header-fontStyle: normal;
+  --Hero__Header-color: var(#fff);
+  --Hero__Header-fontWeight: 700;
+  --Hero__Header--phone-fontSize: 30px;
+  --Hero__SubHeader-fontSize: 40px;
+  --Hero__SubHeader-color: var(#fff);
+  --Hero__SubHeader-fontStyle: italic;
+  --Hero__SubHeader--phone-fontSize: 20px;
+  --Hero__Button-color: var(#fff);
+  --Hero__Button-backgroundColor: #fed136;
+}
+
 .Hero {
   .Hero__Header {
-    font-weight: $Hero__Header-fontWeight;
-    font-size: $Hero__Header-fontSize;
-    font-style: $Hero__Header-fontStyle;
-    color: $Hero__Header-color;
+    font-weight: var(--Hero__Header-fontWeight);
+    font-size: var(--Hero__Header-fontSize);
+    font-style: var(--Hero__Header-fontStyle);
+    color: var(--Hero__Header-color);
   }
   .Hero__SubHeader {
-    font-size: $Hero__SubHeader-fontSize;
-    font-style: $Hero__SubHeader-fontStyle;
-    color: $Hero__SubHeader-color;
+    font-size: var(--Hero__SubHeader-fontSize);
+    font-style: var(--Hero__SubHeader-fontStyle);
+    color: var(--Hero__SubHeader-color);
   }
   .Hero__Button {
     padding: 20px 40px;
-    color: $Hero__Button-color;
-    background-color: $Hero__Button-backgroundColor;
+    color: var(--Hero__Button-color);
+    background-color: var(--Hero__Button-backgroundColor);
   }
   .Hero__Particles {
     position: absolute;
@@ -22,7 +36,6 @@
     left: 0;
     top: 0;
     z-index: 1;
-
     div {
       height: 100%;
     }
@@ -34,8 +47,7 @@
     top: 0;
     left: 0;
     z-index: 2;
-
-    .container{
+    .container {
       margin: auto;
     }
   }
@@ -43,9 +55,9 @@
 
 @media (max-width: 768px) {
   .Hero__Header {
-    font-size: $Hero__Header--phone-fontSize !important;
+    font-size: var(--Hero__Header--phone-fontSize) !important;
   }
   .Hero__SubHeader {
-    font-size: $Hero__SubHeader--phone-fontSize !important;
+    font-size: var(--Hero__SubHeader--phone-fontSize) !important;
   }
 }

@@ -24,8 +24,25 @@ themes.forEach(item => {
   tasks.push(`compile-theme-${item}`);
 });
 
+gulp.task(`compile-components`, () =>
+  gulp
+    .src(`src/components/**/style.scss`)
+    .pipe(
+      sass({
+        includePaths: ['node_modules'],
+        importer: tildeImporter
+      })
+    )
+    .pipe(css())
+    .pipe(gulp.dest(`src/components`))
+);
+
 gulp.task('compile-themes-watch', () => {
   gulp.watch(watch, gulp.parallel(tasks));
+});
+
+gulp.task('compile-components-watch', () => {
+  gulp.watch(['src/components/**/*.scss'], gulp.parallel(['compile-components']));
 });
 
 gulp.task('compile-themes-force', gulp.parallel(tasks));

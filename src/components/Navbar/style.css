@@ -1,0 +1,21 @@
+:root {
+  --Navbar-backgroundColor: #383d45;
+  --Navbar-color: var(--grey1);
+  --Navbar--hover-color: #fed136; }
+
+.Navbar {
+  background-color: var(--Navbar-backgroundColor); }
+  .Navbar .NavbarLink,
+  .Navbar .Navbar__Toggler,
+  .Navbar .NavbarBrand {
+    color: var(--Navbar-color) !important;
+    cursor: pointer; }
+  .Navbar .NavbarLink:hover {
+    color: var(--Navbar--hover-color) !important; }
+  .Navbar .NavbarBrand .Logo {
+    max-height: 60px; }
+  .Navbar .LanguageSwitcher {
+    padding: 0.5rem 1rem; }
+
+.Navbar--transparent {
+  background-color: transparent; }

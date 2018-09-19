@@ -1,10 +1,10 @@
+@import '~react-gif-player/dist/gifplayer.css';
 .Gif {
-  .gif_player {
-    width: 100%;
-
-    img {
-      width: 100%;
-      height: auto;
+    .gif_player {
+        width: 100%;
+        img {
+            width: 100%;
+            height: auto;
+        }
     }
-  }
 }

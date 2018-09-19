@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import ContentLoader from 'react-content-loader';
 
 class Image extends Component {
   constructor(props) {
@@ -27,8 +28,10 @@ class Image extends Component {
     const { alt, src, rounded, border, width, height, tooltip, className } = this.props;
     const { loaded } = this.state;
     let tempClass = className;
+    let widthTemp = width;
     if (rounded) tempClass += ` rounded-circle`;
     if (border) tempClass += ` img-thumbnail`;
+    if (!width) widthTemp = 100;
     return (
       <React.Fragment>
         <img
@@ -42,11 +45,16 @@ class Image extends Component {
           onLoad={() => this.setState({ loaded: true })}
         />
         {!loaded && (
-          <svg alt={alt} className={tempClass} width={width} height={height} viewBox="0 0 100 100">
-            <rect width="100" height="100" fill="#CCC">
-              <title>{tooltip}</title>
-            </rect>
-          </svg>
+          <ContentLoader
+            height={widthTemp / 4}
+            width={widthTemp / 4}
+            speed={1}
+            className={tempClass}
+            primaryColor="#f3f3f3"
+            secondaryColor="#ecebeb"
+          >
+            <rect x="0" y="0" rx="0" ry="0" width={widthTemp} height={widthTemp} />
+          </ContentLoader>
         )}
       </React.Fragment>
     );

@@ -28,8 +28,12 @@ class Image extends Component {
     const { alt, src, rounded, border, width, height, tooltip, className } = this.props;
     const { loaded } = this.state;
     let tempClass = className;
+    let widthTemp = width;
     if (rounded) tempClass += ` rounded-circle`;
     if (border) tempClass += ` img-thumbnail`;
+    if (!width) widthTemp = 100;
+    console.log(width);
+    console.log(!width);
     return (
       <React.Fragment>
         <img
@@ -44,14 +48,14 @@ class Image extends Component {
         />
         {!loaded && (
           <ContentLoader
-            height={height / 4}
-            width={width / 4}
+            height={widthTemp / 4}
+            width={widthTemp / 4}
             speed={1}
             className={tempClass}
             primaryColor="#f3f3f3"
             secondaryColor="#ecebeb"
           >
-            <rect x="0" y="0" rx="0" ry="0" width={width} height={height} />
+            <rect x="0" y="0" rx="0" ry="0" width={widthTemp} height={widthTemp} />
           </ContentLoader>
         )}
       </React.Fragment>

@@ -24,8 +24,6 @@ class Card extends React.Component {
               rounded={imageCircle}
               alt="Generic placeholder"
               src={image}
-              width={300}
-              height={300}
             />
           )}
           {title && <div className="Card__Title mb-2">{title}</div>}

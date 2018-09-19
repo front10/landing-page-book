@@ -1,6 +1,6 @@
 {
   "name": "@front10/landing-page-book",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "description": "A react library for landing page",
   "main": "dist/index.js",
   "scripts": {

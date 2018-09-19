@@ -1,0 +1,34 @@
+:root {
+  --LanguageSwitcher-borderRadius: 0px;
+  --LanguageSwitcher-fontSize: 0.7rem;
+  --LanguageSwitcher__Option--hover-backgroundColor: #eaeaea;
+  --LanguageSwitcher__Option--hover-color: #000;
+  --LanguageSwitcher__Option-color: #000;
+  --LanguageSwitcher--disabled-color: #b5b5b5; }
+
+.LanguageSwitcher .country-flag {
+  color: var(--LanguageSwitcher__Option-color); }
+
+.LanguageSwitcher .flag-select .no--focus .country-flag {
+  color: var(--LanguageSwitcher--disabled-color); }
+  .LanguageSwitcher .flag-select .no--focus .country-flag img {
+    filter: grayscale(0.5); }
+
+.LanguageSwitcher .flag-select .country-label {
+  font-size: var(--LanguageSwitcher-fontSize); }
+
+.LanguageSwitcher .flag-select .flag-option:hover {
+  background: var(--LanguageSwitcher__Option--hover-backgroundColor);
+  color: var(--LanguageSwitcher__Option--hover-color); }
+
+.LanguageSwitcher .flag-select img {
+  top: 0px; }
+
+.LanguageSwitcher .flag-options {
+  border-radius: var(--LanguageSwitcher-borderRadius); }
+
+.LanguageSwitcher--noflag .flag-select img {
+  display: none; }
+
+.LanguageSwitcher--noarrow .arrow-down {
+  display: none; }

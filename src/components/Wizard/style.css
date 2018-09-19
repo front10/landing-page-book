@@ -1,0 +1,4 @@
+.Wizard .multi-step .footer-buttons {
+  padding-top: 20px; }
+  .Wizard .multi-step .footer-buttons button {
+    border-radius: var(--Button-borderRadius); }

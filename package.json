@@ -4,7 +4,7 @@
   "description": "A react library for landing page",
   "main": "dist/index.js",
   "scripts": {
-    "start": "gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
+    "start": "gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
     "build-storybook": "build-storybook -c .storybook -o public -s ./assets",
     "build-theme": "gulp compile-themes-watch",
     "test": "jest --coverage --config ./jest.config.js",

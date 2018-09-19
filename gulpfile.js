@@ -5,12 +5,12 @@ const tildeImporter = require('node-sass-tilde-importer');
 
 const themes = ['default', 'graphql', 'react', 'webpack'];
 const tasks = [];
-const watch = ['src/components/**/*.scss', 'src/themes/**/style/*.scss'];
+const watch = ['src/components/**/*.scss', 'src/themes/**/scss/*.scss'];
 
 themes.forEach(item => {
   gulp.task(`compile-theme-${item}`, () =>
     gulp
-      .src(`src/themes/${item}/style/index.scss`)
+      .src(`src/themes/${item}/scss/index.scss`)
       .pipe(
         sass({
           includePaths: ['node_modules'],
@@ -19,6 +19,7 @@ themes.forEach(item => {
       ) // Using gulp-sass
       .pipe(css())
       .pipe(gulp.dest(`assets/themes/${item}/style`))
+      .pipe(gulp.dest(`src/themes/${item}/css`))
   );
 
   tasks.push(`compile-theme-${item}`);

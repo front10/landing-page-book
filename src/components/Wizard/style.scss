@@ -1,10 +1,11 @@
+@import '~react-stepzilla/src/css/main.css';
 .Wizard {
-    .multi-step {
-        .footer-buttons {
-            padding-top: 20px;
-            button {
-                border-radius: var(--Button-borderRadius);
-            }
-        }
+  .multi-step {
+    .footer-buttons {
+      padding-top: 20px;
+      button {
+        border-radius: var(--Button-borderRadius);
+      }
     }
+  }
 }

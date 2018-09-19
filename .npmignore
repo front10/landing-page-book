@@ -1,6 +1,4 @@
 src
-src/addons
-src/stories
 examples
 .babelrc
 .gitignore

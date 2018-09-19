@@ -1,31 +1,15 @@
 /*Bootstarp*/
 
 @import '~bootstrap/dist/css/bootstrap.css';
-/*Font-awesome*/
-
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
 /* Code component themes*/
 
-@import '~codemirror/lib/codemirror.css';
-/*@import '~codemirror/theme/idea.css';*/
-
-@import '~codemirror/theme/blackboard.css';
-@import '~react-json-pretty/src/JSONPretty.monikai.css';
-/* React flags select */
-
-@import '~react-flags-select/scss/react-flags-select.scss';
-/* Gif player */
-
-@import '~react-gif-player/src/GifPlayer';
-/* Wizard */
-
-@import '~react-stepzilla/src/css/main.css';
+@import '~codemirror/theme/oceanic-next.css';
 /*Variables*/
 
 @import './variables.scss';
 /*Custom*/
 
-@import 'custom';
+@import './custom';
 /*Components*/
 
 @import '../../../components/Backers/style.scss';
@@ -41,6 +25,7 @@
 @import '../../../components/GithubButton/style.scss';
 @import '../../../components/Navbar/style.scss';
 @import '../../../components/Hero/style.scss';
+@import '../../../components/Icon/style.scss';
 @import '../../../components/Input/style.scss';
 @import '../../../components/Label/style.scss';
 @import '../../../components/Link/style.scss';

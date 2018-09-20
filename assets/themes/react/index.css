@@ -912,7 +912,7 @@ body {
 
 :root {
   --Navbar-backgroundColor: #383d45;
-  --Navbar-color: var(--grey1);
+  --Navbar-color: #b9bfc7;
   --Navbar--hover-color: #fed136; }
 
 :root {
@@ -1179,7 +1179,7 @@ body {
 
 :root {
   --Navbar-backgroundColor: #383d45;
-  --Navbar-color: var(--grey1);
+  --Navbar-color: #b9bfc7;
   --Navbar--hover-color: #fed136; }
 
 :root {

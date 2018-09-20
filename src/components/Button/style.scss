@@ -4,6 +4,7 @@
     --Button-padding: 0.375rem 0.75rem;
 }
 
+@import '../Icon/style.scss';
 .Button {
     border-radius: var(--Button-borderRadius);
     font-size: var(--Button-fontSize);

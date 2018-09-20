@@ -9,6 +9,7 @@
     --Card__Subtitle-color: #b5b5b5;
 }
 
+@import '../Image/style.scss';
 .Card {
     background-color: transparent;
     border-radius: var(--Card-borderRadius);

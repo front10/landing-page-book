@@ -33,10 +33,7 @@ class Notes extends React.Component {
         if (root) {
           root.style.display = 'none';
         }
-        link.setAttribute(
-          'href',
-          `themes/${$event.currentTarget.id.toLowerCase()}/style/index.css`
-        );
+        link.setAttribute('href', `themes/${$event.currentTarget.id.toLowerCase()}/index.css`);
         let loaderTheme = Iframedocument.getElementById('story-book-loader-theme');
         if (!loaderTheme) {
           loaderTheme = Iframedocument.createElement('div');

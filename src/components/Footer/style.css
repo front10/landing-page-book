@@ -6,6 +6,19 @@
   --Footer__Sections__Link-fontSize: 0.8rem;
   --Footer__Copyright-fontSize: 0.8rem; }
 
+.SocialMediaShareButton {
+  display: inline-block;
+  cursor: pointer; }
+  .SocialMediaShareButton div {
+    width: 35px !important;
+    height: 35px !important; }
+  .SocialMediaShareButton svg {
+    width: 30px;
+    height: 30px; }
+
+.SocialMediaShareButton--grayScale svg {
+  filter: grayscale(1); }
+
 .Footer {
   padding: 2.5rem 0;
   color: var(--Footer-color);

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import Header from '../Header';
 
 class Section extends Component {
   render() {
@@ -9,8 +10,8 @@ class Section extends Component {
         <div className={`p-5 ${contentClassName}`}>
           {(title || subTitle) && (
             <div className="mb-5 text-center">
-              {title && <div className="Section__Title mb-2">{title}</div>}
-              {subTitle && <div className="Section__Subtitle mb-2">{subTitle}</div>}
+              {title && <Header className="Section__Title mb-2">{title}</Header>}
+              {subTitle && <Header className="Section__Subtitle mb-2">{subTitle}</Header>}
             </div>
           )}
           {children}

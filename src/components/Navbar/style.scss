@@ -4,6 +4,12 @@
     --Navbar--hover-color: #fed136;
 }
 
+@import '../Button/style.scss';
+@import '../NavbarBrand/style.scss';
+@import '../Image/style.scss';
+@import '../NavbarCollapse/style.scss';
+@import '../NavbarNav/style.scss';
+@import '../NavbarLink/style.scss';
 .Navbar {
     background-color: var(--Navbar-backgroundColor);
     .NavbarLink,

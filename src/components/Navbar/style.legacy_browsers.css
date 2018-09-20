@@ -1,0 +1,31 @@
+:root {
+  --Navbar-backgroundColor: #383d45;
+  --Navbar-color: #b9bfc7;
+  --Navbar--hover-color: #fed136; }
+
+:root {
+  --Button-borderRadius: 0px;
+  --Button-fontSize: 1rem;
+  --Button-padding: 0.375rem 0.75rem; }
+
+.Button {
+  border-radius: 0px;
+  font-size: 1rem;
+  padding: 0.375rem 0.75rem; }
+
+.Navbar {
+  background-color: #383d45; }
+  .Navbar .NavbarLink,
+  .Navbar .Navbar__Toggler,
+  .Navbar .NavbarBrand {
+    color: #b9bfc7 !important;
+    cursor: pointer; }
+  .Navbar .NavbarLink:hover {
+    color: #fed136 !important; }
+  .Navbar .NavbarBrand .Logo {
+    max-height: 60px; }
+  .Navbar .LanguageSwitcher {
+    padding: 0.5rem 1rem; }
+
+.Navbar--transparent {
+  background-color: transparent; }

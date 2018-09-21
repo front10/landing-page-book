@@ -6,12 +6,26 @@
 `@front10/landing-page-book/Wizard` is used to create a wizard based in [react-stepzilla](https://github.com/newbreedofgeek/react-stepzilla).
 
 ## How to use
-1- Add following content to import the component:
+1- Importing bootstrap style
+
 ```js
-import {Wizard} from '@front10/landing-page-book/src/components';
+import "bootstrap/dist/css/bootstrap.min.css";
+```
+2- Add following content to import the component:
+
+###### (Recommended)
+```js
+import Wizard from "@front10/landing-page-book/dist/components/Wizard";
+import "@front10/landing-page-book/dist/components/Wizard/style.css";
+```
+or
+
+```js
+import { Wizard } from '@front10/landing-page-book/dist/components';
+import "@front10/landing-page-book/dist/themes/default/style.css";
 ```
 
-2- Put this code into jsx page:
+3- Put this code into jsx page:
 ```html
 <Wizard steps={steps} />
 ```

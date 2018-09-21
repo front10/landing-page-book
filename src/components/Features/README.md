@@ -6,14 +6,26 @@
 `@front10/landing-page-book/Features` is used to show your project features.
 
 ## How to use
-
-1- Add following content to import the component
+1- Importing bootstrap style
 
 ```js
-import {Feature} from '@front10/landing-page-book/src/components';
+import "bootstrap/dist/css/bootstrap.min.css";
+```
+2- Add following content to import the component:
+
+###### (Recommended)
+```js
+import Features from "@front10/landing-page-book/dist/components/Features";
+import "@front10/landing-page-book/dist/components/Features/style.css";
+```
+or
+
+```js
+import { Features } from '@front10/landing-page-book/dist/components';
+import "@front10/landing-page-book/dist/themes/default/style.css";
 ```
 
-2- Put this code into jsx page
+3- Put this code into jsx page
 
 ```html
 

@@ -34,6 +34,7 @@ stories.addWithJSX(
         showCounter={boolean('Show count', true)}
         showBtnText={boolean('Show button text', true)}
         showGithubIcon={boolean('Show Github icon', false)}
+        loadingClass={text('Loading class', 'fa fa-circle-o-notch fa-spin')}
       />
     </ThemeSelector>
   )),

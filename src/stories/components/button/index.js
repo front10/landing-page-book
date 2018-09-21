@@ -21,6 +21,7 @@ stories.addWithJSX(
         disabled={boolean('Disabled', false)}
         loading={boolean('Loading', false)}
         tooltip={text('Tooltip', 'Tis is a button tooltip')}
+        loadingClass={text('Loading class', 'fa fa-circle-o-notch fa-spin')}
         className={text('Class name', 'btn-primary btn-block active')}
       >
         <i className="fa fa-home" />

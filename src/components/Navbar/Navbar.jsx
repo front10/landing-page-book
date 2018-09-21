@@ -24,7 +24,7 @@ class Navbar extends Component {
       const top = window.scrollY < 100;
       const { isTop } = this.state;
       if (top !== isTop) {
-        this.setState({ isTop });
+        this.setState({ isTop: top });
       }
     });
   }
@@ -50,7 +50,6 @@ class Navbar extends Component {
   }
 
   render() {
-    // const state = this.state;
     const { collapse } = this.state;
     const {
       companyName,

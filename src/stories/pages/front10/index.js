@@ -104,6 +104,7 @@ stories.addWithJSX(
         companyLogo="images/logo/front10.png"
         rightItems={rightItems}
         expand="md"
+        fixed
       />
       <Hero
         overlayColor="#383d45"

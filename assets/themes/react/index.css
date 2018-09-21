@@ -661,6 +661,8 @@ body {
   --Navbar-backgroundColor: #20232a;
   --Navbar-color: var(--grey1);
   --Navbar--hover-color: #61dafb;
+  --Navbar--transparent-backgroundColor: rgba(250, 250, 250, 0.9);
+  --Navbar--transparent-boxShadow: rgba(0, 0, 0, .124);
   /*GithubDetail*/
   --GithubDetail__countbubble-backgroundColor: #dcdcdc;
   --GithubDetail__countbubble-borderradius: 0.4em;
@@ -913,7 +915,9 @@ body {
 :root {
   --Navbar-backgroundColor: #383d45;
   --Navbar-color: #b9bfc7;
-  --Navbar--hover-color: #fed136; }
+  --Navbar--hover-color: #fed136;
+  --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
+  --Navbar--boxShadow: rgba(0, 0, 0, .124); }
 
 :root {
   --Button-borderRadius: 0px;
@@ -941,6 +945,12 @@ body {
 
 .Navbar--transparent {
   background-color: transparent; }
+
+.Navbar.navbar-down {
+  box-shadow: 0 0 4px var(--Navbar--boxShadow), 0 4px 8px var(--Navbar--boxShadow); }
+
+.Navbar.Navbar--transparent.navbar-down {
+  background-color: var(--Navbar--backgroundColor) !important; }
 
 :root {
   --Button-borderRadius: 0px;
@@ -1180,7 +1190,9 @@ body {
 :root {
   --Navbar-backgroundColor: #383d45;
   --Navbar-color: #b9bfc7;
-  --Navbar--hover-color: #fed136; }
+  --Navbar--hover-color: #fed136;
+  --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
+  --Navbar--boxShadow: rgba(0, 0, 0, .124); }
 
 :root {
   --Button-borderRadius: 0px;
@@ -1209,17 +1221,23 @@ body {
 .Navbar--transparent {
   background-color: transparent; }
 
+.Navbar.navbar-down {
+  box-shadow: 0 0 4px var(--Navbar--boxShadow), 0 4px 8px var(--Navbar--boxShadow); }
+
+.Navbar.Navbar--transparent.navbar-down {
+  background-color: var(--Navbar--backgroundColor) !important; }
+
 :root {
   --Hero__Header-fontSize: 75px;
   --Hero__Header-fontStyle: normal;
-  --Hero__Header-color: var(#fff);
+  --Hero__Header-color: #fff;
   --Hero__Header-fontWeight: 700;
   --Hero__Header--phone-fontSize: 30px;
   --Hero__SubHeader-fontSize: 40px;
-  --Hero__SubHeader-color: var(#fff);
+  --Hero__SubHeader-color: #fff;
   --Hero__SubHeader-fontStyle: italic;
   --Hero__SubHeader--phone-fontSize: 20px;
-  --Hero__Button-color: var(#fff);
+  --Hero__Button-color: #fff;
   --Hero__Button-backgroundColor: #fed136; }
 
 :root {

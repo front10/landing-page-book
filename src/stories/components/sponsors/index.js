@@ -1,6 +1,6 @@
 import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, boolean } from '@storybook/addon-knobs/react';
+import { withKnobs, boolean, text } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 
@@ -39,7 +39,11 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <div className="container">
-        <Sponsors gray={boolean('Use gray', true)} sponsors={sponsors} />
+        <Sponsors
+          ccsClassName={text('CssClassName', 'px-3')}
+          gray={boolean('Use gray', true)}
+          sponsors={sponsors}
+        />
       </div>
     </ThemeSelector>
   )),

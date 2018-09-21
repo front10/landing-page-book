@@ -22,7 +22,7 @@ class Team extends Component {
       <div className="Team row">
         {members.map(member => (
           <div
-            className={`col-12 col-md-4 text-${contentAlign} mb-4`}
+            className={`col-sm-12 col-md text-${contentAlign} mb-4`}
             key={`${member.name}${member.job}`}
           >
             <Card

@@ -19,6 +19,16 @@ class Navbar extends Component {
     this.setState({ collapse: false });
   }
 
+  componentDidMount() {
+    document.addEventListener('scroll', () => {
+      const top = window.scrollY < 100;
+      const { isTop } = this.state;
+      if (top !== isTop) {
+        this.setState({ isTop: top });
+      }
+    });
+  }
+
   collapse() {
     const { collapse } = this.state;
     this.setState({ collapse: !collapse });
@@ -40,7 +50,6 @@ class Navbar extends Component {
   }
 
   render() {
-    // const state = this.state;
     const { collapse } = this.state;
     const {
       companyName,
@@ -60,6 +69,8 @@ class Navbar extends Component {
     } Navbar`;
     if (transparent) navClassName += ` Navbar--transparent`;
     if (fixed) navClassName += ` fixed-top`;
+    const { isTop } = this.state;
+    navClassName += ` ${isTop ? 'navbar-up' : 'navbar-down'}`;
 
     return (
       <nav className={navClassName}>

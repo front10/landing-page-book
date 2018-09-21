@@ -84,7 +84,7 @@ const frameworks = [
 const buttons = [
   {
     text: 'TELL ME MORE',
-    onClick: () => {}
+    onClick: () => { }
   }
 ];
 
@@ -104,6 +104,8 @@ stories.addWithJSX(
         companyLogo="images/logo/front10.png"
         rightItems={rightItems}
         expand="md"
+        transparent
+        fixed
       />
       <Hero
         overlayColor="#383d45"

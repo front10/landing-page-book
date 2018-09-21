@@ -20,6 +20,8 @@ body {
   --Navbar-backgroundColor: #383d45;
   --Navbar-color: var(--grey1);
   --Navbar--hover-color: #fed136;
+  --Navbar--transparent-backgroundColor: rgba(250, 250, 250, 0.9);
+  --Navbar--transparent-boxShadow: rgba(0, 0, 0, .124);
   /*GithubDetail*/
   --GithubDetail__countbubble-backgroundColor: #dcdcdc;
   --GithubDetail__countbubble-borderradius: 0.4em;

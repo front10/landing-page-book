@@ -208,7 +208,7 @@ Code.defaultProps = {
   lineNumbers: true,
   showheader: true,
   showfooter: true,
-  updateCode: () => {}
+  updateCode: () => { }
 };
 
 export default Code;

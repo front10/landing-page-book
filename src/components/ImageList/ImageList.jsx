@@ -9,13 +9,23 @@ class ImageList extends Component {
   }
 
   render() {
-    const { images, gray, imageRounded, imageWidth, imageHeight, imageBordered } = this.props;
+    const {
+      images,
+      gray,
+      imageRounded,
+      imageWidth,
+      imageHeight,
+      imageBordered,
+      ccsClassName
+    } = this.props;
     /* eslint-disable react/no-array-index-key */
     return (
       <div className="ImageList">
         {images.map((imag, key) => (
           <div
-            className={`ImageList__Container ${gray ? 'ImageList__Container--grayScale' : ''}`}
+            className={`ImageList__Container ${ccsClassName} ${
+              gray ? 'ImageList__Container--grayScale' : ''
+              }`}
             key={key}
           >
             <a href={imag.url}>
@@ -38,6 +48,7 @@ class ImageList extends Component {
 }
 
 ImageList.propTypes = {
+  ccsClassName: PropTypes.string,
   gray: PropTypes.bool,
   imageRounded: PropTypes.bool,
   imageBordered: PropTypes.bool,
@@ -50,6 +61,7 @@ ImageList.propTypes = {
   )
 };
 ImageList.defaultProps = {
+  ccsClassName: 'px-2',
   gray: false,
   imageRounded: false,
   imageBordered: false,

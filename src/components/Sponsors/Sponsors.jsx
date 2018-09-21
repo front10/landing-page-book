@@ -9,12 +9,13 @@ class Sponsors extends React.Component {
   }
 
   render() {
-    const { gray, sponsors } = this.props;
-    return <ImageList gray={gray} images={sponsors} />;
+    const { gray, sponsors, ccsClassName } = this.props;
+    return <ImageList ccsClassName={ccsClassName} gray={gray} images={sponsors} />;
   }
 }
 
 Sponsors.propTypes = {
+  ccsClassName: PropTypes.string,
   gray: PropTypes.bool,
   sponsors: PropTypes.arrayOf(
     PropTypes.shape({
@@ -24,6 +25,7 @@ Sponsors.propTypes = {
 };
 
 Sponsors.defaultProps = {
+  ccsClassName: 'px-2',
   gray: false,
   sponsors: []
 };

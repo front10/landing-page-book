@@ -6,12 +6,26 @@
 `@front10/landing-page-book/Video` is used to show a videos.
 
 ## How to use
-1- Add following content to import the component:
+1- Importing bootstrap style
+
 ```js
-import {Video} from '@front10/landing-page-book/src/components';
+import "bootstrap/dist/css/bootstrap.min.css";
+```
+2- Add following content to import the component:
+
+###### (Recommended)
+```js
+import Video from "@front10/landing-page-book/dist/components/Video";
+import "@front10/landing-page-book/dist/components/Video/style.css";
+```
+or
+
+```js
+import { Video } from '@front10/landing-page-book/dist/components';
+import "@front10/landing-page-book/dist/themes/default/style.css";
 ```
 
-2- Put this code into jsx page:
+3- Put this code into jsx page:
 ```html
 <Video source={text("Source", "https://youtu.be/dCrLwWdju68")} />
 ```

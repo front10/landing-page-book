@@ -22,12 +22,13 @@ import { Button } from '@front10/landing-page-book/src/components';
 
 ## Properties:
 
-| </br>Name | </br>Type  | </br>Summary                              |
-| --------- | ---------- | ----------------------------------------- |
-| disabled  | `Boolean`  | Disable or enable button. Default `false` |
-| loading   | `Boolean`  | Show loading mode. Default `false`        |
-| className | `String`   | Class to apply to button. Default `""`    |
-| ariaLabel | `String`   | Aria label of the button. Default `""`    |
-| type      | `String`   | Type of the button. Default `"button"`    |
-| tooltip   | `String`   | Button tooltip. Default `""`              |
-| onClick   | `Function` | Called when button is clicked             |
+| </br>Name    | </br>Type  | </br>Summary                                                              |
+| ------------ | ---------- | ------------------------------------------------------------------------- |
+| disabled     | `Boolean`  | Disable or enable button. Default `false`                                 |
+| loading      | `Boolean`  | Show loading mode. Default `false`                                        |
+| loadingClass | `String`   | Class to show loading indicator. Default `"fa fa-circle-o-notch fa-spin"` |
+| className    | `String`   | Class to apply to button. Default `""`                                    |
+| ariaLabel    | `String`   | Aria label of the button. Default `""`                                    |
+| type         | `String`   | Type of the button. Default `"button"`                                    |
+| tooltip      | `String`   | Button tooltip. Default `""`                                              |
+| onClick      | `Function` | Called when button is clicked                                             |

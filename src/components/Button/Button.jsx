@@ -12,7 +12,8 @@ class Button extends Component {
       children,
       ariaLabel,
       type,
-      onClick
+      onClick,
+      loadingClass
     } = this.props;
     /* eslint-disable react/button-has-type */
     return (
@@ -25,7 +26,7 @@ class Button extends Component {
         type={type}
       >
         {!loading && children}
-        {loading && <Icon icon="fa fa-circle-o-notch fa-spin" />}
+        {loading && <Icon icon={loadingClass} />}
       </button>
     );
     /* eslint-enable react/button-has-type */
@@ -35,6 +36,7 @@ class Button extends Component {
 Button.propTypes = {
   disabled: PropTypes.bool,
   loading: PropTypes.bool,
+  loadingClass: PropTypes.string,
   className: PropTypes.string,
   ariaLabel: PropTypes.string,
   tooltip: PropTypes.string,
@@ -45,6 +47,7 @@ Button.propTypes = {
 Button.defaultProps = {
   disabled: false,
   loading: false,
+  loadingClass: 'fa fa-circle-o-notch fa-spin',
   className: '',
   ariaLabel: '',
   tooltip: '',

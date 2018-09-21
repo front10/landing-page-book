@@ -3,6 +3,12 @@
   --Input-fontSize: 0.7rem;
   --Input-color: #000; }
 
+:root {
+  --Label-fontSize: 0.7rem; }
+
+.Label {
+  font-size: var(--Label-fontSize); }
+
 .Input__Container {
   position: relative; }
   .Input__Container .Input__Container__Conponent {

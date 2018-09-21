@@ -1,0 +1,21 @@
+:root {
+  --Section__Title-fontSize: 2rem;
+  --Section__Title-color: #000;
+  --Section__Subtitle-fontSize: 0.9rem;
+  --Section__Subtitle-color: #b5b5b5;
+  --Section--gray-backgroundColor: #f8f9fa; }
+
+.Section div {
+  margin-left: auto;
+  margin-right: auto; }
+
+.Section .Section__Title {
+  font-size: 2rem;
+  color: #000; }
+
+.Section .Section__Subtitle {
+  font-size: 0.9rem;
+  color: #b5b5b5; }
+
+.Section--gray {
+  background-color: #f8f9fa; }

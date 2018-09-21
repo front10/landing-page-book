@@ -150,7 +150,7 @@ class GithubButton extends React.Component {
 
   render() {
     const { linkUrl, showGithubIcon, iconClass, showBtnText, showCounter, counter } = this.state;
-    const { btnText } = this.props;
+    const { btnText, loadingClass } = this.props;
     return (
       <div className="GithubDetail_btn_container d-inline">
         <a
@@ -170,7 +170,7 @@ class GithubButton extends React.Component {
                 {counter}{' '}
               </a>
             ) : (
-              <Icon icon="fa fa-circle-o-notch fa-spin" />
+              <Icon icon={loadingClass} />
             )}
           </span>
         )}
@@ -183,6 +183,7 @@ GithubButton.propTypes = {
   showCounter: PropTypes.bool,
   showBtnText: PropTypes.bool,
   showGithubIcon: PropTypes.bool,
+  loadingClass: PropTypes.string,
   username: PropTypes.string,
   repository: PropTypes.string,
   btnType: PropTypes.string,
@@ -193,6 +194,7 @@ GithubButton.defaultProps = {
   showCounter: true,
   showBtnText: true,
   showGithubIcon: false,
+  loadingClass: 'fa fa-circle-o-notch fa-spin',
   username: 'chubin',
   repository: 'cheat.sh',
   btnType: 'fork',

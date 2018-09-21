@@ -5,6 +5,9 @@
     --ContactUs__SubmitButton--hover-backgroundColor: #065ac5;
 }
 
+@import '../Button/style.scss';
+@import '../FormGroup/style.scss';
+@import '../Input/style.scss';
 .ContactUs {
     .ContactUs__SubmitButton {
         color: var(--ContactUs__SubmitButton-color);

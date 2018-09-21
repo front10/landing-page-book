@@ -1,11 +1,17 @@
 :root {
     --Navbar-backgroundColor: #383d45;
-    --Navbar-color: var(--grey1);
+    --Navbar-color: #b9bfc7;
     --Navbar--hover-color: #fed136;
     --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
     --Navbar--boxShadow: rgba(0, 0, 0, .124);
 }
 
+@import '../Button/style.scss';
+@import '../NavbarBrand/style.scss';
+@import '../Image/style.scss';
+@import '../NavbarCollapse/style.scss';
+@import '../NavbarNav/style.scss';
+@import '../NavbarLink/style.scss';
 .Navbar {
     background-color: var(--Navbar-backgroundColor);
     .NavbarLink,

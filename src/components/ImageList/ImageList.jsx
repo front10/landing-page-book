@@ -25,7 +25,7 @@ class ImageList extends Component {
           <div
             className={`ImageList__Container ${ccsClassName} ${
               gray ? 'ImageList__Container--grayScale' : ''
-              }`}
+            }`}
             key={key}
           >
             <a href={imag.url}>

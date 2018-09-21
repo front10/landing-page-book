@@ -21,8 +21,9 @@ class Navbar extends Component {
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-      const isTop = window.scrollY < 100;
-      if (isTop !== this.state.isTop) {
+      const top = window.scrollY < 100;
+      const { isTop } = this.state;
+      if (top !== isTop) {
         this.setState({ isTop });
       }
     });
@@ -66,10 +67,11 @@ class Navbar extends Component {
 
     let navClassName = `${className} navbar ${
       expand ? `navbar-expand-${expand}` : `navbar-expand`
-      } Navbar`;
+    } Navbar`;
     if (transparent) navClassName += ` Navbar--transparent`;
     if (fixed) navClassName += ` fixed-top`;
-    navClassName += ` ${this.state.isTop ? 'navbar-up' : 'navbar-down'}`;
+    const { isTop } = this.state;
+    navClassName += ` ${isTop ? 'navbar-up' : 'navbar-down'}`;
 
     return (
       <nav className={navClassName}>
@@ -146,7 +148,7 @@ Navbar.defaultProps = {
   leftItems: [],
   rightItems: [],
   children: null,
-  onItemClick: () => { }
+  onItemClick: () => {}
 };
 
 export default Navbar;

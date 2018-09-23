@@ -47,12 +47,12 @@ const members = [
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Team', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'Team',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Team

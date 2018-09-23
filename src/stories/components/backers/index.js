@@ -13,12 +13,12 @@ import backers from '../../mock/components/backers';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Backers', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'Backers',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Container>

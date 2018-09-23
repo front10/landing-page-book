@@ -35,7 +35,7 @@ stories.addWithJSX(
         image={text('Image', 'https://front10.com/img/header-bg.jpg')}
         opacity={number('Opacity', 1)}
         parallaxOffset={number('Parallax offset', 0)}
-        overlayColor={color('Overlay color', '#d43131', 'GROUP-ID1')}
+        overlayColor={color('Overlay color', '#373D45', 'GROUP-ID1')}
         minHeight={text('Min height', '100vh')}
         header={text('Header', 'REACT & ANGULARJS COMPONENTS')}
         subHeader={text('Sub header', 'Leverage your process!')}
@@ -59,7 +59,7 @@ stories.addWithJSX(
         image={text('Image', 'https://front10.com/img/header-bg.jpg')}
         opacity={number('Opacity', 1)}
         parallaxOffset={number('Parallax offset', 0)}
-        overlayColor={color('Overlay color', '#d43131', 'GROUP-ID1')}
+        overlayColor={color('Overlay color', '#373D45', 'GROUP-ID1')}
         minHeight={text('Min height', '100vh')}
         particlesParams={{ move: { speed: 2 } }}
       >

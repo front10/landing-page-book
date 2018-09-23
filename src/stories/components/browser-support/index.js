@@ -40,12 +40,12 @@ const browsers = [
 ];
 
 setAddon(JSXAddon);
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/BrowsersSupport', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'BrowsersSupport',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <BrowserSupport browsers={browsers} showText={boolean('Show text', true)} />

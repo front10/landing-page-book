@@ -28,12 +28,12 @@ const companies = [
 ];
 
 setAddon(JSXAddon);
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/BuiltWith', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'BuiltWith',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <div className="container">

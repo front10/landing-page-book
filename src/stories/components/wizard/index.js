@@ -51,12 +51,12 @@ const steps = [
   }
 ];
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Wizard', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'Wizard',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Wizard

@@ -12,12 +12,12 @@ import Readme from '../../../components/Video/README.md';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Video', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'Video',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Video

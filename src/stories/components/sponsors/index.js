@@ -12,7 +12,7 @@ import Readme from '../../../components/Features/README.md';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Sponsors', module);
 
 stories.addDecorator(withKnobs);
 
@@ -35,7 +35,7 @@ const sponsors = [
 ];
 
 stories.addWithJSX(
-  'Sponsors',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <div className="container">

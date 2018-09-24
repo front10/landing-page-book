@@ -32,14 +32,18 @@ stories.addWithJSX(
         isFixed={boolean('Fixed', true)}
         isCentered={boolean('Centered', true)}
         particles={boolean('With particles', true)}
-        image={text('Image', 'https://front10.com/img/header-bg.jpg')}
+        image={text('Image', 'https://c1.staticflickr.com/2/1845/43895099105_7329ee6bba_c.jpg')}
         opacity={number('Opacity', 1)}
         parallaxOffset={number('Parallax offset', 0)}
         overlayColor={color('Overlay color', '#373D45', 'GROUP-ID1')}
         minHeight={text('Min height', '100vh')}
-        header={text('Header', 'REACT & ANGULARJS COMPONENTS')}
+        header={text('Header', 'REACT COMPONENTS')}
         subHeader={text('Sub header', 'Leverage your process!')}
-        subHeaderPosition={select('Sub header position', { top: 'top', bottom: 'bottom' }, 'top')}
+        subHeaderPosition={select(
+          'Sub header position',
+          { top: 'top', bottom: 'bottom' },
+          'bottom'
+        )}
         buttons={buttons}
         particlesParams={{ move: { speed: 2 } }}
       />

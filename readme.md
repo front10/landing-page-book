@@ -88,9 +88,7 @@ class App extends Component {
 
 ### Custom styles
 
-Something like this:
-
-https://github.com/dennybritz/neal-react/blob/master/css/_variables.scss
+https://github.com/front10/landing-page-book/blob/master/theming.md
 
 ## Tests
 

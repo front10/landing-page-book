@@ -14,34 +14,27 @@ const stories = storiesOf('Components/Features', module);
 stories.addDecorator(withKnobs);
 const featuress = [
   {
-    image: 'images/features/dashboard.png',
-    title: 'Dashboard',
-    subtitle: 'Dashboard for Admin',
-    summary: 'Example of feature text, this component will allow to you to show all your features.',
+    image: 'images/features/responsive.png',
+    title: 'Responsive',
+    subtitle: 'Available in all resolutions',
+    summary:
+      'Our library is more responsive than the browser. All that you  needed is a web browser.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },
   {
-    image: 'images/features/react.png',
-    title: 'ReactJS',
-    subtitle: 'Build with ReactJS',
-    summary: 'Example of feature text, this component will allow to you to show all your features.',
+    image: 'images/features/themes.png',
+    title: 'Theming',
+    subtitle: 'Easy to create themes',
+    summary: 'Library customization with Css variables for easy theming and component changes.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },
   {
-    image: 'images/features/angular.png',
-    title: 'AngularJS',
-    subtitle: 'Powered by Angular 5',
-    summary: 'Example of feature text, this component will allow to you to show all your features.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  },
-  {
-    image: 'images/features/graphql.png',
-    title: 'GraphQL',
-    subtitle: 'GraphQL API',
-    summary: 'Example of feature text, this component will allow to you to show all your features.',
+    image: 'images/features/browsers.png',
+    title: 'Browsers',
+    subtitle: 'Compatible with all browsers',
+    summary: '@front10 / landing-page-book works in the main browsers. Try it and you will see.',
     link: 'https://front10.com',
     linktext: 'See more...'
   }

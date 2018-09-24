@@ -7,16 +7,18 @@
 `@front10/landing-page-book/LanguageSwitcher` is used to create a switcher language.
 
 ## How to use
+
 1- Importing bootstrap style
 
 ```js
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 ```
+
 2- Add following content to import the component:
 
 ```js
-import LanguageSwitcher from "@front10/landing-page-book/dist/components/LanguageSwitcher";
-import "@front10/landing-page-book/dist/components/LanguageSwitcher/style.css";
+import LanguageSwitcher from '@front10/landing-page-book/dist/components/LanguageSwitcher';
+import '@front10/landing-page-book/dist/components/LanguageSwitcher/style.css';
 ```
 
 > Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
@@ -41,7 +43,7 @@ const customLabels = {
 };
 ```
 
-## Properties:
+## Properties
 
 | </br>Name        | </br>Type  | </br>Summary                                                                                   |
 | ---------------- | ---------- | ---------------------------------------------------------------------------------------------- |
@@ -55,3 +57,14 @@ const customLabels = {
 | languages        | `Array`    | Array of languages to show, an array with countries codes. Default `"[]"`, see example section |
 | customLabels     | `Object`   | Configure label of languages. Default `"{}"`, see example section                              |
 | onSelect         | `Function` | Called when language selection change. Params `{language}`                                     |
+
+## Theming variables
+
+| </br>Name                                           | </br>Summary                  | </br>Default |
+| --------------------------------------------------- | ----------------------------- | ------------ |
+| --LanguageSwitcher-borderRadius                     | Border radius                 | `0px`        |
+| --LanguageSwitcher-fontSize                         | Font size                     | `0.7rem`     |
+| --LanguageSwitcher\_\_Option--hover-backgroundColor | Option hover background color | `#eaeaea`    |
+| --LanguageSwitcher\_\_Option--hover-color           | Option hover color            | `#000`       |
+| --LanguageSwitcher\_\_Option-color                  | Option color                  | `#000`       |
+| --LanguageSwitcher--disabled-color                  | disabled color                | `#b5b5b5`    |

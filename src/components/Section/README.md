@@ -7,16 +7,18 @@
 `@front10/landing-page-book/Section` is used to wrap component.
 
 ## How to use
+
 1- Importing bootstrap style
 
 ```js
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 ```
+
 2- Add following content to import the component:
 
 ```js
-import Section from "@front10/landing-page-book/dist/components/Section";
-import "@front10/landing-page-book/dist/components/Section/style.css";
+import Section from '@front10/landing-page-book/dist/components/Section';
+import '@front10/landing-page-book/dist/components/Section/style.css';
 ```
 
 > Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
@@ -38,3 +40,13 @@ import "@front10/landing-page-book/dist/components/Section/style.css";
 | subTitle         | `String`  | Section subtitle. Default `""`                       |
 | sectionClass     | `String`  | Section css class. Default `""`                      |
 | contentClassName | `String`  | Section content css class. Default `""`              |
+
+## Theming variables
+
+| </br>Name                       | </br>Summary                        | </br>Default |
+| ------------------------------- | ----------------------------------- | ------------ |
+| --Section\_\_Title-fontSize     | Title font size                     | `2rem`       |
+| --Section\_\_Title-color        | Title color                         | `#000`       |
+| --Section\_\_Subtitle-fontSize  | Subtitle font size                  | `0.9rem`     |
+| --Section\_\_Subtitle-color     | Subtitle color                      | `#b5b5b5`    |
+| --Section--gray-backgroundColor | Background color if section is gray | `#f8f9fa`    |

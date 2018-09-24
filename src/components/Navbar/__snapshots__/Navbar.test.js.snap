@@ -623,6 +623,7 @@ ReactWrapper {
               "className": "navbar-toggler mr-3 Navbar__Toggler",
               "disabled": false,
               "loading": false,
+              "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "tooltip": "",
               "type": "button",
@@ -640,6 +641,7 @@ ReactWrapper {
               "className": "navbar-toggler mr-3 Navbar__Toggler",
               "disabled": false,
               "loading": false,
+              "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "tooltip": "",
               "type": "button",
@@ -840,6 +842,7 @@ ReactWrapper {
                 "className": "navbar-toggler mr-3 Navbar__Toggler",
                 "disabled": false,
                 "loading": false,
+                "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "tooltip": "",
                 "type": "button",
@@ -873,6 +876,7 @@ ReactWrapper {
                 className="navbar-toggler mr-3 Navbar__Toggler"
                 disabled={false}
                 loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 tooltip=""
                 type="button"
@@ -906,6 +910,7 @@ ReactWrapper {
                 className="navbar-toggler mr-3 Navbar__Toggler"
                 disabled={false}
                 loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 tooltip=""
                 type="button"
@@ -1484,6 +1489,7 @@ ReactWrapper {
             className="navbar-toggler mr-3 Navbar__Toggler"
             disabled={false}
             loading={false}
+            loadingClass="fa fa-circle-o-notch fa-spin"
             onClick={[Function]}
             tooltip=""
             type="button"
@@ -1936,6 +1942,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"
@@ -1969,6 +1976,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"
@@ -2938,6 +2946,7 @@ ReactWrapper {
                             className="navbar-toggler mr-3 Navbar__Toggler"
                             disabled={false}
                             loading={false}
+                            loadingClass="fa fa-circle-o-notch fa-spin"
                             onClick={[Function]}
                             tooltip=""
                             type="button"
@@ -2971,6 +2980,7 @@ ReactWrapper {
                             className="navbar-toggler mr-3 Navbar__Toggler"
                             disabled={false}
                             loading={false}
+                            loadingClass="fa fa-circle-o-notch fa-spin"
                             onClick={[Function]}
                             tooltip=""
                             type="button"
@@ -3675,6 +3685,7 @@ ReactWrapper {
                 "className": "navbar-toggler mr-3 Navbar__Toggler",
                 "disabled": false,
                 "loading": false,
+                "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "tooltip": "",
                 "type": "button",
@@ -3692,6 +3703,7 @@ ReactWrapper {
                 "className": "navbar-toggler mr-3 Navbar__Toggler",
                 "disabled": false,
                 "loading": false,
+                "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "tooltip": "",
                 "type": "button",
@@ -4598,6 +4610,7 @@ ReactWrapper {
                       className="navbar-toggler mr-3 Navbar__Toggler"
                       disabled={false}
                       loading={false}
+                      loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       tooltip=""
                       type="button"
@@ -4631,6 +4644,7 @@ ReactWrapper {
                       className="navbar-toggler mr-3 Navbar__Toggler"
                       disabled={false}
                       loading={false}
+                      loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       tooltip=""
                       type="button"
@@ -5987,6 +6001,7 @@ ReactWrapper {
                           className="navbar-toggler mr-3 Navbar__Toggler"
                           disabled={false}
                           loading={false}
+                          loadingClass="fa fa-circle-o-notch fa-spin"
                           onClick={[Function]}
                           tooltip=""
                           type="button"
@@ -6020,6 +6035,7 @@ ReactWrapper {
                           className="navbar-toggler mr-3 Navbar__Toggler"
                           disabled={false}
                           loading={false}
+                          loadingClass="fa fa-circle-o-notch fa-spin"
                           onClick={[Function]}
                           tooltip=""
                           type="button"
@@ -7599,6 +7615,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"
@@ -7632,6 +7649,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"
@@ -8608,6 +8626,7 @@ ReactWrapper {
               "className": "navbar-toggler mr-3 Navbar__Toggler",
               "disabled": false,
               "loading": false,
+              "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "tooltip": "",
               "type": "button",
@@ -8633,6 +8652,7 @@ ReactWrapper {
             "className": "navbar-toggler mr-3 Navbar__Toggler",
             "disabled": false,
             "loading": false,
+            "loadingClass": "fa fa-circle-o-notch fa-spin",
             "onClick": [Function],
             "tooltip": "",
             "type": "button",
@@ -9177,6 +9197,7 @@ ReactWrapper {
                             "className": "navbar-toggler mr-3 Navbar__Toggler",
                             "disabled": false,
                             "loading": false,
+                            "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "tooltip": "",
                             "type": "button",
@@ -9194,6 +9215,7 @@ ReactWrapper {
                             "className": "navbar-toggler mr-3 Navbar__Toggler",
                             "disabled": false,
                             "loading": false,
+                            "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "tooltip": "",
                             "type": "button",
@@ -9394,6 +9416,7 @@ ReactWrapper {
                               "className": "navbar-toggler mr-3 Navbar__Toggler",
                               "disabled": false,
                               "loading": false,
+                              "loadingClass": "fa fa-circle-o-notch fa-spin",
                               "onClick": [Function],
                               "tooltip": "",
                               "type": "button",
@@ -9427,6 +9450,7 @@ ReactWrapper {
                               className="navbar-toggler mr-3 Navbar__Toggler"
                               disabled={false}
                               loading={false}
+                              loadingClass="fa fa-circle-o-notch fa-spin"
                               onClick={[Function]}
                               tooltip=""
                               type="button"
@@ -9460,6 +9484,7 @@ ReactWrapper {
                               className="navbar-toggler mr-3 Navbar__Toggler"
                               disabled={false}
                               loading={false}
+                              loadingClass="fa fa-circle-o-notch fa-spin"
                               onClick={[Function]}
                               tooltip=""
                               type="button"
@@ -10486,6 +10511,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -10519,6 +10545,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -11074,6 +11101,7 @@ ReactWrapper {
                           "className": "navbar-toggler mr-3 Navbar__Toggler",
                           "disabled": false,
                           "loading": false,
+                          "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
                           "tooltip": "",
                           "type": "button",
@@ -11091,6 +11119,7 @@ ReactWrapper {
                           "className": "navbar-toggler mr-3 Navbar__Toggler",
                           "disabled": false,
                           "loading": false,
+                          "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
                           "tooltip": "",
                           "type": "button",
@@ -11997,6 +12026,7 @@ ReactWrapper {
                                 className="navbar-toggler mr-3 Navbar__Toggler"
                                 disabled={false}
                                 loading={false}
+                                loadingClass="fa fa-circle-o-notch fa-spin"
                                 onClick={[Function]}
                                 tooltip=""
                                 type="button"
@@ -12030,6 +12060,7 @@ ReactWrapper {
                                 className="navbar-toggler mr-3 Navbar__Toggler"
                                 disabled={false}
                                 loading={false}
+                                loadingClass="fa fa-circle-o-notch fa-spin"
                                 onClick={[Function]}
                                 tooltip=""
                                 type="button"
@@ -13386,6 +13417,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -13419,6 +13451,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -14998,6 +15031,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -15031,6 +15065,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -16003,6 +16038,7 @@ ReactWrapper {
                             "className": "navbar-toggler mr-3 Navbar__Toggler",
                             "disabled": false,
                             "loading": false,
+                            "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "tooltip": "",
                             "type": "button",
@@ -16495,6 +16531,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -16528,6 +16565,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -17083,6 +17121,7 @@ ReactWrapper {
                           "className": "navbar-toggler mr-3 Navbar__Toggler",
                           "disabled": false,
                           "loading": false,
+                          "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
                           "tooltip": "",
                           "type": "button",
@@ -17100,6 +17139,7 @@ ReactWrapper {
                           "className": "navbar-toggler mr-3 Navbar__Toggler",
                           "disabled": false,
                           "loading": false,
+                          "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
                           "tooltip": "",
                           "type": "button",
@@ -18006,6 +18046,7 @@ ReactWrapper {
                                 className="navbar-toggler mr-3 Navbar__Toggler"
                                 disabled={false}
                                 loading={false}
+                                loadingClass="fa fa-circle-o-notch fa-spin"
                                 onClick={[Function]}
                                 tooltip=""
                                 type="button"
@@ -18039,6 +18080,7 @@ ReactWrapper {
                                 className="navbar-toggler mr-3 Navbar__Toggler"
                                 disabled={false}
                                 loading={false}
+                                loadingClass="fa fa-circle-o-notch fa-spin"
                                 onClick={[Function]}
                                 tooltip=""
                                 type="button"
@@ -19395,6 +19437,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -19428,6 +19471,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -21007,6 +21051,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -21040,6 +21085,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -22012,6 +22058,7 @@ ReactWrapper {
                             "className": "navbar-toggler mr-3 Navbar__Toggler",
                             "disabled": false,
                             "loading": false,
+                            "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "tooltip": "",
                             "type": "button",
@@ -22705,6 +22752,7 @@ ReactWrapper {
                       "className": "navbar-toggler mr-3 Navbar__Toggler",
                       "disabled": false,
                       "loading": false,
+                      "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "tooltip": "",
                       "type": "button",
@@ -22722,6 +22770,7 @@ ReactWrapper {
                       "className": "navbar-toggler mr-3 Navbar__Toggler",
                       "disabled": false,
                       "loading": false,
+                      "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "tooltip": "",
                       "type": "button",
@@ -22744,6 +22793,7 @@ ReactWrapper {
                         "className": "navbar-toggler mr-3 Navbar__Toggler",
                         "disabled": false,
                         "loading": false,
+                        "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
                         "tooltip": "",
                         "type": "button",
@@ -22777,6 +22827,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"
@@ -22810,6 +22861,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"
@@ -26319,6 +26371,7 @@ ReactWrapper {
                     "className": "navbar-toggler mr-3 Navbar__Toggler",
                     "disabled": false,
                     "loading": false,
+                    "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
                     "tooltip": "",
                     "type": "button",
@@ -26336,6 +26389,7 @@ ReactWrapper {
                     "className": "navbar-toggler mr-3 Navbar__Toggler",
                     "disabled": false,
                     "loading": false,
+                    "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
                     "tooltip": "",
                     "type": "button",
@@ -26358,6 +26412,7 @@ ReactWrapper {
                       "className": "navbar-toggler mr-3 Navbar__Toggler",
                       "disabled": false,
                       "loading": false,
+                      "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "tooltip": "",
                       "type": "button",
@@ -26391,6 +26446,7 @@ ReactWrapper {
                       className="navbar-toggler mr-3 Navbar__Toggler"
                       disabled={false}
                       loading={false}
+                      loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       tooltip=""
                       type="button"
@@ -26424,6 +26480,7 @@ ReactWrapper {
                       className="navbar-toggler mr-3 Navbar__Toggler"
                       disabled={false}
                       loading={false}
+                      loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       tooltip=""
                       type="button"
@@ -28025,6 +28082,7 @@ ReactWrapper {
                 "className": "navbar-toggler mr-3 Navbar__Toggler",
                 "disabled": false,
                 "loading": false,
+                "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "tooltip": "",
                 "type": "button",
@@ -28042,6 +28100,7 @@ ReactWrapper {
                 "className": "navbar-toggler mr-3 Navbar__Toggler",
                 "disabled": false,
                 "loading": false,
+                "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "tooltip": "",
                 "type": "button",
@@ -28242,6 +28301,7 @@ ReactWrapper {
                   "className": "navbar-toggler mr-3 Navbar__Toggler",
                   "disabled": false,
                   "loading": false,
+                  "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
                   "tooltip": "",
                   "type": "button",
@@ -28275,6 +28335,7 @@ ReactWrapper {
                   className="navbar-toggler mr-3 Navbar__Toggler"
                   disabled={false}
                   loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   tooltip=""
                   type="button"
@@ -28308,6 +28369,7 @@ ReactWrapper {
                   className="navbar-toggler mr-3 Navbar__Toggler"
                   disabled={false}
                   loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   tooltip=""
                   type="button"
@@ -28886,6 +28948,7 @@ ReactWrapper {
               className="navbar-toggler mr-3 Navbar__Toggler"
               disabled={false}
               loading={false}
+              loadingClass="fa fa-circle-o-notch fa-spin"
               onClick={[Function]}
               tooltip=""
               type="button"
@@ -29338,6 +29401,7 @@ ReactWrapper {
                           className="navbar-toggler mr-3 Navbar__Toggler"
                           disabled={false}
                           loading={false}
+                          loadingClass="fa fa-circle-o-notch fa-spin"
                           onClick={[Function]}
                           tooltip=""
                           type="button"
@@ -29371,6 +29435,7 @@ ReactWrapper {
                           className="navbar-toggler mr-3 Navbar__Toggler"
                           disabled={false}
                           loading={false}
+                          loadingClass="fa fa-circle-o-notch fa-spin"
                           onClick={[Function]}
                           tooltip=""
                           type="button"
@@ -30340,6 +30405,7 @@ ReactWrapper {
                               className="navbar-toggler mr-3 Navbar__Toggler"
                               disabled={false}
                               loading={false}
+                              loadingClass="fa fa-circle-o-notch fa-spin"
                               onClick={[Function]}
                               tooltip=""
                               type="button"
@@ -30373,6 +30439,7 @@ ReactWrapper {
                               className="navbar-toggler mr-3 Navbar__Toggler"
                               disabled={false}
                               loading={false}
+                              loadingClass="fa fa-circle-o-notch fa-spin"
                               onClick={[Function]}
                               tooltip=""
                               type="button"
@@ -31077,6 +31144,7 @@ ReactWrapper {
                   "className": "navbar-toggler mr-3 Navbar__Toggler",
                   "disabled": false,
                   "loading": false,
+                  "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
                   "tooltip": "",
                   "type": "button",
@@ -31094,6 +31162,7 @@ ReactWrapper {
                   "className": "navbar-toggler mr-3 Navbar__Toggler",
                   "disabled": false,
                   "loading": false,
+                  "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
                   "tooltip": "",
                   "type": "button",
@@ -32000,6 +32069,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"
@@ -32033,6 +32103,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"
@@ -33389,6 +33460,7 @@ ReactWrapper {
                             className="navbar-toggler mr-3 Navbar__Toggler"
                             disabled={false}
                             loading={false}
+                            loadingClass="fa fa-circle-o-notch fa-spin"
                             onClick={[Function]}
                             tooltip=""
                             type="button"
@@ -33422,6 +33494,7 @@ ReactWrapper {
                             className="navbar-toggler mr-3 Navbar__Toggler"
                             disabled={false}
                             loading={false}
+                            loadingClass="fa fa-circle-o-notch fa-spin"
                             onClick={[Function]}
                             tooltip=""
                             type="button"
@@ -35001,6 +35074,7 @@ ReactWrapper {
                           className="navbar-toggler mr-3 Navbar__Toggler"
                           disabled={false}
                           loading={false}
+                          loadingClass="fa fa-circle-o-notch fa-spin"
                           onClick={[Function]}
                           tooltip=""
                           type="button"
@@ -35034,6 +35108,7 @@ ReactWrapper {
                           className="navbar-toggler mr-3 Navbar__Toggler"
                           disabled={false}
                           loading={false}
+                          loadingClass="fa fa-circle-o-notch fa-spin"
                           onClick={[Function]}
                           tooltip=""
                           type="button"
@@ -36010,6 +36085,7 @@ ReactWrapper {
                 "className": "navbar-toggler mr-3 Navbar__Toggler",
                 "disabled": false,
                 "loading": false,
+                "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "tooltip": "",
                 "type": "button",
@@ -36035,6 +36111,7 @@ ReactWrapper {
               "className": "navbar-toggler mr-3 Navbar__Toggler",
               "disabled": false,
               "loading": false,
+              "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "tooltip": "",
               "type": "button",
@@ -36579,6 +36656,7 @@ ReactWrapper {
                               "className": "navbar-toggler mr-3 Navbar__Toggler",
                               "disabled": false,
                               "loading": false,
+                              "loadingClass": "fa fa-circle-o-notch fa-spin",
                               "onClick": [Function],
                               "tooltip": "",
                               "type": "button",
@@ -36596,6 +36674,7 @@ ReactWrapper {
                               "className": "navbar-toggler mr-3 Navbar__Toggler",
                               "disabled": false,
                               "loading": false,
+                              "loadingClass": "fa fa-circle-o-notch fa-spin",
                               "onClick": [Function],
                               "tooltip": "",
                               "type": "button",
@@ -36796,6 +36875,7 @@ ReactWrapper {
                                 "className": "navbar-toggler mr-3 Navbar__Toggler",
                                 "disabled": false,
                                 "loading": false,
+                                "loadingClass": "fa fa-circle-o-notch fa-spin",
                                 "onClick": [Function],
                                 "tooltip": "",
                                 "type": "button",
@@ -36829,6 +36909,7 @@ ReactWrapper {
                                 className="navbar-toggler mr-3 Navbar__Toggler"
                                 disabled={false}
                                 loading={false}
+                                loadingClass="fa fa-circle-o-notch fa-spin"
                                 onClick={[Function]}
                                 tooltip=""
                                 type="button"
@@ -36862,6 +36943,7 @@ ReactWrapper {
                                 className="navbar-toggler mr-3 Navbar__Toggler"
                                 disabled={false}
                                 loading={false}
+                                loadingClass="fa fa-circle-o-notch fa-spin"
                                 onClick={[Function]}
                                 tooltip=""
                                 type="button"
@@ -37888,6 +37970,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -37921,6 +38004,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -38476,6 +38560,7 @@ ReactWrapper {
                             "className": "navbar-toggler mr-3 Navbar__Toggler",
                             "disabled": false,
                             "loading": false,
+                            "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "tooltip": "",
                             "type": "button",
@@ -38493,6 +38578,7 @@ ReactWrapper {
                             "className": "navbar-toggler mr-3 Navbar__Toggler",
                             "disabled": false,
                             "loading": false,
+                            "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "tooltip": "",
                             "type": "button",
@@ -39399,6 +39485,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -39432,6 +39519,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -40788,6 +40876,7 @@ ReactWrapper {
                                       className="navbar-toggler mr-3 Navbar__Toggler"
                                       disabled={false}
                                       loading={false}
+                                      loadingClass="fa fa-circle-o-notch fa-spin"
                                       onClick={[Function]}
                                       tooltip=""
                                       type="button"
@@ -40821,6 +40910,7 @@ ReactWrapper {
                                       className="navbar-toggler mr-3 Navbar__Toggler"
                                       disabled={false}
                                       loading={false}
+                                      loadingClass="fa fa-circle-o-notch fa-spin"
                                       onClick={[Function]}
                                       tooltip=""
                                       type="button"
@@ -42400,6 +42490,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -42433,6 +42524,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -43405,6 +43497,7 @@ ReactWrapper {
                               "className": "navbar-toggler mr-3 Navbar__Toggler",
                               "disabled": false,
                               "loading": false,
+                              "loadingClass": "fa fa-circle-o-notch fa-spin",
                               "onClick": [Function],
                               "tooltip": "",
                               "type": "button",
@@ -43897,6 +43990,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -43930,6 +44024,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -44485,6 +44580,7 @@ ReactWrapper {
                             "className": "navbar-toggler mr-3 Navbar__Toggler",
                             "disabled": false,
                             "loading": false,
+                            "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "tooltip": "",
                             "type": "button",
@@ -44502,6 +44598,7 @@ ReactWrapper {
                             "className": "navbar-toggler mr-3 Navbar__Toggler",
                             "disabled": false,
                             "loading": false,
+                            "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "tooltip": "",
                             "type": "button",
@@ -45408,6 +45505,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -45441,6 +45539,7 @@ ReactWrapper {
                                   className="navbar-toggler mr-3 Navbar__Toggler"
                                   disabled={false}
                                   loading={false}
+                                  loadingClass="fa fa-circle-o-notch fa-spin"
                                   onClick={[Function]}
                                   tooltip=""
                                   type="button"
@@ -46797,6 +46896,7 @@ ReactWrapper {
                                       className="navbar-toggler mr-3 Navbar__Toggler"
                                       disabled={false}
                                       loading={false}
+                                      loadingClass="fa fa-circle-o-notch fa-spin"
                                       onClick={[Function]}
                                       tooltip=""
                                       type="button"
@@ -46830,6 +46930,7 @@ ReactWrapper {
                                       className="navbar-toggler mr-3 Navbar__Toggler"
                                       disabled={false}
                                       loading={false}
+                                      loadingClass="fa fa-circle-o-notch fa-spin"
                                       onClick={[Function]}
                                       tooltip=""
                                       type="button"
@@ -48409,6 +48510,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -48442,6 +48544,7 @@ ReactWrapper {
                                     className="navbar-toggler mr-3 Navbar__Toggler"
                                     disabled={false}
                                     loading={false}
+                                    loadingClass="fa fa-circle-o-notch fa-spin"
                                     onClick={[Function]}
                                     tooltip=""
                                     type="button"
@@ -49414,6 +49517,7 @@ ReactWrapper {
                               "className": "navbar-toggler mr-3 Navbar__Toggler",
                               "disabled": false,
                               "loading": false,
+                              "loadingClass": "fa fa-circle-o-notch fa-spin",
                               "onClick": [Function],
                               "tooltip": "",
                               "type": "button",
@@ -50107,6 +50211,7 @@ ReactWrapper {
                         "className": "navbar-toggler mr-3 Navbar__Toggler",
                         "disabled": false,
                         "loading": false,
+                        "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
                         "tooltip": "",
                         "type": "button",
@@ -50124,6 +50229,7 @@ ReactWrapper {
                         "className": "navbar-toggler mr-3 Navbar__Toggler",
                         "disabled": false,
                         "loading": false,
+                        "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
                         "tooltip": "",
                         "type": "button",
@@ -50146,6 +50252,7 @@ ReactWrapper {
                           "className": "navbar-toggler mr-3 Navbar__Toggler",
                           "disabled": false,
                           "loading": false,
+                          "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
                           "tooltip": "",
                           "type": "button",
@@ -50179,6 +50286,7 @@ ReactWrapper {
                           className="navbar-toggler mr-3 Navbar__Toggler"
                           disabled={false}
                           loading={false}
+                          loadingClass="fa fa-circle-o-notch fa-spin"
                           onClick={[Function]}
                           tooltip=""
                           type="button"
@@ -50212,6 +50320,7 @@ ReactWrapper {
                           className="navbar-toggler mr-3 Navbar__Toggler"
                           disabled={false}
                           loading={false}
+                          loadingClass="fa fa-circle-o-notch fa-spin"
                           onClick={[Function]}
                           tooltip=""
                           type="button"
@@ -53721,6 +53830,7 @@ ReactWrapper {
                       "className": "navbar-toggler mr-3 Navbar__Toggler",
                       "disabled": false,
                       "loading": false,
+                      "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "tooltip": "",
                       "type": "button",
@@ -53738,6 +53848,7 @@ ReactWrapper {
                       "className": "navbar-toggler mr-3 Navbar__Toggler",
                       "disabled": false,
                       "loading": false,
+                      "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "tooltip": "",
                       "type": "button",
@@ -53760,6 +53871,7 @@ ReactWrapper {
                         "className": "navbar-toggler mr-3 Navbar__Toggler",
                         "disabled": false,
                         "loading": false,
+                        "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
                         "tooltip": "",
                         "type": "button",
@@ -53793,6 +53905,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"
@@ -53826,6 +53939,7 @@ ReactWrapper {
                         className="navbar-toggler mr-3 Navbar__Toggler"
                         disabled={false}
                         loading={false}
+                        loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         tooltip=""
                         type="button"

@@ -1,57 +1,25 @@
-version: 2
+version: 2 
 jobs:
-  build:
+  build: 
+    working_directory: ~/landing-page-book 
+    docker: # 
+      - image: circleci/node:8.12.0 
     branches:
       ignore:
-        - gh-pages
-    docker:
-      - image: circleci/node:8
-    working_directory: ~/repo
-    environment:
-      - SOURCE_BRANCH: master
-      - TARGET_BRANCH: gh-pages
+       - gh-pages
     steps:
       - add_ssh_keys:
          fingerprints:
-           - "31:f0:b9:be:9d:e5:e0:cc:51:71:8a:dc:69:1a:2a:3d"
-      - checkout
-      - restore_cache:
-          keys:
-          - v1-dependencies-{{ checksum "package.json" }}
-          - v1-dependencies-
+           - "31:f0:b9:be:9d:e5:e0:cc:51:71:8a:dc:69:1a:2a:3d"       
+      - checkout        
+      - restore_cache: 
+          key: dependency-cache-{{ checksum "package.json" }}      
       - run:
-          name: Install dependencies
-          command: npm install
-      - save_cache:
+         name: Deploy to GitHub Pages
+         command: './scripts/deploy-ghpages.sh'    
+      - save_cache: 
+          key: dependency-cache-{{ checksum "package.json" }}
           paths:
-            - node_modules
-          key: v1-dependencies-{{ checksum "package.json" }}
-      - run:
-          name: Run tests
-          command: npm test
-      - deploy:
-          name: Deploy
-          command: |
-            if [ $CIRCLE_BRANCH == $SOURCE_BRANCH ]; then
-              git config --global user.email $GH_EMAIL
-              git config --global user.name $GH_NAME
-
-              git clone $CIRCLE_REPOSITORY_URL out
-
-              cd out
-              git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
-              git rm -rf .
-              cd ..
-
-              npm run build
-
-              cp -a build/. out/.
-
-              mkdir -p out/.circleci && cp -a .circleci/. out/.circleci/.
-              cd out
-
-              git add -A
-              git commit -m "Automated deployment to GitHub Pages: ${CIRCLE_SHA1}!" --allow-empty
-
-              git push origin $TARGET_BRANCH
-            fi
+            - ./node_modules     
+      - store_artifacts:
+          path: public

@@ -40,5 +40,5 @@ git commit -m "Automated deployment to GitHub Pages." --allow-empty
 
 git push --force --quiet origin gh-pages
 
-echo "gh-pages deployed success!!"
+echo "gh-pages deployed success!"
           

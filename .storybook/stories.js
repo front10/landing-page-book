@@ -5,7 +5,7 @@
  */
 
 // Introduction
-import '../src/stories/documentation/Introduction';
+import '../src/stories/documentation/introduction';
 import '../src/stories/documentation/theming';
 
 //Components

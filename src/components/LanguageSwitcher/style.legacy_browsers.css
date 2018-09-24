@@ -1,0 +1,106 @@
+.flag-select {
+  position: relative;
+  display: inline-block;
+  vertical-align: inherit;
+  padding-bottom: 5px;
+  color: #4d4d4d;
+  text-align: left; }
+  .flag-select img {
+    width: 1.3em;
+    height: 1.3em;
+    position: relative;
+    top: 0.3em; }
+  .flag-select .selected--flag--option {
+    cursor: pointer;
+    padding: 0 8px; }
+    .flag-select .selected--flag--option:before {
+      content: ' ';
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: 999; }
+    .flag-select .selected--flag--option:focus {
+      outline: none; }
+    .flag-select .selected--flag--option .country-label {
+      padding-left: 9px; }
+  .flag-select .country-flag {
+    cursor: pointer; }
+    .flag-select .country-flag .country-label {
+      font-size: 1em;
+      position: relative; }
+  .flag-select .flag-options {
+    position: absolute;
+    z-index: 999999;
+    border: 1px solid #bdbbbb;
+    border-radius: 3px;
+    background: #ffffff;
+    margin-top: 8px;
+    padding: 8px 0;
+    max-height: 160px;
+    overflow: auto; }
+    .flag-select .flag-options.to--left {
+      right: 10px; }
+  .flag-select .flag-option {
+    cursor: pointer;
+    padding: 0px 8px 3px 8px;
+    margin: 4px 0;
+    white-space: nowrap; }
+    .flag-select .flag-option.has-label {
+      padding: 0px 20px 3px 8px; }
+    .flag-select .flag-option:hover {
+      background: #eaeaea; }
+    .flag-select .flag-option:focus {
+      outline: none;
+      background: #eaeaea; }
+    .flag-select .flag-option .country-label {
+      padding: 0 9px; }
+  .flag-select .filterBox {
+    width: 100%; }
+    .flag-select .filterBox input {
+      width: 90%;
+      margin: 0 4%; }
+      .flag-select .filterBox input:focus {
+        outline: none; }
+  .flag-select .arrow-down {
+    color: #4d4d4d;
+    padding: 2px; }
+  .flag-select .hidden {
+    display: none; }
+  .flag-select .no--focus {
+    pointer-events: none; }
+
+:root {
+  --LanguageSwitcher-borderRadius: 0px;
+  --LanguageSwitcher-fontSize: 0.7rem;
+  --LanguageSwitcher__Option--hover-backgroundColor: #eaeaea;
+  --LanguageSwitcher__Option--hover-color: #000;
+  --LanguageSwitcher__Option-color: #000;
+  --LanguageSwitcher--disabled-color: #b5b5b5; }
+
+.LanguageSwitcher .country-flag {
+  color: #000; }
+
+.LanguageSwitcher .flag-select .no--focus .country-flag {
+  color: #b5b5b5; }
+  .LanguageSwitcher .flag-select .no--focus .country-flag img {
+    filter: grayscale(0.5); }
+
+.LanguageSwitcher .flag-select .country-label {
+  font-size: 0.7rem; }
+
+.LanguageSwitcher .flag-select .flag-option:hover {
+  background: #eaeaea;
+  color: #000; }
+
+.LanguageSwitcher .flag-select img {
+  top: 0px; }
+
+.LanguageSwitcher .flag-options {
+  border-radius: 0px; }
+
+.LanguageSwitcher--noflag .flag-select img {
+  display: none; }
+
+.LanguageSwitcher--noarrow .arrow-down {
+  display: none; }

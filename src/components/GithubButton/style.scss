@@ -1,0 +1,57 @@
+:root {
+    --GithubDetail__countbubble-backgroundColor: #dcdcdc;
+    --GithubDetail__countbubble-borderradius: 0.4em;
+    --GithubDetail__countbubble-padding: 6px;
+    --GithubDetail__countbubble-ml: 11px;
+    --GithubDetail__countbubble-border: 1px solid #dcdcdc;
+    --GithubDetail__countbubble-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    --GithubDetail__countbubble-Color: #000;
+    --GithubDetail__countbubble_after-border: 7px solid transparent;
+    --GithubDetail__countbubble_after-borderColor: transparent #dcdcdc transparent transparent;
+    --GithubDetail__buttonText-ml: 5px;
+    --GithubDetail__btn_container-padding: 5px;
+    --GithubDetail_btn-backgroundColor: #dcdcdc;
+    --GithubDetail_btn-Color: #000;
+}
+
+@import '../Icon/style.scss';
+.speech-bubble {
+    position: relative;
+    background: var(--GithubDetail__countbubble-backgroundColor);
+    border-radius: var(--GithubDetail__countbubble-borderradius);
+    padding: var(--GithubDetail__countbubble-padding);
+    margin-left: var(--GithubDetail__countbubble-ml);
+    border: var(--GithubDetail__countbubble-border);
+    transition: var(--GithubDetail__countbubble-transition);
+    a {
+        color: var(--GithubDetail__countbubble-Color);
+    }
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: var(--GithubDetail__countbubble_after-border);
+    border-color: var(--GithubDetail__countbubble_after-borderColor);
+    border-left: 0;
+    margin-top: -7px;
+    margin-left: -8px;
+    z-index: 999;
+}
+
+.buttonText {
+    margin-left: var(--GithubDetail__buttonText-ml);
+}
+
+.GithubDetail_btn {
+    background: var(--GithubDetail_btn-backgroundColor);
+    color: var(--GithubDetail_btn-Color);
+}
+
+.GithubDetail_btn_container {
+    padding: var(--GithubDetail__btn_container-padding);
+}

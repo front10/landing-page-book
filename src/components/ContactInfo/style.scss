@@ -1,0 +1,18 @@
+:root {
+    --ContactInfo__Location-height: 300px;
+    --ContactInfo__Information-fontSize: 0.7rem;
+}
+
+@import '../Card/style.scss';
+@import '../Location/style.scss';
+.ContactInfo__Location {
+    height: var(--ContactInfo__Location-height);
+}
+
+.ContactInfo__Information {
+    font-size: var(--ContactInfo__Information-fontSize);
+    line-height: 2rem;
+    i {
+        width: 25px;
+    }
+}

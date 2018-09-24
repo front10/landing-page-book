@@ -1,0 +1,21 @@
+:root {
+  --Backers__Image-width: 50px;
+  --Backers__Image-height: 50px; }
+
+.ImageList {
+  display: inline-flex;
+  flex-wrap: wrap; }
+  .ImageList .ImageList__Container {
+    margin-left: auto;
+    margin-right: auto; }
+    .ImageList .ImageList__Container img {
+      max-width: 100px; }
+  .ImageList .ImageList__Container--grayScale img {
+    filter: grayscale(1); }
+
+.Backers .ImageList .ImageList__Container {
+  margin: 2px; }
+  .Backers .ImageList .ImageList__Container img,
+  .Backers .ImageList .ImageList__Container svg {
+    width: var(--Backers__Image-width);
+    height: var(--Backers__Image-height); }

@@ -1,0 +1,50 @@
+:root {
+    --LanguageSwitcher-borderRadius: 0px;
+    --LanguageSwitcher-fontSize: 0.7rem;
+    --LanguageSwitcher__Option--hover-backgroundColor: #eaeaea;
+    --LanguageSwitcher__Option--hover-color: #000;
+    --LanguageSwitcher__Option-color: #000;
+    --LanguageSwitcher--disabled-color: #b5b5b5;
+}
+
+@import '~react-flags-select/css/react-flags-select.css';
+.LanguageSwitcher {
+    .country-flag {
+        color: var(--LanguageSwitcher__Option-color);
+    }
+    .flag-select {
+        .no--focus .country-flag {
+            color: var(--LanguageSwitcher--disabled-color);
+            img {
+                filter: grayscale(0.5);
+            }
+        }
+        .country-label {
+            font-size: var(--LanguageSwitcher-fontSize);
+        }
+        .flag-option:hover {
+            background: var(--LanguageSwitcher__Option--hover-backgroundColor);
+            color: var(--LanguageSwitcher__Option--hover-color);
+        }
+        img {
+            top: 0px;
+        }
+    }
+    .flag-options {
+        border-radius: var(--LanguageSwitcher-borderRadius);
+    }
+}
+
+.LanguageSwitcher--noflag {
+    .flag-select {
+        img {
+            display: none;
+        }
+    }
+}
+
+.LanguageSwitcher--noarrow {
+    .arrow-down {
+        display: none;
+    }
+}

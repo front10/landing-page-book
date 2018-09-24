@@ -35,6 +35,7 @@ import '../src/stories/components/social';
 import '../src/stories/components/video';
 import '../src/stories/components/language-switcher';
 import '../src/stories/components/wizard';
+import '../src/stories/components/analytics';
 
 // Elements
 import '../src/stories/components/browser';

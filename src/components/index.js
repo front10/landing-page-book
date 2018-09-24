@@ -1,3 +1,4 @@
+import Analytics from './Analytics';
 import Backers from './Backers';
 import BackersOpenCollective from './BackersOpenCollective';
 import Browser from './Browser';
@@ -42,6 +43,7 @@ import Video from './Video';
 import Wizard from './Wizard';
 
 export {
+  Analytics,
   Backers,
   BackersOpenCollective,
   BrowserSupport,

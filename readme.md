@@ -18,7 +18,9 @@ npm start
 ```
 
 ## Available Components
+
 Main components:
+
 - [`Navbar`](https://github.com/front10/landing-page-book/blob/master/src/components/Navbar/README.md)
 - [`Hero`](https://github.com/front10/landing-page-book/blob/master/src/components/Hero/README.md)
 - [`Section`](https://github.com/front10/landing-page-book/blob/master/src/components/Section/README.md)
@@ -54,13 +56,12 @@ Main components:
 - [`TextBox`](https://github.com/front10/landing-page-book/blob/master/src/components/TextBox/README.md)
 - [`Card`](https://github.com/front10/landing-page-book/blob/master/src/components/Card/README.md)
 
-Third-Party integrations
+Third-Party integrations:
 
 - [`GoogleAnalytics`](https://github.com/front10/landing-page-book/blob/master/src/components/Analytics/Analytics.jsx)
 - [`GoogleMap`](https://github.com/front10/landing-page-book/blob/master/src/components/Location/Location.jsx)
 - [`Github`](https://github.com/front10/landing-page-book/blob/master/src/components/GithubButton/README.md)
 - [`OpenCollective`](https://github.com/front10/landing-page-book/blob/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx)
-
 
 ## Usage
 
@@ -87,9 +88,7 @@ class App extends Component {
 
 ### Custom styles
 
-Something like this:
-
-https://github.com/dennybritz/neal-react/blob/master/css/_variables.scss
+https://github.com/front10/landing-page-book/blob/master/theming.md
 
 ## Tests
 

@@ -7,23 +7,24 @@
 `@front10/landing-page-book/Input` is used to create input.
 
 ## How to use
+
 1- Importing bootstrap style
 
 ```js
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
 2- Importing font-awesome or any other font (Optional)
 
 ```js
-import "font-awesome/css/font-awesome.min.css";
+import 'font-awesome/css/font-awesome.min.css';
 ```
 
 3- Add following content to import the component:
 
 ```js
-import Input from "@front10/landing-page-book/dist/components/Input";
-import "@front10/landing-page-book/dist/components/Input/style.css";
+import Input from '@front10/landing-page-book/dist/components/Input';
+import '@front10/landing-page-book/dist/components/Input/style.css';
 ```
 
 > Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
@@ -49,3 +50,11 @@ import "@front10/landing-page-book/dist/components/Input/style.css";
 | icon        | `String`   | Icon to show with input. Default `""`                                         |
 | iconAlign   | `String`   | Align of icon. Default `"left"`, can be `"left"` and `"right"`                |
 | onChange    | `Function` | Called when input change. Params `{value}`                                    |
+
+## Theming variables
+
+| </br>Name            | </br>Summary           | </br>Default |
+| -------------------- | ---------------------- | ------------ |
+| --Input-borderRadius | Border radius of input | `0px`        |
+| --Input-fontSize     | Font size of input     | `0.7rem`     |
+| --Input-color        | Color of input         | `#000`       |

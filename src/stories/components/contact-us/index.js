@@ -9,12 +9,12 @@ import { ContactUs } from '../../../components';
 import Readme from '../../../components/ContactUs/README.md';
 
 setAddon(JSXAddon);
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/ContactUs', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'ContactUs',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <ContactUs

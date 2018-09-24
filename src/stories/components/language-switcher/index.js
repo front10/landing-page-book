@@ -12,12 +12,12 @@ import Readme from '../../../components/LanguageSwitcher/README.md';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/LanguageSwitcher', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'LanguageSwitcher',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <LanguageSwitcher

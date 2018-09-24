@@ -6,17 +6,25 @@ class Section extends Component {
   render() {
     const { gray, title, subTitle, children, className, contentClassName } = this.props;
     return (
-      <div className={`Section ${gray ? 'Section--gray' : ''} ${className}`}>
+      <section className={`Section ${gray ? 'Section--gray' : ''} ${className}`}>
         <div className={`p-5 ${contentClassName}`}>
           {(title || subTitle) && (
             <div className="mb-5 text-center">
-              {title && <Header className="Section__Title mb-2">{title}</Header>}
-              {subTitle && <Header className="Section__Subtitle mb-2">{subTitle}</Header>}
+              {title && (
+                <Header type="h2" className="Section__Title mb-2">
+                  {title}
+                </Header>
+              )}
+              {subTitle && (
+                <Header type="h3" className="Section__Subtitle mb-2">
+                  {subTitle}
+                </Header>
+              )}
             </div>
           )}
           {children}
         </div>
-      </div>
+      </section>
     );
   }
 }

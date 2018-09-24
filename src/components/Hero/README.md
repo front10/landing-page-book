@@ -13,17 +13,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 ```
 2- Add following content to import the component:
 
-###### (Recommended)
 ```js
 import Hero from "@front10/landing-page-book/dist/components/Hero";
 import "@front10/landing-page-book/dist/components/Hero/style.css";
 ```
-or
 
-```js
-import { Hero } from '@front10/landing-page-book/dist/components';
-import "@front10/landing-page-book/dist/themes/default/style.css";
-```
+> Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
 
 3- Put this code into jsx page:
 ```html
@@ -60,7 +55,7 @@ Note: if you use Hero component with children, properties `buttons`, `header`, `
 | particles      | `Boolean` | Define if component show particles animations. Default `true`
 | opacity      | `Number` | Opacity level. Default `0`
 | parallaxOffset      | `Number` | Offset of background image. Default `0`
-| image      | `String` | Url of background image. Default `"https://front10.com/img/header-bg.jpg"`
+| image      | `String` | Url of background image. Default `"http://react-lazy-hero.danielstefanovic.com/static/media/mountains.b364f460.jpg"`
 | overlayColor      | `String` | Overlay color of the component . Default `#fff`
 | header      | `String` | Header of the hero . Default `""`
 | subHeader      | `String` | Sub header of the hero . Default `""`
@@ -69,3 +64,14 @@ Note: if you use Hero component with children, properties `buttons`, `header`, `
 | backgroundColor      | `String` | Background color of the hero. Default `"transparent"`
 | particlesParams      | `Object` | Object with particles config. Default `{}`, yow can see [react-particles-js](https://www.npmjs.com/package/react-particles-js)
 | buttons      | `Array` | Array with buttons to show in hero. Default `[]`, each element must be a object with this structure: `{text: "TELL ME MORE", onClick: ({button})=>{}}`
+
+## Used libraries
+
+- [**react-particles-js**](https://www.npmjs.com/package/react-particles-js)
+- [**react-lazy-hero**](http://react-lazy-hero.danielstefanovic.com/)
+
+
+
+
+
+

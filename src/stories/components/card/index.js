@@ -9,7 +9,7 @@ import { Card } from '../../../components';
 import Readme from '../../../components/Card/README.md';
 
 setAddon(JSXAddon);
-const stories = storiesOf('Components/Card', module);
+const stories = storiesOf('Elements/Card', module);
 
 stories.addDecorator(withKnobs);
 

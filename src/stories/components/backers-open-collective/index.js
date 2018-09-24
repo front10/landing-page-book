@@ -11,12 +11,12 @@ import Readme from '../../../components/BackersOpenCollective/README.md';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/BackersOpenCollective', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'BackersOpenCollective',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Container>

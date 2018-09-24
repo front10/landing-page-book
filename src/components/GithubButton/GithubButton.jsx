@@ -195,8 +195,8 @@ GithubButton.defaultProps = {
   showBtnText: true,
   showGithubIcon: false,
   loadingClass: 'fa fa-circle-o-notch fa-spin',
-  username: 'chubin',
-  repository: 'cheat.sh',
+  username: 'front10',
+  repository: 'landing-page-book',
   btnType: 'fork',
   btnText: 'Fork'
 };

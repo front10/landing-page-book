@@ -27,10 +27,10 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <GithubButton
-        username="chubin"
-        repository="cheat.sh"
-        btnType={select('Type of buton', options, 'follow')}
-        btnText={text('Btn text', 'Follow')}
+        username="front10"
+        repository="landing-page-book"
+        btnType={select('Type of buton', options, 'star')}
+        btnText={text('Btn text', 'stars')}
         showCounter={boolean('Show count', true)}
         showBtnText={boolean('Show button text', true)}
         showGithubIcon={boolean('Show Github icon', false)}
@@ -46,8 +46,8 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <GithubButton
-        username="chubin"
-        repository="cheat.sh"
+        username="front10"
+        repository="landing-page-book"
         btnType="fork"
         btnText="Fork"
         showCounter={boolean('Show count', true)}
@@ -55,8 +55,8 @@ stories.addWithJSX(
         showGithubIcon={boolean('Show Github icon', false)}
       />
       <GithubButton
-        username="chubin"
-        repository="cheat.sh"
+        username="front10"
+        repository="landing-page-book"
         btnType="follow"
         btnText="Follow"
         showCounter={boolean('Show count', true)}
@@ -64,8 +64,8 @@ stories.addWithJSX(
         showGithubIcon={boolean('Show Github icon', false)}
       />
       <GithubButton
-        username="chubin"
-        repository="cheat.sh"
+        username="front10"
+        repository="landing-page-book"
         btnType="star"
         btnText="Stars"
         showCounter={boolean('Show count', true)}
@@ -73,8 +73,8 @@ stories.addWithJSX(
         showGithubIcon={boolean('Show Github icon', false)}
       />
       <GithubButton
-        username="chubin"
-        repository="cheat.sh"
+        username="front10"
+        repository="landing-page-book"
         btnType="watch"
         btnText="Watch"
         showCounter={boolean('Show count', true)}
@@ -82,8 +82,8 @@ stories.addWithJSX(
         showGithubIcon={boolean('Show Github icon', false)}
       />
       <GithubButton
-        username="chubin"
-        repository="cheat.sh"
+        username="front10"
+        repository="landing-page-book"
         btnType="issue"
         btnText="Issues"
         showCounter={boolean('Show count', true)}
@@ -91,8 +91,8 @@ stories.addWithJSX(
         showGithubIcon={boolean('Show Github icon', false)}
       />
       <GithubButton
-        username="chubin"
-        repository="cheat.sh"
+        username="front10"
+        repository="landing-page-book"
         btnType="download"
         btnText="Download"
         showCounter={false}

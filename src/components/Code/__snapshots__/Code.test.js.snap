@@ -61,6 +61,7 @@ ShallowWrapper {
                 className="btn  CodeMirror_btn"
                 disabled={false}
                 loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 tooltip="Copy"
                 type="button"
@@ -78,6 +79,7 @@ ShallowWrapper {
               className="btn  CodeMirror_btn"
               disabled={false}
               loading={false}
+              loadingClass="fa fa-circle-o-notch fa-spin"
               onClick={[Function]}
               tooltip="Clear"
               type="button"
@@ -147,6 +149,7 @@ ShallowWrapper {
                 className="btn  CodeMirror_btn"
                 disabled={false}
                 loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 tooltip="Copy"
                 type="button"
@@ -164,6 +167,7 @@ ShallowWrapper {
               className="btn  CodeMirror_btn"
               disabled={false}
               loading={false}
+              loadingClass="fa fa-circle-o-notch fa-spin"
               onClick={[Function]}
               tooltip="Clear"
               type="button"
@@ -208,6 +212,7 @@ ShallowWrapper {
                   className="btn  CodeMirror_btn"
                   disabled={false}
                   loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   tooltip="Copy"
                   type="button"
@@ -225,6 +230,7 @@ ShallowWrapper {
                 className="btn  CodeMirror_btn"
                 disabled={false}
                 loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 tooltip="Clear"
                 type="button"
@@ -249,6 +255,7 @@ ShallowWrapper {
                   className="btn  CodeMirror_btn"
                   disabled={false}
                   loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   tooltip="Copy"
                   type="button"
@@ -284,6 +291,7 @@ ShallowWrapper {
                   "className": "btn  CodeMirror_btn",
                   "disabled": false,
                   "loading": false,
+                  "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
                   "tooltip": "Copy",
                   "type": "button",
@@ -321,6 +329,7 @@ ShallowWrapper {
                 "className": "btn  CodeMirror_btn",
                 "disabled": false,
                 "loading": false,
+                "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "tooltip": "Clear",
                 "type": "button",
@@ -431,6 +440,7 @@ ShallowWrapper {
                   className="btn  CodeMirror_btn"
                   disabled={false}
                   loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   tooltip="Copy"
                   type="button"
@@ -448,6 +458,7 @@ ShallowWrapper {
                 className="btn  CodeMirror_btn"
                 disabled={false}
                 loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 tooltip="Clear"
                 type="button"
@@ -517,6 +528,7 @@ ShallowWrapper {
                   className="btn  CodeMirror_btn"
                   disabled={false}
                   loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   tooltip="Copy"
                   type="button"
@@ -534,6 +546,7 @@ ShallowWrapper {
                 className="btn  CodeMirror_btn"
                 disabled={false}
                 loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 tooltip="Clear"
                 type="button"
@@ -578,6 +591,7 @@ ShallowWrapper {
                     className="btn  CodeMirror_btn"
                     disabled={false}
                     loading={false}
+                    loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     tooltip="Copy"
                     type="button"
@@ -595,6 +609,7 @@ ShallowWrapper {
                   className="btn  CodeMirror_btn"
                   disabled={false}
                   loading={false}
+                  loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   tooltip="Clear"
                   type="button"
@@ -619,6 +634,7 @@ ShallowWrapper {
                     className="btn  CodeMirror_btn"
                     disabled={false}
                     loading={false}
+                    loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     tooltip="Copy"
                     type="button"
@@ -654,6 +670,7 @@ ShallowWrapper {
                     "className": "btn  CodeMirror_btn",
                     "disabled": false,
                     "loading": false,
+                    "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
                     "tooltip": "Copy",
                     "type": "button",
@@ -691,6 +708,7 @@ ShallowWrapper {
                   "className": "btn  CodeMirror_btn",
                   "disabled": false,
                   "loading": false,
+                  "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
                   "tooltip": "Clear",
                   "type": "button",

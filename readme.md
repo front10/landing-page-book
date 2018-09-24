@@ -54,6 +54,12 @@ Main components:
 - [`TextBox`](https://github.com/front10/landing-page-book/blob/master/src/components/TextBox/README.md)
 - [`Card`](https://github.com/front10/landing-page-book/blob/master/src/components/Card/README.md)
 
+Third-Party integrations
+
+- [`GoogleAnalytics`](https://github.com/front10/landing-page-book/blob/master/src/components/Analytics/Analytics.jsx)
+- [`GoogleMap`](https://github.com/front10/landing-page-book/blob/master/src/components/Location/Location.jsx)
+- [`Github`](https://github.com/front10/landing-page-book/blob/master/src/components/GithubButton/README.md)
+- [`OpenCollective`](https://github.com/front10/landing-page-book/blob/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx)
 
 
 ## Usage

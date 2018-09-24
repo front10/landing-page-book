@@ -13,17 +13,13 @@ import "bootstrap/dist/css/bootstrap.min.css";
 ```
 2- Add following content to import the component:
 
-###### (Recommended)
+
 ```js
 import NavbarBrand from "@front10/landing-page-book/dist/components/NavbarBrand";
 import "@front10/landing-page-book/dist/components/NavbarBrand/style.css";
 ```
-or
 
-```js
-import { NavbarBrand } from '@front10/landing-page-book/dist/components';
-import "@front10/landing-page-book/dist/themes/default/style.css";
-```
+> Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
 
 3- Put this code into jsx page:
 ```html

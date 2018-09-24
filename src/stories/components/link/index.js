@@ -26,7 +26,7 @@ stories.addWithJSX(
         className={text('Class name', '')}
         tooltip={text('Tooltip', 'This is a tooltip')}
         target={select(
-          'Taget',
+          'Target',
           {
             '': '',
             _blank: '_blank',

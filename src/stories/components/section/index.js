@@ -12,12 +12,12 @@ import Readme from '../../../components/Section/README.md';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Section', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'Section',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Section

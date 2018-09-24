@@ -9,12 +9,12 @@ import { ContactInfo, Row, Column } from '../../../components';
 import Readme from '../../../components/ContactInfo/README.md';
 
 setAddon(JSXAddon);
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/ContactInfo', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'ContactInfo',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Row>

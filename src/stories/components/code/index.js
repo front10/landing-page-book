@@ -9,7 +9,7 @@ import Readme from '../../../components/Code/README.md';
 import jsxConfig from '../../mock/jsxConfig';
 
 setAddon(JSXAddon);
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Code', module);
 
 stories.addDecorator(withKnobs);
 
@@ -22,7 +22,7 @@ const langoptions = {
 };
 
 stories.addWithJSX(
-  'Code',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Code

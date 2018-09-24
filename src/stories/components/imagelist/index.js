@@ -111,12 +111,12 @@ const companies = [
   }
 ];
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/ImageList', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'ImageList',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <div className="container">

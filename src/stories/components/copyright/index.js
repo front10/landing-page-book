@@ -9,12 +9,12 @@ import { Copyright } from '../../../components';
 import Readme from '../../../components/Copyright/README.md';
 
 setAddon(JSXAddon);
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Copyright', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'Copyright',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Copyright

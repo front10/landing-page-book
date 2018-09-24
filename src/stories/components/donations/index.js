@@ -9,12 +9,12 @@ import { Donation } from '../../../components';
 import Readme from '../../../components/Donation/README.md';
 
 setAddon(JSXAddon);
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Donation', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'Donation',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <Donation

@@ -27,12 +27,12 @@ const markers = [
   }
 ];
 
-const stories = storiesOf('Components', module);
+const stories = storiesOf('Components/Location', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'Location',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <div style={{ height: '300px' }}>

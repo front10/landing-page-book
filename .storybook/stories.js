@@ -6,6 +6,7 @@
 
 // Introduction
 import '../src/stories/documentation/Introduction';
+import '../src/stories/documentation/theming';
 
 //Components
 

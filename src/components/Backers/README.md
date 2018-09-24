@@ -11,17 +11,17 @@
 1- Importing bootstrap style
 
 ```js
-import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/css/bootstrap.min.css';
 ```
+
 2- Add following content to import the component:
 
 ```js
-import Backers from "@front10/landing-page-book/dist/components/Backers";
-import "@front10/landing-page-book/dist/components/Backers/style.css";
+import Backers from '@front10/landing-page-book/dist/components/Backers';
+import '@front10/landing-page-book/dist/components/Backers/style.css';
 ```
 
 > Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
-
 
 3- Put this code into jsx page:
 
@@ -69,3 +69,10 @@ const backers = [
 | imageBordered | `Boolean` | Define images with border. Default `true`             |
 | imageGray     | `Boolean` | Define if images are with gray scale. Default `false` |
 | backers       | `Array`   | List of backers. Default `[]`, see example section    |
+
+## Theming variables
+
+| </br>Name                 | </br>Summary             | </br>Default |
+| ------------------------- | ------------------------ | ------------ |
+| --Backers\_\_Image-width  | Width of backers images  | `50px`       |
+| --Backers\_\_Image-height | Height of backers images | `50px`       |

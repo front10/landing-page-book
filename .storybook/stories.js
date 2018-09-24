@@ -7,17 +7,6 @@
 // Introduction
 import '../src/stories/documentation/Introduction';
 
-// Elements
-import '../src/stories/components/browser';
-import '../src/stories/components/button';
-import '../src/stories/components/header';
-import '../src/stories/components/image';
-import '../src/stories/components/icon';
-import '../src/stories/components/input';
-import '../src/stories/components/label';
-import '../src/stories/components/link';
-import '../src/stories/components/textBox';
-
 //Components
 
 import '../src/stories/components/navbar';
@@ -45,6 +34,17 @@ import '../src/stories/components/social';
 import '../src/stories/components/video';
 import '../src/stories/components/language-switcher';
 import '../src/stories/components/wizard';
+
+// Elements
+import '../src/stories/components/browser';
+import '../src/stories/components/button';
+import '../src/stories/components/header';
+import '../src/stories/components/image';
+import '../src/stories/components/icon';
+import '../src/stories/components/input';
+import '../src/stories/components/label';
+import '../src/stories/components/link';
+import '../src/stories/components/textBox';
 
 //Pages
 import '../src/stories/pages/front10';

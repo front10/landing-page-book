@@ -1,0 +1,23 @@
+sudo: false
+language: node_js
+node_js:
+- '8.12'
+cache:
+  directories:
+  - node_modules
+branches:
+  only:
+  - master
+notifications:
+  email: true
+before_script:
+- npm prune
+script:
+- npm run build
+- npm run eslint
+after_success:
+- bash ./scripts/travis-deploy.sh
+env:
+  global:
+  - GH_USER: front10
+  - GH_REPO: landing-page-book

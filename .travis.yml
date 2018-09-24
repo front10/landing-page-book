@@ -13,8 +13,8 @@ notifications:
 before_script:
 - npm prune
 script:
-- npm run build
 - npm run eslint
+- npm run test -- -u
 after_success:
 - bash ./scripts/travis-deploy.sh
 env:

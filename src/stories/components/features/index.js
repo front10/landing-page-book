@@ -37,6 +37,38 @@ const featuress = [
     summary: '@front10 / landing-page-book works in the main browsers. Try it and you will see.',
     link: 'https://front10.com',
     linktext: 'See more...'
+  },
+  {
+    image: 'images/features/testing.png',
+    title: 'Test code',
+    subtitle: 'Robust components',
+    summary: 'All our components tested, like a Swiss watch. With code coverage above 50%',
+    link: 'https://front10.com',
+    linktext: 'See more...'
+  },
+  {
+    image: 'images/features/speed.png',
+    title: 'Speed',
+    subtitle: 'Fast like Usain Bolt',
+    summary: 'With our components you can develop faster than Usain Bolt in 100 meters flat.',
+    link: 'https://front10.com',
+    linktext: 'See more...'
+  },
+  {
+    image: 'images/features/components.png',
+    title: 'More than 20',
+    subtitle: 'Many components',
+    summary: 'We provide more than twenty components to develop your page.',
+    link: 'https://front10.com',
+    linktext: 'See more...'
+  },
+  {
+    image: 'images/features/accessible.png',
+    title: 'Accessibility',
+    subtitle: 'Easy for clients',
+    summary: 'We provide components 100% accessibles and easy of use for final users.',
+    link: 'https://front10.com',
+    linktext: 'See more...'
   }
 ];
 

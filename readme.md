@@ -1,9 +1,3 @@
-<style type='text/css'>
-.markdown-body table th, .markdown-body table td{
-  border: 0px solid #dfe2e5 !important;
-}
-</style>
-
 <h1 style="text-align: center;">
     <a href="http://front10.com/">
         <img src="./assets/images/logo/logo-frton10.jpg" alt="Front10 Component Explorer" width="200">

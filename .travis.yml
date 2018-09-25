@@ -21,3 +21,7 @@ env:
   global:
   - GH_USER: front10
   - GH_REPO: landing-page-book
+addons:
+  browserstack:
+    username: "yoandrycollazo1"
+    access_key: "keqUpLHUTfApAq2fM77i"

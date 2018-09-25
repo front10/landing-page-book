@@ -17,6 +17,7 @@ script:
 - npm run test -- -u
 after_success:
 - bash ./scripts/travis-deploy.sh
+- npm run test-browser
 env:
   global:
   - GH_USER: front10

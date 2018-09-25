@@ -8,8 +8,9 @@
 
 `@front10/landing-page-book` is a kit of landing-page components to be share across the web.
 
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-[![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=<badge_key>)](https://www.browserstack.com/automate/public-build/<badge_key>)
+| Documentation | Browser test |
+|[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme) |
+|[![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=TU1IbU5FWi9nWGxSK3hLZE5ENkpqWWwvd2lkbGd2ZDAzVHZ1L09iSm5Kcz0tLXdYcnZxQXdpSmV6V3pCRmh3L21POHc9PQ==--5cbfc92590d6cb11fd728c5e914525c616ca663b%)](https://www.browserstack.com/automate/public-build/TU1IbU5FWi9nWGxSK3hLZE5ENkpqWWwvd2lkbGd2ZDAzVHZ1L09iSm5Kcz0tLXdYcnZxQXdpSmV6V3pCRmh3L21POHc9PQ==--5cbfc92590d6cb11fd728c5e914525c616ca663b%)|
 
 ## Setup
 
@@ -33,9 +34,9 @@ npm start
 |- [`Backers`](https://github.com/front10/landing-page-book/tree/master/src/components/Backers)|- [`Footer`](https://github.com/front10/landing-page-book/tree/master/src/components/Footer)| - [`Header`](https://github.com/front10/landing-page-book/tree/master/src/components/Header)
 
 
-| Third-Party integrations | | |  |
-|---   |---  |--- |---  |
-|- [`GoogleAnalytics`](https://github.com/front10/landing-page-book/tree/master/src/components/Analytics/Analytics.jsx)|- [`GoogleMap`](https://github.com/front10/landing-page-book/tree/master/src/components/Location/Location.jsx)|- [`Github`](https://github.com/front10/landing-page-book/tree/master/src/components/GithubButton)| - [`OpenCollective`](https://github.com/front10/landing-page-book/tree/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx)|
+| Third-Party integrations                                                                                               |                                                                                                                |                                                                                                    |                                                                                                                                               |
+| ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
+| - [`GoogleAnalytics`](https://github.com/front10/landing-page-book/tree/master/src/components/Analytics/Analytics.jsx) | - [`GoogleMap`](https://github.com/front10/landing-page-book/tree/master/src/components/Location/Location.jsx) | - [`Github`](https://github.com/front10/landing-page-book/tree/master/src/components/GithubButton) | - [`OpenCollective`](https://github.com/front10/landing-page-book/tree/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx) |
 
 ## Usage
 

@@ -95,40 +95,35 @@ const vEdge = new webdriver.Builder()
 
 vchrome.get('https://front10.com/landing-page-book').then(() => {
   vchrome.then(() => {
-    vchrome.getTitle().then(title => {
-      console.log('Chrome: ', title);
+    vchrome.getTitle().then(() => {
       vchrome.quit();
     });
   });
 });
 vfirefox.get('https://front10.com/landing-page-book').then(() => {
   vfirefox.then(() => {
-    vfirefox.getTitle().then(title => {
-      console.log('Firefox: ', title);
+    vfirefox.getTitle().then(() => {
       vfirefox.quit();
     });
   });
 });
 vSafari.get('https://front10.com/landing-page-book').then(() => {
   vSafari.then(() => {
-    vSafari.getTitle().then(title => {
-      console.log('Safari: ', title);
+    vSafari.getTitle().then(() => {
       vSafari.quit();
     });
   });
 });
 vIexplorer.get('https://front10.com/landing-page-book').then(() => {
   vIexplorer.then(() => {
-    vIexplorer.getTitle().then(title => {
-      console.log('IE: ', title);
+    vIexplorer.getTitle().then(() => {
       vIexplorer.quit();
     });
   });
 });
 vEdge.get('https://front10.com/landing-page-book').then(() => {
   vEdge.then(() => {
-    vEdge.getTitle().then(title => {
-      console.log('Edge: ', title);
+    vEdge.getTitle().then(() => {
       vEdge.quit();
     });
   });

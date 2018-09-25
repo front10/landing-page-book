@@ -20,336 +20,9 @@ ReactWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
     "instance": Link {
-      "_reactInternalFiber": FiberNode {
-        "_debugID": 50,
-        "_debugIsCurrentlyTiming": false,
-        "_debugOwner": FiberNode {
-          "_debugID": 49,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": null,
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
-          "alternate": null,
-          "child": [Circular],
-          "childExpirationTime": 0,
-          "effectTag": 1,
-          "expirationTime": 0,
-          "firstContextDependency": null,
-          "firstEffect": null,
-          "index": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "Component": [Function],
-            "context": null,
-            "props": Object {
-              "children": null,
-              "className": "",
-              "disabled": false,
-              "href": "https://front10.com",
-              "target": "",
-              "tooltip": "",
-            },
-          },
-          "memoizedState": Object {
-            "context": null,
-            "mount": true,
-            "props": Object {
-              "children": null,
-              "className": "",
-              "disabled": false,
-              "href": "https://front10.com",
-              "target": "",
-              "tooltip": "",
-            },
-          },
-          "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "Component": [Function],
-            "context": null,
-            "props": Object {
-              "children": null,
-              "className": "",
-              "disabled": false,
-              "href": "https://front10.com",
-              "target": "",
-              "tooltip": "",
-            },
-          },
-          "ref": null,
-          "return": FiberNode {
-            "_debugID": 47,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": [Circular],
-              "child": null,
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "expirationTime": 1,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": null,
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": null,
-              "ref": null,
-              "return": null,
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": Object {
-                "containerInfo": <div>
-                  <a
-                    class=""
-                    href="https://front10.com"
-                    target=""
-                    title=""
-                  />
-                </div>,
-                "context": Object {},
-                "current": [Circular],
-                "didError": false,
-                "earliestPendingTime": 0,
-                "earliestSuspendedTime": 0,
-                "expirationTime": 0,
-                "finishedWork": null,
-                "firstBatch": null,
-                "hydrate": false,
-                "interactionThreadID": 12,
-                "latestPendingTime": 0,
-                "latestPingedTime": 0,
-                "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
-                "nextExpirationTimeToWorkOn": 0,
-                "nextScheduledRoot": null,
-                "pendingChildren": null,
-                "pendingCommitExpirationTime": 0,
-                "pendingContext": null,
-                "pendingInteractionMap": Map {},
-                "timeoutHandle": -1,
-              },
-              "tag": 5,
-              "treeBaseDuration": 0,
-              "type": null,
-              "updateQueue": Object {
-                "baseState": null,
-                "firstCapturedEffect": null,
-                "firstCapturedUpdate": null,
-                "firstEffect": null,
-                "firstUpdate": Object {
-                  "callback": null,
-                  "expirationTime": 1,
-                  "next": null,
-                  "nextEffect": null,
-                  "payload": Object {
-                    "element": <WrapperComponent
-                      Component={[Function]}
-                      context={null}
-                      props={
-                        Object {
-                          "children": null,
-                          "className": "",
-                          "disabled": false,
-                          "href": "https://front10.com",
-                          "target": "",
-                          "tooltip": "",
-                        }
-                      }
-                    />,
-                  },
-                  "tag": 0,
-                },
-                "lastCapturedEffect": null,
-                "lastCapturedUpdate": null,
-                "lastEffect": null,
-                "lastUpdate": Object {
-                  "callback": null,
-                  "expirationTime": 1,
-                  "next": null,
-                  "nextEffect": null,
-                  "payload": Object {
-                    "element": <WrapperComponent
-                      Component={[Function]}
-                      context={null}
-                      props={
-                        Object {
-                          "children": null,
-                          "className": "",
-                          "disabled": false,
-                          "href": "https://front10.com",
-                          "target": "",
-                          "tooltip": "",
-                        }
-                      }
-                    />,
-                  },
-                  "tag": 0,
-                },
-              },
-            },
-            "child": [Circular],
-            "childExpirationTime": 0,
-            "effectTag": 32,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": [Circular],
-            "index": 0,
-            "key": null,
-            "lastEffect": [Circular],
-            "memoizedProps": null,
-            "memoizedState": Object {
-              "element": <WrapperComponent
-                Component={[Function]}
-                context={null}
-                props={
-                  Object {
-                    "children": null,
-                    "className": "",
-                    "disabled": false,
-                    "href": "https://front10.com",
-                    "target": "",
-                    "tooltip": "",
-                  }
-                }
-              />,
-            },
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": null,
-            "ref": null,
-            "return": null,
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": Object {
-              "containerInfo": <div>
-                <a
-                  class=""
-                  href="https://front10.com"
-                  target=""
-                  title=""
-                />
-              </div>,
-              "context": Object {},
-              "current": [Circular],
-              "didError": false,
-              "earliestPendingTime": 0,
-              "earliestSuspendedTime": 0,
-              "expirationTime": 0,
-              "finishedWork": null,
-              "firstBatch": null,
-              "hydrate": false,
-              "interactionThreadID": 12,
-              "latestPendingTime": 0,
-              "latestPingedTime": 0,
-              "latestSuspendedTime": 0,
-              "memoizedInteractions": Set {},
-              "nextExpirationTimeToWorkOn": 0,
-              "nextScheduledRoot": null,
-              "pendingChildren": null,
-              "pendingCommitExpirationTime": 0,
-              "pendingContext": null,
-              "pendingInteractionMap": Map {},
-              "timeoutHandle": -1,
-            },
-            "tag": 5,
-            "treeBaseDuration": 0,
-            "type": null,
-            "updateQueue": Object {
-              "baseState": Object {
-                "element": <WrapperComponent
-                  Component={[Function]}
-                  context={null}
-                  props={
-                    Object {
-                      "children": null,
-                      "className": "",
-                      "disabled": false,
-                      "href": "https://front10.com",
-                      "target": "",
-                      "tooltip": "",
-                    }
-                  }
-                />,
-              },
-              "firstCapturedEffect": null,
-              "firstCapturedUpdate": null,
-              "firstEffect": null,
-              "firstUpdate": null,
-              "lastCapturedEffect": null,
-              "lastCapturedUpdate": null,
-              "lastEffect": null,
-              "lastUpdate": null,
-            },
-          },
-          "selfBaseDuration": 0,
-          "sibling": null,
-          "stateNode": WrapperComponent {
-            "_reactInternalFiber": [Circular],
-            "_reactInternalInstance": Object {},
-            "context": Object {},
-            "props": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "children": null,
-                "className": "",
-                "disabled": false,
-                "href": "https://front10.com",
-                "target": "",
-                "tooltip": "",
-              },
-            },
-            "refs": Object {},
-            "state": Object {
-              "context": null,
-              "mount": true,
-              "props": Object {
-                "children": null,
-                "className": "",
-                "disabled": false,
-                "href": "https://front10.com",
-                "target": "",
-                "tooltip": "",
-              },
-            },
-            "updater": Object {
-              "enqueueForceUpdate": [Function],
-              "enqueueReplaceState": [Function],
-              "enqueueSetState": [Function],
-              "isMounted": [Function],
-            },
-          },
-          "tag": 2,
-          "treeBaseDuration": 0,
-          "type": [Function],
-          "updateQueue": null,
-        },
-        "_debugSource": null,
-        "actualDuration": 0,
-        "actualStartTime": -1,
+      "_reactInternalFiber": Se {
         "alternate": null,
-        "child": FiberNode {
-          "_debugID": 51,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": [Circular],
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
+        "child": Se {
           "alternate": null,
           "child": null,
           "childExpirationTime": 0,
@@ -381,7 +54,6 @@ ReactWrapper {
           },
           "ref": null,
           "return": [Circular],
-          "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": <a
             class=""
@@ -390,7 +62,6 @@ ReactWrapper {
             title=""
           />,
           "tag": 7,
-          "treeBaseDuration": 0,
           "type": "a",
           "updateQueue": null,
         },
@@ -422,13 +93,7 @@ ReactWrapper {
           "tooltip": "",
         },
         "ref": null,
-        "return": FiberNode {
-          "_debugID": 49,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": null,
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
+        "return": Se {
           "alternate": null,
           "child": [Circular],
           "childExpirationTime": 0,
@@ -478,20 +143,8 @@ ReactWrapper {
             },
           },
           "ref": null,
-          "return": FiberNode {
-            "_debugID": 47,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
+          "return": Se {
+            "alternate": Se {
               "alternate": [Circular],
               "child": null,
               "childExpirationTime": 0,
@@ -509,7 +162,6 @@ ReactWrapper {
               "pendingProps": null,
               "ref": null,
               "return": null,
-              "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
@@ -529,21 +181,17 @@ ReactWrapper {
                 "finishedWork": null,
                 "firstBatch": null,
                 "hydrate": false,
-                "interactionThreadID": 12,
                 "latestPendingTime": 0,
                 "latestPingedTime": 0,
                 "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
                 "nextExpirationTimeToWorkOn": 0,
                 "nextScheduledRoot": null,
                 "pendingChildren": null,
                 "pendingCommitExpirationTime": 0,
                 "pendingContext": null,
-                "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
               "tag": 5,
-              "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
                 "baseState": null,
@@ -632,7 +280,6 @@ ReactWrapper {
             "pendingProps": null,
             "ref": null,
             "return": null,
-            "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
@@ -652,21 +299,17 @@ ReactWrapper {
               "finishedWork": null,
               "firstBatch": null,
               "hydrate": false,
-              "interactionThreadID": 12,
               "latestPendingTime": 0,
               "latestPingedTime": 0,
               "latestSuspendedTime": 0,
-              "memoizedInteractions": Set {},
               "nextExpirationTimeToWorkOn": 0,
               "nextScheduledRoot": null,
               "pendingChildren": null,
               "pendingCommitExpirationTime": 0,
               "pendingContext": null,
-              "pendingInteractionMap": Map {},
               "timeoutHandle": -1,
             },
             "tag": 5,
-            "treeBaseDuration": 0,
             "type": null,
             "updateQueue": Object {
               "baseState": Object {
@@ -695,11 +338,9 @@ ReactWrapper {
               "lastUpdate": null,
             },
           },
-          "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": WrapperComponent {
             "_reactInternalFiber": [Circular],
-            "_reactInternalInstance": Object {},
             "context": Object {},
             "props": Object {
               "Component": [Function],
@@ -734,19 +375,15 @@ ReactWrapper {
             },
           },
           "tag": 2,
-          "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
         },
-        "selfBaseDuration": 0,
         "sibling": null,
         "stateNode": [Circular],
         "tag": 2,
-        "treeBaseDuration": 0,
         "type": [Function],
         "updateQueue": null,
       },
-      "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
         "children": null,
@@ -804,336 +441,9 @@ ReactWrapper {
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": Link {
-        "_reactInternalFiber": FiberNode {
-          "_debugID": 50,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": FiberNode {
-            "_debugID": 49,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": null,
-            "child": [Circular],
-            "childExpirationTime": 0,
-            "effectTag": 1,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "children": null,
-                "className": "",
-                "disabled": false,
-                "href": "https://front10.com",
-                "target": "",
-                "tooltip": "",
-              },
-            },
-            "memoizedState": Object {
-              "context": null,
-              "mount": true,
-              "props": Object {
-                "children": null,
-                "className": "",
-                "disabled": false,
-                "href": "https://front10.com",
-                "target": "",
-                "tooltip": "",
-              },
-            },
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "children": null,
-                "className": "",
-                "disabled": false,
-                "href": "https://front10.com",
-                "target": "",
-                "tooltip": "",
-              },
-            },
-            "ref": null,
-            "return": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": FiberNode {
-                "_debugID": 47,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": [Circular],
-                "child": null,
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "expirationTime": 1,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": null,
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": null,
-                "ref": null,
-                "return": null,
-                "selfBaseDuration": 0,
-                "sibling": null,
-                "stateNode": Object {
-                  "containerInfo": <div>
-                    <a
-                      class=""
-                      href="https://front10.com"
-                      target=""
-                      title=""
-                    />
-                  </div>,
-                  "context": Object {},
-                  "current": [Circular],
-                  "didError": false,
-                  "earliestPendingTime": 0,
-                  "earliestSuspendedTime": 0,
-                  "expirationTime": 0,
-                  "finishedWork": null,
-                  "firstBatch": null,
-                  "hydrate": false,
-                  "interactionThreadID": 12,
-                  "latestPendingTime": 0,
-                  "latestPingedTime": 0,
-                  "latestSuspendedTime": 0,
-                  "memoizedInteractions": Set {},
-                  "nextExpirationTimeToWorkOn": 0,
-                  "nextScheduledRoot": null,
-                  "pendingChildren": null,
-                  "pendingCommitExpirationTime": 0,
-                  "pendingContext": null,
-                  "pendingInteractionMap": Map {},
-                  "timeoutHandle": -1,
-                },
-                "tag": 5,
-                "treeBaseDuration": 0,
-                "type": null,
-                "updateQueue": Object {
-                  "baseState": null,
-                  "firstCapturedEffect": null,
-                  "firstCapturedUpdate": null,
-                  "firstEffect": null,
-                  "firstUpdate": Object {
-                    "callback": null,
-                    "expirationTime": 1,
-                    "next": null,
-                    "nextEffect": null,
-                    "payload": Object {
-                      "element": <WrapperComponent
-                        Component={[Function]}
-                        context={null}
-                        props={
-                          Object {
-                            "children": null,
-                            "className": "",
-                            "disabled": false,
-                            "href": "https://front10.com",
-                            "target": "",
-                            "tooltip": "",
-                          }
-                        }
-                      />,
-                    },
-                    "tag": 0,
-                  },
-                  "lastCapturedEffect": null,
-                  "lastCapturedUpdate": null,
-                  "lastEffect": null,
-                  "lastUpdate": Object {
-                    "callback": null,
-                    "expirationTime": 1,
-                    "next": null,
-                    "nextEffect": null,
-                    "payload": Object {
-                      "element": <WrapperComponent
-                        Component={[Function]}
-                        context={null}
-                        props={
-                          Object {
-                            "children": null,
-                            "className": "",
-                            "disabled": false,
-                            "href": "https://front10.com",
-                            "target": "",
-                            "tooltip": "",
-                          }
-                        }
-                      />,
-                    },
-                    "tag": 0,
-                  },
-                },
-              },
-              "child": [Circular],
-              "childExpirationTime": 0,
-              "effectTag": 32,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": [Circular],
-              "index": 0,
-              "key": null,
-              "lastEffect": [Circular],
-              "memoizedProps": null,
-              "memoizedState": Object {
-                "element": <WrapperComponent
-                  Component={[Function]}
-                  context={null}
-                  props={
-                    Object {
-                      "children": null,
-                      "className": "",
-                      "disabled": false,
-                      "href": "https://front10.com",
-                      "target": "",
-                      "tooltip": "",
-                    }
-                  }
-                />,
-              },
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": null,
-              "ref": null,
-              "return": null,
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": Object {
-                "containerInfo": <div>
-                  <a
-                    class=""
-                    href="https://front10.com"
-                    target=""
-                    title=""
-                  />
-                </div>,
-                "context": Object {},
-                "current": [Circular],
-                "didError": false,
-                "earliestPendingTime": 0,
-                "earliestSuspendedTime": 0,
-                "expirationTime": 0,
-                "finishedWork": null,
-                "firstBatch": null,
-                "hydrate": false,
-                "interactionThreadID": 12,
-                "latestPendingTime": 0,
-                "latestPingedTime": 0,
-                "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
-                "nextExpirationTimeToWorkOn": 0,
-                "nextScheduledRoot": null,
-                "pendingChildren": null,
-                "pendingCommitExpirationTime": 0,
-                "pendingContext": null,
-                "pendingInteractionMap": Map {},
-                "timeoutHandle": -1,
-              },
-              "tag": 5,
-              "treeBaseDuration": 0,
-              "type": null,
-              "updateQueue": Object {
-                "baseState": Object {
-                  "element": <WrapperComponent
-                    Component={[Function]}
-                    context={null}
-                    props={
-                      Object {
-                        "children": null,
-                        "className": "",
-                        "disabled": false,
-                        "href": "https://front10.com",
-                        "target": "",
-                        "tooltip": "",
-                      }
-                    }
-                  />,
-                },
-                "firstCapturedEffect": null,
-                "firstCapturedUpdate": null,
-                "firstEffect": null,
-                "firstUpdate": null,
-                "lastCapturedEffect": null,
-                "lastCapturedUpdate": null,
-                "lastEffect": null,
-                "lastUpdate": null,
-              },
-            },
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": WrapperComponent {
-              "_reactInternalFiber": [Circular],
-              "_reactInternalInstance": Object {},
-              "context": Object {},
-              "props": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "children": null,
-                  "className": "",
-                  "disabled": false,
-                  "href": "https://front10.com",
-                  "target": "",
-                  "tooltip": "",
-                },
-              },
-              "refs": Object {},
-              "state": Object {
-                "context": null,
-                "mount": true,
-                "props": Object {
-                  "children": null,
-                  "className": "",
-                  "disabled": false,
-                  "href": "https://front10.com",
-                  "target": "",
-                  "tooltip": "",
-                },
-              },
-              "updater": Object {
-                "enqueueForceUpdate": [Function],
-                "enqueueReplaceState": [Function],
-                "enqueueSetState": [Function],
-                "isMounted": [Function],
-              },
-            },
-            "tag": 2,
-            "treeBaseDuration": 0,
-            "type": [Function],
-            "updateQueue": null,
-          },
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
+        "_reactInternalFiber": Se {
           "alternate": null,
-          "child": FiberNode {
-            "_debugID": 51,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
+          "child": Se {
             "alternate": null,
             "child": null,
             "childExpirationTime": 0,
@@ -1165,7 +475,6 @@ ReactWrapper {
             },
             "ref": null,
             "return": [Circular],
-            "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": <a
               class=""
@@ -1174,7 +483,6 @@ ReactWrapper {
               title=""
             />,
             "tag": 7,
-            "treeBaseDuration": 0,
             "type": "a",
             "updateQueue": null,
           },
@@ -1206,13 +514,7 @@ ReactWrapper {
             "tooltip": "",
           },
           "ref": null,
-          "return": FiberNode {
-            "_debugID": 49,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
+          "return": Se {
             "alternate": null,
             "child": [Circular],
             "childExpirationTime": 0,
@@ -1262,20 +564,8 @@ ReactWrapper {
               },
             },
             "ref": null,
-            "return": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": FiberNode {
-                "_debugID": 47,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
+            "return": Se {
+              "alternate": Se {
                 "alternate": [Circular],
                 "child": null,
                 "childExpirationTime": 0,
@@ -1293,7 +583,6 @@ ReactWrapper {
                 "pendingProps": null,
                 "ref": null,
                 "return": null,
-                "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
@@ -1313,21 +602,17 @@ ReactWrapper {
                   "finishedWork": null,
                   "firstBatch": null,
                   "hydrate": false,
-                  "interactionThreadID": 12,
                   "latestPendingTime": 0,
                   "latestPingedTime": 0,
                   "latestSuspendedTime": 0,
-                  "memoizedInteractions": Set {},
                   "nextExpirationTimeToWorkOn": 0,
                   "nextScheduledRoot": null,
                   "pendingChildren": null,
                   "pendingCommitExpirationTime": 0,
                   "pendingContext": null,
-                  "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
                 "tag": 5,
-                "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
                   "baseState": null,
@@ -1416,7 +701,6 @@ ReactWrapper {
               "pendingProps": null,
               "ref": null,
               "return": null,
-              "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
@@ -1436,21 +720,17 @@ ReactWrapper {
                 "finishedWork": null,
                 "firstBatch": null,
                 "hydrate": false,
-                "interactionThreadID": 12,
                 "latestPendingTime": 0,
                 "latestPingedTime": 0,
                 "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
                 "nextExpirationTimeToWorkOn": 0,
                 "nextScheduledRoot": null,
                 "pendingChildren": null,
                 "pendingCommitExpirationTime": 0,
                 "pendingContext": null,
-                "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
               "tag": 5,
-              "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
                 "baseState": Object {
@@ -1479,11 +759,9 @@ ReactWrapper {
                 "lastUpdate": null,
               },
             },
-            "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": WrapperComponent {
               "_reactInternalFiber": [Circular],
-              "_reactInternalInstance": Object {},
               "context": Object {},
               "props": Object {
                 "Component": [Function],
@@ -1518,19 +796,15 @@ ReactWrapper {
               },
             },
             "tag": 2,
-            "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
           },
-          "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": [Circular],
           "tag": 2,
-          "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
         },
-        "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
           "children": null,

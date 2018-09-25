@@ -20,49 +20,22 @@ npm start
 
 ## Available Components
 
-Main components:
+| Main components  |   |   | |
+|---	|---	|---	|---  |
+|- [`Navbar`](https://github.com/front10/landing-page-book/tree/master/src/components/Navbar)|- [`BackersOpenCollective`](https://github.com/front10/landing-page-book/tree/master/src/components/BackersOpenCollective)|- [`ImageList`](https://github.com/front10/landing-page-book/tree/master/src/components/ImageList)| - [`Image`](https://github.com/front10/landing-page-book/tree/master/src/components/Image)
+|- [`Hero`](https://github.com/front10/landing-page-book/tree/master/src/components/Hero)|- [`Team`](https://github.com/front10/landing-page-book/tree/master/src/components/Team)|- [`Location`](https://github.com/front10/landing-page-book/tree/master/src/components/Location) | - [`Icon`](https://github.com/front10/landing-page-book/tree/master/src/components/Icon)
+|- [`Section`](https://github.com/front10/landing-page-book/tree/master/src/components/Section)|- [`Sponsors`](https://github.com/front10/landing-page-book/tree/master/src/components/Sponsors)|- [`Social`](https://github.com/front10/landing-page-book/tree/master/src/components/Social) | - [`Input`](https://github.com/front10/landing-page-book/tree/master/src/components/Input)
+|- [`Features`](https://github.com/front10/landing-page-book/tree/master/src/components/Features)|- [`BuiltWith`](https://github.com/front10/landing-page-book/tree/master/src/components/BuiltWith)|- [`Video`](https://github.com/front10/landing-page-book/tree/master/src/components/Video)| - [`Label`](https://github.com/front10/landing-page-book/tree/master/src/components/Label) |
+|- [`GithubButton`](https://github.com/front10/landing-page-book/tree/master/src/components/GithubButton)|- [`ContactInfo`](https://github.com/front10/landing-page-book/tree/master/src/components/ContactInfo)|- [`LanguageSwitcher`](https://github.com/front10/landing-page-book/tree/master/src/components/LanguageSwitcher) | - [`Link`](https://github.com/front10/landing-page-book/tree/master/src/components/Link)|
+|- [`Code`](https://github.com/front10/landing-page-book/tree/master/src/components/Code)|- [`ContactUs`](https://github.com/front10/landing-page-book/tree/master/src/components/ContactUs)|- [`Wizard`](https://github.com/front10/landing-page-book/tree/master/src/components/Wizard) | - [`TextBox`](https://github.com/front10/landing-page-book/tree/master/src/components/TextBox)
+|- [`BrowserSupport`](https://github.com/front10/landing-page-book/tree/master/src/components/BrowserSupport)|- [`Copyright`](https://github.com/front10/landing-page-book/tree/master/src/components/Copyright)| - [`Browser`](https://github.com/front10/landing-page-book/tree/master/src/components/Browser) | - [`Card`](https://github.com/front10/landing-page-book/tree/master/src/components/Card)
+|- [`Gif`](https://github.com/front10/landing-page-book/tree/master/src/components/Gif)|- [`Donation`](https://github.com/front10/landing-page-book/tree/master/src/components/Donation)| - [`Button`](https://github.com/front10/landing-page-book/tree/master/src/components/Button)
+|- [`Backers`](https://github.com/front10/landing-page-book/tree/master/src/components/Backers)|- [`Footer`](https://github.com/front10/landing-page-book/tree/master/src/components/Footer)| - [`Header`](https://github.com/front10/landing-page-book/tree/master/src/components/Header)
 
-- [`Navbar`](https://github.com/front10/landing-page-book/blob/master/src/components/Navbar/README.md)
-- [`Hero`](https://github.com/front10/landing-page-book/blob/master/src/components/Hero/README.md)
-- [`Section`](https://github.com/front10/landing-page-book/blob/master/src/components/Section/README.md)
-- [`Features`](https://github.com/front10/landing-page-book/blob/master/src/components/Features/README.md)
-- [`GithubButton`](https://github.com/front10/landing-page-book/blob/master/src/components/GithubButton/README.md)
-- [`Code`](https://github.com/front10/landing-page-book/blob/master/src/components/Code/README.md)
-- [`BrowserSupport`](https://github.com/front10/landing-page-book/blob/master/src/components/BrowserSupport/README.md)
-- [`Gif`](https://github.com/front10/landing-page-book/blob/master/src/components/Gif/README.md)
-- [`Backers`](https://github.com/front10/landing-page-book/blob/master/src/components/Backers/README.md)
-- [`BackersOpenCollective`](https://github.com/front10/landing-page-book/blob/master/src/components/BackersOpenCollective/README.md)
-- [`Team`](https://github.com/front10/landing-page-book/blob/master/src/components/Team/README.md)
-- [`Sponsors`](https://github.com/front10/landing-page-book/blob/master/src/components/Sponsors/README.md)
-- [`BuiltWith`](https://github.com/front10/landing-page-book/blob/master/src/components/BuiltWith/README.md)
-- [`ContactInfo`](https://github.com/front10/landing-page-book/blob/master/src/components/ContactInfo/README.md)
-- [`ContactUs`](https://github.com/front10/landing-page-book/blob/master/src/components/ContactUs/README.md)
-- [`Copyright`](https://github.com/front10/landing-page-book/blob/master/src/components/Copyright/README.md)
-- [`Donation`](https://github.com/front10/landing-page-book/blob/master/src/components/Donation/README.md)
-- [`Footer`](https://github.com/front10/landing-page-book/blob/master/src/components/Footer/README.md)
-- [`ImageList`](https://github.com/front10/landing-page-book/blob/master/src/components/ImageList/README.md)
-- [`Location`](https://github.com/front10/landing-page-book/blob/master/src/components/Location/README.md)
-- [`Social`](https://github.com/front10/landing-page-book/blob/master/src/components/Social/README.md)
-- [`Video`](https://github.com/front10/landing-page-book/blob/master/src/components/Video/README.md)
-- [`LanguageSwitcher`](https://github.com/front10/landing-page-book/blob/master/src/components/LanguageSwitcher/README.md)
-- [`Wizard`](https://github.com/front10/landing-page-book/blob/master/src/components/Wizard/README.md)
-- [`Browser`](https://github.com/front10/landing-page-book/blob/master/src/components/Browser/README.md)
-- [`Button`](https://github.com/front10/landing-page-book/blob/master/src/components/Button/README.md)
-- [`Header`](https://github.com/front10/landing-page-book/blob/master/src/components/Header/README.md)
-- [`Image`](https://github.com/front10/landing-page-book/blob/master/src/components/Image/README.md)
-- [`Icon`](https://github.com/front10/landing-page-book/blob/master/src/components/Icon/README.md)
-- [`Input`](https://github.com/front10/landing-page-book/blob/master/src/components/Input/README.md)
-- [`Label`](https://github.com/front10/landing-page-book/blob/master/src/components/Label/README.md)
-- [`Link`](https://github.com/front10/landing-page-book/blob/master/src/components/Link/README.md)
-- [`TextBox`](https://github.com/front10/landing-page-book/blob/master/src/components/TextBox/README.md)
-- [`Card`](https://github.com/front10/landing-page-book/blob/master/src/components/Card/README.md)
 
-Third-Party integrations:
-
-- [`GoogleAnalytics`](https://github.com/front10/landing-page-book/blob/master/src/components/Analytics/Analytics.jsx)
-- [`GoogleMap`](https://github.com/front10/landing-page-book/blob/master/src/components/Location/Location.jsx)
-- [`Github`](https://github.com/front10/landing-page-book/blob/master/src/components/GithubButton/README.md)
-- [`OpenCollective`](https://github.com/front10/landing-page-book/blob/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx)
+| Third-Party integrations | | |  |
+|---   |---  |--- |---  |
+|- [`GoogleAnalytics`](https://github.com/front10/landing-page-book/tree/master/src/components/Analytics/Analytics.jsx)|- [`GoogleMap`](https://github.com/front10/landing-page-book/tree/master/src/components/Location/Location.jsx)|- [`Github`](https://github.com/front10/landing-page-book/tree/master/src/components/GithubButton)| - [`OpenCollective`](https://github.com/front10/landing-page-book/tree/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx)|
 
 ## Usage
 

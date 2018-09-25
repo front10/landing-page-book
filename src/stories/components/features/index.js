@@ -14,33 +14,16 @@ const stories = storiesOf('Components/Features', module);
 stories.addDecorator(withKnobs);
 const featuress = [
   {
-    image: 'images/features/responsive.png',
-    title: 'Responsive',
-    subtitle: 'Available in all resolutions',
-    summary:
-      'Our library is more responsive than the browser. All that you  needed is a web browser.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  },
-  {
     image: 'images/features/themes.png',
-    title: 'Theming',
+    title: 'theming',
     subtitle: 'Easy to create themes',
     summary: 'Library customization with Css variables for easy theming and component changes.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },
   {
-    image: 'images/features/browsers.png',
-    title: 'Browsers',
-    subtitle: 'Compatible with all browsers',
-    summary: '@front10 / landing-page-book works in the main browsers. Try it and you will see.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  },
-  {
     image: 'images/features/testing.png',
-    title: 'Test code',
+    title: 'unit test',
     subtitle: 'Robust components',
     summary: 'All our components tested, like a Swiss watch. With code coverage above 50%',
     link: 'https://front10.com',
@@ -48,25 +31,18 @@ const featuress = [
   },
   {
     image: 'images/features/speed.png',
-    title: 'Speed',
+    title: 'faster dev',
     subtitle: 'Fast like Usain Bolt',
-    summary: 'With our components you can develop faster than Usain Bolt in 100 meters flat.',
+    summary:
+      'With our components you can develop a wep app faster than Usain Bolt in 100 meters flat.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },
   {
-    image: 'images/features/components.png',
-    title: 'More than 20',
-    subtitle: 'Many components',
-    summary: 'We provide more than twenty components to develop your page.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  },
-  {
-    image: 'images/features/accessible.png',
-    title: 'Accessibility',
-    subtitle: 'Easy for clients',
-    summary: 'We provide components 100% accessibles and easy of use for final users.',
+    image: 'images/features/code.png',
+    title: 'simple',
+    subtitle: 'Easy to use',
+    summary: 'Very easy to use, you can do a lot in your wep application with little code.',
     link: 'https://front10.com',
     linktext: 'See more...'
   }

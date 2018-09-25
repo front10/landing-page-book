@@ -15,6 +15,7 @@ before_script:
 script:
 - npm run eslint
 - npm run test -- -u
+- npm run test:badge
 after_success:
 - bash ./scripts/travis-deploy.sh
 - npm run test-browser

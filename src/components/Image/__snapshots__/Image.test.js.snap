@@ -21,223 +21,16 @@ ReactWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
     "instance": Image {
-      "_reactInternalFiber": Se {
-        "alternate": null,
-        "child": Se {
-          "alternate": null,
-          "child": null,
-          "childExpirationTime": 0,
-          "effectTag": 0,
-          "expirationTime": 0,
-          "firstContextDependency": null,
-          "firstEffect": null,
-          "index": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "alt": undefined,
-            "className": "img-fluid",
-            "height": undefined,
-            "onLoad": [Function],
-            "src": undefined,
-            "style": Object {
-              "display": "none",
-            },
-            "title": "",
-            "width": undefined,
-          },
-          "memoizedState": null,
-          "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "alt": undefined,
-            "className": "img-fluid",
-            "height": undefined,
-            "onLoad": [Function],
-            "src": undefined,
-            "style": Object {
-              "display": "none",
-            },
-            "title": "",
-            "width": undefined,
-          },
-          "ref": null,
-          "return": [Circular],
-          "sibling": Se {
-            "alternate": null,
-            "child": Se {
-              "alternate": null,
-              "child": Se {
-                "alternate": null,
-                "child": null,
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "expirationTime": 0,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": "",
-                },
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "children": "",
-                },
-                "ref": null,
-                "return": [Circular],
-                "sibling": null,
-                "stateNode": <title />,
-                "tag": 7,
-                "type": "title",
-                "updateQueue": null,
-              },
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": <title>
-                  
-                </title>,
-                "fill": "#CCC",
-                "height": "100",
-                "width": "100",
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": <title>
-                  
-                </title>,
-                "fill": "#CCC",
-                "height": "100",
-                "width": "100",
-              },
-              "ref": null,
-              "return": [Circular],
-              "sibling": null,
-              "stateNode": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
-                <title />
-              </rect>,
-              "tag": 7,
-              "type": "rect",
-              "updateQueue": null,
-            },
-            "childExpirationTime": 0,
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 1,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "alt": undefined,
-              "children": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
-                <title>
-                  
-                </title>
-              </rect>,
-              "className": "img-fluid",
-              "height": undefined,
-              "viewBox": "0 0 100 100",
-              "width": undefined,
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "alt": undefined,
-              "children": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
-                <title>
-                  
-                </title>
-              </rect>,
-              "className": "img-fluid",
-              "height": undefined,
-              "viewBox": "0 0 100 100",
-              "width": undefined,
-            },
-            "ref": null,
-            "return": [Circular],
-            "sibling": null,
-            "stateNode": <svg
-              class="img-fluid"
-              viewBox="0 0 100 100"
-            >
-              <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
-                <title />
-              </rect>
-            </svg>,
-            "tag": 7,
-            "type": "svg",
-            "updateQueue": null,
-          },
-          "stateNode": <img
-            class="img-fluid"
-            style="display: none;"
-            title=""
-          />,
-          "tag": 7,
-          "type": "img",
-          "updateQueue": null,
-        },
-        "childExpirationTime": 0,
-        "effectTag": 1,
-        "expirationTime": 0,
-        "firstContextDependency": null,
-        "firstEffect": null,
-        "index": 0,
-        "key": null,
-        "lastEffect": null,
-        "memoizedProps": Object {
-          "border": false,
-          "className": "img-fluid",
-          "height": undefined,
-          "rounded": false,
-          "tooltip": "",
-          "width": undefined,
-        },
-        "memoizedState": Object {
-          "loaded": false,
-        },
-        "mode": 0,
-        "nextEffect": null,
-        "pendingProps": Object {
-          "border": false,
-          "className": "img-fluid",
-          "height": undefined,
-          "rounded": false,
-          "tooltip": "",
-          "width": undefined,
-        },
-        "ref": null,
-        "return": Se {
+      "_reactInternalFiber": FiberNode {
+        "_debugID": 50,
+        "_debugIsCurrentlyTiming": false,
+        "_debugOwner": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
           "alternate": null,
           "child": [Circular],
           "childExpirationTime": 0,
@@ -287,8 +80,20 @@ ReactWrapper {
             },
           },
           "ref": null,
-          "return": Se {
-            "alternate": Se {
+          "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
               "alternate": [Circular],
               "child": null,
               "childExpirationTime": 1,
@@ -306,6 +111,7 @@ ReactWrapper {
               "pendingProps": null,
               "ref": null,
               "return": null,
+              "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
@@ -336,17 +142,21 @@ ReactWrapper {
                 "finishedWork": null,
                 "firstBatch": null,
                 "hydrate": false,
+                "interactionThreadID": 12,
                 "latestPendingTime": 0,
                 "latestPingedTime": 0,
                 "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
                 "nextExpirationTimeToWorkOn": 0,
                 "nextScheduledRoot": null,
                 "pendingChildren": null,
                 "pendingCommitExpirationTime": 0,
                 "pendingContext": null,
+                "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
               "tag": 5,
+              "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
                 "baseState": null,
@@ -435,6 +245,7 @@ ReactWrapper {
             "pendingProps": null,
             "ref": null,
             "return": null,
+            "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
@@ -465,17 +276,21 @@ ReactWrapper {
               "finishedWork": null,
               "firstBatch": null,
               "hydrate": false,
+              "interactionThreadID": 12,
               "latestPendingTime": 0,
               "latestPingedTime": 0,
               "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
               "nextExpirationTimeToWorkOn": 0,
               "nextScheduledRoot": null,
               "pendingChildren": null,
               "pendingCommitExpirationTime": 0,
               "pendingContext": null,
+              "pendingInteractionMap": Map {},
               "timeoutHandle": -1,
             },
             "tag": 5,
+            "treeBaseDuration": 0,
             "type": null,
             "updateQueue": Object {
               "baseState": Object {
@@ -504,9 +319,11 @@ ReactWrapper {
               "lastUpdate": null,
             },
           },
+          "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": WrapperComponent {
             "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
             "context": Object {},
             "props": Object {
               "Component": [Function],
@@ -541,12 +358,603 @@ ReactWrapper {
             },
           },
           "tag": 2,
+          "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
         },
+        "_debugSource": null,
+        "actualDuration": 0,
+        "actualStartTime": -1,
+        "alternate": null,
+        "child": FiberNode {
+          "_debugID": 51,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": [Circular],
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": null,
+          "childExpirationTime": 0,
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "alt": undefined,
+            "className": "img-fluid",
+            "height": undefined,
+            "onLoad": [Function],
+            "src": undefined,
+            "style": Object {
+              "display": "none",
+            },
+            "title": "",
+            "width": undefined,
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "alt": undefined,
+            "className": "img-fluid",
+            "height": undefined,
+            "onLoad": [Function],
+            "src": undefined,
+            "style": Object {
+              "display": "none",
+            },
+            "title": "",
+            "width": undefined,
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": FiberNode {
+            "_debugID": 52,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 53,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 54,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": "",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": "",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <title />,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "title",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "children": <title>
+                  
+                </title>,
+                "fill": "#CCC",
+                "height": "100",
+                "width": "100",
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "children": <title>
+                  
+                </title>,
+                "fill": "#CCC",
+                "height": "100",
+                "width": "100",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <rect
+                fill="#CCC"
+                height="100"
+                width="100"
+              >
+                <title />
+              </rect>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "rect",
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 1,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "alt": undefined,
+              "children": <rect
+                fill="#CCC"
+                height="100"
+                width="100"
+              >
+                <title>
+                  
+                </title>
+              </rect>,
+              "className": "img-fluid",
+              "height": undefined,
+              "viewBox": "0 0 100 100",
+              "width": undefined,
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "alt": undefined,
+              "children": <rect
+                fill="#CCC"
+                height="100"
+                width="100"
+              >
+                <title>
+                  
+                </title>
+              </rect>,
+              "className": "img-fluid",
+              "height": undefined,
+              "viewBox": "0 0 100 100",
+              "width": undefined,
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <svg
+              class="img-fluid"
+              viewBox="0 0 100 100"
+            >
+              <rect
+                fill="#CCC"
+                height="100"
+                width="100"
+              >
+                <title />
+              </rect>
+            </svg>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "svg",
+            "updateQueue": null,
+          },
+          "stateNode": <img
+            class="img-fluid"
+            style="display: none;"
+            title=""
+          />,
+          "tag": 7,
+          "treeBaseDuration": 0,
+          "type": "img",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "effectTag": 1,
+        "expirationTime": 0,
+        "firstContextDependency": null,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "border": false,
+          "className": "img-fluid",
+          "height": undefined,
+          "rounded": false,
+          "tooltip": "",
+          "width": undefined,
+        },
+        "memoizedState": Object {
+          "loaded": false,
+        },
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "border": false,
+          "className": "img-fluid",
+          "height": undefined,
+          "rounded": false,
+          "tooltip": "",
+          "width": undefined,
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "border": false,
+              "className": "img-fluid",
+              "height": undefined,
+              "rounded": false,
+              "tooltip": "",
+              "width": undefined,
+            },
+          },
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "border": false,
+              "className": "img-fluid",
+              "height": undefined,
+              "rounded": false,
+              "tooltip": "",
+              "width": undefined,
+            },
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "border": false,
+              "className": "img-fluid",
+              "height": undefined,
+              "rounded": false,
+              "tooltip": "",
+              "width": undefined,
+            },
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 1,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <img
+                    class="img-fluid"
+                    style="display: none;"
+                    title=""
+                  />
+                  <svg
+                    class="img-fluid"
+                    viewBox="0 0 100 100"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "border": false,
+                          "className": "img-fluid",
+                          "height": undefined,
+                          "rounded": false,
+                          "tooltip": "",
+                          "width": undefined,
+                        }
+                      }
+                    />,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "border": false,
+                          "className": "img-fluid",
+                          "height": undefined,
+                          "rounded": false,
+                          "tooltip": "",
+                          "width": undefined,
+                        }
+                      }
+                    />,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                  Object {
+                    "border": false,
+                    "className": "img-fluid",
+                    "height": undefined,
+                    "rounded": false,
+                    "tooltip": "",
+                    "width": undefined,
+                  }
+                }
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <img
+                  class="img-fluid"
+                  style="display: none;"
+                  title=""
+                />
+                <svg
+                  class="img-fluid"
+                  viewBox="0 0 100 100"
+                >
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  >
+                    <title />
+                  </rect>
+                </svg>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "timeoutHandle": -1,
+            },
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "border": false,
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "rounded": false,
+                      "tooltip": "",
+                      "width": undefined,
+                    }
+                  }
+                />,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "tooltip": "",
+                "width": undefined,
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "tooltip": "",
+                "width": undefined,
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "selfBaseDuration": 0,
         "sibling": null,
         "stateNode": [Circular],
         "tag": 2,
+        "treeBaseDuration": 0,
         "type": [Function],
         "updateQueue": Object {
           "baseState": Object {
@@ -562,6 +970,7 @@ ReactWrapper {
           "lastUpdate": null,
         },
       },
+      "_reactInternalInstance": Object {},
       "context": Object {},
       "onUpdate": [Function],
       "props": Object {
@@ -699,223 +1108,16 @@ ReactWrapper {
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": Image {
-        "_reactInternalFiber": Se {
-          "alternate": null,
-          "child": Se {
-            "alternate": null,
-            "child": null,
-            "childExpirationTime": 0,
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "alt": undefined,
-              "className": "img-fluid",
-              "height": undefined,
-              "onLoad": [Function],
-              "src": undefined,
-              "style": Object {
-                "display": "none",
-              },
-              "title": "",
-              "width": undefined,
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "alt": undefined,
-              "className": "img-fluid",
-              "height": undefined,
-              "onLoad": [Function],
-              "src": undefined,
-              "style": Object {
-                "display": "none",
-              },
-              "title": "",
-              "width": undefined,
-            },
-            "ref": null,
-            "return": [Circular],
-            "sibling": Se {
-              "alternate": null,
-              "child": Se {
-                "alternate": null,
-                "child": Se {
-                  "alternate": null,
-                  "child": null,
-                  "childExpirationTime": 0,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstContextDependency": null,
-                  "firstEffect": null,
-                  "index": 0,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": Object {
-                    "children": "",
-                  },
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": Object {
-                    "children": "",
-                  },
-                  "ref": null,
-                  "return": [Circular],
-                  "sibling": null,
-                  "stateNode": <title />,
-                  "tag": 7,
-                  "type": "title",
-                  "updateQueue": null,
-                },
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "expirationTime": 0,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
-                },
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
-                },
-                "ref": null,
-                "return": [Circular],
-                "sibling": null,
-                "stateNode": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
-                  <title />
-                </rect>,
-                "tag": 7,
-                "type": "rect",
-                "updateQueue": null,
-              },
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 1,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "alt": undefined,
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
-                  <title>
-                    
-                  </title>
-                </rect>,
-                "className": "img-fluid",
-                "height": undefined,
-                "viewBox": "0 0 100 100",
-                "width": undefined,
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "alt": undefined,
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
-                  <title>
-                    
-                  </title>
-                </rect>,
-                "className": "img-fluid",
-                "height": undefined,
-                "viewBox": "0 0 100 100",
-                "width": undefined,
-              },
-              "ref": null,
-              "return": [Circular],
-              "sibling": null,
-              "stateNode": <svg
-                class="img-fluid"
-                viewBox="0 0 100 100"
-              >
-                <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
-                  <title />
-                </rect>
-              </svg>,
-              "tag": 7,
-              "type": "svg",
-              "updateQueue": null,
-            },
-            "stateNode": <img
-              class="img-fluid"
-              style="display: none;"
-              title=""
-            />,
-            "tag": 7,
-            "type": "img",
-            "updateQueue": null,
-          },
-          "childExpirationTime": 0,
-          "effectTag": 1,
-          "expirationTime": 0,
-          "firstContextDependency": null,
-          "firstEffect": null,
-          "index": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "border": false,
-            "className": "img-fluid",
-            "height": undefined,
-            "rounded": false,
-            "tooltip": "",
-            "width": undefined,
-          },
-          "memoizedState": Object {
-            "loaded": false,
-          },
-          "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "border": false,
-            "className": "img-fluid",
-            "height": undefined,
-            "rounded": false,
-            "tooltip": "",
-            "width": undefined,
-          },
-          "ref": null,
-          "return": Se {
+        "_reactInternalFiber": FiberNode {
+          "_debugID": 50,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
             "alternate": null,
             "child": [Circular],
             "childExpirationTime": 0,
@@ -965,8 +1167,20 @@ ReactWrapper {
               },
             },
             "ref": null,
-            "return": Se {
-              "alternate": Se {
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
                 "alternate": [Circular],
                 "child": null,
                 "childExpirationTime": 1,
@@ -984,6 +1198,7 @@ ReactWrapper {
                 "pendingProps": null,
                 "ref": null,
                 "return": null,
+                "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
@@ -1014,17 +1229,21 @@ ReactWrapper {
                   "finishedWork": null,
                   "firstBatch": null,
                   "hydrate": false,
+                  "interactionThreadID": 12,
                   "latestPendingTime": 0,
                   "latestPingedTime": 0,
                   "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
                   "nextExpirationTimeToWorkOn": 0,
                   "nextScheduledRoot": null,
                   "pendingChildren": null,
                   "pendingCommitExpirationTime": 0,
                   "pendingContext": null,
+                  "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
                 "tag": 5,
+                "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
                   "baseState": null,
@@ -1113,6 +1332,7 @@ ReactWrapper {
               "pendingProps": null,
               "ref": null,
               "return": null,
+              "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
@@ -1143,17 +1363,21 @@ ReactWrapper {
                 "finishedWork": null,
                 "firstBatch": null,
                 "hydrate": false,
+                "interactionThreadID": 12,
                 "latestPendingTime": 0,
                 "latestPingedTime": 0,
                 "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
                 "nextExpirationTimeToWorkOn": 0,
                 "nextScheduledRoot": null,
                 "pendingChildren": null,
                 "pendingCommitExpirationTime": 0,
                 "pendingContext": null,
+                "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
               "tag": 5,
+              "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
                 "baseState": Object {
@@ -1182,9 +1406,11 @@ ReactWrapper {
                 "lastUpdate": null,
               },
             },
+            "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": WrapperComponent {
               "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
               "context": Object {},
               "props": Object {
                 "Component": [Function],
@@ -1219,12 +1445,603 @@ ReactWrapper {
               },
             },
             "tag": 2,
+            "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
           },
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": null,
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "alt": undefined,
+              "className": "img-fluid",
+              "height": undefined,
+              "onLoad": [Function],
+              "src": undefined,
+              "style": Object {
+                "display": "none",
+              },
+              "title": "",
+              "width": undefined,
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "alt": undefined,
+              "className": "img-fluid",
+              "height": undefined,
+              "onLoad": [Function],
+              "src": undefined,
+              "style": Object {
+                "display": "none",
+              },
+              "title": "",
+              "width": undefined,
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": [Circular],
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 54,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": "",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": "",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <title />,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "title",
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": <title>
+                    
+                  </title>,
+                  "fill": "#CCC",
+                  "height": "100",
+                  "width": "100",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": <title>
+                    
+                  </title>,
+                  "fill": "#CCC",
+                  "height": "100",
+                  "width": "100",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                >
+                  <title />
+                </rect>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "rect",
+                "updateQueue": null,
+              },
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 1,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": Object {
+                "alt": undefined,
+                "children": <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                >
+                  <title>
+                    
+                  </title>
+                </rect>,
+                "className": "img-fluid",
+                "height": undefined,
+                "viewBox": "0 0 100 100",
+                "width": undefined,
+              },
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": Object {
+                "alt": undefined,
+                "children": <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                >
+                  <title>
+                    
+                  </title>
+                </rect>,
+                "className": "img-fluid",
+                "height": undefined,
+                "viewBox": "0 0 100 100",
+                "width": undefined,
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": <svg
+                class="img-fluid"
+                viewBox="0 0 100 100"
+              >
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                >
+                  <title />
+                </rect>
+              </svg>,
+              "tag": 7,
+              "treeBaseDuration": 0,
+              "type": "svg",
+              "updateQueue": null,
+            },
+            "stateNode": <img
+              class="img-fluid"
+              style="display: none;"
+              title=""
+            />,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "img",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "border": false,
+            "className": "img-fluid",
+            "height": undefined,
+            "rounded": false,
+            "tooltip": "",
+            "width": undefined,
+          },
+          "memoizedState": Object {
+            "loaded": false,
+          },
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "border": false,
+            "className": "img-fluid",
+            "height": undefined,
+            "rounded": false,
+            "tooltip": "",
+            "width": undefined,
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "tooltip": "",
+                "width": undefined,
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "tooltip": "",
+                "width": undefined,
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "border": false,
+                "className": "img-fluid",
+                "height": undefined,
+                "rounded": false,
+                "tooltip": "",
+                "width": undefined,
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 1,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <img
+                      class="img-fluid"
+                      style="display: none;"
+                      title=""
+                    />
+                    <svg
+                      class="img-fluid"
+                      viewBox="0 0 100 100"
+                    >
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      >
+                        <title />
+                      </rect>
+                    </svg>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "border": false,
+                            "className": "img-fluid",
+                            "height": undefined,
+                            "rounded": false,
+                            "tooltip": "",
+                            "width": undefined,
+                          }
+                        }
+                      />,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "border": false,
+                            "className": "img-fluid",
+                            "height": undefined,
+                            "rounded": false,
+                            "tooltip": "",
+                            "width": undefined,
+                          }
+                        }
+                      />,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "border": false,
+                      "className": "img-fluid",
+                      "height": undefined,
+                      "rounded": false,
+                      "tooltip": "",
+                      "width": undefined,
+                    }
+                  }
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <img
+                    class="img-fluid"
+                    style="display: none;"
+                    title=""
+                  />
+                  <svg
+                    class="img-fluid"
+                    viewBox="0 0 100 100"
+                  >
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    >
+                      <title />
+                    </rect>
+                  </svg>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "border": false,
+                        "className": "img-fluid",
+                        "height": undefined,
+                        "rounded": false,
+                        "tooltip": "",
+                        "width": undefined,
+                      }
+                    }
+                  />,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "border": false,
+                  "className": "img-fluid",
+                  "height": undefined,
+                  "rounded": false,
+                  "tooltip": "",
+                  "width": undefined,
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "border": false,
+                  "className": "img-fluid",
+                  "height": undefined,
+                  "rounded": false,
+                  "tooltip": "",
+                  "width": undefined,
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": [Circular],
           "tag": 2,
+          "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": Object {
             "baseState": Object {
@@ -1240,6 +2057,7 @@ ReactWrapper {
             "lastUpdate": null,
           },
         },
+        "_reactInternalInstance": Object {},
         "context": Object {},
         "onUpdate": [Function],
         "props": Object {

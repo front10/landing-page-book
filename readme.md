@@ -33,20 +33,9 @@ npm start
 |[`Gif`](https://github.com/front10/landing-page-book/tree/master/src/components/Gif)| [`Donation`](https://github.com/front10/landing-page-book/tree/master/src/components/Donation)| [`Button`](https://github.com/front10/landing-page-book/tree/master/src/components/Button)
 | [`Backers`](https://github.com/front10/landing-page-book/tree/master/src/components/Backers)| [`Footer`](https://github.com/front10/landing-page-book/tree/master/src/components/Footer)| [`Header`](https://github.com/front10/landing-page-book/tree/master/src/components/Header)
 
-
-
-
-
-
-<<<<<<< HEAD
-| Third-Party integrations                                                                                               |                                                                                                                |                                                                                                    |                                                                                                                                               |
-| ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------- |
-| - [`GoogleAnalytics`](https://github.com/front10/landing-page-book/tree/master/src/components/Analytics/Analytics.jsx) | - [`GoogleMap`](https://github.com/front10/landing-page-book/tree/master/src/components/Location/Location.jsx) | - [`Github`](https://github.com/front10/landing-page-book/tree/master/src/components/GithubButton) | - [`OpenCollective`](https://github.com/front10/landing-page-book/tree/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx) |
-=======
 | Third-Party integrations |     |  |  |
 | ------------------------ | --- |-- |--  |
 | [`GoogleAnalytics`](https://github.com/front10/landing-page-book/tree/master/src/components/Analytics/Analytics.jsx)| [`GoogleMap`](https://github.com/front10/landing-page-book/tree/master/src/components/Location/Location.jsx)|[`Github`](https://github.com/front10/landing-page-book/tree/master/src/components/GithubButton)| [`OpenCollective`](https://github.com/front10/landing-page-book/tree/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx)|
->>>>>>> 5f2c790297aa03c9f02058b7e61d5cb07671a8a0
 
 ## Usage
 

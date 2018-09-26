@@ -11,22 +11,29 @@ class Analytics extends Component {
     });
   }
 
+  componentDidMount() {
+    const { urlPath } = this.props;
+    ReactGA.pageview(urlPath);
+  }
+
+  componentDidUpdate() {
+    const { urlPath } = this.props;
+    ReactGA.pageview(urlPath);
+  }
+
   render() {
-    return (
-      <div className="analytics">
-        {ReactGA.pageview(window.location.pathname + window.location.search)}
-      </div>
-    );
+    return <div />;
   }
 }
 
 Analytics.propTypes = {
-  idTracking: PropTypes.string,
+  idTracking: PropTypes.string.isRequired,
+  urlPath: PropTypes.string,
   debug: PropTypes.bool,
   testMode: PropTypes.bool
 };
 Analytics.defaultProps = {
-  idTracking: 'U-000001-A',
+  urlPath: window && window.location.pathname + window.location.search,
   debug: false,
   testMode: false
 };

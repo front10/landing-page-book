@@ -21,7 +21,7 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <Analytics
-        idTracking={text('idTracking', 'UA-126291891-1')}
+        idTracking={text('idTracking', 'UA-0000000-0')}
         urlPath={text('URL to track', '/')}
         debug={boolean('Debug Mode', true)}
       />

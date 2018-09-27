@@ -1,17 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import CodeMirror from 'react-codemirror';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import Navbar from '../Navbar/Navbar';
 import NavbarNav from '../NavbarNav/NavbarNav';
 import Icon from '../Icon/Icon';
 import Button from '../Button/Button';
 
-require('codemirror/mode/javascript/javascript');
-require('codemirror/mode/markdown/markdown');
-require('codemirror/mode/jsx/jsx');
-require('codemirror/mode/css/css');
-require('codemirror/mode/sass/sass');
+/* eslint-disable */
+let CodeMirror = null;
+if (typeof window !== 'undefined' && typeof window.navigator !== 'undefined') {
+  CodeMirror = require('react-codemirror');
+  require('codemirror/mode/javascript/javascript');
+  require('codemirror/mode/markdown/markdown');
+  require('codemirror/mode/jsx/jsx');
+  require('codemirror/mode/css/css');
+  require('codemirror/mode/sass/sass');
+}
+/* eslint-enable */
 
 class Code extends React.Component {
   constructor(props) {
@@ -167,16 +172,16 @@ class Code extends React.Component {
             </NavbarNav>
           </Navbar>
         )}
-
-        <CodeMirror
-          ref="editor"
-          className={sbgColorDark ? 'CodeMirror__bgColor-dark' : ''}
-          value={scode}
-          onChange={this.updateCode}
-          options={options}
-          autoFocus
-        />
-
+        {CodeMirror && (
+          <CodeMirror
+            ref="editor"
+            className={sbgColorDark ? 'CodeMirror__bgColor-dark' : ''}
+            value={scode}
+            onChange={this.updateCode}
+            options={options}
+            autoFocus
+          />
+        )}
         {sshowfooter && (
           <Navbar className={sbgColorDark ? 'CodeMirror__header-dark' : 'CodeMirror__header'} />
         )}

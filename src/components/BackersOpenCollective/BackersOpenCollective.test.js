@@ -22,7 +22,7 @@ describe('Backers', () => {
 
     beforeEach(() => {
       props = {
-        vendor: 'chrome'
+        collective: 'chrome'
       };
       mounted = undefined;
     });

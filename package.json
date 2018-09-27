@@ -16,7 +16,9 @@
         "prepush": "npm run test -- -u",
         "transpile": "babel src -d dist --copy-files",
         "prepublishOnly": "npm run transpile",
-        "test-browser": "node ./selenium/browser-test.js"
+        "test-browser": "node ./selenium/browser-test.js",
+        "predeploy": "npm run build-storybook",
+        "deploy": "gh-pages -d public -o upstream"
     },
     "repository": {
         "type": "git",

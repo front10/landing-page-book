@@ -2,6 +2,8 @@ sudo: false
 language: node_js
 node_js:
 - '8.12'
+install:
+  - npm install
 cache:
   directories:
   - node_modules
@@ -10,15 +12,15 @@ branches:
   - master
 notifications:
   email: true
-before_script:
-- npm prune
 script:
 - npm run eslint
 - npm run test -- -u
 - npm run test:badge
-after_success:
-- npm run deploy
-- npm run test-browser
+deploy:
+ - skip_cleanup: true
+ - npm run deploy
+ after_deploy
+  npm run test-browser
 env:
   global:
   - GH_USER: front10

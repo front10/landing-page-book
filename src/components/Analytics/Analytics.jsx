@@ -16,9 +16,8 @@ class Analytics extends Component {
     ReactGA.pageview(urlPath);
   }
 
-  componentDidUpdate() {
-    const { urlPath } = this.props;
-    ReactGA.pageview(urlPath);
+  componentDidUpdate(prevProps) {
+    ReactGA.pageview(prevProps.urlPath);
   }
 
   render() {

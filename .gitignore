@@ -1,6 +1,7 @@
 # dependencies
 /node_modules
-
+/public
+/scripts
 #dist 
 /dist
 

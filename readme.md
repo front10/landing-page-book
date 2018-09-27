@@ -87,7 +87,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 - **Front10** - _Initial work_ - [Front10](http://front10.com/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/front10/landing-page-book/graphs/contributors) who participated in this project.
 
 ## License
 

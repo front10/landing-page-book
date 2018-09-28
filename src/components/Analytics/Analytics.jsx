@@ -32,7 +32,10 @@ Analytics.propTypes = {
   testMode: PropTypes.bool
 };
 Analytics.defaultProps = {
-  urlPath: window && window.location.pathname + window.location.search,
+  urlPath:
+    typeof window !== 'undefined' && typeof window.location !== 'undefined'
+      ? window.location.pathname + window.location.search
+      : '',
   debug: false,
   testMode: false
 };

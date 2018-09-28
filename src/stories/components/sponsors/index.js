@@ -8,7 +8,7 @@ import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Sponsors } from '../../../components';
-import Readme from '../../../components/Features/README.md';
+import Readme from '../../../components/Sponsors/README.md';
 
 setAddon(JSXAddon);
 

@@ -5,13 +5,19 @@ class Image extends Component {
   constructor(props) {
     super(props);
     this.state = {};
+    this.image = React.createRef();
     this.onUpdate = this.onUpdate.bind(this);
+    this.handleImageLoaded = this.handleImageLoaded.bind(this);
   }
 
   componentWillMount() {
     this.setState({
       loaded: false
     });
+  }
+
+  componentDidMount() {
+    this.handleImageLoaded();
   }
 
   componentDidUpdate(prevProps) {
@@ -21,6 +27,13 @@ class Image extends Component {
   onUpdate(prevProps) {
     const { src } = this.props;
     if (prevProps.src !== src) this.setState({ loaded: false });
+  }
+
+  handleImageLoaded() {
+    const img = this.image.current;
+    if (img && img.complete) {
+      this.setState({ loaded: true });
+    }
   }
 
   render() {
@@ -39,7 +52,8 @@ class Image extends Component {
           width={width}
           height={height}
           style={!loaded ? { display: 'none' } : {}}
-          onLoad={() => this.setState({ loaded: true })}
+          onLoad={this.handleImageLoaded}
+          ref={this.image}
         />
         {!loaded && (
           <svg alt={alt} className={tempClass} width={width} height={height} viewBox="0 0 100 100">

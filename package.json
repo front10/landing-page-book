@@ -39,6 +39,8 @@
   },
   "homepage": "https://front10.github.io",
   "devDependencies": {
+    "@kadira/storybook-addon-options": "^1.0.2",
+    "@storybook/addon-options": "^3.3.12",
     "@storybook/addon-centered": "^3.3.12",
     "@storybook/addon-knobs": "^3.4.2",
     "@storybook/addon-viewport": "^3.3.12",
@@ -89,23 +91,25 @@
     "regenerator-runtime": "^0.11.1",
     "selenium-webdriver": "^4.0.0-alpha.1",
     "storybook-readme": "^3.3.0",
-    "style-loader": "^0.20.3"
+    "style-loader": "^0.20.3",
+    "github-markdown-css": "^2.10.0",
+    "node-sass": "^4.7.2",
+    "node-sass-tilde-importer": "^1.0.2",
+    "raw-loader": "^0.5.1",
+    "react-markdown": "^3.1.5",
+    "sass-loader": "^6.0.6",
+    "storybook-addon-jsx": "^5.4.0",
+    "wix-storybook-utils": "^2.0.17"
   },
   "dependencies": {
-    "@kadira/storybook-addon-options": "^1.0.2",
-    "@storybook/addon-options": "^3.3.12",
     "bootstrap": "^4.1.1",
     "codemirror": "^5.39.0",
     "email-validator": "^2.0.4",
     "font-awesome": "^4.7.0",
-    "github-markdown-css": "^2.10.0",
     "google-map-react": "^1.0.5",
     "graphql-syntax-highlighter-react": "^0.3.5",
     "highlight.js": "^9.12.0",
     "node-fetch": "^2.1.2",
-    "node-sass": "^4.7.2",
-    "node-sass-tilde-importer": "^1.0.2",
-    "raw-loader": "^0.5.1",
     "react": "^16.2.0",
     "react-codemirror": "^1.0.0",
     "react-copy-to-clipboard": "^5.0.1",
@@ -115,13 +119,9 @@
     "react-gif-player": "^0.4.1",
     "react-json-pretty": "^1.7.9",
     "react-lazy-hero": "^0.4.0",
-    "react-markdown": "^3.1.5",
     "react-particles-js": "^2.3.0",
     "react-player": "^1.6.4",
     "react-share": "^2.2.0",
-    "react-stepzilla": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "storybook-addon-jsx": "^5.4.0",
-    "wix-storybook-utils": "^2.0.17"
+    "react-stepzilla": "^4.7.2"
   }
 }

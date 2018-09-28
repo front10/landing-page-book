@@ -21,7 +21,7 @@ class Navbar extends Component {
 
   componentDidMount() {
     document.addEventListener('scroll', () => {
-      const top = window.scrollY < 100;
+      const top = typeof window !== 'undefined' ? window.scrollY < 100 : true;
       const { isTop } = this.state;
       if (top !== isTop) {
         this.setState({ isTop: top });

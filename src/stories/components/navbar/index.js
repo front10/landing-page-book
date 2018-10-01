@@ -89,7 +89,7 @@ stories.addWithJSX(
               <Image
                 width="120"
                 src={text(
-                  'Company logo',
+                  'Brand logo',
                   'https://webpack.js.org/e0b5805d423a4ec9473ee315250968b2.svg'
                 )}
                 alt="Webpack logo"
@@ -147,7 +147,7 @@ stories.addWithJSX(
                 <Image
                   width="120"
                   src={text(
-                    'Company logo',
+                    'Brand logo',
                     'https://webpack.js.org/e0b5805d423a4ec9473ee315250968b2.svg'
                   )}
                   alt="Webpack logo"
@@ -172,7 +172,7 @@ stories.addWithJSX(
             <Image
               width="120"
               src={text(
-                'Company logo',
+                'Brand logo',
                 'https://webpack.js.org/e0b5805d423a4ec9473ee315250968b2.svg'
               )}
               alt="Webpack logo"
@@ -208,9 +208,9 @@ stories.addWithJSX(
       <Navbar
         transparent={boolean('Transparent', false)}
         fixed={boolean('Fixed', false)}
-        companyName={text('Company name', 'Front10')}
-        companyLink={text('Company link', 'https://front10.com')}
-        companyLogo={text('Company logo', 'images/logo/front10.png')}
+        brandName={text('Brand name', 'Front10')}
+        brandLink={text('Brand link', 'https://front10.com')}
+        brandLogo={text('Brand logo', 'images/logo/front10.png')}
         expand={select(
           'Expand',
           {
@@ -240,7 +240,7 @@ stories.addWithJSX(
             <Image
               width="120"
               src={text(
-                'Company logo',
+                'Brand logo',
                 'https://webpack.js.org/e0b5805d423a4ec9473ee315250968b2.svg'
               )}
               alt="Webpack logo"

@@ -63,7 +63,7 @@ You can use Hero component with children too:
 | --Card\_\_Summary-fontSize        | Card's summary font size        | `0.8rem`     |
 | --Card\_\_Summary-color           | Card's summary color            | `#000`       |
 | --Card\_\_Summary-backgroundColor | Card's summary background color | `#fff`       |
-| --Card\_\_Title-fontSize          | Card's title font size          | `2rem`       |
+| --Card\_\_Title-fontSize          | Card's title font size          | `1.2rem`     |
 | --Card\_\_Title-color             | Card's title color              | `#000`       |
 | --Card\_\_Subtitle-fontSize       | Card's subtitle font size       | `0.9rem`     |
 | --Card\_\_Subtitle-color          | Card's subtitle color           | `#b5b5b5`    |

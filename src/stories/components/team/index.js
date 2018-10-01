@@ -1,6 +1,6 @@
 import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, select, boolean, array } from '@storybook/addon-knobs/react';
+import { withKnobs, select, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 
@@ -17,7 +17,16 @@ const members = [
     job: 'Ninja',
     summary:
       'Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media.',
-    profile: 'https://front10.com'
+    profile: [
+      {
+        social: 'facebook',
+        url: 'https://front10.com'
+      },
+      {
+        social: 'pinterest',
+        url: 'https://pinterest.com/landing-page-book'
+      }
+    ]
   },
   {
     image: '/images/team/bohemian.svg',
@@ -25,7 +34,16 @@ const members = [
     job: 'Painter',
     summary:
       'He was a Dutch painter, one of the main exponents of post-impressionism, he painted some 900 paintings and made more than 1,600 drawings.',
-    profile: 'https://front10.com'
+    profile: [
+      {
+        social: 'facebook',
+        url: 'https://www.facebook.com/front10'
+      },
+      {
+        social: 'linkedin',
+        url: 'https://www.linkedin.com/landing-page-book'
+      }
+    ]
   },
   {
     image: '/images/team/astronaut.svg',
@@ -33,7 +51,16 @@ const members = [
     job: 'Astronaut',
     summary:
       'American astronaut and aeronautical engineer who was the first person to walk on the Moon. He was also a naval aviator, test pilot, and university professor.',
-    profile: 'https://front10.com'
+    profile: [
+      {
+        social: 'facebook',
+        url: 'https://www.facebok.com/front10'
+      },
+      {
+        social: 'twitter',
+        url: 'https://twitter.com/landing-page-book'
+      }
+    ]
   }
 ];
 
@@ -66,7 +93,6 @@ stories.addWithJSX(
           'center'
         )}
         members={members}
-        socials={array('Socials', ['facebook', 'linkedin', 'google', 'twitter'], ',')}
       />
     </ThemeSelector>
   )),

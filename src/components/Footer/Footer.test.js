@@ -16,7 +16,38 @@ describe('Footer', () => {
   };
   describe('footer', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        sections: [
+          {
+            name: 'Features',
+            sections: [
+              {
+                name: 'Cool stuff',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Random feature',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Team feature',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Stuff for developers',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Another one',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Last time',
+                url: 'https://front10.com'
+              }
+            ]
+          }]
+      };
       mounted = undefined;
     });
 

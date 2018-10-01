@@ -29,5 +29,10 @@ describe('Code', () => {
 
       expect(divs.length).toBeGreaterThan(0);
     });
+
+    it('copy to clipboard', () => {
+      code().instance().copyToClipboard();
+      expect(code().state("scopied")).toEqual(true);
+    });
   });
 });

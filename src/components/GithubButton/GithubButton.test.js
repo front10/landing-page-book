@@ -19,13 +19,10 @@ describe('GithubButton', () => {
   describe('GithubButton', () => {
     beforeEach(() => {
       props = {
-        showCounter: true,
-        showBtnText: true,
-        showGithubIcon: false,
-        username: 'chubin',
-        repository: 'cheat.sh',
-        btntype: 'fork',
-        btnText: 'Fork'
+        btnType: "fork",
+        btnText: "Forks",
+        username: "front10",
+        repository: "landing-page-book"
       };
     });
 
@@ -37,6 +34,17 @@ describe('GithubButton', () => {
       const span = githubButton().find('span');
 
       expect(span.length).toBeGreaterThan(0);
+    });
+
+    it('onchange', async () => {
+      const prevProps = {
+        btnType: "star",
+        btnText: "Stars",
+        username: "front10",
+        repository: "landing-page-book"
+      };
+      await githubButton().instance().onChange(prevProps);
+      expect(githubButton().state()).toEqual({"counter": null, "showBtnText": true, "showCounter": true, "showGithubIcon": false});
     });
   });
 });

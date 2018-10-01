@@ -16,7 +16,9 @@ describe('Donation', () => {
   };
   describe('Donation', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        url: "https://front10.com"
+      };
       mounted = undefined;
     });
 

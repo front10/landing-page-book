@@ -16,7 +16,9 @@ describe('Icon', () => {
   };
   describe('Icon', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        icon: 'fa fa-home'
+      };
       mounted = undefined;
     });
 

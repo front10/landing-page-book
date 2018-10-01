@@ -16,7 +16,10 @@ describe('LocationMarker', () => {
   };
   describe('LocationMarker', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        lat: 82,
+        lng:20
+      };
       mounted = undefined;
     });
 

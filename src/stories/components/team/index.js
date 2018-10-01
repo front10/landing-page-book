@@ -12,35 +12,27 @@ import Readme from '../../../components/Team/README.md';
 
 const members = [
   {
-    image: 'https://randomuser.me/api/portraits/men/11.jpg',
-    name: 'Sander',
-    job: 'Architect',
+    image: '/images/team/ninja.svg',
+    name: 'Leonardo',
+    job: 'Ninja',
     summary:
-      'Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.',
+      'Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media.',
     profile: 'https://front10.com'
   },
   {
-    image: 'https://randomuser.me/api/portraits/women/2.jpg',
-    name: 'Rachel',
-    job: 'QA',
+    image: '/images/team/bohemian.svg',
+    name: 'Van Gogh',
+    job: 'Painter',
     summary:
-      'Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.',
+      'He was a Dutch painter, one of the main exponents of post-impressionism, he painted some 900 paintings and made more than 1,600 drawings.',
     profile: 'https://front10.com'
   },
   {
-    image: 'https://randomuser.me/api/portraits/men/11.jpg',
-    name: 'Nick',
-    job: 'Developer',
+    image: '/images/team/astronaut.svg',
+    name: 'Neil',
+    job: 'Astronaut',
     summary:
-      'Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.',
-    profile: 'https://front10.com'
-  },
-  {
-    image: 'https://randomuser.me/api/portraits/women/2.jpg',
-    name: 'Anna',
-    job: 'Developer',
-    summary:
-      'Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.',
+      'American astronaut and aeronautical engineer who was the first person to walk on the Moon. He was also a naval aviator, test pilot, and university professor.',
     profile: 'https://front10.com'
   }
 ];

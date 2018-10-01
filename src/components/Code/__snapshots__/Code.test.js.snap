@@ -33,10 +33,10 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <Navbar
+          brandLink=""
+          brandLogo=""
+          brandName=""
           className="CodeMirror__header"
-          companyLink=""
-          companyLogo=""
-          companyName=""
           expand=""
           fixed={false}
           leftItems={Array []}
@@ -112,10 +112,10 @@ ShallowWrapper {
 };"
         />,
         <Navbar
+          brandLink=""
+          brandLogo=""
+          brandName=""
           className="CodeMirror__header"
-          companyLink=""
-          companyLogo=""
-          companyName=""
           expand=""
           fixed={false}
           leftItems={Array []}
@@ -132,6 +132,9 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "brandLink": "",
+          "brandLogo": "",
+          "brandName": "",
           "children": <NavbarNav
             alignItems="right"
           >
@@ -180,9 +183,6 @@ ShallowWrapper {
             </Button>
           </NavbarNav>,
           "className": "CodeMirror__header",
-          "companyLink": "",
-          "companyLogo": "",
-          "companyName": "",
           "expand": "",
           "fixed": false,
           "leftItems": Array [],
@@ -385,11 +385,11 @@ ShallowWrapper {
         "key": undefined,
         "nodeType": "class",
         "props": Object {
+          "brandLink": "",
+          "brandLogo": "",
+          "brandName": "",
           "children": null,
           "className": "CodeMirror__header",
-          "companyLink": "",
-          "companyLogo": "",
-          "companyName": "",
           "expand": "",
           "fixed": false,
           "leftItems": Array [],
@@ -412,10 +412,10 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <Navbar
+            brandLink=""
+            brandLogo=""
+            brandName=""
             className="CodeMirror__header"
-            companyLink=""
-            companyLogo=""
-            companyName=""
             expand=""
             fixed={false}
             leftItems={Array []}
@@ -491,10 +491,10 @@ ShallowWrapper {
 };"
           />,
           <Navbar
+            brandLink=""
+            brandLogo=""
+            brandName=""
             className="CodeMirror__header"
-            companyLink=""
-            companyLogo=""
-            companyName=""
             expand=""
             fixed={false}
             leftItems={Array []}
@@ -511,6 +511,9 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "brandLink": "",
+            "brandLogo": "",
+            "brandName": "",
             "children": <NavbarNav
               alignItems="right"
             >
@@ -559,9 +562,6 @@ ShallowWrapper {
               </Button>
             </NavbarNav>,
             "className": "CodeMirror__header",
-            "companyLink": "",
-            "companyLogo": "",
-            "companyName": "",
             "expand": "",
             "fixed": false,
             "leftItems": Array [],
@@ -764,11 +764,11 @@ ShallowWrapper {
           "key": undefined,
           "nodeType": "class",
           "props": Object {
+            "brandLink": "",
+            "brandLogo": "",
+            "brandName": "",
             "children": null,
             "className": "CodeMirror__header",
-            "companyLink": "",
-            "companyLogo": "",
-            "companyName": "",
             "expand": "",
             "fixed": false,
             "leftItems": Array [],

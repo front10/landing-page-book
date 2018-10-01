@@ -91,7 +91,7 @@ See also the list of [contributors](https://github.com/front10/landing-page-book
 
 ## License
 
-This project is licensed under the ISC License - see the [LICENSE.md](LICENSE.md) file for details.
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/front10/landing-page-book/blob/master/LICENSE.md) file for details.
 
 ## Browsers support
 

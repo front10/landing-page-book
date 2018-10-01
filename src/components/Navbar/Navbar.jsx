@@ -52,11 +52,11 @@ class Navbar extends Component {
   render() {
     const { collapse } = this.state;
     const {
-      companyName,
-      companyLink,
+      brandName,
+      brandLink,
       leftItems,
       rightItems,
-      companyLogo,
+      brandLogo,
       transparent,
       fixed,
       className,
@@ -81,15 +81,15 @@ class Navbar extends Component {
         >
           <Icon icon="fa fa-bars" />
         </Button>
-        <NavbarBrand className="mr-auto" href={companyLink}>
-          {companyLogo && (
+        <NavbarBrand className="mr-auto" href={brandLink}>
+          {brandLogo && (
             <Image
               alt="Company logo"
-              src={companyLogo}
+              src={brandLogo}
               className="d-inline-block align-top mr-1 Logo"
             />
           )}
-          {companyName}
+          {brandName}
         </NavbarBrand>
         {leftItems.length > 0 &&
           !children && (
@@ -112,9 +112,9 @@ class Navbar extends Component {
 Navbar.propTypes = {
   transparent: PropTypes.bool,
   fixed: PropTypes.bool,
-  companyName: PropTypes.string,
-  companyLink: PropTypes.string,
-  companyLogo: PropTypes.string,
+  brandName: PropTypes.string,
+  brandLink: PropTypes.string,
+  brandLogo: PropTypes.string,
   className: PropTypes.string,
   expand: PropTypes.string,
   leftItems: PropTypes.arrayOf(
@@ -139,9 +139,9 @@ Navbar.propTypes = {
 Navbar.defaultProps = {
   transparent: false,
   fixed: false,
-  companyName: '',
-  companyLink: '',
-  companyLogo: '',
+  brandName: '',
+  brandLink: '',
+  brandLogo: '',
   className: '',
   expand: '',
   leftItems: [],

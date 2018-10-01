@@ -5,6 +5,7 @@ ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Social
     gray={false}
+    linkDirect={true}
     rounded={true}
     type="email"
     url=""
@@ -20,7 +21,7 @@ ShallowWrapper {
   Symbol(enzyme.__node__): Object {
     "instance": null,
     "key": undefined,
-    "nodeType": "function",
+    "nodeType": "host",
     "props": Object {
       "children": <Icon
         className=""
@@ -29,11 +30,9 @@ ShallowWrapper {
         round={true}
         size={64}
       />,
-      "className": "",
-      "media": "Share in Pinterest",
-      "onClick": [Function],
-      "openWindow": false,
-      "url": "",
+      "className": "SocialMediaShareButton ",
+      "href": "",
+      "target": "_blank",
     },
     "ref": null,
     "rendered": Object {
@@ -51,13 +50,13 @@ ShallowWrapper {
       "rendered": null,
       "type": [Function],
     },
-    "type": [Function],
+    "type": "a",
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": null,
       "key": undefined,
-      "nodeType": "function",
+      "nodeType": "host",
       "props": Object {
         "children": <Icon
           className=""
@@ -66,11 +65,9 @@ ShallowWrapper {
           round={true}
           size={64}
         />,
-        "className": "",
-        "media": "Share in Pinterest",
-        "onClick": [Function],
-        "openWindow": false,
-        "url": "",
+        "className": "SocialMediaShareButton ",
+        "href": "",
+        "target": "_blank",
       },
       "ref": null,
       "rendered": Object {
@@ -88,7 +85,7 @@ ShallowWrapper {
         "rendered": null,
         "type": [Function],
       },
-      "type": [Function],
+      "type": "a",
     },
   ],
   Symbol(enzyme.__options__): Object {

@@ -2,7 +2,41 @@
 
 exports[`Footer footer should render 1`] = `
 ReactWrapper {
-  Symbol(enzyme.__unrendered__): <footer />,
+  Symbol(enzyme.__unrendered__): <footer
+    sections={
+      Array [
+        Object {
+          "name": "Features",
+          "sections": Array [
+            Object {
+              "name": "Cool stuff",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Random feature",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Team feature",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Stuff for developers",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Another one",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Last time",
+              "url": "https://front10.com",
+            },
+          ],
+        },
+      ]
+    }
+  />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
     "getNode": [Function],
@@ -13,10 +47,44 @@ ReactWrapper {
   },
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": <footer />,
+    "instance": <footer
+      sections="[object Object]"
+    />,
     "key": undefined,
     "nodeType": "host",
-    "props": Object {},
+    "props": Object {
+      "sections": Array [
+        Object {
+          "name": "Features",
+          "sections": Array [
+            Object {
+              "name": "Cool stuff",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Random feature",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Team feature",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Stuff for developers",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Another one",
+              "url": "https://front10.com",
+            },
+            Object {
+              "name": "Last time",
+              "url": "https://front10.com",
+            },
+          ],
+        },
+      ],
+    },
     "ref": null,
     "rendered": Array [
       undefined,
@@ -25,10 +93,44 @@ ReactWrapper {
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
-      "instance": <footer />,
+      "instance": <footer
+        sections="[object Object]"
+      />,
       "key": undefined,
       "nodeType": "host",
-      "props": Object {},
+      "props": Object {
+        "sections": Array [
+          Object {
+            "name": "Features",
+            "sections": Array [
+              Object {
+                "name": "Cool stuff",
+                "url": "https://front10.com",
+              },
+              Object {
+                "name": "Random feature",
+                "url": "https://front10.com",
+              },
+              Object {
+                "name": "Team feature",
+                "url": "https://front10.com",
+              },
+              Object {
+                "name": "Stuff for developers",
+                "url": "https://front10.com",
+              },
+              Object {
+                "name": "Another one",
+                "url": "https://front10.com",
+              },
+              Object {
+                "name": "Last time",
+                "url": "https://front10.com",
+              },
+            ],
+          },
+        ],
+      },
       "ref": null,
       "rendered": Array [
         undefined,

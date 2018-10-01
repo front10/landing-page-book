@@ -16,7 +16,9 @@ describe('Backers', () => {
   };
   describe('BackersOpenCollective', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        collective: "webpack"
+      };
       mounted = undefined;
     });
 
@@ -35,6 +37,12 @@ describe('Backers', () => {
       const divs = backersOpenCollective().find('div');
 
       expect(divs.length).toBeGreaterThan(0);
+    });
+
+    it('sort function', ()=>{
+      const backers = [{contributionAmount: 1, name:'Nick', image: 'image.jpg'}, {contributionAmount: 23, name:'John', image: 'image.jpg'}];
+      backersOpenCollective().instance().sort(backers, 'asc');
+      expect(backersOpenCollective().state('backersOrdered')[0].name).toEqual('Nick');
     });
   });
 });

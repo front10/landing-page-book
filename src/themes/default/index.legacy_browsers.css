@@ -651,7 +651,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
   --Card__Summary-fontSize: 0.8rem;
   --Card__Summary-color: #000;
   --Card__Summary-backgroundColor: #fff;
-  --Card__Title-fontSize: 2rem;
+  --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
   --Card__Subtitle-color: #b5b5b5; }
@@ -664,7 +664,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
     color: #000;
     background-color: #fff; }
   .Card .Card__Title {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #000; }
   .Card .Card__Subtitle {
     font-size: 0.9rem;
@@ -789,7 +789,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
   --Card__Summary-fontSize: 0.8rem;
   --Card__Summary-color: #000;
   --Card__Summary-backgroundColor: #fff;
-  --Card__Title-fontSize: 2rem;
+  --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
   --Card__Subtitle-color: #b5b5b5; }
@@ -802,7 +802,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
     color: #000;
     background-color: #fff; }
   .Card .Card__Title {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #000; }
   .Card .Card__Subtitle {
     font-size: 0.9rem;
@@ -1189,7 +1189,7 @@ a[disabled] {
   --Card__Summary-fontSize: 0.8rem;
   --Card__Summary-color: #000;
   --Card__Summary-backgroundColor: #fff;
-  --Card__Title-fontSize: 2rem;
+  --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
   --Card__Subtitle-color: #b5b5b5; }
@@ -1202,7 +1202,7 @@ a[disabled] {
     color: #000;
     background-color: #fff; }
   .Card .Card__Title {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #000; }
   .Card .Card__Subtitle {
     font-size: 0.9rem;
@@ -1226,7 +1226,7 @@ a[disabled] {
   --Card__Summary-fontSize: 0.8rem;
   --Card__Summary-color: #000;
   --Card__Summary-backgroundColor: #fff;
-  --Card__Title-fontSize: 2rem;
+  --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
   --Card__Subtitle-color: #b5b5b5; }
@@ -1239,7 +1239,7 @@ a[disabled] {
     color: #000;
     background-color: #fff; }
   .Card .Card__Title {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #000; }
   .Card .Card__Subtitle {
     font-size: 0.9rem;
@@ -1274,7 +1274,7 @@ a[disabled] {
   --Card__Summary-fontSize: 0.8rem;
   --Card__Summary-color: #000;
   --Card__Summary-backgroundColor: #fff;
-  --Card__Title-fontSize: 2rem;
+  --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
   --Card__Subtitle-color: #b5b5b5; }
@@ -1287,7 +1287,7 @@ a[disabled] {
     color: #000;
     background-color: #fff; }
   .Card .Card__Title {
-    font-size: 2rem;
+    font-size: 1.2rem;
     color: #000; }
   .Card .Card__Subtitle {
     font-size: 0.9rem;

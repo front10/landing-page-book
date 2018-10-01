@@ -3,10 +3,12 @@
 exports[`Image Image should render 1`] = `
 ReactWrapper {
   Symbol(enzyme.__unrendered__): <Image
+    alt="This is an image"
     border={false}
     className="img-fluid"
     height={undefined}
     rounded={false}
+    src="logo.png"
     tooltip=""
     width={undefined}
   />,
@@ -55,11 +57,11 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -70,11 +72,11 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -83,7 +85,9 @@ ReactWrapper {
             },
             "ref": Object {
               "current": <img
+                alt="This is an image"
                 class="img-fluid"
+                src="logo.png"
                 style="display: none;"
                 title=""
               />,
@@ -194,7 +198,7 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -213,7 +217,7 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -233,6 +237,7 @@ ReactWrapper {
               "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": <svg
+                alt="This is an image"
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
@@ -250,7 +255,9 @@ ReactWrapper {
               "updateQueue": null,
             },
             "stateNode": <img
+              alt="This is an image"
               class="img-fluid"
+              src="logo.png"
               style="display: none;"
               title=""
             />,
@@ -266,10 +273,12 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
+              "src": "logo.png",
               "tooltip": "",
               "width": undefined,
             },
@@ -278,10 +287,12 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
+              "src": "logo.png",
               "tooltip": "",
               "width": undefined,
             },
@@ -292,10 +303,12 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
+              "src": "logo.png",
               "tooltip": "",
               "width": undefined,
             },
@@ -337,11 +350,14 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <img
+                    alt="This is an image"
                     class="img-fluid"
+                    src="logo.png"
                     style="display: none;"
                     title=""
                   />
                   <svg
+                    alt="This is an image"
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
@@ -395,10 +411,12 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "alt": "This is an image",
                           "border": false,
                           "className": "img-fluid",
                           "height": undefined,
                           "rounded": false,
+                          "src": "logo.png",
                           "tooltip": "",
                           "width": undefined,
                         }
@@ -421,10 +439,12 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "alt": "This is an image",
                           "border": false,
                           "className": "img-fluid",
                           "height": undefined,
                           "rounded": false,
+                          "src": "logo.png",
                           "tooltip": "",
                           "width": undefined,
                         }
@@ -458,11 +478,11 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "className": "img-fluid",
                 "height": undefined,
                 "onLoad": [Function],
-                "src": undefined,
+                "src": "logo.png",
                 "style": Object {
                   "display": "none",
                 },
@@ -473,11 +493,11 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "className": "img-fluid",
                 "height": undefined,
                 "onLoad": [Function],
-                "src": undefined,
+                "src": "logo.png",
                 "style": Object {
                   "display": "none",
                 },
@@ -486,7 +506,9 @@ ReactWrapper {
               },
               "ref": Object {
                 "current": <img
+                  alt="This is an image"
                   class="img-fluid"
+                  src="logo.png"
                   style="display: none;"
                   title=""
                 />,
@@ -597,7 +619,7 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "children": <rect
                     fill="#CCC"
                     height="100"
@@ -616,7 +638,7 @@ ReactWrapper {
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "children": <rect
                     fill="#CCC"
                     height="100"
@@ -636,6 +658,7 @@ ReactWrapper {
                 "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": <svg
+                  alt="This is an image"
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
@@ -653,7 +676,9 @@ ReactWrapper {
                 "updateQueue": null,
               },
               "stateNode": <img
+                alt="This is an image"
                 class="img-fluid"
+                src="logo.png"
                 style="display: none;"
                 title=""
               />,
@@ -672,10 +697,12 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "alt": "This is an image",
                     "border": false,
                     "className": "img-fluid",
                     "height": undefined,
                     "rounded": false,
+                    "src": "logo.png",
                     "tooltip": "",
                     "width": undefined,
                   }
@@ -692,11 +719,14 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <img
+                  alt="This is an image"
                   class="img-fluid"
+                  src="logo.png"
                   style="display: none;"
                   title=""
                 />
                 <svg
+                  alt="This is an image"
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
@@ -741,10 +771,12 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "alt": "This is an image",
                       "border": false,
                       "className": "img-fluid",
                       "height": undefined,
                       "rounded": false,
+                      "src": "logo.png",
                       "tooltip": "",
                       "width": undefined,
                     }
@@ -771,10 +803,12 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -784,10 +818,12 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -826,11 +862,11 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "alt": undefined,
+            "alt": "This is an image",
             "className": "img-fluid",
             "height": undefined,
             "onLoad": [Function],
-            "src": undefined,
+            "src": "logo.png",
             "style": Object {
               "display": "none",
             },
@@ -841,11 +877,11 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "alt": undefined,
+            "alt": "This is an image",
             "className": "img-fluid",
             "height": undefined,
             "onLoad": [Function],
-            "src": undefined,
+            "src": "logo.png",
             "style": Object {
               "display": "none",
             },
@@ -854,7 +890,9 @@ ReactWrapper {
           },
           "ref": Object {
             "current": <img
+              alt="This is an image"
               class="img-fluid"
+              src="logo.png"
               style="display: none;"
               title=""
             />,
@@ -965,7 +1003,7 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "children": <rect
                 fill="#CCC"
                 height="100"
@@ -984,7 +1022,7 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "children": <rect
                 fill="#CCC"
                 height="100"
@@ -1004,6 +1042,7 @@ ReactWrapper {
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": <svg
+              alt="This is an image"
               class="img-fluid"
               viewBox="0 0 100 100"
             >
@@ -1021,7 +1060,9 @@ ReactWrapper {
             "updateQueue": null,
           },
           "stateNode": <img
+            alt="This is an image"
             class="img-fluid"
+            src="logo.png"
             style="display: none;"
             title=""
           />,
@@ -1052,11 +1093,11 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "alt": undefined,
+            "alt": "This is an image",
             "className": "img-fluid",
             "height": undefined,
             "onLoad": [Function],
-            "src": undefined,
+            "src": "logo.png",
             "style": Object {
               "display": "none",
             },
@@ -1067,11 +1108,11 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "alt": undefined,
+            "alt": "This is an image",
             "className": "img-fluid",
             "height": undefined,
             "onLoad": [Function],
-            "src": undefined,
+            "src": "logo.png",
             "style": Object {
               "display": "none",
             },
@@ -1080,7 +1121,9 @@ ReactWrapper {
           },
           "ref": Object {
             "current": <img
+              alt="This is an image"
               class="img-fluid"
+              src="logo.png"
               style="display: none;"
               title=""
             />,
@@ -1191,7 +1234,7 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "children": <rect
                 fill="#CCC"
                 height="100"
@@ -1210,7 +1253,7 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "children": <rect
                 fill="#CCC"
                 height="100"
@@ -1230,6 +1273,7 @@ ReactWrapper {
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": <svg
+              alt="This is an image"
               class="img-fluid"
               viewBox="0 0 100 100"
             >
@@ -1247,7 +1291,9 @@ ReactWrapper {
             "updateQueue": null,
           },
           "stateNode": <img
+            alt="This is an image"
             class="img-fluid"
+            src="logo.png"
             style="display: none;"
             title=""
           />,
@@ -1276,11 +1322,11 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "alt": undefined,
+            "alt": "This is an image",
             "className": "img-fluid",
             "height": undefined,
             "onLoad": [Function],
-            "src": undefined,
+            "src": "logo.png",
             "style": Object {
               "display": "none",
             },
@@ -1291,11 +1337,11 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "alt": undefined,
+            "alt": "This is an image",
             "className": "img-fluid",
             "height": undefined,
             "onLoad": [Function],
-            "src": undefined,
+            "src": "logo.png",
             "style": Object {
               "display": "none",
             },
@@ -1304,7 +1350,9 @@ ReactWrapper {
           },
           "ref": Object {
             "current": <img
+              alt="This is an image"
               class="img-fluid"
+              src="logo.png"
               style="display: none;"
               title=""
             />,
@@ -1415,7 +1463,7 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "children": <rect
                 fill="#CCC"
                 height="100"
@@ -1434,7 +1482,7 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "children": <rect
                 fill="#CCC"
                 height="100"
@@ -1454,6 +1502,7 @@ ReactWrapper {
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": <svg
+              alt="This is an image"
               class="img-fluid"
               viewBox="0 0 100 100"
             >
@@ -1471,7 +1520,9 @@ ReactWrapper {
             "updateQueue": null,
           },
           "stateNode": <img
+            alt="This is an image"
             class="img-fluid"
+            src="logo.png"
             style="display: none;"
             title=""
           />,
@@ -1481,10 +1532,12 @@ ReactWrapper {
           "updateQueue": null,
         },
         "memoizedProps": Object {
+          "alt": "This is an image",
           "border": false,
           "className": "img-fluid",
           "height": undefined,
           "rounded": false,
+          "src": "logo.png",
           "tooltip": "",
           "width": undefined,
         },
@@ -1494,10 +1547,12 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "alt": "This is an image",
           "border": false,
           "className": "img-fluid",
           "height": undefined,
           "rounded": false,
+          "src": "logo.png",
           "tooltip": "",
           "width": undefined,
         },
@@ -1533,11 +1588,11 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -1548,11 +1603,11 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -1561,7 +1616,9 @@ ReactWrapper {
             },
             "ref": Object {
               "current": <img
+                alt="This is an image"
                 class="img-fluid"
+                src="logo.png"
                 style="display: none;"
                 title=""
               />,
@@ -1672,7 +1729,7 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -1691,7 +1748,7 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -1711,6 +1768,7 @@ ReactWrapper {
               "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": <svg
+                alt="This is an image"
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
@@ -1728,7 +1786,9 @@ ReactWrapper {
               "updateQueue": null,
             },
             "stateNode": <img
+              alt="This is an image"
               class="img-fluid"
+              src="logo.png"
               style="display: none;"
               title=""
             />,
@@ -1744,10 +1804,12 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
+              "src": "logo.png",
               "tooltip": "",
               "width": undefined,
             },
@@ -1756,10 +1818,12 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
+              "src": "logo.png",
               "tooltip": "",
               "width": undefined,
             },
@@ -1770,10 +1834,12 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
               "height": undefined,
               "rounded": false,
+              "src": "logo.png",
               "tooltip": "",
               "width": undefined,
             },
@@ -1815,11 +1881,14 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <img
+                    alt="This is an image"
                     class="img-fluid"
+                    src="logo.png"
                     style="display: none;"
                     title=""
                   />
                   <svg
+                    alt="This is an image"
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
@@ -1873,10 +1942,12 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "alt": "This is an image",
                           "border": false,
                           "className": "img-fluid",
                           "height": undefined,
                           "rounded": false,
+                          "src": "logo.png",
                           "tooltip": "",
                           "width": undefined,
                         }
@@ -1899,10 +1970,12 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "alt": "This is an image",
                           "border": false,
                           "className": "img-fluid",
                           "height": undefined,
                           "rounded": false,
+                          "src": "logo.png",
                           "tooltip": "",
                           "width": undefined,
                         }
@@ -1936,11 +2009,11 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "className": "img-fluid",
                 "height": undefined,
                 "onLoad": [Function],
-                "src": undefined,
+                "src": "logo.png",
                 "style": Object {
                   "display": "none",
                 },
@@ -1951,11 +2024,11 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "className": "img-fluid",
                 "height": undefined,
                 "onLoad": [Function],
-                "src": undefined,
+                "src": "logo.png",
                 "style": Object {
                   "display": "none",
                 },
@@ -1964,7 +2037,9 @@ ReactWrapper {
               },
               "ref": Object {
                 "current": <img
+                  alt="This is an image"
                   class="img-fluid"
+                  src="logo.png"
                   style="display: none;"
                   title=""
                 />,
@@ -2075,7 +2150,7 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "children": <rect
                     fill="#CCC"
                     height="100"
@@ -2094,7 +2169,7 @@ ReactWrapper {
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "children": <rect
                     fill="#CCC"
                     height="100"
@@ -2114,6 +2189,7 @@ ReactWrapper {
                 "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": <svg
+                  alt="This is an image"
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
@@ -2131,7 +2207,9 @@ ReactWrapper {
                 "updateQueue": null,
               },
               "stateNode": <img
+                alt="This is an image"
                 class="img-fluid"
+                src="logo.png"
                 style="display: none;"
                 title=""
               />,
@@ -2150,10 +2228,12 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "alt": "This is an image",
                     "border": false,
                     "className": "img-fluid",
                     "height": undefined,
                     "rounded": false,
+                    "src": "logo.png",
                     "tooltip": "",
                     "width": undefined,
                   }
@@ -2170,11 +2250,14 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <img
+                  alt="This is an image"
                   class="img-fluid"
+                  src="logo.png"
                   style="display: none;"
                   title=""
                 />
                 <svg
+                  alt="This is an image"
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
@@ -2219,10 +2302,12 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "alt": "This is an image",
                       "border": false,
                       "className": "img-fluid",
                       "height": undefined,
                       "rounded": false,
+                      "src": "logo.png",
                       "tooltip": "",
                       "width": undefined,
                     }
@@ -2249,10 +2334,12 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -2262,10 +2349,12 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -2307,17 +2396,21 @@ ReactWrapper {
       "handleImageLoaded": [Function],
       "image": Object {
         "current": <img
+          alt="This is an image"
           class="img-fluid"
+          src="logo.png"
           style="display: none;"
           title=""
         />,
       },
       "onUpdate": [Function],
       "props": Object {
+        "alt": "This is an image",
         "border": false,
         "className": "img-fluid",
         "height": undefined,
         "rounded": false,
+        "src": "logo.png",
         "tooltip": "",
         "width": undefined,
       },
@@ -2335,10 +2428,12 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "alt": "This is an image",
       "border": false,
       "className": "img-fluid",
       "height": undefined,
       "rounded": false,
+      "src": "logo.png",
       "tooltip": "",
       "width": undefined,
     },
@@ -2346,18 +2441,20 @@ ReactWrapper {
     "rendered": Array [
       Object {
         "instance": <img
+          alt="This is an image"
           class="img-fluid"
+          src="logo.png"
           style="display: none;"
           title=""
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "alt": undefined,
+          "alt": "This is an image",
           "className": "img-fluid",
           "height": undefined,
           "onLoad": [Function],
-          "src": undefined,
+          "src": "logo.png",
           "style": Object {
             "display": "none",
           },
@@ -2366,7 +2463,9 @@ ReactWrapper {
         },
         "ref": Object {
           "current": <img
+            alt="This is an image"
             class="img-fluid"
+            src="logo.png"
             style="display: none;"
             title=""
           />,
@@ -2378,6 +2477,7 @@ ReactWrapper {
       },
       Object {
         "instance": <svg
+          alt="This is an image"
           class="img-fluid"
           viewBox="0 0 100 100"
         >
@@ -2392,7 +2492,7 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "alt": undefined,
+          "alt": "This is an image",
           "children": <rect
             fill="#CCC"
             height="100"
@@ -2488,11 +2588,11 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "className": "img-fluid",
                 "height": undefined,
                 "onLoad": [Function],
-                "src": undefined,
+                "src": "logo.png",
                 "style": Object {
                   "display": "none",
                 },
@@ -2503,11 +2603,11 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "className": "img-fluid",
                 "height": undefined,
                 "onLoad": [Function],
-                "src": undefined,
+                "src": "logo.png",
                 "style": Object {
                   "display": "none",
                 },
@@ -2516,7 +2616,9 @@ ReactWrapper {
               },
               "ref": Object {
                 "current": <img
+                  alt="This is an image"
                   class="img-fluid"
+                  src="logo.png"
                   style="display: none;"
                   title=""
                 />,
@@ -2627,7 +2729,7 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "children": <rect
                     fill="#CCC"
                     height="100"
@@ -2646,7 +2748,7 @@ ReactWrapper {
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "children": <rect
                     fill="#CCC"
                     height="100"
@@ -2666,6 +2768,7 @@ ReactWrapper {
                 "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": <svg
+                  alt="This is an image"
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
@@ -2683,7 +2786,9 @@ ReactWrapper {
                 "updateQueue": null,
               },
               "stateNode": <img
+                alt="This is an image"
                 class="img-fluid"
+                src="logo.png"
                 style="display: none;"
                 title=""
               />,
@@ -2699,10 +2804,12 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -2711,10 +2818,12 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -2725,10 +2834,12 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -2770,11 +2881,14 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <img
+                      alt="This is an image"
                       class="img-fluid"
+                      src="logo.png"
                       style="display: none;"
                       title=""
                     />
                     <svg
+                      alt="This is an image"
                       class="img-fluid"
                       viewBox="0 0 100 100"
                     >
@@ -2828,10 +2942,12 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "alt": "This is an image",
                             "border": false,
                             "className": "img-fluid",
                             "height": undefined,
                             "rounded": false,
+                            "src": "logo.png",
                             "tooltip": "",
                             "width": undefined,
                           }
@@ -2854,10 +2970,12 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "alt": "This is an image",
                             "border": false,
                             "className": "img-fluid",
                             "height": undefined,
                             "rounded": false,
+                            "src": "logo.png",
                             "tooltip": "",
                             "width": undefined,
                           }
@@ -2891,11 +3009,11 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "className": "img-fluid",
                   "height": undefined,
                   "onLoad": [Function],
-                  "src": undefined,
+                  "src": "logo.png",
                   "style": Object {
                     "display": "none",
                   },
@@ -2906,11 +3024,11 @@ ReactWrapper {
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "className": "img-fluid",
                   "height": undefined,
                   "onLoad": [Function],
-                  "src": undefined,
+                  "src": "logo.png",
                   "style": Object {
                     "display": "none",
                   },
@@ -2919,7 +3037,9 @@ ReactWrapper {
                 },
                 "ref": Object {
                   "current": <img
+                    alt="This is an image"
                     class="img-fluid"
+                    src="logo.png"
                     style="display: none;"
                     title=""
                   />,
@@ -3030,7 +3150,7 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "alt": undefined,
+                    "alt": "This is an image",
                     "children": <rect
                       fill="#CCC"
                       height="100"
@@ -3049,7 +3169,7 @@ ReactWrapper {
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "alt": undefined,
+                    "alt": "This is an image",
                     "children": <rect
                       fill="#CCC"
                       height="100"
@@ -3069,6 +3189,7 @@ ReactWrapper {
                   "selfBaseDuration": 0,
                   "sibling": null,
                   "stateNode": <svg
+                    alt="This is an image"
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
@@ -3086,7 +3207,9 @@ ReactWrapper {
                   "updateQueue": null,
                 },
                 "stateNode": <img
+                  alt="This is an image"
                   class="img-fluid"
+                  src="logo.png"
                   style="display: none;"
                   title=""
                 />,
@@ -3105,10 +3228,12 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "alt": "This is an image",
                       "border": false,
                       "className": "img-fluid",
                       "height": undefined,
                       "rounded": false,
+                      "src": "logo.png",
                       "tooltip": "",
                       "width": undefined,
                     }
@@ -3125,11 +3250,14 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <img
+                    alt="This is an image"
                     class="img-fluid"
+                    src="logo.png"
                     style="display: none;"
                     title=""
                   />
                   <svg
+                    alt="This is an image"
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
@@ -3174,10 +3302,12 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "alt": "This is an image",
                         "border": false,
                         "className": "img-fluid",
                         "height": undefined,
                         "rounded": false,
+                        "src": "logo.png",
                         "tooltip": "",
                         "width": undefined,
                       }
@@ -3204,10 +3334,12 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "alt": "This is an image",
                   "border": false,
                   "className": "img-fluid",
                   "height": undefined,
                   "rounded": false,
+                  "src": "logo.png",
                   "tooltip": "",
                   "width": undefined,
                 },
@@ -3217,10 +3349,12 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "alt": "This is an image",
                   "border": false,
                   "className": "img-fluid",
                   "height": undefined,
                   "rounded": false,
+                  "src": "logo.png",
                   "tooltip": "",
                   "width": undefined,
                 },
@@ -3259,11 +3393,11 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -3274,11 +3408,11 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -3287,7 +3421,9 @@ ReactWrapper {
             },
             "ref": Object {
               "current": <img
+                alt="This is an image"
                 class="img-fluid"
+                src="logo.png"
                 style="display: none;"
                 title=""
               />,
@@ -3398,7 +3534,7 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -3417,7 +3553,7 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -3437,6 +3573,7 @@ ReactWrapper {
               "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": <svg
+                alt="This is an image"
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
@@ -3454,7 +3591,9 @@ ReactWrapper {
               "updateQueue": null,
             },
             "stateNode": <img
+              alt="This is an image"
               class="img-fluid"
+              src="logo.png"
               style="display: none;"
               title=""
             />,
@@ -3485,11 +3624,11 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -3500,11 +3639,11 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -3513,7 +3652,9 @@ ReactWrapper {
             },
             "ref": Object {
               "current": <img
+                alt="This is an image"
                 class="img-fluid"
+                src="logo.png"
                 style="display: none;"
                 title=""
               />,
@@ -3624,7 +3765,7 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -3643,7 +3784,7 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -3663,6 +3804,7 @@ ReactWrapper {
               "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": <svg
+                alt="This is an image"
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
@@ -3680,7 +3822,9 @@ ReactWrapper {
               "updateQueue": null,
             },
             "stateNode": <img
+              alt="This is an image"
               class="img-fluid"
+              src="logo.png"
               style="display: none;"
               title=""
             />,
@@ -3709,11 +3853,11 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -3724,11 +3868,11 @@ ReactWrapper {
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "alt": undefined,
+              "alt": "This is an image",
               "className": "img-fluid",
               "height": undefined,
               "onLoad": [Function],
-              "src": undefined,
+              "src": "logo.png",
               "style": Object {
                 "display": "none",
               },
@@ -3737,7 +3881,9 @@ ReactWrapper {
             },
             "ref": Object {
               "current": <img
+                alt="This is an image"
                 class="img-fluid"
+                src="logo.png"
                 style="display: none;"
                 title=""
               />,
@@ -3848,7 +3994,7 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -3867,7 +4013,7 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "children": <rect
                   fill="#CCC"
                   height="100"
@@ -3887,6 +4033,7 @@ ReactWrapper {
               "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": <svg
+                alt="This is an image"
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
@@ -3904,7 +4051,9 @@ ReactWrapper {
               "updateQueue": null,
             },
             "stateNode": <img
+              alt="This is an image"
               class="img-fluid"
+              src="logo.png"
               style="display: none;"
               title=""
             />,
@@ -3914,10 +4063,12 @@ ReactWrapper {
             "updateQueue": null,
           },
           "memoizedProps": Object {
+            "alt": "This is an image",
             "border": false,
             "className": "img-fluid",
             "height": undefined,
             "rounded": false,
+            "src": "logo.png",
             "tooltip": "",
             "width": undefined,
           },
@@ -3927,10 +4078,12 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "alt": "This is an image",
             "border": false,
             "className": "img-fluid",
             "height": undefined,
             "rounded": false,
+            "src": "logo.png",
             "tooltip": "",
             "width": undefined,
           },
@@ -3966,11 +4119,11 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "className": "img-fluid",
                 "height": undefined,
                 "onLoad": [Function],
-                "src": undefined,
+                "src": "logo.png",
                 "style": Object {
                   "display": "none",
                 },
@@ -3981,11 +4134,11 @@ ReactWrapper {
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "alt": undefined,
+                "alt": "This is an image",
                 "className": "img-fluid",
                 "height": undefined,
                 "onLoad": [Function],
-                "src": undefined,
+                "src": "logo.png",
                 "style": Object {
                   "display": "none",
                 },
@@ -3994,7 +4147,9 @@ ReactWrapper {
               },
               "ref": Object {
                 "current": <img
+                  alt="This is an image"
                   class="img-fluid"
+                  src="logo.png"
                   style="display: none;"
                   title=""
                 />,
@@ -4105,7 +4260,7 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "children": <rect
                     fill="#CCC"
                     height="100"
@@ -4124,7 +4279,7 @@ ReactWrapper {
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "children": <rect
                     fill="#CCC"
                     height="100"
@@ -4144,6 +4299,7 @@ ReactWrapper {
                 "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": <svg
+                  alt="This is an image"
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
@@ -4161,7 +4317,9 @@ ReactWrapper {
                 "updateQueue": null,
               },
               "stateNode": <img
+                alt="This is an image"
                 class="img-fluid"
+                src="logo.png"
                 style="display: none;"
                 title=""
               />,
@@ -4177,10 +4335,12 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -4189,10 +4349,12 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -4203,10 +4365,12 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
                 "height": undefined,
                 "rounded": false,
+                "src": "logo.png",
                 "tooltip": "",
                 "width": undefined,
               },
@@ -4248,11 +4412,14 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <img
+                      alt="This is an image"
                       class="img-fluid"
+                      src="logo.png"
                       style="display: none;"
                       title=""
                     />
                     <svg
+                      alt="This is an image"
                       class="img-fluid"
                       viewBox="0 0 100 100"
                     >
@@ -4306,10 +4473,12 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "alt": "This is an image",
                             "border": false,
                             "className": "img-fluid",
                             "height": undefined,
                             "rounded": false,
+                            "src": "logo.png",
                             "tooltip": "",
                             "width": undefined,
                           }
@@ -4332,10 +4501,12 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "alt": "This is an image",
                             "border": false,
                             "className": "img-fluid",
                             "height": undefined,
                             "rounded": false,
+                            "src": "logo.png",
                             "tooltip": "",
                             "width": undefined,
                           }
@@ -4369,11 +4540,11 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "className": "img-fluid",
                   "height": undefined,
                   "onLoad": [Function],
-                  "src": undefined,
+                  "src": "logo.png",
                   "style": Object {
                     "display": "none",
                   },
@@ -4384,11 +4555,11 @@ ReactWrapper {
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "alt": undefined,
+                  "alt": "This is an image",
                   "className": "img-fluid",
                   "height": undefined,
                   "onLoad": [Function],
-                  "src": undefined,
+                  "src": "logo.png",
                   "style": Object {
                     "display": "none",
                   },
@@ -4397,7 +4568,9 @@ ReactWrapper {
                 },
                 "ref": Object {
                   "current": <img
+                    alt="This is an image"
                     class="img-fluid"
+                    src="logo.png"
                     style="display: none;"
                     title=""
                   />,
@@ -4508,7 +4681,7 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "alt": undefined,
+                    "alt": "This is an image",
                     "children": <rect
                       fill="#CCC"
                       height="100"
@@ -4527,7 +4700,7 @@ ReactWrapper {
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "alt": undefined,
+                    "alt": "This is an image",
                     "children": <rect
                       fill="#CCC"
                       height="100"
@@ -4547,6 +4720,7 @@ ReactWrapper {
                   "selfBaseDuration": 0,
                   "sibling": null,
                   "stateNode": <svg
+                    alt="This is an image"
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
@@ -4564,7 +4738,9 @@ ReactWrapper {
                   "updateQueue": null,
                 },
                 "stateNode": <img
+                  alt="This is an image"
                   class="img-fluid"
+                  src="logo.png"
                   style="display: none;"
                   title=""
                 />,
@@ -4583,10 +4759,12 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "alt": "This is an image",
                       "border": false,
                       "className": "img-fluid",
                       "height": undefined,
                       "rounded": false,
+                      "src": "logo.png",
                       "tooltip": "",
                       "width": undefined,
                     }
@@ -4603,11 +4781,14 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <img
+                    alt="This is an image"
                     class="img-fluid"
+                    src="logo.png"
                     style="display: none;"
                     title=""
                   />
                   <svg
+                    alt="This is an image"
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
@@ -4652,10 +4833,12 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "alt": "This is an image",
                         "border": false,
                         "className": "img-fluid",
                         "height": undefined,
                         "rounded": false,
+                        "src": "logo.png",
                         "tooltip": "",
                         "width": undefined,
                       }
@@ -4682,10 +4865,12 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "alt": "This is an image",
                   "border": false,
                   "className": "img-fluid",
                   "height": undefined,
                   "rounded": false,
+                  "src": "logo.png",
                   "tooltip": "",
                   "width": undefined,
                 },
@@ -4695,10 +4880,12 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "alt": "This is an image",
                   "border": false,
                   "className": "img-fluid",
                   "height": undefined,
                   "rounded": false,
+                  "src": "logo.png",
                   "tooltip": "",
                   "width": undefined,
                 },
@@ -4740,17 +4927,21 @@ ReactWrapper {
         "handleImageLoaded": [Function],
         "image": Object {
           "current": <img
+            alt="This is an image"
             class="img-fluid"
+            src="logo.png"
             style="display: none;"
             title=""
           />,
         },
         "onUpdate": [Function],
         "props": Object {
+          "alt": "This is an image",
           "border": false,
           "className": "img-fluid",
           "height": undefined,
           "rounded": false,
+          "src": "logo.png",
           "tooltip": "",
           "width": undefined,
         },
@@ -4768,10 +4959,12 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "alt": "This is an image",
         "border": false,
         "className": "img-fluid",
         "height": undefined,
         "rounded": false,
+        "src": "logo.png",
         "tooltip": "",
         "width": undefined,
       },
@@ -4779,18 +4972,20 @@ ReactWrapper {
       "rendered": Array [
         Object {
           "instance": <img
+            alt="This is an image"
             class="img-fluid"
+            src="logo.png"
             style="display: none;"
             title=""
           />,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "alt": undefined,
+            "alt": "This is an image",
             "className": "img-fluid",
             "height": undefined,
             "onLoad": [Function],
-            "src": undefined,
+            "src": "logo.png",
             "style": Object {
               "display": "none",
             },
@@ -4799,7 +4994,9 @@ ReactWrapper {
           },
           "ref": Object {
             "current": <img
+              alt="This is an image"
               class="img-fluid"
+              src="logo.png"
               style="display: none;"
               title=""
             />,
@@ -4811,6 +5008,7 @@ ReactWrapper {
         },
         Object {
           "instance": <svg
+            alt="This is an image"
             class="img-fluid"
             viewBox="0 0 100 100"
           >
@@ -4825,7 +5023,7 @@ ReactWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "alt": undefined,
+            "alt": "This is an image",
             "children": <rect
               fill="#CCC"
               height="100"

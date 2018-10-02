@@ -44,7 +44,7 @@ stories.addWithJSX(
         )}
         rounded={boolean('Rounded', true)}
         url={text('Url', 'https://front10.com')}
-        linkDirect={boolean('Show as link', false)}
+        directLink={boolean('Direct Link', false)}
       />
     </ThemeSelector>
   )),

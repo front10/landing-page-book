@@ -34,4 +34,4 @@ import "@front10/landing-page-book/dist/components/Social/style.css";
 | rounded      | `Boolean` | Show buttons rounded or square. Default `true` |
 | type      | `String` | Type of button. Default `"email"`, possibles values are: `facebook`, `google`, `linkedin`, `twitter`, `telegram`, `whatsapp`, `pinterest`, `vk`, `ok`, `reddit`, `tumblr`, `livejournal`, `email`, `viber` |
 | url      | `String` | Url to share. Default `""` |
-| linkDirect      | `Boolean` | Indicates if it is redirected to a link within the social network or a floating window is displayed to share the link using the social network. Default `true` |
+| directLink      | `Boolean` | Indicates if it is redirected to a link within the social network or a floating window is displayed to share the link using the social network. Default `true` |

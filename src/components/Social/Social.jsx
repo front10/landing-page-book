@@ -50,8 +50,8 @@ const available = {
 
 class Social extends Component {
   render() {
-    const { url, rounded, type, gray, linkDirect } = this.props;
-    return linkDirect
+    const { url, rounded, type, gray, directLink } = this.props;
+    return directLink
       ? React.createElement(
           'a',
           {
@@ -82,14 +82,14 @@ Social.propTypes = {
   rounded: PropTypes.bool,
   type: PropTypes.string,
   url: PropTypes.string,
-  linkDirect: PropTypes.bool
+  directLink: PropTypes.bool
 };
 Social.defaultProps = {
   gray: false,
   rounded: true,
   type: 'email',
   url: '',
-  linkDirect: true
+  directLink: true
 };
 
 export default Social;

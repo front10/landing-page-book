@@ -35,12 +35,19 @@ import '@front10/landing-page-book/dist/themes/default/style.css';
 class App extends Component {
   render() {
     <div className="App">
-      <Navbar brandLink="https://front10.com" brandLogo="logo.png" brandName="Front10" />
-      <Hero header="Landing Page Book" subHeader="Some cool text" />
+      <Navbar brandLink="https://front10.com" brandLogo="https://front10.com/img/logos/logo.png" />
+      <Hero
+        backgroundColor="#212529"
+        particlesParams={{ particles: { line_linked: { enable: false } } }}
+        header="Landing Page Book"
+        subHeader="Some cool text"
+      />
     </div>;
   }
 }
 ```
+
+[![Edit p74xx7mx2m](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/p74xx7mx2m)
 
 ## Available Components
 

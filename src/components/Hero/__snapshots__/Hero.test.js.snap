@@ -7,7 +7,7 @@ ShallowWrapper {
     backgroundColor="transparent"
     buttons={Array []}
     header=""
-    image="https://c1.staticflickr.com/2/1861/30934146988_f3de261bb4_c.jpg"
+    image=""
     isCentered={true}
     isFixed={true}
     minHeight="100vh"
@@ -35,7 +35,7 @@ ShallowWrapper {
       "children": <LazyHero
         className={undefined}
         color="#fff"
-        imageSrc="https://c1.staticflickr.com/2/1861/30934146988_f3de261bb4_c.jpg"
+        imageSrc=""
         isCentered={true}
         isFixed={true}
         minHeight="100vh"
@@ -105,7 +105,7 @@ ShallowWrapper {
         ],
         "className": undefined,
         "color": "#fff",
-        "imageSrc": "https://c1.staticflickr.com/2/1861/30934146988_f3de261bb4_c.jpg",
+        "imageSrc": "",
         "isCentered": true,
         "isFixed": true,
         "minHeight": "100vh",
@@ -207,7 +207,7 @@ ShallowWrapper {
         "children": <LazyHero
           className={undefined}
           color="#fff"
-          imageSrc="https://c1.staticflickr.com/2/1861/30934146988_f3de261bb4_c.jpg"
+          imageSrc=""
           isCentered={true}
           isFixed={true}
           minHeight="100vh"
@@ -277,7 +277,7 @@ ShallowWrapper {
           ],
           "className": undefined,
           "color": "#fff",
-          "imageSrc": "https://c1.staticflickr.com/2/1861/30934146988_f3de261bb4_c.jpg",
+          "imageSrc": "",
           "isCentered": true,
           "isFixed": true,
           "minHeight": "100vh",

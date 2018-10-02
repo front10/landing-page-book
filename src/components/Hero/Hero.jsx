@@ -104,7 +104,7 @@ Hero.defaultProps = {
   particles: true,
   opacity: 0,
   parallaxOffset: 0,
-  image: 'https://c1.staticflickr.com/2/1861/30934146988_f3de261bb4_c.jpg',
+  image: '',
   overlayColor: '#fff',
   header: '',
   subHeader: '',

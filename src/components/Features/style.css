@@ -21,3 +21,5 @@
   .Card .Card__Subtitle {
     font-size: var(--Card__Subtitle-fontSize);
     color: var(--Card__Subtitle-color); }
+  .Card .card-footer {
+    padding: 0 1.25rem; }

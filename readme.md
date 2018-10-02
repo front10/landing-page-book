@@ -19,6 +19,29 @@ npm install
 npm start
 ```
 
+## Usage
+
+```js
+import React, { Component } from 'react';
+import { Hero, Navbar, Team } from '@front10/landing-page-book/dist/components';
+```
+
+```js
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '@front10/landing-page-book/dist/themes/default/style.css';
+```
+
+```jsx
+class App extends Component {
+  render() {
+    <div className="App">
+      <Navbar brandLink="https://front10.com" brandLogo="logo.png" brandName="Front10" />
+      <Hero header="Landing Page Book" subHeader="Some cool text" />
+    </div>;
+  }
+}
+```
+
 ## Available Components
 
 | Main components                                                                                            |                                                                                                                          |                                                                                                                |                                                                                              |
@@ -37,32 +60,9 @@ npm start
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`GoogleAnalytics`](https://github.com/front10/landing-page-book/tree/master/src/components/Analytics/Analytics.jsx) | [`GoogleMap`](https://github.com/front10/landing-page-book/tree/master/src/components/Location/Location.jsx) | [`Github`](https://github.com/front10/landing-page-book/tree/master/src/components/GithubButton) | [`OpenCollective`](https://github.com/front10/landing-page-book/tree/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx) |
 
-## Usage
-
-```js
-import React, { Component } from 'react';
-import { Hero, Navbar, Team } from '@front10/landing-page-book/dist/components';
-```
-
-```js
-import 'bootstrap/dist/css/bootstrap.min.css';
-import '@front10/landing-page-book/dist/themes/default/style.css';
-```
-
-```jsx
-class App extends Component {
-  render() {
-    <div className="App">
-      <Navbar companyLink="https://front10.com" companyLogo="logo.png" companyName="Front10" />
-      <Hero header="Landing Page Book" subHeader="Some cool text" />
-    </div>;
-  }
-}
-```
-
 ### Custom styles
 
-https://github.com/front10/landing-page-book/blob/master/theming.md
+Read our [theming documentation](https://github.com/front10/landing-page-book/blob/master/theming.md).
 
 ## Tests
 
@@ -78,10 +78,6 @@ npm test
 
 - [React](https://reactjs.org/)
 - [React StoryBook](https://storybook.js.org)
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see [npm package](https://www.npmjs.com/package/@front10/landing-page-book).
 
 ## Authors
 

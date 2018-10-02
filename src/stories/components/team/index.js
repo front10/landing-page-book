@@ -24,7 +24,7 @@ const members = [
       },
       {
         social: 'pinterest',
-        url: 'https://pinterest.com/landing-page-book'
+        url: 'https://front10.com'
       }
     ]
   },
@@ -37,11 +37,11 @@ const members = [
     profile: [
       {
         social: 'facebook',
-        url: 'https://www.facebook.com/front10'
+        url: 'https://front10.com'
       },
       {
         social: 'linkedin',
-        url: 'https://www.linkedin.com/landing-page-book'
+        url: 'https://front10.com'
       }
     ]
   },
@@ -54,11 +54,11 @@ const members = [
     profile: [
       {
         social: 'facebook',
-        url: 'https://www.facebok.com/front10'
+        url: 'https://front10.com'
       },
       {
         social: 'twitter',
-        url: 'https://twitter.com/landing-page-book'
+        url: 'https://front10.com'
       }
     ]
   }

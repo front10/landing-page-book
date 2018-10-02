@@ -20,11 +20,11 @@ const members = [
     profile: [
       {
         social: 'facebook',
-        url: 'https://front10.com'
+        url: 'https://www.facebook.com/JavaScriptTeam/'
       },
       {
-        social: 'pinterest',
-        url: 'https://front10.com'
+        social: 'twitter',
+        url: 'https://twitter.com/front10hello?lang=es'
       }
     ]
   },
@@ -37,10 +37,10 @@ const members = [
     profile: [
       {
         social: 'facebook',
-        url: 'https://front10.com'
+        url: 'https://www.facebook.com/JavaScriptTeam/'
       },
       {
-        social: 'linkedin',
+        social: 'email',
         url: 'https://front10.com'
       }
     ]
@@ -54,11 +54,11 @@ const members = [
     profile: [
       {
         social: 'facebook',
-        url: 'https://front10.com'
+        url: 'https://www.facebook.com/JavaScriptTeam/'
       },
       {
         social: 'twitter',
-        url: 'https://front10.com'
+        url: 'https://twitter.com/front10hello?lang=es'
       }
     ]
   }

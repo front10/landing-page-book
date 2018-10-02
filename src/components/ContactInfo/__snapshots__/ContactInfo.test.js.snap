@@ -149,6 +149,10 @@ ReactWrapper {
                       
                       
                       
+                    </div>
+                    <div
+                      class="card-footer bg-transparent border-0"
+                    >
                       0
                       
                       
@@ -303,6 +307,10 @@ ReactWrapper {
                     
                     
                     
+                  </div>
+                  <div
+                    class="card-footer bg-transparent border-0"
+                  >
                     0
                     
                     
@@ -455,7 +463,7 @@ ReactWrapper {
               "actualStartTime": -1,
               "alternate": null,
               "child": FiberNode {
-                "_debugID": 54,
+                "_debugID": 55,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
                 "_debugSource": null,
@@ -480,7 +488,7 @@ ReactWrapper {
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": FiberNode {
-                  "_debugID": 55,
+                  "_debugID": 56,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
                   "_debugSource": null,
@@ -505,7 +513,7 @@ ReactWrapper {
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
-                    "_debugID": 56,
+                    "_debugID": 57,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": null,
                     "_debugSource": null,
@@ -530,7 +538,7 @@ ReactWrapper {
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": FiberNode {
-                      "_debugID": 57,
+                      "_debugID": 58,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": null,
                       "_debugSource": null,
@@ -554,271 +562,7 @@ ReactWrapper {
                       "ref": null,
                       "return": [Circular],
                       "selfBaseDuration": 0,
-                      "sibling": FiberNode {
-                        "_debugID": 58,
-                        "_debugIsCurrentlyTiming": false,
-                        "_debugOwner": null,
-                        "_debugSource": null,
-                        "actualDuration": 0,
-                        "actualStartTime": -1,
-                        "alternate": null,
-                        "child": FiberNode {
-                          "_debugID": 59,
-                          "_debugIsCurrentlyTiming": false,
-                          "_debugOwner": null,
-                          "_debugSource": null,
-                          "actualDuration": 0,
-                          "actualStartTime": -1,
-                          "alternate": null,
-                          "child": null,
-                          "childExpirationTime": 0,
-                          "effectTag": 0,
-                          "expirationTime": 0,
-                          "firstContextDependency": null,
-                          "firstEffect": null,
-                          "index": 0,
-                          "key": null,
-                          "lastEffect": null,
-                          "memoizedProps": "0",
-                          "memoizedState": null,
-                          "mode": 0,
-                          "nextEffect": null,
-                          "pendingProps": "0",
-                          "ref": null,
-                          "return": [Circular],
-                          "selfBaseDuration": 0,
-                          "sibling": FiberNode {
-                            "_debugID": 60,
-                            "_debugIsCurrentlyTiming": false,
-                            "_debugOwner": null,
-                            "_debugSource": null,
-                            "actualDuration": 0,
-                            "actualStartTime": -1,
-                            "alternate": null,
-                            "child": null,
-                            "childExpirationTime": 0,
-                            "effectTag": 0,
-                            "expirationTime": 0,
-                            "firstContextDependency": null,
-                            "firstEffect": null,
-                            "index": 1,
-                            "key": null,
-                            "lastEffect": null,
-                            "memoizedProps": "",
-                            "memoizedState": null,
-                            "mode": 0,
-                            "nextEffect": null,
-                            "pendingProps": "",
-                            "ref": null,
-                            "return": [Circular],
-                            "selfBaseDuration": 0,
-                            "sibling": FiberNode {
-                              "_debugID": 61,
-                              "_debugIsCurrentlyTiming": false,
-                              "_debugOwner": null,
-                              "_debugSource": null,
-                              "actualDuration": 0,
-                              "actualStartTime": -1,
-                              "alternate": null,
-                              "child": null,
-                              "childExpirationTime": 0,
-                              "effectTag": 0,
-                              "expirationTime": 0,
-                              "firstContextDependency": null,
-                              "firstEffect": null,
-                              "index": 2,
-                              "key": null,
-                              "lastEffect": null,
-                              "memoizedProps": "",
-                              "memoizedState": null,
-                              "mode": 0,
-                              "nextEffect": null,
-                              "pendingProps": "",
-                              "ref": null,
-                              "return": [Circular],
-                              "selfBaseDuration": 0,
-                              "sibling": FiberNode {
-                                "_debugID": 62,
-                                "_debugIsCurrentlyTiming": false,
-                                "_debugOwner": null,
-                                "_debugSource": null,
-                                "actualDuration": 0,
-                                "actualStartTime": -1,
-                                "alternate": null,
-                                "child": null,
-                                "childExpirationTime": 0,
-                                "effectTag": 0,
-                                "expirationTime": 0,
-                                "firstContextDependency": null,
-                                "firstEffect": null,
-                                "index": 3,
-                                "key": null,
-                                "lastEffect": null,
-                                "memoizedProps": "",
-                                "memoizedState": null,
-                                "mode": 0,
-                                "nextEffect": null,
-                                "pendingProps": "",
-                                "ref": null,
-                                "return": [Circular],
-                                "selfBaseDuration": 0,
-                                "sibling": FiberNode {
-                                  "_debugID": 63,
-                                  "_debugIsCurrentlyTiming": false,
-                                  "_debugOwner": null,
-                                  "_debugSource": null,
-                                  "actualDuration": 0,
-                                  "actualStartTime": -1,
-                                  "alternate": null,
-                                  "child": null,
-                                  "childExpirationTime": 0,
-                                  "effectTag": 0,
-                                  "expirationTime": 0,
-                                  "firstContextDependency": null,
-                                  "firstEffect": null,
-                                  "index": 4,
-                                  "key": null,
-                                  "lastEffect": null,
-                                  "memoizedProps": "",
-                                  "memoizedState": null,
-                                  "mode": 0,
-                                  "nextEffect": null,
-                                  "pendingProps": "",
-                                  "ref": null,
-                                  "return": [Circular],
-                                  "selfBaseDuration": 0,
-                                  "sibling": FiberNode {
-                                    "_debugID": 64,
-                                    "_debugIsCurrentlyTiming": false,
-                                    "_debugOwner": null,
-                                    "_debugSource": null,
-                                    "actualDuration": 0,
-                                    "actualStartTime": -1,
-                                    "alternate": null,
-                                    "child": null,
-                                    "childExpirationTime": 0,
-                                    "effectTag": 0,
-                                    "expirationTime": 0,
-                                    "firstContextDependency": null,
-                                    "firstEffect": null,
-                                    "index": 5,
-                                    "key": null,
-                                    "lastEffect": null,
-                                    "memoizedProps": "",
-                                    "memoizedState": null,
-                                    "mode": 0,
-                                    "nextEffect": null,
-                                    "pendingProps": "",
-                                    "ref": null,
-                                    "return": [Circular],
-                                    "selfBaseDuration": 0,
-                                    "sibling": FiberNode {
-                                      "_debugID": 65,
-                                      "_debugIsCurrentlyTiming": false,
-                                      "_debugOwner": null,
-                                      "_debugSource": null,
-                                      "actualDuration": 0,
-                                      "actualStartTime": -1,
-                                      "alternate": null,
-                                      "child": null,
-                                      "childExpirationTime": 0,
-                                      "effectTag": 0,
-                                      "expirationTime": 0,
-                                      "firstContextDependency": null,
-                                      "firstEffect": null,
-                                      "index": 6,
-                                      "key": null,
-                                      "lastEffect": null,
-                                      "memoizedProps": "",
-                                      "memoizedState": null,
-                                      "mode": 0,
-                                      "nextEffect": null,
-                                      "pendingProps": "",
-                                      "ref": null,
-                                      "return": [Circular],
-                                      "selfBaseDuration": 0,
-                                      "sibling": null,
-                                      "stateNode": ,
-                                      "tag": 8,
-                                      "treeBaseDuration": 0,
-                                      "type": null,
-                                      "updateQueue": null,
-                                    },
-                                    "stateNode": ,
-                                    "tag": 8,
-                                    "treeBaseDuration": 0,
-                                    "type": null,
-                                    "updateQueue": null,
-                                  },
-                                  "stateNode": ,
-                                  "tag": 8,
-                                  "treeBaseDuration": 0,
-                                  "type": null,
-                                  "updateQueue": null,
-                                },
-                                "stateNode": ,
-                                "tag": 8,
-                                "treeBaseDuration": 0,
-                                "type": null,
-                                "updateQueue": null,
-                              },
-                              "stateNode": ,
-                              "tag": 8,
-                              "treeBaseDuration": 0,
-                              "type": null,
-                              "updateQueue": null,
-                            },
-                            "stateNode": ,
-                            "tag": 8,
-                            "treeBaseDuration": 0,
-                            "type": null,
-                            "updateQueue": null,
-                          },
-                          "stateNode": 0,
-                          "tag": 8,
-                          "treeBaseDuration": 0,
-                          "type": null,
-                          "updateQueue": null,
-                        },
-                        "childExpirationTime": 0,
-                        "effectTag": 0,
-                        "expirationTime": 0,
-                        "firstContextDependency": null,
-                        "firstEffect": null,
-                        "index": 4,
-                        "key": null,
-                        "lastEffect": null,
-                        "memoizedProps": Array [
-                          0,
-                          "",
-                          "",
-                          "",
-                          "",
-                          "",
-                          "",
-                        ],
-                        "memoizedState": null,
-                        "mode": 0,
-                        "nextEffect": null,
-                        "pendingProps": Array [
-                          0,
-                          "",
-                          "",
-                          "",
-                          "",
-                          "",
-                          "",
-                        ],
-                        "ref": null,
-                        "return": [Circular],
-                        "selfBaseDuration": 0,
-                        "sibling": null,
-                        "stateNode": null,
-                        "tag": 9,
-                        "treeBaseDuration": 0,
-                        "type": null,
-                        "updateQueue": null,
-                      },
+                      "sibling": null,
                       "stateNode": ,
                       "tag": 8,
                       "treeBaseDuration": 0,
@@ -857,15 +601,6 @@ ReactWrapper {
                   "",
                   "",
                   "",
-                  <UNDEFINED>
-                    0
-                    
-                    
-                    
-                    
-                    
-                    
-                  </UNDEFINED>,
                 ],
                 "className": "card-body text-left",
               },
@@ -878,7 +613,248 @@ ReactWrapper {
                   "",
                   "",
                   "",
-                  <UNDEFINED>
+                ],
+                "className": "card-body text-left",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 54,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 59,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": "0",
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": "0",
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 60,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "",
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 61,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "",
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugID": 62,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 3,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": "",
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": "",
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": FiberNode {
+                          "_debugID": 63,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": null,
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": null,
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 4,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": "",
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": "",
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseDuration": 0,
+                          "sibling": FiberNode {
+                            "_debugID": 64,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": null,
+                            "_debugSource": null,
+                            "actualDuration": 0,
+                            "actualStartTime": -1,
+                            "alternate": null,
+                            "child": null,
+                            "childExpirationTime": 0,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstContextDependency": null,
+                            "firstEffect": null,
+                            "index": 5,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": "",
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": "",
+                            "ref": null,
+                            "return": [Circular],
+                            "selfBaseDuration": 0,
+                            "sibling": FiberNode {
+                              "_debugID": 65,
+                              "_debugIsCurrentlyTiming": false,
+                              "_debugOwner": null,
+                              "_debugSource": null,
+                              "actualDuration": 0,
+                              "actualStartTime": -1,
+                              "alternate": null,
+                              "child": null,
+                              "childExpirationTime": 0,
+                              "effectTag": 0,
+                              "expirationTime": 0,
+                              "firstContextDependency": null,
+                              "firstEffect": null,
+                              "index": 6,
+                              "key": null,
+                              "lastEffect": null,
+                              "memoizedProps": "",
+                              "memoizedState": null,
+                              "mode": 0,
+                              "nextEffect": null,
+                              "pendingProps": "",
+                              "ref": null,
+                              "return": [Circular],
+                              "selfBaseDuration": 0,
+                              "sibling": null,
+                              "stateNode": ,
+                              "tag": 8,
+                              "treeBaseDuration": 0,
+                              "type": null,
+                              "updateQueue": null,
+                            },
+                            "stateNode": ,
+                            "tag": 8,
+                            "treeBaseDuration": 0,
+                            "type": null,
+                            "updateQueue": null,
+                          },
+                          "stateNode": ,
+                          "tag": 8,
+                          "treeBaseDuration": 0,
+                          "type": null,
+                          "updateQueue": null,
+                        },
+                        "stateNode": ,
+                        "tag": 8,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": null,
+                      },
+                      "stateNode": ,
+                      "tag": 8,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "stateNode": ,
+                    "tag": 8,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "stateNode": 0,
+                  "tag": 8,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": <UNDEFINED>
                     0
                     
                     
@@ -887,23 +863,46 @@ ReactWrapper {
                     
                     
                   </UNDEFINED>,
-                ],
-                "className": "card-body text-left",
+                  "className": "card-footer bg-transparent border-0",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": <UNDEFINED>
+                    0
+                    
+                    
+                    
+                    
+                    
+                    
+                  </UNDEFINED>,
+                  "className": "card-footer bg-transparent border-0",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="card-footer bg-transparent border-0"
+                >
+                  0
+                  
+                  
+                  
+                  
+                  
+                  
+                </div>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
               },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": null,
               "stateNode": <div
                 class="card-body text-left"
               >
-                
-                
-                
-                
-                0
-                
-                
                 
                 
                 
@@ -923,46 +922,58 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <div
-                className="card-body text-left"
-              >
-                
-                
-                
-                
-                <UNDEFINED>
-                  0
+              "children": Array [
+                <div
+                  className="card-body text-left"
+                >
                   
                   
                   
                   
-                  
-                  
-                </UNDEFINED>
-              </div>,
+                </div>,
+                <div
+                  className="card-footer bg-transparent border-0"
+                >
+                  <UNDEFINED>
+                    0
+                    
+                    
+                    
+                    
+                    
+                    
+                  </UNDEFINED>
+                </div>,
+              ],
               "className": "card h-100 Card ",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <div
-                className="card-body text-left"
-              >
-                
-                
-                
-                
-                <UNDEFINED>
-                  0
+              "children": Array [
+                <div
+                  className="card-body text-left"
+                >
                   
                   
                   
                   
-                  
-                  
-                </UNDEFINED>
-              </div>,
+                </div>,
+                <div
+                  className="card-footer bg-transparent border-0"
+                >
+                  <UNDEFINED>
+                    0
+                    
+                    
+                    
+                    
+                    
+                    
+                  </UNDEFINED>
+                </div>,
+              ],
               "className": "card h-100 Card ",
             },
             "ref": null,
@@ -979,6 +990,10 @@ ReactWrapper {
                 
                 
                 
+              </div>
+              <div
+                class="card-footer bg-transparent border-0"
+              >
                 0
                 
                 
@@ -1242,6 +1257,10 @@ ReactWrapper {
                       
                       
                       
+                    </div>
+                    <div
+                      class="card-footer bg-transparent border-0"
+                    >
                       0
                       
                       
@@ -1396,6 +1415,10 @@ ReactWrapper {
                     
                     
                     
+                  </div>
+                  <div
+                    class="card-footer bg-transparent border-0"
+                  >
                     0
                     
                     
@@ -1696,6 +1719,10 @@ ReactWrapper {
                           
                           
                           
+                        </div>
+                        <div
+                          class="card-footer bg-transparent border-0"
+                        >
                           0
                           
                           
@@ -1850,6 +1877,10 @@ ReactWrapper {
                         
                         
                         
+                      </div>
+                      <div
+                        class="card-footer bg-transparent border-0"
+                      >
                         0
                         
                         
@@ -2137,6 +2168,10 @@ ReactWrapper {
                           
                           
                           
+                        </div>
+                        <div
+                          class="card-footer bg-transparent border-0"
+                        >
                           0
                           
                           
@@ -2291,6 +2326,10 @@ ReactWrapper {
                         
                         
                         
+                      </div>
+                      <div
+                        class="card-footer bg-transparent border-0"
+                      >
                         0
                         
                         
@@ -2469,7 +2508,7 @@ ReactWrapper {
               "actualStartTime": -1,
               "alternate": null,
               "child": FiberNode {
-                "_debugID": 54,
+                "_debugID": 55,
                 "_debugIsCurrentlyTiming": false,
                 "_debugOwner": null,
                 "_debugSource": null,
@@ -2494,7 +2533,7 @@ ReactWrapper {
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": FiberNode {
-                  "_debugID": 55,
+                  "_debugID": 56,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
                   "_debugSource": null,
@@ -2519,7 +2558,7 @@ ReactWrapper {
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
-                    "_debugID": 56,
+                    "_debugID": 57,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": null,
                     "_debugSource": null,
@@ -2544,7 +2583,7 @@ ReactWrapper {
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": FiberNode {
-                      "_debugID": 57,
+                      "_debugID": 58,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": null,
                       "_debugSource": null,
@@ -2568,271 +2607,7 @@ ReactWrapper {
                       "ref": null,
                       "return": [Circular],
                       "selfBaseDuration": 0,
-                      "sibling": FiberNode {
-                        "_debugID": 58,
-                        "_debugIsCurrentlyTiming": false,
-                        "_debugOwner": null,
-                        "_debugSource": null,
-                        "actualDuration": 0,
-                        "actualStartTime": -1,
-                        "alternate": null,
-                        "child": FiberNode {
-                          "_debugID": 59,
-                          "_debugIsCurrentlyTiming": false,
-                          "_debugOwner": null,
-                          "_debugSource": null,
-                          "actualDuration": 0,
-                          "actualStartTime": -1,
-                          "alternate": null,
-                          "child": null,
-                          "childExpirationTime": 0,
-                          "effectTag": 0,
-                          "expirationTime": 0,
-                          "firstContextDependency": null,
-                          "firstEffect": null,
-                          "index": 0,
-                          "key": null,
-                          "lastEffect": null,
-                          "memoizedProps": "0",
-                          "memoizedState": null,
-                          "mode": 0,
-                          "nextEffect": null,
-                          "pendingProps": "0",
-                          "ref": null,
-                          "return": [Circular],
-                          "selfBaseDuration": 0,
-                          "sibling": FiberNode {
-                            "_debugID": 60,
-                            "_debugIsCurrentlyTiming": false,
-                            "_debugOwner": null,
-                            "_debugSource": null,
-                            "actualDuration": 0,
-                            "actualStartTime": -1,
-                            "alternate": null,
-                            "child": null,
-                            "childExpirationTime": 0,
-                            "effectTag": 0,
-                            "expirationTime": 0,
-                            "firstContextDependency": null,
-                            "firstEffect": null,
-                            "index": 1,
-                            "key": null,
-                            "lastEffect": null,
-                            "memoizedProps": "",
-                            "memoizedState": null,
-                            "mode": 0,
-                            "nextEffect": null,
-                            "pendingProps": "",
-                            "ref": null,
-                            "return": [Circular],
-                            "selfBaseDuration": 0,
-                            "sibling": FiberNode {
-                              "_debugID": 61,
-                              "_debugIsCurrentlyTiming": false,
-                              "_debugOwner": null,
-                              "_debugSource": null,
-                              "actualDuration": 0,
-                              "actualStartTime": -1,
-                              "alternate": null,
-                              "child": null,
-                              "childExpirationTime": 0,
-                              "effectTag": 0,
-                              "expirationTime": 0,
-                              "firstContextDependency": null,
-                              "firstEffect": null,
-                              "index": 2,
-                              "key": null,
-                              "lastEffect": null,
-                              "memoizedProps": "",
-                              "memoizedState": null,
-                              "mode": 0,
-                              "nextEffect": null,
-                              "pendingProps": "",
-                              "ref": null,
-                              "return": [Circular],
-                              "selfBaseDuration": 0,
-                              "sibling": FiberNode {
-                                "_debugID": 62,
-                                "_debugIsCurrentlyTiming": false,
-                                "_debugOwner": null,
-                                "_debugSource": null,
-                                "actualDuration": 0,
-                                "actualStartTime": -1,
-                                "alternate": null,
-                                "child": null,
-                                "childExpirationTime": 0,
-                                "effectTag": 0,
-                                "expirationTime": 0,
-                                "firstContextDependency": null,
-                                "firstEffect": null,
-                                "index": 3,
-                                "key": null,
-                                "lastEffect": null,
-                                "memoizedProps": "",
-                                "memoizedState": null,
-                                "mode": 0,
-                                "nextEffect": null,
-                                "pendingProps": "",
-                                "ref": null,
-                                "return": [Circular],
-                                "selfBaseDuration": 0,
-                                "sibling": FiberNode {
-                                  "_debugID": 63,
-                                  "_debugIsCurrentlyTiming": false,
-                                  "_debugOwner": null,
-                                  "_debugSource": null,
-                                  "actualDuration": 0,
-                                  "actualStartTime": -1,
-                                  "alternate": null,
-                                  "child": null,
-                                  "childExpirationTime": 0,
-                                  "effectTag": 0,
-                                  "expirationTime": 0,
-                                  "firstContextDependency": null,
-                                  "firstEffect": null,
-                                  "index": 4,
-                                  "key": null,
-                                  "lastEffect": null,
-                                  "memoizedProps": "",
-                                  "memoizedState": null,
-                                  "mode": 0,
-                                  "nextEffect": null,
-                                  "pendingProps": "",
-                                  "ref": null,
-                                  "return": [Circular],
-                                  "selfBaseDuration": 0,
-                                  "sibling": FiberNode {
-                                    "_debugID": 64,
-                                    "_debugIsCurrentlyTiming": false,
-                                    "_debugOwner": null,
-                                    "_debugSource": null,
-                                    "actualDuration": 0,
-                                    "actualStartTime": -1,
-                                    "alternate": null,
-                                    "child": null,
-                                    "childExpirationTime": 0,
-                                    "effectTag": 0,
-                                    "expirationTime": 0,
-                                    "firstContextDependency": null,
-                                    "firstEffect": null,
-                                    "index": 5,
-                                    "key": null,
-                                    "lastEffect": null,
-                                    "memoizedProps": "",
-                                    "memoizedState": null,
-                                    "mode": 0,
-                                    "nextEffect": null,
-                                    "pendingProps": "",
-                                    "ref": null,
-                                    "return": [Circular],
-                                    "selfBaseDuration": 0,
-                                    "sibling": FiberNode {
-                                      "_debugID": 65,
-                                      "_debugIsCurrentlyTiming": false,
-                                      "_debugOwner": null,
-                                      "_debugSource": null,
-                                      "actualDuration": 0,
-                                      "actualStartTime": -1,
-                                      "alternate": null,
-                                      "child": null,
-                                      "childExpirationTime": 0,
-                                      "effectTag": 0,
-                                      "expirationTime": 0,
-                                      "firstContextDependency": null,
-                                      "firstEffect": null,
-                                      "index": 6,
-                                      "key": null,
-                                      "lastEffect": null,
-                                      "memoizedProps": "",
-                                      "memoizedState": null,
-                                      "mode": 0,
-                                      "nextEffect": null,
-                                      "pendingProps": "",
-                                      "ref": null,
-                                      "return": [Circular],
-                                      "selfBaseDuration": 0,
-                                      "sibling": null,
-                                      "stateNode": ,
-                                      "tag": 8,
-                                      "treeBaseDuration": 0,
-                                      "type": null,
-                                      "updateQueue": null,
-                                    },
-                                    "stateNode": ,
-                                    "tag": 8,
-                                    "treeBaseDuration": 0,
-                                    "type": null,
-                                    "updateQueue": null,
-                                  },
-                                  "stateNode": ,
-                                  "tag": 8,
-                                  "treeBaseDuration": 0,
-                                  "type": null,
-                                  "updateQueue": null,
-                                },
-                                "stateNode": ,
-                                "tag": 8,
-                                "treeBaseDuration": 0,
-                                "type": null,
-                                "updateQueue": null,
-                              },
-                              "stateNode": ,
-                              "tag": 8,
-                              "treeBaseDuration": 0,
-                              "type": null,
-                              "updateQueue": null,
-                            },
-                            "stateNode": ,
-                            "tag": 8,
-                            "treeBaseDuration": 0,
-                            "type": null,
-                            "updateQueue": null,
-                          },
-                          "stateNode": 0,
-                          "tag": 8,
-                          "treeBaseDuration": 0,
-                          "type": null,
-                          "updateQueue": null,
-                        },
-                        "childExpirationTime": 0,
-                        "effectTag": 0,
-                        "expirationTime": 0,
-                        "firstContextDependency": null,
-                        "firstEffect": null,
-                        "index": 4,
-                        "key": null,
-                        "lastEffect": null,
-                        "memoizedProps": Array [
-                          0,
-                          "",
-                          "",
-                          "",
-                          "",
-                          "",
-                          "",
-                        ],
-                        "memoizedState": null,
-                        "mode": 0,
-                        "nextEffect": null,
-                        "pendingProps": Array [
-                          0,
-                          "",
-                          "",
-                          "",
-                          "",
-                          "",
-                          "",
-                        ],
-                        "ref": null,
-                        "return": [Circular],
-                        "selfBaseDuration": 0,
-                        "sibling": null,
-                        "stateNode": null,
-                        "tag": 9,
-                        "treeBaseDuration": 0,
-                        "type": null,
-                        "updateQueue": null,
-                      },
+                      "sibling": null,
                       "stateNode": ,
                       "tag": 8,
                       "treeBaseDuration": 0,
@@ -2871,15 +2646,6 @@ ReactWrapper {
                   "",
                   "",
                   "",
-                  <UNDEFINED>
-                    0
-                    
-                    
-                    
-                    
-                    
-                    
-                  </UNDEFINED>,
                 ],
                 "className": "card-body text-left",
               },
@@ -2892,7 +2658,248 @@ ReactWrapper {
                   "",
                   "",
                   "",
-                  <UNDEFINED>
+                ],
+                "className": "card-body text-left",
+              },
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 54,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 59,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": "0",
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": "0",
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 60,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "",
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 61,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "",
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugID": 62,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 3,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": "",
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": "",
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": FiberNode {
+                          "_debugID": 63,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": null,
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": null,
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 4,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": "",
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": "",
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseDuration": 0,
+                          "sibling": FiberNode {
+                            "_debugID": 64,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": null,
+                            "_debugSource": null,
+                            "actualDuration": 0,
+                            "actualStartTime": -1,
+                            "alternate": null,
+                            "child": null,
+                            "childExpirationTime": 0,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstContextDependency": null,
+                            "firstEffect": null,
+                            "index": 5,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": "",
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": "",
+                            "ref": null,
+                            "return": [Circular],
+                            "selfBaseDuration": 0,
+                            "sibling": FiberNode {
+                              "_debugID": 65,
+                              "_debugIsCurrentlyTiming": false,
+                              "_debugOwner": null,
+                              "_debugSource": null,
+                              "actualDuration": 0,
+                              "actualStartTime": -1,
+                              "alternate": null,
+                              "child": null,
+                              "childExpirationTime": 0,
+                              "effectTag": 0,
+                              "expirationTime": 0,
+                              "firstContextDependency": null,
+                              "firstEffect": null,
+                              "index": 6,
+                              "key": null,
+                              "lastEffect": null,
+                              "memoizedProps": "",
+                              "memoizedState": null,
+                              "mode": 0,
+                              "nextEffect": null,
+                              "pendingProps": "",
+                              "ref": null,
+                              "return": [Circular],
+                              "selfBaseDuration": 0,
+                              "sibling": null,
+                              "stateNode": ,
+                              "tag": 8,
+                              "treeBaseDuration": 0,
+                              "type": null,
+                              "updateQueue": null,
+                            },
+                            "stateNode": ,
+                            "tag": 8,
+                            "treeBaseDuration": 0,
+                            "type": null,
+                            "updateQueue": null,
+                          },
+                          "stateNode": ,
+                          "tag": 8,
+                          "treeBaseDuration": 0,
+                          "type": null,
+                          "updateQueue": null,
+                        },
+                        "stateNode": ,
+                        "tag": 8,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": null,
+                      },
+                      "stateNode": ,
+                      "tag": 8,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "stateNode": ,
+                    "tag": 8,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "stateNode": 0,
+                  "tag": 8,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": <UNDEFINED>
                     0
                     
                     
@@ -2901,23 +2908,46 @@ ReactWrapper {
                     
                     
                   </UNDEFINED>,
-                ],
-                "className": "card-body text-left",
+                  "className": "card-footer bg-transparent border-0",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": <UNDEFINED>
+                    0
+                    
+                    
+                    
+                    
+                    
+                    
+                  </UNDEFINED>,
+                  "className": "card-footer bg-transparent border-0",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="card-footer bg-transparent border-0"
+                >
+                  0
+                  
+                  
+                  
+                  
+                  
+                  
+                </div>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
               },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": null,
               "stateNode": <div
                 class="card-body text-left"
               >
-                
-                
-                
-                
-                0
-                
-                
                 
                 
                 
@@ -2937,46 +2967,58 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <div
-                className="card-body text-left"
-              >
-                
-                
-                
-                
-                <UNDEFINED>
-                  0
+              "children": Array [
+                <div
+                  className="card-body text-left"
+                >
                   
                   
                   
                   
-                  
-                  
-                </UNDEFINED>
-              </div>,
+                </div>,
+                <div
+                  className="card-footer bg-transparent border-0"
+                >
+                  <UNDEFINED>
+                    0
+                    
+                    
+                    
+                    
+                    
+                    
+                  </UNDEFINED>
+                </div>,
+              ],
               "className": "card h-100 Card ",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <div
-                className="card-body text-left"
-              >
-                
-                
-                
-                
-                <UNDEFINED>
-                  0
+              "children": Array [
+                <div
+                  className="card-body text-left"
+                >
                   
                   
                   
                   
-                  
-                  
-                </UNDEFINED>
-              </div>,
+                </div>,
+                <div
+                  className="card-footer bg-transparent border-0"
+                >
+                  <UNDEFINED>
+                    0
+                    
+                    
+                    
+                    
+                    
+                    
+                  </UNDEFINED>
+                </div>,
+              ],
               "className": "card h-100 Card ",
             },
             "ref": null,
@@ -2993,6 +3035,10 @@ ReactWrapper {
                 
                 
                 
+              </div>
+              <div
+                class="card-footer bg-transparent border-0"
+              >
                 0
                 
                 
@@ -3179,6 +3225,10 @@ ReactWrapper {
                           
                           
                           
+                        </div>
+                        <div
+                          class="card-footer bg-transparent border-0"
+                        >
                           0
                           
                           
@@ -3333,6 +3383,10 @@ ReactWrapper {
                         
                         
                         
+                      </div>
+                      <div
+                        class="card-footer bg-transparent border-0"
+                      >
                         0
                         
                         
@@ -3620,6 +3674,10 @@ ReactWrapper {
                           
                           
                           
+                        </div>
+                        <div
+                          class="card-footer bg-transparent border-0"
+                        >
                           0
                           
                           
@@ -3774,6 +3832,10 @@ ReactWrapper {
                         
                         
                         
+                      </div>
+                      <div
+                        class="card-footer bg-transparent border-0"
+                      >
                         0
                         
                         
@@ -4002,6 +4064,10 @@ ReactWrapper {
             
             
             
+          </div>
+          <div
+            class="card-footer bg-transparent border-0"
+          >
             0
             
             
@@ -4014,23 +4080,29 @@ ReactWrapper {
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <div
-            className="card-body text-left"
-          >
-            
-            
-            
-            
-            <UNDEFINED>
-              0
+          "children": Array [
+            <div
+              className="card-body text-left"
+            >
               
               
               
               
-              
-              
-            </UNDEFINED>
-          </div>,
+            </div>,
+            <div
+              className="card-footer bg-transparent border-0"
+            >
+              <UNDEFINED>
+                0
+                
+                
+                
+                
+                
+                
+              </UNDEFINED>
+            </div>,
+          ],
           "className": "card h-100 Card ",
         },
         "ref": null,
@@ -4039,13 +4111,6 @@ ReactWrapper {
             "instance": <div
               class="card-body text-left"
             >
-              
-              
-              
-              
-              0
-              
-              
               
               
               
@@ -4059,15 +4124,6 @@ ReactWrapper {
                 "",
                 "",
                 "",
-                <UNDEFINED>
-                  0
-                  
-                  
-                  
-                  
-                  
-                  
-                </UNDEFINED>,
               ],
               "className": "card-body text-left",
             },
@@ -4077,6 +4133,37 @@ ReactWrapper {
               "",
               "",
               "",
+            ],
+            "type": "div",
+          },
+          Object {
+            "instance": <div
+              class="card-footer bg-transparent border-0"
+            >
+              0
+              
+              
+              
+              
+              
+              
+            </div>,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <UNDEFINED>
+                0
+                
+                
+                
+                
+                
+                
+              </UNDEFINED>,
+              "className": "card-footer bg-transparent border-0",
+            },
+            "ref": null,
+            "rendered": Array [
               "0",
               "",
               "",
@@ -4219,6 +4306,10 @@ ReactWrapper {
                         
                         
                         
+                      </div>
+                      <div
+                        class="card-footer bg-transparent border-0"
+                      >
                         0
                         
                         
@@ -4373,6 +4464,10 @@ ReactWrapper {
                       
                       
                       
+                    </div>
+                    <div
+                      class="card-footer bg-transparent border-0"
+                    >
                       0
                       
                       
@@ -4525,7 +4620,7 @@ ReactWrapper {
                 "actualStartTime": -1,
                 "alternate": null,
                 "child": FiberNode {
-                  "_debugID": 54,
+                  "_debugID": 55,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
                   "_debugSource": null,
@@ -4550,7 +4645,7 @@ ReactWrapper {
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
-                    "_debugID": 55,
+                    "_debugID": 56,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": null,
                     "_debugSource": null,
@@ -4575,7 +4670,7 @@ ReactWrapper {
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": FiberNode {
-                      "_debugID": 56,
+                      "_debugID": 57,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": null,
                       "_debugSource": null,
@@ -4600,7 +4695,7 @@ ReactWrapper {
                       "return": [Circular],
                       "selfBaseDuration": 0,
                       "sibling": FiberNode {
-                        "_debugID": 57,
+                        "_debugID": 58,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": null,
                         "_debugSource": null,
@@ -4624,271 +4719,7 @@ ReactWrapper {
                         "ref": null,
                         "return": [Circular],
                         "selfBaseDuration": 0,
-                        "sibling": FiberNode {
-                          "_debugID": 58,
-                          "_debugIsCurrentlyTiming": false,
-                          "_debugOwner": null,
-                          "_debugSource": null,
-                          "actualDuration": 0,
-                          "actualStartTime": -1,
-                          "alternate": null,
-                          "child": FiberNode {
-                            "_debugID": 59,
-                            "_debugIsCurrentlyTiming": false,
-                            "_debugOwner": null,
-                            "_debugSource": null,
-                            "actualDuration": 0,
-                            "actualStartTime": -1,
-                            "alternate": null,
-                            "child": null,
-                            "childExpirationTime": 0,
-                            "effectTag": 0,
-                            "expirationTime": 0,
-                            "firstContextDependency": null,
-                            "firstEffect": null,
-                            "index": 0,
-                            "key": null,
-                            "lastEffect": null,
-                            "memoizedProps": "0",
-                            "memoizedState": null,
-                            "mode": 0,
-                            "nextEffect": null,
-                            "pendingProps": "0",
-                            "ref": null,
-                            "return": [Circular],
-                            "selfBaseDuration": 0,
-                            "sibling": FiberNode {
-                              "_debugID": 60,
-                              "_debugIsCurrentlyTiming": false,
-                              "_debugOwner": null,
-                              "_debugSource": null,
-                              "actualDuration": 0,
-                              "actualStartTime": -1,
-                              "alternate": null,
-                              "child": null,
-                              "childExpirationTime": 0,
-                              "effectTag": 0,
-                              "expirationTime": 0,
-                              "firstContextDependency": null,
-                              "firstEffect": null,
-                              "index": 1,
-                              "key": null,
-                              "lastEffect": null,
-                              "memoizedProps": "",
-                              "memoizedState": null,
-                              "mode": 0,
-                              "nextEffect": null,
-                              "pendingProps": "",
-                              "ref": null,
-                              "return": [Circular],
-                              "selfBaseDuration": 0,
-                              "sibling": FiberNode {
-                                "_debugID": 61,
-                                "_debugIsCurrentlyTiming": false,
-                                "_debugOwner": null,
-                                "_debugSource": null,
-                                "actualDuration": 0,
-                                "actualStartTime": -1,
-                                "alternate": null,
-                                "child": null,
-                                "childExpirationTime": 0,
-                                "effectTag": 0,
-                                "expirationTime": 0,
-                                "firstContextDependency": null,
-                                "firstEffect": null,
-                                "index": 2,
-                                "key": null,
-                                "lastEffect": null,
-                                "memoizedProps": "",
-                                "memoizedState": null,
-                                "mode": 0,
-                                "nextEffect": null,
-                                "pendingProps": "",
-                                "ref": null,
-                                "return": [Circular],
-                                "selfBaseDuration": 0,
-                                "sibling": FiberNode {
-                                  "_debugID": 62,
-                                  "_debugIsCurrentlyTiming": false,
-                                  "_debugOwner": null,
-                                  "_debugSource": null,
-                                  "actualDuration": 0,
-                                  "actualStartTime": -1,
-                                  "alternate": null,
-                                  "child": null,
-                                  "childExpirationTime": 0,
-                                  "effectTag": 0,
-                                  "expirationTime": 0,
-                                  "firstContextDependency": null,
-                                  "firstEffect": null,
-                                  "index": 3,
-                                  "key": null,
-                                  "lastEffect": null,
-                                  "memoizedProps": "",
-                                  "memoizedState": null,
-                                  "mode": 0,
-                                  "nextEffect": null,
-                                  "pendingProps": "",
-                                  "ref": null,
-                                  "return": [Circular],
-                                  "selfBaseDuration": 0,
-                                  "sibling": FiberNode {
-                                    "_debugID": 63,
-                                    "_debugIsCurrentlyTiming": false,
-                                    "_debugOwner": null,
-                                    "_debugSource": null,
-                                    "actualDuration": 0,
-                                    "actualStartTime": -1,
-                                    "alternate": null,
-                                    "child": null,
-                                    "childExpirationTime": 0,
-                                    "effectTag": 0,
-                                    "expirationTime": 0,
-                                    "firstContextDependency": null,
-                                    "firstEffect": null,
-                                    "index": 4,
-                                    "key": null,
-                                    "lastEffect": null,
-                                    "memoizedProps": "",
-                                    "memoizedState": null,
-                                    "mode": 0,
-                                    "nextEffect": null,
-                                    "pendingProps": "",
-                                    "ref": null,
-                                    "return": [Circular],
-                                    "selfBaseDuration": 0,
-                                    "sibling": FiberNode {
-                                      "_debugID": 64,
-                                      "_debugIsCurrentlyTiming": false,
-                                      "_debugOwner": null,
-                                      "_debugSource": null,
-                                      "actualDuration": 0,
-                                      "actualStartTime": -1,
-                                      "alternate": null,
-                                      "child": null,
-                                      "childExpirationTime": 0,
-                                      "effectTag": 0,
-                                      "expirationTime": 0,
-                                      "firstContextDependency": null,
-                                      "firstEffect": null,
-                                      "index": 5,
-                                      "key": null,
-                                      "lastEffect": null,
-                                      "memoizedProps": "",
-                                      "memoizedState": null,
-                                      "mode": 0,
-                                      "nextEffect": null,
-                                      "pendingProps": "",
-                                      "ref": null,
-                                      "return": [Circular],
-                                      "selfBaseDuration": 0,
-                                      "sibling": FiberNode {
-                                        "_debugID": 65,
-                                        "_debugIsCurrentlyTiming": false,
-                                        "_debugOwner": null,
-                                        "_debugSource": null,
-                                        "actualDuration": 0,
-                                        "actualStartTime": -1,
-                                        "alternate": null,
-                                        "child": null,
-                                        "childExpirationTime": 0,
-                                        "effectTag": 0,
-                                        "expirationTime": 0,
-                                        "firstContextDependency": null,
-                                        "firstEffect": null,
-                                        "index": 6,
-                                        "key": null,
-                                        "lastEffect": null,
-                                        "memoizedProps": "",
-                                        "memoizedState": null,
-                                        "mode": 0,
-                                        "nextEffect": null,
-                                        "pendingProps": "",
-                                        "ref": null,
-                                        "return": [Circular],
-                                        "selfBaseDuration": 0,
-                                        "sibling": null,
-                                        "stateNode": ,
-                                        "tag": 8,
-                                        "treeBaseDuration": 0,
-                                        "type": null,
-                                        "updateQueue": null,
-                                      },
-                                      "stateNode": ,
-                                      "tag": 8,
-                                      "treeBaseDuration": 0,
-                                      "type": null,
-                                      "updateQueue": null,
-                                    },
-                                    "stateNode": ,
-                                    "tag": 8,
-                                    "treeBaseDuration": 0,
-                                    "type": null,
-                                    "updateQueue": null,
-                                  },
-                                  "stateNode": ,
-                                  "tag": 8,
-                                  "treeBaseDuration": 0,
-                                  "type": null,
-                                  "updateQueue": null,
-                                },
-                                "stateNode": ,
-                                "tag": 8,
-                                "treeBaseDuration": 0,
-                                "type": null,
-                                "updateQueue": null,
-                              },
-                              "stateNode": ,
-                              "tag": 8,
-                              "treeBaseDuration": 0,
-                              "type": null,
-                              "updateQueue": null,
-                            },
-                            "stateNode": 0,
-                            "tag": 8,
-                            "treeBaseDuration": 0,
-                            "type": null,
-                            "updateQueue": null,
-                          },
-                          "childExpirationTime": 0,
-                          "effectTag": 0,
-                          "expirationTime": 0,
-                          "firstContextDependency": null,
-                          "firstEffect": null,
-                          "index": 4,
-                          "key": null,
-                          "lastEffect": null,
-                          "memoizedProps": Array [
-                            0,
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                          ],
-                          "memoizedState": null,
-                          "mode": 0,
-                          "nextEffect": null,
-                          "pendingProps": Array [
-                            0,
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                          ],
-                          "ref": null,
-                          "return": [Circular],
-                          "selfBaseDuration": 0,
-                          "sibling": null,
-                          "stateNode": null,
-                          "tag": 9,
-                          "treeBaseDuration": 0,
-                          "type": null,
-                          "updateQueue": null,
-                        },
+                        "sibling": null,
                         "stateNode": ,
                         "tag": 8,
                         "treeBaseDuration": 0,
@@ -4927,15 +4758,6 @@ ReactWrapper {
                     "",
                     "",
                     "",
-                    <UNDEFINED>
-                      0
-                      
-                      
-                      
-                      
-                      
-                      
-                    </UNDEFINED>,
                   ],
                   "className": "card-body text-left",
                 },
@@ -4948,7 +4770,248 @@ ReactWrapper {
                     "",
                     "",
                     "",
-                    <UNDEFINED>
+                  ],
+                  "className": "card-body text-left",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 54,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 59,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "0",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "0",
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 60,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "",
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugID": 61,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 2,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": "",
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": "",
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": FiberNode {
+                          "_debugID": 62,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": null,
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": null,
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 3,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": "",
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": "",
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseDuration": 0,
+                          "sibling": FiberNode {
+                            "_debugID": 63,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": null,
+                            "_debugSource": null,
+                            "actualDuration": 0,
+                            "actualStartTime": -1,
+                            "alternate": null,
+                            "child": null,
+                            "childExpirationTime": 0,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstContextDependency": null,
+                            "firstEffect": null,
+                            "index": 4,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": "",
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": "",
+                            "ref": null,
+                            "return": [Circular],
+                            "selfBaseDuration": 0,
+                            "sibling": FiberNode {
+                              "_debugID": 64,
+                              "_debugIsCurrentlyTiming": false,
+                              "_debugOwner": null,
+                              "_debugSource": null,
+                              "actualDuration": 0,
+                              "actualStartTime": -1,
+                              "alternate": null,
+                              "child": null,
+                              "childExpirationTime": 0,
+                              "effectTag": 0,
+                              "expirationTime": 0,
+                              "firstContextDependency": null,
+                              "firstEffect": null,
+                              "index": 5,
+                              "key": null,
+                              "lastEffect": null,
+                              "memoizedProps": "",
+                              "memoizedState": null,
+                              "mode": 0,
+                              "nextEffect": null,
+                              "pendingProps": "",
+                              "ref": null,
+                              "return": [Circular],
+                              "selfBaseDuration": 0,
+                              "sibling": FiberNode {
+                                "_debugID": 65,
+                                "_debugIsCurrentlyTiming": false,
+                                "_debugOwner": null,
+                                "_debugSource": null,
+                                "actualDuration": 0,
+                                "actualStartTime": -1,
+                                "alternate": null,
+                                "child": null,
+                                "childExpirationTime": 0,
+                                "effectTag": 0,
+                                "expirationTime": 0,
+                                "firstContextDependency": null,
+                                "firstEffect": null,
+                                "index": 6,
+                                "key": null,
+                                "lastEffect": null,
+                                "memoizedProps": "",
+                                "memoizedState": null,
+                                "mode": 0,
+                                "nextEffect": null,
+                                "pendingProps": "",
+                                "ref": null,
+                                "return": [Circular],
+                                "selfBaseDuration": 0,
+                                "sibling": null,
+                                "stateNode": ,
+                                "tag": 8,
+                                "treeBaseDuration": 0,
+                                "type": null,
+                                "updateQueue": null,
+                              },
+                              "stateNode": ,
+                              "tag": 8,
+                              "treeBaseDuration": 0,
+                              "type": null,
+                              "updateQueue": null,
+                            },
+                            "stateNode": ,
+                            "tag": 8,
+                            "treeBaseDuration": 0,
+                            "type": null,
+                            "updateQueue": null,
+                          },
+                          "stateNode": ,
+                          "tag": 8,
+                          "treeBaseDuration": 0,
+                          "type": null,
+                          "updateQueue": null,
+                        },
+                        "stateNode": ,
+                        "tag": 8,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": null,
+                      },
+                      "stateNode": ,
+                      "tag": 8,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "stateNode": 0,
+                    "tag": 8,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <UNDEFINED>
                       0
                       
                       
@@ -4957,23 +5020,46 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                  ],
-                  "className": "card-body text-left",
+                    "className": "card-footer bg-transparent border-0",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": <UNDEFINED>
+                      0
+                      
+                      
+                      
+                      
+                      
+                      
+                    </UNDEFINED>,
+                    "className": "card-footer bg-transparent border-0",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <div
+                    class="card-footer bg-transparent border-0"
+                  >
+                    0
+                    
+                    
+                    
+                    
+                    
+                    
+                  </div>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "div",
+                  "updateQueue": null,
                 },
-                "ref": null,
-                "return": [Circular],
-                "selfBaseDuration": 0,
-                "sibling": null,
                 "stateNode": <div
                   class="card-body text-left"
                 >
-                  
-                  
-                  
-                  
-                  0
-                  
-                  
                   
                   
                   
@@ -4993,46 +5079,58 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": <div
-                  className="card-body text-left"
-                >
-                  
-                  
-                  
-                  
-                  <UNDEFINED>
-                    0
+                "children": Array [
+                  <div
+                    className="card-body text-left"
+                  >
                     
                     
                     
                     
-                    
-                    
-                  </UNDEFINED>
-                </div>,
+                  </div>,
+                  <div
+                    className="card-footer bg-transparent border-0"
+                  >
+                    <UNDEFINED>
+                      0
+                      
+                      
+                      
+                      
+                      
+                      
+                    </UNDEFINED>
+                  </div>,
+                ],
                 "className": "card h-100 Card ",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": <div
-                  className="card-body text-left"
-                >
-                  
-                  
-                  
-                  
-                  <UNDEFINED>
-                    0
+                "children": Array [
+                  <div
+                    className="card-body text-left"
+                  >
                     
                     
                     
                     
-                    
-                    
-                  </UNDEFINED>
-                </div>,
+                  </div>,
+                  <div
+                    className="card-footer bg-transparent border-0"
+                  >
+                    <UNDEFINED>
+                      0
+                      
+                      
+                      
+                      
+                      
+                      
+                    </UNDEFINED>
+                  </div>,
+                ],
                 "className": "card h-100 Card ",
               },
               "ref": null,
@@ -5049,6 +5147,10 @@ ReactWrapper {
                   
                   
                   
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0"
+                >
                   0
                   
                   
@@ -5312,6 +5414,10 @@ ReactWrapper {
                         
                         
                         
+                      </div>
+                      <div
+                        class="card-footer bg-transparent border-0"
+                      >
                         0
                         
                         
@@ -5466,6 +5572,10 @@ ReactWrapper {
                       
                       
                       
+                    </div>
+                    <div
+                      class="card-footer bg-transparent border-0"
+                    >
                       0
                       
                       
@@ -5766,6 +5876,10 @@ ReactWrapper {
                             
                             
                             
+                          </div>
+                          <div
+                            class="card-footer bg-transparent border-0"
+                          >
                             0
                             
                             
@@ -5920,6 +6034,10 @@ ReactWrapper {
                           
                           
                           
+                        </div>
+                        <div
+                          class="card-footer bg-transparent border-0"
+                        >
                           0
                           
                           
@@ -6207,6 +6325,10 @@ ReactWrapper {
                             
                             
                             
+                          </div>
+                          <div
+                            class="card-footer bg-transparent border-0"
+                          >
                             0
                             
                             
@@ -6361,6 +6483,10 @@ ReactWrapper {
                           
                           
                           
+                        </div>
+                        <div
+                          class="card-footer bg-transparent border-0"
+                        >
                           0
                           
                           
@@ -6539,7 +6665,7 @@ ReactWrapper {
                 "actualStartTime": -1,
                 "alternate": null,
                 "child": FiberNode {
-                  "_debugID": 54,
+                  "_debugID": 55,
                   "_debugIsCurrentlyTiming": false,
                   "_debugOwner": null,
                   "_debugSource": null,
@@ -6564,7 +6690,7 @@ ReactWrapper {
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": FiberNode {
-                    "_debugID": 55,
+                    "_debugID": 56,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": null,
                     "_debugSource": null,
@@ -6589,7 +6715,7 @@ ReactWrapper {
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": FiberNode {
-                      "_debugID": 56,
+                      "_debugID": 57,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": null,
                       "_debugSource": null,
@@ -6614,7 +6740,7 @@ ReactWrapper {
                       "return": [Circular],
                       "selfBaseDuration": 0,
                       "sibling": FiberNode {
-                        "_debugID": 57,
+                        "_debugID": 58,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": null,
                         "_debugSource": null,
@@ -6638,271 +6764,7 @@ ReactWrapper {
                         "ref": null,
                         "return": [Circular],
                         "selfBaseDuration": 0,
-                        "sibling": FiberNode {
-                          "_debugID": 58,
-                          "_debugIsCurrentlyTiming": false,
-                          "_debugOwner": null,
-                          "_debugSource": null,
-                          "actualDuration": 0,
-                          "actualStartTime": -1,
-                          "alternate": null,
-                          "child": FiberNode {
-                            "_debugID": 59,
-                            "_debugIsCurrentlyTiming": false,
-                            "_debugOwner": null,
-                            "_debugSource": null,
-                            "actualDuration": 0,
-                            "actualStartTime": -1,
-                            "alternate": null,
-                            "child": null,
-                            "childExpirationTime": 0,
-                            "effectTag": 0,
-                            "expirationTime": 0,
-                            "firstContextDependency": null,
-                            "firstEffect": null,
-                            "index": 0,
-                            "key": null,
-                            "lastEffect": null,
-                            "memoizedProps": "0",
-                            "memoizedState": null,
-                            "mode": 0,
-                            "nextEffect": null,
-                            "pendingProps": "0",
-                            "ref": null,
-                            "return": [Circular],
-                            "selfBaseDuration": 0,
-                            "sibling": FiberNode {
-                              "_debugID": 60,
-                              "_debugIsCurrentlyTiming": false,
-                              "_debugOwner": null,
-                              "_debugSource": null,
-                              "actualDuration": 0,
-                              "actualStartTime": -1,
-                              "alternate": null,
-                              "child": null,
-                              "childExpirationTime": 0,
-                              "effectTag": 0,
-                              "expirationTime": 0,
-                              "firstContextDependency": null,
-                              "firstEffect": null,
-                              "index": 1,
-                              "key": null,
-                              "lastEffect": null,
-                              "memoizedProps": "",
-                              "memoizedState": null,
-                              "mode": 0,
-                              "nextEffect": null,
-                              "pendingProps": "",
-                              "ref": null,
-                              "return": [Circular],
-                              "selfBaseDuration": 0,
-                              "sibling": FiberNode {
-                                "_debugID": 61,
-                                "_debugIsCurrentlyTiming": false,
-                                "_debugOwner": null,
-                                "_debugSource": null,
-                                "actualDuration": 0,
-                                "actualStartTime": -1,
-                                "alternate": null,
-                                "child": null,
-                                "childExpirationTime": 0,
-                                "effectTag": 0,
-                                "expirationTime": 0,
-                                "firstContextDependency": null,
-                                "firstEffect": null,
-                                "index": 2,
-                                "key": null,
-                                "lastEffect": null,
-                                "memoizedProps": "",
-                                "memoizedState": null,
-                                "mode": 0,
-                                "nextEffect": null,
-                                "pendingProps": "",
-                                "ref": null,
-                                "return": [Circular],
-                                "selfBaseDuration": 0,
-                                "sibling": FiberNode {
-                                  "_debugID": 62,
-                                  "_debugIsCurrentlyTiming": false,
-                                  "_debugOwner": null,
-                                  "_debugSource": null,
-                                  "actualDuration": 0,
-                                  "actualStartTime": -1,
-                                  "alternate": null,
-                                  "child": null,
-                                  "childExpirationTime": 0,
-                                  "effectTag": 0,
-                                  "expirationTime": 0,
-                                  "firstContextDependency": null,
-                                  "firstEffect": null,
-                                  "index": 3,
-                                  "key": null,
-                                  "lastEffect": null,
-                                  "memoizedProps": "",
-                                  "memoizedState": null,
-                                  "mode": 0,
-                                  "nextEffect": null,
-                                  "pendingProps": "",
-                                  "ref": null,
-                                  "return": [Circular],
-                                  "selfBaseDuration": 0,
-                                  "sibling": FiberNode {
-                                    "_debugID": 63,
-                                    "_debugIsCurrentlyTiming": false,
-                                    "_debugOwner": null,
-                                    "_debugSource": null,
-                                    "actualDuration": 0,
-                                    "actualStartTime": -1,
-                                    "alternate": null,
-                                    "child": null,
-                                    "childExpirationTime": 0,
-                                    "effectTag": 0,
-                                    "expirationTime": 0,
-                                    "firstContextDependency": null,
-                                    "firstEffect": null,
-                                    "index": 4,
-                                    "key": null,
-                                    "lastEffect": null,
-                                    "memoizedProps": "",
-                                    "memoizedState": null,
-                                    "mode": 0,
-                                    "nextEffect": null,
-                                    "pendingProps": "",
-                                    "ref": null,
-                                    "return": [Circular],
-                                    "selfBaseDuration": 0,
-                                    "sibling": FiberNode {
-                                      "_debugID": 64,
-                                      "_debugIsCurrentlyTiming": false,
-                                      "_debugOwner": null,
-                                      "_debugSource": null,
-                                      "actualDuration": 0,
-                                      "actualStartTime": -1,
-                                      "alternate": null,
-                                      "child": null,
-                                      "childExpirationTime": 0,
-                                      "effectTag": 0,
-                                      "expirationTime": 0,
-                                      "firstContextDependency": null,
-                                      "firstEffect": null,
-                                      "index": 5,
-                                      "key": null,
-                                      "lastEffect": null,
-                                      "memoizedProps": "",
-                                      "memoizedState": null,
-                                      "mode": 0,
-                                      "nextEffect": null,
-                                      "pendingProps": "",
-                                      "ref": null,
-                                      "return": [Circular],
-                                      "selfBaseDuration": 0,
-                                      "sibling": FiberNode {
-                                        "_debugID": 65,
-                                        "_debugIsCurrentlyTiming": false,
-                                        "_debugOwner": null,
-                                        "_debugSource": null,
-                                        "actualDuration": 0,
-                                        "actualStartTime": -1,
-                                        "alternate": null,
-                                        "child": null,
-                                        "childExpirationTime": 0,
-                                        "effectTag": 0,
-                                        "expirationTime": 0,
-                                        "firstContextDependency": null,
-                                        "firstEffect": null,
-                                        "index": 6,
-                                        "key": null,
-                                        "lastEffect": null,
-                                        "memoizedProps": "",
-                                        "memoizedState": null,
-                                        "mode": 0,
-                                        "nextEffect": null,
-                                        "pendingProps": "",
-                                        "ref": null,
-                                        "return": [Circular],
-                                        "selfBaseDuration": 0,
-                                        "sibling": null,
-                                        "stateNode": ,
-                                        "tag": 8,
-                                        "treeBaseDuration": 0,
-                                        "type": null,
-                                        "updateQueue": null,
-                                      },
-                                      "stateNode": ,
-                                      "tag": 8,
-                                      "treeBaseDuration": 0,
-                                      "type": null,
-                                      "updateQueue": null,
-                                    },
-                                    "stateNode": ,
-                                    "tag": 8,
-                                    "treeBaseDuration": 0,
-                                    "type": null,
-                                    "updateQueue": null,
-                                  },
-                                  "stateNode": ,
-                                  "tag": 8,
-                                  "treeBaseDuration": 0,
-                                  "type": null,
-                                  "updateQueue": null,
-                                },
-                                "stateNode": ,
-                                "tag": 8,
-                                "treeBaseDuration": 0,
-                                "type": null,
-                                "updateQueue": null,
-                              },
-                              "stateNode": ,
-                              "tag": 8,
-                              "treeBaseDuration": 0,
-                              "type": null,
-                              "updateQueue": null,
-                            },
-                            "stateNode": 0,
-                            "tag": 8,
-                            "treeBaseDuration": 0,
-                            "type": null,
-                            "updateQueue": null,
-                          },
-                          "childExpirationTime": 0,
-                          "effectTag": 0,
-                          "expirationTime": 0,
-                          "firstContextDependency": null,
-                          "firstEffect": null,
-                          "index": 4,
-                          "key": null,
-                          "lastEffect": null,
-                          "memoizedProps": Array [
-                            0,
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                          ],
-                          "memoizedState": null,
-                          "mode": 0,
-                          "nextEffect": null,
-                          "pendingProps": Array [
-                            0,
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                            "",
-                          ],
-                          "ref": null,
-                          "return": [Circular],
-                          "selfBaseDuration": 0,
-                          "sibling": null,
-                          "stateNode": null,
-                          "tag": 9,
-                          "treeBaseDuration": 0,
-                          "type": null,
-                          "updateQueue": null,
-                        },
+                        "sibling": null,
                         "stateNode": ,
                         "tag": 8,
                         "treeBaseDuration": 0,
@@ -6941,15 +6803,6 @@ ReactWrapper {
                     "",
                     "",
                     "",
-                    <UNDEFINED>
-                      0
-                      
-                      
-                      
-                      
-                      
-                      
-                    </UNDEFINED>,
                   ],
                   "className": "card-body text-left",
                 },
@@ -6962,7 +6815,248 @@ ReactWrapper {
                     "",
                     "",
                     "",
-                    <UNDEFINED>
+                  ],
+                  "className": "card-body text-left",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": FiberNode {
+                  "_debugID": 54,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": FiberNode {
+                    "_debugID": 59,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 0,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "0",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "0",
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 60,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "",
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": FiberNode {
+                        "_debugID": 61,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": null,
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 2,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": "",
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": "",
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": FiberNode {
+                          "_debugID": 62,
+                          "_debugIsCurrentlyTiming": false,
+                          "_debugOwner": null,
+                          "_debugSource": null,
+                          "actualDuration": 0,
+                          "actualStartTime": -1,
+                          "alternate": null,
+                          "child": null,
+                          "childExpirationTime": 0,
+                          "effectTag": 0,
+                          "expirationTime": 0,
+                          "firstContextDependency": null,
+                          "firstEffect": null,
+                          "index": 3,
+                          "key": null,
+                          "lastEffect": null,
+                          "memoizedProps": "",
+                          "memoizedState": null,
+                          "mode": 0,
+                          "nextEffect": null,
+                          "pendingProps": "",
+                          "ref": null,
+                          "return": [Circular],
+                          "selfBaseDuration": 0,
+                          "sibling": FiberNode {
+                            "_debugID": 63,
+                            "_debugIsCurrentlyTiming": false,
+                            "_debugOwner": null,
+                            "_debugSource": null,
+                            "actualDuration": 0,
+                            "actualStartTime": -1,
+                            "alternate": null,
+                            "child": null,
+                            "childExpirationTime": 0,
+                            "effectTag": 0,
+                            "expirationTime": 0,
+                            "firstContextDependency": null,
+                            "firstEffect": null,
+                            "index": 4,
+                            "key": null,
+                            "lastEffect": null,
+                            "memoizedProps": "",
+                            "memoizedState": null,
+                            "mode": 0,
+                            "nextEffect": null,
+                            "pendingProps": "",
+                            "ref": null,
+                            "return": [Circular],
+                            "selfBaseDuration": 0,
+                            "sibling": FiberNode {
+                              "_debugID": 64,
+                              "_debugIsCurrentlyTiming": false,
+                              "_debugOwner": null,
+                              "_debugSource": null,
+                              "actualDuration": 0,
+                              "actualStartTime": -1,
+                              "alternate": null,
+                              "child": null,
+                              "childExpirationTime": 0,
+                              "effectTag": 0,
+                              "expirationTime": 0,
+                              "firstContextDependency": null,
+                              "firstEffect": null,
+                              "index": 5,
+                              "key": null,
+                              "lastEffect": null,
+                              "memoizedProps": "",
+                              "memoizedState": null,
+                              "mode": 0,
+                              "nextEffect": null,
+                              "pendingProps": "",
+                              "ref": null,
+                              "return": [Circular],
+                              "selfBaseDuration": 0,
+                              "sibling": FiberNode {
+                                "_debugID": 65,
+                                "_debugIsCurrentlyTiming": false,
+                                "_debugOwner": null,
+                                "_debugSource": null,
+                                "actualDuration": 0,
+                                "actualStartTime": -1,
+                                "alternate": null,
+                                "child": null,
+                                "childExpirationTime": 0,
+                                "effectTag": 0,
+                                "expirationTime": 0,
+                                "firstContextDependency": null,
+                                "firstEffect": null,
+                                "index": 6,
+                                "key": null,
+                                "lastEffect": null,
+                                "memoizedProps": "",
+                                "memoizedState": null,
+                                "mode": 0,
+                                "nextEffect": null,
+                                "pendingProps": "",
+                                "ref": null,
+                                "return": [Circular],
+                                "selfBaseDuration": 0,
+                                "sibling": null,
+                                "stateNode": ,
+                                "tag": 8,
+                                "treeBaseDuration": 0,
+                                "type": null,
+                                "updateQueue": null,
+                              },
+                              "stateNode": ,
+                              "tag": 8,
+                              "treeBaseDuration": 0,
+                              "type": null,
+                              "updateQueue": null,
+                            },
+                            "stateNode": ,
+                            "tag": 8,
+                            "treeBaseDuration": 0,
+                            "type": null,
+                            "updateQueue": null,
+                          },
+                          "stateNode": ,
+                          "tag": 8,
+                          "treeBaseDuration": 0,
+                          "type": null,
+                          "updateQueue": null,
+                        },
+                        "stateNode": ,
+                        "tag": 8,
+                        "treeBaseDuration": 0,
+                        "type": null,
+                        "updateQueue": null,
+                      },
+                      "stateNode": ,
+                      "tag": 8,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "stateNode": 0,
+                    "tag": 8,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "children": <UNDEFINED>
                       0
                       
                       
@@ -6971,23 +7065,46 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                  ],
-                  "className": "card-body text-left",
+                    "className": "card-footer bg-transparent border-0",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "children": <UNDEFINED>
+                      0
+                      
+                      
+                      
+                      
+                      
+                      
+                    </UNDEFINED>,
+                    "className": "card-footer bg-transparent border-0",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <div
+                    class="card-footer bg-transparent border-0"
+                  >
+                    0
+                    
+                    
+                    
+                    
+                    
+                    
+                  </div>,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "div",
+                  "updateQueue": null,
                 },
-                "ref": null,
-                "return": [Circular],
-                "selfBaseDuration": 0,
-                "sibling": null,
                 "stateNode": <div
                   class="card-body text-left"
                 >
-                  
-                  
-                  
-                  
-                  0
-                  
-                  
                   
                   
                   
@@ -7007,46 +7124,58 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": <div
-                  className="card-body text-left"
-                >
-                  
-                  
-                  
-                  
-                  <UNDEFINED>
-                    0
+                "children": Array [
+                  <div
+                    className="card-body text-left"
+                  >
                     
                     
                     
                     
-                    
-                    
-                  </UNDEFINED>
-                </div>,
+                  </div>,
+                  <div
+                    className="card-footer bg-transparent border-0"
+                  >
+                    <UNDEFINED>
+                      0
+                      
+                      
+                      
+                      
+                      
+                      
+                    </UNDEFINED>
+                  </div>,
+                ],
                 "className": "card h-100 Card ",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": <div
-                  className="card-body text-left"
-                >
-                  
-                  
-                  
-                  
-                  <UNDEFINED>
-                    0
+                "children": Array [
+                  <div
+                    className="card-body text-left"
+                  >
                     
                     
                     
                     
-                    
-                    
-                  </UNDEFINED>
-                </div>,
+                  </div>,
+                  <div
+                    className="card-footer bg-transparent border-0"
+                  >
+                    <UNDEFINED>
+                      0
+                      
+                      
+                      
+                      
+                      
+                      
+                    </UNDEFINED>
+                  </div>,
+                ],
                 "className": "card h-100 Card ",
               },
               "ref": null,
@@ -7063,6 +7192,10 @@ ReactWrapper {
                   
                   
                   
+                </div>
+                <div
+                  class="card-footer bg-transparent border-0"
+                >
                   0
                   
                   
@@ -7249,6 +7382,10 @@ ReactWrapper {
                             
                             
                             
+                          </div>
+                          <div
+                            class="card-footer bg-transparent border-0"
+                          >
                             0
                             
                             
@@ -7403,6 +7540,10 @@ ReactWrapper {
                           
                           
                           
+                        </div>
+                        <div
+                          class="card-footer bg-transparent border-0"
+                        >
                           0
                           
                           
@@ -7690,6 +7831,10 @@ ReactWrapper {
                             
                             
                             
+                          </div>
+                          <div
+                            class="card-footer bg-transparent border-0"
+                          >
                             0
                             
                             
@@ -7844,6 +7989,10 @@ ReactWrapper {
                           
                           
                           
+                        </div>
+                        <div
+                          class="card-footer bg-transparent border-0"
+                        >
                           0
                           
                           
@@ -8072,6 +8221,10 @@ ReactWrapper {
               
               
               
+            </div>
+            <div
+              class="card-footer bg-transparent border-0"
+            >
               0
               
               
@@ -8084,23 +8237,29 @@ ReactWrapper {
           "key": undefined,
           "nodeType": "host",
           "props": Object {
-            "children": <div
-              className="card-body text-left"
-            >
-              
-              
-              
-              
-              <UNDEFINED>
-                0
+            "children": Array [
+              <div
+                className="card-body text-left"
+              >
                 
                 
                 
                 
-                
-                
-              </UNDEFINED>
-            </div>,
+              </div>,
+              <div
+                className="card-footer bg-transparent border-0"
+              >
+                <UNDEFINED>
+                  0
+                  
+                  
+                  
+                  
+                  
+                  
+                </UNDEFINED>
+              </div>,
+            ],
             "className": "card h-100 Card ",
           },
           "ref": null,
@@ -8109,13 +8268,6 @@ ReactWrapper {
               "instance": <div
                 class="card-body text-left"
               >
-                
-                
-                
-                
-                0
-                
-                
                 
                 
                 
@@ -8129,15 +8281,6 @@ ReactWrapper {
                   "",
                   "",
                   "",
-                  <UNDEFINED>
-                    0
-                    
-                    
-                    
-                    
-                    
-                    
-                  </UNDEFINED>,
                 ],
                 "className": "card-body text-left",
               },
@@ -8147,6 +8290,37 @@ ReactWrapper {
                 "",
                 "",
                 "",
+              ],
+              "type": "div",
+            },
+            Object {
+              "instance": <div
+                class="card-footer bg-transparent border-0"
+              >
+                0
+                
+                
+                
+                
+                
+                
+              </div>,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <UNDEFINED>
+                  0
+                  
+                  
+                  
+                  
+                  
+                  
+                </UNDEFINED>,
+                "className": "card-footer bg-transparent border-0",
+              },
+              "ref": null,
+              "rendered": Array [
                 "0",
                 "",
                 "",

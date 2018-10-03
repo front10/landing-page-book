@@ -24,40 +24,60 @@ import "@front10/landing-page-book/dist/components/Team/style.css";
 ```html
 <Team members={members} />
 ```
+[![Edit Team demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/wol17r4lo5)
 
 ## Example
 ```js
-const members = [{
-	image: "https://randomuser.me/api/portraits/men/11.jpg",
-	name: "Sander Coleman",
-	job: "CEO",
-	summary: "Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.",
-	profile: [
-			{
-				social: 'facebook',
-				url: 'https://www.facebok.com/front10'
-			},
-			{
-				social: 'twitter',
-				url: 'https://twitter.com/landing-page-book'
-			}
-    ]
-}, {
-	image: "https://randomuser.me/api/portraits/women/2.jpg",
-	name: "Rachel Lee",
-	job: "Developer",
-	summary: "Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.",
-	profile: [
-			{
-				social: 'facebook',
-				url: 'https://www.facebook.com/front10'
-			},
-			{
-				social: 'linkedin',
-				url: 'https://www.linkedin.com/landing-page-book'
-			}
-    ]
-}];
+const members = [
+    {
+      image: '/images/team/ninja.svg',
+      job: 'Ninja',
+      name: 'Leonardo',
+      profile: [
+        {
+          social: 'facebook',
+          url: 'https://www.facebook.com/JavaScriptTeam/'
+        },
+        {
+          social: 'twitter',
+          url: 'https://twitter.com/front10hello?lang=es'
+        }
+      ],
+      summary: 'Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media.'
+    },
+    {
+      image: '/images/team/bohemian.svg',
+      job: 'Painter',
+      name: 'Van Gogh',
+      profile: [
+        {
+          social: 'facebook',
+          url: 'https://www.facebook.com/JavaScriptTeam/'
+        },
+        {
+          social: 'email',
+          url: 'https://front10.com'
+        }
+      ],
+      summary: 'He was a Dutch painter, one of the main exponents of post-impressionism, he painted some 900 paintings and made more than 1,600 drawings.'
+    },
+    {
+      image: '/images/team/astronaut.svg',
+      job: 'Astronaut',
+      name: 'Neil',
+      profile: [
+        {
+          social: 'facebook',
+          url: 'https://www.facebook.com/JavaScriptTeam/'
+        },
+        {
+          social: 'twitter',
+          url: 'https://twitter.com/front10hello?lang=es'
+        }
+      ],
+      summary: 'American astronaut and aeronautical engineer who was the first person to walk on the Moon. He was also a naval aviator, test pilot, and university professor.'
+    }
+  ];
 ```
 
 ## Properties:

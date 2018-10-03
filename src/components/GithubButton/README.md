@@ -38,6 +38,8 @@ import '@front10/landing-page-book/dist/components/GithubButton/style.css';
 />
 ```
 
+[![Edit Github Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/71p7yq4kqq)
+
 ## Properties
 
 | </br>Name      | </br>Type | </br>Summary                                                            |

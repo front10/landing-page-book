@@ -26,8 +26,25 @@ import '@front10/landing-page-book/dist/components/Hero/style.css';
 3- Put this code into jsx page:
 
 ```html
-<Hero />
+<Hero
+  buttons={[
+    {
+      onClick: function noRefCheck() {},
+      text: 'TELL ME MORE'
+    }
+  ]}
+  header="REACT COMPONENTS"
+  opacity={1}
+  overlayColor="#373D45"
+  particlesParams={{
+    move: {
+      speed: 2
+    }
+  }}
+  subHeader="Leverage your process!"
+/>
 ```
+[![Edit Hero demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/yw19mmpl99)
 
 You can use Hero component with children too:
 
@@ -36,7 +53,7 @@ You can use Hero component with children too:
     <Container>
         <Image className="w-75"
              src="http://www.pngpix.com/wp-content/uploads/2016/06/PNGPIX-COM-Aston-Martin-White-Car-PNG-Image.png"/>
-        <h1 className="display-3 text-white">GET YOUR CAR</h1>
+        <h1 className="display-3">GET YOUR CAR</h1>
         <div>
             <Button className="btn-success btn-lg">
                 Go now
@@ -50,6 +67,7 @@ You can use Hero component with children too:
     </Container>
 </Hero>
 ```
+[![Edit Hero with childrens demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/yqqorl4qr1)
 
 Note: if you use Hero component with children, properties `buttons`, `header`, `subHeader` and `subHeaderPosition` will not work
 

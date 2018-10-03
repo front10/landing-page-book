@@ -27,6 +27,8 @@ import "@front10/landing-page-book/dist/components/ImageList/style.css";
 <ImageList images={images}/>
 ```
 
+[![Edit ImageList demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/mmk3jnjwkj)
+
 ## Example
 
 ```js

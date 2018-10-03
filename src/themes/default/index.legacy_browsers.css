@@ -669,8 +669,6 @@ ol.progtrckr li.progtrckr-done:hover:before {
   .Card .Card__Subtitle {
     font-size: 0.9rem;
     color: #b5b5b5; }
-  .Card .card-footer {
-    padding: 0 1.25rem; }
 
 :root {
   --CodeMirror__lines_backgroundColor: #fff;
@@ -809,8 +807,6 @@ ol.progtrckr li.progtrckr-done:hover:before {
   .Card .Card__Subtitle {
     font-size: 0.9rem;
     color: #b5b5b5; }
-  .Card .card-footer {
-    padding: 0 1.25rem; }
 
 .ContactInfo__Location {
   height: 300px; }
@@ -1211,8 +1207,6 @@ a[disabled] {
   .Card .Card__Subtitle {
     font-size: 0.9rem;
     color: #b5b5b5; }
-  .Card .card-footer {
-    padding: 0 1.25rem; }
 
 .SocialMediaShareButton {
   display: inline-block;
@@ -1250,8 +1244,6 @@ a[disabled] {
   .Card .Card__Subtitle {
     font-size: 0.9rem;
     color: #b5b5b5; }
-  .Card .card-footer {
-    padding: 0 1.25rem; }
 
 .ImageList {
   display: inline-flex;
@@ -1300,8 +1292,6 @@ a[disabled] {
   .Card .Card__Subtitle {
     font-size: 0.9rem;
     color: #b5b5b5; }
-  .Card .card-footer {
-    padding: 0 1.25rem; }
 
 .Wizard .multi-step .footer-buttons {
   padding-top: 20px; }

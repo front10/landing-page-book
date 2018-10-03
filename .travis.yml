@@ -10,14 +10,21 @@ branches:
   - master
 notifications:
   email: true
-before_script:
-- npm prune
-script:
-- npm run eslint
-- npm run test -- -u
-- npm run test:badge
+jobs:
+  include:
+    - script: npm run eslint
+    - script: npm run test -- -u
+    - script: npm run test:badge
+    - script: npm run build-storybook
+    - stage: GitHub Release
+      script: npm run deploy
+      deploy:
+        provider: releases
+        api_key: $GH_TOKEN
+        skip_cleanup: true
+        on:
+          tags: true
 after_success:
-- bash ./scripts/travis-deploy.sh
 - npm run test-browser
 env:
   global:

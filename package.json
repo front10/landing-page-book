@@ -15,7 +15,8 @@
         "prepush": "npm run eslint",
         "transpile": "babel src -d dist --copy-files",
         "prepublishOnly": "npm run transpile",
-        "test-browser": "node ./selenium/browser-test.js"
+        "test-browser": "node ./selenium/browser-test.js",
+        "deploy": "gh-pages -d public -b master -r git@github.com:front10/landing-page-book.git"
     },
     "repository": {
         "type": "git",

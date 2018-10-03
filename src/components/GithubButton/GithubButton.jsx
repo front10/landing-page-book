@@ -10,6 +10,8 @@ class GithubButton extends React.Component {
       counter: null
     };
     this.onChange = this.onChange.bind(this);
+    this.getRepositoryStats = this.getRepositoryStats.bind(this);
+    this.getUserFallowers = this.getUserFallowers.bind(this);
   }
 
   componentWillMount() {
@@ -20,45 +22,10 @@ class GithubButton extends React.Component {
       showGithubIcon
     });
     if (btnType === 'fork' || btnType === 'star' || btnType === 'watch' || btnType === 'issue') {
-      GithubService.getRepositoriesStats(username, repository)
-        .then(res => {
-          if (btnType === 'fork')
-            this.setState({
-              counter: res.forks_count,
-              iconClass: 'fa fa-code-fork',
-              linkUrl: `https://github.com/${username}/${repository}/fork`
-            });
-          if (btnType === 'star')
-            this.setState({
-              counter: res.stargazers_count,
-              iconClass: 'fa fa-star',
-              linkUrl: `https://github.com/${username}/${repository}`
-            });
-          if (btnType === 'watch')
-            this.setState({
-              counter: res.watchers_count,
-              iconClass: 'fa fa-eye',
-              linkUrl: `https://github.com/${username}/${repository}/subscription`
-            });
-          if (btnType === 'issue')
-            this.setState({
-              counter: res.open_issues_count,
-              iconClass: 'fa fa-exclamation-circle',
-              linkUrl: `https://github.com/${username}/${repository}/issues`
-            });
-        })
-        .catch(err => err);
+      this.getRepositoryStats(username, repository, btnType);
     }
     if (btnType === 'follow') {
-      GithubService.getUserFallowers(username)
-        .then(res => {
-          this.setState({
-            counter: res.length,
-            iconClass: 'fa fa-github',
-            linkUrl: `https://github.com/${username}`
-          });
-        })
-        .catch(err => err);
+      this.getUserFallowers(username);
     }
 
     if (btnType === 'download') {
@@ -146,6 +113,49 @@ class GithubButton extends React.Component {
         });
       }
     }
+  }
+
+  getRepositoryStats(username, repository, btnType) {
+    GithubService.getRepositoriesStats(username, repository)
+      .then(res => {
+        if (btnType === 'fork')
+          this.setState({
+            counter: res.forks_count,
+            iconClass: 'fa fa-code-fork',
+            linkUrl: `https://github.com/${username}/${repository}/fork`
+          });
+        if (btnType === 'star')
+          this.setState({
+            counter: res.stargazers_count,
+            iconClass: 'fa fa-star',
+            linkUrl: `https://github.com/${username}/${repository}`
+          });
+        if (btnType === 'watch')
+          this.setState({
+            counter: res.watchers_count,
+            iconClass: 'fa fa-eye',
+            linkUrl: `https://github.com/${username}/${repository}/subscription`
+          });
+        if (btnType === 'issue')
+          this.setState({
+            counter: res.open_issues_count,
+            iconClass: 'fa fa-exclamation-circle',
+            linkUrl: `https://github.com/${username}/${repository}/issues`
+          });
+      })
+      .catch(err => err);
+  }
+
+  getUserFallowers(username) {
+    GithubService.getUserFallowers(username)
+      .then(res => {
+        this.setState({
+          counter: res.length,
+          iconClass: 'fa fa-github',
+          linkUrl: `https://github.com/${username}`
+        });
+      })
+      .catch(err => err);
   }
 
   render() {

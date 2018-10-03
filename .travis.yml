@@ -14,7 +14,7 @@ jobs:
   include:
     - stage: Installing dependencies
       script: npm install
-    - stage: Runing Test
+    - stage: Runing Eslint
     - script: npm run eslint   
     - stage: Building Code
       script: npm run build-storybook

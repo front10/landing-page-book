@@ -15,9 +15,7 @@ jobs:
     - stage: Installing dependencies
       script: npm install
     - stage: Runing Test
-    - script: npm run eslint
-    - script: npm run test
-    - script: npm run test:badge
+    - script: npm run eslint   
     - stage: Building Code
       script: npm run build-storybook
     - stage: GitHub Release

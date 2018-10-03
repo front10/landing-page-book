@@ -59,8 +59,9 @@
         "cors": "^2.8.4",
         "coveralls": "^3.0.2",
         "css-loader": "^0.28.11",
-        "enzyme": "^3.3.0",
-        "enzyme-adapter-react-16": "^1.1.1",
+        "enzyme": "^3.6.0",
+        "enzyme-adapter-react-16": "^1.5.0",
+        "enzyme-to-json": "^3.3.4",
         "eslint": "^4.19.1",
         "eslint-config-airbnb": "^17.0.0",
         "eslint-config-prettier": "^2.9.0",
@@ -122,5 +123,9 @@
         "sass-loader": "^6.0.6",
         "storybook-addon-jsx": "^5.4.0",
         "wix-storybook-utils": "^2.0.17"
+    },
+    "jest": {
+        "snapshotSerializers": ["enzyme-to-json/serializer"],
+        "setupFiles": ["./src/setupTests.js"]
     }
 }

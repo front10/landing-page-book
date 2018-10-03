@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, mount, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import GithubButton from './GithubButton';
 
@@ -22,8 +22,8 @@ describe('GithubButton', () => {
         showCounter: true,
         showBtnText: true,
         showGithubIcon: false,
-        username: 'chubin',
-        repository: 'cheat.sh',
+        username: 'front10',
+        repository: 'landing-page-book',
         btntype: 'fork',
         btnText: 'Fork'
       };
@@ -37,6 +37,17 @@ describe('GithubButton', () => {
       const span = githubButton().find('span');
 
       expect(span.length).toBeGreaterThan(0);
+    });
+
+    it('Get repository stats', async () => {
+      const g = await mount(<GithubButton {...props} />);
+      await g.instance().getRepositoryStats({
+        username: 'front10',
+        repository: 'landing-page-book',
+        btntype: 'fork'
+      });
+
+      expect(g.state).toBeDefined();
     });
   });
 });

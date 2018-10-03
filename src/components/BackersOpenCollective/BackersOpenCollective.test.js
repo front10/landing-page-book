@@ -36,5 +36,33 @@ describe('Backers', () => {
 
       expect(divs.length).toBeGreaterThan(0);
     });
+
+    it('Shuld GET all bakers', async () => {
+      await backersOpenCollective()
+        .instance()
+        .getMembers();
+
+      await expect(backersOpenCollective().state('backers')).toContain([
+        {
+          MemberId: 8447,
+          createdAt: '1970-01-01 00:00',
+          type: 'USER',
+          role: 'ADMIN',
+          isActive: true,
+          totalAmountDonated: 0,
+          lastTransactionAt: '2018-09-28 16:52',
+          lastTransactionAmount: 0,
+          profile: 'https://opencollective.com/chrome-544',
+          name: 'Chrome',
+          company: '@chrome',
+          description: null,
+          image: null,
+          email: null,
+          twitter: null,
+          github: null,
+          website: null
+        }
+      ]);
+    });
   });
 });

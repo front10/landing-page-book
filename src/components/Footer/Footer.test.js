@@ -16,7 +16,81 @@ describe('Footer', () => {
   };
   describe('footer', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        sections: [
+          {
+            name: 'Features',
+            sections: [
+              {
+                name: 'Cool stuff',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Random feature',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Team feature',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Stuff for developers',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Another one',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Last time',
+                url: 'https://front10.com'
+              }
+            ]
+          },
+          {
+            name: 'Resources',
+            sections: [
+              {
+                name: 'Resource',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Resource name',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Another resource',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Final resource',
+                url: 'https://front10.com'
+              }
+            ]
+          },
+          {
+            name: 'About',
+            sections: [
+              {
+                name: 'Team',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Locations',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Privacy',
+                url: 'https://front10.com'
+              },
+              {
+                name: 'Terms',
+                url: 'https://front10.com'
+              }
+            ]
+          }
+        ]
+      };
       mounted = undefined;
     });
 
@@ -28,6 +102,12 @@ describe('Footer', () => {
       const divs = footer().find('footer');
 
       expect(divs.length).toBeGreaterThan(0);
+    });
+
+    it('should render sections', async () => {
+      const ul = footer().find('ul');
+
+      expect(ul.length).toBeGreaterThan(0);
     });
   });
 });

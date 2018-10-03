@@ -1293,6 +1293,8 @@ ReactWrapper {
       },
       "_reactInternalInstance": Object {},
       "context": Object {},
+      "getRepositoryStats": [Function],
+      "getUserFallowers": [Function],
       "onChange": [Function],
       "props": Object {
         "btnText": "Forks",
@@ -2650,6 +2652,8 @@ ReactWrapper {
                       "_reactInternalFiber": [Circular],
                       "_reactInternalInstance": Object {},
                       "context": Object {},
+                      "getRepositoryStats": [Function],
+                      "getUserFallowers": [Function],
                       "onChange": [Function],
                       "props": Object {
                         "btnText": "Forks",
@@ -3869,6 +3873,8 @@ ReactWrapper {
                         "_reactInternalFiber": [Circular],
                         "_reactInternalInstance": Object {},
                         "context": Object {},
+                        "getRepositoryStats": [Function],
+                        "getUserFallowers": [Function],
                         "onChange": [Function],
                         "props": Object {
                           "btnText": "Forks",
@@ -4749,6 +4755,8 @@ ReactWrapper {
                           "_reactInternalFiber": [Circular],
                           "_reactInternalInstance": Object {},
                           "context": Object {},
+                          "getRepositoryStats": [Function],
+                          "getUserFallowers": [Function],
                           "onChange": [Function],
                           "props": Object {
                             "btnText": "Forks",
@@ -5600,6 +5608,8 @@ ReactWrapper {
                             "_reactInternalFiber": [Circular],
                             "_reactInternalInstance": Object {},
                             "context": Object {},
+                            "getRepositoryStats": [Function],
+                            "getUserFallowers": [Function],
                             "onChange": [Function],
                             "props": Object {
                               "btnText": "Forks",
@@ -6451,6 +6461,8 @@ ReactWrapper {
                               "_reactInternalFiber": [Circular],
                               "_reactInternalInstance": Object {},
                               "context": Object {},
+                              "getRepositoryStats": [Function],
+                              "getUserFallowers": [Function],
                               "onChange": [Function],
                               "props": Object {
                                 "btnText": "Forks",
@@ -7350,6 +7362,8 @@ ReactWrapper {
                                   "_reactInternalFiber": [Circular],
                                   "_reactInternalInstance": Object {},
                                   "context": Object {},
+                                  "getRepositoryStats": [Function],
+                                  "getUserFallowers": [Function],
                                   "onChange": [Function],
                                   "props": Object {
                                     "btnText": "Forks",
@@ -8391,6 +8405,8 @@ ReactWrapper {
                           "_reactInternalFiber": [Circular],
                           "_reactInternalInstance": Object {},
                           "context": Object {},
+                          "getRepositoryStats": [Function],
+                          "getUserFallowers": [Function],
                           "onChange": [Function],
                           "props": Object {
                             "btnText": "Forks",
@@ -9814,6 +9830,8 @@ ReactWrapper {
         },
         "_reactInternalInstance": Object {},
         "context": Object {},
+        "getRepositoryStats": [Function],
+        "getUserFallowers": [Function],
         "onChange": [Function],
         "props": Object {
           "btnText": "Forks",
@@ -11171,6 +11189,8 @@ ReactWrapper {
                         "_reactInternalFiber": [Circular],
                         "_reactInternalInstance": Object {},
                         "context": Object {},
+                        "getRepositoryStats": [Function],
+                        "getUserFallowers": [Function],
                         "onChange": [Function],
                         "props": Object {
                           "btnText": "Forks",
@@ -12390,6 +12410,8 @@ ReactWrapper {
                           "_reactInternalFiber": [Circular],
                           "_reactInternalInstance": Object {},
                           "context": Object {},
+                          "getRepositoryStats": [Function],
+                          "getUserFallowers": [Function],
                           "onChange": [Function],
                           "props": Object {
                             "btnText": "Forks",
@@ -13270,6 +13292,8 @@ ReactWrapper {
                             "_reactInternalFiber": [Circular],
                             "_reactInternalInstance": Object {},
                             "context": Object {},
+                            "getRepositoryStats": [Function],
+                            "getUserFallowers": [Function],
                             "onChange": [Function],
                             "props": Object {
                               "btnText": "Forks",
@@ -14121,6 +14145,8 @@ ReactWrapper {
                               "_reactInternalFiber": [Circular],
                               "_reactInternalInstance": Object {},
                               "context": Object {},
+                              "getRepositoryStats": [Function],
+                              "getUserFallowers": [Function],
                               "onChange": [Function],
                               "props": Object {
                                 "btnText": "Forks",
@@ -14972,6 +14998,8 @@ ReactWrapper {
                                 "_reactInternalFiber": [Circular],
                                 "_reactInternalInstance": Object {},
                                 "context": Object {},
+                                "getRepositoryStats": [Function],
+                                "getUserFallowers": [Function],
                                 "onChange": [Function],
                                 "props": Object {
                                   "btnText": "Forks",
@@ -15871,6 +15899,8 @@ ReactWrapper {
                                     "_reactInternalFiber": [Circular],
                                     "_reactInternalInstance": Object {},
                                     "context": Object {},
+                                    "getRepositoryStats": [Function],
+                                    "getUserFallowers": [Function],
                                     "onChange": [Function],
                                     "props": Object {
                                       "btnText": "Forks",
@@ -16912,6 +16942,8 @@ ReactWrapper {
                             "_reactInternalFiber": [Circular],
                             "_reactInternalInstance": Object {},
                             "context": Object {},
+                            "getRepositoryStats": [Function],
+                            "getUserFallowers": [Function],
                             "onChange": [Function],
                             "props": Object {
                               "btnText": "Forks",

@@ -46,7 +46,8 @@ describe('Footer', () => {
                 url: 'https://front10.com'
               }
             ]
-          }]
+          }
+        ]
       };
       mounted = undefined;
     });
@@ -59,6 +60,12 @@ describe('Footer', () => {
       const divs = footer().find('footer');
 
       expect(divs.length).toBeGreaterThan(0);
+    });
+
+    it('should render sections', async () => {
+      const ul = footer().find('ul');
+
+      expect(ul.length).toBeGreaterThan(0);
     });
   });
 });

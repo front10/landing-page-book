@@ -1,7 +1,6 @@
 .idea
 .storybook
 assets
-coverage
 jest
 node_modules
 scripts

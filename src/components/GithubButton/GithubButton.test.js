@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, mount, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import GithubButton from './GithubButton';
 
@@ -19,10 +19,10 @@ describe('GithubButton', () => {
   describe('GithubButton', () => {
     beforeEach(() => {
       props = {
-        btnType: "fork",
-        btnText: "Forks",
-        username: "front10",
-        repository: "landing-page-book"
+        btnType: 'fork',
+        btnText: 'Forks',
+        username: 'front10',
+        repository: 'landing-page-book'
       };
     });
 
@@ -38,13 +38,21 @@ describe('GithubButton', () => {
 
     it('onchange', async () => {
       const prevProps = {
-        btnType: "star",
-        btnText: "Stars",
-        username: "front10",
-        repository: "landing-page-book"
+        btnType: 'star',
+        btnText: 'Stars',
+        username: 'front10',
+        repository: 'landing-page-book'
       };
-      await githubButton().instance().onChange(prevProps);
-      expect(githubButton().state()).toEqual({"counter": null, "showBtnText": true, "showCounter": true, "showGithubIcon": false});
+      await githubButton()
+        .instance()
+        .onChange(prevProps);
+
+      expect(githubButton().state()).toEqual({
+        counter: null,
+        showBtnText: true,
+        showCounter: true,
+        showGithubIcon: false
+      });
     });
   });
 });

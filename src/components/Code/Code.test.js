@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, shallow } from 'enzyme';
+import { configure, shallow, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Code from './Code';
 
@@ -16,7 +16,19 @@ describe('Code', () => {
   };
   describe('Code', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        code:
+          'const component = {\n\tname: "react-code",\n\tauthor: "front10-devs",\n\trepo: "ht' +
+          'tps://gitlab.com/front10-devs/landing-page-book"\n};',
+        bgColorDark: false,
+        languageCode: 'javascript',
+        theme: 'idea',
+        readOnly: false,
+        lineNumbers: true,
+        showheader: true,
+        showfooter: true,
+        updateCode: () => {}
+      };
       mounted = undefined;
     });
 
@@ -31,8 +43,11 @@ describe('Code', () => {
     });
 
     it('copy to clipboard', () => {
-      code().instance().copyToClipboard();
-      expect(code().state("scopied")).toEqual(true);
+      code()
+        .instance()
+        .copyToClipboard();
+
+      expect(code().state('scopied')).toEqual(true);
     });
   });
 });

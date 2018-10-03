@@ -12,10 +12,13 @@ notifications:
   email: true
 jobs:
   include:
+    - stage: Installing dependencies
+      script: npm install
     - script: npm run eslint
-    - script: npm run test -- -u
+    - script: npm run test
     - script: npm run test:badge
-    - script: npm run build-storybook
+    - stage: Building Code
+      script: npm run build-storybook
     - stage: GitHub Release
       script: npm run deploy
       deploy:

@@ -67,7 +67,7 @@ class App extends Component {
 | -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | [`GoogleAnalytics`](https://github.com/front10/landing-page-book/tree/master/src/components/Analytics/Analytics.jsx) | [`GoogleMap`](https://github.com/front10/landing-page-book/tree/master/src/components/Location/Location.jsx) | [`Github`](https://github.com/front10/landing-page-book/tree/master/src/components/GithubButton) | [`OpenCollective`](https://github.com/front10/landing-page-book/tree/master/src/components/BackersOpenCollective/BackersOpenCollective.jsx) |
 
-### Custom styles
+## Custom styles
 
 Read our [theming documentation](https://github.com/front10/landing-page-book/blob/master/theming.md).
 

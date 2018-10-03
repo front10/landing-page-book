@@ -32,6 +32,9 @@ import "@front10/landing-page-book/dist/components/Location/style.css";
 <Location key="my_google_key"/>
 ```
 
+[![Edit Location demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/48wl966zxw)
+
+
 ## Example
 ```js
 const markers = [{

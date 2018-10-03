@@ -46,54 +46,8 @@ describe('Footer', () => {
                 url: 'https://front10.com'
               }
             ]
-<<<<<<< HEAD
-          },
-          {
-            name: 'Resources',
-            sections: [
-              {
-                name: 'Resource',
-                url: 'https://front10.com'
-              },
-              {
-                name: 'Resource name',
-                url: 'https://front10.com'
-              },
-              {
-                name: 'Another resource',
-                url: 'https://front10.com'
-              },
-              {
-                name: 'Final resource',
-                url: 'https://front10.com'
-              }
-            ]
-          },
-          {
-            name: 'About',
-            sections: [
-              {
-                name: 'Team',
-                url: 'https://front10.com'
-              },
-              {
-                name: 'Locations',
-                url: 'https://front10.com'
-              },
-              {
-                name: 'Privacy',
-                url: 'https://front10.com'
-              },
-              {
-                name: 'Terms',
-                url: 'https://front10.com'
-              }
-            ]
           }
         ]
-=======
-          }]
->>>>>>> c8598f6ff33bbb153a69ae03fdc592f10e57fb05
       };
       mounted = undefined;
     });

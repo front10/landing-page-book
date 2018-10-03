@@ -46,6 +46,7 @@ describe('Footer', () => {
                 url: 'https://front10.com'
               }
             ]
+<<<<<<< HEAD
           },
           {
             name: 'Resources',
@@ -90,6 +91,9 @@ describe('Footer', () => {
             ]
           }
         ]
+=======
+          }]
+>>>>>>> c8598f6ff33bbb153a69ae03fdc592f10e57fb05
       };
       mounted = undefined;
     });

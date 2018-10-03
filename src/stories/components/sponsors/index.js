@@ -18,19 +18,19 @@ stories.addDecorator(withKnobs);
 
 const sponsors = [
   {
-    image: 'https://brandongaille.com/wp-content/uploads/2013/07/Acer-Company-Logo.jpg'
+    image: '/images/sponsors/facebook.png'
   },
   {
-    image: 'https://brandongaille.com/wp-content/uploads/2013/07/Microsoft-Company-Logo1.jpg'
+    image: '/images/sponsors/google.png'
   },
   {
-    image: 'https://brandongaille.com/wp-content/uploads/2013/07/ASUS-Company-Logo.jpg'
+    image: '/images/sponsors/twitter.png'
   },
   {
-    image: 'https://brandongaille.com/wp-content/uploads/2013/07/Compaq-Company-Logo.jpg'
+    image: '/images/sponsors/salesforce.png'
   },
   {
-    image: 'https://brandongaille.com/wp-content/uploads/2013/07/HP-Company-Logos.jpg'
+    image: '/images/sponsors/amazon.png'
   }
 ];
 

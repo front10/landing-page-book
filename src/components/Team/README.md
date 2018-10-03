@@ -22,8 +22,7 @@ import "@front10/landing-page-book/dist/components/Team/style.css";
 
 3- Put this code into jsx page:
 ```html
-<Team members={members}
-      socials={socials}/>
+<Team members={members} />
 ```
 
 ## Example
@@ -33,16 +32,32 @@ const members = [{
 	name: "Sander Coleman",
 	job: "CEO",
 	summary: "Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.",
-	profile: "https://front10.com"
+	profile: [
+			{
+				social: 'facebook',
+				url: 'https://www.facebok.com/front10'
+			},
+			{
+				social: 'twitter',
+				url: 'https://twitter.com/landing-page-book'
+			}
+    ]
 }, {
 	image: "https://randomuser.me/api/portraits/women/2.jpg",
 	name: "Rachel Lee",
 	job: "Developer",
 	summary: "Graduated in 2002, from Harvard University, he participated for 3 years in doctors without borders.",
-	profile: "https://front10.com"
+	profile: [
+			{
+				social: 'facebook',
+				url: 'https://www.facebook.com/front10'
+			},
+			{
+				social: 'linkedin',
+				url: 'https://www.linkedin.com/landing-page-book'
+			}
+    ]
 }];
-
-const socials = ["facebook", "linkedin", "google", "twitter"]; //Others names in Social component.
 ```
 
 ## Properties:
@@ -58,5 +73,4 @@ const socials = ["facebook", "linkedin", "google", "twitter"]; //Others names in
 | imageBorder      | `Boolean` | Establishes if image is with border. Default `false` |
 | socialGray      | `Boolean` | Establishes if social icon is gray scale. Default `false` |
 | contentAlign      | `String` | Align of a component content. Default `"center"`, can be `left` and `right` too|
-| socials      | `Array` | Array of socials to show. Default `[]`, see more names in doc of Social component.|
 | members      | `Array` | Array of members to show. Default `[]`, see example section.|

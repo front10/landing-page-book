@@ -19,13 +19,10 @@ describe('GithubButton', () => {
   describe('GithubButton', () => {
     beforeEach(() => {
       props = {
-        showCounter: true,
-        showBtnText: true,
-        showGithubIcon: false,
+        btnType: 'fork',
+        btnText: 'Forks',
         username: 'front10',
-        repository: 'landing-page-book',
-        btntype: 'fork',
-        btnText: 'Fork'
+        repository: 'landing-page-book'
       };
     });
 
@@ -39,15 +36,23 @@ describe('GithubButton', () => {
       expect(span.length).toBeGreaterThan(0);
     });
 
-    it('Get repository stats', async () => {
-      const g = await mount(<GithubButton {...props} />);
-      await g.instance().getRepositoryStats({
+    it('onchange', async () => {
+      const prevProps = {
+        btnType: 'star',
+        btnText: 'Stars',
         username: 'front10',
-        repository: 'landing-page-book',
-        btntype: 'fork'
-      });
+        repository: 'landing-page-book'
+      };
+      await githubButton()
+        .instance()
+        .onChange(prevProps);
 
-      expect(g.state).toBeDefined();
+      expect(githubButton().state()).toEqual({
+        counter: null,
+        showBtnText: true,
+        showCounter: true,
+        showGithubIcon: false
+      });
     });
   });
 });

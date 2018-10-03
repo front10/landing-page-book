@@ -16,7 +16,10 @@ describe('Image', () => {
   };
   describe('Image', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        alt: 'This is an image',
+        src: "logo.png"
+      };
       mounted = undefined;
     });
 

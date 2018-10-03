@@ -99,9 +99,9 @@ stories.addWithJSX(
   () => (
     <ThemeSelector>
       <Navbar
-        companyName="Front10"
-        companyLink="https://front10.com"
-        companyLogo="images/logo/front10.png"
+        brandName="Front10"
+        brandLink="https://front10.com"
+        brandLogo="images/logo/front10.png"
         rightItems={rightItems}
         expand="md"
         fixed

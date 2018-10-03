@@ -34,48 +34,6 @@ ReactWrapper {
             },
           ],
         },
-        Object {
-          "name": "Resources",
-          "sections": Array [
-            Object {
-              "name": "Resource",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Resource name",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Another resource",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Final resource",
-              "url": "https://front10.com",
-            },
-          ],
-        },
-        Object {
-          "name": "About",
-          "sections": Array [
-            Object {
-              "name": "Team",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Locations",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Privacy",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Terms",
-              "url": "https://front10.com",
-            },
-          ],
-        },
       ]
     }
   />,
@@ -90,7 +48,7 @@ ReactWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
     "instance": <footer
-      sections="[object Object],[object Object],[object Object]"
+      sections="[object Object]"
     />,
     "key": undefined,
     "nodeType": "host",
@@ -125,48 +83,6 @@ ReactWrapper {
             },
           ],
         },
-        Object {
-          "name": "Resources",
-          "sections": Array [
-            Object {
-              "name": "Resource",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Resource name",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Another resource",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Final resource",
-              "url": "https://front10.com",
-            },
-          ],
-        },
-        Object {
-          "name": "About",
-          "sections": Array [
-            Object {
-              "name": "Team",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Locations",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Privacy",
-              "url": "https://front10.com",
-            },
-            Object {
-              "name": "Terms",
-              "url": "https://front10.com",
-            },
-          ],
-        },
       ],
     },
     "ref": null,
@@ -178,7 +94,7 @@ ReactWrapper {
   Symbol(enzyme.__nodes__): Array [
     Object {
       "instance": <footer
-        sections="[object Object],[object Object],[object Object]"
+        sections="[object Object]"
       />,
       "key": undefined,
       "nodeType": "host",
@@ -209,48 +125,6 @@ ReactWrapper {
               },
               Object {
                 "name": "Last time",
-                "url": "https://front10.com",
-              },
-            ],
-          },
-          Object {
-            "name": "Resources",
-            "sections": Array [
-              Object {
-                "name": "Resource",
-                "url": "https://front10.com",
-              },
-              Object {
-                "name": "Resource name",
-                "url": "https://front10.com",
-              },
-              Object {
-                "name": "Another resource",
-                "url": "https://front10.com",
-              },
-              Object {
-                "name": "Final resource",
-                "url": "https://front10.com",
-              },
-            ],
-          },
-          Object {
-            "name": "About",
-            "sections": Array [
-              Object {
-                "name": "Team",
-                "url": "https://front10.com",
-              },
-              Object {
-                "name": "Locations",
-                "url": "https://front10.com",
-              },
-              Object {
-                "name": "Privacy",
-                "url": "https://front10.com",
-              },
-              Object {
-                "name": "Terms",
                 "url": "https://front10.com",
               },
             ],

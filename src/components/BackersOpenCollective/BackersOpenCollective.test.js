@@ -16,7 +16,9 @@ describe('Backers', () => {
   };
   describe('BackersOpenCollective', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        collective: "webpack"
+      };
       mounted = undefined;
     });
 
@@ -37,32 +39,10 @@ describe('Backers', () => {
       expect(divs.length).toBeGreaterThan(0);
     });
 
-    it('Shuld GET all bakers', async () => {
-      await backersOpenCollective()
-        .instance()
-        .getMembers();
-
-      await expect(backersOpenCollective().state('backers')).toContain([
-        {
-          MemberId: 8447,
-          createdAt: '1970-01-01 00:00',
-          type: 'USER',
-          role: 'ADMIN',
-          isActive: true,
-          totalAmountDonated: 0,
-          lastTransactionAt: '2018-09-28 16:52',
-          lastTransactionAmount: 0,
-          profile: 'https://opencollective.com/chrome-544',
-          name: 'Chrome',
-          company: '@chrome',
-          description: null,
-          image: null,
-          email: null,
-          twitter: null,
-          github: null,
-          website: null
-        }
-      ]);
+    it('sort function', ()=>{
+      const backers = [{contributionAmount: 1, name:'Nick', image: 'image.jpg'}, {contributionAmount: 23, name:'John', image: 'image.jpg'}];
+      backersOpenCollective().instance().sort(backers, 'asc');
+      expect(backersOpenCollective().state('backersOrdered')[0].name).toEqual('Nick');
     });
   });
 });

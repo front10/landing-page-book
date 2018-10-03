@@ -62,7 +62,7 @@ Note: if you use Hero component with children, properties `buttons`, `header`, `
 | particles         | `Boolean` | Define if component show particles animations. Default `true`                                                                                          |
 | opacity           | `Number`  | Opacity level. Default `0`                                                                                                                             |
 | parallaxOffset    | `Number`  | Offset of background image. Default `0`                                                                                                                |
-| image             | `String`  | Url of background image. Default `"http://react-lazy-hero.danielstefanovic.com/static/media/mountains.b364f460.jpg"`                                   |
+| image             | `String`  | Url of background image. Default `""`                                                                                                                  |
 | overlayColor      | `String`  | Overlay color of the component . Default `#fff`                                                                                                        |
 | header            | `String`  | Header of the hero . Default `""`                                                                                                                      |
 | subHeader         | `String`  | Sub header of the hero . Default `""`                                                                                                                  |

@@ -42,11 +42,12 @@ describe('Code', () => {
       expect(divs.length).toBeGreaterThan(0);
     });
 
-    it('Shuld update code', async () => {
-      const g = await shallow(<Code {...props} />);
-      await g.instance().updateCode('Test code');
+    it('copy to clipboard', () => {
+      code()
+        .instance()
+        .copyToClipboard();
 
-      expect(g.state('scode')).toMatch(/Test code/);
+      expect(code().state('scopied')).toEqual(true);
     });
   });
 });

@@ -15,7 +15,7 @@ stories.addDecorator(withKnobs);
 const featuress = [
   {
     image: 'images/features/themes.png',
-    title: 'theming',
+    title: 'Theming',
     subtitle: 'Easy to create themes',
     summary: 'Library customization with Css variables for easy theming and component changes.',
     link: 'https://front10.com',
@@ -23,7 +23,7 @@ const featuress = [
   },
   {
     image: 'images/features/testing.png',
-    title: 'unit test',
+    title: 'Unit test',
     subtitle: 'Robust components',
     summary: 'All our components tested, like a Swiss watch. With code coverage above 50%',
     link: 'https://front10.com',
@@ -31,7 +31,7 @@ const featuress = [
   },
   {
     image: 'images/features/speed.png',
-    title: 'faster dev',
+    title: 'Faster dev',
     subtitle: 'Fast like Usain Bolt',
     summary:
       'With our components you can develop a wep app faster than Usain Bolt in 100 meters flat.',
@@ -40,7 +40,7 @@ const featuress = [
   },
   {
     image: 'images/features/code.png',
-    title: 'simple',
+    title: 'Simple',
     subtitle: 'Easy to use',
     summary: 'Very easy to use, you can do a lot in your wep application with little code.',
     link: 'https://front10.com',

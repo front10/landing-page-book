@@ -26,6 +26,8 @@ import "@front10/landing-page-book/dist/components/Social/style.css";
         type="facebook"/>
 ```
 
+[![Edit Social demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/zrrz8wr81l)
+
 ## Properties:
 
 | </br>Name   | </br>Type | </br>Summary                                                                                 | 

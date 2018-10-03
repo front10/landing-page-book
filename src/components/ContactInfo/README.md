@@ -28,6 +28,7 @@ import '@front10/landing-page-book/dist/components/ContactInfo/style.css';
 ```html
 <ContactInfo />
 ```
+[![Edit ContactInfo Demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/jzqky8k43y)
 
 ## Properties:
 

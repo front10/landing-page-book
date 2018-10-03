@@ -23,12 +23,12 @@ npm start
 
 ```js
 import React, { Component } from 'react';
-import { Hero, Navbar, Team } from '@front10/landing-page-book/dist/components';
+import { Hero, Navbar } from '@front10/landing-page-book/dist/components';
 ```
 
 ```js
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '@front10/landing-page-book/dist/themes/default/style.css';
+import '@front10/landing-page-book/dist/themes/default/index.css';
 ```
 
 ```jsx
@@ -47,7 +47,7 @@ class App extends Component {
 }
 ```
 
-[![Edit p74xx7mx2m](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/p74xx7mx2m)
+[![Edit jp0kzqlj29](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/jp0kzqlj29)
 
 ## Available Components
 

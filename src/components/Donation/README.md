@@ -24,6 +24,7 @@ import "@front10/landing-page-book/dist/components/Donation/style.css";
 ```html
 <Donation url="https://opencollective.com/webpack/donate"/>
 ```
+[![Edit Donation](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/l5jmjxnw2q)
 
 ## Properties:
 

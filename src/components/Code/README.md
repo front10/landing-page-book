@@ -14,7 +14,13 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 ```
 
-2- Add following content to import the component:
+2- Importing font-awesome or any other font (Optional)
+
+```js
+import 'font-awesome/css/font-awesome.min.css';
+```
+
+3- Add following content to import the component:
 
 ```js
 import Code from '@front10/landing-page-book/dist/components/Code';
@@ -23,11 +29,12 @@ import '@front10/landing-page-book/dist/components/Code/style.css';
 
 > Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
 
-3- Put this code into jsx page
+4- Put this code into jsx page
 
 ```html
 <Code />
 ```
+[![Edit Code demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/pmjvk5wl27)
 
 ## Properties
 

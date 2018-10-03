@@ -26,8 +26,6 @@ jobs:
         skip_cleanup: true
         on:
           tags: true
-after_success:
-- npm run test-browser
 env:
   global:
   - GH_USER: front10

@@ -1,9 +1,0 @@
-:root {
-  --Button-borderRadius: 0px;
-  --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem; }
-
-.Button {
-  border-radius: 0px;
-  font-size: 1rem;
-  padding: 0.375rem 0.75rem; }

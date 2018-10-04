@@ -1656,6 +1656,7 @@ a[disabled] {
     color: var(--Card__Subtitle-color); }
 
 .Wizard .multi-step .footer-buttons {
-  padding-top: 20px; }
+  padding-top: 20px;
+  margin-top: 20px; }
   .Wizard .multi-step .footer-buttons button {
     border-radius: var(--Button-borderRadius); }

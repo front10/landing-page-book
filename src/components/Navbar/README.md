@@ -59,8 +59,9 @@ You can use Navbar component with children too:
     </form>
 </Navbar>
 ```
-
-[![Edit Navbar example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/ww7l472y6l)
+<a target="_blank" href="https://codesandbox.io/s/ww7l472y6l">
+  <img alt="Edit Navbar example" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 Note: if you use Navbar component with children, properties `leftItems`, `rightItems` and `onItemClick` will not work
 

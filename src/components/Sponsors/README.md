@@ -26,7 +26,10 @@ import "@front10/landing-page-book/dist/components/Sponsors/style.css";
 ```html
 <Sponsors sponsors={sponsors}/>
 ```
-[![Edit Sponsors demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/8mjq19zrj)
+<a target="_blank" href="https://codesandbox.io/s/8mjq19zrj">
+  <img alt="Edit Sponsors demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
+
 ## Example
 
 ```js

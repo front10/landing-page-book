@@ -28,7 +28,9 @@ import '@front10/landing-page-book/dist/components/Footer/style.css';
 ```html
 <Footer/>
 ```
-[![Edit Footer demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/x40y1npnw)
+<a target="_blank" href="https://codesandbox.io/s/x40y1npnw">
+  <img alt="Edit Footer demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 You can use Footer component with children too:
 
@@ -49,8 +51,9 @@ You can use Footer component with children too:
     </div>
 </Footer>
 ```
-
-[![Edit Footer with childrens](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/14vnz2l3xq)
+<a target="_blank" href="https://codesandbox.io/s/14vnz2l3xq">
+  <img alt="Edit Footer with childrens" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Example
 

@@ -38,9 +38,9 @@ const companies = [{
 	image: "https://i.pinimg.com/originals/de/fd/43/defd4347f12a7fa7bbfa192be11532d6.png"
 }];
 ```
-
-[![Edit BuiltWith](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/44rz89lx0)
-
+<a target="_blank" href="https://codesandbox.io/s/44rz89lx0">
+  <img alt="Edit BuiltWith" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Properties:
 

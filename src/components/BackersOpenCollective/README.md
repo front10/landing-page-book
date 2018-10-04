@@ -28,7 +28,9 @@ import '@front10/landing-page-book/dist/components/BackersOpenCollective/style.c
 ```html
 <BackersOpenCollective collective="webpack"/>
 ```
-[![Edit Backers OpenCollective](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2p6zk30lkn)
+<a target="_blank" href="https://codesandbox.io/s/2p6zk30lkn">
+  <img alt="Edit Backers OpenCollective" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Properties
 

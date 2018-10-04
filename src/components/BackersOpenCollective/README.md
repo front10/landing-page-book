@@ -28,16 +28,19 @@ import '@front10/landing-page-book/dist/components/BackersOpenCollective/style.c
 ```html
 <BackersOpenCollective collective="webpack"/>
 ```
+
 <a target="_blank" href="https://codesandbox.io/s/2p6zk30lkn">
   <img alt="Edit Backers OpenCollective" src="https://codesandbox.io/static/img/play-codesandbox.svg">
 </a>
 
 ## Properties
 
-| </br>Name     | </br>Type | </br>Summary                                                |
-| ------------- | --------- | ----------------------------------------------------------- |
-| imageRounded  | `Boolean` | Define if images are rounded. Default `true`                |
-| imageBordered | `Boolean` | Define images with border. Default `true`                   |
-| imageGray     | `Boolean` | Define if images are with gray scale. Default `false`       |
-| collective    | `String`  | Name of collective in opencollective. This prop is required |
-| sortDirection | `String`  | Sort backers. Default `desc`, can be `asc` or `desc`        |
+| </br>Name     | </br>Type | </br>Summary                                                                |
+| ------------- | --------- | --------------------------------------------------------------------------- |
+| imageRounded  | `Boolean` | Define if images are rounded. Default `true`                                |
+| imageBordered | `Boolean` | Define images with border. Default `true`                                   |
+| imageGray     | `Boolean` | Define if images are with gray scale. Default `false`                       |
+| collective    | `String`  | Name of collective in opencollective. This prop is required                 |
+| sortDirection | `String`  | Sort backers. Default `desc`, can be `asc` or `desc`                        |
+| loadingClass  | `String`  | Icon class when backers are loading. Default `fa fa-circle-o-notch fa-spin` |
+| loadingText   | `String`  | Text to show when backers are loading. Default `Loading...`                 |

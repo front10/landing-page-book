@@ -19,7 +19,7 @@ jobs:
    deploy:
      provider: pages
      skip-cleanup: true
-     github-token: $GH_TOKEN
+     github-token: $GH_TOKEN #1
      keep-history: true
      local-dir: public
      repo: git@github.com:front10/landing-page-book.git

@@ -27,7 +27,9 @@ import "@front10/landing-page-book/dist/components/ImageList/style.css";
 <ImageList images={images}/>
 ```
 
-[![Edit ImageList demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/mmk3jnjwkj)
+<a target="_blank" href="https://codesandbox.io/s/mmk3jnjwkj">
+  <img alt="Edit ImageList demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Example
 

@@ -37,8 +37,9 @@ import '@front10/landing-page-book/dist/components/GithubButton/style.css';
     repository="repository"
 />
 ```
-
-[![Edit Github Button](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/71p7yq4kqq)
+<a target="_blank" href="https://codesandbox.io/s/71p7yq4kqq">
+  <img alt="Edit Github Button" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Properties
 

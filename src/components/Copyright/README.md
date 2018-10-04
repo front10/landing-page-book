@@ -24,8 +24,9 @@ import "@front10/landing-page-book/dist/components/Copyright/style.css";
 ```html
 <Copyright text="Fron10, inc"/>
 ```
-
-[![Edit Copyright](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/2oqww8r56n)
+<a target="_blank" href="https://codesandbox.io/s/2oqww8r56n">
+  <img alt="Edit Copyright" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Properties:
 

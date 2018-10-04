@@ -44,7 +44,9 @@ import '@front10/landing-page-book/dist/components/Hero/style.css';
   subHeader="Leverage your process!"
 />
 ```
-[![Edit Hero demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/yw19mmpl99)
+<a target="_blank" href="https://codesandbox.io/s/yw19mmpl99">
+  <img alt="Edit Hero demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 You can use Hero component with children too:
 

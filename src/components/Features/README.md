@@ -23,12 +23,11 @@ import "@front10/landing-page-book/dist/components/Features/style.css";
 3- Put this code into jsx page
 
 ```html
-
  <Features features={features} />
-
 ```
-
-[![Edit Feature demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/71p7yq4kqq)
+<a target="_blank" href="https://codesandbox.io/s/71p7yq4kqq">
+  <img alt="Edit Feature demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Example
 

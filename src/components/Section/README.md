@@ -30,8 +30,9 @@ import '@front10/landing-page-book/dist/components/Section/style.css';
     <!--Your code here-->
 </Section>
 ```
-[![Edit Section demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/738zn8p3p1)
-
+<a target="_blank" href="https://codesandbox.io/s/738zn8p3p1">
+  <img alt="Edit Section demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Properties:
 

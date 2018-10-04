@@ -34,7 +34,9 @@ import '@front10/landing-page-book/dist/components/Code/style.css';
 ```html
 <Code />
 ```
-[![Edit Code demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/pmjvk5wl27)
+<a target="_blank" href="https://codesandbox.io/s/pmjvk5wl27">
+  <img alt="Edit Code demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Properties
 

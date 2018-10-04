@@ -28,8 +28,9 @@ import '@front10/landing-page-book/dist/components/ContactUs/style.css';
 ```html
 <ContactUs />
 ```
-
-[![Edit ContactUs demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/w0z992nv5w)
+<a target="_blank" href="https://codesandbox.io/s/w0z992nv5w">
+  <img alt="Edit ContactUs demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Properties:
 

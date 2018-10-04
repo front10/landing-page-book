@@ -24,7 +24,9 @@ import "@front10/landing-page-book/dist/components/Wizard/style.css";
 ```html
 <Wizard steps={steps} />
 ```
-[![Edit Wizard demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/o5553oly8y)
+<a target="_blank" href="https://codesandbox.io/s/o5553oly8y">
+  <img alt="Edit Wizard demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Example
 ```js

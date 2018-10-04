@@ -72,4 +72,4 @@ gulp.task('compile-components-watch', () => {
   );
 });
 
-gulp.task('compile-themes-force', gulp.parallel(tasks));
+gulp.task('compile-themes-force', gulp.series(tasks));

@@ -15,9 +15,10 @@ jobs:
     - stage: Installing dependencies
       script: npm install
     - stage: Runing Eslint
-    - script: npm run eslint   
+    - script: travis_wait npm run eslint   
+    - script: travis_wait npm run test -- -u   
     - stage: Building Code
-      script: npm run build-storybook
+      script: travis_wait npm run build-storybook
     - stage: GitHub Release
       script: npm run deploy
       deploy:

@@ -1,0 +1,37 @@
+sudo: false
+language: node_js
+node_js:
+- '8.12'
+cache:
+  directories:
+  - node_modules
+branches:
+  only:
+  - master
+notifications:
+  email: true
+jobs:
+  include:
+    - stage: Installing dependencies
+      script: npm install
+    - stage: Runing Eslint
+    - script: travis_wait npm run eslint   
+    - script: travis_wait npm run test -- -u   
+    - stage: Building Code
+      script: travis_wait npm run build-storybook
+    - stage: GitHub Release
+      script: npm run deploy
+      deploy:
+        provider: releases
+        api_key: $GH_TOKEN
+        skip_cleanup: true
+        on:
+          tags: true
+env:
+  global:
+  - GH_USER: front10
+  - GH_REPO: landing-page-book
+addons:
+  browserstack:
+    username: "yoandrycollazo1"
+    access_key: "keqUpLHUTfApAq2fM77i"

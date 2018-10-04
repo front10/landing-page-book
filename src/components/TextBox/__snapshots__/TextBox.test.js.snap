@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextBox TextBox should render 1`] = `
+ReactWrapper {
+  Symbol(enzyme.__unrendered__): <TextBox
+    className=""
+    text=""
+    title=""
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "function",
+    "props": Object {
+      "className": "",
+      "text": "",
+      "title": "",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class=""
+      >
+        <h3
+          class="__title"
+        />
+        <p
+          class="__text"
+        />
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h3
+            className="__title"
+          >
+            
+          </h3>,
+          <p
+            className="__text"
+          >
+            
+          </p>,
+        ],
+        "className": "",
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": <h3
+            class="__title"
+          />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "className": "__title",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+          ],
+          "type": "h3",
+        },
+        Object {
+          "instance": <p
+            class="__text"
+          />,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "",
+            "className": "__text",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+          ],
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "function",
+      "props": Object {
+        "className": "",
+        "text": "",
+        "title": "",
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": <div
+          class=""
+        >
+          <h3
+            class="__title"
+          />
+          <p
+            class="__text"
+          />
+        </div>,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <h3
+              className="__title"
+            >
+              
+            </h3>,
+            <p
+              className="__text"
+            >
+              
+            </p>,
+          ],
+          "className": "",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": <h3
+              class="__title"
+            />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "__title",
+            },
+            "ref": null,
+            "rendered": Array [
+              "",
+            ],
+            "type": "h3",
+          },
+          Object {
+            "instance": <p
+              class="__text"
+            />,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": "",
+              "className": "__text",
+            },
+            "ref": null,
+            "rendered": Array [
+              "",
+            ],
+            "type": "p",
+          },
+        ],
+        "type": "div",
+      },
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

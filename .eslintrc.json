@@ -1,0 +1,27 @@
+{
+    "extends": ["airbnb", "prettier", "plugin:jasmine/recommended"],
+    "plugins": ["prettier", "jasmine"],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "env": {
+        "browser": true,
+        "commonjs": true,
+        "es6": true,
+        "node": true,
+        "jasmine": true
+    },
+    "rules": {
+        "prettier/prettier": ["error"],
+        "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+        "import/no-extraneous-dependencies": 0,
+        "react/jsx-one-expression-per-line": 0,
+        "react/prefer-stateless-function": 0,
+        "jsx-a11y/label-has-for": 0
+    }
+}

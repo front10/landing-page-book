@@ -1,0 +1,6 @@
+/src/**/*.snap
+/src/**/*.scss
+/src/**/*.css
+/src/**/*.md
+/src/**/*.test.*
+/src/**/*.png

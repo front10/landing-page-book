@@ -24,7 +24,9 @@ import "@front10/landing-page-book/dist/components/BrowserSupport/style.css";
 ```html
 <BrowserSupport browsers={browsers}/>
 ```
-[![Edit Browser support](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/j76zk2k8ow)
+<a target="_blank" href="https://codesandbox.io/s/j76zk2k8ow">
+  <img alt="Edit Browser support" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Example
 ```js

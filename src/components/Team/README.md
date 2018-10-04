@@ -24,7 +24,9 @@ import "@front10/landing-page-book/dist/components/Team/style.css";
 ```html
 <Team members={members} />
 ```
-[![Edit Team demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/wol17r4lo5)
+<a target="_blank" href="https://codesandbox.io/s/wol17r4lo5">
+  <img alt="Edit Team demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Example
 ```js

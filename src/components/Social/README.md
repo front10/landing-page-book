@@ -25,8 +25,9 @@ import "@front10/landing-page-book/dist/components/Social/style.css";
 <Social url="https://front10.com"
         type="facebook"/>
 ```
-
-[![Edit Social demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/zrrz8wr81l)
+<a target="_blank" href="https://codesandbox.io/s/zrrz8wr81l">
+  <img alt="Edit Social demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Properties:
 

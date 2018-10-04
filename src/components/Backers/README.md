@@ -28,8 +28,9 @@ import '@front10/landing-page-book/dist/components/Backers/style.css';
 ```html
 <Backers backers={backers}/>
 ```
-
-[![Edit Backers demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/4r945xn9m9)
+<a target="_blank" href="https://codesandbox.io/s/4r945xn9m9">
+  <img alt="Edit Backers demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Example
 

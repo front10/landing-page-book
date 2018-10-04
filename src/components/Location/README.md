@@ -32,8 +32,9 @@ import "@front10/landing-page-book/dist/components/Location/style.css";
 <Location key="my_google_key"/>
 ```
 
-[![Edit Location demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/48wl966zxw)
-
+<a target="_blank" href="https://codesandbox.io/s/48wl966zxw">
+  <img alt="Edit Location demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Example
 ```js

@@ -46,8 +46,9 @@ class App extends Component {
   }
 }
 ```
-
-[![Edit jp0kzqlj29](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/jp0kzqlj29)
+<a target="_blank" href="https://codesandbox.io/s/jp0kzqlj29">
+  <img alt="Edit Landing page example" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Available Components
 

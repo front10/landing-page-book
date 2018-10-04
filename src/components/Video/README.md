@@ -28,8 +28,9 @@ import '@front10/landing-page-book/dist/components/Video/style.css';
 ```html
 <Video source="https://youtu.be/dCrLwWdju68" />
 ```
-
-[![Edit Vide demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/4lqxjk141x)
+<a target="_blank" href="https://codesandbox.io/s/4lqxjk141x">
+  <img alt="Edit Vide demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
+</a>
 
 ## Properties:
 

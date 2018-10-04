@@ -60,6 +60,8 @@ You can use Navbar component with children too:
 </Navbar>
 ```
 
+[![Edit Navbar example](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/ww7l472y6l)
+
 Note: if you use Navbar component with children, properties `leftItems`, `rightItems` and `onItemClick` will not work
 
 ## Example

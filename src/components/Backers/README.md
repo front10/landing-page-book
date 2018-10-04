@@ -29,6 +29,8 @@ import '@front10/landing-page-book/dist/components/Backers/style.css';
 <Backers backers={backers}/>
 ```
 
+[![Edit Backers demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/4r945xn9m9)
+
 ## Example
 
 ```js

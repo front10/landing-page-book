@@ -24,6 +24,7 @@ import "@front10/landing-page-book/dist/components/Gif/style.css";
 ```html
 <Gif/>
 ```
+[![Edit Gif demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/7j1q6op150)
 
 ## Properties:
 

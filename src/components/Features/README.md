@@ -24,42 +24,53 @@ import "@front10/landing-page-book/dist/components/Features/style.css";
 
 ```html
 
- <Features features={featuress} />
+ <Features features={features} />
 
 ```
+
+[![Edit Feature demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/71p7yq4kqq)
 
 ## Example
 
 ```js
-const members = [{
-	image: "images/features/dashboard.png",
-	title: "Dashboard",
-	subtitle: "Dashboard for Admin",
-	summary: "Example of feature text, this component will allow to you to show all your features.",
-  link: "https://front10.com",
-  linktext: "See more..."
-}, {
-	image: "images/features/react.png",
-	title: "ReactJS",
-	subtitle: "Build with ReactJS",
-	summary: "Example of feature text, this component will allow to you to show all your features.",
-  link: "https://front10.com",
-  linktext: "See more..."
-}, {
-	image: "images/features/angular.png",
-	title: "AngularJS",
-	subtitle: "Powered by Angular 5",
-	summary: "Example of feature text, this component will allow to you to show all your features.",
-  link: "https://front10.com",
-  linktext: "See more..."
-}, {
-	image: "images/features/graphql.png",
-	title: "GraphQL",
-	subtitle: "GraphQL API",
-	summary: "Example of feature text, this component will allow to you to show all your features.",
-  link: "https://front10.com",
-  linktext: "See more..."
-}];
+const features = [
+  {
+    image: "images/features/themes.png",
+    title: "Theming",
+    subtitle: "Easy to create themes",
+    summary:
+      "Library customization with Css variables for easy theming and component changes.",
+    link: "https://front10.com",
+    linktext: "See more..."
+  },
+  {
+    image: "images/features/testing.png",
+    title: "Unit test",
+    subtitle: "Robust components",
+    summary:
+      "All our components tested, like a Swiss watch. With code coverage above 50%.",
+    link: "https://front10.com",
+    linktext: "See more..."
+  },
+  {
+    image: "images/features/speed.png",
+    title: "Faster dev",
+    subtitle: "Fast like Usain Bolt",
+    summary:
+      "With our components you can develop a wep app faster than Usain Bolt in 100 meters flat.",
+    link: "https://front10.com",
+    linktext: "See more..."
+  },
+  {
+    image: "images/features/code.png",
+    title: "Simple",
+    subtitle: "Easy to use",
+    summary:
+      "Very easy to use, you can do a lot in your wep application with little code.",
+    link: "https://front10.com",
+    linktext: "See more..."
+  }
+];
 
 ```
 

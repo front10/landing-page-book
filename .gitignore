@@ -5,8 +5,6 @@
 /dist
 /public
 
-# semantic
-/semantic
 # testing
 /coverage
 
@@ -35,8 +33,12 @@ yarn-error.log*
 /.changelog
 \.directory
 yarn.lock
-/src/semantic
-semantic.json
 
 *.lock
 yarn.lock
+
+#css
+src/themes/default/*.css
+src/themes/grahpql/*.css
+src/themes/react/*.css
+src/themes/webpack/*.css

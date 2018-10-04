@@ -13,20 +13,18 @@ notifications:
 jobs:
   include:
     - stage: Installing dependencies
-      script: npm install
-    - stage: Runing Eslint
-    - script: travis_wait npm run eslint   
-    - script: travis_wait npm run test -- -u   
+      script: npm install    
     - stage: Building Code
       script: travis_wait npm run build-storybook
-    - stage: GitHub Release
-      script: npm run deploy
-      deploy:
-        provider: releases
-        api_key: $GH_TOKEN
-        skip_cleanup: true
-        on:
-          tags: true
+   deploy:
+     provider: pages
+     skip-cleanup: true
+     github-token: $GH_TOKEN  # Set in the settings page of your repository, as a secure variable
+     keep-history: true
+     local-dir: public
+     repo: git@github.com:front10/landing-page-book.git
+    on:
+     branch: master
 env:
   global:
   - GH_USER: front10

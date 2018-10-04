@@ -5,8 +5,6 @@
 /dist
 /public
 
-# semantic
-/semantic
 # testing
 /coverage
 
@@ -35,8 +33,57 @@ yarn-error.log*
 /.changelog
 \.directory
 yarn.lock
-/src/semantic
-semantic.json
 
 *.lock
 yarn.lock
+
+#css themes
+src/themes/default/*.css
+src/themes/grahpql/*.css
+src/themes/react/*.css
+src/themes/webpack/*.css
+#css components
+src/components/Analytics/*.css
+src/components/Backers/*.css
+src/components/BackersOpenCollective/*.css
+src/components/Browser/*.css
+src/components/BrowserSupport/*.css
+src/components/BuiltWith/*.css
+src/components/Button/*.css
+src/components/Card/*.css
+src/components/Code/*.css
+src/components/Column/*.css
+src/components/ContactInfo/*.css
+src/components/ContactUs/*.css
+src/components/Container/*.css
+src/components/Copyright/*.css
+src/components/Donation/*.css
+src/components/Features/*.css
+src/components/Footer/*.css
+src/components/FormGroup/*.css
+src/components/Gif/*.css
+src/components/GithubButton/*.css
+src/components/Header/*.css
+src/components/Hero/*.css
+src/components/Icon/*.css
+src/components/Image/*.css
+src/components/ImageList/*.css
+src/components/Input/*.css
+src/components/Label/*.css
+src/components/LanguageSwitcher/*.css
+src/components/Link/*.css
+src/components/Location/*.css
+src/components/LocationMarker/*.css
+src/components/Navbar/*.css
+src/components/NavbarBrand/*.css
+src/components/NavbarCollapse/*.css
+src/components/NavbarLink/*.css
+src/components/NavbarNav/*.css
+src/components/Row/*.css
+src/components/Section/*.css
+src/components/Social/*.css
+src/components/Sponsors/*.css
+src/components/Team/*.css
+src/components/TextBox/*.css
+src/components/Video/*.css
+src/components/Wizard/*.css

@@ -17,7 +17,7 @@
         "prepublishOnly": "npm run transpile",
         "test-browser": "node ./selenium/browser-test.js",
         "predeploy": "npm run build-storybook",
-        "deploy": "gh-pages -d public -b master -r git@github.com:front10/landing-page-book.git"
+        "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-book.git"
     },
     "repository": {
         "type": "git",

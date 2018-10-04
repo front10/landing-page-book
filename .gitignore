@@ -3,6 +3,7 @@
 
 #dist 
 /dist
+/public
 
 # semantic
 /semantic

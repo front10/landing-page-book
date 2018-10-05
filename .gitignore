@@ -38,10 +38,8 @@ yarn.lock
 yarn.lock
 
 #css themes
-src/themes/default/*.css
-src/themes/grahpql/*.css
-src/themes/react/*.css
-src/themes/webpack/*.css
+src/themes/**/*.css
+
 #css components
 src/components/Analytics/*.css
 src/components/Backers/*.css

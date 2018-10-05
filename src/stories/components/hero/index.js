@@ -8,8 +8,10 @@ import JSXAddon from 'storybook-addon-jsx';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Hero, Social, Container, Image, Header, Button } from '../../../components';
+import { Hero, Link, Container, Image, Header, GithubButton } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
+
+import particles from '../../mock/components/particles.json';
 
 setAddon(JSXAddon);
 
@@ -37,15 +39,15 @@ stories.addWithJSX(
         parallaxOffset={number('Parallax offset', 0)}
         overlayColor={color('Overlay color', '#373D45', 'GROUP-ID1')}
         minHeight={text('Min height', '100vh')}
-        header={text('Header', 'REACT COMPONENTS')}
-        subHeader={text('Sub header', 'Leverage your process!')}
+        header={text('Header', 'Landing Page Book')}
+        subHeader={text('Sub header', 'React components to build!')}
         subHeaderPosition={select(
           'Sub header position',
           { top: 'top', bottom: 'bottom' },
           'bottom'
         )}
         buttons={buttons}
-        particlesParams={{ move: { speed: 2 } }}
+        particlesParams={particles}
       />
     </ThemeSelector>
   )),
@@ -65,26 +67,35 @@ stories.addWithJSX(
         parallaxOffset={number('Parallax offset', 0)}
         overlayColor={color('Overlay color', '#373D45', 'GROUP-ID1')}
         minHeight={text('Min height', '100vh')}
-        particlesParams={{ move: { speed: 2 } }}
+        particlesParams={particles}
       >
         <Container>
           <Image
-            className="w-25"
-            alt="Cool car"
-            src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png"
+            src="images/logo/front10.png"
+            rounded
+            width="160"
+            alt="Front10 logo"
+            className="main-logo"
           />
-          <Header className="display-3 text-white">Landing Page Book</Header>
-          <div className="mb-5 mt-5">
-            <Button
-              href="https://front10.com/"
-              className="btn btn-primary btn-lg pl-5 pr-5 pt-2 pb-2"
+          <Header className="text-warning">Landing Page Book</Header>
+          <Header type="h5" className="text-warning">
+            React components to build!
+          </Header>
+          <div className="mt-5">
+            <Link
+              className="btn btn-primary btn-started"
+              href="https://front10.com/landing-page-book"
+              target="_blank"
             >
-              Go now
-            </Button>
+              Explore
+            </Link>
+            <GithubButton
+              btnType="star"
+              btnText="Stars"
+              username="front10"
+              repository="landing-page-book"
+            />
           </div>
-          <Social type="facebook" url="https://landing-page-book.front10.com/" />
-          <Social type="twitter" url="https://landing-page-book.front10.com/" />
-          <Social type="linkedin" url="https://landing-page-book.front10.com/" />
         </Container>
       </Hero>
     </ThemeSelector>

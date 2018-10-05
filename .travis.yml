@@ -15,7 +15,7 @@ jobs:
     - stage: Installing dependencies
       script: npm install    
     - stage: Test code
-      script: npm run test
+      script: npm run test -- -u  
 env:
   global:
   - GH_USER: front10

@@ -16,7 +16,7 @@ jobs:
       script: npm install    
     - stage: Building Code
       script: travis_wait npm run build-storybook
-   deploy:
+  deploy:
      provider: pages
      skip-cleanup: true
      github-token: $GH_TOKEN

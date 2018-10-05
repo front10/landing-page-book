@@ -11,7 +11,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Hero, Link, Container, Image, Header, GithubButton } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
-import particles from '../../mock/components/particles.json';
+import particles from '../../mock/components/particles';
 
 setAddon(JSXAddon);
 

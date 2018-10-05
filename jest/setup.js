@@ -2,4 +2,4 @@
 import 'react';
 import 'react-dom';
 
-setTimeout(10000);
+setTimeout(100000);

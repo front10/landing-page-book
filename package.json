@@ -7,7 +7,7 @@
         "start": "gulp compile-components-legacy & gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
         "build-storybook": "build-storybook -c .storybook -o public -s ./assets",
         "build-theme": "gulp compile-themes-watch",
-        "test": "jest --coverage --config ./jest.config.js",
+        "test": "jest --coverage --config ./jest.config.js --runInBand",
         "test:badge": "cat ./coverage/lcov.info | coveralls",
         "eslint": "./node_modules/.bin/eslint './src/**'",
         "eslint:fix": "./node_modules/.bin/eslint --fix  ./src",

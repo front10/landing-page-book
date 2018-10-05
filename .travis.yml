@@ -15,7 +15,20 @@ jobs:
     - stage: Installing dependencies
       script: npm install    
     - stage: Test code
-      script: npm run test
+      script: npm run eslint 
+      script: npm run test -- -u  
+    - stage: Building code
+      script: npm run build-storybook      
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GH_TOKEN
+  keep-history: true
+  local-dir: ./public
+  repo: git@github.com:front10/landing-page-book.git
+  target-branch: gh-pages
+  on:
+    branch: master
 env:
   global:
   - GH_USER: front10

@@ -16,7 +16,7 @@
         "transpile": "babel src -d dist --copy-files",
         "prepublishOnly": "npm run transpile",
         "test-browser": "node ./selenium/browser-test.js",
-        "deploy": "gh-pages -d public -b gh-pages"
+        "deploy": "gh-pages-with-token -d public -b gh-pages"
     },
     "repository": {
         "type": "git",
@@ -75,6 +75,7 @@
         "eslint-plugin-react": "^7.10.0",
         "get-sass-vars": "^2.0.0",
         "gh-pages": "^1.2.0",
+        "gh-pages-with-token": "^1.0.0",
         "github-markdown-css": "^2.10.0",
         "gulp": "^4.0.0",
         "gulp-cssimport": "^6.0.1",

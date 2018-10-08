@@ -20,7 +20,7 @@ jobs:
       script: npm run deploy   
 env:
   global:
-  - secure: "4tM0xt5yWJz9LSeJM3MBwaVTYxTZ9EcfFrMKQCRq6jxHb93z+J4wiG8ux7onwGUdMu5LqgXtqulx3HXJsvu2k7v/Ex5phHNXIBqdWkkaotxVqAlaTQJP0Nw7SEb9p4ElqqWHXlwut0FfZrx7JlOFX/AXIuLmkuQ1VH1rlyCRJkGLyJDp2sZIJqVhYuHVt0c3xbK59oWba4Sp4h59AFp3aDG260a6D/9lmMpj6iP+iZGSxw81fj30jWfLB0xwt+anymTdNA6X34Zdu3dr70ZQRPJuFq2qoucz1xzZg/fGO+LFUa/bY7aEBhPqxqMyGIabWIbUi28GFduTh28D3L0ec6pHSeHQiOS+5S7w9He+FSUnsX91pNK3hFXfVMOayDQELc27l+e+iC3899qQR9f0YDpaRx0m4QSSeyPY4Z/FP5Gh+AtHKp/nhtNJVYHbfpoGPg1B69S0EJdsKWip8jsZM5Q1uFu4X3ca2PxiV7rdcZ+hk3RMwHkg4SQSZIwR0lfXO6Y/d+By1jUYTLNeQDmJNHaYe9qp07bSUC8HWoq7rduYSbhLSkEEcFE+GkyiCdMNFdetaSk7M3fl+/1TS0S/im5U8dwBfZ716Q0JCtq6ewwIvcxgygBFUjXyoHsaXElyNts16GNfb/058T01L1GcSn4bX3PVkVRFelmYDdZlETA="
+  - GH_TOKEN: "8394b3149797c253bb3f36c3673ef6f6557c08fe"
 addons:
   browserstack:
     username: "yoandrycollazo1"

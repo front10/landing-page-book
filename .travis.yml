@@ -16,20 +16,11 @@ jobs:
       script: npm install    
     - stage: Test code
       script: npm run eslint 
-      script: npm run test -- -u  
-    - stage: Building code
-      script: npm run build-storybook      
+      script: npm run test -- -u          
     - stage: Deploy Code
-      deploy:
-        provider: pages
-        skip-cleanup: true
-        github-token: $GH_TOKEN
-        keep-history: true
-        local-dir: ./public
-        repo: front10/landing-page-book
-        target-branch: gh-pages
-        on:
-        branch: master
+      if: branch = master
+      before_script: npm run build-storybook
+      script: npm run deploy      
 env:
   global:
   - GH_USER: front10

@@ -16,7 +16,7 @@
         "transpile": "babel src -d dist --copy-files",
         "prepublishOnly": "npm run transpile",
         "test-browser": "node ./selenium/browser-test.js",
-        "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-book.git"
+        "deploy": "gh-pages -d public -b gh-pages"
     },
     "repository": {
         "type": "git",

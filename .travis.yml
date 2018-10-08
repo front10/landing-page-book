@@ -21,6 +21,8 @@ jobs:
 env:
   global:
   - GH_TOKEN: "8394b3149797c253bb3f36c3673ef6f6557c08fe"
+  - GH_USER: front10
+  - GH_REPO: landing-page-book
 addons:
   browserstack:
     username: "yoandrycollazo1"

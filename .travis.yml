@@ -14,9 +14,6 @@ jobs:
   include:
     - stage: Installing dependencies
       script: npm install    
-    - stage: Test code
-      script: npm run eslint 
-      script: npm run test -- -u          
     - stage: Deploy Code
       if: branch = master
       before_script: npm run build-storybook

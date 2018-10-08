@@ -22,10 +22,10 @@ jobs:
   deploy:
     provider: pages
     skip-cleanup: true
-    github-token: $GH_TOKEN
+    github-token: secure: "C3skgHTCkqiBATIQVIHaFLBJiDk3VLmB+pMaDHYt35/nhtlztRGfvLx0d3uJ3IBNxk7EHXaXzyHs+CSFxfjPvIbe61YLcQPniu9V1V70c8WMSRRVtEePnppSVZrMY5fLfjyCRk/+tSj8OEY6NsAL6z2pS9w4Zvh3DqxKbH64TWabqZWJHe9o8qfThKPTrdjMaaBOpCveo8VzjlL00+qZ2yXCupWmgaS1XRyiqR9O507/rSB4/VnbyugkOum/HkIb5AkKCmdc8Mued6LHdfqE+0N5GnDAAfG5xWHVJrzmsjMwXg5hPQ1uiF07Wgy/w85QHVfsBWOVJ+RSC9tsEDsyZzfN/35GwmsbBPqgnDnjV6gkVnu/R/33HWLZyWhdzFA7RVgTuP0NuzurhOe/xC03m/FM2gnwoTHDM1jgyMycT7ZxJdIIgbQaw2IOECsZPKAuSuOsxo+991lA3d/ommyoai+4FVG1I82OpbHGrRUCeJDfTkJbpC9/xTrq6qQj30ACf14UlHS2Jd819vYlwRYN7bi7GLmrucdkDd+BH/VTrVSkAyuz/0mDG061rZwoHbqigA9K/r9IURufviV7AzbRLithu0FVc8F+ybO4hJ9H40i4+xYSnMsRauM/Lrqgmvp1NJaKUTFbnjtiS74ryImGlGwcYxgG4z/Qqv6NltJgkvw="
     keep-history: true
     local-dir: ./public
-    repo: git@github.com:front10/landing-page-book.git
+    repo: front10/landing-page-book
     target-branch: gh-pages
     on:
      branch: master

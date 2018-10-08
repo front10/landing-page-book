@@ -49,7 +49,6 @@ import '../src/stories/components/link';
 import '../src/stories/components/textBox';
 
 //Pages
-import '../src/stories/pages/front10';
 import '../src/stories/pages/webpack';
 import '../src/stories/pages/react';
 import '../src/stories/pages/graphql';

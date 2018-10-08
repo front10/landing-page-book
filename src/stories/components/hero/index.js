@@ -37,7 +37,7 @@ stories.addWithJSX(
         image={text('Image', 'https://c1.staticflickr.com/2/1845/43895099105_7329ee6bba_c.jpg')}
         opacity={number('Opacity', 1)}
         parallaxOffset={number('Parallax offset', 0)}
-        overlayColor={color('Overlay color', '#373D45', 'GROUP-ID1')}
+        overlayColor={color('Overlay color', '#373D45')}
         minHeight={text('Min height', '100vh')}
         header={text('Header', 'Landing Page Book')}
         subHeader={text('Sub header', 'React components to build!')}
@@ -65,7 +65,7 @@ stories.addWithJSX(
         image={text('Image', 'https://front10.com/img/header-bg.jpg')}
         opacity={number('Opacity', 1)}
         parallaxOffset={number('Parallax offset', 0)}
-        overlayColor={color('Overlay color', '#373D45', 'GROUP-ID1')}
+        overlayColor={color('Overlay color', '#373D45')}
         minHeight={text('Min height', '100vh')}
         particlesParams={particles}
       >

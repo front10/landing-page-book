@@ -1,15 +1,15 @@
 :root {
-    --CodeMirror__lines_backgroundColor: #fff;
-    --CodeMirror__header_with: 100%;
-    --CodeMirror__header_height: 45px;
-    --CodeMirror__header_backgroundColor: #dcdcdc;
-    --CodeMirror__footer_with: 100%;
-    --CodeMirror__footer_height: 15px;
-    --CodeMirror__footer_backgroundColor: #dcdcdc;
-    --CodeMirror__header_copybtn_margin: 10px -10px 0 0;
-    --CodeMirror__header_deletebtn_margin: 10px 0 0 0;
-    --CodeMirror__height: 250px;
-    --CodeMirror__font_family: Lato;
+  --CodeMirror__header_with: 100%;
+  --CodeMirror__header_height: 45px;
+  --CodeMirror__header_backgroundColor: #304148;
+  --CodeMirror__header_color: #fed136;
+  --CodeMirror__footer_with: 100%;
+  --CodeMirror__footer_height: 15px;
+  --CodeMirror__footer_backgroundColor: #304148;
+  --CodeMirror__header_copybtn_margin: 10px -10px 0 0;
+  --CodeMirror__header_deletebtn_margin: 10px 0 0 0;
+  --CodeMirror__height: 250px;
+  --CodeMirror__font_family: Lato;
 }
 
 @import '~codemirror/lib/codemirror.css';
@@ -19,30 +19,33 @@
 @import '../NavbarNav/style.scss';
 @import '../Button/style.scss';
 .CodeMirror__header {
-    width: var(--CodeMirror__header_with);
-    height: var(--CodeMirror__header_height);
-    background-color: var(--CodeMirror__header_backgroundColor) !important;
+  width: var(--CodeMirror__header_with);
+  height: var(--CodeMirror__header_height);
+  background-color: var(--CodeMirror__header_backgroundColor) !important;
+  button {
+    color: var(--CodeMirror__header_color);
+  }
 }
 
 .CodeMirror__footer {
-    width: var(--CodeMirror__footer_with);
-    height: var(--CodeMirror__footer_height);
-    background-color: var(--CodeMirror__footer_backgroundColor) !important;
+  width: var(--CodeMirror__footer_with);
+  height: var(--CodeMirror__footer_height);
+  background-color: var(--CodeMirror__footer_backgroundColor) !important;
 }
 
 .CodeMirror__header_copybtn {
-    margin: var(--CodeMirror__header_copybtn_margin);
+  margin: var(--CodeMirror__header_copybtn_margin);
 }
 
 .CodeMirror__header_deletebtn {
-    margin: var(--CodeMirror__header_deletebtn_margin);
+  margin: var(--CodeMirror__header_deletebtn_margin);
 }
 
 .CodeMirror {
-    height: var(--CodeMirror__height) !important;
+  height: var(--CodeMirror__height) !important;
 }
 
 .CodeMirror_btn {
-    font-weight: 400;
-    background-color: transparent;
+  font-weight: 400;
+  background-color: transparent;
 }

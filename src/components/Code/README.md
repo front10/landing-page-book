@@ -56,13 +56,13 @@ import '@front10/landing-page-book/dist/components/Code/style.css';
 
 | </br>Name                               | </br>Summary                          | </br>Default     |
 | --------------------------------------- | ------------------------------------- | ---------------- |
-| --CodeMirror\_\_lines_backgroundColor   | Code's lines background color         | `#fff`           |
 | --CodeMirror\_\_header_with             | Code's header width                   | `100%`           |
 | --CodeMirror\_\_header_height           | Code's header height                  | `45px`           |
-| --CodeMirror\_\_header_backgroundColor  | Code's header background color        | `#dcdcdc`        |
+| --CodeMirror\_\_header_backgroundColor  | Code's header background color        | `#304148`        |
+| --CodeMirror\_\_header_color            | Color from header's buttons           | `#fed136`        |
 | --CodeMirror\_\_footer_with             | Code's footer width                   | `100%`           |
 | --CodeMirror\_\_footer_height           | Code's footer height                  | `15px`           |
-| --CodeMirror\_\_footer_backgroundColor  | Code's footer bacground color         | `#dcdcdc`        |
+| --CodeMirror\_\_footer_backgroundColor  | Code's footer bacground color         | `#304148`        |
 | --CodeMirror\_\_header_copybtn_margin   | Margin of copy button in header       | `10px -10px 0 0` |
 | --CodeMirror\_\_header_deletebtn_margin | Margin of clear code button in header | `10px 0 0 0`     |
 | --CodeMirror\_\_height                  | Height of Code                        | `250px`          |

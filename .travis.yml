@@ -13,10 +13,9 @@ notifications:
 jobs:
   include:
     - stage: Installing dependencies
-      script: npm install    
-    - stage: Build Code     
-      script: npm run build-storybook      
+      script: npm install           
 deploy:
+  before_deploy: npm run build-storybook
   provider: pages
   local-dir: public
   target-branch: gh-pages

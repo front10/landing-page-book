@@ -22,7 +22,7 @@ jobs:
       - npm run deploy
 env:
   global:
-    - GH_TOKEN: "8394b3149797c253bb3f36c3673ef6f6557c08fe"
+    - GH_TOKEN: "dfdb5abe265beb6832cb1b8457b4bbef46d4b8b9"
 addons:
   browserstack:
     username: "yoandrycollazo1"

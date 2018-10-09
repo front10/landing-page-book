@@ -21,6 +21,7 @@ jobs:
       - bash ./scripts/travis-deploy.sh
 env:
   global:
+  - GITHUB_REPO: "front10/landing-page-book"
   - secure: "uadkT2BZ77kM2QS76o6wyfGZQyOu5oSYUe8I4DdiMSlLBcePee3V/TzbaH1Bti2Cm/kSlOCBvexKdT7I0pYjAcHPHuVqRl4RrY2Oabs5X4BOVqSGiu/snmwVmOv8MMUzt+CQ00PRFbFCQ1KbTUdgCFLLJcLn+45hzb7MsAj22RLyvqOUQVU4UpdpDzNYn4NUZ6S7Uy8tIGBrbVNPhH8lvi+3HA6ktTaJO9rVnjNV7eSSv7n+htadvAxVhq/lRQQooDd4KlPcPd6lNenP3VBzxINq8l+q0EnVED3xyVNFS/hOiOiXAQB078Jqcel5kAXc5wolN7IirqlqDzEIGsRFI8NkA7C1bXZf9Gdllv+tujKZhWZDDTWtklBjlsfB7vHnGsdkoPy/6PHs9BaCFM8swAxqaSDpz/GtZusRr6v8gVhVe4pvB3JiXjWBz4TkoUdr+Ih7s8FnVSSU5ljPp+cDWCXn5JmhhVBbTiXgJ86utgXs07nAO1QmiFuNWHnEB+qeXWxwhKxTOke/iTTur4oAabxcV5XcP/63A9zYB1XCmXiNVd/XztGcU5l8gAr6fmqhTBEODi14vWtAyD3SHW7Z2l8hwRFFeBNdsG8ZX7EsV4HjFEwWXEYKat5Ryb00RXXbT/aYWd5hpPqfsIpy3KVjdZWi3rzOhCEP1g6CgIh+51o="
 addons:
   browserstack:

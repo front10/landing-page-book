@@ -9,7 +9,13 @@ echo "Starting to update gh-pages\n"
 git config --global user.email $GIT_EMAIL
 git config --global user.name $GIT_NAME
 
-npm run deploy &&
+# deploy
+cd public
+git init
+git add .
+git commit -m "Deploy to Github Pages"
+git push --force --quiet "https://${GH_TOKEN}@$github.com/${GITHUB_REPO}.git" master:gh-pages > /dev/null 2>&1
+
 
 echo "Done updating gh-pages\n"
 

@@ -33,7 +33,6 @@ stories.addWithJSX(
         languageCode={select('Language', langoptions, 'javascript')}
         readOnly={boolean('Read Only', false)}
         lineNumbers={boolean('Show line numbers', true)}
-        bgColorDark={boolean('Background color dark', false)}
         showheader={boolean('Show header', true)}
         showfooter={boolean('Show footer', true)}
         updateCode={() => {}}

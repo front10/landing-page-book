@@ -50,6 +50,7 @@ import '@front10/landing-page-book/dist/components/Code/style.css';
 | code         | `String`  | Code to show on component, Default `Js code example`                                |
 | theme        | `String`  | Theme of code, Default `"idea"`                                                     |
 | languageCode | `String`  | language in which the code is written to embellish the syntax, Default `javascript` |
+| codeLink     | `String`  | Link to code, ex: CodeSandbox, CodePen. Default `""`                                |
 | updateCode   | `func`    | Function to handle the change made in the code.                                     |
 
 ## Theming variables

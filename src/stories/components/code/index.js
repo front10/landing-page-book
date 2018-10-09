@@ -35,6 +35,7 @@ stories.addWithJSX(
         lineNumbers={boolean('Show line numbers', true)}
         showheader={boolean('Show header', true)}
         showfooter={boolean('Show footer', true)}
+        codeLink={text('Code link', 'https://codesandbox.io/s/pmjvk5wl27')}
         updateCode={() => {}}
       />
     </ThemeSelector>

@@ -736,11 +736,15 @@ ol.progtrckr li.progtrckr-done:hover:before {
   font-size: var(--Button-fontSize);
   padding: var(--Button-padding); }
 
+a[disabled] {
+  pointer-events: none; }
+
 .CodeMirror__header {
   width: var(--CodeMirror__header_with);
   height: var(--CodeMirror__header_height);
   background-color: var(--CodeMirror__header_backgroundColor) !important; }
-  .CodeMirror__header button {
+  .CodeMirror__header button,
+  .CodeMirror__header a {
     color: var(--CodeMirror__header_color); }
 
 .CodeMirror__footer {

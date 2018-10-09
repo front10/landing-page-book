@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar';
 import NavbarNav from '../NavbarNav/NavbarNav';
 import Icon from '../Icon/Icon';
 import Button from '../Button/Button';
+import Link from '../Link/Link';
 
 /* eslint-disable */
 let CodeMirror = null;
@@ -120,7 +121,7 @@ class Code extends React.Component {
       scopied,
       sshowfooter
     } = this.state;
-    const { theme } = this.props;
+    const { theme, codeLink } = this.props;
     const options = {
       lineNumbers: slineNumbers,
       readOnly: sreadOnly,
@@ -132,6 +133,13 @@ class Code extends React.Component {
         {sshowheader && (
           <Navbar className="CodeMirror__header">
             <NavbarNav alignItems="right">
+              {codeLink && (
+                <Button className="CodeMirror_btn">
+                  <Link href={codeLink} target="_blank" tooltip="Test code">
+                    <Icon icon="fa fa-codepen" role="link" />
+                  </Link>
+                </Button>
+              )}
               <CopyToClipboard text={scode} onCopy={this.copyToClipboard}>
                 <Button
                   onClick={this.copyToClipboard}
@@ -174,6 +182,7 @@ Code.propTypes = {
   code: PropTypes.string,
   languageCode: PropTypes.string,
   theme: PropTypes.string,
+  codeLink: PropTypes.string,
   updateCode: PropTypes.func
 };
 
@@ -183,6 +192,7 @@ Code.defaultProps = {
     'tps://gitlab.com/front10-devs/landing-page-book"\n};',
   languageCode: 'javascript',
   theme: 'oceanic-next',
+  codeLink: '',
   readOnly: false,
   lineNumbers: true,
   showheader: true,

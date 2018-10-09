@@ -21,7 +21,8 @@ jobs:
       if: branch = master
       before_script: npm run build-storybook
       script:
-      - bash ./scripts/travis-deploy.sh
+      - git config --global user.email systems@front10.com && git config --global user.name "front10-circleci"
+      - npm run deploy
 env:
   global:
   - GH_USER: "front10"

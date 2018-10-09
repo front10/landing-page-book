@@ -33,9 +33,9 @@ stories.addWithJSX(
         languageCode={select('Language', langoptions, 'javascript')}
         readOnly={boolean('Read Only', false)}
         lineNumbers={boolean('Show line numbers', true)}
-        bgColorDark={boolean('Background color dark', false)}
         showheader={boolean('Show header', true)}
         showfooter={boolean('Show footer', true)}
+        codeLink={text('Code link', 'https://codesandbox.io/s/pmjvk5wl27')}
         updateCode={() => {}}
       />
     </ThemeSelector>

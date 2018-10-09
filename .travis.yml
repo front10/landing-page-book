@@ -13,12 +13,12 @@ notifications:
 jobs:
   include:
     - stage: Installing dependencies
-      script: npm install          
-    - stage: Deploy Code
-      if: branch = master
-      before_script: npm run build-storybook
+      script: npm install    
+    - stage: Deploy Code     
+      before_script: 
+        - npm run build-storybook
+        - git config --global user.email "systems@front10.com" && git config --global user.name "front10-circleci"
       script:
-      - git config --global user.email "systems@front10.com" && git config --global user.name "front10-circleci"
       - npm run deploy
 env:
   global:

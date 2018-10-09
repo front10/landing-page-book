@@ -5,6 +5,7 @@ import Navbar from '../Navbar/Navbar';
 import NavbarNav from '../NavbarNav/NavbarNav';
 import Icon from '../Icon/Icon';
 import Button from '../Button/Button';
+import Link from '../Link/Link';
 
 /* eslint-disable */
 let CodeMirror = null;
@@ -30,23 +31,14 @@ class Code extends React.Component {
   }
 
   componentWillMount() {
-    const {
-      code,
-      readOnly,
-      languageCode,
-      lineNumbers,
-      showheader,
-      showfooter,
-      bgColorDark
-    } = this.props;
+    const { code, readOnly, languageCode, lineNumbers, showheader, showfooter } = this.props;
     this.setState({
       scode: code,
       sreadOnly: readOnly,
       slanguageCode: languageCode,
       slineNumbers: lineNumbers,
       sshowheader: showheader,
-      sshowfooter: showfooter,
-      sbgColorDark: bgColorDark
+      sshowfooter: showfooter
     });
   }
 
@@ -60,15 +52,7 @@ class Code extends React.Component {
   }
 
   onUpdate(prevProps) {
-    const {
-      readOnly,
-      lineNumbers,
-      bgColorDark,
-      languageCode,
-      code,
-      showheader,
-      showfooter
-    } = this.props;
+    const { readOnly, lineNumbers, languageCode, code, showheader, showfooter } = this.props;
 
     if (prevProps.readOnly !== readOnly) {
       this.setState({
@@ -79,9 +63,6 @@ class Code extends React.Component {
       this.setState({
         slineNumbers: lineNumbers
       });
-    }
-    if (prevProps.bgColorDark !== bgColorDark) {
-      this.setState({ sbgColorDark: bgColorDark });
     }
     if (prevProps.languageCode !== languageCode) {
       this.setState({ slanguageCode: languageCode });
@@ -136,12 +117,11 @@ class Code extends React.Component {
       slanguageCode,
       slineNumbers,
       sshowheader,
-      sbgColorDark,
       scode,
       scopied,
       sshowfooter
     } = this.state;
-    const { theme } = this.props;
+    const { theme, codeLink } = this.props;
     const options = {
       lineNumbers: slineNumbers,
       readOnly: sreadOnly,
@@ -151,8 +131,15 @@ class Code extends React.Component {
     return (
       <div>
         {sshowheader && (
-          <Navbar className={`${sbgColorDark ? 'CodeMirror__header-dark' : 'CodeMirror__header'}`}>
+          <Navbar className="CodeMirror__header">
             <NavbarNav alignItems="right">
+              {codeLink && (
+                <Button className="CodeMirror_btn">
+                  <Link href={codeLink} target="_blank" tooltip="Test code">
+                    <Icon icon="fa fa-codepen" role="link" />
+                  </Link>
+                </Button>
+              )}
               <CopyToClipboard text={scode} onCopy={this.copyToClipboard}>
                 <Button
                   onClick={this.copyToClipboard}
@@ -175,23 +162,19 @@ class Code extends React.Component {
         {CodeMirror && (
           <CodeMirror
             ref="editor"
-            className={sbgColorDark ? 'CodeMirror__bgColor-dark' : ''}
             value={scode}
             onChange={this.updateCode}
             options={options}
             autoFocus
           />
         )}
-        {sshowfooter && (
-          <Navbar className={sbgColorDark ? 'CodeMirror__header-dark' : 'CodeMirror__header'} />
-        )}
+        {sshowfooter && <Navbar className="CodeMirror__header" />}
       </div>
     );
   }
 }
 
 Code.propTypes = {
-  bgColorDark: PropTypes.bool,
   readOnly: PropTypes.bool,
   lineNumbers: PropTypes.bool,
   showheader: PropTypes.bool,
@@ -199,6 +182,7 @@ Code.propTypes = {
   code: PropTypes.string,
   languageCode: PropTypes.string,
   theme: PropTypes.string,
+  codeLink: PropTypes.string,
   updateCode: PropTypes.func
 };
 
@@ -206,9 +190,9 @@ Code.defaultProps = {
   code:
     'const component = {\n\tname: "react-code",\n\tauthor: "front10-devs",\n\trepo: "ht' +
     'tps://gitlab.com/front10-devs/landing-page-book"\n};',
-  bgColorDark: false,
   languageCode: 'javascript',
-  theme: 'idea',
+  theme: 'oceanic-next',
+  codeLink: '',
   readOnly: false,
   lineNumbers: true,
   showheader: true,

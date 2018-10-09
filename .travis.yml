@@ -13,20 +13,15 @@ notifications:
 jobs:
   include:
     - stage: Installing dependencies
-      script: npm install  
-    - stage: Test code
-      script: npm run eslint 
-      script: npm run test -- -u       
-    - stage: Deploy Code
-      if: branch = master
-      before_script: npm run build-storybook
+      script: npm install    
+    - stage: Deploy Code     
+      before_script: 
+        - npm run build-storybook
       script:
       - bash ./scripts/travis-deploy.sh
 env:
   global:
-  - GH_USER: "front10"
-  - GITHUB_REPO: "landing-page-book"
-  - secure: "uadkT2BZ77kM2QS76o6wyfGZQyOu5oSYUe8I4DdiMSlLBcePee3V/TzbaH1Bti2Cm/kSlOCBvexKdT7I0pYjAcHPHuVqRl4RrY2Oabs5X4BOVqSGiu/snmwVmOv8MMUzt+CQ00PRFbFCQ1KbTUdgCFLLJcLn+45hzb7MsAj22RLyvqOUQVU4UpdpDzNYn4NUZ6S7Uy8tIGBrbVNPhH8lvi+3HA6ktTaJO9rVnjNV7eSSv7n+htadvAxVhq/lRQQooDd4KlPcPd6lNenP3VBzxINq8l+q0EnVED3xyVNFS/hOiOiXAQB078Jqcel5kAXc5wolN7IirqlqDzEIGsRFI8NkA7C1bXZf9Gdllv+tujKZhWZDDTWtklBjlsfB7vHnGsdkoPy/6PHs9BaCFM8swAxqaSDpz/GtZusRr6v8gVhVe4pvB3JiXjWBz4TkoUdr+Ih7s8FnVSSU5ljPp+cDWCXn5JmhhVBbTiXgJ86utgXs07nAO1QmiFuNWHnEB+qeXWxwhKxTOke/iTTur4oAabxcV5XcP/63A9zYB1XCmXiNVd/XztGcU5l8gAr6fmqhTBEODi14vWtAyD3SHW7Z2l8hwRFFeBNdsG8ZX7EsV4HjFEwWXEYKat5Ryb00RXXbT/aYWd5hpPqfsIpy3KVjdZWi3rzOhCEP1g6CgIh+51o="
+    - secure: "yRC/1a/wuzEn5mNQbskKuaagoYxmiasFBjy2bxw05iXnfBH2AN1ZHz9Gq9Mekw0/BePiIdQqcJTFvEDd/EC8YEkI7y54HCUe4vtV5vbL4Uur+G4q5vv7PbHQnsnARHTqqzIn7bG7zl0Zb/u/MuEae/DpQEEKbKLx/8CIA7bPl2L0mLccss57WtZhbfCgVzZSHO/D3bZPFAmqk058qT75CFpt22FY+IgIuWFNcUnBMg9RfgdgUTv4T8syB4G4AL6Ij3qm4wKYL+Fy9kcA3o6Y6Wlmp+UNs+yZjIML5AM0+KJ4JitQilnBJbu2+4CTWMUYa0H1RjAHyoSPfkD8/WvN3bsrGaWOrZTeKWEua6NI1JwQ8ebEmctqz6tkHRBB260NcQEVjiacbjRq55Wro4/sG6wiHkXx56Ilvu7Q7pv1fiNRpfyzp8IKeEh1PRkidqMuO+zvELQaC8uFXLWy0ZNm/dJrg075n3MQh/nKSKctlRCts1sfLxs9YnYqnno23E7Q/UZnvLY87w3DJU+xcB+ERTlzbAMkyqtwOnkomsN0d15luHR8VdkLI08InY1JOOAqWeJ2Xm8MV915dAyb5QN49nARRoSZLD+A+bi4rPVnyVLZUoHWLNJNYCNhHMKH26clFK4UCGNs4mOKk0nCxq9szqYb2nSvSLSvRsXkj6Fptmw="
 addons:
   browserstack:
     username: "yoandrycollazo1"

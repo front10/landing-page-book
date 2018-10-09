@@ -6,29 +6,10 @@ if [[ $TRAVIS_BRANCH == "master" && $TRAVIS_PULL_REQUEST == "false" ]]; then
 
 echo "Starting to update gh-pages\n"
 
-git config --global user.email $GH_EMAIL
-git config --global user.name $GH_NAME
-remote=$(git config remote.origin.url)
-git clone $remote
+git config --global user.email $GIT_EMAIL
+git config --global user.name $GIT_NAME
 
-cd landing-page-book
-
-git checkout --orphan gh-pages
-
-git rm -rf --cached . &&
-npm install &&
-npm run build-storybook &&  
-
-find . | grep -v "public" | grep -v ".git"| grep -v "."| grep -v ".." | xargs rm -rf &&
-
-mv public/* . &&
-
-rm -rf public &&
-
-git add -A .
-git commit -m "Travis build $TRAVIS_BUILD_NUMBER"
-
-git push --force --quiet origin gh-pages
+npm run deploy &&
 
 echo "Done updating gh-pages\n"
 

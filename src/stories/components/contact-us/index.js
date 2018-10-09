@@ -5,7 +5,7 @@ import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
-import { ContactUs } from '../../../components';
+import { ContactUs, Column } from '../../../components';
 import Readme from '../../../components/ContactUs/README.md';
 
 setAddon(JSXAddon);
@@ -17,36 +17,38 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
-      <ContactUs
-        showText={boolean('Show text', false)}
-        showPlaceholder={boolean('Show placeholder', true)}
-        loading={boolean('Sending', false)}
-        name={text('Name', 'John')}
-        mail={text('Email', 'john.email@domain.com')}
-        phone={text('Phone', '2 578 1545')}
-        message={text('Message', 'This is my message')}
-        nameText={text('Name text', 'Your Name')}
-        mailText={text('Email text', 'Your email')}
-        messageText={text('Message text', 'Your Message')}
-        phoneText={text('Phone text', 'Your Phone')}
-        submitButtonText={text('Submit text', 'Submit')}
-        submitButtonAlign={select(
-          'Submit align',
-          {
-            center: 'center',
-            left: 'left',
-            right: 'right'
-          },
-          'center'
-        )}
-        apiUrl={text(
-          'Api url',
-          'https://maker.ifttt.com/trigger/front10_contactform/with/key/dFOibtTrDh8pCZ9laeYno'
-        )}
-        onSubmit={() => {}}
-        onApiSuccess={() => {}}
-        onApiFail={() => {}}
-      />
+      <Column className="col-sm-8 col-md-6 col-lg-4">
+        <ContactUs
+          showText={boolean('Show text', false)}
+          showPlaceholder={boolean('Show placeholder', true)}
+          loading={boolean('Sending', false)}
+          name={text('Name value', '')}
+          mail={text('Email value', '')}
+          phone={text('Phone value', '')}
+          message={text('Message value', '')}
+          nameText={text('Name placeholder', 'Your Name')}
+          mailText={text('Email placeholder', 'Your email')}
+          messageText={text('Message placeholder', 'Your Message')}
+          phoneText={text('Phone placeholder', 'Your Phone')}
+          submitButtonText={text('Submit placeholder', 'Submit')}
+          submitButtonAlign={select(
+            'Submit align',
+            {
+              center: 'center',
+              left: 'left',
+              right: 'right'
+            },
+            'center'
+          )}
+          apiUrl={text(
+            'Api url',
+            'https://maker.ifttt.com/trigger/front10_contactform/with/key/dFOibtTrDh8pCZ9laeYno'
+          )}
+          onSubmit={() => {}}
+          onApiSuccess={() => {}}
+          onApiFail={() => {}}
+        />
+      </Column>
     </ThemeSelector>
   )),
   jsxConfig

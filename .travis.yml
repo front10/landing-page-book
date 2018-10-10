@@ -18,6 +18,7 @@ jobs:
       if: type = pull_request
       script: npm run eslint 
       script: npm run test -- -u        
+      script: npm run test:badge        
 before_deploy: 
   - npm run build-storybook
 deploy:

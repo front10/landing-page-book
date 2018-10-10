@@ -32,7 +32,7 @@ describe('BrowserSupport', () => {
     });
 
     it('always renders a div', () => {
-      const divs = browserSupport().find('table');
+      const divs = browserSupport().find('div');
 
       expect(divs.length).toBeGreaterThan(0);
     });

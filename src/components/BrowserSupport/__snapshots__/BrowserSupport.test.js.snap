@@ -125,13 +125,7 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <table
-                    class="Browser"
-                  >
-                    <tbody>
-                      <tr />
-                    </tbody>
-                  </table>
+                  <div />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -255,13 +249,7 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <table
-                  class="Browser"
-                >
-                  <tbody>
-                    <tr />
-                  </tbody>
-                </table>
+                <div />
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -376,79 +364,7 @@ ReactWrapper {
           "actualDuration": 0,
           "actualStartTime": -1,
           "alternate": null,
-          "child": FiberNode {
-            "_debugID": 52,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": null,
-            "child": FiberNode {
-              "_debugID": 53,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": null,
-              "child": null,
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": Array [],
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": Array [],
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": <tr />,
-              "tag": 7,
-              "treeBaseDuration": 0,
-              "type": "tr",
-              "updateQueue": null,
-            },
-            "childExpirationTime": 0,
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "children": <tr />,
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "children": <tr />,
-            },
-            "ref": null,
-            "return": [Circular],
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": <tbody>
-              <tr />
-            </tbody>,
-            "tag": 7,
-            "treeBaseDuration": 0,
-            "type": "tbody",
-            "updateQueue": null,
-          },
+          "child": null,
           "childExpirationTime": 0,
           "effectTag": 0,
           "expirationTime": 0,
@@ -458,34 +374,22 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": <tbody>
-              <tr />
-            </tbody>,
-            "className": "Browser",
+            "children": Array [],
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": <tbody>
-              <tr />
-            </tbody>,
-            "className": "Browser",
+            "children": Array [],
           },
           "ref": null,
           "return": [Circular],
           "selfBaseDuration": 0,
           "sibling": null,
-          "stateNode": <table
-            class="Browser"
-          >
-            <tbody>
-              <tr />
-            </tbody>
-          </table>,
+          "stateNode": <div />,
           "tag": 7,
           "treeBaseDuration": 0,
-          "type": "table",
+          "type": "div",
           "updateQueue": null,
         },
         "childExpirationTime": 0,
@@ -617,13 +521,7 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <table
-                    class="Browser"
-                  >
-                    <tbody>
-                      <tr />
-                    </tbody>
-                  </table>
+                  <div />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -747,13 +645,7 @@ ReactWrapper {
             "sibling": null,
             "stateNode": Object {
               "containerInfo": <div>
-                <table
-                  class="Browser"
-                >
-                  <tbody>
-                    <tr />
-                  </tbody>
-                </table>
+                <div />
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -899,52 +791,17 @@ ReactWrapper {
     },
     "ref": null,
     "rendered": Object {
-      "instance": <table
-        class="Browser"
-      >
-        <tbody>
-          <tr />
-        </tbody>
-      </table>,
+      "instance": <div />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": <tbody>
-          <tr />
-        </tbody>,
-        "className": "Browser",
+        "children": Array [],
       },
       "ref": null,
       "rendered": Array [
-        Object {
-          "instance": <tbody>
-            <tr />
-          </tbody>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": <tr />,
-          },
-          "ref": null,
-          "rendered": Array [
-            Object {
-              "instance": <tr />,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [],
-              },
-              "ref": null,
-              "rendered": Array [
-                Array [],
-              ],
-              "type": "tr",
-            },
-          ],
-          "type": "tbody",
-        },
+        Array [],
       ],
-      "type": "table",
+      "type": "div",
     },
     "type": [Function],
   },
@@ -1051,13 +908,7 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <table
-                      class="Browser"
-                    >
-                      <tbody>
-                        <tr />
-                      </tbody>
-                    </table>
+                    <div />
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1181,13 +1032,7 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <table
-                    class="Browser"
-                  >
-                    <tbody>
-                      <tr />
-                    </tbody>
-                  </table>
+                  <div />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1302,79 +1147,7 @@ ReactWrapper {
             "actualDuration": 0,
             "actualStartTime": -1,
             "alternate": null,
-            "child": FiberNode {
-              "_debugID": 52,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": null,
-              "child": FiberNode {
-                "_debugID": 53,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": [Circular],
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": null,
-                "child": null,
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "expirationTime": 0,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": Array [],
-                },
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "children": Array [],
-                },
-                "ref": null,
-                "return": [Circular],
-                "selfBaseDuration": 0,
-                "sibling": null,
-                "stateNode": <tr />,
-                "tag": 7,
-                "treeBaseDuration": 0,
-                "type": "tr",
-                "updateQueue": null,
-              },
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": <tr />,
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": <tr />,
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": <tbody>
-                <tr />
-              </tbody>,
-              "tag": 7,
-              "treeBaseDuration": 0,
-              "type": "tbody",
-              "updateQueue": null,
-            },
+            "child": null,
             "childExpirationTime": 0,
             "effectTag": 0,
             "expirationTime": 0,
@@ -1384,34 +1157,22 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": <tbody>
-                <tr />
-              </tbody>,
-              "className": "Browser",
+              "children": Array [],
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": <tbody>
-                <tr />
-              </tbody>,
-              "className": "Browser",
+              "children": Array [],
             },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
-            "stateNode": <table
-              class="Browser"
-            >
-              <tbody>
-                <tr />
-              </tbody>
-            </table>,
+            "stateNode": <div />,
             "tag": 7,
             "treeBaseDuration": 0,
-            "type": "table",
+            "type": "div",
             "updateQueue": null,
           },
           "childExpirationTime": 0,
@@ -1543,13 +1304,7 @@ ReactWrapper {
                 "sibling": null,
                 "stateNode": Object {
                   "containerInfo": <div>
-                    <table
-                      class="Browser"
-                    >
-                      <tbody>
-                        <tr />
-                      </tbody>
-                    </table>
+                    <div />
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1673,13 +1428,7 @@ ReactWrapper {
               "sibling": null,
               "stateNode": Object {
                 "containerInfo": <div>
-                  <table
-                    class="Browser"
-                  >
-                    <tbody>
-                      <tr />
-                    </tbody>
-                  </table>
+                  <div />
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1825,52 +1574,17 @@ ReactWrapper {
       },
       "ref": null,
       "rendered": Object {
-        "instance": <table
-          class="Browser"
-        >
-          <tbody>
-            <tr />
-          </tbody>
-        </table>,
+        "instance": <div />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": <tbody>
-            <tr />
-          </tbody>,
-          "className": "Browser",
+          "children": Array [],
         },
         "ref": null,
         "rendered": Array [
-          Object {
-            "instance": <tbody>
-              <tr />
-            </tbody>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": <tr />,
-            },
-            "ref": null,
-            "rendered": Array [
-              Object {
-                "instance": <tr />,
-                "key": undefined,
-                "nodeType": "host",
-                "props": Object {
-                  "children": Array [],
-                },
-                "ref": null,
-                "rendered": Array [
-                  Array [],
-                ],
-                "type": "tr",
-              },
-            ],
-            "type": "tbody",
-          },
+          Array [],
         ],
-        "type": "table",
+        "type": "div",
       },
       "type": [Function],
     },

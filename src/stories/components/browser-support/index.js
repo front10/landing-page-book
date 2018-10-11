@@ -36,6 +36,10 @@ const browsers = [
   {
     vendor: 'maxthon',
     version: '>= 10'
+  },
+  {
+    vendor: 'flock',
+    version: '>= 11'
   }
 ];
 

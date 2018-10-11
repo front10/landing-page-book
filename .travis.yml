@@ -17,7 +17,11 @@ jobs:
     - stage: Test code
       if: type = pull_request
       script: npm run eslint 
-      script: npm run test -- -u      
+      script: npm run test      
+    - stage: code coveralls and browserstack
+      if: type = pull_request
+      script: npm run test:badge 
+      script: npm run test-browser    
 before_deploy: 
   - npm run build-storybook
 deploy:

@@ -1,3 +1,6 @@
+ <a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/theming.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
+</a>
+
 <h1 style="text-align: center;">
     <a href="http://front10.com/">
         <img src="./assets/images/logo/logo-frton10.jpg" alt="Front10 Component Explorer" width="200">

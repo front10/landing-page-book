@@ -1072,12 +1072,21 @@ body {
   .Navbar .NavbarBrand {
     color: var(--Navbar-color) !important;
     cursor: pointer; }
+    @media (max-width: 768px) {
+      .Navbar .NavbarLink img,
+      .Navbar .Navbar__Toggler img,
+      .Navbar .NavbarBrand img {
+        padding: 0rem 1rem; } }
   .Navbar .NavbarLink:hover {
     color: var(--Navbar--hover-color) !important; }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
-  .Navbar .LanguageSwitcher {
+  .Navbar .LanguageSwitcher, .Navbar .nav-item {
     padding: 0.5rem 1rem; }
+    .Navbar .LanguageSwitcher .flag-select, .Navbar .nav-item .flag-select {
+      padding: .5rem 0rem; }
+      .Navbar .LanguageSwitcher .flag-select .selected--flag--option, .Navbar .nav-item .flag-select .selected--flag--option {
+        padding: 0px; }
 
 .Navbar--transparent {
   background-color: transparent; }
@@ -1338,12 +1347,21 @@ a[disabled] {
   .Navbar .NavbarBrand {
     color: var(--Navbar-color) !important;
     cursor: pointer; }
+    @media (max-width: 768px) {
+      .Navbar .NavbarLink img,
+      .Navbar .Navbar__Toggler img,
+      .Navbar .NavbarBrand img {
+        padding: 0rem 1rem; } }
   .Navbar .NavbarLink:hover {
     color: var(--Navbar--hover-color) !important; }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
-  .Navbar .LanguageSwitcher {
+  .Navbar .LanguageSwitcher, .Navbar .nav-item {
     padding: 0.5rem 1rem; }
+    .Navbar .LanguageSwitcher .flag-select, .Navbar .nav-item .flag-select {
+      padding: .5rem 0rem; }
+      .Navbar .LanguageSwitcher .flag-select .selected--flag--option, .Navbar .nav-item .flag-select .selected--flag--option {
+        padding: 0px; }
 
 .Navbar--transparent {
   background-color: transparent; }

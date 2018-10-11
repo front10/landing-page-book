@@ -11,8 +11,6 @@ class Video extends Component {
       controls,
       volume,
       muted,
-      width,
-      height,
       className,
       onReady,
       onStart,
@@ -34,8 +32,6 @@ class Video extends Component {
           controls={controls}
           volume={volume}
           muted={muted}
-          width={width}
-          height={height}
           onReady={onReady}
           onStart={onStart}
           onPlay={onPlay}
@@ -59,8 +55,6 @@ Video.propTypes = {
   muted: PropTypes.bool,
   volume: PropTypes.number,
   source: PropTypes.string,
-  width: PropTypes.string,
-  height: PropTypes.string,
   className: PropTypes.string,
   onReady: PropTypes.func,
   onStart: PropTypes.func,
@@ -80,8 +74,6 @@ Video.defaultProps = {
   muted: false,
   volume: 1,
   source: '',
-  width: '640px',
-  height: '360px',
   className: '',
   onReady: () => {},
   onStart: () => {},

@@ -12,7 +12,7 @@ import Readme from '../../../components/Team/README.md';
 
 const members = [
   {
-    image: '/images/team/ninja.svg',
+    image: 'images/team/ninja.svg',
     name: 'Leonardo',
     job: 'Ninja',
     summary:
@@ -29,7 +29,7 @@ const members = [
     ]
   },
   {
-    image: '/images/team/bohemian.svg',
+    image: 'images/team/bohemian.svg',
     name: 'Van Gogh',
     job: 'Painter',
     summary:
@@ -46,7 +46,7 @@ const members = [
     ]
   },
   {
-    image: '/images/team/astronaut.svg',
+    image: 'images/team/astronaut.svg',
     name: 'Neil',
     job: 'Astronaut',
     summary:

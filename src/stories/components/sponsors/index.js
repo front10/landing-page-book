@@ -18,19 +18,19 @@ stories.addDecorator(withKnobs);
 
 const sponsors = [
   {
-    image: '/images/sponsors/facebook.png'
+    image: 'images/sponsors/facebook.png'
   },
   {
-    image: '/images/sponsors/google.png'
+    image: 'images/sponsors/google.png'
   },
   {
-    image: '/images/sponsors/twitter.png'
+    image: 'images/sponsors/twitter.png'
   },
   {
-    image: '/images/sponsors/salesforce.png'
+    image: 'images/sponsors/salesforce.png'
   },
   {
-    image: '/images/sponsors/amazon.png'
+    image: 'images/sponsors/amazon.png'
   }
 ];
 

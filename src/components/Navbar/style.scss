@@ -19,6 +19,11 @@
     .NavbarBrand {
         color: var(--Navbar-color) !important;
         cursor: pointer;
+        @media (max-width: 768px) {
+            img{
+                padding: 0rem 1rem;
+            }
+        }
     }
     .NavbarLink:hover {
         color: var(--Navbar--hover-color) !important;
@@ -28,8 +33,14 @@
             max-height: 60px;
         }
     }
-    .LanguageSwitcher {
+    .LanguageSwitcher,.nav-item  {
         padding: 0.5rem 1rem;
+        .flag-select{
+            padding: .5rem 0rem;
+            .selected--flag--option{
+                padding: 0px;
+            }
+        }
     }
 }
 

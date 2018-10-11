@@ -259,6 +259,7 @@ stories.addWithJSX(
             <LanguageSwitcher showArrow={false} />
             <NavbarLink href="https://twitter.com/ycgarrido">
               <Image
+                className="mr-2"
                 rounded
                 width="30"
                 src="https://pbs.twimg.com/profile_images/985858821850415104/88svfp18_400x400.jpg"

@@ -57,7 +57,7 @@ const customLabels = {
 | showArrow        | `Boolean`  | Show or hide arrow expand. Default `true`                                                      |
 | selectedLanguage | `String`   | Selected language. Default `"US"`                                                              |
 | placeholder      | `String`   | Placeholder to show when not selected language. Default `"Language"`                           |
-| languages        | `Array`    | Array of languages to show, an array with countries codes. Default `"[]"`, see example section |
+| languages        | `Array`    | Array of languages to show, an array with countries codes. Default `"[]"`, see example section. The complete list of countries can be found  [here](https://github.com/ekwonye-richard/react-flags-select/blob/master/src/countries.js)|
 | customLabels     | `Object`   | Configure label of languages. Default `"{}"`, see example section                              |
 | onSelect         | `Function` | Called when language selection change. Params `{language}`                                     |
 

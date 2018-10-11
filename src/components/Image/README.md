@@ -37,7 +37,6 @@ import "@front10/landing-page-book/dist/components/Image/style.css";
 | rounded      | `Boolean` | Show circled image. Default `false` |
 | className      | `String` | Class to apply to image. Default `"img-fluid"` |
 | width      | `String` | Image width. Default `undefined` |
-| height      | `String` | Image height. Default `undefined` |
 | alt      | `String` | Image alt. Default `undefined`, this field is required |
 | tooltip      | `String` | Image tooltip. Default `""` |
 | src      | `String`,`Object` | Image source. Default `undefined`, this field is required |

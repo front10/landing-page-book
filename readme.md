@@ -15,8 +15,7 @@
 ## Setup
 
 ```sh
-npm install
-npm start
+npm install --save @front10/landing-page-book
 ```
 
 ## Usage
@@ -46,6 +45,7 @@ class App extends Component {
   }
 }
 ```
+
 <a target="_blank" href="https://codesandbox.io/s/jp0kzqlj29">
   <img alt="Edit Landing page example" src="https://codesandbox.io/static/img/play-codesandbox.svg">
 </a>

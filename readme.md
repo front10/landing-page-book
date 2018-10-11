@@ -14,6 +14,7 @@
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=RTE2VCtMNjNYRVp2aW9qOG1rQkZraUhPa1plTEp4Q3poSmowSXhNR3Qxaz0tLW1BbzZ6OVYzbjR1NnlJNTJ6b1ZUMFE9PQ==--1b0d9055f474643cca6b099912dfd18bfc361869)](https://www.browserstack.com/automate/public-build/RTE2VCtMNjNYRVp2aW9qOG1rQkZraUhPa1plTEp4Q3poSmowSXhNR3Qxaz0tLW1BbzZ6OVYzbjR1NnlJNTJ6b1ZUMFE9PQ==--1b0d9055f474643cca6b099912dfd18bfc361869)
 [![Coverage Status](https://coveralls.io/repos/github/front10/landing-page-book/badge.svg?branch=master)](https://coveralls.io/github/front10/landing-page-book?branch=master)
+[![Build Status](https://travis-ci.com/front10/landing-page-book.svg?branch=master)](https://travis-ci.com/front10/landing-page-book)
 
 ## Setup
 

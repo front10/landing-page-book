@@ -24,7 +24,7 @@ stories.addWithJSX(
             showIcons={boolean('Show icons', true)}
             lat={number('Latitude', 26.5)}
             lng={number('Longitude', -80.2)}
-            locationApiKey={text('Location api key', 'AIzaSyCnbxTadExb8UYwzkBkQ_ITf5gFL_3jaAc')}
+            locationApiKey="AIzaSyCnbxTadExb8UYwzkBkQ_ITf5gFL_3jaAc"
             address={text('Address', '9728 Birchwood St. Navarre, FL 32566')}
             email={text('Email', 'contact@front10.com')}
             phone={text('Phone', '+001 3521 4587')}

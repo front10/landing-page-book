@@ -24,7 +24,7 @@ stories.addWithJSX(
       <Container>
         <Backers
           imageRounded={boolean('Image rounded', true)}
-          imageBordered={boolean('Image border', true)}
+          imageBordered={boolean('Image border', false)}
           imageGray={boolean('Gray', false)}
           backers={backers}
         />

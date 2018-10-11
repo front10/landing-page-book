@@ -27,7 +27,7 @@ stories.addWithJSX(
         disabled={boolean('Disabled', false)}
         showArrow={boolean('Show arrow', true)}
         placeholder={text('Placeholder', 'Language')}
-        selectedLanguage={text('Selected language', 'DE')}
+        selectedLanguage={text('Selected language', 'US')}
         languages={array('Languages', ['US', 'FR', 'ES', 'DE'], ',')}
         customLabels={{
           US: 'English',

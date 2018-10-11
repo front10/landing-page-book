@@ -151,7 +151,7 @@ ReactWrapper {
                       
                     </div>
                     <div
-                      class="card-footer bg-transparent border-0"
+                      class="card-footer bg-transparent border-0 text-left"
                     >
                       0
                       
@@ -309,7 +309,7 @@ ReactWrapper {
                     
                   </div>
                   <div
-                    class="card-footer bg-transparent border-0"
+                    class="card-footer bg-transparent border-0 text-left"
                   >
                     0
                     
@@ -863,7 +863,7 @@ ReactWrapper {
                     
                     
                   </UNDEFINED>,
-                  "className": "card-footer bg-transparent border-0",
+                  "className": "card-footer bg-transparent border-0 text-left",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -878,14 +878,14 @@ ReactWrapper {
                     
                     
                   </UNDEFINED>,
-                  "className": "card-footer bg-transparent border-0",
+                  "className": "card-footer bg-transparent border-0 text-left",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="card-footer bg-transparent border-0"
+                  class="card-footer bg-transparent border-0 text-left"
                 >
                   0
                   
@@ -932,7 +932,7 @@ ReactWrapper {
                   
                 </div>,
                 <div
-                  className="card-footer bg-transparent border-0"
+                  className="card-footer bg-transparent border-0 text-left"
                 >
                   <UNDEFINED>
                     0
@@ -961,7 +961,7 @@ ReactWrapper {
                   
                 </div>,
                 <div
-                  className="card-footer bg-transparent border-0"
+                  className="card-footer bg-transparent border-0 text-left"
                 >
                   <UNDEFINED>
                     0
@@ -992,7 +992,7 @@ ReactWrapper {
                 
               </div>
               <div
-                class="card-footer bg-transparent border-0"
+                class="card-footer bg-transparent border-0 text-left"
               >
                 0
                 
@@ -1259,7 +1259,7 @@ ReactWrapper {
                       
                     </div>
                     <div
-                      class="card-footer bg-transparent border-0"
+                      class="card-footer bg-transparent border-0 text-left"
                     >
                       0
                       
@@ -1417,7 +1417,7 @@ ReactWrapper {
                     
                   </div>
                   <div
-                    class="card-footer bg-transparent border-0"
+                    class="card-footer bg-transparent border-0 text-left"
                   >
                     0
                     
@@ -1721,7 +1721,7 @@ ReactWrapper {
                           
                         </div>
                         <div
-                          class="card-footer bg-transparent border-0"
+                          class="card-footer bg-transparent border-0 text-left"
                         >
                           0
                           
@@ -1879,7 +1879,7 @@ ReactWrapper {
                         
                       </div>
                       <div
-                        class="card-footer bg-transparent border-0"
+                        class="card-footer bg-transparent border-0 text-left"
                       >
                         0
                         
@@ -2170,7 +2170,7 @@ ReactWrapper {
                           
                         </div>
                         <div
-                          class="card-footer bg-transparent border-0"
+                          class="card-footer bg-transparent border-0 text-left"
                         >
                           0
                           
@@ -2328,7 +2328,7 @@ ReactWrapper {
                         
                       </div>
                       <div
-                        class="card-footer bg-transparent border-0"
+                        class="card-footer bg-transparent border-0 text-left"
                       >
                         0
                         
@@ -2908,7 +2908,7 @@ ReactWrapper {
                     
                     
                   </UNDEFINED>,
-                  "className": "card-footer bg-transparent border-0",
+                  "className": "card-footer bg-transparent border-0 text-left",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -2923,14 +2923,14 @@ ReactWrapper {
                     
                     
                   </UNDEFINED>,
-                  "className": "card-footer bg-transparent border-0",
+                  "className": "card-footer bg-transparent border-0 text-left",
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": <div
-                  class="card-footer bg-transparent border-0"
+                  class="card-footer bg-transparent border-0 text-left"
                 >
                   0
                   
@@ -2977,7 +2977,7 @@ ReactWrapper {
                   
                 </div>,
                 <div
-                  className="card-footer bg-transparent border-0"
+                  className="card-footer bg-transparent border-0 text-left"
                 >
                   <UNDEFINED>
                     0
@@ -3006,7 +3006,7 @@ ReactWrapper {
                   
                 </div>,
                 <div
-                  className="card-footer bg-transparent border-0"
+                  className="card-footer bg-transparent border-0 text-left"
                 >
                   <UNDEFINED>
                     0
@@ -3037,7 +3037,7 @@ ReactWrapper {
                 
               </div>
               <div
-                class="card-footer bg-transparent border-0"
+                class="card-footer bg-transparent border-0 text-left"
               >
                 0
                 
@@ -3227,7 +3227,7 @@ ReactWrapper {
                           
                         </div>
                         <div
-                          class="card-footer bg-transparent border-0"
+                          class="card-footer bg-transparent border-0 text-left"
                         >
                           0
                           
@@ -3385,7 +3385,7 @@ ReactWrapper {
                         
                       </div>
                       <div
-                        class="card-footer bg-transparent border-0"
+                        class="card-footer bg-transparent border-0 text-left"
                       >
                         0
                         
@@ -3676,7 +3676,7 @@ ReactWrapper {
                           
                         </div>
                         <div
-                          class="card-footer bg-transparent border-0"
+                          class="card-footer bg-transparent border-0 text-left"
                         >
                           0
                           
@@ -3834,7 +3834,7 @@ ReactWrapper {
                         
                       </div>
                       <div
-                        class="card-footer bg-transparent border-0"
+                        class="card-footer bg-transparent border-0 text-left"
                       >
                         0
                         
@@ -4066,7 +4066,7 @@ ReactWrapper {
             
           </div>
           <div
-            class="card-footer bg-transparent border-0"
+            class="card-footer bg-transparent border-0 text-left"
           >
             0
             
@@ -4090,7 +4090,7 @@ ReactWrapper {
               
             </div>,
             <div
-              className="card-footer bg-transparent border-0"
+              className="card-footer bg-transparent border-0 text-left"
             >
               <UNDEFINED>
                 0
@@ -4138,7 +4138,7 @@ ReactWrapper {
           },
           Object {
             "instance": <div
-              class="card-footer bg-transparent border-0"
+              class="card-footer bg-transparent border-0 text-left"
             >
               0
               
@@ -4160,7 +4160,7 @@ ReactWrapper {
                 
                 
               </UNDEFINED>,
-              "className": "card-footer bg-transparent border-0",
+              "className": "card-footer bg-transparent border-0 text-left",
             },
             "ref": null,
             "rendered": Array [
@@ -4308,7 +4308,7 @@ ReactWrapper {
                         
                       </div>
                       <div
-                        class="card-footer bg-transparent border-0"
+                        class="card-footer bg-transparent border-0 text-left"
                       >
                         0
                         
@@ -4466,7 +4466,7 @@ ReactWrapper {
                       
                     </div>
                     <div
-                      class="card-footer bg-transparent border-0"
+                      class="card-footer bg-transparent border-0 text-left"
                     >
                       0
                       
@@ -5020,7 +5020,7 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                    "className": "card-footer bg-transparent border-0",
+                    "className": "card-footer bg-transparent border-0 text-left",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -5035,14 +5035,14 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                    "className": "card-footer bg-transparent border-0",
+                    "className": "card-footer bg-transparent border-0 text-left",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="card-footer bg-transparent border-0"
+                    class="card-footer bg-transparent border-0 text-left"
                   >
                     0
                     
@@ -5089,7 +5089,7 @@ ReactWrapper {
                     
                   </div>,
                   <div
-                    className="card-footer bg-transparent border-0"
+                    className="card-footer bg-transparent border-0 text-left"
                   >
                     <UNDEFINED>
                       0
@@ -5118,7 +5118,7 @@ ReactWrapper {
                     
                   </div>,
                   <div
-                    className="card-footer bg-transparent border-0"
+                    className="card-footer bg-transparent border-0 text-left"
                   >
                     <UNDEFINED>
                       0
@@ -5149,7 +5149,7 @@ ReactWrapper {
                   
                 </div>
                 <div
-                  class="card-footer bg-transparent border-0"
+                  class="card-footer bg-transparent border-0 text-left"
                 >
                   0
                   
@@ -5416,7 +5416,7 @@ ReactWrapper {
                         
                       </div>
                       <div
-                        class="card-footer bg-transparent border-0"
+                        class="card-footer bg-transparent border-0 text-left"
                       >
                         0
                         
@@ -5574,7 +5574,7 @@ ReactWrapper {
                       
                     </div>
                     <div
-                      class="card-footer bg-transparent border-0"
+                      class="card-footer bg-transparent border-0 text-left"
                     >
                       0
                       
@@ -5878,7 +5878,7 @@ ReactWrapper {
                             
                           </div>
                           <div
-                            class="card-footer bg-transparent border-0"
+                            class="card-footer bg-transparent border-0 text-left"
                           >
                             0
                             
@@ -6036,7 +6036,7 @@ ReactWrapper {
                           
                         </div>
                         <div
-                          class="card-footer bg-transparent border-0"
+                          class="card-footer bg-transparent border-0 text-left"
                         >
                           0
                           
@@ -6327,7 +6327,7 @@ ReactWrapper {
                             
                           </div>
                           <div
-                            class="card-footer bg-transparent border-0"
+                            class="card-footer bg-transparent border-0 text-left"
                           >
                             0
                             
@@ -6485,7 +6485,7 @@ ReactWrapper {
                           
                         </div>
                         <div
-                          class="card-footer bg-transparent border-0"
+                          class="card-footer bg-transparent border-0 text-left"
                         >
                           0
                           
@@ -7065,7 +7065,7 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                    "className": "card-footer bg-transparent border-0",
+                    "className": "card-footer bg-transparent border-0 text-left",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -7080,14 +7080,14 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                    "className": "card-footer bg-transparent border-0",
+                    "className": "card-footer bg-transparent border-0 text-left",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="card-footer bg-transparent border-0"
+                    class="card-footer bg-transparent border-0 text-left"
                   >
                     0
                     
@@ -7134,7 +7134,7 @@ ReactWrapper {
                     
                   </div>,
                   <div
-                    className="card-footer bg-transparent border-0"
+                    className="card-footer bg-transparent border-0 text-left"
                   >
                     <UNDEFINED>
                       0
@@ -7163,7 +7163,7 @@ ReactWrapper {
                     
                   </div>,
                   <div
-                    className="card-footer bg-transparent border-0"
+                    className="card-footer bg-transparent border-0 text-left"
                   >
                     <UNDEFINED>
                       0
@@ -7194,7 +7194,7 @@ ReactWrapper {
                   
                 </div>
                 <div
-                  class="card-footer bg-transparent border-0"
+                  class="card-footer bg-transparent border-0 text-left"
                 >
                   0
                   
@@ -7384,7 +7384,7 @@ ReactWrapper {
                             
                           </div>
                           <div
-                            class="card-footer bg-transparent border-0"
+                            class="card-footer bg-transparent border-0 text-left"
                           >
                             0
                             
@@ -7542,7 +7542,7 @@ ReactWrapper {
                           
                         </div>
                         <div
-                          class="card-footer bg-transparent border-0"
+                          class="card-footer bg-transparent border-0 text-left"
                         >
                           0
                           
@@ -7833,7 +7833,7 @@ ReactWrapper {
                             
                           </div>
                           <div
-                            class="card-footer bg-transparent border-0"
+                            class="card-footer bg-transparent border-0 text-left"
                           >
                             0
                             
@@ -7991,7 +7991,7 @@ ReactWrapper {
                           
                         </div>
                         <div
-                          class="card-footer bg-transparent border-0"
+                          class="card-footer bg-transparent border-0 text-left"
                         >
                           0
                           
@@ -8223,7 +8223,7 @@ ReactWrapper {
               
             </div>
             <div
-              class="card-footer bg-transparent border-0"
+              class="card-footer bg-transparent border-0 text-left"
             >
               0
               
@@ -8247,7 +8247,7 @@ ReactWrapper {
                 
               </div>,
               <div
-                className="card-footer bg-transparent border-0"
+                className="card-footer bg-transparent border-0 text-left"
               >
                 <UNDEFINED>
                   0
@@ -8295,7 +8295,7 @@ ReactWrapper {
             },
             Object {
               "instance": <div
-                class="card-footer bg-transparent border-0"
+                class="card-footer bg-transparent border-0 text-left"
               >
                 0
                 
@@ -8317,7 +8317,7 @@ ReactWrapper {
                   
                   
                 </UNDEFINED>,
-                "className": "card-footer bg-transparent border-0",
+                "className": "card-footer bg-transparent border-0 text-left",
               },
               "ref": null,
               "rendered": Array [

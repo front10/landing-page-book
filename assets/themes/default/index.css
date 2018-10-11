@@ -748,6 +748,9 @@ ol.progtrckr li.progtrckr-done:hover:before {
 a[disabled] {
   pointer-events: none; }
 
+a span {
+  margin: 0px 5px; }
+
 .CodeMirror__header {
   width: var(--CodeMirror__header_with);
   height: var(--CodeMirror__header_height);
@@ -1116,6 +1119,9 @@ a[disabled] {
 
 a[disabled] {
   pointer-events: none; }
+
+a span {
+  margin: 0px 5px; }
 
 :root {
   --LanguageSwitcher-borderRadius: 0px;

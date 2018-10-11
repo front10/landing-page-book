@@ -95,7 +95,7 @@ stories.addWithJSX(
         socialGray={boolean('Social gray', false)}
         socialRounded={boolean('Social rounded', true)}
         socialUrl={text('Social url', 'https://front10.com')}
-        copyright={text('Copyright', 'Front10, Inc')}
+        copyright={text('Copyright', 'Front10, LLC')}
         socials={array('Socials', ['facebook', 'linkedin', 'google', 'twitter'], ',')}
         sections={sections}
       />

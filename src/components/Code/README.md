@@ -71,3 +71,5 @@ import '@front10/landing-page-book/dist/components/Code/style.css';
 | --CodeMirror\_\_header_deletebtn_margin | Margin of clear code button in header | `10px 0 0 0`     |
 | --CodeMirror\_\_height                  | Height of Code                        | `250px`          |
 | --CodeMirror\_\_font_family             | Code's font family                    | `Lato`           |
+| --CodeMirror__Btn-background-color      | Code's buttons background color       | `transparent`    |
+| --CodeMirror__Btn-padding               | Code's buttons padding                | `6px 20px`       |

@@ -4,6 +4,7 @@
     --Section__Subtitle-fontSize: 0.9rem;
     --Section__Subtitle-color: #b5b5b5;
     --Section--gray-backgroundColor: #f8f9fa;
+    --Section--gray-backgroundImage: none;
 }
 
 @import '../Header/style.scss';
@@ -24,4 +25,5 @@
 
 .Section--gray {
     background-color: var(--Section--gray-backgroundColor);
+    background-image: var(--Section--gray-backgroundImage);
 }

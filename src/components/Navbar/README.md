@@ -133,3 +133,4 @@ const onItemClick = ({ item }) => {
 | --Navbar--hover-color     | Hover link color             | `#fed136`                  |
 | --Navbar--backgroundColor | Background color if is fixed | `rgba(250, 250, 250, 0.9)` |
 | --Navbar--boxShadow       | Box shadow if is fixed       | `rgba(0, 0, 0, .124)`      |
+| --Navbar--backgroundImage | Background imagen            | `none`                     |

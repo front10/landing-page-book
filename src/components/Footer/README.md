@@ -157,3 +157,4 @@ const sections = [
 | --Footer\_\_Sections\_\_Header-fontSize   | Font size of sections header in footer | `1.5rem`     |
 | --Footer\_\_Sections\_\_Link-fontSize     | Font size of sections links in footer  | `0.8rem`     |
 | --Footer\_\_Copyright-fontSize            | Font size of copy right in footer      | `0.8rem`     |
+| --Footer-backgroundImage: none;           | Footer background image                | `none`       |

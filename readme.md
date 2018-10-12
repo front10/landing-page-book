@@ -9,7 +9,7 @@
 
 # Landing Page Book
 
-`@front10/landing-page-book` is a kit of landing-page components to be share across the web.
+`@front10/landing-page-book` is a kit of landing-page React components.
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=RTE2VCtMNjNYRVp2aW9qOG1rQkZraUhPa1plTEp4Q3poSmowSXhNR3Qxaz0tLW1BbzZ6OVYzbjR1NnlJNTJ6b1ZUMFE9PQ==--1b0d9055f474643cca6b099912dfd18bfc361869)](https://www.browserstack.com/automate/public-build/RTE2VCtMNjNYRVp2aW9qOG1rQkZraUhPa1plTEp4Q3poSmowSXhNR3Qxaz0tLW1BbzZ6OVYzbjR1NnlJNTJ6b1ZUMFE9PQ==--1b0d9055f474643cca6b099912dfd18bfc361869)

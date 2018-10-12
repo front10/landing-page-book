@@ -6,7 +6,7 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <Hero
     backgroundColor="transparent"
     buttons={Array []}
-    header=""
+    header="AAAAAAAAAAAAAAA"
     image=""
     isCentered={true}
     isFixed={true}
@@ -16,7 +16,7 @@ ShallowWrapper {
     parallaxOffset={0}
     particles={true}
     particlesParams={Object {}}
-    subHeader=""
+    subHeader="BBBBBBBBBB"
     subHeaderPosition="bottom"
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -62,9 +62,20 @@ ShallowWrapper {
             className=""
             fluid={false}
           >
-            
-            
-            
+            <Header
+              borderBottom={false}
+              className="Hero__Header mb-5"
+              type="h1"
+            >
+              AAAAAAAAAAAAAAA
+            </Header>
+            <Header
+              borderBottom={false}
+              className="Hero__SubHeader mb-5"
+              type="h1"
+            >
+              BBBBBBBBBB
+            </Header>
           </Container>
         </div>
       </LazyHero>,
@@ -97,9 +108,20 @@ ShallowWrapper {
               className=""
               fluid={false}
             >
-              
-              
-              
+              <Header
+                borderBottom={false}
+                className="Hero__Header mb-5"
+                type="h1"
+              >
+                AAAAAAAAAAAAAAA
+              </Header>
+              <Header
+                borderBottom={false}
+                className="Hero__SubHeader mb-5"
+                type="h1"
+              >
+                BBBBBBBBBB
+              </Header>
             </Container>
           </div>,
         ],
@@ -157,9 +179,20 @@ ShallowWrapper {
                 className=""
                 fluid={false}
               >
-                
-                
-                
+                <Header
+                  borderBottom={false}
+                  className="Hero__Header mb-5"
+                  type="h1"
+                >
+                  AAAAAAAAAAAAAAA
+                </Header>
+                <Header
+                  borderBottom={false}
+                  className="Hero__SubHeader mb-5"
+                  type="h1"
+                >
+                  BBBBBBBBBB
+                </Header>
               </Container>,
               null,
             ],
@@ -173,9 +206,21 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": Array [
-                  "",
-                  "",
-                  "",
+                  false,
+                  <Header
+                    borderBottom={false}
+                    className="Hero__Header mb-5"
+                    type="h1"
+                  >
+                    AAAAAAAAAAAAAAA
+                  </Header>,
+                  <Header
+                    borderBottom={false}
+                    className="Hero__SubHeader mb-5"
+                    type="h1"
+                  >
+                    BBBBBBBBBB
+                  </Header>,
                   Array [],
                 ],
                 "className": "",
@@ -183,9 +228,35 @@ ShallowWrapper {
               },
               "ref": null,
               "rendered": Array [
-                "",
-                "",
-                "",
+                false,
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "borderBottom": false,
+                    "children": "AAAAAAAAAAAAAAA",
+                    "className": "Hero__Header mb-5",
+                    "type": "h1",
+                  },
+                  "ref": null,
+                  "rendered": "AAAAAAAAAAAAAAA",
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "borderBottom": false,
+                    "children": "BBBBBBBBBB",
+                    "className": "Hero__SubHeader mb-5",
+                    "type": "h1",
+                  },
+                  "ref": null,
+                  "rendered": "BBBBBBBBBB",
+                  "type": [Function],
+                },
               ],
               "type": [Function],
             },
@@ -234,9 +305,20 @@ ShallowWrapper {
               className=""
               fluid={false}
             >
-              
-              
-              
+              <Header
+                borderBottom={false}
+                className="Hero__Header mb-5"
+                type="h1"
+              >
+                AAAAAAAAAAAAAAA
+              </Header>
+              <Header
+                borderBottom={false}
+                className="Hero__SubHeader mb-5"
+                type="h1"
+              >
+                BBBBBBBBBB
+              </Header>
             </Container>
           </div>
         </LazyHero>,
@@ -269,9 +351,20 @@ ShallowWrapper {
                 className=""
                 fluid={false}
               >
-                
-                
-                
+                <Header
+                  borderBottom={false}
+                  className="Hero__Header mb-5"
+                  type="h1"
+                >
+                  AAAAAAAAAAAAAAA
+                </Header>
+                <Header
+                  borderBottom={false}
+                  className="Hero__SubHeader mb-5"
+                  type="h1"
+                >
+                  BBBBBBBBBB
+                </Header>
               </Container>
             </div>,
           ],
@@ -329,9 +422,20 @@ ShallowWrapper {
                   className=""
                   fluid={false}
                 >
-                  
-                  
-                  
+                  <Header
+                    borderBottom={false}
+                    className="Hero__Header mb-5"
+                    type="h1"
+                  >
+                    AAAAAAAAAAAAAAA
+                  </Header>
+                  <Header
+                    borderBottom={false}
+                    className="Hero__SubHeader mb-5"
+                    type="h1"
+                  >
+                    BBBBBBBBBB
+                  </Header>
                 </Container>,
                 null,
               ],
@@ -345,9 +449,21 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": Array [
-                    "",
-                    "",
-                    "",
+                    false,
+                    <Header
+                      borderBottom={false}
+                      className="Hero__Header mb-5"
+                      type="h1"
+                    >
+                      AAAAAAAAAAAAAAA
+                    </Header>,
+                    <Header
+                      borderBottom={false}
+                      className="Hero__SubHeader mb-5"
+                      type="h1"
+                    >
+                      BBBBBBBBBB
+                    </Header>,
                     Array [],
                   ],
                   "className": "",
@@ -355,9 +471,35 @@ ShallowWrapper {
                 },
                 "ref": null,
                 "rendered": Array [
-                  "",
-                  "",
-                  "",
+                  false,
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "borderBottom": false,
+                      "children": "AAAAAAAAAAAAAAA",
+                      "className": "Hero__Header mb-5",
+                      "type": "h1",
+                    },
+                    "ref": null,
+                    "rendered": "AAAAAAAAAAAAAAA",
+                    "type": [Function],
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "class",
+                    "props": Object {
+                      "borderBottom": false,
+                      "children": "BBBBBBBBBB",
+                      "className": "Hero__SubHeader mb-5",
+                      "type": "h1",
+                    },
+                    "ref": null,
+                    "rendered": "BBBBBBBBBB",
+                    "type": [Function],
+                  },
                 ],
                 "type": [Function],
               },

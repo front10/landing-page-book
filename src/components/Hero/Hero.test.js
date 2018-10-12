@@ -16,7 +16,23 @@ describe('Hero', () => {
   };
   describe('Hero', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        isFixed: true,
+        isCentered: true,
+        particles: true,
+        opacity: 0,
+        parallaxOffset: 0,
+        image: '',
+        overlayColor: '#fff',
+        header: 'AAAAAAAAAAAAAAA',
+        subHeader: 'BBBBBBBBBB',
+        subHeaderPosition: 'bottom',
+        minHeight: '100vh',
+        backgroundColor: 'transparent',
+        buttons: [],
+        particlesParams: {},
+        children: null
+      };
       mounted = undefined;
     });
 

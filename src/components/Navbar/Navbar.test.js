@@ -29,5 +29,13 @@ describe('Navbar', () => {
 
       expect(divs.length).toBeGreaterThan(0);
     });
+
+    it('Collapse', () => {
+      navbar()
+        .instance()
+        .collapse();
+
+      expect(navbar().state('collapse')).toBeTruthy();
+    });
   });
 });

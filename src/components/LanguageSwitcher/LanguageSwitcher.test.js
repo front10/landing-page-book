@@ -8,15 +8,19 @@ configure({ adapter: new Adapter() });
 describe('LanguageSwitcher', () => {
   let props;
   let mounted;
+  let lang = '';
   const languageSwitcher = () => {
     if (!mounted) {
       mounted = shallow(<LanguageSwitcher {...props} />);
     }
     return mounted;
   };
+  function changeLanguage(langu) {
+    lang = langu;
+  }
   describe('LanguageSwitcher', () => {
     beforeEach(() => {
-      props = {};
+      props = { onSelect: l => changeLanguage(l) };
       mounted = undefined;
     });
 
@@ -28,6 +32,14 @@ describe('LanguageSwitcher', () => {
       const divs = languageSwitcher().find('div');
 
       expect(divs.length).toBeGreaterThan(0);
+    });
+
+    it('OnSelect', () => {
+      languageSwitcher()
+        .instance()
+        .onSelect('US');
+
+      expect(lang).toMatchObject({ language: 'US' });
     });
   });
 });

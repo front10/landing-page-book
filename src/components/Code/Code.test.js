@@ -47,7 +47,7 @@ describe('Code', () => {
         .instance()
         .copyToClipboard();
 
-      expect(code().state('scopied')).toEqual(true);
+      expect(code().state('scopied')).toBeTruthy();
     });
   });
 });

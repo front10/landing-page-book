@@ -1,6 +1,7 @@
 :root {
     --Navbar-backgroundColor: #383d45;
     --Navbar-color: #b9bfc7;
+    --Navbar-backgroundImage: none;
     --Navbar--hover-color: #fed136;
     --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
     --Navbar--boxShadow: rgba(0, 0, 0, .124);
@@ -14,6 +15,7 @@
 @import '../NavbarLink/style.scss';
 .Navbar {
     background-color: var(--Navbar-backgroundColor);
+    background-image: var(--Navbar-backgroundImage);
     .NavbarLink,
     .Navbar__Toggler,
     .NavbarBrand {

@@ -53,8 +53,17 @@ import '@front10/landing-page-book/dist/components/Button/style.css';
 
 ## Theming variables
 
-| </br>Name             | </br>Summary           | </br>Default       |
-| --------------------- | ---------------------- | ------------------ |
-| --Button-borderRadius | Button's border radius | `0px`              |
-| --Button-fontSize     | Button's font size     | `1rem`             |
-| --Button-padding      | Button's padding       | `0.375rem 0.75rem` |
+| </br>Name                     | </br>Summary                   | </br>Default       |
+| ----------------------------- | ------------------------------ | ------------------ |
+| --Button-borderRadius         | Button's border radius         | `0px`              |
+| --Button-fontSize             | Button's font size             | `1rem`             |
+| --Button-padding              | Button's padding               | `0.375rem 0.75rem` |
+| --Button-textShadow           | Button's text shadow           | `none`             |
+| --Button-backgroundColor      | Button's background color      | `#0062cc`          |
+| --Button-backgroundColorHover | Button's background color hover| `#0062cc`          |
+| --Button-borderColor          | Button's border color          | `#005cbf`          |
+| --Button-boxShadow            | Button's box shadow            | `none`             |
+| --Button-boxShadowHover       | Button's box shadow hover      | `none`             |
+| --Button-border               | Button's border                | `0px`              |
+| --Button-textTransform        | Button's text transform        | `none`             |
+| --Button-textColor            | Button's text color            | `#ffffff`          |

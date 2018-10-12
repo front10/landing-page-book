@@ -1,1 +1,27 @@
 @import '../Card/style.scss';
+
+:root {
+    --Features__CardFooter__Link-padding: none;
+    --Features__CardFooter__Link-box-shadow: none;
+    --Features__CardFooter__Link-background-color: none;
+    --Features__CardFooter__Link-box-shadow-hover: none;
+    --Features__CardFooter__Link-background-color-hover: none;
+    --Features__CardFooter__Link-color: none;
+    --Features__CardFooter__Link-fontSize: none;
+   
+}
+
+.features .card .card-footer a{
+    padding: var(--Features__CardFooter__Link-padding);
+    box-shadow: var(--Features__CardFooter__Link-box-shadow);
+    background-color: var(--Features__CardFooter__Link-background-color);
+    color: var(--Features__CardFooter__Link-color);
+    font-size: var(--Features__CardFooter__Link-fontSize);
+}
+
+.features .card .card-footer a:focus, 
+.features .card .card-footer a:active ,
+.features .card .card-footer a:hover{
+    background-color: var(--Features__CardFooter__Link-background-color-hover) !important;
+    box-shadow: var(--Features__CardFooter__Link-box-shadow-hover) !important;
+  }

@@ -90,3 +90,15 @@ const features = [
 | imageBorder           | `Boolean` | Establishes if image is with border. Default `false`                                       |
 | contentAlign          | `String`  | Align of a component content. Default `"center"`, can be `left` and `right` too       |
 | features              | `Array`   | Array of features to show. Default `[]`, see example section.                         |
+
+## Theming variables
+
+| </br>Name                                           | </br>Summary                   | </br>Default       |
+| --------------------------------------------------- | ------------------------------ | ------------------ |
+| --Features__CardFooter__Link-padding                | Link's padding                 | `none`             |
+| --Features__CardFooter__Link-box-shadow             | Link's box shadow              | `none`             |
+| --Features__CardFooter__Link-background-color       | Link's background color        | `none`             |
+| --Features__CardFooter__Link-box-shadow-hover       | Link's box shadow hover        | `none`             |
+| --Features__CardFooter__Link-background-color-hover | Link's background color hover  | `none`             |
+| --Features__CardFooter__Link-color                  | Link's color                   | `none`             |
+| --Features__CardFooter__Link-fontSize               | Link's font size               | `none`             |

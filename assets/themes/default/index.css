@@ -642,12 +642,35 @@ ol.progtrckr li.progtrckr-done:hover:before {
 :root {
   --Button-borderRadius: 0px;
   --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem; }
+  --Button-padding: 0.375rem 0.75rem;
+  --Button-textShadow: none;
+  --Button-backgroundColor: #0062cc;
+  --Button-backgroundColorHover: #0062cc;
+  --Button-borderColor: #005cbf;
+  --Button-boxShadow: none;
+  --Button-boxShadowHover: none;
+  --Button-border: 0px;
+  --Button-textTransform: none;
+  --Button-textColor: #ffffff; }
 
-.Button {
+.btn:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
-  padding: var(--Button-padding); }
+  padding: var(--Button-padding);
+  text-shadow: var(--Button-textShadow);
+  border-color: var(--Button-borderColor);
+  border: var(--Button-border);
+  text-transform: var(--Button-textTransform);
+  box-shadow: var(--Button-boxShadow);
+  color: var(--Button-textColor); }
+
+.btn-primary:not(.navbar-toggler) {
+  background-color: var(--Button-backgroundColor) !important;
+  color: var(--Button-textColor); }
+
+.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
+  background-color: var(--Button-backgroundColorHover) !important;
+  box-shadow: var(--Button-boxShadowHover) !important; }
 
 :root {
   --Card-borderRadius: 0px;
@@ -684,11 +707,14 @@ ol.progtrckr li.progtrckr-done:hover:before {
   --CodeMirror__header_copybtn_margin: 10px -10px 0 0;
   --CodeMirror__header_deletebtn_margin: 10px 0 0 0;
   --CodeMirror__height: 250px;
-  --CodeMirror__font_family: Lato; }
+  --CodeMirror__font_family: Lato;
+  --CodeMirror__Btn-background-color: transparent;
+  --CodeMirror__Btn-padding: 6px 20px; }
 
 :root {
   --Navbar-backgroundColor: #383d45;
   --Navbar-color: #b9bfc7;
+  --Navbar-backgroundImage: none;
   --Navbar--hover-color: #fed136;
   --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
   --Navbar--boxShadow: rgba(0, 0, 0, .124); }
@@ -696,15 +722,39 @@ ol.progtrckr li.progtrckr-done:hover:before {
 :root {
   --Button-borderRadius: 0px;
   --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem; }
+  --Button-padding: 0.375rem 0.75rem;
+  --Button-textShadow: none;
+  --Button-backgroundColor: #0062cc;
+  --Button-backgroundColorHover: #0062cc;
+  --Button-borderColor: #005cbf;
+  --Button-boxShadow: none;
+  --Button-boxShadowHover: none;
+  --Button-border: 0px;
+  --Button-textTransform: none;
+  --Button-textColor: #ffffff; }
 
-.Button {
+.btn:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
-  padding: var(--Button-padding); }
+  padding: var(--Button-padding);
+  text-shadow: var(--Button-textShadow);
+  border-color: var(--Button-borderColor);
+  border: var(--Button-border);
+  text-transform: var(--Button-textTransform);
+  box-shadow: var(--Button-boxShadow);
+  color: var(--Button-textColor); }
+
+.btn-primary:not(.navbar-toggler) {
+  background-color: var(--Button-backgroundColor) !important;
+  color: var(--Button-textColor); }
+
+.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
+  background-color: var(--Button-backgroundColorHover) !important;
+  box-shadow: var(--Button-boxShadowHover) !important; }
 
 .Navbar {
-  background-color: var(--Navbar-backgroundColor); }
+  background-color: var(--Navbar-backgroundColor);
+  background-image: var(--Navbar-backgroundImage); }
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
@@ -738,12 +788,35 @@ ol.progtrckr li.progtrckr-done:hover:before {
 :root {
   --Button-borderRadius: 0px;
   --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem; }
+  --Button-padding: 0.375rem 0.75rem;
+  --Button-textShadow: none;
+  --Button-backgroundColor: #0062cc;
+  --Button-backgroundColorHover: #0062cc;
+  --Button-borderColor: #005cbf;
+  --Button-boxShadow: none;
+  --Button-boxShadowHover: none;
+  --Button-border: 0px;
+  --Button-textTransform: none;
+  --Button-textColor: #ffffff; }
 
-.Button {
+.btn:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
-  padding: var(--Button-padding); }
+  padding: var(--Button-padding);
+  text-shadow: var(--Button-textShadow);
+  border-color: var(--Button-borderColor);
+  border: var(--Button-border);
+  text-transform: var(--Button-textTransform);
+  box-shadow: var(--Button-boxShadow);
+  color: var(--Button-textColor); }
+
+.btn-primary:not(.navbar-toggler) {
+  background-color: var(--Button-backgroundColor) !important;
+  color: var(--Button-textColor); }
+
+.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
+  background-color: var(--Button-backgroundColorHover) !important;
+  box-shadow: var(--Button-boxShadowHover) !important; }
 
 a[disabled] {
   pointer-events: none; }
@@ -775,7 +848,13 @@ a span {
 
 .CodeMirror_btn {
   font-weight: 400;
-  background-color: transparent; }
+  background-color: var(--CodeMirror__Btn-background-color);
+  padding: var(--CodeMirror__Btn-padding) !important; }
+
+.btn.CodeMirror_btn:hover,
+.btn.CodeMirror_btn:focus,
+.btn.CodeMirror_btn:active {
+  background-color: var(--CodeMirror__Btn-background-color) !important; }
 
 :root {
   --ContactInfo__Location-height: 300px;
@@ -823,12 +902,35 @@ a span {
 :root {
   --Button-borderRadius: 0px;
   --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem; }
+  --Button-padding: 0.375rem 0.75rem;
+  --Button-textShadow: none;
+  --Button-backgroundColor: #0062cc;
+  --Button-backgroundColorHover: #0062cc;
+  --Button-borderColor: #005cbf;
+  --Button-boxShadow: none;
+  --Button-boxShadowHover: none;
+  --Button-border: 0px;
+  --Button-textTransform: none;
+  --Button-textColor: #ffffff; }
 
-.Button {
+.btn:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
-  padding: var(--Button-padding); }
+  padding: var(--Button-padding);
+  text-shadow: var(--Button-textShadow);
+  border-color: var(--Button-borderColor);
+  border: var(--Button-border);
+  text-transform: var(--Button-textTransform);
+  box-shadow: var(--Button-boxShadow);
+  color: var(--Button-textColor); }
+
+.btn-primary:not(.navbar-toggler) {
+  background-color: var(--Button-backgroundColor) !important;
+  color: var(--Button-textColor); }
+
+.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
+  background-color: var(--Button-backgroundColorHover) !important;
+  box-shadow: var(--Button-boxShadowHover) !important; }
 
 :root {
   --Input-borderRadius: 0px;
@@ -875,6 +977,7 @@ a span {
 :root {
   --Footer-color: #cccccc;
   --Footer-backgroundColor: #383d45;
+  --Footer-backgroundImage: none;
   --Footer__Sections__Link--hover-color: #fed136;
   --Footer__Sections__Header-fontSize: 1.5rem;
   --Footer__Sections__Link-fontSize: 0.8rem;
@@ -897,7 +1000,8 @@ a span {
   padding: 2.5rem 0;
   color: var(--Footer-color);
   text-align: center;
-  background-color: var(--Footer-backgroundColor); }
+  background-color: var(--Footer-backgroundColor);
+  background-image: var(--Footer-backgroundImage); }
   .Footer .Footer__Copyright {
     font-size: var(--Footer__Copyright-fontSize); }
   .Footer .Footer__Sections__Header {
@@ -967,6 +1071,7 @@ a span {
 :root {
   --Navbar-backgroundColor: #383d45;
   --Navbar-color: #b9bfc7;
+  --Navbar-backgroundImage: none;
   --Navbar--hover-color: #fed136;
   --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
   --Navbar--boxShadow: rgba(0, 0, 0, .124); }
@@ -974,15 +1079,39 @@ a span {
 :root {
   --Button-borderRadius: 0px;
   --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem; }
+  --Button-padding: 0.375rem 0.75rem;
+  --Button-textShadow: none;
+  --Button-backgroundColor: #0062cc;
+  --Button-backgroundColorHover: #0062cc;
+  --Button-borderColor: #005cbf;
+  --Button-boxShadow: none;
+  --Button-boxShadowHover: none;
+  --Button-border: 0px;
+  --Button-textTransform: none;
+  --Button-textColor: #ffffff; }
 
-.Button {
+.btn:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
-  padding: var(--Button-padding); }
+  padding: var(--Button-padding);
+  text-shadow: var(--Button-textShadow);
+  border-color: var(--Button-borderColor);
+  border: var(--Button-border);
+  text-transform: var(--Button-textTransform);
+  box-shadow: var(--Button-boxShadow);
+  color: var(--Button-textColor); }
+
+.btn-primary:not(.navbar-toggler) {
+  background-color: var(--Button-backgroundColor) !important;
+  color: var(--Button-textColor); }
+
+.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
+  background-color: var(--Button-backgroundColorHover) !important;
+  box-shadow: var(--Button-boxShadowHover) !important; }
 
 .Navbar {
-  background-color: var(--Navbar-backgroundColor); }
+  background-color: var(--Navbar-backgroundColor);
+  background-image: var(--Navbar-backgroundImage); }
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
@@ -1029,12 +1158,35 @@ a span {
 :root {
   --Button-borderRadius: 0px;
   --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem; }
+  --Button-padding: 0.375rem 0.75rem;
+  --Button-textShadow: none;
+  --Button-backgroundColor: #0062cc;
+  --Button-backgroundColorHover: #0062cc;
+  --Button-borderColor: #005cbf;
+  --Button-boxShadow: none;
+  --Button-boxShadowHover: none;
+  --Button-border: 0px;
+  --Button-textTransform: none;
+  --Button-textColor: #ffffff; }
 
-.Button {
+.btn:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
-  padding: var(--Button-padding); }
+  padding: var(--Button-padding);
+  text-shadow: var(--Button-textShadow);
+  border-color: var(--Button-borderColor);
+  border: var(--Button-border);
+  text-transform: var(--Button-textTransform);
+  box-shadow: var(--Button-boxShadow);
+  color: var(--Button-textColor); }
+
+.btn-primary:not(.navbar-toggler) {
+  background-color: var(--Button-backgroundColor) !important;
+  color: var(--Button-textColor); }
+
+.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
+  background-color: var(--Button-backgroundColorHover) !important;
+  box-shadow: var(--Button-boxShadowHover) !important; }
 
 .Hero .Hero__Header {
   font-weight: var(--Hero__Header-fontWeight);
@@ -1163,7 +1315,8 @@ a span {
   --Section__Title-color: #000;
   --Section__Subtitle-fontSize: 0.9rem;
   --Section__Subtitle-color: #b5b5b5;
-  --Section--gray-backgroundColor: #f8f9fa; }
+  --Section--gray-backgroundColor: #f8f9fa;
+  --Section--gray-backgroundImage: none; }
 
 .Section div {
   margin-left: auto;
@@ -1178,7 +1331,8 @@ a span {
   color: var(--Section__Subtitle-color); }
 
 .Section--gray {
-  background-color: var(--Section--gray-backgroundColor); }
+  background-color: var(--Section--gray-backgroundColor);
+  background-image: var(--Section--gray-backgroundImage); }
 
 .SocialMediaShareButton {
   display: inline-block;
@@ -1253,6 +1407,28 @@ a span {
   .Card .Card__Subtitle {
     font-size: var(--Card__Subtitle-fontSize);
     color: var(--Card__Subtitle-color); }
+
+:root {
+  --Features__CardFooter__Link-padding: none;
+  --Features__CardFooter__Link-box-shadow: none;
+  --Features__CardFooter__Link-background-color: none;
+  --Features__CardFooter__Link-box-shadow-hover: none;
+  --Features__CardFooter__Link-background-color-hover: none;
+  --Features__CardFooter__Link-color: none;
+  --Features__CardFooter__Link-fontSize: none; }
+
+.features .card .card-footer a {
+  padding: var(--Features__CardFooter__Link-padding);
+  box-shadow: var(--Features__CardFooter__Link-box-shadow);
+  background-color: var(--Features__CardFooter__Link-background-color);
+  color: var(--Features__CardFooter__Link-color);
+  font-size: var(--Features__CardFooter__Link-fontSize); }
+
+.features .card .card-footer a:focus,
+.features .card .card-footer a:active,
+.features .card .card-footer a:hover {
+  background-color: var(--Features__CardFooter__Link-background-color-hover) !important;
+  box-shadow: var(--Features__CardFooter__Link-box-shadow-hover) !important; }
 
 .ImageList {
   display: inline-flex;

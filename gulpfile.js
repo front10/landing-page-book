@@ -5,7 +5,7 @@ const tildeImporter = require('node-sass-tilde-importer');
 const vars = require('gulp-vars');
 const rename = require('gulp-rename');
 
-const themes = ['default', 'graphql', 'react', 'webpack'];
+const themes = ['default', 'graphql', 'react', 'webpack', 'minecraft'];
 const tasks = [];
 const watch = ['src/components/**/*.scss', 'src/themes/**/*.scss'];
 

@@ -10,6 +10,8 @@
     --CodeMirror__header_deletebtn_margin: 10px 0 0 0;
     --CodeMirror__height: 250px;
     --CodeMirror__font_family: Lato;
+    --CodeMirror__Btn-background-color: transparent;
+    --CodeMirror__Btn-padding: 6px 20px;
 }
 
 @import '~codemirror/lib/codemirror.css';
@@ -49,5 +51,12 @@
 
 .CodeMirror_btn {
     font-weight: 400;
-    background-color: transparent;
+    background-color: var(--CodeMirror__Btn-background-color);
+    padding: var(--CodeMirror__Btn-padding) !important;
+}
+
+.btn.CodeMirror_btn:hover,
+.btn.CodeMirror_btn:focus,
+.btn.CodeMirror_btn:active{
+    background-color: var(--CodeMirror__Btn-background-color) !important;
 }

@@ -1,6 +1,7 @@
 :root {
     --Footer-color: #cccccc;
     --Footer-backgroundColor: #383d45;
+    --Footer-backgroundImage: none;
     --Footer__Sections__Link--hover-color: #fed136;
     --Footer__Sections__Header-fontSize: 1.5rem;
     --Footer__Sections__Link-fontSize: 0.8rem;
@@ -14,6 +15,7 @@
     color: var(--Footer-color);
     text-align: center;
     background-color: var(--Footer-backgroundColor);
+    background-image: var(--Footer-backgroundImage);
     .Footer__Copyright {
         font-size: var(--Footer__Copyright-fontSize);
     }

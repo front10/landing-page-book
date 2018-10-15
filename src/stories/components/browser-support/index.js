@@ -52,7 +52,11 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
-      <BrowserSupport browsers={browsers} showText={boolean('Show text', true)} />
+      <BrowserSupport
+        browsers={browsers}
+        showBrowserVendor={boolean('Show browser vendor', true)}
+        showBrowserVersion={boolean('Show browser version', true)}
+      />
     </ThemeSelector>
   )),
   jsxConfig

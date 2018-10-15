@@ -20,7 +20,8 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <Browser
-        showText={boolean('Show name browser', true)}
+        showBrowserVendor={boolean('Show browser vendor', true)}
+        showBrowserVersion={boolean('Show browser version', true)}
         vendor={select(
           'Vendor',
           {

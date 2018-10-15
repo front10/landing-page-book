@@ -12,7 +12,8 @@ ReactWrapper {
         },
       ]
     }
-    showText={true}
+    showBrowserVendor={true}
+    showBrowserVersion={true}
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -56,7 +57,8 @@ ReactWrapper {
                   "version": "> 56",
                 },
               ],
-              "showText": true,
+              "showBrowserVendor": true,
+              "showBrowserVersion": true,
             },
           },
           "memoizedState": Object {
@@ -70,7 +72,8 @@ ReactWrapper {
                   "version": "> 56",
                 },
               ],
-              "showText": true,
+              "showBrowserVendor": true,
+              "showBrowserVersion": true,
             },
           },
           "mode": 0,
@@ -86,7 +89,8 @@ ReactWrapper {
                   "version": "> 56",
                 },
               ],
-              "showText": true,
+              "showBrowserVendor": true,
+              "showBrowserVersion": true,
             },
           },
           "ref": null,
@@ -175,7 +179,8 @@ ReactWrapper {
                               "version": "> 56",
                             },
                           ],
-                          "showText": true,
+                          "showBrowserVendor": true,
+                          "showBrowserVersion": true,
                         }
                       }
                     />,
@@ -203,7 +208,8 @@ ReactWrapper {
                               "version": "> 56",
                             },
                           ],
-                          "showText": true,
+                          "showBrowserVendor": true,
+                          "showBrowserVersion": true,
                         }
                       }
                     />,
@@ -235,7 +241,8 @@ ReactWrapper {
                         "version": "> 56",
                       },
                     ],
-                    "showText": true,
+                    "showBrowserVendor": true,
+                    "showBrowserVersion": true,
                   }
                 }
               />,
@@ -290,7 +297,8 @@ ReactWrapper {
                           "version": "> 56",
                         },
                       ],
-                      "showText": true,
+                      "showBrowserVendor": true,
+                      "showBrowserVersion": true,
                     }
                   }
                 />,
@@ -322,7 +330,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "refs": Object {},
@@ -337,7 +346,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "updater": Object {
@@ -408,7 +418,8 @@ ReactWrapper {
               "version": "> 56",
             },
           ],
-          "showText": true,
+          "showBrowserVendor": true,
+          "showBrowserVersion": true,
         },
         "memoizedState": null,
         "mode": 0,
@@ -421,7 +432,8 @@ ReactWrapper {
               "version": "> 56",
             },
           ],
-          "showText": true,
+          "showBrowserVendor": true,
+          "showBrowserVersion": true,
         },
         "ref": null,
         "return": FiberNode {
@@ -452,7 +464,8 @@ ReactWrapper {
                   "version": "> 56",
                 },
               ],
-              "showText": true,
+              "showBrowserVendor": true,
+              "showBrowserVersion": true,
             },
           },
           "memoizedState": Object {
@@ -466,7 +479,8 @@ ReactWrapper {
                   "version": "> 56",
                 },
               ],
-              "showText": true,
+              "showBrowserVendor": true,
+              "showBrowserVersion": true,
             },
           },
           "mode": 0,
@@ -482,7 +496,8 @@ ReactWrapper {
                   "version": "> 56",
                 },
               ],
-              "showText": true,
+              "showBrowserVendor": true,
+              "showBrowserVersion": true,
             },
           },
           "ref": null,
@@ -571,7 +586,8 @@ ReactWrapper {
                               "version": "> 56",
                             },
                           ],
-                          "showText": true,
+                          "showBrowserVendor": true,
+                          "showBrowserVersion": true,
                         }
                       }
                     />,
@@ -599,7 +615,8 @@ ReactWrapper {
                               "version": "> 56",
                             },
                           ],
-                          "showText": true,
+                          "showBrowserVendor": true,
+                          "showBrowserVersion": true,
                         }
                       }
                     />,
@@ -631,7 +648,8 @@ ReactWrapper {
                         "version": "> 56",
                       },
                     ],
-                    "showText": true,
+                    "showBrowserVendor": true,
+                    "showBrowserVersion": true,
                   }
                 }
               />,
@@ -686,7 +704,8 @@ ReactWrapper {
                           "version": "> 56",
                         },
                       ],
-                      "showText": true,
+                      "showBrowserVendor": true,
+                      "showBrowserVersion": true,
                     }
                   }
                 />,
@@ -718,7 +737,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "refs": Object {},
@@ -733,7 +753,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "updater": Object {
@@ -766,7 +787,8 @@ ReactWrapper {
             "version": "> 56",
           },
         ],
-        "showText": true,
+        "showBrowserVendor": true,
+        "showBrowserVersion": true,
       },
       "refs": Object {},
       "state": null,
@@ -787,7 +809,8 @@ ReactWrapper {
           "version": "> 56",
         },
       ],
-      "showText": true,
+      "showBrowserVendor": true,
+      "showBrowserVersion": true,
     },
     "ref": null,
     "rendered": Object {
@@ -839,7 +862,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "memoizedState": Object {
@@ -853,7 +877,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "mode": 0,
@@ -869,7 +894,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "ref": null,
@@ -958,7 +984,8 @@ ReactWrapper {
                                 "version": "> 56",
                               },
                             ],
-                            "showText": true,
+                            "showBrowserVendor": true,
+                            "showBrowserVersion": true,
                           }
                         }
                       />,
@@ -986,7 +1013,8 @@ ReactWrapper {
                                 "version": "> 56",
                               },
                             ],
-                            "showText": true,
+                            "showBrowserVendor": true,
+                            "showBrowserVersion": true,
                           }
                         }
                       />,
@@ -1018,7 +1046,8 @@ ReactWrapper {
                           "version": "> 56",
                         },
                       ],
-                      "showText": true,
+                      "showBrowserVendor": true,
+                      "showBrowserVersion": true,
                     }
                   }
                 />,
@@ -1073,7 +1102,8 @@ ReactWrapper {
                             "version": "> 56",
                           },
                         ],
-                        "showText": true,
+                        "showBrowserVendor": true,
+                        "showBrowserVersion": true,
                       }
                     }
                   />,
@@ -1105,7 +1135,8 @@ ReactWrapper {
                       "version": "> 56",
                     },
                   ],
-                  "showText": true,
+                  "showBrowserVendor": true,
+                  "showBrowserVersion": true,
                 },
               },
               "refs": Object {},
@@ -1120,7 +1151,8 @@ ReactWrapper {
                       "version": "> 56",
                     },
                   ],
-                  "showText": true,
+                  "showBrowserVendor": true,
+                  "showBrowserVersion": true,
                 },
               },
               "updater": Object {
@@ -1191,7 +1223,8 @@ ReactWrapper {
                 "version": "> 56",
               },
             ],
-            "showText": true,
+            "showBrowserVendor": true,
+            "showBrowserVersion": true,
           },
           "memoizedState": null,
           "mode": 0,
@@ -1204,7 +1237,8 @@ ReactWrapper {
                 "version": "> 56",
               },
             ],
-            "showText": true,
+            "showBrowserVendor": true,
+            "showBrowserVersion": true,
           },
           "ref": null,
           "return": FiberNode {
@@ -1235,7 +1269,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "memoizedState": Object {
@@ -1249,7 +1284,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "mode": 0,
@@ -1265,7 +1301,8 @@ ReactWrapper {
                     "version": "> 56",
                   },
                 ],
-                "showText": true,
+                "showBrowserVendor": true,
+                "showBrowserVersion": true,
               },
             },
             "ref": null,
@@ -1354,7 +1391,8 @@ ReactWrapper {
                                 "version": "> 56",
                               },
                             ],
-                            "showText": true,
+                            "showBrowserVendor": true,
+                            "showBrowserVersion": true,
                           }
                         }
                       />,
@@ -1382,7 +1420,8 @@ ReactWrapper {
                                 "version": "> 56",
                               },
                             ],
-                            "showText": true,
+                            "showBrowserVendor": true,
+                            "showBrowserVersion": true,
                           }
                         }
                       />,
@@ -1414,7 +1453,8 @@ ReactWrapper {
                           "version": "> 56",
                         },
                       ],
-                      "showText": true,
+                      "showBrowserVendor": true,
+                      "showBrowserVersion": true,
                     }
                   }
                 />,
@@ -1469,7 +1509,8 @@ ReactWrapper {
                             "version": "> 56",
                           },
                         ],
-                        "showText": true,
+                        "showBrowserVendor": true,
+                        "showBrowserVersion": true,
                       }
                     }
                   />,
@@ -1501,7 +1542,8 @@ ReactWrapper {
                       "version": "> 56",
                     },
                   ],
-                  "showText": true,
+                  "showBrowserVendor": true,
+                  "showBrowserVersion": true,
                 },
               },
               "refs": Object {},
@@ -1516,7 +1558,8 @@ ReactWrapper {
                       "version": "> 56",
                     },
                   ],
-                  "showText": true,
+                  "showBrowserVendor": true,
+                  "showBrowserVersion": true,
                 },
               },
               "updater": Object {
@@ -1549,7 +1592,8 @@ ReactWrapper {
               "version": "> 56",
             },
           ],
-          "showText": true,
+          "showBrowserVendor": true,
+          "showBrowserVersion": true,
         },
         "refs": Object {},
         "state": null,
@@ -1570,7 +1614,8 @@ ReactWrapper {
             "version": "> 56",
           },
         ],
-        "showText": true,
+        "showBrowserVendor": true,
+        "showBrowserVersion": true,
       },
       "ref": null,
       "rendered": Object {

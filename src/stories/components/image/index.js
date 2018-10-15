@@ -24,8 +24,8 @@ stories.addWithJSX(
         border={boolean('Border', false)}
         rounded={boolean('Rounded', false)}
         alt={text('Alt', 'This is an image example')}
-        src={text('Source', 'https://sbforge.org/images/icons/profilepics/default.png')}
-        width={text('Width', 100)}
+        src={text('Source', 'images/backers/woman.svg')}
+        width={text('Width', 200)}
       />
     </ThemeSelector>
   )),

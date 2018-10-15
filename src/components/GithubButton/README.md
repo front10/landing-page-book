@@ -40,6 +40,7 @@ import '@front10/landing-page-book/dist/components/GithubButton/style.css';
     repository="repository"
 />
 ```
+
 <a target="_blank" href="https://codesandbox.io/s/71p7yq4kqq">
   <img alt="Edit Github Button" src="https://codesandbox.io/static/img/play-codesandbox.svg">
 </a>
@@ -74,3 +75,4 @@ import '@front10/landing-page-book/dist/components/GithubButton/style.css';
 | --GithubDetail\_\_btn_container-padding         | Pagging of button container       | `5px`                                                                                                                       |
 | --GithubDetail_btn-backgroundColor              | Background color of button        | `#dcdcdc`                                                                                                                   |
 | --GithubDetail_btn-Color                        | Color of button                   | `#000`                                                                                                                      |
+| --GithubDetail_Btn-borderRadius                 | Border radius of button           | `0px`                                                                                                                       |

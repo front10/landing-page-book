@@ -47,6 +47,7 @@ import '@front10/landing-page-book/dist/components/Hero/style.css';
   subHeader="Leverage your process!"
 />
 ```
+
 <a target="_blank" href="https://codesandbox.io/s/yw19mmpl99">
   <img alt="Edit Hero demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
 </a>
@@ -72,6 +73,7 @@ You can use Hero component with children too:
     </Container>
 </Hero>
 ```
+
 [![Edit Hero with childrens demo](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/yqqorl4qr1)
 
 Note: if you use Hero component with children, properties `buttons`, `header`, `subHeader` and `subHeaderPosition` will not work
@@ -97,19 +99,20 @@ Note: if you use Hero component with children, properties `buttons`, `header`, `
 
 ## Theming variables
 
-| </br>Name                           | </br>Summary                                  | </br>Default |
-| ----------------------------------- | --------------------------------------------- | ------------ |
-| --Hero\_\_Header-fontSize           | Font size of header in hero                   | `75px`       |
-| --Hero\_\_Header-fontStyle          | Font style of header in hero                  | `normal`     |
-| --Hero\_\_Header-color              | Color of header in hero                       | `#fff`       |
-| --Hero\_\_Header-fontWeight         | Font weight of header in hero                 | `700`        |
-| --Hero\_\_Header--phone-fontSize    | Font size of header in hero when is mobile    | `30px`       |
-| --Hero\_\_SubHeader-fontSize        | Font size of subheader in hero                | `40px`       |
-| --Hero\_\_SubHeader-color           | Color of subheader in hero                    | `#fff`       |
-| --Hero\_\_SubHeader-fontStyle       | Font style of subheader in hero               | `italic`     |
-| --Hero\_\_SubHeader--phone-fontSize | Font size of subheader in hero when is mobile | `20px`       |
-| --Hero\_\_Button-color              | Color of buttons hero                         | `#fff`       |
-| --Hero\_\_Button-backgroundColor    | Background color of buttons hero              | `#fed136`    |
+| </br>Name                           | </br>Summary                                  | </br>Default       |
+| ----------------------------------- | --------------------------------------------- | ------------------ |
+| --Hero\_\_Header-fontSize           | Font size of header in hero                   | `75px`             |
+| --Hero\_\_Header-fontStyle          | Font style of header in hero                  | `normal`           |
+| --Hero\_\_Header-color              | Color of header in hero                       | `#fff`             |
+| --Hero\_\_Header-fontWeight         | Font weight of header in hero                 | `700`              |
+| --Hero\_\_Header--phone-fontSize    | Font size of header in hero when is mobile    | `30px`             |
+| --Hero\_\_SubHeader-fontSize        | Font size of subheader in hero                | `40px`             |
+| --Hero\_\_SubHeader-color           | Color of subheader in hero                    | `#fff`             |
+| --Hero\_\_SubHeader-fontStyle       | Font style of subheader in hero               | `italic`           |
+| --Hero\_\_SubHeader--phone-fontSize | Font size of subheader in hero when is mobile | `20px`             |
+| --Hero\_\_Button-color              | Color of buttons hero                         | `#383e45`          |
+| --Hero\_\_Button-backgroundColor    | Background color of buttons hero              | `#fed136`          |
+| --Hero\_\_Button-padding            | Padding of buttons hero                       | `0.375rem 0.75rem` |
 
 ## Used libraries
 

@@ -8,7 +8,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Hero, Link, Container, Image, Header, GithubButton } from '../../../components';
+import { Hero, Container, Image, Header, GithubButton, Button } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
 import particles from '../../mock/components/particles';
@@ -82,13 +82,7 @@ stories.addWithJSX(
             React components to build!
           </Header>
           <div className="mt-5">
-            <Link
-              className="btn btn-primary btn-started"
-              href="https://front10.com/landing-page-book"
-              target="_blank"
-            >
-              Explore
-            </Link>
+            <Button>Explore</Button>
             <GithubButton
               btnType="star"
               btnText="Stars"

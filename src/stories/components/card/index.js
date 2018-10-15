@@ -5,7 +5,7 @@ import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
-import { Card } from '../../../components';
+import { Card, Button } from '../../../components';
 import Readme from '../../../components/Card/README.md';
 
 setAddon(JSXAddon);
@@ -66,12 +66,9 @@ stories.addWithJSX(
               right: 'right'
             })}
           >
-            <button className="btn btn-primary mr-1" type="submit">
-              {'Accept'}
-            </button>
-            <button className="btn btn-danger ml-1" type="submit">
-              {'Decline'}
-            </button>
+            <Button className="mr-1" type="submit">
+              See more...
+            </Button>
           </Card>
         </div>
       </div>

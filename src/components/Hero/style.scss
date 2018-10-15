@@ -8,8 +8,9 @@
   --Hero__SubHeader-color: #fff;
   --Hero__SubHeader-fontStyle: italic;
   --Hero__SubHeader--phone-fontSize: 20px;
-  --Hero__Button-color: #373d45;
+  --Hero__Button-color: #383e45;
   --Hero__Button-backgroundColor: #fed136;
+  --Hero__Button-padding: 0.375rem 0.75rem;
 }
 
 @import '../Container/style.scss';
@@ -28,7 +29,7 @@
     color: var(--Hero__SubHeader-color);
   }
   .Hero__Button {
-    padding: 20px 40px;
+    padding: var(--Hero__Button-padding);
     color: var(--Hero__Button-color);
     background-color: var(--Hero__Button-backgroundColor);
   }

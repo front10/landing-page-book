@@ -6,17 +6,13 @@ class BrowserSupport extends Component {
   render() {
     const { browsers, showText } = this.props;
     return (
-      <table className="Browser">
-        <tbody>
-          <tr>
-            {browsers.map(browser => (
-              <td className="text-center pl-3 pr-3" key={browser.vendor}>
-                <Browser vendor={browser.vendor} version={browser.version} showText={showText} />
-              </td>
-            ))}
-          </tr>
-        </tbody>
-      </table>
+      <div>
+        {browsers.map(browser => (
+          <div className="d-inline-flex text-center pl-3 pr-3" key={browser.vendor}>
+            <Browser vendor={browser.vendor} version={browser.version} showText={showText} />
+          </div>
+        ))}
+      </div>
     );
   }
 }

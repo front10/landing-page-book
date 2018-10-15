@@ -1,3 +1,6 @@
+ <a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/readme.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
+</a>
+
 <h1 style="text-align: center;">
     <a href="http://front10.com/">
         <img src="./assets/images/logo/logo-frton10.jpg" alt="Front10 Component Explorer" width="200">
@@ -6,17 +9,17 @@
 
 # Landing Page Book
 
-`@front10/landing-page-book` is a kit of landing-page components to be share across the web.
+`@front10/landing-page-book` is a kit of landing-page React components.
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
 [![BrowserStack Status](https://www.browserstack.com/automate/badge.svg?badge_key=RTE2VCtMNjNYRVp2aW9qOG1rQkZraUhPa1plTEp4Q3poSmowSXhNR3Qxaz0tLW1BbzZ6OVYzbjR1NnlJNTJ6b1ZUMFE9PQ==--1b0d9055f474643cca6b099912dfd18bfc361869)](https://www.browserstack.com/automate/public-build/RTE2VCtMNjNYRVp2aW9qOG1rQkZraUhPa1plTEp4Q3poSmowSXhNR3Qxaz0tLW1BbzZ6OVYzbjR1NnlJNTJ6b1ZUMFE9PQ==--1b0d9055f474643cca6b099912dfd18bfc361869)
 [![Coverage Status](https://coveralls.io/repos/github/front10/landing-page-book/badge.svg?branch=master)](https://coveralls.io/github/front10/landing-page-book?branch=master)
+[![Build Status](https://travis-ci.com/front10/landing-page-book.svg?branch=master)](https://travis-ci.com/front10/landing-page-book)
 
 ## Setup
 
 ```sh
-npm install
-npm start
+npm install --save @front10/landing-page-book
 ```
 
 ## Usage
@@ -46,6 +49,7 @@ class App extends Component {
   }
 }
 ```
+
 <a target="_blank" href="https://codesandbox.io/s/jp0kzqlj29">
   <img alt="Edit Landing page example" src="https://codesandbox.io/static/img/play-codesandbox.svg">
 </a>

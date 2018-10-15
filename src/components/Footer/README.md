@@ -1,3 +1,6 @@
+<a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/src/components/Footer/README.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
+</a>
+
 # Footer
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
@@ -154,3 +157,4 @@ const sections = [
 | --Footer\_\_Sections\_\_Header-fontSize   | Font size of sections header in footer | `1.5rem`     |
 | --Footer\_\_Sections\_\_Link-fontSize     | Font size of sections links in footer  | `0.8rem`     |
 | --Footer\_\_Copyright-fontSize            | Font size of copy right in footer      | `0.8rem`     |
+| --Footer-backgroundImage: none;           | Footer background image                | `none`       |

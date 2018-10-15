@@ -9,15 +9,7 @@ class ImageList extends Component {
   }
 
   render() {
-    const {
-      images,
-      gray,
-      imageRounded,
-      imageWidth,
-      imageHeight,
-      imageBordered,
-      ccsClassName
-    } = this.props;
+    const { images, gray, imageRounded, imageWidth, imageBordered, ccsClassName } = this.props;
     /* eslint-disable react/no-array-index-key */
     return (
       <div className="ImageList">
@@ -35,7 +27,6 @@ class ImageList extends Component {
                 src={imag.image}
                 rounded={imageRounded}
                 width={imageWidth}
-                height={imageHeight}
                 border={imageBordered}
               />
             </a>
@@ -53,7 +44,6 @@ ImageList.propTypes = {
   imageRounded: PropTypes.bool,
   imageBordered: PropTypes.bool,
   imageWidth: PropTypes.string,
-  imageHeight: PropTypes.string,
   images: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.string
@@ -66,7 +56,6 @@ ImageList.defaultProps = {
   imageRounded: false,
   imageBordered: false,
   imageWidth: '100',
-  imageHeight: '100',
   images: []
 };
 

@@ -30,7 +30,7 @@ class Card extends React.Component {
           {subTitle && <div className="Card__Subtitle mb-3">{subTitle}</div>}
           {summary && <p className="Card__Summary">{summary}</p>}
         </div>
-        <div className="card-footer bg-transparent border-0">
+        <div className={`card-footer bg-transparent border-0 text-${contentAlign}`}>
           {children && <React.Fragment>{children}</React.Fragment>}
         </div>
       </div>

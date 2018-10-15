@@ -26,7 +26,6 @@ stories.addWithJSX(
         alt={text('Alt', 'This is an image example')}
         src={text('Source', 'https://sbforge.org/images/icons/profilepics/default.png')}
         width={text('Width', 100)}
-        height={text('Height', 100)}
       />
     </ThemeSelector>
   )),

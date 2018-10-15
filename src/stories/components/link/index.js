@@ -38,7 +38,7 @@ stories.addWithJSX(
         )}
       >
         <Icon icon="fa fa-home" />
-        This is a link
+        <span>This is a link</span>
       </Link>
     </ThemeSelector>
   )),

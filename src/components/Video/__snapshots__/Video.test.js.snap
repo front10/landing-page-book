@@ -5,7 +5,6 @@ ReactWrapper {
   Symbol(enzyme.__unrendered__): <Video
     className=""
     controls={true}
-    height="360px"
     loop={false}
     muted={false}
     onBuffer={[Function]}
@@ -21,7 +20,6 @@ ReactWrapper {
     playing={false}
     source=""
     volume={1}
-    width="640px"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -2087,7 +2085,6 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "controls": true,
-              "height": "360px",
               "loop": false,
               "muted": false,
               "onBuffer": [Function],
@@ -2103,7 +2100,6 @@ ReactWrapper {
               "playing": false,
               "source": "",
               "volume": 1,
-              "width": "640px",
             },
           },
           "memoizedState": Object {
@@ -2112,7 +2108,6 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "controls": true,
-              "height": "360px",
               "loop": false,
               "muted": false,
               "onBuffer": [Function],
@@ -2128,7 +2123,6 @@ ReactWrapper {
               "playing": false,
               "source": "",
               "volume": 1,
-              "width": "640px",
             },
           },
           "mode": 0,
@@ -2139,7 +2133,6 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "controls": true,
-              "height": "360px",
               "loop": false,
               "muted": false,
               "onBuffer": [Function],
@@ -2155,7 +2148,6 @@ ReactWrapper {
               "playing": false,
               "source": "",
               "volume": 1,
-              "width": "640px",
             },
           },
           "ref": null,
@@ -2245,7 +2237,6 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -2261,7 +2252,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         }
                       }
                     />,
@@ -2284,7 +2274,6 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -2300,7 +2289,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         }
                       }
                     />,
@@ -3564,7 +3552,6 @@ ReactWrapper {
                   Object {
                     "className": "",
                     "controls": true,
-                    "height": "360px",
                     "loop": false,
                     "muted": false,
                     "onBuffer": [Function],
@@ -3580,7 +3567,6 @@ ReactWrapper {
                     "playing": false,
                     "source": "",
                     "volume": 1,
-                    "width": "640px",
                   }
                 }
               />,
@@ -3636,7 +3622,6 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -3652,7 +3637,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     }
                   }
                 />,
@@ -3679,7 +3663,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -3695,7 +3678,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "refs": Object {},
@@ -3705,7 +3687,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -3721,7 +3702,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "updater": Object {
@@ -7841,7 +7821,6 @@ ReactWrapper {
         "memoizedProps": Object {
           "className": "",
           "controls": true,
-          "height": "360px",
           "loop": false,
           "muted": false,
           "onBuffer": [Function],
@@ -7857,7 +7836,6 @@ ReactWrapper {
           "playing": false,
           "source": "",
           "volume": 1,
-          "width": "640px",
         },
         "memoizedState": null,
         "mode": 0,
@@ -7865,7 +7843,6 @@ ReactWrapper {
         "pendingProps": Object {
           "className": "",
           "controls": true,
-          "height": "360px",
           "loop": false,
           "muted": false,
           "onBuffer": [Function],
@@ -7881,7 +7858,6 @@ ReactWrapper {
           "playing": false,
           "source": "",
           "volume": 1,
-          "width": "640px",
         },
         "ref": null,
         "return": FiberNode {
@@ -9934,7 +9910,6 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "controls": true,
-              "height": "360px",
               "loop": false,
               "muted": false,
               "onBuffer": [Function],
@@ -9950,7 +9925,6 @@ ReactWrapper {
               "playing": false,
               "source": "",
               "volume": 1,
-              "width": "640px",
             },
           },
           "memoizedState": Object {
@@ -9959,7 +9933,6 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "controls": true,
-              "height": "360px",
               "loop": false,
               "muted": false,
               "onBuffer": [Function],
@@ -9975,7 +9948,6 @@ ReactWrapper {
               "playing": false,
               "source": "",
               "volume": 1,
-              "width": "640px",
             },
           },
           "mode": 0,
@@ -9986,7 +9958,6 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "controls": true,
-              "height": "360px",
               "loop": false,
               "muted": false,
               "onBuffer": [Function],
@@ -10002,7 +9973,6 @@ ReactWrapper {
               "playing": false,
               "source": "",
               "volume": 1,
-              "width": "640px",
             },
           },
           "ref": null,
@@ -10092,7 +10062,6 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -10108,7 +10077,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         }
                       }
                     />,
@@ -10131,7 +10099,6 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -10147,7 +10114,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         }
                       }
                     />,
@@ -11411,7 +11377,6 @@ ReactWrapper {
                   Object {
                     "className": "",
                     "controls": true,
-                    "height": "360px",
                     "loop": false,
                     "muted": false,
                     "onBuffer": [Function],
@@ -11427,7 +11392,6 @@ ReactWrapper {
                     "playing": false,
                     "source": "",
                     "volume": 1,
-                    "width": "640px",
                   }
                 }
               />,
@@ -11483,7 +11447,6 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -11499,7 +11462,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     }
                   }
                 />,
@@ -11526,7 +11488,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -11542,7 +11503,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "refs": Object {},
@@ -11552,7 +11512,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -11568,7 +11527,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "updater": Object {
@@ -11596,7 +11554,6 @@ ReactWrapper {
       "props": Object {
         "className": "",
         "controls": true,
-        "height": "360px",
         "loop": false,
         "muted": false,
         "onBuffer": [Function],
@@ -11612,7 +11569,6 @@ ReactWrapper {
         "playing": false,
         "source": "",
         "volume": 1,
-        "width": "640px",
       },
       "refs": Object {},
       "state": null,
@@ -11628,7 +11584,6 @@ ReactWrapper {
     "props": Object {
       "className": "",
       "controls": true,
-      "height": "360px",
       "loop": false,
       "muted": false,
       "onBuffer": [Function],
@@ -11644,7 +11599,6 @@ ReactWrapper {
       "playing": false,
       "source": "",
       "volume": 1,
-      "width": "640px",
     },
     "ref": null,
     "rendered": Object {
@@ -11831,7 +11785,6 @@ ReactWrapper {
                     "props": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -11847,7 +11800,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                   },
                   "memoizedState": Object {
@@ -11856,7 +11808,6 @@ ReactWrapper {
                     "props": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -11872,7 +11823,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                   },
                   "mode": 0,
@@ -11883,7 +11833,6 @@ ReactWrapper {
                     "props": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -11899,7 +11848,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                   },
                   "ref": null,
@@ -11989,7 +11937,6 @@ ReactWrapper {
                                 Object {
                                   "className": "",
                                   "controls": true,
-                                  "height": "360px",
                                   "loop": false,
                                   "muted": false,
                                   "onBuffer": [Function],
@@ -12005,7 +11952,6 @@ ReactWrapper {
                                   "playing": false,
                                   "source": "",
                                   "volume": 1,
-                                  "width": "640px",
                                 }
                               }
                             />,
@@ -12028,7 +11974,6 @@ ReactWrapper {
                                 Object {
                                   "className": "",
                                   "controls": true,
-                                  "height": "360px",
                                   "loop": false,
                                   "muted": false,
                                   "onBuffer": [Function],
@@ -12044,7 +11989,6 @@ ReactWrapper {
                                   "playing": false,
                                   "source": "",
                                   "volume": 1,
-                                  "width": "640px",
                                 }
                               }
                             />,
@@ -12120,7 +12064,6 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -12136,7 +12079,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           }
                         }
                       />,
@@ -12192,7 +12134,6 @@ ReactWrapper {
                             Object {
                               "className": "",
                               "controls": true,
-                              "height": "360px",
                               "loop": false,
                               "muted": false,
                               "onBuffer": [Function],
@@ -12208,7 +12149,6 @@ ReactWrapper {
                               "playing": false,
                               "source": "",
                               "volume": 1,
-                              "width": "640px",
                             }
                           }
                         />,
@@ -12235,7 +12175,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -12251,7 +12190,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "refs": Object {},
@@ -12261,7 +12199,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -12277,7 +12214,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "updater": Object {
@@ -12625,7 +12561,6 @@ ReactWrapper {
                 "memoizedProps": Object {
                   "className": "",
                   "controls": true,
-                  "height": "360px",
                   "loop": false,
                   "muted": false,
                   "onBuffer": [Function],
@@ -12641,7 +12576,6 @@ ReactWrapper {
                   "playing": false,
                   "source": "",
                   "volume": 1,
-                  "width": "640px",
                 },
                 "memoizedState": null,
                 "mode": 0,
@@ -12649,7 +12583,6 @@ ReactWrapper {
                 "pendingProps": Object {
                   "className": "",
                   "controls": true,
-                  "height": "360px",
                   "loop": false,
                   "muted": false,
                   "onBuffer": [Function],
@@ -12665,7 +12598,6 @@ ReactWrapper {
                   "playing": false,
                   "source": "",
                   "volume": 1,
-                  "width": "640px",
                 },
                 "ref": null,
                 "return": FiberNode {
@@ -12740,7 +12672,6 @@ ReactWrapper {
                     "props": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -12756,7 +12687,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                   },
                   "memoizedState": Object {
@@ -12765,7 +12695,6 @@ ReactWrapper {
                     "props": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -12781,7 +12710,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                   },
                   "mode": 0,
@@ -12792,7 +12720,6 @@ ReactWrapper {
                     "props": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -12808,7 +12735,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                   },
                   "ref": null,
@@ -12898,7 +12824,6 @@ ReactWrapper {
                                 Object {
                                   "className": "",
                                   "controls": true,
-                                  "height": "360px",
                                   "loop": false,
                                   "muted": false,
                                   "onBuffer": [Function],
@@ -12914,7 +12839,6 @@ ReactWrapper {
                                   "playing": false,
                                   "source": "",
                                   "volume": 1,
-                                  "width": "640px",
                                 }
                               }
                             />,
@@ -12937,7 +12861,6 @@ ReactWrapper {
                                 Object {
                                   "className": "",
                                   "controls": true,
-                                  "height": "360px",
                                   "loop": false,
                                   "muted": false,
                                   "onBuffer": [Function],
@@ -12953,7 +12876,6 @@ ReactWrapper {
                                   "playing": false,
                                   "source": "",
                                   "volume": 1,
-                                  "width": "640px",
                                 }
                               }
                             />,
@@ -13029,7 +12951,6 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -13045,7 +12966,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           }
                         }
                       />,
@@ -13101,7 +13021,6 @@ ReactWrapper {
                             Object {
                               "className": "",
                               "controls": true,
-                              "height": "360px",
                               "loop": false,
                               "muted": false,
                               "onBuffer": [Function],
@@ -13117,7 +13036,6 @@ ReactWrapper {
                               "playing": false,
                               "source": "",
                               "volume": 1,
-                              "width": "640px",
                             }
                           }
                         />,
@@ -13144,7 +13062,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -13160,7 +13077,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "refs": Object {},
@@ -13170,7 +13086,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -13186,7 +13101,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "updater": Object {
@@ -13210,7 +13124,6 @@ ReactWrapper {
                   "props": Object {
                     "className": "",
                     "controls": true,
-                    "height": "360px",
                     "loop": false,
                     "muted": false,
                     "onBuffer": [Function],
@@ -13226,7 +13139,6 @@ ReactWrapper {
                     "playing": false,
                     "source": "",
                     "volume": 1,
-                    "width": "640px",
                   },
                   "refs": Object {},
                   "state": null,
@@ -13658,7 +13570,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -13674,7 +13585,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "memoizedState": Object {
@@ -13683,7 +13593,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -13699,7 +13608,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "mode": 0,
@@ -13710,7 +13618,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -13726,7 +13633,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "ref": null,
@@ -13816,7 +13722,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -13832,7 +13737,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -13855,7 +13759,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -13871,7 +13774,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -13947,7 +13849,6 @@ ReactWrapper {
                             Object {
                               "className": "",
                               "controls": true,
-                              "height": "360px",
                               "loop": false,
                               "muted": false,
                               "onBuffer": [Function],
@@ -13963,7 +13864,6 @@ ReactWrapper {
                               "playing": false,
                               "source": "",
                               "volume": 1,
-                              "width": "640px",
                             }
                           }
                         />,
@@ -14019,7 +13919,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -14035,7 +13934,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -14062,7 +13960,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -14078,7 +13975,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "refs": Object {},
@@ -14088,7 +13984,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -14104,7 +13999,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "updater": Object {
@@ -14184,7 +14078,6 @@ ReactWrapper {
                   "memoizedProps": Object {
                     "className": "",
                     "controls": true,
-                    "height": "360px",
                     "loop": false,
                     "muted": false,
                     "onBuffer": [Function],
@@ -14200,7 +14093,6 @@ ReactWrapper {
                     "playing": false,
                     "source": "",
                     "volume": 1,
-                    "width": "640px",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -14208,7 +14100,6 @@ ReactWrapper {
                   "pendingProps": Object {
                     "className": "",
                     "controls": true,
-                    "height": "360px",
                     "loop": false,
                     "muted": false,
                     "onBuffer": [Function],
@@ -14224,7 +14115,6 @@ ReactWrapper {
                     "playing": false,
                     "source": "",
                     "volume": 1,
-                    "width": "640px",
                   },
                   "ref": null,
                   "return": FiberNode {
@@ -14299,7 +14189,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -14315,7 +14204,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "memoizedState": Object {
@@ -14324,7 +14212,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -14340,7 +14227,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "mode": 0,
@@ -14351,7 +14237,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -14367,7 +14252,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "ref": null,
@@ -14457,7 +14341,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -14473,7 +14356,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -14496,7 +14378,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -14512,7 +14393,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -14588,7 +14468,6 @@ ReactWrapper {
                             Object {
                               "className": "",
                               "controls": true,
-                              "height": "360px",
                               "loop": false,
                               "muted": false,
                               "onBuffer": [Function],
@@ -14604,7 +14483,6 @@ ReactWrapper {
                               "playing": false,
                               "source": "",
                               "volume": 1,
-                              "width": "640px",
                             }
                           }
                         />,
@@ -14660,7 +14538,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -14676,7 +14553,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -14703,7 +14579,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -14719,7 +14594,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "refs": Object {},
@@ -14729,7 +14603,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -14745,7 +14618,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "updater": Object {
@@ -14769,7 +14641,6 @@ ReactWrapper {
                     "props": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -14785,7 +14656,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                     "refs": Object {},
                     "state": null,
@@ -15126,7 +14996,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -15142,7 +15011,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "memoizedState": Object {
@@ -15151,7 +15019,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -15167,7 +15034,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "mode": 0,
@@ -15178,7 +15044,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -15194,7 +15059,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "ref": null,
@@ -15284,7 +15148,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -15300,7 +15163,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -15323,7 +15185,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -15339,7 +15200,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -15415,7 +15275,6 @@ ReactWrapper {
                             Object {
                               "className": "",
                               "controls": true,
-                              "height": "360px",
                               "loop": false,
                               "muted": false,
                               "onBuffer": [Function],
@@ -15431,7 +15290,6 @@ ReactWrapper {
                               "playing": false,
                               "source": "",
                               "volume": 1,
-                              "width": "640px",
                             }
                           }
                         />,
@@ -15487,7 +15345,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -15503,7 +15360,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -15530,7 +15386,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -15546,7 +15401,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "refs": Object {},
@@ -15556,7 +15410,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -15572,7 +15425,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "updater": Object {
@@ -15652,7 +15504,6 @@ ReactWrapper {
                   "memoizedProps": Object {
                     "className": "",
                     "controls": true,
-                    "height": "360px",
                     "loop": false,
                     "muted": false,
                     "onBuffer": [Function],
@@ -15668,7 +15519,6 @@ ReactWrapper {
                     "playing": false,
                     "source": "",
                     "volume": 1,
-                    "width": "640px",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -15676,7 +15526,6 @@ ReactWrapper {
                   "pendingProps": Object {
                     "className": "",
                     "controls": true,
-                    "height": "360px",
                     "loop": false,
                     "muted": false,
                     "onBuffer": [Function],
@@ -15692,7 +15541,6 @@ ReactWrapper {
                     "playing": false,
                     "source": "",
                     "volume": 1,
-                    "width": "640px",
                   },
                   "ref": null,
                   "return": FiberNode {
@@ -15767,7 +15615,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -15783,7 +15630,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "memoizedState": Object {
@@ -15792,7 +15638,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -15808,7 +15653,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "mode": 0,
@@ -15819,7 +15663,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -15835,7 +15678,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "ref": null,
@@ -15925,7 +15767,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -15941,7 +15782,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -15964,7 +15804,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -15980,7 +15819,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -16056,7 +15894,6 @@ ReactWrapper {
                             Object {
                               "className": "",
                               "controls": true,
-                              "height": "360px",
                               "loop": false,
                               "muted": false,
                               "onBuffer": [Function],
@@ -16072,7 +15909,6 @@ ReactWrapper {
                               "playing": false,
                               "source": "",
                               "volume": 1,
-                              "width": "640px",
                             }
                           }
                         />,
@@ -16128,7 +15964,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -16144,7 +15979,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -16171,7 +16005,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -16187,7 +16020,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "refs": Object {},
@@ -16197,7 +16029,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -16213,7 +16044,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "updater": Object {
@@ -16237,7 +16067,6 @@ ReactWrapper {
                     "props": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -16253,7 +16082,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                     "refs": Object {},
                     "state": null,
@@ -18638,7 +18466,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -18654,7 +18481,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "memoizedState": Object {
@@ -18663,7 +18489,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -18679,7 +18504,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "mode": 0,
@@ -18690,7 +18514,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -18706,7 +18529,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "ref": null,
@@ -18796,7 +18618,6 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -18812,7 +18633,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           }
                         }
                       />,
@@ -18835,7 +18655,6 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -18851,7 +18670,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           }
                         }
                       />,
@@ -20115,7 +19933,6 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -20131,7 +19948,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     }
                   }
                 />,
@@ -20187,7 +20003,6 @@ ReactWrapper {
                       Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -20203,7 +20018,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       }
                     }
                   />,
@@ -20230,7 +20044,6 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "controls": true,
-                  "height": "360px",
                   "loop": false,
                   "muted": false,
                   "onBuffer": [Function],
@@ -20246,7 +20059,6 @@ ReactWrapper {
                   "playing": false,
                   "source": "",
                   "volume": 1,
-                  "width": "640px",
                 },
               },
               "refs": Object {},
@@ -20256,7 +20068,6 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "controls": true,
-                  "height": "360px",
                   "loop": false,
                   "muted": false,
                   "onBuffer": [Function],
@@ -20272,7 +20083,6 @@ ReactWrapper {
                   "playing": false,
                   "source": "",
                   "volume": 1,
-                  "width": "640px",
                 },
               },
               "updater": Object {
@@ -24392,7 +24202,6 @@ ReactWrapper {
           "memoizedProps": Object {
             "className": "",
             "controls": true,
-            "height": "360px",
             "loop": false,
             "muted": false,
             "onBuffer": [Function],
@@ -24408,7 +24217,6 @@ ReactWrapper {
             "playing": false,
             "source": "",
             "volume": 1,
-            "width": "640px",
           },
           "memoizedState": null,
           "mode": 0,
@@ -24416,7 +24224,6 @@ ReactWrapper {
           "pendingProps": Object {
             "className": "",
             "controls": true,
-            "height": "360px",
             "loop": false,
             "muted": false,
             "onBuffer": [Function],
@@ -24432,7 +24239,6 @@ ReactWrapper {
             "playing": false,
             "source": "",
             "volume": 1,
-            "width": "640px",
           },
           "ref": null,
           "return": FiberNode {
@@ -26485,7 +26291,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -26501,7 +26306,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "memoizedState": Object {
@@ -26510,7 +26314,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -26526,7 +26329,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "mode": 0,
@@ -26537,7 +26339,6 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "controls": true,
-                "height": "360px",
                 "loop": false,
                 "muted": false,
                 "onBuffer": [Function],
@@ -26553,7 +26354,6 @@ ReactWrapper {
                 "playing": false,
                 "source": "",
                 "volume": 1,
-                "width": "640px",
               },
             },
             "ref": null,
@@ -26643,7 +26443,6 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -26659,7 +26458,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           }
                         }
                       />,
@@ -26682,7 +26480,6 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -26698,7 +26495,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           }
                         }
                       />,
@@ -27962,7 +27758,6 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -27978,7 +27773,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     }
                   }
                 />,
@@ -28034,7 +27828,6 @@ ReactWrapper {
                       Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -28050,7 +27843,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       }
                     }
                   />,
@@ -28077,7 +27869,6 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "controls": true,
-                  "height": "360px",
                   "loop": false,
                   "muted": false,
                   "onBuffer": [Function],
@@ -28093,7 +27884,6 @@ ReactWrapper {
                   "playing": false,
                   "source": "",
                   "volume": 1,
-                  "width": "640px",
                 },
               },
               "refs": Object {},
@@ -28103,7 +27893,6 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "controls": true,
-                  "height": "360px",
                   "loop": false,
                   "muted": false,
                   "onBuffer": [Function],
@@ -28119,7 +27908,6 @@ ReactWrapper {
                   "playing": false,
                   "source": "",
                   "volume": 1,
-                  "width": "640px",
                 },
               },
               "updater": Object {
@@ -28147,7 +27935,6 @@ ReactWrapper {
         "props": Object {
           "className": "",
           "controls": true,
-          "height": "360px",
           "loop": false,
           "muted": false,
           "onBuffer": [Function],
@@ -28163,7 +27950,6 @@ ReactWrapper {
           "playing": false,
           "source": "",
           "volume": 1,
-          "width": "640px",
         },
         "refs": Object {},
         "state": null,
@@ -28179,7 +27965,6 @@ ReactWrapper {
       "props": Object {
         "className": "",
         "controls": true,
-        "height": "360px",
         "loop": false,
         "muted": false,
         "onBuffer": [Function],
@@ -28195,7 +27980,6 @@ ReactWrapper {
         "playing": false,
         "source": "",
         "volume": 1,
-        "width": "640px",
       },
       "ref": null,
       "rendered": Object {
@@ -28382,7 +28166,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -28398,7 +28181,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "memoizedState": Object {
@@ -28407,7 +28189,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -28423,7 +28204,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "mode": 0,
@@ -28434,7 +28214,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -28450,7 +28229,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "ref": null,
@@ -28540,7 +28318,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -28556,7 +28333,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -28579,7 +28355,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -28595,7 +28370,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -28671,7 +28445,6 @@ ReactWrapper {
                             Object {
                               "className": "",
                               "controls": true,
-                              "height": "360px",
                               "loop": false,
                               "muted": false,
                               "onBuffer": [Function],
@@ -28687,7 +28460,6 @@ ReactWrapper {
                               "playing": false,
                               "source": "",
                               "volume": 1,
-                              "width": "640px",
                             }
                           }
                         />,
@@ -28743,7 +28515,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -28759,7 +28530,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -28786,7 +28556,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -28802,7 +28571,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "refs": Object {},
@@ -28812,7 +28580,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -28828,7 +28595,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "updater": Object {
@@ -29176,7 +28942,6 @@ ReactWrapper {
                   "memoizedProps": Object {
                     "className": "",
                     "controls": true,
-                    "height": "360px",
                     "loop": false,
                     "muted": false,
                     "onBuffer": [Function],
@@ -29192,7 +28957,6 @@ ReactWrapper {
                     "playing": false,
                     "source": "",
                     "volume": 1,
-                    "width": "640px",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -29200,7 +28964,6 @@ ReactWrapper {
                   "pendingProps": Object {
                     "className": "",
                     "controls": true,
-                    "height": "360px",
                     "loop": false,
                     "muted": false,
                     "onBuffer": [Function],
@@ -29216,7 +28979,6 @@ ReactWrapper {
                     "playing": false,
                     "source": "",
                     "volume": 1,
-                    "width": "640px",
                   },
                   "ref": null,
                   "return": FiberNode {
@@ -29291,7 +29053,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -29307,7 +29068,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "memoizedState": Object {
@@ -29316,7 +29076,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -29332,7 +29091,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "mode": 0,
@@ -29343,7 +29101,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -29359,7 +29116,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                     },
                     "ref": null,
@@ -29449,7 +29205,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -29465,7 +29220,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -29488,7 +29242,6 @@ ReactWrapper {
                                   Object {
                                     "className": "",
                                     "controls": true,
-                                    "height": "360px",
                                     "loop": false,
                                     "muted": false,
                                     "onBuffer": [Function],
@@ -29504,7 +29257,6 @@ ReactWrapper {
                                     "playing": false,
                                     "source": "",
                                     "volume": 1,
-                                    "width": "640px",
                                   }
                                 }
                               />,
@@ -29580,7 +29332,6 @@ ReactWrapper {
                             Object {
                               "className": "",
                               "controls": true,
-                              "height": "360px",
                               "loop": false,
                               "muted": false,
                               "onBuffer": [Function],
@@ -29596,7 +29347,6 @@ ReactWrapper {
                               "playing": false,
                               "source": "",
                               "volume": 1,
-                              "width": "640px",
                             }
                           }
                         />,
@@ -29652,7 +29402,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -29668,7 +29417,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -29695,7 +29443,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -29711,7 +29458,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "refs": Object {},
@@ -29721,7 +29467,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -29737,7 +29482,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "updater": Object {
@@ -29761,7 +29505,6 @@ ReactWrapper {
                     "props": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -29777,7 +29520,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                     "refs": Object {},
                     "state": null,
@@ -30209,7 +29951,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -30225,7 +29966,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "memoizedState": Object {
@@ -30234,7 +29974,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -30250,7 +29989,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "mode": 0,
@@ -30261,7 +29999,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -30277,7 +30014,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "ref": null,
@@ -30367,7 +30103,6 @@ ReactWrapper {
                                     Object {
                                       "className": "",
                                       "controls": true,
-                                      "height": "360px",
                                       "loop": false,
                                       "muted": false,
                                       "onBuffer": [Function],
@@ -30383,7 +30118,6 @@ ReactWrapper {
                                       "playing": false,
                                       "source": "",
                                       "volume": 1,
-                                      "width": "640px",
                                     }
                                   }
                                 />,
@@ -30406,7 +30140,6 @@ ReactWrapper {
                                     Object {
                                       "className": "",
                                       "controls": true,
-                                      "height": "360px",
                                       "loop": false,
                                       "muted": false,
                                       "onBuffer": [Function],
@@ -30422,7 +30155,6 @@ ReactWrapper {
                                       "playing": false,
                                       "source": "",
                                       "volume": 1,
-                                      "width": "640px",
                                     }
                                   }
                                 />,
@@ -30498,7 +30230,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -30514,7 +30245,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -30570,7 +30300,6 @@ ReactWrapper {
                                 Object {
                                   "className": "",
                                   "controls": true,
-                                  "height": "360px",
                                   "loop": false,
                                   "muted": false,
                                   "onBuffer": [Function],
@@ -30586,7 +30315,6 @@ ReactWrapper {
                                   "playing": false,
                                   "source": "",
                                   "volume": 1,
-                                  "width": "640px",
                                 }
                               }
                             />,
@@ -30613,7 +30341,6 @@ ReactWrapper {
                           "props": Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -30629,7 +30356,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           },
                         },
                         "refs": Object {},
@@ -30639,7 +30365,6 @@ ReactWrapper {
                           "props": Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -30655,7 +30380,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           },
                         },
                         "updater": Object {
@@ -30735,7 +30459,6 @@ ReactWrapper {
                     "memoizedProps": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -30751,7 +30474,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -30759,7 +30481,6 @@ ReactWrapper {
                     "pendingProps": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -30775,7 +30496,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                     "ref": null,
                     "return": FiberNode {
@@ -30850,7 +30570,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -30866,7 +30585,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "memoizedState": Object {
@@ -30875,7 +30593,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -30891,7 +30608,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "mode": 0,
@@ -30902,7 +30618,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -30918,7 +30633,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "ref": null,
@@ -31008,7 +30722,6 @@ ReactWrapper {
                                     Object {
                                       "className": "",
                                       "controls": true,
-                                      "height": "360px",
                                       "loop": false,
                                       "muted": false,
                                       "onBuffer": [Function],
@@ -31024,7 +30737,6 @@ ReactWrapper {
                                       "playing": false,
                                       "source": "",
                                       "volume": 1,
-                                      "width": "640px",
                                     }
                                   }
                                 />,
@@ -31047,7 +30759,6 @@ ReactWrapper {
                                     Object {
                                       "className": "",
                                       "controls": true,
-                                      "height": "360px",
                                       "loop": false,
                                       "muted": false,
                                       "onBuffer": [Function],
@@ -31063,7 +30774,6 @@ ReactWrapper {
                                       "playing": false,
                                       "source": "",
                                       "volume": 1,
-                                      "width": "640px",
                                     }
                                   }
                                 />,
@@ -31139,7 +30849,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -31155,7 +30864,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -31211,7 +30919,6 @@ ReactWrapper {
                                 Object {
                                   "className": "",
                                   "controls": true,
-                                  "height": "360px",
                                   "loop": false,
                                   "muted": false,
                                   "onBuffer": [Function],
@@ -31227,7 +30934,6 @@ ReactWrapper {
                                   "playing": false,
                                   "source": "",
                                   "volume": 1,
-                                  "width": "640px",
                                 }
                               }
                             />,
@@ -31254,7 +30960,6 @@ ReactWrapper {
                           "props": Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -31270,7 +30975,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           },
                         },
                         "refs": Object {},
@@ -31280,7 +30984,6 @@ ReactWrapper {
                           "props": Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -31296,7 +30999,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           },
                         },
                         "updater": Object {
@@ -31320,7 +31022,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -31336,7 +31037,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                       "refs": Object {},
                       "state": null,
@@ -31677,7 +31377,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -31693,7 +31392,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "memoizedState": Object {
@@ -31702,7 +31400,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -31718,7 +31415,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "mode": 0,
@@ -31729,7 +31425,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -31745,7 +31440,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "ref": null,
@@ -31835,7 +31529,6 @@ ReactWrapper {
                                     Object {
                                       "className": "",
                                       "controls": true,
-                                      "height": "360px",
                                       "loop": false,
                                       "muted": false,
                                       "onBuffer": [Function],
@@ -31851,7 +31544,6 @@ ReactWrapper {
                                       "playing": false,
                                       "source": "",
                                       "volume": 1,
-                                      "width": "640px",
                                     }
                                   }
                                 />,
@@ -31874,7 +31566,6 @@ ReactWrapper {
                                     Object {
                                       "className": "",
                                       "controls": true,
-                                      "height": "360px",
                                       "loop": false,
                                       "muted": false,
                                       "onBuffer": [Function],
@@ -31890,7 +31581,6 @@ ReactWrapper {
                                       "playing": false,
                                       "source": "",
                                       "volume": 1,
-                                      "width": "640px",
                                     }
                                   }
                                 />,
@@ -31966,7 +31656,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -31982,7 +31671,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -32038,7 +31726,6 @@ ReactWrapper {
                                 Object {
                                   "className": "",
                                   "controls": true,
-                                  "height": "360px",
                                   "loop": false,
                                   "muted": false,
                                   "onBuffer": [Function],
@@ -32054,7 +31741,6 @@ ReactWrapper {
                                   "playing": false,
                                   "source": "",
                                   "volume": 1,
-                                  "width": "640px",
                                 }
                               }
                             />,
@@ -32081,7 +31767,6 @@ ReactWrapper {
                           "props": Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -32097,7 +31782,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           },
                         },
                         "refs": Object {},
@@ -32107,7 +31791,6 @@ ReactWrapper {
                           "props": Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -32123,7 +31806,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           },
                         },
                         "updater": Object {
@@ -32203,7 +31885,6 @@ ReactWrapper {
                     "memoizedProps": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -32219,7 +31900,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -32227,7 +31907,6 @@ ReactWrapper {
                     "pendingProps": Object {
                       "className": "",
                       "controls": true,
-                      "height": "360px",
                       "loop": false,
                       "muted": false,
                       "onBuffer": [Function],
@@ -32243,7 +31922,6 @@ ReactWrapper {
                       "playing": false,
                       "source": "",
                       "volume": 1,
-                      "width": "640px",
                     },
                     "ref": null,
                     "return": FiberNode {
@@ -32318,7 +31996,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -32334,7 +32011,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "memoizedState": Object {
@@ -32343,7 +32019,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -32359,7 +32034,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "mode": 0,
@@ -32370,7 +32044,6 @@ ReactWrapper {
                         "props": Object {
                           "className": "",
                           "controls": true,
-                          "height": "360px",
                           "loop": false,
                           "muted": false,
                           "onBuffer": [Function],
@@ -32386,7 +32059,6 @@ ReactWrapper {
                           "playing": false,
                           "source": "",
                           "volume": 1,
-                          "width": "640px",
                         },
                       },
                       "ref": null,
@@ -32476,7 +32148,6 @@ ReactWrapper {
                                     Object {
                                       "className": "",
                                       "controls": true,
-                                      "height": "360px",
                                       "loop": false,
                                       "muted": false,
                                       "onBuffer": [Function],
@@ -32492,7 +32163,6 @@ ReactWrapper {
                                       "playing": false,
                                       "source": "",
                                       "volume": 1,
-                                      "width": "640px",
                                     }
                                   }
                                 />,
@@ -32515,7 +32185,6 @@ ReactWrapper {
                                     Object {
                                       "className": "",
                                       "controls": true,
-                                      "height": "360px",
                                       "loop": false,
                                       "muted": false,
                                       "onBuffer": [Function],
@@ -32531,7 +32200,6 @@ ReactWrapper {
                                       "playing": false,
                                       "source": "",
                                       "volume": 1,
-                                      "width": "640px",
                                     }
                                   }
                                 />,
@@ -32607,7 +32275,6 @@ ReactWrapper {
                               Object {
                                 "className": "",
                                 "controls": true,
-                                "height": "360px",
                                 "loop": false,
                                 "muted": false,
                                 "onBuffer": [Function],
@@ -32623,7 +32290,6 @@ ReactWrapper {
                                 "playing": false,
                                 "source": "",
                                 "volume": 1,
-                                "width": "640px",
                               }
                             }
                           />,
@@ -32679,7 +32345,6 @@ ReactWrapper {
                                 Object {
                                   "className": "",
                                   "controls": true,
-                                  "height": "360px",
                                   "loop": false,
                                   "muted": false,
                                   "onBuffer": [Function],
@@ -32695,7 +32360,6 @@ ReactWrapper {
                                   "playing": false,
                                   "source": "",
                                   "volume": 1,
-                                  "width": "640px",
                                 }
                               }
                             />,
@@ -32722,7 +32386,6 @@ ReactWrapper {
                           "props": Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -32738,7 +32401,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           },
                         },
                         "refs": Object {},
@@ -32748,7 +32410,6 @@ ReactWrapper {
                           "props": Object {
                             "className": "",
                             "controls": true,
-                            "height": "360px",
                             "loop": false,
                             "muted": false,
                             "onBuffer": [Function],
@@ -32764,7 +32425,6 @@ ReactWrapper {
                             "playing": false,
                             "source": "",
                             "volume": 1,
-                            "width": "640px",
                           },
                         },
                         "updater": Object {
@@ -32788,7 +32448,6 @@ ReactWrapper {
                       "props": Object {
                         "className": "",
                         "controls": true,
-                        "height": "360px",
                         "loop": false,
                         "muted": false,
                         "onBuffer": [Function],
@@ -32804,7 +32463,6 @@ ReactWrapper {
                         "playing": false,
                         "source": "",
                         "volume": 1,
-                        "width": "640px",
                       },
                       "refs": Object {},
                       "state": null,

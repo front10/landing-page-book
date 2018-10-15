@@ -10,6 +10,7 @@ ShallowWrapper {
 	author: \\"front10-devs\\",
 	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
 };"
+    codeLink=""
     languageCode="javascript"
     lineNumbers={true}
     readOnly={false}
@@ -47,6 +48,7 @@ ShallowWrapper {
           <NavbarNav
             alignItems="right"
           >
+            
             <CopyToClipboard
               onCopy={[Function]}
               options={undefined}
@@ -94,7 +96,6 @@ ShallowWrapper {
         </Navbar>,
         <Unknown
           autoFocus={true}
-          className=""
           onChange={[Function]}
           options={
             Object {
@@ -138,6 +139,7 @@ ShallowWrapper {
           "children": <NavbarNav
             alignItems="right"
           >
+            
             <CopyToClipboard
               onCopy={[Function]}
               options={undefined}
@@ -198,6 +200,7 @@ ShallowWrapper {
           "props": Object {
             "alignItems": "right",
             "children": Array [
+              "",
               <CopyToClipboard
                 onCopy={[Function]}
                 options={undefined}
@@ -245,6 +248,7 @@ ShallowWrapper {
           },
           "ref": null,
           "rendered": Array [
+            "",
             Object {
               "instance": null,
               "key": undefined,
@@ -361,7 +365,6 @@ ShallowWrapper {
         "nodeType": "class",
         "props": Object {
           "autoFocus": true,
-          "className": "",
           "onChange": [Function],
           "options": Object {
             "lineNumbers": true,
@@ -426,6 +429,7 @@ ShallowWrapper {
             <NavbarNav
               alignItems="right"
             >
+              
               <CopyToClipboard
                 onCopy={[Function]}
                 options={undefined}
@@ -473,7 +477,6 @@ ShallowWrapper {
           </Navbar>,
           <Unknown
             autoFocus={true}
-            className=""
             onChange={[Function]}
             options={
               Object {
@@ -517,6 +520,7 @@ ShallowWrapper {
             "children": <NavbarNav
               alignItems="right"
             >
+              
               <CopyToClipboard
                 onCopy={[Function]}
                 options={undefined}
@@ -577,6 +581,7 @@ ShallowWrapper {
             "props": Object {
               "alignItems": "right",
               "children": Array [
+                "",
                 <CopyToClipboard
                   onCopy={[Function]}
                   options={undefined}
@@ -624,6 +629,7 @@ ShallowWrapper {
             },
             "ref": null,
             "rendered": Array [
+              "",
               Object {
                 "instance": null,
                 "key": undefined,
@@ -740,7 +746,6 @@ ShallowWrapper {
           "nodeType": "class",
           "props": Object {
             "autoFocus": true,
-            "className": "",
             "onChange": [Function],
             "options": Object {
               "lineNumbers": true,

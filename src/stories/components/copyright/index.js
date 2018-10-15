@@ -24,7 +24,7 @@ stories.addWithJSX(
         showYear={boolean('Show year', true)}
         allRightText={text('All right text', 'All rights reserved')}
         copyRightText={text('Copy right text', 'Copyright')}
-        text={text('Text', 'Fron10, inc')}
+        text={text('Text', 'Fron10, LLC')}
       />
     </ThemeSelector>
   )),

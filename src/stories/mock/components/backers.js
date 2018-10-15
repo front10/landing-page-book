@@ -1,152 +1,62 @@
 export default [
   {
-    name: 'Alberto Roman Vieito',
-    profile: 'https://twitter.com/romanvieito',
-    image: 'https://pbs.twimg.com/profile_images/946622143449661440/c_e7BcSM_400x400.jpg',
+    name: 'Neil',
+    profile: 'https://front10.com',
+    image: 'images/backers/astronaut.svg',
     contributionAmount: 125
   },
   {
-    name: 'Dariel Noel',
-    profile: 'https://twitter.com/dariel_noel',
-    image: 'https://pbs.twimg.com/profile_images/954398138516869120/uRSkGwhe_400x400.jpg',
+    name: 'Leonardo',
+    profile: 'https://front10.com',
+    image: 'images/backers/ninja.svg',
     contributionAmount: 47
   },
   {
-    name: 'Yulier Camilo Garrido Garrido',
-    profile: 'https://twitter.com/ycgarrido',
-    image: 'https://pbs.twimg.com/profile_images/985858821850415104/88svfp18_400x400.jpg',
+    name: 'Van Gogh',
+    profile: 'https://front10.com',
+    image: 'images/backers/bohemian.svg',
     contributionAmount: 200
   },
   {
-    name: 'Yoandry Collazo Barroso',
-    profile: 'https://www.facebook.com/ycbarroso',
-    image:
-      'https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-1/p160x160/33982916_1794458947240880_8061391612997009408_n.jpg?_nc_cat=0&oh=46256828ab9b2f3c3fe3b67cbd9e67c1&oe=5C134566',
-    contributionAmount: 250
+    name: 'Tom',
+    profile: 'https://front10.com',
+    image: 'images/backers/footballist.svg',
+    contributionAmount: 300
   },
   {
-    name: 'Alberto Roman Vieito',
-    profile: 'https://twitter.com/romanvieito',
-    image: 'https://pbs.twimg.com/profile_images/946622143449661440/c_e7BcSM_400x400.jpg',
-    contributionAmount: 125
+    name: 'Hacker',
+    profile: 'https://front10.com',
+    image: 'images/backers/hacker.svg',
+    contributionAmount: 21
   },
   {
-    name: 'Dariel Noel',
-    profile: 'https://twitter.com/dariel_noel',
-    image: 'https://pbs.twimg.com/profile_images/954398138516869120/uRSkGwhe_400x400.jpg',
-    contributionAmount: 47
+    name: 'Superheroe',
+    profile: 'https://front10.com',
+    image: 'images/backers/superheroe.svg',
+    contributionAmount: 1000
   },
   {
-    name: 'Yulier Camilo Garrido Garrido',
-    profile: 'https://twitter.com/ycgarrido',
-    image: 'https://pbs.twimg.com/profile_images/985858821850415104/88svfp18_400x400.jpg',
-    contributionAmount: 200
+    name: 'Doctor',
+    profile: 'https://front10.com',
+    image: 'images/backers/doctor.svg',
+    contributionAmount: 584
   },
   {
-    name: 'Yoandry Collazo Barroso',
-    profile: 'https://www.facebook.com/ycbarroso',
-    image:
-      'https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-1/p160x160/33982916_1794458947240880_8061391612997009408_n.jpg?_nc_cat=0&oh=46256828ab9b2f3c3fe3b67cbd9e67c1&oe=5C134566',
-    contributionAmount: 250
+    name: 'Nurse',
+    profile: 'https://front10.com',
+    image: 'images/backers/nurse.svg',
+    contributionAmount: 584
   },
   {
-    name: 'Alberto Roman Vieito',
-    profile: 'https://twitter.com/romanvieito',
-    image: 'https://pbs.twimg.com/profile_images/946622143449661440/c_e7BcSM_400x400.jpg',
-    contributionAmount: 125
+    name: 'Nun',
+    profile: 'https://front10.com',
+    image: 'images/backers/nun.svg',
+    contributionAmount: 91
   },
   {
-    name: 'Dariel Noel',
-    profile: 'https://twitter.com/dariel_noel',
-    image: 'https://pbs.twimg.com/profile_images/954398138516869120/uRSkGwhe_400x400.jpg',
-    contributionAmount: 47
-  },
-  {
-    name: 'Yulier Camilo Garrido Garrido',
-    profile: 'https://twitter.com/ycgarrido',
-    image: 'https://pbs.twimg.com/profile_images/985858821850415104/88svfp18_400x400.jpg',
-    contributionAmount: 200
-  },
-  {
-    name: 'Yoandry Collazo Barroso',
-    profile: 'https://www.facebook.com/ycbarroso',
-    image:
-      'https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-1/p160x160/33982916_1794458947240880_8061391612997009408_n.jpg?_nc_cat=0&oh=46256828ab9b2f3c3fe3b67cbd9e67c1&oe=5C134566',
-    contributionAmount: 250
-  },
-  {
-    name: 'Alberto Roman Vieito',
-    profile: 'https://twitter.com/romanvieito',
-    image: 'https://pbs.twimg.com/profile_images/946622143449661440/c_e7BcSM_400x400.jpg',
-    contributionAmount: 125
-  },
-  {
-    name: 'Dariel Noel',
-    profile: 'https://twitter.com/dariel_noel',
-    image: 'https://pbs.twimg.com/profile_images/954398138516869120/uRSkGwhe_400x400.jpg',
-    contributionAmount: 47
-  },
-  {
-    name: 'Yulier Camilo Garrido Garrido',
-    profile: 'https://twitter.com/ycgarrido',
-    image: 'https://pbs.twimg.com/profile_images/985858821850415104/88svfp18_400x400.jpg',
-    contributionAmount: 200
-  },
-  {
-    name: 'Yoandry Collazo Barroso',
-    profile: 'https://www.facebook.com/ycbarroso',
-    image:
-      'https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-1/p160x160/33982916_1794458947240880_8061391612997009408_n.jpg?_nc_cat=0&oh=46256828ab9b2f3c3fe3b67cbd9e67c1&oe=5C134566',
-    contributionAmount: 250
-  },
-  {
-    name: 'Alberto Roman Vieito',
-    profile: 'https://twitter.com/romanvieito',
-    image: 'https://pbs.twimg.com/profile_images/946622143449661440/c_e7BcSM_400x400.jpg',
-    contributionAmount: 125
-  },
-  {
-    name: 'Dariel Noel',
-    profile: 'https://twitter.com/dariel_noel',
-    image: 'https://pbs.twimg.com/profile_images/954398138516869120/uRSkGwhe_400x400.jpg',
-    contributionAmount: 47
-  },
-  {
-    name: 'Yulier Camilo Garrido Garrido',
-    profile: 'https://twitter.com/ycgarrido',
-    image: 'https://pbs.twimg.com/profile_images/985858821850415104/88svfp18_400x400.jpg',
-    contributionAmount: 200
-  },
-  {
-    name: 'Yoandry Collazo Barroso',
-    profile: 'https://www.facebook.com/ycbarroso',
-    image:
-      'https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-1/p160x160/33982916_1794458947240880_8061391612997009408_n.jpg?_nc_cat=0&oh=46256828ab9b2f3c3fe3b67cbd9e67c1&oe=5C134566',
-    contributionAmount: 250
-  },
-  {
-    name: 'Alberto Roman Vieito',
-    profile: 'https://twitter.com/romanvieito',
-    image: 'https://pbs.twimg.com/profile_images/946622143449661440/c_e7BcSM_400x400.jpg',
-    contributionAmount: 125
-  },
-  {
-    name: 'Dariel Noel',
-    profile: 'https://twitter.com/dariel_noel',
-    image: 'https://pbs.twimg.com/profile_images/954398138516869120/uRSkGwhe_400x400.jpg',
-    contributionAmount: 47
-  },
-  {
-    name: 'Yulier Camilo Garrido Garrido',
-    profile: 'https://twitter.com/ycgarrido',
-    image: 'https://pbs.twimg.com/profile_images/985858821850415104/88svfp18_400x400.jpg',
-    contributionAmount: 200
-  },
-  {
-    name: 'Yoandry Collazo Barroso',
-    profile: 'https://www.facebook.com/ycbarroso',
-    image:
-      'https://scontent-mia3-2.xx.fbcdn.net/v/t1.0-1/p160x160/33982916_1794458947240880_8061391612997009408_n.jpg?_nc_cat=0&oh=46256828ab9b2f3c3fe3b67cbd9e67c1&oe=5C134566',
-    contributionAmount: 250
+    name: 'Woman',
+    profile: 'https://front10.com',
+    image: 'images/backers/woman.svg',
+    contributionAmount: 916
   }
 ];

@@ -15,24 +15,28 @@ jobs:
     - stage: Installing dependencies
       script: npm install    
     - stage: Test code
+      if: type = pull_request
       script: npm run eslint 
-      script: npm run test -- -u  
-    - stage: Building code
-      script: npm run build-storybook      
+      script: npm run test      
+    - stage: code coveralls and browserstack
+      if: type = pull_request
+      script: npm run test:badge 
+      script: npm run test-browser    
+before_deploy: 
+  - npm run build-storybook
 deploy:
   provider: pages
+  local-dir: public
+  target-branch: gh-pages
+  repo: front10/landing-page-book
   skip-cleanup: true
   github-token: $GH_TOKEN
   keep-history: true
-  local-dir: ./public
-  repo: git@github.com:front10/landing-page-book.git
-  target-branch: gh-pages
   on:
     branch: master
 env:
   global:
-  - GH_USER: front10
-  - GH_REPO: landing-page-book
+    - secure: "TfTnvOnHGDWNu4rrca4QeKVZrNWpGQrck6WRdupFsfRh9/+YYQ3Fypt8gCykAxe/xcHovMdifAD4ZRGj+yILEDRR7C3i0IgGJx+WIZU3xTHNRzYzSlp6bC4vXNbxd//E8F6C2cauyq8g6INJDNf33+VwmD2uTduUCKH+uB8ZEPQrCnKnoP3z8gIdq+SC/DOl2KFRpcIQNF94jImANwFvz2tNwZviZBJcVuPVwchCX40TGSzTFDwjjkSI9r3KCKhx3CrhabHU96aneVBtVWLNNPD08t9V4vPI75wkALj+UlLJcqPCiU25ywNWXPFi59CTwegZh1KU0uWuPU6OTvPzgZ5xGo2Hvy6A9x3c3kh1LHka2KeKF02V1oTGMObUy50io9QTMQuMOP1t7U3W7QI1BbmqOFWlh4vqDZ9wlljg1/cVsQhfOILZn8Ow4R4mgYVpiKwoSzOAymSSn7/6VpvNNxoF/+sIPzrJ+PQAPLjIUBeY04xgnbSaWmSsPuanXURXQ20o54VDGEzJT+EC8zroDuZSl6zaTNOK+KloKokLZa29wijHif30sjLlHj9GD3xC2YWbu7KUMll4Kwc+/gA0AaY9Aq9XlM7fnRNCKiwB8HQvJMJBQGauF8FVjpjzaqQOlQ4ExQAgz+S4rGsYPkCTVDpnqk0IJ9UBwug7blghXGE="
 addons:
   browserstack:
     username: "yoandrycollazo1"

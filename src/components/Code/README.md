@@ -1,3 +1,6 @@
+<a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/src/components/Code/README.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
+</a>
+
 # Code
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
@@ -34,6 +37,7 @@ import '@front10/landing-page-book/dist/components/Code/style.css';
 ```html
 <Code />
 ```
+
 <a target="_blank" href="https://codesandbox.io/s/pmjvk5wl27">
   <img alt="Edit Code demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
 </a>
@@ -42,7 +46,6 @@ import '@front10/landing-page-book/dist/components/Code/style.css';
 
 | </br>Name    | </br>Type | </br>Summary                                                                        |
 | ------------ | --------- | ----------------------------------------------------------------------------------- |
-| bgColorDark  | `Boolean` | Shows background color dark, Default `false`                                        |
 | readOnly     | `Boolean` | No allow to change the code, Default `false`                                        |
 | lineNumbers  | `Boolean` | Shows line numbers, Default `true`                                                  |
 | showheader   | `Boolean` | Shows header bar, Default `true`                                                    |
@@ -50,25 +53,23 @@ import '@front10/landing-page-book/dist/components/Code/style.css';
 | code         | `String`  | Code to show on component, Default `Js code example`                                |
 | theme        | `String`  | Theme of code, Default `"idea"`                                                     |
 | languageCode | `String`  | language in which the code is written to embellish the syntax, Default `javascript` |
+| codeLink     | `String`  | Link to code, ex: CodeSandbox, CodePen. Default `""`                                |
 | updateCode   | `func`    | Function to handle the change made in the code.                                     |
 
 ## Theming variables
 
-| </br>Name                                  | </br>Summary                                            | </br>Default      |
-| ------------------------------------------ | ------------------------------------------------------- | ----------------- |
-| --CodeMirror\_\_lines_backgroundColor      | Code's lines background color                           | `#fff`            |
-| --CodeMirror\_\_lines_backgroundColor-dark | Code's lines background color if property dark is true  | `#dcdcdc`         |
-| --CodeMirror\_\_header_with                | Code's header width                                     | `100%`            |
-| --CodeMirror\_\_header_height              | Code's header height                                    | `45px`            |
-| --CodeMirror\_\_header_backgroundColor     | Code's header background color                          | `#dcdcdc`         |
-| --CodeMirror\_\_footer_with                | Code's footer width                                     | `100%`            |
-| --CodeMirror\_\_footer_height              | Code's footer height                                    | `15px`            |
-| --CodeMirror\_\_footer_backgroundColor     | Code's footer bacground color                           | `#dcdcdc`         |
-| --CodeMirror\_\_headerDark_with            | Code's header width if property dark is true            | `100%`            |
-| --CodeMirror\_\_footerDark_height          | Code's header height if property dark is true           | `15px`            |
-| --CodeMirror\_\_footerDark_backgroundColor | Code's footer background color if property dark is true | `rgb(68, 68, 68)` |
-| --CodeMirror\_\_footerDark_Color           | Code's footer color if property dark is true            | `#fff`            |
-| --CodeMirror\_\_header_copybtn_margin      | Margin of copy button in header                         | `10px -10px 0 0`  |
-| --CodeMirror\_\_header_deletebtn_margin    | Margin of clear code button in header                   | `10px 0 0 0`      |
-| --CodeMirror\_\_height                     | Height of Code                                          | `250px`           |
-| --CodeMirror\_\_font_family                | Code's font family                                      | `Lato`            |
+| </br>Name                               | </br>Summary                          | </br>Default     |
+| --------------------------------------- | ------------------------------------- | ---------------- |
+| --CodeMirror\_\_header_with             | Code's header width                   | `100%`           |
+| --CodeMirror\_\_header_height           | Code's header height                  | `45px`           |
+| --CodeMirror\_\_header_backgroundColor  | Code's header background color        | `#304148`        |
+| --CodeMirror\_\_header_color            | Color from header's buttons           | `#fed136`        |
+| --CodeMirror\_\_footer_with             | Code's footer width                   | `100%`           |
+| --CodeMirror\_\_footer_height           | Code's footer height                  | `15px`           |
+| --CodeMirror\_\_footer_backgroundColor  | Code's footer bacground color         | `#304148`        |
+| --CodeMirror\_\_header_copybtn_margin   | Margin of copy button in header       | `10px -10px 0 0` |
+| --CodeMirror\_\_header_deletebtn_margin | Margin of clear code button in header | `10px 0 0 0`     |
+| --CodeMirror\_\_height                  | Height of Code                        | `250px`          |
+| --CodeMirror\_\_font_family             | Code's font family                    | `Lato`           |
+| --CodeMirror__Btn-background-color      | Code's buttons background color       | `transparent`    |
+| --CodeMirror__Btn-padding               | Code's buttons padding                | `6px 20px`       |

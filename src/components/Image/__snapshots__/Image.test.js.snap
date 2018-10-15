@@ -6,7 +6,6 @@ ReactWrapper {
     alt="This is an image"
     border={false}
     className="img-fluid"
-    height={undefined}
     rounded={false}
     src="logo.png"
     tooltip=""
@@ -59,7 +58,6 @@ ReactWrapper {
             "memoizedProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -74,7 +72,6 @@ ReactWrapper {
             "pendingProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -209,7 +206,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -228,7 +224,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -276,7 +271,6 @@ ReactWrapper {
               "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
-              "height": undefined,
               "rounded": false,
               "src": "logo.png",
               "tooltip": "",
@@ -290,7 +284,6 @@ ReactWrapper {
               "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
-              "height": undefined,
               "rounded": false,
               "src": "logo.png",
               "tooltip": "",
@@ -306,7 +299,6 @@ ReactWrapper {
               "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
-              "height": undefined,
               "rounded": false,
               "src": "logo.png",
               "tooltip": "",
@@ -414,7 +406,6 @@ ReactWrapper {
                           "alt": "This is an image",
                           "border": false,
                           "className": "img-fluid",
-                          "height": undefined,
                           "rounded": false,
                           "src": "logo.png",
                           "tooltip": "",
@@ -442,7 +433,6 @@ ReactWrapper {
                           "alt": "This is an image",
                           "border": false,
                           "className": "img-fluid",
-                          "height": undefined,
                           "rounded": false,
                           "src": "logo.png",
                           "tooltip": "",
@@ -480,7 +470,6 @@ ReactWrapper {
               "memoizedProps": Object {
                 "alt": "This is an image",
                 "className": "img-fluid",
-                "height": undefined,
                 "onLoad": [Function],
                 "src": "logo.png",
                 "style": Object {
@@ -495,7 +484,6 @@ ReactWrapper {
               "pendingProps": Object {
                 "alt": "This is an image",
                 "className": "img-fluid",
-                "height": undefined,
                 "onLoad": [Function],
                 "src": "logo.png",
                 "style": Object {
@@ -630,7 +618,6 @@ ReactWrapper {
                     </title>
                   </rect>,
                   "className": "img-fluid",
-                  "height": undefined,
                   "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
@@ -649,7 +636,6 @@ ReactWrapper {
                     </title>
                   </rect>,
                   "className": "img-fluid",
-                  "height": undefined,
                   "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
@@ -700,7 +686,6 @@ ReactWrapper {
                     "alt": "This is an image",
                     "border": false,
                     "className": "img-fluid",
-                    "height": undefined,
                     "rounded": false,
                     "src": "logo.png",
                     "tooltip": "",
@@ -774,7 +759,6 @@ ReactWrapper {
                       "alt": "This is an image",
                       "border": false,
                       "className": "img-fluid",
-                      "height": undefined,
                       "rounded": false,
                       "src": "logo.png",
                       "tooltip": "",
@@ -806,7 +790,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -821,7 +804,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -864,7 +846,6 @@ ReactWrapper {
           "memoizedProps": Object {
             "alt": "This is an image",
             "className": "img-fluid",
-            "height": undefined,
             "onLoad": [Function],
             "src": "logo.png",
             "style": Object {
@@ -879,7 +860,6 @@ ReactWrapper {
           "pendingProps": Object {
             "alt": "This is an image",
             "className": "img-fluid",
-            "height": undefined,
             "onLoad": [Function],
             "src": "logo.png",
             "style": Object {
@@ -1014,7 +994,6 @@ ReactWrapper {
                 </title>
               </rect>,
               "className": "img-fluid",
-              "height": undefined,
               "viewBox": "0 0 100 100",
               "width": undefined,
             },
@@ -1033,7 +1012,6 @@ ReactWrapper {
                 </title>
               </rect>,
               "className": "img-fluid",
-              "height": undefined,
               "viewBox": "0 0 100 100",
               "width": undefined,
             },
@@ -1095,7 +1073,6 @@ ReactWrapper {
           "memoizedProps": Object {
             "alt": "This is an image",
             "className": "img-fluid",
-            "height": undefined,
             "onLoad": [Function],
             "src": "logo.png",
             "style": Object {
@@ -1110,7 +1087,6 @@ ReactWrapper {
           "pendingProps": Object {
             "alt": "This is an image",
             "className": "img-fluid",
-            "height": undefined,
             "onLoad": [Function],
             "src": "logo.png",
             "style": Object {
@@ -1245,7 +1221,6 @@ ReactWrapper {
                 </title>
               </rect>,
               "className": "img-fluid",
-              "height": undefined,
               "viewBox": "0 0 100 100",
               "width": undefined,
             },
@@ -1264,7 +1239,6 @@ ReactWrapper {
                 </title>
               </rect>,
               "className": "img-fluid",
-              "height": undefined,
               "viewBox": "0 0 100 100",
               "width": undefined,
             },
@@ -1324,7 +1298,6 @@ ReactWrapper {
           "memoizedProps": Object {
             "alt": "This is an image",
             "className": "img-fluid",
-            "height": undefined,
             "onLoad": [Function],
             "src": "logo.png",
             "style": Object {
@@ -1339,7 +1312,6 @@ ReactWrapper {
           "pendingProps": Object {
             "alt": "This is an image",
             "className": "img-fluid",
-            "height": undefined,
             "onLoad": [Function],
             "src": "logo.png",
             "style": Object {
@@ -1474,7 +1446,6 @@ ReactWrapper {
                 </title>
               </rect>,
               "className": "img-fluid",
-              "height": undefined,
               "viewBox": "0 0 100 100",
               "width": undefined,
             },
@@ -1493,7 +1464,6 @@ ReactWrapper {
                 </title>
               </rect>,
               "className": "img-fluid",
-              "height": undefined,
               "viewBox": "0 0 100 100",
               "width": undefined,
             },
@@ -1535,7 +1505,6 @@ ReactWrapper {
           "alt": "This is an image",
           "border": false,
           "className": "img-fluid",
-          "height": undefined,
           "rounded": false,
           "src": "logo.png",
           "tooltip": "",
@@ -1550,7 +1519,6 @@ ReactWrapper {
           "alt": "This is an image",
           "border": false,
           "className": "img-fluid",
-          "height": undefined,
           "rounded": false,
           "src": "logo.png",
           "tooltip": "",
@@ -1590,7 +1558,6 @@ ReactWrapper {
             "memoizedProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -1605,7 +1572,6 @@ ReactWrapper {
             "pendingProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -1740,7 +1706,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -1759,7 +1724,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -1807,7 +1771,6 @@ ReactWrapper {
               "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
-              "height": undefined,
               "rounded": false,
               "src": "logo.png",
               "tooltip": "",
@@ -1821,7 +1784,6 @@ ReactWrapper {
               "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
-              "height": undefined,
               "rounded": false,
               "src": "logo.png",
               "tooltip": "",
@@ -1837,7 +1799,6 @@ ReactWrapper {
               "alt": "This is an image",
               "border": false,
               "className": "img-fluid",
-              "height": undefined,
               "rounded": false,
               "src": "logo.png",
               "tooltip": "",
@@ -1945,7 +1906,6 @@ ReactWrapper {
                           "alt": "This is an image",
                           "border": false,
                           "className": "img-fluid",
-                          "height": undefined,
                           "rounded": false,
                           "src": "logo.png",
                           "tooltip": "",
@@ -1973,7 +1933,6 @@ ReactWrapper {
                           "alt": "This is an image",
                           "border": false,
                           "className": "img-fluid",
-                          "height": undefined,
                           "rounded": false,
                           "src": "logo.png",
                           "tooltip": "",
@@ -2011,7 +1970,6 @@ ReactWrapper {
               "memoizedProps": Object {
                 "alt": "This is an image",
                 "className": "img-fluid",
-                "height": undefined,
                 "onLoad": [Function],
                 "src": "logo.png",
                 "style": Object {
@@ -2026,7 +1984,6 @@ ReactWrapper {
               "pendingProps": Object {
                 "alt": "This is an image",
                 "className": "img-fluid",
-                "height": undefined,
                 "onLoad": [Function],
                 "src": "logo.png",
                 "style": Object {
@@ -2161,7 +2118,6 @@ ReactWrapper {
                     </title>
                   </rect>,
                   "className": "img-fluid",
-                  "height": undefined,
                   "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
@@ -2180,7 +2136,6 @@ ReactWrapper {
                     </title>
                   </rect>,
                   "className": "img-fluid",
-                  "height": undefined,
                   "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
@@ -2231,7 +2186,6 @@ ReactWrapper {
                     "alt": "This is an image",
                     "border": false,
                     "className": "img-fluid",
-                    "height": undefined,
                     "rounded": false,
                     "src": "logo.png",
                     "tooltip": "",
@@ -2305,7 +2259,6 @@ ReactWrapper {
                       "alt": "This is an image",
                       "border": false,
                       "className": "img-fluid",
-                      "height": undefined,
                       "rounded": false,
                       "src": "logo.png",
                       "tooltip": "",
@@ -2337,7 +2290,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -2352,7 +2304,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -2408,7 +2359,6 @@ ReactWrapper {
         "alt": "This is an image",
         "border": false,
         "className": "img-fluid",
-        "height": undefined,
         "rounded": false,
         "src": "logo.png",
         "tooltip": "",
@@ -2431,7 +2381,6 @@ ReactWrapper {
       "alt": "This is an image",
       "border": false,
       "className": "img-fluid",
-      "height": undefined,
       "rounded": false,
       "src": "logo.png",
       "tooltip": "",
@@ -2452,7 +2401,6 @@ ReactWrapper {
         "props": Object {
           "alt": "This is an image",
           "className": "img-fluid",
-          "height": undefined,
           "onLoad": [Function],
           "src": "logo.png",
           "style": Object {
@@ -2503,7 +2451,6 @@ ReactWrapper {
             </title>
           </rect>,
           "className": "img-fluid",
-          "height": undefined,
           "viewBox": "0 0 100 100",
           "width": undefined,
         },
@@ -2590,7 +2537,6 @@ ReactWrapper {
               "memoizedProps": Object {
                 "alt": "This is an image",
                 "className": "img-fluid",
-                "height": undefined,
                 "onLoad": [Function],
                 "src": "logo.png",
                 "style": Object {
@@ -2605,7 +2551,6 @@ ReactWrapper {
               "pendingProps": Object {
                 "alt": "This is an image",
                 "className": "img-fluid",
-                "height": undefined,
                 "onLoad": [Function],
                 "src": "logo.png",
                 "style": Object {
@@ -2740,7 +2685,6 @@ ReactWrapper {
                     </title>
                   </rect>,
                   "className": "img-fluid",
-                  "height": undefined,
                   "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
@@ -2759,7 +2703,6 @@ ReactWrapper {
                     </title>
                   </rect>,
                   "className": "img-fluid",
-                  "height": undefined,
                   "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
@@ -2807,7 +2750,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -2821,7 +2763,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -2837,7 +2778,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -2945,7 +2885,6 @@ ReactWrapper {
                             "alt": "This is an image",
                             "border": false,
                             "className": "img-fluid",
-                            "height": undefined,
                             "rounded": false,
                             "src": "logo.png",
                             "tooltip": "",
@@ -2973,7 +2912,6 @@ ReactWrapper {
                             "alt": "This is an image",
                             "border": false,
                             "className": "img-fluid",
-                            "height": undefined,
                             "rounded": false,
                             "src": "logo.png",
                             "tooltip": "",
@@ -3011,7 +2949,6 @@ ReactWrapper {
                 "memoizedProps": Object {
                   "alt": "This is an image",
                   "className": "img-fluid",
-                  "height": undefined,
                   "onLoad": [Function],
                   "src": "logo.png",
                   "style": Object {
@@ -3026,7 +2963,6 @@ ReactWrapper {
                 "pendingProps": Object {
                   "alt": "This is an image",
                   "className": "img-fluid",
-                  "height": undefined,
                   "onLoad": [Function],
                   "src": "logo.png",
                   "style": Object {
@@ -3161,7 +3097,6 @@ ReactWrapper {
                       </title>
                     </rect>,
                     "className": "img-fluid",
-                    "height": undefined,
                     "viewBox": "0 0 100 100",
                     "width": undefined,
                   },
@@ -3180,7 +3115,6 @@ ReactWrapper {
                       </title>
                     </rect>,
                     "className": "img-fluid",
-                    "height": undefined,
                     "viewBox": "0 0 100 100",
                     "width": undefined,
                   },
@@ -3231,7 +3165,6 @@ ReactWrapper {
                       "alt": "This is an image",
                       "border": false,
                       "className": "img-fluid",
-                      "height": undefined,
                       "rounded": false,
                       "src": "logo.png",
                       "tooltip": "",
@@ -3305,7 +3238,6 @@ ReactWrapper {
                         "alt": "This is an image",
                         "border": false,
                         "className": "img-fluid",
-                        "height": undefined,
                         "rounded": false,
                         "src": "logo.png",
                         "tooltip": "",
@@ -3337,7 +3269,6 @@ ReactWrapper {
                   "alt": "This is an image",
                   "border": false,
                   "className": "img-fluid",
-                  "height": undefined,
                   "rounded": false,
                   "src": "logo.png",
                   "tooltip": "",
@@ -3352,7 +3283,6 @@ ReactWrapper {
                   "alt": "This is an image",
                   "border": false,
                   "className": "img-fluid",
-                  "height": undefined,
                   "rounded": false,
                   "src": "logo.png",
                   "tooltip": "",
@@ -3395,7 +3325,6 @@ ReactWrapper {
             "memoizedProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -3410,7 +3339,6 @@ ReactWrapper {
             "pendingProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -3545,7 +3473,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -3564,7 +3491,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -3626,7 +3552,6 @@ ReactWrapper {
             "memoizedProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -3641,7 +3566,6 @@ ReactWrapper {
             "pendingProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -3776,7 +3700,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -3795,7 +3718,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -3855,7 +3777,6 @@ ReactWrapper {
             "memoizedProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -3870,7 +3791,6 @@ ReactWrapper {
             "pendingProps": Object {
               "alt": "This is an image",
               "className": "img-fluid",
-              "height": undefined,
               "onLoad": [Function],
               "src": "logo.png",
               "style": Object {
@@ -4005,7 +3925,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -4024,7 +3943,6 @@ ReactWrapper {
                   </title>
                 </rect>,
                 "className": "img-fluid",
-                "height": undefined,
                 "viewBox": "0 0 100 100",
                 "width": undefined,
               },
@@ -4066,7 +3984,6 @@ ReactWrapper {
             "alt": "This is an image",
             "border": false,
             "className": "img-fluid",
-            "height": undefined,
             "rounded": false,
             "src": "logo.png",
             "tooltip": "",
@@ -4081,7 +3998,6 @@ ReactWrapper {
             "alt": "This is an image",
             "border": false,
             "className": "img-fluid",
-            "height": undefined,
             "rounded": false,
             "src": "logo.png",
             "tooltip": "",
@@ -4121,7 +4037,6 @@ ReactWrapper {
               "memoizedProps": Object {
                 "alt": "This is an image",
                 "className": "img-fluid",
-                "height": undefined,
                 "onLoad": [Function],
                 "src": "logo.png",
                 "style": Object {
@@ -4136,7 +4051,6 @@ ReactWrapper {
               "pendingProps": Object {
                 "alt": "This is an image",
                 "className": "img-fluid",
-                "height": undefined,
                 "onLoad": [Function],
                 "src": "logo.png",
                 "style": Object {
@@ -4271,7 +4185,6 @@ ReactWrapper {
                     </title>
                   </rect>,
                   "className": "img-fluid",
-                  "height": undefined,
                   "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
@@ -4290,7 +4203,6 @@ ReactWrapper {
                     </title>
                   </rect>,
                   "className": "img-fluid",
-                  "height": undefined,
                   "viewBox": "0 0 100 100",
                   "width": undefined,
                 },
@@ -4338,7 +4250,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -4352,7 +4263,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -4368,7 +4278,6 @@ ReactWrapper {
                 "alt": "This is an image",
                 "border": false,
                 "className": "img-fluid",
-                "height": undefined,
                 "rounded": false,
                 "src": "logo.png",
                 "tooltip": "",
@@ -4476,7 +4385,6 @@ ReactWrapper {
                             "alt": "This is an image",
                             "border": false,
                             "className": "img-fluid",
-                            "height": undefined,
                             "rounded": false,
                             "src": "logo.png",
                             "tooltip": "",
@@ -4504,7 +4412,6 @@ ReactWrapper {
                             "alt": "This is an image",
                             "border": false,
                             "className": "img-fluid",
-                            "height": undefined,
                             "rounded": false,
                             "src": "logo.png",
                             "tooltip": "",
@@ -4542,7 +4449,6 @@ ReactWrapper {
                 "memoizedProps": Object {
                   "alt": "This is an image",
                   "className": "img-fluid",
-                  "height": undefined,
                   "onLoad": [Function],
                   "src": "logo.png",
                   "style": Object {
@@ -4557,7 +4463,6 @@ ReactWrapper {
                 "pendingProps": Object {
                   "alt": "This is an image",
                   "className": "img-fluid",
-                  "height": undefined,
                   "onLoad": [Function],
                   "src": "logo.png",
                   "style": Object {
@@ -4692,7 +4597,6 @@ ReactWrapper {
                       </title>
                     </rect>,
                     "className": "img-fluid",
-                    "height": undefined,
                     "viewBox": "0 0 100 100",
                     "width": undefined,
                   },
@@ -4711,7 +4615,6 @@ ReactWrapper {
                       </title>
                     </rect>,
                     "className": "img-fluid",
-                    "height": undefined,
                     "viewBox": "0 0 100 100",
                     "width": undefined,
                   },
@@ -4762,7 +4665,6 @@ ReactWrapper {
                       "alt": "This is an image",
                       "border": false,
                       "className": "img-fluid",
-                      "height": undefined,
                       "rounded": false,
                       "src": "logo.png",
                       "tooltip": "",
@@ -4836,7 +4738,6 @@ ReactWrapper {
                         "alt": "This is an image",
                         "border": false,
                         "className": "img-fluid",
-                        "height": undefined,
                         "rounded": false,
                         "src": "logo.png",
                         "tooltip": "",
@@ -4868,7 +4769,6 @@ ReactWrapper {
                   "alt": "This is an image",
                   "border": false,
                   "className": "img-fluid",
-                  "height": undefined,
                   "rounded": false,
                   "src": "logo.png",
                   "tooltip": "",
@@ -4883,7 +4783,6 @@ ReactWrapper {
                   "alt": "This is an image",
                   "border": false,
                   "className": "img-fluid",
-                  "height": undefined,
                   "rounded": false,
                   "src": "logo.png",
                   "tooltip": "",
@@ -4939,7 +4838,6 @@ ReactWrapper {
           "alt": "This is an image",
           "border": false,
           "className": "img-fluid",
-          "height": undefined,
           "rounded": false,
           "src": "logo.png",
           "tooltip": "",
@@ -4962,7 +4860,6 @@ ReactWrapper {
         "alt": "This is an image",
         "border": false,
         "className": "img-fluid",
-        "height": undefined,
         "rounded": false,
         "src": "logo.png",
         "tooltip": "",
@@ -4983,7 +4880,6 @@ ReactWrapper {
           "props": Object {
             "alt": "This is an image",
             "className": "img-fluid",
-            "height": undefined,
             "onLoad": [Function],
             "src": "logo.png",
             "style": Object {
@@ -5034,7 +4930,6 @@ ReactWrapper {
               </title>
             </rect>,
             "className": "img-fluid",
-            "height": undefined,
             "viewBox": "0 0 100 100",
             "width": undefined,
           },

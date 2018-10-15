@@ -1,3 +1,6 @@
+<a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/src/components/Image/README.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
+</a>
+
 # Image
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
@@ -34,7 +37,6 @@ import "@front10/landing-page-book/dist/components/Image/style.css";
 | rounded      | `Boolean` | Show circled image. Default `false` |
 | className      | `String` | Class to apply to image. Default `"img-fluid"` |
 | width      | `String` | Image width. Default `undefined` |
-| height      | `String` | Image height. Default `undefined` |
 | alt      | `String` | Image alt. Default `undefined`, this field is required |
 | tooltip      | `String` | Image tooltip. Default `""` |
 | src      | `String`,`Object` | Image source. Default `undefined`, this field is required |

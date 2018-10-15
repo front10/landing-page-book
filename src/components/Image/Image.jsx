@@ -37,7 +37,7 @@ class Image extends Component {
   }
 
   render() {
-    const { alt, src, rounded, border, width, height, tooltip, className } = this.props;
+    const { alt, src, rounded, border, width, tooltip, className } = this.props;
     const { loaded } = this.state;
     let tempClass = className;
     if (rounded) tempClass += ` rounded-circle`;
@@ -50,13 +50,12 @@ class Image extends Component {
           src={src}
           className={tempClass}
           width={width}
-          height={height}
           style={!loaded ? { display: 'none' } : {}}
           onLoad={this.handleImageLoaded}
           ref={this.image}
         />
         {!loaded && (
-          <svg alt={alt} className={tempClass} width={width} height={height} viewBox="0 0 100 100">
+          <svg alt={alt} className={tempClass} width={width} viewBox="0 0 100 100">
             <rect width="100" height="100" fill="#CCC">
               <title>{tooltip}</title>
             </rect>
@@ -72,7 +71,6 @@ Image.propTypes = {
   rounded: PropTypes.bool,
   className: PropTypes.string,
   width: PropTypes.string,
-  height: PropTypes.string,
   tooltip: PropTypes.string,
   alt: PropTypes.string.isRequired,
   src: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired
@@ -82,7 +80,6 @@ Image.defaultProps = {
   rounded: false,
   className: 'img-fluid',
   width: undefined,
-  height: undefined,
   tooltip: ''
 };
 

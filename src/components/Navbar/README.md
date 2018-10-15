@@ -1,3 +1,6 @@
+<a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/src/components/Navbar/README.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
+</a>
+
 # Navbar
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
@@ -130,3 +133,4 @@ const onItemClick = ({ item }) => {
 | --Navbar--hover-color     | Hover link color             | `#fed136`                  |
 | --Navbar--backgroundColor | Background color if is fixed | `rgba(250, 250, 250, 0.9)` |
 | --Navbar--boxShadow       | Box shadow if is fixed       | `rgba(0, 0, 0, .124)`      |
+| --Navbar--backgroundImage | Background imagen            | `none`                     |

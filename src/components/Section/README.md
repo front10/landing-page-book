@@ -1,3 +1,6 @@
+<a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/src/components/Section/README.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
+</a>
+
 # Section
 
 [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
@@ -53,3 +56,4 @@ import '@front10/landing-page-book/dist/components/Section/style.css';
 | --Section\_\_Subtitle-fontSize  | Subtitle font size                  | `0.9rem`     |
 | --Section\_\_Subtitle-color     | Subtitle color                      | `#b5b5b5`    |
 | --Section--gray-backgroundColor | Background color if section is gray | `#f8f9fa`    |
+| --Section--gray-backgroundImage | Background image if section is gray | `none`       |

@@ -3,7 +3,7 @@
 
 <h1 style="text-align: center;">
     <a href="http://front10.com/">
-        <img src="https://github.com/front10/landing-page-book/blob/master/assets/images/logo/logo-frton10.jpg" alt="Front10 Component Explorer" width="200">
+        <img src="https://github.com/front10/landing-page-book/blob/master/assets/images/logo/logo-frton10.jpg?raw=true" alt="Front10 Component Explorer" width="200">
     </a>
 </h1>
 

@@ -32,6 +32,7 @@ import "@front10/landing-page-book/dist/components/Browser/style.css";
 
 | </br>Name   | </br>Type | </br>Summary                                                                                 | 
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
-| showText      | `Boolean` | Define if text is show. Default `true`|
+| showBrowserVendor      | `Boolean` | Define if the browser name is displayed. Default `true`|
+| showBrowserVersion      | `Boolean` | Define if the browser version is displayed. Default `true`|
 | vendor      | `String` | Vendor of button. Default `""`, can be `firefox`, `chrome`, `iexplore`, `safari`, `opera`, `maxthon`, `flock`|
 | version      | `String` | Version of browser. Default `""`|

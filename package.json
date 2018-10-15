@@ -1,6 +1,6 @@
 {
     "name": "@front10/landing-page-book",
-    "version": "0.1.19",
+    "version": "0.1.22",
     "description": "A react library for landing page",
     "main": "dist/index.js",
     "scripts": {
@@ -14,7 +14,7 @@
         "gitlab-pages": "git push master gitlab-pages",
         "prepush": "npm run eslint",
         "transpile": "babel src -d dist --copy-files",
-        "prepublishOnly": "npm run transpile",
+        "prepublishOnly": "gulp compile-components-legacy & gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & npm run transpile",
         "test-browser": "node ./selenium/browser-test.js",
         "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-book.git"
     },

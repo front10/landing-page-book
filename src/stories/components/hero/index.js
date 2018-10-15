@@ -8,7 +8,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Hero, Link, Container, Image, Header, GithubButton, Button } from '../../../components';
+import { Hero, Container, Image, Header, GithubButton, Button } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
 import particles from '../../mock/components/particles';

@@ -76,6 +76,11 @@ class App extends Component {
 
 Read our [theming documentation](https://github.com/front10/landing-page-book/blob/master/theming.md).
 
+## Integration
+
+- [React App boilerplate](https://github.com/front10/landing-page-create-react-app)
+- [Gatsby boilerplate](https://github.com/front10/landing-page-gatsby)
+
 ## Tests
 
 ```bash

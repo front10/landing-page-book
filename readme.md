@@ -84,7 +84,7 @@ Read our [theming documentation](https://github.com/front10/landing-page-book/bl
 ## Tests
 
 ```bash
-npm test
+npm run test
 ```
 
 ## Coding styles

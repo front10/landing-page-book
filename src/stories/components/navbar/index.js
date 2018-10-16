@@ -109,7 +109,7 @@ stories.addWithJSX(
               <NavbarLink>
                 <Icon icon="fa fa-stack-overflow" />
               </NavbarLink>
-              <LanguageSwitcher showArrow={false} />
+              <LanguageSwitcher showArrow={false} selectedLanguage="US" />
             </NavbarNav>
           </NavbarCollapse>
         </Container>
@@ -127,7 +127,7 @@ stories.addWithJSX(
         <Container>
           <NavbarCollapse>
             <NavbarNav>
-              <LanguageSwitcher showArrow={false} />
+              <LanguageSwitcher showArrow={false} selectedLanguage="US" />
               <NavbarLink>
                 <Icon icon="fa fa-stack-overflow" />
               </NavbarLink>
@@ -192,7 +192,7 @@ stories.addWithJSX(
             <NavbarLink>
               <Icon icon="fa fa-stack-overflow" />
             </NavbarLink>
-            <LanguageSwitcher showArrow={false} />
+            <LanguageSwitcher showArrow={false} selectedLanguage="US" />
           </NavbarNav>
         </NavbarCollapse>
       </Navbar>
@@ -256,7 +256,7 @@ stories.addWithJSX(
             <NavbarLink>
               <Icon icon="fa fa-stack-overflow" />
             </NavbarLink>
-            <LanguageSwitcher showArrow={false} />
+            <LanguageSwitcher showArrow={false} selectedLanguage="US" />
             <NavbarLink href="https://twitter.com/ycgarrido">
               <Image
                 className="mr-2"

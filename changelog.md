@@ -7,25 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.0.1] Unreleased
 
-### Added
+#### Added
 
 - [#135](https://github.com/front10/landing-page-book/pull/135) New variables for GithubButton theming, by [@ycgarrido](https://github.com/ycgarrido)
 
-### Change
+#### Change
 
 - [#135](https://github.com/front10/landing-page-book/pull/135) Default value of prop `selectedLanguage` from `US` to `""`, by [@ycgarrido](https://github.com/ycgarrido)
 
-### Remove
+#### Remove
 
-## [1.0.0] - 2018-10-16
+## [1.0.0] 2018-10-16
 
-### Added
+#### Added
 
 - Initial Release.
 
-## [0.1.24] - 2018-10-15
+## [0.1.24] 2018-10-15
 
-### Added
+#### Added
 
 - More than 40 ReactJS components for landing page [StoryBook](https://front10.com/landing-page-book).
 - Bootstrap theming [Theming](https://github.com/front10/landing-page-book/blob/master/theming.md).

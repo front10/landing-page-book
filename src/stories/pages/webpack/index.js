@@ -86,6 +86,7 @@ stories.addWithJSX(
                   languages={languages}
                   customLabels={customLabels}
                   showArrow={false}
+                  selectedLanguage="US"
                 />
               </NavbarNav>
             </NavbarCollapse>

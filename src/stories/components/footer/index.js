@@ -111,7 +111,7 @@ stories.addWithJSX(
       <Footer>
         <div className="row">
           <div className="col-sm-12 col-md">
-            <Copyright text="Front10, Inc" showAllRightText={false} />
+            <Copyright text="Front10, LLC" showAllRightText={false} />
           </div>
           <div className="col-sm-12 col-md mt-3 mt-md-0">
             <img src="https://front10.com/img/logos/logo-main.png" width={80} alt="Front 10 logo" />

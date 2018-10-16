@@ -60,19 +60,22 @@ import '@front10/landing-page-book/dist/components/GithubButton/style.css';
 
 ## Theming variables
 
-| </br>Name                                       | </br>Summary                      | </br>Default                                                                                                                |
-| ----------------------------------------------- | --------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| --GithubDetail\_\_countbubble-backgroundColor   | Background color of button bubble | `#dcdcdc`                                                                                                                   |
-| --GithubDetail\_\_countbubble-borderradius      | Border radius of button bubble    | `0.4em`                                                                                                                     |
-| --GithubDetail\_\_countbubble-padding           | Padding of button bubble          | `6px`                                                                                                                       |
-| --GithubDetail\_\_countbubble-ml                | Margin left of button bubble      | `11px`                                                                                                                      |
-| --GithubDetail\_\_countbubble-border            | Border of button bubble           | `1px solid #dcdcdc`                                                                                                         |
-| --GithubDetail\_\_countbubble-transition        | Transition of button bubble       | `color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out` |
-| --GithubDetail\_\_countbubble-Color             | Color of button bubble            | `#000`                                                                                                                      |
-| --GithubDetail\_\_countbubble_after-border      | Border of button bubble           | `7px solid transparent`                                                                                                     |
-| --GithubDetail\_\_countbubble_after-borderColor | Border color of button bubble     | `transparent #dcdcdc transparent transparent`                                                                               |
-| --GithubDetail\_\_buttonText-ml                 | Margin left of button             | `5px`                                                                                                                       |
-| --GithubDetail\_\_btn_container-padding         | Pagging of button container       | `5px`                                                                                                                       |
-| --GithubDetail_btn-backgroundColor              | Background color of button        | `#dcdcdc`                                                                                                                   |
-| --GithubDetail_btn-Color                        | Color of button                   | `#000`                                                                                                                      |
-| --GithubDetail_Btn-borderRadius                 | Border radius of button           | `0px`                                                                                                                       |
+| </br>Name                                 | </br>Summary                     | </br>Default                                                                                                                |
+| ----------------------------------------- | -------------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| --GithubDetail\_\_countbubble-padding     | Padding of button bubble         | `6px`                                                                                                                       |
+| --GithubDetail\_\_countbubble-ml          | Margin left of button bubble     | `11px`                                                                                                                      |
+| --GithubDetail\_\_countbubble-transition  | Transition of button bubble      | `color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out` |
+| --GithubDetail\_\_buttonText-ml           | Margin left of button            | `5px`                                                                                                                       |
+| --GithubDetail\_\_btn_container-padding   | Pagging of button container      | `5px`                                                                                                                       |
+| --GithubDetail_btn-backgroundColor        | Background color of button       | `#dcdcdc`                                                                                                                   |
+| --GithubDetail_btn-Color                  | Color of button                  | `#000`                                                                                                                      |
+| --GithubDetail_Btn-borderRadius           | Border radius of button          | `0px`                                                                                                                       |
+| --GithubDetail_Btn-padding                | Padding of button                | `0.3rem 0.75rem`                                                                                                            |
+| --GithubDetail_Btn-boxShadow              | Button box shadow                | `none`                                                                                                                      |
+| --GithubDetail_Btn-boxShadow--hover       | Button box shadow on hover       | `none`                                                                                                                      |
+| --GithubDetail_Btn-backgroundColor--hover | Button background color on hover | `#bbbbbb`                                                                                                                   |
+| --GithubDetail_Btn-textTransform          | Button text transform            | `none`                                                                                                                      |
+| --GithubDetail_Btn-borderColor            | Button border color              | `transparent`                                                                                                               |
+| --GithubDetail_Btn-border                 | Button border                    | `1px solid`                                                                                                                 |
+| --GithubDetail_Btn-fontSize               | Button font size                 | `1rem`                                                                                                                      |
+| --GithubDetail_Btn-textShadow             | Button text shadow               | `none`                                                                                                                      |

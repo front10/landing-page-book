@@ -78,7 +78,7 @@ LanguageSwitcher.defaultProps = {
   showOptionLabel: true,
   showFlag: true,
   showArrow: true,
-  selectedLanguage: 'US',
+  selectedLanguage: '',
   placeholder: 'Language',
   languages: [],
   customLabels: {},

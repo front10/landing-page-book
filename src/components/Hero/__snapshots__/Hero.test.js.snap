@@ -72,7 +72,7 @@ ShallowWrapper {
             <Header
               borderBottom={false}
               className="Hero__SubHeader mb-5"
-              type="h1"
+              type="h2"
             >
               BBBBBBBBBB
             </Header>
@@ -118,7 +118,7 @@ ShallowWrapper {
               <Header
                 borderBottom={false}
                 className="Hero__SubHeader mb-5"
-                type="h1"
+                type="h2"
               >
                 BBBBBBBBBB
               </Header>
@@ -189,7 +189,7 @@ ShallowWrapper {
                 <Header
                   borderBottom={false}
                   className="Hero__SubHeader mb-5"
-                  type="h1"
+                  type="h2"
                 >
                   BBBBBBBBBB
                 </Header>
@@ -217,7 +217,7 @@ ShallowWrapper {
                   <Header
                     borderBottom={false}
                     className="Hero__SubHeader mb-5"
-                    type="h1"
+                    type="h2"
                   >
                     BBBBBBBBBB
                   </Header>,
@@ -251,7 +251,7 @@ ShallowWrapper {
                     "borderBottom": false,
                     "children": "BBBBBBBBBB",
                     "className": "Hero__SubHeader mb-5",
-                    "type": "h1",
+                    "type": "h2",
                   },
                   "ref": null,
                   "rendered": "BBBBBBBBBB",
@@ -315,7 +315,7 @@ ShallowWrapper {
               <Header
                 borderBottom={false}
                 className="Hero__SubHeader mb-5"
-                type="h1"
+                type="h2"
               >
                 BBBBBBBBBB
               </Header>
@@ -361,7 +361,7 @@ ShallowWrapper {
                 <Header
                   borderBottom={false}
                   className="Hero__SubHeader mb-5"
-                  type="h1"
+                  type="h2"
                 >
                   BBBBBBBBBB
                 </Header>
@@ -432,7 +432,7 @@ ShallowWrapper {
                   <Header
                     borderBottom={false}
                     className="Hero__SubHeader mb-5"
-                    type="h1"
+                    type="h2"
                   >
                     BBBBBBBBBB
                   </Header>
@@ -460,7 +460,7 @@ ShallowWrapper {
                     <Header
                       borderBottom={false}
                       className="Hero__SubHeader mb-5"
-                      type="h1"
+                      type="h2"
                     >
                       BBBBBBBBBB
                     </Header>,
@@ -494,7 +494,7 @@ ShallowWrapper {
                       "borderBottom": false,
                       "children": "BBBBBBBBBB",
                       "className": "Hero__SubHeader mb-5",
-                      "type": "h1",
+                      "type": "h2",
                     },
                     "ref": null,
                     "rendered": "BBBBBBBBBB",

@@ -19,6 +19,13 @@ stories.addWithJSX(
   withReadme([], () => (
     <ThemeSelector>
       <h1>Showcase</h1>
+      <a
+        style={{ float: 'right', marginTop: '-50px', backgroundColor: '#fed136', color: '#383e45' }}
+        href="mailto:hello@front10.com?subject=showcase"
+        className="btn"
+      >
+        Submit your site
+      </a>
       <div className="row">
         <div className="col-6 col-md-6 col-lg-6">
           <Card

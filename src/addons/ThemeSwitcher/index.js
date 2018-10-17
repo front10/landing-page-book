@@ -31,9 +31,13 @@ export class ThemeSelector extends React.Component {
       document.head.appendChild(bootstrapLink);
     }
 
-    let fontScript = document.createElement('script');
-    fontScript.setAttribute('src', 'https://use.fontawesome.com/aea3714d4b.js');
-    document.body.appendChild(fontScript);
+    let fontScript = document.getElementById('font-css');
+    if (!fontScript) {
+      fontScript = document.createElement('script');
+      fontScript.setAttribute('id', 'font-css');
+      fontScript.setAttribute('src', 'https://use.fontawesome.com/aea3714d4b.js');
+      document.body.appendChild(fontScript);
+    }
 
     let { theme } = this.props;
     theme = theme ? theme : localStorage.getItem('selector-current-theme') || 'default';

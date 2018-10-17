@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Change
 
 - [#135](https://github.com/front10/landing-page-book/pull/135) Default value of prop `selectedLanguage` from `US` to `""`, by [@ycgarrido](https://github.com/ycgarrido)
-
+- [#138](https://github.com/front10/landing-page-book/pull/138) Change subHeader from `h1` to `h2` in Hero, by [@ycgarrido](https://github.com/ycgarrido)
 
 #### Remove
 

@@ -56,9 +56,10 @@ class Image extends Component {
         />
         {!loaded && (
           <svg alt={alt} className={tempClass} width={width} viewBox="0 0 100 100">
-            <rect width="100" height="100" fill="#CCC">
+            <g>
               <title>{tooltip}</title>
-            </rect>
+              <rect width="100" height="100" fill="#CCC" />
+            </g>
           </svg>
         )}
       </React.Fragment>

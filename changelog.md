@@ -9,13 +9,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Added
 
-- [#135](https://github.com/front10/landing-page-book/pull/135) New variables for GithubButton theming, by [@ycgarrido](https://github.com/ycgarrido)
+- [#139](https://github.com/front10/landing-page-book/pull/139) Field `id` in array of items in Features component for map key, by [@ycgarrido](https://github.com/ycgarrido)
 - [#137](https://github.com/front10/landing-page-book/pull/137) Improved responsive design compatibility in the Navbar for resolutions less than 768 px, by [@jlfalcon3589](https://github.com/jlfalcon3589)
+- [#135](https://github.com/front10/landing-page-book/pull/135) New variables for GithubButton theming, by [@ycgarrido](https://github.com/ycgarrido)
 
 #### Change
 
-- [#135](https://github.com/front10/landing-page-book/pull/135) Default value of prop `selectedLanguage` from `US` to `""`, by [@ycgarrido](https://github.com/ycgarrido)
+- [#139](https://github.com/front10/landing-page-book/pull/139) Put svg `<title>` in image component into `<g>`, by [@ycgarrido](https://github.com/ycgarrido)
 - [#138](https://github.com/front10/landing-page-book/pull/138) Change subHeader from `h1` to `h2` in Hero, by [@ycgarrido](https://github.com/ycgarrido)
+- [#135](https://github.com/front10/landing-page-book/pull/135) Default value of prop `selectedLanguage` from `US` to `""`, by [@ycgarrido](https://github.com/ycgarrido)
 
 #### Remove
 

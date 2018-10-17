@@ -56,3 +56,10 @@
 .Navbar.Navbar--transparent.navbar-down{
     background-color: var(--Navbar--backgroundColor) !important;
 }
+
+@media (min-width: 768px){
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+}

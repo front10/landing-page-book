@@ -10,12 +10,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Added
 
 - [#135](https://github.com/front10/landing-page-book/pull/135) New variables for GithubButton theming, by [@ycgarrido](https://github.com/ycgarrido)
+- [#137](https://github.com/front10/landing-page-book/pull/137) Improved responsive design compatibility in the Navbar for resolutions less than 768 px, by [@jlfalcon3589](https://github.com/jlfalcon3589)
 
 #### Change
 
 - [#135](https://github.com/front10/landing-page-book/pull/135) Default value of prop `selectedLanguage` from `US` to `""`, by [@ycgarrido](https://github.com/ycgarrido)
 
+
 #### Remove
+
+- [#137](https://github.com/front10/landing-page-book/pull/137) Removing letter-spacing in the Minecraft Theme, by [@jlfalcon3589](https://github.com/jlfalcon3589)
 
 ## [1.0.0] 2018-10-16
 

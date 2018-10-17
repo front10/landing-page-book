@@ -136,7 +136,50 @@ ReactWrapper {
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
-                  "sibling": null,
+                  "sibling": FiberNode {
+                    "_debugID": 55,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "rect",
+                    "updateQueue": null,
+                  },
                   "stateNode": <title />,
                   "tag": 7,
                   "treeBaseDuration": 0,
@@ -152,38 +195,47 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": null,
-                "stateNode": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "stateNode": <g>
                   <title />
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "tag": 7,
                 "treeBaseDuration": 0,
-                "type": "rect",
+                "type": "g",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
@@ -196,15 +248,16 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -214,15 +267,16 @@ ReactWrapper {
               "nextEffect": null,
               "pendingProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -236,13 +290,14 @@ ReactWrapper {
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
-                <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                <g>
                   <title />
-                </rect>
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>
               </svg>,
               "tag": 7,
               "treeBaseDuration": 0,
@@ -353,13 +408,14 @@ ReactWrapper {
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
-                    <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    <g>
                       <title />
-                    </rect>
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>
                   </svg>
                 </div>,
                 "context": Object {},
@@ -548,7 +604,50 @@ ReactWrapper {
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
-                    "sibling": null,
+                    "sibling": FiberNode {
+                      "_debugID": 55,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "rect",
+                      "updateQueue": null,
+                    },
                     "stateNode": <title />,
                     "tag": 7,
                     "treeBaseDuration": 0,
@@ -564,38 +663,47 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": <title>
-                      
-                    </title>,
-                    "fill": "#CCC",
-                    "height": "100",
-                    "width": "100",
+                    "children": Array [
+                      <title>
+                        
+                      </title>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                    ],
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": <title>
-                      
-                    </title>,
-                    "fill": "#CCC",
-                    "height": "100",
-                    "width": "100",
+                    "children": Array [
+                      <title>
+                        
+                      </title>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                    ],
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": null,
-                  "stateNode": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "stateNode": <g>
                     <title />
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "tag": 7,
                   "treeBaseDuration": 0,
-                  "type": "rect",
+                  "type": "g",
                   "updateQueue": null,
                 },
                 "childExpirationTime": 0,
@@ -608,15 +716,16 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "alt": "This is an image",
-                  "children": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "children": <g>
                     <title>
                       
                     </title>
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "className": "img-fluid",
                   "viewBox": "0 0 100 100",
                   "width": undefined,
@@ -626,15 +735,16 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "alt": "This is an image",
-                  "children": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "children": <g>
                     <title>
                       
                     </title>
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "className": "img-fluid",
                   "viewBox": "0 0 100 100",
                   "width": undefined,
@@ -648,13 +758,14 @@ ReactWrapper {
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
-                  <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  <g>
                     <title />
-                  </rect>
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>
                 </svg>,
                 "tag": 7,
                 "treeBaseDuration": 0,
@@ -715,13 +826,14 @@ ReactWrapper {
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
-                  <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  <g>
                     <title />
-                  </rect>
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>
                 </svg>
               </div>,
               "context": Object {},
@@ -924,7 +1036,50 @@ ReactWrapper {
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
-                "sibling": null,
+                "sibling": FiberNode {
+                  "_debugID": 55,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "rect",
+                  "updateQueue": null,
+                },
                 "stateNode": <title />,
                 "tag": 7,
                 "treeBaseDuration": 0,
@@ -940,38 +1095,47 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": <title>
-                  
-                </title>,
-                "fill": "#CCC",
-                "height": "100",
-                "width": "100",
+                "children": Array [
+                  <title>
+                    
+                  </title>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                ],
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": <title>
-                  
-                </title>,
-                "fill": "#CCC",
-                "height": "100",
-                "width": "100",
+                "children": Array [
+                  <title>
+                    
+                  </title>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                ],
               },
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
               "sibling": null,
-              "stateNode": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "stateNode": <g>
                 <title />
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "tag": 7,
               "treeBaseDuration": 0,
-              "type": "rect",
+              "type": "g",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
@@ -984,15 +1148,16 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "alt": "This is an image",
-              "children": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "children": <g>
                 <title>
                   
                 </title>
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "className": "img-fluid",
               "viewBox": "0 0 100 100",
               "width": undefined,
@@ -1002,15 +1167,16 @@ ReactWrapper {
             "nextEffect": null,
             "pendingProps": Object {
               "alt": "This is an image",
-              "children": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "children": <g>
                 <title>
                   
                 </title>
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "className": "img-fluid",
               "viewBox": "0 0 100 100",
               "width": undefined,
@@ -1024,13 +1190,14 @@ ReactWrapper {
               class="img-fluid"
               viewBox="0 0 100 100"
             >
-              <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              <g>
                 <title />
-              </rect>
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>
             </svg>,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -1151,7 +1318,50 @@ ReactWrapper {
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
-                "sibling": null,
+                "sibling": FiberNode {
+                  "_debugID": 55,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "rect",
+                  "updateQueue": null,
+                },
                 "stateNode": <title />,
                 "tag": 7,
                 "treeBaseDuration": 0,
@@ -1167,38 +1377,47 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": <title>
-                  
-                </title>,
-                "fill": "#CCC",
-                "height": "100",
-                "width": "100",
+                "children": Array [
+                  <title>
+                    
+                  </title>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                ],
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": <title>
-                  
-                </title>,
-                "fill": "#CCC",
-                "height": "100",
-                "width": "100",
+                "children": Array [
+                  <title>
+                    
+                  </title>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                ],
               },
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
               "sibling": null,
-              "stateNode": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "stateNode": <g>
                 <title />
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "tag": 7,
               "treeBaseDuration": 0,
-              "type": "rect",
+              "type": "g",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
@@ -1211,15 +1430,16 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "alt": "This is an image",
-              "children": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "children": <g>
                 <title>
                   
                 </title>
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "className": "img-fluid",
               "viewBox": "0 0 100 100",
               "width": undefined,
@@ -1229,15 +1449,16 @@ ReactWrapper {
             "nextEffect": null,
             "pendingProps": Object {
               "alt": "This is an image",
-              "children": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "children": <g>
                 <title>
                   
                 </title>
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "className": "img-fluid",
               "viewBox": "0 0 100 100",
               "width": undefined,
@@ -1251,13 +1472,14 @@ ReactWrapper {
               class="img-fluid"
               viewBox="0 0 100 100"
             >
-              <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              <g>
                 <title />
-              </rect>
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>
             </svg>,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -1376,7 +1598,50 @@ ReactWrapper {
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
-                "sibling": null,
+                "sibling": FiberNode {
+                  "_debugID": 55,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": [Circular],
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 1,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": Object {
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": Object {
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": null,
+                  "stateNode": <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                  "tag": 7,
+                  "treeBaseDuration": 0,
+                  "type": "rect",
+                  "updateQueue": null,
+                },
                 "stateNode": <title />,
                 "tag": 7,
                 "treeBaseDuration": 0,
@@ -1392,38 +1657,47 @@ ReactWrapper {
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
-                "children": <title>
-                  
-                </title>,
-                "fill": "#CCC",
-                "height": "100",
-                "width": "100",
+                "children": Array [
+                  <title>
+                    
+                  </title>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                ],
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
-                "children": <title>
-                  
-                </title>,
-                "fill": "#CCC",
-                "height": "100",
-                "width": "100",
+                "children": Array [
+                  <title>
+                    
+                  </title>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                ],
               },
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
               "sibling": null,
-              "stateNode": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "stateNode": <g>
                 <title />
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "tag": 7,
               "treeBaseDuration": 0,
-              "type": "rect",
+              "type": "g",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
@@ -1436,15 +1710,16 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "alt": "This is an image",
-              "children": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "children": <g>
                 <title>
                   
                 </title>
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "className": "img-fluid",
               "viewBox": "0 0 100 100",
               "width": undefined,
@@ -1454,15 +1729,16 @@ ReactWrapper {
             "nextEffect": null,
             "pendingProps": Object {
               "alt": "This is an image",
-              "children": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "children": <g>
                 <title>
                   
                 </title>
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "className": "img-fluid",
               "viewBox": "0 0 100 100",
               "width": undefined,
@@ -1476,13 +1752,14 @@ ReactWrapper {
               class="img-fluid"
               viewBox="0 0 100 100"
             >
-              <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              <g>
                 <title />
-              </rect>
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>
             </svg>,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -1636,7 +1913,50 @@ ReactWrapper {
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
-                  "sibling": null,
+                  "sibling": FiberNode {
+                    "_debugID": 55,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "rect",
+                    "updateQueue": null,
+                  },
                   "stateNode": <title />,
                   "tag": 7,
                   "treeBaseDuration": 0,
@@ -1652,38 +1972,47 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": null,
-                "stateNode": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "stateNode": <g>
                   <title />
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "tag": 7,
                 "treeBaseDuration": 0,
-                "type": "rect",
+                "type": "g",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
@@ -1696,15 +2025,16 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -1714,15 +2044,16 @@ ReactWrapper {
               "nextEffect": null,
               "pendingProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -1736,13 +2067,14 @@ ReactWrapper {
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
-                <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                <g>
                   <title />
-                </rect>
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>
               </svg>,
               "tag": 7,
               "treeBaseDuration": 0,
@@ -1853,13 +2185,14 @@ ReactWrapper {
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
-                    <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    <g>
                       <title />
-                    </rect>
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>
                   </svg>
                 </div>,
                 "context": Object {},
@@ -2048,7 +2381,50 @@ ReactWrapper {
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
-                    "sibling": null,
+                    "sibling": FiberNode {
+                      "_debugID": 55,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "rect",
+                      "updateQueue": null,
+                    },
                     "stateNode": <title />,
                     "tag": 7,
                     "treeBaseDuration": 0,
@@ -2064,38 +2440,47 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": <title>
-                      
-                    </title>,
-                    "fill": "#CCC",
-                    "height": "100",
-                    "width": "100",
+                    "children": Array [
+                      <title>
+                        
+                      </title>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                    ],
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": <title>
-                      
-                    </title>,
-                    "fill": "#CCC",
-                    "height": "100",
-                    "width": "100",
+                    "children": Array [
+                      <title>
+                        
+                      </title>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                    ],
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": null,
-                  "stateNode": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "stateNode": <g>
                     <title />
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "tag": 7,
                   "treeBaseDuration": 0,
-                  "type": "rect",
+                  "type": "g",
                   "updateQueue": null,
                 },
                 "childExpirationTime": 0,
@@ -2108,15 +2493,16 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "alt": "This is an image",
-                  "children": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "children": <g>
                     <title>
                       
                     </title>
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "className": "img-fluid",
                   "viewBox": "0 0 100 100",
                   "width": undefined,
@@ -2126,15 +2512,16 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "alt": "This is an image",
-                  "children": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "children": <g>
                     <title>
                       
                     </title>
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "className": "img-fluid",
                   "viewBox": "0 0 100 100",
                   "width": undefined,
@@ -2148,13 +2535,14 @@ ReactWrapper {
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
-                  <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  <g>
                     <title />
-                  </rect>
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>
                 </svg>,
                 "tag": 7,
                 "treeBaseDuration": 0,
@@ -2215,13 +2603,14 @@ ReactWrapper {
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
-                  <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  <g>
                     <title />
-                  </rect>
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>
                 </svg>
               </div>,
               "context": Object {},
@@ -2429,27 +2818,29 @@ ReactWrapper {
           class="img-fluid"
           viewBox="0 0 100 100"
         >
-          <rect
-            fill="#CCC"
-            height="100"
-            width="100"
-          >
+          <g>
             <title />
-          </rect>
+            <rect
+              fill="#CCC"
+              height="100"
+              width="100"
+            />
+          </g>
         </svg>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "alt": "This is an image",
-          "children": <rect
-            fill="#CCC"
-            height="100"
-            width="100"
-          >
+          "children": <g>
             <title>
               
             </title>
-          </rect>,
+            <rect
+              fill="#CCC"
+              height="100"
+              width="100"
+            />
+          </g>,
           "className": "img-fluid",
           "viewBox": "0 0 100 100",
           "width": undefined,
@@ -2457,22 +2848,27 @@ ReactWrapper {
         "ref": null,
         "rendered": Array [
           Object {
-            "instance": <rect
-              fill="#CCC"
-              height="100"
-              width="100"
-            >
+            "instance": <g>
               <title />
-            </rect>,
+              <rect
+                fill="#CCC"
+                height="100"
+                width="100"
+              />
+            </g>,
             "key": undefined,
             "nodeType": "host",
             "props": Object {
-              "children": <title>
-                
-              </title>,
-              "fill": "#CCC",
-              "height": "100",
-              "width": "100",
+              "children": Array [
+                <title>
+                  
+                </title>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />,
+              ],
             },
             "ref": null,
             "rendered": Array [
@@ -2489,8 +2885,27 @@ ReactWrapper {
                 ],
                 "type": "title",
               },
+              Object {
+                "instance": <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "fill": "#CCC",
+                  "height": "100",
+                  "width": "100",
+                },
+                "ref": null,
+                "rendered": Array [
+                  undefined,
+                ],
+                "type": "rect",
+              },
             ],
-            "type": "rect",
+            "type": "g",
           },
         ],
         "type": "svg",
@@ -2615,7 +3030,50 @@ ReactWrapper {
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
-                    "sibling": null,
+                    "sibling": FiberNode {
+                      "_debugID": 55,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "rect",
+                      "updateQueue": null,
+                    },
                     "stateNode": <title />,
                     "tag": 7,
                     "treeBaseDuration": 0,
@@ -2631,38 +3089,47 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": <title>
-                      
-                    </title>,
-                    "fill": "#CCC",
-                    "height": "100",
-                    "width": "100",
+                    "children": Array [
+                      <title>
+                        
+                      </title>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                    ],
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": <title>
-                      
-                    </title>,
-                    "fill": "#CCC",
-                    "height": "100",
-                    "width": "100",
+                    "children": Array [
+                      <title>
+                        
+                      </title>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                    ],
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": null,
-                  "stateNode": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "stateNode": <g>
                     <title />
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "tag": 7,
                   "treeBaseDuration": 0,
-                  "type": "rect",
+                  "type": "g",
                   "updateQueue": null,
                 },
                 "childExpirationTime": 0,
@@ -2675,15 +3142,16 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "alt": "This is an image",
-                  "children": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "children": <g>
                     <title>
                       
                     </title>
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "className": "img-fluid",
                   "viewBox": "0 0 100 100",
                   "width": undefined,
@@ -2693,15 +3161,16 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "alt": "This is an image",
-                  "children": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "children": <g>
                     <title>
                       
                     </title>
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "className": "img-fluid",
                   "viewBox": "0 0 100 100",
                   "width": undefined,
@@ -2715,13 +3184,14 @@ ReactWrapper {
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
-                  <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  <g>
                     <title />
-                  </rect>
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>
                 </svg>,
                 "tag": 7,
                 "treeBaseDuration": 0,
@@ -2832,13 +3302,14 @@ ReactWrapper {
                       class="img-fluid"
                       viewBox="0 0 100 100"
                     >
-                      <rect
-                        fill="#CCC"
-                        height="100"
-                        width="100"
-                      >
+                      <g>
                         <title />
-                      </rect>
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        />
+                      </g>
                     </svg>
                   </div>,
                   "context": Object {},
@@ -3027,7 +3498,50 @@ ReactWrapper {
                       "ref": null,
                       "return": [Circular],
                       "selfBaseDuration": 0,
-                      "sibling": null,
+                      "sibling": FiberNode {
+                        "_debugID": 55,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 1,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        />,
+                        "tag": 7,
+                        "treeBaseDuration": 0,
+                        "type": "rect",
+                        "updateQueue": null,
+                      },
                       "stateNode": <title />,
                       "tag": 7,
                       "treeBaseDuration": 0,
@@ -3043,38 +3557,47 @@ ReactWrapper {
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
-                      "children": <title>
-                        
-                      </title>,
-                      "fill": "#CCC",
-                      "height": "100",
-                      "width": "100",
+                      "children": Array [
+                        <title>
+                          
+                        </title>,
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        />,
+                      ],
                     },
                     "memoizedState": null,
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
-                      "children": <title>
-                        
-                      </title>,
-                      "fill": "#CCC",
-                      "height": "100",
-                      "width": "100",
+                      "children": Array [
+                        <title>
+                          
+                        </title>,
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        />,
+                      ],
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": null,
-                    "stateNode": <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    "stateNode": <g>
                       <title />
-                    </rect>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>,
                     "tag": 7,
                     "treeBaseDuration": 0,
-                    "type": "rect",
+                    "type": "g",
                     "updateQueue": null,
                   },
                   "childExpirationTime": 0,
@@ -3087,15 +3610,16 @@ ReactWrapper {
                   "lastEffect": null,
                   "memoizedProps": Object {
                     "alt": "This is an image",
-                    "children": <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    "children": <g>
                       <title>
                         
                       </title>
-                    </rect>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>,
                     "className": "img-fluid",
                     "viewBox": "0 0 100 100",
                     "width": undefined,
@@ -3105,15 +3629,16 @@ ReactWrapper {
                   "nextEffect": null,
                   "pendingProps": Object {
                     "alt": "This is an image",
-                    "children": <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    "children": <g>
                       <title>
                         
                       </title>
-                    </rect>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>,
                     "className": "img-fluid",
                     "viewBox": "0 0 100 100",
                     "width": undefined,
@@ -3127,13 +3652,14 @@ ReactWrapper {
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
-                    <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    <g>
                       <title />
-                    </rect>
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>
                   </svg>,
                   "tag": 7,
                   "treeBaseDuration": 0,
@@ -3194,13 +3720,14 @@ ReactWrapper {
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
-                    <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    <g>
                       <title />
-                    </rect>
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>
                   </svg>
                 </div>,
                 "context": Object {},
@@ -3403,7 +3930,50 @@ ReactWrapper {
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
-                  "sibling": null,
+                  "sibling": FiberNode {
+                    "_debugID": 55,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "rect",
+                    "updateQueue": null,
+                  },
                   "stateNode": <title />,
                   "tag": 7,
                   "treeBaseDuration": 0,
@@ -3419,38 +3989,47 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": null,
-                "stateNode": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "stateNode": <g>
                   <title />
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "tag": 7,
                 "treeBaseDuration": 0,
-                "type": "rect",
+                "type": "g",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
@@ -3463,15 +4042,16 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -3481,15 +4061,16 @@ ReactWrapper {
               "nextEffect": null,
               "pendingProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -3503,13 +4084,14 @@ ReactWrapper {
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
-                <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                <g>
                   <title />
-                </rect>
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>
               </svg>,
               "tag": 7,
               "treeBaseDuration": 0,
@@ -3630,7 +4212,50 @@ ReactWrapper {
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
-                  "sibling": null,
+                  "sibling": FiberNode {
+                    "_debugID": 55,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "rect",
+                    "updateQueue": null,
+                  },
                   "stateNode": <title />,
                   "tag": 7,
                   "treeBaseDuration": 0,
@@ -3646,38 +4271,47 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": null,
-                "stateNode": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "stateNode": <g>
                   <title />
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "tag": 7,
                 "treeBaseDuration": 0,
-                "type": "rect",
+                "type": "g",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
@@ -3690,15 +4324,16 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -3708,15 +4343,16 @@ ReactWrapper {
               "nextEffect": null,
               "pendingProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -3730,13 +4366,14 @@ ReactWrapper {
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
-                <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                <g>
                   <title />
-                </rect>
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>
               </svg>,
               "tag": 7,
               "treeBaseDuration": 0,
@@ -3855,7 +4492,50 @@ ReactWrapper {
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
-                  "sibling": null,
+                  "sibling": FiberNode {
+                    "_debugID": 55,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": [Circular],
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": Object {
+                      "fill": "#CCC",
+                      "height": "100",
+                      "width": "100",
+                    },
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": null,
+                    "stateNode": <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                    "tag": 7,
+                    "treeBaseDuration": 0,
+                    "type": "rect",
+                    "updateQueue": null,
+                  },
                   "stateNode": <title />,
                   "tag": 7,
                   "treeBaseDuration": 0,
@@ -3871,38 +4551,47 @@ ReactWrapper {
                 "key": null,
                 "lastEffect": null,
                 "memoizedProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
                 "pendingProps": Object {
-                  "children": <title>
-                    
-                  </title>,
-                  "fill": "#CCC",
-                  "height": "100",
-                  "width": "100",
+                  "children": Array [
+                    <title>
+                      
+                    </title>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />,
+                  ],
                 },
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": null,
-                "stateNode": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "stateNode": <g>
                   <title />
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "tag": 7,
                 "treeBaseDuration": 0,
-                "type": "rect",
+                "type": "g",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
@@ -3915,15 +4604,16 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -3933,15 +4623,16 @@ ReactWrapper {
               "nextEffect": null,
               "pendingProps": Object {
                 "alt": "This is an image",
-                "children": <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                "children": <g>
                   <title>
                     
                   </title>
-                </rect>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>,
                 "className": "img-fluid",
                 "viewBox": "0 0 100 100",
                 "width": undefined,
@@ -3955,13 +4646,14 @@ ReactWrapper {
                 class="img-fluid"
                 viewBox="0 0 100 100"
               >
-                <rect
-                  fill="#CCC"
-                  height="100"
-                  width="100"
-                >
+                <g>
                   <title />
-                </rect>
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />
+                </g>
               </svg>,
               "tag": 7,
               "treeBaseDuration": 0,
@@ -4115,7 +4807,50 @@ ReactWrapper {
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
-                    "sibling": null,
+                    "sibling": FiberNode {
+                      "_debugID": 55,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": [Circular],
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 1,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": Object {
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": Object {
+                        "fill": "#CCC",
+                        "height": "100",
+                        "width": "100",
+                      },
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                      "tag": 7,
+                      "treeBaseDuration": 0,
+                      "type": "rect",
+                      "updateQueue": null,
+                    },
                     "stateNode": <title />,
                     "tag": 7,
                     "treeBaseDuration": 0,
@@ -4131,38 +4866,47 @@ ReactWrapper {
                   "key": null,
                   "lastEffect": null,
                   "memoizedProps": Object {
-                    "children": <title>
-                      
-                    </title>,
-                    "fill": "#CCC",
-                    "height": "100",
-                    "width": "100",
+                    "children": Array [
+                      <title>
+                        
+                      </title>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                    ],
                   },
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
                   "pendingProps": Object {
-                    "children": <title>
-                      
-                    </title>,
-                    "fill": "#CCC",
-                    "height": "100",
-                    "width": "100",
+                    "children": Array [
+                      <title>
+                        
+                      </title>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />,
+                    ],
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": null,
-                  "stateNode": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "stateNode": <g>
                     <title />
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "tag": 7,
                   "treeBaseDuration": 0,
-                  "type": "rect",
+                  "type": "g",
                   "updateQueue": null,
                 },
                 "childExpirationTime": 0,
@@ -4175,15 +4919,16 @@ ReactWrapper {
                 "lastEffect": null,
                 "memoizedProps": Object {
                   "alt": "This is an image",
-                  "children": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "children": <g>
                     <title>
                       
                     </title>
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "className": "img-fluid",
                   "viewBox": "0 0 100 100",
                   "width": undefined,
@@ -4193,15 +4938,16 @@ ReactWrapper {
                 "nextEffect": null,
                 "pendingProps": Object {
                   "alt": "This is an image",
-                  "children": <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  "children": <g>
                     <title>
                       
                     </title>
-                  </rect>,
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>,
                   "className": "img-fluid",
                   "viewBox": "0 0 100 100",
                   "width": undefined,
@@ -4215,13 +4961,14 @@ ReactWrapper {
                   class="img-fluid"
                   viewBox="0 0 100 100"
                 >
-                  <rect
-                    fill="#CCC"
-                    height="100"
-                    width="100"
-                  >
+                  <g>
                     <title />
-                  </rect>
+                    <rect
+                      fill="#CCC"
+                      height="100"
+                      width="100"
+                    />
+                  </g>
                 </svg>,
                 "tag": 7,
                 "treeBaseDuration": 0,
@@ -4332,13 +5079,14 @@ ReactWrapper {
                       class="img-fluid"
                       viewBox="0 0 100 100"
                     >
-                      <rect
-                        fill="#CCC"
-                        height="100"
-                        width="100"
-                      >
+                      <g>
                         <title />
-                      </rect>
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        />
+                      </g>
                     </svg>
                   </div>,
                   "context": Object {},
@@ -4527,7 +5275,50 @@ ReactWrapper {
                       "ref": null,
                       "return": [Circular],
                       "selfBaseDuration": 0,
-                      "sibling": null,
+                      "sibling": FiberNode {
+                        "_debugID": 55,
+                        "_debugIsCurrentlyTiming": false,
+                        "_debugOwner": [Circular],
+                        "_debugSource": null,
+                        "actualDuration": 0,
+                        "actualStartTime": -1,
+                        "alternate": null,
+                        "child": null,
+                        "childExpirationTime": 0,
+                        "effectTag": 0,
+                        "expirationTime": 0,
+                        "firstContextDependency": null,
+                        "firstEffect": null,
+                        "index": 1,
+                        "key": null,
+                        "lastEffect": null,
+                        "memoizedProps": Object {
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "memoizedState": null,
+                        "mode": 0,
+                        "nextEffect": null,
+                        "pendingProps": Object {
+                          "fill": "#CCC",
+                          "height": "100",
+                          "width": "100",
+                        },
+                        "ref": null,
+                        "return": [Circular],
+                        "selfBaseDuration": 0,
+                        "sibling": null,
+                        "stateNode": <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        />,
+                        "tag": 7,
+                        "treeBaseDuration": 0,
+                        "type": "rect",
+                        "updateQueue": null,
+                      },
                       "stateNode": <title />,
                       "tag": 7,
                       "treeBaseDuration": 0,
@@ -4543,38 +5334,47 @@ ReactWrapper {
                     "key": null,
                     "lastEffect": null,
                     "memoizedProps": Object {
-                      "children": <title>
-                        
-                      </title>,
-                      "fill": "#CCC",
-                      "height": "100",
-                      "width": "100",
+                      "children": Array [
+                        <title>
+                          
+                        </title>,
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        />,
+                      ],
                     },
                     "memoizedState": null,
                     "mode": 0,
                     "nextEffect": null,
                     "pendingProps": Object {
-                      "children": <title>
-                        
-                      </title>,
-                      "fill": "#CCC",
-                      "height": "100",
-                      "width": "100",
+                      "children": Array [
+                        <title>
+                          
+                        </title>,
+                        <rect
+                          fill="#CCC"
+                          height="100"
+                          width="100"
+                        />,
+                      ],
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": null,
-                    "stateNode": <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    "stateNode": <g>
                       <title />
-                    </rect>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>,
                     "tag": 7,
                     "treeBaseDuration": 0,
-                    "type": "rect",
+                    "type": "g",
                     "updateQueue": null,
                   },
                   "childExpirationTime": 0,
@@ -4587,15 +5387,16 @@ ReactWrapper {
                   "lastEffect": null,
                   "memoizedProps": Object {
                     "alt": "This is an image",
-                    "children": <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    "children": <g>
                       <title>
                         
                       </title>
-                    </rect>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>,
                     "className": "img-fluid",
                     "viewBox": "0 0 100 100",
                     "width": undefined,
@@ -4605,15 +5406,16 @@ ReactWrapper {
                   "nextEffect": null,
                   "pendingProps": Object {
                     "alt": "This is an image",
-                    "children": <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    "children": <g>
                       <title>
                         
                       </title>
-                    </rect>,
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>,
                     "className": "img-fluid",
                     "viewBox": "0 0 100 100",
                     "width": undefined,
@@ -4627,13 +5429,14 @@ ReactWrapper {
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
-                    <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    <g>
                       <title />
-                    </rect>
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>
                   </svg>,
                   "tag": 7,
                   "treeBaseDuration": 0,
@@ -4694,13 +5497,14 @@ ReactWrapper {
                     class="img-fluid"
                     viewBox="0 0 100 100"
                   >
-                    <rect
-                      fill="#CCC"
-                      height="100"
-                      width="100"
-                    >
+                    <g>
                       <title />
-                    </rect>
+                      <rect
+                        fill="#CCC"
+                        height="100"
+                        width="100"
+                      />
+                    </g>
                   </svg>
                 </div>,
                 "context": Object {},
@@ -4908,27 +5712,29 @@ ReactWrapper {
             class="img-fluid"
             viewBox="0 0 100 100"
           >
-            <rect
-              fill="#CCC"
-              height="100"
-              width="100"
-            >
+            <g>
               <title />
-            </rect>
+              <rect
+                fill="#CCC"
+                height="100"
+                width="100"
+              />
+            </g>
           </svg>,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
             "alt": "This is an image",
-            "children": <rect
-              fill="#CCC"
-              height="100"
-              width="100"
-            >
+            "children": <g>
               <title>
                 
               </title>
-            </rect>,
+              <rect
+                fill="#CCC"
+                height="100"
+                width="100"
+              />
+            </g>,
             "className": "img-fluid",
             "viewBox": "0 0 100 100",
             "width": undefined,
@@ -4936,22 +5742,27 @@ ReactWrapper {
           "ref": null,
           "rendered": Array [
             Object {
-              "instance": <rect
-                fill="#CCC"
-                height="100"
-                width="100"
-              >
+              "instance": <g>
                 <title />
-              </rect>,
+                <rect
+                  fill="#CCC"
+                  height="100"
+                  width="100"
+                />
+              </g>,
               "key": undefined,
               "nodeType": "host",
               "props": Object {
-                "children": <title>
-                  
-                </title>,
-                "fill": "#CCC",
-                "height": "100",
-                "width": "100",
+                "children": Array [
+                  <title>
+                    
+                  </title>,
+                  <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                ],
               },
               "ref": null,
               "rendered": Array [
@@ -4968,8 +5779,27 @@ ReactWrapper {
                   ],
                   "type": "title",
                 },
+                Object {
+                  "instance": <rect
+                    fill="#CCC"
+                    height="100"
+                    width="100"
+                  />,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "fill": "#CCC",
+                    "height": "100",
+                    "width": "100",
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    undefined,
+                  ],
+                  "type": "rect",
+                },
               ],
-              "type": "rect",
+              "type": "g",
             },
           ],
           "type": "svg",

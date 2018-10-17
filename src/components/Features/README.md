@@ -98,10 +98,10 @@ const features = [
 
 | </br>Name                                           | </br>Summary                  | </br>Default |
 | --------------------------------------------------- | ----------------------------- | ------------ |
-| --Features**CardFooter**Link-padding                | Link's padding                | `none`       |
-| --Features**CardFooter**Link-box-shadow             | Link's box shadow             | `none`       |
-| --Features**CardFooter**Link-background-color       | Link's background color       | `none`       |
-| --Features**CardFooter**Link-box-shadow-hover       | Link's box shadow hover       | `none`       |
-| --Features**CardFooter**Link-background-color-hover | Link's background color hover | `none`       |
-| --Features**CardFooter**Link-color                  | Link's color                  | `none`       |
-| --Features**CardFooter**Link-fontSize               | Link's font size              | `none`       |
+| --Features__CardFooter__Link-padding                | Link's padding                | `none`       |
+| --Features__CardFooter__Link-box-shadow             | Link's box shadow             | `none`       |
+| --Features__CardFooter__Link-background-color       | Link's background color       | `none`       |
+| --Features__CardFooter__Link-box-shadow-hover       | Link's box shadow hover       | `none`       |
+| --Features__CardFooter__Link-background-color-hover | Link's background color hover | `none`       |
+| --Features__CardFooter__Link-color                  | Link's color                  | `none`       |
+| --Features__CardFooter__Link-fontSize               | Link's font size              | `none`       |

@@ -25,7 +25,8 @@ stories.addWithJSX(
         rounded={boolean('Rounded', false)}
         alt={text('Alt', 'This is an image example')}
         src={text('Source', 'images/backers/woman.svg')}
-        width={text('Width', 200)}
+        tooltip={text('Tooltip', 'This is a woman')}
+        width={text('Width', '200')}
       />
     </ThemeSelector>
   )),

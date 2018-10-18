@@ -4,6 +4,7 @@ import { withKnobs, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { BrowserSupport } from '../../../components';
 import Readme from '../../../components/BrowserSupport/README.md';
@@ -52,6 +53,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="BrowserSupport"
+        description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
+      />
       <BrowserSupport
         browsers={browsers}
         showBrowserVendor={boolean('Show browser vendor', true)}

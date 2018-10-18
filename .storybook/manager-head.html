@@ -156,6 +156,11 @@
                 iframe.contentDocument.head.appendChild(style);
                 var rootDiv = iframe.contentDocument.getElementById("root");
                 if (rootDiv) {
+
+                  var openToolingNode = iframe.contentDocument.querySelector(".btn-open-tooling");
+                  openToolingNode.addEventListener('click', function(){toggleAddons()});  
+                  
+
                     function contentChanged() {
                         iframe.style.width = '99.9%';
                         setTimeout(

@@ -33,7 +33,7 @@ describe('Navbar', () => {
     it('Collapse', () => {
       navbar()
         .instance()
-        .collapse();
+        .toggleCollapse();
 
       expect(navbar().state('collapse')).toBeTruthy();
     });

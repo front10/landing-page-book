@@ -54,7 +54,7 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader
-        name="BrowserSupport"
+        name="Browser Support"
         description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
       />
       <BrowserSupport

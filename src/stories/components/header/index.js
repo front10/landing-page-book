@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -20,6 +21,10 @@ stories.addWithJSX(
   'Header',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Header"
+        description="Search engines use the headings to index the structure and content of your web pages. Users skim your pages by its headings. It is important to use headings to show the document structure."
+      />
       <Header
         borderBottom={boolean('Border bottom', false)}
         className={text('Class name', '')}

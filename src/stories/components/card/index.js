@@ -7,6 +7,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
 import { Card, Button } from '../../../components';
 import Readme from '../../../components/Card/README.md';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Elements/Card', module);
@@ -17,6 +18,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Card"
+        description="Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
+      />
       <div className="row">
         <div className="col-12 col-md-6 col-lg-3">
           <Card
@@ -47,6 +52,11 @@ stories.addWithJSX(
   'Children',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Card"
+        storyName="With childrens"
+        description="Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
+      />
       <div className="row">
         <div className="col-12 col-md-6 col-lg-3">
           <Card

@@ -7,6 +7,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
 import { ContactInfo, Row, Column } from '../../../components';
 import Readme from '../../../components/ContactInfo/README.md';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/ContactInfo', module);
@@ -17,6 +18,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Contact Info"
+        description="It is always important to have the most information of your contacts, our component provides it"
+      />
       <Row>
         <Column className="col col-md-5">
           <ContactInfo

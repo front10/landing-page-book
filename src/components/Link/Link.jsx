@@ -3,10 +3,17 @@ import PropTypes from 'prop-types';
 
 class Link extends Component {
   render() {
-    const { disabled, className, tooltip, href, target, children } = this.props;
+    const { disabled, className, tooltip, href, target, children, style } = this.props;
     return (
       <React.Fragment>
-        <a title={tooltip} disabled={disabled} className={className} href={href} target={target}>
+        <a
+          style={style}
+          title={tooltip}
+          disabled={disabled}
+          className={className}
+          href={href}
+          target={target}
+        >
           {children}
         </a>
       </React.Fragment>
@@ -20,14 +27,16 @@ Link.propTypes = {
   tooltip: PropTypes.string,
   href: PropTypes.string.isRequired,
   target: PropTypes.string,
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Link.defaultProps = {
   disabled: false,
   className: '',
   tooltip: '',
   target: '',
-  children: null
+  children: null,
+  style: null
 };
 
 export default Link;

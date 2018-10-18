@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, array, text, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -20,6 +21,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Language Switcher"
+        description="Website translation, the process of converting text from a source language into a target language, is also known as website globalization. In order to translate a website into other languages, you may need both website internationalization (I18N) and website localization (L10N). This component allow you to easy change the language on your website"
+      />
       <LanguageSwitcher
         showLabel={boolean('Show label', true)}
         showOptionLabel={boolean('Show option label', true)}

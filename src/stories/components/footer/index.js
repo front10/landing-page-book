@@ -7,6 +7,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
 import { Footer, Social, Copyright } from '../../../components';
 import Readme from '../../../components/Footer/README.md';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 const sections = [
   {
@@ -91,6 +92,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Footer"
+        description="A document footer is a small section at the bottom of each page within a document. It is often used to display company data or copyright information."
+      />
       <Footer
         socialGray={boolean('Social gray', false)}
         socialRounded={boolean('Social rounded', true)}
@@ -108,6 +113,11 @@ stories.addWithJSX(
   'Children',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Footer"
+        storyName="With Childrens"
+        description="A document footer is a small section at the bottom of each page within a document. It is often used to display company data or copyright information."
+      />
       <Footer>
         <div className="row">
           <div className="col-sm-12 col-md">

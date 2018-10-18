@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -47,6 +48,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Image List"
+        description="Easy way to show an image list on your website."
+      />
       <div className="container">
         <ImageList
           gray={boolean('Use gray', true)}

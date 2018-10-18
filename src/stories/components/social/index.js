@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -20,6 +21,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Social"
+        description="Websites and applications that enable users to create and share content or to participate in social networking. Allow your users to share the content of your website in their social networks"
+      />
       <Social
         gray={boolean('Use gray', false)}
         type={select(
@@ -55,6 +60,11 @@ stories.addWithJSX(
   'All',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Social"
+        storyName="All social media buttons"
+        description="Websites and applications that enable users to create and share content or to participate in social networking. Allow your users to share the content of your website in their social networks"
+      />
       <Social
         gray={boolean('Use gray', false)}
         type="email"

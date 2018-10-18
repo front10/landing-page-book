@@ -5,6 +5,7 @@ import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import {
   Navbar,
@@ -54,6 +55,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Navbar"
+        description="A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site. "
+      />
       <Navbar
         transparent={boolean('Transparent', false)}
         fixed={boolean('Fixed', false)}
@@ -79,9 +84,14 @@ stories.addWithJSX(
 );
 
 stories.addWithJSX(
-  'Mode container',
+  'Container Mode',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Navbar"
+        storyName="Container Mode"
+        description="A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site. "
+      />
       <Navbar expand="md">
         <Container>
           <NavbarCollapse>
@@ -123,6 +133,11 @@ stories.addWithJSX(
   'Reversed',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Navbar"
+        storyName="Reversed"
+        description="A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site. "
+      />
       <Navbar expand="md">
         <Container>
           <NavbarCollapse>
@@ -166,6 +181,11 @@ stories.addWithJSX(
   'Via children',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Navbar"
+        storyName="Via children"
+        description="A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site. "
+      />
       <Navbar expand="md">
         <NavbarCollapse>
           <NavbarBrand>
@@ -205,6 +225,11 @@ stories.addWithJSX(
   'With search',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Navbar"
+        storyName="With search"
+        description="A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site. "
+      />
       <Navbar
         transparent={boolean('Transparent', false)}
         fixed={boolean('Fixed', false)}
@@ -231,9 +256,14 @@ stories.addWithJSX(
 );
 
 stories.addWithJSX(
-  'With user photo',
+  'With user avatar',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Navbar"
+        storyName="With user avatar"
+        description="A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site. "
+      />
       <Navbar expand="md">
         <NavbarCollapse>
           <NavbarBrand>

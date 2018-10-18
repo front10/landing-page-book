@@ -4,6 +4,7 @@ import { withKnobs, select, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { Features } from '../../../components';
 import Readme from '../../../components/Features/README.md';
@@ -56,6 +57,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Features"
+        description="Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service."
+      />
       <Features
         showBorder={boolean('Show border', false)}
         showTitle={boolean('Show Title', true)}

@@ -4,6 +4,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, number, boolean, select, color } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -41,6 +42,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Hero"
+        description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
+      />
       <Hero
         isFixed={boolean('Fixed', true)}
         isCentered={boolean('Centered', true)}
@@ -66,9 +71,14 @@ stories.addWithJSX(
 );
 
 stories.addWithJSX(
-  'Children',
+  'Via children',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Hero"
+        storyName="Via children"
+        description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
+      />
       <Hero
         isFixed={boolean('Fixed', true)}
         isCentered={boolean('Centered', true)}

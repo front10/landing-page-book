@@ -116,4 +116,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 ## Changelog
 
-[Changelog](https://github.com/front10/landing-page-book/blob/master/changelog.md)
+Detailed version information in our [Changelog](https://github.com/front10/landing-page-book/blob/master/changelog.md).

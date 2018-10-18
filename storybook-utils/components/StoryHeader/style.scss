@@ -1,0 +1,56 @@
+.story-header{
+  padding: 20px;
+  padding-bottom: 10px;
+  background: #fafafa;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  .name{
+    float: left;
+  }
+  .story-name-wrapper{
+    float: left;
+    margin-top: 9px;
+  }
+  .divider{
+    float: left;
+    font-size: 20px;
+    padding-left: 6px;
+    padding-right: 6px;
+    margin-top: 6px;
+  }
+  .description{
+    color: #8d8d8d;
+  }
+  .story-name{
+    font-size: 18px;
+    color: #797878;
+  }
+  .toolbar{
+    float: right;
+  }
+  .title-wrapper{
+    margin-bottom: 8px;
+    &::after {
+      display: block;
+      content: "";
+      clear: both;
+    }
+  }
+  .btn-open-tooling{
+    background-color: aliceblue;
+    /* border: none; */
+    color: black;
+    padding: 3px 6px;
+    padding-bottom: 0px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+}
+
+.story-header-wrapper{
+  hr{
+    border-width: 2px;
+  }
+}

@@ -57,7 +57,7 @@ class Image extends Component {
         {!loaded && (
           <svg alt={alt} className={tempClass} width={width} viewBox="0 0 100 100">
             <g>
-              <title>{tooltip}</title>
+              {tooltip && <title>{tooltip}</title>}
               <rect width="100" height="100" fill="#CCC" />
             </g>
           </svg>

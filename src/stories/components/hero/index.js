@@ -183,10 +183,10 @@ stories.addWithJSX(
       >
         <Container className="p-5">
           <Row>
-            <Column className="col-sm-3 d-none d-sm-block">
+            <Column className="col-md-3 d-none d-md-block">
               <Image className="img-fluid" src="images/hero/front10-iphone.svg" />
             </Column>
-            <Column className="col-sm-6 mt-5">
+            <Column className="col-md-9 mt-5">
               <div className="pt-3">
                 <Image
                   src="images/logo/front10.png"
@@ -261,14 +261,14 @@ stories.addWithJSX(
                 elements, is based en react 16.2 and was wrote with ES6.
               </p>
               <Row>
-                <Column className="col-sm-8 mt-5 pl-0 pr-0">
+                <Column className="col-sm-8 mt-5 pl-1 pr-1">
                   <input
                     type="email"
                     placeholder="Email address"
                     style={{ display: 'block', width: '100%', padding: '1.03rem 1rem' }}
                   />
                 </Column>
-                <Column className="col-sm-4 mt-5 pl-0 pr-0">
+                <Column className="col-sm-4 mt-5 pl-1 pr-1">
                   <input
                     type="button"
                     className="Button"

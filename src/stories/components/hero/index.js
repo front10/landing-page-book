@@ -17,15 +17,12 @@ import {
   GithubButton,
   Button,
   Link,
-  Row,
-  Column,
-  Icon,
   Code
 } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
 import particles from '../../mock/components/particles';
-import { def, children, image, products, minimal } from '../../mock/components/codes/hero';
+import { def, children, image } from '../../mock/components/codes/hero';
 
 setAddon(JSXAddon);
 

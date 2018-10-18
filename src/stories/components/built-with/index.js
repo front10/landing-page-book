@@ -7,6 +7,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
 import { BuiltWith } from '../../../components';
 import Readme from '../../../components/BuiltWith/README.md';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 const companies = [
   {
@@ -36,6 +37,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="BuiltWith"
+        description="Libraries or projects that you used to achieve your goals."
+      />
       <div className="container">
         <BuiltWith gray={boolean('Use gray', true)} companies={companies} />
       </div>

@@ -11,12 +11,8 @@ import Icon from '../Icon/Icon';
 class Navbar extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { collapse: false };
     this.collapse = this.collapse.bind(this);
-  }
-
-  componentWillMount() {
-    this.setState({ collapse: false });
   }
 
   componentDidMount() {

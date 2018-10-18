@@ -1,21 +1,21 @@
 :root {
   --CodeMirror__header_with: 100%;
-  --CodeMirror__header_height: 45px;
+  --CodeMirror__header_height: 30px;
   --CodeMirror__header_backgroundColor: #304148;
   --CodeMirror__header_color: #fed136;
-  --CodeMirror__footer_with: 100%;
-  --CodeMirror__footer_height: 15px;
-  --CodeMirror__footer_backgroundColor: #304148;
-  --CodeMirror__header_copybtn_margin: 10px -10px 0 0;
-  --CodeMirror__header_deletebtn_margin: 10px 0 0 0;
-  --CodeMirror__height: 250px;
+  --CodeMirror__height: auto;
   --CodeMirror__font_family: Lato;
   --CodeMirror__Btn-background-color: transparent;
   --CodeMirror__Btn-padding: 6px 20px;
+  --CodeMirror__Container-border: solid 1px #304148;
+  --CodeMirror-fontSize: 16px;
+  --CodeMirror__Footer-backgroundColor: transparent;
+  --CodeMirror__Footer-color: #304148;
+  --CodeMirror-borderRadius: 5px;
 }
 
 @import '~codemirror/lib/codemirror.css';
-@import '~codemirror/theme/oceanic-next.css';
+@import '~codemirror/theme/monokai.css';
 @import '../Navbar/style.scss';
 @import '../NavbarNav/style.scss';
 @import '../NavbarNav/style.scss';
@@ -25,26 +25,27 @@
   width: var(--CodeMirror__header_with);
   height: var(--CodeMirror__header_height);
   background-color: var(--CodeMirror__header_backgroundColor) !important;
+  box-shadow: none !important;
   button,
   a {
     color: var(--CodeMirror__header_color);
   }
 }
 
+.CodeMirror__Container {
+  border: var(--CodeMirror__Container-border);
+  border-radius: var(--CodeMirror-borderRadius);
+}
+
 .CodeMirror__footer {
-  width: var(--CodeMirror__footer_with);
-  height: var(--CodeMirror__footer_height);
-  background-color: var(--CodeMirror__footer_backgroundColor) !important;
-}
-
-.CodeMirror__header_copybtn {
-  margin: var(--CodeMirror__header_copybtn_margin);
-  color: var(--CodeMirror__header_color);
-}
-
-.CodeMirror__header_deletebtn {
-  margin: var(--CodeMirror__header_deletebtn_margin);
-  color: var(--CodeMirror__header_color);
+  box-shadow: none !important;
+  width: var(--CodeMirror__header_with);
+  height: var(--CodeMirror__header_height);
+  background-color: var(--CodeMirror__Footer-backgroundColor) !important;
+  button,
+  a {
+    color: var(--CodeMirror__Footer-color) !important;
+  }
 }
 
 .CodeMirror {
@@ -55,6 +56,11 @@
   font-weight: 400;
   background-color: var(--CodeMirror__Btn-background-color) !important;
   padding: var(--CodeMirror__Btn-padding) !important;
+  color: var(--CodeMirror__header_color) !important;
+}
+
+.ReactCodeMirror {
+  font-size: var(--CodeMirror-fontSize);
 }
 
 .btn.CodeMirror_btn:hover,

@@ -25,7 +25,7 @@ import {
 import Readme from '../../../components/Hero/README.md';
 
 import particles from '../../mock/components/particles';
-import { def, children } from '../../mock/components/codes/hero';
+import { def, children, image, products, minimal } from '../../mock/components/codes/hero';
 
 setAddon(JSXAddon);
 
@@ -195,6 +195,16 @@ stories.addWithJSX(
           </div>
         </Container>
       </Hero>
+      <div className="mt-4">
+        <Code
+          code={image}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -250,6 +260,16 @@ stories.addWithJSX(
           </Row>
         </Container>
       </Hero>
+      <div className="mt-4">
+        <Code
+          code={products}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -313,6 +333,16 @@ stories.addWithJSX(
           </Row>
         </Container>
       </Hero>
+      <div className="mt-4">
+        <Code
+          code={minimal}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

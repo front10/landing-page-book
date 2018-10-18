@@ -145,8 +145,9 @@ stories.addWithJSX(
                 ''
               )}
             >
-              <Header type="h6" className="text-white text-left pl-3">
-                -- READ MORE
+              <span className="mt-2 text-white float-left">&macr;&macr;</span>
+              <Header type="h6" className="text-white text-left float-left pl-3">
+                READ MORE
               </Header>
             </Link>
           </div>

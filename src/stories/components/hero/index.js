@@ -118,13 +118,25 @@ stories.addWithJSX(
   jsxConfig
 );
 
+const ctaButtonStyles = {
+  color: 'white',
+  border: '2px solid white',
+  padding: '5px',
+  float: 'left'
+};
+
 stories.addWithJSX(
   'With image',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Hero"
+        storyName="With Image"
+        description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
+      />
       <Hero
         isFixed={boolean('Fixed', true)}
-        image={text('Image', 'images/hero/city-blur.jpg')}
+        image={text('Image', 'images/hero/alone-architecture-buildings-220444.jpg')}
         opacity={number('Opacity', 0)}
         parallaxOffset={number('Parallax offset', 350)}
         minHeight={text('Min height', '100vh')}
@@ -135,7 +147,7 @@ stories.addWithJSX(
             LANDING PAGE BOOK
           </Header>
           <Header className="text-white text-left mt-4 mb-4">
-            We develop future mobility services
+            React UI Kit to easily build landing pages.
           </Header>
           <div className="">
             <Link
@@ -143,6 +155,7 @@ stories.addWithJSX(
               href={text('Link', 'https://front10.com')}
               className={text('Class name', '')}
               tooltip={text('Tooltip', 'This is a tooltip')}
+              style={ctaButtonStyles}
               target={select(
                 'Target',
                 {
@@ -155,10 +168,7 @@ stories.addWithJSX(
                 ''
               )}
             >
-              <span className="mt-2 text-white float-left">&macr;&macr;</span>
-              <Header type="h6" className="text-white text-left float-left pl-3">
-                READ MORE
-              </Header>
+              READ MORE
             </Link>
           </div>
         </Container>

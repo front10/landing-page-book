@@ -157,19 +157,32 @@
                 var rootDiv = iframe.contentDocument.getElementById("root");
                 if (rootDiv) {
 
-                  var openToolingNode = iframe.contentDocument.querySelector(".btn-open-tooling");
-                  if(openToolingNode){
-                    openToolingNode.addEventListener('click', function(){toggleAddons()});  
-                  }
-                  
+                    var openToolingNode = iframe.contentDocument.querySelector(".btn-open-tooling");
+                    if (openToolingNode) {
+                        openToolingNode.addEventListener('click', function () {
+                            toggleAddons()
+                        });
+                    }
+
 
                     function contentChanged() {
-                        iframe.style.width = '99.9%';
-                        setTimeout(
-                            function () {
-                                iframe.style.width = '100%';
-                            }, 500
-                        )
+                        var urlPath = window.location.href || '';
+                        var obj = {};
+                        urlPath.replace(/([^=&]+)=([^&]*)/g, function (m, key, value) {
+                            obj[decodeURIComponent(key)] = decodeURIComponent(value);
+                        });
+
+                        if (!window.storiesResidzed)
+                            window.storiesResidzed = [];
+                        if (window.storiesResidzed.indexOf(obj.selectedKind + '/' + obj.selectedStory) === -1) {
+                            window.storiesResidzed.push(obj.selectedKind + '/' + obj.selectedStory);
+                            iframe.style.width = '99.9%';
+                            setTimeout(
+                                function () {
+                                    iframe.style.width = '100%';
+                                }, 400
+                            )
+                        }
                     }
                     if (window.addEventListener)
                         rootDiv.addEventListener('DOMSubtreeModified', contentChanged, false);

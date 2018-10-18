@@ -19,7 +19,8 @@ import {
   Link,
   Row,
   Column,
-  Icon
+  Icon,
+  Code
 } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 

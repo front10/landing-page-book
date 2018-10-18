@@ -267,7 +267,7 @@ stories.addWithJSX(
                   fontSize: '3rem',
                   fontWeight: '600'
                 }}
-                className="float-left text-left mt-3"
+                className="text-left mt-3"
               >
                 Landing Page Book
               </h1>
@@ -280,14 +280,14 @@ stories.addWithJSX(
                 elements, is based en react 16.2 and was wrote with ES6.
               </p>
               <Row>
-                <Column className="col-sm-8 mt-5 pl-1 pr-1">
+                <Column className="col-12 col-sm-8 mt-5 pl-1 pr-1">
                   <input
                     type="email"
                     placeholder="Email address"
                     style={{ display: 'block', width: '100%', padding: '1.03rem 1rem' }}
                   />
                 </Column>
-                <Column className="col-sm-4 mt-5 pl-1 pr-1">
+                <Column className="col-12 col-sm-4 mt-5 pl-1 pr-1">
                   <input
                     type="button"
                     className="Button"

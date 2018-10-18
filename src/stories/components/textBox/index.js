@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -20,6 +21,7 @@ stories.addWithJSX(
   'TextBox',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader name="TextBox" description="Is a multi-line text field" />
       <TextBox
         className={text('CSS class', 'Example')}
         title={text('Title', 'Get many resources in a single request')}

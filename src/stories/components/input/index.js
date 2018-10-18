@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, boolean, select } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -20,6 +21,7 @@ stories.addWithJSX(
   'Input',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader name="Input" description="Input field with label and icon" />
       <Input
         labelColon={boolean('Label colon', false)}
         className={text('Class name', '')}

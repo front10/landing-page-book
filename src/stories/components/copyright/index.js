@@ -7,6 +7,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
 import { Copyright } from '../../../components';
 import Readme from '../../../components/Copyright/README.md';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/Copyright', module);
@@ -17,6 +18,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Copyright"
+        description="the exclusive legal right, given to an originator or an assignee to print, publish, perform, film, or record literary, artistic, or musical material, and to authorize others to do the same, Protect the content of your website."
+      />
       <Copyright
         showAllRightText={boolean('Show all right text', true)}
         showCopyRightSymbol={boolean('Show copy right symbol', true)}

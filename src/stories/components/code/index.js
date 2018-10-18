@@ -9,6 +9,8 @@ import { Code } from '../../../components';
 import Readme from '../../../components/Code/README.md';
 import jsxConfig from '../../mock/jsxConfig';
 
+import def from '../../mock/components/codes/code';
+
 setAddon(JSXAddon);
 const stories = storiesOf('Components/Code', module);
 
@@ -31,11 +33,8 @@ stories.addWithJSX(
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
       <Code
-        code={text(
-          'Code',
-          'var component = {\n\tname: "react-code",\n\tauthor: "front10-devs",\n\trepo: "https://gitlab.com/front10-devs/landing-page-book"\n};'
-        )}
-        languageCode={select('Language', langoptions, 'javascript')}
+        code={text('Code', def)}
+        languageCode={select('Language', langoptions, 'jsx')}
         readOnly={boolean('Read Only', false)}
         lineNumbers={boolean('Show line numbers', true)}
         showheader={boolean('Show header', true)}

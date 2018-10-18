@@ -6,8 +6,10 @@ import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
-import { Features } from '../../../components';
+import { Features, Code } from '../../../components';
 import Readme from '../../../components/Features/README.md';
+
+import def from '../../mock/components/codes/features';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/Features', module);
@@ -80,6 +82,16 @@ stories.addWithJSX(
         )}
         features={featuress}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

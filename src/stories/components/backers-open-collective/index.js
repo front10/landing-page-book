@@ -20,7 +20,7 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader
-        name="BackersOpenCollective"
+        name="Backers Open Collective"
         description="A person, institution, or country that supports something, especially financially throw opencollective platform. Its important show the people who support your idea."
       />
       <Container>

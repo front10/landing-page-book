@@ -19,7 +19,7 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader
-        name="ContactInfo"
+        name="Contact Info"
         description="It is always important to have the most information of your contacts, our component provides it"
       />
       <Row>

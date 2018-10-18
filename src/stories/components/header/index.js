@@ -21,7 +21,10 @@ stories.addWithJSX(
   'Header',
   withReadme([Readme], () => (
     <ThemeSelector>
-      <StoryHeader name="Header" description="Any type of HTML headers, h1, h2, h3, h4, h5, h6" />
+      <StoryHeader
+        name="Header"
+        description="Search engines use the headings to index the structure and content of your web pages. Users skim your pages by its headings. It is important to use headings to show the document structure."
+      />
       <Header
         borderBottom={boolean('Border bottom', false)}
         className={text('Class name', '')}

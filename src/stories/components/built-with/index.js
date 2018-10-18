@@ -38,7 +38,7 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader
-        name="BuiltWith"
+        name="Built With"
         description="Libraries or projects that you used to achieve your goals."
       />
       <div className="container">

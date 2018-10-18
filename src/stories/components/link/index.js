@@ -21,7 +21,10 @@ stories.addWithJSX(
   'Link',
   withReadme([Readme], () => (
     <ThemeSelector>
-      <StoryHeader name="Link" description="Link element with text and icon as props." />
+      <StoryHeader
+        name="Link"
+        description="Link are hyperlink. You can click on a link and jump to another document. When you move the mouse over a link, the mouse arrow will turn into a little hand."
+      />
       <Link
         disabled={boolean('Disabled', false)}
         href={text('Link', 'https://front10.com')}

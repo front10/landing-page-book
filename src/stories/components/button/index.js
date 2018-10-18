@@ -20,7 +20,11 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Button"
-        description="Buttons allow users to take actions, and make choices, with a single tap."
+        description="The <button> tag defines a clickable button.
+
+        Inside a <button> element you can put content, like text or images. This is the difference between this element and buttons created with the <input> element.
+        
+        Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
       <Button
         disabled={boolean('Disabled', false)}

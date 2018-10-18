@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, boolean, select } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -20,6 +21,7 @@ stories.addWithJSX(
   'Link',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader name="Link" description="Link element with text and icon as props." />
       <Link
         disabled={boolean('Disabled', false)}
         href={text('Link', 'https://front10.com')}

@@ -195,7 +195,9 @@
                 if (rootDiv) {
 
                   var openToolingNode = iframe.contentDocument.querySelector(".btn-open-tooling");
-                  openToolingNode.addEventListener('click', function(){toggleAddons()});  
+                  if(openToolingNode){
+                    openToolingNode.addEventListener('click', function(){toggleAddons()});  
+                  }
                   
 
                     function contentChanged() {

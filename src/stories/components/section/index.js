@@ -8,7 +8,7 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Section, Video, Button, Container, Features } from '../../../components';
+import { Section, Video, Button, Container } from '../../../components';
 import Readme from '../../../components/Section/README.md';
 
 setAddon(JSXAddon);
@@ -72,26 +72,26 @@ stories.addWithJSX(
   jsxConfig
 );
 
-const featuress = [
-  {
-    id: 1,
-    image: 'images/features/themes.png',
-    title: 'Theming',
-    subtitle: 'Easy to create themes',
-    summary: 'Library customization with Css variables for easy theming and component changes.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  },
-  {
-    id: 2,
-    image: 'images/features/testing.png',
-    title: 'Unit test',
-    subtitle: 'Robust components',
-    summary: 'All our components tested, like a Swiss watch. With code coverage above 50%',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  }
-];
+// const featuress = [
+//   {
+//     id: 1,
+//     image: 'images/features/themes.png',
+//     title: 'Theming',
+//     subtitle: 'Easy to create themes',
+//     summary: 'Library customization with Css variables for easy theming and component changes.',
+//     link: 'https://front10.com',
+//     linktext: 'See more...'
+//   },
+//   {
+//     id: 2,
+//     image: 'images/features/testing.png',
+//     title: 'Unit test',
+//     subtitle: 'Robust components',
+//     summary: 'All our components tested, like a Swiss watch. With code coverage above 50%',
+//     link: 'https://front10.com',
+//     linktext: 'See more...'
+//   }
+// ];
 
 // stories.addWithJSX(
 //   'With Features',

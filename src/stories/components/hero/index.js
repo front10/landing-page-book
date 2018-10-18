@@ -8,7 +8,18 @@ import JSXAddon from 'storybook-addon-jsx';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Hero, Container, Image, Header, GithubButton, Button } from '../../../components';
+import {
+  Hero,
+  Container,
+  Image,
+  Header,
+  GithubButton,
+  Button,
+  Link,
+  Row,
+  Column,
+  Icon
+} from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
 import particles from '../../mock/components/particles';
@@ -20,7 +31,7 @@ const stories = storiesOf('Components/Hero', module);
 const buttons = [
   {
     text: 'TELL ME MORE',
-    onClick: () => {}
+    onClick: () => { }
   }
 ];
 
@@ -90,6 +101,109 @@ stories.addWithJSX(
               repository="landing-page-book"
             />
           </div>
+        </Container>
+      </Hero>
+    </ThemeSelector>
+  )),
+  jsxConfig
+);
+
+stories.addWithJSX(
+  'With image',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <Hero
+        isFixed={boolean('Fixed', true)}
+        image={text('Image', 'images/hero/city-blur.jpg')}
+        opacity={number('Opacity', 0)}
+        parallaxOffset={number('Parallax offset', 350)}
+        minHeight={text('Min height', '100vh')}
+        particles={false}
+      >
+        <Container>
+          <Header type="h6" className="text-white text-left">
+            LANDING PAGE BOOK
+          </Header>
+          <Header className="text-white text-left mt-4 mb-4">
+            We develop future mobility services
+          </Header>
+          <div className="">
+            <Link
+              disabled={boolean('Disabled', false)}
+              href={text('Link', 'https://front10.com')}
+              className={text('Class name', '')}
+              tooltip={text('Tooltip', 'This is a tooltip')}
+              target={select(
+                'Target',
+                {
+                  '': '',
+                  _blank: '_blank',
+                  _parent: '_parent',
+                  _self: '_self',
+                  _top: '_top'
+                },
+                ''
+              )}
+            >
+              <Header type="h6" className="text-white text-left pl-3">
+                -- READ MORE
+              </Header>
+            </Link>
+          </div>
+        </Container>
+      </Hero>
+    </ThemeSelector>
+  )),
+  jsxConfig
+);
+
+stories.addWithJSX(
+  'With product',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <Hero
+        isFixed={boolean('Fixed', true)}
+        backgroundColor={color('Overlay color', '#3A374F')}
+        opacity={number('Opacity', 0)}
+        parallaxOffset={number('Parallax offset', 350)}
+        minHeight={text('Min height', '100vh')}
+        particles={false}
+      >
+        <Container className="p-5">
+          <Row>
+            <Column className="col-sm-3 mt-5 d-none d-sm-block">
+              <Image className="img-fluid" src="images/hero/iphone_320.png" />
+            </Column>
+            <Column className="col-sm-9 mt-5">
+              <div className="pt-3">
+                <Image
+                  src="images/logo/front10.png"
+                  rounded
+                  width="30"
+                  alt="Front10 logo"
+                  className="float-left"
+                />
+                <Header type="h6" className="text-warning float-left pl-2 mt-2">
+                  LANDING PAGE BOOK
+                </Header>
+              </div>
+              <Header type="h1" className="text-white text-left d-block pt-5">
+                You can use the platform you prefer, Create React, Gatsby and Next.
+              </Header>
+              <div className="text-left">
+                <Link
+                  href="https://front10.com/get-landing-page-book/"
+                  tooltip="Search in NPM"
+                  target="_blank"
+                >
+                  <span className="Button btn">
+                    Explore library &nbsp;
+                    <Icon icon="fa fa-arrow-right" />
+                  </span>
+                </Link>
+              </div>
+            </Column>
+          </Row>
         </Container>
       </Hero>
     </ThemeSelector>

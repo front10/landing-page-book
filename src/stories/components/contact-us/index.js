@@ -19,7 +19,7 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader
-        name="ContactUs"
+        name="Contact Us"
         description="Simple contact form, so that your users communicate easily through your website."
       />
       <Column className="col-sm-8 col-md-6 col-lg-4">

@@ -22,7 +22,7 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader
-        name="LanguageSwitcher"
+        name="Language Switcher"
         description="Website translation, the process of converting text from a source language into a target language, is also known as website globalization. In order to translate a website into other languages, you may need both website internationalization (I18N) and website localization (L10N). This component allow you to easy change the language on your website"
       />
       <LanguageSwitcher

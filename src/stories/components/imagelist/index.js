@@ -48,7 +48,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
-      <StoryHeader name="ImageList" description="Easy way to show an image list on your website." />
+      <StoryHeader
+        name="Image List"
+        description="Easy way to show an image list on your website."
+      />
       <div className="container">
         <ImageList
           gray={boolean('Use gray', true)}

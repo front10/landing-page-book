@@ -21,7 +21,10 @@ stories.addWithJSX(
   'Image',
   withReadme([Readme], () => (
     <ThemeSelector>
-      <StoryHeader name="Image" description="Simple element image to use on your website." />
+      <StoryHeader
+        name="Image"
+        description="Simple element image to use on your website. Images can improve the design and the appearance of a web page."
+      />
       <Image
         border={boolean('Border', false)}
         rounded={boolean('Rounded', false)}

@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -20,6 +21,12 @@ stories.addWithJSX(
   'TextBox',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="TextBox"
+        description="The <TextBox> tag defines a multi-line text input control.
+        A TextBox can hold an unlimited number of characters, and the text renders in a fixed-width font (usually Courier).        
+        The size of a TextBox can be specified by the cols and rows attributes, or even better; through CSS' height and width properties."
+      />
       <TextBox
         className={text('CSS class', 'Example')}
         title={text('Title', 'Get many resources in a single request')}

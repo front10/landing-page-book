@@ -39,7 +39,9 @@ stories.addWithJSX(
         readOnly={boolean('Read Only', false)}
         lineNumbers={boolean('Show line numbers', true)}
         showheader={boolean('Show header', true)}
-        showfooter={boolean('Show footer', true)}
+        collapsible={boolean('Collapsible', true)}
+        showCopyButton={boolean('Show copy button', true)}
+        showDeleteButton={boolean('Show delete button', true)}
         codeLink={text('Code link', 'https://codesandbox.io/s/pmjvk5wl27')}
         updateCode={() => {}}
       />

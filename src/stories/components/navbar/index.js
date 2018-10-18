@@ -17,9 +17,12 @@ import {
   Container,
   NavbarCollapse,
   NavbarBrand,
-  Image
+  Image,
+  Code
 } from '../../../components';
 import Readme from '../../../components/Navbar/README.md';
+
+import { def, container } from '../../mock/components/codes/navbar';
 
 setAddon(JSXAddon);
 
@@ -59,25 +62,27 @@ stories.addWithJSX(
         name="Navbar"
         description="A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site. "
       />
-      <Navbar
-        transparent={boolean('Transparent', false)}
-        fixed={boolean('Fixed', false)}
-        brandName={text('Brand name', '')}
-        brandLink={text('Brand link', 'https://front10.com')}
-        brandLogo={text('Brand logo', 'images/logo/front10.png')}
-        expand={select(
-          'Expand',
-          {
-            sm: 'sm',
-            md: 'md',
-            lg: 'lg'
-          },
-          'md'
-        )}
-        rightItems={rightItems}
-        leftItems={leftItems}
-        className="mb-2"
-      />
+
+      <Code code={def} languageCode="jsx" readOnly collapsible collapsed showDeleteButton={false}>
+        <Navbar
+          transparent={boolean('Transparent', false)}
+          fixed={boolean('Fixed', false)}
+          brandName={text('Brand name', '')}
+          brandLink={text('Brand link', 'https://front10.com')}
+          brandLogo={text('Brand logo', 'images/logo/front10.png')}
+          expand={select(
+            'Expand',
+            {
+              sm: 'sm',
+              md: 'md',
+              lg: 'lg'
+            },
+            'md'
+          )}
+          rightItems={rightItems}
+          leftItems={leftItems}
+        />
+      </Code>
     </ThemeSelector>
   )),
   jsxConfig
@@ -92,7 +97,7 @@ stories.addWithJSX(
         storyName="Container Mode"
         description="A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site. "
       />
-      <Navbar expand="md">
+      <Navbar expand="md" className="mb-2">
         <Container>
           <NavbarCollapse>
             <NavbarBrand>
@@ -124,6 +129,7 @@ stories.addWithJSX(
           </NavbarCollapse>
         </Container>
       </Navbar>
+      <Code code={container} languageCode="jsx" readOnly />
     </ThemeSelector>
   )),
   jsxConfig

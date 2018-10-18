@@ -44,32 +44,36 @@ import '@front10/landing-page-book/dist/components/Code/style.css';
 
 ## Properties
 
-| </br>Name    | </br>Type | </br>Summary                                                                        |
-| ------------ | --------- | ----------------------------------------------------------------------------------- |
-| readOnly     | `Boolean` | No allow to change the code, Default `false`                                        |
-| lineNumbers  | `Boolean` | Shows line numbers, Default `true`                                                  |
-| showheader   | `Boolean` | Shows header bar, Default `true`                                                    |
-| showfooter   | `Boolean` | Shows footer bar, Default `true`                                                    |
-| code         | `String`  | Code to show on component, Default `Js code example`                                |
-| theme        | `String`  | Theme of code, Default `"idea"`                                                     |
-| languageCode | `String`  | language in which the code is written to embellish the syntax, Default `javascript` |
-| codeLink     | `String`  | Link to code, ex: CodeSandbox, CodePen. Default `""`                                |
-| updateCode   | `func`    | Function to handle the change made in the code.                                     |
+| </br>Name        | </br>Type | </br>Summary                                                                        |
+| ---------------- | --------- | ----------------------------------------------------------------------------------- |
+| readOnly         | `Boolean` | No allow to change the code, Default `false`                                        |
+| lineNumbers      | `Boolean` | Shows line numbers, Default `true`                                                  |
+| showheader       | `Boolean` | Shows header bar, Default `true`                                                    |
+| showfooter       | `Boolean` | Shows footer bar, Default `true`                                                    |
+| collapsible      | `Boolean` | Define if component is collapsible, Default `false`                                 |
+| collapsed        | `Boolean` | Define if component is collapsed, Default `false`                                   |
+| showCopyButton   | `Boolean` | Show or hide copy button, Default `true`                                            |
+| showDeleteButton | `Boolean` | Show or hide delete button, Default `true`                                          |
+| code             | `String`  | Code to show on component, Default `Js code example`                                |
+| theme            | `String`  | Theme of code, Default `"idea"`                                                     |
+| languageCode     | `String`  | language in which the code is written to embellish the syntax, Default `javascript` |
+| codeLink         | `String`  | Link to code, ex: CodeSandbox, CodePen. Default `""`                                |
+| updateCode       | `func`    | Function to handle the change made in the code.                                     |
 
 ## Theming variables
 
-| </br>Name                               | </br>Summary                          | </br>Default     |
-| --------------------------------------- | ------------------------------------- | ---------------- |
-| --CodeMirror\_\_header_with             | Code's header width                   | `100%`           |
-| --CodeMirror\_\_header_height           | Code's header height                  | `45px`           |
-| --CodeMirror\_\_header_backgroundColor  | Code's header background color        | `#304148`        |
-| --CodeMirror\_\_header_color            | Color from header's buttons           | `#fed136`        |
-| --CodeMirror\_\_footer_with             | Code's footer width                   | `100%`           |
-| --CodeMirror\_\_footer_height           | Code's footer height                  | `15px`           |
-| --CodeMirror\_\_footer_backgroundColor  | Code's footer bacground color         | `#304148`        |
-| --CodeMirror\_\_header_copybtn_margin   | Margin of copy button in header       | `10px -10px 0 0` |
-| --CodeMirror\_\_header_deletebtn_margin | Margin of clear code button in header | `10px 0 0 0`     |
-| --CodeMirror\_\_height                  | Height of Code                        | `250px`          |
-| --CodeMirror\_\_font_family             | Code's font family                    | `Lato`           |
-| --CodeMirror__Btn-background-color      | Code's buttons background color       | `transparent`    |
-| --CodeMirror__Btn-padding               | Code's buttons padding                | `6px 20px`       |
+| </br>Name                              | </br>Summary                    | </br>Default  |
+| -------------------------------------- | ------------------------------- | ------------- |
+| --CodeMirror\_\_header_with            | Code's header width             | `100%`        |
+| --CodeMirror\_\_header_height          | Code's header height            | `45px`        |
+| --CodeMirror\_\_header_backgroundColor | Code's header background color  | `#304148`     |
+| --CodeMirror\_\_header_color           | Color from header's buttons     | `#fed136`     |
+| --CodeMirror\_\_height                 | Height of Code                  | `auto`        |
+| --CodeMirror\_\_font_family            | Code's font family              | `Lato`        |
+| --CodeMirror\_\_Btn-background-color   | Code's buttons background color | `transparent` |
+| --CodeMirror\_\_Btn-padding            | Code's buttons padding          | `6px 20px`    |
+| --CodeMirror\_\_Container-border       | Code's container border         | `6px 20px`    |
+| --CodeMirror-fontSize                  | Code font size                  | `16px`        |
+| --CodeMirror\_\_Footer-backgroundColor | Code footer background color    | `transparent` |
+| --CodeMirror\_\_Footer-color           | Code footer color               | `#304148`     |
+| --CodeMirror-borderRadius              | Code border radius              | `5px`         |

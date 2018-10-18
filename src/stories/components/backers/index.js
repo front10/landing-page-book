@@ -5,6 +5,7 @@ import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import { Backers, Container } from '../../../components';
 import Readme from '../../../components/Backers/README.md';
@@ -21,6 +22,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Backers"
+        description="A person, institution, or country that supports something, especially financially. Its important show the people who support your idea."
+      />
       <Container>
         <Backers
           imageRounded={boolean('Image rounded', true)}

@@ -12,7 +12,7 @@ class Navbar extends Component {
   constructor(props) {
     super(props);
     this.state = { collapse: false };
-    this.collapse = this.collapse.bind(this);
+    this.toggleCollapse = this.toggleCollapse.bind(this);
   }
 
   componentDidMount() {
@@ -25,7 +25,7 @@ class Navbar extends Component {
     });
   }
 
-  collapse() {
+  toggleCollapse() {
     const { collapse } = this.state;
     this.setState({ collapse: !collapse });
   }
@@ -73,7 +73,7 @@ class Navbar extends Component {
         <Button
           className="navbar-toggler mr-3 Navbar__Toggler"
           ariaLabel="Toggle navigation"
-          onClick={this.collapse}
+          onClick={this.toggleCollapse}
         >
           <Icon icon="fa fa-bars" />
         </Button>

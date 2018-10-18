@@ -11,6 +11,8 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Section, Video, Button, Container, Code } from '../../../components';
 import Readme from '../../../components/Section/README.md';
 
+import def from '../../mock/components/codes/section';
+
 setAddon(JSXAddon);
 
 const stories = storiesOf('Components/Section', module);
@@ -36,25 +38,7 @@ stories.addWithJSX(
           <Button className="mt-5">Explore</Button>
         </Container>
       </Section>
-      <Code
-        code={`
-      <Section
-        subTitle="One Look Is Worth A Thousand Words."
-        title="WHAT WE DO"
-      >
-        <Container className="text-center">
-          <Video source="https://youtu.be/dCrLwWdju68" />
-          <Button className="mt-5">
-            Explore
-          </Button>
-        </Container>
-      </Section>`}
-        languageCode="jsx"
-        readOnly
-        collapsible
-        collapsed
-        showDeleteButton={false}
-      />
+      <Code code={def} languageCode="jsx" readOnly collapsible collapsed showDeleteButton={false} />
     </ThemeSelector>
   )),
   jsxConfig

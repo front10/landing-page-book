@@ -6,8 +6,10 @@ import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
-import { BrowserSupport } from '../../../components';
+import { BrowserSupport, Code } from '../../../components';
 import Readme from '../../../components/BrowserSupport/README.md';
+
+import browses from '../../mock/components/codes/browser-support';
 
 const browsers = [
   {
@@ -62,6 +64,16 @@ stories.addWithJSX(
         showBrowserVendor={boolean('Show browser vendor', true)}
         showBrowserVersion={boolean('Show browser version', true)}
       />
+      <div className="mt-4">
+        <Code
+          code={browses}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

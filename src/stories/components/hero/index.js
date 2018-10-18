@@ -13,6 +13,7 @@ import { Hero, Container, Image, Header, GithubButton, Button, Code } from '../.
 import Readme from '../../../components/Hero/README.md';
 
 import particles from '../../mock/components/particles';
+import { def, children } from '../../mock/components/codes/hero';
 
 setAddon(JSXAddon);
 
@@ -35,34 +36,35 @@ stories.addWithJSX(
         name="Hero"
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
-      <Code
-        code="ssldslds,dls,"
-        languageCode="jsx"
-        readOnly
-        collapsible
-        collapsed
-        showDeleteButton={false}
-      >
-        <Hero
-          isFixed={boolean('Fixed', true)}
-          isCentered={boolean('Centered', true)}
-          particles={boolean('With particles', true)}
-          image={text('Image', 'https://c1.staticflickr.com/2/1845/43895099105_7329ee6bba_c.jpg')}
-          opacity={number('Opacity', 1)}
-          parallaxOffset={number('Parallax offset', 0)}
-          overlayColor={color('Overlay color', '#373D45')}
-          minHeight={text('Min height', '100vh')}
-          header={text('Header', 'Landing Page Book')}
-          subHeader={text('Sub header', 'React components to build!')}
-          subHeaderPosition={select(
-            'Sub header position',
-            { top: 'top', bottom: 'bottom' },
-            'bottom'
-          )}
-          buttons={buttons}
-          particlesParams={particles}
+      <Hero
+        isFixed={boolean('Fixed', true)}
+        isCentered={boolean('Centered', true)}
+        particles={boolean('With particles', true)}
+        image={text('Image', 'https://c1.staticflickr.com/2/1845/43895099105_7329ee6bba_c.jpg')}
+        opacity={number('Opacity', 1)}
+        parallaxOffset={number('Parallax offset', 0)}
+        overlayColor={color('Overlay color', '#373D45')}
+        minHeight={text('Min height', '100vh')}
+        header={text('Header', 'Landing Page Book')}
+        subHeader={text('Sub header', 'React components to build!')}
+        subHeaderPosition={select(
+          'Sub header position',
+          { top: 'top', bottom: 'bottom' },
+          'bottom'
+        )}
+        buttons={buttons}
+        particlesParams={particles}
+      />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
         />
-      </Code>
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -111,6 +113,16 @@ stories.addWithJSX(
           </div>
         </Container>
       </Hero>
+      <div className="mt-4">
+        <Code
+          code={children}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

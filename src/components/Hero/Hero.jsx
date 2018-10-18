@@ -55,7 +55,9 @@ class Hero extends Component {
                 {header && <Header className="Hero__Header mb-5">{header}</Header>}
                 {subHeader &&
                   subHeaderPosition !== 'top' && (
-                    <Header className="Hero__SubHeader mb-5">{subHeader}</Header>
+                    <Header type="h2" className="Hero__SubHeader mb-5">
+                      {subHeader}
+                    </Header>
                   )}
                 {buttons.map(button => (
                   <Button

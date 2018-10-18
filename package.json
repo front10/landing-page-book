@@ -1,6 +1,6 @@
 {
     "name": "@front10/landing-page-book",
-    "version": "0.1.23",
+    "version": "1.0.1",
     "description": "A react library for landing page",
     "main": "dist/index.js",
     "scripts": {
@@ -14,7 +14,7 @@
         "gitlab-pages": "git push master gitlab-pages",
         "prepush": "npm run eslint",
         "transpile": "babel src -d dist --copy-files",
-        "prepublishOnly": "npm run transpile",
+        "prepublishOnly": "gulp compile-components-legacy & gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & npm run transpile",
         "test-browser": "node ./selenium/browser-test.js",
         "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-book.git"
     },
@@ -84,7 +84,7 @@
         "gulp-rename": "^1.4.0",
         "gulp-sass": "^4.0.1",
         "gulp-vars": "^0.1.6",
-        "highlight-loader": "^0.7.2",
+        "highlight-loader": "^0.7.3",
         "html-webpack-plugin": "^3.2.0",
         "husky": "^0.14.3",
         "ignore-styles": "^5.0.1",
@@ -102,7 +102,7 @@
         "storybook-addon-jsx": "^5.4.0",
         "storybook-readme": "^3.3.0",
         "style-loader": "^0.20.3",
-        "wix-storybook-utils": "^2.0.17"
+        "wix-storybook-utils": "^2.0.22"
     },
     "dependencies": {
         "bootstrap": "^4.1.1",

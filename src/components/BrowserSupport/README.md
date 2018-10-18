@@ -62,5 +62,6 @@ const browsers = [{
 
 | </br>Name   | </br>Type | </br>Summary                                                                                 | 
 | ------------| - | ------------------------------------------------------------------------------------------------------ |
-| showText      | `Boolean` | Show or hide text in browsers. Default `true` |
+| showBrowserVendor      | `Boolean` | Define if the browser name is displayed. Default `true`|
+| showBrowserVersion      | `Boolean` | Define if the browser version is displayed. Default `true`|
 | browsers      | `Array` | Array of browsers. Default `[]`, see example section |

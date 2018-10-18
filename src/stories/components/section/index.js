@@ -7,7 +7,7 @@ import JSXAddon from 'storybook-addon-jsx';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Section, Video } from '../../../components';
+import { Section, Video, Button, Container } from '../../../components';
 import Readme from '../../../components/Section/README.md';
 
 setAddon(JSXAddon);
@@ -25,7 +25,10 @@ stories.addWithJSX(
         title={text('Title', 'WHAT WE DO')}
         subTitle={text('Subtitle', 'One Look Is Worth A Thousand Words.')}
       >
-        <Video source="https://youtu.be/dCrLwWdju68" />
+        <Container className="text-center">
+          <Video source="https://youtu.be/dCrLwWdju68" />
+          <Button className="mt-5">Explore</Button>
+        </Container>
       </Section>
     </ThemeSelector>
   )),

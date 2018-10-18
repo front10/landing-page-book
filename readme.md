@@ -3,7 +3,7 @@
 
 <h1 style="text-align: center;">
     <a href="http://front10.com/">
-        <img src="./assets/images/logo/logo-frton10.jpg" alt="Front10 Component Explorer" width="200">
+        <img src="https://github.com/front10/landing-page-book/blob/master/assets/images/logo/logo-frton10.jpg?raw=true" alt="Front10 Component Explorer" width="200">
     </a>
 </h1>
 
@@ -76,10 +76,15 @@ class App extends Component {
 
 Read our [theming documentation](https://github.com/front10/landing-page-book/blob/master/theming.md).
 
+## Integration
+
+- [React App boilerplate](https://github.com/front10/landing-page-create-react-app)
+- [Gatsby boilerplate](https://github.com/front10/landing-page-gatsby)
+
 ## Tests
 
 ```bash
-npm test
+npm run test
 ```
 
 ## Coding styles
@@ -105,4 +110,10 @@ This project is licensed under the MIT License - see the [LICENSE.md](https://gi
 
 | <img src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/45.5.0/archive/chrome_12-48/chrome_12-48_48x48.png" alt="Chrome" width="24px" height="24px" /></br>Chrome | <img src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/45.5.0/edge/edge_48x48.png" alt="IE / Edge" width="24px" height="24px" /></br>IE / Edge | <img src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/45.5.0/firefox/firefox_48x48.png" alt="Firefox" width="24px" height="24px" /></br>Firefox | <img src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/45.5.0/opera/opera_48x48.png" alt="Opera" width="24px" height="24px" /></br>Opera | <img src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/45.5.0/safari/safari_48x48.png" alt="Safari" width="24px" height="24px" /></br>Safari | <img src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/45.5.0/safari-ios/safari-ios_48x48.png" alt="iOS Safari" width="24px" height="24px" /></br>iOS Safari | <img src="https://cdnjs.cloudflare.com/ajax/libs/browser-logos/45.5.0/archive/android/android_48x48.png" alt="Android" width="24px" height="24px" /></br>Android |
 | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-|                                                                                   >=45                                                                                   |                                                                       >=10/>=12                                                                        |                                                                           >=38                                                                           |                                                                       >=30                                                                       |                                                                         >=9                                                                          |                                                                                >=9.0                                                                                 |                                                                              >=6.2                                                                               |
+| >=45                                                                                                                                                                     | >=10/>=12                                                                                                                                              | >=38                                                                                                                                                     | >=30                                                                                                                                             | >=9                                                                                                                                                  | >=9.0                                                                                                                                                                | >=6.2                                                                                                                                                            |
+
+
+
+## Changelog
+
+[Changelog](https://github.com/front10/landing-page-book/blob/master/changelog.md)

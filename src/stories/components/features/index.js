@@ -14,6 +14,7 @@ const stories = storiesOf('Components/Features', module);
 stories.addDecorator(withKnobs);
 const featuress = [
   {
+    id: 1,
     image: 'images/features/themes.png',
     title: 'Theming',
     subtitle: 'Easy to create themes',
@@ -22,6 +23,7 @@ const featuress = [
     linktext: 'See more...'
   },
   {
+    id: 2,
     image: 'images/features/testing.png',
     title: 'Unit test',
     subtitle: 'Robust components',
@@ -30,6 +32,7 @@ const featuress = [
     linktext: 'See more...'
   },
   {
+    id: 3,
     image: 'images/features/speed.png',
     title: 'Faster dev',
     subtitle: 'Fast like Usain Bolt',
@@ -39,6 +42,7 @@ const featuress = [
     linktext: 'See more...'
   },
   {
+    id: 4,
     image: 'images/features/code.png',
     title: 'Simple',
     subtitle: 'Easy to use',

@@ -18,7 +18,7 @@ class Features extends React.Component {
     return (
       <div className="features d-flex flex-wrap">
         {features.map(feature => (
-          <div className={`col-md-3 text-${contentAlign} mb-4`} key={feature.link}>
+          <div className={`col-md-3 text-${contentAlign} mb-4`} key={feature.id}>
             <Card
               imageCircle={imageCircle}
               subTitle={showSubtitle ? feature.subtitle : ''}
@@ -49,6 +49,7 @@ Features.propTypes = {
   contentAlign: PropTypes.string,
   features: PropTypes.arrayOf(
     PropTypes.shape({
+      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
       image: PropTypes.string,
       title: PropTypes.string,
       subtitle: PropTypes.string,

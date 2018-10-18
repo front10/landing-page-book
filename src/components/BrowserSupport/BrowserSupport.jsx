@@ -4,12 +4,17 @@ import Browser from '../Browser';
 
 class BrowserSupport extends Component {
   render() {
-    const { browsers, showText } = this.props;
+    const { browsers, showBrowserVendor, showBrowserVersion } = this.props;
     return (
       <div>
         {browsers.map(browser => (
           <div className="d-inline-flex text-center pl-3 pr-3" key={browser.vendor}>
-            <Browser vendor={browser.vendor} version={browser.version} showText={showText} />
+            <Browser
+              vendor={browser.vendor}
+              version={browser.version}
+              showBrowserVendor={showBrowserVendor}
+              showBrowserVersion={showBrowserVersion}
+            />
           </div>
         ))}
       </div>
@@ -18,7 +23,8 @@ class BrowserSupport extends Component {
 }
 
 BrowserSupport.propTypes = {
-  showText: PropTypes.bool,
+  showBrowserVendor: PropTypes.bool,
+  showBrowserVersion: PropTypes.bool,
   browsers: PropTypes.arrayOf(
     PropTypes.shape({
       vendor: PropTypes.string,
@@ -27,7 +33,8 @@ BrowserSupport.propTypes = {
   )
 };
 BrowserSupport.defaultProps = {
-  showText: true,
+  showBrowserVendor: true,
+  showBrowserVersion: true,
   browsers: []
 };
 

@@ -9,7 +9,7 @@ ShallowWrapper {
     languages={Array []}
     onSelect={[Function]}
     placeholder="Language"
-    selectedLanguage="US"
+    selectedLanguage=""
     showArrow={true}
     showFlag={true}
     showLabel={false}
@@ -33,7 +33,7 @@ ShallowWrapper {
         blackList={false}
         countries={Array []}
         customLabels={Object {}}
-        defaultCountry="US"
+        defaultCountry=""
         disabled={false}
         onSelect={[Function]}
         optionsSize={14}
@@ -56,7 +56,7 @@ ShallowWrapper {
         "blackList": false,
         "countries": Array [],
         "customLabels": Object {},
-        "defaultCountry": "US",
+        "defaultCountry": "",
         "disabled": false,
         "onSelect": [Function],
         "optionsSize": 14,
@@ -84,7 +84,7 @@ ShallowWrapper {
           blackList={false}
           countries={Array []}
           customLabels={Object {}}
-          defaultCountry="US"
+          defaultCountry=""
           disabled={false}
           onSelect={[Function]}
           optionsSize={14}
@@ -107,7 +107,7 @@ ShallowWrapper {
           "blackList": false,
           "countries": Array [],
           "customLabels": Object {},
-          "defaultCountry": "US",
+          "defaultCountry": "",
           "disabled": false,
           "onSelect": [Function],
           "optionsSize": 14,

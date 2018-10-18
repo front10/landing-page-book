@@ -1006,16 +1006,16 @@ body {
   --Button-fontSize: 1rem;
   --Button-padding: 0.375rem 0.75rem;
   --Button-textShadow: none;
-  --Button-backgroundColor: #0062cc;
-  --Button-backgroundColorHover: #0062cc;
-  --Button-borderColor: #005cbf;
+  --Button-backgroundColor: #fed136;
+  --Button-backgroundColorHover: #fec810;
+  --Button-borderColor: #fed136;
   --Button-boxShadow: none;
   --Button-boxShadowHover: none;
   --Button-border: 0px;
   --Button-textTransform: none;
-  --Button-textColor: #ffffff; }
+  --Button-textColor: #383e45; }
 
-.btn:not(.navbar-toggler) {
+.Button:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
   padding: var(--Button-padding);
@@ -1024,15 +1024,14 @@ body {
   border: var(--Button-border);
   text-transform: var(--Button-textTransform);
   box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor); }
+  color: var(--Button-textColor);
+  background-color: var(--Button-backgroundColor); }
 
-.btn-primary:not(.navbar-toggler) {
-  background-color: var(--Button-backgroundColor) !important;
-  color: var(--Button-textColor); }
-
-.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
-  background-color: var(--Button-backgroundColorHover) !important;
-  box-shadow: var(--Button-boxShadowHover) !important; }
+.Button:not(.navbar-toggler):focus,
+.Button:not(.navbar-toggler):active,
+.Button:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover);
+  box-shadow: var(--Button-boxShadowHover); }
 
 :root {
   --Card-borderRadius: 0px;
@@ -1086,16 +1085,16 @@ body {
   --Button-fontSize: 1rem;
   --Button-padding: 0.375rem 0.75rem;
   --Button-textShadow: none;
-  --Button-backgroundColor: #0062cc;
-  --Button-backgroundColorHover: #0062cc;
-  --Button-borderColor: #005cbf;
+  --Button-backgroundColor: #fed136;
+  --Button-backgroundColorHover: #fec810;
+  --Button-borderColor: #fed136;
   --Button-boxShadow: none;
   --Button-boxShadowHover: none;
   --Button-border: 0px;
   --Button-textTransform: none;
-  --Button-textColor: #ffffff; }
+  --Button-textColor: #383e45; }
 
-.btn:not(.navbar-toggler) {
+.Button:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
   padding: var(--Button-padding);
@@ -1104,15 +1103,14 @@ body {
   border: var(--Button-border);
   text-transform: var(--Button-textTransform);
   box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor); }
+  color: var(--Button-textColor);
+  background-color: var(--Button-backgroundColor); }
 
-.btn-primary:not(.navbar-toggler) {
-  background-color: var(--Button-backgroundColor) !important;
-  color: var(--Button-textColor); }
-
-.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
-  background-color: var(--Button-backgroundColorHover) !important;
-  box-shadow: var(--Button-boxShadowHover) !important; }
+.Button:not(.navbar-toggler):focus,
+.Button:not(.navbar-toggler):active,
+.Button:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover);
+  box-shadow: var(--Button-boxShadowHover); }
 
 .Navbar {
   background-color: var(--Navbar-backgroundColor);
@@ -1147,21 +1145,26 @@ body {
 .Navbar.Navbar--transparent.navbar-down {
   background-color: var(--Navbar--backgroundColor) !important; }
 
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px; } }
+
 :root {
   --Button-borderRadius: 0px;
   --Button-fontSize: 1rem;
   --Button-padding: 0.375rem 0.75rem;
   --Button-textShadow: none;
-  --Button-backgroundColor: #0062cc;
-  --Button-backgroundColorHover: #0062cc;
-  --Button-borderColor: #005cbf;
+  --Button-backgroundColor: #fed136;
+  --Button-backgroundColorHover: #fec810;
+  --Button-borderColor: #fed136;
   --Button-boxShadow: none;
   --Button-boxShadowHover: none;
   --Button-border: 0px;
   --Button-textTransform: none;
-  --Button-textColor: #ffffff; }
+  --Button-textColor: #383e45; }
 
-.btn:not(.navbar-toggler) {
+.Button:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
   padding: var(--Button-padding);
@@ -1170,15 +1173,14 @@ body {
   border: var(--Button-border);
   text-transform: var(--Button-textTransform);
   box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor); }
+  color: var(--Button-textColor);
+  background-color: var(--Button-backgroundColor); }
 
-.btn-primary:not(.navbar-toggler) {
-  background-color: var(--Button-backgroundColor) !important;
-  color: var(--Button-textColor); }
-
-.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
-  background-color: var(--Button-backgroundColorHover) !important;
-  box-shadow: var(--Button-boxShadowHover) !important; }
+.Button:not(.navbar-toggler):focus,
+.Button:not(.navbar-toggler):active,
+.Button:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover);
+  box-shadow: var(--Button-boxShadowHover); }
 
 a[disabled] {
   pointer-events: none; }
@@ -1200,17 +1202,19 @@ a span {
   background-color: var(--CodeMirror__footer_backgroundColor) !important; }
 
 .CodeMirror__header_copybtn {
-  margin: var(--CodeMirror__header_copybtn_margin); }
+  margin: var(--CodeMirror__header_copybtn_margin);
+  color: var(--CodeMirror__header_color); }
 
 .CodeMirror__header_deletebtn {
-  margin: var(--CodeMirror__header_deletebtn_margin); }
+  margin: var(--CodeMirror__header_deletebtn_margin);
+  color: var(--CodeMirror__header_color); }
 
 .CodeMirror {
   height: var(--CodeMirror__height) !important; }
 
 .CodeMirror_btn {
   font-weight: 400;
-  background-color: var(--CodeMirror__Btn-background-color);
+  background-color: var(--CodeMirror__Btn-background-color) !important;
   padding: var(--CodeMirror__Btn-padding) !important; }
 
 .btn.CodeMirror_btn:hover,
@@ -1266,16 +1270,16 @@ a span {
   --Button-fontSize: 1rem;
   --Button-padding: 0.375rem 0.75rem;
   --Button-textShadow: none;
-  --Button-backgroundColor: #0062cc;
-  --Button-backgroundColorHover: #0062cc;
-  --Button-borderColor: #005cbf;
+  --Button-backgroundColor: #fed136;
+  --Button-backgroundColorHover: #fec810;
+  --Button-borderColor: #fed136;
   --Button-boxShadow: none;
   --Button-boxShadowHover: none;
   --Button-border: 0px;
   --Button-textTransform: none;
-  --Button-textColor: #ffffff; }
+  --Button-textColor: #383e45; }
 
-.btn:not(.navbar-toggler) {
+.Button:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
   padding: var(--Button-padding);
@@ -1284,15 +1288,14 @@ a span {
   border: var(--Button-border);
   text-transform: var(--Button-textTransform);
   box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor); }
+  color: var(--Button-textColor);
+  background-color: var(--Button-backgroundColor); }
 
-.btn-primary:not(.navbar-toggler) {
-  background-color: var(--Button-backgroundColor) !important;
-  color: var(--Button-textColor); }
-
-.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
-  background-color: var(--Button-backgroundColorHover) !important;
-  box-shadow: var(--Button-boxShadowHover) !important; }
+.Button:not(.navbar-toggler):focus,
+.Button:not(.navbar-toggler):active,
+.Button:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover);
+  box-shadow: var(--Button-boxShadowHover); }
 
 :root {
   --Input-borderRadius: 0px;
@@ -1381,30 +1384,37 @@ a span {
     height: auto; }
 
 :root {
-  --GithubDetail__countbubble-backgroundColor: #dcdcdc;
-  --GithubDetail__countbubble-borderradius: 0.4em;
-  --GithubDetail__countbubble-padding: 6px;
+  --GithubDetail__countbubble-padding: 7px 10px 10px 5px;
   --GithubDetail__countbubble-ml: 11px;
-  --GithubDetail__countbubble-border: 1px solid #dcdcdc;
-  --GithubDetail__countbubble-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  --GithubDetail__countbubble-Color: #000;
-  --GithubDetail__countbubble_after-border: 7px solid transparent;
-  --GithubDetail__countbubble_after-borderColor: transparent #dcdcdc transparent transparent;
+  --GithubDetail__countbubble-transition: color 0.15s ease-in-out,
+    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   --GithubDetail__buttonText-ml: 5px;
   --GithubDetail__btn_container-padding: 5px;
   --GithubDetail_btn-backgroundColor: #dcdcdc;
-  --GithubDetail_btn-Color: #000; }
+  --GithubDetail_btn-Color: #000;
+  --GithubDetail_Btn-borderRadius: 0;
+  --GithubDetail_Btn-padding: 0.3rem 0.75rem;
+  --GithubDetail_Btn-boxShadow: none;
+  --GithubDetail_Btn-boxShadow--hover: none;
+  --GithubDetail_Btn-backgroundColor--hover: #bbbbbb;
+  --GithubDetail_Btn-textTransform: none;
+  --GithubDetail_Btn-borderColor: transparent;
+  --GithubDetail_Btn-border: 1px solid;
+  --GithubDetail_Btn-fontSize: 1rem;
+  --GithubDetail_Btn-textShadow: none; }
 
 .speech-bubble {
   position: relative;
-  background: var(--GithubDetail__countbubble-backgroundColor);
-  border-radius: var(--GithubDetail__countbubble-borderradius);
+  background: var(--GithubDetail_btn-backgroundColor);
+  border-radius: var(--GithubDetail_Btn-borderRadius);
   padding: var(--GithubDetail__countbubble-padding);
   margin-left: var(--GithubDetail__countbubble-ml);
-  border: var(--GithubDetail__countbubble-border);
-  transition: var(--GithubDetail__countbubble-transition); }
+  border: var(--GithubDetail_Btn-border);
+  border-color: var(--GithubDetail_Btn-borderColor);
+  transition: var(--GithubDetail__countbubble-transition);
+  box-shadow: var(--GithubDetail_Btn-boxShadow); }
   .speech-bubble a {
-    color: var(--GithubDetail__countbubble-Color); }
+    color: var(--GithubDetail_btn-Color); }
 
 .speech-bubble:after {
   content: '';
@@ -1413,8 +1423,8 @@ a span {
   top: 50%;
   width: 0;
   height: 0;
-  border: var(--GithubDetail__countbubble_after-border);
-  border-color: var(--GithubDetail__countbubble_after-borderColor);
+  border: 7px solid transparent;
+  border-color: transparent var(--GithubDetail_btn-backgroundColor) transparent transparent;
   border-left: 0;
   margin-top: -7px;
   margin-left: -8px;
@@ -1425,7 +1435,19 @@ a span {
 
 .GithubDetail_btn {
   background: var(--GithubDetail_btn-backgroundColor);
-  color: var(--GithubDetail_btn-Color); }
+  color: var(--GithubDetail_btn-Color);
+  border-radius: var(--GithubDetail_Btn-borderRadius);
+  padding: var(--GithubDetail_Btn-padding);
+  box-shadow: var(--GithubDetail_Btn-boxShadow);
+  text-transform: var(--GithubDetail_Btn-textTransform);
+  border: var(--GithubDetail_Btn-border);
+  border-color: var(--GithubDetail_Btn-borderColor);
+  font-size: var(--GithubDetail_Btn-fontSize);
+  text-shadow: var(--GithubDetail_Btn-textShadow); }
+
+.GithubDetail_btn:hover {
+  box-shadow: var(--GithubDetail_Btn-boxShadow--hover);
+  background-color: var(--GithubDetail_Btn-backgroundColor--hover); }
 
 .GithubDetail_btn_container {
   padding: var(--GithubDetail__btn_container-padding); }
@@ -1443,16 +1465,16 @@ a span {
   --Button-fontSize: 1rem;
   --Button-padding: 0.375rem 0.75rem;
   --Button-textShadow: none;
-  --Button-backgroundColor: #0062cc;
-  --Button-backgroundColorHover: #0062cc;
-  --Button-borderColor: #005cbf;
+  --Button-backgroundColor: #fed136;
+  --Button-backgroundColorHover: #fec810;
+  --Button-borderColor: #fed136;
   --Button-boxShadow: none;
   --Button-boxShadowHover: none;
   --Button-border: 0px;
   --Button-textTransform: none;
-  --Button-textColor: #ffffff; }
+  --Button-textColor: #383e45; }
 
-.btn:not(.navbar-toggler) {
+.Button:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
   padding: var(--Button-padding);
@@ -1461,15 +1483,14 @@ a span {
   border: var(--Button-border);
   text-transform: var(--Button-textTransform);
   box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor); }
+  color: var(--Button-textColor);
+  background-color: var(--Button-backgroundColor); }
 
-.btn-primary:not(.navbar-toggler) {
-  background-color: var(--Button-backgroundColor) !important;
-  color: var(--Button-textColor); }
-
-.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
-  background-color: var(--Button-backgroundColorHover) !important;
-  box-shadow: var(--Button-boxShadowHover) !important; }
+.Button:not(.navbar-toggler):focus,
+.Button:not(.navbar-toggler):active,
+.Button:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover);
+  box-shadow: var(--Button-boxShadowHover); }
 
 .Navbar {
   background-color: var(--Navbar-backgroundColor);
@@ -1504,6 +1525,11 @@ a span {
 .Navbar.Navbar--transparent.navbar-down {
   background-color: var(--Navbar--backgroundColor) !important; }
 
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px; } }
+
 :root {
   --Hero__Header-fontSize: 75px;
   --Hero__Header-fontStyle: normal;
@@ -1514,24 +1540,25 @@ a span {
   --Hero__SubHeader-color: #fff;
   --Hero__SubHeader-fontStyle: italic;
   --Hero__SubHeader--phone-fontSize: 20px;
-  --Hero__Button-color: #373d45;
-  --Hero__Button-backgroundColor: #fed136; }
+  --Hero__Button-color: #383e45;
+  --Hero__Button-backgroundColor: #fed136;
+  --Hero__Button-padding: 0.375rem 0.75rem; }
 
 :root {
   --Button-borderRadius: 0px;
   --Button-fontSize: 1rem;
   --Button-padding: 0.375rem 0.75rem;
   --Button-textShadow: none;
-  --Button-backgroundColor: #0062cc;
-  --Button-backgroundColorHover: #0062cc;
-  --Button-borderColor: #005cbf;
+  --Button-backgroundColor: #fed136;
+  --Button-backgroundColorHover: #fec810;
+  --Button-borderColor: #fed136;
   --Button-boxShadow: none;
   --Button-boxShadowHover: none;
   --Button-border: 0px;
   --Button-textTransform: none;
-  --Button-textColor: #ffffff; }
+  --Button-textColor: #383e45; }
 
-.btn:not(.navbar-toggler) {
+.Button:not(.navbar-toggler) {
   border-radius: var(--Button-borderRadius);
   font-size: var(--Button-fontSize);
   padding: var(--Button-padding);
@@ -1540,15 +1567,14 @@ a span {
   border: var(--Button-border);
   text-transform: var(--Button-textTransform);
   box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor); }
+  color: var(--Button-textColor);
+  background-color: var(--Button-backgroundColor); }
 
-.btn-primary:not(.navbar-toggler) {
-  background-color: var(--Button-backgroundColor) !important;
-  color: var(--Button-textColor); }
-
-.btn:not(.navbar-toggler):focus, .btn:not(.navbar-toggler):active, .btn:not(.navbar-toggler):hover {
-  background-color: var(--Button-backgroundColorHover) !important;
-  box-shadow: var(--Button-boxShadowHover) !important; }
+.Button:not(.navbar-toggler):focus,
+.Button:not(.navbar-toggler):active,
+.Button:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover);
+  box-shadow: var(--Button-boxShadowHover); }
 
 .Hero .Hero__Header {
   font-weight: var(--Hero__Header-fontWeight);
@@ -1562,7 +1588,7 @@ a span {
   color: var(--Hero__SubHeader-color); }
 
 .Hero .Hero__Button {
-  padding: 20px 40px;
+  padding: var(--Hero__Button-padding);
   color: var(--Hero__Button-color);
   background-color: var(--Hero__Button-backgroundColor); }
 
@@ -1817,6 +1843,14 @@ a span {
     height: 100%; }
 
 :root {
+  --Wizard__Buttons-borderRadius: 0px;
+  --Wizard__Buttons-padding: 0.375rem 0.75rem;
+  --Wizard__Buttons-backgroundColor: #fed136;
+  --Wizard__Buttons-backgroundColorHover: #fec810;
+  --Wizard__Buttons-borderColor: #fed136;
+  --Wizard__Buttons-textColor: #383e45; }
+
+:root {
   --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
   --Card__Summary-color: #000;
@@ -1844,4 +1878,10 @@ a span {
   padding-top: 20px;
   margin-top: 20px; }
   .Wizard .multi-step .footer-buttons button {
-    border-radius: var(--Button-borderRadius); }
+    border-radius: var(--Wizard__Buttons-borderRadius);
+    padding: var(--Wizard__Buttons-padding);
+    background-color: var(--Wizard__Buttons-backgroundColor);
+    border-color: var(--Wizard__Buttons-borderColor);
+    color: var(--Wizard__Buttons-textColor); }
+  .Wizard .multi-step .footer-buttons button:not(:disabled):hover {
+    background-color: var(--Wizard__Buttons-backgroundColorHover); }

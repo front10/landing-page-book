@@ -11,6 +11,14 @@ class Hero extends Component {
     if (button.onClick && typeof button.onClick === 'function') button.onClick({ button });
   }
 
+  static getCustomCssFilterForImg(props) {
+    const { imgFilter } = props;
+    return `
+    .Hero [src] {
+      filter: ${imgFilter};
+    }`;
+  }
+
   render() {
     const {
       image,
@@ -27,8 +35,13 @@ class Hero extends Component {
       particlesParams,
       backgroundColor,
       buttons,
-      children
+      children,
+      style,
+      imgFilter
     } = this.props;
+
+    const customCssFilter = Hero.getCustomCssFilterForImg(this.props);
+
     return (
       <div className="Hero" style={{ backgroundColor }}>
         <LazyHero
@@ -39,6 +52,7 @@ class Hero extends Component {
           color={overlayColor}
           parallaxOffset={parallaxOffset}
           minHeight={minHeight}
+          style={style}
         >
           {particles && (
             <div className="Hero__Particles">
@@ -72,6 +86,7 @@ class Hero extends Component {
             )}
             {children}
           </div>
+          {imgFilter && <style>{customCssFilter}</style>}
         </LazyHero>
       </div>
     );
@@ -98,7 +113,9 @@ Hero.propTypes = {
     })
   ),
   particlesParams: PropTypes.objectOf(PropTypes.any),
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  style: PropTypes.string,
+  imgFilter: PropTypes.string
 };
 Hero.defaultProps = {
   isFixed: true,
@@ -115,7 +132,9 @@ Hero.defaultProps = {
   backgroundColor: 'transparent',
   buttons: [],
   particlesParams: {},
-  children: null
+  children: null,
+  style: null,
+  imgFilter: null
 };
 
 export default Hero;

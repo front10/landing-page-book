@@ -96,6 +96,7 @@ Note: if you use Hero component with children, properties `buttons`, `header`, `
 | backgroundColor   | `String`  | Background color of the hero. Default `"transparent"`                                                                                                  |
 | particlesParams   | `Object`  | Object with particles config. Default `{}`, yow can see [react-particles-js](https://www.npmjs.com/package/react-particles-js)                         |
 | buttons           | `Array`   | Array with buttons to show in hero. Default `[]`, each element must be a object with this structure: `{text: "TELL ME MORE", onClick: ({button})=>{}}` |
+| imgFilter             | `String`  | CSS filter Property.  E.g `"grayscale(30%)"`                                                                                                                  |
 
 ## Theming variables
 

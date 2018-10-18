@@ -6,8 +6,10 @@ import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
-import { GithubButton } from '../../../components';
+import { GithubButton, Code } from '../../../components';
 import Readme from '../../../components/GithubButton/README.md';
+
+import { all, def } from '../../mock/components/codes/github-buttons';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/GithubButton', module);
@@ -41,6 +43,16 @@ stories.addWithJSX(
         showGithubIcon={boolean('Show Github icon', false)}
         loadingClass={text('Loading class', 'fa fa-circle-o-notch fa-spin')}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -110,7 +122,7 @@ stories.addWithJSX(
           showGithubIcon={boolean('Show Github icon', false)}
         />
       </div>
-      <div className="mb-3">
+      <div>
         <GithubButton
           username="front10"
           repository="landing-page-book"
@@ -119,6 +131,16 @@ stories.addWithJSX(
           showCounter={false}
           showBtnText={boolean('Show button text', true)}
           showGithubIcon={boolean('Show Github icon', false)}
+        />
+      </div>
+      <div className="mt-4">
+        <Code
+          code={all}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
         />
       </div>
     </ThemeSelector>

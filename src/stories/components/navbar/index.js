@@ -22,7 +22,14 @@ import {
 } from '../../../components';
 import Readme from '../../../components/Navbar/README.md';
 
-import { def, container } from '../../mock/components/codes/navbar';
+import {
+  def,
+  container,
+  reversed,
+  children,
+  search,
+  avatar
+} from '../../mock/components/codes/navbar';
 
 setAddon(JSXAddon);
 
@@ -62,27 +69,34 @@ stories.addWithJSX(
         name="Navbar"
         description="A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site. "
       />
-
-      <Code code={def} languageCode="jsx" readOnly collapsible collapsed showDeleteButton={false}>
-        <Navbar
-          transparent={boolean('Transparent', false)}
-          fixed={boolean('Fixed', false)}
-          brandName={text('Brand name', '')}
-          brandLink={text('Brand link', 'https://front10.com')}
-          brandLogo={text('Brand logo', 'images/logo/front10.png')}
-          expand={select(
-            'Expand',
-            {
-              sm: 'sm',
-              md: 'md',
-              lg: 'lg'
-            },
-            'md'
-          )}
-          rightItems={rightItems}
-          leftItems={leftItems}
+      <Navbar
+        transparent={boolean('Transparent', false)}
+        fixed={boolean('Fixed', false)}
+        brandName={text('Brand name', '')}
+        brandLink={text('Brand link', 'https://front10.com')}
+        brandLogo={text('Brand logo', 'images/logo/front10.png')}
+        expand={select(
+          'Expand',
+          {
+            sm: 'sm',
+            md: 'md',
+            lg: 'lg'
+          },
+          'md'
+        )}
+        rightItems={rightItems}
+        leftItems={leftItems}
+      />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
         />
-      </Code>
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -129,7 +143,16 @@ stories.addWithJSX(
           </NavbarCollapse>
         </Container>
       </Navbar>
-      <Code code={container} languageCode="jsx" readOnly />
+      <div className="mt-4">
+        <Code
+          code={container}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -178,6 +201,16 @@ stories.addWithJSX(
           </NavbarCollapse>
         </Container>
       </Navbar>
+      <div className="mt-4">
+        <Code
+          code={reversed}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -222,6 +255,16 @@ stories.addWithJSX(
           </NavbarNav>
         </NavbarCollapse>
       </Navbar>
+      <div className="mt-4">
+        <Code
+          code={children}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -256,6 +299,16 @@ stories.addWithJSX(
           <Input placeholder="Search" icon="fa fa-search" />
         </NavbarNav>
       </Navbar>
+      <div className="mt-4">
+        <Code
+          code={search}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -305,6 +358,16 @@ stories.addWithJSX(
           </NavbarNav>
         </NavbarCollapse>
       </Navbar>
+      <div className="mt-4">
+        <Code
+          code={avatar}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

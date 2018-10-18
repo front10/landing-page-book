@@ -5,23 +5,23 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.1.0] Unreleassed
+## [1.1.0] 2018-10-18
 
 #### Added
 
-- [?] Props `collapsed`, `showDeleteButton`, `showCopyButton`, `children`, `collapsible` to Code, by [@ycgarrido](https://github.com/ycgarrido)
-- [?] Theming variables `--CodeMirror__Container-border`, `--CodeMirror__Footer-color`, `--CodeMirror-borderRadius`, `--CodeMirror-fontSize`, by [@ycgarrido](https://github.com/ycgarrido)
+- [#146](https://github.com/front10/landing-page-book/pull/146) Props `collapsed`, `showDeleteButton`, `showCopyButton`, `children`, `collapsible` to Code, by [@ycgarrido](https://github.com/ycgarrido)
+- [#146](https://github.com/front10/landing-page-book/pull/146) Theming variables `--CodeMirror__Container-border`, `--CodeMirror__Footer-color`, `--CodeMirror-borderRadius`, `--CodeMirror-fontSize`, by [@ycgarrido](https://github.com/ycgarrido)
 
 #### Change
 
-- [?] Theming variable name from `--CodeMirror__footer_backgroundColor` to `--CodeMirror__Footer-backgroundColor`, by [@ycgarrido](https://github.com/ycgarrido)
-- [?] Code height from `250px` to `auto`, by [@ycgarrido](https://github.com/ycgarrido)
-- [?] Code default theme from `oceanic-next` to `monokai`, by [@ycgarrido](https://github.com/ycgarrido)
+- [#146](https://github.com/front10/landing-page-book/pull/146) Theming variable name from `--CodeMirror__footer_backgroundColor` to `--CodeMirror__Footer-backgroundColor`, by [@ycgarrido](https://github.com/ycgarrido)
+- [#146](https://github.com/front10/landing-page-book/pull/146) Code height from `250px` to `auto`, by [@ycgarrido](https://github.com/ycgarrido)
+- [#146](https://github.com/front10/landing-page-book/pull/146) Code default theme from `oceanic-next` to `monokai`, by [@ycgarrido](https://github.com/ycgarrido)
 
 #### Remove
 
-- [?] Theming variables `--CodeMirror__footer_with`, `--CodeMirror__footer_height`, `--CodeMirror__header_copybtn_margin`, `--CodeMirror__header_deletebtn_margin`, by [@ycgarrido](https://github.com/ycgarrido)
-- [?] Prop `showfooter` from Code, by [@ycgarrido](https://github.com/ycgarrido)
+- [#146](https://github.com/front10/landing-page-book/pull/146) Theming variables `--CodeMirror__footer_with`, `--CodeMirror__footer_height`, `--CodeMirror__header_copybtn_margin`, `--CodeMirror__header_deletebtn_margin`, by [@ycgarrido](https://github.com/ycgarrido)
+- [#146](https://github.com/front10/landing-page-book/pull/146) Prop `showfooter` from Code, by [@ycgarrido](https://github.com/ycgarrido)
 - [#142](https://github.com/front10/landing-page-book/pull/142) Tag `<title>` from svg image if `tooltip` prop is null, by [@ycgarrido](https://github.com/ycgarrido)
 
 ## [1.0.1] 2018-10-17

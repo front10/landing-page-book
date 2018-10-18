@@ -280,7 +280,6 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <Hero
-        // isFixed={boolean('Fixed', true)}
         backgroundColor={color('Overlay color', '#FFFFFF')}
         opacity={number('Opacity', 0)}
         parallaxOffset={number('Parallax offset', 350)}
@@ -312,14 +311,14 @@ stories.addWithJSX(
                 elements, is based en react 16.2 and was wrote with ES6.
               </p>
               <Row>
-                <Column className="col-sm-8 mt-5 pl-1 pr-1">
+                <Column className="col-12 col-sm-8 mt-5 pl-1 pr-1">
                   <input
                     type="email"
                     placeholder="Email address"
                     style={{ display: 'block', width: '100%', padding: '1.03rem 1rem' }}
                   />
                 </Column>
-                <Column className="col-sm-4 mt-5 pl-1 pr-1">
+                <Column className="col-12 col-sm-4 mt-5 pl-1 pr-1">
                   <input
                     type="button"
                     className="Button"

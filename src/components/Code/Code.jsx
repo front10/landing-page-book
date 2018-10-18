@@ -6,6 +6,7 @@ import NavbarNav from '../NavbarNav/NavbarNav';
 import Icon from '../Icon/Icon';
 import Button from '../Button/Button';
 import Link from '../Link/Link';
+import Container from '../Container/Container';
 
 /* eslint-disable */
 let CodeMirror = null;
@@ -28,17 +29,19 @@ class Code extends React.Component {
     this.copyToClipboard = this.copyToClipboard.bind(this);
     this.clearCode = this.clearCode.bind(this);
     this.onUpdate = this.onUpdate.bind(this);
+    this.toggleCollapse = this.toggleCollapse.bind(this);
   }
 
   componentWillMount() {
-    const { code, readOnly, languageCode, lineNumbers, showheader, showfooter } = this.props;
+    const { code, readOnly, languageCode, lineNumbers, showheader, collapsed } = this.props;
     this.setState({
       scode: code,
       sreadOnly: readOnly,
       slanguageCode: languageCode,
       slineNumbers: lineNumbers,
       sshowheader: showheader,
-      sshowfooter: showfooter
+      collapsed,
+      hideMessages: collapsed ? 'Show code' : 'Hide code'
     });
   }
 
@@ -52,7 +55,7 @@ class Code extends React.Component {
   }
 
   onUpdate(prevProps) {
-    const { readOnly, lineNumbers, languageCode, code, showheader, showfooter } = this.props;
+    const { readOnly, lineNumbers, languageCode, code, showheader, collapsed } = this.props;
 
     if (prevProps.readOnly !== readOnly) {
       this.setState({
@@ -73,11 +76,12 @@ class Code extends React.Component {
       });
     }
 
+    if (prevProps.collapsed !== collapsed) {
+      this.setState({ collapsed });
+    }
+
     if (prevProps.showheader !== showheader) {
       this.setState({ sshowheader: showheader });
-    }
-    if (prevProps.showfooter !== showfooter) {
-      this.setState({ sshowfooter: showfooter });
     }
   }
 
@@ -110,6 +114,11 @@ class Code extends React.Component {
     this.setState({ scopied: true });
   }
 
+  toggleCollapse() {
+    const { collapsed } = this.state;
+    this.setState({ collapsed: !collapsed, hideMessages: !collapsed ? 'Show code' : 'Hide code' });
+  }
+
   render() {
     /* eslint no-script-url: "error" */
     const {
@@ -119,9 +128,10 @@ class Code extends React.Component {
       sshowheader,
       scode,
       scopied,
-      sshowfooter
+      collapsed,
+      hideMessages
     } = this.state;
-    const { theme, codeLink } = this.props;
+    const { theme, codeLink, children, collapsible, showDeleteButton, showCopyButton } = this.props;
     const options = {
       lineNumbers: slineNumbers,
       readOnly: sreadOnly,
@@ -129,46 +139,64 @@ class Code extends React.Component {
       theme
     };
     return (
-      <div>
-        {sshowheader && (
-          <Navbar className="CodeMirror__header">
-            <NavbarNav alignItems="right">
-              {codeLink && (
-                <Button className="CodeMirror_btn">
-                  <Link href={codeLink} target="_blank" tooltip="Test code">
-                    <Icon icon="fa fa-codepen" role="link" />
-                  </Link>
-                </Button>
-              )}
-              <CopyToClipboard text={scode} onCopy={this.copyToClipboard}>
-                <Button
-                  onClick={this.copyToClipboard}
-                  className={`btn ${scopied ? 'disabled' : ''} CodeMirror_btn`}
-                  tooltip="Copy"
-                >
-                  <Icon className="CodeMirror__header_copybtn" icon="fa fa-clone" role="link" />
-                </Button>
-              </CopyToClipboard>
-              <Button
-                onClick={this.clearCode}
-                className={`btn ${sreadOnly ? 'disabled' : ''} CodeMirror_btn`}
-                tooltip="Clear"
-              >
-                <Icon className="CodeMirror__header_deletebtn" icon="fa fa-trash-o" />
+      <div className="CodeMirror__Container">
+        {children && <div className="p-2">{children}</div>}
+        {!collapsed && (
+          <React.Fragment>
+            {sshowheader && (
+              <Navbar className="CodeMirror__header">
+                <NavbarNav alignItems="right">
+                  {codeLink && (
+                    <Button className="CodeMirror_btn">
+                      <Link href={codeLink} target="_blank" tooltip="Test code">
+                        <Icon icon="fa fa-codepen" role="link" />
+                      </Link>
+                    </Button>
+                  )}
+                  {showCopyButton && (
+                    <CopyToClipboard text={scode} onCopy={this.copyToClipboard}>
+                      <Button
+                        onClick={this.copyToClipboard}
+                        className={`btn ${scopied ? 'disabled' : ''} CodeMirror_btn`}
+                        tooltip="Copy"
+                      >
+                        <Icon icon="fa fa-clone" role="link" />
+                      </Button>
+                    </CopyToClipboard>
+                  )}
+                  {showDeleteButton && (
+                    <Button
+                      onClick={this.clearCode}
+                      className={`btn ${sreadOnly ? 'disabled' : ''} CodeMirror_btn`}
+                      tooltip="Clear"
+                    >
+                      <Icon icon="fa fa-trash-o" />
+                    </Button>
+                  )}
+                </NavbarNav>
+              </Navbar>
+            )}
+            {CodeMirror && (
+              <CodeMirror
+                ref="editor"
+                value={scode}
+                onChange={this.updateCode}
+                options={options}
+                autoFocus
+              />
+            )}
+          </React.Fragment>
+        )}
+        {collapsible && (
+          <Navbar className="CodeMirror__footer">
+            <Container className="text-center">
+              <Button onClick={this.toggleCollapse} className="btn CodeMirror_btn">
+                <Icon icon="fa fa-code" />
+                <span className="ml-2">{hideMessages}</span>
               </Button>
-            </NavbarNav>
+            </Container>
           </Navbar>
         )}
-        {CodeMirror && (
-          <CodeMirror
-            ref="editor"
-            value={scode}
-            onChange={this.updateCode}
-            options={options}
-            autoFocus
-          />
-        )}
-        {sshowfooter && <Navbar className="CodeMirror__header" />}
       </div>
     );
   }
@@ -176,27 +204,32 @@ class Code extends React.Component {
 
 Code.propTypes = {
   readOnly: PropTypes.bool,
+  collapsible: PropTypes.bool,
+  collapsed: PropTypes.bool,
   lineNumbers: PropTypes.bool,
   showheader: PropTypes.bool,
-  showfooter: PropTypes.bool,
-  code: PropTypes.string,
+  showDeleteButton: PropTypes.bool,
+  showCopyButton: PropTypes.bool,
+  code: PropTypes.string.isRequired,
   languageCode: PropTypes.string,
   theme: PropTypes.string,
   codeLink: PropTypes.string,
-  updateCode: PropTypes.func
+  updateCode: PropTypes.func,
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 
 Code.defaultProps = {
-  code:
-    'const component = {\n\tname: "react-code",\n\tauthor: "front10-devs",\n\trepo: "ht' +
-    'tps://gitlab.com/front10-devs/landing-page-book"\n};',
   languageCode: 'javascript',
-  theme: 'oceanic-next',
+  collapsible: false,
+  collapsed: false,
+  theme: 'monokai',
   codeLink: '',
   readOnly: false,
   lineNumbers: true,
   showheader: true,
-  showfooter: true,
+  showDeleteButton: true,
+  showCopyButton: true,
+  children: null,
   updateCode: () => {}
 };
 

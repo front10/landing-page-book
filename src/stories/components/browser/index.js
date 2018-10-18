@@ -4,6 +4,7 @@ import { withKnobs, select, text, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { Browser } from '../../../components';
@@ -19,6 +20,7 @@ stories.addWithJSX(
   'Browser',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader name="Browser" description="Show the browser logo with the version." />
       <Browser
         showBrowserVendor={boolean('Show browser vendor', true)}
         showBrowserVersion={boolean('Show browser version', true)}

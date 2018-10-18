@@ -39,3 +39,4 @@ import "@front10/landing-page-book/dist/components/Link/style.css";
 | tooltip      | `String` | Button tooltip. Default `""` |
 | href      | `String` | Link to open. Default `undefined`, this prop is required |
 | target      | `String` | Target of link. Default `""` |
+| style      | `Object` | In case you wanted to pass custom styles `""` |

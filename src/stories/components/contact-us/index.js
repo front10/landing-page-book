@@ -7,6 +7,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
 import { ContactUs, Column } from '../../../components';
 import Readme from '../../../components/ContactUs/README.md';
+import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/ContactUs', module);
@@ -17,6 +18,10 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
+      <StoryHeader
+        name="Contact Us"
+        description="Simple contact form, so that your users communicate easily through your website."
+      />
       <Column className="col-sm-8 col-md-6 col-lg-4">
         <ContactUs
           showText={boolean('Show text', false)}

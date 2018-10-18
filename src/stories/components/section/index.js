@@ -19,6 +19,10 @@ const stories = storiesOf('Components/Section', module);
 
 stories.addDecorator(withKnobs);
 
+const pStyle = {
+  color: '#3d3d3d'
+};
+
 stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
@@ -28,6 +32,34 @@ stories.addWithJSX(
         description="A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information."
       />
 
+      <Section
+        gray={boolean('Gray', true)}
+        title={text('Title', 'Introduction')}
+        subTitle={text('Subtitle', 'Once upon a time...')}
+      >
+        <Container className="text-left">
+          <p style={pStyle}>
+            Once upon a time, there was a boy named James. He always got pushed around. One day, a
+            wizard appeared in front of the boy. The wizard gave James three wishes. One of James
+            wishes was that tge wizard could make James go away. The next day James tried to make a
+            wish, but he found himself to be in the land of the forgotten.
+          </p>
+        </Container>
+      </Section>
+    </ThemeSelector>
+  )),
+  jsxConfig
+);
+
+stories.addWithJSX(
+  'With Video',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Section"
+        storyName="With Video"
+        description="A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information."
+      />
       <Section
         gray={boolean('Gray', false)}
         title={text('Title', 'WHAT WE DO')}
@@ -43,3 +75,57 @@ stories.addWithJSX(
   )),
   jsxConfig
 );
+
+// const featuress = [
+//   {
+//     id: 1,
+//     image: 'images/features/themes.png',
+//     title: 'Theming',
+//     subtitle: 'Easy to create themes',
+//     summary: 'Library customization with Css variables for easy theming and component changes.',
+//     link: 'https://front10.com',
+//     linktext: 'See more...'
+//   },
+//   {
+//     id: 2,
+//     image: 'images/features/testing.png',
+//     title: 'Unit test',
+//     subtitle: 'Robust components',
+//     summary: 'All our components tested, like a Swiss watch. With code coverage above 50%',
+//     link: 'https://front10.com',
+//     linktext: 'See more...'
+//   }
+// ];
+
+// stories.addWithJSX(
+//   'With Features',
+//   withReadme([Readme], () => (
+//     <ThemeSelector>
+//       <StoryHeader
+//         name="Section"
+//         storyName="With Features"
+//         description="A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information."
+//       />
+//       <Section
+//         gray={boolean('Gray', false)}
+//         title={text('Title', 'WHAT WE DO')}
+//         subTitle={text('Subtitle', 'One Look Is Worth A Thousand Words.')}
+//       >
+//         <Container className="text-center">
+//           <Features
+//             showBorder={false}
+//             showTitle
+//             showImage
+//             showSubtitle={false}
+//             showSummary
+//             imageCircle={false}
+//             imageBorder={false}
+//             contentAlign="center"
+//             features={featuress}
+//           />
+//         </Container>
+//       </Section>
+//     </ThemeSelector>
+//   )),
+//   jsxConfig
+// );

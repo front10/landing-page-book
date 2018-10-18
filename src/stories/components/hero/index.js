@@ -19,7 +19,8 @@ import {
   Link,
   Row,
   Column,
-  Icon
+  Icon,
+  Input
 } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
@@ -32,7 +33,7 @@ const stories = storiesOf('Components/Hero', module);
 const buttons = [
   {
     text: 'TELL ME MORE',
-    onClick: () => {}
+    onClick: () => { }
   }
 ];
 
@@ -174,7 +175,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <Hero
         isFixed={boolean('Fixed', true)}
-        backgroundColor={color('Overlay color', '#3A374F')}
+        backgroundColor={color('Overlay color', 'rgba(57,55,77,0.9)')}
         opacity={number('Opacity', 0)}
         parallaxOffset={number('Parallax offset', 350)}
         minHeight={text('Min height', '100vh')}
@@ -182,26 +183,27 @@ stories.addWithJSX(
       >
         <Container className="p-5">
           <Row>
-            <Column className="col-sm-3 mt-5 d-none d-sm-block">
-              <Image className="img-fluid" src="images/hero/iphone_320.png" />
+            <Column className="col-sm-3 d-none d-sm-block">
+              <Image className="img-fluid" src="images/hero/front10-iphone.svg" />
             </Column>
-            <Column className="col-sm-9 mt-5">
+            <Column className="col-sm-6 mt-5">
               <div className="pt-3">
                 <Image
                   src="images/logo/front10.png"
                   rounded
-                  width="30"
+                  width="40"
                   alt="Front10 logo"
                   className="float-left"
                 />
-                <Header type="h6" className="text-warning float-left pl-2 mt-2">
+                <Header type="h5" className="text-warning float-left pl-2 mt-3">
                   LANDING PAGE BOOK
                 </Header>
               </div>
-              <Header type="h1" className="text-white text-left d-block pt-5">
-                You can use the platform you prefer, Create React, Gatsby and Next.
+              <div className="clearfix" />
+              <Header type="h2" className="text-white text-left d-block pt-2">
+                Use the platform you prefer, Create React App, Gatsby or Next.
               </Header>
-              <div className="text-left">
+              <div className="text-left mt-3">
                 <Link
                   href="https://front10.com/get-landing-page-book/"
                   tooltip="Search in NPM"
@@ -213,6 +215,69 @@ stories.addWithJSX(
                   </span>
                 </Link>
               </div>
+            </Column>
+          </Row>
+        </Container>
+      </Hero>
+    </ThemeSelector>
+  )),
+  jsxConfig
+);
+
+stories.addWithJSX(
+  'Go minimal',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <Hero
+        // isFixed={boolean('Fixed', true)}
+        backgroundColor={color('Overlay color', '#FFFFFF')}
+        opacity={number('Opacity', 0)}
+        parallaxOffset={number('Parallax offset', 350)}
+        minHeight={text('Min height', '100vh')}
+        particles={false}
+      >
+        <Container className="p-5">
+          <Row>
+            <Column className="col-12 col-md-7">
+              <Image className="img-fluid" src="images/hero/persons.png" />
+            </Column>
+            <Column className="col-12 col-md-5">
+              <h1
+                style={{
+                  color: '#392F4C',
+                  fontSize: '3rem',
+                  fontWeight: '600'
+                }}
+                className="float-left text-left mt-3"
+              >
+                Landing Page Book
+              </h1>
+              <div className="clearfix" />
+              <p
+                style={{ color: '#392F4C', lineHeight: '33px' }}
+                className="text-black text-left d-block pt-2"
+              >
+                Landing page book it’s an react components library with more than 40 components and
+                elements, is based en react 16.2 and was wrote with ES6.
+              </p>
+              <Row>
+                <Column className="col-sm-8 mt-5 pl-0 pr-0">
+                  <input
+                    type="email"
+                    placeholder="Email address"
+                    style={{ display: 'block', width: '100%', padding: '1.03rem 1rem' }}
+                  />
+                </Column>
+                <Column className="col-sm-4 mt-5 pl-0 pr-0">
+                  <input
+                    type="button"
+                    className="Button"
+                    style={{ padding: '1.15rem 1rem' }}
+                    tooltip="Send email"
+                    value="GET STARTED"
+                  />
+                </Column>
+              </Row>
             </Column>
           </Row>
         </Container>

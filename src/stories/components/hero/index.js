@@ -32,7 +32,7 @@ const stories = storiesOf('Components/Hero', module);
 const buttons = [
   {
     text: 'TELL ME MORE',
-    onClick: () => { }
+    onClick: () => {}
   }
 ];
 

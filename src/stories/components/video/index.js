@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Video } from '../../../components';
+import { Video, Code, Container, Row, Column } from '../../../components';
 import Readme from '../../../components/Video/README.md';
+import def from '../../mock/components/codes/video';
 
 setAddon(JSXAddon);
 
@@ -25,6 +26,7 @@ stories.addWithJSX(
         name="Video"
         description="Now you can show video of vimeo, youtube and many other platforms very easily on your website."
       />
+
       <Video
         playing={boolean('Playing', false)}
         loop={boolean('Loop', false)}
@@ -33,6 +35,17 @@ stories.addWithJSX(
         volume={number('Volume', 1)}
         source={text('Source', 'https://youtu.be/dCrLwWdju68')}
       />
+
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

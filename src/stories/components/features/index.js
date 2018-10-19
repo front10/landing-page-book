@@ -21,7 +21,7 @@ const featuress = [
     image: 'images/features/themes.png',
     title: 'Theming',
     subtitle: 'Easy to create themes',
-    summary: 'Library customization with Css variables, theming and easy component changes.',
+    summary: 'Library customization with CSS variables, theming and easy component changes.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },
@@ -39,8 +39,7 @@ const featuress = [
     image: 'images/features/speed.png',
     title: 'Faster',
     subtitle: 'Fast like Usain Bolt',
-    summary:
-      'With our components you can develop a web app faster than Usain Bolt.',
+    summary: 'With these components, you are going to be faster than Usain Bolt.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },
@@ -49,7 +48,7 @@ const featuress = [
     image: 'images/features/code.png',
     title: 'Simple',
     subtitle: 'Easy to use',
-    summary: 'Easy to use, you can do a lot in your web application with little code.',
+    summary: 'Writing code is easier, quicker and cleaner now.',
     link: 'https://front10.com',
     linktext: 'See more...'
   }

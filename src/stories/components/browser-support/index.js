@@ -1,6 +1,6 @@
 import React from 'react';
 import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, boolean } from '@storybook/addon-knobs/react';
+import { withKnobs, boolean, text } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -91,6 +91,35 @@ stories.addWithJSX(
         browsers={browsers}
         showBrowserVendor={boolean('Show browser vendor', false)}
         showBrowserVersion={boolean('Show browser version', false)}
+      />
+      <div className="mt-4">
+        <Code
+          code={browses}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
+    </ThemeSelector>
+  )),
+  jsxConfig
+);
+
+stories.addWithJSX(
+  'Gray',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Browser Support"
+        description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
+      />
+      <BrowserSupport
+        browsers={browsers}
+        showBrowserVendor={boolean('Show browser vendor', false)}
+        showBrowserVersion={boolean('Show browser version', false)}
+        imgFilter={text('Img Filter', 'grayscale(90%)')}
       />
       <div className="mt-4">
         <Code

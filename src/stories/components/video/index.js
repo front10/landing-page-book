@@ -8,7 +8,7 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Video, Code, Container, Row, Column } from '../../../components';
+import { Video, Code } from '../../../components';
 import Readme from '../../../components/Video/README.md';
 import def from '../../mock/components/codes/video';
 

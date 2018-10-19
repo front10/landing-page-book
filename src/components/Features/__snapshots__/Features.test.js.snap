@@ -7,7 +7,10 @@ ReactWrapper {
     features={Array []}
     imageBorder={false}
     imageCircle={true}
-    showBorder={true}
+    imageShadow={false}
+    outlineButton={true}
+    shadow={false}
+    showFooter={true}
     showImage={true}
     showSubtitle={true}
     showSummary={true}
@@ -52,7 +55,10 @@ ReactWrapper {
               "features": Array [],
               "imageBorder": false,
               "imageCircle": true,
-              "showBorder": true,
+              "imageShadow": false,
+              "outlineButton": true,
+              "shadow": false,
+              "showFooter": true,
               "showImage": true,
               "showSubtitle": true,
               "showSummary": true,
@@ -67,7 +73,10 @@ ReactWrapper {
               "features": Array [],
               "imageBorder": false,
               "imageCircle": true,
-              "showBorder": true,
+              "imageShadow": false,
+              "outlineButton": true,
+              "shadow": false,
+              "showFooter": true,
               "showImage": true,
               "showSubtitle": true,
               "showSummary": true,
@@ -84,7 +93,10 @@ ReactWrapper {
               "features": Array [],
               "imageBorder": false,
               "imageCircle": true,
-              "showBorder": true,
+              "imageShadow": false,
+              "outlineButton": true,
+              "shadow": false,
+              "showFooter": true,
               "showImage": true,
               "showSubtitle": true,
               "showSummary": true,
@@ -128,7 +140,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="features d-flex flex-wrap"
+                    class="Features d-flex flex-wrap Features--center"
                   />
                 </div>,
                 "context": Object {},
@@ -176,7 +188,10 @@ ReactWrapper {
                           "features": Array [],
                           "imageBorder": false,
                           "imageCircle": true,
-                          "showBorder": true,
+                          "imageShadow": false,
+                          "outlineButton": true,
+                          "shadow": false,
+                          "showFooter": true,
                           "showImage": true,
                           "showSubtitle": true,
                           "showSummary": true,
@@ -205,7 +220,10 @@ ReactWrapper {
                           "features": Array [],
                           "imageBorder": false,
                           "imageCircle": true,
-                          "showBorder": true,
+                          "imageShadow": false,
+                          "outlineButton": true,
+                          "shadow": false,
+                          "showFooter": true,
                           "showImage": true,
                           "showSubtitle": true,
                           "showSummary": true,
@@ -238,7 +256,10 @@ ReactWrapper {
                     "features": Array [],
                     "imageBorder": false,
                     "imageCircle": true,
-                    "showBorder": true,
+                    "imageShadow": false,
+                    "outlineButton": true,
+                    "shadow": false,
+                    "showFooter": true,
                     "showImage": true,
                     "showSubtitle": true,
                     "showSummary": true,
@@ -257,7 +278,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="features d-flex flex-wrap"
+                  class="Features d-flex flex-wrap Features--center"
                 />
               </div>,
               "context": Object {},
@@ -296,7 +317,10 @@ ReactWrapper {
                       "features": Array [],
                       "imageBorder": false,
                       "imageCircle": true,
-                      "showBorder": true,
+                      "imageShadow": false,
+                      "outlineButton": true,
+                      "shadow": false,
+                      "showFooter": true,
                       "showImage": true,
                       "showSubtitle": true,
                       "showSummary": true,
@@ -329,7 +353,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -345,7 +372,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -387,21 +417,21 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": Array [],
-            "className": "features d-flex flex-wrap",
+            "className": "Features d-flex flex-wrap Features--center",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "children": Array [],
-            "className": "features d-flex flex-wrap",
+            "className": "Features d-flex flex-wrap Features--center",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": <div
-            class="features d-flex flex-wrap"
+            class="Features d-flex flex-wrap Features--center"
           />,
           "tag": 7,
           "treeBaseDuration": 0,
@@ -421,7 +451,10 @@ ReactWrapper {
           "features": Array [],
           "imageBorder": false,
           "imageCircle": true,
-          "showBorder": true,
+          "imageShadow": false,
+          "outlineButton": true,
+          "shadow": false,
+          "showFooter": true,
           "showImage": true,
           "showSubtitle": true,
           "showSummary": true,
@@ -435,7 +468,10 @@ ReactWrapper {
           "features": Array [],
           "imageBorder": false,
           "imageCircle": true,
-          "showBorder": true,
+          "imageShadow": false,
+          "outlineButton": true,
+          "shadow": false,
+          "showFooter": true,
           "showImage": true,
           "showSubtitle": true,
           "showSummary": true,
@@ -467,7 +503,10 @@ ReactWrapper {
               "features": Array [],
               "imageBorder": false,
               "imageCircle": true,
-              "showBorder": true,
+              "imageShadow": false,
+              "outlineButton": true,
+              "shadow": false,
+              "showFooter": true,
               "showImage": true,
               "showSubtitle": true,
               "showSummary": true,
@@ -482,7 +521,10 @@ ReactWrapper {
               "features": Array [],
               "imageBorder": false,
               "imageCircle": true,
-              "showBorder": true,
+              "imageShadow": false,
+              "outlineButton": true,
+              "shadow": false,
+              "showFooter": true,
               "showImage": true,
               "showSubtitle": true,
               "showSummary": true,
@@ -499,7 +541,10 @@ ReactWrapper {
               "features": Array [],
               "imageBorder": false,
               "imageCircle": true,
-              "showBorder": true,
+              "imageShadow": false,
+              "outlineButton": true,
+              "shadow": false,
+              "showFooter": true,
               "showImage": true,
               "showSubtitle": true,
               "showSummary": true,
@@ -543,7 +588,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="features d-flex flex-wrap"
+                    class="Features d-flex flex-wrap Features--center"
                   />
                 </div>,
                 "context": Object {},
@@ -591,7 +636,10 @@ ReactWrapper {
                           "features": Array [],
                           "imageBorder": false,
                           "imageCircle": true,
-                          "showBorder": true,
+                          "imageShadow": false,
+                          "outlineButton": true,
+                          "shadow": false,
+                          "showFooter": true,
                           "showImage": true,
                           "showSubtitle": true,
                           "showSummary": true,
@@ -620,7 +668,10 @@ ReactWrapper {
                           "features": Array [],
                           "imageBorder": false,
                           "imageCircle": true,
-                          "showBorder": true,
+                          "imageShadow": false,
+                          "outlineButton": true,
+                          "shadow": false,
+                          "showFooter": true,
                           "showImage": true,
                           "showSubtitle": true,
                           "showSummary": true,
@@ -653,7 +704,10 @@ ReactWrapper {
                     "features": Array [],
                     "imageBorder": false,
                     "imageCircle": true,
-                    "showBorder": true,
+                    "imageShadow": false,
+                    "outlineButton": true,
+                    "shadow": false,
+                    "showFooter": true,
                     "showImage": true,
                     "showSubtitle": true,
                     "showSummary": true,
@@ -672,7 +726,7 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="features d-flex flex-wrap"
+                  class="Features d-flex flex-wrap Features--center"
                 />
               </div>,
               "context": Object {},
@@ -711,7 +765,10 @@ ReactWrapper {
                       "features": Array [],
                       "imageBorder": false,
                       "imageCircle": true,
-                      "showBorder": true,
+                      "imageShadow": false,
+                      "outlineButton": true,
+                      "shadow": false,
+                      "showFooter": true,
                       "showImage": true,
                       "showSubtitle": true,
                       "showSummary": true,
@@ -744,7 +801,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -760,7 +820,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -794,7 +857,10 @@ ReactWrapper {
         "features": Array [],
         "imageBorder": false,
         "imageCircle": true,
-        "showBorder": true,
+        "imageShadow": false,
+        "outlineButton": true,
+        "shadow": false,
+        "showFooter": true,
         "showImage": true,
         "showSubtitle": true,
         "showSummary": true,
@@ -816,7 +882,10 @@ ReactWrapper {
       "features": Array [],
       "imageBorder": false,
       "imageCircle": true,
-      "showBorder": true,
+      "imageShadow": false,
+      "outlineButton": true,
+      "shadow": false,
+      "showFooter": true,
       "showImage": true,
       "showSubtitle": true,
       "showSummary": true,
@@ -825,13 +894,13 @@ ReactWrapper {
     "ref": null,
     "rendered": Object {
       "instance": <div
-        class="features d-flex flex-wrap"
+        class="Features d-flex flex-wrap Features--center"
       />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [],
-        "className": "features d-flex flex-wrap",
+        "className": "Features d-flex flex-wrap Features--center",
       },
       "ref": null,
       "rendered": Array [
@@ -872,7 +941,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -887,7 +959,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -904,7 +979,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -948,7 +1026,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="features d-flex flex-wrap"
+                      class="Features d-flex flex-wrap Features--center"
                     />
                   </div>,
                   "context": Object {},
@@ -996,7 +1074,10 @@ ReactWrapper {
                             "features": Array [],
                             "imageBorder": false,
                             "imageCircle": true,
-                            "showBorder": true,
+                            "imageShadow": false,
+                            "outlineButton": true,
+                            "shadow": false,
+                            "showFooter": true,
                             "showImage": true,
                             "showSubtitle": true,
                             "showSummary": true,
@@ -1025,7 +1106,10 @@ ReactWrapper {
                             "features": Array [],
                             "imageBorder": false,
                             "imageCircle": true,
-                            "showBorder": true,
+                            "imageShadow": false,
+                            "outlineButton": true,
+                            "shadow": false,
+                            "showFooter": true,
                             "showImage": true,
                             "showSubtitle": true,
                             "showSummary": true,
@@ -1058,7 +1142,10 @@ ReactWrapper {
                       "features": Array [],
                       "imageBorder": false,
                       "imageCircle": true,
-                      "showBorder": true,
+                      "imageShadow": false,
+                      "outlineButton": true,
+                      "shadow": false,
+                      "showFooter": true,
                       "showImage": true,
                       "showSubtitle": true,
                       "showSummary": true,
@@ -1077,7 +1164,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="features d-flex flex-wrap"
+                    class="Features d-flex flex-wrap Features--center"
                   />
                 </div>,
                 "context": Object {},
@@ -1116,7 +1203,10 @@ ReactWrapper {
                         "features": Array [],
                         "imageBorder": false,
                         "imageCircle": true,
-                        "showBorder": true,
+                        "imageShadow": false,
+                        "outlineButton": true,
+                        "shadow": false,
+                        "showFooter": true,
                         "showImage": true,
                         "showSubtitle": true,
                         "showSummary": true,
@@ -1149,7 +1239,10 @@ ReactWrapper {
                   "features": Array [],
                   "imageBorder": false,
                   "imageCircle": true,
-                  "showBorder": true,
+                  "imageShadow": false,
+                  "outlineButton": true,
+                  "shadow": false,
+                  "showFooter": true,
                   "showImage": true,
                   "showSubtitle": true,
                   "showSummary": true,
@@ -1165,7 +1258,10 @@ ReactWrapper {
                   "features": Array [],
                   "imageBorder": false,
                   "imageCircle": true,
-                  "showBorder": true,
+                  "imageShadow": false,
+                  "outlineButton": true,
+                  "shadow": false,
+                  "showFooter": true,
                   "showImage": true,
                   "showSubtitle": true,
                   "showSummary": true,
@@ -1207,21 +1303,21 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": Array [],
-              "className": "features d-flex flex-wrap",
+              "className": "Features d-flex flex-wrap Features--center",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "children": Array [],
-              "className": "features d-flex flex-wrap",
+              "className": "Features d-flex flex-wrap Features--center",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": <div
-              class="features d-flex flex-wrap"
+              class="Features d-flex flex-wrap Features--center"
             />,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -1241,7 +1337,10 @@ ReactWrapper {
             "features": Array [],
             "imageBorder": false,
             "imageCircle": true,
-            "showBorder": true,
+            "imageShadow": false,
+            "outlineButton": true,
+            "shadow": false,
+            "showFooter": true,
             "showImage": true,
             "showSubtitle": true,
             "showSummary": true,
@@ -1255,7 +1354,10 @@ ReactWrapper {
             "features": Array [],
             "imageBorder": false,
             "imageCircle": true,
-            "showBorder": true,
+            "imageShadow": false,
+            "outlineButton": true,
+            "shadow": false,
+            "showFooter": true,
             "showImage": true,
             "showSubtitle": true,
             "showSummary": true,
@@ -1287,7 +1389,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -1302,7 +1407,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -1319,7 +1427,10 @@ ReactWrapper {
                 "features": Array [],
                 "imageBorder": false,
                 "imageCircle": true,
-                "showBorder": true,
+                "imageShadow": false,
+                "outlineButton": true,
+                "shadow": false,
+                "showFooter": true,
                 "showImage": true,
                 "showSubtitle": true,
                 "showSummary": true,
@@ -1363,7 +1474,7 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="features d-flex flex-wrap"
+                      class="Features d-flex flex-wrap Features--center"
                     />
                   </div>,
                   "context": Object {},
@@ -1411,7 +1522,10 @@ ReactWrapper {
                             "features": Array [],
                             "imageBorder": false,
                             "imageCircle": true,
-                            "showBorder": true,
+                            "imageShadow": false,
+                            "outlineButton": true,
+                            "shadow": false,
+                            "showFooter": true,
                             "showImage": true,
                             "showSubtitle": true,
                             "showSummary": true,
@@ -1440,7 +1554,10 @@ ReactWrapper {
                             "features": Array [],
                             "imageBorder": false,
                             "imageCircle": true,
-                            "showBorder": true,
+                            "imageShadow": false,
+                            "outlineButton": true,
+                            "shadow": false,
+                            "showFooter": true,
                             "showImage": true,
                             "showSubtitle": true,
                             "showSummary": true,
@@ -1473,7 +1590,10 @@ ReactWrapper {
                       "features": Array [],
                       "imageBorder": false,
                       "imageCircle": true,
-                      "showBorder": true,
+                      "imageShadow": false,
+                      "outlineButton": true,
+                      "shadow": false,
+                      "showFooter": true,
                       "showImage": true,
                       "showSubtitle": true,
                       "showSummary": true,
@@ -1492,7 +1612,7 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="features d-flex flex-wrap"
+                    class="Features d-flex flex-wrap Features--center"
                   />
                 </div>,
                 "context": Object {},
@@ -1531,7 +1651,10 @@ ReactWrapper {
                         "features": Array [],
                         "imageBorder": false,
                         "imageCircle": true,
-                        "showBorder": true,
+                        "imageShadow": false,
+                        "outlineButton": true,
+                        "shadow": false,
+                        "showFooter": true,
                         "showImage": true,
                         "showSubtitle": true,
                         "showSummary": true,
@@ -1564,7 +1687,10 @@ ReactWrapper {
                   "features": Array [],
                   "imageBorder": false,
                   "imageCircle": true,
-                  "showBorder": true,
+                  "imageShadow": false,
+                  "outlineButton": true,
+                  "shadow": false,
+                  "showFooter": true,
                   "showImage": true,
                   "showSubtitle": true,
                   "showSummary": true,
@@ -1580,7 +1706,10 @@ ReactWrapper {
                   "features": Array [],
                   "imageBorder": false,
                   "imageCircle": true,
-                  "showBorder": true,
+                  "imageShadow": false,
+                  "outlineButton": true,
+                  "shadow": false,
+                  "showFooter": true,
                   "showImage": true,
                   "showSubtitle": true,
                   "showSummary": true,
@@ -1614,7 +1743,10 @@ ReactWrapper {
           "features": Array [],
           "imageBorder": false,
           "imageCircle": true,
-          "showBorder": true,
+          "imageShadow": false,
+          "outlineButton": true,
+          "shadow": false,
+          "showFooter": true,
           "showImage": true,
           "showSubtitle": true,
           "showSummary": true,
@@ -1636,7 +1768,10 @@ ReactWrapper {
         "features": Array [],
         "imageBorder": false,
         "imageCircle": true,
-        "showBorder": true,
+        "imageShadow": false,
+        "outlineButton": true,
+        "shadow": false,
+        "showFooter": true,
         "showImage": true,
         "showSubtitle": true,
         "showSummary": true,
@@ -1645,13 +1780,13 @@ ReactWrapper {
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="features d-flex flex-wrap"
+          class="Features d-flex flex-wrap Features--center"
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [],
-          "className": "features d-flex flex-wrap",
+          "className": "Features d-flex flex-wrap Features--center",
         },
         "ref": null,
         "rendered": Array [

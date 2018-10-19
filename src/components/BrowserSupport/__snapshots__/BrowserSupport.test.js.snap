@@ -4,6 +4,7 @@ exports[`BrowserSupport BrowserSupport should render 1`] = `
 ReactWrapper {
   Symbol(enzyme.__unrendered__): <BrowserSupport
     browsers={Array []}
+    imgFilter={null}
     items={
       Array [
         Object {
@@ -51,6 +52,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "browsers": Array [],
+              "imgFilter": null,
               "items": Array [
                 Object {
                   "type": "firefox",
@@ -66,6 +68,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "browsers": Array [],
+              "imgFilter": null,
               "items": Array [
                 Object {
                   "type": "firefox",
@@ -83,6 +86,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "browsers": Array [],
+              "imgFilter": null,
               "items": Array [
                 Object {
                   "type": "firefox",
@@ -173,6 +177,7 @@ ReactWrapper {
                       props={
                         Object {
                           "browsers": Array [],
+                          "imgFilter": null,
                           "items": Array [
                             Object {
                               "type": "firefox",
@@ -202,6 +207,7 @@ ReactWrapper {
                       props={
                         Object {
                           "browsers": Array [],
+                          "imgFilter": null,
                           "items": Array [
                             Object {
                               "type": "firefox",
@@ -235,6 +241,7 @@ ReactWrapper {
                 props={
                   Object {
                     "browsers": Array [],
+                    "imgFilter": null,
                     "items": Array [
                       Object {
                         "type": "firefox",
@@ -291,6 +298,7 @@ ReactWrapper {
                   props={
                     Object {
                       "browsers": Array [],
+                      "imgFilter": null,
                       "items": Array [
                         Object {
                           "type": "firefox",
@@ -324,6 +332,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -340,6 +349,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -412,6 +422,7 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "browsers": Array [],
+          "imgFilter": null,
           "items": Array [
             Object {
               "type": "firefox",
@@ -426,6 +437,7 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "browsers": Array [],
+          "imgFilter": null,
           "items": Array [
             Object {
               "type": "firefox",
@@ -458,6 +470,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "browsers": Array [],
+              "imgFilter": null,
               "items": Array [
                 Object {
                   "type": "firefox",
@@ -473,6 +486,7 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "browsers": Array [],
+              "imgFilter": null,
               "items": Array [
                 Object {
                   "type": "firefox",
@@ -490,6 +504,7 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "browsers": Array [],
+              "imgFilter": null,
               "items": Array [
                 Object {
                   "type": "firefox",
@@ -580,6 +595,7 @@ ReactWrapper {
                       props={
                         Object {
                           "browsers": Array [],
+                          "imgFilter": null,
                           "items": Array [
                             Object {
                               "type": "firefox",
@@ -609,6 +625,7 @@ ReactWrapper {
                       props={
                         Object {
                           "browsers": Array [],
+                          "imgFilter": null,
                           "items": Array [
                             Object {
                               "type": "firefox",
@@ -642,6 +659,7 @@ ReactWrapper {
                 props={
                   Object {
                     "browsers": Array [],
+                    "imgFilter": null,
                     "items": Array [
                       Object {
                         "type": "firefox",
@@ -698,6 +716,7 @@ ReactWrapper {
                   props={
                     Object {
                       "browsers": Array [],
+                      "imgFilter": null,
                       "items": Array [
                         Object {
                           "type": "firefox",
@@ -731,6 +750,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -747,6 +767,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -781,6 +802,7 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "browsers": Array [],
+        "imgFilter": null,
         "items": Array [
           Object {
             "type": "firefox",
@@ -803,6 +825,7 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "browsers": Array [],
+      "imgFilter": null,
       "items": Array [
         Object {
           "type": "firefox",
@@ -856,6 +879,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -871,6 +895,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -888,6 +913,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -978,6 +1004,7 @@ ReactWrapper {
                         props={
                           Object {
                             "browsers": Array [],
+                            "imgFilter": null,
                             "items": Array [
                               Object {
                                 "type": "firefox",
@@ -1007,6 +1034,7 @@ ReactWrapper {
                         props={
                           Object {
                             "browsers": Array [],
+                            "imgFilter": null,
                             "items": Array [
                               Object {
                                 "type": "firefox",
@@ -1040,6 +1068,7 @@ ReactWrapper {
                   props={
                     Object {
                       "browsers": Array [],
+                      "imgFilter": null,
                       "items": Array [
                         Object {
                           "type": "firefox",
@@ -1096,6 +1125,7 @@ ReactWrapper {
                     props={
                       Object {
                         "browsers": Array [],
+                        "imgFilter": null,
                         "items": Array [
                           Object {
                             "type": "firefox",
@@ -1129,6 +1159,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "browsers": Array [],
+                  "imgFilter": null,
                   "items": Array [
                     Object {
                       "type": "firefox",
@@ -1145,6 +1176,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "browsers": Array [],
+                  "imgFilter": null,
                   "items": Array [
                     Object {
                       "type": "firefox",
@@ -1217,6 +1249,7 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "browsers": Array [],
+            "imgFilter": null,
             "items": Array [
               Object {
                 "type": "firefox",
@@ -1231,6 +1264,7 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "browsers": Array [],
+            "imgFilter": null,
             "items": Array [
               Object {
                 "type": "firefox",
@@ -1263,6 +1297,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -1278,6 +1313,7 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -1295,6 +1331,7 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "browsers": Array [],
+                "imgFilter": null,
                 "items": Array [
                   Object {
                     "type": "firefox",
@@ -1385,6 +1422,7 @@ ReactWrapper {
                         props={
                           Object {
                             "browsers": Array [],
+                            "imgFilter": null,
                             "items": Array [
                               Object {
                                 "type": "firefox",
@@ -1414,6 +1452,7 @@ ReactWrapper {
                         props={
                           Object {
                             "browsers": Array [],
+                            "imgFilter": null,
                             "items": Array [
                               Object {
                                 "type": "firefox",
@@ -1447,6 +1486,7 @@ ReactWrapper {
                   props={
                     Object {
                       "browsers": Array [],
+                      "imgFilter": null,
                       "items": Array [
                         Object {
                           "type": "firefox",
@@ -1503,6 +1543,7 @@ ReactWrapper {
                     props={
                       Object {
                         "browsers": Array [],
+                        "imgFilter": null,
                         "items": Array [
                           Object {
                             "type": "firefox",
@@ -1536,6 +1577,7 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "browsers": Array [],
+                  "imgFilter": null,
                   "items": Array [
                     Object {
                       "type": "firefox",
@@ -1552,6 +1594,7 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "browsers": Array [],
+                  "imgFilter": null,
                   "items": Array [
                     Object {
                       "type": "firefox",
@@ -1586,6 +1629,7 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "browsers": Array [],
+          "imgFilter": null,
           "items": Array [
             Object {
               "type": "firefox",
@@ -1608,6 +1652,7 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "browsers": Array [],
+        "imgFilter": null,
         "items": Array [
           Object {
             "type": "firefox",

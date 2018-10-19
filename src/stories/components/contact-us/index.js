@@ -24,8 +24,8 @@ stories.addWithJSX(
       />
       <Column className="col-sm-8 col-md-6 col-lg-4">
         <ContactUs
-          showText={boolean('Show text', false)}
-          showPlaceholder={boolean('Show placeholder', true)}
+          showText={boolean('Show text', true)}
+          showPlaceholder={boolean('Show placeholder', false)}
           loading={boolean('Sending', false)}
           name={text('Name value', '')}
           mail={text('Email value', '')}

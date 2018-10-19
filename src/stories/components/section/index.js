@@ -195,16 +195,18 @@ stories.addWithJSX(
         <Container className="text-justify">
           <Row>
             <Column className="col-12 col-sm-6">
-              <Card
-                contentAlign="left"
-                image="images/card/image1.jpg"
-                imageCircle={false}
-                imageShadow
-                subTitle="Our universe"
-                summary="Results from viewing Type 1a supernova have shown that the expansion
+              <div>
+                <Card
+                  contentAlign="left"
+                  image="images/card/image1.jpg"
+                  imageCircle={false}
+                  imageShadow
+                  subTitle="Our universe"
+                  summary="Results from viewing Type 1a supernova have shown that the expansion
                   of the universe is accelerating. Dark energy is the reason for this acceleration."
-                title="Dark Energy"
-              />
+                  title="Dark Energy"
+                />
+              </div>
             </Column>
             <Column className="col-12 col-sm-6">
               <p style={pStyle}>

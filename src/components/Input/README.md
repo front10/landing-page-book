@@ -56,8 +56,9 @@ import '@front10/landing-page-book/dist/components/Input/style.css';
 
 ## Theming variables
 
-| </br>Name            | </br>Summary           | </br>Default |
-| -------------------- | ---------------------- | ------------ |
-| --Input-borderRadius | Border radius of input | `0px`        |
-| --Input-fontSize     | Font size of input     | `0.7rem`     |
-| --Input-color        | Color of input         | `#000`       |
+| </br>Name            | </br>Summary           | </br>Default          |
+| -------------------- | ---------------------- | --------------------- |
+| --Input-borderRadius | Border radius of input | `0px`                 |
+| --Input-fontSize     | Font size of input     | `0.7rem`              |
+| --Input-color        | Color of input         | `#000`                |
+| --Input-height       | Height of input        | `calc(2.25rem + 2px)` |

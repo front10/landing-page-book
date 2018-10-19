@@ -1200,9 +1200,10 @@ a span {
   box-shadow: var(--Button-boxShadowHover); }
 
 :root {
-  --Input-borderRadius: 0px;
+  --Input-borderRadius: .25rem;
   --Input-fontSize: 0.7rem;
-  --Input-color: #000; }
+  --Input-color: #000;
+  --Input-height: calc(2.25rem + 2px); }
 
 :root {
   --Label-fontSize: 0.7rem; }
@@ -1216,12 +1217,12 @@ a span {
     border-radius: var(--Input-borderRadius);
     font-size: var(--Input-fontSize);
     color: var(--Input-color); }
-  .Input__Container .Input__Container__Conponent[type='color'] {
-    height: 30px; }
+  .Input__Container .Input__Container__Conponent {
+    height: var(--Input-height); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: var(--Input-fontSize);
-    top: 10px;
+    top: 40%;
     color: var(--Input-color); }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }
@@ -1527,9 +1528,10 @@ a span {
     font-size: var(--Hero__SubHeader--phone-fontSize) !important; } }
 
 :root {
-  --Input-borderRadius: 0px;
+  --Input-borderRadius: .25rem;
   --Input-fontSize: 0.7rem;
-  --Input-color: #000; }
+  --Input-color: #000;
+  --Input-height: calc(2.25rem + 2px); }
 
 :root {
   --Label-fontSize: 0.7rem; }
@@ -1543,12 +1545,12 @@ a span {
     border-radius: var(--Input-borderRadius);
     font-size: var(--Input-fontSize);
     color: var(--Input-color); }
-  .Input__Container .Input__Container__Conponent[type='color'] {
-    height: 30px; }
+  .Input__Container .Input__Container__Conponent {
+    height: var(--Input-height); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: var(--Input-fontSize);
-    top: 10px;
+    top: 40%;
     color: var(--Input-color); }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }

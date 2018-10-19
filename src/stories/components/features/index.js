@@ -18,6 +18,24 @@ stories.addDecorator(withKnobs);
 const featuress = [
   {
     id: 1,
+    image: 'images/features/code.png',
+    title: 'Simple',
+    subtitle: 'Easy to use',
+    summary: 'Writing code is quicker, easier and cleaner now. Copy-paste approach.',
+    link: 'https://front10.com',
+    linktext: 'See more...'
+  },
+  {
+    id: 2,
+    image: 'images/features/speed.png',
+    title: 'Faster',
+    subtitle: 'Fast like Usain Bolt',
+    summary: 'With these components + intuitive documentation, you will be faster than Usain Bolt.',
+    link: 'https://front10.com',
+    linktext: 'See more...'
+  },
+  {
+    id: 3,
     image: 'images/features/themes.png',
     title: 'Theming',
     subtitle: 'Easy to create themes',
@@ -26,7 +44,7 @@ const featuress = [
     linktext: 'See more...'
   },
   {
-    id: 2,
+    id: 4,
     image: 'images/features/testing.png',
     title: 'Unit test',
     subtitle: 'Robust components',
@@ -34,24 +52,6 @@ const featuress = [
     link: 'https://front10.com',
     linktext: 'See more...'
   },
-  {
-    id: 3,
-    image: 'images/features/speed.png',
-    title: 'Faster',
-    subtitle: 'Fast like Usain Bolt',
-    summary: 'With these components, you are going to be faster than Usain Bolt.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  },
-  {
-    id: 4,
-    image: 'images/features/code.png',
-    title: 'Simple',
-    subtitle: 'Easy to use',
-    summary: 'Writing code is easier, quicker and cleaner now.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  }
 ];
 
 stories.addWithJSX(

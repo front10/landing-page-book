@@ -78,3 +78,31 @@ stories.addWithJSX(
   )),
   jsxConfig
 );
+
+stories.addWithJSX(
+  'Without texts',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Browser Support"
+        description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
+      />
+      <BrowserSupport
+        browsers={browsers}
+        showBrowserVendor={boolean('Show browser vendor', false)}
+        showBrowserVersion={boolean('Show browser version', false)}
+      />
+      <div className="mt-4">
+        <Code
+          code={browses}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
+    </ThemeSelector>
+  )),
+  jsxConfig
+);

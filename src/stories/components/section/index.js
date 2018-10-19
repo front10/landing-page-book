@@ -8,7 +8,7 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Section, Video, Button, Container, Code } from '../../../components';
+import { Section, Video, Button, Container, Code, Row, Column } from '../../../components';
 import Readme from '../../../components/Section/README.md';
 
 import def from '../../mock/components/codes/section';
@@ -129,3 +129,38 @@ stories.addWithJSX(
 //   )),
 //   jsxConfig
 // );
+
+stories.addWithJSX(
+  'Two Columns Text',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Section"
+        storyName="With Video"
+        description="A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information."
+      />
+      <Section
+        gray={boolean('Gray', false)}
+        title={text('Title', 'WHAT WE DO')}
+        subTitle={text('Subtitle', 'One Look Is Worth A Thousand Words.')}
+      >
+        <Container className="text-justify">
+          <Row>
+            <Column className="col-12 col-sm-6">
+              <p style={pStyle}>
+                Once upon a time, there was a boy named James. He always got pushed around. One day, a wizard appeared in front of the boy. The wizard gave James three wishes. One of James wishes was that tge wizard could make James go away. The next day James tried to make a wish, but he found himself to be in the land of the forgotten.
+              </p>
+            </Column>
+            <Column className="col-12 col-sm-6">
+              <p style={pStyle}>
+                Once upon a time, there was a boy named James. He always got pushed around. One day, a wizard appeared in front of the boy. The wizard gave James three wishes. One of James wishes was that tge wizard could make James go away. The next day James tried to make a wish, but he found himself to be in the land of the forgotten.
+              </p>
+            </Column>
+          </Row>
+        </Container>
+      </Section>
+      <Code code={def} languageCode="jsx" readOnly collapsible collapsed showDeleteButton={false} />
+    </ThemeSelector>
+  )),
+  jsxConfig
+);

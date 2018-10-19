@@ -29,6 +29,14 @@ class Image extends Component {
     if (prevProps.src !== src) this.setState({ loaded: false });
   }
 
+  static getCustomCssFilterForImg(props) {
+    const { imgFilter } = props;
+    return `
+    img [src] {
+      filter: ${imgFilter};
+    }`;
+  }
+
   handleImageLoaded() {
     const img = this.image.current;
     if (img && img.complete) {
@@ -37,7 +45,8 @@ class Image extends Component {
   }
 
   render() {
-    const { alt, src, rounded, border, width, tooltip, className } = this.props;
+    const { alt, src, rounded, border, width, tooltip, className, imgFilter } = this.props;
+    const customCssFilter = Image.getCustomCssFilterForImg(this.props);
     const { loaded } = this.state;
     let tempClass = className;
     if (rounded) tempClass += ` rounded-circle`;
@@ -62,6 +71,7 @@ class Image extends Component {
             </g>
           </svg>
         )}
+        {imgFilter && <style>{customCssFilter}</style>}
       </React.Fragment>
     );
   }
@@ -73,6 +83,7 @@ Image.propTypes = {
   className: PropTypes.string,
   width: PropTypes.string,
   tooltip: PropTypes.string,
+  imgFilter: PropTypes.string,
   alt: PropTypes.string.isRequired,
   src: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired
 };
@@ -81,7 +92,8 @@ Image.defaultProps = {
   rounded: false,
   className: 'img-fluid',
   width: undefined,
-  tooltip: ''
+  tooltip: '',
+  imgFilter: null
 };
 
 export default Image;

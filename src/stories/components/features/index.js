@@ -18,38 +18,38 @@ stories.addDecorator(withKnobs);
 const featuress = [
   {
     id: 1,
-    image: 'images/features/themes.png',
-    title: 'Theming',
-    subtitle: 'Easy to create themes',
-    summary: 'Library customization with Css variables for easy theming and component changes.',
+    image: 'images/features/code.png',
+    title: 'Simple',
+    subtitle: 'Easy to use',
+    summary: 'Writing code is quicker, easier and cleaner now. Copy-paste approach.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },
   {
     id: 2,
-    image: 'images/features/testing.png',
-    title: 'Unit test',
-    subtitle: 'Robust components',
-    summary: 'All our components tested, like a Swiss watch. With code coverage above 50%',
+    image: 'images/features/speed.png',
+    title: 'Faster',
+    subtitle: 'Fast like Usain Bolt',
+    summary:
+      'With these components + their intuitive documentation, you will be faster than Usain Bolt.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },
   {
     id: 3,
-    image: 'images/features/speed.png',
-    title: 'Faster dev',
-    subtitle: 'Fast like Usain Bolt',
-    summary:
-      'With our components you can develop a wep app faster than Usain Bolt in 100 meters flat.',
+    image: 'images/features/themes.png',
+    title: 'Theming',
+    subtitle: 'Easy to create themes',
+    summary: 'Library customization with CSS variables, theming and easy component changes.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },
   {
     id: 4,
-    image: 'images/features/code.png',
-    title: 'Simple',
-    subtitle: 'Easy to use',
-    summary: 'Very easy to use, you can do a lot in your wep application with little code.',
+    image: 'images/features/testing.png',
+    title: 'Unit test',
+    subtitle: 'Robust components',
+    summary: 'All components tested like a Swiss watch. Code coverage above 70%.',
     link: 'https://front10.com',
     linktext: 'See more...'
   }

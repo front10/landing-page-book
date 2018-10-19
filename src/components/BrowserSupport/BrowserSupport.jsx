@@ -4,7 +4,7 @@ import Browser from '../Browser';
 
 class BrowserSupport extends Component {
   render() {
-    const { browsers, showBrowserVendor, showBrowserVersion } = this.props;
+    const { browsers, showBrowserVendor, showBrowserVersion, imgFilter } = this.props;
     return (
       <div>
         {browsers.map(browser => (
@@ -14,6 +14,7 @@ class BrowserSupport extends Component {
               version={browser.version}
               showBrowserVendor={showBrowserVendor}
               showBrowserVersion={showBrowserVersion}
+              imgFilter={imgFilter}
             />
           </div>
         ))}
@@ -30,12 +31,14 @@ BrowserSupport.propTypes = {
       vendor: PropTypes.string,
       version: PropTypes.string
     })
-  )
+  ),
+  imgFilter: PropTypes.string
 };
 BrowserSupport.defaultProps = {
   showBrowserVendor: true,
   showBrowserVersion: true,
-  browsers: []
+  browsers: [],
+  imgFilter: null
 };
 
 export default BrowserSupport;

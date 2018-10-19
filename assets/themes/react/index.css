@@ -817,6 +817,12 @@ body {
   --Backers__Image-width: 50px;
   --Backers__Image-height: 50px; }
 
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
+
 .ImageList {
   display: inline-flex;
   flex-wrap: wrap; }
@@ -844,6 +850,12 @@ body {
 
 .Browser .Browser__Version {
   font-size: .6rem; }
+
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
 
 .ImageList {
   display: inline-flex;
@@ -896,7 +908,14 @@ body {
   --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5; }
+  --Card__Subtitle-color: #b5b5b5;
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
 
 .Card {
   background-color: transparent;
@@ -905,12 +924,17 @@ body {
     font-size: var(--Card__Summary-fontSize);
     color: var(--Card__Summary-color);
     background-color: var(--Card__Summary-backgroundColor); }
+  .Card .Card__Summary--justified {
+    text-align: justify; }
   .Card .Card__Title {
     font-size: var(--Card__Title-fontSize);
     color: var(--Card__Title-color); }
   .Card .Card__Subtitle {
     font-size: var(--Card__Subtitle-fontSize);
     color: var(--Card__Subtitle-color); }
+
+.Card--shadow {
+  box-shadow: var(--Card-boxShadow); }
 
 :root {
   --CodeMirror__header_with: 100%;
@@ -966,6 +990,12 @@ body {
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
 
 .Navbar {
   background-color: var(--Navbar-backgroundColor);
@@ -1094,7 +1124,14 @@ a span {
   --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5; }
+  --Card__Subtitle-color: #b5b5b5;
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
 
 .Card {
   background-color: transparent;
@@ -1103,12 +1140,17 @@ a span {
     font-size: var(--Card__Summary-fontSize);
     color: var(--Card__Summary-color);
     background-color: var(--Card__Summary-backgroundColor); }
+  .Card .Card__Summary--justified {
+    text-align: justify; }
   .Card .Card__Title {
     font-size: var(--Card__Title-fontSize);
     color: var(--Card__Title-color); }
   .Card .Card__Subtitle {
     font-size: var(--Card__Subtitle-fontSize);
     color: var(--Card__Subtitle-color); }
+
+.Card--shadow {
+  box-shadow: var(--Card-boxShadow); }
 
 .ContactInfo__Location {
   height: var(--ContactInfo__Location-height); }
@@ -1158,15 +1200,18 @@ a span {
   box-shadow: var(--Button-boxShadowHover); }
 
 :root {
-  --Input-borderRadius: 0px;
-  --Input-fontSize: 0.7rem;
-  --Input-color: #000; }
+  --Input-borderRadius: .25rem;
+  --Input-fontSize: 0.9rem;
+  --Input-color: rgba(0,0,0,0.8);
+  --Input-height: calc(2.25rem + 2px); }
 
 :root {
-  --Label-fontSize: 0.7rem; }
+  --Label-fontSize: 1rem;
+  --Label-color: rgba(0,0,0,0.7); }
 
 .Label {
-  font-size: var(--Label-fontSize); }
+  font-size: var(--Label-fontSize);
+  color: var(--Label-color); }
 
 .Input__Container {
   position: relative; }
@@ -1174,12 +1219,12 @@ a span {
     border-radius: var(--Input-borderRadius);
     font-size: var(--Input-fontSize);
     color: var(--Input-color); }
-  .Input__Container .Input__Container__Conponent[type='color'] {
-    height: 30px; }
+  .Input__Container .Input__Container__Conponent {
+    height: var(--Input-height); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: var(--Input-fontSize);
-    top: 10px;
+    top: 40%;
     color: var(--Input-color); }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }
@@ -1352,6 +1397,12 @@ a span {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
 
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
+
 .Navbar {
   background-color: var(--Navbar-backgroundColor);
   background-image: var(--Navbar-backgroundImage); }
@@ -1479,15 +1530,18 @@ a span {
     font-size: var(--Hero__SubHeader--phone-fontSize) !important; } }
 
 :root {
-  --Input-borderRadius: 0px;
-  --Input-fontSize: 0.7rem;
-  --Input-color: #000; }
+  --Input-borderRadius: .25rem;
+  --Input-fontSize: 0.9rem;
+  --Input-color: rgba(0,0,0,0.8);
+  --Input-height: calc(2.25rem + 2px); }
 
 :root {
-  --Label-fontSize: 0.7rem; }
+  --Label-fontSize: 1rem;
+  --Label-color: rgba(0,0,0,0.7); }
 
 .Label {
-  font-size: var(--Label-fontSize); }
+  font-size: var(--Label-fontSize);
+  color: var(--Label-color); }
 
 .Input__Container {
   position: relative; }
@@ -1495,12 +1549,12 @@ a span {
     border-radius: var(--Input-borderRadius);
     font-size: var(--Input-fontSize);
     color: var(--Input-color); }
-  .Input__Container .Input__Container__Conponent[type='color'] {
-    height: 30px; }
+  .Input__Container .Input__Container__Conponent {
+    height: var(--Input-height); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: var(--Input-fontSize);
-    top: 10px;
+    top: 40%;
     color: var(--Input-color); }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }
@@ -1512,10 +1566,12 @@ a span {
     right: 10px; }
 
 :root {
-  --Label-fontSize: 0.7rem; }
+  --Label-fontSize: 1rem;
+  --Label-color: rgba(0,0,0,0.7); }
 
 .Label {
-  font-size: var(--Label-fontSize); }
+  font-size: var(--Label-fontSize);
+  color: var(--Label-color); }
 
 a[disabled] {
   pointer-events: none; }
@@ -1603,7 +1659,14 @@ a span {
   --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5; }
+  --Card__Subtitle-color: #b5b5b5;
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
 
 .Card {
   background-color: transparent;
@@ -1612,12 +1675,17 @@ a span {
     font-size: var(--Card__Summary-fontSize);
     color: var(--Card__Summary-color);
     background-color: var(--Card__Summary-backgroundColor); }
+  .Card .Card__Summary--justified {
+    text-align: justify; }
   .Card .Card__Title {
     font-size: var(--Card__Title-fontSize);
     color: var(--Card__Title-color); }
   .Card .Card__Subtitle {
     font-size: var(--Card__Subtitle-fontSize);
     color: var(--Card__Subtitle-color); }
+
+.Card--shadow {
+  box-shadow: var(--Card-boxShadow); }
 
 .SocialMediaShareButton {
   display: inline-block;
@@ -1640,7 +1708,14 @@ a span {
   --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5; }
+  --Card__Subtitle-color: #b5b5b5;
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
 
 .Card {
   background-color: transparent;
@@ -1649,12 +1724,17 @@ a span {
     font-size: var(--Card__Summary-fontSize);
     color: var(--Card__Summary-color);
     background-color: var(--Card__Summary-backgroundColor); }
+  .Card .Card__Summary--justified {
+    text-align: justify; }
   .Card .Card__Title {
     font-size: var(--Card__Title-fontSize);
     color: var(--Card__Title-color); }
   .Card .Card__Subtitle {
     font-size: var(--Card__Subtitle-fontSize);
     color: var(--Card__Subtitle-color); }
+
+.Card--shadow {
+  box-shadow: var(--Card-boxShadow); }
 
 :root {
   --Features__CardFooter__Link-padding: none;
@@ -1677,6 +1757,12 @@ a span {
 .features .card .card-footer a:hover {
   background-color: var(--Features__CardFooter__Link-background-color-hover) !important;
   box-shadow: var(--Features__CardFooter__Link-box-shadow-hover) !important; }
+
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
 
 .ImageList {
   display: inline-flex;
@@ -1718,7 +1804,14 @@ a span {
   --Card__Title-fontSize: 1.2rem;
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5; }
+  --Card__Subtitle-color: #b5b5b5;
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
 
 .Card {
   background-color: transparent;
@@ -1727,12 +1820,17 @@ a span {
     font-size: var(--Card__Summary-fontSize);
     color: var(--Card__Summary-color);
     background-color: var(--Card__Summary-backgroundColor); }
+  .Card .Card__Summary--justified {
+    text-align: justify; }
   .Card .Card__Title {
     font-size: var(--Card__Title-fontSize);
     color: var(--Card__Title-color); }
   .Card .Card__Subtitle {
     font-size: var(--Card__Subtitle-fontSize);
     color: var(--Card__Subtitle-color); }
+
+.Card--shadow {
+  box-shadow: var(--Card-boxShadow); }
 
 .Wizard .multi-step .footer-buttons {
   padding-top: 20px;

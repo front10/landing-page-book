@@ -43,6 +43,7 @@ import '@front10/landing-page-book/dist/components/Label/style.css';
 
 ## Theming variables
 
-| </br>Name        | </br>Summary       | </br>Default |
-| ---------------- | ------------------ | ------------ |
-| --Label-fontSize | Font size of label | `0.7rem`     |
+| </br>Name        | </br>Summary       | </br>Default        |
+| ---------------- | ------------------ | ------------------- |
+| --Label-fontSize | Font size of label | `0.7rem`            |
+| --Label-color    | Font size of label | `rgba(0,0,0,0.7);`  |

@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.1.1] Unreleased
+
+#### Added
+
+- [#149](https://github.com/front10/landing-page-book/pull/149) Props `shadow` to Image, `imageShadow`, `summaryJustified`, `shadow` to Card, by [@ycgarrido](https://github.com/ycgarrido)
+- [#149](https://github.com/front10/landing-page-book/pull/149) Theming variable `--Image-boxShadow`, `--Card-boxShadow`, by [@ycgarrido](https://github.com/ycgarrido)
+
+#### Change
+
+#### Remove
+
 ## [1.1.0] 2018-10-18
 
 #### Added

@@ -30,7 +30,8 @@ const featuress = [
     image: 'images/features/speed.png',
     title: 'Faster',
     subtitle: 'Fast like Usain Bolt',
-    summary: 'With these components + intuitive documentation, you will be faster than Usain Bolt.',
+    summary:
+      'With these components + their intuitive documentation, you will be faster than Usain Bolt.',
     link: 'https://front10.com',
     linktext: 'See more...'
   },

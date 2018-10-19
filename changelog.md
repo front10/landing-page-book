@@ -21,8 +21,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [#149](https://github.com/front10/landing-page-book/pull/149) Prop `shadow` to Image, `imageShadow`, `summaryJustified`, `shadow` to Card, by [@ycgarrido](https://github.com/ycgarrido)
 - [#149](https://github.com/front10/landing-page-book/pull/149) Theming variable `--Image-boxShadow`, `--Card-boxShadow`, by [@ycgarrido](https://github.com/ycgarrido)
 
-#### Change
-
 #### Remove
 
 - [#151](https://github.com/front10/landing-page-book/pull/151) Prop `showBorder` to Features, by [@ycgarrido](https://github.com/ycgarrido)

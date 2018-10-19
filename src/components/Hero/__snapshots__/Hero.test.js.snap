@@ -8,6 +8,7 @@ ShallowWrapper {
     buttons={Array []}
     header="AAAAAAAAAAAAAAA"
     image=""
+    imgFilter={null}
     isCentered={true}
     isFixed={true}
     minHeight="100vh"
@@ -16,6 +17,7 @@ ShallowWrapper {
     parallaxOffset={0}
     particles={true}
     particlesParams={Object {}}
+    style={null}
     subHeader="BBBBBBBBBB"
     subHeaderPosition="bottom"
   />,
@@ -41,7 +43,7 @@ ShallowWrapper {
         minHeight="100vh"
         opacity={0}
         parallaxOffset={0}
-        style={undefined}
+        style={null}
         transitionDuration={600}
         transitionTimingFunction="ease-in-out"
       >
@@ -124,6 +126,7 @@ ShallowWrapper {
               </Header>
             </Container>
           </div>,
+          null,
         ],
         "className": undefined,
         "color": "#fff",
@@ -133,7 +136,7 @@ ShallowWrapper {
         "minHeight": "100vh",
         "opacity": 0,
         "parallaxOffset": 0,
-        "style": undefined,
+        "style": null,
         "transitionDuration": 600,
         "transitionTimingFunction": "ease-in-out",
       },
@@ -264,6 +267,7 @@ ShallowWrapper {
           ],
           "type": "div",
         },
+        null,
       ],
       "type": [Function],
     },
@@ -284,7 +288,7 @@ ShallowWrapper {
           minHeight="100vh"
           opacity={0}
           parallaxOffset={0}
-          style={undefined}
+          style={null}
           transitionDuration={600}
           transitionTimingFunction="ease-in-out"
         >
@@ -367,6 +371,7 @@ ShallowWrapper {
                 </Header>
               </Container>
             </div>,
+            null,
           ],
           "className": undefined,
           "color": "#fff",
@@ -376,7 +381,7 @@ ShallowWrapper {
           "minHeight": "100vh",
           "opacity": 0,
           "parallaxOffset": 0,
-          "style": undefined,
+          "style": null,
           "transitionDuration": 600,
           "transitionTimingFunction": "ease-in-out",
         },
@@ -507,6 +512,7 @@ ShallowWrapper {
             ],
             "type": "div",
           },
+          null,
         ],
         "type": [Function],
       },

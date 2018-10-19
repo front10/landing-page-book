@@ -45,7 +45,7 @@ class Card extends React.Component {
           )}
         </div>
         {children && (
-          <div className={`card-footer bg-transparent border-0 text-${contentAlign}`}>
+          <div className={`card-footer bg-transparent border-0 pt-0 text-${contentAlign}`}>
             <React.Fragment>{children}</React.Fragment>
           </div>
         )}

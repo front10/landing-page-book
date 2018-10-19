@@ -197,19 +197,6 @@ stories.addWithJSX(
             <Column className="col-12 col-sm-6">
               <Card
                 contentAlign="left"
-                image="images/card/image2.jpg"
-                imageCircle={false}
-                imageShadow
-                subTitle="First man in the moon"
-                summary="American astronaut and aeronautical engineer who was the first 
-                person to walk on the Moon. He was also a naval aviator, test pilot, and
-                university professor."
-                title="Neil Armstrong"
-              />
-            </Column>
-            <Column className="col-12 col-sm-6">
-              <Card
-                contentAlign="left"
                 image="images/card/image1.jpg"
                 imageCircle={false}
                 imageShadow
@@ -218,6 +205,27 @@ stories.addWithJSX(
                 of the universe is accelerating. Dark energy is the reason for this acceleration."
                 title="Dark Energy"
               />
+            </Column>
+            <Column className="col-12 col-sm-6">
+              <p style={pStyle}>
+                Curabitur vestibulum arcu nec nisi consequat iaculis. Etiam porttitor tincidunt
+                ipsum vel maximus. Curabitur condimentum, nulla a volutpat facilisis, sem massa
+                vehicula nisl, quis posuere tellus tellus nec dolor. Etiam semper orci eu hendrerit
+                auctor. Pellentesque nunc odio, ultrices in accumsan sit amet, molestie a sapien.
+                Suspendisse rutrum consectetur est, id porta massa tincidunt ac.
+              </p>
+              <p style={pStyle}>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur imperdiet erat
+                nibh, ut dignissim quam tempus dictum. Cras elementum malesuada lorem et maximus. In
+                hac habitasse platea dictumst. Etiam id placerat elit. Ut non lacus pretium, aliquet
+                justo quis, pulvinar risus. Proin auctor scelerisque risus nec vulputate.
+                Pellentesque mollis mauris sed lectus vehicula, eget condimentum nulla porttitor.
+                Aliquam nulla dui, porta sed odio quis, tincidunt ornare massa. Lorem ipsum dolor
+                sit amet, consectetur adipiscing elit. Duis tristique ultrices vehicula. Nunc
+                viverra ligula at rhoncus consectetur. Aliquam quis risus magna. Fusce et ultricies
+                elit, in fermentum erat. Donec ut finibus lacus, sit amet condimentum turpis. Ut
+                bibendum felis vel suscipit laoreet.
+              </p>
             </Column>
           </Row>
         </Container>

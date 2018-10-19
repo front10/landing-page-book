@@ -9,7 +9,11 @@ import jsxConfig from '../../mock/jsxConfig';
 import { BrowserSupport, Code } from '../../../components';
 import Readme from '../../../components/BrowserSupport/README.md';
 
-import { browses, browserWithoutText } from '../../mock/components/codes/browser-support';
+import {
+  browses,
+  browserWithoutText,
+  browserSupportGray
+} from '../../mock/components/codes/browser-support';
 
 const browsers = [
   {
@@ -123,7 +127,7 @@ stories.addWithJSX(
       />
       <div className="mt-4">
         <Code
-          code={browserWithoutText}
+          code={browserSupportGray}
           languageCode="jsx"
           readOnly
           collapsible

@@ -5,4 +5,10 @@ const def = `<Code
     languageCode="jsx"
 />`;
 
-export default def;
+const css = `.CodeMirror-gutters {
+    border-right: 1px solid #ddd;
+    background-color: #f7f7f7;
+    white-space: nowrap;
+  }`;
+
+export { def, css };

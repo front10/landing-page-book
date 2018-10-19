@@ -9,7 +9,7 @@ import { Code } from '../../../components';
 import Readme from '../../../components/Code/README.md';
 import jsxConfig from '../../mock/jsxConfig';
 
-import def from '../../mock/components/codes/code';
+import { def, css } from '../../mock/components/codes/code';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/Code', module);
@@ -38,6 +38,55 @@ stories.addWithJSX(
         readOnly={boolean('Read Only', false)}
         lineNumbers={boolean('Show line numbers', true)}
         showheader={boolean('Show header', true)}
+        collapsible={boolean('Collapsible', true)}
+        showCopyButton={boolean('Show copy button', true)}
+        showDeleteButton={boolean('Show delete button', true)}
+        codeLink={text('Code link', 'https://codesandbox.io/s/pmjvk5wl27')}
+        updateCode={() => {}}
+      />
+    </ThemeSelector>
+  )),
+  jsxConfig
+);
+
+stories.addWithJSX(
+  'Code Simple',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Code"
+        description="Show code chunks can help to quickly explain the most complicated stuff ;)"
+      />
+      <Code
+        code={text('Code', def)}
+        languageCode={select('Language', langoptions, 'jsx')}
+        readOnly={boolean('Read Only', false)}
+        lineNumbers={boolean('Show line numbers', false)}
+        showheader={boolean('Show header', false)}
+        collapsible={boolean('Collapsible', true)}
+        showCopyButton={boolean('Show copy button', false)}
+        showDeleteButton={boolean('Show delete button', false)}
+        codeLink={text('Code link', 'https://codesandbox.io/s/pmjvk5wl27')}
+      />
+    </ThemeSelector>
+  )),
+  jsxConfig
+);
+
+stories.addWithJSX(
+  'Code css',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Code"
+        description="Show code chunks can help to quickly explain the most complicated stuff ;)"
+      />
+      <Code
+        code={text('Code', css)}
+        languageCode={select('Language', langoptions, 'css')}
+        readOnly={boolean('Read Only', false)}
+        lineNumbers={boolean('Show line numbers', true)}
+        showheader={boolean('Show header', false)}
         collapsible={boolean('Collapsible', true)}
         showCopyButton={boolean('Show copy button', true)}
         showDeleteButton={boolean('Show delete button', true)}

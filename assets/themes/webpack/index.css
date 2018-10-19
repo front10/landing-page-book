@@ -1186,10 +1186,12 @@ a span {
   --Input-height: calc(2.25rem + 2px); }
 
 :root {
-  --Label-fontSize: 1rem; }
+  --Label-fontSize: 1rem;
+  --Label-color: rgba(0,0,0,0.7); }
 
 .Label {
-  font-size: var(--Label-fontSize); }
+  font-size: var(--Label-fontSize);
+  color: var(--Label-color); }
 
 .Input__Container {
   position: relative; }
@@ -1514,10 +1516,12 @@ a span {
   --Input-height: calc(2.25rem + 2px); }
 
 :root {
-  --Label-fontSize: 1rem; }
+  --Label-fontSize: 1rem;
+  --Label-color: rgba(0,0,0,0.7); }
 
 .Label {
-  font-size: var(--Label-fontSize); }
+  font-size: var(--Label-fontSize);
+  color: var(--Label-color); }
 
 .Input__Container {
   position: relative; }
@@ -1542,10 +1546,12 @@ a span {
     right: 10px; }
 
 :root {
-  --Label-fontSize: 1rem; }
+  --Label-fontSize: 1rem;
+  --Label-color: rgba(0,0,0,0.7); }
 
 .Label {
-  font-size: var(--Label-fontSize); }
+  font-size: var(--Label-fontSize);
+  color: var(--Label-color); }
 
 a[disabled] {
   pointer-events: none; }

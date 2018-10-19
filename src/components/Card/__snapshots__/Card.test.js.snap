@@ -7,9 +7,12 @@ ReactWrapper {
     image=""
     imageBorder={false}
     imageCircle={true}
+    imageShadow={false}
+    shadow={false}
     showBorder={true}
     subTitle=""
     summary=""
+    summaryJustified={false}
     title=""
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -52,9 +55,12 @@ ReactWrapper {
               "image": "",
               "imageBorder": false,
               "imageCircle": true,
+              "imageShadow": false,
+              "shadow": false,
               "showBorder": true,
               "subTitle": "",
               "summary": "",
+              "summaryJustified": false,
               "title": "",
             },
           },
@@ -67,9 +73,12 @@ ReactWrapper {
               "image": "",
               "imageBorder": false,
               "imageCircle": true,
+              "imageShadow": false,
+              "shadow": false,
               "showBorder": true,
               "subTitle": "",
               "summary": "",
+              "summaryJustified": false,
               "title": "",
             },
           },
@@ -84,9 +93,12 @@ ReactWrapper {
               "image": "",
               "imageBorder": false,
               "imageCircle": true,
+              "imageShadow": false,
+              "shadow": false,
               "showBorder": true,
               "subTitle": "",
               "summary": "",
+              "summaryJustified": false,
               "title": "",
             },
           },
@@ -127,19 +139,16 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="card h-100 Card "
+                    class="card h-100 Card  "
                   >
+                    
                     <div
                       class="card-body text-center"
                     >
                       
                       
                       
-                      
                     </div>
-                    <div
-                      class="card-footer bg-transparent border-0 text-center"
-                    />
                   </div>
                 </div>,
                 "context": Object {},
@@ -188,9 +197,12 @@ ReactWrapper {
                           "image": "",
                           "imageBorder": false,
                           "imageCircle": true,
+                          "imageShadow": false,
+                          "shadow": false,
                           "showBorder": true,
                           "subTitle": "",
                           "summary": "",
+                          "summaryJustified": false,
                           "title": "",
                         }
                       }
@@ -217,9 +229,12 @@ ReactWrapper {
                           "image": "",
                           "imageBorder": false,
                           "imageCircle": true,
+                          "imageShadow": false,
+                          "shadow": false,
                           "showBorder": true,
                           "subTitle": "",
                           "summary": "",
+                          "summaryJustified": false,
                           "title": "",
                         }
                       }
@@ -250,9 +265,12 @@ ReactWrapper {
                     "image": "",
                     "imageBorder": false,
                     "imageCircle": true,
+                    "imageShadow": false,
+                    "shadow": false,
                     "showBorder": true,
                     "subTitle": "",
                     "summary": "",
+                    "summaryJustified": false,
                     "title": "",
                   }
                 }
@@ -268,19 +286,16 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <div
-                  class="card h-100 Card "
+                  class="card h-100 Card  "
                 >
+                  
                   <div
                     class="card-body text-center"
                   >
                     
                     
                     
-                    
                   </div>
-                  <div
-                    class="card-footer bg-transparent border-0 text-center"
-                  />
                 </div>
               </div>,
               "context": Object {},
@@ -320,9 +335,12 @@ ReactWrapper {
                       "image": "",
                       "imageBorder": false,
                       "imageCircle": true,
+                      "imageShadow": false,
+                      "shadow": false,
                       "showBorder": true,
                       "subTitle": "",
                       "summary": "",
+                      "summaryJustified": false,
                       "title": "",
                     }
                   }
@@ -353,9 +371,12 @@ ReactWrapper {
                 "image": "",
                 "imageBorder": false,
                 "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
                 "showBorder": true,
                 "subTitle": "",
                 "summary": "",
+                "summaryJustified": false,
                 "title": "",
               },
             },
@@ -369,9 +390,12 @@ ReactWrapper {
                 "image": "",
                 "imageBorder": false,
                 "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
                 "showBorder": true,
                 "subTitle": "",
                 "summary": "",
+                "summaryJustified": false,
                 "title": "",
               },
             },
@@ -402,136 +426,12 @@ ReactWrapper {
           "child": FiberNode {
             "_debugID": 52,
             "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
+            "_debugOwner": null,
             "_debugSource": null,
             "actualDuration": 0,
             "actualStartTime": -1,
             "alternate": null,
-            "child": FiberNode {
-              "_debugID": 54,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": null,
-              "child": null,
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": "",
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": "",
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": FiberNode {
-                "_debugID": 55,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": null,
-                "child": null,
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "expirationTime": 0,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 1,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": "",
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": "",
-                "ref": null,
-                "return": [Circular],
-                "selfBaseDuration": 0,
-                "sibling": FiberNode {
-                  "_debugID": 56,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
-                  "_debugSource": null,
-                  "actualDuration": 0,
-                  "actualStartTime": -1,
-                  "alternate": null,
-                  "child": null,
-                  "childExpirationTime": 0,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstContextDependency": null,
-                  "firstEffect": null,
-                  "index": 2,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": "",
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": "",
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseDuration": 0,
-                  "sibling": FiberNode {
-                    "_debugID": 57,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
-                    "_debugSource": null,
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": null,
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 3,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": "",
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": "",
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": null,
-                    "stateNode": ,
-                    "tag": 8,
-                    "treeBaseDuration": 0,
-                    "type": null,
-                    "updateQueue": null,
-                  },
-                  "stateNode": ,
-                  "tag": 8,
-                  "treeBaseDuration": 0,
-                  "type": null,
-                  "updateQueue": null,
-                },
-                "stateNode": ,
-                "tag": 8,
-                "treeBaseDuration": 0,
-                "type": null,
-                "updateQueue": null,
-              },
-              "stateNode": ,
-              "tag": 8,
-              "treeBaseDuration": 0,
-              "type": null,
-              "updateQueue": null,
-            },
+            "child": null,
             "childExpirationTime": 0,
             "effectTag": 0,
             "expirationTime": 0,
@@ -540,1056 +440,16 @@ ReactWrapper {
             "index": 0,
             "key": null,
             "lastEffect": null,
-            "memoizedProps": Object {
-              "children": Array [
-                "",
-                "",
-                "",
-                "",
-              ],
-              "className": "card-body text-center",
-            },
+            "memoizedProps": "",
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
-            "pendingProps": Object {
-              "children": Array [
-                "",
-                "",
-                "",
-                "",
-              ],
-              "className": "card-body text-center",
-            },
+            "pendingProps": "",
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": FiberNode {
               "_debugID": 53,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": null,
-              "child": null,
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 1,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": Object {
-                "children": null,
-                "className": "card-footer bg-transparent border-0 text-center",
-              },
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": Object {
-                "children": null,
-                "className": "card-footer bg-transparent border-0 text-center",
-              },
-              "ref": null,
-              "return": [Circular],
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": <div
-                class="card-footer bg-transparent border-0 text-center"
-              />,
-              "tag": 7,
-              "treeBaseDuration": 0,
-              "type": "div",
-              "updateQueue": null,
-            },
-            "stateNode": <div
-              class="card-body text-center"
-            >
-              
-              
-              
-              
-            </div>,
-            "tag": 7,
-            "treeBaseDuration": 0,
-            "type": "div",
-            "updateQueue": null,
-          },
-          "childExpirationTime": 0,
-          "effectTag": 0,
-          "expirationTime": 0,
-          "firstContextDependency": null,
-          "firstEffect": null,
-          "index": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "children": Array [
-              <div
-                className="card-body text-center"
-              >
-                
-                
-                
-                
-              </div>,
-              <div
-                className="card-footer bg-transparent border-0 text-center"
-              />,
-            ],
-            "className": "card h-100 Card ",
-          },
-          "memoizedState": null,
-          "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "children": Array [
-              <div
-                className="card-body text-center"
-              >
-                
-                
-                
-                
-              </div>,
-              <div
-                className="card-footer bg-transparent border-0 text-center"
-              />,
-            ],
-            "className": "card h-100 Card ",
-          },
-          "ref": null,
-          "return": [Circular],
-          "selfBaseDuration": 0,
-          "sibling": null,
-          "stateNode": <div
-            class="card h-100 Card "
-          >
-            <div
-              class="card-body text-center"
-            >
-              
-              
-              
-              
-            </div>
-            <div
-              class="card-footer bg-transparent border-0 text-center"
-            />
-          </div>,
-          "tag": 7,
-          "treeBaseDuration": 0,
-          "type": "div",
-          "updateQueue": null,
-        },
-        "childExpirationTime": 0,
-        "effectTag": 1,
-        "expirationTime": 0,
-        "firstContextDependency": null,
-        "firstEffect": null,
-        "index": 0,
-        "key": null,
-        "lastEffect": null,
-        "memoizedProps": Object {
-          "children": null,
-          "contentAlign": "center",
-          "image": "",
-          "imageBorder": false,
-          "imageCircle": true,
-          "showBorder": true,
-          "subTitle": "",
-          "summary": "",
-          "title": "",
-        },
-        "memoizedState": null,
-        "mode": 0,
-        "nextEffect": null,
-        "pendingProps": Object {
-          "children": null,
-          "contentAlign": "center",
-          "image": "",
-          "imageBorder": false,
-          "imageCircle": true,
-          "showBorder": true,
-          "subTitle": "",
-          "summary": "",
-          "title": "",
-        },
-        "ref": null,
-        "return": FiberNode {
-          "_debugID": 49,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": null,
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
-          "alternate": null,
-          "child": [Circular],
-          "childExpirationTime": 0,
-          "effectTag": 1,
-          "expirationTime": 0,
-          "firstContextDependency": null,
-          "firstEffect": null,
-          "index": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "Component": [Function],
-            "context": null,
-            "props": Object {
-              "children": null,
-              "contentAlign": "center",
-              "image": "",
-              "imageBorder": false,
-              "imageCircle": true,
-              "showBorder": true,
-              "subTitle": "",
-              "summary": "",
-              "title": "",
-            },
-          },
-          "memoizedState": Object {
-            "context": null,
-            "mount": true,
-            "props": Object {
-              "children": null,
-              "contentAlign": "center",
-              "image": "",
-              "imageBorder": false,
-              "imageCircle": true,
-              "showBorder": true,
-              "subTitle": "",
-              "summary": "",
-              "title": "",
-            },
-          },
-          "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "Component": [Function],
-            "context": null,
-            "props": Object {
-              "children": null,
-              "contentAlign": "center",
-              "image": "",
-              "imageBorder": false,
-              "imageCircle": true,
-              "showBorder": true,
-              "subTitle": "",
-              "summary": "",
-              "title": "",
-            },
-          },
-          "ref": null,
-          "return": FiberNode {
-            "_debugID": 47,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": [Circular],
-              "child": null,
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "expirationTime": 1,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": null,
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": null,
-              "ref": null,
-              "return": null,
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": Object {
-                "containerInfo": <div>
-                  <div
-                    class="card h-100 Card "
-                  >
-                    <div
-                      class="card-body text-center"
-                    >
-                      
-                      
-                      
-                      
-                    </div>
-                    <div
-                      class="card-footer bg-transparent border-0 text-center"
-                    />
-                  </div>
-                </div>,
-                "context": Object {},
-                "current": [Circular],
-                "didError": false,
-                "earliestPendingTime": 0,
-                "earliestSuspendedTime": 0,
-                "expirationTime": 0,
-                "finishedWork": null,
-                "firstBatch": null,
-                "hydrate": false,
-                "interactionThreadID": 12,
-                "latestPendingTime": 0,
-                "latestPingedTime": 0,
-                "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
-                "nextExpirationTimeToWorkOn": 0,
-                "nextScheduledRoot": null,
-                "pendingChildren": null,
-                "pendingCommitExpirationTime": 0,
-                "pendingContext": null,
-                "pendingInteractionMap": Map {},
-                "timeoutHandle": -1,
-              },
-              "tag": 5,
-              "treeBaseDuration": 0,
-              "type": null,
-              "updateQueue": Object {
-                "baseState": null,
-                "firstCapturedEffect": null,
-                "firstCapturedUpdate": null,
-                "firstEffect": null,
-                "firstUpdate": Object {
-                  "callback": null,
-                  "expirationTime": 1,
-                  "next": null,
-                  "nextEffect": null,
-                  "payload": Object {
-                    "element": <WrapperComponent
-                      Component={[Function]}
-                      context={null}
-                      props={
-                        Object {
-                          "children": null,
-                          "contentAlign": "center",
-                          "image": "",
-                          "imageBorder": false,
-                          "imageCircle": true,
-                          "showBorder": true,
-                          "subTitle": "",
-                          "summary": "",
-                          "title": "",
-                        }
-                      }
-                    />,
-                  },
-                  "tag": 0,
-                },
-                "lastCapturedEffect": null,
-                "lastCapturedUpdate": null,
-                "lastEffect": null,
-                "lastUpdate": Object {
-                  "callback": null,
-                  "expirationTime": 1,
-                  "next": null,
-                  "nextEffect": null,
-                  "payload": Object {
-                    "element": <WrapperComponent
-                      Component={[Function]}
-                      context={null}
-                      props={
-                        Object {
-                          "children": null,
-                          "contentAlign": "center",
-                          "image": "",
-                          "imageBorder": false,
-                          "imageCircle": true,
-                          "showBorder": true,
-                          "subTitle": "",
-                          "summary": "",
-                          "title": "",
-                        }
-                      }
-                    />,
-                  },
-                  "tag": 0,
-                },
-              },
-            },
-            "child": [Circular],
-            "childExpirationTime": 0,
-            "effectTag": 32,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": [Circular],
-            "index": 0,
-            "key": null,
-            "lastEffect": [Circular],
-            "memoizedProps": null,
-            "memoizedState": Object {
-              "element": <WrapperComponent
-                Component={[Function]}
-                context={null}
-                props={
-                  Object {
-                    "children": null,
-                    "contentAlign": "center",
-                    "image": "",
-                    "imageBorder": false,
-                    "imageCircle": true,
-                    "showBorder": true,
-                    "subTitle": "",
-                    "summary": "",
-                    "title": "",
-                  }
-                }
-              />,
-            },
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": null,
-            "ref": null,
-            "return": null,
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": Object {
-              "containerInfo": <div>
-                <div
-                  class="card h-100 Card "
-                >
-                  <div
-                    class="card-body text-center"
-                  >
-                    
-                    
-                    
-                    
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-0 text-center"
-                  />
-                </div>
-              </div>,
-              "context": Object {},
-              "current": [Circular],
-              "didError": false,
-              "earliestPendingTime": 0,
-              "earliestSuspendedTime": 0,
-              "expirationTime": 0,
-              "finishedWork": null,
-              "firstBatch": null,
-              "hydrate": false,
-              "interactionThreadID": 12,
-              "latestPendingTime": 0,
-              "latestPingedTime": 0,
-              "latestSuspendedTime": 0,
-              "memoizedInteractions": Set {},
-              "nextExpirationTimeToWorkOn": 0,
-              "nextScheduledRoot": null,
-              "pendingChildren": null,
-              "pendingCommitExpirationTime": 0,
-              "pendingContext": null,
-              "pendingInteractionMap": Map {},
-              "timeoutHandle": -1,
-            },
-            "tag": 5,
-            "treeBaseDuration": 0,
-            "type": null,
-            "updateQueue": Object {
-              "baseState": Object {
-                "element": <WrapperComponent
-                  Component={[Function]}
-                  context={null}
-                  props={
-                    Object {
-                      "children": null,
-                      "contentAlign": "center",
-                      "image": "",
-                      "imageBorder": false,
-                      "imageCircle": true,
-                      "showBorder": true,
-                      "subTitle": "",
-                      "summary": "",
-                      "title": "",
-                    }
-                  }
-                />,
-              },
-              "firstCapturedEffect": null,
-              "firstCapturedUpdate": null,
-              "firstEffect": null,
-              "firstUpdate": null,
-              "lastCapturedEffect": null,
-              "lastCapturedUpdate": null,
-              "lastEffect": null,
-              "lastUpdate": null,
-            },
-          },
-          "selfBaseDuration": 0,
-          "sibling": null,
-          "stateNode": WrapperComponent {
-            "_reactInternalFiber": [Circular],
-            "_reactInternalInstance": Object {},
-            "context": Object {},
-            "props": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "children": null,
-                "contentAlign": "center",
-                "image": "",
-                "imageBorder": false,
-                "imageCircle": true,
-                "showBorder": true,
-                "subTitle": "",
-                "summary": "",
-                "title": "",
-              },
-            },
-            "refs": Object {},
-            "state": Object {
-              "context": null,
-              "mount": true,
-              "props": Object {
-                "children": null,
-                "contentAlign": "center",
-                "image": "",
-                "imageBorder": false,
-                "imageCircle": true,
-                "showBorder": true,
-                "subTitle": "",
-                "summary": "",
-                "title": "",
-              },
-            },
-            "updater": Object {
-              "enqueueForceUpdate": [Function],
-              "enqueueReplaceState": [Function],
-              "enqueueSetState": [Function],
-              "isMounted": [Function],
-            },
-          },
-          "tag": 2,
-          "treeBaseDuration": 0,
-          "type": [Function],
-          "updateQueue": null,
-        },
-        "selfBaseDuration": 0,
-        "sibling": null,
-        "stateNode": [Circular],
-        "tag": 2,
-        "treeBaseDuration": 0,
-        "type": [Function],
-        "updateQueue": null,
-      },
-      "_reactInternalInstance": Object {},
-      "context": Object {},
-      "props": Object {
-        "children": null,
-        "contentAlign": "center",
-        "image": "",
-        "imageBorder": false,
-        "imageCircle": true,
-        "showBorder": true,
-        "subTitle": "",
-        "summary": "",
-        "title": "",
-      },
-      "refs": Object {},
-      "state": null,
-      "updater": Object {
-        "enqueueForceUpdate": [Function],
-        "enqueueReplaceState": [Function],
-        "enqueueSetState": [Function],
-        "isMounted": [Function],
-      },
-    },
-    "key": undefined,
-    "nodeType": "class",
-    "props": Object {
-      "children": null,
-      "contentAlign": "center",
-      "image": "",
-      "imageBorder": false,
-      "imageCircle": true,
-      "showBorder": true,
-      "subTitle": "",
-      "summary": "",
-      "title": "",
-    },
-    "ref": null,
-    "rendered": Object {
-      "instance": <div
-        class="card h-100 Card "
-      >
-        <div
-          class="card-body text-center"
-        >
-          
-          
-          
-          
-        </div>
-        <div
-          class="card-footer bg-transparent border-0 text-center"
-        />
-      </div>,
-      "key": undefined,
-      "nodeType": "host",
-      "props": Object {
-        "children": Array [
-          <div
-            className="card-body text-center"
-          >
-            
-            
-            
-            
-          </div>,
-          <div
-            className="card-footer bg-transparent border-0 text-center"
-          />,
-        ],
-        "className": "card h-100 Card ",
-      },
-      "ref": null,
-      "rendered": Array [
-        Object {
-          "instance": <div
-            class="card-body text-center"
-          >
-            
-            
-            
-            
-          </div>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "",
-              "",
-              "",
-              "",
-            ],
-            "className": "card-body text-center",
-          },
-          "ref": null,
-          "rendered": Array [
-            "",
-            "",
-            "",
-            "",
-          ],
-          "type": "div",
-        },
-        Object {
-          "instance": <div
-            class="card-footer bg-transparent border-0 text-center"
-          />,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": null,
-            "className": "card-footer bg-transparent border-0 text-center",
-          },
-          "ref": null,
-          "rendered": Array [
-            null,
-          ],
-          "type": "div",
-        },
-      ],
-      "type": "div",
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": Card {
-        "_reactInternalFiber": FiberNode {
-          "_debugID": 50,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": FiberNode {
-            "_debugID": 49,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": null,
-            "child": [Circular],
-            "childExpirationTime": 0,
-            "effectTag": 1,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "children": null,
-                "contentAlign": "center",
-                "image": "",
-                "imageBorder": false,
-                "imageCircle": true,
-                "showBorder": true,
-                "subTitle": "",
-                "summary": "",
-                "title": "",
-              },
-            },
-            "memoizedState": Object {
-              "context": null,
-              "mount": true,
-              "props": Object {
-                "children": null,
-                "contentAlign": "center",
-                "image": "",
-                "imageBorder": false,
-                "imageCircle": true,
-                "showBorder": true,
-                "subTitle": "",
-                "summary": "",
-                "title": "",
-              },
-            },
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "children": null,
-                "contentAlign": "center",
-                "image": "",
-                "imageBorder": false,
-                "imageCircle": true,
-                "showBorder": true,
-                "subTitle": "",
-                "summary": "",
-                "title": "",
-              },
-            },
-            "ref": null,
-            "return": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": FiberNode {
-                "_debugID": 47,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": [Circular],
-                "child": null,
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "expirationTime": 1,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": null,
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": null,
-                "ref": null,
-                "return": null,
-                "selfBaseDuration": 0,
-                "sibling": null,
-                "stateNode": Object {
-                  "containerInfo": <div>
-                    <div
-                      class="card h-100 Card "
-                    >
-                      <div
-                        class="card-body text-center"
-                      >
-                        
-                        
-                        
-                        
-                      </div>
-                      <div
-                        class="card-footer bg-transparent border-0 text-center"
-                      />
-                    </div>
-                  </div>,
-                  "context": Object {},
-                  "current": [Circular],
-                  "didError": false,
-                  "earliestPendingTime": 0,
-                  "earliestSuspendedTime": 0,
-                  "expirationTime": 0,
-                  "finishedWork": null,
-                  "firstBatch": null,
-                  "hydrate": false,
-                  "interactionThreadID": 12,
-                  "latestPendingTime": 0,
-                  "latestPingedTime": 0,
-                  "latestSuspendedTime": 0,
-                  "memoizedInteractions": Set {},
-                  "nextExpirationTimeToWorkOn": 0,
-                  "nextScheduledRoot": null,
-                  "pendingChildren": null,
-                  "pendingCommitExpirationTime": 0,
-                  "pendingContext": null,
-                  "pendingInteractionMap": Map {},
-                  "timeoutHandle": -1,
-                },
-                "tag": 5,
-                "treeBaseDuration": 0,
-                "type": null,
-                "updateQueue": Object {
-                  "baseState": null,
-                  "firstCapturedEffect": null,
-                  "firstCapturedUpdate": null,
-                  "firstEffect": null,
-                  "firstUpdate": Object {
-                    "callback": null,
-                    "expirationTime": 1,
-                    "next": null,
-                    "nextEffect": null,
-                    "payload": Object {
-                      "element": <WrapperComponent
-                        Component={[Function]}
-                        context={null}
-                        props={
-                          Object {
-                            "children": null,
-                            "contentAlign": "center",
-                            "image": "",
-                            "imageBorder": false,
-                            "imageCircle": true,
-                            "showBorder": true,
-                            "subTitle": "",
-                            "summary": "",
-                            "title": "",
-                          }
-                        }
-                      />,
-                    },
-                    "tag": 0,
-                  },
-                  "lastCapturedEffect": null,
-                  "lastCapturedUpdate": null,
-                  "lastEffect": null,
-                  "lastUpdate": Object {
-                    "callback": null,
-                    "expirationTime": 1,
-                    "next": null,
-                    "nextEffect": null,
-                    "payload": Object {
-                      "element": <WrapperComponent
-                        Component={[Function]}
-                        context={null}
-                        props={
-                          Object {
-                            "children": null,
-                            "contentAlign": "center",
-                            "image": "",
-                            "imageBorder": false,
-                            "imageCircle": true,
-                            "showBorder": true,
-                            "subTitle": "",
-                            "summary": "",
-                            "title": "",
-                          }
-                        }
-                      />,
-                    },
-                    "tag": 0,
-                  },
-                },
-              },
-              "child": [Circular],
-              "childExpirationTime": 0,
-              "effectTag": 32,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": [Circular],
-              "index": 0,
-              "key": null,
-              "lastEffect": [Circular],
-              "memoizedProps": null,
-              "memoizedState": Object {
-                "element": <WrapperComponent
-                  Component={[Function]}
-                  context={null}
-                  props={
-                    Object {
-                      "children": null,
-                      "contentAlign": "center",
-                      "image": "",
-                      "imageBorder": false,
-                      "imageCircle": true,
-                      "showBorder": true,
-                      "subTitle": "",
-                      "summary": "",
-                      "title": "",
-                    }
-                  }
-                />,
-              },
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": null,
-              "ref": null,
-              "return": null,
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": Object {
-                "containerInfo": <div>
-                  <div
-                    class="card h-100 Card "
-                  >
-                    <div
-                      class="card-body text-center"
-                    >
-                      
-                      
-                      
-                      
-                    </div>
-                    <div
-                      class="card-footer bg-transparent border-0 text-center"
-                    />
-                  </div>
-                </div>,
-                "context": Object {},
-                "current": [Circular],
-                "didError": false,
-                "earliestPendingTime": 0,
-                "earliestSuspendedTime": 0,
-                "expirationTime": 0,
-                "finishedWork": null,
-                "firstBatch": null,
-                "hydrate": false,
-                "interactionThreadID": 12,
-                "latestPendingTime": 0,
-                "latestPingedTime": 0,
-                "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
-                "nextExpirationTimeToWorkOn": 0,
-                "nextScheduledRoot": null,
-                "pendingChildren": null,
-                "pendingCommitExpirationTime": 0,
-                "pendingContext": null,
-                "pendingInteractionMap": Map {},
-                "timeoutHandle": -1,
-              },
-              "tag": 5,
-              "treeBaseDuration": 0,
-              "type": null,
-              "updateQueue": Object {
-                "baseState": Object {
-                  "element": <WrapperComponent
-                    Component={[Function]}
-                    context={null}
-                    props={
-                      Object {
-                        "children": null,
-                        "contentAlign": "center",
-                        "image": "",
-                        "imageBorder": false,
-                        "imageCircle": true,
-                        "showBorder": true,
-                        "subTitle": "",
-                        "summary": "",
-                        "title": "",
-                      }
-                    }
-                  />,
-                },
-                "firstCapturedEffect": null,
-                "firstCapturedUpdate": null,
-                "firstEffect": null,
-                "firstUpdate": null,
-                "lastCapturedEffect": null,
-                "lastCapturedUpdate": null,
-                "lastEffect": null,
-                "lastUpdate": null,
-              },
-            },
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": WrapperComponent {
-              "_reactInternalFiber": [Circular],
-              "_reactInternalInstance": Object {},
-              "context": Object {},
-              "props": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "children": null,
-                  "contentAlign": "center",
-                  "image": "",
-                  "imageBorder": false,
-                  "imageCircle": true,
-                  "showBorder": true,
-                  "subTitle": "",
-                  "summary": "",
-                  "title": "",
-                },
-              },
-              "refs": Object {},
-              "state": Object {
-                "context": null,
-                "mount": true,
-                "props": Object {
-                  "children": null,
-                  "contentAlign": "center",
-                  "image": "",
-                  "imageBorder": false,
-                  "imageCircle": true,
-                  "showBorder": true,
-                  "subTitle": "",
-                  "summary": "",
-                  "title": "",
-                },
-              },
-              "updater": Object {
-                "enqueueForceUpdate": [Function],
-                "enqueueReplaceState": [Function],
-                "enqueueSetState": [Function],
-                "isMounted": [Function],
-              },
-            },
-            "tag": 2,
-            "treeBaseDuration": 0,
-            "type": [Function],
-            "updateQueue": null,
-          },
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
-          "alternate": null,
-          "child": FiberNode {
-            "_debugID": 51,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": null,
-            "child": FiberNode {
-              "_debugID": 52,
               "_debugIsCurrentlyTiming": false,
               "_debugOwner": [Circular],
               "_debugSource": null,
@@ -1671,38 +531,7 @@ ReactWrapper {
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
-                    "sibling": FiberNode {
-                      "_debugID": 57,
-                      "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": null,
-                      "_debugSource": null,
-                      "actualDuration": 0,
-                      "actualStartTime": -1,
-                      "alternate": null,
-                      "child": null,
-                      "childExpirationTime": 0,
-                      "effectTag": 0,
-                      "expirationTime": 0,
-                      "firstContextDependency": null,
-                      "firstEffect": null,
-                      "index": 3,
-                      "key": null,
-                      "lastEffect": null,
-                      "memoizedProps": "",
-                      "memoizedState": null,
-                      "mode": 0,
-                      "nextEffect": null,
-                      "pendingProps": "",
-                      "ref": null,
-                      "return": [Circular],
-                      "selfBaseDuration": 0,
-                      "sibling": null,
-                      "stateNode": ,
-                      "tag": 8,
-                      "treeBaseDuration": 0,
-                      "type": null,
-                      "updateQueue": null,
-                    },
+                    "sibling": null,
                     "stateNode": ,
                     "tag": 8,
                     "treeBaseDuration": 0,
@@ -1726,12 +555,11 @@ ReactWrapper {
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
-              "index": 0,
+              "index": 1,
               "key": null,
               "lastEffect": null,
               "memoizedProps": Object {
                 "children": Array [
-                  "",
                   "",
                   "",
                   "",
@@ -1746,57 +574,16 @@ ReactWrapper {
                   "",
                   "",
                   "",
-                  "",
                 ],
                 "className": "card-body text-center",
               },
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
-              "sibling": FiberNode {
-                "_debugID": 53,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": [Circular],
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": null,
-                "child": null,
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "expirationTime": 0,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 1,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": null,
-                  "className": "card-footer bg-transparent border-0 text-center",
-                },
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": Object {
-                  "children": null,
-                  "className": "card-footer bg-transparent border-0 text-center",
-                },
-                "ref": null,
-                "return": [Circular],
-                "selfBaseDuration": 0,
-                "sibling": null,
-                "stateNode": <div
-                  class="card-footer bg-transparent border-0 text-center"
-                />,
-                "tag": 7,
-                "treeBaseDuration": 0,
-                "type": "div",
-                "updateQueue": null,
-              },
+              "sibling": null,
               "stateNode": <div
                 class="card-body text-center"
               >
-                
                 
                 
                 
@@ -1806,73 +593,121 @@ ReactWrapper {
               "type": "div",
               "updateQueue": null,
             },
-            "childExpirationTime": 0,
-            "effectTag": 0,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "children": Array [
-                <div
-                  className="card-body text-center"
-                >
-                  
-                  
-                  
-                  
-                </div>,
-                <div
-                  className="card-footer bg-transparent border-0 text-center"
-                />,
-              ],
-              "className": "card h-100 Card ",
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "children": Array [
-                <div
-                  className="card-body text-center"
-                >
-                  
-                  
-                  
-                  
-                </div>,
-                <div
-                  className="card-footer bg-transparent border-0 text-center"
-                />,
-              ],
-              "className": "card h-100 Card ",
-            },
-            "ref": null,
-            "return": [Circular],
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": <div
-              class="card h-100 Card "
-            >
+            "stateNode": ,
+            "tag": 8,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 0,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": Array [
+              "",
               <div
-                class="card-body text-center"
+                className="card-body text-center"
               >
                 
                 
                 
-                
-              </div>
-              <div
-                class="card-footer bg-transparent border-0 text-center"
-              />
-            </div>,
-            "tag": 7,
-            "treeBaseDuration": 0,
-            "type": "div",
-            "updateQueue": null,
+              </div>,
+              null,
+            ],
+            "className": "card h-100 Card  ",
           },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": Array [
+              "",
+              <div
+                className="card-body text-center"
+              >
+                
+                
+                
+              </div>,
+              null,
+            ],
+            "className": "card h-100 Card  ",
+          },
+          "ref": null,
+          "return": [Circular],
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": <div
+            class="card h-100 Card  "
+          >
+            
+            <div
+              class="card-body text-center"
+            >
+              
+              
+              
+            </div>
+          </div>,
+          "tag": 7,
+          "treeBaseDuration": 0,
+          "type": "div",
+          "updateQueue": null,
+        },
+        "childExpirationTime": 0,
+        "effectTag": 1,
+        "expirationTime": 0,
+        "firstContextDependency": null,
+        "firstEffect": null,
+        "index": 0,
+        "key": null,
+        "lastEffect": null,
+        "memoizedProps": Object {
+          "children": null,
+          "contentAlign": "center",
+          "image": "",
+          "imageBorder": false,
+          "imageCircle": true,
+          "imageShadow": false,
+          "shadow": false,
+          "showBorder": true,
+          "subTitle": "",
+          "summary": "",
+          "summaryJustified": false,
+          "title": "",
+        },
+        "memoizedState": null,
+        "mode": 0,
+        "nextEffect": null,
+        "pendingProps": Object {
+          "children": null,
+          "contentAlign": "center",
+          "image": "",
+          "imageBorder": false,
+          "imageCircle": true,
+          "imageShadow": false,
+          "shadow": false,
+          "showBorder": true,
+          "subTitle": "",
+          "summary": "",
+          "summaryJustified": false,
+          "title": "",
+        },
+        "ref": null,
+        "return": FiberNode {
+          "_debugID": 49,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": null,
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": [Circular],
           "childExpirationTime": 0,
           "effectTag": 1,
           "expirationTime": 0,
@@ -1882,32 +717,490 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": null,
-            "contentAlign": "center",
-            "image": "",
-            "imageBorder": false,
-            "imageCircle": true,
-            "showBorder": true,
-            "subTitle": "",
-            "summary": "",
-            "title": "",
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "children": null,
+              "contentAlign": "center",
+              "image": "",
+              "imageBorder": false,
+              "imageCircle": true,
+              "imageShadow": false,
+              "shadow": false,
+              "showBorder": true,
+              "subTitle": "",
+              "summary": "",
+              "summaryJustified": false,
+              "title": "",
+            },
           },
-          "memoizedState": null,
+          "memoizedState": Object {
+            "context": null,
+            "mount": true,
+            "props": Object {
+              "children": null,
+              "contentAlign": "center",
+              "image": "",
+              "imageBorder": false,
+              "imageCircle": true,
+              "imageShadow": false,
+              "shadow": false,
+              "showBorder": true,
+              "subTitle": "",
+              "summary": "",
+              "summaryJustified": false,
+              "title": "",
+            },
+          },
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": null,
-            "contentAlign": "center",
-            "image": "",
-            "imageBorder": false,
-            "imageCircle": true,
-            "showBorder": true,
-            "subTitle": "",
-            "summary": "",
-            "title": "",
+            "Component": [Function],
+            "context": null,
+            "props": Object {
+              "children": null,
+              "contentAlign": "center",
+              "image": "",
+              "imageBorder": false,
+              "imageCircle": true,
+              "imageShadow": false,
+              "shadow": false,
+              "showBorder": true,
+              "subTitle": "",
+              "summary": "",
+              "summaryJustified": false,
+              "title": "",
+            },
           },
           "ref": null,
           "return": FiberNode {
+            "_debugID": 47,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": [Circular],
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 1,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": null,
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                    class="card h-100 Card  "
+                  >
+                    
+                    <div
+                      class="card-body text-center"
+                    >
+                      
+                      
+                      
+                    </div>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": null,
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "children": null,
+                          "contentAlign": "center",
+                          "image": "",
+                          "imageBorder": false,
+                          "imageCircle": true,
+                          "imageShadow": false,
+                          "shadow": false,
+                          "showBorder": true,
+                          "subTitle": "",
+                          "summary": "",
+                          "summaryJustified": false,
+                          "title": "",
+                        }
+                      }
+                    />,
+                  },
+                  "tag": 0,
+                },
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": Object {
+                  "callback": null,
+                  "expirationTime": 1,
+                  "next": null,
+                  "nextEffect": null,
+                  "payload": Object {
+                    "element": <WrapperComponent
+                      Component={[Function]}
+                      context={null}
+                      props={
+                        Object {
+                          "children": null,
+                          "contentAlign": "center",
+                          "image": "",
+                          "imageBorder": false,
+                          "imageCircle": true,
+                          "imageShadow": false,
+                          "shadow": false,
+                          "showBorder": true,
+                          "subTitle": "",
+                          "summary": "",
+                          "summaryJustified": false,
+                          "title": "",
+                        }
+                      }
+                    />,
+                  },
+                  "tag": 0,
+                },
+              },
+            },
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 32,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": [Circular],
+            "index": 0,
+            "key": null,
+            "lastEffect": [Circular],
+            "memoizedProps": null,
+            "memoizedState": Object {
+              "element": <WrapperComponent
+                Component={[Function]}
+                context={null}
+                props={
+                  Object {
+                    "children": null,
+                    "contentAlign": "center",
+                    "image": "",
+                    "imageBorder": false,
+                    "imageCircle": true,
+                    "imageShadow": false,
+                    "shadow": false,
+                    "showBorder": true,
+                    "subTitle": "",
+                    "summary": "",
+                    "summaryJustified": false,
+                    "title": "",
+                  }
+                }
+              />,
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": null,
+            "ref": null,
+            "return": null,
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": Object {
+              "containerInfo": <div>
+                <div
+                  class="card h-100 Card  "
+                >
+                  
+                  <div
+                    class="card-body text-center"
+                  >
+                    
+                    
+                    
+                  </div>
+                </div>
+              </div>,
+              "context": Object {},
+              "current": [Circular],
+              "didError": false,
+              "earliestPendingTime": 0,
+              "earliestSuspendedTime": 0,
+              "expirationTime": 0,
+              "finishedWork": null,
+              "firstBatch": null,
+              "hydrate": false,
+              "interactionThreadID": 12,
+              "latestPendingTime": 0,
+              "latestPingedTime": 0,
+              "latestSuspendedTime": 0,
+              "memoizedInteractions": Set {},
+              "nextExpirationTimeToWorkOn": 0,
+              "nextScheduledRoot": null,
+              "pendingChildren": null,
+              "pendingCommitExpirationTime": 0,
+              "pendingContext": null,
+              "pendingInteractionMap": Map {},
+              "timeoutHandle": -1,
+            },
+            "tag": 5,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": Object {
+              "baseState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "children": null,
+                      "contentAlign": "center",
+                      "image": "",
+                      "imageBorder": false,
+                      "imageCircle": true,
+                      "imageShadow": false,
+                      "shadow": false,
+                      "showBorder": true,
+                      "subTitle": "",
+                      "summary": "",
+                      "summaryJustified": false,
+                      "title": "",
+                    }
+                  }
+                />,
+              },
+              "firstCapturedEffect": null,
+              "firstCapturedUpdate": null,
+              "firstEffect": null,
+              "firstUpdate": null,
+              "lastCapturedEffect": null,
+              "lastCapturedUpdate": null,
+              "lastEffect": null,
+              "lastUpdate": null,
+            },
+          },
+          "selfBaseDuration": 0,
+          "sibling": null,
+          "stateNode": WrapperComponent {
+            "_reactInternalFiber": [Circular],
+            "_reactInternalInstance": Object {},
+            "context": Object {},
+            "props": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "children": null,
+                "contentAlign": "center",
+                "image": "",
+                "imageBorder": false,
+                "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
+                "showBorder": true,
+                "subTitle": "",
+                "summary": "",
+                "summaryJustified": false,
+                "title": "",
+              },
+            },
+            "refs": Object {},
+            "state": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "children": null,
+                "contentAlign": "center",
+                "image": "",
+                "imageBorder": false,
+                "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
+                "showBorder": true,
+                "subTitle": "",
+                "summary": "",
+                "summaryJustified": false,
+                "title": "",
+              },
+            },
+            "updater": Object {
+              "enqueueForceUpdate": [Function],
+              "enqueueReplaceState": [Function],
+              "enqueueSetState": [Function],
+              "isMounted": [Function],
+            },
+          },
+          "tag": 2,
+          "treeBaseDuration": 0,
+          "type": [Function],
+          "updateQueue": null,
+        },
+        "selfBaseDuration": 0,
+        "sibling": null,
+        "stateNode": [Circular],
+        "tag": 2,
+        "treeBaseDuration": 0,
+        "type": [Function],
+        "updateQueue": null,
+      },
+      "_reactInternalInstance": Object {},
+      "context": Object {},
+      "props": Object {
+        "children": null,
+        "contentAlign": "center",
+        "image": "",
+        "imageBorder": false,
+        "imageCircle": true,
+        "imageShadow": false,
+        "shadow": false,
+        "showBorder": true,
+        "subTitle": "",
+        "summary": "",
+        "summaryJustified": false,
+        "title": "",
+      },
+      "refs": Object {},
+      "state": null,
+      "updater": Object {
+        "enqueueForceUpdate": [Function],
+        "enqueueReplaceState": [Function],
+        "enqueueSetState": [Function],
+        "isMounted": [Function],
+      },
+    },
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": null,
+      "contentAlign": "center",
+      "image": "",
+      "imageBorder": false,
+      "imageCircle": true,
+      "imageShadow": false,
+      "shadow": false,
+      "showBorder": true,
+      "subTitle": "",
+      "summary": "",
+      "summaryJustified": false,
+      "title": "",
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": <div
+        class="card h-100 Card  "
+      >
+        
+        <div
+          class="card-body text-center"
+        >
+          
+          
+          
+        </div>
+      </div>,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          "",
+          <div
+            className="card-body text-center"
+          >
+            
+            
+            
+          </div>,
+          null,
+        ],
+        "className": "card h-100 Card  ",
+      },
+      "ref": null,
+      "rendered": Array [
+        "",
+        Object {
+          "instance": <div
+            class="card-body text-center"
+          >
+            
+            
+            
+          </div>,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "",
+              "",
+              "",
+            ],
+            "className": "card-body text-center",
+          },
+          "ref": null,
+          "rendered": Array [
+            "",
+            "",
+            "",
+          ],
+          "type": "div",
+        },
+      ],
+      "type": "div",
+    },
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": Card {
+        "_reactInternalFiber": FiberNode {
+          "_debugID": 50,
+          "_debugIsCurrentlyTiming": false,
+          "_debugOwner": FiberNode {
             "_debugID": 49,
             "_debugIsCurrentlyTiming": false,
             "_debugOwner": null,
@@ -1933,9 +1226,12 @@ ReactWrapper {
                 "image": "",
                 "imageBorder": false,
                 "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
                 "showBorder": true,
                 "subTitle": "",
                 "summary": "",
+                "summaryJustified": false,
                 "title": "",
               },
             },
@@ -1948,9 +1244,12 @@ ReactWrapper {
                 "image": "",
                 "imageBorder": false,
                 "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
                 "showBorder": true,
                 "subTitle": "",
                 "summary": "",
+                "summaryJustified": false,
                 "title": "",
               },
             },
@@ -1965,9 +1264,12 @@ ReactWrapper {
                 "image": "",
                 "imageBorder": false,
                 "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
                 "showBorder": true,
                 "subTitle": "",
                 "summary": "",
+                "summaryJustified": false,
                 "title": "",
               },
             },
@@ -2008,19 +1310,16 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <div
-                      class="card h-100 Card "
+                      class="card h-100 Card  "
                     >
+                      
                       <div
                         class="card-body text-center"
                       >
                         
                         
                         
-                        
                       </div>
-                      <div
-                        class="card-footer bg-transparent border-0 text-center"
-                      />
                     </div>
                   </div>,
                   "context": Object {},
@@ -2069,9 +1368,12 @@ ReactWrapper {
                             "image": "",
                             "imageBorder": false,
                             "imageCircle": true,
+                            "imageShadow": false,
+                            "shadow": false,
                             "showBorder": true,
                             "subTitle": "",
                             "summary": "",
+                            "summaryJustified": false,
                             "title": "",
                           }
                         }
@@ -2098,9 +1400,12 @@ ReactWrapper {
                             "image": "",
                             "imageBorder": false,
                             "imageCircle": true,
+                            "imageShadow": false,
+                            "shadow": false,
                             "showBorder": true,
                             "subTitle": "",
                             "summary": "",
+                            "summaryJustified": false,
                             "title": "",
                           }
                         }
@@ -2131,9 +1436,12 @@ ReactWrapper {
                       "image": "",
                       "imageBorder": false,
                       "imageCircle": true,
+                      "imageShadow": false,
+                      "shadow": false,
                       "showBorder": true,
                       "subTitle": "",
                       "summary": "",
+                      "summaryJustified": false,
                       "title": "",
                     }
                   }
@@ -2149,19 +1457,16 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <div
-                    class="card h-100 Card "
+                    class="card h-100 Card  "
                   >
+                    
                     <div
                       class="card-body text-center"
                     >
                       
                       
                       
-                      
                     </div>
-                    <div
-                      class="card-footer bg-transparent border-0 text-center"
-                    />
                   </div>
                 </div>,
                 "context": Object {},
@@ -2201,9 +1506,12 @@ ReactWrapper {
                         "image": "",
                         "imageBorder": false,
                         "imageCircle": true,
+                        "imageShadow": false,
+                        "shadow": false,
                         "showBorder": true,
                         "subTitle": "",
                         "summary": "",
+                        "summaryJustified": false,
                         "title": "",
                       }
                     }
@@ -2234,9 +1542,12 @@ ReactWrapper {
                   "image": "",
                   "imageBorder": false,
                   "imageCircle": true,
+                  "imageShadow": false,
+                  "shadow": false,
                   "showBorder": true,
                   "subTitle": "",
                   "summary": "",
+                  "summaryJustified": false,
                   "title": "",
                 },
               },
@@ -2250,9 +1561,682 @@ ReactWrapper {
                   "image": "",
                   "imageBorder": false,
                   "imageCircle": true,
+                  "imageShadow": false,
+                  "shadow": false,
                   "showBorder": true,
                   "subTitle": "",
                   "summary": "",
+                  "summaryJustified": false,
+                  "title": "",
+                },
+              },
+              "updater": Object {
+                "enqueueForceUpdate": [Function],
+                "enqueueReplaceState": [Function],
+                "enqueueSetState": [Function],
+                "isMounted": [Function],
+              },
+            },
+            "tag": 2,
+            "treeBaseDuration": 0,
+            "type": [Function],
+            "updateQueue": null,
+          },
+          "_debugSource": null,
+          "actualDuration": 0,
+          "actualStartTime": -1,
+          "alternate": null,
+          "child": FiberNode {
+            "_debugID": 51,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": [Circular],
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": "",
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": "",
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": [Circular],
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": FiberNode {
+                  "_debugID": 54,
+                  "_debugIsCurrentlyTiming": false,
+                  "_debugOwner": null,
+                  "_debugSource": null,
+                  "actualDuration": 0,
+                  "actualStartTime": -1,
+                  "alternate": null,
+                  "child": null,
+                  "childExpirationTime": 0,
+                  "effectTag": 0,
+                  "expirationTime": 0,
+                  "firstContextDependency": null,
+                  "firstEffect": null,
+                  "index": 0,
+                  "key": null,
+                  "lastEffect": null,
+                  "memoizedProps": "",
+                  "memoizedState": null,
+                  "mode": 0,
+                  "nextEffect": null,
+                  "pendingProps": "",
+                  "ref": null,
+                  "return": [Circular],
+                  "selfBaseDuration": 0,
+                  "sibling": FiberNode {
+                    "_debugID": 55,
+                    "_debugIsCurrentlyTiming": false,
+                    "_debugOwner": null,
+                    "_debugSource": null,
+                    "actualDuration": 0,
+                    "actualStartTime": -1,
+                    "alternate": null,
+                    "child": null,
+                    "childExpirationTime": 0,
+                    "effectTag": 0,
+                    "expirationTime": 0,
+                    "firstContextDependency": null,
+                    "firstEffect": null,
+                    "index": 1,
+                    "key": null,
+                    "lastEffect": null,
+                    "memoizedProps": "",
+                    "memoizedState": null,
+                    "mode": 0,
+                    "nextEffect": null,
+                    "pendingProps": "",
+                    "ref": null,
+                    "return": [Circular],
+                    "selfBaseDuration": 0,
+                    "sibling": FiberNode {
+                      "_debugID": 56,
+                      "_debugIsCurrentlyTiming": false,
+                      "_debugOwner": null,
+                      "_debugSource": null,
+                      "actualDuration": 0,
+                      "actualStartTime": -1,
+                      "alternate": null,
+                      "child": null,
+                      "childExpirationTime": 0,
+                      "effectTag": 0,
+                      "expirationTime": 0,
+                      "firstContextDependency": null,
+                      "firstEffect": null,
+                      "index": 2,
+                      "key": null,
+                      "lastEffect": null,
+                      "memoizedProps": "",
+                      "memoizedState": null,
+                      "mode": 0,
+                      "nextEffect": null,
+                      "pendingProps": "",
+                      "ref": null,
+                      "return": [Circular],
+                      "selfBaseDuration": 0,
+                      "sibling": null,
+                      "stateNode": ,
+                      "tag": 8,
+                      "treeBaseDuration": 0,
+                      "type": null,
+                      "updateQueue": null,
+                    },
+                    "stateNode": ,
+                    "tag": 8,
+                    "treeBaseDuration": 0,
+                    "type": null,
+                    "updateQueue": null,
+                  },
+                  "stateNode": ,
+                  "tag": 8,
+                  "treeBaseDuration": 0,
+                  "type": null,
+                  "updateQueue": null,
+                },
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 1,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": Object {
+                  "children": Array [
+                    "",
+                    "",
+                    "",
+                  ],
+                  "className": "card-body text-center",
+                },
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": Object {
+                  "children": Array [
+                    "",
+                    "",
+                    "",
+                  ],
+                  "className": "card-body text-center",
+                },
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": <div
+                  class="card-body text-center"
+                >
+                  
+                  
+                  
+                </div>,
+                "tag": 7,
+                "treeBaseDuration": 0,
+                "type": "div",
+                "updateQueue": null,
+              },
+              "stateNode": ,
+              "tag": 8,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": null,
+            },
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "children": Array [
+                "",
+                <div
+                  className="card-body text-center"
+                >
+                  
+                  
+                  
+                </div>,
+                null,
+              ],
+              "className": "card h-100 Card  ",
+            },
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "children": Array [
+                "",
+                <div
+                  className="card-body text-center"
+                >
+                  
+                  
+                  
+                </div>,
+                null,
+              ],
+              "className": "card h-100 Card  ",
+            },
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": <div
+              class="card h-100 Card  "
+            >
+              
+              <div
+                class="card-body text-center"
+              >
+                
+                
+                
+              </div>
+            </div>,
+            "tag": 7,
+            "treeBaseDuration": 0,
+            "type": "div",
+            "updateQueue": null,
+          },
+          "childExpirationTime": 0,
+          "effectTag": 1,
+          "expirationTime": 0,
+          "firstContextDependency": null,
+          "firstEffect": null,
+          "index": 0,
+          "key": null,
+          "lastEffect": null,
+          "memoizedProps": Object {
+            "children": null,
+            "contentAlign": "center",
+            "image": "",
+            "imageBorder": false,
+            "imageCircle": true,
+            "imageShadow": false,
+            "shadow": false,
+            "showBorder": true,
+            "subTitle": "",
+            "summary": "",
+            "summaryJustified": false,
+            "title": "",
+          },
+          "memoizedState": null,
+          "mode": 0,
+          "nextEffect": null,
+          "pendingProps": Object {
+            "children": null,
+            "contentAlign": "center",
+            "image": "",
+            "imageBorder": false,
+            "imageCircle": true,
+            "imageShadow": false,
+            "shadow": false,
+            "showBorder": true,
+            "subTitle": "",
+            "summary": "",
+            "summaryJustified": false,
+            "title": "",
+          },
+          "ref": null,
+          "return": FiberNode {
+            "_debugID": 49,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": [Circular],
+            "childExpirationTime": 0,
+            "effectTag": 1,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "children": null,
+                "contentAlign": "center",
+                "image": "",
+                "imageBorder": false,
+                "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
+                "showBorder": true,
+                "subTitle": "",
+                "summary": "",
+                "summaryJustified": false,
+                "title": "",
+              },
+            },
+            "memoizedState": Object {
+              "context": null,
+              "mount": true,
+              "props": Object {
+                "children": null,
+                "contentAlign": "center",
+                "image": "",
+                "imageBorder": false,
+                "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
+                "showBorder": true,
+                "subTitle": "",
+                "summary": "",
+                "summaryJustified": false,
+                "title": "",
+              },
+            },
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": Object {
+              "Component": [Function],
+              "context": null,
+              "props": Object {
+                "children": null,
+                "contentAlign": "center",
+                "image": "",
+                "imageBorder": false,
+                "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
+                "showBorder": true,
+                "subTitle": "",
+                "summary": "",
+                "summaryJustified": false,
+                "title": "",
+              },
+            },
+            "ref": null,
+            "return": FiberNode {
+              "_debugID": 47,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": FiberNode {
+                "_debugID": 47,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": [Circular],
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 1,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 0,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": null,
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": null,
+                "ref": null,
+                "return": null,
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": Object {
+                  "containerInfo": <div>
+                    <div
+                      class="card h-100 Card  "
+                    >
+                      
+                      <div
+                        class="card-body text-center"
+                      >
+                        
+                        
+                        
+                      </div>
+                    </div>
+                  </div>,
+                  "context": Object {},
+                  "current": [Circular],
+                  "didError": false,
+                  "earliestPendingTime": 0,
+                  "earliestSuspendedTime": 0,
+                  "expirationTime": 0,
+                  "finishedWork": null,
+                  "firstBatch": null,
+                  "hydrate": false,
+                  "interactionThreadID": 12,
+                  "latestPendingTime": 0,
+                  "latestPingedTime": 0,
+                  "latestSuspendedTime": 0,
+                  "memoizedInteractions": Set {},
+                  "nextExpirationTimeToWorkOn": 0,
+                  "nextScheduledRoot": null,
+                  "pendingChildren": null,
+                  "pendingCommitExpirationTime": 0,
+                  "pendingContext": null,
+                  "pendingInteractionMap": Map {},
+                  "timeoutHandle": -1,
+                },
+                "tag": 5,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": Object {
+                  "baseState": null,
+                  "firstCapturedEffect": null,
+                  "firstCapturedUpdate": null,
+                  "firstEffect": null,
+                  "firstUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "children": null,
+                            "contentAlign": "center",
+                            "image": "",
+                            "imageBorder": false,
+                            "imageCircle": true,
+                            "imageShadow": false,
+                            "shadow": false,
+                            "showBorder": true,
+                            "subTitle": "",
+                            "summary": "",
+                            "summaryJustified": false,
+                            "title": "",
+                          }
+                        }
+                      />,
+                    },
+                    "tag": 0,
+                  },
+                  "lastCapturedEffect": null,
+                  "lastCapturedUpdate": null,
+                  "lastEffect": null,
+                  "lastUpdate": Object {
+                    "callback": null,
+                    "expirationTime": 1,
+                    "next": null,
+                    "nextEffect": null,
+                    "payload": Object {
+                      "element": <WrapperComponent
+                        Component={[Function]}
+                        context={null}
+                        props={
+                          Object {
+                            "children": null,
+                            "contentAlign": "center",
+                            "image": "",
+                            "imageBorder": false,
+                            "imageCircle": true,
+                            "imageShadow": false,
+                            "shadow": false,
+                            "showBorder": true,
+                            "subTitle": "",
+                            "summary": "",
+                            "summaryJustified": false,
+                            "title": "",
+                          }
+                        }
+                      />,
+                    },
+                    "tag": 0,
+                  },
+                },
+              },
+              "child": [Circular],
+              "childExpirationTime": 0,
+              "effectTag": 32,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": [Circular],
+              "index": 0,
+              "key": null,
+              "lastEffect": [Circular],
+              "memoizedProps": null,
+              "memoizedState": Object {
+                "element": <WrapperComponent
+                  Component={[Function]}
+                  context={null}
+                  props={
+                    Object {
+                      "children": null,
+                      "contentAlign": "center",
+                      "image": "",
+                      "imageBorder": false,
+                      "imageCircle": true,
+                      "imageShadow": false,
+                      "shadow": false,
+                      "showBorder": true,
+                      "subTitle": "",
+                      "summary": "",
+                      "summaryJustified": false,
+                      "title": "",
+                    }
+                  }
+                />,
+              },
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": null,
+              "ref": null,
+              "return": null,
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": Object {
+                "containerInfo": <div>
+                  <div
+                    class="card h-100 Card  "
+                  >
+                    
+                    <div
+                      class="card-body text-center"
+                    >
+                      
+                      
+                      
+                    </div>
+                  </div>
+                </div>,
+                "context": Object {},
+                "current": [Circular],
+                "didError": false,
+                "earliestPendingTime": 0,
+                "earliestSuspendedTime": 0,
+                "expirationTime": 0,
+                "finishedWork": null,
+                "firstBatch": null,
+                "hydrate": false,
+                "interactionThreadID": 12,
+                "latestPendingTime": 0,
+                "latestPingedTime": 0,
+                "latestSuspendedTime": 0,
+                "memoizedInteractions": Set {},
+                "nextExpirationTimeToWorkOn": 0,
+                "nextScheduledRoot": null,
+                "pendingChildren": null,
+                "pendingCommitExpirationTime": 0,
+                "pendingContext": null,
+                "pendingInteractionMap": Map {},
+                "timeoutHandle": -1,
+              },
+              "tag": 5,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": Object {
+                "baseState": Object {
+                  "element": <WrapperComponent
+                    Component={[Function]}
+                    context={null}
+                    props={
+                      Object {
+                        "children": null,
+                        "contentAlign": "center",
+                        "image": "",
+                        "imageBorder": false,
+                        "imageCircle": true,
+                        "imageShadow": false,
+                        "shadow": false,
+                        "showBorder": true,
+                        "subTitle": "",
+                        "summary": "",
+                        "summaryJustified": false,
+                        "title": "",
+                      }
+                    }
+                  />,
+                },
+                "firstCapturedEffect": null,
+                "firstCapturedUpdate": null,
+                "firstEffect": null,
+                "firstUpdate": null,
+                "lastCapturedEffect": null,
+                "lastCapturedUpdate": null,
+                "lastEffect": null,
+                "lastUpdate": null,
+              },
+            },
+            "selfBaseDuration": 0,
+            "sibling": null,
+            "stateNode": WrapperComponent {
+              "_reactInternalFiber": [Circular],
+              "_reactInternalInstance": Object {},
+              "context": Object {},
+              "props": Object {
+                "Component": [Function],
+                "context": null,
+                "props": Object {
+                  "children": null,
+                  "contentAlign": "center",
+                  "image": "",
+                  "imageBorder": false,
+                  "imageCircle": true,
+                  "imageShadow": false,
+                  "shadow": false,
+                  "showBorder": true,
+                  "subTitle": "",
+                  "summary": "",
+                  "summaryJustified": false,
+                  "title": "",
+                },
+              },
+              "refs": Object {},
+              "state": Object {
+                "context": null,
+                "mount": true,
+                "props": Object {
+                  "children": null,
+                  "contentAlign": "center",
+                  "image": "",
+                  "imageBorder": false,
+                  "imageCircle": true,
+                  "imageShadow": false,
+                  "shadow": false,
+                  "showBorder": true,
+                  "subTitle": "",
+                  "summary": "",
+                  "summaryJustified": false,
                   "title": "",
                 },
               },
@@ -2284,9 +2268,12 @@ ReactWrapper {
           "image": "",
           "imageBorder": false,
           "imageCircle": true,
+          "imageShadow": false,
+          "shadow": false,
           "showBorder": true,
           "subTitle": "",
           "summary": "",
+          "summaryJustified": false,
           "title": "",
         },
         "refs": Object {},
@@ -2306,53 +2293,51 @@ ReactWrapper {
         "image": "",
         "imageBorder": false,
         "imageCircle": true,
+        "imageShadow": false,
+        "shadow": false,
         "showBorder": true,
         "subTitle": "",
         "summary": "",
+        "summaryJustified": false,
         "title": "",
       },
       "ref": null,
       "rendered": Object {
         "instance": <div
-          class="card h-100 Card "
+          class="card h-100 Card  "
         >
+          
           <div
             class="card-body text-center"
           >
             
             
             
-            
           </div>
-          <div
-            class="card-footer bg-transparent border-0 text-center"
-          />
         </div>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
+            "",
             <div
               className="card-body text-center"
             >
               
               
               
-              
             </div>,
-            <div
-              className="card-footer bg-transparent border-0 text-center"
-            />,
+            null,
           ],
-          "className": "card h-100 Card ",
+          "className": "card h-100 Card  ",
         },
         "ref": null,
         "rendered": Array [
+          "",
           Object {
             "instance": <div
               class="card-body text-center"
             >
-              
               
               
               
@@ -2364,7 +2349,6 @@ ReactWrapper {
                 "",
                 "",
                 "",
-                "",
               ],
               "className": "card-body text-center",
             },
@@ -2373,23 +2357,6 @@ ReactWrapper {
               "",
               "",
               "",
-              "",
-            ],
-            "type": "div",
-          },
-          Object {
-            "instance": <div
-              class="card-footer bg-transparent border-0 text-center"
-            />,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": null,
-              "className": "card-footer bg-transparent border-0 text-center",
-            },
-            "ref": null,
-            "rendered": Array [
-              null,
             ],
             "type": "div",
           },

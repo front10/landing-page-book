@@ -47,26 +47,31 @@ You can use Hero component with children too:
 
 ## Properties:
 
-| </br>Name    | </br>Type | </br>Summary                                                                       |
-| ------------ | --------- | ---------------------------------------------------------------------------------- |
-| showBorder   | `Boolean` | Show or hide border. Default `true`                                                |
-| imageCircle  | `Boolean` | Define if image is circular. Default `true`                                        |
-| imageBorder  | `Boolean` | Define if image is with border. Default `false`                                    |
-| image        | `String`  | Image url. Default `""`                                                            |
-| title        | `String`  | Card title. Default `""`                                                           |
-| subTitle     | `String`  | Card subtitle. Default `""`                                                        |
-| summary      | `String`  | Card summary. Default `""`                                                         |
-| contentAlign | `String`  | Content align in the card. Default `"center"`, can be `left`, `center` and `right` |
+| </br>Name        | </br>Type | </br>Summary                                                                       |
+| ---------------- | --------- | ---------------------------------------------------------------------------------- |
+| showBorder       | `Boolean` | Show or hide border. Default `true`                                                |
+| imageCircle      | `Boolean` | Define if image is circular. Default `true`                                        |
+| imageBorder      | `Boolean` | Define if image is with border. Default `false`                                    |
+| imageShadow      | `Boolean` | Define if image show with shadow. Default `false`                                  |
+| imageShadow      | `Boolean` | Define if image show with shadow. Default `false`                                  |
+| shadow           | `Boolean` | Define if card show with shadow. Default `false`                                   |
+| summaryJustified | `Boolean` | Define if card summary is justified. Default `false`                               |
+| image            | `String`  | Image url. Default `""`                                                            |
+| title            | `String`  | Card title. Default `""`                                                           |
+| subTitle         | `String`  | Card subtitle. Default `""`                                                        |
+| summary          | `String`  | Card summary. Default `""`                                                         |
+| contentAlign     | `String`  | Content align in the card. Default `"center"`, can be `left`, `center` and `right` |
 
 ## Theming variables
 
-| </br>Name                         | </br>Summary                    | </br>Default |
-| --------------------------------- | ------------------------------- | ------------ |
-| --Card-borderRadius               | Card's border radius            | `0px`        |
-| --Card\_\_Summary-fontSize        | Card's summary font size        | `0.8rem`     |
-| --Card\_\_Summary-color           | Card's summary color            | `#000`       |
-| --Card\_\_Summary-backgroundColor | Card's summary background color | `#fff`       |
-| --Card\_\_Title-fontSize          | Card's title font size          | `1.2rem`     |
-| --Card\_\_Title-color             | Card's title color              | `#000`       |
-| --Card\_\_Subtitle-fontSize       | Card's subtitle font size       | `0.9rem`     |
-| --Card\_\_Subtitle-color          | Card's subtitle color           | `#b5b5b5`    |
+| </br>Name                         | </br>Summary                    | </br>Default                                                         |
+| --------------------------------- | ------------------------------- | -------------------------------------------------------------------- |
+| --Card-borderRadius               | Card's border radius            | `0px`                                                                |
+| --Card\_\_Summary-fontSize        | Card's summary font size        | `0.8rem`                                                             |
+| --Card\_\_Summary-color           | Card's summary color            | `#000`                                                               |
+| --Card\_\_Summary-backgroundColor | Card's summary background color | `#fff`                                                               |
+| --Card\_\_Title-fontSize          | Card's title font size          | `1.2rem`                                                             |
+| --Card\_\_Title-color             | Card's title color              | `#000`                                                               |
+| --Card\_\_Subtitle-fontSize       | Card's subtitle font size       | `0.9rem`                                                             |
+| --Card\_\_Subtitle-color          | Card's subtitle color           | `#b5b5b5`                                                            |
+| --Card-boxShadow                  | Card's box shadow               | `0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15)` |

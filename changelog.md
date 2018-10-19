@@ -5,12 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [1.3.0] Umreleased
+## [1.3.0] Unreleased
 
 #### Added
 
-- [?] Theming variables `--Team__Image-width`, `--Team__Image-height`, by [@ycgarrido](https://github.com/ycgarrido)
-- [?] Props `shadow`, `imageShadow`, `topColor` to Team, by [@ycgarrido](https://github.com/ycgarrido)
+- [#152](https://github.com/front10/landing-page-book/pull/152) Theming variables `--Team__Image-width`, `--Team__Image-height`, by [@ycgarrido](https://github.com/ycgarrido)
+- [#152](https://github.com/front10/landing-page-book/pull/152) Props `shadow`, `imageShadow`, `topColor` to Team, by [@ycgarrido](https://github.com/ycgarrido)
+
+#### Change
+
+- [#153](https://github.com/front10/landing-page-book/pull/153) Theming variables `--CodeMirror__Footer-backgroundColor`, `--CodeMirror__Footer-color`, by [@jlfalcon3589](https://github.com/jlfalcon)
 
 ## [1.2.1] 2018-10-19
 

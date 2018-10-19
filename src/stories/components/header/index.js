@@ -4,11 +4,12 @@ import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
+import def from '../../mock/components/codes/header';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Header } from '../../../components';
+import { Header, Code } from '../../../components';
 import Readme from '../../../components/Header/README.md';
 
 setAddon(JSXAddon);
@@ -32,6 +33,16 @@ stories.addWithJSX(
       >
         This is a header
       </Header>
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

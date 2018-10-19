@@ -202,7 +202,7 @@ stories.addWithJSX(
                 imageShadow
                 subTitle="Our universe"
                 summary="Results from viewing Type 1a supernova have shown that the expansion
-                of the universe is accelerating. Dark energy is the reason for this acceleration."
+                  of the universe is accelerating. Dark energy is the reason for this acceleration."
                 title="Dark Energy"
               />
             </Column>

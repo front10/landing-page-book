@@ -74,7 +74,7 @@ stories.addWithJSX(
 );
 
 stories.addWithJSX(
-  'Code css',
+  'Code Css',
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader

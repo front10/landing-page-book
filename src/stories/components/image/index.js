@@ -28,6 +28,7 @@ stories.addWithJSX(
       <Image
         border={boolean('Border', false)}
         rounded={boolean('Rounded', false)}
+        shadow={boolean('Shadow', false)}
         alt={text('Alt', 'This is an image example')}
         src={text('Source', 'images/backers/woman.svg')}
         tooltip={text('Tooltip', 'This is a woman')}

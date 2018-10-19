@@ -11,7 +11,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Section, Video, Button, Container, Code, Row, Column } from '../../../components';
 import Readme from '../../../components/Section/README.md';
 
-import def from '../../mock/components/codes/section';
+import { def, twoColumnText } from '../../mock/components/codes/section';
 
 setAddon(JSXAddon);
 
@@ -148,18 +148,31 @@ stories.addWithJSX(
           <Row>
             <Column className="col-12 col-sm-6">
               <p style={pStyle}>
-                Once upon a time, there was a boy named James. He always got pushed around. One day, a wizard appeared in front of the boy. The wizard gave James three wishes. One of James wishes was that tge wizard could make James go away. The next day James tried to make a wish, but he found himself to be in the land of the forgotten.
+                Once upon a time, there was a boy named James. He always got pushed around. One day,
+                a wizard appeared in front of the boy. The wizard gave James three wishes. One of
+                James wishes was that tge wizard could make James go away. The next day James tried
+                to make a wish, but he found himself to be in the land of the forgotten.
               </p>
             </Column>
             <Column className="col-12 col-sm-6">
               <p style={pStyle}>
-                Once upon a time, there was a boy named James. He always got pushed around. One day, a wizard appeared in front of the boy. The wizard gave James three wishes. One of James wishes was that tge wizard could make James go away. The next day James tried to make a wish, but he found himself to be in the land of the forgotten.
+                Once upon a time, there was a boy named James. He always got pushed around. One day,
+                a wizard appeared in front of the boy. The wizard gave James three wishes. One of
+                James wishes was that tge wizard could make James go away. The next day James tried
+                to make a wish, but he found himself to be in the land of the forgotten.
               </p>
             </Column>
           </Row>
         </Container>
       </Section>
-      <Code code={def} languageCode="jsx" readOnly collapsible collapsed showDeleteButton={false} />
+      <Code
+        code={twoColumnText}
+        languageCode="jsx"
+        readOnly
+        collapsible
+        collapsed
+        showDeleteButton={false}
+      />
     </ThemeSelector>
   )),
   jsxConfig

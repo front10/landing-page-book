@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.1] 2018-10-19
+
+#### Change
+
+- [#151](https://github.com/front10/landing-page-book/pull/151) homepage to `https://front10.com/landing-page-book` in `package.json`, by [@rootlinux2](https://github.com/rootlinux2)
+
 ## [1.2.0] 2018-10-19
 
 #### Added
@@ -14,8 +20,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - [#151](https://github.com/front10/landing-page-book/pull/151) Prop `outline` to Button, `imageShadow`, `shadow`, `showFooter`, `outlineButton` to Features, by [@ycgarrido](https://github.com/ycgarrido)
 - [#149](https://github.com/front10/landing-page-book/pull/149) Prop `shadow` to Image, `imageShadow`, `summaryJustified`, `shadow` to Card, by [@ycgarrido](https://github.com/ycgarrido)
 - [#149](https://github.com/front10/landing-page-book/pull/149) Theming variable `--Image-boxShadow`, `--Card-boxShadow`, by [@ycgarrido](https://github.com/ycgarrido)
-
-#### Change
 
 #### Remove
 

@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Social } from '../../../components';
+import { Social, Code } from '../../../components';
 import Readme from '../../../components/Social/README.md';
+import { def, all } from '../../mock/components/codes/social';
 
 setAddon(JSXAddon);
 
@@ -51,6 +52,16 @@ stories.addWithJSX(
         url={text('Url', 'https://front10.com')}
         directLink={boolean('Direct Link', false)}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -149,6 +160,16 @@ stories.addWithJSX(
         rounded={boolean('Rounded', true)}
         url={text('Url', 'https://front10.com')}
       />
+      <div className="mt-4">
+        <Code
+          code={all}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

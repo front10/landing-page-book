@@ -142,13 +142,7 @@ ReactWrapper {
                     class="card h-100 Card  "
                   >
                     
-                    <div
-                      class="card-body text-center"
-                    >
-                      
-                      
-                      
-                    </div>
+                    
                   </div>
                 </div>,
                 "context": Object {},
@@ -289,13 +283,7 @@ ReactWrapper {
                   class="card h-100 Card  "
                 >
                   
-                  <div
-                    class="card-body text-center"
-                  >
-                    
-                    
-                    
-                  </div>
+                  
                 </div>
               </div>,
               "context": Object {},
@@ -451,105 +439,12 @@ ReactWrapper {
             "sibling": FiberNode {
               "_debugID": 53,
               "_debugIsCurrentlyTiming": false,
-              "_debugOwner": [Circular],
+              "_debugOwner": null,
               "_debugSource": null,
               "actualDuration": 0,
               "actualStartTime": -1,
               "alternate": null,
-              "child": FiberNode {
-                "_debugID": 54,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": null,
-                "child": null,
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "expirationTime": 0,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": "",
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": "",
-                "ref": null,
-                "return": [Circular],
-                "selfBaseDuration": 0,
-                "sibling": FiberNode {
-                  "_debugID": 55,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
-                  "_debugSource": null,
-                  "actualDuration": 0,
-                  "actualStartTime": -1,
-                  "alternate": null,
-                  "child": null,
-                  "childExpirationTime": 0,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstContextDependency": null,
-                  "firstEffect": null,
-                  "index": 1,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": "",
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": "",
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseDuration": 0,
-                  "sibling": FiberNode {
-                    "_debugID": 56,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
-                    "_debugSource": null,
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": null,
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 2,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": "",
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": "",
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": null,
-                    "stateNode": ,
-                    "tag": 8,
-                    "treeBaseDuration": 0,
-                    "type": null,
-                    "updateQueue": null,
-                  },
-                  "stateNode": ,
-                  "tag": 8,
-                  "treeBaseDuration": 0,
-                  "type": null,
-                  "updateQueue": null,
-                },
-                "stateNode": ,
-                "tag": 8,
-                "treeBaseDuration": 0,
-                "type": null,
-                "updateQueue": null,
-              },
+              "child": null,
               "childExpirationTime": 0,
               "effectTag": 0,
               "expirationTime": 0,
@@ -558,39 +453,19 @@ ReactWrapper {
               "index": 1,
               "key": null,
               "lastEffect": null,
-              "memoizedProps": Object {
-                "children": Array [
-                  "",
-                  "",
-                  "",
-                ],
-                "className": "card-body text-center",
-              },
+              "memoizedProps": "",
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
-              "pendingProps": Object {
-                "children": Array [
-                  "",
-                  "",
-                  "",
-                ],
-                "className": "card-body text-center",
-              },
+              "pendingProps": "",
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
               "sibling": null,
-              "stateNode": <div
-                class="card-body text-center"
-              >
-                
-                
-                
-              </div>,
-              "tag": 7,
+              "stateNode": ,
+              "tag": 8,
               "treeBaseDuration": 0,
-              "type": "div",
+              "type": null,
               "updateQueue": null,
             },
             "stateNode": ,
@@ -610,13 +485,7 @@ ReactWrapper {
           "memoizedProps": Object {
             "children": Array [
               "",
-              <div
-                className="card-body text-center"
-              >
-                
-                
-                
-              </div>,
+              "",
               null,
             ],
             "className": "card h-100 Card  ",
@@ -627,13 +496,7 @@ ReactWrapper {
           "pendingProps": Object {
             "children": Array [
               "",
-              <div
-                className="card-body text-center"
-              >
-                
-                
-                
-              </div>,
+              "",
               null,
             ],
             "className": "card h-100 Card  ",
@@ -646,13 +509,7 @@ ReactWrapper {
             class="card h-100 Card  "
           >
             
-            <div
-              class="card-body text-center"
-            >
-              
-              
-              
-            </div>
+            
           </div>,
           "tag": 7,
           "treeBaseDuration": 0,
@@ -812,13 +669,7 @@ ReactWrapper {
                     class="card h-100 Card  "
                   >
                     
-                    <div
-                      class="card-body text-center"
-                    >
-                      
-                      
-                      
-                    </div>
+                    
                   </div>
                 </div>,
                 "context": Object {},
@@ -959,13 +810,7 @@ ReactWrapper {
                   class="card h-100 Card  "
                 >
                   
-                  <div
-                    class="card-body text-center"
-                  >
-                    
-                    
-                    
-                  </div>
+                  
                 </div>
               </div>,
               "context": Object {},
@@ -1136,26 +981,14 @@ ReactWrapper {
         class="card h-100 Card  "
       >
         
-        <div
-          class="card-body text-center"
-        >
-          
-          
-          
-        </div>
+        
       </div>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
           "",
-          <div
-            className="card-body text-center"
-          >
-            
-            
-            
-          </div>,
+          "",
           null,
         ],
         "className": "card h-100 Card  ",
@@ -1163,32 +996,7 @@ ReactWrapper {
       "ref": null,
       "rendered": Array [
         "",
-        Object {
-          "instance": <div
-            class="card-body text-center"
-          >
-            
-            
-            
-          </div>,
-          "key": undefined,
-          "nodeType": "host",
-          "props": Object {
-            "children": Array [
-              "",
-              "",
-              "",
-            ],
-            "className": "card-body text-center",
-          },
-          "ref": null,
-          "rendered": Array [
-            "",
-            "",
-            "",
-          ],
-          "type": "div",
-        },
+        "",
       ],
       "type": "div",
     },
@@ -1313,13 +1121,7 @@ ReactWrapper {
                       class="card h-100 Card  "
                     >
                       
-                      <div
-                        class="card-body text-center"
-                      >
-                        
-                        
-                        
-                      </div>
+                      
                     </div>
                   </div>,
                   "context": Object {},
@@ -1460,13 +1262,7 @@ ReactWrapper {
                     class="card h-100 Card  "
                   >
                     
-                    <div
-                      class="card-body text-center"
-                    >
-                      
-                      
-                      
-                    </div>
+                    
                   </div>
                 </div>,
                 "context": Object {},
@@ -1622,105 +1418,12 @@ ReactWrapper {
               "sibling": FiberNode {
                 "_debugID": 53,
                 "_debugIsCurrentlyTiming": false,
-                "_debugOwner": [Circular],
+                "_debugOwner": null,
                 "_debugSource": null,
                 "actualDuration": 0,
                 "actualStartTime": -1,
                 "alternate": null,
-                "child": FiberNode {
-                  "_debugID": 54,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
-                  "_debugSource": null,
-                  "actualDuration": 0,
-                  "actualStartTime": -1,
-                  "alternate": null,
-                  "child": null,
-                  "childExpirationTime": 0,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstContextDependency": null,
-                  "firstEffect": null,
-                  "index": 0,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": "",
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": "",
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseDuration": 0,
-                  "sibling": FiberNode {
-                    "_debugID": 55,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
-                    "_debugSource": null,
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": null,
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 1,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": "",
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": "",
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": FiberNode {
-                      "_debugID": 56,
-                      "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": null,
-                      "_debugSource": null,
-                      "actualDuration": 0,
-                      "actualStartTime": -1,
-                      "alternate": null,
-                      "child": null,
-                      "childExpirationTime": 0,
-                      "effectTag": 0,
-                      "expirationTime": 0,
-                      "firstContextDependency": null,
-                      "firstEffect": null,
-                      "index": 2,
-                      "key": null,
-                      "lastEffect": null,
-                      "memoizedProps": "",
-                      "memoizedState": null,
-                      "mode": 0,
-                      "nextEffect": null,
-                      "pendingProps": "",
-                      "ref": null,
-                      "return": [Circular],
-                      "selfBaseDuration": 0,
-                      "sibling": null,
-                      "stateNode": ,
-                      "tag": 8,
-                      "treeBaseDuration": 0,
-                      "type": null,
-                      "updateQueue": null,
-                    },
-                    "stateNode": ,
-                    "tag": 8,
-                    "treeBaseDuration": 0,
-                    "type": null,
-                    "updateQueue": null,
-                  },
-                  "stateNode": ,
-                  "tag": 8,
-                  "treeBaseDuration": 0,
-                  "type": null,
-                  "updateQueue": null,
-                },
+                "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 0,
                 "expirationTime": 0,
@@ -1729,39 +1432,19 @@ ReactWrapper {
                 "index": 1,
                 "key": null,
                 "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": Array [
-                    "",
-                    "",
-                    "",
-                  ],
-                  "className": "card-body text-center",
-                },
+                "memoizedProps": "",
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
-                "pendingProps": Object {
-                  "children": Array [
-                    "",
-                    "",
-                    "",
-                  ],
-                  "className": "card-body text-center",
-                },
+                "pendingProps": "",
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
                 "sibling": null,
-                "stateNode": <div
-                  class="card-body text-center"
-                >
-                  
-                  
-                  
-                </div>,
-                "tag": 7,
+                "stateNode": ,
+                "tag": 8,
                 "treeBaseDuration": 0,
-                "type": "div",
+                "type": null,
                 "updateQueue": null,
               },
               "stateNode": ,
@@ -1781,13 +1464,7 @@ ReactWrapper {
             "memoizedProps": Object {
               "children": Array [
                 "",
-                <div
-                  className="card-body text-center"
-                >
-                  
-                  
-                  
-                </div>,
+                "",
                 null,
               ],
               "className": "card h-100 Card  ",
@@ -1798,13 +1475,7 @@ ReactWrapper {
             "pendingProps": Object {
               "children": Array [
                 "",
-                <div
-                  className="card-body text-center"
-                >
-                  
-                  
-                  
-                </div>,
+                "",
                 null,
               ],
               "className": "card h-100 Card  ",
@@ -1817,13 +1488,7 @@ ReactWrapper {
               class="card h-100 Card  "
             >
               
-              <div
-                class="card-body text-center"
-              >
-                
-                
-                
-              </div>
+              
             </div>,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -1983,13 +1648,7 @@ ReactWrapper {
                       class="card h-100 Card  "
                     >
                       
-                      <div
-                        class="card-body text-center"
-                      >
-                        
-                        
-                        
-                      </div>
+                      
                     </div>
                   </div>,
                   "context": Object {},
@@ -2130,13 +1789,7 @@ ReactWrapper {
                     class="card h-100 Card  "
                   >
                     
-                    <div
-                      class="card-body text-center"
-                    >
-                      
-                      
-                      
-                    </div>
+                    
                   </div>
                 </div>,
                 "context": Object {},
@@ -2307,26 +1960,14 @@ ReactWrapper {
           class="card h-100 Card  "
         >
           
-          <div
-            class="card-body text-center"
-          >
-            
-            
-            
-          </div>
+          
         </div>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
             "",
-            <div
-              className="card-body text-center"
-            >
-              
-              
-              
-            </div>,
+            "",
             null,
           ],
           "className": "card h-100 Card  ",
@@ -2334,32 +1975,7 @@ ReactWrapper {
         "ref": null,
         "rendered": Array [
           "",
-          Object {
-            "instance": <div
-              class="card-body text-center"
-            >
-              
-              
-              
-            </div>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "",
-                "",
-                "",
-              ],
-              "className": "card-body text-center",
-            },
-            "ref": null,
-            "rendered": Array [
-              "",
-              "",
-              "",
-            ],
-            "type": "div",
-          },
+          "",
         ],
         "type": "div",
       },

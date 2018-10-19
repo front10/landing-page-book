@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Video } from '../../../components';
+import { Video, Code } from '../../../components';
 import Readme from '../../../components/Video/README.md';
+import def from '../../mock/components/codes/video';
 
 setAddon(JSXAddon);
 
@@ -33,6 +34,16 @@ stories.addWithJSX(
         volume={number('Volume', 1)}
         source={text('Source', 'https://youtu.be/dCrLwWdju68')}
       />
+      <div className="mt-4 pt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

@@ -71,6 +71,7 @@ ShallowWrapper {
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
+                  outline={false}
                   tooltip="Copy"
                   type="button"
                 >
@@ -89,6 +90,7 @@ ShallowWrapper {
                 loading={false}
                 loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
+                outline={false}
                 tooltip="Clear"
                 type="button"
               >
@@ -164,6 +166,7 @@ ShallowWrapper {
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
+                    outline={false}
                     tooltip="Copy"
                     type="button"
                   >
@@ -182,6 +185,7 @@ ShallowWrapper {
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
+                  outline={false}
                   tooltip="Clear"
                   type="button"
                 >
@@ -243,6 +247,7 @@ ShallowWrapper {
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
+                    outline={false}
                     tooltip="Copy"
                     type="button"
                   >
@@ -261,6 +266,7 @@ ShallowWrapper {
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
+                  outline={false}
                   tooltip="Clear"
                   type="button"
                 >
@@ -304,6 +310,7 @@ ShallowWrapper {
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
+                      outline={false}
                       tooltip="Copy"
                       type="button"
                     >
@@ -322,6 +329,7 @@ ShallowWrapper {
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
+                    outline={false}
                     tooltip="Clear"
                     type="button"
                   >
@@ -348,6 +356,7 @@ ShallowWrapper {
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
+                      outline={false}
                       tooltip="Copy"
                       type="button"
                     >
@@ -384,6 +393,7 @@ ShallowWrapper {
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
+                      "outline": false,
                       "tooltip": "Copy",
                       "type": "button",
                     },
@@ -422,6 +432,7 @@ ShallowWrapper {
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
+                    "outline": false,
                     "tooltip": "Clear",
                     "type": "button",
                   },
@@ -518,6 +529,7 @@ ShallowWrapper {
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
+                    outline={false}
                     tooltip="Copy"
                     type="button"
                   >
@@ -536,6 +548,7 @@ ShallowWrapper {
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
+                  outline={false}
                   tooltip="Clear"
                   type="button"
                 >
@@ -611,6 +624,7 @@ ShallowWrapper {
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
+                      outline={false}
                       tooltip="Copy"
                       type="button"
                     >
@@ -629,6 +643,7 @@ ShallowWrapper {
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
+                    outline={false}
                     tooltip="Clear"
                     type="button"
                   >
@@ -690,6 +705,7 @@ ShallowWrapper {
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
+                      outline={false}
                       tooltip="Copy"
                       type="button"
                     >
@@ -708,6 +724,7 @@ ShallowWrapper {
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
+                    outline={false}
                     tooltip="Clear"
                     type="button"
                   >
@@ -751,6 +768,7 @@ ShallowWrapper {
                         loading={false}
                         loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
+                        outline={false}
                         tooltip="Copy"
                         type="button"
                       >
@@ -769,6 +787,7 @@ ShallowWrapper {
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
+                      outline={false}
                       tooltip="Clear"
                       type="button"
                     >
@@ -795,6 +814,7 @@ ShallowWrapper {
                         loading={false}
                         loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
+                        outline={false}
                         tooltip="Copy"
                         type="button"
                       >
@@ -831,6 +851,7 @@ ShallowWrapper {
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
+                        "outline": false,
                         "tooltip": "Copy",
                         "type": "button",
                       },
@@ -869,6 +890,7 @@ ShallowWrapper {
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
+                      "outline": false,
                       "tooltip": "Clear",
                       "type": "button",
                     },

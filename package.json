@@ -1,6 +1,6 @@
 {
     "name": "@front10/landing-page-book",
-    "version": "1.1.0",
+    "version": "1.2.1",
     "description": "A react library for landing page",
     "main": "dist/index.js",
     "scripts": {
@@ -39,7 +39,7 @@
     "bugs": {
         "url": "https://github.com/front10/landing-page-book/issues"
     },
-    "homepage": "https://front10.github.io",
+    "homepage": "https://front10.com/landing-page-book",
     "devDependencies": {
         "@kadira/storybook-addon-options": "^1.0.2",
         "@storybook/addon-centered": "^3.3.12",

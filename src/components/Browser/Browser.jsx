@@ -35,13 +35,14 @@ const available = {
 
 class Browser extends Component {
   render() {
-    const { vendor, version, showBrowserVendor, showBrowserVersion } = this.props;
+    const { vendor, version, showBrowserVendor, showBrowserVersion, imgFilter } = this.props;
     return (
       <div className="d-inline Browser">
         <Image
           src={available[vendor].icon}
           alt={`Browser ${available[vendor].name} icon`}
           className="Browser__Icon"
+          imgFilter={imgFilter}
         />
         {showBrowserVendor && <div className="Browser__Text"> {available[vendor].name}</div>}
         {showBrowserVersion && <div className="Browser__Version">{version}</div>}
@@ -54,13 +55,15 @@ Browser.propTypes = {
   showBrowserVendor: PropTypes.bool,
   showBrowserVersion: PropTypes.bool,
   vendor: PropTypes.string,
-  version: PropTypes.string
+  version: PropTypes.string,
+  imgFilter: PropTypes.string
 };
 Browser.defaultProps = {
   showBrowserVendor: true,
   showBrowserVersion: true,
   vendor: '',
-  version: ''
+  version: '',
+  imgFilter: null
 };
 
 export default Browser;

@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { TextBox } from '../../../components';
+import { TextBox, Code } from '../../../components';
 import Readme from '../../../components/TextBox/README.md';
+import def from '../../mock/components/codes/textbox';
 
 setAddon(JSXAddon);
 
@@ -35,6 +36,16 @@ stories.addWithJSX(
           'GraphQL queries access not just the properties of one resource but also smoothly\n follow references between them. While typical REST APIs require loading from\n multiple URLs, GraphQL APIs get all the data your app needs in a single request.\n Apps using GraphQL can be quick even on slow mobile network connections.'
         )}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

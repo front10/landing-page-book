@@ -7,8 +7,9 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
-import { Browser } from '../../../components';
+import { Browser, Code } from '../../../components';
 import Readme from '../../../components/Browser/README.md';
+import def from '../../mock/components/codes/browser';
 
 setAddon(JSXAddon);
 
@@ -39,6 +40,16 @@ stories.addWithJSX(
         )}
         version={text('Version', '>= 20.0')}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

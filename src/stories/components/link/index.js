@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Link, Icon } from '../../../components';
+import { Link, Icon, Code } from '../../../components';
 import Readme from '../../../components/Link/README.md';
+import def from '../../mock/components/codes/link';
 
 setAddon(JSXAddon);
 
@@ -45,6 +46,16 @@ stories.addWithJSX(
         <Icon icon="fa fa-home" />
         <span>This is a link</span>
       </Link>
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

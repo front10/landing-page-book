@@ -1036,11 +1036,21 @@ body {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 :root {
   --Card-borderRadius: 0px;
@@ -1127,11 +1137,21 @@ body {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
@@ -1203,11 +1223,21 @@ body {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 a[disabled] {
   pointer-events: none; }
@@ -1335,22 +1365,35 @@ a span {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
 
-:root {
-  --Input-borderRadius: 0px;
-  --Input-fontSize: 0.7rem;
-  --Input-color: #000; }
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 :root {
-  --Label-fontSize: 0.7rem; }
+  --Input-borderRadius: .25rem;
+  --Input-fontSize: 0.9rem;
+  --Input-color: rgba(0,0,0,0.8);
+  --Input-height: calc(2.25rem + 2px); }
+
+:root {
+  --Label-fontSize: 1rem;
+  --Label-color: rgba(0,0,0,0.7); }
 
 .Label {
-  font-size: var(--Label-fontSize); }
+  font-size: var(--Label-fontSize);
+  color: var(--Label-color); }
 
 .Input__Container {
   position: relative; }
@@ -1358,12 +1401,12 @@ a span {
     border-radius: var(--Input-borderRadius);
     font-size: var(--Input-fontSize);
     color: var(--Input-color); }
-  .Input__Container .Input__Container__Conponent[type='color'] {
-    height: 30px; }
+  .Input__Container .Input__Container__Conponent {
+    height: var(--Input-height); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: var(--Input-fontSize);
-    top: 10px;
+    top: 40%;
     color: var(--Input-color); }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }
@@ -1530,11 +1573,21 @@ a span {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
@@ -1620,11 +1673,21 @@ a span {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 .Hero .Hero__Header {
   font-weight: var(--Hero__Header-fontWeight);
@@ -1669,15 +1732,18 @@ a span {
     font-size: var(--Hero__SubHeader--phone-fontSize) !important; } }
 
 :root {
-  --Input-borderRadius: 0px;
-  --Input-fontSize: 0.7rem;
-  --Input-color: #000; }
+  --Input-borderRadius: .25rem;
+  --Input-fontSize: 0.9rem;
+  --Input-color: rgba(0,0,0,0.8);
+  --Input-height: calc(2.25rem + 2px); }
 
 :root {
-  --Label-fontSize: 0.7rem; }
+  --Label-fontSize: 1rem;
+  --Label-color: rgba(0,0,0,0.7); }
 
 .Label {
-  font-size: var(--Label-fontSize); }
+  font-size: var(--Label-fontSize);
+  color: var(--Label-color); }
 
 .Input__Container {
   position: relative; }
@@ -1685,12 +1751,12 @@ a span {
     border-radius: var(--Input-borderRadius);
     font-size: var(--Input-fontSize);
     color: var(--Input-color); }
-  .Input__Container .Input__Container__Conponent[type='color'] {
-    height: 30px; }
+  .Input__Container .Input__Container__Conponent {
+    height: var(--Input-height); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: var(--Input-fontSize);
-    top: 10px;
+    top: 40%;
     color: var(--Input-color); }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }
@@ -1702,10 +1768,12 @@ a span {
     right: 10px; }
 
 :root {
-  --Label-fontSize: 0.7rem; }
+  --Label-fontSize: 1rem;
+  --Label-color: rgba(0,0,0,0.7); }
 
 .Label {
-  font-size: var(--Label-fontSize); }
+  font-size: var(--Label-fontSize);
+  color: var(--Label-color); }
 
 a[disabled] {
   pointer-events: none; }
@@ -1877,20 +1945,61 @@ a span {
   --Features__CardFooter__Link-box-shadow-hover: none;
   --Features__CardFooter__Link-background-color-hover: none;
   --Features__CardFooter__Link-color: none;
-  --Features__CardFooter__Link-fontSize: none; }
+  --Features__CardFooter__Link-fontSize: none;
+  --Features__Image-width: 100px;
+  --Features__Image-height: 100px;
+  --Features__Button-backgroundColor: #0780cf;
+  --Features__Button-backgroundColorHover: #05598f;
+  --Features__Button-color: #fff; }
 
-.features .card .card-footer a {
+.Features .Card img {
+  width: var(--Features__Image-width);
+  height: var(--Features__Image-height);
+  margin-top: 1.25rem; }
+
+.Features--center .Card img {
+  margin-left: auto;
+  margin-right: auto; }
+
+.Features--left .Card img {
+  margin-right: auto; }
+
+.Features--right .Card img {
+  margin-left: auto; }
+
+.Features .card .card-footer a {
   padding: var(--Features__CardFooter__Link-padding);
   box-shadow: var(--Features__CardFooter__Link-box-shadow);
   background-color: var(--Features__CardFooter__Link-background-color);
   color: var(--Features__CardFooter__Link-color);
   font-size: var(--Features__CardFooter__Link-fontSize); }
 
-.features .card .card-footer a:focus,
-.features .card .card-footer a:active,
-.features .card .card-footer a:hover {
+.Features .card .card-footer a:focus,
+.Features .card .card-footer a:active,
+.Features .card .card-footer a:hover {
   background-color: var(--Features__CardFooter__Link-background-color-hover) !important;
   box-shadow: var(--Features__CardFooter__Link-box-shadow-hover) !important; }
+
+.Features .Button {
+  background-color: var(--Features__Button-backgroundColor);
+  color: var(--Features__Button-color); }
+
+.Features .Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Features__Button-backgroundColor) !important;
+  color: var(--Features__Button-backgroundColor) !important; }
+
+.Features .Button:not(.navbar-toggler):focus,
+.Features .Button:not(.navbar-toggler):active,
+.Features .Button:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Features__Button-backgroundColorHover); }
+
+.Features .Button--outline:not(.navbar-toggler):focus,
+.Features .Button--outline:not(.navbar-toggler):active,
+.Features .Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Features__Button-backgroundColorHover) !important;
+  color: var(--Features__Button-color) !important; }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }

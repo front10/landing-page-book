@@ -11,7 +11,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Section, Video, Button, Container, Code } from '../../../components';
 import Readme from '../../../components/Section/README.md';
 
-import def from '../../mock/components/codes/section';
+import { def, video } from '../../mock/components/codes/section';
 
 setAddon(JSXAddon);
 
@@ -46,6 +46,7 @@ stories.addWithJSX(
           </p>
         </Container>
       </Section>
+      <Code code={def} languageCode="jsx" readOnly collapsible collapsed showDeleteButton={false} />
     </ThemeSelector>
   )),
   jsxConfig
@@ -70,7 +71,14 @@ stories.addWithJSX(
           <Button className="mt-5">Explore</Button>
         </Container>
       </Section>
-      <Code code={def} languageCode="jsx" readOnly collapsible collapsed showDeleteButton={false} />
+      <Code
+        code={video}
+        languageCode="jsx"
+        readOnly
+        collapsible
+        collapsed
+        showDeleteButton={false}
+      />
     </ThemeSelector>
   )),
   jsxConfig

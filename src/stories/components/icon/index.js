@@ -7,8 +7,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
+import def from '../../mock/components/codes/icon';
 
-import { Icon } from '../../../components';
+import { Icon, Code, Column, Row, Container } from '../../../components';
 import Readme from '../../../components/Icon/README.md';
 
 setAddon(JSXAddon);
@@ -22,7 +23,26 @@ stories.addWithJSX(
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader name="Icon" description="Icon element." />
-      <Icon icon={text('Icon', 'fa fa-home')} className={text('Class name', 'text-danger')} />
+      <Container>
+        <Row>
+          <Column className="text-center">
+            <Icon
+              icon={text('Icon', 'fa fa-home')}
+              className={text('Class name', 'text-danger fa-5x')}
+            />
+          </Column>
+        </Row>
+      </Container>
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

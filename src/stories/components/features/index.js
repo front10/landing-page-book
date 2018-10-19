@@ -10,50 +10,12 @@ import { Features, Code } from '../../../components';
 import Readme from '../../../components/Features/README.md';
 
 import def from '../../mock/components/codes/features';
+import features from '../../mock/components/features';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/Features', module);
 
 stories.addDecorator(withKnobs);
-const featuress = [
-  {
-    id: 1,
-    image: 'images/features/themes.png',
-    title: 'Theming',
-    subtitle: 'Easy to create themes',
-    summary: 'Library customization with Css variables for easy theming and component changes.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  },
-  {
-    id: 2,
-    image: 'images/features/testing.png',
-    title: 'Unit test',
-    subtitle: 'Robust components',
-    summary: 'All our components tested, like a Swiss watch. With code coverage above 50%',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  },
-  {
-    id: 3,
-    image: 'images/features/speed.png',
-    title: 'Faster dev',
-    subtitle: 'Fast like Usain Bolt',
-    summary:
-      'With our components you can develop a wep app faster than Usain Bolt in 100 meters flat.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  },
-  {
-    id: 4,
-    image: 'images/features/code.png',
-    title: 'Simple',
-    subtitle: 'Easy to use',
-    summary: 'Very easy to use, you can do a lot in your wep application with little code.',
-    link: 'https://front10.com',
-    linktext: 'See more...'
-  }
-];
 
 stories.addWithJSX(
   'Default',
@@ -80,7 +42,7 @@ stories.addWithJSX(
           },
           'center'
         )}
-        features={featuress}
+        features={features}
       />
       <div className="mt-4">
         <Code

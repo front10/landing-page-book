@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { LanguageSwitcher } from '../../../components';
+import { LanguageSwitcher, Code } from '../../../components';
 import Readme from '../../../components/LanguageSwitcher/README.md';
+import def from '../../mock/components/codes/languageswitcher';
 
 setAddon(JSXAddon);
 
@@ -41,6 +42,16 @@ stories.addWithJSX(
           DE: 'Deutsch'
         }}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

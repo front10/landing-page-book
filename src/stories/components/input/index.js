@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Input } from '../../../components';
+import { Input, Code } from '../../../components';
 import Readme from '../../../components/Input/README.md';
+import def from '../../mock/components/codes/input';
 
 setAddon(JSXAddon);
 
@@ -48,6 +49,16 @@ stories.addWithJSX(
         icon={text('Icon', 'fa fa-user')}
         iconAlign={select('Icon align', { left: 'left', right: 'right' }, 'left')}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

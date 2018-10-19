@@ -27,9 +27,21 @@
   background-color: var(--Button-backgroundColor);
 }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important;
+}
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover);
+}
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important;
 }

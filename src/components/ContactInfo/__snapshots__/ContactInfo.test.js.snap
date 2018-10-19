@@ -143,15 +143,9 @@ ReactWrapper {
                     class="card h-100 Card  "
                   >
                     
+                    
                     <div
-                      class="card-body text-left"
-                    >
-                      
-                      
-                      
-                    </div>
-                    <div
-                      class="card-footer bg-transparent border-0 pt-0 text-left"
+                      class="card-footer bg-transparent border-0  text-left"
                     >
                       0
                       
@@ -301,15 +295,9 @@ ReactWrapper {
                   class="card h-100 Card  "
                 >
                   
+                  
                   <div
-                    class="card-body text-left"
-                  >
-                    
-                    
-                    
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-0 pt-0 text-left"
+                    class="card-footer bg-transparent border-0  text-left"
                   >
                     0
                     
@@ -482,105 +470,12 @@ ReactWrapper {
               "sibling": FiberNode {
                 "_debugID": 54,
                 "_debugIsCurrentlyTiming": false,
-                "_debugOwner": [Circular],
+                "_debugOwner": null,
                 "_debugSource": null,
                 "actualDuration": 0,
                 "actualStartTime": -1,
                 "alternate": null,
-                "child": FiberNode {
-                  "_debugID": 56,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
-                  "_debugSource": null,
-                  "actualDuration": 0,
-                  "actualStartTime": -1,
-                  "alternate": null,
-                  "child": null,
-                  "childExpirationTime": 0,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstContextDependency": null,
-                  "firstEffect": null,
-                  "index": 0,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": "",
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": "",
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseDuration": 0,
-                  "sibling": FiberNode {
-                    "_debugID": 57,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
-                    "_debugSource": null,
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": null,
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 1,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": "",
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": "",
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": FiberNode {
-                      "_debugID": 58,
-                      "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": null,
-                      "_debugSource": null,
-                      "actualDuration": 0,
-                      "actualStartTime": -1,
-                      "alternate": null,
-                      "child": null,
-                      "childExpirationTime": 0,
-                      "effectTag": 0,
-                      "expirationTime": 0,
-                      "firstContextDependency": null,
-                      "firstEffect": null,
-                      "index": 2,
-                      "key": null,
-                      "lastEffect": null,
-                      "memoizedProps": "",
-                      "memoizedState": null,
-                      "mode": 0,
-                      "nextEffect": null,
-                      "pendingProps": "",
-                      "ref": null,
-                      "return": [Circular],
-                      "selfBaseDuration": 0,
-                      "sibling": null,
-                      "stateNode": ,
-                      "tag": 8,
-                      "treeBaseDuration": 0,
-                      "type": null,
-                      "updateQueue": null,
-                    },
-                    "stateNode": ,
-                    "tag": 8,
-                    "treeBaseDuration": 0,
-                    "type": null,
-                    "updateQueue": null,
-                  },
-                  "stateNode": ,
-                  "tag": 8,
-                  "treeBaseDuration": 0,
-                  "type": null,
-                  "updateQueue": null,
-                },
+                "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 0,
                 "expirationTime": 0,
@@ -589,25 +484,11 @@ ReactWrapper {
                 "index": 1,
                 "key": null,
                 "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": Array [
-                    "",
-                    "",
-                    "",
-                  ],
-                  "className": "card-body text-left",
-                },
+                "memoizedProps": "",
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
-                "pendingProps": Object {
-                  "children": Array [
-                    "",
-                    "",
-                    "",
-                  ],
-                  "className": "card-body text-left",
-                },
+                "pendingProps": "",
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
@@ -620,7 +501,7 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": null,
                   "child": FiberNode {
-                    "_debugID": 59,
+                    "_debugID": 56,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": null,
                     "_debugSource": null,
@@ -645,7 +526,7 @@ ReactWrapper {
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": FiberNode {
-                      "_debugID": 60,
+                      "_debugID": 57,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": null,
                       "_debugSource": null,
@@ -670,7 +551,7 @@ ReactWrapper {
                       "return": [Circular],
                       "selfBaseDuration": 0,
                       "sibling": FiberNode {
-                        "_debugID": 61,
+                        "_debugID": 58,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": null,
                         "_debugSource": null,
@@ -695,7 +576,7 @@ ReactWrapper {
                         "return": [Circular],
                         "selfBaseDuration": 0,
                         "sibling": FiberNode {
-                          "_debugID": 62,
+                          "_debugID": 59,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": null,
                           "_debugSource": null,
@@ -720,7 +601,7 @@ ReactWrapper {
                           "return": [Circular],
                           "selfBaseDuration": 0,
                           "sibling": FiberNode {
-                            "_debugID": 63,
+                            "_debugID": 60,
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": null,
                             "_debugSource": null,
@@ -745,7 +626,7 @@ ReactWrapper {
                             "return": [Circular],
                             "selfBaseDuration": 0,
                             "sibling": FiberNode {
-                              "_debugID": 64,
+                              "_debugID": 61,
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": null,
                               "_debugSource": null,
@@ -770,7 +651,7 @@ ReactWrapper {
                               "return": [Circular],
                               "selfBaseDuration": 0,
                               "sibling": FiberNode {
-                                "_debugID": 65,
+                                "_debugID": 62,
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": null,
                                 "_debugSource": null,
@@ -855,7 +736,7 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                    "className": "card-footer bg-transparent border-0 pt-0 text-left",
+                    "className": "card-footer bg-transparent border-0  text-left",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -870,14 +751,14 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                    "className": "card-footer bg-transparent border-0 pt-0 text-left",
+                    "className": "card-footer bg-transparent border-0  text-left",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="card-footer bg-transparent border-0 pt-0 text-left"
+                    class="card-footer bg-transparent border-0  text-left"
                   >
                     0
                     
@@ -892,16 +773,10 @@ ReactWrapper {
                   "type": "div",
                   "updateQueue": null,
                 },
-                "stateNode": <div
-                  class="card-body text-left"
-                >
-                  
-                  
-                  
-                </div>,
-                "tag": 7,
+                "stateNode": ,
+                "tag": 8,
                 "treeBaseDuration": 0,
-                "type": "div",
+                "type": null,
                 "updateQueue": null,
               },
               "stateNode": ,
@@ -921,15 +796,9 @@ ReactWrapper {
             "memoizedProps": Object {
               "children": Array [
                 "",
+                "",
                 <div
-                  className="card-body text-left"
-                >
-                  
-                  
-                  
-                </div>,
-                <div
-                  className="card-footer bg-transparent border-0 pt-0 text-left"
+                  className="card-footer bg-transparent border-0  text-left"
                 >
                   <UNDEFINED>
                     0
@@ -950,15 +819,9 @@ ReactWrapper {
             "pendingProps": Object {
               "children": Array [
                 "",
+                "",
                 <div
-                  className="card-body text-left"
-                >
-                  
-                  
-                  
-                </div>,
-                <div
-                  className="card-footer bg-transparent border-0 pt-0 text-left"
+                  className="card-footer bg-transparent border-0  text-left"
                 >
                   <UNDEFINED>
                     0
@@ -981,15 +844,9 @@ ReactWrapper {
               class="card h-100 Card  "
             >
               
+              
               <div
-                class="card-body text-left"
-              >
-                
-                
-                
-              </div>
-              <div
-                class="card-footer bg-transparent border-0 pt-0 text-left"
+                class="card-footer bg-transparent border-0  text-left"
               >
                 0
                 
@@ -1257,15 +1114,9 @@ ReactWrapper {
                     class="card h-100 Card  "
                   >
                     
+                    
                     <div
-                      class="card-body text-left"
-                    >
-                      
-                      
-                      
-                    </div>
-                    <div
-                      class="card-footer bg-transparent border-0 pt-0 text-left"
+                      class="card-footer bg-transparent border-0  text-left"
                     >
                       0
                       
@@ -1415,15 +1266,9 @@ ReactWrapper {
                   class="card h-100 Card  "
                 >
                   
+                  
                   <div
-                    class="card-body text-left"
-                  >
-                    
-                    
-                    
-                  </div>
-                  <div
-                    class="card-footer bg-transparent border-0 pt-0 text-left"
+                    class="card-footer bg-transparent border-0  text-left"
                   >
                     0
                     
@@ -1719,15 +1564,9 @@ ReactWrapper {
                         class="card h-100 Card  "
                       >
                         
+                        
                         <div
-                          class="card-body text-left"
-                        >
-                          
-                          
-                          
-                        </div>
-                        <div
-                          class="card-footer bg-transparent border-0 pt-0 text-left"
+                          class="card-footer bg-transparent border-0  text-left"
                         >
                           0
                           
@@ -1877,15 +1716,9 @@ ReactWrapper {
                       class="card h-100 Card  "
                     >
                       
+                      
                       <div
-                        class="card-body text-left"
-                      >
-                        
-                        
-                        
-                      </div>
-                      <div
-                        class="card-footer bg-transparent border-0 pt-0 text-left"
+                        class="card-footer bg-transparent border-0  text-left"
                       >
                         0
                         
@@ -2168,15 +2001,9 @@ ReactWrapper {
                         class="card h-100 Card  "
                       >
                         
+                        
                         <div
-                          class="card-body text-left"
-                        >
-                          
-                          
-                          
-                        </div>
-                        <div
-                          class="card-footer bg-transparent border-0 pt-0 text-left"
+                          class="card-footer bg-transparent border-0  text-left"
                         >
                           0
                           
@@ -2326,15 +2153,9 @@ ReactWrapper {
                       class="card h-100 Card  "
                     >
                       
+                      
                       <div
-                        class="card-body text-left"
-                      >
-                        
-                        
-                        
-                      </div>
-                      <div
-                        class="card-footer bg-transparent border-0 pt-0 text-left"
+                        class="card-footer bg-transparent border-0  text-left"
                       >
                         0
                         
@@ -2533,105 +2354,12 @@ ReactWrapper {
               "sibling": FiberNode {
                 "_debugID": 54,
                 "_debugIsCurrentlyTiming": false,
-                "_debugOwner": [Circular],
+                "_debugOwner": null,
                 "_debugSource": null,
                 "actualDuration": 0,
                 "actualStartTime": -1,
                 "alternate": null,
-                "child": FiberNode {
-                  "_debugID": 56,
-                  "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": null,
-                  "_debugSource": null,
-                  "actualDuration": 0,
-                  "actualStartTime": -1,
-                  "alternate": null,
-                  "child": null,
-                  "childExpirationTime": 0,
-                  "effectTag": 0,
-                  "expirationTime": 0,
-                  "firstContextDependency": null,
-                  "firstEffect": null,
-                  "index": 0,
-                  "key": null,
-                  "lastEffect": null,
-                  "memoizedProps": "",
-                  "memoizedState": null,
-                  "mode": 0,
-                  "nextEffect": null,
-                  "pendingProps": "",
-                  "ref": null,
-                  "return": [Circular],
-                  "selfBaseDuration": 0,
-                  "sibling": FiberNode {
-                    "_debugID": 57,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
-                    "_debugSource": null,
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": null,
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 1,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": "",
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": "",
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": FiberNode {
-                      "_debugID": 58,
-                      "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": null,
-                      "_debugSource": null,
-                      "actualDuration": 0,
-                      "actualStartTime": -1,
-                      "alternate": null,
-                      "child": null,
-                      "childExpirationTime": 0,
-                      "effectTag": 0,
-                      "expirationTime": 0,
-                      "firstContextDependency": null,
-                      "firstEffect": null,
-                      "index": 2,
-                      "key": null,
-                      "lastEffect": null,
-                      "memoizedProps": "",
-                      "memoizedState": null,
-                      "mode": 0,
-                      "nextEffect": null,
-                      "pendingProps": "",
-                      "ref": null,
-                      "return": [Circular],
-                      "selfBaseDuration": 0,
-                      "sibling": null,
-                      "stateNode": ,
-                      "tag": 8,
-                      "treeBaseDuration": 0,
-                      "type": null,
-                      "updateQueue": null,
-                    },
-                    "stateNode": ,
-                    "tag": 8,
-                    "treeBaseDuration": 0,
-                    "type": null,
-                    "updateQueue": null,
-                  },
-                  "stateNode": ,
-                  "tag": 8,
-                  "treeBaseDuration": 0,
-                  "type": null,
-                  "updateQueue": null,
-                },
+                "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 0,
                 "expirationTime": 0,
@@ -2640,25 +2368,11 @@ ReactWrapper {
                 "index": 1,
                 "key": null,
                 "lastEffect": null,
-                "memoizedProps": Object {
-                  "children": Array [
-                    "",
-                    "",
-                    "",
-                  ],
-                  "className": "card-body text-left",
-                },
+                "memoizedProps": "",
                 "memoizedState": null,
                 "mode": 0,
                 "nextEffect": null,
-                "pendingProps": Object {
-                  "children": Array [
-                    "",
-                    "",
-                    "",
-                  ],
-                  "className": "card-body text-left",
-                },
+                "pendingProps": "",
                 "ref": null,
                 "return": [Circular],
                 "selfBaseDuration": 0,
@@ -2671,7 +2385,7 @@ ReactWrapper {
                   "actualStartTime": -1,
                   "alternate": null,
                   "child": FiberNode {
-                    "_debugID": 59,
+                    "_debugID": 56,
                     "_debugIsCurrentlyTiming": false,
                     "_debugOwner": null,
                     "_debugSource": null,
@@ -2696,7 +2410,7 @@ ReactWrapper {
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": FiberNode {
-                      "_debugID": 60,
+                      "_debugID": 57,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": null,
                       "_debugSource": null,
@@ -2721,7 +2435,7 @@ ReactWrapper {
                       "return": [Circular],
                       "selfBaseDuration": 0,
                       "sibling": FiberNode {
-                        "_debugID": 61,
+                        "_debugID": 58,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": null,
                         "_debugSource": null,
@@ -2746,7 +2460,7 @@ ReactWrapper {
                         "return": [Circular],
                         "selfBaseDuration": 0,
                         "sibling": FiberNode {
-                          "_debugID": 62,
+                          "_debugID": 59,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": null,
                           "_debugSource": null,
@@ -2771,7 +2485,7 @@ ReactWrapper {
                           "return": [Circular],
                           "selfBaseDuration": 0,
                           "sibling": FiberNode {
-                            "_debugID": 63,
+                            "_debugID": 60,
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": null,
                             "_debugSource": null,
@@ -2796,7 +2510,7 @@ ReactWrapper {
                             "return": [Circular],
                             "selfBaseDuration": 0,
                             "sibling": FiberNode {
-                              "_debugID": 64,
+                              "_debugID": 61,
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": null,
                               "_debugSource": null,
@@ -2821,7 +2535,7 @@ ReactWrapper {
                               "return": [Circular],
                               "selfBaseDuration": 0,
                               "sibling": FiberNode {
-                                "_debugID": 65,
+                                "_debugID": 62,
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": null,
                                 "_debugSource": null,
@@ -2906,7 +2620,7 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                    "className": "card-footer bg-transparent border-0 pt-0 text-left",
+                    "className": "card-footer bg-transparent border-0  text-left",
                   },
                   "memoizedState": null,
                   "mode": 0,
@@ -2921,14 +2635,14 @@ ReactWrapper {
                       
                       
                     </UNDEFINED>,
-                    "className": "card-footer bg-transparent border-0 pt-0 text-left",
+                    "className": "card-footer bg-transparent border-0  text-left",
                   },
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
                   "sibling": null,
                   "stateNode": <div
-                    class="card-footer bg-transparent border-0 pt-0 text-left"
+                    class="card-footer bg-transparent border-0  text-left"
                   >
                     0
                     
@@ -2943,16 +2657,10 @@ ReactWrapper {
                   "type": "div",
                   "updateQueue": null,
                 },
-                "stateNode": <div
-                  class="card-body text-left"
-                >
-                  
-                  
-                  
-                </div>,
-                "tag": 7,
+                "stateNode": ,
+                "tag": 8,
                 "treeBaseDuration": 0,
-                "type": "div",
+                "type": null,
                 "updateQueue": null,
               },
               "stateNode": ,
@@ -2972,15 +2680,9 @@ ReactWrapper {
             "memoizedProps": Object {
               "children": Array [
                 "",
+                "",
                 <div
-                  className="card-body text-left"
-                >
-                  
-                  
-                  
-                </div>,
-                <div
-                  className="card-footer bg-transparent border-0 pt-0 text-left"
+                  className="card-footer bg-transparent border-0  text-left"
                 >
                   <UNDEFINED>
                     0
@@ -3001,15 +2703,9 @@ ReactWrapper {
             "pendingProps": Object {
               "children": Array [
                 "",
+                "",
                 <div
-                  className="card-body text-left"
-                >
-                  
-                  
-                  
-                </div>,
-                <div
-                  className="card-footer bg-transparent border-0 pt-0 text-left"
+                  className="card-footer bg-transparent border-0  text-left"
                 >
                   <UNDEFINED>
                     0
@@ -3032,15 +2728,9 @@ ReactWrapper {
               class="card h-100 Card  "
             >
               
+              
               <div
-                class="card-body text-left"
-              >
-                
-                
-                
-              </div>
-              <div
-                class="card-footer bg-transparent border-0 pt-0 text-left"
+                class="card-footer bg-transparent border-0  text-left"
               >
                 0
                 
@@ -3228,15 +2918,9 @@ ReactWrapper {
                         class="card h-100 Card  "
                       >
                         
+                        
                         <div
-                          class="card-body text-left"
-                        >
-                          
-                          
-                          
-                        </div>
-                        <div
-                          class="card-footer bg-transparent border-0 pt-0 text-left"
+                          class="card-footer bg-transparent border-0  text-left"
                         >
                           0
                           
@@ -3386,15 +3070,9 @@ ReactWrapper {
                       class="card h-100 Card  "
                     >
                       
+                      
                       <div
-                        class="card-body text-left"
-                      >
-                        
-                        
-                        
-                      </div>
-                      <div
-                        class="card-footer bg-transparent border-0 pt-0 text-left"
+                        class="card-footer bg-transparent border-0  text-left"
                       >
                         0
                         
@@ -3677,15 +3355,9 @@ ReactWrapper {
                         class="card h-100 Card  "
                       >
                         
+                        
                         <div
-                          class="card-body text-left"
-                        >
-                          
-                          
-                          
-                        </div>
-                        <div
-                          class="card-footer bg-transparent border-0 pt-0 text-left"
+                          class="card-footer bg-transparent border-0  text-left"
                         >
                           0
                           
@@ -3835,15 +3507,9 @@ ReactWrapper {
                       class="card h-100 Card  "
                     >
                       
+                      
                       <div
-                        class="card-body text-left"
-                      >
-                        
-                        
-                        
-                      </div>
-                      <div
-                        class="card-footer bg-transparent border-0 pt-0 text-left"
+                        class="card-footer bg-transparent border-0  text-left"
                       >
                         0
                         
@@ -4073,15 +3739,9 @@ ReactWrapper {
           class="card h-100 Card  "
         >
           
+          
           <div
-            class="card-body text-left"
-          >
-            
-            
-            
-          </div>
-          <div
-            class="card-footer bg-transparent border-0 pt-0 text-left"
+            class="card-footer bg-transparent border-0  text-left"
           >
             0
             
@@ -4097,15 +3757,9 @@ ReactWrapper {
         "props": Object {
           "children": Array [
             "",
+            "",
             <div
-              className="card-body text-left"
-            >
-              
-              
-              
-            </div>,
-            <div
-              className="card-footer bg-transparent border-0 pt-0 text-left"
+              className="card-footer bg-transparent border-0  text-left"
             >
               <UNDEFINED>
                 0
@@ -4123,35 +3777,10 @@ ReactWrapper {
         "ref": null,
         "rendered": Array [
           "",
+          "",
           Object {
             "instance": <div
-              class="card-body text-left"
-            >
-              
-              
-              
-            </div>,
-            "key": undefined,
-            "nodeType": "host",
-            "props": Object {
-              "children": Array [
-                "",
-                "",
-                "",
-              ],
-              "className": "card-body text-left",
-            },
-            "ref": null,
-            "rendered": Array [
-              "",
-              "",
-              "",
-            ],
-            "type": "div",
-          },
-          Object {
-            "instance": <div
-              class="card-footer bg-transparent border-0 pt-0 text-left"
+              class="card-footer bg-transparent border-0  text-left"
             >
               0
               
@@ -4173,7 +3802,7 @@ ReactWrapper {
                 
                 
               </UNDEFINED>,
-              "className": "card-footer bg-transparent border-0 pt-0 text-left",
+              "className": "card-footer bg-transparent border-0  text-left",
             },
             "ref": null,
             "rendered": Array [
@@ -4313,15 +3942,9 @@ ReactWrapper {
                       class="card h-100 Card  "
                     >
                       
+                      
                       <div
-                        class="card-body text-left"
-                      >
-                        
-                        
-                        
-                      </div>
-                      <div
-                        class="card-footer bg-transparent border-0 pt-0 text-left"
+                        class="card-footer bg-transparent border-0  text-left"
                       >
                         0
                         
@@ -4471,15 +4094,9 @@ ReactWrapper {
                     class="card h-100 Card  "
                   >
                     
+                    
                     <div
-                      class="card-body text-left"
-                    >
-                      
-                      
-                      
-                    </div>
-                    <div
-                      class="card-footer bg-transparent border-0 pt-0 text-left"
+                      class="card-footer bg-transparent border-0  text-left"
                     >
                       0
                       
@@ -4652,105 +4269,12 @@ ReactWrapper {
                 "sibling": FiberNode {
                   "_debugID": 54,
                   "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": [Circular],
+                  "_debugOwner": null,
                   "_debugSource": null,
                   "actualDuration": 0,
                   "actualStartTime": -1,
                   "alternate": null,
-                  "child": FiberNode {
-                    "_debugID": 56,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
-                    "_debugSource": null,
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": null,
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 0,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": "",
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": "",
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": FiberNode {
-                      "_debugID": 57,
-                      "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": null,
-                      "_debugSource": null,
-                      "actualDuration": 0,
-                      "actualStartTime": -1,
-                      "alternate": null,
-                      "child": null,
-                      "childExpirationTime": 0,
-                      "effectTag": 0,
-                      "expirationTime": 0,
-                      "firstContextDependency": null,
-                      "firstEffect": null,
-                      "index": 1,
-                      "key": null,
-                      "lastEffect": null,
-                      "memoizedProps": "",
-                      "memoizedState": null,
-                      "mode": 0,
-                      "nextEffect": null,
-                      "pendingProps": "",
-                      "ref": null,
-                      "return": [Circular],
-                      "selfBaseDuration": 0,
-                      "sibling": FiberNode {
-                        "_debugID": 58,
-                        "_debugIsCurrentlyTiming": false,
-                        "_debugOwner": null,
-                        "_debugSource": null,
-                        "actualDuration": 0,
-                        "actualStartTime": -1,
-                        "alternate": null,
-                        "child": null,
-                        "childExpirationTime": 0,
-                        "effectTag": 0,
-                        "expirationTime": 0,
-                        "firstContextDependency": null,
-                        "firstEffect": null,
-                        "index": 2,
-                        "key": null,
-                        "lastEffect": null,
-                        "memoizedProps": "",
-                        "memoizedState": null,
-                        "mode": 0,
-                        "nextEffect": null,
-                        "pendingProps": "",
-                        "ref": null,
-                        "return": [Circular],
-                        "selfBaseDuration": 0,
-                        "sibling": null,
-                        "stateNode": ,
-                        "tag": 8,
-                        "treeBaseDuration": 0,
-                        "type": null,
-                        "updateQueue": null,
-                      },
-                      "stateNode": ,
-                      "tag": 8,
-                      "treeBaseDuration": 0,
-                      "type": null,
-                      "updateQueue": null,
-                    },
-                    "stateNode": ,
-                    "tag": 8,
-                    "treeBaseDuration": 0,
-                    "type": null,
-                    "updateQueue": null,
-                  },
+                  "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 0,
                   "expirationTime": 0,
@@ -4759,25 +4283,11 @@ ReactWrapper {
                   "index": 1,
                   "key": null,
                   "lastEffect": null,
-                  "memoizedProps": Object {
-                    "children": Array [
-                      "",
-                      "",
-                      "",
-                    ],
-                    "className": "card-body text-left",
-                  },
+                  "memoizedProps": "",
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
-                  "pendingProps": Object {
-                    "children": Array [
-                      "",
-                      "",
-                      "",
-                    ],
-                    "className": "card-body text-left",
-                  },
+                  "pendingProps": "",
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
@@ -4790,7 +4300,7 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": null,
                     "child": FiberNode {
-                      "_debugID": 59,
+                      "_debugID": 56,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": null,
                       "_debugSource": null,
@@ -4815,7 +4325,7 @@ ReactWrapper {
                       "return": [Circular],
                       "selfBaseDuration": 0,
                       "sibling": FiberNode {
-                        "_debugID": 60,
+                        "_debugID": 57,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": null,
                         "_debugSource": null,
@@ -4840,7 +4350,7 @@ ReactWrapper {
                         "return": [Circular],
                         "selfBaseDuration": 0,
                         "sibling": FiberNode {
-                          "_debugID": 61,
+                          "_debugID": 58,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": null,
                           "_debugSource": null,
@@ -4865,7 +4375,7 @@ ReactWrapper {
                           "return": [Circular],
                           "selfBaseDuration": 0,
                           "sibling": FiberNode {
-                            "_debugID": 62,
+                            "_debugID": 59,
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": null,
                             "_debugSource": null,
@@ -4890,7 +4400,7 @@ ReactWrapper {
                             "return": [Circular],
                             "selfBaseDuration": 0,
                             "sibling": FiberNode {
-                              "_debugID": 63,
+                              "_debugID": 60,
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": null,
                               "_debugSource": null,
@@ -4915,7 +4425,7 @@ ReactWrapper {
                               "return": [Circular],
                               "selfBaseDuration": 0,
                               "sibling": FiberNode {
-                                "_debugID": 64,
+                                "_debugID": 61,
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": null,
                                 "_debugSource": null,
@@ -4940,7 +4450,7 @@ ReactWrapper {
                                 "return": [Circular],
                                 "selfBaseDuration": 0,
                                 "sibling": FiberNode {
-                                  "_debugID": 65,
+                                  "_debugID": 62,
                                   "_debugIsCurrentlyTiming": false,
                                   "_debugOwner": null,
                                   "_debugSource": null,
@@ -5025,7 +4535,7 @@ ReactWrapper {
                         
                         
                       </UNDEFINED>,
-                      "className": "card-footer bg-transparent border-0 pt-0 text-left",
+                      "className": "card-footer bg-transparent border-0  text-left",
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -5040,14 +4550,14 @@ ReactWrapper {
                         
                         
                       </UNDEFINED>,
-                      "className": "card-footer bg-transparent border-0 pt-0 text-left",
+                      "className": "card-footer bg-transparent border-0  text-left",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": null,
                     "stateNode": <div
-                      class="card-footer bg-transparent border-0 pt-0 text-left"
+                      class="card-footer bg-transparent border-0  text-left"
                     >
                       0
                       
@@ -5062,16 +4572,10 @@ ReactWrapper {
                     "type": "div",
                     "updateQueue": null,
                   },
-                  "stateNode": <div
-                    class="card-body text-left"
-                  >
-                    
-                    
-                    
-                  </div>,
-                  "tag": 7,
+                  "stateNode": ,
+                  "tag": 8,
                   "treeBaseDuration": 0,
-                  "type": "div",
+                  "type": null,
                   "updateQueue": null,
                 },
                 "stateNode": ,
@@ -5091,15 +4595,9 @@ ReactWrapper {
               "memoizedProps": Object {
                 "children": Array [
                   "",
+                  "",
                   <div
-                    className="card-body text-left"
-                  >
-                    
-                    
-                    
-                  </div>,
-                  <div
-                    className="card-footer bg-transparent border-0 pt-0 text-left"
+                    className="card-footer bg-transparent border-0  text-left"
                   >
                     <UNDEFINED>
                       0
@@ -5120,15 +4618,9 @@ ReactWrapper {
               "pendingProps": Object {
                 "children": Array [
                   "",
+                  "",
                   <div
-                    className="card-body text-left"
-                  >
-                    
-                    
-                    
-                  </div>,
-                  <div
-                    className="card-footer bg-transparent border-0 pt-0 text-left"
+                    className="card-footer bg-transparent border-0  text-left"
                   >
                     <UNDEFINED>
                       0
@@ -5151,15 +4643,9 @@ ReactWrapper {
                 class="card h-100 Card  "
               >
                 
+                
                 <div
-                  class="card-body text-left"
-                >
-                  
-                  
-                  
-                </div>
-                <div
-                  class="card-footer bg-transparent border-0 pt-0 text-left"
+                  class="card-footer bg-transparent border-0  text-left"
                 >
                   0
                   
@@ -5427,15 +4913,9 @@ ReactWrapper {
                       class="card h-100 Card  "
                     >
                       
+                      
                       <div
-                        class="card-body text-left"
-                      >
-                        
-                        
-                        
-                      </div>
-                      <div
-                        class="card-footer bg-transparent border-0 pt-0 text-left"
+                        class="card-footer bg-transparent border-0  text-left"
                       >
                         0
                         
@@ -5585,15 +5065,9 @@ ReactWrapper {
                     class="card h-100 Card  "
                   >
                     
+                    
                     <div
-                      class="card-body text-left"
-                    >
-                      
-                      
-                      
-                    </div>
-                    <div
-                      class="card-footer bg-transparent border-0 pt-0 text-left"
+                      class="card-footer bg-transparent border-0  text-left"
                     >
                       0
                       
@@ -5889,15 +5363,9 @@ ReactWrapper {
                           class="card h-100 Card  "
                         >
                           
+                          
                           <div
-                            class="card-body text-left"
-                          >
-                            
-                            
-                            
-                          </div>
-                          <div
-                            class="card-footer bg-transparent border-0 pt-0 text-left"
+                            class="card-footer bg-transparent border-0  text-left"
                           >
                             0
                             
@@ -6047,15 +5515,9 @@ ReactWrapper {
                         class="card h-100 Card  "
                       >
                         
+                        
                         <div
-                          class="card-body text-left"
-                        >
-                          
-                          
-                          
-                        </div>
-                        <div
-                          class="card-footer bg-transparent border-0 pt-0 text-left"
+                          class="card-footer bg-transparent border-0  text-left"
                         >
                           0
                           
@@ -6338,15 +5800,9 @@ ReactWrapper {
                           class="card h-100 Card  "
                         >
                           
+                          
                           <div
-                            class="card-body text-left"
-                          >
-                            
-                            
-                            
-                          </div>
-                          <div
-                            class="card-footer bg-transparent border-0 pt-0 text-left"
+                            class="card-footer bg-transparent border-0  text-left"
                           >
                             0
                             
@@ -6496,15 +5952,9 @@ ReactWrapper {
                         class="card h-100 Card  "
                       >
                         
+                        
                         <div
-                          class="card-body text-left"
-                        >
-                          
-                          
-                          
-                        </div>
-                        <div
-                          class="card-footer bg-transparent border-0 pt-0 text-left"
+                          class="card-footer bg-transparent border-0  text-left"
                         >
                           0
                           
@@ -6703,105 +6153,12 @@ ReactWrapper {
                 "sibling": FiberNode {
                   "_debugID": 54,
                   "_debugIsCurrentlyTiming": false,
-                  "_debugOwner": [Circular],
+                  "_debugOwner": null,
                   "_debugSource": null,
                   "actualDuration": 0,
                   "actualStartTime": -1,
                   "alternate": null,
-                  "child": FiberNode {
-                    "_debugID": 56,
-                    "_debugIsCurrentlyTiming": false,
-                    "_debugOwner": null,
-                    "_debugSource": null,
-                    "actualDuration": 0,
-                    "actualStartTime": -1,
-                    "alternate": null,
-                    "child": null,
-                    "childExpirationTime": 0,
-                    "effectTag": 0,
-                    "expirationTime": 0,
-                    "firstContextDependency": null,
-                    "firstEffect": null,
-                    "index": 0,
-                    "key": null,
-                    "lastEffect": null,
-                    "memoizedProps": "",
-                    "memoizedState": null,
-                    "mode": 0,
-                    "nextEffect": null,
-                    "pendingProps": "",
-                    "ref": null,
-                    "return": [Circular],
-                    "selfBaseDuration": 0,
-                    "sibling": FiberNode {
-                      "_debugID": 57,
-                      "_debugIsCurrentlyTiming": false,
-                      "_debugOwner": null,
-                      "_debugSource": null,
-                      "actualDuration": 0,
-                      "actualStartTime": -1,
-                      "alternate": null,
-                      "child": null,
-                      "childExpirationTime": 0,
-                      "effectTag": 0,
-                      "expirationTime": 0,
-                      "firstContextDependency": null,
-                      "firstEffect": null,
-                      "index": 1,
-                      "key": null,
-                      "lastEffect": null,
-                      "memoizedProps": "",
-                      "memoizedState": null,
-                      "mode": 0,
-                      "nextEffect": null,
-                      "pendingProps": "",
-                      "ref": null,
-                      "return": [Circular],
-                      "selfBaseDuration": 0,
-                      "sibling": FiberNode {
-                        "_debugID": 58,
-                        "_debugIsCurrentlyTiming": false,
-                        "_debugOwner": null,
-                        "_debugSource": null,
-                        "actualDuration": 0,
-                        "actualStartTime": -1,
-                        "alternate": null,
-                        "child": null,
-                        "childExpirationTime": 0,
-                        "effectTag": 0,
-                        "expirationTime": 0,
-                        "firstContextDependency": null,
-                        "firstEffect": null,
-                        "index": 2,
-                        "key": null,
-                        "lastEffect": null,
-                        "memoizedProps": "",
-                        "memoizedState": null,
-                        "mode": 0,
-                        "nextEffect": null,
-                        "pendingProps": "",
-                        "ref": null,
-                        "return": [Circular],
-                        "selfBaseDuration": 0,
-                        "sibling": null,
-                        "stateNode": ,
-                        "tag": 8,
-                        "treeBaseDuration": 0,
-                        "type": null,
-                        "updateQueue": null,
-                      },
-                      "stateNode": ,
-                      "tag": 8,
-                      "treeBaseDuration": 0,
-                      "type": null,
-                      "updateQueue": null,
-                    },
-                    "stateNode": ,
-                    "tag": 8,
-                    "treeBaseDuration": 0,
-                    "type": null,
-                    "updateQueue": null,
-                  },
+                  "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 0,
                   "expirationTime": 0,
@@ -6810,25 +6167,11 @@ ReactWrapper {
                   "index": 1,
                   "key": null,
                   "lastEffect": null,
-                  "memoizedProps": Object {
-                    "children": Array [
-                      "",
-                      "",
-                      "",
-                    ],
-                    "className": "card-body text-left",
-                  },
+                  "memoizedProps": "",
                   "memoizedState": null,
                   "mode": 0,
                   "nextEffect": null,
-                  "pendingProps": Object {
-                    "children": Array [
-                      "",
-                      "",
-                      "",
-                    ],
-                    "className": "card-body text-left",
-                  },
+                  "pendingProps": "",
                   "ref": null,
                   "return": [Circular],
                   "selfBaseDuration": 0,
@@ -6841,7 +6184,7 @@ ReactWrapper {
                     "actualStartTime": -1,
                     "alternate": null,
                     "child": FiberNode {
-                      "_debugID": 59,
+                      "_debugID": 56,
                       "_debugIsCurrentlyTiming": false,
                       "_debugOwner": null,
                       "_debugSource": null,
@@ -6866,7 +6209,7 @@ ReactWrapper {
                       "return": [Circular],
                       "selfBaseDuration": 0,
                       "sibling": FiberNode {
-                        "_debugID": 60,
+                        "_debugID": 57,
                         "_debugIsCurrentlyTiming": false,
                         "_debugOwner": null,
                         "_debugSource": null,
@@ -6891,7 +6234,7 @@ ReactWrapper {
                         "return": [Circular],
                         "selfBaseDuration": 0,
                         "sibling": FiberNode {
-                          "_debugID": 61,
+                          "_debugID": 58,
                           "_debugIsCurrentlyTiming": false,
                           "_debugOwner": null,
                           "_debugSource": null,
@@ -6916,7 +6259,7 @@ ReactWrapper {
                           "return": [Circular],
                           "selfBaseDuration": 0,
                           "sibling": FiberNode {
-                            "_debugID": 62,
+                            "_debugID": 59,
                             "_debugIsCurrentlyTiming": false,
                             "_debugOwner": null,
                             "_debugSource": null,
@@ -6941,7 +6284,7 @@ ReactWrapper {
                             "return": [Circular],
                             "selfBaseDuration": 0,
                             "sibling": FiberNode {
-                              "_debugID": 63,
+                              "_debugID": 60,
                               "_debugIsCurrentlyTiming": false,
                               "_debugOwner": null,
                               "_debugSource": null,
@@ -6966,7 +6309,7 @@ ReactWrapper {
                               "return": [Circular],
                               "selfBaseDuration": 0,
                               "sibling": FiberNode {
-                                "_debugID": 64,
+                                "_debugID": 61,
                                 "_debugIsCurrentlyTiming": false,
                                 "_debugOwner": null,
                                 "_debugSource": null,
@@ -6991,7 +6334,7 @@ ReactWrapper {
                                 "return": [Circular],
                                 "selfBaseDuration": 0,
                                 "sibling": FiberNode {
-                                  "_debugID": 65,
+                                  "_debugID": 62,
                                   "_debugIsCurrentlyTiming": false,
                                   "_debugOwner": null,
                                   "_debugSource": null,
@@ -7076,7 +6419,7 @@ ReactWrapper {
                         
                         
                       </UNDEFINED>,
-                      "className": "card-footer bg-transparent border-0 pt-0 text-left",
+                      "className": "card-footer bg-transparent border-0  text-left",
                     },
                     "memoizedState": null,
                     "mode": 0,
@@ -7091,14 +6434,14 @@ ReactWrapper {
                         
                         
                       </UNDEFINED>,
-                      "className": "card-footer bg-transparent border-0 pt-0 text-left",
+                      "className": "card-footer bg-transparent border-0  text-left",
                     },
                     "ref": null,
                     "return": [Circular],
                     "selfBaseDuration": 0,
                     "sibling": null,
                     "stateNode": <div
-                      class="card-footer bg-transparent border-0 pt-0 text-left"
+                      class="card-footer bg-transparent border-0  text-left"
                     >
                       0
                       
@@ -7113,16 +6456,10 @@ ReactWrapper {
                     "type": "div",
                     "updateQueue": null,
                   },
-                  "stateNode": <div
-                    class="card-body text-left"
-                  >
-                    
-                    
-                    
-                  </div>,
-                  "tag": 7,
+                  "stateNode": ,
+                  "tag": 8,
                   "treeBaseDuration": 0,
-                  "type": "div",
+                  "type": null,
                   "updateQueue": null,
                 },
                 "stateNode": ,
@@ -7142,15 +6479,9 @@ ReactWrapper {
               "memoizedProps": Object {
                 "children": Array [
                   "",
+                  "",
                   <div
-                    className="card-body text-left"
-                  >
-                    
-                    
-                    
-                  </div>,
-                  <div
-                    className="card-footer bg-transparent border-0 pt-0 text-left"
+                    className="card-footer bg-transparent border-0  text-left"
                   >
                     <UNDEFINED>
                       0
@@ -7171,15 +6502,9 @@ ReactWrapper {
               "pendingProps": Object {
                 "children": Array [
                   "",
+                  "",
                   <div
-                    className="card-body text-left"
-                  >
-                    
-                    
-                    
-                  </div>,
-                  <div
-                    className="card-footer bg-transparent border-0 pt-0 text-left"
+                    className="card-footer bg-transparent border-0  text-left"
                   >
                     <UNDEFINED>
                       0
@@ -7202,15 +6527,9 @@ ReactWrapper {
                 class="card h-100 Card  "
               >
                 
+                
                 <div
-                  class="card-body text-left"
-                >
-                  
-                  
-                  
-                </div>
-                <div
-                  class="card-footer bg-transparent border-0 pt-0 text-left"
+                  class="card-footer bg-transparent border-0  text-left"
                 >
                   0
                   
@@ -7398,15 +6717,9 @@ ReactWrapper {
                           class="card h-100 Card  "
                         >
                           
+                          
                           <div
-                            class="card-body text-left"
-                          >
-                            
-                            
-                            
-                          </div>
-                          <div
-                            class="card-footer bg-transparent border-0 pt-0 text-left"
+                            class="card-footer bg-transparent border-0  text-left"
                           >
                             0
                             
@@ -7556,15 +6869,9 @@ ReactWrapper {
                         class="card h-100 Card  "
                       >
                         
+                        
                         <div
-                          class="card-body text-left"
-                        >
-                          
-                          
-                          
-                        </div>
-                        <div
-                          class="card-footer bg-transparent border-0 pt-0 text-left"
+                          class="card-footer bg-transparent border-0  text-left"
                         >
                           0
                           
@@ -7847,15 +7154,9 @@ ReactWrapper {
                           class="card h-100 Card  "
                         >
                           
+                          
                           <div
-                            class="card-body text-left"
-                          >
-                            
-                            
-                            
-                          </div>
-                          <div
-                            class="card-footer bg-transparent border-0 pt-0 text-left"
+                            class="card-footer bg-transparent border-0  text-left"
                           >
                             0
                             
@@ -8005,15 +7306,9 @@ ReactWrapper {
                         class="card h-100 Card  "
                       >
                         
+                        
                         <div
-                          class="card-body text-left"
-                        >
-                          
-                          
-                          
-                        </div>
-                        <div
-                          class="card-footer bg-transparent border-0 pt-0 text-left"
+                          class="card-footer bg-transparent border-0  text-left"
                         >
                           0
                           
@@ -8243,15 +7538,9 @@ ReactWrapper {
             class="card h-100 Card  "
           >
             
+            
             <div
-              class="card-body text-left"
-            >
-              
-              
-              
-            </div>
-            <div
-              class="card-footer bg-transparent border-0 pt-0 text-left"
+              class="card-footer bg-transparent border-0  text-left"
             >
               0
               
@@ -8267,15 +7556,9 @@ ReactWrapper {
           "props": Object {
             "children": Array [
               "",
+              "",
               <div
-                className="card-body text-left"
-              >
-                
-                
-                
-              </div>,
-              <div
-                className="card-footer bg-transparent border-0 pt-0 text-left"
+                className="card-footer bg-transparent border-0  text-left"
               >
                 <UNDEFINED>
                   0
@@ -8293,35 +7576,10 @@ ReactWrapper {
           "ref": null,
           "rendered": Array [
             "",
+            "",
             Object {
               "instance": <div
-                class="card-body text-left"
-              >
-                
-                
-                
-              </div>,
-              "key": undefined,
-              "nodeType": "host",
-              "props": Object {
-                "children": Array [
-                  "",
-                  "",
-                  "",
-                ],
-                "className": "card-body text-left",
-              },
-              "ref": null,
-              "rendered": Array [
-                "",
-                "",
-                "",
-              ],
-              "type": "div",
-            },
-            Object {
-              "instance": <div
-                class="card-footer bg-transparent border-0 pt-0 text-left"
+                class="card-footer bg-transparent border-0  text-left"
               >
                 0
                 
@@ -8343,7 +7601,7 @@ ReactWrapper {
                   
                   
                 </UNDEFINED>,
-                "className": "card-footer bg-transparent border-0 pt-0 text-left",
+                "className": "card-footer bg-transparent border-0  text-left",
               },
               "ref": null,
               "rendered": Array [

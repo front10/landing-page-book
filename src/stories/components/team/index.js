@@ -6,8 +6,9 @@ import JSXAddon from 'storybook-addon-jsx';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
+import def from '../../mock/components/codes/team';
 
-import { Team } from '../../../components';
+import { Team, Code } from '../../../components';
 import Readme from '../../../components/Team/README.md';
 
 const members = [
@@ -98,6 +99,16 @@ stories.addWithJSX(
         )}
         members={members}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

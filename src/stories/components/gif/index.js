@@ -6,8 +6,9 @@ import JSXAddon from 'storybook-addon-jsx';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
-import { Gif } from '../../../components';
+import { Gif, Code } from '../../../components';
 import Readme from '../../../components/Gif/README.md';
+import { def, autoplay } from '../../mock/components/codes/gif';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/Gif', module);
@@ -26,6 +27,16 @@ stories.addWithJSX(
         image={text('Image', 'images/gif/write.gif')}
         preview={text('Preview', 'images/demo/develop.png')}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig
@@ -45,6 +56,16 @@ stories.addWithJSX(
         preview={text('Preview', 'images/demo/develop.png')}
         autoplay
       />
+      <div className="mt-4">
+        <Code
+          code={autoplay}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

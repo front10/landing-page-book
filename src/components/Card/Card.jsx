@@ -33,19 +33,27 @@ class Card extends React.Component {
             alt="Generic placeholder"
           />
         )}
-        <div className={`card-body text-${contentAlign}`}>
-          {title && <div className="Card__Title mb-2">{title}</div>}
-          {subTitle && <div className="Card__Subtitle mb-3">{subTitle}</div>}
-          {summary && (
-            <p
-              className={`Card__Summary m-0 ${summaryJustified ? 'Card__Summary--justified' : ''}`}
-            >
-              {summary}
-            </p>
-          )}
-        </div>
+        {(title || subTitle || summary) && (
+          <div className={`card-body text-${contentAlign}`}>
+            {title && <div className="Card__Title mb-2">{title}</div>}
+            {subTitle && <div className="Card__Subtitle mb-3">{subTitle}</div>}
+            {summary && (
+              <p
+                className={`Card__Summary m-0 ${
+                  summaryJustified ? 'Card__Summary--justified' : ''
+                }`}
+              >
+                {summary}
+              </p>
+            )}
+          </div>
+        )}
         {children && (
-          <div className={`card-footer bg-transparent border-0 pt-0 text-${contentAlign}`}>
+          <div
+            className={`card-footer bg-transparent border-0 ${
+              title || subTitle || summary ? 'pt-0' : ''
+            } text-${contentAlign}`}
+          >
             <React.Fragment>{children}</React.Fragment>
           </div>
         )}

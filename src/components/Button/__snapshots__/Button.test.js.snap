@@ -9,6 +9,7 @@ ReactWrapper {
     loading={false}
     loadingClass="fa fa-circle-o-notch fa-spin"
     onClick={[Function]}
+    outline={false}
     tooltip=""
     type="button"
   />,
@@ -54,6 +55,7 @@ ReactWrapper {
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
+              "outline": false,
               "tooltip": "",
               "type": "button",
             },
@@ -69,6 +71,7 @@ ReactWrapper {
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
+              "outline": false,
               "tooltip": "",
               "type": "button",
             },
@@ -86,6 +89,7 @@ ReactWrapper {
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
+              "outline": false,
               "tooltip": "",
               "type": "button",
             },
@@ -128,7 +132,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn "
+                    class="Button btn  "
                     title=""
                     type="button"
                   />
@@ -181,6 +185,7 @@ ReactWrapper {
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
+                          "outline": false,
                           "tooltip": "",
                           "type": "button",
                         }
@@ -210,6 +215,7 @@ ReactWrapper {
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
+                          "outline": false,
                           "tooltip": "",
                           "type": "button",
                         }
@@ -243,6 +249,7 @@ ReactWrapper {
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
+                    "outline": false,
                     "tooltip": "",
                     "type": "button",
                   }
@@ -260,7 +267,7 @@ ReactWrapper {
               "containerInfo": <div>
                 <button
                   aria-label=""
-                  class="Button btn "
+                  class="Button btn  "
                   title=""
                   type="button"
                 />
@@ -304,6 +311,7 @@ ReactWrapper {
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
+                      "outline": false,
                       "tooltip": "",
                       "type": "button",
                     }
@@ -337,6 +345,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -353,6 +362,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -396,7 +406,7 @@ ReactWrapper {
               null,
               false,
             ],
-            "className": "Button btn ",
+            "className": "Button btn  ",
             "disabled": false,
             "onClick": [Function],
             "title": "",
@@ -411,7 +421,7 @@ ReactWrapper {
               null,
               false,
             ],
-            "className": "Button btn ",
+            "className": "Button btn  ",
             "disabled": false,
             "onClick": [Function],
             "title": "",
@@ -423,7 +433,7 @@ ReactWrapper {
           "sibling": null,
           "stateNode": <button
             aria-label=""
-            class="Button btn "
+            class="Button btn  "
             title=""
             type="button"
           />,
@@ -448,6 +458,7 @@ ReactWrapper {
           "loading": false,
           "loadingClass": "fa fa-circle-o-notch fa-spin",
           "onClick": [Function],
+          "outline": false,
           "tooltip": "",
           "type": "button",
         },
@@ -462,6 +473,7 @@ ReactWrapper {
           "loading": false,
           "loadingClass": "fa fa-circle-o-notch fa-spin",
           "onClick": [Function],
+          "outline": false,
           "tooltip": "",
           "type": "button",
         },
@@ -494,6 +506,7 @@ ReactWrapper {
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
+              "outline": false,
               "tooltip": "",
               "type": "button",
             },
@@ -509,6 +522,7 @@ ReactWrapper {
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
+              "outline": false,
               "tooltip": "",
               "type": "button",
             },
@@ -526,6 +540,7 @@ ReactWrapper {
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
+              "outline": false,
               "tooltip": "",
               "type": "button",
             },
@@ -568,7 +583,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn "
+                    class="Button btn  "
                     title=""
                     type="button"
                   />
@@ -621,6 +636,7 @@ ReactWrapper {
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
+                          "outline": false,
                           "tooltip": "",
                           "type": "button",
                         }
@@ -650,6 +666,7 @@ ReactWrapper {
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
+                          "outline": false,
                           "tooltip": "",
                           "type": "button",
                         }
@@ -683,6 +700,7 @@ ReactWrapper {
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
+                    "outline": false,
                     "tooltip": "",
                     "type": "button",
                   }
@@ -700,7 +718,7 @@ ReactWrapper {
               "containerInfo": <div>
                 <button
                   aria-label=""
-                  class="Button btn "
+                  class="Button btn  "
                   title=""
                   type="button"
                 />
@@ -744,6 +762,7 @@ ReactWrapper {
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
+                      "outline": false,
                       "tooltip": "",
                       "type": "button",
                     }
@@ -777,6 +796,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -793,6 +813,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -827,6 +848,7 @@ ReactWrapper {
         "loading": false,
         "loadingClass": "fa fa-circle-o-notch fa-spin",
         "onClick": [Function],
+        "outline": false,
         "tooltip": "",
         "type": "button",
       },
@@ -849,6 +871,7 @@ ReactWrapper {
       "loading": false,
       "loadingClass": "fa fa-circle-o-notch fa-spin",
       "onClick": [Function],
+      "outline": false,
       "tooltip": "",
       "type": "button",
     },
@@ -856,7 +879,7 @@ ReactWrapper {
     "rendered": Object {
       "instance": <button
         aria-label=""
-        class="Button btn "
+        class="Button btn  "
         title=""
         type="button"
       />,
@@ -868,7 +891,7 @@ ReactWrapper {
           null,
           false,
         ],
-        "className": "Button btn ",
+        "className": "Button btn  ",
         "disabled": false,
         "onClick": [Function],
         "title": "",
@@ -919,6 +942,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -934,6 +958,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -951,6 +976,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -993,7 +1019,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <button
                       aria-label=""
-                      class="Button btn "
+                      class="Button btn  "
                       title=""
                       type="button"
                     />
@@ -1046,6 +1072,7 @@ ReactWrapper {
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
+                            "outline": false,
                             "tooltip": "",
                             "type": "button",
                           }
@@ -1075,6 +1102,7 @@ ReactWrapper {
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
+                            "outline": false,
                             "tooltip": "",
                             "type": "button",
                           }
@@ -1108,6 +1136,7 @@ ReactWrapper {
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
+                      "outline": false,
                       "tooltip": "",
                       "type": "button",
                     }
@@ -1125,7 +1154,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn "
+                    class="Button btn  "
                     title=""
                     type="button"
                   />
@@ -1169,6 +1198,7 @@ ReactWrapper {
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
+                        "outline": false,
                         "tooltip": "",
                         "type": "button",
                       }
@@ -1202,6 +1232,7 @@ ReactWrapper {
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
+                  "outline": false,
                   "tooltip": "",
                   "type": "button",
                 },
@@ -1218,6 +1249,7 @@ ReactWrapper {
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
+                  "outline": false,
                   "tooltip": "",
                   "type": "button",
                 },
@@ -1261,7 +1293,7 @@ ReactWrapper {
                 null,
                 false,
               ],
-              "className": "Button btn ",
+              "className": "Button btn  ",
               "disabled": false,
               "onClick": [Function],
               "title": "",
@@ -1276,7 +1308,7 @@ ReactWrapper {
                 null,
                 false,
               ],
-              "className": "Button btn ",
+              "className": "Button btn  ",
               "disabled": false,
               "onClick": [Function],
               "title": "",
@@ -1288,7 +1320,7 @@ ReactWrapper {
             "sibling": null,
             "stateNode": <button
               aria-label=""
-              class="Button btn "
+              class="Button btn  "
               title=""
               type="button"
             />,
@@ -1313,6 +1345,7 @@ ReactWrapper {
             "loading": false,
             "loadingClass": "fa fa-circle-o-notch fa-spin",
             "onClick": [Function],
+            "outline": false,
             "tooltip": "",
             "type": "button",
           },
@@ -1327,6 +1360,7 @@ ReactWrapper {
             "loading": false,
             "loadingClass": "fa fa-circle-o-notch fa-spin",
             "onClick": [Function],
+            "outline": false,
             "tooltip": "",
             "type": "button",
           },
@@ -1359,6 +1393,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -1374,6 +1409,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -1391,6 +1427,7 @@ ReactWrapper {
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
+                "outline": false,
                 "tooltip": "",
                 "type": "button",
               },
@@ -1433,7 +1470,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <button
                       aria-label=""
-                      class="Button btn "
+                      class="Button btn  "
                       title=""
                       type="button"
                     />
@@ -1486,6 +1523,7 @@ ReactWrapper {
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
+                            "outline": false,
                             "tooltip": "",
                             "type": "button",
                           }
@@ -1515,6 +1553,7 @@ ReactWrapper {
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
+                            "outline": false,
                             "tooltip": "",
                             "type": "button",
                           }
@@ -1548,6 +1587,7 @@ ReactWrapper {
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
+                      "outline": false,
                       "tooltip": "",
                       "type": "button",
                     }
@@ -1565,7 +1605,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn "
+                    class="Button btn  "
                     title=""
                     type="button"
                   />
@@ -1609,6 +1649,7 @@ ReactWrapper {
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
+                        "outline": false,
                         "tooltip": "",
                         "type": "button",
                       }
@@ -1642,6 +1683,7 @@ ReactWrapper {
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
+                  "outline": false,
                   "tooltip": "",
                   "type": "button",
                 },
@@ -1658,6 +1700,7 @@ ReactWrapper {
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
+                  "outline": false,
                   "tooltip": "",
                   "type": "button",
                 },
@@ -1692,6 +1735,7 @@ ReactWrapper {
           "loading": false,
           "loadingClass": "fa fa-circle-o-notch fa-spin",
           "onClick": [Function],
+          "outline": false,
           "tooltip": "",
           "type": "button",
         },
@@ -1714,6 +1758,7 @@ ReactWrapper {
         "loading": false,
         "loadingClass": "fa fa-circle-o-notch fa-spin",
         "onClick": [Function],
+        "outline": false,
         "tooltip": "",
         "type": "button",
       },
@@ -1721,7 +1766,7 @@ ReactWrapper {
       "rendered": Object {
         "instance": <button
           aria-label=""
-          class="Button btn "
+          class="Button btn  "
           title=""
           type="button"
         />,
@@ -1733,7 +1778,7 @@ ReactWrapper {
             null,
             false,
           ],
-          "className": "Button btn ",
+          "className": "Button btn  ",
           "disabled": false,
           "onClick": [Function],
           "title": "",

@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { ImageList } from '../../../components';
+import { ImageList, Container, Code } from '../../../components';
 import Readme from '../../../components/ImageList/README.md';
+import def from '../../mock/components/codes/imagelist';
 
 setAddon(JSXAddon);
 
@@ -52,12 +53,22 @@ stories.addWithJSX(
         name="Image List"
         description="Easy way to show an image list on your website."
       />
-      <div className="container">
+      <Container>
         <ImageList
           gray={boolean('Use gray', true)}
           imageRounded={boolean('Rounded', false)}
           imageBordered={boolean('Bordered', false)}
           images={companies}
+        />
+      </Container>
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
         />
       </div>
     </ThemeSelector>

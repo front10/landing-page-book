@@ -34,4 +34,39 @@ const twoColumnText = `<Section
   </Container>
 </Section>`;
 
-export { def, twoColumnText };
+const twoColumnCards = `<Section
+subTitle="One Look Is Worth A Thousand Words."
+title="WHAT WE DO"
+>
+<Container className="text-justify">
+  <Row>
+    <Column className="col-12 col-sm-6">
+      <Card
+        contentAlign="left"
+        image="images/card/image2.jpg"
+        imageCircle={false}
+        imageShadow
+        subTitle="First man in the moon"
+        summary="American astronaut and aeronautical engineer who was the first 
+        person to walk on the Moon. He was also a naval aviator, test pilot, and
+        university professor."
+        title="Neil Armstrong"
+      />
+    </Column>
+    <Column className="col-12 col-sm-6">
+      <Card
+        contentAlign="left"
+        image="images/card/image1.jpg"
+        imageCircle={false}
+        imageShadow
+        subTitle="Our universe"
+        summary="Results from viewing Type 1a supernova have shown that the expansion
+        of the universe is accelerating. Dark energy is the reason for this acceleration."
+        title="Dark Energy"
+      />
+    </Column>
+  </Row>
+</Container>
+</Section>`;
+
+export { def, twoColumnText, twoColumnCards };

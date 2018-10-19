@@ -8,10 +8,10 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Section, Video, Button, Container, Code, Row, Column } from '../../../components';
+import { Section, Video, Button, Container, Code, Row, Column, Card } from '../../../components';
 import Readme from '../../../components/Section/README.md';
 
-import { def, twoColumnText } from '../../mock/components/codes/section';
+import { def, twoColumnText, twoColumnCards } from '../../mock/components/codes/section';
 
 setAddon(JSXAddon);
 
@@ -167,6 +167,63 @@ stories.addWithJSX(
       </Section>
       <Code
         code={twoColumnText}
+        languageCode="jsx"
+        readOnly
+        collapsible
+        collapsed
+        showDeleteButton={false}
+      />
+    </ThemeSelector>
+  )),
+  jsxConfig
+);
+
+stories.addWithJSX(
+  'Two Columns Cards',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Section"
+        storyName="With Video"
+        description="A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information."
+      />
+      <Section
+        gray={boolean('Gray', false)}
+        title={text('Title', 'WHAT WE DO')}
+        subTitle={text('Subtitle', 'One Look Is Worth A Thousand Words.')}
+      >
+        <Container className="text-justify">
+          <Row>
+            <Column className="col-12 col-sm-6">
+              <Card
+                contentAlign="left"
+                image="images/card/image2.jpg"
+                imageCircle={false}
+                imageShadow
+                subTitle="First man in the moon"
+                summary="American astronaut and aeronautical engineer who was the first 
+                person to walk on the Moon. He was also a naval aviator, test pilot, and
+                university professor."
+                title="Neil Armstrong"
+              />
+            </Column>
+            <Column className="col-12 col-sm-6">
+              <Card
+                contentAlign="left"
+                image="images/card/image1.jpg"
+                imageCircle={false}
+                imageShadow
+                subTitle="Our universe"
+                summary="Results from viewing Type 1a supernova have shown that the expansion
+                of the universe is accelerating. Dark energy is the reason for this acceleration."
+                title="Dark Energy"
+              />
+            </Column>
+          </Row>
+        </Container>
+      </Section>
+      <Code
+        code={twoColumnCards}
         languageCode="jsx"
         readOnly
         collapsible

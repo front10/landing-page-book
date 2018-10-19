@@ -37,7 +37,7 @@ class Image extends Component {
   }
 
   render() {
-    const { alt, src, rounded, border, width, tooltip, className, imgFilter } = this.props;
+    const { alt, src, rounded, border, width, tooltip, className, imgFilter, shadow } = this.props;
     const { loaded } = this.state;
     let tempClass = className;
     if (rounded) tempClass += ` rounded-circle`;
@@ -46,6 +46,7 @@ class Image extends Component {
       filter: imgFilter && imgFilter,
       display: !loaded ? 'none' : ''
     };
+    if (shadow) tempClass += ` img-shadow`;
     return (
       <React.Fragment>
         <img
@@ -74,6 +75,7 @@ class Image extends Component {
 Image.propTypes = {
   border: PropTypes.bool,
   rounded: PropTypes.bool,
+  shadow: PropTypes.bool,
   className: PropTypes.string,
   width: PropTypes.string,
   tooltip: PropTypes.string,
@@ -84,6 +86,7 @@ Image.propTypes = {
 Image.defaultProps = {
   border: false,
   rounded: false,
+  shadow: false,
   className: 'img-fluid',
   width: undefined,
   tooltip: '',

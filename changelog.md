@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [1.3.0] Umreleased
 
-####Added
+#### Added
 
 - [?] Theming variables `--Team__Image-width`, `--Team__Image-height`, by [@ycgarrido](https://github.com/ycgarrido)
 - [?] Props `shadow`, `imageShadow`, `topColor` to Team, by [@ycgarrido](https://github.com/ycgarrido)

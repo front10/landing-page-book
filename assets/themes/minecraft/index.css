@@ -1640,6 +1640,33 @@ a span {
   filter: grayscale(1); }
 
 :root {
+  --Team__Image-width: 100px;
+  --Team__Image-height: 100px; }
+
+.Team .Card img {
+  width: var(--Team__Image-width);
+  height: var(--Team__Image-height);
+  margin-top: 1.25rem; }
+
+.Team--center .Card img {
+  margin-left: auto;
+  margin-right: auto; }
+
+.Team--left .Card img {
+  margin-right: auto; }
+
+.Team--right .Card img {
+  margin-left: auto; }
+
+.Team__Color {
+  position: relative; }
+  .Team__Color .Team__Color__Primary {
+    height: 90px;
+    position: absolute;
+    top: 0px;
+    width: 100%; }
+
+:root {
   --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
   --Card__Summary-color: #000;

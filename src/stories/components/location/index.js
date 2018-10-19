@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Location } from '../../../components';
+import { Location, Code } from '../../../components';
 import Readme from '../../../components/Location/README.md';
+import def from '../../mock/components/codes/location';
 
 setAddon(JSXAddon);
 
@@ -47,6 +48,16 @@ stories.addWithJSX(
           lng={number('Longitude', -80.2)}
           zoom={number('Zoom', 10)}
           markers={markers}
+        />
+      </div>
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
         />
       </div>
     </ThemeSelector>

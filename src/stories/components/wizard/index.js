@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Wizard, Container, Video, Gif, FormGroup, Input, Social } from '../../../components';
+import { Wizard, Container, Video, Gif, FormGroup, Input, Social, Code } from '../../../components';
 import Readme from '../../../components/Wizard/README.md';
+import def from '../../mock/components/codes/wizard';
 
 setAddon(JSXAddon);
 
@@ -83,6 +84,16 @@ stories.addWithJSX(
         )}
         steps={steps}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

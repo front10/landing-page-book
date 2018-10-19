@@ -7,8 +7,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Sponsors } from '../../../components';
+import { Sponsors, Code } from '../../../components';
 import Readme from '../../../components/Sponsors/README.md';
+import def from '../../mock/components/codes/sponsors';
 
 setAddon(JSXAddon);
 
@@ -47,6 +48,16 @@ stories.addWithJSX(
           ccsClassName={text('CssClassName', 'px-3')}
           gray={boolean('Use gray', true)}
           sponsors={sponsors}
+        />
+      </div>
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
         />
       </div>
     </ThemeSelector>

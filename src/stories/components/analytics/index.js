@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Analytics } from '../../../components';
+import { Analytics, Code } from '../../../components';
 import Readme from '../../../components/Analytics/README.md';
+import def from '../../mock/components/codes/analitic';
 
 setAddon(JSXAddon);
 
@@ -31,6 +32,16 @@ stories.addWithJSX(
         debug={boolean('Debug Mode', true)}
       />
       <div>This component is embedded directly in the javascript and shows nothing.</div>
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

@@ -5,9 +5,10 @@ import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
-import { Button } from '../../../components';
+import { Button, Code } from '../../../components';
 import Readme from '../../../components/Button/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
+import def from '../../mock/components/codes/button';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Elements', module);
@@ -37,6 +38,16 @@ stories.addWithJSX(
         <i className="fa fa-home" />
         <span className="ml-1">Home</span>
       </Button>
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

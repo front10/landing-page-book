@@ -15,15 +15,21 @@ class Team extends Component {
       members,
       imageCircle,
       contentAlign,
-      imageBorder
+      imageBorder,
+      shadow,
+      topColor,
+      imageShadow
     } = this.props;
     return (
       <div className="Team row">
         {members.map(member => (
           <div
-            className={`col-sm-12 col-md text-${contentAlign} mb-4`}
+            className={`col-12 col-sm- col-md text-${contentAlign} mb-4 Team--${contentAlign}`}
             key={`${member.name}${member.job}`}
           >
+            <div className="Team__Color">
+              <div className="Team__Color__Primary" style={{ background: topColor }} />
+            </div>
             <Card
               imageCircle={imageCircle}
               subTitle={showJob ? member.job : ''}
@@ -33,6 +39,8 @@ class Team extends Component {
               contentAlign={contentAlign}
               imageBorder={imageBorder}
               image={showImage ? member.image : ''}
+              shadow={shadow}
+              imageShadow={imageShadow}
             >
               {member.profile.map(item => (
                 <Social key={item.social} url={item.url} type={item.social} gray={socialGray} />
@@ -54,6 +62,9 @@ Team.propTypes = {
   imageCircle: PropTypes.bool,
   imageBorder: PropTypes.bool,
   socialGray: PropTypes.bool,
+  shadow: PropTypes.bool,
+  imageShadow: PropTypes.bool,
+  topColor: PropTypes.string,
   contentAlign: PropTypes.string,
   members: PropTypes.arrayOf(
     PropTypes.shape({
@@ -79,6 +90,9 @@ Team.defaultProps = {
   imageCircle: true,
   imageBorder: false,
   socialGray: false,
+  shadow: false,
+  imageShadow: false,
+  topColor: 'transparent',
   contentAlign: 'center',
   members: []
 };

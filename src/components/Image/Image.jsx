@@ -29,14 +29,6 @@ class Image extends Component {
     if (prevProps.src !== src) this.setState({ loaded: false });
   }
 
-  static getCustomCssFilterForImg(props) {
-    const { imgFilter } = props;
-    return `
-    img [src] {
-      filter: ${imgFilter};
-    }`;
-  }
-
   handleImageLoaded() {
     const img = this.image.current;
     if (img && img.complete) {
@@ -46,11 +38,14 @@ class Image extends Component {
 
   render() {
     const { alt, src, rounded, border, width, tooltip, className, imgFilter } = this.props;
-    const customCssFilter = Image.getCustomCssFilterForImg(this.props);
     const { loaded } = this.state;
     let tempClass = className;
     if (rounded) tempClass += ` rounded-circle`;
     if (border) tempClass += ` img-thumbnail`;
+    const styles = {
+      filter: imgFilter && imgFilter,
+      display: !loaded ? 'none' : ''
+    };
     return (
       <React.Fragment>
         <img
@@ -59,7 +54,7 @@ class Image extends Component {
           src={src}
           className={tempClass}
           width={width}
-          style={!loaded ? { display: 'none' } : {}}
+          style={styles}
           onLoad={this.handleImageLoaded}
           ref={this.image}
         />
@@ -71,7 +66,6 @@ class Image extends Component {
             </g>
           </svg>
         )}
-        {imgFilter && <style>{customCssFilter}</style>}
       </React.Fragment>
     );
   }

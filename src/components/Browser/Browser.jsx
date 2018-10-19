@@ -56,7 +56,7 @@ Browser.propTypes = {
   showBrowserVersion: PropTypes.bool,
   vendor: PropTypes.string,
   version: PropTypes.string,
-  imgFilter: PropTypes.string,
+  imgFilter: PropTypes.string
 };
 Browser.defaultProps = {
   showBrowserVendor: true,

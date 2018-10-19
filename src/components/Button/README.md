@@ -44,6 +44,7 @@ import '@front10/landing-page-book/dist/components/Button/style.css';
 | ------------ | ---------- | ------------------------------------------------------------------------- |
 | disabled     | `Boolean`  | Disable or enable button. Default `false`                                 |
 | loading      | `Boolean`  | Show loading mode. Default `false`                                        |
+| outline      | `Boolean`  | Define if button is only with border. Default `false`                     |
 | loadingClass | `String`   | Class to show loading indicator. Default `"fa fa-circle-o-notch fa-spin"` |
 | className    | `String`   | Class to apply to button. Default `""`                                    |
 | ariaLabel    | `String`   | Aria label of the button. Default `""`                                    |

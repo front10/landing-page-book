@@ -674,11 +674,21 @@ ol.progtrckr li.progtrckr-done:hover:before {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 :root {
   --Card-borderRadius: 0px;
@@ -765,11 +775,21 @@ ol.progtrckr li.progtrckr-done:hover:before {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
@@ -841,11 +861,21 @@ ol.progtrckr li.progtrckr-done:hover:before {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 a[disabled] {
   pointer-events: none; }
@@ -973,11 +1003,21 @@ a span {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 :root {
   --Input-borderRadius: .25rem;
@@ -1171,11 +1211,21 @@ a span {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
@@ -1261,11 +1311,21 @@ a span {
   color: var(--Button-textColor);
   background-color: var(--Button-backgroundColor); }
 
+.Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Button-borderColor) !important; }
+
 .Button:not(.navbar-toggler):focus,
 .Button:not(.navbar-toggler):active,
 .Button:not(.navbar-toggler):not(:disabled):hover {
   background-color: var(--Button-backgroundColorHover);
   box-shadow: var(--Button-boxShadowHover); }
+
+.Button--outline:not(.navbar-toggler):focus,
+.Button--outline:not(.navbar-toggler):active,
+.Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Button-backgroundColorHover) !important; }
 
 .Hero .Hero__Header {
   font-weight: var(--Hero__Header-fontWeight);
@@ -1523,20 +1583,61 @@ a span {
   --Features__CardFooter__Link-box-shadow-hover: none;
   --Features__CardFooter__Link-background-color-hover: none;
   --Features__CardFooter__Link-color: none;
-  --Features__CardFooter__Link-fontSize: none; }
+  --Features__CardFooter__Link-fontSize: none;
+  --Features__Image-width: 100px;
+  --Features__Image-height: 100px;
+  --Features__Button-backgroundColor: #0780cf;
+  --Features__Button-backgroundColorHover: #05598f;
+  --Features__Button-color: #fff; }
 
-.features .card .card-footer a {
+.Features .Card img {
+  width: var(--Features__Image-width);
+  height: var(--Features__Image-height);
+  margin-top: 1.25rem; }
+
+.Features--center .Card img {
+  margin-left: auto;
+  margin-right: auto; }
+
+.Features--left .Card img {
+  margin-right: auto; }
+
+.Features--right .Card img {
+  margin-left: auto; }
+
+.Features .card .card-footer a {
   padding: var(--Features__CardFooter__Link-padding);
   box-shadow: var(--Features__CardFooter__Link-box-shadow);
   background-color: var(--Features__CardFooter__Link-background-color);
   color: var(--Features__CardFooter__Link-color);
   font-size: var(--Features__CardFooter__Link-fontSize); }
 
-.features .card .card-footer a:focus,
-.features .card .card-footer a:active,
-.features .card .card-footer a:hover {
+.Features .card .card-footer a:focus,
+.Features .card .card-footer a:active,
+.Features .card .card-footer a:hover {
   background-color: var(--Features__CardFooter__Link-background-color-hover) !important;
   box-shadow: var(--Features__CardFooter__Link-box-shadow-hover) !important; }
+
+.Features .Button {
+  background-color: var(--Features__Button-backgroundColor);
+  color: var(--Features__Button-color); }
+
+.Features .Button--outline:not(.navbar-toggler) {
+  background-color: transparent !important;
+  border: solid 1px;
+  border-color: var(--Features__Button-backgroundColor) !important;
+  color: var(--Features__Button-backgroundColor) !important; }
+
+.Features .Button:not(.navbar-toggler):focus,
+.Features .Button:not(.navbar-toggler):active,
+.Features .Button:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Features__Button-backgroundColorHover); }
+
+.Features .Button--outline:not(.navbar-toggler):focus,
+.Features .Button--outline:not(.navbar-toggler):active,
+.Features .Button--outline:not(.navbar-toggler):not(:disabled):hover {
+  background-color: var(--Features__Button-backgroundColorHover) !important;
+  color: var(--Features__Button-color) !important; }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }

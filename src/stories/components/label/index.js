@@ -8,8 +8,9 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Label } from '../../../components';
+import { Label, Code } from '../../../components';
 import Readme from '../../../components/Label/README.md';
+import def from '../../mock/components/codes/label';
 
 setAddon(JSXAddon);
 
@@ -32,6 +33,16 @@ stories.addWithJSX(
         className={text('Class name', '')}
         label={text('Label', 'This is a label')}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

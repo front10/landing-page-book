@@ -13,26 +13,42 @@ class Card extends React.Component {
       summary,
       showBorder,
       contentAlign,
-      children
+      children,
+      imageShadow,
+      summaryJustified,
+      shadow
     } = this.props;
     return (
-      <div className={`card h-100 Card ${!showBorder ? 'border-0' : ''}`}>
+      <div
+        className={`card h-100 Card ${!showBorder ? 'border-0' : ''} ${
+          shadow ? 'Card--shadow' : ''
+        }`}
+      >
+        {image && (
+          <Image
+            border={imageBorder}
+            rounded={imageCircle}
+            src={image}
+            shadow={imageShadow}
+            alt="Generic placeholder"
+          />
+        )}
         <div className={`card-body text-${contentAlign}`}>
-          {image && (
-            <Image
-              border={imageBorder}
-              rounded={imageCircle}
-              src={image}
-              alt="Generic placeholder"
-            />
-          )}
           {title && <div className="Card__Title mb-2">{title}</div>}
           {subTitle && <div className="Card__Subtitle mb-3">{subTitle}</div>}
-          {summary && <p className="Card__Summary">{summary}</p>}
+          {summary && (
+            <p
+              className={`Card__Summary m-0 ${summaryJustified ? 'Card__Summary--justified' : ''}`}
+            >
+              {summary}
+            </p>
+          )}
         </div>
-        <div className={`card-footer bg-transparent border-0 text-${contentAlign}`}>
-          {children && <React.Fragment>{children}</React.Fragment>}
-        </div>
+        {children && (
+          <div className={`card-footer bg-transparent border-0 text-${contentAlign}`}>
+            <React.Fragment>{children}</React.Fragment>
+          </div>
+        )}
       </div>
     );
   }
@@ -42,6 +58,9 @@ Card.propTypes = {
   showBorder: PropTypes.bool,
   imageCircle: PropTypes.bool,
   imageBorder: PropTypes.bool,
+  imageShadow: PropTypes.bool,
+  summaryJustified: PropTypes.bool,
+  shadow: PropTypes.bool,
   image: PropTypes.string,
   title: PropTypes.string,
   subTitle: PropTypes.string,
@@ -53,6 +72,9 @@ Card.defaultProps = {
   showBorder: true,
   imageCircle: true,
   imageBorder: false,
+  imageShadow: false,
+  shadow: false,
+  summaryJustified: false,
   image: '',
   title: '',
   subTitle: '',

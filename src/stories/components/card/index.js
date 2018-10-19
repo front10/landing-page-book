@@ -26,20 +26,27 @@ stories.addWithJSX(
         <div className="col-12 col-md-6 col-lg-3">
           <Card
             showBorder={boolean('Show border', true)}
-            imageCircle={boolean('Image cilcle', true)}
+            imageCircle={boolean('Image cilcle', false)}
             imageBorder={boolean('Image border', false)}
-            title={text('Title', 'Front10 landing page')}
-            subTitle={text('Sub title', 'This is a card example')}
+            shadow={boolean('Shadow', false)}
+            imageShadow={boolean('Image shadow', true)}
+            summaryJustified={boolean('Summary justified', false)}
+            title={text('Title', 'Sky')}
+            subTitle={text('Sub title', '')}
             summary={text(
               'Summary',
-              'This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.'
+              'Sky is often defined as the space in which the stars move and by visual effect seems to surround the Earth. In astronomy, sky is synonymous with the celestial sphere: an imaginary vault on which the Sun, stars, planets and the Moon are distributed.'
             )}
-            image={text('Image', 'https://www.softwarefx.com/products/images/icon-developer.png')}
-            contentAlign={select('Content align', {
-              center: 'center',
-              left: 'left',
-              right: 'right'
-            })}
+            image={text('Image', 'images/card/image1.jpg')}
+            contentAlign={select(
+              'Content align',
+              {
+                center: 'center',
+                left: 'left',
+                right: 'right'
+              },
+              'left'
+            )}
           />
         </div>
       </div>

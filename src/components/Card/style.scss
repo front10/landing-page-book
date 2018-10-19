@@ -7,6 +7,7 @@
   --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
   --Card__Subtitle-color: #b5b5b5;
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 @import '../Image/style.scss';
@@ -18,6 +19,9 @@
     color: var(--Card__Summary-color);
     background-color: var(--Card__Summary-backgroundColor);
   }
+  .Card__Summary--justified {
+    text-align: justify;
+  }
   .Card__Title {
     font-size: var(--Card__Title-fontSize);
     color: var(--Card__Title-color);
@@ -26,4 +30,8 @@
     font-size: var(--Card__Subtitle-fontSize);
     color: var(--Card__Subtitle-color);
   }
+}
+
+.Card--shadow {
+  box-shadow: var(--Card-boxShadow);
 }

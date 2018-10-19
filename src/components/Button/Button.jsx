@@ -13,14 +13,15 @@ class Button extends Component {
       ariaLabel,
       type,
       onClick,
-      loadingClass
+      loadingClass,
+      outline
     } = this.props;
     /* eslint-disable react/button-has-type */
     return (
       <button
         title={tooltip}
         disabled={disabled}
-        className={`Button btn ${className}`}
+        className={`Button btn ${className} ${outline ? 'Button--outline' : ''}`}
         onClick={onClick}
         aria-label={ariaLabel}
         type={type}
@@ -34,6 +35,7 @@ class Button extends Component {
 }
 
 Button.propTypes = {
+  outline: PropTypes.bool,
   disabled: PropTypes.bool,
   loading: PropTypes.bool,
   loadingClass: PropTypes.string,
@@ -45,6 +47,7 @@ Button.propTypes = {
   onClick: PropTypes.func
 };
 Button.defaultProps = {
+  outline: false,
   disabled: false,
   loading: false,
   loadingClass: 'fa fa-circle-o-notch fa-spin',

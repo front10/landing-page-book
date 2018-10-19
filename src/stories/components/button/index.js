@@ -27,6 +27,7 @@ stories.addWithJSX(
         Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
       <Button
+        outline={boolean('Outline', false)}
         disabled={boolean('Disabled', false)}
         loading={boolean('Loading', false)}
         tooltip={text('Tooltip', 'Tis is a button tooltip')}

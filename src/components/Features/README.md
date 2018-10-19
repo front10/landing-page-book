@@ -82,26 +82,34 @@ const features = [
 
 ## Properties
 
-| </br>Name    | </br>Type | </br>Summary                                                                    |
-| ------------ | --------- | ------------------------------------------------------------------------------- |
-| showImage    | `Boolean` | Show or hide image. Default `true`                                              |
-| showTitle    | `Boolean` | Show or hide title. Default `true`                                              |
-| showSubtitle | `Boolean` | Show or hide subtitle. Default `true`                                           |
-| showSummary  | `Boolean` | Show or hide summary. Default `true`                                            |
-| showBorder   | `Boolean` | Show or hide card border. Default `true`                                        |
-| imageCircle  | `Boolean` | Establishes if image is circled. Default `true`                                 |
-| imageBorder  | `Boolean` | Establishes if image is with border. Default `false`                            |
-| contentAlign | `String`  | Align of a component content. Default `"center"`, can be `left` and `right` too |
-| features     | `Array`   | Array of features to show. Default `[]`, see example section.                   |
+| </br>Name     | </br>Type | </br>Summary                                                                    |
+| ------------- | --------- | ------------------------------------------------------------------------------- |
+| showImage     | `Boolean` | Show or hide image. Default `true`                                              |
+| showTitle     | `Boolean` | Show or hide title. Default `true`                                              |
+| showSubtitle  | `Boolean` | Show or hide subtitle. Default `true`                                           |
+| showSummary   | `Boolean` | Show or hide summary. Default `true`                                            |
+| imageCircle   | `Boolean` | Establishes if image is circled. Default `true`                                 |
+| imageShadow   | `Boolean` | Establishes image with shadow. Default `false`                                  |
+| shadow        | `Boolean` | Establishes shadow for each card. Default `false`                               |
+| showFooter    | `Boolean` | Show or hide Card footer. Default `true`                                        |
+| imageBorder   | `Boolean` | Establishes if image is with border. Default `false`                            |
+| outlineButton | `Boolean` | Establishes if `See more` button is outline. Default `true`                     |
+| contentAlign  | `String`  | Align of a component content. Default `"center"`, can be `left` and `right` too |
+| features      | `Array`   | Array of features to show. Default `[]`, see example section.                   |
 
 ## Theming variables
 
-| </br>Name                                           | </br>Summary                  | </br>Default |
-| --------------------------------------------------- | ----------------------------- | ------------ |
-| --Features__CardFooter__Link-padding                | Link's padding                | `none`       |
-| --Features__CardFooter__Link-box-shadow             | Link's box shadow             | `none`       |
-| --Features__CardFooter__Link-background-color       | Link's background color       | `none`       |
-| --Features__CardFooter__Link-box-shadow-hover       | Link's box shadow hover       | `none`       |
-| --Features__CardFooter__Link-background-color-hover | Link's background color hover | `none`       |
-| --Features__CardFooter__Link-color                  | Link's color                  | `none`       |
-| --Features__CardFooter__Link-fontSize               | Link's font size              | `none`       |
+| </br>Name                                               | </br>Summary                                   | </br>Default |
+| ------------------------------------------------------- | ---------------------------------------------- | ------------ |
+| --Features\_\_CardFooter\_\_Link-padding                | Link's padding                                 | `none`       |
+| --Features\_\_CardFooter\_\_Link-box-shadow             | Link's box shadow                              | `none`       |
+| --Features\_\_CardFooter\_\_Link-background-color       | Link's background color                        | `none`       |
+| --Features\_\_CardFooter\_\_Link-box-shadow-hover       | Link's box shadow hover                        | `none`       |
+| --Features\_\_CardFooter\_\_Link-background-color-hover | Link's background color hover                  | `none`       |
+| --Features\_\_CardFooter\_\_Link-color                  | Link's color                                   | `none`       |
+| --Features\_\_CardFooter\_\_Link-fontSize               | Link's font size                               | `none`       |
+| --Features\_\_Image-width                               | Width of feature image                         | `100px`      |
+| --Features\_\_Image-height                              | Height of feature image                        | `100px`      |
+| --Features\_\_Button-backgroundColor                    | Background color of `See mero` button          | #0780cf      |
+| --Features\_\_Button-backgroundColorHover               | Background color of `See mero` button in hover | `#05598f`    |
+| --Features\_\_Button-color                              | Color of `See mero` button                     | `#fff`       |

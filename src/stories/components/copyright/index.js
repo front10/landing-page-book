@@ -5,9 +5,10 @@ import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
-import { Copyright } from '../../../components';
+import { Copyright, Code } from '../../../components';
 import Readme from '../../../components/Copyright/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
+import def from '../../mock/components/codes/copyright';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/Copyright', module);
@@ -31,6 +32,16 @@ stories.addWithJSX(
         copyRightText={text('Copy right text', 'Copyright')}
         text={text('Text', 'Fron10, LLC')}
       />
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
+      </div>
     </ThemeSelector>
   )),
   jsxConfig

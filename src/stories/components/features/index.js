@@ -51,7 +51,7 @@ const featuress = [
     summary: 'All components tested like a Swiss watch. Code coverage above 70%.',
     link: 'https://front10.com',
     linktext: 'See more...'
-  },
+  }
 ];
 
 stories.addWithJSX(

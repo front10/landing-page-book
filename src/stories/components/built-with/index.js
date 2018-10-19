@@ -5,9 +5,10 @@ import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
-import { BuiltWith } from '../../../components';
+import { BuiltWith, Code, Container } from '../../../components';
 import Readme from '../../../components/BuiltWith/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
+import def from '../../mock/components/codes/buildwith';
 
 const companies = [
   {
@@ -40,8 +41,18 @@ stories.addWithJSX(
         name="Built With"
         description="Libraries or projects that you used to achieve your goals."
       />
-      <div className="container">
+      <Container>
         <BuiltWith gray={boolean('Use gray', true)} companies={companies} />
+      </Container>
+      <div className="mt-4">
+        <Code
+          code={def}
+          languageCode="jsx"
+          readOnly
+          collapsible
+          collapsed
+          showDeleteButton={false}
+        />
       </div>
     </ThemeSelector>
   )),

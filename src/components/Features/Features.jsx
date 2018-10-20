@@ -19,9 +19,18 @@ class Features extends React.Component {
       imageShadow,
       outlineButton
     } = this.props;
+
+    const featuresWithId = features.map(feature => {
+      const featureWithId = { ...feature };
+      if (!featureWithId.id) {
+        featureWithId.id = Math.floor(Math.random() * 10000 + 1);
+      }
+      return featureWithId;
+    });
+
     return (
       <div className={`Features d-flex flex-wrap Features--${contentAlign}`}>
-        {features.map(feature => (
+        {featuresWithId.map(feature => (
           <div className={`col-12 col-sm-6 col-lg-3 text-${contentAlign} mb-4`} key={feature.id}>
             <Card
               showBorder={false}
@@ -58,7 +67,7 @@ Features.propTypes = {
   contentAlign: PropTypes.string,
   features: PropTypes.arrayOf(
     PropTypes.shape({
-      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]).isRequired,
+      id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
       image: PropTypes.string,
       title: PropTypes.string,
       subtitle: PropTypes.string,

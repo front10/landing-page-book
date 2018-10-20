@@ -1,6 +1,5 @@
 const features = [
   {
-    id: 1,
     image: 'images/features/components.png',
     title: '+40 Components',
     subtitle: 'You can use many components',
@@ -9,7 +8,6 @@ const features = [
     link: 'https://front10.com'
   },
   {
-    id: 2,
     image: 'images/features/speed.png',
     title: 'Easy & Fast',
     subtitle: 'Very easy and fast develop',
@@ -17,7 +15,6 @@ const features = [
     link: 'https://front10.com'
   },
   {
-    id: 3,
     image: 'images/features/themes.png',
     title: 'Theming',
     subtitle: 'Customize our components',
@@ -26,7 +23,6 @@ const features = [
     link: 'https://front10.com'
   },
   {
-    id: 4,
     image: 'images/features/integration.png',
     title: 'Integration',
     subtitle: 'Can be used in many plattaforms',

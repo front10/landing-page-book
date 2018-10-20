@@ -73,7 +73,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Card"
-        storyName="With childrens"
+        storyName="With Subtitle"
         description="Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
       />
       <div className="row">
@@ -125,7 +125,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Card"
-        storyName="With childrens"
+        storyName="Only summary"
         description="Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
       />
       <div className="row">
@@ -177,7 +177,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Card"
-        storyName="With childrens"
+        storyName="With Footer"
         description="Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
       />
       <div className="row">
@@ -240,7 +240,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Card"
-        storyName="With childrens"
+        storyName="Floating image"
         description="Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
       />
       <div className="row">

@@ -89,6 +89,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Browser Support"
+        storyName="Without texts"
         description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
       />
       <BrowserSupport
@@ -117,6 +118,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Browser Support"
+        storyName="Gray"
         description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
       />
       <BrowserSupport

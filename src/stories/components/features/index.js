@@ -68,6 +68,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Features"
+        storyName="Image & title"
         description="Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service."
       />
       <Features
@@ -113,6 +114,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Features"
+        storyName="With shadow"
         description="Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service."
       />
       <Features
@@ -158,6 +160,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Features"
+        storyName="With image shadow"
         description="Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service."
       />
       <Features

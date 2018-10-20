@@ -55,6 +55,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Code"
+        storyName="Code Simple"
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
       <Code
@@ -79,6 +80,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Code"
+        storyName="Code Css"
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
       <Code

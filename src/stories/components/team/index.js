@@ -72,6 +72,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Team"
+        storyName="Top background"
         description="Teamwork helps solve problems. Collaboration within a group can help solve difficult problems. do not forget to recognize the members of your team"
       />
       <Team
@@ -118,6 +119,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Team"
+        storyName="With shadow"
         description="Teamwork helps solve problems. Collaboration within a group can help solve difficult problems. do not forget to recognize the members of your team"
       />
       <Team
@@ -164,6 +166,7 @@ stories.addWithJSX(
     <ThemeSelector>
       <StoryHeader
         name="Team"
+        storyName="With image shadow"
         description="Teamwork helps solve problems. Collaboration within a group can help solve difficult problems. do not forget to recognize the members of your team"
       />
       <Team

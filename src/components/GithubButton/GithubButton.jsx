@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import GithubService from '../../service/GithubDetail.services';
 import Icon from '../Icon/Icon';
+import Button from '../Button/Button';
 
 class GithubButton extends React.Component {
   constructor(props) {
@@ -163,15 +164,11 @@ class GithubButton extends React.Component {
     const { btnText, loadingClass } = this.props;
     return (
       <div className="GithubDetail_btn_container d-inline">
-        <a
-          className="btn GithubDetail_btn"
-          href={linkUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Button rounded={false} circle={false} disabled={false}>
           <i className={showGithubIcon ? 'fa fa-github' : iconClass} aria-hidden="true" />{' '}
           {showBtnText && <span className="buttonText">{btnText}</span>}
-        </a>
+        </Button>
+
         {showCounter && (
           <span className="speech-bubble">
             {counter != null ? (

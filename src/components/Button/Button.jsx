@@ -24,7 +24,7 @@ class Button extends Component {
     if (circle) {
       cssclass += ` rounded-circle`;
     } else {
-      rounded ? (cssclass += ` rounded`) : (cssclass += ` btn-${color} rounded-0`);
+      rounded ? (cssclass += ` rounded`) : (cssclass += ` btn-${color} rounded-0`); // eslint-disable-line no-unused-expressions
     }
     if (outline) {
       cssclass = `${className} btn-outline-${color}`;

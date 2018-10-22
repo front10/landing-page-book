@@ -112,7 +112,7 @@ stories.addWithJSX(
             React components to build!
           </Header>
           <div className="mt-5">
-            <Button>Explore</Button>
+            <Button rounded={false}>Explore</Button>
             <GithubButton
               btnType="star"
               btnText="Stars"

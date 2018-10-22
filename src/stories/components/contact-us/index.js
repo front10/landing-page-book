@@ -12,7 +12,17 @@ import def from '../../mock/components/codes/contactus';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/ContactUs', module);
-
+const bcolors = {
+  primary: 'primary',
+  secondary: 'secondary',
+  success: 'success',
+  danger: 'danger',
+  warning: 'warning',
+  info: 'info',
+  light: 'light',
+  dark: 'dark',
+  white: 'white'
+};
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
@@ -52,6 +62,7 @@ stories.addWithJSX(
                 'Api url',
                 'https://maker.ifttt.com/trigger/front10_contactform/with/key/dFOibtTrDh8pCZ9laeYno'
               )}
+              submitButtonColor={select('Button color', bcolors, 'primary')}
               onSubmit={() => {}}
               onApiSuccess={() => {}}
               onApiFail={() => {}}

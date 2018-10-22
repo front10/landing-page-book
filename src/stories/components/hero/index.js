@@ -7,16 +7,7 @@ import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import {
-  Hero,
-  Container,
-  Image,
-  Header,
-  GithubButton,
-  Button,
-  Link,
-  Code
-} from '../../../components';
+import { Hero, Container, Image, Header, GithubButton, Button, Link } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
 import particles from '../../mock/components/particles';

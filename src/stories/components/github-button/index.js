@@ -4,19 +4,10 @@ import withReadme from 'storybook-readme/with-readme';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
-import { GithubButton, Code } from '../../../components';
+import { GithubButton } from '../../../components';
 import Readme from '../../../components/GithubButton/README.md';
 
 const stories = storiesOf('Components/GithubButton', module);
-
-const options = {
-  fork: 'Fork',
-  follow: 'Follow',
-  star: 'Star',
-  download: 'Download',
-  watch: 'Watch',
-  issue: 'Issue'
-};
 
 stories.addWithJSX(
   'Default',

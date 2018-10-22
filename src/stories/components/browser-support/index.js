@@ -4,7 +4,7 @@ import withReadme from 'storybook-readme/with-readme';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
-import { BrowserSupport, Code } from '../../../components';
+import { BrowserSupport } from '../../../components';
 import Readme from '../../../components/BrowserSupport/README.md';
 
 const browsers = [

@@ -1,6 +1,18 @@
-.PropsManager__Props {
+.PropsManager__Button {
+  background: #304148;
+  color: white;
+  padding: 0.2rem;
+  cursor: pointer;
+}
+
+.PropsManager__Props__Container {
   border: solid 1px #304148;
   border-radius: 5px;
+}
+
+.PropsManager__Button__Code {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
 }
 
 .PropsManager__Code {
@@ -16,7 +28,8 @@
       -moz-box-ordinal-group: 2;
       box-ordinal-group: 2;
       .CodeMirror {
-        border-radius: 5px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
       }
     }
     .playgroundPreview {

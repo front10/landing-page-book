@@ -37,7 +37,7 @@ StoryHeader.propTypes = {
 StoryHeader.defaultProps = {
   name: 'Awesome',
   description: 'The awesome component is used to spread awesoness across the world',
-  storyName: 'Default'
+  storyName: 'Basic'
 };
 
 export default StoryHeader;

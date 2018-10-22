@@ -14,7 +14,7 @@ import def from '../../mock/components/codes/textbox';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Elements', module);
+const stories = storiesOf('Elements/Typography', module);
 
 stories.addDecorator(withKnobs);
 

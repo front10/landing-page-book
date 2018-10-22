@@ -14,7 +14,7 @@ import def from '../../mock/components/codes/input';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Elements', module);
+const stories = storiesOf('Elements/Form', module);
 
 stories.addDecorator(withKnobs);
 

@@ -14,7 +14,7 @@ import def from '../../mock/components/codes/link';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Elements', module);
+const stories = storiesOf('Elements/Typography', module);
 
 stories.addDecorator(withKnobs);
 

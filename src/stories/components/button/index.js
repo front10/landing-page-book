@@ -1,21 +1,15 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, text, boolean } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-import jsxConfig from '../../mock/jsxConfig';
-import { Button, Code } from '../../../components';
+import { Button } from '../../../components';
 import Readme from '../../../components/Button/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import def from '../../mock/components/codes/button';
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
-setAddon(JSXAddon);
 const stories = storiesOf('Elements', module);
 
-stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
+stories.add(
   'Button',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -27,28 +21,9 @@ stories.addWithJSX(
         
         Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
-      <Button
-        outline={boolean('Outline', false)}
-        disabled={boolean('Disabled', false)}
-        loading={boolean('Loading', false)}
-        tooltip={text('Tooltip', 'Tis is a button tooltip')}
-        loadingClass={text('Loading class', 'fa fa-circle-o-notch fa-spin')}
-        className={text('Class name', '')}
-      >
-        <i className="fa fa-home" />
-        <span className="ml-1">Home</span>
-      </Button>
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, Button }}>
+        <Button>Home</Button>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

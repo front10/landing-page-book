@@ -13,12 +13,12 @@ import def from '../../mock/components/codes/browser';
 
 setAddon(JSXAddon);
 
-const stories = storiesOf('Elements', module);
+const stories = storiesOf('Elements/Browser', module);
 
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
-  'Browser',
+  'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader name="Browser" description="Show the browser logo with the version." />

@@ -601,7 +601,7 @@ ol.progtrckr li.progtrckr-done:hover:before {
 }
 
 * {
-  font-family: 'Lato', sans-serif !important; }
+  font-family: 'Lato', sans-serif; }
 
 :root {
   --Backers__Image-width: 50px;

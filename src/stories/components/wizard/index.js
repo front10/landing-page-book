@@ -2,7 +2,6 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Wizard, Container, Video, Gif, FormGroup, Input, Social } from '../../../components';
 import Readme from '../../../components/Wizard/README.md';
@@ -61,6 +60,5 @@ stories.addWithJSX(
         <Wizard contentAlign="center" steps={steps} />
       </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

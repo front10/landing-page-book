@@ -894,8 +894,7 @@ a span {
 :root {
   --GithubDetail__countbubble-padding: 7px 10px 10px 5px;
   --GithubDetail__countbubble-ml: 11px;
-  --GithubDetail__countbubble-transition: color 0.15s ease-in-out,
-    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  --GithubDetail__countbubble-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   --GithubDetail__buttonText-ml: 5px;
   --GithubDetail__btn_container-padding: 5px;
   --GithubDetail_btn-backgroundColor: #dcdcdc;
@@ -940,22 +939,6 @@ a span {
 
 .buttonText {
   margin-left: var(--GithubDetail__buttonText-ml); }
-
-.GithubDetail_btn {
-  background: var(--GithubDetail_btn-backgroundColor);
-  color: var(--GithubDetail_btn-Color);
-  border-radius: var(--GithubDetail_Btn-borderRadius);
-  padding: var(--GithubDetail_Btn-padding);
-  box-shadow: var(--GithubDetail_Btn-boxShadow);
-  text-transform: var(--GithubDetail_Btn-textTransform);
-  border: var(--GithubDetail_Btn-border);
-  border-color: var(--GithubDetail_Btn-borderColor);
-  font-size: var(--GithubDetail_Btn-fontSize);
-  text-shadow: var(--GithubDetail_Btn-textShadow); }
-
-.GithubDetail_btn:hover {
-  box-shadow: var(--GithubDetail_Btn-boxShadow--hover);
-  background-color: var(--GithubDetail_Btn-backgroundColor--hover); }
 
 .GithubDetail_btn_container {
   padding: var(--GithubDetail__btn_container-padding); }

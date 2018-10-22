@@ -53,16 +53,8 @@ import '@front10/landing-page-book/dist/components/ContactUs/style.css';
 | message           | `String`   | Value of message input. Default `""`                                                                                                    |
 | submitButtonText  | `String`   | Label of submit button. Default `"Submit"`                                                                                              |
 | submitButtonAlign | `String`   | Align of Submit button. Default `"center"`                                                                                              |
+| submitButtonColor | `String`   | Color of Submit button. Default `"default"`                                                                                             |
 | apiUrl            | `String`   | Url to send contact data, component make a request via post method and send `name`, `email`, `phone` and `message` params. Default `""` |
 | onApiSuccess      | `Function` | Function called when `apiUrl` is defined and request was executed successfully                                                          |
 | onApiFail         | `Function` | Function called when `apiUrl` is defined and request was error                                                                          |
 | onSubmit          | `Function` | Function called when Submit button has clicked. Params `{name, mail, phone, message}`                                                   |
-
-## Theming variables
-
-| </br>Name                                          | </br>Summary                            | </br>Default |
-| -------------------------------------------------- | --------------------------------------- | ------------ |
-| --ContactUs\_\_SubmitButton-color                  | Color of button submit                  | `#fff`       |
-| --ContactUs\_\_SubmitButton-backgroundColor        | Background color of button submit       | `#065ac5`    |
-| --ContactUs\_\_SubmitButton--hover-color           | Hover color of button submit            | `#ffffff`    |
-| --ContactUs\_\_SubmitButton--hover-backgroundColor | Hover background color of button submit | `#065ac5`    |

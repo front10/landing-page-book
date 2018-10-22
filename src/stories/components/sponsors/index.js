@@ -1,21 +1,13 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, boolean, text } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
 import { Sponsors, Code } from '../../../components';
 import Readme from '../../../components/Sponsors/README.md';
-import def from '../../mock/components/codes/sponsors';
-
-setAddon(JSXAddon);
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
 const stories = storiesOf('Components/Sponsors', module);
-
-stories.addDecorator(withKnobs);
 
 const sponsors = [
   {
@@ -35,7 +27,7 @@ const sponsors = [
   }
 ];
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -43,24 +35,9 @@ stories.addWithJSX(
         name="Sponsors"
         description="A person or organization that provides funds for you project or activity, give them an acknowledgment."
       />
-      <div className="container">
-        <Sponsors
-          ccsClassName={text('CssClassName', 'px-3')}
-          gray={boolean('Use gray', true)}
-          sponsors={sponsors}
-        />
-      </div>
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, Sponsors }}>
+        <Sponsors ccsClassName="px-3" gray sponsors={sponsors} />
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

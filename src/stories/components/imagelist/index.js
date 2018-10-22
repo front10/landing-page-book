@@ -1,18 +1,11 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, boolean } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-
-import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
-import { ImageList, Container, Code } from '../../../components';
+import { ImageList, Container } from '../../../components';
 import Readme from '../../../components/ImageList/README.md';
-import def from '../../mock/components/codes/imagelist';
-
-setAddon(JSXAddon);
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
 const companies = [
   {
@@ -43,9 +36,7 @@ const companies = [
 
 const stories = storiesOf('Components/ImageList', module);
 
-stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -53,25 +44,11 @@ stories.addWithJSX(
         name="Image List"
         description="Easy way to show an image list on your website."
       />
-      <Container>
-        <ImageList
-          gray={boolean('Use gray', true)}
-          imageRounded={boolean('Rounded', false)}
-          imageBordered={boolean('Bordered', false)}
-          images={companies}
-        />
-      </Container>
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, ImageList, Container }}>
+        <Container>
+          <ImageList gray imageRounded={false} imageBordered={false} images={companies} />
+        </Container>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

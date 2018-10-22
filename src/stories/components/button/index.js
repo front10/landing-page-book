@@ -3,6 +3,7 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, text, boolean } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import Playground from 'component-playground';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
 import { Button, Code } from '../../../components';
@@ -39,6 +40,9 @@ stories.addWithJSX(
         <span className="ml-1">Home</span>
       </Button>
       <div className="mt-4">
+        <div className="component-documentation">
+          <Playground codeText={def} scope={{ React, Button }} />
+        </div>
         <Code
           code={def}
           languageCode="jsx"

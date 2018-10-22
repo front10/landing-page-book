@@ -100,7 +100,7 @@ stories.addWithJSX(
       >
         <Container className="text-justify">
           <Row>
-            <Column className="col-12 col-sm-6">
+            <Column className="col-12 col-md-6">
               <p style={pStyle}>
                 We are a group of talented software developers with more than 10 years of experience
                 creating front-end applications. We are tired to see how many brilliant minds are
@@ -110,7 +110,7 @@ stories.addWithJSX(
                 defined the requirements at the right time.
               </p>
             </Column>
-            <Column className="col-12 col-sm-6">
+            <Column className="col-12 col-md-6">
               <p style={pStyle}>
                 We are tired of seeing great people which talent is not being used 100% because they
                 had not being trained in a proper way. We are tired of seeing projects that ended up
@@ -156,7 +156,7 @@ stories.addWithJSX(
       >
         <Container className="text-justify">
           <Row>
-            <Column className="col-12 col-sm-4">
+            <Column className="col-12 col-md-6 col-lg-4">
               <div>
                 <Card
                   contentAlign="left"
@@ -171,7 +171,7 @@ stories.addWithJSX(
                 />
               </div>
             </Column>
-            <Column className="col-12 col-sm-8">
+            <Column className="col-12 col-md-6 col-lg-8">
               <p style={pStyle}>
                 He biggest trend in frontend user interface (UI) development for the web in recent
                 years has been towards components. The React library, although by no means the

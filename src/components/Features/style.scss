@@ -9,9 +9,9 @@
     --Features__CardFooter__Link-fontSize: none;
     --Features__Image-width: 100px;
     --Features__Image-height: 100px;
-    --Features__Button-backgroundColor: #0780cf;
-    --Features__Button-backgroundColorHover: #05598f;
-    --Features__Button-color: #fff;
+    // --Features__Button-backgroundColor: #0780cf;
+    // --Features__Button-backgroundColorHover: #05598f;
+    // --Features__Button-color: #fff;
 }
 
 .Features .Card img {
@@ -48,27 +48,24 @@
     box-shadow: var(--Features__CardFooter__Link-box-shadow-hover) !important;
 }
 
-.Features .Button {
-    background-color: var(--Features__Button-backgroundColor);
-    color: var(--Features__Button-color);
-}
-
-.Features .Button--outline:not(.navbar-toggler) {
-    background-color: transparent !important;
-    border: solid 1px;
-    border-color: var(--Features__Button-backgroundColor) !important;
-    color: var(--Features__Button-backgroundColor) !important;
-}
-
-.Features .Button:not(.navbar-toggler):focus,
-.Features .Button:not(.navbar-toggler):active,
-.Features .Button:not(.navbar-toggler):not(:disabled):hover {
-    background-color: var(--Features__Button-backgroundColorHover);
-}
-
-.Features .Button--outline:not(.navbar-toggler):focus,
-.Features .Button--outline:not(.navbar-toggler):active,
-.Features .Button--outline:not(.navbar-toggler):not(:disabled):hover {
-    background-color: var(--Features__Button-backgroundColorHover) !important;
-    color: var(--Features__Button-color) !important;
-}
+// .Features .Button {
+//     background-color: var(--Features__Button-backgroundColor);
+//     color: var(--Features__Button-color);
+// }
+// .Features .Button--outline:not(.navbar-toggler) {
+//     background-color: transparent !important;
+//     border: solid 1px;
+//     border-color: var(--Features__Button-backgroundColor) !important;
+//     color: var(--Features__Button-backgroundColor) !important;
+// }
+// .Features .Button:not(.navbar-toggler):focus,
+// .Features .Button:not(.navbar-toggler):active,
+// .Features .Button:not(.navbar-toggler):not(:disabled):hover {
+//     background-color: var(--Features__Button-backgroundColorHover);
+// }
+// .Features .Button--outline:not(.navbar-toggler):focus,
+// .Features .Button--outline:not(.navbar-toggler):active,
+// .Features .Button--outline:not(.navbar-toggler):not(:disabled):hover {
+//     background-color: var(--Features__Button-backgroundColorHover) !important;
+//     color: var(--Features__Button-color) !important;
+// }

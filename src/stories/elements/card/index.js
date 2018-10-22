@@ -3,19 +3,22 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, select, boolean, text } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
+import JsxParser from 'react-jsx-parser';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import jsxConfig from '../../mock/jsxConfig';
 import { Card, Link, Row, Column, Code } from '../../../components';
 import Readme from '../../../components/Card/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-
 import { def, subtitle, summary, footer, floating } from '../../mock/components/codes/card';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Elements/Card', module);
 
 stories.addDecorator(withKnobs);
-
+let codeexample = def;
+const onChangeCode = code => {
+  codeexample = code;
+};
 stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
@@ -25,41 +28,19 @@ stories.addWithJSX(
         description="Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
       />
       <div className="row">
-        <div className="col-12 col-md-6 col-lg-3">
-          <Card
-            showBorder={boolean('Show border', true)}
-            imageCircle={boolean('Image cilcle', false)}
-            imageBorder={boolean('Image border', false)}
-            shadow={boolean('Shadow', false)}
-            imageShadow={boolean('Image shadow', true)}
-            summaryJustified={boolean('Summary justified', false)}
-            title={text('Title', 'Sky')}
-            subTitle={text('Sub title', '')}
-            summary={text(
-              'Summary',
-              'Sky is often defined as the space in which the stars move and by visual effect seems to surround the Earth. In astronomy, sky is synonymous with the celestial sphere: an imaginary vault on which the Sun, stars, planets and the Moon are distributed.'
-            )}
-            image={text('Image', 'images/card/image1.jpg')}
-            contentAlign={select(
-              'Content align',
-              {
-                center: 'center',
-                left: 'left',
-                right: 'right'
-              },
-              'left'
-            )}
-          />
+        <div className="col-12 col-md-6 col-lg-3" id="Card">
+          <JsxParser components={{ Card, Link, Row, Column }} jsx={codeexample} />
         </div>
       </div>
       <div className="mt-4">
         <Code
           code={def}
           languageCode="jsx"
-          readOnly
+          readOnly={false}
           collapsible
           collapsed
           showDeleteButton={false}
+          updateCode={code => onChangeCode(code)}
         />
       </div>
     </ThemeSelector>

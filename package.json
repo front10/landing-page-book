@@ -122,6 +122,7 @@
         "react-ga": "^2.5.3",
         "react-gif-player": "^0.4.1",
         "react-json-pretty": "^1.7.9",
+        "react-jsx-parser": "^1.5.1",
         "react-lazy-hero": "^0.4.0",
         "react-particles-js": "^2.3.0",
         "react-player": "^1.6.4",

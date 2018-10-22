@@ -3,7 +3,7 @@ import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-import { Sponsors, Code } from '../../../components';
+import { Sponsors } from '../../../components';
 import Readme from '../../../components/Sponsors/README.md';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
 

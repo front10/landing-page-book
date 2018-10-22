@@ -1,28 +1,14 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
 import { Code } from '../../../components';
 import Readme from '../../../components/Code/README.md';
-import jsxConfig from '../../mock/jsxConfig';
-
 import { def, css } from '../../mock/components/codes/code';
 
-setAddon(JSXAddon);
 const stories = storiesOf('Components/Code', module);
-
-stories.addDecorator(withKnobs);
-
-const langoptions = {
-  javascript: 'javascript',
-  markdown: 'markdown',
-  jsx: 'jsx',
-  css: 'css',
-  sass: 'sass'
-};
 
 stories.addWithJSX(
   'Default',
@@ -32,21 +18,16 @@ stories.addWithJSX(
         name="Code"
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
-      <Code
-        code={text('Code', def)}
-        languageCode={select('Language', langoptions, 'jsx')}
-        readOnly={boolean('Read Only', false)}
-        lineNumbers={boolean('Show line numbers', true)}
-        showheader={boolean('Show header', true)}
-        collapsible={boolean('Collapsible', true)}
-        showCopyButton={boolean('Show copy button', true)}
-        showDeleteButton={boolean('Show delete button', true)}
-        codeLink={text('Code link', 'https://codesandbox.io/s/pmjvk5wl27')}
-        updateCode={() => {}}
-      />
+      <PropsManager scope={{ React, Code }}>
+        <Code
+          code={def}
+          languageCode="jsx"
+          collapsible
+          codeLink="https://codesandbox.io/s/pmjvk5wl27"
+        />
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
 stories.addWithJSX(
@@ -58,20 +39,20 @@ stories.addWithJSX(
         storyName="Code Simple"
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
-      <Code
-        code={text('Code', def)}
-        languageCode={select('Language', langoptions, 'jsx')}
-        readOnly={boolean('Read Only', false)}
-        lineNumbers={boolean('Show line numbers', false)}
-        showheader={boolean('Show header', false)}
-        collapsible={boolean('Collapsible', true)}
-        showCopyButton={boolean('Show copy button', false)}
-        showDeleteButton={boolean('Show delete button', false)}
-        codeLink={text('Code link', 'https://codesandbox.io/s/pmjvk5wl27')}
-      />
+      <PropsManager scope={{ React, Code }}>
+        <Code
+          code={def}
+          languageCode="jsx"
+          lineNumbers
+          showheader
+          collapsible={false}
+          showCopyButton={false}
+          showDeleteButton={false}
+          codeLink="https://codesandbox.io/s/pmjvk5wl27"
+        />
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
 stories.addWithJSX(
@@ -83,19 +64,19 @@ stories.addWithJSX(
         storyName="Code Css"
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
-      <Code
-        code={text('Code', css)}
-        languageCode={select('Language', langoptions, 'css')}
-        readOnly={boolean('Read Only', false)}
-        lineNumbers={boolean('Show line numbers', true)}
-        showheader={boolean('Show header', false)}
-        collapsible={boolean('Collapsible', true)}
-        showCopyButton={boolean('Show copy button', true)}
-        showDeleteButton={boolean('Show delete button', true)}
-        codeLink={text('Code link', 'https://codesandbox.io/s/pmjvk5wl27')}
-        updateCode={() => {}}
-      />
+      <PropsManager scope={{ React, Code }}>
+        <Code
+          code={css}
+          languageCode="css"
+          readOnly={false}
+          lineNumbers
+          showheader={false}
+          collapsible
+          showCopyButton
+          showDeleteButton
+          codeLink="https://codesandbox.io/s/pmjvk5wl27"
+        />
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

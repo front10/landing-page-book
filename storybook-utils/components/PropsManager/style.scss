@@ -1,0 +1,29 @@
+.PropsManager__Props {
+  border: solid 1px #304148;
+  border-radius: 5px;
+}
+
+.PropsManager__Code {
+  .playground {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    -webkit-box-orient: vertical;
+    -moz-box-orient: vertical;
+    box-orient: vertical;
+    .playgroundCode {
+      -webkit-box-ordinal-group: 2;
+      -moz-box-ordinal-group: 2;
+      box-ordinal-group: 2;
+      .CodeMirror {
+        border-radius: 5px;
+      }
+    }
+    .playgroundPreview {
+      margin-bottom: 1.5rem !important;
+      -webkit-box-ordinal-group: 1;
+      -moz-box-ordinal-group: 1;
+      box-ordinal-group: 1;
+    }
+  }
+}

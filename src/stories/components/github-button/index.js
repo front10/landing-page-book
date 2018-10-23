@@ -9,7 +9,7 @@ import Readme from '../../../components/GithubButton/README.md';
 
 const stories = storiesOf('Components/GithubButton', module);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -29,7 +29,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'All',
   withReadme([Readme], () => (
     <ThemeSelector>

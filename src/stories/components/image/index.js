@@ -11,7 +11,7 @@ import Readme from '../../../components/Image/README.md';
 
 const stories = storiesOf('Elements', module);
 
-stories.addWithJSX(
+stories.add(
   'Image',
   withReadme([Readme], () => (
     <ThemeSelector>

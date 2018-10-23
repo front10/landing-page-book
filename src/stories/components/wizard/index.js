@@ -48,7 +48,7 @@ const steps = [
 
 const stories = storiesOf('Components/Wizard', module);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>

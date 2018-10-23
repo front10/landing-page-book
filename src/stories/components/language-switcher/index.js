@@ -9,7 +9,7 @@ import Readme from '../../../components/LanguageSwitcher/README.md';
 
 const stories = storiesOf('Components/LanguageSwitcher', module);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>

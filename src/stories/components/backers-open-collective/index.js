@@ -9,7 +9,7 @@ import Readme from '../../../components/BackersOpenCollective/README.md';
 
 const stories = storiesOf('Components/BackersOpenCollective', module);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>

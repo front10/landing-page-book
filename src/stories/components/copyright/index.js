@@ -9,7 +9,7 @@ import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
 const stories = storiesOf('Components/Copyright', module);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>

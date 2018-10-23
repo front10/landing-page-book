@@ -10,7 +10,7 @@ import { def, css } from '../../mock/components/codes/code';
 
 const stories = storiesOf('Components/Code', module);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -30,7 +30,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Code Simple',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -55,7 +55,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Code Css',
   withReadme([Readme], () => (
     <ThemeSelector>

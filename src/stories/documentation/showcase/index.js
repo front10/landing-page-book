@@ -14,7 +14,7 @@ const stories = storiesOf('Introduction', module);
 
 // stories.addDecorator(withKnobs);
 
-stories.addWithJSX(
+stories.add(
   'Showcase',
   withReadme([], () => (
     <ThemeSelector>

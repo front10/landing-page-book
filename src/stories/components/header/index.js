@@ -11,7 +11,7 @@ import Readme from '../../../components/Header/README.md';
 
 const stories = storiesOf('Elements', module);
 
-stories.addWithJSX(
+stories.add(
   'Header',
   withReadme([Readme], () => (
     <ThemeSelector>

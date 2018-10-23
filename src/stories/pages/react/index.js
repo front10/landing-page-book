@@ -39,7 +39,7 @@ const stories = storiesOf('Pages', module);
 
 stories.addDecorator(withKnobs);
 
-stories.addWithJSX(
+stories.add(
   'React',
   () => (
     <ThemeSelector theme="react">

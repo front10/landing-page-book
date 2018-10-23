@@ -9,7 +9,7 @@ import Readme from '../../../components/Input/README.md';
 
 const stories = storiesOf('Elements', module);
 
-stories.addWithJSX(
+stories.add(
   'Input',
   withReadme([Readme], () => (
     <ThemeSelector>

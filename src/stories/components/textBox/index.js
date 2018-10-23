@@ -9,7 +9,7 @@ import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
 const stories = storiesOf('Elements', module);
 
-stories.addWithJSX(
+stories.add(
   'TextBox',
   withReadme([Readme], () => (
     <ThemeSelector>

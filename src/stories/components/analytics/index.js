@@ -18,7 +18,7 @@ const stories = storiesOf('Components/Analytics', module);
 
 stories.addDecorator(withKnobs);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>

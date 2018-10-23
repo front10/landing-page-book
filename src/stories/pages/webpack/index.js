@@ -53,7 +53,7 @@ const stories = storiesOf('Pages', module);
 
 stories.addDecorator(withKnobs);
 
-stories.addWithJSX(
+stories.add(
   'Webpack',
   () => (
     <ThemeSelector theme="webpack">

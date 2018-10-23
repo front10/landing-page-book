@@ -13,7 +13,7 @@ const pStyle = {
   color: '#3d3d3d'
 };
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -37,7 +37,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'With Video',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -58,7 +58,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Two Columns Text',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -103,7 +103,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Two Columns Cards',
   withReadme([Readme], () => (
     <ThemeSelector>

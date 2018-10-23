@@ -24,7 +24,7 @@ const markers = [
 
 const stories = storiesOf('Components/Location', module);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>

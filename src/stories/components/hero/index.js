@@ -89,7 +89,7 @@ const ctaButtonStyles = {
   float: 'left'
 };
 
-stories.addWithJSX(
+stories.add(
   'With image',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -123,7 +123,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'With image (blurred)',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -158,7 +158,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'With image (gray)',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -193,7 +193,7 @@ stories.addWithJSX(
   ))
 );
 
-// stories.addWithJSX(
+// stories.add(
 //   'With product',
 //   withReadme([Readme], () => (
 //     <ThemeSelector>
@@ -258,7 +258,7 @@ stories.addWithJSX(
 //   jsxConfig
 // );
 
-// stories.addWithJSX(
+// stories.add(
 //   'Go minimal',
 //   withReadme([Readme], () => (
 //     <ThemeSelector>

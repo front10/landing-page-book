@@ -10,7 +10,7 @@ import members from '../../mock/components/team';
 
 const stories = storiesOf('Components/Team', module);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -25,7 +25,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Top background',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -41,7 +41,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'With shadow',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -57,7 +57,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'With image shadow',
   withReadme([Readme], () => (
     <ThemeSelector>

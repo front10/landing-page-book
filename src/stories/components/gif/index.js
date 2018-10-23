@@ -9,7 +9,7 @@ import Readme from '../../../components/Gif/README.md';
 
 const stories = storiesOf('Components/Gif', module);
 
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -24,7 +24,7 @@ stories.addWithJSX(
   ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Autoplay',
   withReadme([Readme], () => (
     <ThemeSelector>

@@ -5,6 +5,8 @@ import Particles from 'react-particles-js';
 import Container from '../Container/Container';
 import Button from '../Button/Button';
 import Header from '../Header/Header';
+// import StarMeUpTemplate from './templates/StarMeUpTemplate';
+import { crazyStars } from './particlesSugarMapping';
 
 class Hero extends Component {
   static onButtonClick(button) {
@@ -18,6 +20,23 @@ class Hero extends Component {
       filter: ${imgFilter};
     }`;
   }
+
+  static getParticlesParams(particles, particlesSugar, particlesParams) {
+    if (particlesParams) {
+      return particlesParams;
+    }
+    if (!particlesParams && particlesSugar && particlesSugar === 'crazyStars') {
+      return crazyStars;
+    }
+    return {};
+  }
+
+  // static getTemplate(template) {
+  //   if(template && template === 'starMeUp'){
+  //     return StarMeUpTemplate;
+  //   }
+  //   return {};
+  // }
 
   render() {
     const {
@@ -33,6 +52,7 @@ class Hero extends Component {
       subHeaderPosition,
       particles,
       particlesParams,
+      particlesSugar,
       backgroundColor,
       buttons,
       children,
@@ -41,6 +61,13 @@ class Hero extends Component {
     } = this.props;
 
     const customCssFilter = Hero.getCustomCssFilterForImg(this.props);
+    const particlesSugarParams = Hero.getParticlesParams(
+      particles,
+      particlesSugar,
+      particlesParams
+    );
+
+    // const TemplateComponent = Hero.getTemplate(template);
 
     return (
       <div className="Hero" style={{ backgroundColor }}>
@@ -56,10 +83,13 @@ class Hero extends Component {
         >
           {particles && (
             <div className="Hero__Particles">
-              <Particles params={particlesParams} />
+              <Particles params={particlesSugarParams} />
             </div>
           )}
           <div className="Hero__Container d-flex align-content-center">
+            {/* {!children && template && (
+             <TemplateComponent {...this.props.templateProps} {...this.props}/>
+            )} */}
             {!children && (
               <Container>
                 {subHeader &&
@@ -115,7 +145,8 @@ Hero.propTypes = {
   particlesParams: PropTypes.objectOf(PropTypes.any),
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   style: PropTypes.string,
-  imgFilter: PropTypes.string
+  imgFilter: PropTypes.string,
+  particlesSugar: PropTypes.string
 };
 Hero.defaultProps = {
   isFixed: true,
@@ -131,10 +162,11 @@ Hero.defaultProps = {
   minHeight: '100vh',
   backgroundColor: 'transparent',
   buttons: [],
-  particlesParams: {},
+  particlesParams: null,
   children: null,
   style: null,
-  imgFilter: null
+  imgFilter: null,
+  particlesSugar: null
 };
 
 export default Hero;

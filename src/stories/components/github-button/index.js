@@ -1,31 +1,15 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, text, select, boolean } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import jsxConfig from '../../mock/jsxConfig';
-import { GithubButton, Code } from '../../../components';
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
+import { GithubButton } from '../../../components';
 import Readme from '../../../components/GithubButton/README.md';
 
-import { all, def } from '../../mock/components/codes/github-buttons';
-
-setAddon(JSXAddon);
 const stories = storiesOf('Components/GithubButton', module);
 
-const options = {
-  fork: 'Fork',
-  follow: 'Follow',
-  star: 'Star',
-  download: 'Download',
-  watch: 'Watch',
-  issue: 'Issue'
-};
-
-stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -33,32 +17,19 @@ stories.addWithJSX(
         name="Github Buttons"
         description="Showcase the success of any GitHub repo or user with these simple, static buttons with dynamic counts."
       />
-      <GithubButton
-        username="front10"
-        repository="landing-page-book"
-        btnType={select('Type of buton', options, 'star')}
-        btnText={text('Btn text', 'stars')}
-        showCounter={boolean('Show count', true)}
-        showBtnText={boolean('Show button text', true)}
-        showGithubIcon={boolean('Show Github icon', false)}
-        loadingClass={text('Loading class', 'fa fa-circle-o-notch fa-spin')}
-      />
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
+      <PropsManager scope={{ React, GithubButton }}>
+        <GithubButton
+          username="front10"
+          repository="landing-page-book"
+          btnType="star"
+          btnText="stars"
         />
-      </div>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
-stories.addWithJSX(
+stories.add(
   'All',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -67,83 +38,59 @@ stories.addWithJSX(
         storyName="All"
         description="Showcase the success of any GitHub repo or user with these simple, static buttons with dynamic counts."
       />
-      <div className="mb-3">
-        <GithubButton
-          username="front10"
-          repository="landing-page-book"
-          btnType="fork"
-          btnText="Fork"
-          showCounter={boolean('Show count', true)}
-          showBtnText={boolean('Show button text', true)}
-          showGithubIcon={boolean('Show Github icon', false)}
-        />
-      </div>
-      <div className="mb-3">
-        <GithubButton
-          username="front10"
-          repository="landing-page-book"
-          btnType="follow"
-          btnText="Follow"
-          showCounter={boolean('Show count', true)}
-          showBtnText={boolean('Show button text', true)}
-          showGithubIcon={boolean('Show Github icon', false)}
-        />
-      </div>
-      <div className="mb-3">
-        <GithubButton
-          username="front10"
-          repository="landing-page-book"
-          btnType="star"
-          btnText="Stars"
-          showCounter={boolean('Show count', true)}
-          showBtnText={boolean('Show button text', true)}
-          showGithubIcon={boolean('Show Github icon', false)}
-        />
-      </div>
-      <div className="mb-3">
-        <GithubButton
-          username="front10"
-          repository="landing-page-book"
-          btnType="watch"
-          btnText="Watch"
-          showCounter={boolean('Show count', true)}
-          showBtnText={boolean('Show button text', true)}
-          showGithubIcon={boolean('Show Github icon', false)}
-        />
-      </div>
-      <div className="mb-3">
-        <GithubButton
-          username="front10"
-          repository="landing-page-book"
-          btnType="issue"
-          btnText="Issues"
-          showCounter={boolean('Show count', true)}
-          showBtnText={boolean('Show button text', true)}
-          showGithubIcon={boolean('Show Github icon', false)}
-        />
-      </div>
-      <div>
-        <GithubButton
-          username="front10"
-          repository="landing-page-book"
-          btnType="download"
-          btnText="Download"
-          showCounter={false}
-          showBtnText={boolean('Show button text', true)}
-          showGithubIcon={boolean('Show Github icon', false)}
-        />
-      </div>
-      <div className="mt-4">
-        <Code
-          code={all}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, GithubButton }}>
+        <div>
+          <div className="mb-3">
+            <GithubButton
+              username="front10"
+              repository="landing-page-book"
+              btnType="fork"
+              btnText="Fork"
+            />
+          </div>
+          <div className="mb-3">
+            <GithubButton
+              username="front10"
+              repository="landing-page-book"
+              btnType="follow"
+              btnText="Follow"
+            />
+          </div>
+          <div className="mb-3">
+            <GithubButton
+              username="front10"
+              repository="landing-page-book"
+              btnType="star"
+              btnText="Stars"
+            />
+          </div>
+          <div className="mb-3">
+            <GithubButton
+              username="front10"
+              repository="landing-page-book"
+              btnType="watch"
+              btnText="Watch"
+            />
+          </div>
+          <div className="mb-3">
+            <GithubButton
+              username="front10"
+              repository="landing-page-book"
+              btnType="issue"
+              btnText="Issues"
+            />
+          </div>
+          <div>
+            <GithubButton
+              username="front10"
+              repository="landing-page-book"
+              btnType="download"
+              btnText="Download"
+              showCounter={false}
+            />
+          </div>
+        </div>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

@@ -1,25 +1,18 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, text, boolean } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import def from '../../mock/components/codes/image';
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
-import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Image, Code, Container, Row, Column } from '../../../components';
+import { Image, Container, Row, Column } from '../../../components';
 import Readme from '../../../components/Image/README.md';
 
-setAddon(JSXAddon);
+const stories = storiesOf('Elements', module);
 
-const stories = storiesOf('Elements/Image', module);
-
-stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
-  'Default',
+stories.add(
+  'Image',
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader
@@ -28,30 +21,18 @@ stories.addWithJSX(
       />
       <Container>
         <Row>
-          <Column className="text-center">
-            <Image
-              border={boolean('Border', false)}
-              rounded={boolean('Rounded', false)}
-              shadow={boolean('Shadow', false)}
-              alt={text('Alt', 'This is an image example')}
-              src={text('Source', 'images/backers/woman.svg')}
-              tooltip={text('Tooltip', 'This is a woman')}
-              width={text('Width', '200')}
-            />
+          <Column>
+            <PropsManager scope={{ React, Image }}>
+              <Image
+                alt="This is an image example"
+                src="images/backers/woman.svg"
+                tooltip="This is a woman"
+                width="200"
+              />
+            </PropsManager>
           </Column>
         </Row>
       </Container>
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

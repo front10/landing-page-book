@@ -1,14 +1,11 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, boolean } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-import jsxConfig from '../../mock/jsxConfig';
-import { BuiltWith, Code, Container } from '../../../components';
+import { BuiltWith, Container } from '../../../components';
 import Readme from '../../../components/BuiltWith/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import def from '../../mock/components/codes/buildwith';
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
 const companies = [
   {
@@ -28,12 +25,9 @@ const companies = [
   }
 ];
 
-setAddon(JSXAddon);
 const stories = storiesOf('Components/BuiltWith', module);
 
-stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -42,19 +36,10 @@ stories.addWithJSX(
         description="Libraries or projects that you used to achieve your goals."
       />
       <Container>
-        <BuiltWith gray={boolean('Use gray', true)} companies={companies} />
+        <PropsManager scope={{ React, BuiltWith }}>
+          <BuiltWith gray companies={companies} />
+        </PropsManager>
       </Container>
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

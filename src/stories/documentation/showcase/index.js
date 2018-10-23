@@ -1,20 +1,12 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-// import { withKnobs, select, text, boolean } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
-import jsxConfig from '../../mock/jsxConfig';
 import { Card, Link, Icon } from '../../../components';
-
-setAddon(JSXAddon);
 
 const stories = storiesOf('Introduction', module);
 
-// stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
+stories.add(
   'Showcase',
   withReadme([], () => (
     <ThemeSelector>
@@ -47,6 +39,5 @@ stories.addWithJSX(
         </div>
       </div>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

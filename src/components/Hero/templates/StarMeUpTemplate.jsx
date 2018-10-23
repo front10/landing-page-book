@@ -7,16 +7,8 @@ import Image from '../../Image/Image';
 import GithubButton from '../../GithubButton/GithubButton';
 
 class StarMeUpTemplate extends Component {
-
   render() {
-    const {
-      repository,
-      username,
-      header,
-      subHeader,
-      callToAction,
-      productImage
-    } = this.props;
+    const { repository, username, header, subHeader, callToAction, productImage } = this.props;
     return (
       <Container>
         <Image
@@ -54,7 +46,10 @@ StarMeUpTemplate.propTypes = {
     link: PropTypes.func,
     styles: PropTypes.object
   }),
-  productImage: PropTypes.object
+  productImage: PropTypes.shape({
+    src: PropTypes.string,
+    alt: PropTypes.func
+  })
 };
 
 StarMeUpTemplate.defaultProps = {

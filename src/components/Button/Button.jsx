@@ -18,7 +18,8 @@ class Button extends Component {
       rounded,
       circle,
       color,
-      outline
+      outline,
+      size
     } = this.props;
     let cssclass = `${className} btn-${color}`;
     if (circle) {
@@ -28,6 +29,9 @@ class Button extends Component {
     }
     if (outline) {
       cssclass = `${className} btn-outline-${color}`;
+    }
+    if (size) {
+      cssclass = `${cssclass} btn-${size}`;
     }
 
     /* eslint-disable react/button-has-type */
@@ -59,6 +63,7 @@ Button.propTypes = {
   className: PropTypes.string,
   ariaLabel: PropTypes.string,
   tooltip: PropTypes.string,
+  size: PropTypes.string,
   type: PropTypes.string,
   color: PropTypes.string,
   style: PropTypes.objectOf(PropTypes.any),
@@ -75,6 +80,7 @@ Button.defaultProps = {
   className: '',
   ariaLabel: '',
   tooltip: '',
+  size: '',
   type: 'button',
   color: 'default',
   style: {},

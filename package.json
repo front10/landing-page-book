@@ -43,7 +43,6 @@
   "devDependencies": {
     "@kadira/storybook-addon-options": "^1.0.2",
     "@storybook/addon-centered": "^3.3.12",
-    "@storybook/addon-knobs": "^3.4.2",
     "@storybook/addon-options": "^3.3.12",
     "@storybook/addon-viewport": "^3.3.12",
     "@storybook/addons": "^3.4.2",
@@ -100,7 +99,6 @@
     "regenerator-runtime": "^0.11.1",
     "sass-loader": "^6.0.6",
     "selenium-webdriver": "^4.0.0-alpha.1",
-    "storybook-addon-jsx": "^5.4.0",
     "storybook-readme": "^3.3.0",
     "style-loader": "^0.20.3",
     "wix-storybook-utils": "^2.0.22",

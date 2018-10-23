@@ -17,6 +17,7 @@ ShallowWrapper {
     parallaxOffset={0}
     particles={true}
     particlesParams={Object {}}
+    particlesSugar={null}
     style={null}
     subHeader="BBBBBBBBBB"
     subHeaderPosition="bottom"

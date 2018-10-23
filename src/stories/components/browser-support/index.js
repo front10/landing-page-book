@@ -1,19 +1,11 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, boolean, text } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import jsxConfig from '../../mock/jsxConfig';
-import { BrowserSupport, Code } from '../../../components';
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
+import { BrowserSupport } from '../../../components';
 import Readme from '../../../components/BrowserSupport/README.md';
-
-import {
-  browses,
-  browserWithoutText,
-  browserSupportGray
-} from '../../mock/components/codes/browser-support';
 
 const browsers = [
   {
@@ -50,12 +42,9 @@ const browsers = [
   }
 ];
 
-setAddon(JSXAddon);
 const stories = storiesOf('Components/BrowsersSupport', module);
 
-stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -63,27 +52,14 @@ stories.addWithJSX(
         name="Browser Support"
         description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
       />
-      <BrowserSupport
-        browsers={browsers}
-        showBrowserVendor={boolean('Show browser vendor', true)}
-        showBrowserVersion={boolean('Show browser version', true)}
-      />
-      <div className="mt-4">
-        <Code
-          code={browses}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, BrowserSupport }}>
+        <BrowserSupport browsers={browsers} />
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Without texts',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -92,27 +68,14 @@ stories.addWithJSX(
         storyName="Without texts"
         description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
       />
-      <BrowserSupport
-        browsers={browsers}
-        showBrowserVendor={boolean('Show browser vendor', false)}
-        showBrowserVersion={boolean('Show browser version', false)}
-      />
-      <div className="mt-4">
-        <Code
-          code={browserWithoutText}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, BrowserSupport }}>
+        <BrowserSupport browsers={browsers} showBrowserVendor={false} showBrowserVersion={false} />
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Gray',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -121,23 +84,14 @@ stories.addWithJSX(
         storyName="Gray"
         description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
       />
-      <BrowserSupport
-        browsers={browsers}
-        showBrowserVendor={boolean('Show browser vendor', false)}
-        showBrowserVersion={boolean('Show browser version', false)}
-        imgFilter={text('Img Filter', 'grayscale(90%)')}
-      />
-      <div className="mt-4">
-        <Code
-          code={browserSupportGray}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
+      <PropsManager scope={{ React, BrowserSupport }}>
+        <BrowserSupport
+          browsers={browsers}
+          showBrowserVendor={false}
+          showBrowserVersion={false}
+          imgFilter="grayscale(90%)"
         />
-      </div>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

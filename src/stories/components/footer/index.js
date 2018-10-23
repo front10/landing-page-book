@@ -1,14 +1,11 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, text, boolean, array } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-import jsxConfig from '../../mock/jsxConfig';
-import { Footer, Social, Copyright, Code, Row, Column } from '../../../components';
+import { Footer, Social, Copyright, Image, Row, Column } from '../../../components';
 import Readme from '../../../components/Footer/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import { def, children } from '../../mock/components/codes/footer';
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
 const sections = [
   {
@@ -84,12 +81,9 @@ const sections = [
   }
 ];
 
-setAddon(JSXAddon);
 const stories = storiesOf('Components/Footer', module);
 
-stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -97,30 +91,19 @@ stories.addWithJSX(
         name="Footer"
         description="A document footer is a small section at the bottom of each page within a document. It is often used to display company data or copyright information."
       />
-      <Footer
-        socialGray={boolean('Social gray', false)}
-        socialRounded={boolean('Social rounded', true)}
-        socialUrl={text('Social url', 'https://front10.com')}
-        copyright={text('Copyright', 'Front10, LLC')}
-        socials={array('Socials', ['facebook', 'linkedin', 'google', 'twitter'], ',')}
-        sections={sections}
-      />
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
+      <PropsManager scope={{ React, Footer }}>
+        <Footer
+          socialUrl="https://front10.com"
+          copyright="Front10, LLC"
+          socials={['facebook', 'linkedin', 'google', 'twitter']}
+          sections={sections}
         />
-      </div>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Children',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -129,32 +112,27 @@ stories.addWithJSX(
         storyName="With Childrens"
         description="A document footer is a small section at the bottom of each page within a document. It is often used to display company data or copyright information."
       />
-      <Footer>
-        <Row>
-          <Column className="col-sm-12 col-md">
-            <Copyright text="Front10, LLC" showAllRightText={false} />
-          </Column>
-          <Column className="col-sm-12 col-md mt-3 mt-md-0">
-            <img src="https://front10.com/img/logos/logo-main.png" width={80} alt="Front 10 logo" />
-          </Column>
-          <Column className="col-sm-12 col-md mt-3 mt-md-0">
-            <Social type="twitter" url="https://front10.com" gray />
-            <Social type="facebook" url="https://front10.com" gray />
-            <Social type="linkedin" url="https://front10.com" gray />
-          </Column>
-        </Row>
-      </Footer>
-      <div className="mt-4">
-        <Code
-          code={children}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, Footer, Row, Column, Copyright, Social }}>
+        <Footer>
+          <Row>
+            <Column className="col-sm-12 col-md">
+              <Copyright text="Front10, LLC" showAllRightText={false} />
+            </Column>
+            <Column className="col-sm-12 col-md mt-3 mt-md-0">
+              <Image
+                src="https://front10.com/img/logos/logo-main.png"
+                width={80}
+                alt="Front 10 logo"
+              />
+            </Column>
+            <Column className="col-sm-12 col-md mt-3 mt-md-0">
+              <Social type="twitter" url="https://front10.com" gray />
+              <Social type="facebook" url="https://front10.com" gray />
+              <Social type="linkedin" url="https://front10.com" gray />
+            </Column>
+          </Row>
+        </Footer>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

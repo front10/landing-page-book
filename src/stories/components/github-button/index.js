@@ -23,6 +23,7 @@ stories.add(
           repository="landing-page-book"
           btnType="star"
           btnText="stars"
+          btnRounded
         />
       </PropsManager>
     </ThemeSelector>

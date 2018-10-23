@@ -1001,6 +1001,7 @@ a span {
   --GithubDetail_btn-backgroundColor: #dcdcdc;
   --GithubDetail_btn-Color: #000;
   --GithubDetail_Btn-borderRadius: 0;
+  --GithubDetail_speech-rounded: 0.25rem;
   --GithubDetail_Btn-padding: 0.3rem 0.75rem;
   --GithubDetail_Btn-boxShadow: none;
   --GithubDetail_Btn-boxShadow--hover: none;
@@ -1023,6 +1024,9 @@ a span {
   box-shadow: var(--GithubDetail_Btn-boxShadow); }
   .speech-bubble a {
     color: var(--GithubDetail_btn-Color); }
+
+.speech-bubble-rounded {
+  border-radius: var(--GithubDetail_speech-rounded); }
 
 .speech-bubble:after {
   content: '';

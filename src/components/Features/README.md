@@ -94,6 +94,7 @@ const features = [
 | showFooter    | `Boolean` | Show or hide Card footer. Default `true`                                        |
 | imageBorder   | `Boolean` | Establishes if image is with border. Default `false`                            |
 | outlineButton | `Boolean` | Establishes if `See more` button is outline. Default `true`                     |
+| buttonColor   | `String ` | Button color, can by any of bootstrap colors. Default `default`                 |
 | contentAlign  | `String`  | Align of a component content. Default `"center"`, can be `left` and `right` too |
 | features      | `Array`   | Array of features to show. Default `[]`, see example section.                   |
 

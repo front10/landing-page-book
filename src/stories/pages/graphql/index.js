@@ -1,6 +1,5 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import { withKnobs } from '@storybook/addon-knobs/react';
 import { GraphqlCodeBlock } from 'graphql-syntax-highlighter-react';
 import JSONPretty from 'react-json-pretty';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
@@ -60,8 +59,6 @@ const HerographqlResponseJson = {
 };
 
 const stories = storiesOf('Pages', module);
-
-stories.addDecorator(withKnobs);
 
 stories.add('GraphQl', () => (
   <ThemeSelector theme="graphql">

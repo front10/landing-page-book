@@ -89,8 +89,8 @@ stories.add(
       <div className="clearfix" />
       <Container>
         <Row>
-          {icons.map((icon, key) => (
-            <Column key={key} className="col col-xs-3 col-sm-2 text-center">
+          {icons.map(icon => (
+            <Column key={icon} className="col col-xs-3 col-sm-2 text-center">
               <div className="p-2 float-left">
                 <Icon icon={icon} className="fa-2x" />
                 <span style={{ fontSize: '12px' }} className="d-block">

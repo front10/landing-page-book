@@ -38,6 +38,29 @@
       -webkit-box-ordinal-group: 1;
       -moz-box-ordinal-group: 1;
       box-ordinal-group: 1;
+      div {
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+        .playgroundError {
+          background-color: #e52633;
+          padding: 10px;
+          margin-top: 1.5rem;
+          border-radius: 0.25rem;
+          color: #fff;
+          -webkit-box-ordinal-group: 2;
+          -moz-box-ordinal-group: 2;
+          box-ordinal-group: 2;
+        }
+        .previewArea {
+          -webkit-box-ordinal-group: 1;
+          -moz-box-ordinal-group: 1;
+          box-ordinal-group: 1;
+        }
+      }
     }
   }
 }

@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 #### Change
 
 - [#151](https://github.com/front10/landing-page-book/pull/151) All components API to work with Button, by [@rootlinux2](https://github.com/rootlinux2)
+- [#](https://github.com/front10/landing-page-book/pull/#) Added paragraphs component, by [@jlfalcon](https://github.com/jlfalcon)
 
 ## [1.3.1] 2018-10-20
 

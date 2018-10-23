@@ -66,12 +66,16 @@ ShallowWrapper {
               >
                 <Button
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="default"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  style={Object {}}
                   tooltip="Copy"
                   type="button"
                 >
@@ -85,12 +89,16 @@ ShallowWrapper {
               </CopyToClipboard>
               <Button
                 ariaLabel=""
+                circle={false}
                 className="btn  CodeMirror_btn"
+                color="default"
                 disabled={false}
                 loading={false}
                 loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 outline={false}
+                rounded={true}
+                style={Object {}}
                 tooltip="Clear"
                 type="button"
               >
@@ -161,12 +169,16 @@ ShallowWrapper {
                 >
                   <Button
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    style={Object {}}
                     tooltip="Copy"
                     type="button"
                   >
@@ -180,12 +192,16 @@ ShallowWrapper {
                 </CopyToClipboard>
                 <Button
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="default"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  style={Object {}}
                   tooltip="Clear"
                   type="button"
                 >
@@ -242,12 +258,16 @@ ShallowWrapper {
                 >
                   <Button
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    style={Object {}}
                     tooltip="Copy"
                     type="button"
                   >
@@ -261,12 +281,16 @@ ShallowWrapper {
                 </CopyToClipboard>
                 <Button
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="default"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  style={Object {}}
                   tooltip="Clear"
                   type="button"
                 >
@@ -305,12 +329,16 @@ ShallowWrapper {
                   >
                     <Button
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
@@ -324,12 +352,16 @@ ShallowWrapper {
                   </CopyToClipboard>,
                   <Button
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    style={Object {}}
                     tooltip="Clear"
                     type="button"
                   >
@@ -351,12 +383,16 @@ ShallowWrapper {
                   "props": Object {
                     "children": <Button
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
@@ -388,12 +424,16 @@ ShallowWrapper {
                         role="link"
                         style={Object {}}
                       />,
+                      "circle": false,
                       "className": "btn  CodeMirror_btn",
+                      "color": "default",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "style": Object {},
                       "tooltip": "Copy",
                       "type": "button",
                     },
@@ -427,12 +467,16 @@ ShallowWrapper {
                       icon="fa fa-trash-o"
                       style={Object {}}
                     />,
+                    "circle": false,
                     "className": "btn  CodeMirror_btn",
+                    "color": "default",
                     "disabled": false,
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
                     "outline": false,
+                    "rounded": true,
+                    "style": Object {},
                     "tooltip": "Clear",
                     "type": "button",
                   },
@@ -524,12 +568,16 @@ ShallowWrapper {
                 >
                   <Button
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    style={Object {}}
                     tooltip="Copy"
                     type="button"
                   >
@@ -543,12 +591,16 @@ ShallowWrapper {
                 </CopyToClipboard>
                 <Button
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="default"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  style={Object {}}
                   tooltip="Clear"
                   type="button"
                 >
@@ -619,12 +671,16 @@ ShallowWrapper {
                   >
                     <Button
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
@@ -638,12 +694,16 @@ ShallowWrapper {
                   </CopyToClipboard>
                   <Button
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    style={Object {}}
                     tooltip="Clear"
                     type="button"
                   >
@@ -700,12 +760,16 @@ ShallowWrapper {
                   >
                     <Button
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
@@ -719,12 +783,16 @@ ShallowWrapper {
                   </CopyToClipboard>
                   <Button
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    style={Object {}}
                     tooltip="Clear"
                     type="button"
                   >
@@ -763,12 +831,16 @@ ShallowWrapper {
                     >
                       <Button
                         ariaLabel=""
+                        circle={false}
                         className="btn  CodeMirror_btn"
+                        color="default"
                         disabled={false}
                         loading={false}
                         loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         outline={false}
+                        rounded={true}
+                        style={Object {}}
                         tooltip="Copy"
                         type="button"
                       >
@@ -782,12 +854,16 @@ ShallowWrapper {
                     </CopyToClipboard>,
                     <Button
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      style={Object {}}
                       tooltip="Clear"
                       type="button"
                     >
@@ -809,12 +885,16 @@ ShallowWrapper {
                     "props": Object {
                       "children": <Button
                         ariaLabel=""
+                        circle={false}
                         className="btn  CodeMirror_btn"
+                        color="default"
                         disabled={false}
                         loading={false}
                         loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         outline={false}
+                        rounded={true}
+                        style={Object {}}
                         tooltip="Copy"
                         type="button"
                       >
@@ -846,12 +926,16 @@ ShallowWrapper {
                           role="link"
                           style={Object {}}
                         />,
+                        "circle": false,
                         "className": "btn  CodeMirror_btn",
+                        "color": "default",
                         "disabled": false,
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
                         "outline": false,
+                        "rounded": true,
+                        "style": Object {},
                         "tooltip": "Copy",
                         "type": "button",
                       },
@@ -885,12 +969,16 @@ ShallowWrapper {
                         icon="fa fa-trash-o"
                         style={Object {}}
                       />,
+                      "circle": false,
                       "className": "btn  CodeMirror_btn",
+                      "color": "default",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "style": Object {},
                       "tooltip": "Clear",
                       "type": "button",
                     },
@@ -963,8 +1051,6 @@ ShallowWrapper {
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

@@ -1,24 +1,15 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, array, text, boolean } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-
-import jsxConfig from '../../mock/jsxConfig';
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-
-import { LanguageSwitcher, Code } from '../../../components';
+import { LanguageSwitcher } from '../../../components';
 import Readme from '../../../components/LanguageSwitcher/README.md';
-import def from '../../mock/components/codes/languageswitcher';
-
-setAddon(JSXAddon);
 
 const stories = storiesOf('Components/LanguageSwitcher', module);
 
-stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -26,33 +17,19 @@ stories.addWithJSX(
         name="Language Switcher"
         description="Website translation, the process of converting text from a source language into a target language, is also known as website globalization. In order to translate a website into other languages, you may need both website internationalization (I18N) and website localization (L10N). This component allow you to easy change the language on your website"
       />
-      <LanguageSwitcher
-        showLabel={boolean('Show label', true)}
-        showOptionLabel={boolean('Show option label', true)}
-        showFlag={boolean('Show option flag', true)}
-        disabled={boolean('Disabled', false)}
-        showArrow={boolean('Show arrow', true)}
-        placeholder={text('Placeholder', 'Select language...')}
-        selectedLanguage={text('Selected language', '')}
-        languages={array('Languages', ['US', 'FR', 'ES', 'DE'], ',')}
-        customLabels={{
-          US: 'English',
-          FR: 'Français',
-          ES: 'Español',
-          DE: 'Deutsch'
-        }}
-      />
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
+      <PropsManager scope={{ React, LanguageSwitcher }}>
+        <LanguageSwitcher
+          showLabel
+          placeholder="Select language..."
+          languages={['US', 'FR', 'ES', 'DE']}
+          customLabels={{
+            US: 'English',
+            FR: 'Français',
+            ES: 'Español',
+            DE: 'Deutsch'
+          }}
         />
-      </div>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

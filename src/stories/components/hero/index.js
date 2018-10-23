@@ -1,30 +1,14 @@
 /* eslint-disable react/jsx-one-expression-per-line */
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
-import { withKnobs, text, number, boolean, select, color } from '@storybook/addon-knobs/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import JSXAddon from 'storybook-addon-jsx';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
+import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
-import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import {
-  Hero,
-  Container,
-  Image,
-  Header,
-  GithubButton,
-  Button,
-  Link,
-  Code
-} from '../../../components';
+import { Hero, Container, Image, Header, GithubButton, Button, Link } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
-
-import particles from '../../mock/components/particles';
-import { def, children, image } from '../../mock/components/codes/hero';
-
-setAddon(JSXAddon);
 
 const stories = storiesOf('Components/Hero', module);
 
@@ -35,9 +19,7 @@ const buttons = [
   }
 ];
 
-stories.addDecorator(withKnobs);
-
-stories.addWithJSX(
+stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -45,41 +27,21 @@ stories.addWithJSX(
         name="Hero"
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
-      <Hero
-        isFixed={boolean('Fixed', true)}
-        isCentered={boolean('Centered', true)}
-        particles={boolean('With particles', true)}
-        image={text('Image', 'https://c1.staticflickr.com/2/1845/43895099105_7329ee6bba_c.jpg')}
-        opacity={number('Opacity', 1)}
-        parallaxOffset={number('Parallax offset', 0)}
-        overlayColor={color('Overlay color', '#373D45')}
-        minHeight={text('Min height', '100vh')}
-        header={text('Header', 'Landing Page Book')}
-        subHeader={text('Sub header', 'React components to build!')}
-        subHeaderPosition={select(
-          'Sub header position',
-          { top: 'top', bottom: 'bottom' },
-          'bottom'
-        )}
-        buttons={buttons}
-        particlesParams={particles}
-      />
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
+      <PropsManager scope={{ React, Hero }}>
+        <Hero
+          opacity={1}
+          overlayColor="#373D45"
+          header="Landing Page Book"
+          subHeader="React components to build!"
+          buttons={buttons}
+          particlesSugar="crazyStars"
         />
-      </div>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
-stories.addWithJSX(
+stories.add(
   'Via children',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -88,53 +50,34 @@ stories.addWithJSX(
         storyName="Via children"
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
-      <Hero
-        isFixed={boolean('Fixed', true)}
-        isCentered={boolean('Centered', true)}
-        particles={boolean('With particles', true)}
-        image={text('Image', 'https://front10.com/img/header-bg.jpg')}
-        opacity={number('Opacity', 1)}
-        parallaxOffset={number('Parallax offset', 0)}
-        overlayColor={color('Overlay color', '#373D45')}
-        minHeight={text('Min height', '100vh')}
-        particlesParams={particles}
-      >
-        <Container>
-          <Image
-            src="images/logo/front10.png"
-            rounded
-            width="160"
-            alt="Front10 logo"
-            className="main-logo"
-          />
-          <Header className="text-warning">Landing Page Book</Header>
-          <Header type="h5" className="text-warning">
-            React components to build!
-          </Header>
-          <div className="mt-5">
-            <Button rounded={false}>Explore</Button>
-            <GithubButton
-              btnType="star"
-              btnText="Stars"
-              username="front10"
-              repository="landing-page-book"
+      <PropsManager scope={{ React, Hero, Container, Image, Header, Button, GithubButton }}>
+        <Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars">
+          <Container>
+            <Image
+              src="images/logo/front10.png"
+              rounded
+              width="160"
+              alt="Front10 logo"
+              className="main-logo"
             />
-          </div>
-        </Container>
-      </Hero>
-      <div className="mt-4">
-        <Code
-          code={children}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+            <Header className="text-warning">Landing Page Book</Header>
+            <Header type="h5" className="text-warning">
+              React components to build!
+            </Header>
+            <div className="mt-5">
+              <Button>Explore</Button>
+              <GithubButton
+                btnType="star"
+                btnText="Stars"
+                username="front10"
+                repository="landing-page-book"
+              />
+            </div>
+          </Container>
+        </Hero>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
 const ctaButtonStyles = {
@@ -144,7 +87,7 @@ const ctaButtonStyles = {
   float: 'left'
 };
 
-stories.addWithJSX(
+stories.add(
   'With image',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -153,61 +96,32 @@ stories.addWithJSX(
         storyName="With Image"
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
-      <Hero
-        isFixed={boolean('Fixed', true)}
-        image={text('Image', 'images/hero/alone-architecture-buildings-220444.jpg')}
-        opacity={number('Opacity', 0)}
-        parallaxOffset={number('Parallax offset', 350)}
-        minHeight={text('Min height', '100vh')}
-        particles={false}
-      >
-        <Container>
-          <Header type="h6" className="text-white text-left">
-            LANDING PAGE BOOK
-          </Header>
-          <Header className="text-white text-left mt-4 mb-4">
-            React UI Kit to easily build landing pages.
-          </Header>
-          <div className="">
-            <Link
-              disabled={boolean('Disabled', false)}
-              href={text('Link', 'https://front10.com')}
-              className={text('Class name', '')}
-              tooltip={text('Tooltip', 'This is a tooltip')}
-              style={ctaButtonStyles}
-              target={select(
-                'Target',
-                {
-                  '': '',
-                  _blank: '_blank',
-                  _parent: '_parent',
-                  _self: '_self',
-                  _top: '_top'
-                },
-                ''
-              )}
-            >
-              READ MORE
-            </Link>
-          </div>
-        </Container>
-      </Hero>
-      <div className="mt-4">
-        <Code
-          code={image}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, Hero, Container, Header, Link }}>
+        <Hero
+          image="images/hero/alone-architecture-buildings-220444.jpg"
+          parallaxOffset={350}
+          particles={false}
+        >
+          <Container>
+            <Header type="h6" className="text-white text-left">
+              LANDING PAGE BOOK
+            </Header>
+            <Header className="text-white text-left mt-4 mb-4">
+              React UI Kit to easily build landing pages.
+            </Header>
+            <div className="">
+              <Link href="https://front10.com" style={ctaButtonStyles} target="_blank">
+                READ MORE
+              </Link>
+            </div>
+          </Container>
+        </Hero>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
-stories.addWithJSX(
+stories.add(
   'With image (blurred)',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -216,62 +130,33 @@ stories.addWithJSX(
         storyName="With Image (Blurred)"
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
-      <Hero
-        isFixed={boolean('Fixed', true)}
-        image={text('Image', 'images/hero/alone-architecture-buildings-220444.jpg')}
-        opacity={number('Opacity', 0)}
-        parallaxOffset={number('Parallax offset', 350)}
-        minHeight={text('Min height', '100vh')}
-        particles={false}
-        imgFilter={text('Img Filter', 'blur(2px)')}
-      >
-        <Container>
-          <Header type="h6" className="text-white text-left">
-            LANDING PAGE BOOK
-          </Header>
-          <Header className="text-white text-left mt-4 mb-4">
-            React UI Kit to easily build landing pages.
-          </Header>
-          <div className="">
-            <Link
-              disabled={boolean('Disabled', false)}
-              href={text('Link', 'https://front10.com')}
-              className={text('Class name', '')}
-              tooltip={text('Tooltip', 'This is a tooltip')}
-              style={ctaButtonStyles}
-              target={select(
-                'Target',
-                {
-                  '': '',
-                  _blank: '_blank',
-                  _parent: '_parent',
-                  _self: '_self',
-                  _top: '_top'
-                },
-                ''
-              )}
-            >
-              READ MORE
-            </Link>
-          </div>
-        </Container>
-      </Hero>
-      <div className="mt-4">
-        <Code
-          code={image}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, Hero, Container, Header, Link }}>
+        <Hero
+          image="images/hero/alone-architecture-buildings-220444.jpg"
+          parallaxOffset={350}
+          particles={false}
+          imgFilter="blur(2px)"
+        >
+          <Container>
+            <Header type="h6" className="text-white text-left">
+              LANDING PAGE BOOK
+            </Header>
+            <Header className="text-white text-left mt-4 mb-4">
+              React UI Kit to easily build landing pages.
+            </Header>
+            <div className="">
+              <Link href="https://front10.com" style={ctaButtonStyles} target="_blank">
+                READ MORE
+              </Link>
+            </div>
+          </Container>
+        </Hero>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
-stories.addWithJSX(
+stories.add(
   'With image (gray)',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -280,62 +165,33 @@ stories.addWithJSX(
         storyName="With Image (Gray)"
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
-      <Hero
-        isFixed={boolean('Fixed', true)}
-        image={text('Image', 'images/hero/alone-architecture-buildings-220444.jpg')}
-        opacity={number('Opacity', 0)}
-        parallaxOffset={number('Parallax offset', 350)}
-        minHeight={text('Min height', '100vh')}
-        particles={false}
-        imgFilter={text('Img Filter', 'grayscale(90%)')}
-      >
-        <Container>
-          <Header type="h6" className="text-white text-left">
-            LANDING PAGE BOOK
-          </Header>
-          <Header className="text-white text-left mt-4 mb-4">
-            React UI Kit to easily build landing pages.
-          </Header>
-          <div className="">
-            <Link
-              disabled={boolean('Disabled', false)}
-              href={text('Link', 'https://front10.com')}
-              className={text('Class name', '')}
-              tooltip={text('Tooltip', 'This is a tooltip')}
-              style={ctaButtonStyles}
-              target={select(
-                'Target',
-                {
-                  '': '',
-                  _blank: '_blank',
-                  _parent: '_parent',
-                  _self: '_self',
-                  _top: '_top'
-                },
-                ''
-              )}
-            >
-              READ MORE
-            </Link>
-          </div>
-        </Container>
-      </Hero>
-      <div className="mt-4">
-        <Code
-          code={image}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
-      </div>
+      <PropsManager scope={{ React, Hero, Container, Header, Link }}>
+        <Hero
+          image="images/hero/alone-architecture-buildings-220444.jpg"
+          parallaxOffset={350}
+          particles={false}
+          imgFilter="grayscale(90%)"
+        >
+          <Container>
+            <Header type="h6" className="text-white text-left">
+              LANDING PAGE BOOK
+            </Header>
+            <Header className="text-white text-left mt-4 mb-4">
+              React UI Kit to easily build landing pages.
+            </Header>
+            <div className="">
+              <Link href="https://front10.com" style={ctaButtonStyles} target="_blank">
+                READ MORE
+              </Link>
+            </div>
+          </Container>
+        </Hero>
+      </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );
 
-// stories.addWithJSX(
+// stories.add(
 //   'With product',
 //   withReadme([Readme], () => (
 //     <ThemeSelector>
@@ -400,7 +256,7 @@ stories.addWithJSX(
 //   jsxConfig
 // );
 
-// stories.addWithJSX(
+// stories.add(
 //   'Go minimal',
 //   withReadme([Readme], () => (
 //     <ThemeSelector>

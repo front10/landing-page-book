@@ -4,12 +4,16 @@ exports[`Button Button should render 1`] = `
 ReactWrapper {
   Symbol(enzyme.__unrendered__): <Button
     ariaLabel=""
+    circle={false}
     className=""
+    color="default"
     disabled={false}
     loading={false}
     loadingClass="fa fa-circle-o-notch fa-spin"
     onClick={[Function]}
     outline={false}
+    rounded={true}
+    style={Object {}}
     tooltip=""
     type="button"
   />,
@@ -50,12 +54,16 @@ ReactWrapper {
             "props": Object {
               "ariaLabel": "",
               "children": null,
+              "circle": false,
               "className": "",
+              "color": "default",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "outline": false,
+              "rounded": true,
+              "style": Object {},
               "tooltip": "",
               "type": "button",
             },
@@ -66,12 +74,16 @@ ReactWrapper {
             "props": Object {
               "ariaLabel": "",
               "children": null,
+              "circle": false,
               "className": "",
+              "color": "default",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "outline": false,
+              "rounded": true,
+              "style": Object {},
               "tooltip": "",
               "type": "button",
             },
@@ -84,12 +96,16 @@ ReactWrapper {
             "props": Object {
               "ariaLabel": "",
               "children": null,
+              "circle": false,
               "className": "",
+              "color": "default",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "outline": false,
+              "rounded": true,
+              "style": Object {},
               "tooltip": "",
               "type": "button",
             },
@@ -132,7 +148,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn  "
+                    class="Button btn  btn-default rounded"
                     title=""
                     type="button"
                   />
@@ -180,12 +196,16 @@ ReactWrapper {
                         Object {
                           "ariaLabel": "",
                           "children": null,
+                          "circle": false,
                           "className": "",
+                          "color": "default",
                           "disabled": false,
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
                           "outline": false,
+                          "rounded": true,
+                          "style": Object {},
                           "tooltip": "",
                           "type": "button",
                         }
@@ -210,12 +230,16 @@ ReactWrapper {
                         Object {
                           "ariaLabel": "",
                           "children": null,
+                          "circle": false,
                           "className": "",
+                          "color": "default",
                           "disabled": false,
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
                           "outline": false,
+                          "rounded": true,
+                          "style": Object {},
                           "tooltip": "",
                           "type": "button",
                         }
@@ -244,12 +268,16 @@ ReactWrapper {
                   Object {
                     "ariaLabel": "",
                     "children": null,
+                    "circle": false,
                     "className": "",
+                    "color": "default",
                     "disabled": false,
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
                     "outline": false,
+                    "rounded": true,
+                    "style": Object {},
                     "tooltip": "",
                     "type": "button",
                   }
@@ -267,7 +295,7 @@ ReactWrapper {
               "containerInfo": <div>
                 <button
                   aria-label=""
-                  class="Button btn  "
+                  class="Button btn  btn-default rounded"
                   title=""
                   type="button"
                 />
@@ -306,12 +334,16 @@ ReactWrapper {
                     Object {
                       "ariaLabel": "",
                       "children": null,
+                      "circle": false,
                       "className": "",
+                      "color": "default",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "style": Object {},
                       "tooltip": "",
                       "type": "button",
                     }
@@ -340,12 +372,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -357,12 +393,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -406,9 +446,10 @@ ReactWrapper {
               null,
               false,
             ],
-            "className": "Button btn  ",
+            "className": "Button btn  btn-default rounded",
             "disabled": false,
             "onClick": [Function],
+            "style": Object {},
             "title": "",
             "type": "button",
           },
@@ -421,9 +462,10 @@ ReactWrapper {
               null,
               false,
             ],
-            "className": "Button btn  ",
+            "className": "Button btn  btn-default rounded",
             "disabled": false,
             "onClick": [Function],
+            "style": Object {},
             "title": "",
             "type": "button",
           },
@@ -433,7 +475,7 @@ ReactWrapper {
           "sibling": null,
           "stateNode": <button
             aria-label=""
-            class="Button btn  "
+            class="Button btn  btn-default rounded"
             title=""
             type="button"
           />,
@@ -453,12 +495,16 @@ ReactWrapper {
         "memoizedProps": Object {
           "ariaLabel": "",
           "children": null,
+          "circle": false,
           "className": "",
+          "color": "default",
           "disabled": false,
           "loading": false,
           "loadingClass": "fa fa-circle-o-notch fa-spin",
           "onClick": [Function],
           "outline": false,
+          "rounded": true,
+          "style": Object {},
           "tooltip": "",
           "type": "button",
         },
@@ -468,12 +514,16 @@ ReactWrapper {
         "pendingProps": Object {
           "ariaLabel": "",
           "children": null,
+          "circle": false,
           "className": "",
+          "color": "default",
           "disabled": false,
           "loading": false,
           "loadingClass": "fa fa-circle-o-notch fa-spin",
           "onClick": [Function],
           "outline": false,
+          "rounded": true,
+          "style": Object {},
           "tooltip": "",
           "type": "button",
         },
@@ -501,12 +551,16 @@ ReactWrapper {
             "props": Object {
               "ariaLabel": "",
               "children": null,
+              "circle": false,
               "className": "",
+              "color": "default",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "outline": false,
+              "rounded": true,
+              "style": Object {},
               "tooltip": "",
               "type": "button",
             },
@@ -517,12 +571,16 @@ ReactWrapper {
             "props": Object {
               "ariaLabel": "",
               "children": null,
+              "circle": false,
               "className": "",
+              "color": "default",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "outline": false,
+              "rounded": true,
+              "style": Object {},
               "tooltip": "",
               "type": "button",
             },
@@ -535,12 +593,16 @@ ReactWrapper {
             "props": Object {
               "ariaLabel": "",
               "children": null,
+              "circle": false,
               "className": "",
+              "color": "default",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
               "onClick": [Function],
               "outline": false,
+              "rounded": true,
+              "style": Object {},
               "tooltip": "",
               "type": "button",
             },
@@ -583,7 +645,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn  "
+                    class="Button btn  btn-default rounded"
                     title=""
                     type="button"
                   />
@@ -631,12 +693,16 @@ ReactWrapper {
                         Object {
                           "ariaLabel": "",
                           "children": null,
+                          "circle": false,
                           "className": "",
+                          "color": "default",
                           "disabled": false,
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
                           "outline": false,
+                          "rounded": true,
+                          "style": Object {},
                           "tooltip": "",
                           "type": "button",
                         }
@@ -661,12 +727,16 @@ ReactWrapper {
                         Object {
                           "ariaLabel": "",
                           "children": null,
+                          "circle": false,
                           "className": "",
+                          "color": "default",
                           "disabled": false,
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
                           "onClick": [Function],
                           "outline": false,
+                          "rounded": true,
+                          "style": Object {},
                           "tooltip": "",
                           "type": "button",
                         }
@@ -695,12 +765,16 @@ ReactWrapper {
                   Object {
                     "ariaLabel": "",
                     "children": null,
+                    "circle": false,
                     "className": "",
+                    "color": "default",
                     "disabled": false,
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
                     "outline": false,
+                    "rounded": true,
+                    "style": Object {},
                     "tooltip": "",
                     "type": "button",
                   }
@@ -718,7 +792,7 @@ ReactWrapper {
               "containerInfo": <div>
                 <button
                   aria-label=""
-                  class="Button btn  "
+                  class="Button btn  btn-default rounded"
                   title=""
                   type="button"
                 />
@@ -757,12 +831,16 @@ ReactWrapper {
                     Object {
                       "ariaLabel": "",
                       "children": null,
+                      "circle": false,
                       "className": "",
+                      "color": "default",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "style": Object {},
                       "tooltip": "",
                       "type": "button",
                     }
@@ -791,12 +869,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -808,12 +890,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -843,12 +929,16 @@ ReactWrapper {
       "props": Object {
         "ariaLabel": "",
         "children": null,
+        "circle": false,
         "className": "",
+        "color": "default",
         "disabled": false,
         "loading": false,
         "loadingClass": "fa fa-circle-o-notch fa-spin",
         "onClick": [Function],
         "outline": false,
+        "rounded": true,
+        "style": Object {},
         "tooltip": "",
         "type": "button",
       },
@@ -866,12 +956,16 @@ ReactWrapper {
     "props": Object {
       "ariaLabel": "",
       "children": null,
+      "circle": false,
       "className": "",
+      "color": "default",
       "disabled": false,
       "loading": false,
       "loadingClass": "fa fa-circle-o-notch fa-spin",
       "onClick": [Function],
       "outline": false,
+      "rounded": true,
+      "style": Object {},
       "tooltip": "",
       "type": "button",
     },
@@ -879,7 +973,7 @@ ReactWrapper {
     "rendered": Object {
       "instance": <button
         aria-label=""
-        class="Button btn  "
+        class="Button btn  btn-default rounded"
         title=""
         type="button"
       />,
@@ -891,9 +985,10 @@ ReactWrapper {
           null,
           false,
         ],
-        "className": "Button btn  ",
+        "className": "Button btn  btn-default rounded",
         "disabled": false,
         "onClick": [Function],
+        "style": Object {},
         "title": "",
         "type": "button",
       },
@@ -937,12 +1032,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -953,12 +1052,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -971,12 +1074,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -1019,7 +1126,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <button
                       aria-label=""
-                      class="Button btn  "
+                      class="Button btn  btn-default rounded"
                       title=""
                       type="button"
                     />
@@ -1067,12 +1174,16 @@ ReactWrapper {
                           Object {
                             "ariaLabel": "",
                             "children": null,
+                            "circle": false,
                             "className": "",
+                            "color": "default",
                             "disabled": false,
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "outline": false,
+                            "rounded": true,
+                            "style": Object {},
                             "tooltip": "",
                             "type": "button",
                           }
@@ -1097,12 +1208,16 @@ ReactWrapper {
                           Object {
                             "ariaLabel": "",
                             "children": null,
+                            "circle": false,
                             "className": "",
+                            "color": "default",
                             "disabled": false,
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "outline": false,
+                            "rounded": true,
+                            "style": Object {},
                             "tooltip": "",
                             "type": "button",
                           }
@@ -1131,12 +1246,16 @@ ReactWrapper {
                     Object {
                       "ariaLabel": "",
                       "children": null,
+                      "circle": false,
                       "className": "",
+                      "color": "default",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "style": Object {},
                       "tooltip": "",
                       "type": "button",
                     }
@@ -1154,7 +1273,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn  "
+                    class="Button btn  btn-default rounded"
                     title=""
                     type="button"
                   />
@@ -1193,12 +1312,16 @@ ReactWrapper {
                       Object {
                         "ariaLabel": "",
                         "children": null,
+                        "circle": false,
                         "className": "",
+                        "color": "default",
                         "disabled": false,
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
                         "outline": false,
+                        "rounded": true,
+                        "style": Object {},
                         "tooltip": "",
                         "type": "button",
                       }
@@ -1227,12 +1350,16 @@ ReactWrapper {
                 "props": Object {
                   "ariaLabel": "",
                   "children": null,
+                  "circle": false,
                   "className": "",
+                  "color": "default",
                   "disabled": false,
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
                   "outline": false,
+                  "rounded": true,
+                  "style": Object {},
                   "tooltip": "",
                   "type": "button",
                 },
@@ -1244,12 +1371,16 @@ ReactWrapper {
                 "props": Object {
                   "ariaLabel": "",
                   "children": null,
+                  "circle": false,
                   "className": "",
+                  "color": "default",
                   "disabled": false,
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
                   "outline": false,
+                  "rounded": true,
+                  "style": Object {},
                   "tooltip": "",
                   "type": "button",
                 },
@@ -1293,9 +1424,10 @@ ReactWrapper {
                 null,
                 false,
               ],
-              "className": "Button btn  ",
+              "className": "Button btn  btn-default rounded",
               "disabled": false,
               "onClick": [Function],
+              "style": Object {},
               "title": "",
               "type": "button",
             },
@@ -1308,9 +1440,10 @@ ReactWrapper {
                 null,
                 false,
               ],
-              "className": "Button btn  ",
+              "className": "Button btn  btn-default rounded",
               "disabled": false,
               "onClick": [Function],
+              "style": Object {},
               "title": "",
               "type": "button",
             },
@@ -1320,7 +1453,7 @@ ReactWrapper {
             "sibling": null,
             "stateNode": <button
               aria-label=""
-              class="Button btn  "
+              class="Button btn  btn-default rounded"
               title=""
               type="button"
             />,
@@ -1340,12 +1473,16 @@ ReactWrapper {
           "memoizedProps": Object {
             "ariaLabel": "",
             "children": null,
+            "circle": false,
             "className": "",
+            "color": "default",
             "disabled": false,
             "loading": false,
             "loadingClass": "fa fa-circle-o-notch fa-spin",
             "onClick": [Function],
             "outline": false,
+            "rounded": true,
+            "style": Object {},
             "tooltip": "",
             "type": "button",
           },
@@ -1355,12 +1492,16 @@ ReactWrapper {
           "pendingProps": Object {
             "ariaLabel": "",
             "children": null,
+            "circle": false,
             "className": "",
+            "color": "default",
             "disabled": false,
             "loading": false,
             "loadingClass": "fa fa-circle-o-notch fa-spin",
             "onClick": [Function],
             "outline": false,
+            "rounded": true,
+            "style": Object {},
             "tooltip": "",
             "type": "button",
           },
@@ -1388,12 +1529,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -1404,12 +1549,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -1422,12 +1571,16 @@ ReactWrapper {
               "props": Object {
                 "ariaLabel": "",
                 "children": null,
+                "circle": false,
                 "className": "",
+                "color": "default",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
                 "onClick": [Function],
                 "outline": false,
+                "rounded": true,
+                "style": Object {},
                 "tooltip": "",
                 "type": "button",
               },
@@ -1470,7 +1623,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <button
                       aria-label=""
-                      class="Button btn  "
+                      class="Button btn  btn-default rounded"
                       title=""
                       type="button"
                     />
@@ -1518,12 +1671,16 @@ ReactWrapper {
                           Object {
                             "ariaLabel": "",
                             "children": null,
+                            "circle": false,
                             "className": "",
+                            "color": "default",
                             "disabled": false,
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "outline": false,
+                            "rounded": true,
+                            "style": Object {},
                             "tooltip": "",
                             "type": "button",
                           }
@@ -1548,12 +1705,16 @@ ReactWrapper {
                           Object {
                             "ariaLabel": "",
                             "children": null,
+                            "circle": false,
                             "className": "",
+                            "color": "default",
                             "disabled": false,
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
                             "onClick": [Function],
                             "outline": false,
+                            "rounded": true,
+                            "style": Object {},
                             "tooltip": "",
                             "type": "button",
                           }
@@ -1582,12 +1743,16 @@ ReactWrapper {
                     Object {
                       "ariaLabel": "",
                       "children": null,
+                      "circle": false,
                       "className": "",
+                      "color": "default",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "style": Object {},
                       "tooltip": "",
                       "type": "button",
                     }
@@ -1605,7 +1770,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn  "
+                    class="Button btn  btn-default rounded"
                     title=""
                     type="button"
                   />
@@ -1644,12 +1809,16 @@ ReactWrapper {
                       Object {
                         "ariaLabel": "",
                         "children": null,
+                        "circle": false,
                         "className": "",
+                        "color": "default",
                         "disabled": false,
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
                         "outline": false,
+                        "rounded": true,
+                        "style": Object {},
                         "tooltip": "",
                         "type": "button",
                       }
@@ -1678,12 +1847,16 @@ ReactWrapper {
                 "props": Object {
                   "ariaLabel": "",
                   "children": null,
+                  "circle": false,
                   "className": "",
+                  "color": "default",
                   "disabled": false,
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
                   "outline": false,
+                  "rounded": true,
+                  "style": Object {},
                   "tooltip": "",
                   "type": "button",
                 },
@@ -1695,12 +1868,16 @@ ReactWrapper {
                 "props": Object {
                   "ariaLabel": "",
                   "children": null,
+                  "circle": false,
                   "className": "",
+                  "color": "default",
                   "disabled": false,
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
                   "onClick": [Function],
                   "outline": false,
+                  "rounded": true,
+                  "style": Object {},
                   "tooltip": "",
                   "type": "button",
                 },
@@ -1730,12 +1907,16 @@ ReactWrapper {
         "props": Object {
           "ariaLabel": "",
           "children": null,
+          "circle": false,
           "className": "",
+          "color": "default",
           "disabled": false,
           "loading": false,
           "loadingClass": "fa fa-circle-o-notch fa-spin",
           "onClick": [Function],
           "outline": false,
+          "rounded": true,
+          "style": Object {},
           "tooltip": "",
           "type": "button",
         },
@@ -1753,12 +1934,16 @@ ReactWrapper {
       "props": Object {
         "ariaLabel": "",
         "children": null,
+        "circle": false,
         "className": "",
+        "color": "default",
         "disabled": false,
         "loading": false,
         "loadingClass": "fa fa-circle-o-notch fa-spin",
         "onClick": [Function],
         "outline": false,
+        "rounded": true,
+        "style": Object {},
         "tooltip": "",
         "type": "button",
       },
@@ -1766,7 +1951,7 @@ ReactWrapper {
       "rendered": Object {
         "instance": <button
           aria-label=""
-          class="Button btn  "
+          class="Button btn  btn-default rounded"
           title=""
           type="button"
         />,
@@ -1778,9 +1963,10 @@ ReactWrapper {
             null,
             false,
           ],
-          "className": "Button btn  ",
+          "className": "Button btn  btn-default rounded",
           "disabled": false,
           "onClick": [Function],
+          "style": Object {},
           "title": "",
           "type": "button",
         },
@@ -1812,8 +1998,6 @@ ReactWrapper {
         },
       },
     },
-    "attachTo": undefined,
-    "hydrateIn": undefined,
   },
 }
 `;

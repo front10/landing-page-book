@@ -119,7 +119,7 @@ stories.add(
         >
           <Container className="text-justify">
             <Row>
-              <Column className="col-12 col-sm-4">
+              <Column className="col-12 col-md-6">
                 <div>
                   <Card
                     contentAlign="left"
@@ -134,7 +134,7 @@ stories.add(
                   />
                 </div>
               </Column>
-              <Column className="col-12 col-sm-8">
+              <Column className="col-12 col-md-6">
                 <p style={pStyle}>
                   He biggest trend in frontend user interface (UI) development for the web in recent
                   years has been towards components. The React library, although by no means the

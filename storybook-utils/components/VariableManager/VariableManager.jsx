@@ -55,6 +55,7 @@ class VariableManager extends React.Component {
           languageCode="css"
           showheader={false}
           collapsible
+          lineNumbers={false}
           updateCode={VariableManager.onCodeChange}
         />
       </div>

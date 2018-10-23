@@ -3,6 +3,7 @@
 exports[`Features Features should render 1`] = `
 ReactWrapper {
   Symbol(enzyme.__unrendered__): <Features
+    buttonColor="default"
     contentAlign="center"
     features={Array []}
     imageBorder={false}
@@ -51,6 +52,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "buttonColor": "default",
               "contentAlign": "center",
               "features": Array [],
               "imageBorder": false,
@@ -69,6 +71,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "buttonColor": "default",
               "contentAlign": "center",
               "features": Array [],
               "imageBorder": false,
@@ -89,6 +92,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "buttonColor": "default",
               "contentAlign": "center",
               "features": Array [],
               "imageBorder": false,
@@ -184,6 +188,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "buttonColor": "default",
                           "contentAlign": "center",
                           "features": Array [],
                           "imageBorder": false,
@@ -216,6 +221,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "buttonColor": "default",
                           "contentAlign": "center",
                           "features": Array [],
                           "imageBorder": false,
@@ -252,6 +258,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "buttonColor": "default",
                     "contentAlign": "center",
                     "features": Array [],
                     "imageBorder": false,
@@ -313,6 +320,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "buttonColor": "default",
                       "contentAlign": "center",
                       "features": Array [],
                       "imageBorder": false,
@@ -349,6 +357,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -368,6 +377,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -447,6 +457,7 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
+          "buttonColor": "default",
           "contentAlign": "center",
           "features": Array [],
           "imageBorder": false,
@@ -464,6 +475,7 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "buttonColor": "default",
           "contentAlign": "center",
           "features": Array [],
           "imageBorder": false,
@@ -499,6 +511,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "buttonColor": "default",
               "contentAlign": "center",
               "features": Array [],
               "imageBorder": false,
@@ -517,6 +530,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "buttonColor": "default",
               "contentAlign": "center",
               "features": Array [],
               "imageBorder": false,
@@ -537,6 +551,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "buttonColor": "default",
               "contentAlign": "center",
               "features": Array [],
               "imageBorder": false,
@@ -632,6 +647,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "buttonColor": "default",
                           "contentAlign": "center",
                           "features": Array [],
                           "imageBorder": false,
@@ -664,6 +680,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "buttonColor": "default",
                           "contentAlign": "center",
                           "features": Array [],
                           "imageBorder": false,
@@ -700,6 +717,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "buttonColor": "default",
                     "contentAlign": "center",
                     "features": Array [],
                     "imageBorder": false,
@@ -761,6 +779,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "buttonColor": "default",
                       "contentAlign": "center",
                       "features": Array [],
                       "imageBorder": false,
@@ -797,6 +816,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -816,6 +836,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -853,6 +874,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
+        "buttonColor": "default",
         "contentAlign": "center",
         "features": Array [],
         "imageBorder": false,
@@ -878,6 +900,7 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "buttonColor": "default",
       "contentAlign": "center",
       "features": Array [],
       "imageBorder": false,
@@ -937,6 +960,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -955,6 +979,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -975,6 +1000,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -1070,6 +1096,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "buttonColor": "default",
                             "contentAlign": "center",
                             "features": Array [],
                             "imageBorder": false,
@@ -1102,6 +1129,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "buttonColor": "default",
                             "contentAlign": "center",
                             "features": Array [],
                             "imageBorder": false,
@@ -1138,6 +1166,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "buttonColor": "default",
                       "contentAlign": "center",
                       "features": Array [],
                       "imageBorder": false,
@@ -1199,6 +1228,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "buttonColor": "default",
                         "contentAlign": "center",
                         "features": Array [],
                         "imageBorder": false,
@@ -1235,6 +1265,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "buttonColor": "default",
                   "contentAlign": "center",
                   "features": Array [],
                   "imageBorder": false,
@@ -1254,6 +1285,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "buttonColor": "default",
                   "contentAlign": "center",
                   "features": Array [],
                   "imageBorder": false,
@@ -1333,6 +1365,7 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
+            "buttonColor": "default",
             "contentAlign": "center",
             "features": Array [],
             "imageBorder": false,
@@ -1350,6 +1383,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "buttonColor": "default",
             "contentAlign": "center",
             "features": Array [],
             "imageBorder": false,
@@ -1385,6 +1419,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -1403,6 +1438,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -1423,6 +1459,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "buttonColor": "default",
                 "contentAlign": "center",
                 "features": Array [],
                 "imageBorder": false,
@@ -1518,6 +1555,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "buttonColor": "default",
                             "contentAlign": "center",
                             "features": Array [],
                             "imageBorder": false,
@@ -1550,6 +1588,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "buttonColor": "default",
                             "contentAlign": "center",
                             "features": Array [],
                             "imageBorder": false,
@@ -1586,6 +1625,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "buttonColor": "default",
                       "contentAlign": "center",
                       "features": Array [],
                       "imageBorder": false,
@@ -1647,6 +1687,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "buttonColor": "default",
                         "contentAlign": "center",
                         "features": Array [],
                         "imageBorder": false,
@@ -1683,6 +1724,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "buttonColor": "default",
                   "contentAlign": "center",
                   "features": Array [],
                   "imageBorder": false,
@@ -1702,6 +1744,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "buttonColor": "default",
                   "contentAlign": "center",
                   "features": Array [],
                   "imageBorder": false,
@@ -1739,6 +1782,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
+          "buttonColor": "default",
           "contentAlign": "center",
           "features": Array [],
           "imageBorder": false,
@@ -1764,6 +1808,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "buttonColor": "default",
         "contentAlign": "center",
         "features": Array [],
         "imageBorder": false,
@@ -1813,6 +1858,8 @@ ReactWrapper {
         },
       },
     },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
   },
 }
 `;

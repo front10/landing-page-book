@@ -36,3 +36,83 @@ stories.add(
     </ThemeSelector>
   ))
 );
+stories.add(
+  'Responsive Image',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Image"
+        storyName="Responsive Image"
+        description="Images in Bootstrap are made responsive with .img-fluid. max-width: 100%; and height: auto; are applied to the image so that it scales with the parent element."
+      />
+
+      <PropsManager scope={{ React, Image }}>
+        <Image
+          alt="Responsive image example"
+          src="images/image/214210-P0L8ES-375.jpg"
+          tooltip="This is our galaxy"
+          width="100%"
+        />
+      </PropsManager>
+    </ThemeSelector>
+  ))
+);
+stories.add(
+  'Aligning images',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Image"
+        storyName="Aligning images"
+        description="Align images with the helper float classes or text alignment classes. block-level images can be centered using the .mx-auto margin utility class."
+      />
+      <Container>
+        <Row>
+          <Column>
+            <PropsManager scope={{ React, Image }}>
+              <div>
+                <Image
+                  alt="This is an image example"
+                  src="images/backers/astronaut.svg"
+                  tooltip="Float left"
+                  width="150"
+                  className="float-left"
+                />
+                <Image
+                  alt="This is an image example"
+                  src="images/backers/doctor.svg"
+                  tooltip="Float right"
+                  width="150"
+                  className="float-right"
+                />
+              </div>
+            </PropsManager>
+          </Column>
+        </Row>
+        <Row>
+          <Column>
+            <PropsManager scope={{ React, Image }}>
+              <div className="mt-5">
+                <Image
+                  alt="This is an image example"
+                  src="images/backers/astronaut.svg"
+                  tooltip="Centered with MX-AUTO"
+                  width="150"
+                  className="mx-auto d-block"
+                />
+                <div className="text-center mt-5">
+                  <Image
+                    alt="This is an image example"
+                    src="images/backers/doctor.svg"
+                    tooltip="Centered with TEXT-CENTER"
+                    width="150"
+                  />
+                </div>
+              </div>
+            </PropsManager>
+          </Column>
+        </Row>
+      </Container>
+    </ThemeSelector>
+  ))
+);

@@ -25,7 +25,6 @@ class PropsManager extends React.Component {
       showDefaultProps,
       showFunctions,
       sortProps,
-      skip,
       maxInlineAttributesLineLength
     } = this.props;
     const { props } = children;
@@ -93,8 +92,7 @@ PropsManager.propTypes = {
   showDefaultProps: PropTypes.bool,
   showFunctions: PropTypes.bool,
   sortProps: PropTypes.bool,
-  maxInlineAttributesLineLength: PropTypes.number,
-  skip: PropTypes.number
+  maxInlineAttributesLineLength: PropTypes.number
 };
 
 PropsManager.defaultProps = {
@@ -102,7 +100,6 @@ PropsManager.defaultProps = {
   showFunctions: false,
   sortProps: false,
   maxInlineAttributesLineLength: undefined,
-  skip: 0,
   scope: { React }
 };
 

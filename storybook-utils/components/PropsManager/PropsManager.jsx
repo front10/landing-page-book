@@ -20,15 +20,24 @@ class PropsManager extends React.Component {
   }
 
   componentWillMount() {
-    const { children } = this.props;
+    const {
+      children,
+      showDefaultProps,
+      showFunctions,
+      sortProps,
+      skip,
+      maxInlineAttributesLineLength
+    } = this.props;
     const { props } = children;
     const element = React.createElement(children.type, props);
     this.setState({
       codeExpanded: true,
       propsExpanded: true,
       element: ReactElementToJsxString(element, {
-        showDefaultProps: false,
-        showFunctions: false
+        showDefaultProps,
+        showFunctions,
+        sortProps,
+        maxInlineAttributesLineLength
       })
     });
   }
@@ -80,10 +89,20 @@ class PropsManager extends React.Component {
 
 PropsManager.propTypes = {
   children: PropTypes.node.isRequired,
-  scope: PropTypes.objectOf(PropTypes.any)
+  scope: PropTypes.objectOf(PropTypes.any),
+  showDefaultProps: PropTypes.bool,
+  showFunctions: PropTypes.bool,
+  sortProps: PropTypes.bool,
+  maxInlineAttributesLineLength: PropTypes.number,
+  skip: PropTypes.number
 };
 
 PropsManager.defaultProps = {
+  showDefaultProps: false,
+  showFunctions: false,
+  sortProps: false,
+  maxInlineAttributesLineLength: undefined,
+  skip: 0,
   scope: { React }
 };
 

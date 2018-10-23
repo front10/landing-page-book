@@ -160,7 +160,7 @@ stories.add(
         storyName="Floating image"
         description="Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
       />
-      <PropsManager scope={{ React, Card, Link, Container, Row, Column }}>
+      <PropsManager scope={{ React, Card, Link, Container, Row, Column }} skip={3}>
         <Container>
           <Row>
             <Column className="col-12 col-md-6 col-lg-6">

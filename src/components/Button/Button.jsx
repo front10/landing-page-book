@@ -19,7 +19,8 @@ class Button extends Component {
       circle,
       color,
       outline,
-      size
+      size,
+      active
     } = this.props;
     let cssclass = `${className} btn-${color}`;
     if (circle) {
@@ -32,6 +33,9 @@ class Button extends Component {
     }
     if (size) {
       cssclass = `${cssclass} btn-${size}`;
+    }
+    if (active) {
+      cssclass = `${cssclass} ${active}`;
     }
 
     /* eslint-disable react/button-has-type */
@@ -59,6 +63,7 @@ Button.propTypes = {
   rounded: PropTypes.bool,
   circle: PropTypes.bool,
   outline: PropTypes.bool,
+  active: PropTypes.bool,
   loadingClass: PropTypes.string,
   className: PropTypes.string,
   ariaLabel: PropTypes.string,
@@ -76,6 +81,7 @@ Button.defaultProps = {
   rounded: true,
   circle: false,
   outline: false,
+  active: false,
   loadingClass: 'fa fa-circle-o-notch fa-spin',
   className: '',
   ariaLabel: '',

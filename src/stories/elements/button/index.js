@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-import { Button, Container } from '../../../components';
+import { Button, Container, Row, Column } from '../../../components';
 import Readme from '../../../components/Button/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
@@ -30,31 +30,9 @@ stories.add(
     </ThemeSelector>
   ))
 );
-stories.add(
-  'Bootstrap',
-  withReadme([Readme], () => (
-    <ThemeSelector>
-      <StoryHeader
-        name="Button"
-        storyName="Bootstrap style"
-        description="The <button> tag defines a clickable button.
-
-        Inside a <button> element you can put content, like text or images. This is the difference between this element and buttons created with the <input> element.
-        
-        Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
-      />
-      <PropsManager scope={{ React, Button }}>
-        <Button tooltip="Tis is a button tooltip" color="primary">
-          <i className="fa fa-home" />
-          <span className="ml-1">Home</span>
-        </Button>
-      </PropsManager>
-    </ThemeSelector>
-  ))
-);
 
 stories.add(
-  'All Bootstrap',
+  'Buttons',
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader
@@ -102,7 +80,7 @@ stories.add(
 );
 
 stories.add(
-  'All Bootstrap Outline',
+  'Buttons Outline',
   withReadme([Readme], () => (
     <ThemeSelector>
       <StoryHeader
@@ -148,7 +126,7 @@ stories.add(
     </ThemeSelector>
   ))
 );
-stories.addWithJSX(
+stories.add(
   'Size',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -161,58 +139,119 @@ stories.addWithJSX(
         
         Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
-      <Button
-        className={text('Class name', 'mr-1')}
-        rounded={boolean('Rounded', true)}
-        outline={boolean('Rounded', false)}
-        circle={boolean('Circle', false)}
-        color="primary"
-        size="sm"
-      >
-        Primary button
-      </Button>
-      <Button
-        className={text('Class name', 'mr-1')}
-        rounded={boolean('Rounded', true)}
-        outline={boolean('Rounded', false)}
-        circle={boolean('Circle', false)}
-        color="secondary"
-        size="sm"
-      >
-        Secondary button
-      </Button>
-      <Button
-        className={text('Class name', 'mr-1')}
-        rounded={boolean('Rounded', true)}
-        outline={boolean('Rounded', false)}
-        circle={boolean('Circle', false)}
-        color="success"
-        size="lg"
-      >
-        Success button
-      </Button>
-      <Button
-        className={text('Class name', 'mr-1')}
-        rounded={boolean('Rounded', true)}
-        outline={boolean('Rounded', false)}
-        circle={boolean('Circle', false)}
-        color="danger"
-        size="lg"
-      >
-        Danger button
-      </Button>
-
-      <div className="mt-4">
-        <Code
-          code={def}
-          languageCode="jsx"
-          readOnly
-          collapsible
-          collapsed
-          showDeleteButton={false}
-        />
+      <PropsManager scope={{ React, Button, Container }}>
+        <div>
+          <Button className="mr-1" rounded outline={false} circle={false} color="primary" size="sm">
+            Small button
+          </Button>
+          <Button
+            className="mr-1"
+            rounded
+            outline={false}
+            circle={false}
+            color="secondary"
+            size="sm"
+          >
+            Small button
+          </Button>
+        </div>
+      </PropsManager>
+      <div className="mt-5">
+        <PropsManager scope={{ React, Button, Container }}>
+          <div>
+            <Button
+              className="mr-1"
+              rounded
+              outline={false}
+              circle={false}
+              color="primary"
+              size="lg"
+            >
+              Large button
+            </Button>
+            <Button
+              className="mr-1"
+              rounded
+              outline={false}
+              circle={false}
+              color="secondary"
+              size="lg"
+            >
+              Large button
+            </Button>
+          </div>
+        </PropsManager>
       </div>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
+);
+stories.add(
+  'Active State',
+  withReadme([Readme], () => (
+    <ThemeSelector>
+      <StoryHeader
+        name="Button"
+        storyName="Active State"
+        description="The <button> tag defines a clickable button.
+
+        Inside a <button> element you can put content, like text or images. This is the difference between this element and buttons created with the <input> element.
+        
+        Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
+      />
+      <Row>
+        <Column className="col-12 col-md-6 pb-5">
+          <PropsManager scope={{ React, Button, Container }}>
+            <div>
+              <Button
+                className="mr-1"
+                rounded
+                outline={false}
+                circle={false}
+                color="primary"
+                disabled
+              >
+                Disabled button
+              </Button>
+              <Button
+                className="mr-1"
+                rounded
+                outline={false}
+                circle={false}
+                color="secondary"
+                disabled
+              >
+                Disabled button
+              </Button>
+            </div>
+          </PropsManager>
+        </Column>
+        <Column className="col-12 col-md-6 pb-5">
+          <PropsManager scope={{ React, Button, Container }}>
+            <div>
+              <Button
+                className="mr-1"
+                rounded
+                outline={false}
+                circle={false}
+                color="primary"
+                active
+              >
+                Active button
+              </Button>
+              <Button
+                className="mr-1"
+                rounded
+                outline={false}
+                circle={false}
+                color="secondary"
+                active
+              >
+                Active button
+              </Button>
+            </div>
+          </PropsManager>
+        </Column>
+      </Row>
+    </ThemeSelector>
+  ))
 );

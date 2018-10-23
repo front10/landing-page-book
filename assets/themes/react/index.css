@@ -1175,7 +1175,7 @@ a span {
 :root {
   --Input-borderRadius: .25rem;
   --Input-fontSize: 0.9rem;
-  --Input-color: rgba(0,0,0,0.8);
+  --Input-color: rgba(0, 0, 0, 0.8);
   --Input-height: calc(2.25rem + 2px); }
 
 :root {
@@ -1197,7 +1197,7 @@ a span {
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: var(--Input-fontSize);
-    top: 40%;
+    top: 30%;
     color: var(--Input-color); }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }
@@ -1207,6 +1207,8 @@ a span {
     left: 10px; }
   .Input__Container .Input__Container__Icon--right {
     right: 10px; }
+  .Input__Container .form-control {
+    padding: .375rem 1.75rem; }
 
 :root {
   --Label-fontSize: 1rem;

@@ -4,7 +4,11 @@ exports[`Header Header should render 1`] = `
 ReactWrapper {
   Symbol(enzyme.__unrendered__): <Header
     borderBottom={false}
+    borderTop={false}
     className=""
+    color=""
+    icon=""
+    textAlign="left"
     type="h1"
     vendor="chrome"
   />,
@@ -44,8 +48,12 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "borderBottom": false,
+              "borderTop": false,
               "children": null,
               "className": "",
+              "color": "",
+              "icon": "",
+              "textAlign": "left",
               "type": "h1",
               "vendor": "chrome",
             },
@@ -55,8 +63,12 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "borderBottom": false,
+              "borderTop": false,
               "children": null,
               "className": "",
+              "color": "",
+              "icon": "",
+              "textAlign": "left",
               "type": "h1",
               "vendor": "chrome",
             },
@@ -68,8 +80,12 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "borderBottom": false,
+              "borderTop": false,
               "children": null,
               "className": "",
+              "color": "",
+              "icon": "",
+              "textAlign": "left",
               "type": "h1",
               "vendor": "chrome",
             },
@@ -111,8 +127,11 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <h1
-                    class=" "
-                  />
+                    class=" text-left"
+                  >
+                    
+                    
+                  </h1>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -156,8 +175,12 @@ ReactWrapper {
                       props={
                         Object {
                           "borderBottom": false,
+                          "borderTop": false,
                           "children": null,
                           "className": "",
+                          "color": "",
+                          "icon": "",
+                          "textAlign": "left",
                           "type": "h1",
                           "vendor": "chrome",
                         }
@@ -181,8 +204,12 @@ ReactWrapper {
                       props={
                         Object {
                           "borderBottom": false,
+                          "borderTop": false,
                           "children": null,
                           "className": "",
+                          "color": "",
+                          "icon": "",
+                          "textAlign": "left",
                           "type": "h1",
                           "vendor": "chrome",
                         }
@@ -210,8 +237,12 @@ ReactWrapper {
                 props={
                   Object {
                     "borderBottom": false,
+                    "borderTop": false,
                     "children": null,
                     "className": "",
+                    "color": "",
+                    "icon": "",
+                    "textAlign": "left",
                     "type": "h1",
                     "vendor": "chrome",
                   }
@@ -228,8 +259,11 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <h1
-                  class=" "
-                />
+                  class=" text-left"
+                >
+                  
+                  
+                </h1>
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -264,8 +298,12 @@ ReactWrapper {
                   props={
                     Object {
                       "borderBottom": false,
+                      "borderTop": false,
                       "children": null,
                       "className": "",
+                      "color": "",
+                      "icon": "",
+                      "textAlign": "left",
                       "type": "h1",
                       "vendor": "chrome",
                     }
@@ -293,8 +331,12 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -305,8 +347,12 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -335,7 +381,69 @@ ReactWrapper {
           "actualDuration": 0,
           "actualStartTime": -1,
           "alternate": null,
-          "child": null,
+          "child": FiberNode {
+            "_debugID": 52,
+            "_debugIsCurrentlyTiming": false,
+            "_debugOwner": null,
+            "_debugSource": null,
+            "actualDuration": 0,
+            "actualStartTime": -1,
+            "alternate": null,
+            "child": null,
+            "childExpirationTime": 0,
+            "effectTag": 0,
+            "expirationTime": 0,
+            "firstContextDependency": null,
+            "firstEffect": null,
+            "index": 0,
+            "key": null,
+            "lastEffect": null,
+            "memoizedProps": "",
+            "memoizedState": null,
+            "mode": 0,
+            "nextEffect": null,
+            "pendingProps": "",
+            "ref": null,
+            "return": [Circular],
+            "selfBaseDuration": 0,
+            "sibling": FiberNode {
+              "_debugID": 53,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 2,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": "",
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": "",
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": null,
+              "stateNode": ,
+              "tag": 8,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": null,
+            },
+            "stateNode": ,
+            "tag": 8,
+            "treeBaseDuration": 0,
+            "type": null,
+            "updateQueue": null,
+          },
           "childExpirationTime": 0,
           "effectTag": 0,
           "expirationTime": 0,
@@ -345,23 +453,34 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
-            "children": null,
-            "className": " ",
+            "children": Array [
+              "",
+              null,
+              "",
+            ],
+            "className": " text-left",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
-            "children": null,
-            "className": " ",
+            "children": Array [
+              "",
+              null,
+              "",
+            ],
+            "className": " text-left",
           },
           "ref": null,
           "return": [Circular],
           "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": <h1
-            class=" "
-          />,
+            class=" text-left"
+          >
+            
+            
+          </h1>,
           "tag": 7,
           "treeBaseDuration": 0,
           "type": "h1",
@@ -377,8 +496,12 @@ ReactWrapper {
         "lastEffect": null,
         "memoizedProps": Object {
           "borderBottom": false,
+          "borderTop": false,
           "children": null,
           "className": "",
+          "color": "",
+          "icon": "",
+          "textAlign": "left",
           "type": "h1",
           "vendor": "chrome",
         },
@@ -387,8 +510,12 @@ ReactWrapper {
         "nextEffect": null,
         "pendingProps": Object {
           "borderBottom": false,
+          "borderTop": false,
           "children": null,
           "className": "",
+          "color": "",
+          "icon": "",
+          "textAlign": "left",
           "type": "h1",
           "vendor": "chrome",
         },
@@ -415,8 +542,12 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "borderBottom": false,
+              "borderTop": false,
               "children": null,
               "className": "",
+              "color": "",
+              "icon": "",
+              "textAlign": "left",
               "type": "h1",
               "vendor": "chrome",
             },
@@ -426,8 +557,12 @@ ReactWrapper {
             "mount": true,
             "props": Object {
               "borderBottom": false,
+              "borderTop": false,
               "children": null,
               "className": "",
+              "color": "",
+              "icon": "",
+              "textAlign": "left",
               "type": "h1",
               "vendor": "chrome",
             },
@@ -439,8 +574,12 @@ ReactWrapper {
             "context": null,
             "props": Object {
               "borderBottom": false,
+              "borderTop": false,
               "children": null,
               "className": "",
+              "color": "",
+              "icon": "",
+              "textAlign": "left",
               "type": "h1",
               "vendor": "chrome",
             },
@@ -482,8 +621,11 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <h1
-                    class=" "
-                  />
+                    class=" text-left"
+                  >
+                    
+                    
+                  </h1>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -527,8 +669,12 @@ ReactWrapper {
                       props={
                         Object {
                           "borderBottom": false,
+                          "borderTop": false,
                           "children": null,
                           "className": "",
+                          "color": "",
+                          "icon": "",
+                          "textAlign": "left",
                           "type": "h1",
                           "vendor": "chrome",
                         }
@@ -552,8 +698,12 @@ ReactWrapper {
                       props={
                         Object {
                           "borderBottom": false,
+                          "borderTop": false,
                           "children": null,
                           "className": "",
+                          "color": "",
+                          "icon": "",
+                          "textAlign": "left",
                           "type": "h1",
                           "vendor": "chrome",
                         }
@@ -581,8 +731,12 @@ ReactWrapper {
                 props={
                   Object {
                     "borderBottom": false,
+                    "borderTop": false,
                     "children": null,
                     "className": "",
+                    "color": "",
+                    "icon": "",
+                    "textAlign": "left",
                     "type": "h1",
                     "vendor": "chrome",
                   }
@@ -599,8 +753,11 @@ ReactWrapper {
             "stateNode": Object {
               "containerInfo": <div>
                 <h1
-                  class=" "
-                />
+                  class=" text-left"
+                >
+                  
+                  
+                </h1>
               </div>,
               "context": Object {},
               "current": [Circular],
@@ -635,8 +792,12 @@ ReactWrapper {
                   props={
                     Object {
                       "borderBottom": false,
+                      "borderTop": false,
                       "children": null,
                       "className": "",
+                      "color": "",
+                      "icon": "",
+                      "textAlign": "left",
                       "type": "h1",
                       "vendor": "chrome",
                     }
@@ -664,8 +825,12 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -676,8 +841,12 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -706,8 +875,12 @@ ReactWrapper {
       "context": Object {},
       "props": Object {
         "borderBottom": false,
+        "borderTop": false,
         "children": null,
         "className": "",
+        "color": "",
+        "icon": "",
+        "textAlign": "left",
         "type": "h1",
         "vendor": "chrome",
       },
@@ -724,25 +897,37 @@ ReactWrapper {
     "nodeType": "class",
     "props": Object {
       "borderBottom": false,
+      "borderTop": false,
       "children": null,
       "className": "",
+      "color": "",
+      "icon": "",
+      "textAlign": "left",
       "type": "h1",
       "vendor": "chrome",
     },
     "ref": null,
     "rendered": Object {
       "instance": <h1
-        class=" "
-      />,
+        class=" text-left"
+      >
+        
+        
+      </h1>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": null,
-        "className": " ",
+        "children": Array [
+          "",
+          null,
+          "",
+        ],
+        "className": " text-left",
       },
       "ref": null,
       "rendered": Array [
-        null,
+        "",
+        "",
       ],
       "type": "h1",
     },
@@ -776,8 +961,12 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -787,8 +976,12 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -800,8 +993,12 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -843,8 +1040,11 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <h1
-                      class=" "
-                    />
+                      class=" text-left"
+                    >
+                      
+                      
+                    </h1>
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -888,8 +1088,12 @@ ReactWrapper {
                         props={
                           Object {
                             "borderBottom": false,
+                            "borderTop": false,
                             "children": null,
                             "className": "",
+                            "color": "",
+                            "icon": "",
+                            "textAlign": "left",
                             "type": "h1",
                             "vendor": "chrome",
                           }
@@ -913,8 +1117,12 @@ ReactWrapper {
                         props={
                           Object {
                             "borderBottom": false,
+                            "borderTop": false,
                             "children": null,
                             "className": "",
+                            "color": "",
+                            "icon": "",
+                            "textAlign": "left",
                             "type": "h1",
                             "vendor": "chrome",
                           }
@@ -942,8 +1150,12 @@ ReactWrapper {
                   props={
                     Object {
                       "borderBottom": false,
+                      "borderTop": false,
                       "children": null,
                       "className": "",
+                      "color": "",
+                      "icon": "",
+                      "textAlign": "left",
                       "type": "h1",
                       "vendor": "chrome",
                     }
@@ -960,8 +1172,11 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <h1
-                    class=" "
-                  />
+                    class=" text-left"
+                  >
+                    
+                    
+                  </h1>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -996,8 +1211,12 @@ ReactWrapper {
                     props={
                       Object {
                         "borderBottom": false,
+                        "borderTop": false,
                         "children": null,
                         "className": "",
+                        "color": "",
+                        "icon": "",
+                        "textAlign": "left",
                         "type": "h1",
                         "vendor": "chrome",
                       }
@@ -1025,8 +1244,12 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "borderBottom": false,
+                  "borderTop": false,
                   "children": null,
                   "className": "",
+                  "color": "",
+                  "icon": "",
+                  "textAlign": "left",
                   "type": "h1",
                   "vendor": "chrome",
                 },
@@ -1037,8 +1260,12 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "borderBottom": false,
+                  "borderTop": false,
                   "children": null,
                   "className": "",
+                  "color": "",
+                  "icon": "",
+                  "textAlign": "left",
                   "type": "h1",
                   "vendor": "chrome",
                 },
@@ -1067,7 +1294,69 @@ ReactWrapper {
             "actualDuration": 0,
             "actualStartTime": -1,
             "alternate": null,
-            "child": null,
+            "child": FiberNode {
+              "_debugID": 52,
+              "_debugIsCurrentlyTiming": false,
+              "_debugOwner": null,
+              "_debugSource": null,
+              "actualDuration": 0,
+              "actualStartTime": -1,
+              "alternate": null,
+              "child": null,
+              "childExpirationTime": 0,
+              "effectTag": 0,
+              "expirationTime": 0,
+              "firstContextDependency": null,
+              "firstEffect": null,
+              "index": 0,
+              "key": null,
+              "lastEffect": null,
+              "memoizedProps": "",
+              "memoizedState": null,
+              "mode": 0,
+              "nextEffect": null,
+              "pendingProps": "",
+              "ref": null,
+              "return": [Circular],
+              "selfBaseDuration": 0,
+              "sibling": FiberNode {
+                "_debugID": 53,
+                "_debugIsCurrentlyTiming": false,
+                "_debugOwner": null,
+                "_debugSource": null,
+                "actualDuration": 0,
+                "actualStartTime": -1,
+                "alternate": null,
+                "child": null,
+                "childExpirationTime": 0,
+                "effectTag": 0,
+                "expirationTime": 0,
+                "firstContextDependency": null,
+                "firstEffect": null,
+                "index": 2,
+                "key": null,
+                "lastEffect": null,
+                "memoizedProps": "",
+                "memoizedState": null,
+                "mode": 0,
+                "nextEffect": null,
+                "pendingProps": "",
+                "ref": null,
+                "return": [Circular],
+                "selfBaseDuration": 0,
+                "sibling": null,
+                "stateNode": ,
+                "tag": 8,
+                "treeBaseDuration": 0,
+                "type": null,
+                "updateQueue": null,
+              },
+              "stateNode": ,
+              "tag": 8,
+              "treeBaseDuration": 0,
+              "type": null,
+              "updateQueue": null,
+            },
             "childExpirationTime": 0,
             "effectTag": 0,
             "expirationTime": 0,
@@ -1077,23 +1366,34 @@ ReactWrapper {
             "key": null,
             "lastEffect": null,
             "memoizedProps": Object {
-              "children": null,
-              "className": " ",
+              "children": Array [
+                "",
+                null,
+                "",
+              ],
+              "className": " text-left",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
-              "children": null,
-              "className": " ",
+              "children": Array [
+                "",
+                null,
+                "",
+              ],
+              "className": " text-left",
             },
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": <h1
-              class=" "
-            />,
+              class=" text-left"
+            >
+              
+              
+            </h1>,
             "tag": 7,
             "treeBaseDuration": 0,
             "type": "h1",
@@ -1109,8 +1409,12 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "borderBottom": false,
+            "borderTop": false,
             "children": null,
             "className": "",
+            "color": "",
+            "icon": "",
+            "textAlign": "left",
             "type": "h1",
             "vendor": "chrome",
           },
@@ -1119,8 +1423,12 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "borderBottom": false,
+            "borderTop": false,
             "children": null,
             "className": "",
+            "color": "",
+            "icon": "",
+            "textAlign": "left",
             "type": "h1",
             "vendor": "chrome",
           },
@@ -1147,8 +1455,12 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -1158,8 +1470,12 @@ ReactWrapper {
               "mount": true,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -1171,8 +1487,12 @@ ReactWrapper {
               "context": null,
               "props": Object {
                 "borderBottom": false,
+                "borderTop": false,
                 "children": null,
                 "className": "",
+                "color": "",
+                "icon": "",
+                "textAlign": "left",
                 "type": "h1",
                 "vendor": "chrome",
               },
@@ -1214,8 +1534,11 @@ ReactWrapper {
                 "stateNode": Object {
                   "containerInfo": <div>
                     <h1
-                      class=" "
-                    />
+                      class=" text-left"
+                    >
+                      
+                      
+                    </h1>
                   </div>,
                   "context": Object {},
                   "current": [Circular],
@@ -1259,8 +1582,12 @@ ReactWrapper {
                         props={
                           Object {
                             "borderBottom": false,
+                            "borderTop": false,
                             "children": null,
                             "className": "",
+                            "color": "",
+                            "icon": "",
+                            "textAlign": "left",
                             "type": "h1",
                             "vendor": "chrome",
                           }
@@ -1284,8 +1611,12 @@ ReactWrapper {
                         props={
                           Object {
                             "borderBottom": false,
+                            "borderTop": false,
                             "children": null,
                             "className": "",
+                            "color": "",
+                            "icon": "",
+                            "textAlign": "left",
                             "type": "h1",
                             "vendor": "chrome",
                           }
@@ -1313,8 +1644,12 @@ ReactWrapper {
                   props={
                     Object {
                       "borderBottom": false,
+                      "borderTop": false,
                       "children": null,
                       "className": "",
+                      "color": "",
+                      "icon": "",
+                      "textAlign": "left",
                       "type": "h1",
                       "vendor": "chrome",
                     }
@@ -1331,8 +1666,11 @@ ReactWrapper {
               "stateNode": Object {
                 "containerInfo": <div>
                   <h1
-                    class=" "
-                  />
+                    class=" text-left"
+                  >
+                    
+                    
+                  </h1>
                 </div>,
                 "context": Object {},
                 "current": [Circular],
@@ -1367,8 +1705,12 @@ ReactWrapper {
                     props={
                       Object {
                         "borderBottom": false,
+                        "borderTop": false,
                         "children": null,
                         "className": "",
+                        "color": "",
+                        "icon": "",
+                        "textAlign": "left",
                         "type": "h1",
                         "vendor": "chrome",
                       }
@@ -1396,8 +1738,12 @@ ReactWrapper {
                 "context": null,
                 "props": Object {
                   "borderBottom": false,
+                  "borderTop": false,
                   "children": null,
                   "className": "",
+                  "color": "",
+                  "icon": "",
+                  "textAlign": "left",
                   "type": "h1",
                   "vendor": "chrome",
                 },
@@ -1408,8 +1754,12 @@ ReactWrapper {
                 "mount": true,
                 "props": Object {
                   "borderBottom": false,
+                  "borderTop": false,
                   "children": null,
                   "className": "",
+                  "color": "",
+                  "icon": "",
+                  "textAlign": "left",
                   "type": "h1",
                   "vendor": "chrome",
                 },
@@ -1438,8 +1788,12 @@ ReactWrapper {
         "context": Object {},
         "props": Object {
           "borderBottom": false,
+          "borderTop": false,
           "children": null,
           "className": "",
+          "color": "",
+          "icon": "",
+          "textAlign": "left",
           "type": "h1",
           "vendor": "chrome",
         },
@@ -1456,25 +1810,37 @@ ReactWrapper {
       "nodeType": "class",
       "props": Object {
         "borderBottom": false,
+        "borderTop": false,
         "children": null,
         "className": "",
+        "color": "",
+        "icon": "",
+        "textAlign": "left",
         "type": "h1",
         "vendor": "chrome",
       },
       "ref": null,
       "rendered": Object {
         "instance": <h1
-          class=" "
-        />,
+          class=" text-left"
+        >
+          
+          
+        </h1>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
-          "children": null,
-          "className": " ",
+          "children": Array [
+            "",
+            null,
+            "",
+          ],
+          "className": " text-left",
         },
         "ref": null,
         "rendered": Array [
-          null,
+          "",
+          "",
         ],
         "type": "h1",
       },

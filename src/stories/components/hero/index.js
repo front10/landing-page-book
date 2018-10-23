@@ -10,8 +10,6 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Hero, Container, Image, Header, GithubButton, Button, Link } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
-import particles from '../../mock/components/particles';
-
 const stories = storiesOf('Components/Hero', module);
 
 const buttons = [
@@ -36,7 +34,7 @@ stories.add(
           header="Landing Page Book"
           subHeader="React components to build!"
           buttons={buttons}
-          particlesParams={particles}
+          particlesSugar="crazyStars"
         />
       </PropsManager>
     </ThemeSelector>
@@ -53,7 +51,7 @@ stories.add(
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
       <PropsManager scope={{ React, Hero, Container, Image, Header, Button, GithubButton }}>
-        <Hero opacity={1} overlayColor="#373D45" particlesParams={particles}>
+        <Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars">
           <Container>
             <Image
               src="images/logo/front10.png"

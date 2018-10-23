@@ -14,7 +14,17 @@ import features from '../../mock/components/features';
 
 setAddon(JSXAddon);
 const stories = storiesOf('Components/Features', module);
-
+const bcolors = {
+  primary: 'primary',
+  secondary: 'secondary',
+  success: 'success',
+  danger: 'danger',
+  warning: 'warning',
+  info: 'info',
+  light: 'light',
+  dark: 'dark',
+  white: 'white'
+};
 stories.addDecorator(withKnobs);
 
 stories.addWithJSX(
@@ -36,6 +46,7 @@ stories.addWithJSX(
         imageShadow={boolean('Image shadow', false)}
         showFooter={boolean('Show footer', true)}
         outlineButton={boolean('Outline button', true)}
+        buttonColor={select('Color', bcolors, 'primary')}
         contentAlign={select(
           'Content align',
           {

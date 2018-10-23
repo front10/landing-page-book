@@ -17,7 +17,8 @@ class Features extends React.Component {
       showFooter,
       shadow,
       imageShadow,
-      outlineButton
+      outlineButton,
+      buttonColor
     } = this.props;
 
     const featuresWithId = features.map(feature => {
@@ -44,7 +45,12 @@ class Features extends React.Component {
               shadow={shadow}
               imageShadow={imageShadow}
             >
-              {showFooter && feature.link && <Button outline={outlineButton}>See more</Button>}
+              {showFooter &&
+                feature.link && (
+                  <Button outline={outlineButton} color={buttonColor}>
+                    See more
+                  </Button>
+                )}
             </Card>
           </div>
         ))}
@@ -64,6 +70,7 @@ Features.propTypes = {
   imageShadow: PropTypes.bool,
   showFooter: PropTypes.bool,
   outlineButton: PropTypes.bool,
+  buttonColor: PropTypes.string,
   contentAlign: PropTypes.string,
   features: PropTypes.arrayOf(
     PropTypes.shape({
@@ -89,6 +96,7 @@ Features.defaultProps = {
   imageShadow: false,
   showFooter: true,
   outlineButton: true,
+  buttonColor: 'default',
   contentAlign: 'center',
   features: []
 };

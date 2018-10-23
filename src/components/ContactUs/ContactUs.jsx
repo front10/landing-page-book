@@ -86,7 +86,8 @@ class ContactUs extends Component {
       showText,
       showPlaceholder,
       submitButtonText,
-      submitButtonAlign
+      submitButtonAlign,
+      submitButtonColor
     } = this.props;
     const { name, mail, phone, message, loading } = this.state;
     return (
@@ -133,8 +134,8 @@ class ContactUs extends Component {
           <Button
             loading={loading}
             disabled={!name || !message || !EmailValidator.validate(mail) || loading}
-            className="btn ContactUs__SubmitButton"
             onClick={this.onSubmit}
+            color={submitButtonColor}
           >
             {submitButtonText}
           </Button>
@@ -158,6 +159,7 @@ ContactUs.propTypes = {
   message: PropTypes.string,
   submitButtonText: PropTypes.string,
   submitButtonAlign: PropTypes.string,
+  submitButtonColor: PropTypes.string,
   apiUrl: PropTypes.string,
   onSubmit: PropTypes.func,
   onApiSuccess: PropTypes.func,
@@ -177,6 +179,7 @@ ContactUs.defaultProps = {
   message: '',
   submitButtonText: 'Submit',
   submitButtonAlign: 'center',
+  submitButtonColor: 'default',
   apiUrl: '',
   onSubmit: () => {},
   onApiSuccess: () => {},

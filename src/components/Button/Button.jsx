@@ -14,17 +14,32 @@ class Button extends Component {
       type,
       onClick,
       loadingClass,
+      style,
+      rounded,
+      circle,
+      color,
       outline
     } = this.props;
+    let cssclass = `${className} btn-${color}`;
+    if (circle) {
+      cssclass += ` rounded-circle`;
+    } else {
+      rounded ? (cssclass += ` rounded`) : (cssclass += ` btn-${color} rounded-0`); // eslint-disable-line no-unused-expressions
+    }
+    if (outline) {
+      cssclass = `${className} btn-outline-${color}`;
+    }
+
     /* eslint-disable react/button-has-type */
     return (
       <button
         title={tooltip}
         disabled={disabled}
-        className={`Button btn ${className} ${outline ? 'Button--outline' : ''}`}
+        className={`Button btn ${cssclass}`}
         onClick={onClick}
         aria-label={ariaLabel}
         type={type}
+        style={style}
       >
         {!loading && children}
         {loading && <Icon icon={loadingClass} />}
@@ -35,26 +50,34 @@ class Button extends Component {
 }
 
 Button.propTypes = {
-  outline: PropTypes.bool,
   disabled: PropTypes.bool,
   loading: PropTypes.bool,
+  rounded: PropTypes.bool,
+  circle: PropTypes.bool,
+  outline: PropTypes.bool,
   loadingClass: PropTypes.string,
   className: PropTypes.string,
   ariaLabel: PropTypes.string,
   tooltip: PropTypes.string,
   type: PropTypes.string,
+  color: PropTypes.string,
+  style: PropTypes.objectOf(PropTypes.any),
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   onClick: PropTypes.func
 };
 Button.defaultProps = {
-  outline: false,
   disabled: false,
   loading: false,
+  rounded: true,
+  circle: false,
+  outline: false,
   loadingClass: 'fa fa-circle-o-notch fa-spin',
   className: '',
   ariaLabel: '',
   tooltip: '',
   type: 'button',
+  color: 'default',
+  style: {},
   children: null,
   onClick: () => {}
 };

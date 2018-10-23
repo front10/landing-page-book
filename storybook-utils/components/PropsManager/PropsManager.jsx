@@ -26,7 +26,8 @@ class PropsManager extends React.Component {
       showFunctions,
       sortProps,
       maxInlineAttributesLineLength,
-      useFragmentShortSyntax
+      useFragmentShortSyntax,
+      tabStop
     } = this.props;
     const { props } = children;
     const element = React.createElement(children.type, props);
@@ -38,7 +39,8 @@ class PropsManager extends React.Component {
         showFunctions,
         sortProps,
         maxInlineAttributesLineLength,
-        useFragmentShortSyntax
+        useFragmentShortSyntax,
+        tabStop
       })
     });
   }
@@ -95,7 +97,8 @@ PropsManager.propTypes = {
   showFunctions: PropTypes.bool,
   sortProps: PropTypes.bool,
   useFragmentShortSyntax: PropTypes.bool,
-  maxInlineAttributesLineLength: PropTypes.number
+  maxInlineAttributesLineLength: PropTypes.number,
+  tabStop: PropTypes.number
 };
 
 PropsManager.defaultProps = {
@@ -103,7 +106,8 @@ PropsManager.defaultProps = {
   showFunctions: false,
   sortProps: false,
   useFragmentShortSyntax: false,
-  maxInlineAttributesLineLength: undefined,
+  maxInlineAttributesLineLength: 80,
+  tabStop: 8,
   scope: { React }
 };
 

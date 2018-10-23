@@ -1,14 +1,13 @@
 import React from 'react';
-import { setAddon, storiesOf } from '@storybook/react';
+import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Analytics, Code } from '../../../components';
+import { Analytics } from '../../../components';
 import Readme from '../../../components/Analytics/README.md';
-import def from '../../mock/components/codes/analitic';
 
 const stories = storiesOf('Components/Analytics', module);
 

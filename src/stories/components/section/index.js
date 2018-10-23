@@ -3,9 +3,6 @@ import { setAddon, storiesOf } from '@storybook/react';
 import { withKnobs, boolean, text } from '@storybook/addon-knobs/react';
 import withReadme from 'storybook-readme/with-readme';
 import JSXAddon from 'storybook-addon-jsx';
-import { Tabs, Tab } from 'react-bootstrap-tabs';
-import Markdown from '../../../../storybook-utils/components/Markdown/Markdown';
-import './style.css';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 
 import jsxConfig from '../../mock/jsxConfig';
@@ -30,54 +27,26 @@ stories.addWithJSX(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
-      <Tabs>
-            <Tab bsClass="nav-justified"
-              label={(<span><i className="text-info fa fa-eye fa-2x"/></span>)}
-            >
-              <div className="container pt-3">
-              <StoryHeader
-                name="Section"
-                description="A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information."
-              />
-              <Section
-                gray={boolean('Gray', true)}
-                title={text('Title', 'Introduction')}
-                subTitle={text('Subtitle', 'Once upon a time...')}
-              >
-                <Container className="text-left">
-                  <p style={pStyle}>
-                    Once upon a time, there was a boy named James. He always got pushed around. One day, a
-                    wizard appeared in front of the boy. The wizard gave James three wishes. One of James
-                    wishes was that tge wizard could make James go away. The next day James tried to make a
-                    wish, but he found himself to be in the land of the forgotten.
-                  </p>
-                </Container>
-              </Section>
-              </div>
-            </Tab>
-            <Tab
-              label={(<span><i className="text-secondary fa fa-code fa-2x"/></span>)}
-            >
-            <div className="container pt-3">
-              <Code code={def} languageCode="jsx" readOnly collapsible collapsed showDeleteButton={false} />
-            </div>
-            </Tab>
-            <Tab
-              label={(<span><i className="text-danger fa fa-eyedropper fa-2x"/></span>)}
-            >
-            <div className="container pt-3">
-              <h2>Aqui se muestra los themes del componente</h2>
-              </div>
-            </Tab>
-            <Tab
-              label={(<span><i className="text-warning fa fa-question fa-2x"/></span>)}
-            >
-              <div className="container pt-3">
-              <Markdown source={Readme} />
-              </div>
-            </Tab>
-          </Tabs>
-      
+      <StoryHeader
+        name="Section"
+        description="A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information."
+      />
+      <Section
+        gray={boolean('Gray', true)}
+        title={text('Title', 'Introduction')}
+        subTitle={text('Subtitle', 'Once upon a time...')}
+      >
+        <Container className="text-left">
+          <p style={pStyle}>
+            Once upon a time, there was a boy named James. He always got pushed around. One day, a
+            wizard appeared in front of the boy. The wizard gave James three wishes. One of James
+            wishes was that tge wizard could make James go away. The next day James tried to make a
+            wish, but he found himself to be in the land of the forgotten.
+          </p>
+        </Container>
+      </Section>
+
+      <Code code={def} languageCode="jsx" readOnly collapsible collapsed showDeleteButton={false} />
     </ThemeSelector>
   )),
   jsxConfig
@@ -187,7 +156,7 @@ stories.addWithJSX(
       >
         <Container className="text-justify">
           <Row>
-            <Column className="col-12 col-sm-4">
+            <Column className="col-12 col-md-6 col-lg-4">
               <div>
                 <Card
                   contentAlign="left"
@@ -202,7 +171,7 @@ stories.addWithJSX(
                 />
               </div>
             </Column>
-            <Column className="col-12 col-sm-8">
+            <Column className="col-12 col-md-6 col-lg-8">
               <p style={pStyle}>
                 He biggest trend in frontend user interface (UI) development for the web in recent
                 years has been towards components. The React library, although by no means the

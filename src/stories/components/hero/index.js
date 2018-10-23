@@ -4,20 +4,31 @@ import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
+import VariableManager from '../../../../storybook-utils/components/VariableManager';
 
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Hero, Container, Image, Header, GithubButton, Button, Link } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
-const stories = storiesOf('Components/Hero', module);
+const buttons = [{ text: 'TELL ME MORE', onClick: () => {} }];
 
-const buttons = [
-  {
-    text: 'TELL ME MORE',
-    onClick: () => {}
-  }
+const themingVariables = [
+  '--Hero__Header-fontSize',
+  '--Hero__Header-fontStyle',
+  '--Hero__Header-color',
+  '--Hero__Header-fontWeight',
+  '--Hero__Header--phone-fontSize',
+  '--Hero__SubHeader-fontSize',
+  '--Hero__SubHeader-color',
+  '--Hero__SubHeader-fontStyle',
+  '--Hero__SubHeader--phone-fontSize',
+  '--Hero__Button-color',
+  '--Hero__Button-backgroundColor',
+  '--Hero__Button-padding'
 ];
+
+const stories = storiesOf('Components/Hero', module);
 
 stories.add(
   'Default',
@@ -37,6 +48,7 @@ stories.add(
           particlesSugar="crazyStars"
         />
       </PropsManager>
+      <VariableManager className="mt-4" variables={themingVariables} />
     </ThemeSelector>
   ))
 );

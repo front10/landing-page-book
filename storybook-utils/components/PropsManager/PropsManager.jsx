@@ -1,90 +1,113 @@
-/* eslint-disable no-underscore-dangle */
-/* eslint-disable jsx-a11y/click-events-have-key-events */
-/* eslint-disable jsx-a11y/no-static-element-interactions */
-import React from 'react';
+/* eslint no-unused-vars:0 */
+import 'babel-polyfill';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import EsPreview from 'component-playground/es/components/es6-preview';
+import Doc from 'component-playground/es/components/doc';
+import Editor from 'component-playground/es/components/editor';
+import Preview from 'component-playground/es/components/preview';
 import ReactElementToJsxString from 'react-element-to-jsx-string';
-import Playground from 'component-playground';
-import Row from '../../../src/components/Row';
-import Column from '../../../src/components/Column';
+import Markdown from '../Markdown';
+import VariableManager from '../VariableManager';
 import Icon from '../../../src/components/Icon';
+import Button from '../../../src/components/Button';
 import './style.scss';
 
-class PropsManager extends React.Component {
+const tabs = [
+  { key: 'code', icon: 'code', title: 'Code' },
+  { key: 'css', icon: 'css3', title: 'CSS variables' },
+  { key: 'knob', icon: 'sliders', title: 'Knobs properties' },
+  { key: 'readme', icon: 'file-text-o', title: 'Documenttion' }
+];
+
+// TODO: refactor to remove componentWillReceiveProps
+// eslint-disable-next-line react/no-deprecated
+class PropsManager extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
-    this.codeRef = React.createRef();
-    this.toggleCode = this.toggleCode.bind(this);
-    this.toggleProps = this.toggleProps.bind(this);
+    const element = React.createElement(props.children.type, props.children.props);
+    const textCode = ReactElementToJsxString(element, {
+      showDefaultProps: props.showDefaultProps,
+      showFunctions: props.showFunctions,
+      sortProps: props.sortProps,
+      maxInlineAttributesLineLength: props.maxInlineAttributesLineLength,
+      useFragmentShortSyntax: props.useFragmentShortSyntax,
+      tabStop: props.tabStop
+    });
+    this.state = {
+      code: textCode,
+      textCode,
+      external: true,
+      active: 'code'
+    };
+    this.handleCodeChange = this.handleCodeChange.bind(this);
+    this.handleActive = this.handleActive.bind(this);
   }
 
-  componentWillMount() {
-    const {
-      children,
-      showDefaultProps,
-      showFunctions,
-      sortProps,
-      maxInlineAttributesLineLength,
-      useFragmentShortSyntax,
-      tabStop
-    } = this.props;
-    const { props } = children;
-    const element = React.createElement(children.type, props);
+  handleCodeChange(code) {
     this.setState({
-      codeExpanded: true,
-      propsExpanded: true,
-      element: ReactElementToJsxString(element, {
-        showDefaultProps,
-        showFunctions,
-        sortProps,
-        maxInlineAttributesLineLength,
-        useFragmentShortSyntax,
-        tabStop
-      })
+      code,
+      external: false
     });
   }
 
-  toggleCode() {
-    const { codeExpanded } = this.state;
-    this.setState({ codeExpanded: !codeExpanded }, () => {
-      if (this.codeRef.current.childNodes[0] && this.codeRef.current.childNodes[0].childNodes[0])
-        if (codeExpanded) this.codeRef.current.childNodes[0].childNodes[0].classList.add('d-none');
-        else this.codeRef.current.childNodes[0].childNodes[0].classList.remove('d-none');
-    });
-  }
-
-  toggleProps() {
-    const { propsExpanded } = this.state;
-    this.setState({ propsExpanded: !propsExpanded });
+  handleActive(activeTab) {
+    let { active, textCode } = this.state;
+    const { code } = this.state;
+    textCode = activeTab === 'code' ? code : textCode;
+    active = active === activeTab ? undefined : activeTab;
+    this.setState({ active, textCode });
   }
 
   render() {
-    const { scope } = this.props;
-    const { codeExpanded, element } = this.state;
-
+    const { code, external, expandedCode, textCode, active } = this.state;
+    const { scope, readme, cssVariables } = this.props;
     return (
       <React.Fragment>
-        <div className="PropsManager__Code" ref={this.codeRef}>
-          <Playground codeText={element} scope={scope} />
+        <div className="mb-4">
+          <Preview code={code} scope={scope} context={{}} noRender />
         </div>
-        <div
-          className="PropsManager__Button PropsManager__Button__Code"
-          style={{
-            borderTopLeftRadius: !codeExpanded ? '5px' : '0px',
-            borderTopRightRadius: !codeExpanded ? '5px' : '0px'
-          }}
-          onClick={this.toggleCode}
-        >
-          <Row>
-            <Column className="text-center">
-              <span>
-                <Icon icon="fa fa-code" className="mr-2" />
-                {codeExpanded ? 'HIDE CODE' : 'TRY ME'}
-              </span>
-            </Column>
-          </Row>
+        <div className="text-right playgroundHeader rounded-top">
+          {tabs.map(
+            tab =>
+              tab.key === 'code' ||
+              (tab.key === 'css' && cssVariables.length) ||
+              (tab.key === 'readme' && readme) ? (
+                <Icon
+                  key={tab.key}
+                  title={tab.title}
+                  icon={`fa fa-${tab.icon}`}
+                  className={`p-2 playgroundHeader__icon ${
+                    active === tab.key ? 'text-warning' : 'text-white'
+                  }`}
+                  onClick={() => this.handleActive(tab.key)}
+                />
+              ) : null
+          )}
         </div>
+        {active === 'code' && (
+          <div className="playgroundEditor">
+            <Editor
+              codeText={textCode}
+              external={external}
+              onChange={this.handleCodeChange}
+              theme="monokai"
+            />
+          </div>
+        )}
+        {active === 'css' && (
+          <div className="playgroundVariables">
+            <VariableManager variables={cssVariables} />
+          </div>
+        )}
+        {active === 'knob' && (
+          <div className="playgroundKnobs border p-3 rounded-bottom">Here go knobs</div>
+        )}
+        {active === 'readme' && (
+          <div className="playgroundReadme border p-3 rounded-bottom">
+            <Markdown source={readme} />
+          </div>
+        )}
       </React.Fragment>
     );
   }
@@ -98,7 +121,9 @@ PropsManager.propTypes = {
   sortProps: PropTypes.bool,
   useFragmentShortSyntax: PropTypes.bool,
   maxInlineAttributesLineLength: PropTypes.number,
-  tabStop: PropTypes.number
+  tabStop: PropTypes.number,
+  readme: PropTypes.string,
+  cssVariables: PropTypes.arrayOf(PropTypes.string)
 };
 
 PropsManager.defaultProps = {
@@ -108,10 +133,9 @@ PropsManager.defaultProps = {
   useFragmentShortSyntax: false,
   maxInlineAttributesLineLength: 80,
   tabStop: 8,
-  scope: { React }
+  scope: { React },
+  readme: '',
+  cssVariables: []
 };
 
 export default PropsManager;
-/* eslint-enable no-underscore-dangle */
-/* eslint-enable jsx-a11y/click-events-have-key-events */
-/* eslint-enable jsx-a11y/no-static-element-interactions */

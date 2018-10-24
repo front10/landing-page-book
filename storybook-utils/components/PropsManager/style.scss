@@ -1,63 +1,27 @@
-.PropsManager__Button {
-  background: #304148;
-  color: white;
-  padding: 0.2rem;
+.playgroundEditor .CodeMirror {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.playgroundHeader {
+  background-color: #272822;
+}
+
+.playgroundHeader__icon:hover {
+  background-color: #141511;
   cursor: pointer;
 }
 
-.PropsManager__Props__Container {
-  border: solid 1px #304148;
-  border-radius: 5px;
-}
-
-.PropsManager__Button__Code {
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-}
-
-.PropsManager__Code {
-  .playground {
-    display: -webkit-box;
-    display: -moz-box;
-    display: box;
-    -webkit-box-orient: vertical;
-    -moz-box-orient: vertical;
-    box-orient: vertical;
-    .playgroundCode {
-      -webkit-box-ordinal-group: 2;
-      -moz-box-ordinal-group: 2;
-      box-ordinal-group: 2;
-      .CodeMirror {
-        border-top-left-radius: 5px;
-        border-top-right-radius: 5px;
-        font-size: 16px;
-      }
-    }
-    .playgroundPreview {
-      margin-bottom: 1.5rem !important;
-      -webkit-box-ordinal-group: 1;
-      -moz-box-ordinal-group: 1;
-      box-ordinal-group: 1;
-      div {
-        -webkit-box-orient: vertical;
-        -moz-box-orient: vertical;
-        box-orient: vertical;
-        .playgroundError {
-          background-color: #e52633;
-          padding: 10px;
-          margin-top: 1.5rem;
-          border-radius: 0.25rem;
-          color: #fff;
-          -webkit-box-ordinal-group: 2;
-          -moz-box-ordinal-group: 2;
-          box-ordinal-group: 2;
-        }
-        .previewArea {
-          -webkit-box-ordinal-group: 1;
-          -moz-box-ordinal-group: 1;
-          box-ordinal-group: 1;
-        }
-      }
-    }
+.playgroundVariables {
+  .CodeMirror__Container {
+    border-top: none;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
   }
+}
+
+.playgroundKnobs {
+  background-color: #272822;
+  color: #fff;
+  border: none;
 }

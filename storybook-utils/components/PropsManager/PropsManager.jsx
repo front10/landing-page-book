@@ -80,7 +80,7 @@ class PropsManager extends React.Component {
             <Column className="text-center">
               <span>
                 <Icon icon="fa fa-code" className="mr-2" />
-                {codeExpanded ? 'Hide code' : 'Show code'}
+                {codeExpanded ? 'HIDE CODE' : 'TRY ME'}
               </span>
             </Column>
           </Row>

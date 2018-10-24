@@ -52,7 +52,7 @@ Header.propTypes = {
     'light',
     'dark'
   ]),
-  textAlign: PropTypes.oneOf(['left', 'right']),
+  textAlign: PropTypes.oneOf(['left', 'right', 'center']),
   icon: PropTypes.string,
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };

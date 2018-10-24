@@ -43,5 +43,5 @@ import '@front10/landing-page-book/dist/components/Header/style.css';
 | className    | `String`  | Class name of header. Default `""`                                             |
 | color        | `String`  | Color of header. Default `""`                                                  |
 | type         | `String`  | Type of tag element. Default `"h1"`, can be `h1`, `h2`, `h3`, `h4`, `h5`, `h6` |
-| textAlign    | `String`  | Alaignment of component. Default `"left"`                                      |
+| textAlign    | `String`  | Aligment of component. Default `"left"`, can be `center`, `right` and `left`.                                      |
 | icon         | `String`  | Icon to show in component. Default `""`                                        |

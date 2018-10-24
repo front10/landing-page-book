@@ -19,9 +19,7 @@ stories.add(
         description="Link are hyperlink. You can click on a link and jump to another document. When you move the mouse over a link, the mouse arrow will turn into a little hand."
       />
       <PropsManager scope={{ React, Link }}>
-        <Link href="https://front10.com" tooltip="This is a tooltip" target="_blank">
-          <span>This is a link</span>
-        </Link>
+        {`<Link href="https://front10.com" tooltip="This is a tooltip" target="_blank">This is a link</Link>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -37,9 +35,7 @@ stories.add(
         description="Link are hyperlink. You can click on a link and jump to another document. When you move the mouse over a link, the mouse arrow will turn into a little hand."
       />
       <PropsManager scope={{ React, Link }}>
-        <Link disabled href="https://front10.com" tooltip="This is a tooltip" target="_blank">
-          This is disabled
-        </Link>
+        {`<Link disabled href="https://front10.com">This is disabled</Link>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -55,10 +51,10 @@ stories.add(
         description="Link are hyperlink. You can click on a link and jump to another document. When you move the mouse over a link, the mouse arrow will turn into a little hand."
       />
       <PropsManager scope={{ React, Link, Icon }}>
-        <Link href="https://front10.com" tooltip="This is a tooltip" target="_blank">
-          <Icon icon="fa fa-home" />
-          <span>This is disabled</span>
-        </Link>
+        {`<Link href="https://front10.com" tooltip="This is a tooltip" target="_blank">
+            <Icon icon="fa fa-home" />
+            <span>This is disabled</span>
+</Link>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -74,26 +70,14 @@ stories.add(
         description="Link are hyperlink. You can click on a link and jump to another document. When you move the mouse over a link, the mouse arrow will turn into a little hand."
       />
       <PropsManager scope={{ React, Link, Icon, Container }}>
-        <Container>
-          <Link
-            className="btn btn-primary mr-1"
-            href="https://github.com/front10/landing-page-book"
-            tooltip="This is a tooltip"
-            target="_blank"
-          >
-            <Icon icon="fa fa-github" />
-            &nbsp; View code on Github
+        {`<React.Fragment>
+          <Link className="btn btn-primary mr-1" href="https://github.com/front10/landing-page-book" tooltip="This is a tooltip" target="_blank">
+              <Icon icon="fa fa-github" /> View code on Github
           </Link>
-          <Link
-            className="btn btn-outline-success mr-1"
-            href="https://front10.com/#contactForm"
-            tooltip="Contact us"
-            target="_blank"
-          >
-            <Icon icon="fa fa-info-circle" />
-            &nbsp; Contact us
+          <Link className="btn btn-outline-success mr-1" href="https://front10.com/#contactForm" tooltip="Contact us" target="_blank">
+              <Icon icon="fa fa-info-circle" /> Contact us
           </Link>
-        </Container>
+</React.Fragment>`}
       </PropsManager>
     </ThemeSelector>
   ))

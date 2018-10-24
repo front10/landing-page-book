@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-import { Button, Container, Row, Column } from '../../../components';
+import { Button, Container, Row, Column, Icon } from '../../../components';
 import Readme from '../../../components/Button/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
@@ -21,11 +21,10 @@ stories.add(
         
         Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
-      <PropsManager scope={{ React, Button }}>
-        <Button tooltip="Tis is a button tooltip">
-          <i className="fa fa-home" />
-          <span className="ml-1">Home</span>
-        </Button>
+      <PropsManager scope={{ React, Button, Icon }}>
+        {`<Button tooltip="Tis is a button tooltip">
+        <Icon icon="fa fa-home" /> Home
+</Button>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -44,36 +43,18 @@ stories.add(
         
         Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
-      <PropsManager scope={{ React, Button, Container }}>
-        <Container>
-          <Button className="mr-1" color="primary">
-            Primary
-          </Button>
-          <Button className="mr-1" color="secondary">
-            Secondary
-          </Button>
-          <Button className="mr-1" color="success">
-            Success
-          </Button>
-          <Button className="mr-1" color="danger">
-            Danger
-          </Button>
-          <Button className="mr-1" color="warning">
-            Warning
-          </Button>
-          <Button className="mr-1" color="info">
-            Info
-          </Button>
-          <Button className="mr-1" color="light">
-            Light
-          </Button>
-          <Button className="mr-1" color="dark">
-            Dark
-          </Button>
-          <Button className="mr-1" color="link">
-            Link
-          </Button>
-        </Container>
+      <PropsManager scope={{ React, Button }}>
+        {`<React.Fragment>
+          <Button className="mr-1" color="primary"> Primary </Button>
+          <Button className="mr-1" color="secondary"> Secondary </Button>
+          <Button className="mr-1" color="success"> Success </Button>
+          <Button className="mr-1" color="danger"> Danger </Button>
+          <Button className="mr-1" color="warning"> Warning </Button>
+          <Button className="mr-1" color="info"> Info </Button>
+          <Button className="mr-1" color="light"> Light </Button>
+          <Button className="mr-1" color="dark"> Dark </Button>
+          <Button className="mr-1" color="link"> Link </Button>
+</React.Fragment>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -93,35 +74,17 @@ stories.add(
         Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
       <PropsManager scope={{ React, Button, Container }}>
-        <Container>
-          <Button className="mr-1" outline color="primary">
-            Primary
-          </Button>
-          <Button className="mr-1" outline color="secondary">
-            Secondary
-          </Button>
-          <Button className="mr-1" outline color="success">
-            Success
-          </Button>
-          <Button className="mr-1" outline color="danger">
-            Danger
-          </Button>
-          <Button className="mr-1" outline color="warning">
-            Warning
-          </Button>
-          <Button className="mr-1" outline color="info">
-            Info
-          </Button>
-          <Button className="mr-1" outline color="light">
-            Light
-          </Button>
-          <Button className="mr-1" outline color="dark">
-            Dark
-          </Button>
-          <Button className="mr-1" outline color="link">
-            Link
-          </Button>
-        </Container>
+        {`<React.Fragment>
+          <Button className="mr-1" outline color="primary">Primary</Button>
+          <Button className="mr-1" outline color="secondary">Secondary</Button>
+          <Button className="mr-1" outline color="success">Success</Button>
+          <Button className="mr-1" outline color="danger">Danger</Button>
+          <Button className="mr-1" outline color="warning">Warning</Button>
+          <Button className="mr-1" outline color="info">Info</Button>
+          <Button className="mr-1" outline color="light">Light</Button>
+          <Button className="mr-1" outline color="dark">Dark</Button>
+          <Button className="mr-1" outline color="link">Link</Button>
+</React.Fragment>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -140,46 +103,17 @@ stories.add(
         Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
       <PropsManager scope={{ React, Button, Container }}>
-        <div>
-          <Button className="mr-1" rounded outline={false} circle={false} color="primary" size="sm">
-            Small button
-          </Button>
-          <Button
-            className="mr-1"
-            rounded
-            outline={false}
-            circle={false}
-            color="secondary"
-            size="sm"
-          >
-            Small button
-          </Button>
-        </div>
+        {`<React.Fragment>
+            <Button className="mr-1" color="primary" size="sm">Small button</Button>
+            <Button className="mr-1" color="secondary" size="sm">Small button</Button>
+</React.Fragment>`}
       </PropsManager>
       <div className="mt-5">
         <PropsManager scope={{ React, Button, Container }}>
-          <div>
-            <Button
-              className="mr-1"
-              rounded
-              outline={false}
-              circle={false}
-              color="primary"
-              size="lg"
-            >
-              Large button
-            </Button>
-            <Button
-              className="mr-1"
-              rounded
-              outline={false}
-              circle={false}
-              color="secondary"
-              size="lg"
-            >
-              Large button
-            </Button>
-          </div>
+          {`<React.Fragment>
+            <Button className="mr-1" color="primary" size="lg">Large button</Button>
+            <Button className="mr-1" color="secondary" size="lg">Large button</Button>
+</React.Fragment>`}
         </PropsManager>
       </div>
     </ThemeSelector>

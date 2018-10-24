@@ -25,7 +25,7 @@ const tabs = [
 class PropsManager extends Component {
   constructor(props) {
     super(props);
-    const element = React.createElement(props.children.type, props.children.props);
+    /* const element = React.createElement(props.children.type, props.children.props);
     const textCode = ReactElementToJsxString(element, {
       showDefaultProps: props.showDefaultProps,
       showFunctions: props.showFunctions,
@@ -33,10 +33,10 @@ class PropsManager extends Component {
       maxInlineAttributesLineLength: props.maxInlineAttributesLineLength,
       useFragmentShortSyntax: props.useFragmentShortSyntax,
       tabStop: props.tabStop
-    });
+    }); */
     this.state = {
-      code: textCode,
-      textCode,
+      code: props.children,
+      textCode: props.children,
       external: true,
       active: 'code'
     };
@@ -114,7 +114,7 @@ class PropsManager extends Component {
 }
 
 PropsManager.propTypes = {
-  children: PropTypes.node.isRequired,
+  children: PropTypes.string.isRequired,
   scope: PropTypes.objectOf(PropTypes.any),
   showDefaultProps: PropTypes.bool,
   showFunctions: PropTypes.bool,

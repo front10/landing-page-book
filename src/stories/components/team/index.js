@@ -19,7 +19,7 @@ stories.add(
         description="Teamwork helps solve problems. Collaboration within a group can help solve difficult problems. do not forget to recognize the members of your team"
       />
       <PropsManager scope={{ React, Team }}>
-        <Team members={members} />
+        {`<Team members={${JSON.stringify(members, null, 8)}} />`}
       </PropsManager>
     </ThemeSelector>
   ))

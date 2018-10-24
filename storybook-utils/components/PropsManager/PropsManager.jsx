@@ -25,15 +25,6 @@ const tabs = [
 class PropsManager extends Component {
   constructor(props) {
     super(props);
-    /* const element = React.createElement(props.children.type, props.children.props);
-    const textCode = ReactElementToJsxString(element, {
-      showDefaultProps: props.showDefaultProps,
-      showFunctions: props.showFunctions,
-      sortProps: props.sortProps,
-      maxInlineAttributesLineLength: props.maxInlineAttributesLineLength,
-      useFragmentShortSyntax: props.useFragmentShortSyntax,
-      tabStop: props.tabStop
-    }); */
     this.state = {
       code: props.children,
       textCode: props.children,

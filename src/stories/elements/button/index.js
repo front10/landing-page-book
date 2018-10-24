@@ -132,60 +132,20 @@ stories.add(
         
         Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
-      <Row>
-        <Column className="col-12 col-md-6 pb-5">
-          <PropsManager scope={{ React, Button, Container }}>
-            <div>
-              <Button
-                className="mr-1"
-                rounded
-                outline={false}
-                circle={false}
-                color="primary"
-                disabled
-              >
-                Disabled button
-              </Button>
-              <Button
-                className="mr-1"
-                rounded
-                outline={false}
-                circle={false}
-                color="secondary"
-                disabled
-              >
-                Disabled button
-              </Button>
-            </div>
-          </PropsManager>
-        </Column>
-        <Column className="col-12 col-md-6 pb-5">
-          <PropsManager scope={{ React, Button, Container }}>
-            <div>
-              <Button
-                className="mr-1"
-                rounded
-                outline={false}
-                circle={false}
-                color="primary"
-                active
-              >
-                Active button
-              </Button>
-              <Button
-                className="mr-1"
-                rounded
-                outline={false}
-                circle={false}
-                color="secondary"
-                active
-              >
-                Active button
-              </Button>
-            </div>
-          </PropsManager>
-        </Column>
-      </Row>
+      <PropsManager scope={{ React, Button, Container }}>
+        {`<React.Fragment>
+              <Button className="mr-1" color="primary" disabled>Disabled button</Button>
+              <Button className="mr-1" color="secondary" disabled>Disabled button</Button>
+</React.Fragment>`}
+      </PropsManager>
+      <div className="mt-5">
+        <PropsManager scope={{ React, Button, Container }}>
+          {`<React.Fragment>
+              <Button className="mr-1" color="primary" active>Active button</Button>
+              <Button className="mr-1" color="secondary" active>Active button</Button>
+</React.Fragment>`}
+        </PropsManager>
+      </div>
     </ThemeSelector>
   ))
 );

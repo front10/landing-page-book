@@ -9,7 +9,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Image, Container, Row, Column } from '../../../components';
 import Readme from '../../../components/Image/README.md';
 
-const stories = storiesOf('Elements', module);
+const stories = storiesOf('Elements/Image', module);
 
 stories.add(
   'Image',

@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Code from '../../../src/components/Code';
-import Header from '../../../src/components/Header';
 import './style.scss';
 
 class VariableManager extends React.Component {
@@ -47,14 +46,10 @@ class VariableManager extends React.Component {
     const { code } = this.state;
     return (
       <div className={className}>
-        <Header className="mb-2" type="h4" borderBottom>
-          Theming variables
-        </Header>
         <Code
           code={code}
           languageCode="css"
           showheader={false}
-          collapsible
           lineNumbers={false}
           updateCode={VariableManager.onCodeChange}
         />

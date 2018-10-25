@@ -20,13 +20,13 @@ stories.add(
       An input field can vary in many ways, depending on the type attribute."
       />
       <PropsManager scope={{ React, Input }}>
-        <Input
-          name="myInput"
-          value="This is an input"
-          placeholder="Enter a value"
-          label="Input label"
-          icon="fa fa-user"
-        />
+        {`<Input
+            name="myInput"
+            value="This is an input"
+            placeholder="Enter a value"
+            label="Input label"
+            icon="fa fa-user"
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -43,32 +43,28 @@ stories.add(
       An input field can vary in many ways, depending on the type attribute."
       />
       <PropsManager scope={{ React, Input }}>
-        <div>
-          <div className="mb-2">
-            <Input
-              name="Large"
-              value="This is an large input"
-              placeholder="Enter a value"
-              icon="fa fa-user"
-              size="lg"
-            />
-          </div>
-          <div className="mb-2">
-            <Input
-              name="Normal"
-              value="This is an normal input"
-              placeholder="Enter a value"
-              icon="fa fa-user"
-            />
-          </div>
-          <Input
-            name="Small"
-            value="This is an small input"
-            placeholder="Enter a value"
-            icon="fa fa-user"
-            size="sm"
-          />
-        </div>
+        {`<React.Fragment>
+        <Input
+          name="Large"
+          value="This is an large input"
+          placeholder="Enter a value"
+          icon="fa fa-user"
+          size="lg"
+/>
+<Input
+          name="Normal"
+          value="This is an normal input"
+          placeholder="Enter a value"
+          icon="fa fa-user"
+/>
+<Input
+          name="Small"
+          value="This is an small input"
+          placeholder="Enter a value"
+          icon="fa fa-user"
+          size="sm"
+/>
+</React.Fragment>`}
       </PropsManager>
     </ThemeSelector>
   ))

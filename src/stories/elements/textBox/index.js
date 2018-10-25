@@ -21,9 +21,9 @@ stories.add(
       />
       <PropsManager scope={{ React, TextBox }}>
         {`<TextBox
-          title="Get many resources in a single request"
-          text="GraphQL queries access not just the properties of one resource but also smoothly\n follow references between them. While typical REST APIs require loading from\n multiple URLs, GraphQL APIs get all the data your app needs in a single request.\n Apps using GraphQL can be quick even on slow mobile network connections."
-        /> `}
+    title="Get many resources in a single request"
+    text="GraphQL queries access not just the properties of one resource but also smoothly follow references between them. While typical REST APIs require loading from multiple URLs, GraphQL APIs get all the data your app needs in a single request. Apps using GraphQL can be quick even on slow mobile network connections."
+/> `}
       </PropsManager>
     </ThemeSelector>
   ))

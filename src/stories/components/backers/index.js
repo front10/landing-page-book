@@ -22,7 +22,7 @@ stories.add(
       />
       <Container>
         <PropsManager scope={{ React, Backers }}>
-          <Backers backers={backers} />
+          {`<Backers backers={${JSON.stringify(backers, null, 8)}} />`}
         </PropsManager>
       </Container>
     </ThemeSelector>

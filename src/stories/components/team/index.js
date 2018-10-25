@@ -35,7 +35,10 @@ stories.add(
         description="Teamwork helps solve problems. Collaboration within a group can help solve difficult problems. do not forget to recognize the members of your team"
       />
       <PropsManager scope={{ React, Team }}>
-        <Team topColor="#E47070" members={members} />
+        {`<Team
+    topColor="#E47070"
+    members={${JSON.stringify(members, null, 8)}}
+  />`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -51,7 +54,11 @@ stories.add(
         description="Teamwork helps solve problems. Collaboration within a group can help solve difficult problems. do not forget to recognize the members of your team"
       />
       <PropsManager scope={{ React, Team }}>
-        <Team shadow topColor="#E47070" members={members} />
+        {`<Team 
+    shadow
+    topColor="#E47070" 
+    members={${JSON.stringify(members, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -67,7 +74,11 @@ stories.add(
         description="Teamwork helps solve problems. Collaboration within a group can help solve difficult problems. do not forget to recognize the members of your team"
       />
       <PropsManager scope={{ React, Team }}>
-        <Team imageShadow topColor="#E47070" members={members} />
+        {`<Team
+    imageShadow
+    topColor="#E47070"
+    members={${JSON.stringify(members, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))

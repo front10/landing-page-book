@@ -52,8 +52,8 @@ stories.add(
       />
       <PropsManager scope={{ React, Link, Icon }}>
         {`<Link href="https://front10.com" tooltip="This is a tooltip" target="_blank">
-            <Icon icon="fa fa-home" />
-            <span>This is disabled</span>
+    <Icon icon="fa fa-home" />
+    <span>This is disabled</span>
 </Link>`}
       </PropsManager>
     </ThemeSelector>
@@ -71,12 +71,12 @@ stories.add(
       />
       <PropsManager scope={{ React, Link, Icon, Container }}>
         {`<React.Fragment>
-          <Link className="btn btn-primary mr-1" href="https://github.com/front10/landing-page-book" tooltip="This is a tooltip" target="_blank">
-              <Icon icon="fa fa-github" /> View code on Github
-          </Link>
-          <Link className="btn btn-outline-success mr-1" href="https://front10.com/#contactForm" tooltip="Contact us" target="_blank">
-              <Icon icon="fa fa-info-circle" /> Contact us
-          </Link>
+    <Link className="btn btn-primary mr-1" href="https://github.com/front10/landing-page-book" tooltip="This is a tooltip" target="_blank">
+        <Icon icon="fa fa-github" /> View code on Github
+    </Link>
+    <Link className="btn btn-outline-success mr-1" href="https://front10.com/#contactForm" tooltip="Contact us" target="_blank">
+        <Icon icon="fa fa-info-circle" /> Contact us
+    </Link>
 </React.Fragment>`}
       </PropsManager>
     </ThemeSelector>

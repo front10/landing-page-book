@@ -19,12 +19,12 @@ stories.add(
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
       <PropsManager scope={{ React, Code }}>
-        <Code
-          code={def}
-          languageCode="jsx"
-          collapsible
-          codeLink="https://codesandbox.io/s/pmjvk5wl27"
-        />
+        {`<Code
+    languageCode="jsx"
+    collapsible
+    codeLink="https://codesandbox.io/s/pmjvk5wl27"
+    code={${JSON.stringify(def, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -40,16 +40,16 @@ stories.add(
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
       <PropsManager scope={{ React, Code }}>
-        <Code
-          code={def}
-          languageCode="jsx"
-          lineNumbers
-          showheader
-          collapsible={false}
-          showCopyButton={false}
-          showDeleteButton={false}
-          codeLink="https://codesandbox.io/s/pmjvk5wl27"
-        />
+        {`<Code
+    languageCode="jsx"
+    lineNumbers
+    showheader
+    collapsible={false}
+    showCopyButton={false}
+    showDeleteButton={false}
+    codeLink="https://codesandbox.io/s/pmjvk5wl27"
+    code={${JSON.stringify(def, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -65,17 +65,17 @@ stories.add(
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
       <PropsManager scope={{ React, Code }}>
-        <Code
-          code={css}
-          languageCode="css"
-          readOnly={false}
-          lineNumbers
-          showheader={false}
-          collapsible
-          showCopyButton
-          showDeleteButton
-          codeLink="https://codesandbox.io/s/pmjvk5wl27"
-        />
+        {`<Code
+    languageCode="css"
+    readOnly={false}
+    lineNumbers
+    showheader={false}
+    collapsible
+    showCopyButton
+    showDeleteButton
+    codeLink="https://codesandbox.io/s/pmjvk5wl27"
+    code={${JSON.stringify(css, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))

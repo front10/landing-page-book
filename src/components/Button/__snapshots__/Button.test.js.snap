@@ -3,6 +3,7 @@
 exports[`Button Button should render 1`] = `
 ReactWrapper {
   Symbol(enzyme.__unrendered__): <Button
+    active={false}
     ariaLabel=""
     circle={false}
     className=""
@@ -13,6 +14,7 @@ ReactWrapper {
     onClick={[Function]}
     outline={false}
     rounded={true}
+    size=""
     style={Object {}}
     tooltip=""
     type="button"
@@ -52,6 +54,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "active": false,
               "ariaLabel": "",
               "children": null,
               "circle": false,
@@ -63,6 +66,7 @@ ReactWrapper {
               "onClick": [Function],
               "outline": false,
               "rounded": true,
+              "size": "",
               "style": Object {},
               "tooltip": "",
               "type": "button",
@@ -72,6 +76,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "active": false,
               "ariaLabel": "",
               "children": null,
               "circle": false,
@@ -83,6 +88,7 @@ ReactWrapper {
               "onClick": [Function],
               "outline": false,
               "rounded": true,
+              "size": "",
               "style": Object {},
               "tooltip": "",
               "type": "button",
@@ -94,6 +100,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "active": false,
               "ariaLabel": "",
               "children": null,
               "circle": false,
@@ -105,6 +112,7 @@ ReactWrapper {
               "onClick": [Function],
               "outline": false,
               "rounded": true,
+              "size": "",
               "style": Object {},
               "tooltip": "",
               "type": "button",
@@ -194,6 +202,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "active": false,
                           "ariaLabel": "",
                           "children": null,
                           "circle": false,
@@ -205,6 +214,7 @@ ReactWrapper {
                           "onClick": [Function],
                           "outline": false,
                           "rounded": true,
+                          "size": "",
                           "style": Object {},
                           "tooltip": "",
                           "type": "button",
@@ -228,6 +238,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "active": false,
                           "ariaLabel": "",
                           "children": null,
                           "circle": false,
@@ -239,6 +250,7 @@ ReactWrapper {
                           "onClick": [Function],
                           "outline": false,
                           "rounded": true,
+                          "size": "",
                           "style": Object {},
                           "tooltip": "",
                           "type": "button",
@@ -266,6 +278,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "active": false,
                     "ariaLabel": "",
                     "children": null,
                     "circle": false,
@@ -277,6 +290,7 @@ ReactWrapper {
                     "onClick": [Function],
                     "outline": false,
                     "rounded": true,
+                    "size": "",
                     "style": Object {},
                     "tooltip": "",
                     "type": "button",
@@ -332,6 +346,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "active": false,
                       "ariaLabel": "",
                       "children": null,
                       "circle": false,
@@ -343,6 +358,7 @@ ReactWrapper {
                       "onClick": [Function],
                       "outline": false,
                       "rounded": true,
+                      "size": "",
                       "style": Object {},
                       "tooltip": "",
                       "type": "button",
@@ -370,6 +386,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -381,6 +398,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -391,6 +409,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -402,6 +421,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -493,6 +513,7 @@ ReactWrapper {
         "key": null,
         "lastEffect": null,
         "memoizedProps": Object {
+          "active": false,
           "ariaLabel": "",
           "children": null,
           "circle": false,
@@ -504,6 +525,7 @@ ReactWrapper {
           "onClick": [Function],
           "outline": false,
           "rounded": true,
+          "size": "",
           "style": Object {},
           "tooltip": "",
           "type": "button",
@@ -512,6 +534,7 @@ ReactWrapper {
         "mode": 0,
         "nextEffect": null,
         "pendingProps": Object {
+          "active": false,
           "ariaLabel": "",
           "children": null,
           "circle": false,
@@ -523,6 +546,7 @@ ReactWrapper {
           "onClick": [Function],
           "outline": false,
           "rounded": true,
+          "size": "",
           "style": Object {},
           "tooltip": "",
           "type": "button",
@@ -549,6 +573,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "active": false,
               "ariaLabel": "",
               "children": null,
               "circle": false,
@@ -560,6 +585,7 @@ ReactWrapper {
               "onClick": [Function],
               "outline": false,
               "rounded": true,
+              "size": "",
               "style": Object {},
               "tooltip": "",
               "type": "button",
@@ -569,6 +595,7 @@ ReactWrapper {
             "context": null,
             "mount": true,
             "props": Object {
+              "active": false,
               "ariaLabel": "",
               "children": null,
               "circle": false,
@@ -580,6 +607,7 @@ ReactWrapper {
               "onClick": [Function],
               "outline": false,
               "rounded": true,
+              "size": "",
               "style": Object {},
               "tooltip": "",
               "type": "button",
@@ -591,6 +619,7 @@ ReactWrapper {
             "Component": [Function],
             "context": null,
             "props": Object {
+              "active": false,
               "ariaLabel": "",
               "children": null,
               "circle": false,
@@ -602,6 +631,7 @@ ReactWrapper {
               "onClick": [Function],
               "outline": false,
               "rounded": true,
+              "size": "",
               "style": Object {},
               "tooltip": "",
               "type": "button",
@@ -691,6 +721,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "active": false,
                           "ariaLabel": "",
                           "children": null,
                           "circle": false,
@@ -702,6 +733,7 @@ ReactWrapper {
                           "onClick": [Function],
                           "outline": false,
                           "rounded": true,
+                          "size": "",
                           "style": Object {},
                           "tooltip": "",
                           "type": "button",
@@ -725,6 +757,7 @@ ReactWrapper {
                       context={null}
                       props={
                         Object {
+                          "active": false,
                           "ariaLabel": "",
                           "children": null,
                           "circle": false,
@@ -736,6 +769,7 @@ ReactWrapper {
                           "onClick": [Function],
                           "outline": false,
                           "rounded": true,
+                          "size": "",
                           "style": Object {},
                           "tooltip": "",
                           "type": "button",
@@ -763,6 +797,7 @@ ReactWrapper {
                 context={null}
                 props={
                   Object {
+                    "active": false,
                     "ariaLabel": "",
                     "children": null,
                     "circle": false,
@@ -774,6 +809,7 @@ ReactWrapper {
                     "onClick": [Function],
                     "outline": false,
                     "rounded": true,
+                    "size": "",
                     "style": Object {},
                     "tooltip": "",
                     "type": "button",
@@ -829,6 +865,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "active": false,
                       "ariaLabel": "",
                       "children": null,
                       "circle": false,
@@ -840,6 +877,7 @@ ReactWrapper {
                       "onClick": [Function],
                       "outline": false,
                       "rounded": true,
+                      "size": "",
                       "style": Object {},
                       "tooltip": "",
                       "type": "button",
@@ -867,6 +905,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -878,6 +917,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -888,6 +928,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -899,6 +940,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -927,6 +969,7 @@ ReactWrapper {
       "_reactInternalInstance": Object {},
       "context": Object {},
       "props": Object {
+        "active": false,
         "ariaLabel": "",
         "children": null,
         "circle": false,
@@ -938,6 +981,7 @@ ReactWrapper {
         "onClick": [Function],
         "outline": false,
         "rounded": true,
+        "size": "",
         "style": Object {},
         "tooltip": "",
         "type": "button",
@@ -954,6 +998,7 @@ ReactWrapper {
     "key": undefined,
     "nodeType": "class",
     "props": Object {
+      "active": false,
       "ariaLabel": "",
       "children": null,
       "circle": false,
@@ -965,6 +1010,7 @@ ReactWrapper {
       "onClick": [Function],
       "outline": false,
       "rounded": true,
+      "size": "",
       "style": Object {},
       "tooltip": "",
       "type": "button",
@@ -1030,6 +1076,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -1041,6 +1088,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -1050,6 +1098,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -1061,6 +1110,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -1072,6 +1122,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -1083,6 +1134,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -1172,6 +1224,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "active": false,
                             "ariaLabel": "",
                             "children": null,
                             "circle": false,
@@ -1183,6 +1236,7 @@ ReactWrapper {
                             "onClick": [Function],
                             "outline": false,
                             "rounded": true,
+                            "size": "",
                             "style": Object {},
                             "tooltip": "",
                             "type": "button",
@@ -1206,6 +1260,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "active": false,
                             "ariaLabel": "",
                             "children": null,
                             "circle": false,
@@ -1217,6 +1272,7 @@ ReactWrapper {
                             "onClick": [Function],
                             "outline": false,
                             "rounded": true,
+                            "size": "",
                             "style": Object {},
                             "tooltip": "",
                             "type": "button",
@@ -1244,6 +1300,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "active": false,
                       "ariaLabel": "",
                       "children": null,
                       "circle": false,
@@ -1255,6 +1312,7 @@ ReactWrapper {
                       "onClick": [Function],
                       "outline": false,
                       "rounded": true,
+                      "size": "",
                       "style": Object {},
                       "tooltip": "",
                       "type": "button",
@@ -1310,6 +1368,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "active": false,
                         "ariaLabel": "",
                         "children": null,
                         "circle": false,
@@ -1321,6 +1380,7 @@ ReactWrapper {
                         "onClick": [Function],
                         "outline": false,
                         "rounded": true,
+                        "size": "",
                         "style": Object {},
                         "tooltip": "",
                         "type": "button",
@@ -1348,6 +1408,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "active": false,
                   "ariaLabel": "",
                   "children": null,
                   "circle": false,
@@ -1359,6 +1420,7 @@ ReactWrapper {
                   "onClick": [Function],
                   "outline": false,
                   "rounded": true,
+                  "size": "",
                   "style": Object {},
                   "tooltip": "",
                   "type": "button",
@@ -1369,6 +1431,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "active": false,
                   "ariaLabel": "",
                   "children": null,
                   "circle": false,
@@ -1380,6 +1443,7 @@ ReactWrapper {
                   "onClick": [Function],
                   "outline": false,
                   "rounded": true,
+                  "size": "",
                   "style": Object {},
                   "tooltip": "",
                   "type": "button",
@@ -1471,6 +1535,7 @@ ReactWrapper {
           "key": null,
           "lastEffect": null,
           "memoizedProps": Object {
+            "active": false,
             "ariaLabel": "",
             "children": null,
             "circle": false,
@@ -1482,6 +1547,7 @@ ReactWrapper {
             "onClick": [Function],
             "outline": false,
             "rounded": true,
+            "size": "",
             "style": Object {},
             "tooltip": "",
             "type": "button",
@@ -1490,6 +1556,7 @@ ReactWrapper {
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
+            "active": false,
             "ariaLabel": "",
             "children": null,
             "circle": false,
@@ -1501,6 +1568,7 @@ ReactWrapper {
             "onClick": [Function],
             "outline": false,
             "rounded": true,
+            "size": "",
             "style": Object {},
             "tooltip": "",
             "type": "button",
@@ -1527,6 +1595,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -1538,6 +1607,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -1547,6 +1617,7 @@ ReactWrapper {
               "context": null,
               "mount": true,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -1558,6 +1629,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -1569,6 +1641,7 @@ ReactWrapper {
               "Component": [Function],
               "context": null,
               "props": Object {
+                "active": false,
                 "ariaLabel": "",
                 "children": null,
                 "circle": false,
@@ -1580,6 +1653,7 @@ ReactWrapper {
                 "onClick": [Function],
                 "outline": false,
                 "rounded": true,
+                "size": "",
                 "style": Object {},
                 "tooltip": "",
                 "type": "button",
@@ -1669,6 +1743,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "active": false,
                             "ariaLabel": "",
                             "children": null,
                             "circle": false,
@@ -1680,6 +1755,7 @@ ReactWrapper {
                             "onClick": [Function],
                             "outline": false,
                             "rounded": true,
+                            "size": "",
                             "style": Object {},
                             "tooltip": "",
                             "type": "button",
@@ -1703,6 +1779,7 @@ ReactWrapper {
                         context={null}
                         props={
                           Object {
+                            "active": false,
                             "ariaLabel": "",
                             "children": null,
                             "circle": false,
@@ -1714,6 +1791,7 @@ ReactWrapper {
                             "onClick": [Function],
                             "outline": false,
                             "rounded": true,
+                            "size": "",
                             "style": Object {},
                             "tooltip": "",
                             "type": "button",
@@ -1741,6 +1819,7 @@ ReactWrapper {
                   context={null}
                   props={
                     Object {
+                      "active": false,
                       "ariaLabel": "",
                       "children": null,
                       "circle": false,
@@ -1752,6 +1831,7 @@ ReactWrapper {
                       "onClick": [Function],
                       "outline": false,
                       "rounded": true,
+                      "size": "",
                       "style": Object {},
                       "tooltip": "",
                       "type": "button",
@@ -1807,6 +1887,7 @@ ReactWrapper {
                     context={null}
                     props={
                       Object {
+                        "active": false,
                         "ariaLabel": "",
                         "children": null,
                         "circle": false,
@@ -1818,6 +1899,7 @@ ReactWrapper {
                         "onClick": [Function],
                         "outline": false,
                         "rounded": true,
+                        "size": "",
                         "style": Object {},
                         "tooltip": "",
                         "type": "button",
@@ -1845,6 +1927,7 @@ ReactWrapper {
                 "Component": [Function],
                 "context": null,
                 "props": Object {
+                  "active": false,
                   "ariaLabel": "",
                   "children": null,
                   "circle": false,
@@ -1856,6 +1939,7 @@ ReactWrapper {
                   "onClick": [Function],
                   "outline": false,
                   "rounded": true,
+                  "size": "",
                   "style": Object {},
                   "tooltip": "",
                   "type": "button",
@@ -1866,6 +1950,7 @@ ReactWrapper {
                 "context": null,
                 "mount": true,
                 "props": Object {
+                  "active": false,
                   "ariaLabel": "",
                   "children": null,
                   "circle": false,
@@ -1877,6 +1962,7 @@ ReactWrapper {
                   "onClick": [Function],
                   "outline": false,
                   "rounded": true,
+                  "size": "",
                   "style": Object {},
                   "tooltip": "",
                   "type": "button",
@@ -1905,6 +1991,7 @@ ReactWrapper {
         "_reactInternalInstance": Object {},
         "context": Object {},
         "props": Object {
+          "active": false,
           "ariaLabel": "",
           "children": null,
           "circle": false,
@@ -1916,6 +2003,7 @@ ReactWrapper {
           "onClick": [Function],
           "outline": false,
           "rounded": true,
+          "size": "",
           "style": Object {},
           "tooltip": "",
           "type": "button",
@@ -1932,6 +2020,7 @@ ReactWrapper {
       "key": undefined,
       "nodeType": "class",
       "props": Object {
+        "active": false,
         "ariaLabel": "",
         "children": null,
         "circle": false,
@@ -1943,6 +2032,7 @@ ReactWrapper {
         "onClick": [Function],
         "outline": false,
         "rounded": true,
+        "size": "",
         "style": Object {},
         "tooltip": "",
         "type": "button",

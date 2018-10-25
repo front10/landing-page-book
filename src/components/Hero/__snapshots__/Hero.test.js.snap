@@ -71,7 +71,7 @@ ShallowWrapper {
               className="Hero__Header mb-5"
               color=""
               icon=""
-              textAlign="left"
+              textAlign="center"
               type="h1"
             >
               AAAAAAAAAAAAAAA
@@ -82,7 +82,7 @@ ShallowWrapper {
               className="Hero__SubHeader mb-5"
               color=""
               icon=""
-              textAlign="left"
+              textAlign="center"
               type="h2"
             >
               BBBBBBBBBB
@@ -125,7 +125,7 @@ ShallowWrapper {
                 className="Hero__Header mb-5"
                 color=""
                 icon=""
-                textAlign="left"
+                textAlign="center"
                 type="h1"
               >
                 AAAAAAAAAAAAAAA
@@ -136,7 +136,7 @@ ShallowWrapper {
                 className="Hero__SubHeader mb-5"
                 color=""
                 icon=""
-                textAlign="left"
+                textAlign="center"
                 type="h2"
               >
                 BBBBBBBBBB
@@ -205,7 +205,7 @@ ShallowWrapper {
                   className="Hero__Header mb-5"
                   color=""
                   icon=""
-                  textAlign="left"
+                  textAlign="center"
                   type="h1"
                 >
                   AAAAAAAAAAAAAAA
@@ -216,7 +216,7 @@ ShallowWrapper {
                   className="Hero__SubHeader mb-5"
                   color=""
                   icon=""
-                  textAlign="left"
+                  textAlign="center"
                   type="h2"
                 >
                   BBBBBBBBBB
@@ -241,7 +241,7 @@ ShallowWrapper {
                     className="Hero__Header mb-5"
                     color=""
                     icon=""
-                    textAlign="left"
+                    textAlign="center"
                     type="h1"
                   >
                     AAAAAAAAAAAAAAA
@@ -252,7 +252,7 @@ ShallowWrapper {
                     className="Hero__SubHeader mb-5"
                     color=""
                     icon=""
-                    textAlign="left"
+                    textAlign="center"
                     type="h2"
                   >
                     BBBBBBBBBB
@@ -276,7 +276,7 @@ ShallowWrapper {
                     "className": "Hero__Header mb-5",
                     "color": "",
                     "icon": "",
-                    "textAlign": "left",
+                    "textAlign": "center",
                     "type": "h1",
                   },
                   "ref": null,
@@ -294,7 +294,7 @@ ShallowWrapper {
                     "className": "Hero__SubHeader mb-5",
                     "color": "",
                     "icon": "",
-                    "textAlign": "left",
+                    "textAlign": "center",
                     "type": "h2",
                   },
                   "ref": null,
@@ -356,7 +356,7 @@ ShallowWrapper {
                 className="Hero__Header mb-5"
                 color=""
                 icon=""
-                textAlign="left"
+                textAlign="center"
                 type="h1"
               >
                 AAAAAAAAAAAAAAA
@@ -367,7 +367,7 @@ ShallowWrapper {
                 className="Hero__SubHeader mb-5"
                 color=""
                 icon=""
-                textAlign="left"
+                textAlign="center"
                 type="h2"
               >
                 BBBBBBBBBB
@@ -410,7 +410,7 @@ ShallowWrapper {
                   className="Hero__Header mb-5"
                   color=""
                   icon=""
-                  textAlign="left"
+                  textAlign="center"
                   type="h1"
                 >
                   AAAAAAAAAAAAAAA
@@ -421,7 +421,7 @@ ShallowWrapper {
                   className="Hero__SubHeader mb-5"
                   color=""
                   icon=""
-                  textAlign="left"
+                  textAlign="center"
                   type="h2"
                 >
                   BBBBBBBBBB
@@ -490,7 +490,7 @@ ShallowWrapper {
                     className="Hero__Header mb-5"
                     color=""
                     icon=""
-                    textAlign="left"
+                    textAlign="center"
                     type="h1"
                   >
                     AAAAAAAAAAAAAAA
@@ -501,7 +501,7 @@ ShallowWrapper {
                     className="Hero__SubHeader mb-5"
                     color=""
                     icon=""
-                    textAlign="left"
+                    textAlign="center"
                     type="h2"
                   >
                     BBBBBBBBBB
@@ -526,7 +526,7 @@ ShallowWrapper {
                       className="Hero__Header mb-5"
                       color=""
                       icon=""
-                      textAlign="left"
+                      textAlign="center"
                       type="h1"
                     >
                       AAAAAAAAAAAAAAA
@@ -537,7 +537,7 @@ ShallowWrapper {
                       className="Hero__SubHeader mb-5"
                       color=""
                       icon=""
-                      textAlign="left"
+                      textAlign="center"
                       type="h2"
                     >
                       BBBBBBBBBB
@@ -561,7 +561,7 @@ ShallowWrapper {
                       "className": "Hero__Header mb-5",
                       "color": "",
                       "icon": "",
-                      "textAlign": "left",
+                      "textAlign": "center",
                       "type": "h1",
                     },
                     "ref": null,
@@ -579,7 +579,7 @@ ShallowWrapper {
                       "className": "Hero__SubHeader mb-5",
                       "color": "",
                       "icon": "",
-                      "textAlign": "left",
+                      "textAlign": "center",
                       "type": "h2",
                     },
                     "ref": null,

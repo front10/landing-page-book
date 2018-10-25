@@ -147,6 +147,7 @@ filewalker(componentFolder, (err, data) => {
     const componentPath = getComponentPath(component);
     const markDown = generateMarkdown(component.displayName, component);
     fs.writeFile(`${componentPath}README.md`, markDown, 'utf8', () => {});
+    fs.writeFile(`${componentPath}map.json`, JSON.stringify(component), 'utf8', () => {});
     return component;
   });
 });

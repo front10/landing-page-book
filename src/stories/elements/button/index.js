@@ -4,6 +4,7 @@ import withReadme from 'storybook-readme/with-readme';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 import { Button, Container, Icon } from '../../../components';
 import Readme from '../../../components/Button/README.md';
+import Map from '../../../components/Button/map.json';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
@@ -19,7 +20,11 @@ stories.add(
         Inside a <button> element you can put content, like text or images. This is the difference between this element and buttons created with the <input> element.
         Tip: Always specify the type attribute for a <button> element. Different browsers use different default types for the <button> element."
       />
-      <PropsManager scope={{ React, Button, Icon }}>
+      <PropsManager
+        scope={{ React, Button, Icon }}
+        propsDescription={Map.props}
+        active={['code', 'props']}
+      >
         {`<Button tooltip="Tis is a button tooltip">
     <Icon icon="fa fa-home" /> Home
 </Button>`}

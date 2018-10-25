@@ -1,4 +1,6 @@
-.playgroundEditor .CodeMirror {
+.playgroundEditor--rounded .CodeMirror,
+.playgroundVariables--rounded .CodeMirror,
+.playgroundProperties--rounded {
   border-bottom-left-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
 }
@@ -15,13 +17,6 @@
 .playgroundVariables {
   .CodeMirror__Container {
     border-top: none;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
+    border-radius: 0;
   }
-}
-
-.playgroundKnobs {
-  background-color: #272822;
-  color: #fff;
-  border: none;
 }

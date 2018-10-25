@@ -17,13 +17,9 @@ stories.add(
     <ThemeSelector>
       <StoryHeader name="Icon" description="Icon element." />
       <PropsManager scope={{ React, Row, Column, Container, Icon }}>
-        <Container>
-          <Row>
-            <Column className="text-center">
-              <Icon icon="fa fa-cubes" className="fa-3x" />
-            </Column>
-          </Row>
-        </Container>
+        {`<React.Fragment>
+    <Icon icon="fa fa-cubes" className="fa-3x" />
+</React.Fragment>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -35,17 +31,13 @@ stories.add(
     <ThemeSelector>
       <StoryHeader name="Icon" description="Icon element." />
       <PropsManager scope={{ React, Row, Column, Container, Icon }}>
-        <Container>
-          <Row>
-            <Column className="text-center">
-              <Icon icon="fa fa-home" className="fa-1x" />
-              <Icon icon="fa fa-home" className="fa-2x" />
-              <Icon icon="fa fa-home" className="fa-3x" />
-              <Icon icon="fa fa-home" className="fa-4x" />
-              <Icon icon="fa fa-home" className="fa-5x" />
-            </Column>
-          </Row>
-        </Container>
+        {`<React.Fragment>
+    <Icon icon="fa fa-home" className="fa-1x" />
+    <Icon icon="fa fa-home" className="fa-2x" />
+    <Icon icon="fa fa-home" className="fa-3x" />
+    <Icon icon="fa fa-home" className="fa-4x" />
+    <Icon icon="fa fa-home" className="fa-5x" />
+</React.Fragment>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -57,17 +49,13 @@ stories.add(
     <ThemeSelector>
       <StoryHeader name="Icon" description="Icon element." />
       <PropsManager scope={{ React, Row, Column, Container, Icon }}>
-        <Container>
-          <Row>
-            <Column className="text-center">
-              <Icon icon="fa fa-home" className="fa-1x text-primary" />
-              <Icon icon="fa fa-home" className="fa-2x text-secondary" />
-              <Icon icon="fa fa-home" className="fa-3x text-success" />
-              <Icon icon="fa fa-home" className="fa-4x text-danger" />
-              <Icon icon="fa fa-home" className="fa-5x text-warning" />
-            </Column>
-          </Row>
-        </Container>
+        {`<React.Fragment>
+    <Icon icon="fa fa-home" className="fa-1x text-primary" />
+    <Icon icon="fa fa-home" className="fa-2x text-secondary" />
+    <Icon icon="fa fa-home" className="fa-3x text-success" />
+    <Icon icon="fa fa-home" className="fa-4x text-danger" />
+    <Icon icon="fa fa-home" className="fa-5x text-warning" />
+</React.Fragment>`}
       </PropsManager>
     </ThemeSelector>
   ))

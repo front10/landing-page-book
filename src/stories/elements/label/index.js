@@ -20,7 +20,7 @@ stories.add(
       The for attribute of the <Label> should be equal to the id attribute of the related element to bind them together."
       />
       <PropsManager scope={{ React, Label }}>
-        <Label colon={false} className="" label="This is a label" />
+        {`<Label colon={false} className="" label="This is a label" />`}
       </PropsManager>
     </ThemeSelector>
   ))

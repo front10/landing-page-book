@@ -11,6 +11,8 @@ import Markdown from '../Markdown';
 import VariableManager from '../VariableManager';
 import Icon from '../../../src/components/Icon';
 import Button from '../../../src/components/Button';
+import Row from '../../../src/components/Row';
+import Column from '../../../src/components/Column';
 import './style.scss';
 
 const tabs = [
@@ -52,53 +54,59 @@ class PropsManager extends Component {
 
   render() {
     const { code, external, expandedCode, textCode, active } = this.state;
-    const { scope, readme, cssVariables } = this.props;
+    const { scope, readme, cssVariables, colColumn } = this.props;
     return (
       <React.Fragment>
-        <div className="mb-4">
-          <Preview code={code} scope={scope} context={{}} noRender />
-        </div>
-        <div className="text-right playgroundHeader rounded-top">
-          {tabs.map(
-            tab =>
-              tab.key === 'code' ||
-              (tab.key === 'css' && cssVariables.length) ||
-              (tab.key === 'readme' && readme) ? (
-                <Icon
-                  key={tab.key}
-                  title={tab.title}
-                  icon={`fa fa-${tab.icon}`}
-                  className={`p-2 playgroundHeader__icon ${
-                    active === tab.key ? 'text-warning' : 'text-white'
-                  }`}
-                  onClick={() => this.handleActive(tab.key)}
+        <Row>
+          <Column className={colColumn}>
+            <div className="mb-4">
+              <Preview code={code} scope={scope} context={{}} noRender />
+            </div>
+          </Column>
+          <Column className="col-12">
+            <div className="text-right playgroundHeader rounded-top">
+              {tabs.map(
+                tab =>
+                  tab.key === 'code' ||
+                  (tab.key === 'css' && cssVariables.length) ||
+                  (tab.key === 'readme' && readme) ? (
+                    <Icon
+                      key={tab.key}
+                      title={tab.title}
+                      icon={`fa fa-${tab.icon}`}
+                      className={`p-2 playgroundHeader__icon ${
+                        active === tab.key ? 'text-warning' : 'text-white'
+                      }`}
+                      onClick={() => this.handleActive(tab.key)}
+                    />
+                  ) : null
+              )}
+            </div>
+            {active === 'code' && (
+              <div className="playgroundEditor">
+                <Editor
+                  codeText={textCode}
+                  external={external}
+                  onChange={this.handleCodeChange}
+                  theme="monokai"
                 />
-              ) : null
-          )}
-        </div>
-        {active === 'code' && (
-          <div className="playgroundEditor">
-            <Editor
-              codeText={textCode}
-              external={external}
-              onChange={this.handleCodeChange}
-              theme="monokai"
-            />
-          </div>
-        )}
-        {active === 'css' && (
-          <div className="playgroundVariables">
-            <VariableManager variables={cssVariables} />
-          </div>
-        )}
-        {active === 'knob' && (
-          <div className="playgroundKnobs border p-3 rounded-bottom">Here go knobs</div>
-        )}
-        {active === 'readme' && (
-          <div className="playgroundReadme border p-3 rounded-bottom">
-            <Markdown source={readme} />
-          </div>
-        )}
+              </div>
+            )}
+            {active === 'css' && (
+              <div className="playgroundVariables">
+                <VariableManager variables={cssVariables} />
+              </div>
+            )}
+            {active === 'knob' && (
+              <div className="playgroundKnobs border p-3 rounded-bottom">Here go knobs</div>
+            )}
+            {active === 'readme' && (
+              <div className="playgroundReadme border p-3 rounded-bottom">
+                <Markdown source={readme} />
+              </div>
+            )}
+          </Column>
+        </Row>
       </React.Fragment>
     );
   }
@@ -107,26 +115,17 @@ class PropsManager extends Component {
 PropsManager.propTypes = {
   children: PropTypes.string.isRequired,
   scope: PropTypes.objectOf(PropTypes.any),
-  showDefaultProps: PropTypes.bool,
-  showFunctions: PropTypes.bool,
-  sortProps: PropTypes.bool,
-  useFragmentShortSyntax: PropTypes.bool,
-  maxInlineAttributesLineLength: PropTypes.number,
-  tabStop: PropTypes.number,
   readme: PropTypes.string,
-  cssVariables: PropTypes.arrayOf(PropTypes.string)
+  cssVariables: PropTypes.arrayOf(PropTypes.string),
+  colColumn: PropTypes.string
 };
 
 PropsManager.defaultProps = {
-  showDefaultProps: false,
-  showFunctions: false,
-  sortProps: false,
-  useFragmentShortSyntax: false,
-  maxInlineAttributesLineLength: 80,
-  tabStop: 8,
   scope: { React },
   readme: '',
-  cssVariables: []
+  cssVariables: [],
+  colColumn: 'col-12'
 };
 
 export default PropsManager;
+

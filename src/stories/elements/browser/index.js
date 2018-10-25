@@ -16,7 +16,7 @@ stories.add(
     <ThemeSelector>
       <StoryHeader name="Browser" description="Show the browser logo with the version." />
       <PropsManager scope={{ React, Browser }}>
-        <Browser vendor="chrome" version=">= 20.0" />
+        {`<Browser vendor="chrome" version=">= 20.0" />`}
       </PropsManager>
     </ThemeSelector>
   ))

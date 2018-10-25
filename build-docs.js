@@ -101,18 +101,11 @@ function generateDesciption(description) {
 }
 
 function generatePropType(type) {
-  let values;
-  if (Array.isArray(type.value)) {
-    values = `(${type.value.map(typeValue => typeValue.name || typeValue.value).join('|')})`;
-  } else {
-    values = type.value;
-  }
-
-  return `\`${type.name}\`${values || ''}`;
+  return `\`${type.name}\``;
 }
 
 function generatePropDefaultValue(value) {
-  return `${value.value.replace(/\n/g, '')}`;
+  return `\`${value.value.replace(/\n/g, '')}\``;
 }
 
 function generateProp(propName, prop) {
@@ -124,7 +117,9 @@ function generateProp(propName, prop) {
 }
 
 function generateProps(props) {
-  return ` </br>Name   | </br>Type | </br>Summary |</br>Default| \n|-|-|-|-|\n${Object.keys(props)
+  return `| </br>Name | </br>Type | </br>Summary | </br>Default | \n| ---- | ---- | ---- | ---- |\n${Object.keys(
+    props
+  )
     .sort()
     .map(propName => generateProp(propName, props[propName]))
     .join('\n')}`;
@@ -151,7 +146,7 @@ filewalker(componentFolder, (err, data) => {
   componentDataArray.map(component => {
     const componentPath = getComponentPath(component);
     const markDown = generateMarkdown(component.displayName, component);
-    fs.writeFile(`${componentPath}README.md`, markDown, 'utf8');
+    fs.writeFile(`${componentPath}README.md`, markDown, 'utf8', () => {});
     return component;
   });
 });

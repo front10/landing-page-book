@@ -2,7 +2,7 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-import { Button, Container, Row, Column, Icon } from '../../../components';
+import { Button, Container, Icon } from '../../../components';
 import Readme from '../../../components/Button/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';

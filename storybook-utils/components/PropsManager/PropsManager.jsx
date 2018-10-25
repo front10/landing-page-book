@@ -128,4 +128,3 @@ PropsManager.defaultProps = {
 };
 
 export default PropsManager;
-

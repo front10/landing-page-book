@@ -56,3 +56,4 @@ import '../src/stories/elements/browser';
 import '../src/stories/pages/webpack';
 import '../src/stories/pages/react';
 import '../src/stories/pages/graphql';
+import '../src/stories/pages/landing-page-book';

@@ -125,6 +125,7 @@
     "react-lazy-hero": "^0.4.0",
     "react-particles-js": "^2.3.0",
     "react-player": "^1.6.4",
+    "react-scroll": "^1.7.10",
     "react-share": "^2.2.0",
     "react-stepzilla": "^4.7.2"
   }

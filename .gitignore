@@ -42,3 +42,6 @@ src/themes/**/*.css
 
 #css components
 src/components/**/*.css
+
+#gatsby cache
+.cache

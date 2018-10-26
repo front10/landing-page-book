@@ -24,7 +24,6 @@ import '../src/stories/components/backers-open-collective';
 import '../src/stories/components/team';
 import '../src/stories/components/sponsors';
 import '../src/stories/components/built-with';
-import '../src/stories/components/card';
 import '../src/stories/components/contact-info';
 import '../src/stories/components/contact-us';
 import '../src/stories/components/copyright';
@@ -39,17 +38,22 @@ import '../src/stories/components/wizard';
 import '../src/stories/components/analytics';
 
 // Elements
-import '../src/stories/components/browser';
-import '../src/stories/components/button';
-import '../src/stories/components/header';
-import '../src/stories/components/image';
-import '../src/stories/components/icon';
-import '../src/stories/components/input';
-import '../src/stories/components/label';
-import '../src/stories/components/link';
-import '../src/stories/components/textBox';
+import '../src/stories/elements/header';
+import '../src/stories/elements/link';
+import '../src/stories/elements/textBox';
+import '../src/stories/elements/paragraphs';
+
+import '../src/stories/elements/card';
+
+import '../src/stories/elements/button';
+import '../src/stories/elements/image';
+import '../src/stories/elements/icon';
+import '../src/stories/elements/input';
+import '../src/stories/elements/label';
+import '../src/stories/elements/browser';
 
 //Pages
 import '../src/stories/pages/webpack';
 import '../src/stories/pages/react';
 import '../src/stories/pages/graphql';
+import '../src/stories/pages/landing-page-book';

@@ -41,11 +41,14 @@ class Input extends Component {
       label,
       labelColon,
       icon,
-      iconAlign
+      iconAlign,
+      size
     } = this.props;
+    let inputcls = className;
+    if (size) inputcls += ` form-control-${size}`;
     const { value } = this.state;
     const props = {
-      className: `Input__Container__Conponent form-control ${className} ${
+      className: `form-control ${inputcls} ${
         icon ? `Input__Container__Conponent--${iconAlign}` : ''
       }`,
       type,
@@ -55,6 +58,7 @@ class Input extends Component {
       placeholder,
       onChange: this.onChange
     };
+
     return (
       <React.Fragment>
         {label && <Label label={label} htmlFor={id} colon={labelColon} />}
@@ -84,6 +88,7 @@ Input.propTypes = {
   icon: PropTypes.string,
   iconAlign: PropTypes.string,
   label: PropTypes.string,
+  size: PropTypes.string,
   onChange: PropTypes.func
 };
 Input.defaultProps = {
@@ -95,6 +100,7 @@ Input.defaultProps = {
   value: '',
   placeholder: '',
   label: '',
+  size: '',
   icon: '',
   iconAlign: 'left',
   onChange: () => {}

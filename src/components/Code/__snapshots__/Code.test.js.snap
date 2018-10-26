@@ -65,39 +65,55 @@ ShallowWrapper {
 };"
               >
                 <Button
+                  active={false}
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="default"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
                   tooltip="Copy"
                   type="button"
                 >
                   <Icon
                     className=""
                     icon="fa fa-clone"
+                    onClick={[Function]}
                     role="link"
                     style={Object {}}
+                    title=""
                   />
                 </Button>
               </CopyToClipboard>
               <Button
+                active={false}
                 ariaLabel=""
+                circle={false}
                 className="btn  CodeMirror_btn"
+                color="default"
                 disabled={false}
                 loading={false}
                 loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 outline={false}
+                rounded={true}
+                size=""
+                style={Object {}}
                 tooltip="Clear"
                 type="button"
               >
                 <Icon
                   className=""
                   icon="fa fa-trash-o"
+                  onClick={[Function]}
                   style={Object {}}
+                  title=""
                 />
               </Button>
             </NavbarNav>
@@ -160,39 +176,55 @@ ShallowWrapper {
 };"
                 >
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Copy"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-clone"
+                      onClick={[Function]}
                       role="link"
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </CopyToClipboard>
                 <Button
+                  active={false}
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="default"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
                   tooltip="Clear"
                   type="button"
                 >
                   <Icon
                     className=""
                     icon="fa fa-trash-o"
+                    onClick={[Function]}
                     style={Object {}}
+                    title=""
                   />
                 </Button>
               </NavbarNav>
@@ -241,39 +273,55 @@ ShallowWrapper {
 };"
                 >
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Copy"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-clone"
+                      onClick={[Function]}
                       role="link"
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </CopyToClipboard>
                 <Button
+                  active={false}
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="default"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
                   tooltip="Clear"
                   type="button"
                 >
                   <Icon
                     className=""
                     icon="fa fa-trash-o"
+                    onClick={[Function]}
                     style={Object {}}
+                    title=""
                   />
                 </Button>
               </NavbarNav>,
@@ -304,39 +352,55 @@ ShallowWrapper {
 };"
                   >
                     <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />
                     </Button>
                   </CopyToClipboard>,
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Clear"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-trash-o"
+                      onClick={[Function]}
                       style={Object {}}
+                      title=""
                     />
                   </Button>,
                 ],
@@ -350,21 +414,29 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "children": <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />
                     </Button>,
                     "onCopy": [Function],
@@ -381,19 +453,27 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
+                      "active": false,
                       "ariaLabel": "",
                       "children": <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />,
+                      "circle": false,
                       "className": "btn  CodeMirror_btn",
+                      "color": "default",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "size": "",
+                      "style": Object {},
                       "tooltip": "Copy",
                       "type": "button",
                     },
@@ -405,8 +485,10 @@ ShallowWrapper {
                       "props": Object {
                         "className": "",
                         "icon": "fa fa-clone",
+                        "onClick": [Function],
                         "role": "link",
                         "style": Object {},
+                        "title": "",
                       },
                       "ref": null,
                       "rendered": null,
@@ -421,18 +503,26 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
+                    "active": false,
                     "ariaLabel": "",
                     "children": <Icon
                       className=""
                       icon="fa fa-trash-o"
+                      onClick={[Function]}
                       style={Object {}}
+                      title=""
                     />,
+                    "circle": false,
                     "className": "btn  CodeMirror_btn",
+                    "color": "default",
                     "disabled": false,
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
                     "outline": false,
+                    "rounded": true,
+                    "size": "",
+                    "style": Object {},
                     "tooltip": "Clear",
                     "type": "button",
                   },
@@ -444,7 +534,9 @@ ShallowWrapper {
                     "props": Object {
                       "className": "",
                       "icon": "fa fa-trash-o",
+                      "onClick": [Function],
                       "style": Object {},
+                      "title": "",
                     },
                     "ref": null,
                     "rendered": null,
@@ -523,39 +615,55 @@ ShallowWrapper {
 };"
                 >
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Copy"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-clone"
+                      onClick={[Function]}
                       role="link"
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </CopyToClipboard>
                 <Button
+                  active={false}
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="default"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
                   tooltip="Clear"
                   type="button"
                 >
                   <Icon
                     className=""
                     icon="fa fa-trash-o"
+                    onClick={[Function]}
                     style={Object {}}
+                    title=""
                   />
                 </Button>
               </NavbarNav>
@@ -618,39 +726,55 @@ ShallowWrapper {
 };"
                   >
                     <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />
                     </Button>
                   </CopyToClipboard>
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Clear"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-trash-o"
+                      onClick={[Function]}
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </NavbarNav>
@@ -699,39 +823,55 @@ ShallowWrapper {
 };"
                   >
                     <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />
                     </Button>
                   </CopyToClipboard>
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="default"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Clear"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-trash-o"
+                      onClick={[Function]}
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </NavbarNav>,
@@ -762,39 +902,55 @@ ShallowWrapper {
 };"
                     >
                       <Button
+                        active={false}
                         ariaLabel=""
+                        circle={false}
                         className="btn  CodeMirror_btn"
+                        color="default"
                         disabled={false}
                         loading={false}
                         loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         outline={false}
+                        rounded={true}
+                        size=""
+                        style={Object {}}
                         tooltip="Copy"
                         type="button"
                       >
                         <Icon
                           className=""
                           icon="fa fa-clone"
+                          onClick={[Function]}
                           role="link"
                           style={Object {}}
+                          title=""
                         />
                       </Button>
                     </CopyToClipboard>,
                     <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="default"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Clear"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-trash-o"
+                        onClick={[Function]}
                         style={Object {}}
+                        title=""
                       />
                     </Button>,
                   ],
@@ -808,21 +964,29 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "children": <Button
+                        active={false}
                         ariaLabel=""
+                        circle={false}
                         className="btn  CodeMirror_btn"
+                        color="default"
                         disabled={false}
                         loading={false}
                         loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         outline={false}
+                        rounded={true}
+                        size=""
+                        style={Object {}}
                         tooltip="Copy"
                         type="button"
                       >
                         <Icon
                           className=""
                           icon="fa fa-clone"
+                          onClick={[Function]}
                           role="link"
                           style={Object {}}
+                          title=""
                         />
                       </Button>,
                       "onCopy": [Function],
@@ -839,19 +1003,27 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
+                        "active": false,
                         "ariaLabel": "",
                         "children": <Icon
                           className=""
                           icon="fa fa-clone"
+                          onClick={[Function]}
                           role="link"
                           style={Object {}}
+                          title=""
                         />,
+                        "circle": false,
                         "className": "btn  CodeMirror_btn",
+                        "color": "default",
                         "disabled": false,
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
                         "outline": false,
+                        "rounded": true,
+                        "size": "",
+                        "style": Object {},
                         "tooltip": "Copy",
                         "type": "button",
                       },
@@ -863,8 +1035,10 @@ ShallowWrapper {
                         "props": Object {
                           "className": "",
                           "icon": "fa fa-clone",
+                          "onClick": [Function],
                           "role": "link",
                           "style": Object {},
+                          "title": "",
                         },
                         "ref": null,
                         "rendered": null,
@@ -879,18 +1053,26 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
+                      "active": false,
                       "ariaLabel": "",
                       "children": <Icon
                         className=""
                         icon="fa fa-trash-o"
+                        onClick={[Function]}
                         style={Object {}}
+                        title=""
                       />,
+                      "circle": false,
                       "className": "btn  CodeMirror_btn",
+                      "color": "default",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "size": "",
+                      "style": Object {},
                       "tooltip": "Clear",
                       "type": "button",
                     },
@@ -902,7 +1084,9 @@ ShallowWrapper {
                       "props": Object {
                         "className": "",
                         "icon": "fa fa-trash-o",
+                        "onClick": [Function],
                         "style": Object {},
+                        "title": "",
                       },
                       "ref": null,
                       "rendered": null,

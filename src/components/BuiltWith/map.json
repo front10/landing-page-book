@@ -1,0 +1,23 @@
+{
+  "description": "",
+  "displayName": "BuiltWith",
+  "methods": [],
+  "props": {
+    "gray": {
+      "type": { "name": "bool" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "false", "computed": false }
+    },
+    "companies": {
+      "type": {
+        "name": "arrayOf",
+        "value": { "name": "shape", "value": { "image": { "name": "string", "required": false } } }
+      },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "[]", "computed": false }
+    }
+  },
+  "filename": "/components/BuiltWith/BuiltWith.jsx"
+}

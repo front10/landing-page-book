@@ -1,0 +1,120 @@
+{
+  "description": "",
+  "displayName": "Wizard",
+  "methods": [
+    {
+      "name": "onStepChange",
+      "docblock": null,
+      "modifiers": [],
+      "params": [{ "name": "step", "type": null }],
+      "returns": null
+    }
+  ],
+  "props": {
+    "showHeader": {
+      "type": { "name": "bool" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "true", "computed": false }
+    },
+    "showHeaderBorder": {
+      "type": { "name": "bool" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "true", "computed": false }
+    },
+    "showNavigation": {
+      "type": { "name": "bool" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "true", "computed": false }
+    },
+    "prevBtnOnLastStep": {
+      "type": { "name": "bool" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "true", "computed": false }
+    },
+    "dontValidate": {
+      "type": { "name": "bool" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "true", "computed": false }
+    },
+    "preventEnterSubmission": {
+      "type": { "name": "bool" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "true", "computed": false }
+    },
+    "startAtStep": {
+      "type": { "name": "number" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "0", "computed": false }
+    },
+    "nextButtonText": {
+      "type": { "name": "string" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "'Next'", "computed": false }
+    },
+    "backButtonText": {
+      "type": { "name": "string" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "'Back'", "computed": false }
+    },
+    "nextButtonCls": {
+      "type": { "name": "string" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "'btn btn-primary pull-right'", "computed": false }
+    },
+    "backButtonCls": {
+      "type": { "name": "string" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "'btn btn-primary pull-left'", "computed": false }
+    },
+    "nextTextOnFinalActionStep": {
+      "type": { "name": "string" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "'Next'", "computed": false }
+    },
+    "contentAlign": {
+      "type": { "name": "string" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "'left'", "computed": false }
+    },
+    "hocValidationAppliedTo": {
+      "type": { "name": "arrayOf", "value": { "name": "number" } },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "[]", "computed": false }
+    },
+    "steps": {
+      "type": {
+        "name": "arrayOf",
+        "value": {
+          "name": "shape",
+          "value": {
+            "name": { "name": "string", "required": true },
+            "component": { "name": "element", "required": true }
+          }
+        }
+      },
+      "required": true,
+      "description": ""
+    },
+    "onStepChange": {
+      "type": { "name": "func" },
+      "required": false,
+      "description": "",
+      "defaultValue": { "value": "() => {}", "computed": false }
+    }
+  },
+  "filename": "/components/Wizard/Wizard.jsx"
+}

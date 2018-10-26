@@ -110,6 +110,7 @@ ReactWrapper {
                   <i
                     class="fa fa-map-marker "
                     style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -225,6 +226,7 @@ ReactWrapper {
                 <i
                   class="fa fa-map-marker "
                   style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                  title=""
                 />
               </div>,
               "context": Object {},
@@ -347,20 +349,24 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "className": "fa fa-map-marker ",
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "className": "fa fa-map-marker ",
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "ref": null,
             "return": [Circular],
@@ -369,6 +375,7 @@ ReactWrapper {
             "stateNode": <i
               class="fa fa-map-marker "
               style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+              title=""
             />,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -388,10 +395,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "memoizedState": null,
           "mode": 0,
@@ -401,10 +410,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "ref": null,
           "return": [Circular],
@@ -419,10 +430,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "refs": Object {},
             "state": null,
@@ -550,6 +563,7 @@ ReactWrapper {
                   <i
                     class="fa fa-map-marker "
                     style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -665,6 +679,7 @@ ReactWrapper {
                 <i
                   class="fa fa-map-marker "
                   style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                  title=""
                 />
               </div>,
               "context": Object {},
@@ -886,6 +901,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -1001,6 +1017,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -1209,6 +1226,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -1324,6 +1342,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -1464,20 +1483,24 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "className": "fa fa-map-marker ",
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "className": "fa fa-map-marker ",
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "ref": null,
             "return": [Circular],
@@ -1486,6 +1509,7 @@ ReactWrapper {
             "stateNode": <i
               class="fa fa-map-marker "
               style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+              title=""
             />,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -1505,10 +1529,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "memoizedState": null,
           "mode": 0,
@@ -1518,10 +1544,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "ref": null,
           "return": FiberNode {
@@ -1615,6 +1643,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -1730,6 +1759,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -1938,6 +1968,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -2053,6 +2084,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -2185,10 +2217,12 @@ ReactWrapper {
           "icon": "fa fa-map-marker",
           "lat": 82,
           "lng": 20,
+          "onClick": [Function],
           "style": Object {
             "color": "#d43131",
             "fontSize": "1.5rem",
           },
+          "title": "",
         },
         "refs": Object {},
         "state": null,
@@ -2206,25 +2240,30 @@ ReactWrapper {
         "icon": "fa fa-map-marker",
         "lat": 82,
         "lng": 20,
+        "onClick": [Function],
         "style": Object {
           "color": "#d43131",
           "fontSize": "1.5rem",
         },
+        "title": "",
       },
       "ref": null,
       "rendered": Object {
         "instance": <i
           class="fa fa-map-marker "
           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+          title=""
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "className": "fa fa-map-marker ",
+          "onClick": [Function],
           "style": Object {
             "color": "#d43131",
             "fontSize": "1.5rem",
           },
+          "title": "",
         },
         "ref": null,
         "rendered": Array [
@@ -2330,6 +2369,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -2445,6 +2485,7 @@ ReactWrapper {
                   <i
                     class="fa fa-map-marker "
                     style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -2567,20 +2608,24 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "className": "fa fa-map-marker ",
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
                 "className": "fa fa-map-marker ",
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "ref": null,
               "return": [Circular],
@@ -2589,6 +2634,7 @@ ReactWrapper {
               "stateNode": <i
                 class="fa fa-map-marker "
                 style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                title=""
               />,
               "tag": 7,
               "treeBaseDuration": 0,
@@ -2608,10 +2654,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "memoizedState": null,
             "mode": 0,
@@ -2621,10 +2669,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "ref": null,
             "return": [Circular],
@@ -2639,10 +2689,12 @@ ReactWrapper {
                 "icon": "fa fa-map-marker",
                 "lat": 82,
                 "lng": 20,
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "refs": Object {},
               "state": null,
@@ -2770,6 +2822,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -2885,6 +2938,7 @@ ReactWrapper {
                   <i
                     class="fa fa-map-marker "
                     style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -3106,6 +3160,7 @@ ReactWrapper {
                         <i
                           class="fa fa-map-marker "
                           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                          title=""
                         />
                       </div>,
                       "context": Object {},
@@ -3221,6 +3276,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -3429,6 +3485,7 @@ ReactWrapper {
                         <i
                           class="fa fa-map-marker "
                           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                          title=""
                         />
                       </div>,
                       "context": Object {},
@@ -3544,6 +3601,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -3684,20 +3742,24 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "className": "fa fa-map-marker ",
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
                 "className": "fa fa-map-marker ",
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "ref": null,
               "return": [Circular],
@@ -3706,6 +3768,7 @@ ReactWrapper {
               "stateNode": <i
                 class="fa fa-map-marker "
                 style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                title=""
               />,
               "tag": 7,
               "treeBaseDuration": 0,
@@ -3725,10 +3788,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "memoizedState": null,
             "mode": 0,
@@ -3738,10 +3803,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "ref": null,
             "return": FiberNode {
@@ -3835,6 +3902,7 @@ ReactWrapper {
                         <i
                           class="fa fa-map-marker "
                           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                          title=""
                         />
                       </div>,
                       "context": Object {},
@@ -3950,6 +4018,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -4158,6 +4227,7 @@ ReactWrapper {
                         <i
                           class="fa fa-map-marker "
                           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                          title=""
                         />
                       </div>,
                       "context": Object {},
@@ -4273,6 +4343,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -4405,10 +4476,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "refs": Object {},
           "state": null,
@@ -4426,25 +4499,30 @@ ReactWrapper {
           "icon": "fa fa-map-marker",
           "lat": 82,
           "lng": 20,
+          "onClick": [Function],
           "style": Object {
             "color": "#d43131",
             "fontSize": "1.5rem",
           },
+          "title": "",
         },
         "ref": null,
         "rendered": Object {
           "instance": <i
             class="fa fa-map-marker "
             style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+            title=""
           />,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
             "className": "fa fa-map-marker ",
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "ref": null,
           "rendered": Array [

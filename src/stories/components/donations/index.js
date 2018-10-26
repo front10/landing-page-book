@@ -18,7 +18,7 @@ stories.add(
         description="Something that is given to a charity, especially a sum of money. Allow your users to donate easily and safely"
       />
       <PropsManager scope={{ React, Donation }}>
-        <Donation url="https://opencollective.com/webpack/donate" />
+        {`<Donation url="https://opencollective.com/webpack/donate" />`}
       </PropsManager>
     </ThemeSelector>
   ))

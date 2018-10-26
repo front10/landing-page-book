@@ -4,20 +4,29 @@ import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
+import VariableManager from '../../../../storybook-utils/components/VariableManager';
 
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Hero, Container, Image, Header, GithubButton, Button, Link } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
 
-const stories = storiesOf('Components/Hero', module);
-
-const buttons = [
-  {
-    text: 'TELL ME MORE',
-    onClick: () => {}
-  }
+const themingVariables = [
+  '--Hero__Header-fontSize',
+  '--Hero__Header-fontStyle',
+  '--Hero__Header-color',
+  '--Hero__Header-fontWeight',
+  '--Hero__Header--phone-fontSize',
+  '--Hero__SubHeader-fontSize',
+  '--Hero__SubHeader-color',
+  '--Hero__SubHeader-fontStyle',
+  '--Hero__SubHeader--phone-fontSize',
+  '--Hero__Button-color',
+  '--Hero__Button-backgroundColor',
+  '--Hero__Button-padding'
 ];
+
+const stories = storiesOf('Components/Hero', module);
 
 stories.add(
   'Default',
@@ -28,15 +37,18 @@ stories.add(
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
       <PropsManager scope={{ React, Hero }}>
-        <Hero
-          opacity={1}
-          overlayColor="#373D45"
-          header="Landing Page Book"
-          subHeader="React components to build!"
-          buttons={buttons}
-          particlesSugar="crazyStars"
-        />
+        {`<Hero
+    opacity={1}
+    overlayColor="#373D45"
+    header="Landing Page Book"
+    subHeader="React components to build!"
+    particlesSugar="crazyStars"
+    buttons={[
+        { text: 'TELL ME MORE', onClick: () => { } }
+    ]}
+/>`}
       </PropsManager>
+      <VariableManager className="mt-4" variables={themingVariables} />
     </ThemeSelector>
   ))
 );
@@ -51,30 +63,17 @@ stories.add(
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
       <PropsManager scope={{ React, Hero, Container, Image, Header, Button, GithubButton }}>
-        <Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars">
-          <Container>
-            <Image
-              src="images/logo/front10.png"
-              rounded
-              width="160"
-              alt="Front10 logo"
-              className="main-logo"
-            />
-            <Header className="text-warning">Landing Page Book</Header>
-            <Header type="h5" className="text-warning">
-              React components to build!
-            </Header>
-            <div className="mt-5">
-              <Button>Explore</Button>
-              <GithubButton
-                btnType="star"
-                btnText="Stars"
-                username="front10"
-                repository="landing-page-book"
-              />
-            </div>
-          </Container>
-        </Hero>
+        {`<Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars">
+    <Container>
+        <Image src="images/logo/front10.png" rounded width="160" alt="Front10 logo" className="main-logo"/>
+        <Header className="text-warning">Landing Page Book</Header>
+        <Header type="h5" className="text-warning">React components to build!</Header>
+        <div className="mt-5">
+            <Button>Explore</Button>
+            <GithubButton btnType="star" btnText="Stars" username="front10" repository="landing-page-book"/>
+        </div>
+    </Container>
+</Hero>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -97,25 +96,24 @@ stories.add(
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
       <PropsManager scope={{ React, Hero, Container, Header, Link }}>
-        <Hero
-          image="images/hero/alone-architecture-buildings-220444.jpg"
-          parallaxOffset={350}
-          particles={false}
-        >
-          <Container>
-            <Header type="h6" className="text-white text-left">
-              LANDING PAGE BOOK
-            </Header>
-            <Header className="text-white text-left mt-4 mb-4">
-              React UI Kit to easily build landing pages.
-            </Header>
-            <div className="">
-              <Link href="https://front10.com" style={ctaButtonStyles} target="_blank">
+        {`<Hero
+    image="images/hero/alone-architecture-buildings-220444.jpg"
+    parallaxOffset={350}
+    particles={false}
+>
+    <Container>
+        <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
+        <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
+        <div className="">
+            <Link 
+                href="https://front10.com"
+                style={${JSON.stringify(ctaButtonStyles)}}
+                target="_blank">
                 READ MORE
-              </Link>
-            </div>
-          </Container>
-        </Hero>
+            </Link>
+        </div>
+    </Container>
+</Hero>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -131,26 +129,25 @@ stories.add(
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
       <PropsManager scope={{ React, Hero, Container, Header, Link }}>
-        <Hero
-          image="images/hero/alone-architecture-buildings-220444.jpg"
-          parallaxOffset={350}
-          particles={false}
-          imgFilter="blur(2px)"
-        >
-          <Container>
-            <Header type="h6" className="text-white text-left">
-              LANDING PAGE BOOK
-            </Header>
-            <Header className="text-white text-left mt-4 mb-4">
-              React UI Kit to easily build landing pages.
-            </Header>
-            <div className="">
-              <Link href="https://front10.com" style={ctaButtonStyles} target="_blank">
+        {`<Hero
+    image="images/hero/alone-architecture-buildings-220444.jpg"
+    parallaxOffset={350}
+    particles={false}
+    imgFilter="blur(2px)"
+>
+    <Container>
+        <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
+        <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
+        <div className="">
+            <Link
+                href="https://front10.com" 
+                style={${JSON.stringify(ctaButtonStyles)}}
+                target="_blank">
                 READ MORE
-              </Link>
-            </div>
-          </Container>
-        </Hero>
+            </Link>
+        </div>
+    </Container>
+</Hero>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -166,26 +163,24 @@ stories.add(
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
       <PropsManager scope={{ React, Hero, Container, Header, Link }}>
-        <Hero
-          image="images/hero/alone-architecture-buildings-220444.jpg"
-          parallaxOffset={350}
-          particles={false}
-          imgFilter="grayscale(90%)"
-        >
-          <Container>
-            <Header type="h6" className="text-white text-left">
-              LANDING PAGE BOOK
-            </Header>
-            <Header className="text-white text-left mt-4 mb-4">
-              React UI Kit to easily build landing pages.
-            </Header>
-            <div className="">
-              <Link href="https://front10.com" style={ctaButtonStyles} target="_blank">
-                READ MORE
-              </Link>
-            </div>
-          </Container>
-        </Hero>
+        {`<Hero
+    image="images/hero/alone-architecture-buildings-220444.jpg"
+    parallaxOffset={350}
+    particles={false}
+    imgFilter="grayscale(90%)"
+>
+    <Container>
+        <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
+        <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
+        <div className="">
+            <Link 
+                href="https://front10.com"
+                style={${JSON.stringify(ctaButtonStyles)}}
+                target="_blank">READ MORE
+            </Link>
+        </div>
+    </Container>
+</Hero>`}
       </PropsManager>
     </ThemeSelector>
   ))

@@ -44,27 +44,16 @@ import '@front10/landing-page-book/dist/components/Button/style.css';
 | ------------ | ---------- | ------------------------------------------------------------------------- |
 | disabled     | `Boolean`  | Disable or enable button. Default `false`                                 |
 | loading      | `Boolean`  | Show loading mode. Default `false`                                        |
+| rounded      | `Boolean`  | Show rounded button. Default `true`                                       |
+| circle       | `Boolean`  | Show circle button. Default `false`                                       |
 | outline      | `Boolean`  | Define if button is only with border. Default `false`                     |
+| active       | `Boolean`  | Define if button is active. Default `false`                               |
 | loadingClass | `String`   | Class to show loading indicator. Default `"fa fa-circle-o-notch fa-spin"` |
 | className    | `String`   | Class to apply to button. Default `""`                                    |
+| color        | `String`   | Color to apply to button. Default `"default"`                             |
 | ariaLabel    | `String`   | Aria label of the button. Default `""`                                    |
 | type         | `String`   | Type of the button. Default `"button"`                                    |
 | tooltip      | `String`   | Button tooltip. Default `""`                                              |
+| style        | `String`   | Button styles. Default `""`                                               |
+| size         | `String`   | Button size, can be `lg` or `sm`. Default `""`                            |
 | onClick      | `Function` | Called when button is clicked                                             |
-
-## Theming variables
-
-| </br>Name                     | </br>Summary                    | </br>Default       |
-| ----------------------------- | ------------------------------- | ------------------ |
-| --Button-borderRadius         | Button's border radius          | `0px`              |
-| --Button-fontSize             | Button's font size              | `1rem`             |
-| --Button-padding              | Button's padding                | `0.375rem 0.75rem` |
-| --Button-textShadow           | Button's text shadow            | `none`             |
-| --Button-backgroundColor      | Button's background color       | `#fed136`          |
-| --Button-backgroundColorHover | Button's background color hover | `#fec810`          |
-| --Button-borderColor          | Button's border color           | `#fed136`          |
-| --Button-boxShadow            | Button's box shadow             | `none`             |
-| --Button-boxShadowHover       | Button's box shadow hover       | `none`             |
-| --Button-border               | Button's border                 | `0px`              |
-| --Button-textTransform        | Button's text transform         | `none`             |
-| --Button-textColor            | Button's text color             | `#383e45`          |

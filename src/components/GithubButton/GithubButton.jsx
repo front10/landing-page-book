@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import GithubService from '../../service/GithubDetail.services';
 import Icon from '../Icon/Icon';
+import Button from '../Button/Button';
 
 class GithubButton extends React.Component {
   constructor(props) {
@@ -160,20 +161,18 @@ class GithubButton extends React.Component {
 
   render() {
     const { linkUrl, showGithubIcon, iconClass, showBtnText, showCounter, counter } = this.state;
-    const { btnText, loadingClass } = this.props;
+    const { btnText, loadingClass, btnRounded, btnDisabled } = this.props;
+    let spechcls = 'speech-bubble';
+    if (btnRounded) spechcls = 'speech-bubble speech-bubble-rounded';
     return (
       <div className="GithubDetail_btn_container d-inline">
-        <a
-          className="btn GithubDetail_btn"
-          href={linkUrl}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <Button rounded={btnRounded} circle={false} disabled={btnDisabled}>
           <i className={showGithubIcon ? 'fa fa-github' : iconClass} aria-hidden="true" />{' '}
           {showBtnText && <span className="buttonText">{btnText}</span>}
-        </a>
+        </Button>
+
         {showCounter && (
-          <span className="speech-bubble">
+          <span className={spechcls}>
             {counter != null ? (
               <a href={linkUrl} target="_blank" rel="noopener noreferrer">
                 {' '}
@@ -193,6 +192,8 @@ GithubButton.propTypes = {
   showCounter: PropTypes.bool,
   showBtnText: PropTypes.bool,
   showGithubIcon: PropTypes.bool,
+  btnRounded: PropTypes.bool,
+  btnDisabled: PropTypes.bool,
   loadingClass: PropTypes.string,
   username: PropTypes.string,
   repository: PropTypes.string,
@@ -204,6 +205,8 @@ GithubButton.defaultProps = {
   showCounter: true,
   showBtnText: true,
   showGithubIcon: false,
+  btnRounded: true,
+  btnDisabled: false,
   loadingClass: 'fa fa-circle-o-notch fa-spin',
   username: 'front10',
   repository: 'landing-page-book',

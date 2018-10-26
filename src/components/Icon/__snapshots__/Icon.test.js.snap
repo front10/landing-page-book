@@ -5,7 +5,9 @@ ReactWrapper {
   Symbol(enzyme.__unrendered__): <Icon
     className=""
     icon="fa fa-home"
+    onClick={[Function]}
     style={Object {}}
+    title=""
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -44,7 +46,9 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": "fa fa-home",
+              "onClick": [Function],
               "style": Object {},
+              "title": "",
             },
           },
           "memoizedState": Object {
@@ -53,7 +57,9 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": "fa fa-home",
+              "onClick": [Function],
               "style": Object {},
+              "title": "",
             },
           },
           "mode": 0,
@@ -64,7 +70,9 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": "fa fa-home",
+              "onClick": [Function],
               "style": Object {},
+              "title": "",
             },
           },
           "ref": null,
@@ -105,6 +113,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <i
                     class="fa fa-home "
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -150,7 +159,9 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "icon": "fa fa-home",
+                          "onClick": [Function],
                           "style": Object {},
+                          "title": "",
                         }
                       }
                     />,
@@ -173,7 +184,9 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "icon": "fa fa-home",
+                          "onClick": [Function],
                           "style": Object {},
+                          "title": "",
                         }
                       }
                     />,
@@ -200,7 +213,9 @@ ReactWrapper {
                   Object {
                     "className": "",
                     "icon": "fa fa-home",
+                    "onClick": [Function],
                     "style": Object {},
+                    "title": "",
                   }
                 }
               />,
@@ -216,6 +231,7 @@ ReactWrapper {
               "containerInfo": <div>
                 <i
                   class="fa fa-home "
+                  title=""
                 />
               </div>,
               "context": Object {},
@@ -252,7 +268,9 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "icon": "fa fa-home",
+                      "onClick": [Function],
                       "style": Object {},
+                      "title": "",
                     }
                   }
                 />,
@@ -279,7 +297,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "refs": Object {},
@@ -289,7 +309,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "updater": Object {
@@ -327,14 +349,18 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "className": "fa fa-home ",
+            "onClick": [Function],
             "style": Object {},
+            "title": "",
           },
           "memoizedState": null,
           "mode": 0,
           "nextEffect": null,
           "pendingProps": Object {
             "className": "fa fa-home ",
+            "onClick": [Function],
             "style": Object {},
+            "title": "",
           },
           "ref": null,
           "return": [Circular],
@@ -342,6 +368,7 @@ ReactWrapper {
           "sibling": null,
           "stateNode": <i
             class="fa fa-home "
+            title=""
           />,
           "tag": 7,
           "treeBaseDuration": 0,
@@ -359,7 +386,9 @@ ReactWrapper {
         "memoizedProps": Object {
           "className": "",
           "icon": "fa fa-home",
+          "onClick": [Function],
           "style": Object {},
+          "title": "",
         },
         "memoizedState": null,
         "mode": 0,
@@ -367,7 +396,9 @@ ReactWrapper {
         "pendingProps": Object {
           "className": "",
           "icon": "fa fa-home",
+          "onClick": [Function],
           "style": Object {},
+          "title": "",
         },
         "ref": null,
         "return": FiberNode {
@@ -393,7 +424,9 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": "fa fa-home",
+              "onClick": [Function],
               "style": Object {},
+              "title": "",
             },
           },
           "memoizedState": Object {
@@ -402,7 +435,9 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": "fa fa-home",
+              "onClick": [Function],
               "style": Object {},
+              "title": "",
             },
           },
           "mode": 0,
@@ -413,7 +448,9 @@ ReactWrapper {
             "props": Object {
               "className": "",
               "icon": "fa fa-home",
+              "onClick": [Function],
               "style": Object {},
+              "title": "",
             },
           },
           "ref": null,
@@ -454,6 +491,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <i
                     class="fa fa-home "
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -499,7 +537,9 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "icon": "fa fa-home",
+                          "onClick": [Function],
                           "style": Object {},
+                          "title": "",
                         }
                       }
                     />,
@@ -522,7 +562,9 @@ ReactWrapper {
                         Object {
                           "className": "",
                           "icon": "fa fa-home",
+                          "onClick": [Function],
                           "style": Object {},
+                          "title": "",
                         }
                       }
                     />,
@@ -549,7 +591,9 @@ ReactWrapper {
                   Object {
                     "className": "",
                     "icon": "fa fa-home",
+                    "onClick": [Function],
                     "style": Object {},
+                    "title": "",
                   }
                 }
               />,
@@ -565,6 +609,7 @@ ReactWrapper {
               "containerInfo": <div>
                 <i
                   class="fa fa-home "
+                  title=""
                 />
               </div>,
               "context": Object {},
@@ -601,7 +646,9 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "icon": "fa fa-home",
+                      "onClick": [Function],
                       "style": Object {},
+                      "title": "",
                     }
                   }
                 />,
@@ -628,7 +675,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "refs": Object {},
@@ -638,7 +687,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "updater": Object {
@@ -666,7 +717,9 @@ ReactWrapper {
       "props": Object {
         "className": "",
         "icon": "fa fa-home",
+        "onClick": [Function],
         "style": Object {},
+        "title": "",
       },
       "refs": Object {},
       "state": null,
@@ -682,18 +735,23 @@ ReactWrapper {
     "props": Object {
       "className": "",
       "icon": "fa fa-home",
+      "onClick": [Function],
       "style": Object {},
+      "title": "",
     },
     "ref": null,
     "rendered": Object {
       "instance": <i
         class="fa fa-home "
+        title=""
       />,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "className": "fa fa-home ",
+        "onClick": [Function],
         "style": Object {},
+        "title": "",
       },
       "ref": null,
       "rendered": Array [
@@ -732,7 +790,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "memoizedState": Object {
@@ -741,7 +801,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "mode": 0,
@@ -752,7 +814,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "ref": null,
@@ -793,6 +857,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <i
                       class="fa fa-home "
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -838,7 +903,9 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "icon": "fa fa-home",
+                            "onClick": [Function],
                             "style": Object {},
+                            "title": "",
                           }
                         }
                       />,
@@ -861,7 +928,9 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "icon": "fa fa-home",
+                            "onClick": [Function],
                             "style": Object {},
+                            "title": "",
                           }
                         }
                       />,
@@ -888,7 +957,9 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "icon": "fa fa-home",
+                      "onClick": [Function],
                       "style": Object {},
+                      "title": "",
                     }
                   }
                 />,
@@ -904,6 +975,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <i
                     class="fa fa-home "
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -940,7 +1012,9 @@ ReactWrapper {
                       Object {
                         "className": "",
                         "icon": "fa fa-home",
+                        "onClick": [Function],
                         "style": Object {},
+                        "title": "",
                       }
                     }
                   />,
@@ -967,7 +1041,9 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "icon": "fa fa-home",
+                  "onClick": [Function],
                   "style": Object {},
+                  "title": "",
                 },
               },
               "refs": Object {},
@@ -977,7 +1053,9 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "icon": "fa fa-home",
+                  "onClick": [Function],
                   "style": Object {},
+                  "title": "",
                 },
               },
               "updater": Object {
@@ -1015,14 +1093,18 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "className": "fa fa-home ",
+              "onClick": [Function],
               "style": Object {},
+              "title": "",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "className": "fa fa-home ",
+              "onClick": [Function],
               "style": Object {},
+              "title": "",
             },
             "ref": null,
             "return": [Circular],
@@ -1030,6 +1112,7 @@ ReactWrapper {
             "sibling": null,
             "stateNode": <i
               class="fa fa-home "
+              title=""
             />,
             "tag": 7,
             "treeBaseDuration": 0,
@@ -1047,7 +1130,9 @@ ReactWrapper {
           "memoizedProps": Object {
             "className": "",
             "icon": "fa fa-home",
+            "onClick": [Function],
             "style": Object {},
+            "title": "",
           },
           "memoizedState": null,
           "mode": 0,
@@ -1055,7 +1140,9 @@ ReactWrapper {
           "pendingProps": Object {
             "className": "",
             "icon": "fa fa-home",
+            "onClick": [Function],
             "style": Object {},
+            "title": "",
           },
           "ref": null,
           "return": FiberNode {
@@ -1081,7 +1168,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "memoizedState": Object {
@@ -1090,7 +1179,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "mode": 0,
@@ -1101,7 +1192,9 @@ ReactWrapper {
               "props": Object {
                 "className": "",
                 "icon": "fa fa-home",
+                "onClick": [Function],
                 "style": Object {},
+                "title": "",
               },
             },
             "ref": null,
@@ -1142,6 +1235,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <i
                       class="fa fa-home "
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -1187,7 +1281,9 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "icon": "fa fa-home",
+                            "onClick": [Function],
                             "style": Object {},
+                            "title": "",
                           }
                         }
                       />,
@@ -1210,7 +1306,9 @@ ReactWrapper {
                           Object {
                             "className": "",
                             "icon": "fa fa-home",
+                            "onClick": [Function],
                             "style": Object {},
+                            "title": "",
                           }
                         }
                       />,
@@ -1237,7 +1335,9 @@ ReactWrapper {
                     Object {
                       "className": "",
                       "icon": "fa fa-home",
+                      "onClick": [Function],
                       "style": Object {},
+                      "title": "",
                     }
                   }
                 />,
@@ -1253,6 +1353,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <i
                     class="fa fa-home "
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -1289,7 +1390,9 @@ ReactWrapper {
                       Object {
                         "className": "",
                         "icon": "fa fa-home",
+                        "onClick": [Function],
                         "style": Object {},
+                        "title": "",
                       }
                     }
                   />,
@@ -1316,7 +1419,9 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "icon": "fa fa-home",
+                  "onClick": [Function],
                   "style": Object {},
+                  "title": "",
                 },
               },
               "refs": Object {},
@@ -1326,7 +1431,9 @@ ReactWrapper {
                 "props": Object {
                   "className": "",
                   "icon": "fa fa-home",
+                  "onClick": [Function],
                   "style": Object {},
+                  "title": "",
                 },
               },
               "updater": Object {
@@ -1354,7 +1461,9 @@ ReactWrapper {
         "props": Object {
           "className": "",
           "icon": "fa fa-home",
+          "onClick": [Function],
           "style": Object {},
+          "title": "",
         },
         "refs": Object {},
         "state": null,
@@ -1370,18 +1479,23 @@ ReactWrapper {
       "props": Object {
         "className": "",
         "icon": "fa fa-home",
+        "onClick": [Function],
         "style": Object {},
+        "title": "",
       },
       "ref": null,
       "rendered": Object {
         "instance": <i
           class="fa fa-home "
+          title=""
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "className": "fa fa-home ",
+          "onClick": [Function],
           "style": Object {},
+          "title": "",
         },
         "ref": null,
         "rendered": Array [

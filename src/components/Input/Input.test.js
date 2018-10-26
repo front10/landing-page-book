@@ -26,7 +26,6 @@ describe('Input', () => {
 
     it('always renders a div', () => {
       const divs = input().find('input');
-
       expect(divs.length).toBeGreaterThan(0);
     });
   });

@@ -52,6 +52,8 @@ import '@front10/landing-page-book/dist/components/GithubButton/style.css';
 | showCounter    | `Boolean` | Shows the total next to the button, Default `true`                      |
 | showBtnText    | `Boolean` | Shows the text inside the button, Default `true`                        |
 | showGithubIcon | `Boolean` | Shows github icon on the button, Default `false`                        |
+| btnRounded     | `Boolean` | Shows rounded button, Default `true`                                    |
+| btnDisabled    | `Boolean` | Shows github button disabled, Default `false`                           |
 | loadingClass   | `String`  | Class to loading indicator. Default `"fa fa-circle-o-notch fa-spin"`    |
 | username       | `String`  | Github username, it is mandatory                                        |
 | repository     | `String`  | Github repository, it is mandatory                                      |
@@ -70,6 +72,7 @@ import '@front10/landing-page-book/dist/components/GithubButton/style.css';
 | --GithubDetail_btn-backgroundColor        | Background color of button       | `#dcdcdc`                                                                                                                   |
 | --GithubDetail_btn-Color                  | Color of button                  | `#000`                                                                                                                      |
 | --GithubDetail_Btn-borderRadius           | Border radius of button          | `0px`                                                                                                                       |
+| --GithubDetail_speech-rounded             | Border radius of button          | `0.25rem`                                                                                                                   |
 | --GithubDetail_Btn-padding                | Padding of button                | `0.3rem 0.75rem`                                                                                                            |
 | --GithubDetail_Btn-boxShadow              | Button box shadow                | `none`                                                                                                                      |
 | --GithubDetail_Btn-boxShadow--hover       | Button box shadow on hover       | `none`                                                                                                                      |

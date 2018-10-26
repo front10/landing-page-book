@@ -94,12 +94,22 @@ class Hero extends Component {
               <Container>
                 {subHeader &&
                   subHeaderPosition === 'top' && (
-                    <Header className="Hero__SubHeader mb-5">{subHeader}</Header>
+                    <Header textAlign={isCentered && 'center'} className="Hero__SubHeader mb-5">
+                      {subHeader}
+                    </Header>
                   )}
-                {header && <Header className="Hero__Header mb-5">{header}</Header>}
+                {header && (
+                  <Header textAlign={isCentered && 'center'} className="Hero__Header mb-5">
+                    {header}
+                  </Header>
+                )}
                 {subHeader &&
                   subHeaderPosition !== 'top' && (
-                    <Header type="h2" className="Hero__SubHeader mb-5">
+                    <Header
+                      textAlign={isCentered && 'center'}
+                      type="h2"
+                      className="Hero__SubHeader mb-5"
+                    >
                       {subHeader}
                     </Header>
                   )}

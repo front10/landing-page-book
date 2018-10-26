@@ -17,9 +17,7 @@ stories.add(
         name="Copyright"
         description="the exclusive legal right, given to an originator or an assignee to print, publish, perform, film, or record literary, artistic, or musical material, and to authorize others to do the same, Protect the content of your website."
       />
-      <PropsManager scope={{ React, Copyright }}>
-        <Copyright text="Fron10, LLC" />
-      </PropsManager>
+      <PropsManager scope={{ React, Copyright }}>{`<Copyright text="Fron10, LLC" />`}</PropsManager>
     </ThemeSelector>
   ))
 );

@@ -3,10 +3,10 @@ import { storiesOf } from '@storybook/react';
 
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import DetailsComponent from '../../../../storybook-utils/components/DetailsComponent'
+import DetailsComponent from '../../../../storybook-utils/components/DetailsComponent';
 import { Navbar } from '../../../components';
 // Import DATA
-import { navbarData } from './data/navbar';
+import navbarData from './data/navbar';
 
 const stories = storiesOf('Pages', module);
 

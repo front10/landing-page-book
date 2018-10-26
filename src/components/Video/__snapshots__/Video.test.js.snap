@@ -46,6 +46,7 @@ ReactWrapper {
           "child": [Circular],
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": FiberNode {
@@ -62,6 +63,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -257,6 +259,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -461,7 +464,7 @@ ReactWrapper {
                     style="width: 640px; height: 360px;"
                   />
                 </div>,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -641,7 +644,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -653,6 +656,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 128,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -692,6 +696,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -887,6 +892,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -1091,7 +1097,7 @@ ReactWrapper {
                     style="width: 640px; height: 360px;"
                   />
                 </div>,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -1271,7 +1277,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -1281,7 +1287,7 @@ ReactWrapper {
             "stateNode": <div
               style="width: 640px; height: 360px;"
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
@@ -1307,6 +1313,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -1341,13 +1348,14 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 5,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -1361,6 +1369,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -1395,7 +1404,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -1413,6 +1422,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -1447,7 +1457,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -1641,6 +1651,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -1654,6 +1665,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -1688,7 +1700,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -1894,7 +1906,7 @@ ReactWrapper {
                   style="width: 640px; height: 360px;"
                 />
               </div>,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -2074,7 +2086,7 @@ ReactWrapper {
               />,
               "wrapperRef": [Function],
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -2169,6 +2181,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": null,
               "expirationTime": 1,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -2216,7 +2229,7 @@ ReactWrapper {
                 "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
-              "tag": 5,
+              "tag": 3,
               "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
@@ -2300,6 +2313,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 32,
+            "elementType": null,
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -2316,6 +2330,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -2511,6 +2526,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -2715,7 +2731,7 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -2895,7 +2911,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -2907,6 +2923,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -2946,6 +2963,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -3141,6 +3159,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -3345,7 +3364,7 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -3525,7 +3544,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -3535,7 +3554,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -3610,7 +3629,7 @@ ReactWrapper {
               "pendingInteractionMap": Map {},
               "timeoutHandle": -1,
             },
-            "tag": 5,
+            "tag": 3,
             "treeBaseDuration": 0,
             "type": null,
             "updateQueue": Object {
@@ -3711,7 +3730,7 @@ ReactWrapper {
               "isMounted": [Function],
             },
           },
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
@@ -3747,6 +3766,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -3781,13 +3801,14 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 5,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -3801,6 +3822,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -3835,7 +3857,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -3853,6 +3875,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -3887,7 +3910,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -4246,13 +4269,14 @@ ReactWrapper {
               />,
               "wrapperRef": [Function],
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
           },
           "childExpirationTime": 0,
           "effectTag": 0,
+          "elementType": "div",
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": FiberNode {
@@ -4269,6 +4293,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -4629,7 +4654,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -4641,6 +4666,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 128,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -4680,6 +4706,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -5040,7 +5067,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -5050,7 +5077,7 @@ ReactWrapper {
             "stateNode": <div
               style="width: 640px; height: 360px;"
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
@@ -5076,6 +5103,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -5110,13 +5138,14 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 5,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -5130,6 +5159,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -5164,7 +5194,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -5182,6 +5212,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -5216,7 +5247,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -5575,7 +5606,7 @@ ReactWrapper {
               />,
               "wrapperRef": [Function],
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -5778,13 +5809,14 @@ ReactWrapper {
               style="width: 640px; height: 360px;"
             />
           </div>,
-          "tag": 7,
+          "tag": 5,
           "treeBaseDuration": 0,
           "type": "div",
           "updateQueue": null,
         },
         "childExpirationTime": 0,
         "effectTag": 1,
+        "elementType": [Function],
         "expirationTime": 0,
         "firstContextDependency": null,
         "firstEffect": FiberNode {
@@ -5801,6 +5833,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 5,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": [Circular],
@@ -5996,6 +6029,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -6200,7 +6234,7 @@ ReactWrapper {
                   style="width: 640px; height: 360px;"
                 />
               </div>,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -6380,7 +6414,7 @@ ReactWrapper {
               />,
               "wrapperRef": [Function],
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -6392,6 +6426,7 @@ ReactWrapper {
           "child": null,
           "childExpirationTime": 0,
           "effectTag": 128,
+          "elementType": "div",
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": null,
@@ -6431,6 +6466,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 5,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": [Circular],
@@ -6626,6 +6662,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -6830,7 +6867,7 @@ ReactWrapper {
                   style="width: 640px; height: 360px;"
                 />
               </div>,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -7010,7 +7047,7 @@ ReactWrapper {
               />,
               "wrapperRef": [Function],
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -7020,7 +7057,7 @@ ReactWrapper {
           "stateNode": <div
             style="width: 640px; height: 360px;"
           />,
-          "tag": 7,
+          "tag": 5,
           "treeBaseDuration": 0,
           "type": "div",
           "updateQueue": null,
@@ -7046,6 +7083,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 128,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -7080,13 +7118,14 @@ ReactWrapper {
             "stateNode": <div
               style="width: 640px; height: 360px;"
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
           },
           "childExpirationTime": 0,
           "effectTag": 5,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": FiberNode {
@@ -7100,6 +7139,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 128,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -7134,7 +7174,7 @@ ReactWrapper {
             "stateNode": <div
               style="width: 640px; height: 360px;"
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
@@ -7152,6 +7192,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 128,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -7186,7 +7227,7 @@ ReactWrapper {
             "stateNode": <div
               style="width: 640px; height: 360px;"
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
@@ -7380,6 +7421,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 0,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -7393,6 +7435,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -7427,7 +7470,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -7633,7 +7676,7 @@ ReactWrapper {
                 style="width: 640px; height: 360px;"
               />
             </div>,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
@@ -7813,7 +7856,7 @@ ReactWrapper {
             />,
             "wrapperRef": [Function],
           },
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
@@ -7871,6 +7914,7 @@ ReactWrapper {
           "child": [Circular],
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": FiberNode {
@@ -7887,6 +7931,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -8082,6 +8127,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -8286,7 +8332,7 @@ ReactWrapper {
                     style="width: 640px; height: 360px;"
                   />
                 </div>,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -8466,7 +8512,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -8478,6 +8524,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 128,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -8517,6 +8564,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -8712,6 +8760,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -8916,7 +8965,7 @@ ReactWrapper {
                     style="width: 640px; height: 360px;"
                   />
                 </div>,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -9096,7 +9145,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -9106,7 +9155,7 @@ ReactWrapper {
             "stateNode": <div
               style="width: 640px; height: 360px;"
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
@@ -9132,6 +9181,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -9166,13 +9216,14 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 5,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -9186,6 +9237,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -9220,7 +9272,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -9238,6 +9290,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -9272,7 +9325,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -9466,6 +9519,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -9479,6 +9533,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -9513,7 +9568,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -9719,7 +9774,7 @@ ReactWrapper {
                   style="width: 640px; height: 360px;"
                 />
               </div>,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -9899,7 +9954,7 @@ ReactWrapper {
               />,
               "wrapperRef": [Function],
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -9994,6 +10049,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": null,
               "expirationTime": 1,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -10041,7 +10097,7 @@ ReactWrapper {
                 "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
-              "tag": 5,
+              "tag": 3,
               "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
@@ -10125,6 +10181,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 32,
+            "elementType": null,
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -10141,6 +10198,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -10336,6 +10394,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -10540,7 +10599,7 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -10720,7 +10779,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -10732,6 +10791,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -10771,6 +10831,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -10966,6 +11027,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -11170,7 +11232,7 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -11350,7 +11412,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -11360,7 +11422,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -11435,7 +11497,7 @@ ReactWrapper {
               "pendingInteractionMap": Map {},
               "timeoutHandle": -1,
             },
-            "tag": 5,
+            "tag": 3,
             "treeBaseDuration": 0,
             "type": null,
             "updateQueue": Object {
@@ -11536,7 +11598,7 @@ ReactWrapper {
               "isMounted": [Function],
             },
           },
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
@@ -11544,7 +11606,7 @@ ReactWrapper {
         "selfBaseDuration": 0,
         "sibling": null,
         "stateNode": [Circular],
-        "tag": 2,
+        "tag": 1,
         "treeBaseDuration": 0,
         "type": [Function],
         "updateQueue": null,
@@ -11724,6 +11786,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 1,
+                  "elementType": [Function],
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": FiberNode {
@@ -11737,6 +11800,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 128,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -11771,7 +11835,7 @@ ReactWrapper {
                     "stateNode": <div
                       style="width: 640px; height: 360px;"
                     />,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -11869,6 +11933,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 0,
+                      "elementType": null,
                       "expirationTime": 1,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -11916,7 +11981,7 @@ ReactWrapper {
                         "pendingInteractionMap": Map {},
                         "timeoutHandle": -1,
                       },
-                      "tag": 5,
+                      "tag": 3,
                       "treeBaseDuration": 0,
                       "type": null,
                       "updateQueue": Object {
@@ -12000,6 +12065,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 32,
+                    "elementType": null,
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -12013,6 +12079,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -12047,7 +12114,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -12122,7 +12189,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -12223,7 +12290,7 @@ ReactWrapper {
                       "isMounted": [Function],
                     },
                   },
-                  "tag": 2,
+                  "tag": 1,
                   "treeBaseDuration": 0,
                   "type": [Function],
                   "updateQueue": null,
@@ -12243,6 +12310,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": FiberNode {
@@ -12256,6 +12324,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 128,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -12290,7 +12359,7 @@ ReactWrapper {
                     "stateNode": <div
                       style="width: 640px; height: 360px;"
                     />,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -12496,13 +12565,14 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
                 },
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": FiberNode {
@@ -12516,6 +12586,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 128,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -12550,7 +12621,7 @@ ReactWrapper {
                   "stateNode": <div
                     style="width: 640px; height: 360px;"
                   />,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -12611,6 +12682,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 1,
+                  "elementType": [Function],
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": FiberNode {
@@ -12624,6 +12696,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 128,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -12658,7 +12731,7 @@ ReactWrapper {
                     "stateNode": <div
                       style="width: 640px; height: 360px;"
                     />,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -12756,6 +12829,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 0,
+                      "elementType": null,
                       "expirationTime": 1,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -12803,7 +12877,7 @@ ReactWrapper {
                         "pendingInteractionMap": Map {},
                         "timeoutHandle": -1,
                       },
-                      "tag": 5,
+                      "tag": 3,
                       "treeBaseDuration": 0,
                       "type": null,
                       "updateQueue": Object {
@@ -12887,6 +12961,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 32,
+                    "elementType": null,
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -12900,6 +12975,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -12934,7 +13010,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -13009,7 +13085,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -13110,7 +13186,7 @@ ReactWrapper {
                       "isMounted": [Function],
                     },
                   },
-                  "tag": 2,
+                  "tag": 1,
                   "treeBaseDuration": 0,
                   "type": [Function],
                   "updateQueue": null,
@@ -13149,7 +13225,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -13169,6 +13245,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -13203,13 +13280,14 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -13223,6 +13301,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -13257,7 +13336,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -13275,6 +13354,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -13309,7 +13389,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -13509,6 +13589,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 1,
+                    "elementType": [Function],
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -13522,6 +13603,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -13556,7 +13638,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -13654,6 +13736,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 0,
+                        "elementType": null,
                         "expirationTime": 1,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -13701,7 +13784,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -13785,6 +13868,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 32,
+                      "elementType": null,
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -13798,6 +13882,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -13832,7 +13917,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -13907,7 +13992,7 @@ ReactWrapper {
                         "pendingInteractionMap": Map {},
                         "timeoutHandle": -1,
                       },
-                      "tag": 5,
+                      "tag": 3,
                       "treeBaseDuration": 0,
                       "type": null,
                       "updateQueue": Object {
@@ -14008,7 +14093,7 @@ ReactWrapper {
                         "isMounted": [Function],
                       },
                     },
-                    "tag": 2,
+                    "tag": 1,
                     "treeBaseDuration": 0,
                     "type": [Function],
                     "updateQueue": null,
@@ -14020,6 +14105,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 1,
+                  "elementType": [Function],
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": FiberNode {
@@ -14033,6 +14119,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 128,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -14067,7 +14154,7 @@ ReactWrapper {
                     "stateNode": <div
                       style="width: 640px; height: 360px;"
                     />,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -14128,6 +14215,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 1,
+                    "elementType": [Function],
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -14141,6 +14229,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -14175,7 +14264,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -14273,6 +14362,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 0,
+                        "elementType": null,
                         "expirationTime": 1,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -14320,7 +14410,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -14404,6 +14494,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 32,
+                      "elementType": null,
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -14417,6 +14508,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -14451,7 +14543,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -14526,7 +14618,7 @@ ReactWrapper {
                         "pendingInteractionMap": Map {},
                         "timeoutHandle": -1,
                       },
-                      "tag": 5,
+                      "tag": 3,
                       "treeBaseDuration": 0,
                       "type": null,
                       "updateQueue": Object {
@@ -14627,7 +14719,7 @@ ReactWrapper {
                         "isMounted": [Function],
                       },
                     },
-                    "tag": 2,
+                    "tag": 1,
                     "treeBaseDuration": 0,
                     "type": [Function],
                     "updateQueue": null,
@@ -14666,7 +14758,7 @@ ReactWrapper {
                       "isMounted": [Function],
                     },
                   },
-                  "tag": 2,
+                  "tag": 1,
                   "treeBaseDuration": 0,
                   "type": [Function],
                   "updateQueue": null,
@@ -14678,6 +14770,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": FiberNode {
@@ -14691,6 +14784,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 128,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -14725,7 +14819,7 @@ ReactWrapper {
                   "stateNode": <div
                     style="width: 640px; height: 360px;"
                   />,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -14935,6 +15029,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 1,
+                    "elementType": [Function],
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -14948,6 +15043,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -14982,7 +15078,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -15080,6 +15176,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 0,
+                        "elementType": null,
                         "expirationTime": 1,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -15127,7 +15224,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -15211,6 +15308,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 32,
+                      "elementType": null,
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -15224,6 +15322,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -15258,7 +15357,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -15333,7 +15432,7 @@ ReactWrapper {
                         "pendingInteractionMap": Map {},
                         "timeoutHandle": -1,
                       },
-                      "tag": 5,
+                      "tag": 3,
                       "treeBaseDuration": 0,
                       "type": null,
                       "updateQueue": Object {
@@ -15434,7 +15533,7 @@ ReactWrapper {
                         "isMounted": [Function],
                       },
                     },
-                    "tag": 2,
+                    "tag": 1,
                     "treeBaseDuration": 0,
                     "type": [Function],
                     "updateQueue": null,
@@ -15446,6 +15545,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 1,
+                  "elementType": [Function],
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": FiberNode {
@@ -15459,6 +15559,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 128,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -15493,7 +15594,7 @@ ReactWrapper {
                     "stateNode": <div
                       style="width: 640px; height: 360px;"
                     />,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -15554,6 +15655,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 1,
+                    "elementType": [Function],
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -15567,6 +15669,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -15601,7 +15704,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -15699,6 +15802,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 0,
+                        "elementType": null,
                         "expirationTime": 1,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -15746,7 +15850,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -15830,6 +15934,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 32,
+                      "elementType": null,
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -15843,6 +15948,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -15877,7 +15983,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -15952,7 +16058,7 @@ ReactWrapper {
                         "pendingInteractionMap": Map {},
                         "timeoutHandle": -1,
                       },
-                      "tag": 5,
+                      "tag": 3,
                       "treeBaseDuration": 0,
                       "type": null,
                       "updateQueue": Object {
@@ -16053,7 +16159,7 @@ ReactWrapper {
                         "isMounted": [Function],
                       },
                     },
-                    "tag": 2,
+                    "tag": 1,
                     "treeBaseDuration": 0,
                     "type": [Function],
                     "updateQueue": null,
@@ -16092,7 +16198,7 @@ ReactWrapper {
                       "isMounted": [Function],
                     },
                   },
-                  "tag": 2,
+                  "tag": 1,
                   "treeBaseDuration": 0,
                   "type": [Function],
                   "updateQueue": null,
@@ -16106,7 +16212,7 @@ ReactWrapper {
                     style="width: 640px; height: 360px;"
                   />
                 </div>,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -16114,7 +16220,7 @@ ReactWrapper {
               "selfBaseDuration": 0,
               "sibling": null,
               "stateNode": [Circular],
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -16427,6 +16533,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -16443,6 +16550,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -16638,6 +16746,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -16842,7 +16951,7 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -17022,7 +17131,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -17034,6 +17143,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -17073,6 +17183,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -17268,6 +17379,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -17472,7 +17584,7 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -17652,7 +17764,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -17662,7 +17774,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -17688,6 +17800,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -17722,13 +17835,14 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -17742,6 +17856,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -17776,7 +17891,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -17794,6 +17909,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -17828,7 +17944,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -18022,6 +18138,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": FiberNode {
@@ -18035,6 +18152,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 128,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -18069,7 +18187,7 @@ ReactWrapper {
                   "stateNode": <div
                     style="width: 640px; height: 360px;"
                   />,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -18275,7 +18393,7 @@ ReactWrapper {
                     style="width: 640px; height: 360px;"
                   />
                 </div>,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -18455,7 +18573,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -18550,6 +18668,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": null,
                 "expirationTime": 1,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -18597,7 +18716,7 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -18681,6 +18800,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 32,
+              "elementType": null,
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -18697,6 +18817,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 5,
+                  "elementType": [Function],
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -18892,6 +19013,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 0,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": [Circular],
@@ -19096,7 +19218,7 @@ ReactWrapper {
                         style="width: 640px; height: 360px;"
                       />
                     </div>,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -19276,7 +19398,7 @@ ReactWrapper {
                     />,
                     "wrapperRef": [Function],
                   },
-                  "tag": 2,
+                  "tag": 1,
                   "treeBaseDuration": 0,
                   "type": [Function],
                   "updateQueue": null,
@@ -19288,6 +19410,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -19327,6 +19450,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 5,
+                  "elementType": [Function],
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -19522,6 +19646,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 0,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": [Circular],
@@ -19726,7 +19851,7 @@ ReactWrapper {
                         style="width: 640px; height: 360px;"
                       />
                     </div>,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -19906,7 +20031,7 @@ ReactWrapper {
                     />,
                     "wrapperRef": [Function],
                   },
-                  "tag": 2,
+                  "tag": 1,
                   "treeBaseDuration": 0,
                   "type": [Function],
                   "updateQueue": null,
@@ -19916,7 +20041,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -19991,7 +20116,7 @@ ReactWrapper {
                 "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
-              "tag": 5,
+              "tag": 3,
               "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
@@ -20092,7 +20217,7 @@ ReactWrapper {
                 "isMounted": [Function],
               },
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -20128,6 +20253,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -20162,13 +20288,14 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -20182,6 +20309,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -20216,7 +20344,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -20234,6 +20362,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -20268,7 +20397,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -20627,13 +20756,14 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 0,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -20650,6 +20780,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -21010,7 +21141,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -21022,6 +21153,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -21061,6 +21193,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -21421,7 +21554,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -21431,7 +21564,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -21457,6 +21590,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -21491,13 +21625,14 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -21511,6 +21646,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -21545,7 +21681,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -21563,6 +21699,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -21597,7 +21734,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -21956,7 +22093,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -22159,13 +22296,14 @@ ReactWrapper {
                 style="width: 640px; height: 360px;"
               />
             </div>,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
           },
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": FiberNode {
@@ -22182,6 +22320,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -22377,6 +22516,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -22581,7 +22721,7 @@ ReactWrapper {
                     style="width: 640px; height: 360px;"
                   />
                 </div>,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -22761,7 +22901,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -22773,6 +22913,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 128,
+            "elementType": "div",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -22812,6 +22953,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -23007,6 +23149,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -23211,7 +23354,7 @@ ReactWrapper {
                     style="width: 640px; height: 360px;"
                   />
                 </div>,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -23391,7 +23534,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -23401,7 +23544,7 @@ ReactWrapper {
             "stateNode": <div
               style="width: 640px; height: 360px;"
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "div",
             "updateQueue": null,
@@ -23427,6 +23570,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -23461,13 +23605,14 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 5,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -23481,6 +23626,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -23515,7 +23661,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -23533,6 +23679,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -23567,7 +23714,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -23761,6 +23908,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -23774,6 +23922,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -23808,7 +23957,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -24014,7 +24163,7 @@ ReactWrapper {
                   style="width: 640px; height: 360px;"
                 />
               </div>,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -24194,7 +24343,7 @@ ReactWrapper {
               />,
               "wrapperRef": [Function],
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -24252,6 +24401,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": FiberNode {
@@ -24268,6 +24418,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -24463,6 +24614,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -24667,7 +24819,7 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -24847,7 +24999,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -24859,6 +25011,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 128,
+              "elementType": "div",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -24898,6 +25051,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -25093,6 +25247,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -25297,7 +25452,7 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -25477,7 +25632,7 @@ ReactWrapper {
                   />,
                   "wrapperRef": [Function],
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -25487,7 +25642,7 @@ ReactWrapper {
               "stateNode": <div
                 style="width: 640px; height: 360px;"
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "div",
               "updateQueue": null,
@@ -25513,6 +25668,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -25547,13 +25703,14 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
               },
               "childExpirationTime": 0,
               "effectTag": 5,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -25567,6 +25724,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -25601,7 +25759,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -25619,6 +25777,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -25653,7 +25812,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -25847,6 +26006,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": FiberNode {
@@ -25860,6 +26020,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 128,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -25894,7 +26055,7 @@ ReactWrapper {
                   "stateNode": <div
                     style="width: 640px; height: 360px;"
                   />,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -26100,7 +26261,7 @@ ReactWrapper {
                     style="width: 640px; height: 360px;"
                   />
                 </div>,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -26280,7 +26441,7 @@ ReactWrapper {
                 />,
                 "wrapperRef": [Function],
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -26375,6 +26536,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": null,
                 "expirationTime": 1,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -26422,7 +26584,7 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -26506,6 +26668,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 32,
+              "elementType": null,
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": FiberNode {
@@ -26522,6 +26685,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 5,
+                  "elementType": [Function],
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -26717,6 +26881,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 0,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": [Circular],
@@ -26921,7 +27086,7 @@ ReactWrapper {
                         style="width: 640px; height: 360px;"
                       />
                     </div>,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -27101,7 +27266,7 @@ ReactWrapper {
                     />,
                     "wrapperRef": [Function],
                   },
-                  "tag": 2,
+                  "tag": 1,
                   "treeBaseDuration": 0,
                   "type": [Function],
                   "updateQueue": null,
@@ -27113,6 +27278,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 128,
+                "elementType": "div",
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -27152,6 +27318,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 5,
+                  "elementType": [Function],
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -27347,6 +27514,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 0,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": [Circular],
@@ -27551,7 +27719,7 @@ ReactWrapper {
                         style="width: 640px; height: 360px;"
                       />
                     </div>,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -27731,7 +27899,7 @@ ReactWrapper {
                     />,
                     "wrapperRef": [Function],
                   },
-                  "tag": 2,
+                  "tag": 1,
                   "treeBaseDuration": 0,
                   "type": [Function],
                   "updateQueue": null,
@@ -27741,7 +27909,7 @@ ReactWrapper {
                 "stateNode": <div
                   style="width: 640px; height: 360px;"
                 />,
-                "tag": 7,
+                "tag": 5,
                 "treeBaseDuration": 0,
                 "type": "div",
                 "updateQueue": null,
@@ -27816,7 +27984,7 @@ ReactWrapper {
                 "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
-              "tag": 5,
+              "tag": 3,
               "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
@@ -27917,7 +28085,7 @@ ReactWrapper {
                 "isMounted": [Function],
               },
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -27925,7 +28093,7 @@ ReactWrapper {
           "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": [Circular],
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
@@ -28105,6 +28273,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 1,
+                    "elementType": [Function],
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -28118,6 +28287,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -28152,7 +28322,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -28250,6 +28420,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 0,
+                        "elementType": null,
                         "expirationTime": 1,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -28297,7 +28468,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -28381,6 +28552,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 32,
+                      "elementType": null,
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -28394,6 +28566,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -28428,7 +28601,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -28503,7 +28676,7 @@ ReactWrapper {
                         "pendingInteractionMap": Map {},
                         "timeoutHandle": -1,
                       },
-                      "tag": 5,
+                      "tag": 3,
                       "treeBaseDuration": 0,
                       "type": null,
                       "updateQueue": Object {
@@ -28604,7 +28777,7 @@ ReactWrapper {
                         "isMounted": [Function],
                       },
                     },
-                    "tag": 2,
+                    "tag": 1,
                     "treeBaseDuration": 0,
                     "type": [Function],
                     "updateQueue": null,
@@ -28624,6 +28797,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 0,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -28637,6 +28811,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -28671,7 +28846,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -28877,13 +29052,14 @@ ReactWrapper {
                         style="width: 640px; height: 360px;"
                       />
                     </div>,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
                   },
                   "childExpirationTime": 0,
                   "effectTag": 1,
+                  "elementType": [Function],
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": FiberNode {
@@ -28897,6 +29073,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 128,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -28931,7 +29108,7 @@ ReactWrapper {
                     "stateNode": <div
                       style="width: 640px; height: 360px;"
                     />,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -28992,6 +29169,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 1,
+                    "elementType": [Function],
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -29005,6 +29183,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -29039,7 +29218,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -29137,6 +29316,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 0,
+                        "elementType": null,
                         "expirationTime": 1,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -29184,7 +29364,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -29268,6 +29448,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 32,
+                      "elementType": null,
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -29281,6 +29462,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -29315,7 +29497,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -29390,7 +29572,7 @@ ReactWrapper {
                         "pendingInteractionMap": Map {},
                         "timeoutHandle": -1,
                       },
-                      "tag": 5,
+                      "tag": 3,
                       "treeBaseDuration": 0,
                       "type": null,
                       "updateQueue": Object {
@@ -29491,7 +29673,7 @@ ReactWrapper {
                         "isMounted": [Function],
                       },
                     },
-                    "tag": 2,
+                    "tag": 1,
                     "treeBaseDuration": 0,
                     "type": [Function],
                     "updateQueue": null,
@@ -29530,7 +29712,7 @@ ReactWrapper {
                       "isMounted": [Function],
                     },
                   },
-                  "tag": 2,
+                  "tag": 1,
                   "treeBaseDuration": 0,
                   "type": [Function],
                   "updateQueue": null,
@@ -29550,6 +29732,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 128,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -29584,13 +29767,14 @@ ReactWrapper {
                   "stateNode": <div
                     style="width: 640px; height: 360px;"
                   />,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
                 },
                 "childExpirationTime": 0,
                 "effectTag": 5,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": FiberNode {
@@ -29604,6 +29788,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 128,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -29638,7 +29823,7 @@ ReactWrapper {
                   "stateNode": <div
                     style="width: 640px; height: 360px;"
                   />,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -29656,6 +29841,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 128,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -29690,7 +29876,7 @@ ReactWrapper {
                   "stateNode": <div
                     style="width: 640px; height: 360px;"
                   />,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -29890,6 +30076,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 1,
+                      "elementType": [Function],
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -29903,6 +30090,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -29937,7 +30125,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -30035,6 +30223,7 @@ ReactWrapper {
                           "child": null,
                           "childExpirationTime": 0,
                           "effectTag": 0,
+                          "elementType": null,
                           "expirationTime": 1,
                           "firstContextDependency": null,
                           "firstEffect": null,
@@ -30082,7 +30271,7 @@ ReactWrapper {
                             "pendingInteractionMap": Map {},
                             "timeoutHandle": -1,
                           },
-                          "tag": 5,
+                          "tag": 3,
                           "treeBaseDuration": 0,
                           "type": null,
                           "updateQueue": Object {
@@ -30166,6 +30355,7 @@ ReactWrapper {
                         "child": [Circular],
                         "childExpirationTime": 0,
                         "effectTag": 32,
+                        "elementType": null,
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": FiberNode {
@@ -30179,6 +30369,7 @@ ReactWrapper {
                           "child": null,
                           "childExpirationTime": 0,
                           "effectTag": 128,
+                          "elementType": "div",
                           "expirationTime": 0,
                           "firstContextDependency": null,
                           "firstEffect": null,
@@ -30213,7 +30404,7 @@ ReactWrapper {
                           "stateNode": <div
                             style="width: 640px; height: 360px;"
                           />,
-                          "tag": 7,
+                          "tag": 5,
                           "treeBaseDuration": 0,
                           "type": "div",
                           "updateQueue": null,
@@ -30288,7 +30479,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -30389,7 +30580,7 @@ ReactWrapper {
                           "isMounted": [Function],
                         },
                       },
-                      "tag": 2,
+                      "tag": 1,
                       "treeBaseDuration": 0,
                       "type": [Function],
                       "updateQueue": null,
@@ -30401,6 +30592,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 1,
+                    "elementType": [Function],
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -30414,6 +30606,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -30448,7 +30641,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -30509,6 +30702,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 1,
+                      "elementType": [Function],
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -30522,6 +30716,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -30556,7 +30751,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -30654,6 +30849,7 @@ ReactWrapper {
                           "child": null,
                           "childExpirationTime": 0,
                           "effectTag": 0,
+                          "elementType": null,
                           "expirationTime": 1,
                           "firstContextDependency": null,
                           "firstEffect": null,
@@ -30701,7 +30897,7 @@ ReactWrapper {
                             "pendingInteractionMap": Map {},
                             "timeoutHandle": -1,
                           },
-                          "tag": 5,
+                          "tag": 3,
                           "treeBaseDuration": 0,
                           "type": null,
                           "updateQueue": Object {
@@ -30785,6 +30981,7 @@ ReactWrapper {
                         "child": [Circular],
                         "childExpirationTime": 0,
                         "effectTag": 32,
+                        "elementType": null,
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": FiberNode {
@@ -30798,6 +30995,7 @@ ReactWrapper {
                           "child": null,
                           "childExpirationTime": 0,
                           "effectTag": 128,
+                          "elementType": "div",
                           "expirationTime": 0,
                           "firstContextDependency": null,
                           "firstEffect": null,
@@ -30832,7 +31030,7 @@ ReactWrapper {
                           "stateNode": <div
                             style="width: 640px; height: 360px;"
                           />,
-                          "tag": 7,
+                          "tag": 5,
                           "treeBaseDuration": 0,
                           "type": "div",
                           "updateQueue": null,
@@ -30907,7 +31105,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -31008,7 +31206,7 @@ ReactWrapper {
                           "isMounted": [Function],
                         },
                       },
-                      "tag": 2,
+                      "tag": 1,
                       "treeBaseDuration": 0,
                       "type": [Function],
                       "updateQueue": null,
@@ -31047,7 +31245,7 @@ ReactWrapper {
                         "isMounted": [Function],
                       },
                     },
-                    "tag": 2,
+                    "tag": 1,
                     "treeBaseDuration": 0,
                     "type": [Function],
                     "updateQueue": null,
@@ -31059,6 +31257,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": "div",
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": FiberNode {
@@ -31072,6 +31271,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 128,
+                    "elementType": "div",
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -31106,7 +31306,7 @@ ReactWrapper {
                     "stateNode": <div
                       style="width: 640px; height: 360px;"
                     />,
-                    "tag": 7,
+                    "tag": 5,
                     "treeBaseDuration": 0,
                     "type": "div",
                     "updateQueue": null,
@@ -31316,6 +31516,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 1,
+                      "elementType": [Function],
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -31329,6 +31530,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -31363,7 +31565,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -31461,6 +31663,7 @@ ReactWrapper {
                           "child": null,
                           "childExpirationTime": 0,
                           "effectTag": 0,
+                          "elementType": null,
                           "expirationTime": 1,
                           "firstContextDependency": null,
                           "firstEffect": null,
@@ -31508,7 +31711,7 @@ ReactWrapper {
                             "pendingInteractionMap": Map {},
                             "timeoutHandle": -1,
                           },
-                          "tag": 5,
+                          "tag": 3,
                           "treeBaseDuration": 0,
                           "type": null,
                           "updateQueue": Object {
@@ -31592,6 +31795,7 @@ ReactWrapper {
                         "child": [Circular],
                         "childExpirationTime": 0,
                         "effectTag": 32,
+                        "elementType": null,
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": FiberNode {
@@ -31605,6 +31809,7 @@ ReactWrapper {
                           "child": null,
                           "childExpirationTime": 0,
                           "effectTag": 128,
+                          "elementType": "div",
                           "expirationTime": 0,
                           "firstContextDependency": null,
                           "firstEffect": null,
@@ -31639,7 +31844,7 @@ ReactWrapper {
                           "stateNode": <div
                             style="width: 640px; height: 360px;"
                           />,
-                          "tag": 7,
+                          "tag": 5,
                           "treeBaseDuration": 0,
                           "type": "div",
                           "updateQueue": null,
@@ -31714,7 +31919,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -31815,7 +32020,7 @@ ReactWrapper {
                           "isMounted": [Function],
                         },
                       },
-                      "tag": 2,
+                      "tag": 1,
                       "treeBaseDuration": 0,
                       "type": [Function],
                       "updateQueue": null,
@@ -31827,6 +32032,7 @@ ReactWrapper {
                     "child": [Circular],
                     "childExpirationTime": 0,
                     "effectTag": 1,
+                    "elementType": [Function],
                     "expirationTime": 0,
                     "firstContextDependency": null,
                     "firstEffect": FiberNode {
@@ -31840,6 +32046,7 @@ ReactWrapper {
                       "child": null,
                       "childExpirationTime": 0,
                       "effectTag": 128,
+                      "elementType": "div",
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": null,
@@ -31874,7 +32081,7 @@ ReactWrapper {
                       "stateNode": <div
                         style="width: 640px; height: 360px;"
                       />,
-                      "tag": 7,
+                      "tag": 5,
                       "treeBaseDuration": 0,
                       "type": "div",
                       "updateQueue": null,
@@ -31935,6 +32142,7 @@ ReactWrapper {
                       "child": [Circular],
                       "childExpirationTime": 0,
                       "effectTag": 1,
+                      "elementType": [Function],
                       "expirationTime": 0,
                       "firstContextDependency": null,
                       "firstEffect": FiberNode {
@@ -31948,6 +32156,7 @@ ReactWrapper {
                         "child": null,
                         "childExpirationTime": 0,
                         "effectTag": 128,
+                        "elementType": "div",
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": null,
@@ -31982,7 +32191,7 @@ ReactWrapper {
                         "stateNode": <div
                           style="width: 640px; height: 360px;"
                         />,
-                        "tag": 7,
+                        "tag": 5,
                         "treeBaseDuration": 0,
                         "type": "div",
                         "updateQueue": null,
@@ -32080,6 +32289,7 @@ ReactWrapper {
                           "child": null,
                           "childExpirationTime": 0,
                           "effectTag": 0,
+                          "elementType": null,
                           "expirationTime": 1,
                           "firstContextDependency": null,
                           "firstEffect": null,
@@ -32127,7 +32337,7 @@ ReactWrapper {
                             "pendingInteractionMap": Map {},
                             "timeoutHandle": -1,
                           },
-                          "tag": 5,
+                          "tag": 3,
                           "treeBaseDuration": 0,
                           "type": null,
                           "updateQueue": Object {
@@ -32211,6 +32421,7 @@ ReactWrapper {
                         "child": [Circular],
                         "childExpirationTime": 0,
                         "effectTag": 32,
+                        "elementType": null,
                         "expirationTime": 0,
                         "firstContextDependency": null,
                         "firstEffect": FiberNode {
@@ -32224,6 +32435,7 @@ ReactWrapper {
                           "child": null,
                           "childExpirationTime": 0,
                           "effectTag": 128,
+                          "elementType": "div",
                           "expirationTime": 0,
                           "firstContextDependency": null,
                           "firstEffect": null,
@@ -32258,7 +32470,7 @@ ReactWrapper {
                           "stateNode": <div
                             style="width: 640px; height: 360px;"
                           />,
-                          "tag": 7,
+                          "tag": 5,
                           "treeBaseDuration": 0,
                           "type": "div",
                           "updateQueue": null,
@@ -32333,7 +32545,7 @@ ReactWrapper {
                           "pendingInteractionMap": Map {},
                           "timeoutHandle": -1,
                         },
-                        "tag": 5,
+                        "tag": 3,
                         "treeBaseDuration": 0,
                         "type": null,
                         "updateQueue": Object {
@@ -32434,7 +32646,7 @@ ReactWrapper {
                           "isMounted": [Function],
                         },
                       },
-                      "tag": 2,
+                      "tag": 1,
                       "treeBaseDuration": 0,
                       "type": [Function],
                       "updateQueue": null,
@@ -32473,7 +32685,7 @@ ReactWrapper {
                         "isMounted": [Function],
                       },
                     },
-                    "tag": 2,
+                    "tag": 1,
                     "treeBaseDuration": 0,
                     "type": [Function],
                     "updateQueue": null,
@@ -32487,7 +32699,7 @@ ReactWrapper {
                       style="width: 640px; height: 360px;"
                     />
                   </div>,
-                  "tag": 7,
+                  "tag": 5,
                   "treeBaseDuration": 0,
                   "type": "div",
                   "updateQueue": null,
@@ -32495,7 +32707,7 @@ ReactWrapper {
                 "selfBaseDuration": 0,
                 "sibling": null,
                 "stateNode": [Circular],
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,

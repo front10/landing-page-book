@@ -1,0 +1,864 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "layout": null,
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
+      "path": "/dev-404-page/",
+      "component": "/home/yulier/Work/landing-page-book/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/home/yulier/Work/landing-page-book/.cache/dev-404-page.js",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "989263164d7e4e1e923e126c0b3e1982",
+        "description": "Plugin dev-404-page",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "02df4a8f97c1b18a2b398a2f6de88eed",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "018659f9dfc82a8ccec6ae86cfcb995f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "290dc677206b1b0c85c0217e4d5fbc84",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "85112bbfab528ae72f4e131c086db1b4",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/yulier/Work/landing-page-book/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "d3f1a6259b3efe0ab7d87a07156186bb",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/home/yulier/Work/landing-page-book/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/home/yulier/Work/landing-page-book/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "6ab79ee3ff6080ef71c8d0d2c63ebe7f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/home/yulier/Work/landing-page-book",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "4c44642397deb46c692debfca930258e",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/yulier/Work/landing-page-book",
+      "packageJson": {
+        "name": "@front10/landing-page-book",
+        "description": "A react library for landing page",
+        "version": "1.3.1",
+        "main": "dist/index.js",
+        "keywords": [
+          "React",
+          "Landing",
+          "React Components",
+          "Landing Pages",
+          "Storybook",
+          "Component Explorer"
+        ],
+        "author": "front10",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.9.45"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.17"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "bootstrap",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "codemirror",
+            "version": "^5.39.0"
+          },
+          {
+            "name": "email-validator",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "font-awesome",
+            "version": "^4.7.0"
+          },
+          {
+            "name": "google-map-react",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "graphql-syntax-highlighter-react",
+            "version": "^0.3.5"
+          },
+          {
+            "name": "highlight.js",
+            "version": "^9.12.0"
+          },
+          {
+            "name": "node-fetch",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.2.0"
+          },
+          {
+            "name": "react-codemirror",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-copy-to-clipboard",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.2.0"
+          },
+          {
+            "name": "react-flags-select",
+            "version": "^1.1.9"
+          },
+          {
+            "name": "react-ga",
+            "version": "^2.5.3"
+          },
+          {
+            "name": "react-gif-player",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "react-json-pretty",
+            "version": "^1.7.9"
+          },
+          {
+            "name": "react-lazy-hero",
+            "version": "^0.4.0"
+          },
+          {
+            "name": "react-particles-js",
+            "version": "^2.3.0"
+          },
+          {
+            "name": "react-player",
+            "version": "^1.6.4"
+          },
+          {
+            "name": "react-share",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "react-stepzilla",
+            "version": "^4.7.2"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@storybook/addon-actions",
+            "version": "^3.2.12"
+          },
+          {
+            "name": "@storybook/addon-knobs",
+            "version": "^3.2.12"
+          },
+          {
+            "name": "@storybook/addon-options",
+            "version": "^3.2.12"
+          },
+          {
+            "name": "@storybook/react",
+            "version": "^3.2.12"
+          },
+          {
+            "name": "babel-loader",
+            "version": "7.1.1"
+          },
+          {
+            "name": "storybook-readme",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "@kadira/storybook-addon-options",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "@storybook/addon-centered",
+            "version": "^3.3.12"
+          },
+          {
+            "name": "@storybook/addon-viewport",
+            "version": "^3.3.12"
+          },
+          {
+            "name": "@storybook/addons",
+            "version": "^3.4.2"
+          },
+          {
+            "name": "@types/prop-types",
+            "version": "^15.5.3"
+          },
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-core",
+            "version": "^6.26.3"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^8.2.1"
+          },
+          {
+            "name": "babel-jest",
+            "version": "^22.4.3"
+          },
+          {
+            "name": "babel-plugin-macros",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-runtime",
+            "version": "^6.23.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "body-parser",
+            "version": "^1.18.3"
+          },
+          {
+            "name": "cors",
+            "version": "^2.8.4"
+          },
+          {
+            "name": "coveralls",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "css-loader",
+            "version": "^0.28.11"
+          },
+          {
+            "name": "enzyme",
+            "version": "^3.3.0"
+          },
+          {
+            "name": "enzyme-adapter-react-16",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^17.0.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^2.9.0"
+          },
+          {
+            "name": "eslint-loader",
+            "version": "^1.9.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.13.0"
+          },
+          {
+            "name": "eslint-plugin-jasmine",
+            "version": "^2.10.1"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.1.1"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^2.6.2"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.10.0"
+          },
+          {
+            "name": "get-sass-vars",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "gh-pages-with-token",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "github-markdown-css",
+            "version": "^2.10.0"
+          },
+          {
+            "name": "gulp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "gulp-cssimport",
+            "version": "^6.0.1"
+          },
+          {
+            "name": "gulp-rename",
+            "version": "^1.4.0"
+          },
+          {
+            "name": "gulp-sass",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "gulp-vars",
+            "version": "^0.1.6"
+          },
+          {
+            "name": "highlight-loader",
+            "version": "^0.7.3"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "husky",
+            "version": "^0.14.3"
+          },
+          {
+            "name": "ignore-styles",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "jest",
+            "version": "^22.4.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.7.2"
+          },
+          {
+            "name": "node-sass-tilde-importer",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "prettier",
+            "version": "1.14.0"
+          },
+          {
+            "name": "raw-loader",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "react-icons",
+            "version": "^3.2.1"
+          },
+          {
+            "name": "react-markdown",
+            "version": "^3.1.5"
+          },
+          {
+            "name": "react-remarkable",
+            "version": "^1.1.3"
+          },
+          {
+            "name": "react-test-renderer",
+            "version": "^16.3.2"
+          },
+          {
+            "name": "regenerator-runtime",
+            "version": "^0.11.1"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^6.0.6"
+          },
+          {
+            "name": "selenium-webdriver",
+            "version": "^4.0.0-alpha.1"
+          },
+          {
+            "name": "style-loader",
+            "version": "^0.20.3"
+          },
+          {
+            "name": "wix-storybook-utils",
+            "version": "^2.0.22"
+          },
+          {
+            "name": "component-playground",
+            "version": "^3.2.1"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "react",
+            "version": "^16.2.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.2.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e29181b46994e6fc74df81bf61dfb833",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/home/yulier/Work/landing-page-book/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/home/yulier/Work/landing-page-book/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/home/yulier/Work/landing-page-book/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e88f5e19deac049b0cb11031360a65e0",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {
+        "title": "Gatsby Demo"
+      },
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-10-26T15:24:56.004Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "3d1a9847189086573279e37f79c43cdb",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": null,
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/home/yulier/Work/landing-page-book/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/yulier/Work/landing-page-book/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "64ca52747ee012660e54a86330f74861",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": null,
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/home/yulier/Work/landing-page-book/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/yulier/Work/landing-page-book/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "780d54a7f81f79bc256cd420c7fa84ed",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /page-2/": {
+      "layout": null,
+      "jsonName": "page-2.json",
+      "internalComponentName": "ComponentPage2",
+      "path": "/page-2/",
+      "component": "/home/yulier/Work/landing-page-book/src/pages/page-2.js",
+      "componentChunkName": "component---src-pages-page-2-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/yulier/Work/landing-page-book/src/pages/page-2.js",
+      "id": "SitePage /page-2/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "baeca1ff30a7ebca4986cf9ada02a46a",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": null,
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/home/yulier/Work/landing-page-book/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/home/yulier/Work/landing-page-book/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "69a156c06a3355ab4864ac5d2c46a7cd",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "8af115b6eda63aec9280fc44d241f88d"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {
+      "SitePage": [
+        "/dev-404-page/"
+      ]
+    }
+  }
+}

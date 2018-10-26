@@ -1,15 +1,14 @@
 import React from 'react';
 import Main from './layouts/main';
 import Container from '../components/Container';
-import Header from '../components/Header/Header';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const IndexPage = () => (
   <React.Fragment>
-    <Main route="/">
+    <Main>
       <Container>
-        <Header>Landing page book Here !!!!!</Header>
+        <h1>Landing page book Here !!!!!</h1>
       </Container>
     </Main>
   </React.Fragment>

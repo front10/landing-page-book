@@ -1,13 +1,27 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import PropTypes from 'prop-types';
 
 import Main from './main';
 import Container from '../../components/Container';
 
-export default ({ children, route }) => (
-  <React.Fragment>
-    <Main route={route}>
-      <Container>{children}</Container>
-    </Main>
-  </React.Fragment>
-);
+class ContainerLayout extends React.Component {
+  render() {
+    const { children } = this.props;
+    return (
+      <React.Fragment>
+        <Main>
+          <Container>{children}</Container>
+        </Main>
+      </React.Fragment>
+    );
+  }
+}
+
+ContainerLayout.propTypes = {
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+};
+ContainerLayout.defaultProps = {
+  children: null
+};
+
+export default ContainerLayout;

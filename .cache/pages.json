@@ -18,15 +18,33 @@
         "path": "/"
     },
     {
-        "componentChunkName": "component---src-pages-page-2-js",
+        "componentChunkName": "component---src-pages-layouts-main-js",
         "layout": null,
-        "jsonName": "page-2.json",
-        "path": "/page-2/"
+        "jsonName": "layouts-main.json",
+        "path": "/layouts/main/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",
         "layout": null,
         "jsonName": "404-html.json",
         "path": "/404.html"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-index-js",
+        "layout": null,
+        "jsonName": "components.json",
+        "path": "/components/"
+    },
+    {
+        "componentChunkName": "component---src-pages-animated-hero-jsx",
+        "layout": null,
+        "jsonName": "animated-hero.json",
+        "path": "/animated-hero/"
+    },
+    {
+        "componentChunkName": "component---src-pages-layouts-container-js",
+        "layout": null,
+        "jsonName": "layouts-container.json",
+        "path": "/layouts/container/"
     }
 ]

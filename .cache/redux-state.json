@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "989263164d7e4e1e923e126c0b3e1982",
+        "contentDigest": "566e175603735d181d4ebb5af1ff2b29",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -264,7 +264,7 @@
       "resolve": "/home/yulier/Work/landing-page-book",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "4c44642397deb46c692debfca930258e",
+      "version": "44029205d08cc5b096b45d811ecfcab3",
       "pluginOptions": {
         "plugins": []
       },
@@ -387,8 +387,16 @@
         ],
         "devDependencies": [
           {
+            "name": "@kadira/storybook-addon-options",
+            "version": "^1.0.2"
+          },
+          {
             "name": "@storybook/addon-actions",
             "version": "^3.2.12"
+          },
+          {
+            "name": "@storybook/addon-centered",
+            "version": "^3.3.12"
           },
           {
             "name": "@storybook/addon-knobs",
@@ -399,32 +407,16 @@
             "version": "^3.2.12"
           },
           {
-            "name": "@storybook/react",
-            "version": "^3.2.12"
-          },
-          {
-            "name": "babel-loader",
-            "version": "7.1.1"
-          },
-          {
-            "name": "storybook-readme",
-            "version": "^3.0.6"
-          },
-          {
-            "name": "@kadira/storybook-addon-options",
-            "version": "^1.0.2"
-          },
-          {
-            "name": "@storybook/addon-centered",
-            "version": "^3.3.12"
-          },
-          {
             "name": "@storybook/addon-viewport",
             "version": "^3.3.12"
           },
           {
             "name": "@storybook/addons",
             "version": "^3.4.2"
+          },
+          {
+            "name": "@storybook/react",
+            "version": "^3.2.12"
           },
           {
             "name": "@types/prop-types",
@@ -445,6 +437,10 @@
           {
             "name": "babel-jest",
             "version": "^22.4.3"
+          },
+          {
+            "name": "babel-loader",
+            "version": "7.1.1"
           },
           {
             "name": "babel-plugin-macros",
@@ -473,6 +469,10 @@
           {
             "name": "body-parser",
             "version": "^1.18.3"
+          },
+          {
+            "name": "component-playground",
+            "version": "^3.2.1"
           },
           {
             "name": "cors",
@@ -631,16 +631,16 @@
             "version": "^4.0.0-alpha.1"
           },
           {
+            "name": "storybook-readme",
+            "version": "^3.0.6"
+          },
+          {
             "name": "style-loader",
             "version": "^0.20.3"
           },
           {
             "name": "wix-storybook-utils",
             "version": "^2.0.22"
-          },
-          {
-            "name": "component-playground",
-            "version": "^3.2.1"
           }
         ],
         "peerDependencies": [
@@ -659,7 +659,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "e29181b46994e6fc74df81bf61dfb833",
+        "contentDigest": "55fa296f02e73d5e07928b5d598e14d4",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -754,12 +754,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-26T15:24:56.004Z",
+      "buildTime": "2018-10-26T18:40:11.886Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "3d1a9847189086573279e37f79c43cdb",
+        "contentDigest": "60beb58333f37d559d351afad387c985",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -780,7 +780,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "64ca52747ee012660e54a86330f74861",
+        "contentDigest": "0c493f2eef236065cf681b0e34cf6483",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -801,28 +801,28 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "780d54a7f81f79bc256cd420c7fa84ed",
+        "contentDigest": "2f76c5f5538d0f552f4b4d5fc6367d7c",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     },
-    "SitePage /page-2/": {
+    "SitePage /layouts/main/": {
       "layout": null,
-      "jsonName": "page-2.json",
-      "internalComponentName": "ComponentPage2",
-      "path": "/page-2/",
-      "component": "/home/yulier/Work/landing-page-book/src/pages/page-2.js",
-      "componentChunkName": "component---src-pages-page-2-js",
+      "jsonName": "layouts-main.json",
+      "internalComponentName": "ComponentLayoutsMain",
+      "path": "/layouts/main/",
+      "component": "/home/yulier/Work/landing-page-book/src/pages/layouts/main.js",
+      "componentChunkName": "component---src-pages-layouts-main-js",
       "context": {},
       "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
       "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/home/yulier/Work/landing-page-book/src/pages/page-2.js",
-      "id": "SitePage /page-2/",
+      "componentPath": "/home/yulier/Work/landing-page-book/src/pages/layouts/main.js",
+      "id": "SitePage /layouts/main/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "baeca1ff30a7ebca4986cf9ada02a46a",
+        "contentDigest": "c7a7b1c76af7866d2b4600f302089191",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -843,15 +843,78 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "69a156c06a3355ab4864ac5d2c46a7cd",
+        "contentDigest": "17b654f8b4a85044823ee339ec5c1b3e",
         "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/": {
+      "layout": null,
+      "jsonName": "components.json",
+      "internalComponentName": "ComponentComponents",
+      "path": "/components/",
+      "component": "/home/yulier/Work/landing-page-book/src/pages/components/index.js",
+      "componentChunkName": "component---src-pages-components-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/yulier/Work/landing-page-book/src/pages/components/index.js",
+      "id": "SitePage /components/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "8f7703126aca0e08cff80d4bbf9499a6",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /animated-hero/": {
+      "layout": null,
+      "jsonName": "animated-hero.json",
+      "internalComponentName": "ComponentAnimatedHero",
+      "path": "/animated-hero/",
+      "component": "/home/yulier/Work/landing-page-book/src/pages/animated-hero.jsx",
+      "componentChunkName": "component---src-pages-animated-hero-jsx",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/yulier/Work/landing-page-book/src/pages/animated-hero.jsx",
+      "id": "SitePage /animated-hero/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d2916a7bf0201b2d89b3f04535b62c9f",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /layouts/container/": {
+      "layout": null,
+      "jsonName": "layouts-container.json",
+      "internalComponentName": "ComponentLayoutsContainer",
+      "path": "/layouts/container/",
+      "component": "/home/yulier/Work/landing-page-book/src/pages/layouts/container.js",
+      "componentChunkName": "component---src-pages-layouts-container-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/home/yulier/Work/landing-page-book/src/pages/layouts/container.js",
+      "id": "SitePage /layouts/container/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d7c68d7b07fe942f178be34db7dc99f0",
+        "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "8af115b6eda63aec9280fc44d241f88d"
+    "PLUGINS_HASH": "7e6741c36056171e10528f309bdd8d02"
   },
   "componentDataDependencies": {
     "nodes": {},

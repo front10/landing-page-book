@@ -1,9 +1,57 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700|Merriweather+Sans:800);
 
+#root > div{
+	padding: 0px !important;
+}
+
 .page{
+	font-family: 'Lato', Arial, sans-serif;
 	font-size: 100%;
 	line-height: 1.25;
 	font-weight: 300;
-  font-family: 'Lato', Arial, sans-serif;
-  margin-top: 100px;
+	margin-top: 60px;
+	.CodeMirror *{
+		font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
+	}
+	.Section.Section--gray > div {
+		padding-bottom: 0px !important;
+	}
+	.code-import code.text-monospace.text-muted{
+		font-size: 12px;
+		background: transparent;
+		&:after {
+			content: "...";
+			margin-left: 10px;
+		}
+	}
+	/* Side index */
+	.index{
+		position: -webkit-sticky;
+		position: sticky;
+		top: 25%;
+		max-height: calc(100vh - 4rem);
+		overflow-y: auto;
+		padding-top: 1.5rem;
+		padding-bottom: 1.5rem;
+		font-size: .875rem;
+		.toc-entry {
+			display: block;
+			padding: .125rem 1.5rem;
+			color: #929299;
+			font-size: 15px;
+			font-weight: normal;
+			
+		}.toc-entry.active{
+			color: #222222;
+		}
+		dl, ol, ul {
+			margin-top: 0;
+			margin-bottom: 1rem;
+			list-style-type: none;
+		}
+		.section-nav {
+			padding-left: 0;
+			border-left: 1px solid rgba(42,42,42,0.2);
+		}
+	}
 }

@@ -1,80 +1,111 @@
 import React from 'react';
-import { Section } from '../../../src/components';
+import PropTypes from 'prop-types';
+import { GoRocket } from 'react-icons/go';
+import { Link as LinkScroll, Element } from 'react-scroll';
+import {
+  Section,
+  Column,
+  Row,
+  Link,
+  Icon,
+  Header,
+  Paragraphs,
+  NavbarCollapse,
+  Button
+} from '../../../src/components';
+
+import PropsManager from '../PropsManager';
 import './style.scss';
 
 class DetailsComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      open: false
+    };
+    this.toogle = this.toogle.bind(this);
+  }
+
+  toogle() {
+    const { open } = this.state;
+    this.setState({ open: !open });
+  }
+
   render() {
+    const { name, linkGithub, description, importCode, stories } = this.props;
+    const { open } = this.state;
     return (
       <div id="container" className="page">
-        <div className="row">
-          <div className="col-12 col-md-10">
-            <Section
-              sectionClass="content-primary"
-              gray
-              title="Introduction"
-              subTitle="Once upon a time..."
+        <Section sectionClass="p-2 title-component" gray>
+          <div className="container">
+            <Header type="h2" className="name d-inline">
+              <span className="pr-2">
+                <GoRocket />
+              </span>
+              {name}
+            </Header>
+            <Link
+              className="text-muted pull-right p-2"
+              href={linkGithub}
+              tooltip="View on Github"
+              target="_blank"
             >
-              <div className="mockup-content">
-                <p>Click the button to see it expanding into a fullscreen overlay:</p>
-                <p>
-                  Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra
-                  azuki bean corn fava bean mustard tigernut juccama green bean celtuce collard
-                  greens avocado quandong fennel gumbo black-eyed pea. Grape silver beet watercress
-                  potato tigernut corn groundnut. Chickweed okra pea winter purslane coriander
-                  yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane
-                  earthnut pea tomato spring onion azuki bean gourd. Gumbo kakadu plum komatsuna
-                  black-eyed pea green bean zucchini gourd winter purslane silver beet rock melon
-                  radish asparagus spinach.
-                </p>
-                <p>
-                  Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra
-                  azuki bean corn fava bean mustard tigernut juccama green bean celtuce collard
-                  greens avocado quandong fennel gumbo black-eyed pea. Grape silver beet watercress
-                  potato tigernut corn groundnut. Chickweed okra pea winter purslane coriander
-                  yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane
-                  earthnut pea tomato spring onion azuki bean gourd. Gumbo kakadu plum komatsuna
-                  black-eyed pea green bean zucchini gourd winter purslane silver beet rock melon
-                  radish asparagus spinach.
-                </p>
-                <p>
-                  Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra
-                  azuki bean corn fava bean mustard tigernut juccama green bean celtuce collard
-                  greens avocado quandong fennel gumbo black-eyed pea. Grape silver beet watercress
-                  potato tigernut corn groundnut. Chickweed okra pea winter purslane coriander
-                  yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane
-                  earthnut pea tomato spring onion azuki bean gourd. Gumbo kakadu plum komatsuna
-                  black-eyed pea green bean zucchini gourd winter purslane silver beet rock melon
-                  radish asparagus spinach.
-                </p>
-                <p>
-                  Pea horseradish azuki bean lettuce avocado asparagus okra. Kohlrabi radish okra
-                  azuki bean corn fava bean mustard tigernut juccama green bean celtuce collard
-                  greens avocado quandong fennel gumbo black-eyed pea. Grape silver beet watercress
-                  potato tigernut corn groundnut. Chickweed okra pea winter purslane coriander
-                  yarrow sweet pepper radish garlic brussels sprout groundnut summer purslane
-                  earthnut pea tomato spring onion azuki bean gourd. Gumbo kakadu plum komatsuna
-                  black-eyed pea green bean zucchini gourd winter purslane silver beet rock melon
-                  radish asparagus spinach.
-                </p>
+              <Icon icon="fa fa-github" />
+              <span className="d-none d-sm-inline">View on Github</span>
+            </Link>
+            <Column className="col-12 col-md-10 ml-0 pt-4 pb-4 pl-0 pr-0">
+              <Paragraphs fontWeight="light" text={description} />
+            </Column>
+          </div>
+        </Section>
+        <div className="container p-4">
+          <Row>
+            <Column className="col-12 col-md-10 pl-0">
+              <div className="code-import pl-0 pt-2 pb-2">
+                <div className="col-5 text-truncate pl-0">
+                  <Button className="pl-0" onClick={this.toogle} color="link">
+                    <code className="text-monospace text-muted text-truncate">{importCode}</code>
+                  </Button>
+                </div>
+                <NavbarCollapse isOpen={open}>
+                  <pre>
+                    <code className="text-monospace text-muted">{importCode}</code>
+                  </pre>
+                </NavbarCollapse>
               </div>
-            </Section>
-          </div>
-          <div className="col-12 col-md-2 index">
-            <ul className="section-nav">
-              <li className="toc-entry toc-h2">
-                <a href="index.html#common-values">Common values</a>
-              </li>
-              <li className="toc-entry toc-h2">
-                <a href="index.html#fixed-top">Fixed top</a>
-              </li>
-              <li className="toc-entry toc-h2">
-                <a href="index.html#fixed-bottom">Fixed bottom</a>
-              </li>
-              <li className="toc-entry toc-h2">
-                <a href="index.html#sticky-top">Sticky top</a>
-              </li>
-            </ul>
-          </div>
+              {stories.map(story => (
+                <Element name={story.name} className="element pb-2">
+                  <Header type="h3" className="mt-3">
+                    {story.name}
+                  </Header>
+                  <Paragraphs fontWeight="light" text={story.summary} />
+                  <PropsManager active={story.tabsActive} scope={{ React, Button, Icon }}>
+                    {story.code}
+                  </PropsManager>
+                </Element>
+              ))}
+            </Column>
+            <Column className="col-12 col-md-2 index">
+              <ul className="section-nav">
+                {/* {stories} */}
+                {/* Name of Stories */}
+                {stories.map(story => (
+                  <li>
+                    <LinkScroll
+                      activeClass="active"
+                      className="toc-entry"
+                      to={story.name}
+                      spy
+                      smooth
+                      duration={500}
+                    >
+                      {story.name}
+                    </LinkScroll>
+                  </li>
+                ))}
+              </ul>
+            </Column>
+          </Row>
         </div>
       </div>
     );
@@ -82,15 +113,26 @@ class DetailsComponent extends React.Component {
 }
 
 DetailsComponent.propTypes = {
-  // name: PropTypes.string,
-  // description: PropTypes.string,
-  // storyName: PropTypes.string
+  name: PropTypes.string,
+  description: PropTypes.string,
+  importCode: PropTypes.string,
+  linkGithub: PropTypes.string,
+  stories: PropTypes.arrayOf(
+    PropTypes.shape({
+      name: PropTypes.string,
+      summary: PropTypes.string,
+      code: PropTypes.string,
+      tabsActive: PropTypes.string
+    })
+  )
 };
 
 DetailsComponent.defaultProps = {
-  // name: 'Awesome',
-  // description: 'The awesome component is used to spread awesoness across the world',
-  // storyName: 'Basic'
+  name: 'Header component',
+  description: '',
+  importCode: '',
+  linkGithub: 'Link',
+  stories: []
 };
 
 export default DetailsComponent;

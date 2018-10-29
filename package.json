@@ -28,7 +28,7 @@
     "react-player": "^1.6.4",
     "react-share": "^2.2.0",
     "react-stepzilla": "^4.7.2",
-    "react-scroll": "^1.7.10",
+    "react-scroll": "^1.7.10"
   },
   "repository": {
     "type": "git",

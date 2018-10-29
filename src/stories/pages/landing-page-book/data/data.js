@@ -98,4 +98,32 @@ const story = [
     tabsActive: []
   }
 ];
-export { navbarData, story, importCode };
+
+const elements = [
+  {
+    image: 'images/features/components.png',
+    title: '+40 Components',
+    subtitle: 'You can use many components',
+    link: 'https://front10.com'
+  },
+  {
+    image: 'images/features/speed.png',
+    title: 'Easy & Fast',
+    subtitle: 'Very easy and fast develop',
+    link: 'https://front10.com'
+  },
+  {
+    image: 'images/features/themes.png',
+    title: 'Theming',
+    subtitle: 'Customize our components',
+    link: 'https://front10.com'
+  },
+  {
+    image: 'images/features/integration.png',
+    title: 'Integration',
+    subtitle: 'Can be used in many plattaforms',
+    link: 'https://front10.com'
+  }
+];
+
+export { navbarData, story, importCode, elements };

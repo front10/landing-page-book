@@ -49,7 +49,7 @@ class ComponentView extends React.Component {
             name={component.name}
             linkGithub={`https://github.com/front10/landing-page-book/tree/master/src/components/${
               component.name
-              }`}
+            }`}
             description={component.summary}
             stories={component.stories}
             importCode={component.import}

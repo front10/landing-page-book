@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Card from '../Card';
+import Link from '../Link';
 import Button from '../Button';
 
 class Features extends React.Component {
@@ -48,7 +49,7 @@ class Features extends React.Component {
               {showFooter &&
                 feature.link && (
                   <Button outline={outlineButton} color={buttonColor}>
-                    See more
+                    <Link href={feature.link}>See more</Link>
                   </Button>
                 )}
             </Card>

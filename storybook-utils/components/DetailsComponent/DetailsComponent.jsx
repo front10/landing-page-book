@@ -15,7 +15,7 @@ import {
 } from '../../../src/components';
 
 import PropsManager from '../PropsManager';
-import './style.scss';
+import './style.css';
 
 class DetailsComponent extends React.Component {
   constructor(props) {
@@ -79,16 +79,12 @@ class DetailsComponent extends React.Component {
                     {story.name}
                   </Header>
                   <Paragraphs fontWeight="light" text={story.summary} />
-                  <PropsManager active={story.tabsActive} scope={{ React, Button, Icon }}>
-                    {story.code}
-                  </PropsManager>
+                  <PropsManager active={story.tabsActive}>{story.code}</PropsManager>
                 </Element>
               ))}
             </Column>
             <Column className="col-12 col-md-2 index">
               <ul className="section-nav">
-                {/* {stories} */}
-                {/* Name of Stories */}
                 {stories.map(story => (
                   <li>
                     <LinkScroll
@@ -122,7 +118,7 @@ DetailsComponent.propTypes = {
       name: PropTypes.string,
       summary: PropTypes.string,
       code: PropTypes.string,
-      tabsActive: PropTypes.string
+      tabsActive: PropTypes.arrayOf(PropTypes.string)
     })
   )
 };

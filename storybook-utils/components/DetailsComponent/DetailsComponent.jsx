@@ -33,10 +33,10 @@ class DetailsComponent extends React.Component {
   }
 
   render() {
-    const { name, linkGithub, description, importCode, stories } = this.props;
+    const { name, linkGithub, description, importCode, stories, pagePushed } = this.props;
     const { open } = this.state;
     return (
-      <div id="container" className="page">
+      <div id="container" className={`page ${pagePushed ? 'pushed' : ''}`}>
         <Section sectionClass="p-2 title-component" gray>
           <Container>
             <Header type="h2" className="name d-inline">
@@ -121,7 +121,8 @@ DetailsComponent.propTypes = {
       code: PropTypes.string,
       tabsActive: PropTypes.arrayOf(PropTypes.string)
     })
-  )
+  ),
+  pagePushed: PropTypes.bool
 };
 
 DetailsComponent.defaultProps = {
@@ -129,7 +130,8 @@ DetailsComponent.defaultProps = {
   description: '',
   importCode: '',
   linkGithub: 'Link',
-  stories: []
+  stories: [],
+  pagePushed: false
 };
 
 export default DetailsComponent;

@@ -1,6 +1,6 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import Map from '../../../components/Button/map.json';
+// import Map from '../../../components/Button/map.json';
 import DetailsComponent from '../../../../storybook-utils/components/DetailsComponent';
 
 import component from '../../mock/components/stories/button';

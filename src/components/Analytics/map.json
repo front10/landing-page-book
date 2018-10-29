@@ -16,7 +16,7 @@
         "value": "typeof window !== 'undefined' && typeof window.location !== 'undefined'\n  ? window.location.pathname + window.location.search\n  : ''",
         "computed": false
       }
-    },
+    },np
     "debug": {
       "type": { "name": "bool" },
       "required": false,

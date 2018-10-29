@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import MainLayout from '../layouts/main';
 import DetailsComponent from '../../../storybook-utils/components/DetailsComponent';
@@ -35,5 +36,12 @@ class ComponentView extends React.Component {
     );
   }
 }
+ComponentView.propTypes = {
+  location: PropTypes.objectOf(PropTypes.any)
+};
+
+ComponentView.defaultProps = {
+  location: {}
+};
 
 export default ComponentView;

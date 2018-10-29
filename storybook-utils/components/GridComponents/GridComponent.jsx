@@ -1,49 +1,35 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-// import { GoRocket } from 'react-icons/go';
-// import { Link as LinkScroll, Element } from 'react-scroll';
-import {
-  // Section,
-  // Column,
-  Row,
-  Features,
-  // Link,
-  // Card,
-  // Icon,
-  Header,
-  Input
-  // Paragraphs,
-  // NavbarCollapse,
-  // Button
-} from '../../../src/components';
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-// import PropsManager from '../PropsManager';
-import './style.scss';
+import { Features, Header, Input } from '../../../src/components';
+import '../../../src/components/Features/style.css';
+import '../../../src/components/Header/style.css';
+import '../../../src/components/Input/style.css';
+import '../../../src/components/Button/style.css';
+import './style.css';
 
 class GridComponent extends React.Component {
+  static NotFound() {
+    return (
+      <Header className="text-center p-5" type="h2">
+        Search not found
+      </Header>
+    );
+  }
+
   constructor(props) {
     super(props);
     this.state = {
-      elements: props.elements,
+      components: props.components,
       filter: [],
       search: ''
     };
     this.paintList = this.paintList.bind(this);
     this.performanceSearch = this.performanceSearch.bind(this);
-    this.NotFound = this.NotFound.bind(this);
-  }
-
-  NotFound() {
-    return (
-      <Header className="text-center p-5" type="h2">Search not found</Header>
-    );
   }
 
   paintList() {
-    const { filter, elements, search } = this.state;
-    const items = search ? filter : elements;
+    const { filter, components, search } = this.state;
+    const items = search ? filter : components;
     return (
       <React.Fragment>
         <Features
@@ -63,24 +49,21 @@ class GridComponent extends React.Component {
     );
   }
 
-  // Arreglar el estado porque me devuelve el valor anterior a escribir
   performanceSearch(event) {
-    this.setState({ search: event.value });
-    const { search, elements } = this.state;
-    if (search === '') this.setState({ filter: [] });
-
-    const re = new RegExp(search, 'i');
-    const filter = [];
-    elements.map(item => {
-      if (re.test(item.title)) filter.push(item);
+    this.setState({ search: event.value }, () => {
+      const { search, components } = this.state;
+      if (search === '') this.setState({ filter: [] });
+      const filter = components.filter(item =>
+        item.title.toLowerCase().includes(search.toLowerCase())
+      );
+      this.setState({ filter });
     });
-    this.setState({ filter });
   }
 
   render() {
     const { search, filter } = this.state;
     return (
-      <div className="page pt-5 mt-5">
+      <div className="page">
         <div className="container p-5">
           <Header type="h1">Browser components</Header>
           <Input
@@ -90,7 +73,7 @@ class GridComponent extends React.Component {
             onChange={this.performanceSearch}
             placeholder="Filter components"
           />
-          {filter.length === 0 && search ? this.NotFound() : this.paintList()}
+          {filter.length === 0 && search ? this.NotFound : this.paintList()}
         </div>
       </div>
     );
@@ -98,7 +81,7 @@ class GridComponent extends React.Component {
 }
 
 GridComponent.propTypes = {
-  elements: PropTypes.arrayOf(
+  components: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
       image: PropTypes.string,
@@ -109,7 +92,7 @@ GridComponent.propTypes = {
 };
 
 GridComponent.defaultProps = {
-  elements: []
+  components: []
 };
 
 export default GridComponent;

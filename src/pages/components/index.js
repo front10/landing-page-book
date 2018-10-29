@@ -1,10 +1,26 @@
 import React from 'react';
 
 import ContainerLayout from '../layouts/container';
+import GridComponent from '../../../storybook-utils/components/GridComponents';
+
+// Importing data of the components
+import * as components from '../../components/index';
+
+const elements = [];
+Object.keys(components).map(component => {
+  if (component.includes('__') === false) {
+    elements.push({
+      title: component,
+      image: `/images/components/${component.toLowerCase()}.png`,
+      link: component
+    });
+  }
+  return false;
+});
 
 const SecondPage = () => (
   <ContainerLayout>
-    <h1>Hi from the second page</h1>
+    <GridComponent components={elements} />
   </ContainerLayout>
 );
 

@@ -18,7 +18,7 @@
 	height: 60px;
 }
 
-.morph-button-fixed .button span:before {
+.morph-button-fixed span:before {
 	padding-right: 8px;
 }
 .morph-button-fixed > button {
@@ -141,10 +141,10 @@
     margin-right: 1em;
 }
 
-// Hay que revisar el css para coger que sobra
+/* // Hay que revisar el css para coger que sobra */
 
 .morph-button {
-	position: relative;
+	position: fixed;
 	display: block;
 	margin: 0 auto;
 }
@@ -319,29 +319,29 @@
 	transition: bottom 0.4s 0.1s, right 0.4s 0.1s;
 }
 
-.morph-button-modal-4.open .morph-clone,
+/* .morph-button-modal-4.open .morph-clone,
 .no-js .morph-button-modal-4 .morph-clone {
 	right: 10px;
 	bottom: 10px;
-}
+} */
 
 .morph-button-modal-1::before {
 	background: rgba(240,221,204,0.7);
 }
 
-.morph-button-modal-2.open .morph-content {
+/* .morph-button-modal-2.open .morph-content {
 	margin: -210px 0 0 -170px;
 	width: 340px;
 	height: 420px;
-}
+} */
 
-.morph-button-modal-3.open .morph-content {
+/* .morph-button-modal-3.open .morph-content {
 	margin: -255px 0 0 -210px;
 	width: 420px;
 	height: 510px;
-}
+} */
 
-.morph-button-modal-3.open .morph-content > div {
+/* .morph-button-modal-3.open .morph-content > div {
 	height: 420px;
 }
 
@@ -349,13 +349,13 @@
 .morph-button-modal-3.open .morph-content > div {
  	-webkit-transition: opacity 0.3s 0.3s;
 	transition: opacity 0.3s 0.3s;
-}
+} */
 
-.morph-button-modal-4.open .morph-content {
+/* .morph-button-modal-4.open .morph-content {
 	margin: -200px 0 0 -320px;
 	width: 640px;
 	height: 400px;
-}
+} */
 
 /* Morph Button Style: In the content flow */
 .morph-button-inflow {
@@ -384,12 +384,12 @@
 }
 
 /* Colors and sizes for individual in flow buttons */
-.morph-button-inflow-1 {
+/* .morph-button-inflow-1 {
 	width: 600px;
 	margin: 2em auto;
 	-webkit-transition: height 0.5s cubic-bezier(0.7,0,0.3,1);
 	transition: height 0.5s cubic-bezier(0.7,0,0.3,1);
-}
+} */
 
 .morph-button-inflow-1 > button span {
 	visibility: hidden;
@@ -400,7 +400,7 @@
 	background: #e85657;
 }
 
-.morph-button-inflow-2 {
+/* .morph-button-inflow-2 {
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -410,9 +410,9 @@
 	transition: height 0.3s, width 0.3s, transform 0.3s;
 	-webkit-transform: translateX(-50%) translateY(-50%);
 	transform: translateX(-50%) translateY(-50%);
-}
+} */
 
-.morph-button-inflow-2 > button {
+/* .morph-button-inflow-2 > button {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -422,30 +422,30 @@
 	color: #e75854;
 	-webkit-transition: -webkit-transform 0.3s;
 	transition: transform 0.3s;
-}
+} */
 
-.morph-button-inflow-2.open > button {
+/* .morph-button-inflow-2.open > button {
 	-webkit-transform: translateX(-100%);
 	transform: translateX(-100%);
-}
+} */
 
-.morph-button-inflow-2 .morph-content {
+/* .morph-button-inflow-2 .morph-content {
 	width: 260px;
 	height: 200px;
-}
+} */
 
-.morph-button-inflow-2.open {
+/* .morph-button-inflow-2.open {
 	width: 260px;
-}
+} */
 
 
 /* Let's add some nice easing for all cases */
-.morph-button .morph-content,
+/* .morph-button .morph-content,
 .morph-button.open .morph-content,
 .morph-button-modal-4 .morph-clone {
 	-webkit-transition-timing-function: cubic-bezier(0.7,0,0.3,1);
 	transition-timing-function: cubic-bezier(0.7,0,0.3,1);
-}
+} */
 
 /* Helper classes */
 .noscroll {
@@ -474,7 +474,7 @@
 .no-js .morph-button .morph-content,
 .no-js .morph-button .morph-content > div {
 	position: relative;
-	width: auto;
+	/* width: auto; */
 	height: auto;
 	opacity: 1;
 	visibility: visible;
@@ -490,7 +490,7 @@
 }
 
 .no-js .morph-button-sidebar {
-	width: 300px;
+	/* width: 300px; */
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -512,18 +512,18 @@
 		top: 0% !important;
 		left: 0% !important;
 		margin: 0;
-		width: 100%;
+		/* width: 100%; */
 		height: 100%;
 		overflow-y: scroll;
-		-webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
-		transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+		/* -webkit-transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s;
+		transition: width 0.4s 0.1s, height 0.4s 0.1s, top 0.4s 0.1s, left 0.4s 0.1s; */
 	}
 }
 
 @media screen and (max-width: 400px) {
 	.morph-button-fixed,
 	.morph-button-fixed .morph-content {
-		width: 200px;
+		/* width: 200px; */
 		height: 80px;
 	}
 
@@ -537,12 +537,6 @@
 
 	.morph-button-inflow .morph-content .morph-clone {
 		font-size: 0.9em;
-	}
-
-	.morph-button-modal-4,
-	.morph-button-modal-4 .morph-content {
-		width: 220px;
-		height: 120px;
 	}
 
 	.morph-button-modal-4 > button {
@@ -561,7 +555,7 @@
 
 	.morph-button-sidebar,
 	.morph-button-sidebar .morph-content {
-		width: 100% !important;
+		/* width: 100% !important; */
 		height: 60px !important;
 	}
 
@@ -578,3 +572,10 @@
 .open{
     z-index: 99999;
 }
+
+
+
+
+
+
+

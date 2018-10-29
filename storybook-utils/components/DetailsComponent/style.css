@@ -67,3 +67,18 @@
     padding-left: 0;
     border-left: 1px solid rgba(42, 42, 42, 0.2);
 }
+
+/* Page transition */
+/* .page{
+    -webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transform: translateX(0px);
+	transform: translateX(0px);
+} */
+
+.pushed > .navbar ,.pushed.page {
+	-webkit-transition-duration: 0.5s;
+	transition-duration: 0.5s;
+	-webkit-transform: translateX(250px);
+    transform: translateX(250px);
+}

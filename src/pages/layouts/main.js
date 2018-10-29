@@ -15,6 +15,8 @@ import 'font-awesome/css/font-awesome.min.css';
 
 import '../../themes/default/index.legacy_browsers.css';
 
+import '../app.css';
+
 class MainLayout extends React.Component {
   render() {
     const { children } = this.props;
@@ -22,10 +24,15 @@ class MainLayout extends React.Component {
       <React.Fragment>
         <Navbar brandLogo="/images/logo/front10.png" fixed>
           <NavbarNav>
-            <Link className="nav-link NavbarLink" to="/">
+            <Link className="nav-link NavbarLink" to="/" activeClassName="activeLink" exact>
               Introduction
             </Link>
-            <Link className="nav-link NavbarLink" to="/components">
+            <Link
+              className="nav-link NavbarLink"
+              to="/components"
+              activeClassName="activeLink"
+              exact
+            >
               Components
             </Link>
           </NavbarNav>

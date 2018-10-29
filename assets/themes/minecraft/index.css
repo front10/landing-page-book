@@ -707,7 +707,7 @@ h6, .h6 {
   --Navbar-backgroundImage: none;
   --Navbar--hover-color: #fed136;
   --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
-  --Navbar--boxShadow: rgba(0, 0, 0, .124); }
+  --Navbar--boxShadow: rgba(0, 0, 0, 0.124); }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
@@ -721,7 +721,7 @@ h6, .h6 {
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
-    color: var(--Navbar-color) !important;
+    color: var(--Navbar-color);
     cursor: pointer; }
     @media (max-width: 768px) {
       .Navbar .NavbarLink img,
@@ -729,14 +729,17 @@ h6, .h6 {
       .Navbar .NavbarBrand img {
         padding: 0rem 1rem; } }
   .Navbar .NavbarLink:hover {
-    color: var(--Navbar--hover-color) !important; }
+    color: var(--Navbar--hover-color); }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
-  .Navbar .LanguageSwitcher, .Navbar .nav-item {
+  .Navbar .LanguageSwitcher,
+  .Navbar .nav-item {
     padding: 0.5rem 1rem; }
-    .Navbar .LanguageSwitcher .flag-select, .Navbar .nav-item .flag-select {
-      padding: .5rem 0rem; }
-      .Navbar .LanguageSwitcher .flag-select .selected--flag--option, .Navbar .nav-item .flag-select .selected--flag--option {
+    .Navbar .LanguageSwitcher .flag-select,
+    .Navbar .nav-item .flag-select {
+      padding: 0.5rem 0rem; }
+      .Navbar .LanguageSwitcher .flag-select .selected--flag--option,
+      .Navbar .nav-item .flag-select .selected--flag--option {
         padding: 0px; }
 
 .Navbar--transparent {
@@ -953,7 +956,7 @@ a span {
   --Navbar-backgroundImage: none;
   --Navbar--hover-color: #fed136;
   --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
-  --Navbar--boxShadow: rgba(0, 0, 0, .124); }
+  --Navbar--boxShadow: rgba(0, 0, 0, 0.124); }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
@@ -967,7 +970,7 @@ a span {
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
-    color: var(--Navbar-color) !important;
+    color: var(--Navbar-color);
     cursor: pointer; }
     @media (max-width: 768px) {
       .Navbar .NavbarLink img,
@@ -975,14 +978,17 @@ a span {
       .Navbar .NavbarBrand img {
         padding: 0rem 1rem; } }
   .Navbar .NavbarLink:hover {
-    color: var(--Navbar--hover-color) !important; }
+    color: var(--Navbar--hover-color); }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
-  .Navbar .LanguageSwitcher, .Navbar .nav-item {
+  .Navbar .LanguageSwitcher,
+  .Navbar .nav-item {
     padding: 0.5rem 1rem; }
-    .Navbar .LanguageSwitcher .flag-select, .Navbar .nav-item .flag-select {
-      padding: .5rem 0rem; }
-      .Navbar .LanguageSwitcher .flag-select .selected--flag--option, .Navbar .nav-item .flag-select .selected--flag--option {
+    .Navbar .LanguageSwitcher .flag-select,
+    .Navbar .nav-item .flag-select {
+      padding: 0.5rem 0rem; }
+      .Navbar .LanguageSwitcher .flag-select .selected--flag--option,
+      .Navbar .nav-item .flag-select .selected--flag--option {
         padding: 0px; }
 
 .Navbar--transparent {

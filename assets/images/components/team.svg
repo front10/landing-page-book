@@ -1,0 +1,58 @@
+<svg width="500" height="400" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="502" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+  <defs>
+   <linearGradient id="svg_65" x1="0" y1="0" x2="1" y2="0" spreadMethod="pad">
+    <stop stop-color="#191919" offset="0"/>
+    <stop stop-color="#e6e6e6" offset="1"/>
+   </linearGradient>
+  </defs>
+  <g stroke="null" id="svg_81">
+   <g stroke="null" transform="matrix(0.6344198172224764,0,0,0.6403775185813932,-71.26762865451829,-107.60127790737782) " id="svg_80">
+    <title transform="translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(-100.87957000732422,21.237472534179688) translate(-25.219892501831055,2.4985263347625732) translate(117.27250671386719,6.2463154792785645) translate(-80.70365905761719,-44.97346878051758) translate(0,2.842170943040401e-14) translate(33.4671630859375,304.36627197265625) " stroke="null">Layer 1</title>
+    <ellipse stroke="url(#svg_65)" fill="#999999" stroke-width="2" cx="241.502516" cy="354.38396" id="svg_74" rx="50" ry="50" stroke-opacity="0"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="141.502516" y="424.88396" width="200" height="19" id="svg_73"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="166.002516" y="525.88396" width="153" height="6" id="svg_72"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="165.002516" y="505.88396" width="153" height="6" id="svg_71"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="156.002516" y="485.88396" width="172.000008" height="6" id="svg_70"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="141.502516" y="464.88396" width="200" height="6" id="svg_69"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="166.002516" y="547.88396" width="153" height="6" id="svg_68"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="156.002516" y="569.88396" width="172.000008" height="6" id="svg_67"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="141.502516" y="587.88396" width="200" height="6" id="svg_66"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" fill-opacity="null" x="186.002516" y="615.88396" width="110" height="33" id="svg_64" rx="10"/>
+   </g>
+   <g stroke="null" transform="matrix(0.6344198172224764,0,0,0.6403775185813932,-71.26762865451829,-107.60127790737782) " id="svg_93">
+    <title id="svg_82" transform="translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(-1.2609946727752686,2.842170943040401e-14) translate(-1.2609946727752686,2.842170943040401e-14) translate(-1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(-100.87957000732422,21.237472534179688) translate(-25.219892501831055,2.4985263347625732) translate(117.27250671386719,6.2463154792785645) translate(250.93792724609375,2.842170943040401e-14) translate(-80.70365905761719,-44.97346878051758) translate(0,2.842170943040401e-14) translate(33.4671630859375,304.36627197265625) " stroke="null">Layer 1</title>
+    <ellipse stroke="url(#svg_65)" fill="#999999" stroke-width="2" cx="498.745417" cy="354.38396" id="svg_83" rx="50" ry="50" stroke-opacity="0"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="398.745417" y="424.88396" width="200" height="19" id="svg_84"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="423.245417" y="525.88396" width="153" height="6" id="svg_85"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="422.245417" y="505.88396" width="153" height="6" id="svg_86"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="413.245417" y="485.88396" width="172.000008" height="6" id="svg_87"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="398.745417" y="464.88396" width="200" height="6" id="svg_88"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="423.245417" y="547.88396" width="153" height="6" id="svg_89"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="413.245417" y="569.88396" width="172.000008" height="6" id="svg_90"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="398.745417" y="587.88396" width="200" height="6" id="svg_91"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" fill-opacity="null" x="443.245417" y="615.88396" width="110" height="33" id="svg_92" rx="10"/>
+   </g>
+   <g stroke="null" transform="matrix(0.6344198172224764,0,0,0.6403775185813932,-71.26762865451829,-107.60127790737782) " id="svg_105">
+    <title id="svg_94" transform="translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(0,-1.2492631673812866) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(1.2609946727752686,2.842170943040401e-14) translate(0,1.2492631673812866) translate(0,1.2492631673812866) translate(0,1.2492631673812866) translate(-13.870941162109375,8.744841575622559) translate(428.7381896972656,9.994105339050293) translate(-25.219892501831055,2.4985263347625732) translate(117.27250671386719,6.2463154792785645) translate(-80.70365905761719,-44.97346878051758) translate(0,2.842170943040401e-14) translate(33.4671630859375,304.36627197265625) " stroke="null">Layer 1</title>
+    <ellipse stroke="url(#svg_65)" fill="#999999" stroke-width="2" cx="763.554308" cy="355.633223" id="svg_95" rx="50" ry="50" stroke-opacity="0"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="663.554308" y="426.133223" width="200" height="19" id="svg_96"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="688.054308" y="527.133223" width="153" height="6" id="svg_97"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="687.054308" y="507.133223" width="153" height="6" id="svg_98"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="678.054308" y="487.133223" width="172.000008" height="6" id="svg_99"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="663.554308" y="466.133223" width="200" height="6" id="svg_100"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="688.054308" y="549.133223" width="153" height="6" id="svg_101"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="678.054308" y="571.133223" width="172.000008" height="6" id="svg_102"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" x="663.554308" y="589.133223" width="200" height="6" id="svg_103"/>
+    <rect stroke="url(#svg_65)" fill="#999999" stroke-width="2" stroke-opacity="0" fill-opacity="null" x="708.054308" y="617.133223" width="110" height="33" id="svg_104" rx="10"/>
+   </g>
+  </g>
+ </g>
+</svg>

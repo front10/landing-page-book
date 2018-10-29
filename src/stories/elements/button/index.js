@@ -1,16 +1,25 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
-import withReadme from 'storybook-readme/with-readme';
-import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-import { Button, Container, Icon } from '../../../components';
-import Readme from '../../../components/Button/README.md';
 import Map from '../../../components/Button/map.json';
-import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import PropsManager from '../../../../storybook-utils/components/PropsManager';
+import DetailsComponent from '../../../../storybook-utils/components/DetailsComponent';
 
-const stories = storiesOf('Elements/Button', module);
+import component from '../../mock/components/stories/button';
 
-stories.add(
+const stories = storiesOf('Elements', module);
+
+stories.add('Button', () => (
+  <DetailsComponent
+    name={component.name}
+    linkGithub={`https://github.com/front10/landing-page-book/tree/master/src/components/${
+      component.name
+    }`}
+    description={component.summary}
+    stories={component.stories}
+    importCode={component.import}
+  />
+));
+
+/* stories.add(
   'Basic',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -142,4 +151,4 @@ stories.add(
       </div>
     </ThemeSelector>
   ))
-);
+); */

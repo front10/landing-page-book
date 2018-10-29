@@ -12,7 +12,7 @@ Object.keys(components).map(component => {
     elements.push({
       title: component,
       image: `/images/components/${component.toLowerCase()}.png`,
-      link: component
+      link: `components/story?${component.toLowerCase()}`
     });
   }
   return false;

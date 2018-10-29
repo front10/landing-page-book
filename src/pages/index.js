@@ -1,13 +1,17 @@
 import React from 'react';
-import Link from 'gatsby-link';
+import Main from './layouts/main';
+import Container from '../components/Container';
+
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const IndexPage = () => (
-  <div>
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <Link to="/page-2/">Go to page 2</Link>
-  </div>
+  <React.Fragment>
+    <Main>
+      <Container>
+        <h1>Landing page book Here !!!!!</h1>
+      </Container>
+    </Main>
+  </React.Fragment>
 );
 
 export default IndexPage;

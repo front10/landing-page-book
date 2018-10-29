@@ -6,7 +6,6 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
 import { Code } from '../../../components';
 import Readme from '../../../components/Code/README.md';
-import { def, css } from '../../mock/components/codes/code';
 
 const stories = storiesOf('Components/Code', module);
 
@@ -23,7 +22,7 @@ stories.add(
     languageCode="jsx"
     collapsible
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code={${JSON.stringify(def, null, 8)}}
+    code=""
 />`}
       </PropsManager>
     </ThemeSelector>
@@ -48,7 +47,7 @@ stories.add(
     showCopyButton={false}
     showDeleteButton={false}
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code={${JSON.stringify(def, null, 8)}}
+    code=""}
 />`}
       </PropsManager>
     </ThemeSelector>
@@ -74,7 +73,7 @@ stories.add(
     showCopyButton
     showDeleteButton
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code={${JSON.stringify(css, null, 8)}}
+    code=""
 />`}
       </PropsManager>
     </ThemeSelector>

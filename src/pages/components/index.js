@@ -18,10 +18,10 @@ Object.keys(components).map(component => {
   return false;
 });
 
-const SecondPage = () => (
+const ComponentList = () => (
   <ContainerLayout>
     <GridComponent components={elements} />
   </ContainerLayout>
 );
 
-export default SecondPage;
+export default ComponentList;

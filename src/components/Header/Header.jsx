@@ -43,6 +43,8 @@ Header.propTypes = {
   className: PropTypes.string,
   type: PropTypes.string,
   color: PropTypes.oneOf([
+    undefined,
+    '',
     'primary',
     'secondary',
     'success',

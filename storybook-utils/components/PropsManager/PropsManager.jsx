@@ -1,30 +1,24 @@
 /* eslint no-unused-vars:0 */
 import 'babel-polyfill';
-import React, { Component } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
-import EsPreview from 'component-playground/es/components/es6-preview';
-import Doc from 'component-playground/es/components/doc';
-import Editor from 'component-playground/es/components/editor';
-import Preview from 'component-playground/es/components/preview';
-import ReactElementToJsxString from 'react-element-to-jsx-string';
-import Markdown from '../Markdown';
+import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import VariableManager from '../VariableManager';
 import Icon from '../../../src/components/Icon';
 import Button from '../../../src/components/Button';
 import Row from '../../../src/components/Row';
 import Column from '../../../src/components/Column';
-import './style.scss';
+import * as scope from '../../../src/components/index';
+import './style.css';
 
 const tabs = [
   { key: 'code', icon: 'code', title: 'Code' },
   { key: 'css', icon: 'css3', title: 'CSS variables' },
-  { key: 'props', icon: 'sliders', title: 'Properties' },
-  { key: 'readme', icon: 'file-text-o', title: 'Documenttion' }
+  { key: 'props', icon: 'sliders', title: 'Properties' }
 ];
 
-// TODO: refactor to remove componentWillReceiveProps
 // eslint-disable-next-line react/no-deprecated
-class PropsManager extends Component {
+class PropsManager extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -55,13 +49,13 @@ class PropsManager extends Component {
 
   render() {
     const { code, external, expandedCode, textCode, active } = this.state;
-    const { scope, readme, cssVariables, colColumn, propsDescription } = this.props;
+    const { readme, cssVariables, colColumn, propsDescription } = this.props;
     return (
-      <React.Fragment>
+      <LiveProvider code={textCode} scope={{ ...scope, React }}>
         <Row>
           <Column className={colColumn}>
             <div className="mb-4">
-              <Preview code={code} scope={scope} context={{}} noRender />
+              <LivePreview />
             </div>
           </Column>
           <Column className="col-12">
@@ -69,8 +63,7 @@ class PropsManager extends Component {
               className={`text-right playgroundHeader ${
                 active.indexOf('code') === -1 &&
                 active.indexOf('css') === -1 &&
-                active.indexOf('props') === -1 &&
-                active.indexOf('readme') === -1
+                active.indexOf('props') === -1
                   ? `rounded`
                   : 'rounded-top'
               }`}
@@ -103,12 +96,8 @@ class PropsManager extends Component {
                     : ''
                 }
               >
-                <Editor
-                  codeText={textCode}
-                  external={external}
-                  onChange={this.handleCodeChange}
-                  theme="monokai"
-                />
+                <LiveEditor />
+                <LiveError />
               </div>
             )}
             {active.indexOf('css') !== -1 && (
@@ -139,7 +128,7 @@ class PropsManager extends Component {
                   </thead>
                   <tbody>
                     {Object.keys(propsDescription).map(prop => (
-                      <tr>
+                      <tr key={prop}>
                         <td>{prop}</td>
                         <td>{propsDescription[prop].type.name}</td>
                         <td>{propsDescription[prop].description}</td>
@@ -150,30 +139,23 @@ class PropsManager extends Component {
                 </table>
               </div>
             )}
-            {active.indexOf('readme') !== -1 && (
-              <div className="playgroundReadme p-3 rounded">
-                <Markdown source={readme} />
-              </div>
-            )}
           </Column>
         </Row>
-      </React.Fragment>
+      </LiveProvider>
     );
   }
 }
 
 PropsManager.propTypes = {
   children: PropTypes.string.isRequired,
-  scope: PropTypes.objectOf(PropTypes.any),
   readme: PropTypes.string,
   cssVariables: PropTypes.arrayOf(PropTypes.string),
   propsDescription: PropTypes.objectOf(PropTypes.any),
   colColumn: PropTypes.string,
-  active: PropTypes.oneOf(['code', 'css', 'props', 'readme'])
+  active: PropTypes.arrayOf(PropTypes.string)
 };
 
 PropsManager.defaultProps = {
-  scope: { React },
   readme: '',
   cssVariables: [],
   propsDescription: null,

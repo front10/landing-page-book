@@ -14,9 +14,7 @@
   cursor: pointer;
 }
 
-.playgroundVariables {
-  .CodeMirror__Container {
-    border-top: none;
-    border-radius: 0;
-  }
+.playgroundVariables .CodeMirror__Container {
+  border-top: none;
+  border-radius: 0;
 }

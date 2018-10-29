@@ -11,11 +11,12 @@ import {
   Header,
   Paragraphs,
   NavbarCollapse,
-  Button
+  Button,
+  Container
 } from '../../../src/components';
 
 import PropsManager from '../PropsManager';
-import './style.scss';
+import './style.css';
 
 class DetailsComponent extends React.Component {
   constructor(props) {
@@ -37,7 +38,7 @@ class DetailsComponent extends React.Component {
     return (
       <div id="container" className="page">
         <Section sectionClass="p-2 title-component" gray>
-          <div className="container">
+          <Container>
             <Header type="h2" className="name d-inline">
               <span className="pr-2">
                 <GoRocket />
@@ -56,7 +57,7 @@ class DetailsComponent extends React.Component {
             <Column className="col-12 col-md-10 ml-0 pt-4 pb-4 pl-0 pr-0">
               <Paragraphs fontWeight="light" text={description} />
             </Column>
-          </div>
+          </Container>
         </Section>
         <div className="container p-4">
           <Row>
@@ -74,23 +75,19 @@ class DetailsComponent extends React.Component {
                 </NavbarCollapse>
               </div>
               {stories.map(story => (
-                <Element name={story.name} className="element pb-2">
+                <Element name={story.name} className="element pb-2" key={story.name}>
                   <Header type="h3" className="mt-3">
                     {story.name}
                   </Header>
                   <Paragraphs fontWeight="light" text={story.summary} />
-                  <PropsManager active={story.tabsActive} scope={{ React, Button, Icon }}>
-                    {story.code}
-                  </PropsManager>
+                  <PropsManager active={story.tabsActive}>{story.code}</PropsManager>
                 </Element>
               ))}
             </Column>
             <Column className="col-12 col-md-2 index">
               <ul className="section-nav">
-                {/* {stories} */}
-                {/* Name of Stories */}
                 {stories.map(story => (
-                  <li>
+                  <li key={story.name}>
                     <LinkScroll
                       activeClass="active"
                       className="toc-entry"
@@ -122,7 +119,7 @@ DetailsComponent.propTypes = {
       name: PropTypes.string,
       summary: PropTypes.string,
       code: PropTypes.string,
-      tabsActive: PropTypes.string
+      tabsActive: PropTypes.arrayOf(PropTypes.string)
     })
   )
 };

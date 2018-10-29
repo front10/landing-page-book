@@ -10,6 +10,11 @@ import NavbarNav from '../../components/NavbarNav';
 import NavbarLink from '../../components/NavbarLink';
 import Footer from '../../components/Footer';
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
+
+import '../../themes/default/index.legacy_browsers.css';
+
 class MainLayout extends React.Component {
   render() {
     const { children } = this.props;

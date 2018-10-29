@@ -93,7 +93,6 @@
     "babel-preset-react": "^6.24.1",
     "babel-runtime": "^6.26.0",
     "body-parser": "^1.18.3",
-    "component-playground": "^3.2.1",
     "cors": "^2.8.4",
     "coveralls": "^3.0.2",
     "css-loader": "^0.28.11",

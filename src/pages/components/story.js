@@ -1,25 +1,37 @@
 import React from 'react';
 
-import ContainerLayout from '../layouts/container';
+import MainLayout from '../layouts/main';
 import DetailsComponent from '../../../storybook-utils/components/DetailsComponent';
-import { navbarData, story, importCode } from '../../stories/pages/landing-page-book/data/data';
+import * as components from '../../stories/mock/components/stories';
 
 class ComponentView extends React.Component {
-  render() {
+  constructor(props) {
+    super(props);
+    this.state = { component: undefined };
+  }
+
+  componentDidMount() {
     const { location } = this.props;
+    const component = components[location.search.substring(1)];
+    this.setState({ component });
+  }
+
+  render() {
+    const { component } = this.state;
     return (
-      <ContainerLayout>
-        {/* Here story on component {location.search.substring(1)} !!!! */}
-        {
+      <MainLayout>
+        {component && (
           <DetailsComponent
-            name="Card"
-            linkGithub="https://github.com/front10/landing-page-book/tree/master/src/components/Card"
-            description="Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy."
-            stories={story}
-            importCode={importCode}
+            name={component.name}
+            linkGithub={`https://github.com/front10/landing-page-book/tree/master/src/components/${
+              component.name
+            }`}
+            description={component.summary}
+            stories={component.stories}
+            importCode={component.import}
           />
-        }
-      </ContainerLayout>
+        )}
+      </MainLayout>
     );
   }
 }

@@ -51,14 +51,14 @@ class PropsManager extends React.Component {
   showOrHideCodeAndIcon(tab, active) {
     return (
       <div className="text-white">
-        <span className="font-weight-light fs-13">
-          {active.indexOf(tab.key) !== -1 ? 'HIDE' : 'SHOW'} CODE
+        <span className="font-weight-light fs-10">
+          {active.indexOf(tab.key) !== -1 ? 'HIDE' : 'EDIT'} CODE
         </span>
         <Icon
           key={tab.key}
           title={tab.title}
           icon={`fa fa-${tab.icon}`}
-          className="p-2 playgroundHeader__icon"
+          className="p-2 playgroundHeader__icon fs-12"
           onClick={() => this.handleActive(tab.key)}
         />
       </div>

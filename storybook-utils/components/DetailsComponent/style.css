@@ -82,3 +82,38 @@
 	-webkit-transform: translateX(250px);
     transform: translateX(250px);
 }
+
+.prl-11 {
+    padding: 0 11em;
+}
+
+.code {
+    background-color: rgb(241, 251, 252);
+    box-shadow: rgb(210, 238, 243) 0px 0px 0px 1px;
+    color: rgb(0, 116, 137);
+    font-size: 90%;
+    font-weight: 500;
+    border-radius: 2px;
+    padding: 2px 4px;
+}
+
+p {
+    letter-spacing: -0.05px;
+    line-height: 1.7;
+}
+
+@media only screen and (max-width: 1000px) {
+    .prl-11{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .prl-11{
+        padding: 0 1em;
+    }
+
+    ul.ml-auto a.NavbarLink {
+        display: none;
+    }
+}

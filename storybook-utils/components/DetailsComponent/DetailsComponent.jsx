@@ -37,32 +37,33 @@ class DetailsComponent extends React.Component {
     const { open } = this.state;
     return (
       <div id="container" className={`page ${pagePushed ? 'pushed' : ''}`}>
-        <Section sectionClass="p-2 title-component" gray>
-          <Container>
+        {/* <Section sectionClass="p-2 title-component" gray> */}
+        <div className="title-component bg-light p-2">
+          <Container className="pb-4 pt-3 prl-11">
             <Header type="h2" className="name d-inline">
-              <span className="pr-2">
-                <GoRocket />
-              </span>
               {name}
             </Header>
             <Link
-              className="text-muted pull-right p-2"
+              className="btn btn-everblue pull-right pt-2"
               href={linkGithub}
               tooltip="View on Github"
               target="_blank"
             >
-              <Icon icon="fa fa-github" />
-              <span className="d-none d-sm-inline">View on Github</span>
+              <span>View on Github</span>
             </Link>
-            <Column className="col-12 col-md-10 ml-0 pt-4 pb-4 pl-0 pr-0">
+          </Container>
+        </div>
+        {/* </Section> */}
+        <div className="container prl-11">
+          <Row>
+            <Column className="col-12 col-md-12 pt-4">
+              <Header type="h4" className="name mb-2">
+                Intro
+              </Header>
               <Paragraphs fontWeight="light" text={description} />
             </Column>
-          </Container>
-        </Section>
-        <div className="container p-4">
-          <Row>
-            <Column className="col-12 col-md-10 pl-0">
-              <div className="code-import pl-0 pt-2 pb-2">
+            <Column className="col-12 col-md-12">
+              {/* <div className="code-import pl-0 pt-2 pb-2">
                 <div className="col-5 text-truncate pl-0">
                   <Button className="pl-0" onClick={this.toogle} color="link">
                     <code className="text-monospace text-muted text-truncate">{importCode}</code>
@@ -73,9 +74,9 @@ class DetailsComponent extends React.Component {
                     <code className="text-monospace text-muted">{importCode}</code>
                   </pre>
                 </NavbarCollapse>
-              </div>
+              </div> */}
               {stories.map(story => (
-                <Element name={story.name} className="element pb-2" key={story.name}>
+                <Element name={story.name} className="element pb-4" key={story.name}>
                   <Header type="h3" className="mt-3">
                     {story.name}
                   </Header>
@@ -83,24 +84,6 @@ class DetailsComponent extends React.Component {
                   <PropsManager active={story.tabsActive}>{story.code}</PropsManager>
                 </Element>
               ))}
-            </Column>
-            <Column className="col-12 col-md-2 index">
-              <ul className="section-nav">
-                {stories.map(story => (
-                  <li key={story.name}>
-                    <LinkScroll
-                      activeClass="active"
-                      className="toc-entry"
-                      to={story.name}
-                      spy
-                      smooth
-                      duration={500}
-                    >
-                      {story.name}
-                    </LinkScroll>
-                  </li>
-                ))}
-              </ul>
             </Column>
           </Row>
         </div>

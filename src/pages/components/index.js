@@ -11,7 +11,7 @@ Object.keys(components).map(component => {
   if (component.includes('__') === false) {
     elements.push({
       title: component,
-      image: `/images/components/${component.toLowerCase()}.png`,
+      image: `/images/components/${component.toLowerCase()}.svg`,
       link: `components/story?${component.toLowerCase()}`
     });
   }

@@ -1,10 +1,10 @@
 :root {
-    --Navbar-backgroundColor: #383d45;
-    --Navbar-color: #b9bfc7;
-    --Navbar-backgroundImage: none;
-    --Navbar--hover-color: #fed136;
-    --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
-    --Navbar--boxShadow: rgba(0, 0, 0, .124);
+  --Navbar-backgroundColor: #383d45;
+  --Navbar-color: #b9bfc7;
+  --Navbar-backgroundImage: none;
+  --Navbar--hover-color: #fed136;
+  --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
+  --Navbar--boxShadow: rgba(0, 0, 0, 0.124);
 }
 
 @import '../Button/style.scss';
@@ -14,52 +14,54 @@
 @import '../NavbarNav/style.scss';
 @import '../NavbarLink/style.scss';
 .Navbar {
-    background-color: var(--Navbar-backgroundColor);
-    background-image: var(--Navbar-backgroundImage);
-    .NavbarLink,
-    .Navbar__Toggler,
-    .NavbarBrand {
-        color: var(--Navbar-color) !important;
-        cursor: pointer;
-        @media (max-width: 768px) {
-            img{
-                padding: 0rem 1rem;
-            }
-        }
+  background-color: var(--Navbar-backgroundColor);
+  background-image: var(--Navbar-backgroundImage);
+  .NavbarLink,
+  .Navbar__Toggler,
+  .NavbarBrand {
+    color: var(--Navbar-color);
+    cursor: pointer;
+    @media (max-width: 768px) {
+      img {
+        padding: 0rem 1rem;
+      }
     }
-    .NavbarLink:hover {
-        color: var(--Navbar--hover-color) !important;
+  }
+  .NavbarLink:hover {
+    color: var(--Navbar--hover-color);
+  }
+  .NavbarBrand {
+    .Logo {
+      max-height: 60px;
     }
-    .NavbarBrand {
-        .Logo {
-            max-height: 60px;
-        }
+  }
+  .LanguageSwitcher,
+  .nav-item {
+    padding: 0.5rem 1rem;
+    .flag-select {
+      padding: 0.5rem 0rem;
+      .selected--flag--option {
+        padding: 0px;
+      }
     }
-    .LanguageSwitcher,.nav-item  {
-        padding: 0.5rem 1rem;
-        .flag-select{
-            padding: .5rem 0rem;
-            .selected--flag--option{
-                padding: 0px;
-            }
-        }
-    }
+  }
 }
 
 .Navbar--transparent {
-    background-color: transparent;
-}
-.Navbar.navbar-down{
-    box-shadow: 0 0 4px var(--Navbar--boxShadow), 0 4px 8px var(--Navbar--boxShadow);
+  background-color: transparent;
 }
 
-.Navbar.Navbar--transparent.navbar-down{
-    background-color: var(--Navbar--backgroundColor) !important;
+.Navbar.navbar-down {
+  box-shadow: 0 0 4px var(--Navbar--boxShadow), 0 4px 8px var(--Navbar--boxShadow);
 }
 
-@media (min-width: 768px){
-    .navbar-expand-md .navbar-nav .nav-link {
-        padding-right: 0px;
-        padding-left: 0px;
-    }
+.Navbar.Navbar--transparent.navbar-down {
+  background-color: var(--Navbar--backgroundColor) !important;
+}
+
+@media (min-width: 768px) {
+  .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
 }

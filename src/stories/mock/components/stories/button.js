@@ -1,14 +1,14 @@
 export default {
   name: 'Button',
-  summary:
-    'Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.',
+  summary: `<code class="code">Buttons</code> is based on <code class="code">Bootstrap</code> buttons and includes several predefined button styles, 
+  each serving its own <code class="code">semantic</code> purpose, with a few extras thrown in for more control.`,
   import: `import { ThemeSelector } from '../../../addons/ThemeSwitcher';
     import DetailsComponent from '../../../../storybook-utils/components/DetailsComponent';
     import { Navbar, Footer } from '../../../components';`,
   stories: [
     {
       name: 'Basic',
-      summary: 'Esta es la descripción de la story Basic',
+      summary: 'Esta es la descripción de la story <code class="code">Basic</code>.',
       code: `<Button tooltip="Tis is a button tooltip">
         <Icon icon="fa fa-home" /> Home
     </Button>`,

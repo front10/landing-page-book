@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import MainLayout from '../layouts/main';
 import DetailsComponent from '../../../storybook-utils/components/DetailsComponent';
-import SideBar from '../../../storybook-utils/components/SideBar';
+// import SideBar from '../../../storybook-utils/components/SideBar';
 import * as components from '../../stories/mock/components/stories';
 
 import * as nameComponents from '../../components/index';
@@ -56,7 +56,7 @@ class ComponentView extends React.Component {
             pagePushed={toggleSideBar}
           />
         )}
-        <SideBar components={elements} sideBarFunction={this.handletoggleSideBar} />
+        {/* <SideBar components={elements} sideBarFunction={this.handletoggleSideBar} /> */}
       </MainLayout>
     );
   }

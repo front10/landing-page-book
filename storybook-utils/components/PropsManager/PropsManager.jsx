@@ -29,6 +29,7 @@ class PropsManager extends React.Component {
     };
     this.handleCodeChange = this.handleCodeChange.bind(this);
     this.handleActive = this.handleActive.bind(this);
+    this.showOrHideCodeAndIcon = this.showOrHideCodeAndIcon.bind(this);
   }
 
   handleCodeChange(code) {
@@ -47,6 +48,23 @@ class PropsManager extends React.Component {
     this.setState({ active, textCode });
   }
 
+  showOrHideCodeAndIcon(tab, active) {
+    return (
+      <div className="text-white">
+        <span className="font-weight-light fs-10">
+          {active.indexOf(tab.key) !== -1 ? 'HIDE' : 'EDIT'} CODE
+        </span>
+        <Icon
+          key={tab.key}
+          title={tab.title}
+          icon={`fa fa-${tab.icon}`}
+          className="p-2 playgroundHeader__icon fs-12"
+          onClick={() => this.handleActive(tab.key)}
+        />
+      </div>
+    );
+  }
+
   render() {
     const { code, external, expandedCode, textCode, active } = this.state;
     const { readme, cssVariables, colColumn, propsDescription } = this.props;
@@ -54,11 +72,11 @@ class PropsManager extends React.Component {
       <LiveProvider code={textCode} scope={{ ...scope, React }}>
         <Row>
           <Column className={colColumn}>
-            <div className="mb-4">
+            <div className="border-preview">
               <LivePreview />
             </div>
           </Column>
-          <Column className="col-12">
+          <Column className="col-12 mt--4p">
             <div
               className={`text-right playgroundHeader ${
                 active.indexOf('code') === -1 &&
@@ -74,15 +92,7 @@ class PropsManager extends React.Component {
                   (tab.key === 'props' && propsDescription) ||
                   (tab.key === 'css' && cssVariables.length) ||
                   (tab.key === 'readme' && readme) ? (
-                    <Icon
-                      key={tab.key}
-                      title={tab.title}
-                      icon={`fa fa-${tab.icon}`}
-                      className={`p-2 playgroundHeader__icon ${
-                        active.indexOf(tab.key) !== -1 ? 'text-warning' : 'text-white'
-                      }`}
-                      onClick={() => this.handleActive(tab.key)}
-                    />
+                    <div key={tab.key}>{this.showOrHideCodeAndIcon(tab, active)}</div>
                   ) : null
               )}
             </div>
@@ -96,7 +106,7 @@ class PropsManager extends React.Component {
                     : ''
                 }
               >
-                <LiveEditor />
+                <LiveEditor style={null}/>
                 <LiveError />
               </div>
             )}

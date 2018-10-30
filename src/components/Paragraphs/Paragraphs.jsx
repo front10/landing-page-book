@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import ReactHtmlParser from 'react-html-parser';
 
 class Paragraphs extends Component {
   render() {
@@ -21,7 +22,7 @@ class Paragraphs extends Component {
     if (fontWeight) tempClass += ` font-weight-${fontWeight} `;
     if (textMonoSpace) tempClass += ` text-monospace `;
     if (color) tempClass += `text-${color}`;
-    return <p className={tempClass}>{text}</p>;
+    return <p className={tempClass}>{ReactHtmlParser(text)}</p>;
   }
 }
 

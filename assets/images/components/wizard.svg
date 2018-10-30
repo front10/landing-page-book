@@ -1,0 +1,25 @@
+<svg width="500.00000000000006" height="399.99999999999994" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="502" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_34" height="31" width="394" y="34.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_35" height="10" width="394" y="98.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_36" height="10" width="394" y="118.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_37" height="10" width="394" y="138.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_38" height="10" width="394" y="158.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_39" height="10" width="394" y="178.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_40" height="10" width="394" y="199.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_41" height="10" width="394" y="219.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_42" height="10" width="394" y="239.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_43" height="10" width="394" y="259.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect id="svg_44" height="10" width="394" y="279.5" x="49.5" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect rx="10" id="svg_45" height="36" width="115" y="324.5" x="51.5" stroke-opacity="null" stroke-width="1.5" fill="#BBBBBB"/>
+  <rect rx="10" id="svg_46" height="36" width="115" y="325.5" x="324.5" stroke-opacity="null" stroke-width="1.5" fill="#BBBBBB"/>
+  <path stroke="null" id="svg_47" d="m385.784403,343.327456l-10.567136,-11.49998l19.00005,11.49998l-19.00005,11.499974l10.567136,-11.499974z" stroke-opacity="null" stroke-width="1.5" fill="#444444"/>
+  <path transform="rotate(-180 107.71730041503905,342.7560119628906) " stroke="null" id="svg_48" d="m108.784394,342.756026l-10.567136,-11.49998l19.00005,11.49998l-19.00005,11.499974l10.567136,-11.499974z" stroke-opacity="null" stroke-width="1.5" fill="#444444"/>
+ </g>
+</svg>

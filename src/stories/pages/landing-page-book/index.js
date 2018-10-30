@@ -5,7 +5,7 @@ import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 // import DetailsComponent from '../../../../storybook-utils/components/DetailsComponent';
 import GridComponent from '../../../../storybook-utils/components/GridComponents';
-import SideBar from '../../../../storybook-utils/components/SideBar';
+// import SideBar from '../../../../storybook-utils/components/SideBar';
 import { Navbar, Footer } from '../../../components';
 // Import DATA
 import { navbarData, elements } from './data/data';
@@ -40,6 +40,6 @@ stories.add('Landing Page Book', () => (
         socials={['facebook', 'linkedin', 'google', 'twitter']}
       />
     </div>
-    <SideBar />
+    {/* <SideBar /> */}
   </ThemeSelector>
 ));

@@ -84,5 +84,17 @@
 }
 
 .prl-11 {
-    padding: 0 11em 0 11em;
+    padding: 0 11em;
+}
+
+@media only screen and (max-width: 1000px) {
+    .prl-11{
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .prl-11{
+        padding: 0 1em;
+    }
 }

@@ -45,11 +45,7 @@ class DetailsComponent extends React.Component {
                 smooth
                 hashSpy
                 duration={500}
-                // delay={1000}
                 isDynamic
-                onSetActive={this.handleSetActive}
-                onSetInactive={this.handleSetInactive}
-                ignoreCancelEvents={false}
               >
                 {story.name}
               </LinkScroll>

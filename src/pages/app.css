@@ -6,3 +6,24 @@
   width: auto !important;
   height: auto !important;
 }
+
+
+.navbar {
+  padding: 0rem 1rem;
+  color: black;
+  box-shadow: 0 0 4px rgba(0, 0, 0, .124), 0 4px 8px rgba(0, 0, 0, .124);
+  background-color: #ffffff;
+}
+
+.Navbar .NavbarBrand .Logo {
+  max-height: 35px;
+}
+
+.Navbar .NavbarLink, .Navbar .Navbar__Toggler, .Navbar .NavbarBrand {
+  color: #818181 !important;
+  cursor: pointer;
+}
+
+.title-component < div{
+
+}

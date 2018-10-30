@@ -37,7 +37,8 @@ class DetailsComponent extends React.Component {
     const { open } = this.state;
     return (
       <div id="container" className={`page ${pagePushed ? 'pushed' : ''}`}>
-        <Section sectionClass="p-2 title-component" gray>
+        {/* <Section sectionClass="p-2 title-component" gray> */}
+        <div className="title-component bg-light p-2">
           <Container className="pb-4">
             <Header type="h2" className="name d-inline">
               {name}
@@ -52,7 +53,8 @@ class DetailsComponent extends React.Component {
               <span className="d-none d-sm-inline">View on Github</span>
             </Link>
           </Container>
-        </Section>
+        </div>
+        {/* </Section> */}
         <div className="container">
           <Row>
             <Column className="col-12 col-md-10">

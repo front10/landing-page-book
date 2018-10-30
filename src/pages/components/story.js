@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 import MainLayout from '../layouts/main';
 import DetailsComponent from '../../../storybook-utils/components/DetailsComponent';
-import SideBar from '../../../storybook-utils/components/SideBar';
+// import SideBar from '../../../storybook-utils/components/SideBar';
 import * as components from '../../stories/mock/components/stories';
 
 import * as nameComponents from '../../components/index';

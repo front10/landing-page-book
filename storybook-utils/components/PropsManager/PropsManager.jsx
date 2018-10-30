@@ -54,11 +54,11 @@ class PropsManager extends React.Component {
       <LiveProvider code={textCode} scope={{ ...scope, React }}>
         <Row>
           <Column className={colColumn}>
-            <div className="mb-4">
+            <div className="border-preview">
               <LivePreview />
             </div>
           </Column>
-          <Column className="col-12">
+          <Column className="col-12 mt--4p">
             <div
               className={`text-right playgroundHeader ${
                 active.indexOf('code') === -1 &&

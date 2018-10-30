@@ -97,6 +97,11 @@
     padding: 2px 4px;
 }
 
+p {
+    letter-spacing: -0.05px;
+    line-height: 1.7;
+}
+
 @media only screen and (max-width: 1000px) {
     .prl-11{
         padding: 0;

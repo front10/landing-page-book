@@ -106,7 +106,7 @@ class PropsManager extends React.Component {
                     : ''
                 }
               >
-                <LiveEditor />
+                <LiveEditor style={null}/>
                 <LiveError />
               </div>
             )}

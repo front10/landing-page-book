@@ -49,6 +49,152 @@ class MainLayout extends React.Component {
           copyright="Front10, LLC"
           socials={['facebook', 'linkedin', 'google', 'twitter']}
         />
+        <style>
+          {`/**
+            * okaidia theme for JavaScript, CSS and HTML
+            * Loosely based on Monokai textmate theme by http://www.monokai.nl/
+            * @author ocodia
+            */
+           code[class*="language-"],
+           pre[class*="language-"] {
+             color: #f8f8f2!important;
+             background: none!important;
+             text-shadow: 0 1px rgba(0, 0, 0, 0.3)!important;
+             font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace!important;
+             text-align: left!important;
+             white-space: pre!important;
+             word-spacing: normal!important;
+             word-break: normal!important;
+             word-wrap: normal!important;
+             line-height: 1.5!important;
+           
+             -moz-tab-size: 4!important;
+             -o-tab-size: 4!important;
+             tab-size: 4!important;
+           
+             -webkit-hyphens: none!important;
+             -moz-hyphens: none!important;
+             -ms-hyphens: none!important;
+             hyphens: none!important;
+             font-size: 14px!important;
+             font-weight: 400!important;
+           }
+           
+           /* Code blocks */
+           pre[class*="language-"] {
+             padding: 1em!important;
+             margin: .5em 0!important;
+             overflow: auto!important;
+             border-radius: 0.3em!important;
+           }
+           
+           :not(pre) > code[class*="language-"],
+           pre[class*="language-"] {
+             background: #272822!important;
+           }
+           
+           /* Inline code */
+           :not(pre) > code[class*="language-"] {
+             padding: .1em!important;
+             border-radius: .3em!important;
+             white-space: normal!important;
+           }
+           
+           pre.prism-code{
+            //  background: none!important;
+            //  background-color: #1e3952!important;
+             color: #fff!important;
+             font-family: SF Mono,Monaco,Inconsolata,Fira Mono,Droid Sans Mono,Source Code Pro,monospace!important;
+             font-size: 15px !important;
+             font-weight: 400 !important;
+             hyphens: none !important;
+             line-height: 1.6em !important;
+             overflow: auto !important;
+             padding: 12px !important;
+             tab-size: 2 !important;
+             text-align: left !important;
+             white-space: pre !important;
+             word-break: normal !important;
+             word-spacing: normal !important;
+             word-wrap: normal !important;
+           }
+
+           .token.comment,
+           .token.prolog,
+           .token.doctype,
+           .token.cdata {
+             color: slategray!important;
+           }
+           
+           .token.punctuation {
+             color: #fefefe!important;
+           }
+           
+           .namespace {
+             opacity: .7!important;
+           }
+           
+           .token.property,
+           .token.tag,
+           .token.constant,
+           .token.symbol,
+           .token.deleted {
+             color: #ff8985!important;
+           }
+           
+           .token.boolean,
+           .token.number {
+             color: #ae81ff!important;
+           }
+           
+           .token.selector,
+           .token.attr-name,
+           .token.string,
+           .token.char,
+           .token.builtin,
+           .token.inserted {
+             color: #f7d154!important;
+           }
+           
+           .token.operator,
+           .token.entity,
+           .token.url,
+           .language-css .token.string,
+           .style .token.string,
+           .token.variable {
+             color: #f8f8f2!important;
+           }
+           
+           .token.atrule,
+           .token.attr-value,
+           .token.function,
+           .token.class-name {
+             color: #45ffa5!important;
+           }
+           
+           .token.keyword {
+             color: #66d9ef!important;
+           }
+           
+           .token.regex,
+           .token.important {
+             color: #fd971f!important;
+           }
+           
+           .token.important,
+           .token.bold {
+             font-weight: bold!important;
+           }
+           .token.italic {
+             font-style: italic!important;
+           }
+           
+           .token.entity {
+             cursor: help!important;
+           }
+           
+           `}
+        </style>
       </React.Fragment>
     );
   }

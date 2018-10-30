@@ -38,30 +38,30 @@ class DetailsComponent extends React.Component {
     return (
       <div id="container" className={`page ${pagePushed ? 'pushed' : ''}`}>
         <Section sectionClass="p-2 title-component" gray>
-          <Container>
+          <Container className="pb-4">
             <Header type="h2" className="name d-inline">
-              <span className="pr-2">
-                <GoRocket />
-              </span>
               {name}
             </Header>
-            {/* <Link
-              className="text-muted pull-right p-2"
+            <Link
+              className="text-muted pull-right pt-2"
               href={linkGithub}
               tooltip="View on Github"
               target="_blank"
             >
               <Icon icon="fa fa-github" />
               <span className="d-none d-sm-inline">View on Github</span>
-            </Link> */}
-            <Column className="col-12 col-md-10 ml-0 pt-4 pb-4 pl-0 pr-0">
-              <Paragraphs fontWeight="light" text={description} />
-            </Column>
+            </Link>
           </Container>
         </Section>
-        <div className="container p-4">
+        <div className="container">
           <Row>
-            <Column className="col-12 col-md-12 pl-0">
+            <Column className="col-12 col-md-10">
+              <Header type="h2" className="name d-inline">
+                Intro
+              </Header>
+              <Paragraphs fontWeight="light" text={description} />
+            </Column>
+            <Column className="col-12 col-md-12">
               <div className="code-import pl-0 pt-2 pb-2">
                 <div className="col-5 text-truncate pl-0">
                   <Button className="pl-0" onClick={this.toogle} color="link">

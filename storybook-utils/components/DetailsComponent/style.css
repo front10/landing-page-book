@@ -117,3 +117,34 @@ p {
         display: none;
     }
 }
+
+.storiesList{
+    position: sticky;
+    top: 4rem;
+    height: calc(50vh - 4rem);
+    overflow-y: auto;
+
+    margin: 5% 3% 0% 0%;
+    right: 0px;
+    width: 180px;
+    padding-left: 0;
+    border-left: 1px solid #eee;
+}
+
+@media only screen and (max-width: 1000px) {
+    .storiesList{
+        display: none !important;
+    }
+}
+.storiesList ul li{
+    list-style: none;
+}
+
+.storiesList ul li a{
+    color: #888888 !important;
+}
+.storiesList ul li a:hover, .storiesList ul li a.active{
+    color: #555555 !important;
+    text-decoration: none !important;
+    cursor: pointer;
+}

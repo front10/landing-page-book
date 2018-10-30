@@ -8,7 +8,7 @@
                 "name": "bool"
             },
             "required": false,
-            "description": "",
+            "description": "Disable or enable button.",
             "defaultValue": {
                 "value": "false",
                 "computed": false
@@ -19,7 +19,7 @@
                 "name": "bool"
             },
             "required": false,
-            "description": "",
+            "description": "Show loading mode.",
             "defaultValue": {
                 "value": "false",
                 "computed": false
@@ -30,7 +30,7 @@
                 "name": "bool"
             },
             "required": false,
-            "description": "",
+            "description": "Show rounded button.",
             "defaultValue": {
                 "value": "true",
                 "computed": false
@@ -41,7 +41,7 @@
                 "name": "bool"
             },
             "required": false,
-            "description": "",
+            "description": "Show circle button.",
             "defaultValue": {
                 "value": "false",
                 "computed": false
@@ -52,7 +52,7 @@
                 "name": "bool"
             },
             "required": false,
-            "description": "",
+            "description": "Define if button is only with border.",
             "defaultValue": {
                 "value": "false",
                 "computed": false
@@ -63,7 +63,7 @@
                 "name": "bool"
             },
             "required": false,
-            "description": "",
+            "description": "Define if button is active.",
             "defaultValue": {
                 "value": "false",
                 "computed": false
@@ -74,7 +74,7 @@
                 "name": "string"
             },
             "required": false,
-            "description": "",
+            "description": "Class to show loading indicator.",
             "defaultValue": {
                 "value": "'fa fa-circle-o-notch fa-spin'",
                 "computed": false
@@ -85,7 +85,7 @@
                 "name": "string"
             },
             "required": false,
-            "description": "",
+            "description": "Class to apply to button.",
             "defaultValue": {
                 "value": "''",
                 "computed": false
@@ -96,7 +96,7 @@
                 "name": "string"
             },
             "required": false,
-            "description": "",
+            "description": "Aria label of the button.",
             "defaultValue": {
                 "value": "''",
                 "computed": false
@@ -107,7 +107,7 @@
                 "name": "string"
             },
             "required": false,
-            "description": "",
+            "description": "Button tooltip.",
             "defaultValue": {
                 "value": "''",
                 "computed": false
@@ -118,7 +118,7 @@
                 "name": "string"
             },
             "required": false,
-            "description": "",
+            "description": "Button size, can be `lg` or `sm`.",
             "defaultValue": {
                 "value": "''",
                 "computed": false
@@ -129,7 +129,7 @@
                 "name": "string"
             },
             "required": false,
-            "description": "",
+            "description": "Type of the button.",
             "defaultValue": {
                 "value": "'button'",
                 "computed": false
@@ -140,7 +140,7 @@
                 "name": "string"
             },
             "required": false,
-            "description": "",
+            "description": "Color to apply to button.",
             "defaultValue": {
                 "value": "'default'",
                 "computed": false
@@ -154,7 +154,7 @@
                 }
             },
             "required": false,
-            "description": "",
+            "description": "Button styles.",
             "defaultValue": {
                 "value": "{}",
                 "computed": false
@@ -176,7 +176,7 @@
                 ]
             },
             "required": false,
-            "description": "",
+            "description": "Nodes childrens",
             "defaultValue": {
                 "value": "null",
                 "computed": false
@@ -187,7 +187,7 @@
                 "name": "func"
             },
             "required": false,
-            "description": "",
+            "description": "Called when button is clicked.",
             "defaultValue": {
                 "value": "() => {}",
                 "computed": false

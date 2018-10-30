@@ -1,1 +1,86 @@
-{"description":"","displayName":"Backers","methods":[{"name":"formatData","docblock":null,"modifiers":[],"params":[{"name":"{ backers }","type":null}],"returns":null}],"props":{"imageRounded":{"type":{"name":"bool"},"required":false,"description":"","defaultValue":{"value":"true","computed":false}},"imageBordered":{"type":{"name":"bool"},"required":false,"description":"","defaultValue":{"value":"true","computed":false}},"imageGray":{"type":{"name":"bool"},"required":false,"description":"","defaultValue":{"value":"false","computed":false}},"backers":{"type":{"name":"arrayOf","value":{"name":"shape","value":{"name":{"name":"string","required":false},"profile":{"name":"string","required":false},"image":{"name":"string","required":false},"contributionAmount":{"name":"number","required":false}}}},"required":false,"description":"","defaultValue":{"value":"[]","computed":false}}},"filename":"/components/Backers/Backers.jsx"}
+{
+    "description": "",
+    "displayName": "Backers",
+    "methods": [
+        {
+            "name": "formatData",
+            "docblock": null,
+            "modifiers": [],
+            "params": [
+                {
+                    "name": "{ backers }",
+                    "type": null
+                }
+            ],
+            "returns": null
+        }
+    ],
+    "props": {
+        "imageRounded": {
+            "type": {
+                "name": "bool"
+            },
+            "required": false,
+            "description": "Define if images are rounded.",
+            "defaultValue": {
+                "value": "true",
+                "computed": false
+            }
+        },
+        "imageBordered": {
+            "type": {
+                "name": "bool"
+            },
+            "required": false,
+            "description": "Define images with border.",
+            "defaultValue": {
+                "value": "true",
+                "computed": false
+            }
+        },
+        "imageGray": {
+            "type": {
+                "name": "bool"
+            },
+            "required": false,
+            "description": "Define if images are with gray scale.",
+            "defaultValue": {
+                "value": "false",
+                "computed": false
+            }
+        },
+        "backers": {
+            "type": {
+                "name": "arrayOf",
+                "value": {
+                    "name": "shape",
+                    "value": {
+                        "name": {
+                            "name": "string",
+                            "required": false
+                        },
+                        "profile": {
+                            "name": "string",
+                            "required": false
+                        },
+                        "image": {
+                            "name": "string",
+                            "required": false
+                        },
+                        "contributionAmount": {
+                            "name": "number",
+                            "required": false
+                        }
+                    }
+                }
+            },
+            "required": false,
+            "description": "List of backers",
+            "defaultValue": {
+                "value": "[]",
+                "computed": false
+            }
+        }
+    },
+    "filename": "/components/Backers/Backers.jsx"
+}

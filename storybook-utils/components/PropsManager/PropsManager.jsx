@@ -128,7 +128,7 @@ class PropsManager extends React.Component {
             {active.indexOf('props') !== -1 && (
               <div className="playgroundProperties p-0">
                 <table
-                  className={`table table-striped table-bordered m-0 table-dark table-sm ${
+                  className={`table table-striped table-bordered m-0 table-sm ${
                     active.indexOf('readme') === -1 ? 'playgroundProperties--rounded' : ''
                   }`}
                 >
@@ -143,10 +143,17 @@ class PropsManager extends React.Component {
                   <tbody>
                     {Object.keys(propsDescription).map(prop => (
                       <tr key={prop}>
-                        <td>{prop}</td>
-                        <td>{propsDescription[prop].type.name}</td>
+                        <td>
+                          <span className="propName">{prop}</span>
+                        </td>
+                        <td>
+                          {' '}
+                          <span className="propType">{propsDescription[prop].type.name}</span>
+                        </td>
                         <td>{propsDescription[prop].description}</td>
-                        <td>{propsDescription[prop].defaultValue.value}</td>
+                        <td>
+                          <code>{propsDescription[prop].defaultValue.value}</code>
+                        </td>
                       </tr>
                     ))}
                   </tbody>

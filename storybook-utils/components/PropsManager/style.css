@@ -41,3 +41,31 @@
 .fs-12 {
   font-size: 12px;
 }
+
+.propType{
+  background-color: #435a6f;
+    background-color: rgba(67,90,111,.2);
+    border-radius: 2px;
+    color: #1f4160;
+    font-weight: 500;
+    padding: 2px 4px;
+}
+
+.propName{
+  background-color: #14b5d0;
+  background-color: rgba(20,181,208,.114);
+  border-radius: 2px;
+  color: #056f8a;
+  font-family: SF Mono,Monaco,Inconsolata,Fira Mono,Droid Sans Mono,Source Code Pro,monospace;
+  font-weight: 500;
+  margin-right: 12px;
+  padding: 2px 4px;
+}
+
+.table-bordered{
+  border: 2px solid #232426;
+}
+
+.table * {
+  font-size: 12px;
+}

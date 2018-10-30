@@ -13,7 +13,7 @@ Object.keys(nameComponents).map(component => {
   if (component.includes('__') === false) {
     elements.push({
       name: component,
-      link: `components/story?${component.toLowerCase()}`
+      link: `components/${component.toLowerCase()}`
     });
   }
   return false;

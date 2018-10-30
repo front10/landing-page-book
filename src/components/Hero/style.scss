@@ -17,6 +17,13 @@
 @import '../Button/style.scss';
 @import '../Header/style.scss';
 .Hero {
+  .Hero__Container {
+    flex: 0 0 100%;
+    position: relative;
+    z-index: 2;
+    // text-align: var(--Hero__align);
+  }
+
   .Hero__Header {
     font-weight: var(--Hero__Header-fontWeight);
     font-size: var(--Hero__Header-fontSize);
@@ -28,6 +35,8 @@
     font-style: var(--Hero__SubHeader-fontStyle);
     color: var(--Hero__SubHeader-color);
   }
+
+
   .Hero__Button {
     padding: var(--Hero__Button-padding);
     color: var(--Hero__Button-color);
@@ -44,16 +53,8 @@
       height: 100%;
     }
   }
-  .Hero__Container {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    .container {
-      margin: auto;
-    }
+  .sc-bxivhb > div{
+    flex: 0 0 100%;
   }
 }
 

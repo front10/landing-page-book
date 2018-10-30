@@ -38,14 +38,10 @@ stories.add(
       />
       <PropsManager scope={{ React, Hero }}>
         {`<Hero
-    opacity={1}
-    overlayColor="#373D45"
+    backgroundImageSrc="images/hero/alone-architecture-buildings-220444.jpg"
     header="Landing Page Book"
     subHeader="React components to build!"
     particlesSugar="crazyStars"
-    buttons={[
-        { text: 'TELL ME MORE', onClick: () => { } }
-    ]}
 />`}
       </PropsManager>
       <VariableManager className="mt-4" variables={themingVariables} />

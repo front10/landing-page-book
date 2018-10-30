@@ -5,7 +5,6 @@ import MainLayout from '../layouts/main';
 import DetailsComponent from '../../../storybook-utils/components/DetailsComponent';
 // import SideBar from '../../../storybook-utils/components/SideBar';
 import * as components from '../../stories/mock/components/stories';
-
 import * as nameComponents from '../../components/index';
 
 const elements = [];
@@ -22,13 +21,22 @@ Object.keys(nameComponents).map(component => {
 class ComponentView extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { component: undefined, toggleSideBar: false };
+    this.state = { component: undefined, toggleSideBar: false, properties: null };
   }
 
   componentDidMount() {
     const { location } = this.props;
     const component = components[location.search.substring(1)];
-    this.setState({ component });
+    const uri = component && `/images/components/${component.name.toLowerCase()}.json`;
+    fetch(uri)
+      .then(response => response.json())
+      .then(response => {
+        this.setState({ component, properties: response.props });
+      })
+      .catch(error => {
+        console.log(`404: JSON not found`);
+        console.log(`Hubo un problema con la petición Fetch:${error.message}`);
+      });
     this.handletoggleSideBar = this.handletoggleSideBar.bind(this);
   }
 
@@ -41,7 +49,7 @@ class ComponentView extends React.Component {
   }
 
   render() {
-    const { component, toggleSideBar } = this.state;
+    const { component, toggleSideBar, properties } = this.state;
     return (
       <MainLayout pagePushedFunction={this.handlepushedPageLayout}>
         {component && (
@@ -54,6 +62,7 @@ class ComponentView extends React.Component {
             stories={component.stories}
             importCode={component.import}
             pagePushed={toggleSideBar}
+            propsDescription={properties}
           />
         )}
         {/* <SideBar components={elements} sideBarFunction={this.handletoggleSideBar} /> */}

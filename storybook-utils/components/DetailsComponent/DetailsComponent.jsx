@@ -57,7 +57,7 @@ class DetailsComponent extends React.Component {
   }
 
   render() {
-    const { name, linkGithub, description, stories, pagePushed } = this.props;
+    const { name, linkGithub, description, stories, pagePushed, propsDescription } = this.props;
     // const { open } = this.state;
     return (
       <div id="container" className={`page ${pagePushed ? 'pushed' : ''}`}>
@@ -91,7 +91,9 @@ class DetailsComponent extends React.Component {
                     {story.name}
                   </Header>
                   <Paragraphs fontWeight="light" text={story.summary} />
-                  <PropsManager active={story.tabsActive}>{story.code}</PropsManager>
+                  <PropsManager propsDescription={propsDescription} active={story.tabsActive}>
+                    {story.code}
+                  </PropsManager>
                 </Element>
               ))}
             </Column>
@@ -120,7 +122,7 @@ class DetailsComponent extends React.Component {
 DetailsComponent.propTypes = {
   name: PropTypes.string,
   description: PropTypes.string,
-  // importCode: PropTypes.string,
+  propsDescription: PropTypes.objectOf(PropTypes.any),
   linkGithub: PropTypes.string,
   stories: PropTypes.arrayOf(
     PropTypes.shape({
@@ -136,7 +138,7 @@ DetailsComponent.propTypes = {
 DetailsComponent.defaultProps = {
   name: 'Header component',
   description: '',
-  // importCode: '',
+  propsDescription: null,
   linkGithub: 'Link',
   stories: [],
   pagePushed: false

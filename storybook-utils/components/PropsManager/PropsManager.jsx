@@ -40,7 +40,8 @@ class PropsManager extends React.Component {
   }
 
   handleActive(activeTab) {
-    let { active, textCode } = this.state;
+    const { active } = this.state;
+    let { textCode } = this.state;
     const { code } = this.state;
     textCode = activeTab === 'code' ? code : textCode;
     if (active.indexOf(activeTab) !== -1) active.splice(active.indexOf(activeTab), 1);
@@ -50,9 +51,10 @@ class PropsManager extends React.Component {
 
   showOrHideCodeAndIcon(tab, active) {
     return (
-      <div className="text-white">
-        <span className="font-weight-light fs-10">
-          {active.indexOf(tab.key) !== -1 ? 'HIDE' : 'EDIT'} CODE
+      <div className="text-white d-inline">
+        <span className="font-weight-light fs-10 text-uppercase">
+          {active.indexOf(tab.key) !== -1 ? 'HIDE' : tab.key === 'props' ? 'SHOW' : 'EDIT'}{' '}
+          {tab.title}
         </span>
         <Icon
           key={tab.key}
@@ -92,7 +94,9 @@ class PropsManager extends React.Component {
                   (tab.key === 'props' && propsDescription) ||
                   (tab.key === 'css' && cssVariables.length) ||
                   (tab.key === 'readme' && readme) ? (
-                    <div key={tab.key}>{this.showOrHideCodeAndIcon(tab, active)}</div>
+                    <React.Fragment key={tab.key}>
+                      {this.showOrHideCodeAndIcon(tab, active)}
+                    </React.Fragment>
                   ) : null
               )}
             </div>
@@ -106,7 +110,7 @@ class PropsManager extends React.Component {
                     : ''
                 }
               >
-                <LiveEditor style={null}/>
+                <LiveEditor style={null} />
                 <LiveError />
               </div>
             )}

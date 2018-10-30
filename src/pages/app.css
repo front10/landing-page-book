@@ -9,10 +9,12 @@
 
 
 .navbar {
-  padding: 0rem 1rem;
+  padding: 0.3rem 1rem;
   color: black;
-  box-shadow: 0 0 4px rgba(0, 0, 0, .124), 0 4px 8px rgba(0, 0, 0, .124);
+  box-shadow: 0 0 1px rgba(67,90,111,.47), 0 2px 4px -2px rgba(67,90,111,.3);
   background-color: #ffffff;
+  text-transform: uppercase;
+  font-size: 14px;
 }
 
 .Navbar .NavbarBrand .Logo {
@@ -24,6 +26,12 @@
   cursor: pointer;
 }
 
-.title-component < div{
-
+.navbar .github-link-icon{
+  font-size: 18px;
 }
+
+.Navbar .NavbarLink:hover {
+  background-color: #F4F5F7;
+  color: #818181 !important;
+}
+

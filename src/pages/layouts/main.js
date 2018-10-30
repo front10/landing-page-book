@@ -38,11 +38,9 @@ class MainLayout extends React.Component {
             </Link>
           </NavbarNav>
           <NavbarNav alignItems="right">
-            <GithubButton
-              btnType="star"
-              btnText="stars"
-            />
-            <NavbarLink>Contact</NavbarLink>
+            <iframe class="first-iframe mt-2" src="http://ghbtns.com/github-btn.html?user=front10&amp;repo=landing-page-book&amp;type=watch&amp;count=true" allowtransparency="true" frameborder="0" scrolling="0" width="86" height="30"></iframe>
+            <a title="Github" class="text-secondary pull-right nav-link NavbarLink" href="https://github.com/front10/landing-page-book/tree/master/src/components/Button" target="_blank"><i class="fa fa-slack github-link-icon" title=""></i><span class="d-none d-sm-inline">Slack</span></a>
+            <a title="Github" class="text-secondary pull-right nav-link NavbarLink" href="https://github.com/front10/landing-page-book/tree/master/src/components/Button" target="_blank"><i class="fa fa-github github-link-icon" title=""></i><span class="d-none d-sm-inline">Github</span></a>
           </NavbarNav>
         </Navbar>
         {children}

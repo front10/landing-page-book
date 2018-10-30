@@ -8,7 +8,7 @@ export default {
   stories: [
     {
       name: 'Basic',
-      summary: 'Esta es la descripción de la story Basic',
+      summary: 'Esta es la descripción de la story <code class="code">Basic</code>.',
       code: `<Button tooltip="Tis is a button tooltip">
         <Icon icon="fa fa-home" /> Home
     </Button>`,

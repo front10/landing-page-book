@@ -45,7 +45,7 @@ class DetailsComponent extends React.Component {
               </span>
               {name}
             </Header>
-            <Link
+            {/* <Link
               className="text-muted pull-right p-2"
               href={linkGithub}
               tooltip="View on Github"
@@ -53,7 +53,7 @@ class DetailsComponent extends React.Component {
             >
               <Icon icon="fa fa-github" />
               <span className="d-none d-sm-inline">View on Github</span>
-            </Link>
+            </Link> */}
             <Column className="col-12 col-md-10 ml-0 pt-4 pb-4 pl-0 pr-0">
               <Paragraphs fontWeight="light" text={description} />
             </Column>
@@ -61,7 +61,7 @@ class DetailsComponent extends React.Component {
         </Section>
         <div className="container p-4">
           <Row>
-            <Column className="col-12 col-md-10 pl-0">
+            <Column className="col-12 col-md-12 pl-0">
               <div className="code-import pl-0 pt-2 pb-2">
                 <div className="col-5 text-truncate pl-0">
                   <Button className="pl-0" onClick={this.toogle} color="link">
@@ -75,7 +75,7 @@ class DetailsComponent extends React.Component {
                 </NavbarCollapse>
               </div>
               {stories.map(story => (
-                <Element name={story.name} className="element pb-2" key={story.name}>
+                <Element name={story.name} className="element pb-4" key={story.name}>
                   <Header type="h3" className="mt-3">
                     {story.name}
                   </Header>
@@ -83,24 +83,6 @@ class DetailsComponent extends React.Component {
                   <PropsManager active={story.tabsActive}>{story.code}</PropsManager>
                 </Element>
               ))}
-            </Column>
-            <Column className="col-12 col-md-2 index">
-              <ul className="section-nav">
-                {stories.map(story => (
-                  <li key={story.name}>
-                    <LinkScroll
-                      activeClass="active"
-                      className="toc-entry"
-                      to={story.name}
-                      spy
-                      smooth
-                      duration={500}
-                    >
-                      {story.name}
-                    </LinkScroll>
-                  </li>
-                ))}
-              </ul>
             </Column>
           </Row>
         </div>

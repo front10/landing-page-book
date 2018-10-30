@@ -40,6 +40,6 @@ stories.add('Landing Page Book', () => (
         socials={['facebook', 'linkedin', 'google', 'twitter']}
       />
     </div>
-    <SideBar />
+    {/* <SideBar /> */}
   </ThemeSelector>
 ));

@@ -56,7 +56,7 @@ class ComponentView extends React.Component {
             pagePushed={toggleSideBar}
           />
         )}
-        <SideBar components={elements} sideBarFunction={this.handletoggleSideBar} />
+        {/* <SideBar components={elements} sideBarFunction={this.handletoggleSideBar} /> */}
       </MainLayout>
     );
   }

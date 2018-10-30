@@ -37,36 +37,29 @@ class SideBar extends React.Component {
   render() {
     const { openSideBar } = this.state;
     const { components } = this.props;
-    console.info(components);
     return (
-      <div
-        className={`morph-button morph-button-sidebar morph-button-fixed ${
-          openSideBar ? 'active open scroll' : ''
-          }`}
-      >
-        <Button type="button" onClick={this.toggleSideBar}>
-          <span className="fa fa-th-large" />
-          Components
-        </Button>
-        <div className="morph-content">
-          <div className="content-style-sidebar">
-            <span className="fa fa-close" onClick={this.toggleSideBar} />
-            <input className="search-box form-control mt-3" type="text" placeholder="Search " />
-            <h6 className="text-center mt-3 mb-3">Components</h6>
-            <div className="container-ul">
-              <ul>{this.renderChilds(components)}</ul>
-            </div>
-            <h6 className="text-center mt-3 mb-3">Elements</h6>
-            <ul className="container-ul">
-              <li>
-                <a className="fa fa-globe" href="to_global">
-                  Global Options
-                </a>
-              </li>
-            </ul>
-          </div>
+      <React.Fragment>
+        <div className="morph-button morph-button-fixed">
+          <Button type="button" onClick={this.toggleSideBar}>
+            <span className="fa fa-th-large" />
+            Components
+          </Button>
         </div>
-      </div>
+        <div className={`content-style-sidebar ${openSideBar ? 'open' : ''}`}>
+          <div className="sidebar-title">
+            <h4 className="title">Components</h4>
+            <span className="fa fa-close" onClick={this.toggleSideBar} />
+          </div>
+          <input className="search-box form-control" type="text" placeholder="Search " />
+          <div className="container-ul">
+            <ul>{this.renderChilds(components)}</ul>
+          </div>
+          <h6 className="text-center mt-3 mb-3">Elements</h6>
+          <ul className="container-ul">
+            <li><a className="fa fa-globe" href="to_global">Global Options</a></li>
+          </ul>
+        </div>
+      </React.Fragment>
     );
   }
 }
@@ -83,7 +76,7 @@ SideBar.propTypes = {
 };
 
 SideBar.defaultProps = {
-  sideBarFunction: () => { },
+  sideBarFunction: () => {},
   components: []
 };
 

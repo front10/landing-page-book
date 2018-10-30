@@ -69,12 +69,12 @@
 }
 
 /* Page transition */
-/* .page{
+.page{
     -webkit-transition-duration: 0.5s;
 	transition-duration: 0.5s;
-	-webkit-transform: translateX(0px);
-	transform: translateX(0px);
-} */
+	/* -webkit-transform: translateX(0px); */
+	/* transform: translateX(0px); */
+}
 
 .pushed > .navbar ,.pushed.page {
 	-webkit-transition-duration: 0.5s;

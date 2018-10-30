@@ -4,13 +4,13 @@
   "description": "A react library for landing page",
   "main": "dist/index.js",
   "dependencies": {
-    "gatsby": "^1.9.45",
-    "gatsby-link": "^1.6.17",
-    "gatsby-plugin-react-helmet": "^1.0.5",
     "bootstrap": "^4.1.1",
     "codemirror": "^5.39.0",
     "email-validator": "^2.0.4",
     "font-awesome": "^4.7.0",
+    "gatsby": "^1.9.45",
+    "gatsby-link": "^1.6.17",
+    "gatsby-plugin-react-helmet": "^1.0.5",
     "google-map-react": "^1.0.5",
     "graphql-syntax-highlighter-react": "^0.3.5",
     "highlight.js": "^9.12.0",
@@ -22,13 +22,14 @@
     "react-flags-select": "^1.1.9",
     "react-ga": "^2.5.3",
     "react-gif-player": "^0.4.1",
+    "react-html-parser": "^2.0.2",
     "react-json-pretty": "^1.7.9",
     "react-lazy-hero": "^0.4.0",
     "react-particles-js": "^2.3.0",
     "react-player": "^1.6.4",
+    "react-scroll": "^1.7.10",
     "react-share": "^2.2.0",
-    "react-stepzilla": "^4.7.2",
-    "react-scroll": "^1.7.10"
+    "react-stepzilla": "^4.7.2"
   },
   "repository": {
     "type": "git",

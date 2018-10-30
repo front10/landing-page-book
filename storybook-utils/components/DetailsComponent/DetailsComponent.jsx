@@ -58,7 +58,7 @@ class DetailsComponent extends React.Component {
         <div className="container prl-11">
           <Row>
             <Column className="col-12 col-md-12 pt-4">
-              <Header type="h2" className="name mb-2">
+              <Header type="h4" className="name mb-2">
                 Intro
               </Header>
               <Paragraphs fontWeight="light" text={description} />

@@ -50,8 +50,7 @@ class MainLayout extends React.Component {
           socials={['facebook', 'linkedin', 'google', 'twitter']}
         />
         <style>
-          {
-            `/**
+          {`/**
             * okaidia theme for JavaScript, CSS and HTML
             * Loosely based on Monokai textmate theme by http://www.monokai.nl/
             * @author ocodia
@@ -194,8 +193,7 @@ class MainLayout extends React.Component {
              cursor: help!important;
            }
            
-           `
-          }
+           `}
         </style>
       </React.Fragment>
     );

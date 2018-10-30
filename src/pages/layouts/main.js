@@ -9,6 +9,7 @@ import Navbar from '../../components/Navbar';
 import NavbarNav from '../../components/NavbarNav';
 import NavbarLink from '../../components/NavbarLink';
 import Footer from '../../components/Footer';
+import GithubButton from '../../components/GithubButton';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
@@ -37,7 +38,10 @@ class MainLayout extends React.Component {
             </Link>
           </NavbarNav>
           <NavbarNav alignItems="right">
-            <NavbarLink>Services</NavbarLink>
+            <GithubButton
+              btnType="star"
+              btnText="stars"
+            />
             <NavbarLink>Contact</NavbarLink>
           </NavbarNav>
         </Navbar>

@@ -64,7 +64,7 @@ class DetailsComponent extends React.Component {
               <Paragraphs fontWeight="light" text={description} />
             </Column>
             <Column className="col-12 col-md-12">
-              <div className="code-import pl-0 pt-2 pb-2">
+              {/* <div className="code-import pl-0 pt-2 pb-2">
                 <div className="col-5 text-truncate pl-0">
                   <Button className="pl-0" onClick={this.toogle} color="link">
                     <code className="text-monospace text-muted text-truncate">{importCode}</code>
@@ -75,7 +75,7 @@ class DetailsComponent extends React.Component {
                     <code className="text-monospace text-muted">{importCode}</code>
                   </pre>
                 </NavbarCollapse>
-              </div>
+              </div> */}
               {stories.map(story => (
                 <Element name={story.name} className="element pb-4" key={story.name}>
                   <Header type="h3" className="mt-3">

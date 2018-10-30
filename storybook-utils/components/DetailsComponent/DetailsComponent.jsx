@@ -44,13 +44,12 @@ class DetailsComponent extends React.Component {
               {name}
             </Header>
             <Link
-              className="text-muted pull-right pt-2"
+              className="btn btn-everblue pull-right pt-2"
               href={linkGithub}
               tooltip="View on Github"
               target="_blank"
             >
-              <Icon icon="fa fa-github" />
-              <span className="d-none d-sm-inline">View on Github</span>
+              <span>View on Github</span>
             </Link>
           </Container>
         </div>

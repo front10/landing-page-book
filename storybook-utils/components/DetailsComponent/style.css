@@ -97,4 +97,8 @@
     .prl-11{
         padding: 0 1em;
     }
+
+    ul.ml-auto a.NavbarLink {
+        display: none;
+    }
 }

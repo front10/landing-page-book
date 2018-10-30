@@ -37,7 +37,7 @@ class MainLayout extends React.Component {
           </NavbarNav>
           <NavbarNav alignItems="right">
             {/* eslint-disable */}
-            <iframe className="first-iframe mt-2" src="http://ghbtns.com/github-btn.html?user=front10&amp;repo=landing-page-book&amp;type=watch&amp;count=true" allowTransparency="true" frameBorder="0" scrolling="0" width="86" height="30"></iframe>
+            <iframe className="first-iframe mt-2" src="http://ghbtns.com/github-btn.html?user=front10&amp;repo=landing-page-book&amp;type=watch&amp;count=true" frameBorder="0" scrolling="0" width="86" height="30"></iframe>
             <a title="Github" className="text-secondary pull-right nav-link NavbarLink" href="https://github.com/front10/landing-page-book/tree/master/src/components/Button" target="_blank" rel="noopener noreferrer"><i className="fa fa-slack github-link-icon" title=""></i><span className="d-none d-sm-inline">Slack</span></a>
             <a title="Github" className="text-secondary pull-right nav-link NavbarLink" href="https://github.com/front10/landing-page-book/tree/master/src/components/Button" target="_blank" rel="noopener noreferrer"><i className="fa fa-github github-link-icon" title=""></i><span className="d-none d-sm-inline">Github</span></a>
             {/* eslint-enable */}

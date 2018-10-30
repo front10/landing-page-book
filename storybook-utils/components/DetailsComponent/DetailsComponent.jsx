@@ -53,9 +53,9 @@ class DetailsComponent extends React.Component {
             </Link>
           </Container>
         </Section>
-        <div className="container">
+        <div className="container prl-11">
           <Row>
-            <Column className="col-12 col-md-10">
+            <Column className="col-12 col-md-10 pt-4">
               <Header type="h2" className="name d-inline">
                 Intro
               </Header>

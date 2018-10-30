@@ -29,6 +29,7 @@ class PropsManager extends React.Component {
     };
     this.handleCodeChange = this.handleCodeChange.bind(this);
     this.handleActive = this.handleActive.bind(this);
+    this.showOrHideCodeAndIcon = this.showOrHideCodeAndIcon.bind(this);
   }
 
   handleCodeChange(code) {
@@ -45,6 +46,23 @@ class PropsManager extends React.Component {
     if (active.indexOf(activeTab) !== -1) active.splice(active.indexOf(activeTab), 1);
     else active.push(activeTab);
     this.setState({ active, textCode });
+  }
+
+  showOrHideCodeAndIcon(tab, active) {
+    return (
+      <div className="text-white">
+        <span className="font-weight-light fs-10">
+          {active.indexOf(tab.key) !== -1 ? 'HIDE' : 'EDIT'} CODE
+        </span>
+        <Icon
+          key={tab.key}
+          title={tab.title}
+          icon={`fa fa-${tab.icon}`}
+          className="p-2 playgroundHeader__icon fs-12"
+          onClick={() => this.handleActive(tab.key)}
+        />
+      </div>
+    );
   }
 
   render() {
@@ -74,15 +92,7 @@ class PropsManager extends React.Component {
                   (tab.key === 'props' && propsDescription) ||
                   (tab.key === 'css' && cssVariables.length) ||
                   (tab.key === 'readme' && readme) ? (
-                    <Icon
-                      key={tab.key}
-                      title={tab.title}
-                      icon={`fa fa-${tab.icon}`}
-                      className={`p-2 playgroundHeader__icon ${
-                        active.indexOf(tab.key) !== -1 ? 'text-warning' : 'text-white'
-                      }`}
-                      onClick={() => this.handleActive(tab.key)}
-                    />
+                    <div key={tab.key}>{this.showOrHideCodeAndIcon(tab, active)}</div>
                   ) : null
               )}
             </div>

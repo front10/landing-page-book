@@ -174,3 +174,8 @@ p {
   background-image: linear-gradient(to bottom, #fafbfb, #eaecee);
   color: #425a70;
 }
+
+
+.element{
+  padding-top: 50px;
+}

@@ -6,10 +6,11 @@
 // };
 
 export default {
-    name: 'Hero',
-    summary: "The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content.",
-    import: ``,
-    stories: []
+  name: 'Hero',
+  summary:
+    "The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content.",
+  import: ``,
+  stories: []
 };
 
 // export default {
@@ -60,7 +61,7 @@ export default {
 //         <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
 //         <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
 //         <div className="">
-//             <Link 
+//             <Link
 //                 href="https://front10.com"
 //                 style={${JSON.stringify(ctaButtonStyles)}}
 //                 target="_blank">
@@ -85,7 +86,7 @@ export default {
 //         <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
 //         <div className="">
 //             <Link
-//                 href="https://front10.com" 
+//                 href="https://front10.com"
 //                 style={${JSON.stringify(ctaButtonStyles)}}
 //                 target="_blank">
 //                 READ MORE
@@ -108,7 +109,7 @@ export default {
 //         <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
 //         <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
 //         <div className="">
-//             <Link 
+//             <Link
 //                 href="https://front10.com"
 //                 style={${JSON.stringify(ctaButtonStyles)}}
 //                 target="_blank">READ MORE

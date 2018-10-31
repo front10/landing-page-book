@@ -10,8 +10,8 @@ export default {
       name: 'Basic',
       summary: 'Esta es la descripción de la story <code class="code">Basic</code>.',
       code: `<Button tooltip="Tis is a button tooltip">
-        <Icon icon="fa fa-home" /> Home
-    </Button>`,
+    <Icon icon="fa fa-home" /> Home
+</Button>`,
       tabsActive: ['code']
     },
     {

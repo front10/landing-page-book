@@ -91,7 +91,11 @@ class DetailsComponent extends React.Component {
                     {story.name}
                   </Header>
                   <Paragraphs fontWeight="light" text={story.summary} />
-                  <PropsManager propsDescription={propsDescription} active={story.tabsActive}>
+                  <PropsManager
+                    propsDescription={propsDescription}
+                    active={story.tabsActive}
+                    cssVariables={story.cssVariables}
+                  >
                     {story.code}
                   </PropsManager>
                 </Element>

@@ -18,11 +18,7 @@ class VariableManager extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {};
-  }
-
-  componentWillMount() {
-    this.setState({ code: ':root{}' });
+    this.state = { code: '' };
   }
 
   componentDidMount() {

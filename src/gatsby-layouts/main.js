@@ -2,9 +2,6 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 
-import '../components/Navbar/style.legacy_browsers.css';
-import '../components/Footer/style.legacy_browsers.css';
-
 import Navbar from '../components/Navbar';
 import NavbarNav from '../components/NavbarNav';
 import Footer from '../components/Footer';
@@ -12,7 +9,7 @@ import Footer from '../components/Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 
-import '../themes/default/index.legacy_browsers.css';
+import '../themes/default/index.css';
 
 import '../pages/app.css';
 

@@ -3,7 +3,6 @@ import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
-import jsxConfig from '../../mock/jsxConfig';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import { Analytics } from '../../../components';
@@ -24,6 +23,5 @@ stories.add(
         {`<Analytics idTracking="UA-0000000-0" urlPath="/" debug /> `}
       </PropsManager>
     </ThemeSelector>
-  )),
-  jsxConfig
+  ))
 );

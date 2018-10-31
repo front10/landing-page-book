@@ -3,7 +3,7 @@ import React from 'react';
 import MainLayout from '../../gatsby-layouts/main';
 import DetailsComponent from '../../../storybook-utils/components/DetailsComponent';
 import component from '../../stories/mock/components/stories/button';
-import properties from '../../components/Button/map.json';
+import map from '../../components/Button/map.json';
 
 class ComponentView extends React.Component {
   render() {
@@ -12,16 +12,13 @@ class ComponentView extends React.Component {
         {component && (
           <DetailsComponent
             name={component.name}
-            linkGithub={`https://github.com/front10/landing-page-book/tree/master/src/components/${
-              component.name
-            }`}
+            linkGithub="https://github.com/front10/landing-page-book/tree/master/src/components/Button"
             description={component.summary}
             stories={component.stories}
             importCode={component.import}
-            propsDescription={properties}
+            propsDescription={map.props}
           />
         )}
-        {/* <SideBar components={elements} sideBarFunction={this.handletoggleSideBar} /> */}
       </MainLayout>
     );
   }

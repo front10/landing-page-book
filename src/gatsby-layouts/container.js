@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 import Main from './main';
-import Container from '../../components/Container';
+import Container from '../components/Container';
 
 class ContainerLayout extends React.Component {
   render() {

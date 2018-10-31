@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from './layouts/main';
+import Main from '../gatsby-layouts/main';
 import Container from '../components/Container';
 
 const IndexPage = () => (

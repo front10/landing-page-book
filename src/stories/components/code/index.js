@@ -47,7 +47,7 @@ stories.add(
     showCopyButton={false}
     showDeleteButton={false}
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code=""}
+    code=""
 />`}
       </PropsManager>
     </ThemeSelector>

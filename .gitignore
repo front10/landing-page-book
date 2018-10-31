@@ -49,3 +49,4 @@ src/components/**/*.css
 #all autogenerate pages
 src/pages/components/*
 !src/pages/components/index.js
+    

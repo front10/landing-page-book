@@ -4,7 +4,7 @@ const path = require('path');
 const componentFolder = './src/components/';
 
 function filewalker(dir, done) {
-  let results = [];
+  const results = [];
 
   fs.readdir(dir, async (err, list) => {
     if (err) return done(err);
@@ -19,18 +19,9 @@ function filewalker(dir, done) {
       fs.stat(file, async (err, stat) => {
         // If directory, execute a recursive call
         if (stat && stat.isDirectory()) {
-          filewalker(file, (err, res) => {
-            results = results.concat(res);
-            if (!--pending) done(null, results);
-          });
-        } else {
-          // Check if is a Javascript file
-          // And not a story or test
-          if (file.endsWith('.jsx') && !file.endsWith('.test.js')) {
-            await results.push(file);
-          }
-          if (!--pending) done(null, results);
+          await results.push(file);
         }
+        if (!--pending) done(null, results);
       });
     });
   });

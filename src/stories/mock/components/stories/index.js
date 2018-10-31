@@ -1,4 +1,53 @@
-import backers from './backers';
-import button from './button';
+const components = [
+  {
+    name: 'Components',
+    description:
+      'Descripción de los componentes para más detalles consulte cada uno de los componentes, bla blab alba sda sda sd.',
+    components: [
+      'Navbar',
+      'Hero',
+      'Section',
+      'Features',
+      'GithubButton',
+      'Code',
+      'BrowserSupport',
+      'Gif',
+      'Backers',
+      'BackerOpenCollective',
+      'Team',
+      'Sponsor',
+      'BuiltWith',
+      'ContactInfo',
+      'ContactUs',
+      'Copyright',
+      'Donation',
+      'Footer',
+      'ImageList',
+      'Location',
+      'Social',
+      'Video',
+      'LanguageSwitcher',
+      'Wizard',
+      'Analytics'
+    ]
+  },
+  {
+    name: 'Elements',
+    description: 'Descripcion de los elementos',
+    components: [
+      'Button',
+      'TextBox',
+      'Paragraphs',
+      'Header',
+      'Link',
+      'Card',
+      'Image',
+      'Icon',
+      'Input',
+      'Label',
+      'Browser'
+    ]
+  }
+];
 
-export { backers, button };
+export default components;

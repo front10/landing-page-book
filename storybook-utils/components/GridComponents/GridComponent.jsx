@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { Features, Header, Input } from '../../../src/components';
+import { Header, Input, Link, Row, Column, Card, Section } from '../../../src/components';
 import '../../../src/components/Features/style.css';
 import '../../../src/components/Header/style.css';
 import '../../../src/components/Input/style.css';
@@ -10,9 +10,35 @@ import './style.css';
 class GridComponent extends React.Component {
   static NotFound() {
     return (
-      <Header className="text-center p-5" type="h2">
-        Search not found
-      </Header>
+      <React.Fragment>
+        <Header className="text-center p-5" type="h2">
+          Component not found
+        </Header>
+        <div className="not-found">
+          <span className="fa fa-th-large" />
+        </div>
+      </React.Fragment>
+    );
+  }
+
+  static paintItems(components) {
+    return (
+      <Row>
+        {components.map(component => (
+          <Column key={component} className="col-12 col-sm-6 col-md-4 col-lg-3">
+            <Link href={`/components/${component}`} tooltip="View more details">
+              <Card
+                showBorder={false}
+                imageCircle={false}
+                imageBorder={false}
+                shadow={false}
+                title={component}
+                image={`/images/components/${component.toLowerCase()}.svg`}
+              />
+            </Link>
+          </Column>
+        ))}
+      </Row>
     );
   }
 
@@ -31,21 +57,13 @@ class GridComponent extends React.Component {
     const { filter, components, search } = this.state;
     const items = search ? filter : components;
     return (
-      <React.Fragment>
-        <Features
-          shadow={false}
-          showTitle
-          showImage
-          showSubtitle
-          imageCircle={false}
-          imageBorder={false}
-          imageShadow={false}
-          showFooter
-          outlineButton
-          contentAlign="center"
-          features={items}
-        />
-      </React.Fragment>
+      <Row className="p-3">
+        {items.map(item => (
+          <Section key={item.name} title={item.name} subTitle={item.description}>
+            {GridComponent.paintItems(item.components)}
+          </Section>
+        ))}
+      </Row>
     );
   }
 
@@ -53,9 +71,19 @@ class GridComponent extends React.Component {
     this.setState({ search: event.value }, () => {
       const { search, components } = this.state;
       if (search === '') this.setState({ filter: [] });
-      const filter = components.filter(item =>
-        item.title.toLowerCase().includes(search.toLowerCase())
-      );
+      const filter = [
+        {
+          name: 'Results',
+          description: '',
+          components: []
+        }
+      ];
+      components.map(component => {
+        component.components.filter(item => {
+          if (item.toLowerCase().includes(search.toLowerCase())) filter[0].components.push(item);
+        });
+      });
+      filter[0].description = `${filter[0].components.length} matches have been found`;
       this.setState({ filter });
     });
   }
@@ -65,15 +93,15 @@ class GridComponent extends React.Component {
     return (
       <div className="page">
         <div className="container p-5">
-          <Header type="h1">Browser components</Header>
           <Input
-            label="Search components"
             value={search}
             icon="fa fa-search"
             onChange={this.performanceSearch}
             placeholder="Filter components"
           />
-          {filter.length === 0 && search ? this.NotFound : this.paintList()}
+          {search && filter.length !== 0 && filter[0].components.length === 0
+            ? GridComponent.NotFound()
+            : this.paintList()}
         </div>
       </div>
     );
@@ -81,14 +109,7 @@ class GridComponent extends React.Component {
 }
 
 GridComponent.propTypes = {
-  components: PropTypes.arrayOf(
-    PropTypes.shape({
-      title: PropTypes.string,
-      image: PropTypes.string,
-      link: PropTypes.string,
-      category: PropTypes.string
-    })
-  )
+  components: PropTypes.arrayOf(PropTypes.objectOf(PropTypes.any))
 };
 
 GridComponent.defaultProps = {

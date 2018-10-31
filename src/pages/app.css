@@ -43,3 +43,37 @@
 .page {
   margin-top: 55px;
 }
+
+.Section div{
+  margin: initial;
+}
+
+a .Card.h-100 {
+  padding: 6px;
+  margin: 6px;
+  height: auto !important;
+}
+
+.Section a:hover{
+  text-decoration: none !important;
+}
+
+a .Card:hover {
+  background-color: rgba(0,0,0,0.08);
+}
+.Section .Section__Subtitle{
+  color: #525252;
+}
+
+.Section  > div.p-5{
+  padding: 2rem 0rem 2rem 0rem !important;
+}
+
+.Section{
+  width: 100%;
+}
+
+.nav-link{
+  padding-right: .5rem !important;
+  padding-left: .5rem !important;
+}

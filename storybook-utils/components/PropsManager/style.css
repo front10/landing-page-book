@@ -9,6 +9,9 @@
   background-color: #272822;
 }
 
+.playgroundHeader__icon{
+  padding: 1px 3px 7px 10px;
+}
 .playgroundHeader__icon:hover {
   background-color: #141511;
   cursor: pointer;

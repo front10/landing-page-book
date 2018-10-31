@@ -14,7 +14,7 @@ import './style.css';
 const tabs = [
   { key: 'code', icon: 'code', title: 'Code' },
   { key: 'css', icon: 'css3', title: 'CSS variables' },
-  { key: 'props', icon: 'sliders', title: 'Properties' }
+  { key: 'props', icon: 'sliders', title: 'Props' }
 ];
 
 // eslint-disable-next-line react/no-deprecated
@@ -53,7 +53,7 @@ class PropsManager extends React.Component {
     return (
       <div className="text-white d-inline">
         <span className="font-weight-light fs-10 text-uppercase">
-          {active.indexOf(tab.key) !== -1 ? 'HIDE' : tab.key === 'props' ? 'SHOW' : 'EDIT'}{' '}
+          {active.indexOf(tab.key) !== -1 ? 'HIDE' : tab.key === 'props' ? '' : 'EDIT'}{' '}
           {tab.title}
         </span>
         <Icon

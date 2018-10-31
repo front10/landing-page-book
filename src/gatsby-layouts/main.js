@@ -21,7 +21,7 @@ class MainLayout extends React.Component {
     const { children } = this.props;
     return (
       <React.Fragment>
-        <Navbar brandLink="/" brandLogo="/images/logo/logoMainBLACK.png" fixed>
+        <Navbar brandLink="/" expand="md" brandLogo="/images/logo/logoMainBLACK.png" fixed>
           <NavbarNav>
             <Link className="nav-link NavbarLink" to="/" activeClassName="activeLink" exact>
               Introduction

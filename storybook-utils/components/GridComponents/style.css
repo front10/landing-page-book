@@ -8,3 +8,10 @@
 .Features{
 	margin-top: 30px;
 }
+
+.not-found{
+    text-align: center;
+    font-size: 10rem;
+    margin-top: -5rem;
+    color: rgba(0,0,0,0.04);
+}

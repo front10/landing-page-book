@@ -2,21 +2,24 @@ import React from 'react';
 import { storiesOf } from '@storybook/react';
 // import Map from '../../../components/Button/map.json';
 import DetailsComponent from '../../../../storybook-utils/components/DetailsComponent';
+import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
 import component from '../../mock/components/stories/button';
 
 const stories = storiesOf('Elements', module);
 
 stories.add('Button', () => (
-  <DetailsComponent
-    name={component.name}
-    linkGithub={`https://github.com/front10/landing-page-book/tree/master/src/components/${
-      component.name
-    }`}
-    description={component.summary}
-    stories={component.stories}
-    importCode={component.import}
-  />
+  <ThemeSelector>
+    <DetailsComponent
+      name={component.name}
+      linkGithub={`https://github.com/front10/landing-page-book/tree/master/src/components/${
+        component.name
+      }`}
+      description={component.summary}
+      stories={component.stories}
+      importCode={component.import}
+    />
+  </ThemeSelector>
 ));
 
 /* stories.add(

@@ -19,7 +19,20 @@ export default {
     image="/images/card/image1.jpg"
     contentAlign="left"
 />`,
-      tabsActive: ['code']
+      tabsActive: ['code'],
+      cssVariables: [
+        '--Card-borderRadius',
+        '--Card__Summary-fontSize',
+        '--Card__Summary-color',
+        '--Card__Summary-backgroundColor',
+        '--Card__Title-fontSize',
+        '--Card__Title-color',
+        '--Card__Subtitle-fontSize',
+        '--Card__Subtitle-color',
+        '--Card-boxShadow'
+      ],
+      columnSize: 'col col-md-6',
+      columnAlign: 'center'
     },
     {
       name: 'With Subtitle',
@@ -36,7 +49,20 @@ export default {
     image="/images/card/image2.jpg"
     contentAlign="left"
 />`,
-      tabsActive: []
+      tabsActive: [],
+      cssVariables: [
+        '--Card-borderRadius',
+        '--Card__Summary-fontSize',
+        '--Card__Summary-color',
+        '--Card__Summary-backgroundColor',
+        '--Card__Title-fontSize',
+        '--Card__Title-color',
+        '--Card__Subtitle-fontSize',
+        '--Card__Subtitle-color',
+        '--Card-boxShadow'
+      ],
+      columnSize: 'col col-md-6',
+      columnAlign: 'center'
     },
     {
       name: 'Only summary',
@@ -53,7 +79,20 @@ export default {
     image="/images/card/image3.jpg"
     contentAlign="left"
 />`,
-      tabsActive: []
+      tabsActive: [],
+      cssVariables: [
+        '--Card-borderRadius',
+        '--Card__Summary-fontSize',
+        '--Card__Summary-color',
+        '--Card__Summary-backgroundColor',
+        '--Card__Title-fontSize',
+        '--Card__Title-color',
+        '--Card__Subtitle-fontSize',
+        '--Card__Subtitle-color',
+        '--Card-boxShadow'
+      ],
+      columnSize: 'col col-md-6',
+      columnAlign: 'center'
     },
     {
       name: 'With Footer',
@@ -81,7 +120,20 @@ export default {
         </Row>
     </Card>
 </React.Fragment>`,
-      tabsActive: []
+      tabsActive: [],
+      cssVariables: [
+        '--Card-borderRadius',
+        '--Card__Summary-fontSize',
+        '--Card__Summary-color',
+        '--Card__Summary-backgroundColor',
+        '--Card__Title-fontSize',
+        '--Card__Title-color',
+        '--Card__Subtitle-fontSize',
+        '--Card__Subtitle-color',
+        '--Card-boxShadow'
+      ],
+      columnSize: 'col col-md-6',
+      columnAlign: 'center'
     },
     {
       name: 'Floating image',
@@ -98,7 +150,20 @@ export default {
     image="/images/card/image5.jpg"
     contentAlign="center"
 />`,
-      tabsActive: []
+      tabsActive: [],
+      cssVariables: [
+        '--Card-borderRadius',
+        '--Card__Summary-fontSize',
+        '--Card__Summary-color',
+        '--Card__Summary-backgroundColor',
+        '--Card__Title-fontSize',
+        '--Card__Title-color',
+        '--Card__Subtitle-fontSize',
+        '--Card__Subtitle-color',
+        '--Card-boxShadow'
+      ],
+      columnSize: 'col col-md-6',
+      columnAlign: 'center'
     }
   ]
 };

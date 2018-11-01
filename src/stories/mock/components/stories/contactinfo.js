@@ -21,7 +21,8 @@ export default {
     website="www.front10.com"
     contentAlign="left"
 />`,
-      tabsActive: ['code']
+      tabsActive: ['code'],
+      cssVariables: ['--ContactInfo__Location-height', '--ContactInfo__Information-fontSize']
     }
   ]
 };

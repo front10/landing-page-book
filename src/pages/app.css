@@ -230,3 +230,23 @@ a .Card:hover {
 .slick-slide img {
   display: inline !important;
 }
+
+/* 404 style */
+.box-error .main-svg{
+  position: relative;
+  width: 100%;
+}
+
+.text-404{
+  padding-top: 8rem;
+}
+
+.main-svg {
+  display: block;
+}
+
+@media (max-width: 991px) {
+  .text-404 {
+      padding-top: 2rem;
+  }
+}

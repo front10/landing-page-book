@@ -72,14 +72,11 @@ class Hero extends Component {
     const { randomClass } = this.state;
 
     const customCssFilter = Hero.getCustomCssFilterForImg(this.props, this.state);
-    console.log(customCssFilter);
     const particlesSugarParams = Hero.getParticlesParams(
       particles,
       particlesSugar,
       particlesParams
     );
-
-    // const TemplateComponent = Hero.getTemplate(template);
 
     return (
       <div className={`Hero ${randomClass}`} style={{ backgroundColor }}>

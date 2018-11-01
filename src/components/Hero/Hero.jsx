@@ -13,10 +13,11 @@ class Hero extends Component {
     if (button.onClick && typeof button.onClick === 'function') button.onClick({ button });
   }
 
-  static getCustomCssFilterForImg(props) {
+  static getCustomCssFilterForImg(props, state) {
     const { imgFilter } = props;
+    const { randomClass } = state;
     return `
-    .Hero [src] {
+    .Hero.${randomClass} [src] {
       filter: ${imgFilter};
     }`;
   }
@@ -31,6 +32,14 @@ class Hero extends Component {
     return {};
   }
 
+  constructor(props) {
+    super(props);
+    this.state = {
+      randomClass: `Hero_${new Date().getTime()}_${Math.random()
+        .toString()
+        .replace('.', '')}`
+    };
+  }
   // static getTemplate(template) {
   //   if(template && template === 'starMeUp'){
   //     return StarMeUpTemplate;
@@ -60,7 +69,10 @@ class Hero extends Component {
       imgFilter
     } = this.props;
 
-    const customCssFilter = Hero.getCustomCssFilterForImg(this.props);
+    const { randomClass } = this.state;
+
+    const customCssFilter = Hero.getCustomCssFilterForImg(this.props, this.state);
+    console.log(customCssFilter);
     const particlesSugarParams = Hero.getParticlesParams(
       particles,
       particlesSugar,
@@ -70,7 +82,7 @@ class Hero extends Component {
     // const TemplateComponent = Hero.getTemplate(template);
 
     return (
-      <div className="Hero" style={{ backgroundColor }}>
+      <div className={`Hero ${randomClass}`} style={{ backgroundColor }}>
         <LazyHero
           isFixed={isFixed}
           isCentered={isCentered}

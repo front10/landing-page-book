@@ -20,6 +20,7 @@ export default {
     header="Landing Page Book"
     subHeader="React components to build!"
     particlesSugar="crazyStars"
+    minHeight="50vh"
     buttons={[
         { text: 'TELL ME MORE', onClick: () => { } }
     ]}
@@ -29,13 +30,13 @@ export default {
     {
       name: 'Via children',
       summary: '',
-      code: `<Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars">
+      code: `<Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars" minHeight="50vh">
     <Container>
         <Image src="/images/logo/front10.png" rounded width="160" alt="Front10 logo" className="main-logo"/>
-        <Header className="text-warning">Landing Page Book</Header>
-        <Header type="h5" className="text-warning">React components to build!</Header>
+        <Header textAlign="center" className="text-warning">Landing Page Book</Header>
+        <Header  textAlign="center" type="h5" className="text-warning">React components to build!</Header>
         <div className="mt-5">
-            <Button>Explore</Button>
+            <Button color="warning" className="mr-1">Explore</Button>
             <GithubButton btnType="star" btnText="Stars" username="front10" repository="landing-page-book"/>
         </div>
     </Container>
@@ -49,6 +50,7 @@ export default {
     image="/images/hero/alone-architecture-buildings-220444.jpg"
     parallaxOffset={350}
     particles={false}
+    minHeight="50vh"
 >
     <Container>
         <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
@@ -73,6 +75,7 @@ export default {
     parallaxOffset={350}
     particles={false}
     imgFilter="blur(2px)"
+    minHeight="50vh"
 >
     <Container>
         <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
@@ -97,6 +100,7 @@ export default {
     parallaxOffset={350}
     particles={false}
     imgFilter="grayscale(90%)"
+    minHeight="50vh"
 >
     <Container>
         <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>

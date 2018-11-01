@@ -1,9 +1,9 @@
+import '../themes/default/index.css';
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
-
-import '../components/Navbar/style.legacy_browsers.css';
-import '../components/Footer/style.legacy_browsers.css';
+import Helmet from 'react-helmet';
 
 import Navbar from '../components/Navbar';
 import NavbarNav from '../components/NavbarNav';
@@ -11,17 +11,53 @@ import Footer from '../components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
-
-import '../themes/default/index.legacy_browsers.css';
-
 import '../pages/app.css';
+
+import faviconApple from './favicons/apple-touch-icon.png';
+import favicon from './favicons/favicon.ico';
+import favicon32 from './favicons/favicon-32x32.png';
+import favicon16 from './favicons/favicon-16x16.png';
+import faviconSafari from './favicons/safari-pinned-tab.svg';
+import faviconMstile from './favicons/mstile-144x144.png';
 
 class MainLayout extends React.Component {
   render() {
     const { children } = this.props;
     return (
       <React.Fragment>
-        <Navbar brandLink="/" expand="md" brandLogo="/images/logo/logoMainBLACK.png" fixed>
+        <Helmet defaultTitle="Get Landing Page Book">
+          <meta property="og:title" content="Get Landing Page Book" />
+          <meta
+            property="og:image"
+            content="https://front10.com/get-landing-page-book/images/logo/facebook.png"
+          />
+          <meta
+            property="og:description"
+            content="Landing page book it’s an react components library with more than 40 components and elements. This library is based en react 16.2 and was wrote with ES6 and is compatible with Create React App, Gatsby and Next plataforms."
+          />
+          <meta
+            name="description"
+            content="Landing page book it’s an react components library with more than 40 components and elements. This library is based en react 16.2 and was wrote with ES6 and is compatible with Create React App, Gatsby and Next plataforms."
+          />
+          <meta property="og:url" content="https://front10.com/get-landing-page-book/" />
+          <link rel="canonical" href="https://front10.com/get-landing-page-book/index.html" />
+          <link rel="apple-touch-icon" sizes="180x180" href={faviconApple} />
+          <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
+          <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />
+          <link rel="mask-icon" href={faviconSafari} color="#5bbad5" />
+          <meta name="msapplication-TileColor" content="#da532c" />
+          <meta name="msapplication-TileImage" content={faviconMstile} />
+          <meta name="theme-color" content="#ffffff" />
+          <link rel="shortcut icon" href={favicon} />
+          <link rel="stylesheet" href="/theme.css" />
+        </Helmet>
+        <Navbar
+          brandLink="/"
+          expand="md"
+          brandLogo="/images/logo/logoMainBLACK.png"
+          fixed
+          className="main-navbar"
+        >
           <NavbarNav>
             <Link className="nav-link NavbarLink" to="/" activeClassName="activeLink" exact>
               Introduction

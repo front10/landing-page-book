@@ -1,13 +1,9 @@
-.activeLink {
-  color: #ffc80b !important;
-}
-
 .Features .Card img {
   width: auto !important;
   height: auto !important;
 }
 
-.navbar {
+.main-navbar.navbar {
   padding: 0.3rem 1rem;
   color: black;
   box-shadow: 0 0 1px rgba(67, 90, 111, 0.47), 0 2px 4px -2px rgba(67, 90, 111, 0.3);
@@ -16,27 +12,27 @@
   font-size: 14px;
 }
 
-.Navbar .NavbarBrand .Logo {
+.main-navbar.Navbar .NavbarBrand .Logo {
   max-height: 35px;
 }
 
-.Navbar .NavbarLink,
-.Navbar .Navbar__Toggler,
-.Navbar .NavbarBrand {
+.main-navbar.Navbar .NavbarLink,
+.main-navbar.Navbar .Navbar__Toggler,
+.main-navbar.Navbar .NavbarBrand {
   color: #818181 !important;
   cursor: pointer;
 }
 
-.navbar .github-link-icon {
+.main-navbar.navbar .github-link-icon {
   font-size: 18px;
 }
 
-.Navbar .NavbarLink:hover {
+.main-navbar.Navbar .NavbarLink:hover {
   background-color: #f4f5f7;
   color: #818181 !important;
 }
 
-.NavbarBrand img {
+.main-navbar.NavbarBrand img {
   border-radius: 23px;
 }
 
@@ -44,7 +40,7 @@
   margin-top: 55px;
 }
 
-.Section div{
+.Section div {
   margin: initial;
 }
 
@@ -54,28 +50,29 @@ a .Card.h-100 {
   height: auto !important;
 }
 
-.Section a:hover{
+.Section a:hover {
   text-decoration: none !important;
 }
 
 a .Card:hover {
-  background-color: rgba(0,0,0,0.08);
+  background-color: rgba(0, 0, 0, 0.08);
 }
-.Section .Section__Subtitle{
+
+.Section .Section__Subtitle {
   color: #525252;
 }
 
-.Section  > div.p-5{
+.Section > div.p-5 {
   padding: 2rem 0rem 2rem 0rem !important;
 }
 
-.Section{
+.Section {
   width: 100%;
 }
 
-.nav-link{
-  padding-right: .5rem !important;
-  padding-left: .5rem !important;
+.nav-link {
+  padding-right: 0.5rem !important;
+  padding-left: 0.5rem !important;
 }
 .Wizard .footer-buttons{
   margin-top: 20px;

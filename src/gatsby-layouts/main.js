@@ -6,9 +6,6 @@ import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import { Navbar, NavbarNav, Social, Footer, Copyright, Image, Row, Column } from '../components';
-// import NavbarNav from '../components/NavbarNav';
-// import Social from '../components/Social';
-// import Footer from '../components/Footer';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';

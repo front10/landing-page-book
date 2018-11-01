@@ -36,6 +36,7 @@ import {
   Backers
 } from '../components';
 
+// eslint-disable react/no-unescaped-entities
 const IndexPage = () => (
   <React.Fragment>
     <Main>
@@ -263,5 +264,5 @@ const IndexPage = () => (
     </Main>
   </React.Fragment>
 );
-
+// eslint-enable react/no-unescaped-entities
 export default IndexPage;

@@ -2,6 +2,17 @@ const fs = require('fs');
 const path = require('path');
 
 const componentFolder = './src/components/';
+const exclude = [
+  'Column',
+  'Container',
+  'FormGroup',
+  'LocationMarker',
+  'NavbarBrand',
+  'NavbarCollapse',
+  'NavbarLink',
+  'NavbarNav',
+  'Row'
+];
 
 function filewalker(dir, done) {
   const results = [];
@@ -14,12 +25,11 @@ function filewalker(dir, done) {
     if (!pending) return done(null, results);
 
     list.forEach(file => {
-      file = path.resolve(dir, file);
+      const fileRoute = path.resolve(dir, file);
 
-      fs.stat(file, async (err, stat) => {
-        // If directory, execute a recursive call
-        if (stat && stat.isDirectory()) {
-          await results.push(file);
+      fs.stat(fileRoute, async (err, stat) => {
+        if (exclude.indexOf(file) === -1 && stat && stat.isDirectory()) {
+          await results.push(fileRoute);
         }
         if (!--pending) done(null, results);
       });

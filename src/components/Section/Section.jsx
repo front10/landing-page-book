@@ -51,7 +51,7 @@ Section.defaultProps = {
   title: '',
   subTitle: '',
   className: '',
-  alignHeader: 'left',
+  alignHeader: 'center',
   contentClassName: '',
   children: null
 };

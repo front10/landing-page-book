@@ -72,11 +72,7 @@ const IndexPage = () => (
           <Gif autoplay image="/images/demo/code.gif" />
         </Container>
       </Section>
-      <Section
-        alignHeader="center"
-        subTitle="Landing page book is a scalable choice for developers"
-        title="FEATURES"
-      >
+      <Section subTitle="Landing page book is a scalable choice for developers" title="FEATURES">
         <Container>
           <Features features={features} imageCircle={false} showBorder={false} showSubtitle />
         </Container>
@@ -90,7 +86,7 @@ const IndexPage = () => (
           </Link>
         </Container>
       </Section>
-      <Section alignHeader="center" title="AT A GLANCE" subTitle="Some of the components" gray>
+      <Section title="AT A GLANCE" subTitle="Some of the components" gray>
         <Container className="text-center">
           <Slider {...carousel}>
             {sliders.map(item => (
@@ -115,7 +111,7 @@ const IndexPage = () => (
           </Link>
         </Container>
       </Section>
-      <Section alignHeader="center" subTitle="Don't try this at home ;)" title="AN EXAMPLE">
+      <Section subTitle="Don't try this at home ;)" title="AN EXAMPLE">
         <Container>
           <Row>
             <Column className="col col-md-12">
@@ -200,7 +196,6 @@ const IndexPage = () => (
         </Container>
       </Section>
       <Section
-        alignHeader="center"
         title="THEMING"
         subTitle=" Change the appearance of the components using standard CSS variables"
         gray
@@ -222,12 +217,12 @@ const IndexPage = () => (
           </Link>
         </Container>
       </Section>
-      <Section alignHeader="center" subTitle="Used tecnologies and frameworks" title="BUILD WITH">
+      <Section subTitle="Used tecnologies and frameworks" title="BUILD WITH">
         <Container className="text-center BuildWith">
           <BuiltWith gray companies={build} />
         </Container>
       </Section>
-      <Section alignHeader="center" subTitle="These are our members" title="TEAM" gray>
+      <Section subTitle="These are our members" title="TEAM" gray>
         <Container>
           <Team showBorder={false} members={team} socials={['linkedin', 'twitter']} />
         </Container>
@@ -241,11 +236,7 @@ const IndexPage = () => (
           </Link>
         </Container>
       </Section>
-      <Section
-        alignHeader="center"
-        subTitle="We are very happy to help ;)"
-        title="FEEDBACK AND SUPPORT"
-      >
+      <Section subTitle="We are very happy to help ;)" title="FEEDBACK AND SUPPORT">
         <Container className="text-center BuildWith">
           <Image
             src="/images/support/maintenance.svg"
@@ -268,7 +259,7 @@ const IndexPage = () => (
           </p>
         </Container>
       </Section>
-      <Section alignHeader="center" subTitle="Who donates us" title="BACKERS" gray>
+      <Section subTitle="Who donates us" title="BACKERS" gray>
         <Container className="text-center">
           <Backers backers={backers} imageBordered={false} />
         </Container>

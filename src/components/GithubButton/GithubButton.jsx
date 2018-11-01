@@ -167,9 +167,9 @@ class GithubButton extends React.Component {
 
   render() {
     const { showGithubIcon, iconClass, showBtnText, showCounter, counter } = this.state;
-    const { btnText, loadingClass, rounded, disabled, color } = this.props;
+    const { btnText, loadingClass, rounded, disabled, color, className } = this.props;
     return (
-      <div className="GithubDetail_btn_container d-inline">
+      <div className={`${className} GithubDetail_btn_container d-inline`}>
         <Button rounded={rounded} circle={false} disabled={disabled} color={color}>
           <i className={showGithubIcon ? 'fa fa-github' : iconClass} aria-hidden="true" />{' '}
           {showBtnText && <span className="buttonText">{btnText}</span>}
@@ -202,7 +202,8 @@ GithubButton.propTypes = {
   repository: PropTypes.string,
   btnType: PropTypes.string,
   btnText: PropTypes.string,
-  color: PropTypes.string
+  color: PropTypes.string,
+  className: PropTypes.string
 };
 
 GithubButton.defaultProps = {
@@ -216,7 +217,8 @@ GithubButton.defaultProps = {
   repository: 'landing-page-book',
   btnType: 'fork',
   btnText: 'Fork',
-  color: 'light'
+  color: 'light',
+  className: ''
 };
 
 export default GithubButton;

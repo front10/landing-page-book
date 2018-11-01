@@ -77,3 +77,7 @@ a .Card:hover {
   padding-right: .5rem !important;
   padding-left: .5rem !important;
 }
+.Wizard .footer-buttons{
+  margin-top: 20px;
+  padding-top: 20px;
+} 

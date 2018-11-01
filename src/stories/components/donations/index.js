@@ -15,7 +15,7 @@ stories.add(
     <ThemeSelector>
       <StoryHeader
         name="Donation"
-        description="Something that is given to a charity, especially a sum of money. Allow your users to donate easily and safely"
+        description="Something that is given to a charity, especially a sum of money. Allow your users to donate easily and safely."
       />
       <PropsManager scope={{ React, Donation }}>
         {`<Donation url="https://opencollective.com/webpack/donate" />`}

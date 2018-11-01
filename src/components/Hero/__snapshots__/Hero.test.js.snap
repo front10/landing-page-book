@@ -90,7 +90,7 @@ ShallowWrapper {
           </Container>
         </div>
       </LazyHero>,
-      "className": "Hero Hero_1541103627659_03094275437384477",
+      "className": "Hero Hero_1541103988366_07169799676939177",
       "style": Object {
         "backgroundColor": "transparent",
       },
@@ -375,7 +375,7 @@ ShallowWrapper {
             </Container>
           </div>
         </LazyHero>,
-        "className": "Hero Hero_1541103627659_03094275437384477",
+        "className": "Hero Hero_1541103988366_07169799676939177",
         "style": Object {
           "backgroundColor": "transparent",
         },

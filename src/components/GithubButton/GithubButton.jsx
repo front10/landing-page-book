@@ -216,7 +216,7 @@ GithubButton.defaultProps = {
   repository: 'landing-page-book',
   btnType: 'fork',
   btnText: 'Fork',
-  color: ''
+  color: 'light'
 };
 
 export default GithubButton;

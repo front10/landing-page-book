@@ -34,7 +34,8 @@ export default {
         }
     ]}
 />`,
-      tabsActive: ['code']
+      tabsActive: ['code'],
+      cssVariables: ['--Navbar-backgroundColor']
     }
   ]
 };

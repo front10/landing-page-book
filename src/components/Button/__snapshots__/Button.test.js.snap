@@ -7,7 +7,7 @@ ReactWrapper {
     ariaLabel=""
     circle={false}
     className=""
-    color="default"
+    color="light"
     disabled={false}
     loading={false}
     loadingClass="fa fa-circle-o-notch fa-spin"
@@ -60,7 +60,7 @@ ReactWrapper {
               "children": null,
               "circle": false,
               "className": "",
-              "color": "default",
+              "color": "light",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -82,7 +82,7 @@ ReactWrapper {
               "children": null,
               "circle": false,
               "className": "",
-              "color": "default",
+              "color": "light",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -106,7 +106,7 @@ ReactWrapper {
               "children": null,
               "circle": false,
               "className": "",
-              "color": "default",
+              "color": "light",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -158,7 +158,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn  btn-default rounded"
+                    class="Button btn  btn-light"
                     title=""
                     type="button"
                   />
@@ -209,7 +209,7 @@ ReactWrapper {
                           "children": null,
                           "circle": false,
                           "className": "",
-                          "color": "default",
+                          "color": "light",
                           "disabled": false,
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -245,7 +245,7 @@ ReactWrapper {
                           "children": null,
                           "circle": false,
                           "className": "",
-                          "color": "default",
+                          "color": "light",
                           "disabled": false,
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -286,7 +286,7 @@ ReactWrapper {
                     "children": null,
                     "circle": false,
                     "className": "",
-                    "color": "default",
+                    "color": "light",
                     "disabled": false,
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -312,7 +312,7 @@ ReactWrapper {
               "containerInfo": <div>
                 <button
                   aria-label=""
-                  class="Button btn  btn-default rounded"
+                  class="Button btn  btn-light"
                   title=""
                   type="button"
                 />
@@ -354,7 +354,7 @@ ReactWrapper {
                       "children": null,
                       "circle": false,
                       "className": "",
-                      "color": "default",
+                      "color": "light",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -394,7 +394,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -417,7 +417,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -470,7 +470,7 @@ ReactWrapper {
               null,
               false,
             ],
-            "className": "Button btn  btn-default rounded",
+            "className": "Button btn  btn-light",
             "disabled": false,
             "onClick": [Function],
             "style": Object {},
@@ -486,7 +486,7 @@ ReactWrapper {
               null,
               false,
             ],
-            "className": "Button btn  btn-default rounded",
+            "className": "Button btn  btn-light",
             "disabled": false,
             "onClick": [Function],
             "style": Object {},
@@ -499,7 +499,7 @@ ReactWrapper {
           "sibling": null,
           "stateNode": <button
             aria-label=""
-            class="Button btn  btn-default rounded"
+            class="Button btn  btn-light"
             title=""
             type="button"
           />,
@@ -523,7 +523,7 @@ ReactWrapper {
           "children": null,
           "circle": false,
           "className": "",
-          "color": "default",
+          "color": "light",
           "disabled": false,
           "loading": false,
           "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -544,7 +544,7 @@ ReactWrapper {
           "children": null,
           "circle": false,
           "className": "",
-          "color": "default",
+          "color": "light",
           "disabled": false,
           "loading": false,
           "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -584,7 +584,7 @@ ReactWrapper {
               "children": null,
               "circle": false,
               "className": "",
-              "color": "default",
+              "color": "light",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -606,7 +606,7 @@ ReactWrapper {
               "children": null,
               "circle": false,
               "className": "",
-              "color": "default",
+              "color": "light",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -630,7 +630,7 @@ ReactWrapper {
               "children": null,
               "circle": false,
               "className": "",
-              "color": "default",
+              "color": "light",
               "disabled": false,
               "loading": false,
               "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -682,7 +682,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn  btn-default rounded"
+                    class="Button btn  btn-light"
                     title=""
                     type="button"
                   />
@@ -733,7 +733,7 @@ ReactWrapper {
                           "children": null,
                           "circle": false,
                           "className": "",
-                          "color": "default",
+                          "color": "light",
                           "disabled": false,
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -769,7 +769,7 @@ ReactWrapper {
                           "children": null,
                           "circle": false,
                           "className": "",
-                          "color": "default",
+                          "color": "light",
                           "disabled": false,
                           "loading": false,
                           "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -810,7 +810,7 @@ ReactWrapper {
                     "children": null,
                     "circle": false,
                     "className": "",
-                    "color": "default",
+                    "color": "light",
                     "disabled": false,
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -836,7 +836,7 @@ ReactWrapper {
               "containerInfo": <div>
                 <button
                   aria-label=""
-                  class="Button btn  btn-default rounded"
+                  class="Button btn  btn-light"
                   title=""
                   type="button"
                 />
@@ -878,7 +878,7 @@ ReactWrapper {
                       "children": null,
                       "circle": false,
                       "className": "",
-                      "color": "default",
+                      "color": "light",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -918,7 +918,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -941,7 +941,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -982,7 +982,7 @@ ReactWrapper {
         "children": null,
         "circle": false,
         "className": "",
-        "color": "default",
+        "color": "light",
         "disabled": false,
         "loading": false,
         "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1011,7 +1011,7 @@ ReactWrapper {
       "children": null,
       "circle": false,
       "className": "",
-      "color": "default",
+      "color": "light",
       "disabled": false,
       "loading": false,
       "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1027,7 +1027,7 @@ ReactWrapper {
     "rendered": Object {
       "instance": <button
         aria-label=""
-        class="Button btn  btn-default rounded"
+        class="Button btn  btn-light"
         title=""
         type="button"
       />,
@@ -1039,7 +1039,7 @@ ReactWrapper {
           null,
           false,
         ],
-        "className": "Button btn  btn-default rounded",
+        "className": "Button btn  btn-light",
         "disabled": false,
         "onClick": [Function],
         "style": Object {},
@@ -1090,7 +1090,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1112,7 +1112,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1136,7 +1136,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1188,7 +1188,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <button
                       aria-label=""
-                      class="Button btn  btn-default rounded"
+                      class="Button btn  btn-light"
                       title=""
                       type="button"
                     />
@@ -1239,7 +1239,7 @@ ReactWrapper {
                             "children": null,
                             "circle": false,
                             "className": "",
-                            "color": "default",
+                            "color": "light",
                             "disabled": false,
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1275,7 +1275,7 @@ ReactWrapper {
                             "children": null,
                             "circle": false,
                             "className": "",
-                            "color": "default",
+                            "color": "light",
                             "disabled": false,
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1316,7 +1316,7 @@ ReactWrapper {
                       "children": null,
                       "circle": false,
                       "className": "",
-                      "color": "default",
+                      "color": "light",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1342,7 +1342,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn  btn-default rounded"
+                    class="Button btn  btn-light"
                     title=""
                     type="button"
                   />
@@ -1384,7 +1384,7 @@ ReactWrapper {
                         "children": null,
                         "circle": false,
                         "className": "",
-                        "color": "default",
+                        "color": "light",
                         "disabled": false,
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1424,7 +1424,7 @@ ReactWrapper {
                   "children": null,
                   "circle": false,
                   "className": "",
-                  "color": "default",
+                  "color": "light",
                   "disabled": false,
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1447,7 +1447,7 @@ ReactWrapper {
                   "children": null,
                   "circle": false,
                   "className": "",
-                  "color": "default",
+                  "color": "light",
                   "disabled": false,
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1500,7 +1500,7 @@ ReactWrapper {
                 null,
                 false,
               ],
-              "className": "Button btn  btn-default rounded",
+              "className": "Button btn  btn-light",
               "disabled": false,
               "onClick": [Function],
               "style": Object {},
@@ -1516,7 +1516,7 @@ ReactWrapper {
                 null,
                 false,
               ],
-              "className": "Button btn  btn-default rounded",
+              "className": "Button btn  btn-light",
               "disabled": false,
               "onClick": [Function],
               "style": Object {},
@@ -1529,7 +1529,7 @@ ReactWrapper {
             "sibling": null,
             "stateNode": <button
               aria-label=""
-              class="Button btn  btn-default rounded"
+              class="Button btn  btn-light"
               title=""
               type="button"
             />,
@@ -1553,7 +1553,7 @@ ReactWrapper {
             "children": null,
             "circle": false,
             "className": "",
-            "color": "default",
+            "color": "light",
             "disabled": false,
             "loading": false,
             "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1574,7 +1574,7 @@ ReactWrapper {
             "children": null,
             "circle": false,
             "className": "",
-            "color": "default",
+            "color": "light",
             "disabled": false,
             "loading": false,
             "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1614,7 +1614,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1636,7 +1636,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1660,7 +1660,7 @@ ReactWrapper {
                 "children": null,
                 "circle": false,
                 "className": "",
-                "color": "default",
+                "color": "light",
                 "disabled": false,
                 "loading": false,
                 "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1712,7 +1712,7 @@ ReactWrapper {
                   "containerInfo": <div>
                     <button
                       aria-label=""
-                      class="Button btn  btn-default rounded"
+                      class="Button btn  btn-light"
                       title=""
                       type="button"
                     />
@@ -1763,7 +1763,7 @@ ReactWrapper {
                             "children": null,
                             "circle": false,
                             "className": "",
-                            "color": "default",
+                            "color": "light",
                             "disabled": false,
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1799,7 +1799,7 @@ ReactWrapper {
                             "children": null,
                             "circle": false,
                             "className": "",
-                            "color": "default",
+                            "color": "light",
                             "disabled": false,
                             "loading": false,
                             "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1840,7 +1840,7 @@ ReactWrapper {
                       "children": null,
                       "circle": false,
                       "className": "",
-                      "color": "default",
+                      "color": "light",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1866,7 +1866,7 @@ ReactWrapper {
                 "containerInfo": <div>
                   <button
                     aria-label=""
-                    class="Button btn  btn-default rounded"
+                    class="Button btn  btn-light"
                     title=""
                     type="button"
                   />
@@ -1908,7 +1908,7 @@ ReactWrapper {
                         "children": null,
                         "circle": false,
                         "className": "",
-                        "color": "default",
+                        "color": "light",
                         "disabled": false,
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1948,7 +1948,7 @@ ReactWrapper {
                   "children": null,
                   "circle": false,
                   "className": "",
-                  "color": "default",
+                  "color": "light",
                   "disabled": false,
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -1971,7 +1971,7 @@ ReactWrapper {
                   "children": null,
                   "circle": false,
                   "className": "",
-                  "color": "default",
+                  "color": "light",
                   "disabled": false,
                   "loading": false,
                   "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -2012,7 +2012,7 @@ ReactWrapper {
           "children": null,
           "circle": false,
           "className": "",
-          "color": "default",
+          "color": "light",
           "disabled": false,
           "loading": false,
           "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -2041,7 +2041,7 @@ ReactWrapper {
         "children": null,
         "circle": false,
         "className": "",
-        "color": "default",
+        "color": "light",
         "disabled": false,
         "loading": false,
         "loadingClass": "fa fa-circle-o-notch fa-spin",
@@ -2057,7 +2057,7 @@ ReactWrapper {
       "rendered": Object {
         "instance": <button
           aria-label=""
-          class="Button btn  btn-default rounded"
+          class="Button btn  btn-light"
           title=""
           type="button"
         />,
@@ -2069,7 +2069,7 @@ ReactWrapper {
             null,
             false,
           ],
-          "className": "Button btn  btn-default rounded",
+          "className": "Button btn  btn-light",
           "disabled": false,
           "onClick": [Function],
           "style": Object {},

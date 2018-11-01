@@ -1,13 +1,49 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Team Team should render 1`] = `
-ReactWrapper {
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Team
+    columnClassName="col-12 col-sm- col-md"
     contentAlign="center"
     imageBorder={false}
     imageCircle={true}
     imageShadow={false}
-    members={Array []}
+    members={
+      Array [
+        Object {
+          "image": "/images/team/ninja.svg",
+          "job": "Ninja",
+          "name": "Leonardo",
+          "profile": Array [
+            Object {
+              "social": "facebook",
+              "url": "https://www.facebook.com/JavaScriptTeam/",
+            },
+            Object {
+              "social": "twitter",
+              "url": "https://twitter.com/front10hello?lang=es",
+            },
+          ],
+          "summary": "Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media.",
+        },
+        Object {
+          "image": "/images/team/bohemian.svg",
+          "job": "Painter",
+          "name": "Van Gogh",
+          "profile": Array [
+            Object {
+              "social": "facebook",
+              "url": "https://www.facebook.com/JavaScriptTeam/",
+            },
+            Object {
+              "social": "email",
+              "url": "https://front10.com",
+            },
+          ],
+        },
+      ]
+    }
     shadow={false}
     showBorder={true}
     showImage={true}
@@ -25,1837 +61,826 @@ ReactWrapper {
     "simulateEvent": [Function],
     "unmount": [Function],
   },
-  Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": Team {
-      "_reactInternalFiber": FiberNode {
-        "_debugID": 50,
-        "_debugIsCurrentlyTiming": false,
-        "_debugOwner": FiberNode {
-          "_debugID": 49,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": null,
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
-          "alternate": null,
-          "child": [Circular],
-          "childExpirationTime": 0,
-          "effectTag": 1,
-          "elementType": [Function],
-          "expirationTime": 0,
-          "firstContextDependency": null,
-          "firstEffect": null,
-          "index": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "Component": [Function],
-            "context": null,
-            "props": Object {
-              "contentAlign": "center",
-              "imageBorder": false,
-              "imageCircle": true,
-              "imageShadow": false,
-              "members": Array [],
-              "shadow": false,
-              "showBorder": true,
-              "showImage": true,
-              "showJob": true,
-              "showName": true,
-              "showSummary": true,
-              "socialGray": false,
-              "topColor": "transparent",
-            },
-          },
-          "memoizedState": Object {
-            "context": null,
-            "mount": true,
-            "props": Object {
-              "contentAlign": "center",
-              "imageBorder": false,
-              "imageCircle": true,
-              "imageShadow": false,
-              "members": Array [],
-              "shadow": false,
-              "showBorder": true,
-              "showImage": true,
-              "showJob": true,
-              "showName": true,
-              "showSummary": true,
-              "socialGray": false,
-              "topColor": "transparent",
-            },
-          },
-          "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "Component": [Function],
-            "context": null,
-            "props": Object {
-              "contentAlign": "center",
-              "imageBorder": false,
-              "imageCircle": true,
-              "imageShadow": false,
-              "members": Array [],
-              "shadow": false,
-              "showBorder": true,
-              "showImage": true,
-              "showJob": true,
-              "showName": true,
-              "showSummary": true,
-              "socialGray": false,
-              "topColor": "transparent",
-            },
-          },
-          "ref": null,
-          "return": FiberNode {
-            "_debugID": 47,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": [Circular],
-              "child": null,
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "elementType": null,
-              "expirationTime": 1,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": null,
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": null,
-              "ref": null,
-              "return": null,
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": Object {
-                "containerInfo": <div>
-                  <div
-                    class="Team row"
-                  />
-                </div>,
-                "context": Object {},
-                "current": [Circular],
-                "didError": false,
-                "earliestPendingTime": 0,
-                "earliestSuspendedTime": 0,
-                "expirationTime": 0,
-                "finishedWork": null,
-                "firstBatch": null,
-                "hydrate": false,
-                "interactionThreadID": 12,
-                "latestPendingTime": 0,
-                "latestPingedTime": 0,
-                "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
-                "nextExpirationTimeToWorkOn": 0,
-                "nextScheduledRoot": null,
-                "pendingChildren": null,
-                "pendingCommitExpirationTime": 0,
-                "pendingContext": null,
-                "pendingInteractionMap": Map {},
-                "timeoutHandle": -1,
-              },
-              "tag": 3,
-              "treeBaseDuration": 0,
-              "type": null,
-              "updateQueue": Object {
-                "baseState": null,
-                "firstCapturedEffect": null,
-                "firstCapturedUpdate": null,
-                "firstEffect": null,
-                "firstUpdate": Object {
-                  "callback": null,
-                  "expirationTime": 1,
-                  "next": null,
-                  "nextEffect": null,
-                  "payload": Object {
-                    "element": <WrapperComponent
-                      Component={[Function]}
-                      context={null}
-                      props={
-                        Object {
-                          "contentAlign": "center",
-                          "imageBorder": false,
-                          "imageCircle": true,
-                          "imageShadow": false,
-                          "members": Array [],
-                          "shadow": false,
-                          "showBorder": true,
-                          "showImage": true,
-                          "showJob": true,
-                          "showName": true,
-                          "showSummary": true,
-                          "socialGray": false,
-                          "topColor": "transparent",
-                        }
-                      }
-                    />,
-                  },
-                  "tag": 0,
-                },
-                "lastCapturedEffect": null,
-                "lastCapturedUpdate": null,
-                "lastEffect": null,
-                "lastUpdate": Object {
-                  "callback": null,
-                  "expirationTime": 1,
-                  "next": null,
-                  "nextEffect": null,
-                  "payload": Object {
-                    "element": <WrapperComponent
-                      Component={[Function]}
-                      context={null}
-                      props={
-                        Object {
-                          "contentAlign": "center",
-                          "imageBorder": false,
-                          "imageCircle": true,
-                          "imageShadow": false,
-                          "members": Array [],
-                          "shadow": false,
-                          "showBorder": true,
-                          "showImage": true,
-                          "showJob": true,
-                          "showName": true,
-                          "showSummary": true,
-                          "socialGray": false,
-                          "topColor": "transparent",
-                        }
-                      }
-                    />,
-                  },
-                  "tag": 0,
-                },
-              },
-            },
-            "child": [Circular],
-            "childExpirationTime": 0,
-            "effectTag": 32,
-            "elementType": null,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": [Circular],
-            "index": 0,
-            "key": null,
-            "lastEffect": [Circular],
-            "memoizedProps": null,
-            "memoizedState": Object {
-              "element": <WrapperComponent
-                Component={[Function]}
-                context={null}
-                props={
-                  Object {
-                    "contentAlign": "center",
-                    "imageBorder": false,
-                    "imageCircle": true,
-                    "imageShadow": false,
-                    "members": Array [],
-                    "shadow": false,
-                    "showBorder": true,
-                    "showImage": true,
-                    "showJob": true,
-                    "showName": true,
-                    "showSummary": true,
-                    "socialGray": false,
-                    "topColor": "transparent",
-                  }
-                }
-              />,
-            },
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": null,
-            "ref": null,
-            "return": null,
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": Object {
-              "containerInfo": <div>
-                <div
-                  class="Team row"
-                />
-              </div>,
-              "context": Object {},
-              "current": [Circular],
-              "didError": false,
-              "earliestPendingTime": 0,
-              "earliestSuspendedTime": 0,
-              "expirationTime": 0,
-              "finishedWork": null,
-              "firstBatch": null,
-              "hydrate": false,
-              "interactionThreadID": 12,
-              "latestPendingTime": 0,
-              "latestPingedTime": 0,
-              "latestSuspendedTime": 0,
-              "memoizedInteractions": Set {},
-              "nextExpirationTimeToWorkOn": 0,
-              "nextScheduledRoot": null,
-              "pendingChildren": null,
-              "pendingCommitExpirationTime": 0,
-              "pendingContext": null,
-              "pendingInteractionMap": Map {},
-              "timeoutHandle": -1,
-            },
-            "tag": 3,
-            "treeBaseDuration": 0,
-            "type": null,
-            "updateQueue": Object {
-              "baseState": Object {
-                "element": <WrapperComponent
-                  Component={[Function]}
-                  context={null}
-                  props={
-                    Object {
-                      "contentAlign": "center",
-                      "imageBorder": false,
-                      "imageCircle": true,
-                      "imageShadow": false,
-                      "members": Array [],
-                      "shadow": false,
-                      "showBorder": true,
-                      "showImage": true,
-                      "showJob": true,
-                      "showName": true,
-                      "showSummary": true,
-                      "socialGray": false,
-                      "topColor": "transparent",
-                    }
-                  }
-                />,
-              },
-              "firstCapturedEffect": null,
-              "firstCapturedUpdate": null,
-              "firstEffect": null,
-              "firstUpdate": null,
-              "lastCapturedEffect": null,
-              "lastCapturedUpdate": null,
-              "lastEffect": null,
-              "lastUpdate": null,
-            },
-          },
-          "selfBaseDuration": 0,
-          "sibling": null,
-          "stateNode": WrapperComponent {
-            "_reactInternalFiber": [Circular],
-            "_reactInternalInstance": Object {},
-            "context": Object {},
-            "props": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "refs": Object {},
-            "state": Object {
-              "context": null,
-              "mount": true,
-              "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "updater": Object {
-              "enqueueForceUpdate": [Function],
-              "enqueueReplaceState": [Function],
-              "enqueueSetState": [Function],
-              "isMounted": [Function],
-            },
-          },
-          "tag": 1,
-          "treeBaseDuration": 0,
-          "type": [Function],
-          "updateQueue": null,
-        },
-        "_debugSource": null,
-        "actualDuration": 0,
-        "actualStartTime": -1,
-        "alternate": null,
-        "child": FiberNode {
-          "_debugID": 51,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": [Circular],
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
-          "alternate": null,
-          "child": null,
-          "childExpirationTime": 0,
-          "effectTag": 0,
-          "elementType": "div",
-          "expirationTime": 0,
-          "firstContextDependency": null,
-          "firstEffect": null,
-          "index": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "children": Array [],
-            "className": "Team row",
-          },
-          "memoizedState": null,
-          "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "children": Array [],
-            "className": "Team row",
-          },
-          "ref": null,
-          "return": [Circular],
-          "selfBaseDuration": 0,
-          "sibling": null,
-          "stateNode": <div
-            class="Team row"
-          />,
-          "tag": 5,
-          "treeBaseDuration": 0,
-          "type": "div",
-          "updateQueue": null,
-        },
-        "childExpirationTime": 0,
-        "effectTag": 1,
-        "elementType": [Function],
-        "expirationTime": 0,
-        "firstContextDependency": null,
-        "firstEffect": null,
-        "index": 0,
-        "key": null,
-        "lastEffect": null,
-        "memoizedProps": Object {
-          "contentAlign": "center",
-          "imageBorder": false,
-          "imageCircle": true,
-          "imageShadow": false,
-          "members": Array [],
-          "shadow": false,
-          "showBorder": true,
-          "showImage": true,
-          "showJob": true,
-          "showName": true,
-          "showSummary": true,
-          "socialGray": false,
-          "topColor": "transparent",
-        },
-        "memoizedState": null,
-        "mode": 0,
-        "nextEffect": null,
-        "pendingProps": Object {
-          "contentAlign": "center",
-          "imageBorder": false,
-          "imageCircle": true,
-          "imageShadow": false,
-          "members": Array [],
-          "shadow": false,
-          "showBorder": true,
-          "showImage": true,
-          "showJob": true,
-          "showName": true,
-          "showSummary": true,
-          "socialGray": false,
-          "topColor": "transparent",
-        },
-        "ref": null,
-        "return": FiberNode {
-          "_debugID": 49,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": null,
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
-          "alternate": null,
-          "child": [Circular],
-          "childExpirationTime": 0,
-          "effectTag": 1,
-          "elementType": [Function],
-          "expirationTime": 0,
-          "firstContextDependency": null,
-          "firstEffect": null,
-          "index": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "Component": [Function],
-            "context": null,
-            "props": Object {
-              "contentAlign": "center",
-              "imageBorder": false,
-              "imageCircle": true,
-              "imageShadow": false,
-              "members": Array [],
-              "shadow": false,
-              "showBorder": true,
-              "showImage": true,
-              "showJob": true,
-              "showName": true,
-              "showSummary": true,
-              "socialGray": false,
-              "topColor": "transparent",
-            },
-          },
-          "memoizedState": Object {
-            "context": null,
-            "mount": true,
-            "props": Object {
-              "contentAlign": "center",
-              "imageBorder": false,
-              "imageCircle": true,
-              "imageShadow": false,
-              "members": Array [],
-              "shadow": false,
-              "showBorder": true,
-              "showImage": true,
-              "showJob": true,
-              "showName": true,
-              "showSummary": true,
-              "socialGray": false,
-              "topColor": "transparent",
-            },
-          },
-          "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "Component": [Function],
-            "context": null,
-            "props": Object {
-              "contentAlign": "center",
-              "imageBorder": false,
-              "imageCircle": true,
-              "imageShadow": false,
-              "members": Array [],
-              "shadow": false,
-              "showBorder": true,
-              "showImage": true,
-              "showJob": true,
-              "showName": true,
-              "showSummary": true,
-              "socialGray": false,
-              "topColor": "transparent",
-            },
-          },
-          "ref": null,
-          "return": FiberNode {
-            "_debugID": 47,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": [Circular],
-              "child": null,
-              "childExpirationTime": 0,
-              "effectTag": 0,
-              "elementType": null,
-              "expirationTime": 1,
-              "firstContextDependency": null,
-              "firstEffect": null,
-              "index": 0,
-              "key": null,
-              "lastEffect": null,
-              "memoizedProps": null,
-              "memoizedState": null,
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": null,
-              "ref": null,
-              "return": null,
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": Object {
-                "containerInfo": <div>
-                  <div
-                    class="Team row"
-                  />
-                </div>,
-                "context": Object {},
-                "current": [Circular],
-                "didError": false,
-                "earliestPendingTime": 0,
-                "earliestSuspendedTime": 0,
-                "expirationTime": 0,
-                "finishedWork": null,
-                "firstBatch": null,
-                "hydrate": false,
-                "interactionThreadID": 12,
-                "latestPendingTime": 0,
-                "latestPingedTime": 0,
-                "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
-                "nextExpirationTimeToWorkOn": 0,
-                "nextScheduledRoot": null,
-                "pendingChildren": null,
-                "pendingCommitExpirationTime": 0,
-                "pendingContext": null,
-                "pendingInteractionMap": Map {},
-                "timeoutHandle": -1,
-              },
-              "tag": 3,
-              "treeBaseDuration": 0,
-              "type": null,
-              "updateQueue": Object {
-                "baseState": null,
-                "firstCapturedEffect": null,
-                "firstCapturedUpdate": null,
-                "firstEffect": null,
-                "firstUpdate": Object {
-                  "callback": null,
-                  "expirationTime": 1,
-                  "next": null,
-                  "nextEffect": null,
-                  "payload": Object {
-                    "element": <WrapperComponent
-                      Component={[Function]}
-                      context={null}
-                      props={
-                        Object {
-                          "contentAlign": "center",
-                          "imageBorder": false,
-                          "imageCircle": true,
-                          "imageShadow": false,
-                          "members": Array [],
-                          "shadow": false,
-                          "showBorder": true,
-                          "showImage": true,
-                          "showJob": true,
-                          "showName": true,
-                          "showSummary": true,
-                          "socialGray": false,
-                          "topColor": "transparent",
-                        }
-                      }
-                    />,
-                  },
-                  "tag": 0,
-                },
-                "lastCapturedEffect": null,
-                "lastCapturedUpdate": null,
-                "lastEffect": null,
-                "lastUpdate": Object {
-                  "callback": null,
-                  "expirationTime": 1,
-                  "next": null,
-                  "nextEffect": null,
-                  "payload": Object {
-                    "element": <WrapperComponent
-                      Component={[Function]}
-                      context={null}
-                      props={
-                        Object {
-                          "contentAlign": "center",
-                          "imageBorder": false,
-                          "imageCircle": true,
-                          "imageShadow": false,
-                          "members": Array [],
-                          "shadow": false,
-                          "showBorder": true,
-                          "showImage": true,
-                          "showJob": true,
-                          "showName": true,
-                          "showSummary": true,
-                          "socialGray": false,
-                          "topColor": "transparent",
-                        }
-                      }
-                    />,
-                  },
-                  "tag": 0,
-                },
-              },
-            },
-            "child": [Circular],
-            "childExpirationTime": 0,
-            "effectTag": 32,
-            "elementType": null,
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": [Circular],
-            "index": 0,
-            "key": null,
-            "lastEffect": [Circular],
-            "memoizedProps": null,
-            "memoizedState": Object {
-              "element": <WrapperComponent
-                Component={[Function]}
-                context={null}
-                props={
-                  Object {
-                    "contentAlign": "center",
-                    "imageBorder": false,
-                    "imageCircle": true,
-                    "imageShadow": false,
-                    "members": Array [],
-                    "shadow": false,
-                    "showBorder": true,
-                    "showImage": true,
-                    "showJob": true,
-                    "showName": true,
-                    "showSummary": true,
-                    "socialGray": false,
-                    "topColor": "transparent",
-                  }
-                }
-              />,
-            },
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": null,
-            "ref": null,
-            "return": null,
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": Object {
-              "containerInfo": <div>
-                <div
-                  class="Team row"
-                />
-              </div>,
-              "context": Object {},
-              "current": [Circular],
-              "didError": false,
-              "earliestPendingTime": 0,
-              "earliestSuspendedTime": 0,
-              "expirationTime": 0,
-              "finishedWork": null,
-              "firstBatch": null,
-              "hydrate": false,
-              "interactionThreadID": 12,
-              "latestPendingTime": 0,
-              "latestPingedTime": 0,
-              "latestSuspendedTime": 0,
-              "memoizedInteractions": Set {},
-              "nextExpirationTimeToWorkOn": 0,
-              "nextScheduledRoot": null,
-              "pendingChildren": null,
-              "pendingCommitExpirationTime": 0,
-              "pendingContext": null,
-              "pendingInteractionMap": Map {},
-              "timeoutHandle": -1,
-            },
-            "tag": 3,
-            "treeBaseDuration": 0,
-            "type": null,
-            "updateQueue": Object {
-              "baseState": Object {
-                "element": <WrapperComponent
-                  Component={[Function]}
-                  context={null}
-                  props={
-                    Object {
-                      "contentAlign": "center",
-                      "imageBorder": false,
-                      "imageCircle": true,
-                      "imageShadow": false,
-                      "members": Array [],
-                      "shadow": false,
-                      "showBorder": true,
-                      "showImage": true,
-                      "showJob": true,
-                      "showName": true,
-                      "showSummary": true,
-                      "socialGray": false,
-                      "topColor": "transparent",
-                    }
-                  }
-                />,
-              },
-              "firstCapturedEffect": null,
-              "firstCapturedUpdate": null,
-              "firstEffect": null,
-              "firstUpdate": null,
-              "lastCapturedEffect": null,
-              "lastCapturedUpdate": null,
-              "lastEffect": null,
-              "lastUpdate": null,
-            },
-          },
-          "selfBaseDuration": 0,
-          "sibling": null,
-          "stateNode": WrapperComponent {
-            "_reactInternalFiber": [Circular],
-            "_reactInternalInstance": Object {},
-            "context": Object {},
-            "props": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "refs": Object {},
-            "state": Object {
-              "context": null,
-              "mount": true,
-              "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "updater": Object {
-              "enqueueForceUpdate": [Function],
-              "enqueueReplaceState": [Function],
-              "enqueueSetState": [Function],
-              "isMounted": [Function],
-            },
-          },
-          "tag": 1,
-          "treeBaseDuration": 0,
-          "type": [Function],
-          "updateQueue": null,
-        },
-        "selfBaseDuration": 0,
-        "sibling": null,
-        "stateNode": [Circular],
-        "tag": 1,
-        "treeBaseDuration": 0,
-        "type": [Function],
-        "updateQueue": null,
-      },
-      "_reactInternalInstance": Object {},
-      "context": Object {},
-      "props": Object {
-        "contentAlign": "center",
-        "imageBorder": false,
-        "imageCircle": true,
-        "imageShadow": false,
-        "members": Array [],
-        "shadow": false,
-        "showBorder": true,
-        "showImage": true,
-        "showJob": true,
-        "showName": true,
-        "showSummary": true,
-        "socialGray": false,
-        "topColor": "transparent",
-      },
-      "refs": Object {},
-      "state": null,
-      "updater": Object {
-        "enqueueForceUpdate": [Function],
-        "enqueueReplaceState": [Function],
-        "enqueueSetState": [Function],
-        "isMounted": [Function],
-      },
-    },
+    "instance": null,
     "key": undefined,
-    "nodeType": "class",
+    "nodeType": "host",
     "props": Object {
-      "contentAlign": "center",
-      "imageBorder": false,
-      "imageCircle": true,
-      "imageShadow": false,
-      "members": Array [],
-      "shadow": false,
-      "showBorder": true,
-      "showImage": true,
-      "showJob": true,
-      "showName": true,
-      "showSummary": true,
-      "socialGray": false,
-      "topColor": "transparent",
+      "children": Array [
+        <div
+          className="col-12 col-sm- col-md text-center mb-4 Team--center"
+        >
+          <div
+            className="Team__Color"
+          >
+            <div
+              className="Team__Color__Primary"
+              style={
+                Object {
+                  "background": "transparent",
+                }
+              }
+            />
+          </div>
+          <Card
+            contentAlign="center"
+            image="/images/team/ninja.svg"
+            imageBorder={false}
+            imageCircle={true}
+            imageShadow={false}
+            shadow={false}
+            showBorder={true}
+            subTitle="Ninja"
+            summary="Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media."
+            summaryJustified={false}
+            title="Leonardo"
+          >
+            <Social
+              directLink={true}
+              gray={false}
+              rounded={true}
+              type="facebook"
+              url="https://www.facebook.com/JavaScriptTeam/"
+            />
+            <Social
+              directLink={true}
+              gray={false}
+              rounded={true}
+              type="twitter"
+              url="https://twitter.com/front10hello?lang=es"
+            />
+          </Card>
+        </div>,
+        <div
+          className="col-12 col-sm- col-md text-center mb-4 Team--center"
+        >
+          <div
+            className="Team__Color"
+          >
+            <div
+              className="Team__Color__Primary"
+              style={
+                Object {
+                  "background": "transparent",
+                }
+              }
+            />
+          </div>
+          <Card
+            contentAlign="center"
+            image="/images/team/bohemian.svg"
+            imageBorder={false}
+            imageCircle={true}
+            imageShadow={false}
+            shadow={false}
+            showBorder={true}
+            subTitle="Painter"
+            summary=""
+            summaryJustified={false}
+            title="Van Gogh"
+          >
+            <Social
+              directLink={true}
+              gray={false}
+              rounded={true}
+              type="facebook"
+              url="https://www.facebook.com/JavaScriptTeam/"
+            />
+            <Social
+              directLink={true}
+              gray={false}
+              rounded={true}
+              type="email"
+              url="https://front10.com"
+            />
+          </Card>
+        </div>,
+      ],
+      "className": "Team row",
     },
     "ref": null,
-    "rendered": Object {
-      "instance": <div
-        class="Team row"
-      />,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": "LeonardoNinja",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="Team__Color"
+            >
+              <div
+                className="Team__Color__Primary"
+                style={
+                  Object {
+                    "background": "transparent",
+                  }
+                }
+              />
+            </div>,
+            <Card
+              contentAlign="center"
+              image="/images/team/ninja.svg"
+              imageBorder={false}
+              imageCircle={true}
+              imageShadow={false}
+              shadow={false}
+              showBorder={true}
+              subTitle="Ninja"
+              summary="Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media."
+              summaryJustified={false}
+              title="Leonardo"
+            >
+              <Social
+                directLink={true}
+                gray={false}
+                rounded={true}
+                type="facebook"
+                url="https://www.facebook.com/JavaScriptTeam/"
+              />
+              <Social
+                directLink={true}
+                gray={false}
+                rounded={true}
+                type="twitter"
+                url="https://twitter.com/front10hello?lang=es"
+              />
+            </Card>,
+          ],
+          "className": "col-12 col-sm- col-md text-center mb-4 Team--center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="Team__Color__Primary"
+                style={
+                  Object {
+                    "background": "transparent",
+                  }
+                }
+              />,
+              "className": "Team__Color",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "Team__Color__Primary",
+                "style": Object {
+                  "background": "transparent",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Social
+                  directLink={true}
+                  gray={false}
+                  rounded={true}
+                  type="facebook"
+                  url="https://www.facebook.com/JavaScriptTeam/"
+                />,
+                <Social
+                  directLink={true}
+                  gray={false}
+                  rounded={true}
+                  type="twitter"
+                  url="https://twitter.com/front10hello?lang=es"
+                />,
+              ],
+              "contentAlign": "center",
+              "image": "/images/team/ninja.svg",
+              "imageBorder": false,
+              "imageCircle": true,
+              "imageShadow": false,
+              "shadow": false,
+              "showBorder": true,
+              "subTitle": "Ninja",
+              "summary": "Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media.",
+              "summaryJustified": false,
+              "title": "Leonardo",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "facebook",
+                "nodeType": "class",
+                "props": Object {
+                  "directLink": true,
+                  "gray": false,
+                  "rounded": true,
+                  "type": "facebook",
+                  "url": "https://www.facebook.com/JavaScriptTeam/",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "twitter",
+                "nodeType": "class",
+                "props": Object {
+                  "directLink": true,
+                  "gray": false,
+                  "rounded": true,
+                  "type": "twitter",
+                  "url": "https://twitter.com/front10hello?lang=es",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+      Object {
+        "instance": null,
+        "key": "Van GoghPainter",
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <div
+              className="Team__Color"
+            >
+              <div
+                className="Team__Color__Primary"
+                style={
+                  Object {
+                    "background": "transparent",
+                  }
+                }
+              />
+            </div>,
+            <Card
+              contentAlign="center"
+              image="/images/team/bohemian.svg"
+              imageBorder={false}
+              imageCircle={true}
+              imageShadow={false}
+              shadow={false}
+              showBorder={true}
+              subTitle="Painter"
+              summary=""
+              summaryJustified={false}
+              title="Van Gogh"
+            >
+              <Social
+                directLink={true}
+                gray={false}
+                rounded={true}
+                type="facebook"
+                url="https://www.facebook.com/JavaScriptTeam/"
+              />
+              <Social
+                directLink={true}
+                gray={false}
+                rounded={true}
+                type="email"
+                url="https://front10.com"
+              />
+            </Card>,
+          ],
+          "className": "col-12 col-sm- col-md text-center mb-4 Team--center",
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <div
+                className="Team__Color__Primary"
+                style={
+                  Object {
+                    "background": "transparent",
+                  }
+                }
+              />,
+              "className": "Team__Color",
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "className": "Team__Color__Primary",
+                "style": Object {
+                  "background": "transparent",
+                },
+              },
+              "ref": null,
+              "rendered": null,
+              "type": "div",
+            },
+            "type": "div",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Social
+                  directLink={true}
+                  gray={false}
+                  rounded={true}
+                  type="facebook"
+                  url="https://www.facebook.com/JavaScriptTeam/"
+                />,
+                <Social
+                  directLink={true}
+                  gray={false}
+                  rounded={true}
+                  type="email"
+                  url="https://front10.com"
+                />,
+              ],
+              "contentAlign": "center",
+              "image": "/images/team/bohemian.svg",
+              "imageBorder": false,
+              "imageCircle": true,
+              "imageShadow": false,
+              "shadow": false,
+              "showBorder": true,
+              "subTitle": "Painter",
+              "summary": "",
+              "summaryJustified": false,
+              "title": "Van Gogh",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "facebook",
+                "nodeType": "class",
+                "props": Object {
+                  "directLink": true,
+                  "gray": false,
+                  "rounded": true,
+                  "type": "facebook",
+                  "url": "https://www.facebook.com/JavaScriptTeam/",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": "email",
+                "nodeType": "class",
+                "props": Object {
+                  "directLink": true,
+                  "gray": false,
+                  "rounded": true,
+                  "type": "email",
+                  "url": "https://front10.com",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+        ],
+        "type": "div",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
-        "children": Array [],
+        "children": Array [
+          <div
+            className="col-12 col-sm- col-md text-center mb-4 Team--center"
+          >
+            <div
+              className="Team__Color"
+            >
+              <div
+                className="Team__Color__Primary"
+                style={
+                  Object {
+                    "background": "transparent",
+                  }
+                }
+              />
+            </div>
+            <Card
+              contentAlign="center"
+              image="/images/team/ninja.svg"
+              imageBorder={false}
+              imageCircle={true}
+              imageShadow={false}
+              shadow={false}
+              showBorder={true}
+              subTitle="Ninja"
+              summary="Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media."
+              summaryJustified={false}
+              title="Leonardo"
+            >
+              <Social
+                directLink={true}
+                gray={false}
+                rounded={true}
+                type="facebook"
+                url="https://www.facebook.com/JavaScriptTeam/"
+              />
+              <Social
+                directLink={true}
+                gray={false}
+                rounded={true}
+                type="twitter"
+                url="https://twitter.com/front10hello?lang=es"
+              />
+            </Card>
+          </div>,
+          <div
+            className="col-12 col-sm- col-md text-center mb-4 Team--center"
+          >
+            <div
+              className="Team__Color"
+            >
+              <div
+                className="Team__Color__Primary"
+                style={
+                  Object {
+                    "background": "transparent",
+                  }
+                }
+              />
+            </div>
+            <Card
+              contentAlign="center"
+              image="/images/team/bohemian.svg"
+              imageBorder={false}
+              imageCircle={true}
+              imageShadow={false}
+              shadow={false}
+              showBorder={true}
+              subTitle="Painter"
+              summary=""
+              summaryJustified={false}
+              title="Van Gogh"
+            >
+              <Social
+                directLink={true}
+                gray={false}
+                rounded={true}
+                type="facebook"
+                url="https://www.facebook.com/JavaScriptTeam/"
+              />
+              <Social
+                directLink={true}
+                gray={false}
+                rounded={true}
+                type="email"
+                url="https://front10.com"
+              />
+            </Card>
+          </div>,
+        ],
         "className": "Team row",
       },
       "ref": null,
       "rendered": Array [
-        Array [],
-      ],
-      "type": "div",
-    },
-    "type": [Function],
-  },
-  Symbol(enzyme.__nodes__): Array [
-    Object {
-      "instance": Team {
-        "_reactInternalFiber": FiberNode {
-          "_debugID": 50,
-          "_debugIsCurrentlyTiming": false,
-          "_debugOwner": FiberNode {
-            "_debugID": 49,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": null,
-            "child": [Circular],
-            "childExpirationTime": 0,
-            "effectTag": 1,
-            "elementType": [Function],
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "memoizedState": Object {
-              "context": null,
-              "mount": true,
-              "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "ref": null,
-            "return": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": FiberNode {
-                "_debugID": 47,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": [Circular],
-                "child": null,
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "elementType": null,
-                "expirationTime": 1,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": null,
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": null,
-                "ref": null,
-                "return": null,
-                "selfBaseDuration": 0,
-                "sibling": null,
-                "stateNode": Object {
-                  "containerInfo": <div>
-                    <div
-                      class="Team row"
-                    />
-                  </div>,
-                  "context": Object {},
-                  "current": [Circular],
-                  "didError": false,
-                  "earliestPendingTime": 0,
-                  "earliestSuspendedTime": 0,
-                  "expirationTime": 0,
-                  "finishedWork": null,
-                  "firstBatch": null,
-                  "hydrate": false,
-                  "interactionThreadID": 12,
-                  "latestPendingTime": 0,
-                  "latestPingedTime": 0,
-                  "latestSuspendedTime": 0,
-                  "memoizedInteractions": Set {},
-                  "nextExpirationTimeToWorkOn": 0,
-                  "nextScheduledRoot": null,
-                  "pendingChildren": null,
-                  "pendingCommitExpirationTime": 0,
-                  "pendingContext": null,
-                  "pendingInteractionMap": Map {},
-                  "timeoutHandle": -1,
-                },
-                "tag": 3,
-                "treeBaseDuration": 0,
-                "type": null,
-                "updateQueue": Object {
-                  "baseState": null,
-                  "firstCapturedEffect": null,
-                  "firstCapturedUpdate": null,
-                  "firstEffect": null,
-                  "firstUpdate": Object {
-                    "callback": null,
-                    "expirationTime": 1,
-                    "next": null,
-                    "nextEffect": null,
-                    "payload": Object {
-                      "element": <WrapperComponent
-                        Component={[Function]}
-                        context={null}
-                        props={
-                          Object {
-                            "contentAlign": "center",
-                            "imageBorder": false,
-                            "imageCircle": true,
-                            "imageShadow": false,
-                            "members": Array [],
-                            "shadow": false,
-                            "showBorder": true,
-                            "showImage": true,
-                            "showJob": true,
-                            "showName": true,
-                            "showSummary": true,
-                            "socialGray": false,
-                            "topColor": "transparent",
-                          }
-                        }
-                      />,
-                    },
-                    "tag": 0,
-                  },
-                  "lastCapturedEffect": null,
-                  "lastCapturedUpdate": null,
-                  "lastEffect": null,
-                  "lastUpdate": Object {
-                    "callback": null,
-                    "expirationTime": 1,
-                    "next": null,
-                    "nextEffect": null,
-                    "payload": Object {
-                      "element": <WrapperComponent
-                        Component={[Function]}
-                        context={null}
-                        props={
-                          Object {
-                            "contentAlign": "center",
-                            "imageBorder": false,
-                            "imageCircle": true,
-                            "imageShadow": false,
-                            "members": Array [],
-                            "shadow": false,
-                            "showBorder": true,
-                            "showImage": true,
-                            "showJob": true,
-                            "showName": true,
-                            "showSummary": true,
-                            "socialGray": false,
-                            "topColor": "transparent",
-                          }
-                        }
-                      />,
-                    },
-                    "tag": 0,
-                  },
-                },
-              },
-              "child": [Circular],
-              "childExpirationTime": 0,
-              "effectTag": 32,
-              "elementType": null,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": [Circular],
-              "index": 0,
-              "key": null,
-              "lastEffect": [Circular],
-              "memoizedProps": null,
-              "memoizedState": Object {
-                "element": <WrapperComponent
-                  Component={[Function]}
-                  context={null}
-                  props={
+        Object {
+          "instance": null,
+          "key": "LeonardoNinja",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="Team__Color"
+              >
+                <div
+                  className="Team__Color__Primary"
+                  style={
                     Object {
-                      "contentAlign": "center",
-                      "imageBorder": false,
-                      "imageCircle": true,
-                      "imageShadow": false,
-                      "members": Array [],
-                      "shadow": false,
-                      "showBorder": true,
-                      "showImage": true,
-                      "showJob": true,
-                      "showName": true,
-                      "showSummary": true,
-                      "socialGray": false,
-                      "topColor": "transparent",
+                      "background": "transparent",
                     }
                   }
-                />,
-              },
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": null,
-              "ref": null,
-              "return": null,
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": Object {
-                "containerInfo": <div>
-                  <div
-                    class="Team row"
-                  />
-                </div>,
-                "context": Object {},
-                "current": [Circular],
-                "didError": false,
-                "earliestPendingTime": 0,
-                "earliestSuspendedTime": 0,
-                "expirationTime": 0,
-                "finishedWork": null,
-                "firstBatch": null,
-                "hydrate": false,
-                "interactionThreadID": 12,
-                "latestPendingTime": 0,
-                "latestPingedTime": 0,
-                "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
-                "nextExpirationTimeToWorkOn": 0,
-                "nextScheduledRoot": null,
-                "pendingChildren": null,
-                "pendingCommitExpirationTime": 0,
-                "pendingContext": null,
-                "pendingInteractionMap": Map {},
-                "timeoutHandle": -1,
-              },
-              "tag": 3,
-              "treeBaseDuration": 0,
-              "type": null,
-              "updateQueue": Object {
-                "baseState": Object {
-                  "element": <WrapperComponent
-                    Component={[Function]}
-                    context={null}
-                    props={
-                      Object {
-                        "contentAlign": "center",
-                        "imageBorder": false,
-                        "imageCircle": true,
-                        "imageShadow": false,
-                        "members": Array [],
-                        "shadow": false,
-                        "showBorder": true,
-                        "showImage": true,
-                        "showJob": true,
-                        "showName": true,
-                        "showSummary": true,
-                        "socialGray": false,
-                        "topColor": "transparent",
-                      }
-                    }
-                  />,
-                },
-                "firstCapturedEffect": null,
-                "firstCapturedUpdate": null,
-                "firstEffect": null,
-                "firstUpdate": null,
-                "lastCapturedEffect": null,
-                "lastCapturedUpdate": null,
-                "lastEffect": null,
-                "lastUpdate": null,
-              },
-            },
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": WrapperComponent {
-              "_reactInternalFiber": [Circular],
-              "_reactInternalInstance": Object {},
-              "context": Object {},
-              "props": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "contentAlign": "center",
-                  "imageBorder": false,
-                  "imageCircle": true,
-                  "imageShadow": false,
-                  "members": Array [],
-                  "shadow": false,
-                  "showBorder": true,
-                  "showImage": true,
-                  "showJob": true,
-                  "showName": true,
-                  "showSummary": true,
-                  "socialGray": false,
-                  "topColor": "transparent",
-                },
-              },
-              "refs": Object {},
-              "state": Object {
-                "context": null,
-                "mount": true,
-                "props": Object {
-                  "contentAlign": "center",
-                  "imageBorder": false,
-                  "imageCircle": true,
-                  "imageShadow": false,
-                  "members": Array [],
-                  "shadow": false,
-                  "showBorder": true,
-                  "showImage": true,
-                  "showJob": true,
-                  "showName": true,
-                  "showSummary": true,
-                  "socialGray": false,
-                  "topColor": "transparent",
-                },
-              },
-              "updater": Object {
-                "enqueueForceUpdate": [Function],
-                "enqueueReplaceState": [Function],
-                "enqueueSetState": [Function],
-                "isMounted": [Function],
-              },
-            },
-            "tag": 1,
-            "treeBaseDuration": 0,
-            "type": [Function],
-            "updateQueue": null,
-          },
-          "_debugSource": null,
-          "actualDuration": 0,
-          "actualStartTime": -1,
-          "alternate": null,
-          "child": FiberNode {
-            "_debugID": 51,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": [Circular],
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": null,
-            "child": null,
-            "childExpirationTime": 0,
-            "effectTag": 0,
-            "elementType": "div",
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "children": Array [],
-              "className": "Team row",
-            },
-            "memoizedState": null,
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "children": Array [],
-              "className": "Team row",
-            },
-            "ref": null,
-            "return": [Circular],
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": <div
-              class="Team row"
-            />,
-            "tag": 5,
-            "treeBaseDuration": 0,
-            "type": "div",
-            "updateQueue": null,
-          },
-          "childExpirationTime": 0,
-          "effectTag": 1,
-          "elementType": [Function],
-          "expirationTime": 0,
-          "firstContextDependency": null,
-          "firstEffect": null,
-          "index": 0,
-          "key": null,
-          "lastEffect": null,
-          "memoizedProps": Object {
-            "contentAlign": "center",
-            "imageBorder": false,
-            "imageCircle": true,
-            "imageShadow": false,
-            "members": Array [],
-            "shadow": false,
-            "showBorder": true,
-            "showImage": true,
-            "showJob": true,
-            "showName": true,
-            "showSummary": true,
-            "socialGray": false,
-            "topColor": "transparent",
-          },
-          "memoizedState": null,
-          "mode": 0,
-          "nextEffect": null,
-          "pendingProps": Object {
-            "contentAlign": "center",
-            "imageBorder": false,
-            "imageCircle": true,
-            "imageShadow": false,
-            "members": Array [],
-            "shadow": false,
-            "showBorder": true,
-            "showImage": true,
-            "showJob": true,
-            "showName": true,
-            "showSummary": true,
-            "socialGray": false,
-            "topColor": "transparent",
+                />
+              </div>,
+              <Card
+                contentAlign="center"
+                image="/images/team/ninja.svg"
+                imageBorder={false}
+                imageCircle={true}
+                imageShadow={false}
+                shadow={false}
+                showBorder={true}
+                subTitle="Ninja"
+                summary="Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media."
+                summaryJustified={false}
+                title="Leonardo"
+              >
+                <Social
+                  directLink={true}
+                  gray={false}
+                  rounded={true}
+                  type="facebook"
+                  url="https://www.facebook.com/JavaScriptTeam/"
+                />
+                <Social
+                  directLink={true}
+                  gray={false}
+                  rounded={true}
+                  type="twitter"
+                  url="https://twitter.com/front10hello?lang=es"
+                />
+              </Card>,
+            ],
+            "className": "col-12 col-sm- col-md text-center mb-4 Team--center",
           },
           "ref": null,
-          "return": FiberNode {
-            "_debugID": 49,
-            "_debugIsCurrentlyTiming": false,
-            "_debugOwner": null,
-            "_debugSource": null,
-            "actualDuration": 0,
-            "actualStartTime": -1,
-            "alternate": null,
-            "child": [Circular],
-            "childExpirationTime": 0,
-            "effectTag": 1,
-            "elementType": [Function],
-            "expirationTime": 0,
-            "firstContextDependency": null,
-            "firstEffect": null,
-            "index": 0,
-            "key": null,
-            "lastEffect": null,
-            "memoizedProps": Object {
-              "Component": [Function],
-              "context": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
               "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "memoizedState": Object {
-              "context": null,
-              "mount": true,
-              "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "mode": 0,
-            "nextEffect": null,
-            "pendingProps": Object {
-              "Component": [Function],
-              "context": null,
-              "props": Object {
-                "contentAlign": "center",
-                "imageBorder": false,
-                "imageCircle": true,
-                "imageShadow": false,
-                "members": Array [],
-                "shadow": false,
-                "showBorder": true,
-                "showImage": true,
-                "showJob": true,
-                "showName": true,
-                "showSummary": true,
-                "socialGray": false,
-                "topColor": "transparent",
-              },
-            },
-            "ref": null,
-            "return": FiberNode {
-              "_debugID": 47,
-              "_debugIsCurrentlyTiming": false,
-              "_debugOwner": null,
-              "_debugSource": null,
-              "actualDuration": 0,
-              "actualStartTime": -1,
-              "alternate": FiberNode {
-                "_debugID": 47,
-                "_debugIsCurrentlyTiming": false,
-                "_debugOwner": null,
-                "_debugSource": null,
-                "actualDuration": 0,
-                "actualStartTime": -1,
-                "alternate": [Circular],
-                "child": null,
-                "childExpirationTime": 0,
-                "effectTag": 0,
-                "elementType": null,
-                "expirationTime": 1,
-                "firstContextDependency": null,
-                "firstEffect": null,
-                "index": 0,
-                "key": null,
-                "lastEffect": null,
-                "memoizedProps": null,
-                "memoizedState": null,
-                "mode": 0,
-                "nextEffect": null,
-                "pendingProps": null,
-                "ref": null,
-                "return": null,
-                "selfBaseDuration": 0,
-                "sibling": null,
-                "stateNode": Object {
-                  "containerInfo": <div>
-                    <div
-                      class="Team row"
-                    />
-                  </div>,
-                  "context": Object {},
-                  "current": [Circular],
-                  "didError": false,
-                  "earliestPendingTime": 0,
-                  "earliestSuspendedTime": 0,
-                  "expirationTime": 0,
-                  "finishedWork": null,
-                  "firstBatch": null,
-                  "hydrate": false,
-                  "interactionThreadID": 12,
-                  "latestPendingTime": 0,
-                  "latestPingedTime": 0,
-                  "latestSuspendedTime": 0,
-                  "memoizedInteractions": Set {},
-                  "nextExpirationTimeToWorkOn": 0,
-                  "nextScheduledRoot": null,
-                  "pendingChildren": null,
-                  "pendingCommitExpirationTime": 0,
-                  "pendingContext": null,
-                  "pendingInteractionMap": Map {},
-                  "timeoutHandle": -1,
-                },
-                "tag": 3,
-                "treeBaseDuration": 0,
-                "type": null,
-                "updateQueue": Object {
-                  "baseState": null,
-                  "firstCapturedEffect": null,
-                  "firstCapturedUpdate": null,
-                  "firstEffect": null,
-                  "firstUpdate": Object {
-                    "callback": null,
-                    "expirationTime": 1,
-                    "next": null,
-                    "nextEffect": null,
-                    "payload": Object {
-                      "element": <WrapperComponent
-                        Component={[Function]}
-                        context={null}
-                        props={
-                          Object {
-                            "contentAlign": "center",
-                            "imageBorder": false,
-                            "imageCircle": true,
-                            "imageShadow": false,
-                            "members": Array [],
-                            "shadow": false,
-                            "showBorder": true,
-                            "showImage": true,
-                            "showJob": true,
-                            "showName": true,
-                            "showSummary": true,
-                            "socialGray": false,
-                            "topColor": "transparent",
-                          }
-                        }
-                      />,
-                    },
-                    "tag": 0,
-                  },
-                  "lastCapturedEffect": null,
-                  "lastCapturedUpdate": null,
-                  "lastEffect": null,
-                  "lastUpdate": Object {
-                    "callback": null,
-                    "expirationTime": 1,
-                    "next": null,
-                    "nextEffect": null,
-                    "payload": Object {
-                      "element": <WrapperComponent
-                        Component={[Function]}
-                        context={null}
-                        props={
-                          Object {
-                            "contentAlign": "center",
-                            "imageBorder": false,
-                            "imageCircle": true,
-                            "imageShadow": false,
-                            "members": Array [],
-                            "shadow": false,
-                            "showBorder": true,
-                            "showImage": true,
-                            "showJob": true,
-                            "showName": true,
-                            "showSummary": true,
-                            "socialGray": false,
-                            "topColor": "transparent",
-                          }
-                        }
-                      />,
-                    },
-                    "tag": 0,
-                  },
-                },
-              },
-              "child": [Circular],
-              "childExpirationTime": 0,
-              "effectTag": 32,
-              "elementType": null,
-              "expirationTime": 0,
-              "firstContextDependency": null,
-              "firstEffect": [Circular],
-              "index": 0,
-              "key": null,
-              "lastEffect": [Circular],
-              "memoizedProps": null,
-              "memoizedState": Object {
-                "element": <WrapperComponent
-                  Component={[Function]}
-                  context={null}
-                  props={
+                "children": <div
+                  className="Team__Color__Primary"
+                  style={
                     Object {
-                      "contentAlign": "center",
-                      "imageBorder": false,
-                      "imageCircle": true,
-                      "imageShadow": false,
-                      "members": Array [],
-                      "shadow": false,
-                      "showBorder": true,
-                      "showImage": true,
-                      "showJob": true,
-                      "showName": true,
-                      "showSummary": true,
-                      "socialGray": false,
-                      "topColor": "transparent",
+                      "background": "transparent",
                     }
                   }
                 />,
+                "className": "Team__Color",
               },
-              "mode": 0,
-              "nextEffect": null,
-              "pendingProps": null,
               "ref": null,
-              "return": null,
-              "selfBaseDuration": 0,
-              "sibling": null,
-              "stateNode": Object {
-                "containerInfo": <div>
-                  <div
-                    class="Team row"
-                  />
-                </div>,
-                "context": Object {},
-                "current": [Circular],
-                "didError": false,
-                "earliestPendingTime": 0,
-                "earliestSuspendedTime": 0,
-                "expirationTime": 0,
-                "finishedWork": null,
-                "firstBatch": null,
-                "hydrate": false,
-                "interactionThreadID": 12,
-                "latestPendingTime": 0,
-                "latestPingedTime": 0,
-                "latestSuspendedTime": 0,
-                "memoizedInteractions": Set {},
-                "nextExpirationTimeToWorkOn": 0,
-                "nextScheduledRoot": null,
-                "pendingChildren": null,
-                "pendingCommitExpirationTime": 0,
-                "pendingContext": null,
-                "pendingInteractionMap": Map {},
-                "timeoutHandle": -1,
-              },
-              "tag": 3,
-              "treeBaseDuration": 0,
-              "type": null,
-              "updateQueue": Object {
-                "baseState": Object {
-                  "element": <WrapperComponent
-                    Component={[Function]}
-                    context={null}
-                    props={
-                      Object {
-                        "contentAlign": "center",
-                        "imageBorder": false,
-                        "imageCircle": true,
-                        "imageShadow": false,
-                        "members": Array [],
-                        "shadow": false,
-                        "showBorder": true,
-                        "showImage": true,
-                        "showJob": true,
-                        "showName": true,
-                        "showSummary": true,
-                        "socialGray": false,
-                        "topColor": "transparent",
-                      }
-                    }
-                  />,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "Team__Color__Primary",
+                  "style": Object {
+                    "background": "transparent",
+                  },
                 },
-                "firstCapturedEffect": null,
-                "firstCapturedUpdate": null,
-                "firstEffect": null,
-                "firstUpdate": null,
-                "lastCapturedEffect": null,
-                "lastCapturedUpdate": null,
-                "lastEffect": null,
-                "lastUpdate": null,
+                "ref": null,
+                "rendered": null,
+                "type": "div",
               },
+              "type": "div",
             },
-            "selfBaseDuration": 0,
-            "sibling": null,
-            "stateNode": WrapperComponent {
-              "_reactInternalFiber": [Circular],
-              "_reactInternalInstance": Object {},
-              "context": Object {},
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
               "props": Object {
-                "Component": [Function],
-                "context": null,
-                "props": Object {
-                  "contentAlign": "center",
-                  "imageBorder": false,
-                  "imageCircle": true,
-                  "imageShadow": false,
-                  "members": Array [],
-                  "shadow": false,
-                  "showBorder": true,
-                  "showImage": true,
-                  "showJob": true,
-                  "showName": true,
-                  "showSummary": true,
-                  "socialGray": false,
-                  "topColor": "transparent",
+                "children": Array [
+                  <Social
+                    directLink={true}
+                    gray={false}
+                    rounded={true}
+                    type="facebook"
+                    url="https://www.facebook.com/JavaScriptTeam/"
+                  />,
+                  <Social
+                    directLink={true}
+                    gray={false}
+                    rounded={true}
+                    type="twitter"
+                    url="https://twitter.com/front10hello?lang=es"
+                  />,
+                ],
+                "contentAlign": "center",
+                "image": "/images/team/ninja.svg",
+                "imageBorder": false,
+                "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
+                "showBorder": true,
+                "subTitle": "Ninja",
+                "summary": "Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media.",
+                "summaryJustified": false,
+                "title": "Leonardo",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "facebook",
+                  "nodeType": "class",
+                  "props": Object {
+                    "directLink": true,
+                    "gray": false,
+                    "rounded": true,
+                    "type": "facebook",
+                    "url": "https://www.facebook.com/JavaScriptTeam/",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
                 },
-              },
-              "refs": Object {},
-              "state": Object {
-                "context": null,
-                "mount": true,
-                "props": Object {
-                  "contentAlign": "center",
-                  "imageBorder": false,
-                  "imageCircle": true,
-                  "imageShadow": false,
-                  "members": Array [],
-                  "shadow": false,
-                  "showBorder": true,
-                  "showImage": true,
-                  "showJob": true,
-                  "showName": true,
-                  "showSummary": true,
-                  "socialGray": false,
-                  "topColor": "transparent",
+                Object {
+                  "instance": null,
+                  "key": "twitter",
+                  "nodeType": "class",
+                  "props": Object {
+                    "directLink": true,
+                    "gray": false,
+                    "rounded": true,
+                    "type": "twitter",
+                    "url": "https://twitter.com/front10hello?lang=es",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
                 },
-              },
-              "updater": Object {
-                "enqueueForceUpdate": [Function],
-                "enqueueReplaceState": [Function],
-                "enqueueSetState": [Function],
-                "isMounted": [Function],
-              },
+              ],
+              "type": [Function],
             },
-            "tag": 1,
-            "treeBaseDuration": 0,
-            "type": [Function],
-            "updateQueue": null,
+          ],
+          "type": "div",
+        },
+        Object {
+          "instance": null,
+          "key": "Van GoghPainter",
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <div
+                className="Team__Color"
+              >
+                <div
+                  className="Team__Color__Primary"
+                  style={
+                    Object {
+                      "background": "transparent",
+                    }
+                  }
+                />
+              </div>,
+              <Card
+                contentAlign="center"
+                image="/images/team/bohemian.svg"
+                imageBorder={false}
+                imageCircle={true}
+                imageShadow={false}
+                shadow={false}
+                showBorder={true}
+                subTitle="Painter"
+                summary=""
+                summaryJustified={false}
+                title="Van Gogh"
+              >
+                <Social
+                  directLink={true}
+                  gray={false}
+                  rounded={true}
+                  type="facebook"
+                  url="https://www.facebook.com/JavaScriptTeam/"
+                />
+                <Social
+                  directLink={true}
+                  gray={false}
+                  rounded={true}
+                  type="email"
+                  url="https://front10.com"
+                />
+              </Card>,
+            ],
+            "className": "col-12 col-sm- col-md text-center mb-4 Team--center",
           },
-          "selfBaseDuration": 0,
-          "sibling": null,
-          "stateNode": [Circular],
-          "tag": 1,
-          "treeBaseDuration": 0,
-          "type": [Function],
-          "updateQueue": null,
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <div
+                  className="Team__Color__Primary"
+                  style={
+                    Object {
+                      "background": "transparent",
+                    }
+                  }
+                />,
+                "className": "Team__Color",
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "className": "Team__Color__Primary",
+                  "style": Object {
+                    "background": "transparent",
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": "div",
+              },
+              "type": "div",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": Array [
+                  <Social
+                    directLink={true}
+                    gray={false}
+                    rounded={true}
+                    type="facebook"
+                    url="https://www.facebook.com/JavaScriptTeam/"
+                  />,
+                  <Social
+                    directLink={true}
+                    gray={false}
+                    rounded={true}
+                    type="email"
+                    url="https://front10.com"
+                  />,
+                ],
+                "contentAlign": "center",
+                "image": "/images/team/bohemian.svg",
+                "imageBorder": false,
+                "imageCircle": true,
+                "imageShadow": false,
+                "shadow": false,
+                "showBorder": true,
+                "subTitle": "Painter",
+                "summary": "",
+                "summaryJustified": false,
+                "title": "Van Gogh",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "facebook",
+                  "nodeType": "class",
+                  "props": Object {
+                    "directLink": true,
+                    "gray": false,
+                    "rounded": true,
+                    "type": "facebook",
+                    "url": "https://www.facebook.com/JavaScriptTeam/",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": "email",
+                  "nodeType": "class",
+                  "props": Object {
+                    "directLink": true,
+                    "gray": false,
+                    "rounded": true,
+                    "type": "email",
+                    "url": "https://front10.com",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+              ],
+              "type": [Function],
+            },
+          ],
+          "type": "div",
         },
-        "_reactInternalInstance": Object {},
-        "context": Object {},
-        "props": Object {
-          "contentAlign": "center",
-          "imageBorder": false,
-          "imageCircle": true,
-          "imageShadow": false,
-          "members": Array [],
-          "shadow": false,
-          "showBorder": true,
-          "showImage": true,
-          "showJob": true,
-          "showName": true,
-          "showSummary": true,
-          "socialGray": false,
-          "topColor": "transparent",
-        },
-        "refs": Object {},
-        "state": null,
-        "updater": Object {
-          "enqueueForceUpdate": [Function],
-          "enqueueReplaceState": [Function],
-          "enqueueSetState": [Function],
-          "isMounted": [Function],
-        },
-      },
-      "key": undefined,
-      "nodeType": "class",
-      "props": Object {
-        "contentAlign": "center",
-        "imageBorder": false,
-        "imageCircle": true,
-        "imageShadow": false,
-        "members": Array [],
-        "shadow": false,
-        "showBorder": true,
-        "showImage": true,
-        "showJob": true,
-        "showName": true,
-        "showSummary": true,
-        "socialGray": false,
-        "topColor": "transparent",
-      },
-      "ref": null,
-      "rendered": Object {
-        "instance": <div
-          class="Team row"
-        />,
-        "key": undefined,
-        "nodeType": "host",
-        "props": Object {
-          "children": Array [],
-          "className": "Team row",
-        },
-        "ref": null,
-        "rendered": Array [
-          Array [],
-        ],
-        "type": "div",
-      },
-      "type": [Function],
+      ],
+      "type": "div",
     },
   ],
   Symbol(enzyme.__options__): Object {

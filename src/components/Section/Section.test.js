@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Section from './Section';
 
@@ -10,18 +10,25 @@ describe('Section', () => {
   let mounted;
   const section = () => {
     if (!mounted) {
-      mounted = mount(<Section {...props} />);
+      mounted = shallow(<Section {...props} />);
     }
     return mounted;
   };
   describe('Section', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        gray: false,
+        title: 'Front10',
+        subTitle: 'Awesome team',
+        className: '',
+        contentClassName: '',
+        children: null
+      };
       mounted = undefined;
     });
 
     it('should render', () => {
-      expect(mount(<Section {...props} />)).toMatchSnapshot();
+      expect(shallow(<Section {...props} />)).toMatchSnapshot();
     });
 
     it('always renders a div', () => {

@@ -9,7 +9,7 @@ class Backers extends Component {
     this.formatData = this.formatData.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.formatData(this.props);
   }
 

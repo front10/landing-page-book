@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, mount, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Navbar from './Navbar';
 
@@ -10,21 +10,33 @@ describe('Navbar', () => {
   let mounted;
   const navbar = () => {
     if (!mounted) {
-      mounted = mount(<Navbar {...props} />);
+      mounted = shallow(<Navbar {...props} />);
     }
     return mounted;
   };
   describe('Navbar', () => {
     beforeEach(() => {
-      props = {};
+      props = {
+        transparent: false,
+        fixed: false,
+        brandName: 'front10',
+        brandLink: 'https://www.front10.com',
+        brandLogo: '/assets/images/logo/front10.png',
+        className: '',
+        expand: '',
+        leftItems: [],
+        rightItems: [],
+        children: null,
+        onItemClick: () => {}
+      };
       mounted = undefined;
     });
 
     it('should render', () => {
-      expect(mount(<Navbar {...props} />)).toMatchSnapshot();
+      expect(shallow(<Navbar {...props} />)).toMatchSnapshot();
     });
 
-    it('always renders a div', () => {
+    it('Should render', () => {
       const divs = navbar().find('nav');
 
       expect(divs.length).toBeGreaterThan(0);

@@ -80,7 +80,7 @@ class DetailsComponent extends React.Component {
         {/* </Section> */}
         <div className="container prl-11">
           <Row>
-            <Column className="col-11 col-md-11 pt-4">
+            <Column className={`${stories.length > 1 ? 'col-11' : 'col-12'} pt-4`}>
               <Header type="h4" className="name mb-2">
                 Intro
               </Header>
@@ -103,7 +103,9 @@ class DetailsComponent extends React.Component {
                 </Element>
               ))}
             </Column>
-            <Column className="col-1 col-md-1 pt-4">{this.renderNavigationsStories()}</Column>
+            {stories.length > 1 && (
+              <Column className="col-1 col-md-1 pt-4">{this.renderNavigationsStories()}</Column>
+            )}
             {/* <Column className="col-12 col-md-12"> */}
             {/* <div className="code-import pl-0 pt-2 pb-2">
                 <div className="col-5 text-truncate pl-0">

@@ -6,14 +6,10 @@ import Icon from '../Icon';
 class Input extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    const { value } = this.props;
+    this.state = { value };
     this.onChange = this.onChange.bind(this);
     this.onUpdate = this.onUpdate.bind(this);
-  }
-
-  componentWillMount() {
-    const { value } = this.props;
-    this.setState({ value });
   }
 
   componentDidUpdate(prevProps) {

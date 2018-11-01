@@ -7,13 +7,9 @@ import Card from '../Card';
 class Wizard extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
-    this.onStepChange = this.onStepChange.bind(this);
-  }
-
-  componentWillMount() {
     const { startAtStep, steps } = this.props;
-    this.setState({ currentItem: steps[startAtStep].name });
+    this.state = { currentItem: steps[startAtStep].name };
+    this.onStepChange = this.onStepChange.bind(this);
   }
 
   onStepChange(step) {

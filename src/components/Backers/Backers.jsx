@@ -13,10 +13,10 @@ class Backers extends Component {
     this.formatData(this.props);
   }
 
-  componentWillReceiveProps(nextProps) {
-    const { backers } = this.state;
-    if (nextProps.backers !== backers) {
-      this.formatData(nextProps);
+  componentDidUpdate(prevProps) {
+    const { backers } = this.props;
+    if (prevProps.backers !== backers) {
+      this.formatData(prevProps);
     }
   }
 

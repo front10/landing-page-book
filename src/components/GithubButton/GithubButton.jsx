@@ -8,7 +8,10 @@ class GithubButton extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      counter: null
+      counter: null,
+      showCounter: false,
+      showBtnText: false,
+      showGithubIcon: false
     };
     this.onChange = this.onChange.bind(this);
     this.getRepositoryStats = this.getRepositoryStats.bind(this);
@@ -16,7 +19,7 @@ class GithubButton extends React.Component {
     this.openUrl = this.openUrl.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     const { btnType, showCounter, showBtnText, showGithubIcon, repository, username } = this.props;
     this.setState({
       showCounter,

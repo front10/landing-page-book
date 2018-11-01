@@ -23,18 +23,8 @@ if (typeof window !== 'undefined' && typeof window.navigator !== 'undefined') {
 class Code extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {};
-    this.updateCode = this.updateCode.bind(this);
-    this.toggleReadOnly = this.toggleReadOnly.bind(this);
-    this.copyToClipboard = this.copyToClipboard.bind(this);
-    this.clearCode = this.clearCode.bind(this);
-    this.onUpdate = this.onUpdate.bind(this);
-    this.toggleCollapse = this.toggleCollapse.bind(this);
-  }
-
-  componentWillMount() {
     const { code, readOnly, languageCode, lineNumbers, showheader, collapsed } = this.props;
-    this.setState({
+    this.state = {
       scode: code,
       sreadOnly: readOnly,
       slanguageCode: languageCode,
@@ -42,7 +32,13 @@ class Code extends React.Component {
       sshowheader: showheader,
       collapsed,
       hideMessages: collapsed ? 'Show code' : 'Hide code'
-    });
+    };
+    this.updateCode = this.updateCode.bind(this);
+    this.toggleReadOnly = this.toggleReadOnly.bind(this);
+    this.copyToClipboard = this.copyToClipboard.bind(this);
+    this.clearCode = this.clearCode.bind(this);
+    this.onUpdate = this.onUpdate.bind(this);
+    this.toggleCollapse = this.toggleCollapse.bind(this);
   }
 
   componentDidMount() {

@@ -9,24 +9,20 @@ import Input from '../Input/Input';
 class ContactUs extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    const { name, mail, phone, message, loading } = this.props;
+    this.state = {
+      name,
+      mail,
+      phone,
+      message,
+      loading
+    };
     this.onSubmit = this.onSubmit.bind(this);
     this.onChangeName = this.onChangeName.bind(this);
     this.onChangeMail = this.onChangeMail.bind(this);
     this.onChangePhone = this.onChangePhone.bind(this);
     this.onChangeMessage = this.onChangeMessage.bind(this);
     this.onUpdate = this.onUpdate.bind(this);
-  }
-
-  componentWillMount() {
-    const { name, mail, phone, message, loading } = this.props;
-    this.setState({
-      name,
-      mail,
-      phone,
-      message,
-      loading
-    });
   }
 
   componentDidUpdate(prevProps) {

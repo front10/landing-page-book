@@ -4,16 +4,10 @@ import PropTypes from 'prop-types';
 class Image extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { loaded: false };
     this.image = React.createRef();
     this.onUpdate = this.onUpdate.bind(this);
     this.handleImageLoaded = this.handleImageLoaded.bind(this);
-  }
-
-  componentWillMount() {
-    this.setState({
-      loaded: false
-    });
   }
 
   componentDidMount() {

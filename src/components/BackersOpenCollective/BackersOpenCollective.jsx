@@ -7,13 +7,17 @@ import BackersOpenCollectiveService from '../../service/BackersOpenCollective.se
 class BackersOpenCollective extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      backers: [],
+      backersOrdered: [],
+      loading: false
+    };
     this.getMembers = this.getMembers.bind(this);
     this.sort = this.sort.bind(this);
     this.onUpdate = this.onUpdate.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.setState(
       {
         backers: [],

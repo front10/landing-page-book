@@ -32,7 +32,7 @@ class GridComponent extends React.Component {
                 imageCircle={false}
                 imageBorder={false}
                 shadow={false}
-                title={component.toUp}
+                title={component}
                 image={`/images/components/${component.toLowerCase()}.svg`}
               />
             </Link>

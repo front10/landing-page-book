@@ -23,11 +23,8 @@ class Button extends Component {
       active
     } = this.props;
     let cssclass = `${className} btn-${color}`;
-    if (circle) {
-      cssclass += ` rounded-circle`;
-    } else {
-      rounded ? (cssclass += ` rounded`) : (cssclass += ` btn-${color} rounded-0`); // eslint-disable-line no-unused-expressions
-    }
+    if (circle) cssclass += ` rounded-circle`;
+    if (!rounded) cssclass += ` rounded-0`;
     if (outline) {
       cssclass = `${className} btn-outline-${color}`;
     }
@@ -88,7 +85,7 @@ Button.defaultProps = {
   tooltip: '',
   size: '',
   type: 'button',
-  color: 'default',
+  color: 'light',
   style: {},
   children: null,
   onClick: () => {}

@@ -10,9 +10,7 @@ export default {
       code: `<GithubButton
     username="front10"
     repository="landing-page-book"
-    btnType="star"
-    btnText="stars"
-    btnRounded
+    btnRounded color="primary"
 />`,
       tabsActive: ['code']
     },

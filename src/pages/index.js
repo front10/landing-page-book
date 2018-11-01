@@ -173,10 +173,10 @@ const IndexPage = () => (
                   }}
                 >
                   <Container>
-                    <Header className="main-header" type="h2">
+                    <Header textAlign="center" className="main-header" type="h2">
                       Front10
                     </Header>
-                    <Header className="main-subheader" type="h3">
+                    <Header textAlign="center" className="main-subheader" type="h3">
                       Rewriting the world with React
                     </Header>
                   </Container>

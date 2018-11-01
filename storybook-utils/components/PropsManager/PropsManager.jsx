@@ -17,12 +17,10 @@ const tabs = [
   { key: 'props', icon: 'sliders', title: 'Props' }
 ];
 
-// eslint-disable-next-line react/no-deprecated
 class PropsManager extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      code: props.children,
       textCode: props.children,
       external: true,
       active: props.active
@@ -32,21 +30,18 @@ class PropsManager extends React.Component {
     this.showOrHideCodeAndIcon = this.showOrHideCodeAndIcon.bind(this);
   }
 
-  handleCodeChange(code) {
+  handleCodeChange(textCode) {
     this.setState({
-      code,
+      textCode,
       external: false
     });
   }
 
   handleActive(activeTab) {
     const { active } = this.state;
-    let { textCode } = this.state;
-    const { code } = this.state;
-    textCode = activeTab === 'code' ? code : textCode;
     if (active.indexOf(activeTab) !== -1) active.splice(active.indexOf(activeTab), 1);
     else active.push(activeTab);
-    this.setState({ active, textCode });
+    this.setState({ active });
   }
 
   showOrHideCodeAndIcon(tab, active) {
@@ -72,7 +67,7 @@ class PropsManager extends React.Component {
   }
 
   render() {
-    const { code, external, expandedCode, textCode, active } = this.state;
+    const { external, expandedCode, textCode, active } = this.state;
     const { readme, cssVariables, columnSize, propsDescription, columnAlign } = this.props;
     return (
       <LiveProvider code={textCode} scope={{ ...scope, React }}>

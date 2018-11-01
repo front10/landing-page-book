@@ -73,13 +73,15 @@ class PropsManager extends React.Component {
 
   render() {
     const { code, external, expandedCode, textCode, active } = this.state;
-    const { readme, cssVariables, colColumn, propsDescription } = this.props;
+    const { readme, cssVariables, columnSize, propsDescription, columnAlign } = this.props;
     return (
       <LiveProvider code={textCode} scope={{ ...scope, React }}>
         <Row>
-          <Column className={colColumn}>
+          <Column>
             <div className="border-preview">
-              <LivePreview />
+              <Column className={`${columnSize} column-align-${columnAlign}`}>
+                <LivePreview />
+              </Column>
             </div>
           </Column>
           <Column className="col-12 mt--4p">
@@ -176,7 +178,8 @@ PropsManager.propTypes = {
   readme: PropTypes.string,
   cssVariables: PropTypes.arrayOf(PropTypes.string),
   propsDescription: PropTypes.objectOf(PropTypes.any),
-  colColumn: PropTypes.string,
+  columnSize: PropTypes.string,
+  columnAlign: PropTypes.string,
   active: PropTypes.arrayOf(PropTypes.string)
 };
 
@@ -184,7 +187,8 @@ PropsManager.defaultProps = {
   readme: '',
   cssVariables: [],
   propsDescription: null,
-  colColumn: 'col-12',
+  columnSize: 'col-12',
+  columnAlign: 'left',
   active: ['code']
 };
 

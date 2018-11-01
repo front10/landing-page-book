@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import Link from 'gatsby-link';
+import GatsbyLink from 'gatsby-link';
 import Helmet from 'react-helmet';
 
 import {
@@ -12,7 +12,8 @@ import {
   Image,
   Row,
   Column,
-  Analytics
+  Analytics,
+  Link
 } from '../components';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -66,17 +67,17 @@ class MainLayout extends React.Component {
           className="main-navbar"
         >
           <NavbarNav>
-            <Link className="nav-link NavbarLink" to="/" activeClassName="activeLink" exact>
+            <GatsbyLink className="nav-link NavbarLink" to="/" activeClassName="activeLink" exact>
               Introduction
-            </Link>
-            <Link
+            </GatsbyLink>
+            <GatsbyLink
               className="nav-link NavbarLink"
               to="/components"
               activeClassName="activeLink"
               exact
             >
               Components
-            </Link>
+            </GatsbyLink>
           </NavbarNav>
           <NavbarNav alignItems="right">
             {/* eslint-disable */}

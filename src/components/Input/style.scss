@@ -1,36 +1,33 @@
 :root {
-    --Input-borderRadius: .25rem;
-    --Input-fontSize: 0.9rem;
-    --Input-color: rgba(0, 0, 0, 0.8);
+  --Input-borderRadius: 0.25rem;
+  --Input-fontSize: 0.9rem;
+  --Input-color: rgba(0, 0, 0, 0.8);
 }
 
 @import '../Label/style.scss';
 .Input__Container {
-    position: relative;
-    .Input__Container__Conponent {
-        border-radius: var(--Input-borderRadius);
-        font-size: var(--Input-fontSize);
-        color: var(--Input-color);
-    }
-    .Input__Container__Icon {
-        position: absolute;
-        font-size: var(--Input-fontSize);
-        top: 30%;
-        color: var(--Input-color);
-    }
-    .Input__Container__Conponent--left {
-        padding-left: 30px;
-    }
-    .Input__Container__Conponent--right {
-        padding-right: 30px;
-    }
-    .Input__Container__Icon--left {
-        left: 10px;
-    }
-    .Input__Container__Icon--right {
-        right: 10px;
-    }
-    .form-control {
-        padding: .375rem 1.75rem;
-    }
+  position: relative;
+  .Input__Container__Conponent {
+    border-radius: var(--Input-borderRadius);
+    font-size: var(--Input-fontSize);
+    color: var(--Input-color);
+  }
+  .Input__Container__Icon {
+    position: absolute;
+    font-size: var(--Input-fontSize);
+    top: 30%;
+    color: var(--Input-color);
+  }
+  .Input__Container__Conponent--left {
+    padding-left: 30px;
+  }
+  .Input__Container__Conponent--right {
+    padding-right: 30px;
+  }
+  .Input__Container__Icon--left {
+    left: 10px;
+  }
+  .Input__Container__Icon--right {
+    right: 10px;
+  }
 }

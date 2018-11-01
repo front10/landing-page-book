@@ -12,7 +12,8 @@ export default {
       code: `<Backers
     backers={${JSON.stringify(backers, null, 8)}}
 />`,
-      tabsActive: ['code']
+      tabsActive: ['code'],
+      cssVariables: ['--Backers__Image-width', '--Backers__Image-height']
     }
   ]
 };

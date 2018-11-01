@@ -10,9 +10,7 @@ export default {
       code: `<GithubButton
     username="front10"
     repository="landing-page-book"
-    btnType="star"
-    btnText="stars"
-    btnRounded
+    btnRounded color="primary"
 />`,
       tabsActive: ['code']
     },
@@ -21,22 +19,14 @@ export default {
       summary: '',
       code: `<React.Fragment>
     <div className="mb-3">
-        <GithubButton username="front10" repository="landing-page-book" btnType="fork"btnText="Fork"/>
-    </div>
-    <div className="mb-3">
-        <GithubButton username="front10" repository="landing-page-book" btnType="follow" btnText="Follow"/>
-    </div>
-    <div className="mb-3">
-        <GithubButton username="front10" repository="landing-page-book" btnType="star" btnText="Stars"/>
-    </div>
-    <div className="mb-3">
-        <GithubButton username="front10" repository="landing-page-book" btnType="watch" btnText="Watch"/>
-    </div>
-    <div className="mb-3">
-        <GithubButton username="front10" repository="landing-page-book" btnType="issue" btnText="Issues"/>
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="fork" btnText="Fork" color="secondary"/>
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="follow" btnText="Follow" color="secondary"/>
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="star" btnText="Stars" color="secondary"/>
     </div>
     <div>
-        <GithubButton username="front10" repository="landing-page-book" btnType="download" btnText="Download" showCounter={false}/>
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="watch" btnText="Watch" color="secondary"/>
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="issue" btnText="Issues" color="secondary"/>
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="download" btnText="Download" showCounter={false} color="secondary"/>
     </div>
 </React.Fragment>`,
       tabsActive: []

@@ -18,13 +18,14 @@ class Team extends Component {
       imageBorder,
       shadow,
       topColor,
-      imageShadow
+      imageShadow,
+      columnClassName
     } = this.props;
     return (
       <div className="Team row">
         {members.map(member => (
           <div
-            className={`col-12 col-sm- col-md text-${contentAlign} mb-4 Team--${contentAlign}`}
+            className={`${columnClassName} text-${contentAlign} mb-4 Team--${contentAlign}`}
             key={`${member.name}${member.job}`}
           >
             <div className="Team__Color">
@@ -66,6 +67,7 @@ Team.propTypes = {
   imageShadow: PropTypes.bool,
   topColor: PropTypes.string,
   contentAlign: PropTypes.string,
+  columnClassName: PropTypes.string,
   members: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.string,
@@ -94,6 +96,7 @@ Team.defaultProps = {
   imageShadow: false,
   topColor: 'transparent',
   contentAlign: 'center',
+  columnClassName: 'col-12 col-sm- col-md',
   members: []
 };
 

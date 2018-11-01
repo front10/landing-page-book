@@ -13,6 +13,7 @@ class GithubButton extends React.Component {
     this.onChange = this.onChange.bind(this);
     this.getRepositoryStats = this.getRepositoryStats.bind(this);
     this.getUserFallowers = this.getUserFallowers.bind(this);
+    this.openUrl = this.openUrl.bind(this);
   }
 
   componentWillMount() {
@@ -159,29 +160,31 @@ class GithubButton extends React.Component {
       .catch(err => err);
   }
 
+  openUrl() {
+    const { linkUrl } = this.state;
+    if (typeof window !== 'undefined') window.open(linkUrl);
+  }
+
   render() {
-    const { linkUrl, showGithubIcon, iconClass, showBtnText, showCounter, counter } = this.state;
-    const { btnText, loadingClass, btnRounded, btnDisabled } = this.props;
-    let spechcls = 'speech-bubble';
-    if (btnRounded) spechcls = 'speech-bubble speech-bubble-rounded';
+    const { showGithubIcon, iconClass, showBtnText, showCounter, counter } = this.state;
+    const { btnText, loadingClass, rounded, disabled, color, className } = this.props;
     return (
-      <div className="GithubDetail_btn_container d-inline">
-        <Button rounded={btnRounded} circle={false} disabled={btnDisabled}>
+      <div className={`${className} GithubDetail_btn_container d-inline`}>
+        <Button rounded={rounded} circle={false} disabled={disabled} color={color}>
           <i className={showGithubIcon ? 'fa fa-github' : iconClass} aria-hidden="true" />{' '}
           {showBtnText && <span className="buttonText">{btnText}</span>}
         </Button>
 
         {showCounter && (
-          <span className={spechcls}>
-            {counter != null ? (
-              <a href={linkUrl} target="_blank" rel="noopener noreferrer">
-                {' '}
-                {counter}{' '}
-              </a>
-            ) : (
-              <Icon icon={loadingClass} />
-            )}
-          </span>
+          <Button
+            className="speech-bubble"
+            rounded={rounded}
+            disabled={disabled}
+            color={color}
+            onClick={this.openUrl}
+          >
+            {counter != null ? counter : <Icon icon={loadingClass} />}
+          </Button>
         )}
       </div>
     );
@@ -192,26 +195,30 @@ GithubButton.propTypes = {
   showCounter: PropTypes.bool,
   showBtnText: PropTypes.bool,
   showGithubIcon: PropTypes.bool,
-  btnRounded: PropTypes.bool,
-  btnDisabled: PropTypes.bool,
+  disabled: PropTypes.bool,
+  rounded: PropTypes.bool,
   loadingClass: PropTypes.string,
   username: PropTypes.string,
   repository: PropTypes.string,
   btnType: PropTypes.string,
-  btnText: PropTypes.string
+  btnText: PropTypes.string,
+  color: PropTypes.string,
+  className: PropTypes.string
 };
 
 GithubButton.defaultProps = {
   showCounter: true,
   showBtnText: true,
   showGithubIcon: false,
-  btnRounded: true,
-  btnDisabled: false,
+  disabled: false,
+  rounded: true,
   loadingClass: 'fa fa-circle-o-notch fa-spin',
   username: 'front10',
   repository: 'landing-page-book',
   btnType: 'fork',
-  btnText: 'Fork'
+  btnText: 'Fork',
+  color: 'light',
+  className: ''
 };
 
 export default GithubButton;

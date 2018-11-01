@@ -995,41 +995,9 @@ a span {
     width: 100%;
     height: auto; }
 
-:root {
-  --GithubDetail__countbubble-padding: 7px 10px 10px 5px;
-  --GithubDetail__countbubble-ml: 11px;
-  --GithubDetail__countbubble-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  --GithubDetail__buttonText-ml: 5px;
-  --GithubDetail__btn_container-padding: 5px;
-  --GithubDetail_btn-backgroundColor: #dcdcdc;
-  --GithubDetail_btn-Color: #000;
-  --GithubDetail_Btn-borderRadius: 0;
-  --GithubDetail_speech-rounded: 0.25rem;
-  --GithubDetail_Btn-padding: 0.3rem 0.75rem;
-  --GithubDetail_Btn-boxShadow: none;
-  --GithubDetail_Btn-boxShadow--hover: none;
-  --GithubDetail_Btn-backgroundColor--hover: #bbbbbb;
-  --GithubDetail_Btn-textTransform: none;
-  --GithubDetail_Btn-borderColor: transparent;
-  --GithubDetail_Btn-border: 1px solid;
-  --GithubDetail_Btn-fontSize: 1rem;
-  --GithubDetail_Btn-textShadow: none; }
-
 .speech-bubble {
   position: relative;
-  background: var(--GithubDetail_btn-backgroundColor);
-  border-radius: var(--GithubDetail_Btn-borderRadius);
-  padding: var(--GithubDetail__countbubble-padding);
-  margin-left: var(--GithubDetail__countbubble-ml);
-  border: var(--GithubDetail_Btn-border);
-  border-color: var(--GithubDetail_Btn-borderColor);
-  transition: var(--GithubDetail__countbubble-transition);
-  box-shadow: var(--GithubDetail_Btn-boxShadow); }
-  .speech-bubble a {
-    color: var(--GithubDetail_btn-Color); }
-
-.speech-bubble-rounded {
-  border-radius: var(--GithubDetail_speech-rounded); }
+  margin-left: 10px; }
 
 .speech-bubble:after {
   content: '';
@@ -1039,17 +1007,35 @@ a span {
   width: 0;
   height: 0;
   border: 7px solid transparent;
-  border-color: transparent var(--GithubDetail_btn-backgroundColor) transparent transparent;
+  border-color: transparent #f8f9fa transparent transparent;
   border-left: 0;
   margin-top: -7px;
   margin-left: -8px;
   z-index: 999; }
 
-.buttonText {
-  margin-left: var(--GithubDetail__buttonText-ml); }
+.speech-bubble.btn-primary:after {
+  border-color: transparent #007bff transparent transparent; }
 
-.GithubDetail_btn_container {
-  padding: var(--GithubDetail__btn_container-padding); }
+.speech-bubble.btn-secondary:after {
+  border-color: transparent #6c757d transparent transparent; }
+
+.speech-bubble.btn-success:after {
+  border-color: transparent #28a745 transparent transparent; }
+
+.speech-bubble.btn-info:after {
+  border-color: transparent #17a2b8 transparent transparent; }
+
+.speech-bubble.btn-warning:after {
+  border-color: transparent #ffc107 transparent transparent; }
+
+.speech-bubble.btn-danger:after {
+  border-color: transparent #dc3545 transparent transparent; }
+
+.speech-bubble.btn-light:after {
+  border-color: transparent #f8f9fa transparent transparent; }
+
+.speech-bubble.btn-dark:after {
+  border-color: transparent #343a40 transparent transparent; }
 
 :root {
   --Navbar-backgroundColor: #383d45;

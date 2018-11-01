@@ -1,13 +1,5 @@
 const features = [
   {
-    image: '/images/features/components.png',
-    title: '+40 Components',
-    subtitle: 'You can use many components',
-    summary:
-      'Hero, GitHub Buttons, Code, Backers, Donations, Navbar, etc. All of them well documented and tested.',
-    link: 'https://front10.com'
-  },
-  {
     image: '/images/features/speed.png',
     title: 'Easy & Fast',
     subtitle: 'Very easy and fast develop',

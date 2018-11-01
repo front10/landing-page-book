@@ -3,7 +3,17 @@ import PropTypes from 'prop-types';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
 
-import { Navbar, NavbarNav, Social, Footer, Copyright, Image, Row, Column } from '../components';
+import {
+  Navbar,
+  NavbarNav,
+  Social,
+  Footer,
+  Copyright,
+  Image,
+  Row,
+  Column,
+  Analytics
+} from '../components';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
@@ -47,6 +57,7 @@ class MainLayout extends React.Component {
           <link rel="shortcut icon" href={favicon} />
           <link rel="stylesheet" href="/theme.css" />
         </Helmet>
+        <Analytics idTracking="UA-44521541-9" />
         <Navbar
           brandLink="/"
           expand="md"

@@ -19,7 +19,6 @@ import 'codemirror/theme/oceanic-next.css';
 
 import AnimatedHero from './data/hero';
 import {
-  Analytics,
   Hero,
   Image,
   Header,
@@ -39,7 +38,6 @@ import {
 const IndexPage = () => (
   <React.Fragment>
     <Main>
-      <Analytics idTracking="UA-44521541-9" />
       <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
         <Container>
           <Image
@@ -96,7 +94,7 @@ const IndexPage = () => (
         <Container className="text-center">
           <Slider {...carousel}>
             {sliders.map(item => (
-              <div>
+              <div key={item.name}>
                 <Link href={item.link} target="_blank">
                   <Image src={item.image} alt="Navigation" width="50" />
                   <Header className="mt-3 component-link text-center" type="h6">

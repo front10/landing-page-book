@@ -56,7 +56,7 @@
   "scripts": {
     "build-static-pages": "node build-static-pages.js",
     "build": "rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby build && cp assets/themes/default/index.css public/theme.css",
-    "develop": "rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby develop",
+    "develop": "rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby develop & node scripts/copy-css-theme.js",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "start": "gulp compile-components-legacy & gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
     "build-storybook": "build-storybook -c .storybook -o public -s ./assets",

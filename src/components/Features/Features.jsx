@@ -19,7 +19,8 @@ class Features extends React.Component {
       shadow,
       imageShadow,
       outlineButton,
-      buttonColor
+      buttonColor,
+      columnClassName
     } = this.props;
 
     const featuresWithId = features.map(feature => {
@@ -33,7 +34,7 @@ class Features extends React.Component {
     return (
       <div className={`Features d-flex flex-wrap Features--${contentAlign}`}>
         {featuresWithId.map(feature => (
-          <div className={`col-12 col-sm-6 col-lg-3 text-${contentAlign} mb-4`} key={feature.id}>
+          <div className={`${columnClassName} text-${contentAlign} mb-4`} key={feature.id}>
             <Card
               showBorder={false}
               imageCircle={imageCircle}
@@ -73,6 +74,7 @@ Features.propTypes = {
   outlineButton: PropTypes.bool,
   buttonColor: PropTypes.string,
   contentAlign: PropTypes.string,
+  columnClassName: PropTypes.string,
   features: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -99,6 +101,7 @@ Features.defaultProps = {
   outlineButton: true,
   buttonColor: 'default',
   contentAlign: 'center',
+  columnClassName: 'col-12 col-sm- col-md',
   features: []
 };
 

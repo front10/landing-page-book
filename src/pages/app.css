@@ -250,3 +250,8 @@ a .Card:hover {
       padding-top: 2rem;
   }
 }
+
+/* GIf style */
+.Section .Gif .gif_player img {
+  width: auto !important;
+}

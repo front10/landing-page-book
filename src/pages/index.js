@@ -49,8 +49,10 @@ const IndexPage = () => (
             alt="Front10 logo"
             className="main-logo"
           />
-          <Header className="main-header">Landing Page Book</Header>
-          <Header className="main-subheader" type="h2">
+          <Header textAlign="center" className="main-header">
+            Landing Page Book
+          </Header>
+          <Header textAlign="center" className="main-subheader" type="h2">
             React components to build!
           </Header>
           <div className="mt-5">
@@ -72,7 +74,11 @@ const IndexPage = () => (
           <Gif autoplay image="/images/demo/code.gif" />
         </Container>
       </Section>
-      <Section subTitle="Landing page book is a scalable choice for developers" title="FEATURES">
+      <Section
+        alignHeader="center"
+        subTitle="Landing page book is a scalable choice for developers"
+        title="FEATURES"
+      >
         <Container>
           <Features features={features} imageCircle={false} showBorder={false} showSubtitle />
         </Container>
@@ -86,7 +92,7 @@ const IndexPage = () => (
           </Link>
         </Container>
       </Section>
-      <Section title="AT A GLANCE" subTitle="Some of the components" gray>
+      <Section alignHeader="center" title="AT A GLANCE" subTitle="Some of the components" gray>
         <Container className="text-center">
           <Slider {...carousel}>
             {sliders.map(item => (
@@ -111,7 +117,7 @@ const IndexPage = () => (
           </Link>
         </Container>
       </Section>
-      <Section subTitle="Don't try this at home ;)" title="AN EXAMPLE">
+      <Section alignHeader="center" subTitle="Don't try this at home ;)" title="AN EXAMPLE">
         <Container>
           <Row>
             <Column className="col col-md-12">
@@ -196,6 +202,7 @@ const IndexPage = () => (
         </Container>
       </Section>
       <Section
+        alignHeader="center"
         title="THEMING"
         subTitle=" Change the appearance of the components using standard CSS variables"
         gray
@@ -217,12 +224,12 @@ const IndexPage = () => (
           </Link>
         </Container>
       </Section>
-      <Section subTitle="Used tecnologies and frameworks" title="BUILD WITH">
+      <Section alignHeader="center" subTitle="Used tecnologies and frameworks" title="BUILD WITH">
         <Container className="text-center BuildWith">
           <BuiltWith gray companies={build} />
         </Container>
       </Section>
-      <Section subTitle="These are our members" title="TEAM" gray>
+      <Section alignHeader="center" subTitle="These are our members" title="TEAM" gray>
         <Container>
           <Team showBorder={false} members={team} socials={['linkedin', 'twitter']} />
         </Container>
@@ -236,7 +243,11 @@ const IndexPage = () => (
           </Link>
         </Container>
       </Section>
-      <Section subTitle="We are very happy to help ;)" title="FEEDBACK AND SUPPORT">
+      <Section
+        alignHeader="center"
+        subTitle="We are very happy to help ;)"
+        title="FEEDBACK AND SUPPORT"
+      >
         <Container className="text-center BuildWith">
           <Image
             src="/images/support/maintenance.svg"
@@ -259,7 +270,7 @@ const IndexPage = () => (
           </p>
         </Container>
       </Section>
-      <Section subTitle="Who donates us" title="BACKERS" gray>
+      <Section alignHeader="center" subTitle="Who donates us" title="BACKERS" gray>
         <Container className="text-center">
           <Backers backers={backers} imageBordered={false} />
         </Container>

@@ -1,252 +1,245 @@
 .main-navbar.navbar {
-  padding: 0.3rem 1rem;
-  color: black;
-  box-shadow: 0 0 1px rgba(67, 90, 111, 0.47), 0 2px 4px -2px rgba(67, 90, 111, 0.3);
-  background-color: #ffffff;
-  text-transform: uppercase;
-  font-size: 14px;
+    padding: 0.3rem 1rem;
+    color: black;
+    box-shadow: 0 0 1px rgba(67, 90, 111, 0.47), 0 2px 4px -2px rgba(67, 90, 111, 0.3);
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 .main-navbar.Navbar .NavbarBrand .Logo {
-  max-height: 35px;
+    max-height: 35px;
 }
 
 .main-navbar.Navbar .NavbarLink,
 .main-navbar.Navbar .Navbar__Toggler,
 .main-navbar.Navbar .NavbarBrand {
-  color: #818181 !important;
-  cursor: pointer;
+    color: #818181 !important;
+    cursor: pointer;
 }
 
 .main-navbar.navbar .github-link-icon {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .main-navbar.Navbar .NavbarLink:hover {
-  background-color: #f4f5f7;
-  color: #818181 !important;
+    background-color: #f4f5f7;
+    color: #818181 !important;
 }
 
 .main-navbar.NavbarBrand img {
-  border-radius: 23px;
+    border-radius: 23px;
 }
 
 .page {
-  margin-top: 55px;
+    margin-top: 55px;
 }
 
 a .Card.h-100 {
-  padding: 6px;
-  margin: 6px;
-  height: auto !important;
+    padding: 6px;
+    margin: 6px;
+    height: auto !important;
 }
 
 .Section a:hover {
-  text-decoration: none !important;
+    text-decoration: none !important;
 }
 
 a .Card:hover {
-  background-color: rgba(0, 0, 0, 0.08);
+    background-color: rgba(0, 0, 0, 0.08);
 }
 
 .Section .Section__Subtitle {
-  color: #525252;
+    color: #525252;
 }
 
 .nav-link {
-  padding-right: 0.5rem !important;
-  padding-left: 0.5rem !important;
+    padding-right: 0.5rem !important;
+    padding-left: 0.5rem !important;
 }
 
 .Wizard .footer-buttons {
-  margin-top: 20px;
-  padding-top: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
 }
 
 /* Home Page Style */
+
 .ReactCodeMirror .CodeMirror {
-  height: auto !important;
+    height: auto !important;
 }
 
 .ContactUs {
-  margin-left: auto;
-  max-width: 500px;
-  margin-right: auto;
-}
-
-.GithubDetail_btn {
-  border-radius: 5px;
-}
-
-.GithubDetail_btn_container .speech-bubble {
-  border-radius: 3px;
-  padding: 7px 10px 10px 5px;
+    margin-left: auto;
+    max-width: 500px;
+    margin-right: auto;
 }
 
 .BuildWith .ImageList .ImageList__Container img {
-  max-width: 200px;
-  width: 200px;
+    max-width: 200px;
+    width: 200px;
 }
 
 .Hero__SubHeader,
 .Hero__Header {
-  color: #fed136 !important;
+    color: #fed136 !important;
 }
 
 .Card__Summary {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .features img,
 .Team img {
-  height: 100px;
+    height: 100px;
 }
 
 .Gif .gif_player img {
-  width: auto;
+    width: auto;
 }
 
 .Video {
-  max-width: 800px;
+    max-width: 800px;
 }
 
 .component-link {
-  color: #2393d8;
+    color: #2393d8;
 }
 
 .component-link:hover {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .main-header {
-  font-size: 3rem;
-  font-weight: 700;
-  color: rgb(246, 204, 32);
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(246, 204, 32);
 }
 
 .main-subheader {
-  font-size: 1.8rem;
-  color: rgb(246, 204, 32);
+    font-size: 1.8rem;
+    color: rgb(246, 204, 32);
 }
 
 .gif-toolbar {
-  max-width: 570px;
-  margin-top: 6px;
+    max-width: 570px;
+    margin-top: 6px;
 }
 
 .btn-started {
-  background: #fed136;
-  border-color: #fed136;
-  color: #383e45;
-  border-radius: 5px;
-  margin-right: 0.3em;
+    background: #fed136;
+    border-color: #fed136;
+    color: #383e45;
+    border-radius: 5px;
+    margin-right: 0.3em;
 }
 
 .btn-started:hover {
-  background-color: #fec810 !important;
-  border-color: #fec810 !important;
-  color: #fff;
+    background-color: #fec810 !important;
+    border-color: #fec810 !important;
+    color: #fff;
 }
 
 .main-svg {
-  width: 300px;
-  position: absolute;
-  right: 0;
-  bottom: 0;
+    width: 300px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
 }
 
 #cow {
-  transform-origin: 50% 50%;
-  animation: progress-indef 15s linear infinite;
+    transform-origin: 50% 50%;
+    animation: progress-indef 15s linear infinite;
 }
 
 #bang {
-  opacity: 0;
-  animation-name: bounceIn;
-  animation-duration: 7s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
+    opacity: 0;
+    animation-name: bounceIn;
+    animation-duration: 7s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes progress-indef {
-  0% {
-      transform: rotate(360deg);
-  }
-  100% {
-      transform: rotate(0deg);
-  }
+    0% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
 }
 
 @keyframes bounceIn {
-  0% {
-      opacity: 0;
-  }
-  90% {
-      opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    90% {
+        opacity: 1;
+    }
 }
 
 @media (max-width: 965px) {
-  .main-svg {
-      display: none;
-  }
-  .main-header {
-      font-size: 2rem;
-  }
-  .main-subheader {
-      font-size: 1.2rem;
-  }
-  .gif-toolbar {
-      margin-top: 15px;
-  }
-  .BuildWith .ImageList .ImageList__Container img {
-      margin: 10px 0;
-      width: 100px;
-  }
-  .main-logo {
-      width: 100px;
-  }
+    .main-svg {
+        display: none;
+    }
+    .main-header {
+        font-size: 2rem;
+    }
+    .main-subheader {
+        font-size: 1.2rem;
+    }
+    .gif-toolbar {
+        margin-top: 15px;
+    }
+    .BuildWith .ImageList .ImageList__Container img {
+        margin: 10px 0;
+        width: 100px;
+    }
+    .main-logo {
+        width: 100px;
+    }
 }
 
 @media (max-width: 767px) {
-  .Footer .row .col {
-      flex-basis: auto;
-  }
+    .Footer .row .col {
+        flex-basis: auto;
+    }
 }
 
 .CodeMirror-scroll {
-  overflow: scroll !important;
-  overflow-y: hidden !important;
+    overflow: scroll !important;
+    overflow-y: hidden !important;
 }
 
 .code-secondary .ReactCodeMirror .CodeMirror {
-  height: 350px !important;
+    height: 350px !important;
 }
 
 .theme-code .ReactCodeMirror .CodeMirror {
-  height: 236px !important;
+    height: 236px !important;
 }
 
 .slick-slide img {
-  display: inline !important;
+    display: inline !important;
 }
 
 /* 404 style */
-.box-error .main-svg{
-  position: relative;
-  width: 100%;
+
+.box-error .main-svg {
+    position: relative;
+    width: 100%;
 }
 
-.text-404{
-  padding-top: 8rem;
+.text-404 {
+    padding-top: 8rem;
 }
 
 .main-svg {
-  display: block;
+    display: block;
 }
 
 @media (max-width: 991px) {
-  .text-404 {
-      padding-top: 2rem;
-  }
+    .text-404 {
+        padding-top: 2rem;
+    }
 }

@@ -17,6 +17,7 @@ import {
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
+import '../themes/default/index.css';
 import '../pages/app.css';
 
 import faviconApple from './favicons/apple-touch-icon.png';

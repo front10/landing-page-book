@@ -15,3 +15,7 @@
     margin-top: -5rem;
     color: rgba(0,0,0,0.04);
 }
+
+a .Card__Title.mb-2 {
+    text-transform: capitalize;
+}

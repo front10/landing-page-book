@@ -32,7 +32,7 @@ class GridComponent extends React.Component {
                 imageCircle={false}
                 imageBorder={false}
                 shadow={false}
-                title={component}
+                title={component.toUp}
                 image={`/images/components/${component.toLowerCase()}.svg`}
               />
             </Link>
@@ -97,7 +97,7 @@ class GridComponent extends React.Component {
             value={search}
             icon="fa fa-search"
             onChange={this.performanceSearch}
-            placeholder="Filter components"
+            placeholder="Search components and elements ..."
           />
           {search && filter.length !== 0 && filter[0].components.length === 0
             ? GridComponent.NotFound()

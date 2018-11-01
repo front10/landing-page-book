@@ -11,12 +11,12 @@ class Section extends Component {
           {(title || subTitle) && (
             <div className="mb-5 text-center">
               {title && (
-                <Header type="h2" className="Section__Title mb-2">
+                <Header textAlign="center" type="h2" className="Section__Title mb-2">
                   {title}
                 </Header>
               )}
               {subTitle && (
-                <Header type="h3" className="Section__Subtitle mb-2">
+                <Header textAlign="center" type="h3" className="Section__Subtitle mb-2">
                   {subTitle}
                 </Header>
               )}

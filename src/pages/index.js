@@ -36,7 +36,6 @@ import {
   Backers
 } from '../components';
 
-// eslint-disable react/no-unescaped-entities
 const IndexPage = () => (
   <React.Fragment>
     <Main>
@@ -117,7 +116,9 @@ const IndexPage = () => (
           <Row>
             <Column className="col col-md-12">
               <div className="text-center">
+                {/* eslint-disable react/no-unescaped-entities */}
                 <p>Let's import the HERO component</p>
+                {/* eslint-enable react/no-unescaped-entities */}
               </div>
               <Code
                 readOnly
@@ -147,7 +148,9 @@ const IndexPage = () => (
             </Column>
             <Column className="col col-md-6 mt-5">
               <div className="text-center">
+                {/* eslint-disable react/no-unescaped-entities */}
                 <p>It's that easy to have a beautiful Hero</p>
+                {/* eslint-enable react/no-unescaped-entities */}
               </div>
               <div className="mt-3">
                 <Hero

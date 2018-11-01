@@ -1,18 +1,1 @@
-<svg width="580" height="400" xmlns="http://www.w3.org/2000/svg">
- <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
- <g>
-  <title>background</title>
-  <rect fill="#fff" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-  </g>
- </g>
- <g>
-  <title>Layer 1</title>
-  <rect stroke="null" id="svg_3" height="60" width="579.999994" y="170" x="0.500008" stroke-width="1.5" fill="#333333"/>
-  <ellipse ry="22.5" rx="23" id="svg_4" cy="199.5" cx="30.5" stroke-opacity="null" stroke-width="1.5" stroke="null" fill="#b7b7b7"/>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_10" y="203" x="65.5" stroke-opacity="null" stroke-width="0" stroke="null" fill="#7c7c7c">Link</text>
-  <text xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="14" id="svg_11" y="203" x="104.5" stroke-opacity="null" stroke-width="0" stroke="null" fill="#7c7c7c">Link</text>
-  <rect rx="10" id="svg_13" height="34" width="203" y="182" x="366.5" stroke-opacity="null" stroke-width="1.5" stroke="null" fill="#b7b7b7"/>
- </g>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 476.13 99.53"><defs><style>.cls-1{fill:#f2f2f2;stroke:#bfbfbf;stroke-miterlimit:10;}.cls-2{fill:#848387;}.cls-3{fill:#ccc;}.cls-4{fill:#e0e0e0;}</style></defs><title>navbar</title><rect class="cls-1" x="0.5" y="0.5" width="475.13" height="98.53" rx="12.08" ry="12.08"/><circle class="cls-2" cx="52.06" cy="49.77" r="22.96"/><circle class="cls-3" cx="436.08" cy="49.77" r="16.23"/><rect class="cls-4" x="95.88" y="40.07" width="46.35" height="19.39" rx="6.86" ry="6.86"/><rect class="cls-4" x="158.19" y="40.07" width="46.35" height="19.39" rx="6.86" ry="6.86"/></svg>

@@ -114,7 +114,7 @@ class PropsManager extends React.Component {
                     : ''
                 }
               >
-                <LiveEditor style={null} />
+                <LiveEditor style={null} onChange={this.handleCodeChange} />
                 <LiveError />
               </div>
             )}

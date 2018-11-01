@@ -49,7 +49,6 @@ class MainLayout extends React.Component {
           <meta name="msapplication-TileImage" content={faviconMstile} />
           <meta name="theme-color" content="#ffffff" />
           <link rel="shortcut icon" href={favicon} />
-          <link rel="stylesheet" href="/theme.css" />
         </Helmet>
         <Navbar
           brandLink="/"

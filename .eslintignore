@@ -5,3 +5,5 @@
 /src/**/*.test.*
 /src/**/*.png
 /src/**/*.json
+/src/**/*.ico
+/src/**/*.svg

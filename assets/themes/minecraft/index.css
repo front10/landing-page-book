@@ -791,7 +791,8 @@ a span {
   font-weight: 400;
   background-color: var(--CodeMirror__Btn-background-color) !important;
   padding: var(--CodeMirror__Btn-padding) !important;
-  color: var(--CodeMirror__header_color) !important; }
+  color: var(--CodeMirror__header_color) !important;
+  border: none; }
 
 .ReactCodeMirror {
   font-size: var(--CodeMirror-fontSize); }
@@ -1048,7 +1049,7 @@ a span {
     font-size: var(--Hero__SubHeader--phone-fontSize) !important; } }
 
 :root {
-  --Input-borderRadius: .25rem;
+  --Input-borderRadius: 0.25rem;
   --Input-fontSize: 0.9rem;
   --Input-color: rgba(0, 0, 0, 0.8); }
 
@@ -1079,8 +1080,6 @@ a span {
     left: 10px; }
   .Input__Container .Input__Container__Icon--right {
     right: 10px; }
-  .Input__Container .form-control {
-    padding: .375rem 1.75rem; }
 
 :root {
   --Label-fontSize: 1rem;

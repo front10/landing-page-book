@@ -9,9 +9,10 @@
   background-color: #272822;
 }
 
-.playgroundHeader__icon{
+.playgroundHeader__icon {
   padding: 1px 3px 7px 10px;
 }
+
 .playgroundHeader__icon:hover {
   background-color: #141511;
   cursor: pointer;
@@ -45,30 +46,43 @@
   font-size: 12px;
 }
 
-.propType{
+.propType {
   background-color: #435a6f;
-    background-color: rgba(67,90,111,.2);
-    border-radius: 2px;
-    color: #1f4160;
-    font-weight: 500;
-    padding: 2px 4px;
+  background-color: rgba(67, 90, 111, 0.2);
+  border-radius: 2px;
+  color: #1f4160;
+  font-weight: 500;
+  padding: 2px 4px;
 }
 
-.propName{
+.propName {
   background-color: #14b5d0;
-  background-color: rgba(20,181,208,.114);
+  background-color: rgba(20, 181, 208, 0.114);
   border-radius: 2px;
   color: #056f8a;
-  font-family: SF Mono,Monaco,Inconsolata,Fira Mono,Droid Sans Mono,Source Code Pro,monospace;
+  font-family: SF Mono, Monaco, Inconsolata, Fira Mono, Droid Sans Mono, Source Code Pro, monospace;
   font-weight: 500;
   margin-right: 12px;
   padding: 2px 4px;
 }
 
-.table-bordered{
+.table-bordered {
   border: 2px solid #232426;
 }
 
 .table * {
   font-size: 12px;
+}
+
+.border-preview .column-align-left {
+  margin-right: auto;
+}
+
+.border-preview .column-align-right {
+  margin-left: auto;
+}
+
+.border-preview .column-align-center {
+  margin-left: auto;
+  margin-right: auto;
 }

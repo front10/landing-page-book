@@ -10,9 +10,24 @@ export default {
     languageCode="jsx"
     collapsible
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code=""
+    code="<button>Button</button>"
 />`,
-      tabsActive: ['code']
+      tabsActive: ['code'],
+      cssVariables: [
+        '--CodeMirror__header_with',
+        '--CodeMirror__header_height',
+        '--CodeMirror__header_backgroundColor',
+        '--CodeMirror__header_color',
+        '--CodeMirror__height',
+        '--CodeMirror__font_family',
+        '--CodeMirror__Btn-background-color',
+        '--CodeMirror__Btn-padding',
+        '--CodeMirror__Container-border',
+        '--CodeMirror-fontSize',
+        '--CodeMirror__Footer-backgroundColor',
+        '--CodeMirror__Footer-color',
+        '--CodeMirror-borderRadius'
+      ]
     },
     {
       name: 'Code Simple',
@@ -25,12 +40,27 @@ export default {
     showCopyButton={false}
     showDeleteButton={false}
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code=""
+    code="<button>Button</button>"
 />`,
-      tabsActive: ['code']
+      tabsActive: ['code'],
+      cssVariables: [
+        '--CodeMirror__header_with',
+        '--CodeMirror__header_height',
+        '--CodeMirror__header_backgroundColor',
+        '--CodeMirror__header_color',
+        '--CodeMirror__height',
+        '--CodeMirror__font_family',
+        '--CodeMirror__Btn-background-color',
+        '--CodeMirror__Btn-padding',
+        '--CodeMirror__Container-border',
+        '--CodeMirror-fontSize',
+        '--CodeMirror__Footer-backgroundColor',
+        '--CodeMirror__Footer-color',
+        '--CodeMirror-borderRadius'
+      ]
     },
     {
-      name: 'Code Simple',
+      name: 'Code css',
       summary: '',
       code: `<Code
     languageCode="css"
@@ -41,9 +71,24 @@ export default {
     showCopyButton
     showDeleteButton
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code=""
+    code=".my-css{color: red;}"
 />`,
-      tabsActive: ['code']
+      tabsActive: ['code'],
+      cssVariables: [
+        '--CodeMirror__header_with',
+        '--CodeMirror__header_height',
+        '--CodeMirror__header_backgroundColor',
+        '--CodeMirror__header_color',
+        '--CodeMirror__height',
+        '--CodeMirror__font_family',
+        '--CodeMirror__Btn-background-color',
+        '--CodeMirror__Btn-padding',
+        '--CodeMirror__Container-border',
+        '--CodeMirror-fontSize',
+        '--CodeMirror__Footer-backgroundColor',
+        '--CodeMirror__Footer-color',
+        '--CodeMirror-borderRadius'
+      ]
     }
   ]
 };

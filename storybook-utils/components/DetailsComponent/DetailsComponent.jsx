@@ -95,6 +95,8 @@ class DetailsComponent extends React.Component {
                     propsDescription={propsDescription}
                     active={story.tabsActive}
                     cssVariables={story.cssVariables}
+                    columnSize={story.columnSize}
+                    columnAlign={story.columnAlign}
                   >
                     {story.code}
                   </PropsManager>

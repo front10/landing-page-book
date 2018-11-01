@@ -33,7 +33,7 @@ class VariableManager extends React.Component {
         });
         code += '}';
         this.setState({ code });
-      }, 500);
+      }, 200);
     }
   }
 

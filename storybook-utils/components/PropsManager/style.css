@@ -94,3 +94,26 @@
   border-radius: 2px;
   margin-right: 12px;
 }
+
+/* CSS Temporaly */
+.token.tag{
+  color: #C85A62 !important;
+}
+
+.token.attr-name{
+  color: #C0AF27   !important;
+}
+
+.token.attr-value{
+  color: #00F891 !important;
+}
+
+.token.string{
+  color: #BA5D26;
+}
+
+.prism-code{
+  font-size: 16px;
+}
+
+/* END CSS Temporaly */

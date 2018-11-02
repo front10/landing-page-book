@@ -33,11 +33,11 @@ class MainLayout extends React.Component {
     const { children } = this.props;
     return (
       <React.Fragment>
-        <Helmet defaultTitle="Get Landing Page Book">
-          <meta property="og:title" content="Get Landing Page Book" />
+        <Helmet defaultTitle="Landing Page Book">
+          <meta property="og:title" content="Landing Page Book" />
           <meta
             property="og:image"
-            content="https://front10.com/get-landing-page-book/images/logo/facebook.png"
+            content="https://front10.com/landing-page-book/images/logo/facebook.png"
           />
           <meta
             property="og:description"
@@ -47,8 +47,8 @@ class MainLayout extends React.Component {
             name="description"
             content="Landing page book it’s an react components library with more than 40 components and elements. This library is based en react 16.2 and was wrote with ES6 and is compatible with Create React App, Gatsby and Next plataforms."
           />
-          <meta property="og:url" content="https://front10.com/get-landing-page-book/" />
-          <link rel="canonical" href="https://front10.com/get-landing-page-book/index.html" />
+          <meta property="og:url" content="https://front10.com/landing-page-book/" />
+          <link rel="canonical" href="https://front10.com/landing-page-book/index.html" />
           <link rel="apple-touch-icon" sizes="180x180" href={faviconApple} />
           <link rel="icon" type="image/png" sizes="32x32" href={favicon32} />
           <link rel="icon" type="image/png" sizes="16x16" href={favicon16} />

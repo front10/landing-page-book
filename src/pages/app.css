@@ -33,6 +33,7 @@
 
 .page {
     margin-top: 55px;
+    min-height: 83vh;
 }
 
 a .Card.h-100 {

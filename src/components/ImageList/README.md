@@ -5,9 +5,9 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| ccsClassName | `string` |  | `'px-2'` |
-| gray | `bool` |  | `false` |
-| imageBordered | `bool` |  | `false` |
-| imageRounded | `bool` |  | `false` |
-| imageWidth | `string` |  | `'100'` |
-| images | `arrayOf` |  | `[]` |
+| ccsClassName | `string` | CSS class name for custom styles | `'px-2'` |
+| gray | `bool` | Define if image is gray scale. Default `false` | `false` |
+| imageBordered | `bool` | Define if image is borded. Default `false` | `false` |
+| imageRounded | `bool` | Define if image is rounded. Default `false` | `false` |
+| imageWidth | `string` | Image width. Default `"100"` | `'100'` |
+| images | `arrayOf` | Images to show. Default `[]` | `[]` |

@@ -5,10 +5,10 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| children | `union` |  | `null` |
-| className | `string` |  | `''` |
-| disabled | `bool` |  | `false` |
-| href<font color="red">*</font> | `string` |  |  |
-| style | `union` |  | `null` |
-| target | `string` |  | `''` |
-| tooltip | `string` |  | `''` |
+| children | `union` | Elements to show inside of Links | `null` |
+| className | `string` | CSS Class to apply to button. Default `""` | `''` |
+| disabled | `bool` | Disable or enable button. Default `false` | `false` |
+| href<font color="red">*</font> | `string` | Link to open. Default `undefined`, this prop is required |  |
+| style | `union` | In case you wanted to pass custom styles `""` | `null` |
+| target | `string` | Target of link. Default `""` | `''` |
+| tooltip | `string` | Button tooltip. Default `""` | `''` |

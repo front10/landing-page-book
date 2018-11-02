@@ -5,8 +5,8 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| directLink | `bool` |  | `true` |
-| gray | `bool` |  | `false` |
-| rounded | `bool` |  | `true` |
-| type | `string` |  | `'email'` |
-| url | `string` |  | `''` |
+| directLink | `bool` | Indicates if it is redirected to a link within the social network or a floating window is displayed to share the link using the social network. Default `true` | `true` |
+| gray | `bool` | Define if image is gray scale. Default `false` | `false` |
+| rounded | `bool` | Show buttons rounded or square. Default `true` | `true` |
+| type | `string` | Type of button. Default `"email"`, possibles values are: `facebook`, `google`, `linkedin`, `twitter`, `telegram`, `whatsapp`, `pinterest`, `vk`, `ok`, `reddit`, `tumblr`, `livejournal`, `email`, `viber` | `'email'` |
+| url | `string` | Url to share. Default `""` | `''` |

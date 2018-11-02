@@ -5,6 +5,6 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| className | `string` |  | `''` |
-| text | `string` |  | `''` |
-| title | `string` |  | `''` |
+| className | `string` | Class name of the textBox container. Default `""` | `''` |
+| text | `string` | Text to show as content. Default `""` | `''` |
+| title | `string` | Text to show as title. Default `""` | `''` |

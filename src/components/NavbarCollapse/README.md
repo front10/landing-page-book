@@ -5,5 +5,5 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| children | `union` |  | `null` |
-| isOpen | `bool` |  | `true` |
+| children | `union` | Elements show into the NavbarCollapse | `null` |
+| isOpen | `bool` | Open or close component. Default `true` | `true` |

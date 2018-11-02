@@ -5,5 +5,5 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| children | `union` |  | `null` |
-| className | `string` |  | `''` |
+| children | `union` | Elements to show inside of Row | `null` |
+| className | `string` | Class name of the row. Default `""` | `''` |

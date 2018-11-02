@@ -5,10 +5,10 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| alignHeader | `string` |  | `'center'` |
-| children | `union` |  | `null` |
-| className | `string` |  | `''` |
-| contentClassName | `string` |  | `''` |
-| gray | `bool` |  | `false` |
-| subTitle | `string` |  | `''` |
-| title | `string` |  | `''` |
+| alignHeader | `string` | Define aligment of the component. Default `"center"`, can be `"right"` or `"left"` | `'center'` |
+| children | `union` | Elements to show inside of Section. | `null` |
+| className | `string` | Section css class. Default `""` | `''` |
+| contentClassName | `string` | Section content css class. Default `""` | `''` |
+| gray | `bool` | If section background color is gray. Default `false` | `false` |
+| subTitle | `string` | Section subtitle. Default `""` | `''` |
+| title | `string` | Section title. Default `""` | `''` |

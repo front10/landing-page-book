@@ -5,7 +5,7 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| className | `string` |  | `''` |
-| colon | `bool` |  | `false` |
-| htmlFor | `string` |  | `''` |
-| label | `string` |  | `''` |
+| className | `string` | CSS Class to apply to label. Default `""` | `''` |
+| colon | `bool` | Show or hide colon. Default `false` | `false` |
+| htmlFor | `string` | Id of input. Default `""` | `''` |
+| label | `string` | Text of label. Default `""` | `''` |

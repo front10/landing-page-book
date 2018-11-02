@@ -5,5 +5,5 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| alignItems | `string` |  | `'left'` |
-| children | `union` |  | `null` |
+| alignItems | `string` | Position of items. Default `"left"`, can be `left` or `right` | `'left'` |
+| children | `union` | Elements show into NavbarNav | `null` |

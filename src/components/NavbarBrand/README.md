@@ -5,6 +5,6 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| children | `union` |  | `null` |
-| className | `string` |  | `''` |
-| href | `string` |  | `'#'` |
+| children | `union` | Elements show into the NavbarBrand | `null` |
+| className | `string` | Class to apply to button. Default `""` | `''` |
+| href | `string` | Url to go when NavbarBrand is clicked. Default `""` | `'#'` |

@@ -5,7 +5,7 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| children | `union` |  | `null` |
-| href | `string` |  | `'#'` |
-| onClick | `func` |  | `() => {}` |
-| target | `string` |  | `''` |
+| children | `union` | Elements show into the NavbarLink | `null` |
+| href | `string` | Url to redirect on intem click. Default `"#"` | `'#'` |
+| onClick | `func` | Called when link is clicked | `() => {}` |
+| target | `string` | Link target. Default `""` | `''` |

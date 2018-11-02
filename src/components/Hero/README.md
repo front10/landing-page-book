@@ -5,21 +5,21 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| backgroundColor | `string` |  | `'transparent'` |
-| buttons | `arrayOf` |  | `[]` |
-| children | `union` |  | `null` |
-| header | `string` |  | `''` |
-| image | `string` |  | `''` |
-| imgFilter | `string` |  | `null` |
-| isCentered | `bool` |  | `true` |
-| isFixed | `bool` |  | `true` |
-| minHeight | `string` |  | `'100vh'` |
-| opacity | `number` |  | `0` |
-| overlayColor | `string` |  | `'#fff'` |
-| parallaxOffset | `number` |  | `0` |
-| particles | `bool` |  | `true` |
-| particlesParams | `objectOf` |  | `null` |
-| particlesSugar | `string` |  | `null` |
-| style | `string` |  | `null` |
-| subHeader | `string` |  | `''` |
-| subHeaderPosition | `string` |  | `'bottom'` |
+| backgroundColor | `string` | Background color of the hero. Default `"transparent"` | `'transparent'` |
+| buttons | `arrayOf` | Array with buttons to show in hero. Default `[]`, each element must be a object with this structure: `{text: "TELL ME MORE", onClick: ({button})=>{}}` | `[]` |
+| children | `union` | Elements to show inside of Hero. | `null` |
+| header | `string` | Header of the hero . Default `""` | `''` |
+| image | `string` | Url of background image. Default `""` | `''` |
+| imgFilter | `string` | The filter property defines visual effects (like blur and saturation) to an element (often <img>). | `null` |
+| isCentered | `bool` | Define if content is centered. Default `true` | `true` |
+| isFixed | `bool` | Define if background image is fixed. Default `true` | `true` |
+| minHeight | `string` | Min height of hero. Default `"100vh"` | `'100vh'` |
+| opacity | `number` | Opacity level. Default `0` | `0` |
+| overlayColor | `string` | Overlay color of the component . Default `#fff` | `'#fff'` |
+| parallaxOffset | `number` | Offset of background image. Default `0` | `0` |
+| particles | `bool` | Define if component show particles animations. Default `true` | `true` |
+| particlesParams | `objectOf` | Config params for particles animation. | `null` |
+| particlesSugar | `string` | Preconfigured params for particles, you can find this on particlesSugarMapping.js file. | `null` |
+| style | `string` | Customs styles to tramsform your Hero | `null` |
+| subHeader | `string` | Sub header of the hero . Default `""` | `''` |
+| subHeaderPosition | `string` | Position of hero sub header. Default `"bottom"`, can be `"top"` | `'bottom'` |

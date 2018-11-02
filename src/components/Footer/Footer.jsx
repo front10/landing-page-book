@@ -55,11 +55,29 @@ class Footer extends Component {
 }
 
 Footer.propTypes = {
+  /**
+   * Define if socials buttons are rounded. Default `true`
+   */
   socialRounded: PropTypes.bool,
+  /**
+   * Define if socials buttons are gray. Default `false`
+   */
   socialGray: PropTypes.bool,
+  /**
+   * Url to share in socials networks. Default `""`
+   */
   socialUrl: PropTypes.string,
+  /**
+   * Text of copyright. Default `""`
+   */
   copyright: PropTypes.string,
+  /**
+   * Array of string with values of socials networks to display. Default `[]`
+   */
   socials: PropTypes.arrayOf(PropTypes.string),
+  /**
+   * Sections to show . Default `[]`
+   */
   sections: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,

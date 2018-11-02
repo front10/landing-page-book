@@ -9,7 +9,13 @@ class FormGroup extends Component {
 }
 
 FormGroup.propTypes = {
+  /**
+   *  Class name of the row. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Elements to show as childrens
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 FormGroup.defaultProps = {

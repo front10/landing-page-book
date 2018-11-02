@@ -62,19 +62,61 @@ class Features extends React.Component {
 }
 
 Features.propTypes = {
+  /**
+   * Establishes shadow for each card. Default `false`
+   */
   shadow: PropTypes.bool,
+  /**
+   * Show or hide image. Default `true`
+   */
   showImage: PropTypes.bool,
+  /**
+   * Show or hide title. Default `true`
+   */
   showTitle: PropTypes.bool,
+  /**
+   * Show or hide subtitle. Default `true`
+   */
   showSubtitle: PropTypes.bool,
+  /**
+   * Show or hide summary. Default `true`
+   */
   showSummary: PropTypes.bool,
+  /**
+   * Establishes if image is circled. Default `true`
+   */
   imageCircle: PropTypes.bool,
+  /**
+   * Establishes if image is with border. Default `false`
+   */
   imageBorder: PropTypes.bool,
+  /**
+   * Establishes image with shadow. Default `false`
+   */
   imageShadow: PropTypes.bool,
+  /**
+   * Show or hide Card footer. Default `true`
+   */
   showFooter: PropTypes.bool,
+  /**
+   * Establishes if `See more` button is outline. Default `true`
+   */
   outlineButton: PropTypes.bool,
+  /**
+   * Button color, can by any of bootstrap colors. Default `default`
+   */
   buttonColor: PropTypes.string,
+  /**
+   * Align of a component content. Default `"center"`, can be `left` and `right` too
+   */
   contentAlign: PropTypes.string,
+  /**
+   * CSS class name for column, Default `col-12 col-sm- col-md`
+   */
   columnClassName: PropTypes.string,
+  /**
+   * Array of features to show. Default `[]`
+   */
   features: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),

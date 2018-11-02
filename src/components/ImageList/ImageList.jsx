@@ -39,11 +39,29 @@ class ImageList extends Component {
 }
 
 ImageList.propTypes = {
+  /**
+   * CSS class name for custom styles
+   */
   ccsClassName: PropTypes.string,
+  /**
+   * Define if image is gray scale. Default `false`
+   */
   gray: PropTypes.bool,
+  /**
+   * Define if image is rounded. Default `false`
+   */
   imageRounded: PropTypes.bool,
+  /**
+   * Define if image is borded. Default `false`
+   */
   imageBordered: PropTypes.bool,
+  /**
+   * Image width. Default `"100"`
+   */
   imageWidth: PropTypes.string,
+  /**
+   * Images to show. Default `[]`
+   */
   images: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.string

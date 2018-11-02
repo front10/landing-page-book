@@ -74,17 +74,53 @@ class Input extends Component {
 }
 
 Input.propTypes = {
+  /**
+   *  Show or hide `:` in label. Default `false`
+   */
   labelColon: PropTypes.bool,
+  /**
+   *  CSS Class to apply to input. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   *  Input type. Default `"text"`, can be `text`, `number`, `email` and `textarea`
+   */
   type: PropTypes.string,
+  /**
+   * Input id. Default `""`
+   */
   id: PropTypes.string,
+  /**
+   * Input name. Default `""`
+   */
   name: PropTypes.string,
+  /**
+   * Input value. Default `""`
+   */
   value: PropTypes.string,
+  /**
+   * Input placeholder. Default `""`
+   */
   placeholder: PropTypes.string,
+  /**
+   *  Icon to show with input. Default `""`
+   */
   icon: PropTypes.string,
+  /**
+   * Align of icon. Default `"left"`, can be `"left"` and `"right"`
+   */
   iconAlign: PropTypes.string,
+  /**
+   * Label to show on input top. Default `""`
+   */
   label: PropTypes.string,
+  /**
+   * Size of input, can be `lg` or `sm`. Default `""`
+   */
   size: PropTypes.string,
+  /**
+   * Called when input change. Params `{value}`
+   */
   onChange: PropTypes.func
 };
 Input.defaultProps = {

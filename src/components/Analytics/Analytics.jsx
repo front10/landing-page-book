@@ -43,8 +43,17 @@ Analytics.propTypes = {
    * Tracking ID code of your property in google analytics
    */
   idTracking: PropTypes.string.isRequired,
+  /**
+   * Path you want to track, for example '/section/page1'. Default route is obtained from the window object
+   */
   urlPath: PropTypes.string,
+  /**
+   * If set to true, will output additional feedback to the console. Default `false`.
+   */
   debug: PropTypes.bool,
+  /**
+   * Enable test mode in the component .Default `false`
+   */
   testMode: PropTypes.bool
 };
 Analytics.defaultProps = {

@@ -46,9 +46,21 @@ class Backers extends Component {
 }
 
 Backers.propTypes = {
+  /**
+   * If true the image will be rounded as a circle, default `true`
+   */
   imageRounded: PropTypes.bool,
+  /**
+   * If true the image will have a solid border, default `true`
+   */
   imageBordered: PropTypes.bool,
+  /**
+   * If true the image doesn't show colors, default `false`
+   */
   imageGray: PropTypes.bool,
+  /**
+   * List of backers, default will be empty `[]`.
+   */
   backers: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string,

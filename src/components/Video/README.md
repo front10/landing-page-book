@@ -1,59 +1,24 @@
-<a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/src/components/Video/README.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
-</a>
-
 # Video
+  [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+  
 
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-
-## Overview
-
-`@front10/landing-page-book/Video` is used to show a videos.
-
-## How to use
-
-1- Importing bootstrap style
-
-```js
-import 'bootstrap/dist/css/bootstrap.min.css';
-```
-
-2- Add following content to import the component:
-
-```js
-import Video from '@front10/landing-page-book/dist/components/Video';
-import '@front10/landing-page-book/dist/components/Video/style.css';
-```
-
-> Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
-
-3- Put this code into jsx page:
-
-```html
-<Video source="https://youtu.be/dCrLwWdju68" />
-```
-<a target="_blank" href="https://codesandbox.io/s/4lqxjk141x">
-  <img alt="Edit Vide demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
-</a>
-
-## Properties:
-
-| </br>Name  | </br>Type  | </br>Summary                                                                                                                              |
-| ---------- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| playing    | `Boolean`  | Set to true or false to pause or play the media. Default `false`                                                                          |
-| loop       | `Boolean`  | Set to true or false to loop the media. Default `false`                                                                                   |
-| controls   | `Boolean`  | Set to true or false to display native player controls. Vimeo, Twitch and Wistia player will always display controls. Default `false`     |
-| muted      | `Boolean`  | Mutes the player. Default `false`                                                                                                         |
-| volume     | `Number`   | Set the volume of the player, between 0 and 1. Default `1`                                                                                |
-| source     | `String`   | The url of a video or song to play. Default `""`                                                                                          |
-| width      | `String`   | Set the width of the player. Default `"640px"`                                                                                            |
-| height     | `String`   | Set the height of the player. Default `"360px"`                                                                                           |
-| onReady    | `Function` | Called when media is loaded and ready to play. If playing is set to true, media will play immediately                                     |
-| onStart    | `Function` | Called when media starts playing                                                                                                          |
-| onPlay     | `Function` | Called when media starts or resumes playing after pausing or buffering                                                                    |
-| onProgress | `Function` | Callback containing played and loaded progress as a fraction (`{ played: 0.12, playedSeconds: 11.3, loaded: 0.34, loadedSeconds: 16.7 }`) |
-| onDuration | `Function` | Callback containing duration of the media, in seconds                                                                                     |
-| onPause    | `Function` | Called when media is paused                                                                                                               |
-| onBuffer   | `Function` | Called when media starts buffering                                                                                                        |
-| onSeek     | `Function` | Called when media seeks with seconds parameter                                                                                            |
-| onEnded    | `Function` | Called when media finishes playing                                                                                                        |
-| onError    | `Function` | Called when an error occurs whilst attempting to play media                                                                               |
+  ## Properties
+  | </br>Name | </br>Type | </br>Summary | </br>Default | 
+| ---- | ---- | ---- | ---- |
+| className | `string` |  | `''` |
+| controls | `bool` |  | `true` |
+| loop | `bool` |  | `false` |
+| muted | `bool` |  | `false` |
+| onBuffer | `func` |  | `() => {}` |
+| onDuration | `func` |  | `() => {}` |
+| onEnded | `func` |  | `() => {}` |
+| onError | `func` |  | `() => {}` |
+| onPause | `func` |  | `() => {}` |
+| onPlay | `func` |  | `() => {}` |
+| onProgress | `func` |  | `() => {}` |
+| onReady | `func` |  | `() => {}` |
+| onSeek | `func` |  | `() => {}` |
+| onStart | `func` |  | `() => {}` |
+| playing | `bool` |  | `false` |
+| source | `string` |  | `''` |
+| volume | `number` |  | `1` |

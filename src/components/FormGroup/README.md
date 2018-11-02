@@ -5,5 +5,5 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| children | `union` |  | `null` |
-| className | `string` |  | `'form-group'` |
+| children | `union` | Elements to show as childrens | `null` |
+| className | `string` | Class name of the row. Default `""` | `'form-group'` |

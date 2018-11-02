@@ -5,7 +5,7 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| image | `string` |  | `'https://opencollective.com/webpack/donate/button@2x.png?color=blue'` |
-| imageAlt | `string` |  | `'Open collective logo'` |
-| imageWidth | `string` |  | `'300'` |
-| url<font color="red">*</font> | `string` |  |  |
+| image | `string` | Link image. Default `"https://opencollective.com/webpack/donate/button@2x.png?color=blue"` | `'https://opencollective.com/webpack/donate/button@2x.png?color=blue'` |
+| imageAlt | `string` | Image alt to accessibility. Default `"Open collective logo"` | `'Open collective logo'` |
+| imageWidth | `string` | Image width. Default `"300"` | `'300'` |
+| url<font color="red">*</font> | `string` | Url of the project to donate. Default `undefined`, this prop is `required` |  |

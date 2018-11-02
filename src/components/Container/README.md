@@ -5,6 +5,6 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| children | `union` |  | `null` |
-| className | `string` |  | `''` |
-| fluid | `bool` |  | `false` |
+| children | `union` | Childrens | `null` |
+| className | `string` | Class of the component. Default `""` | `''` |
+| fluid | `bool` | A fluid container is shown. Default `false` | `false` |

@@ -106,13 +106,37 @@ class Navbar extends Component {
 }
 
 Navbar.propTypes = {
+  /**
+   * Define if component is transparent. Default `false`
+   */
   transparent: PropTypes.bool,
+  /**
+   * Define if component is fixed. Default `false`
+   */
   fixed: PropTypes.bool,
+  /**
+   * Brand name of component. Default `""`
+   */
   brandName: PropTypes.string,
+  /**
+   * Link to go when brand name or logo has clicked. Default `""`
+   */
   brandLink: PropTypes.string,
+  /**
+   * Image logo url. Default `""`
+   */
   brandLogo: PropTypes.string,
+  /**
+   * Class to apply. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Resolution to expand Navbar. Default `""`
+   */
   expand: PropTypes.string,
+  /**
+   * Array of items to show in nav-bar left side. Default `[]`
+   */
   leftItems: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
@@ -121,6 +145,9 @@ Navbar.propTypes = {
       icon: PropTypes.string
     })
   ),
+  /**
+   * Array of items to show in nav-bar right side. Default `[]`, see example section
+   */
   rightItems: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
@@ -129,7 +156,13 @@ Navbar.propTypes = {
       icon: PropTypes.string
     })
   ),
+  /**
+   * Elements show into the Navbar
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   * Called when item has clecked. See example section
+   */
   onItemClick: PropTypes.func
 };
 Navbar.defaultProps = {

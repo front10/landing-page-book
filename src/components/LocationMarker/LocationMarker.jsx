@@ -10,9 +10,21 @@ class LocationMarker extends Component {
 }
 
 LocationMarker.propTypes = {
+  /**
+   * Marker latitude. Default `undefined`, this field is required
+   */
   lat: PropTypes.number.isRequired,
+  /**
+   * Marker longitude. Default `undefined`, this field is required
+   */
   lng: PropTypes.number.isRequired,
+  /**
+   * Icon to show in the marker. Default `"fa fa-map-marker"`
+   */
   icon: PropTypes.string,
+  /**
+   * Marker color. Default `"#d43131"`
+   */
   color: PropTypes.string
 };
 LocationMarker.defaultProps = {

@@ -15,8 +15,17 @@ class Sponsors extends React.Component {
 }
 
 Sponsors.propTypes = {
+  /**
+   * Class name applied of the container. Default `"px-2"`
+   */
   ccsClassName: PropTypes.string,
+  /**
+   * Define if image is gray scale. Default `false`
+   */
   gray: PropTypes.bool,
+  /**
+   * Companies to show. Default `[]`, see example section
+   */
   sponsors: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.string

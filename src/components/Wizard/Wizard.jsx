@@ -69,26 +69,74 @@ class Wizard extends Component {
 }
 
 Wizard.propTypes = {
+  /**
+   * Show or hide the header with steps. Default `true`
+   */
   showHeader: PropTypes.bool,
+  /**
+   * Show or hide the header bottom border. Default `true`
+   */
   showHeaderBorder: PropTypes.bool,
+  /**
+   * Hide or show Next and Previous Buttons at the bottom. Default `true`
+   */
   showNavigation: PropTypes.bool,
+  /**
+   * Show or hide the previous button in the last step (maybe the last step is a thank you message and you don't want them to go back). Default `true`
+   */
   prevBtnOnLastStep: PropTypes.bool,
+  /**
+   * Dev control to disable validation rules called in step components. Default `true`
+   */
   dontValidate: PropTypes.bool,
+  /**
+   * By default if you hit the Enter key on any element it validates the form and moves to next step if validation passes. Use this to prevent this behaviour. Default `true`
+   */
   preventEnterSubmission: PropTypes.bool,
+  /**
+   * Specify what step to start from in the case you need to skip steps (send in a 0 based index for the item in the steps array. e.g. 2 will load <Step3 /> initially). Default `0`
+   */
   startAtStep: PropTypes.number,
+  /**
+   * Specify the next button text. Default `"Next"`
+   */
   nextButtonText: PropTypes.string,
+  /**
+   * Specify the back button text. Default `"Back"`
+   */
   backButtonText: PropTypes.string,
+  /**
+   * Specify the next button class. Default `"btn btn-primary pull-right"`
+   */
   nextButtonCls: PropTypes.string,
+  /**
+   * Specify the back button class. Default `"btn btn-primary pull-left"`
+   */
   backButtonCls: PropTypes.string,
+  /**
+   * Specify what the next button text should be in the step before the last. Default `"Next"`
+   */
   nextTextOnFinalActionStep: PropTypes.string,
+  /**
+   * Specify the align of wizard components. Default `"left"`, can be `left`, `right` and `center`
+   */
   contentAlign: PropTypes.string,
+  /**
+   * Its recommended that you use basic javascript validation. Default `[]`
+   */
   hocValidationAppliedTo: PropTypes.arrayOf(PropTypes.number),
+  /**
+   * List of steps. Default `undefuned`, this prop is `required`, see example section
+   */
   steps: PropTypes.arrayOf(
     PropTypes.shape({
       name: PropTypes.string.isRequired,
       component: PropTypes.element.isRequired
     })
   ).isRequired,
+  /**
+   * Called when `Back` or `Next` button is clicked.
+   */
   onStepChange: PropTypes.func
 };
 Wizard.defaultProps = {
@@ -106,7 +154,7 @@ Wizard.defaultProps = {
   nextTextOnFinalActionStep: 'Next',
   contentAlign: 'left',
   hocValidationAppliedTo: [],
-  onStepChange: () => {}
+  onStepChange: () => { }
 };
 
 export default Wizard;

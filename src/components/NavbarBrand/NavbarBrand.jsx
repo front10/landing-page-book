@@ -13,8 +13,17 @@ class NavbarBrand extends Component {
 }
 
 NavbarBrand.propTypes = {
+  /**
+   * Class to apply to button. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Url to go when NavbarBrand is clicked. Default `""`
+   */
   href: PropTypes.string,
+  /**
+   * Elements show into the NavbarBrand
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 NavbarBrand.defaultProps = {

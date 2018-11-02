@@ -78,10 +78,25 @@ class Social extends Component {
 }
 
 Social.propTypes = {
+  /**
+   * Define if image is gray scale. Default `false`
+   */
   gray: PropTypes.bool,
+  /**
+   * Show buttons rounded or square. Default `true`
+   */
   rounded: PropTypes.bool,
+  /**
+   * Type of button. Default `"email"`, possibles values are: `facebook`, `google`, `linkedin`, `twitter`, `telegram`, `whatsapp`, `pinterest`, `vk`, `ok`, `reddit`, `tumblr`, `livejournal`, `email`, `viber`
+   */
   type: PropTypes.string,
+  /**
+   * Url to share. Default `""`
+   */
   url: PropTypes.string,
+  /**
+   * Indicates if it is redirected to a link within the social network or a floating window is displayed to share the link using the social network. Default `true`
+   */
   directLink: PropTypes.bool
 };
 Social.defaultProps = {

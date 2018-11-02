@@ -55,19 +55,61 @@ class Team extends Component {
 }
 
 Team.propTypes = {
+  /**
+   * Show or hide card border. Default `true`
+   */
   showBorder: PropTypes.bool,
+  /**
+   * Show or hide image. Default `true`
+   */
   showImage: PropTypes.bool,
+  /**
+   * Show or hide name. Default `true`
+   */
   showName: PropTypes.bool,
+  /**
+   * Show or hide job. Default `true`
+   */
   showJob: PropTypes.bool,
+  /**
+   * Show or hide summary. Default `true`
+   */
   showSummary: PropTypes.bool,
+  /**
+   * Establishes if image is circled. Default `true`
+   */
   imageCircle: PropTypes.bool,
+  /**
+   * Establishes if image is with border. Default `false`
+   */
   imageBorder: PropTypes.bool,
+  /**
+   * Establishes if social icon is gray scale. Default `false`
+   */
   socialGray: PropTypes.bool,
+  /**
+   * Establishes a shadow in each card. Default `false`
+   */
   shadow: PropTypes.bool,
+  /**
+   * Establishes a shadow in user picture in each card. Default `false`
+   */
   imageShadow: PropTypes.bool,
+  /**
+   * Color of each card. Default `transparent`
+   */
   topColor: PropTypes.string,
+  /**
+   * Align of a component content. Default `"center"`, can be `left` and `right` too
+   */
   contentAlign: PropTypes.string,
+  /**
+   * Class name of apply to the colums. Default `"col-12 col-sm- col-md"`
+   */
   columnClassName: PropTypes.string,
+  /**
+   * Array of members to show. Default `[]`, see example section.
+   */
   members: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.string,

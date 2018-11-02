@@ -27,13 +27,37 @@ class Paragraphs extends Component {
 }
 
 Paragraphs.propTypes = {
+  /**
+   * Text of the paragraphs,  this prop is required.
+   */
   text: PropTypes.string.isRequired,
+  /**
+   * Paragraph alignment. Default  `justify`, can be `left`, `center` and `right`
+   */
   textAlign: PropTypes.oneOf(['center', 'right', 'left', 'justify']),
+  /**
+   * Paragraph text transform. Default `""` , can be `lowercase`, `uppercase`, `capitalize`
+   */
   textTransform: PropTypes.oneOf(['lowercase', 'uppercase', 'capitalize', '']),
+  /**
+   * Truncate the paragraph. Default `false`
+   */
   textTruncate: PropTypes.bool,
+  /**
+   * Show content using mono spaced text. Default `false`
+   */
   textMonoSpace: PropTypes.bool,
+  /**
+   * Show content using an italic font. Default `false`
+   */
   fontItalic: PropTypes.bool,
+  /**
+   * Weight of the font. Default `normal`, can be `bold`, `normal`, `light`
+   */
   fontWeight: PropTypes.oneOf(['bold', 'normal', 'light']),
+  /**
+   * Color of the paragraphs. Default `body`, can be `primary`, `secondary`,`success`, `danger`,`warning`,`info`, `light`, `dark`, `body`
+   */
   color: PropTypes.oneOf([
     'primary',
     'secondary',

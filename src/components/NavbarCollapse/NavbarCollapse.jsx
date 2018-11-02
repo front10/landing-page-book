@@ -9,7 +9,13 @@ class NavbarCollapse extends Component {
 }
 
 NavbarCollapse.propTypes = {
+  /**
+   * Open or close component. Default `true`
+   */
   isOpen: PropTypes.bool,
+  /**
+   * Elements show into the NavbarCollapse
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 NavbarCollapse.defaultProps = {

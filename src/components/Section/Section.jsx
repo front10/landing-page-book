@@ -38,12 +38,33 @@ class Section extends Component {
 }
 
 Section.propTypes = {
+  /**
+   * If section background color is gray. Default `false`
+   */
   gray: PropTypes.bool,
+  /**
+   * Section title. Default `""`
+   */
   title: PropTypes.string,
+  /**
+   * Section subtitle. Default `""`
+   */
   subTitle: PropTypes.string,
+  /**
+   * Section css class. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   *  Define aligment of the component. Default `"center"`, can be `"right"` or `"left"`
+   */
   alignHeader: PropTypes.string,
+  /**
+   * Section content css class. Default `""`
+   */
   contentClassName: PropTypes.string,
+  /**
+   * Elements to show inside of Section.
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Section.defaultProps = {

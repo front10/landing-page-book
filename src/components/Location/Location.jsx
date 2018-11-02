@@ -25,11 +25,29 @@ class Location extends Component {
 }
 
 Location.propTypes = {
+  /**
+   * Latitude to initial center map. Default `0`
+   */
   lat: PropTypes.number,
+  /**
+   * Longitude to initial center map. Default `0`
+   */
   lng: PropTypes.number,
+  /**
+   * Zoom level of map. Default `1`
+   */
   zoom: PropTypes.number,
+  /**
+   * Key of google maps project. Default `""`
+   */
   apiKey: PropTypes.string,
+  /**
+   * Language of map. Default `"en"`
+   */
   language: PropTypes.string,
+  /**
+   * Markers to shoe in the map. Default `[]`, see example section
+   */
   markers: PropTypes.arrayOf(
     PropTypes.shape({
       icon: PropTypes.string,

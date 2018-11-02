@@ -86,3 +86,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.text-required{
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.114);
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin-right: 12px;
+}

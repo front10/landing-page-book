@@ -3,6 +3,7 @@ import 'babel-polyfill';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
+import ReactHtmlParser from 'react-html-parser';
 import VariableManager from '../VariableManager';
 import Icon from '../../../src/components/Icon';
 import Button from '../../../src/components/Button';
@@ -153,7 +154,11 @@ class PropsManager extends React.Component {
                         </td>
                         <td>{propsDescription[prop].description}</td>
                         <td>
-                          <code>{propsDescription[prop].defaultValue.value}</code>
+                          <code>
+                            {propsDescription[prop].defaultValue
+                              ? propsDescription[prop].defaultValue.value
+                              : ReactHtmlParser('<span class="text-required">* required </span>')}
+                          </code>
                         </td>
                       </tr>
                     ))}

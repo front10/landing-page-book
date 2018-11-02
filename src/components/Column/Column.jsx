@@ -9,7 +9,13 @@ class Column extends Component {
 }
 
 Column.propTypes = {
+  /**
+   * Class name of the column. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Array of element to show inside the column
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Column.defaultProps = {

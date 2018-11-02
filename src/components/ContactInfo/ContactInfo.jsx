@@ -83,17 +83,53 @@ class ContactInfo extends Component {
 }
 
 ContactInfo.propTypes = {
+  /**
+   * Show or hide card border. Default `true`
+   */
   showBorder: PropTypes.bool,
+  /**
+   * Show or hide icons in the information. Default `true`
+   */
   showIcons: PropTypes.bool,
+  /**
+   * Marker longitude. Default `0`
+   */
   lng: PropTypes.number,
+  /**
+   * Marker latitude. Default `0`
+   */
   lat: PropTypes.number,
+  /**
+   * Key of the map. Default `""`
+   */
   locationApiKey: PropTypes.string,
+  /**
+   *  Address info. Default `""`
+   */
   address: PropTypes.string,
+  /**
+   * Email contact info. Default `""`
+   */
   email: PropTypes.string,
+  /**
+   * Phone contact info. Default `""`
+   */
   phone: PropTypes.string,
+  /**
+   * Mobile contact info. Default `""`
+   */
   mobile: PropTypes.string,
+  /**
+   * Fax contact info. Default `""`
+   */
   fax: PropTypes.string,
+  /**
+   * Web contact info. Default `""`
+   */
   website: PropTypes.string,
+  /**
+   * Card content align. Default `"left"`, can be `left`, `center` and `right`
+   */
   contentAlign: PropTypes.string
 };
 ContactInfo.defaultProps = {

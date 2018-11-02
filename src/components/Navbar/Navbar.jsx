@@ -62,7 +62,7 @@ class Navbar extends Component {
 
     let navClassName = `${className} navbar ${
       expand ? `navbar-expand-${expand}` : `navbar-expand`
-      } Navbar`;
+    } Navbar`;
     if (transparent) navClassName += ` Navbar--transparent`;
     if (fixed) navClassName += ` fixed-top`;
     const { isTop } = this.state;
@@ -176,7 +176,7 @@ Navbar.defaultProps = {
   leftItems: [],
   rightItems: [],
   children: null,
-  onItemClick: () => { }
+  onItemClick: () => {}
 };
 
 export default Navbar;

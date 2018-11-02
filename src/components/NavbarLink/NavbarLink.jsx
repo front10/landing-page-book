@@ -35,7 +35,7 @@ NavbarLink.propTypes = {
 NavbarLink.defaultProps = {
   href: '#',
   target: '',
-  onClick: () => { },
+  onClick: () => {},
   children: null
 };
 

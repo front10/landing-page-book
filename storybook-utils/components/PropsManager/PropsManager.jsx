@@ -62,7 +62,7 @@ class PropsManager extends React.Component {
         <span className="playgroundHeader__icon">
           <CopyToClipboard text={textCode} onCopy={this.copyToClipboard}>
             <span className="font-weight-light fs-10 text-uppercase" onClick={this.copyToClipboard}>
-              {scopied ? 'Copied' : 'Copy Code'}
+              <span className="hidde">{scopied ? 'Copied' : 'Copy Code'}</span>
               <Icon
                 title="Copy code"
                 icon="fa fa-clone"
@@ -84,8 +84,10 @@ class PropsManager extends React.Component {
             className="font-weight-light fs-10 text-uppercase"
             onClick={() => this.handleActive(tab.key)}
           >
-            {active.indexOf(tab.key) !== -1 ? 'HIDE' : tab.key === 'props' ? '' : 'EDIT'}{' '}
-            {tab.title}
+            <span className="hidde">
+              {active.indexOf(tab.key) !== -1 ? 'HIDE' : tab.key === 'props' ? '' : 'EDIT'}{' '}
+              {tab.title}
+            </span>
             <Icon
               key={tab.key}
               title={tab.title}

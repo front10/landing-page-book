@@ -10,12 +10,27 @@
 }
 
 .playgroundHeader__icon {
-  padding: 1px 3px 7px 10px;
+  padding: 1px 3px 7px 0px;
+}
+
+.hidde{
+  display: none;
 }
 
 .playgroundHeader__icon:hover {
   background-color: #141511;
   cursor: pointer;
+  padding-left: 10px;
+}
+
+.font-weight-light.fs-10.text-uppercase:hover > span.hidde{
+  display: inline;
+  animation: showNav 0.7s ease-in-out both;
+}
+
+@keyframes showNav {
+  from {opacity: 0;}
+  to {opacity: 1;}
 }
 
 .playgroundVariables .CodeMirror__Container {
@@ -86,3 +101,34 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.text-required{
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.114);
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin-right: 12px;
+}
+
+/* CSS Temporaly */
+.token.tag{
+  color: #C85A62 !important;
+}
+
+.token.attr-name{
+  color: #C0AF27   !important;
+}
+
+.token.attr-value{
+  color: #00F891 !important;
+}
+
+.token.string{
+  color: #BA5D26;
+}
+
+.prism-code{
+  font-size: 16px;
+}
+
+/* END CSS Temporaly */

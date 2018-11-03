@@ -67,14 +67,41 @@ class Image extends Component {
 }
 
 Image.propTypes = {
+  /**
+   * Show or hide image borders. Default `false`
+   */
   border: PropTypes.bool,
+  /**
+   * Show circled image. Default `false`
+   */
   rounded: PropTypes.bool,
+  /**
+   * Define if image is show with shadow. Default `false`
+   */
   shadow: PropTypes.bool,
+  /**
+   * CSS class to apply to image. Default `"img-fluid"`
+   */
   className: PropTypes.string,
+  /**
+   * Image width. Default `undefined`
+   */
   width: PropTypes.string,
+  /**
+   * Image tooltip. Default `""`
+   */
   tooltip: PropTypes.string,
+  /**
+   * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
+   */
   imgFilter: PropTypes.string,
+  /**
+   *  Image alt. Default `undefined`, this field is required
+   */
   alt: PropTypes.string.isRequired,
+  /**
+   *  Image source. Default `undefined`, this field is required
+   */
   src: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired
 };
 Image.defaultProps = {

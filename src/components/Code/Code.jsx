@@ -199,18 +199,57 @@ class Code extends React.Component {
 }
 
 Code.propTypes = {
+  /**
+   * No allow to change the code, Default `false`
+   */
   readOnly: PropTypes.bool,
+  /**
+   * Define if component is collapsible, Default `false`
+   */
   collapsible: PropTypes.bool,
+  /**
+   * Define if component is collapsed, Default `false`
+   */
   collapsed: PropTypes.bool,
+  /**
+   * Shows line numbers, Default `true`
+   */
   lineNumbers: PropTypes.bool,
+  /**
+   * Shows header bar, Default `true`
+   */
   showheader: PropTypes.bool,
+  /**
+   * Show or hide delete button, Default `true`
+   */
   showDeleteButton: PropTypes.bool,
+  /**
+   * Show or hide copy button, Default `true`
+   */
   showCopyButton: PropTypes.bool,
+  /**
+   * Code to show on component, Default `Js code example`
+   */
   code: PropTypes.string.isRequired,
+  /**
+   * language in which the code is written to embellish the syntax, Default `javascript`
+   */
   languageCode: PropTypes.string,
+  /**
+   * Theme of code, Default `"idea"`
+   */
   theme: PropTypes.string,
+  /**
+   * Link to code, ex: CodeSandbox, CodePen. Default `""`
+   */
   codeLink: PropTypes.string,
+  /**
+   * Function to handle the change made in the code.
+   */
   updateCode: PropTypes.func,
+  /**
+   * Array of element to show inside Code
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 

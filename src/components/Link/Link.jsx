@@ -22,12 +22,33 @@ class Link extends Component {
 }
 
 Link.propTypes = {
+  /**
+   * Disable or enable button. Default `false`
+   */
   disabled: PropTypes.bool,
+  /**
+   * CSS Class to apply to button. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Button tooltip. Default `""`
+   */
   tooltip: PropTypes.string,
+  /**
+   * Link to open. Default `undefined`, this prop is required
+   */
   href: PropTypes.string.isRequired,
+  /**
+   * Target of link. Default `""`
+   */
   target: PropTypes.string,
+  /**
+   * Elements to show inside of Links
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   * In case you wanted to pass custom styles `""`
+   */
   style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Link.defaultProps = {

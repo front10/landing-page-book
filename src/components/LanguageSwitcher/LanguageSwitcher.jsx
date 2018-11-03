@@ -61,15 +61,45 @@ class LanguageSwitcher extends Component {
 }
 
 LanguageSwitcher.propTypes = {
+  /**
+   * Show or hide the label of selected language. Default `true`
+   */
   showLabel: PropTypes.bool,
+  /**
+   * Disable or enable the component. Default `false`
+   */
   disabled: PropTypes.bool,
+  /**
+   * Show or hide labels in option list. Default `true`
+   */
   showOptionLabel: PropTypes.bool,
+  /**
+   * Show or hide flags. Default `true`
+   */
   showFlag: PropTypes.bool,
+  /**
+   * Show or hide arrow expand. Default `true`
+   */
   showArrow: PropTypes.bool,
+  /**
+   * Selected language. Default `""`
+   */
   selectedLanguage: PropTypes.string,
+  /**
+   *  Placeholder to show when not selected language. Default `"Language"`
+   */
   placeholder: PropTypes.string,
+  /**
+   * Array of languages to show, an array with countries codes. Default `"[]"`, see example section. The complete list of countries can be found https://github.com/ekwonye-richard/react-flags-select/blob/master/src/countries.js
+   */
   languages: PropTypes.arrayOf(PropTypes.string),
+  /**
+   * Configure label of languages. Default `"{}"`
+   */
   customLabels: PropTypes.objectOf(PropTypes.any),
+  /**
+   * Called when language selection change. Params `{language}`
+   */
   onSelect: PropTypes.func
 };
 LanguageSwitcher.defaultProps = {

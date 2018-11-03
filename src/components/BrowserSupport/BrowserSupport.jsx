@@ -24,14 +24,26 @@ class BrowserSupport extends Component {
 }
 
 BrowserSupport.propTypes = {
+  /**
+   * Define if the browser name is displayed. Default `true`
+   */
   showBrowserVendor: PropTypes.bool,
+  /**
+   * Define if the browser version is displayed. Default `true`
+   */
   showBrowserVersion: PropTypes.bool,
+  /**
+   * Array of browsers. Default `[]`
+   */
   browsers: PropTypes.arrayOf(
     PropTypes.shape({
       vendor: PropTypes.string,
       version: PropTypes.string
     })
   ),
+  /**
+   * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
+   */
   imgFilter: PropTypes.string
 };
 BrowserSupport.defaultProps = {

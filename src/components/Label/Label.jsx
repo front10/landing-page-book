@@ -14,9 +14,21 @@ class Label extends Component {
 }
 
 Label.propTypes = {
+  /**
+   * Show or hide colon. Default `false`
+   */
   colon: PropTypes.bool,
+  /**
+   * Text of label. Default `""`
+   */
   label: PropTypes.string,
+  /**
+   * CSS Class to apply to label. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Id of input. Default `""`
+   */
   htmlFor: PropTypes.string
 };
 Label.defaultProps = {

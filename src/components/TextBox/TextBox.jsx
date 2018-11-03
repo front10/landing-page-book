@@ -9,8 +9,17 @@ const TextBox = ({ className, title, text }) => (
 );
 
 TextBox.propTypes = {
+  /**
+   * Class name of the textBox container. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Text to show as title. Default `""`
+   */
   title: PropTypes.string,
+  /**
+   * Text to show as content. Default `""`
+   */
   text: PropTypes.string
 };
 TextBox.defaultProps = {

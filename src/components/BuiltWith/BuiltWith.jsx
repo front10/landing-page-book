@@ -15,7 +15,13 @@ class BuiltWith extends Component {
 }
 
 BuiltWith.propTypes = {
+  /**
+   * Define if image is gray scale. Default `false`
+   */
   gray: PropTypes.bool,
+  /**
+   * Companies to show. Default `[]`
+   */
   companies: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.string

@@ -85,7 +85,7 @@
 }
 
 .prl-11 {
-  padding: 0 11em;
+  padding: 0 7em;
 }
 
 .code {
@@ -178,4 +178,10 @@ p {
 
 .element{
   padding-top: 50px;
+}
+
+/* Button back style */
+.btn-back{
+  margin-top: -15px;
+  margin-right: 15px;
 }

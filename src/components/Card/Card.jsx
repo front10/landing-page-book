@@ -63,17 +63,53 @@ class Card extends React.Component {
 }
 
 Card.propTypes = {
+  /**
+   * Show or hide border. Default `true`
+   */
   showBorder: PropTypes.bool,
+  /**
+   * Define if image is circular. Default `true`
+   */
   imageCircle: PropTypes.bool,
+  /**
+   * Define if image is with border. Default `false`
+   */
   imageBorder: PropTypes.bool,
+  /**
+   * Define if image show with shadow. Default `false`
+   */
   imageShadow: PropTypes.bool,
+  /**
+   * Define if card summary is justified. Default `false`
+   */
   summaryJustified: PropTypes.bool,
+  /**
+   * Define if card show with shadow. Default `false`
+   */
   shadow: PropTypes.bool,
+  /**
+   * Image url. Default `""`
+   */
   image: PropTypes.string,
+  /**
+   * Card title. Default `""`
+   */
   title: PropTypes.string,
+  /**
+   * Card subtitle. Default `""`
+   */
   subTitle: PropTypes.string,
+  /**
+   * Card summary. Default `""`
+   */
   summary: PropTypes.string,
+  /**
+   * Array of elements to show inside a card, For example ['Buttons', 'Links', 'tables', etc]
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   * Content align in the card. Default `"center"`, can be `left`, `center` and `right`
+   */
   contentAlign: PropTypes.string
 };
 Card.defaultProps = {

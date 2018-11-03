@@ -13,10 +13,25 @@ class Icon extends Component {
 }
 
 Icon.propTypes = {
+  /**
+   * Class to apply to icon. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   *  Icon name. Default `undefined`, this prop is required
+   */
   icon: PropTypes.string.isRequired,
+  /**
+   * Custom styles to apply
+   */
   style: PropTypes.objectOf(PropTypes.shape),
+  /**
+   *  callback function to call when onClick event is fire.
+   */
   onClick: PropTypes.func,
+  /**
+   * Title of the icon.
+   */
   title: PropTypes.string
 };
 Icon.defaultProps = {

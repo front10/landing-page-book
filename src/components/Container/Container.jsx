@@ -11,8 +11,17 @@ class Container extends Component {
 }
 
 Container.propTypes = {
+  /**
+   * A fluid container is shown. Default `false`
+   */
   fluid: PropTypes.bool,
+  /**
+   * Class of the component. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Childrens
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Container.defaultProps = {

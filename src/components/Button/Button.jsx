@@ -55,21 +55,69 @@ class Button extends Component {
 }
 
 Button.propTypes = {
+  /**
+   * Disable or enable button. Default `false`
+   */
   disabled: PropTypes.bool,
+  /**
+   * Show loading mode. Default `false`
+   */
   loading: PropTypes.bool,
+  /**
+   * Show rounded button. Default `true`
+   */
   rounded: PropTypes.bool,
+  /**
+   * Show circle button. Default `false`
+   */
   circle: PropTypes.bool,
+  /**
+   * Define if button is only with border. Default `false`
+   */
   outline: PropTypes.bool,
+  /**
+   * Define if button is active. Default `false`
+   */
   active: PropTypes.bool,
+  /**
+   * Class to show loading indicator. Default `"fa fa-circle-o-notch fa-spin"`
+   */
   loadingClass: PropTypes.string,
+  /**
+   * Class to apply to button. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Aria label of the button. Default `""`
+   */
   ariaLabel: PropTypes.string,
+  /**
+   * Button tooltip. Default `""`
+   */
   tooltip: PropTypes.string,
+  /**
+   * Button size, can be `lg` or `sm`. Default `""`
+   */
   size: PropTypes.string,
+  /**
+   * Type of the button. Default `"button"`
+   */
   type: PropTypes.string,
+  /**
+   * Color to apply to button. Default `"default"`
+   */
   color: PropTypes.string,
+  /**
+   *
+   */
   style: PropTypes.objectOf(PropTypes.any),
+  /**
+   * Button styles. Default `""`
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   * Called when button is clicked
+   */
   onClick: PropTypes.func
 };
 Button.defaultProps = {

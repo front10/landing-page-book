@@ -142,23 +142,77 @@ class ContactUs extends Component {
 }
 
 ContactUs.propTypes = {
+  /**
+   * Show or hide labels to inputs. Default `false`
+   */
   showText: PropTypes.bool,
+  /**
+   * Show or hide placeholders to inputs. Default `true`
+   */
   showPlaceholder: PropTypes.bool,
+  /**
+   * Define if component is loading. Default `false`
+   */
   loading: PropTypes.bool,
+  /**
+   * Label and placeholder of name input. Default `"Your Name"`
+   */
   nameText: PropTypes.string,
+  /**
+   *  Label and placeholder of email input. Default `"Your Email"`
+   */
   mailText: PropTypes.string,
+  /**
+   *  Label and placeholder of phone input. Default `"Your Phone"`
+   */
   phoneText: PropTypes.string,
+  /**
+   * Label and placeholder of message input. Default `"Your Message"`
+   */
   messageText: PropTypes.string,
+  /**
+   * Value of name input. Default `""`
+   */
   name: PropTypes.string,
+  /**
+   *  Value of mail input. Default `""`
+   */
   mail: PropTypes.string,
+  /**
+   * Value of phone input. Default `""`
+   */
   phone: PropTypes.string,
+  /**
+   * Value of message input. Default `""`
+   */
   message: PropTypes.string,
+  /**
+   * Label of submit button. Default `"Submit"`
+   */
   submitButtonText: PropTypes.string,
+  /**
+   * Align of Submit button. Default `"center"`
+   */
   submitButtonAlign: PropTypes.string,
+  /**
+   * Color of Submit button. Default `"default"`
+   */
   submitButtonColor: PropTypes.string,
+  /**
+   * Url to send contact data, component make a request via post method and send `name`, `email`, `phone` and `message` params. Default `""`
+   */
   apiUrl: PropTypes.string,
+  /**
+   * Function called when Submit button has clicked. Params `{name, mail, phone, message}`
+   */
   onSubmit: PropTypes.func,
+  /**
+   * Function called when `apiUrl` is defined and request was executed successfully
+   */
   onApiSuccess: PropTypes.func,
+  /**
+   * Function called when `apiUrl` is defined and request was error
+   */
   onApiFail: PropTypes.func
 };
 ContactUs.defaultProps = {

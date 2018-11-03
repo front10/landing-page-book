@@ -1,8 +1,11 @@
+/* eslint-disable jsx-a11y/no-static-element-interactions */
 /* eslint no-unused-vars:0 */
 import 'babel-polyfill';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
+import { CopyToClipboard } from 'react-copy-to-clipboard';
+import ReactHtmlParser from 'react-html-parser';
 import VariableManager from '../VariableManager';
 import Icon from '../../../src/components/Icon';
 import Button from '../../../src/components/Button';
@@ -23,17 +26,21 @@ class PropsManager extends React.Component {
     this.state = {
       textCode: props.children,
       external: true,
-      active: props.active
+      active: props.active,
+      scopied: false
     };
     this.handleCodeChange = this.handleCodeChange.bind(this);
     this.handleActive = this.handleActive.bind(this);
     this.showOrHideCodeAndIcon = this.showOrHideCodeAndIcon.bind(this);
+    this.showCopyButton = this.showCopyButton.bind(this);
+    this.copyToClipboard = this.copyToClipboard.bind(this);
   }
 
   handleCodeChange(textCode) {
     this.setState({
       textCode,
-      external: false
+      external: false,
+      scopied: false
     });
   }
 
@@ -44,6 +51,31 @@ class PropsManager extends React.Component {
     this.setState({ active });
   }
 
+  copyToClipboard() {
+    this.setState({ scopied: true });
+  }
+
+  showCopyButton() {
+    const { textCode, scopied } = this.state;
+    return (
+      <div className="text-white d-inline">
+        <span className="playgroundHeader__icon">
+          <CopyToClipboard text={textCode} onCopy={this.copyToClipboard}>
+            <span className="font-weight-light fs-10 text-uppercase" onClick={this.copyToClipboard}>
+              <span className="hidde">{scopied ? 'Copied' : 'Copy Code'}</span>
+              <Icon
+                title="Copy code"
+                icon="fa fa-clone"
+                className="p-2 playgroundHeader__icon fs-12"
+                role="link"
+              />
+            </span>
+          </CopyToClipboard>
+        </span>
+      </div>
+    );
+  }
+
   showOrHideCodeAndIcon(tab, active) {
     return (
       <div className="text-white d-inline">
@@ -52,8 +84,10 @@ class PropsManager extends React.Component {
             className="font-weight-light fs-10 text-uppercase"
             onClick={() => this.handleActive(tab.key)}
           >
-            {active.indexOf(tab.key) !== -1 ? 'HIDE' : tab.key === 'props' ? '' : 'EDIT'}{' '}
-            {tab.title}
+            <span className="hidde">
+              {active.indexOf(tab.key) !== -1 ? 'HIDE' : tab.key === 'props' ? '' : 'EDIT'}{' '}
+              {tab.title}
+            </span>
             <Icon
               key={tab.key}
               title={tab.title}
@@ -100,6 +134,7 @@ class PropsManager extends React.Component {
                     </React.Fragment>
                   ) : null
               )}
+              {this.showCopyButton()}
             </div>
             {active.indexOf('code') !== -1 && (
               <div
@@ -153,7 +188,11 @@ class PropsManager extends React.Component {
                         </td>
                         <td>{propsDescription[prop].description}</td>
                         <td>
-                          <code>{propsDescription[prop].defaultValue.value}</code>
+                          <code>
+                            {propsDescription[prop].defaultValue
+                              ? propsDescription[prop].defaultValue.value
+                              : ReactHtmlParser('<span class="text-required">* required </span>')}
+                          </code>
                         </td>
                       </tr>
                     ))}

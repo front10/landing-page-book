@@ -64,6 +64,9 @@ class DetailsComponent extends React.Component {
         {/* <Section sectionClass="p-2 title-component" gray> */}
         <div className="title-component bg-light p-2">
           <Container className="pb-4 pt-3 prl-11">
+            <Link href="/components" tooltip="Go Back" className="btn btn-back btn-everblue">
+              <span className="fa fa-arrow-left" />
+            </Link>
             <Header type="h2" className="name d-inline">
               {name}
             </Header>

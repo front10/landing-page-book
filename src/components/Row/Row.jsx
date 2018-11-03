@@ -9,7 +9,13 @@ class Row extends Component {
 }
 
 Row.propTypes = {
+  /**
+   * Class name of the row. Default `""`
+   */
   className: PropTypes.string,
+  /**
+   * Elements to show inside of Row
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Row.defaultProps = {

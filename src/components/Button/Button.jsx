@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import withStyles from '../../helpers/WithStyles'
+import withStyles from '../../helpers/WithStyles';
 import Icon from '../Icon/Icon';
 
 class Button extends Component {

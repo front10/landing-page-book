@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
+import withStyles from '../../helpers/WithStyles';
 import Image from '../Image/Image';
 
 const images = {
@@ -35,9 +35,9 @@ const available = {
 
 class Browser extends Component {
   render() {
-    const { vendor, version, showBrowserVendor, showBrowserVersion, imgFilter } = this.props;
+    const { vendor, version, showBrowserVendor, showBrowserVersion, imgFilter, className } = this.props;
     return (
-      <div className="d-inline Browser">
+      <div className={`Browser d-inline ${className}`}>
         <Image
           src={available[vendor].icon}
           alt={`Browser ${available[vendor].name} icon`}
@@ -81,4 +81,5 @@ Browser.defaultProps = {
   imgFilter: null
 };
 
-export default Browser;
+const BrowserWithStyles = withStyles(Browser);
+export default BrowserWithStyles;

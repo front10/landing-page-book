@@ -54,12 +54,15 @@ const withStyles = WrappedComponent => {
       return borderBasedClasses;
     }
 
-    getTextAlignBasedStyles() {
-      const { textAlign } = this.props;
+    getTextBasedStyles() {
+      const { textAlign, textTransform, textTruncate, fontItalic, fontWeight, textMonoSpace } = this.props;
       let textAlignBasedClasses = '';
-      if (textAlign) {
-        textAlignBasedClasses = `${textAlignBasedClasses} text-${textAlign}`;
-      }
+      if (textAlign) textAlignBasedClasses += `${textAlignBasedClasses} text-${textAlign}`;
+      if (textTransform) textAlignBasedClasses += `${textAlignBasedClasses} text-${textTransform}`;
+      if (textTruncate) textAlignBasedClasses += `${textAlignBasedClasses} text-truncate`;
+      if (fontItalic) textAlignBasedClasses += `${textAlignBasedClasses} font-italic`;
+      if (fontWeight) textAlignBasedClasses += `${textAlignBasedClasses} font-weight-${fontWeight}`;
+      if (textMonoSpace) textAlignBasedClasses += `${textAlignBasedClasses} text-monospace`;
       return textAlignBasedClasses;
     }
 
@@ -69,7 +72,7 @@ const withStyles = WrappedComponent => {
       const layoutBasedClasses = this.getLayoutBasedStyles();
       const colorBasedClasses = this.getColorBasedStyles();
       const borderBasedClasses = this.getBorderBasedStyles();
-      const textAlignBasedClasses = this.getTextAlignBasedStyles();
+      const textBasedClasses = this.getTextBasedStyles();
 
       if (layoutBasedClasses) {
         finalClasses = `${finalClasses} ${layoutBasedClasses}`;
@@ -80,15 +83,15 @@ const withStyles = WrappedComponent => {
       if (borderBasedClasses) {
         finalClasses = `${finalClasses} ${borderBasedClasses}`;
       }
-      if (textAlignBasedClasses) {
-        finalClasses = `${finalClasses} ${textAlignBasedClasses}`;
+      if (textBasedClasses) {
+        finalClasses = `${finalClasses} ${textBasedClasses}`;
       }
       return finalClasses;
     }
 
     render() {
       const classNames = this.translatePropsStyles();
-      return <WrappedComponent {...this.props} className={classNames} />;
+      return <WrappedComponent {...this.props} className={classNames} style={this.props.style}/>;
     }
   }
 
@@ -104,7 +107,34 @@ const withStyles = WrappedComponent => {
     borderRight: PropTypes.string,
     borderBottom: PropTypes.string,
     borderLeft: PropTypes.string,
-    textAlign: PropTypes.string
+    /**
+     * Paragraph alignment. Default  `justify`, can be `left`, `center` and `right`
+     */
+    textAlign: PropTypes.oneOf(['center', 'right', 'left', 'justify']),
+    /**
+     * Paragraph text transform. Default `""` , can be `lowercase`, `uppercase`, `capitalize`
+     */
+    textTransform: PropTypes.oneOf(['lowercase', 'uppercase', 'capitalize', '']),
+    /**
+     * Truncate the paragraph. Default `false`
+     */
+    textTruncate: PropTypes.bool,
+    /**
+     * Show content using mono spaced text. Default `false`
+     */
+    textMonoSpace: PropTypes.bool,
+    /**
+     * Show content using an italic font. Default `false`
+     */
+    fontItalic: PropTypes.bool,
+    /**
+     * Weight of the font. Default `normal`, can be `bold`, `normal`, `light`
+     */
+    fontWeight: PropTypes.oneOf(['bold', 'normal', 'light']),
+    /**
+     * In case you wanted to pass custom styles `""`
+     */
+    style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
   };
 
   Styled.defaultProps = {
@@ -119,7 +149,13 @@ const withStyles = WrappedComponent => {
     borderRight: null,
     borderBottom: null,
     borderLeft: null,
-    textAlign: null
+    textAlign: null,
+    textTransform: null,
+    textTruncate: null,
+    textMonoSpace: null,
+    fontItalic: null,
+    fontWeight: null,
+    style: null
   };
   return Styled;
 };

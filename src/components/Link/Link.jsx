@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Link extends Component {
   render() {
-    const { disabled, className, tooltip, href, target, children, style } = this.props;
+    const { disabled, className, tooltip, href, target, children } = this.props;
     return (
       <React.Fragment>
         <a
-          style={style}
           title={tooltip}
           disabled={disabled}
           className={className}
@@ -60,4 +60,5 @@ Link.defaultProps = {
   style: null
 };
 
-export default Link;
+const LinkWithStyles = withStyles(Link);
+export default LinkWithStyles;

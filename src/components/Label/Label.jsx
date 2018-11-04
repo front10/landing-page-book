@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Label extends Component {
   render() {
-    const { label, className, htmlFor, colon } = this.props;
+    const { content, className, htmlFor } = this.props;
     return (
       <label htmlFor={htmlFor} className={`Label ${className}`}>
-        {label}
-        {colon && ':'}
+        {content}
       </label>
     );
   }
@@ -15,13 +15,9 @@ class Label extends Component {
 
 Label.propTypes = {
   /**
-   * Show or hide colon. Default `false`
+   * Content of label. Default `""`
    */
-  colon: PropTypes.bool,
-  /**
-   * Text of label. Default `""`
-   */
-  label: PropTypes.string,
+  content: PropTypes.string,
   /**
    * CSS Class to apply to label. Default `""`
    */
@@ -32,10 +28,10 @@ Label.propTypes = {
   htmlFor: PropTypes.string
 };
 Label.defaultProps = {
-  colon: false,
-  label: '',
+  content: '',
   className: '',
   htmlFor: ''
 };
 
-export default Label;
+const LabelWithStyles = withStyles(Label);
+export default LabelWithStyles;

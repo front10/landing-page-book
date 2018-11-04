@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Icon extends Component {
   render() {
-    const { className, icon, style, title, onClick } = this.props;
+    const { className, icon, title, onClick } = this.props;
     /* eslint-disable jsx-a11y/click-events-have-key-events */
     /* eslint-disable jsx-a11y/no-static-element-interactions */
-    return <i className={`${icon} ${className}`} style={style} title={title} onClick={onClick} />;
+    return <i className={`${icon} ${className}`} title={title} onClick={onClick} />;
     /* eslint-enable jsx-a11y/click-events-have-key-events */
     /* eslint-enable jsx-a11y/no-static-element-interactions */
   }
@@ -21,10 +22,6 @@ Icon.propTypes = {
    *  Icon name. Default `undefined`, this prop is required
    */
   icon: PropTypes.string.isRequired,
-  /**
-   * Custom styles to apply
-   */
-  style: PropTypes.objectOf(PropTypes.shape),
   /**
    *  callback function to call when onClick event is fire.
    */
@@ -41,4 +38,5 @@ Icon.defaultProps = {
   title: ''
 };
 
-export default Icon;
+const IconWithStyles = withStyles(Icon);
+export default IconWithStyles;

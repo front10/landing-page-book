@@ -1,18 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 const TextBox = ({ className, title, text }) => (
   <div className={className}>
-    <h3 className={`${className}__title`}>{title}</h3>
-    <p className={`${className}__text`}>{text}</p>
+    <h3 className={`TextBox__title`}>{title}</h3>
+    <p className={`TextBox__content`}>{text}</p>
   </div>
 );
 
 TextBox.propTypes = {
-  /**
-   * Class name of the textBox container. Default `""`
-   */
-  className: PropTypes.string,
   /**
    * Text to show as title. Default `""`
    */
@@ -22,10 +19,11 @@ TextBox.propTypes = {
    */
   text: PropTypes.string
 };
+
 TextBox.defaultProps = {
-  className: '',
   title: '',
   text: ''
 };
 
-export default TextBox;
+const TextBoxWithStyles = withStyles(TextBox);
+export default TextBoxWithStyles;

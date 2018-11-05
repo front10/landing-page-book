@@ -26,15 +26,9 @@ class Button extends Component {
     let cssclass = `${className} btn-${color}`;
     if (circle) cssclass += ` rounded-circle`;
     if (!rounded) cssclass += ` rounded-0`;
-    if (outline) {
-      cssclass = `${className} btn-outline-${color}`;
-    }
-    if (size) {
-      cssclass = `${cssclass} btn-${size}`;
-    }
-    if (active) {
-      cssclass = `${cssclass} ${active}`;
-    }
+    if (outline) cssclass += `${className} btn-outline-${color}`;
+    if (size) cssclass += `${cssclass} btn-${size}`;
+    if (active) cssclass += `${cssclass} ${active}`;
 
     /* eslint-disable react/button-has-type */
     return (

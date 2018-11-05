@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import Social from '../Social';
 import Card from '../Card';
 
@@ -10,7 +11,6 @@ class Team extends Component {
       showName,
       showJob,
       showSummary,
-      showBorder,
       socialGray,
       members,
       imageCircle,
@@ -36,12 +36,12 @@ class Team extends Component {
               subTitle={showJob ? member.job : ''}
               title={showName ? member.name : ''}
               summary={showSummary ? member.summary : ''}
-              showBorder={showBorder}
               contentAlign={contentAlign}
               imageBorder={imageBorder}
               image={showImage ? member.image : ''}
               shadow={shadow}
               imageShadow={imageShadow}
+              {...extractProps('member', this.props)}
             >
               {member.profile.map(item => (
                 <Social key={item.social} url={item.url} type={item.social} gray={socialGray} />
@@ -55,10 +55,6 @@ class Team extends Component {
 }
 
 Team.propTypes = {
-  /**
-   * Show or hide card border. Default `true`
-   */
-  showBorder: PropTypes.bool,
   /**
    * Show or hide image. Default `true`
    */
@@ -126,7 +122,6 @@ Team.propTypes = {
   )
 };
 Team.defaultProps = {
-  showBorder: true,
   showImage: true,
   showName: true,
   showJob: true,

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Image from '../Image';
 import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 import CardTitle from './CardTitle';
 import CardSubtitle from './CardSubtitle';
 import CardFooter from './CardFooter';
@@ -34,9 +35,23 @@ class Card extends React.Component {
         )}
         {(title || subTitle || summary) && (
           <div className="card-body">
-            {title && <CardTitle marginBottom="2" content={title} />}
-            {subTitle && <CardSubtitle marginBottom="3" content={subTitle} />}
-            {summary && <Paragraph className="Card__Summary" text={summary} />}
+            {title && (
+              <CardTitle marginBottom="2" content={title} {...extractProps('title', this.props)} />
+            )}
+            {subTitle && (
+              <CardSubtitle
+                marginBottom="3"
+                content={subTitle}
+                {...extractProps('subTitle', this.props)}
+              />
+            )}
+            {summary && (
+              <Paragraph
+                className="Card__Summary"
+                text={summary}
+                {...extractProps('summary', this.props)}
+              />
+            )}
           </div>
         )}
         {children && (
@@ -59,7 +74,7 @@ Card.propTypes = {
    */
   imageBorder: PropTypes.bool,
   /**
-   * Define if image show with shadow. Default `false`
+   * Define if image   with shadow. Default `false`
    */
   imageShadow: PropTypes.bool,
   /**

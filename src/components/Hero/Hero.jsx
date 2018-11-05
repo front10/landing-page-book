@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import LazyHero from 'react-lazy-hero';
 import Particles from 'react-particles-js';
+import extractProps from '../../helpers/ExtractProps';
 import Container from '../Container/Container';
 import Button from '../Button/Button';
 import Header from '../Header/Header';
@@ -63,10 +64,17 @@ class Hero extends Component {
       particlesParams,
       particlesSugar,
       backgroundColor,
-      buttons,
+      callToAction,
       children,
       style,
-      imgFilter
+      imgFilter,
+      callToActionOnClick,
+      callToActionColor,
+      callToActionOutline,
+      secondaryCallToAction,
+      secondaryCallToActionOnClick,
+      secondaryCallToActionColor,
+      secondaryCallToActionOutline
     } = this.props;
 
     const { randomClass } = this.state;
@@ -103,12 +111,16 @@ class Hero extends Component {
               <Container>
                 {subHeader &&
                   subHeaderPosition === 'top' && (
-                    <Header textAlign={isCentered && 'center'} className="Hero__SubHeader mb-5">
+                    <Header
+                      textAlign={isCentered && 'center'}
+                      className="Hero__SubHeader"
+                      {...extractProps('subHeader', this.props)}
+                    >
                       {subHeader}
                     </Header>
                   )}
                 {header && (
-                  <Header textAlign={isCentered && 'center'} className="Hero__Header mb-5">
+                  <Header className="Hero__Header" {...extractProps('header', this.props)}>
                     {header}
                   </Header>
                 )}
@@ -117,20 +129,34 @@ class Hero extends Component {
                     <Header
                       textAlign={isCentered && 'center'}
                       type="h2"
-                      className="Hero__SubHeader mb-5"
+                      className="Hero__SubHeader"
+                      {...extractProps('subHeader', this.props)}
                     >
                       {subHeader}
                     </Header>
                   )}
-                {buttons.map(button => (
+                {callToAction && (
                   <Button
                     className="btn-xl Hero__Button"
-                    key={button.text}
-                    onClick={() => Hero.onButtonClick(button)}
+                    onClick={callToActionOnClick}
+                    color={callToActionColor}
+                    outline={callToActionOutline}
+                    {...extractProps('callToAction', this.props)}
                   >
-                    {button.text}
+                    {callToAction}
                   </Button>
-                ))}
+                )}
+                {secondaryCallToAction && (
+                  <Button
+                    className="btn-xl Hero__Button"
+                    onClick={secondaryCallToActionOnClick}
+                    color={secondaryCallToActionColor}
+                    outline={secondaryCallToActionOutline}
+                    {...extractProps('secondaryCallToAction', this.props)}
+                  >
+                    {secondaryCallToAction}
+                  </Button>
+                )}
               </Container>
             )}
             {children}
@@ -192,14 +218,25 @@ Hero.propTypes = {
    */
   backgroundColor: PropTypes.string,
   /**
+   * Margin bottom of hero header. Default `"5"`
+   */
+  headerMarginBottom: PropTypes.string,
+  /**
+   * Color of hero header. Default `"light"`
+   */
+  headerTextColor: PropTypes.string,
+  /**
+   * Margin bottom of hero subheader. Default `"5"`
+   */
+  subHeaderMarginBottom: PropTypes.string,
+  /**
+   * Color of hero subheader. Default `"light"`
+   */
+  subHeaderTextColor: PropTypes.string,
+  /**
    * Array with buttons to show in hero. Default `[]`, each element must be a object with this structure: `{text: "TELL ME MORE", onClick: ({button})=>{}}`
    */
-  buttons: PropTypes.arrayOf(
-    PropTypes.shape({
-      text: PropTypes.string,
-      onClick: PropTypes.func
-    })
-  ),
+  callToAction: PropTypes.string,
   /**
    * Config params for particles animation.
    */
@@ -219,7 +256,31 @@ Hero.propTypes = {
   /**
    * Preconfigured params for particles, you can find this on particlesSugarMapping.js file.
    */
-  particlesSugar: PropTypes.string
+  particlesSugar: PropTypes.string,
+  /*
+   * Event is fire when call to action button is pressed 
+   */
+  callToActionOnClick: PropTypes.func,
+  /*
+   * Color of call to action button
+   */
+  callToActionColor: PropTypes.string,
+  /*
+   * Outline of call to action button
+   */
+  callToActionOutline: PropTypes.bool,
+  /*
+   * Event is fire when secondary call to action button is pressed 
+   */
+  secondaryCallToActionOnClick: PropTypes.func,
+  /*
+   * Color of secondary call to action button
+   */
+  secondaryCallToActionColor: PropTypes.string,
+  /*
+   * Outline of secondary call to action button
+   */
+  secondaryCallToActionOutline: PropTypes.bool
 };
 Hero.defaultProps = {
   isFixed: true,
@@ -234,12 +295,22 @@ Hero.defaultProps = {
   subHeaderPosition: 'bottom',
   minHeight: '100vh',
   backgroundColor: 'transparent',
-  buttons: [],
+  headerMarginBottom: '5',
+  subHeaderMarginBottom: '5',
+  headerTextColor: 'light',
+  subHeaderTextColor: 'light',
+  callToAction: null,
   particlesParams: null,
   children: null,
   style: null,
   imgFilter: null,
-  particlesSugar: null
+  particlesSugar: null,
+  callToActionColor: '',
+  callToActionOutline: true,
+  callToActionOnClick: () => {},
+  secondaryCallToActionColor: '',
+  secondaryCallToActionOutline: true,
+  secondaryCallToActionOnClick: () => {}
 };
 
 export default Hero;

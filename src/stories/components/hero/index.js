@@ -38,14 +38,17 @@ stories.add(
       />
       <PropsManager scope={{ React, Hero }}>
         {`<Hero
-    opacity={1}
-    overlayColor="#373D45"
+    headerTextColor="warning"
+    subHeaderTextColor="warning"
+    callToActionColor="warning"
+    secondaryCallToActionColor="warning"
+    secondaryCallToActionMarginLeft="2"
+    backgroundColor="#373D45"
     header="Landing Page Book"
     subHeader="React components to build!"
     particlesSugar="crazyStars"
-    buttons={[
-        { text: 'TELL ME MORE', onClick: () => { } }
-    ]}
+    callToAction="Call to action"
+    secondaryCallToAction="Secondary call to action"
 />`}
       </PropsManager>
       <VariableManager className="mt-4" variables={themingVariables} />
@@ -69,8 +72,8 @@ stories.add(
         <Header className="text-warning">Landing Page Book</Header>
         <Header type="h5" className="text-warning">React components to build!</Header>
         <div className="mt-5">
-            <Button>Explore</Button>
-            <GithubButton btnType="star" btnText="Stars" username="front10" repository="landing-page-book"/>
+            <Button color="primary" margin="1">Explore</Button>
+            <GithubButton color="success" btnType="star" btnText="Stars" username="front10" repository="landing-page-book"/>
         </div>
     </Container>
 </Hero>`}

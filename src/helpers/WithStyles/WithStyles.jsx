@@ -25,11 +25,8 @@ const withStyles = WrappedComponent => {
     }
 
     getColorBasedStyles() {
-      const { color, bgColor, textColor } = this.props;
+      const { bgColor, textColor } = this.props;
       let colorBasedClasses = '';
-      if (color) {
-        colorBasedClasses = `${colorBasedClasses} ${color}`;
-      }
       if (bgColor) {
         colorBasedClasses = `${colorBasedClasses} bg-${bgColor}`;
       }
@@ -118,15 +115,14 @@ const withStyles = WrappedComponent => {
     marginLeft: PropTypes.string,
     marginTop: PropTypes.string,
     marginBottom: PropTypes.string,
-    color: PropTypes.string,
     bgColor: PropTypes.string,
     textColor: PropTypes.string,
-    border: PropTypes.string,
-    borderTop: PropTypes.string,
-    borderRight: PropTypes.string,
-    borderBottom: PropTypes.string,
-    borderLeft: PropTypes.string,
-    borderNone: PropTypes.string,
+    border: PropTypes.bool,
+    borderTop: PropTypes.bool,
+    borderRight: PropTypes.bool,
+    borderBottom: PropTypes.bool,
+    borderLeft: PropTypes.bool,
+    borderNone: PropTypes.bool,
     /**
      * Paragraph alignment. Default  `justify`, can be `left`, `center` and `right`
      */
@@ -163,7 +159,6 @@ const withStyles = WrappedComponent => {
     marginLeft: null,
     marginTop: null,
     marginBottom: null,
-    color: null,
     bgColor: null,
     textColor: null,
     border: null,

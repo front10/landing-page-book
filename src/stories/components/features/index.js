@@ -20,18 +20,8 @@ stories.add(
       />
       <PropsManager scope={{ React, Features }}>
         {`<Features
-    shadow={false}
-    showTitle
-    showImage
     showSubtitle={false}
-    showSummary
-    imageCircle={false}
-    imageBorder={false}
-    imageShadow={false}
-    showFooter
-    buttonOutline
     buttonColor="primary"
-    contentAlign="center"
     features={${JSON.stringify(features, null, 8)}}
 />`}
       </PropsManager>
@@ -50,14 +40,9 @@ stories.add(
       />
       <PropsManager scope={{ React, Features }}>
         {`<Features
-    shadow={false}
     showSubtitle={false}
     showSummary={false}
-    imageCircle={false}
-    imageBorder={false}
-    imageShadow={false}
     showFooter={false}
-    contentAlign="center"
     features={${JSON.stringify(features, null, 8)}}
 />`}
       </PropsManager>
@@ -78,11 +63,7 @@ stories.add(
         {`<Features
     shadow
     showSubtitle={false}
-    imageCircle={false}
-    imageBorder={false}
-    imageShadow={false}
     showFooter={false}
-    contentAlign="center"
     features={${JSON.stringify(features, null, 8)}}
 />`}
       </PropsManager>
@@ -102,10 +83,9 @@ stories.add(
       <PropsManager scope={{ React, Features }}>
         {`<Features
     imageShadow
-    shadow={false}
+    imageCircle
     showSubtitle={false}
     showFooter={false}
-    contentAlign="center"
     features={${JSON.stringify(features, null, 8)}}
 />`}
       </PropsManager>

@@ -34,6 +34,7 @@ class Image extends Component {
     const { alt, src, rounded, border, width, tooltip, className, imgFilter, shadow } = this.props;
     const { loaded } = this.state;
     let tempClass = className;
+    tempClass += ` img-fluid`;
     if (rounded) tempClass += ` rounded-circle`;
     if (border) tempClass += ` img-thumbnail`;
     const styles = {

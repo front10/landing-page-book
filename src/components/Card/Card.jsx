@@ -116,5 +116,4 @@ Card.defaultProps = {
   className: null
 };
 
-const CardWithStyles = withStyles(Card);
-export default CardWithStyles;
+export default Card;

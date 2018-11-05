@@ -142,12 +142,12 @@ p {
 }
 
 .storiesList ul li a {
-  color: #888888 !important;
+  color: #888888;
 }
 
 .storiesList ul li a:hover,
 .storiesList ul li a.active {
-  color: #555555 !important;
+  color: #555555;
   text-decoration: none !important;
   cursor: pointer;
 }

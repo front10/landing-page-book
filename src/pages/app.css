@@ -256,3 +256,24 @@ a .Card .Card__Title{
 .Section .Gif .gif_player img {
   width: auto !important;
 }
+
+.Input__Container > input, .Input__Container .fa.fa-search{
+    color: rgb(66, 90, 112);
+}
+
+.Section__Title, .Section .Section__Subtitle, .name, {
+}
+
+.page h1, .page h2,.page h3,.page h4,.page h5,.page h6,.page p, p,.page .text-body,
+.Section .Section__Title, .Section .Section__Subtitle, .Card .Card__Title, .Card .Card__Summary{
+    color: #1f4160 !important;
+}
+
+.storiesList ul li a {
+    color: rgba(31,65,96,0.5) !important;
+}
+
+.storiesList ul li a:hover,
+.storiesList ul li a.active {
+  color: rgba(31,65,96,1) !important;
+}

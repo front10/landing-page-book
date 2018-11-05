@@ -2,7 +2,7 @@ const components = [
   {
     name: 'Components',
     description:
-      'Descripción de los componentes para más detalles consulte cada uno de los componentes, bla blab alba sda sda sd.',
+      'Components let you split the UI into independent, reusable pieces, and think about each piece in isolation.',
     components: [
       'Navbar',
       'Hero',
@@ -33,7 +33,8 @@ const components = [
   },
   {
     name: 'Elements',
-    description: 'Descripcion de los elementos',
+    description:
+      'The elements are the most basic components in the applications in React. Here you have a catalog of the elements you could use.',
     components: [
       'Button',
       'TextBox',

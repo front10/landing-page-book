@@ -1,3 +1,21 @@
+import icons from '../icons';
+
+let generateCode = '';
+generateCode += `<Container><Link href="https://fontawesome.com/v4.7.0/icons/" tooltip="View all icons" target="_blank" className="btn btn-primary float-right m-3">
+View all icons
+</Link ><div className="clearfix" /><Row>`;
+icons.map(icon => {
+  generateCode += `<Column className="col col-xs-3 col-sm-2 text-center">
+  <div className="p-2 float-left">
+      <Icon icon='${icon}' className='fa-2x' />
+      <span style={{ fontSize: '12px' }} className='d-block'>
+          ${icon}
+      </span>
+  </div>
+</Column>`;
+});
+generateCode += '</Row></Container > ';
+
 export default {
   name: 'Icon',
   summary: 'Icon element.',
@@ -36,9 +54,7 @@ export default {
     {
       name: 'All Icons',
       summary: '',
-      code: ` <Link href="https://fontawesome.com/v4.7.0/icons/" tooltip="View all icons" target="_blank" className="btn btn-primary float-right m-3">
-    View all icons
-</Link>`,
+      code: generateCode,
       tabsActive: []
     }
   ]

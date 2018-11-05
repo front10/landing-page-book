@@ -41,7 +41,7 @@ import '../src/stories/components/analytics';
 import '../src/stories/elements/header';
 import '../src/stories/elements/link';
 import '../src/stories/elements/textBox';
-import '../src/stories/elements/paragraphs';
+import '../src/stories/elements/paragraph';
 
 import '../src/stories/elements/card';
 

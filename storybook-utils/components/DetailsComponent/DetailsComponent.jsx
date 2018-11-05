@@ -8,7 +8,7 @@ import {
   Link,
   // Icon,
   Header,
-  Paragraphs,
+  Paragraph,
   // NavbarCollapse,
   // Button,
   Container
@@ -87,13 +87,13 @@ class DetailsComponent extends React.Component {
               <Header type="h4" className="name mb-2">
                 Intro
               </Header>
-              <Paragraphs fontWeight="light" text={description} />
+              <Paragraph fontWeight="light" text={description} />
               {stories.map(story => (
                 <Element name={story.name} className="element pb-4" key={story.name}>
                   <Header type="h3" className="mt-3">
                     {story.name}
                   </Header>
-                  <Paragraphs fontWeight="light" text={story.summary} />
+                  <Paragraph fontWeight="light" text={story.summary} />
                   <PropsManager
                     propsDescription={propsDescription}
                     active={story.tabsActive}

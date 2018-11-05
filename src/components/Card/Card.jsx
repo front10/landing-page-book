@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Image from '../Image';
-import withStyles from '../../helpers/WithStyles';
 import extractProps from '../../helpers/ExtractProps';
 import CardTitle from './CardTitle';
 import CardSubtitle from './CardSubtitle';

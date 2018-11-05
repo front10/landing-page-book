@@ -5,6 +5,7 @@ generateCode += `<Container>
     <Link href="https://fontawesome.com/v4.7.0/icons/" tooltip="View all icons" target="_blank" className="btn btn-primary float-right m-3">View all icons</Link >
     <div className="clearfix" />
     <Row>`;
+// eslint-disable-next-line array-callback-return
 icons.map(icon => {
   generateCode += `
       <Column className="col col-xs-3 col-sm-2 text-center">

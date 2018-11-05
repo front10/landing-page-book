@@ -97,7 +97,7 @@ class MainLayout extends React.Component {
               rel="noopener noreferrer"
             >
               <i className="fa fa-question-circle github-link-icon" title="" />
-              <span className="d-none d-sm-inline">Slack</span>
+              <span className="d-none d-sm-inline">Support</span>
             </a>
             <a
               title="Github"

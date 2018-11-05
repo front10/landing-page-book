@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link as LinkScroll, Element } from 'react-scroll';
+import back from './back.png';
 import {
   // Section,
   Column,
@@ -65,9 +66,9 @@ class DetailsComponent extends React.Component {
         <div className="title-component bg-light p-2">
           <Container className="pb-4 pt-3 prl-11">
             <Link href="/components" tooltip="Go Back" className="btn btn-back btn-everblue">
-              <span className="fa fa-arrow-left" />
+              <img src={back} alt="Go Back" />
             </Link>
-            <Header type="h2" className="name d-inline">
+            <Header type="h2" className="name title-component d-inline">
               {name}
             </Header>
             <Link

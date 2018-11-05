@@ -1,6 +1,11 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Image from '../Image';
+import withStyles from '../../helpers/WithStyles';
+import CardTitle from './CardTitle';
+import CardSubtitle from './CardSubtitle';
+import CardFooter from './CardFooter';
+import Paragraph from '../Paragraph';
 
 class Card extends React.Component {
   render() {
@@ -11,16 +16,16 @@ class Card extends React.Component {
       title,
       subTitle,
       summary,
-      showBorder,
       contentAlign,
       children,
       imageShadow,
       summaryJustified,
-      shadow
+      shadow,
+      className
     } = this.props;
     return (
       <div
-        className={`card h-100 Card ${!showBorder ? 'border-0' : ''} ${
+        className={`card h-100 Card ${className} ${
           shadow ? 'Card--shadow' : ''
         }`}
       >
@@ -34,28 +39,16 @@ class Card extends React.Component {
           />
         )}
         {(title || subTitle || summary) && (
-          <div className={`card-body text-${contentAlign}`}>
-            {title && <div className="Card__Title mb-2">{title}</div>}
-            {subTitle && <div className="Card__Subtitle mb-3">{subTitle}</div>}
-            {summary && (
-              <p
-                className={`Card__Summary m-0 ${
-                  summaryJustified ? 'Card__Summary--justified' : ''
-                }`}
-              >
-                {summary}
-              </p>
-            )}
+          <div className={`card-body`}>
+            {title && <CardTitle marginBottom="2" content={title}/>}
+            {subTitle && <CardSubtitle marginBottom="3" content={subTitle}/>}
+            {summary && <Paragraph className={`Card__Summary`} text={summary}/>}
           </div>
         )}
         {children && (
-          <div
-            className={`card-footer bg-transparent border-0 ${
-              title || subTitle || summary ? 'pt-0' : ''
-            } text-${contentAlign}`}
-          >
+          <CardFooter bgColor="transparent" borderNone={true}>
             <React.Fragment>{children}</React.Fragment>
-          </div>
+          </CardFooter>
         )}
       </div>
     );
@@ -63,10 +56,6 @@ class Card extends React.Component {
 }
 
 Card.propTypes = {
-  /**
-   * Show or hide border. Default `true`
-   */
-  showBorder: PropTypes.bool,
   /**
    * Define if image is circular. Default `true`
    */
@@ -113,8 +102,7 @@ Card.propTypes = {
   contentAlign: PropTypes.string
 };
 Card.defaultProps = {
-  showBorder: true,
-  imageCircle: true,
+  imageCircle: false,
   imageBorder: false,
   imageShadow: false,
   shadow: false,
@@ -127,4 +115,5 @@ Card.defaultProps = {
   contentAlign: 'center'
 };
 
-export default Card;
+const CardWithStyles = withStyles(Card);
+export default CardWithStyles;

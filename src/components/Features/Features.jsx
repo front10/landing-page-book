@@ -18,7 +18,7 @@ class Features extends React.Component {
       showFooter,
       shadow,
       imageShadow,
-      outlineButton,
+      buttonOutline,
       buttonColor,
       columnClassName
     } = this.props;
@@ -49,7 +49,7 @@ class Features extends React.Component {
             >
               {showFooter &&
                 feature.link && (
-                  <Button outline={outlineButton} color={buttonColor}>
+                  <Button outline={buttonOutline} color={buttonColor}>
                     <Link href={feature.link}>See more</Link>
                   </Button>
                 )}
@@ -101,7 +101,7 @@ Features.propTypes = {
   /**
    * Establishes if `See more` button is outline. Default `true`
    */
-  outlineButton: PropTypes.bool,
+  buttonOutline: PropTypes.bool,
   /**
    * Button color, can by any of bootstrap colors. Default `default`
    */
@@ -136,11 +136,11 @@ Features.defaultProps = {
   showTitle: true,
   showSubtitle: true,
   showSummary: true,
-  imageCircle: true,
+  imageCircle: false,
   imageBorder: false,
   imageShadow: false,
   showFooter: true,
-  outlineButton: true,
+  buttonOutline: true,
   buttonColor: 'default',
   contentAlign: 'center',
   columnClassName: 'col-12 col-sm- col-md',

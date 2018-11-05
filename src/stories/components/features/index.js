@@ -29,7 +29,8 @@ stories.add(
     imageBorder={false}
     imageShadow={false}
     showFooter
-    outlineButton
+    buttonOutline
+    buttonColor="primary"
     contentAlign="center"
     features={${JSON.stringify(features, null, 8)}}
 />`}

@@ -12,7 +12,7 @@
 | imageBorder | `bool` | Establishes if image is with border. Default `false` | `false` |
 | imageCircle | `bool` | Establishes if image is circled. Default `true` | `true` |
 | imageShadow | `bool` | Establishes image with shadow. Default `false` | `false` |
-| outlineButton | `bool` | Establishes if `See more` button is outline. Default `true` | `true` |
+| buttonOutline | `bool` | Establishes if `See more` button is outline. Default `true` | `true` |
 | shadow | `bool` | Establishes shadow for each card. Default `false` | `false` |
 | showFooter | `bool` | Show or hide Card footer. Default `true` | `true` |
 | showImage | `bool` | Show or hide image. Default `true` | `true` |

@@ -40,7 +40,7 @@ const withStyles = WrappedComponent => {
     }
 
     getBorderBasedStyles() {
-      const { border, borderTop, borderRight, borderBottom, borderLeft } = this.props;
+      const { border, borderTop, borderRight, borderBottom, borderLeft, borderNone } = this.props;
       let borderBasedClasses = '';
       if (border) {
         borderBasedClasses = `${borderBasedClasses} border`;
@@ -56,6 +56,9 @@ const withStyles = WrappedComponent => {
       }
       if (borderLeft) {
         borderBasedClasses = `${borderBasedClasses} border-left`;
+      }
+      if (borderNone) {
+        borderBasedClasses = `${borderBasedClasses} border-0`;
       }
       return borderBasedClasses;
     }
@@ -115,6 +118,7 @@ const withStyles = WrappedComponent => {
     borderRight: PropTypes.string,
     borderBottom: PropTypes.string,
     borderLeft: PropTypes.string,
+    borderNone: PropTypes.string,
     /**
      * Paragraph alignment. Default  `justify`, can be `left`, `center` and `right`
      */
@@ -159,6 +163,7 @@ const withStyles = WrappedComponent => {
     borderRight: null,
     borderBottom: null,
     borderLeft: null,
+    borderNone: null,
     textAlign: null,
     textTransform: null,
     textTruncate: null,

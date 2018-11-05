@@ -1,19 +1,12 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import Header from '../Header';
 import withStyles from '../../helpers/WithStyles';
 
 class Section extends Component {
   render() {
-    const {
-      gray,
-      title,
-      subTitle,
-      children,
-      className,
-      contentClassName,
-      headerTextAlign
-    } = this.props;
+    const { gray, title, subTitle, children, className, contentClassName } = this.props;
     return (
       <section className={`Section ${gray ? 'Section--gray' : ''} ${className}`}>
         <div className={`p-5 ${contentClassName}`}>
@@ -21,20 +14,20 @@ class Section extends Component {
             <div className="mb-5 text-center">
               {title && (
                 <Header
-                  textAlign={headerTextAlign}
                   type="h2"
                   className="Section__Title"
                   marginBottom="2"
+                  {...extractProps('title', this.props)}
                 >
                   {title}
                 </Header>
               )}
               {subTitle && (
                 <Header
-                  textAlign={headerTextAlign}
                   type="h3"
                   className="Section__Subtitle"
                   marginBottom="2"
+                  {...extractProps('subTitle', this.props)}
                 >
                   {subTitle}
                 </Header>
@@ -66,10 +59,6 @@ Section.propTypes = {
    */
   className: PropTypes.string,
   /**
-   *  Define aligment of the component. Default `"center"`, can be `"right"` or `"left"`
-   */
-  headerTextAlign: PropTypes.string,
-  /**
    * Section content css class. Default `""`
    */
   contentClassName: PropTypes.string,
@@ -83,7 +72,6 @@ Section.defaultProps = {
   title: '',
   subTitle: '',
   className: '',
-  headerTextAlign: 'center',
   contentClassName: '',
   children: null
 };

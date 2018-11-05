@@ -81,7 +81,9 @@ const withStyles = WrappedComponent => {
 
     translatePropsStyles() {
       const { className, classNames } = this.props;
-      let finalClasses = `${className} ${classNames}`;
+      let finalClasses = '';
+      if (className) finalClasses += ` ${className}`;
+      if (classNames) finalClasses += ` ${classNames}`;
       const layoutBasedClasses = this.getLayoutBasedStyles();
       const colorBasedClasses = this.getColorBasedStyles();
       const borderBasedClasses = this.getBorderBasedStyles();

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 import Button from '../Button/Button';
 import NavbarBrand from '../NavbarBrand/NavbarBrand';
 import Image from '../Image/Image';
@@ -179,4 +180,4 @@ Navbar.defaultProps = {
   onItemClick: () => {}
 };
 
-export default Navbar;
+export default withStyles(Navbar);

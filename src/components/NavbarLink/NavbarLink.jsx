@@ -1,12 +1,18 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class NavbarLink extends Component {
   render() {
-    const { href, target, onClick, children } = this.props;
+    const { href, target, onClick, children, className } = this.props;
     return (
       <li className="nav-item">
-        <a className="nav-link NavbarLink" href={href} target={target} onClick={onClick}>
+        <a
+          className={`${className} nav-link NavbarLink`}
+          href={href}
+          target={target}
+          onClick={onClick}
+        >
           {children}
         </a>
       </li>
@@ -30,13 +36,18 @@ NavbarLink.propTypes = {
   /**
    * Elements show into the NavbarLink
    */
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   * Class of the component. Default `""`
+   */
+  className: PropTypes.string
 };
 NavbarLink.defaultProps = {
   href: '#',
   target: '',
   onClick: () => {},
-  children: null
+  children: null,
+  className: ''
 };
 
-export default NavbarLink;
+export default withStyles(NavbarLink);

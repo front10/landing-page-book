@@ -10,14 +10,8 @@ class Header extends Component {
   }
 
   render() {
-    const {
-      className,
-      type,
-      children,
-      textAlign,
-      icon
-    } = this.props;
-    let componentClassName = `${className}`;
+    const { className, type, children, textAlign, icon } = this.props;
+    const componentClassName = `${className}`;
     return React.createElement(
       type,
       {
@@ -48,13 +42,18 @@ Header.propTypes = {
   /**
    * List of element to show inside as childrens.
    */
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   * Icon to show in component. Default `""`
+   */
+  textAlign: PropTypes.string
 };
 Header.defaultProps = {
   icon: '',
   className: '',
   type: 'h1',
-  children: null
+  children: null,
+  textAlign: null
 };
 
 const HeaderWithStyles = withStyles(Header);

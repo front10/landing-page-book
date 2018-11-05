@@ -35,7 +35,14 @@ const available = {
 
 class Browser extends Component {
   render() {
-    const { vendor, version, showBrowserVendor, showBrowserVersion, imgFilter, className } = this.props;
+    const {
+      vendor,
+      version,
+      showBrowserVendor,
+      showBrowserVersion,
+      imgFilter,
+      className
+    } = this.props;
     return (
       <div className={`Browser d-inline ${className}`}>
         <Image
@@ -71,14 +78,16 @@ Browser.propTypes = {
   /**
    * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
    */
-  imgFilter: PropTypes.string
+  imgFilter: PropTypes.string,
+  className: PropTypes.string
 };
 Browser.defaultProps = {
   showBrowserVendor: true,
   showBrowserVersion: true,
   vendor: '',
   version: '',
-  imgFilter: null
+  imgFilter: null,
+  className: null
 };
 
 const BrowserWithStyles = withStyles(Browser);

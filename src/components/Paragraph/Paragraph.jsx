@@ -5,10 +5,7 @@ import withStyles from '../../helpers/WithStyles';
 
 class Paragraph extends Component {
   render() {
-    const {
-      text,
-      className
-    } = this.props;
+    const { text, className } = this.props;
     return <p className={className}>{ReactHtmlParser(text)}</p>;
   }
 }
@@ -17,10 +14,11 @@ Paragraph.propTypes = {
   /**
    * Text of the Paragraph,  this prop is required.
    */
-  text: PropTypes.string.isRequired
+  text: PropTypes.string.isRequired,
+  className: PropTypes.string
 };
 Paragraph.defaultProps = {
-  text: ''
+  className: null
 };
 
 const ParagraphWithStyles = withStyles(Paragraph);

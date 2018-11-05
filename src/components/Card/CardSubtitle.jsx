@@ -4,21 +4,18 @@ import withStyles from '../../helpers/WithStyles';
 
 class CardSubtitle extends React.Component {
   render() {
-    const {
-      content,
-      className
-    } = this.props;
-    return (
-      <div className={`Card__CardSubtitle ${className}`}>{content}</div>
-    );
+    const { content, className } = this.props;
+    return <div className={`Card__CardSubtitle ${className}`}>{content}</div>;
   }
 }
 
 CardSubtitle.propTypes = {
-  content: PropTypes.string
+  content: PropTypes.string,
+  className: PropTypes.string
 };
 CardSubtitle.defaultProps = {
-  content: ''
+  content: '',
+  className: ''
 };
 
 const CardSubtitleWithStyles = withStyles(CardSubtitle);

@@ -64,7 +64,14 @@ const withStyles = WrappedComponent => {
     }
 
     getTextBasedStyles() {
-      const { textAlign, textTransform, textTruncate, fontItalic, fontWeight, textMonoSpace } = this.props;
+      const {
+        textAlign,
+        textTransform,
+        textTruncate,
+        fontItalic,
+        fontWeight,
+        textMonoSpace
+      } = this.props;
       let textAlignBasedClasses = '';
       if (textAlign) textAlignBasedClasses += `${textAlignBasedClasses} text-${textAlign}`;
       if (textTransform) textAlignBasedClasses += `${textAlignBasedClasses} text-${textTransform}`;
@@ -100,7 +107,8 @@ const withStyles = WrappedComponent => {
 
     render() {
       const classNames = this.translatePropsStyles();
-      return <WrappedComponent {...this.props} className={classNames} style={this.props.style}/>;
+      const { style } = this.props;
+      return <WrappedComponent {...this.props} className={classNames} style={style} />;
     }
   }
 

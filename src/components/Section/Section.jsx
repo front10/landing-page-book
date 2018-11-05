@@ -20,12 +20,22 @@ class Section extends Component {
           {(title || subTitle) && (
             <div className="mb-5 text-center">
               {title && (
-                <Header textAlign={headerTextAlign} type="h2" className="Section__Title" marginBottom="2">
+                <Header
+                  textAlign={headerTextAlign}
+                  type="h2"
+                  className="Section__Title"
+                  marginBottom="2"
+                >
                   {title}
                 </Header>
               )}
               {subTitle && (
-                <Header textAlign={headerTextAlign} type="h3" className="Section__Subtitle" marginBottom="2">
+                <Header
+                  textAlign={headerTextAlign}
+                  type="h3"
+                  className="Section__Subtitle"
+                  marginBottom="2"
+                >
                   {subTitle}
                 </Header>
               )}

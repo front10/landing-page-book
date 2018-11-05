@@ -7,13 +7,7 @@ class Link extends Component {
     const { disabled, className, tooltip, href, target, children } = this.props;
     return (
       <React.Fragment>
-        <a
-          title={tooltip}
-          disabled={disabled}
-          className={className}
-          href={href}
-          target={target}
-        >
+        <a title={tooltip} disabled={disabled} className={className} href={href} target={target}>
           {children}
         </a>
       </React.Fragment>
@@ -45,19 +39,14 @@ Link.propTypes = {
   /**
    * Elements to show inside of Links
    */
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
-  /**
-   * In case you wanted to pass custom styles `""`
-   */
-  style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Link.defaultProps = {
   disabled: false,
   className: '',
   tooltip: '',
   target: '',
-  children: null,
-  style: null
+  children: null
 };
 
 const LinkWithStyles = withStyles(Link);

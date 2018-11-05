@@ -22,7 +22,6 @@ const extractProps = (prefix, props) => {
       }
       return prop;
     });
-    console.log(newProps);
   }
   return newProps;
 };

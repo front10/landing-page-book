@@ -47,9 +47,16 @@ a .Card.h-100 {
 }
 
 a .Card:hover {
-    background-color: rgba(0, 0, 0, 0.08);
+    background-color: rgba(1,108,209,.079);
 }
 
+a .Card:hover .Card__Title{
+    color: #016cd1;
+}
+
+a .Card .Card__Title{
+    color: #435a6f;
+}
 .Section .Section__Subtitle {
     color: #525252;
 }

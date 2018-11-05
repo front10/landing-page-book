@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Paragraphs Paragraphs should render 1`] = `
+exports[`Paragraph Paragraph should render 1`] = `
 ReactWrapper {
-  Symbol(enzyme.__unrendered__): <Paragraphs
+  Symbol(enzyme.__unrendered__): <Paragraph
     color="body"
     fontItalic={false}
     fontWeight="normal"
-    text="Testing paragraphs"
+    text="Testing Paragraph"
     textAlign="justify"
     textMonoSpace={false}
     textTransform=""
@@ -22,7 +22,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__node__): Object {
-    "instance": Paragraphs {
+    "instance": Paragraph {
       "_reactInternalFiber": FiberNode {
         "_debugID": 50,
         "_debugIsCurrentlyTiming": false,
@@ -51,7 +51,7 @@ ReactWrapper {
               "color": "body",
               "fontItalic": false,
               "fontWeight": "normal",
-              "text": "Testing paragraphs",
+              "text": "Testing Paragraph",
               "textAlign": "justify",
               "textMonoSpace": false,
               "textTransform": "",
@@ -65,7 +65,7 @@ ReactWrapper {
               "color": "body",
               "fontItalic": false,
               "fontWeight": "normal",
-              "text": "Testing paragraphs",
+              "text": "Testing Paragraph",
               "textAlign": "justify",
               "textMonoSpace": false,
               "textTransform": "",
@@ -81,7 +81,7 @@ ReactWrapper {
               "color": "body",
               "fontItalic": false,
               "fontWeight": "normal",
-              "text": "Testing paragraphs",
+              "text": "Testing Paragraph",
               "textAlign": "justify",
               "textMonoSpace": false,
               "textTransform": "",
@@ -128,7 +128,7 @@ ReactWrapper {
                   <p
                     class="text-justify  font-weight-normal text-body"
                   >
-                    Testing paragraphs
+                    Testing Paragraph
                   </p>
                 </div>,
                 "context": Object {},
@@ -175,7 +175,7 @@ ReactWrapper {
                           "color": "body",
                           "fontItalic": false,
                           "fontWeight": "normal",
-                          "text": "Testing paragraphs",
+                          "text": "Testing Paragraph",
                           "textAlign": "justify",
                           "textMonoSpace": false,
                           "textTransform": "",
@@ -203,7 +203,7 @@ ReactWrapper {
                           "color": "body",
                           "fontItalic": false,
                           "fontWeight": "normal",
-                          "text": "Testing paragraphs",
+                          "text": "Testing Paragraph",
                           "textAlign": "justify",
                           "textMonoSpace": false,
                           "textTransform": "",
@@ -236,7 +236,7 @@ ReactWrapper {
                     "color": "body",
                     "fontItalic": false,
                     "fontWeight": "normal",
-                    "text": "Testing paragraphs",
+                    "text": "Testing Paragraph",
                     "textAlign": "justify",
                     "textMonoSpace": false,
                     "textTransform": "",
@@ -257,7 +257,7 @@ ReactWrapper {
                 <p
                   class="text-justify  font-weight-normal text-body"
                 >
-                  Testing paragraphs
+                  Testing Paragraph
                 </p>
               </div>,
               "context": Object {},
@@ -295,7 +295,7 @@ ReactWrapper {
                       "color": "body",
                       "fontItalic": false,
                       "fontWeight": "normal",
-                      "text": "Testing paragraphs",
+                      "text": "Testing Paragraph",
                       "textAlign": "justify",
                       "textMonoSpace": false,
                       "textTransform": "",
@@ -327,7 +327,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -342,7 +342,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -391,16 +391,16 @@ ReactWrapper {
             "index": 0,
             "key": null,
             "lastEffect": null,
-            "memoizedProps": "Testing paragraphs",
+            "memoizedProps": "Testing Paragraph",
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
-            "pendingProps": "Testing paragraphs",
+            "pendingProps": "Testing Paragraph",
             "ref": null,
             "return": [Circular],
             "selfBaseDuration": 0,
             "sibling": null,
-            "stateNode": Testing paragraphs,
+            "stateNode": Testing Paragraph,
             "tag": 6,
             "treeBaseDuration": 0,
             "type": null,
@@ -417,7 +417,7 @@ ReactWrapper {
           "lastEffect": null,
           "memoizedProps": Object {
             "children": Array [
-              "Testing paragraphs",
+              "Testing Paragraph",
             ],
             "className": "text-justify  font-weight-normal text-body",
           },
@@ -426,7 +426,7 @@ ReactWrapper {
           "nextEffect": null,
           "pendingProps": Object {
             "children": Array [
-              "Testing paragraphs",
+              "Testing Paragraph",
             ],
             "className": "text-justify  font-weight-normal text-body",
           },
@@ -437,7 +437,7 @@ ReactWrapper {
           "stateNode": <p
             class="text-justify  font-weight-normal text-body"
           >
-            Testing paragraphs
+            Testing Paragraph
           </p>,
           "tag": 5,
           "treeBaseDuration": 0,
@@ -457,7 +457,7 @@ ReactWrapper {
           "color": "body",
           "fontItalic": false,
           "fontWeight": "normal",
-          "text": "Testing paragraphs",
+          "text": "Testing Paragraph",
           "textAlign": "justify",
           "textMonoSpace": false,
           "textTransform": "",
@@ -470,7 +470,7 @@ ReactWrapper {
           "color": "body",
           "fontItalic": false,
           "fontWeight": "normal",
-          "text": "Testing paragraphs",
+          "text": "Testing Paragraph",
           "textAlign": "justify",
           "textMonoSpace": false,
           "textTransform": "",
@@ -502,7 +502,7 @@ ReactWrapper {
               "color": "body",
               "fontItalic": false,
               "fontWeight": "normal",
-              "text": "Testing paragraphs",
+              "text": "Testing Paragraph",
               "textAlign": "justify",
               "textMonoSpace": false,
               "textTransform": "",
@@ -516,7 +516,7 @@ ReactWrapper {
               "color": "body",
               "fontItalic": false,
               "fontWeight": "normal",
-              "text": "Testing paragraphs",
+              "text": "Testing Paragraph",
               "textAlign": "justify",
               "textMonoSpace": false,
               "textTransform": "",
@@ -532,7 +532,7 @@ ReactWrapper {
               "color": "body",
               "fontItalic": false,
               "fontWeight": "normal",
-              "text": "Testing paragraphs",
+              "text": "Testing Paragraph",
               "textAlign": "justify",
               "textMonoSpace": false,
               "textTransform": "",
@@ -579,7 +579,7 @@ ReactWrapper {
                   <p
                     class="text-justify  font-weight-normal text-body"
                   >
-                    Testing paragraphs
+                    Testing Paragraph
                   </p>
                 </div>,
                 "context": Object {},
@@ -626,7 +626,7 @@ ReactWrapper {
                           "color": "body",
                           "fontItalic": false,
                           "fontWeight": "normal",
-                          "text": "Testing paragraphs",
+                          "text": "Testing Paragraph",
                           "textAlign": "justify",
                           "textMonoSpace": false,
                           "textTransform": "",
@@ -654,7 +654,7 @@ ReactWrapper {
                           "color": "body",
                           "fontItalic": false,
                           "fontWeight": "normal",
-                          "text": "Testing paragraphs",
+                          "text": "Testing Paragraph",
                           "textAlign": "justify",
                           "textMonoSpace": false,
                           "textTransform": "",
@@ -687,7 +687,7 @@ ReactWrapper {
                     "color": "body",
                     "fontItalic": false,
                     "fontWeight": "normal",
-                    "text": "Testing paragraphs",
+                    "text": "Testing Paragraph",
                     "textAlign": "justify",
                     "textMonoSpace": false,
                     "textTransform": "",
@@ -708,7 +708,7 @@ ReactWrapper {
                 <p
                   class="text-justify  font-weight-normal text-body"
                 >
-                  Testing paragraphs
+                  Testing Paragraph
                 </p>
               </div>,
               "context": Object {},
@@ -746,7 +746,7 @@ ReactWrapper {
                       "color": "body",
                       "fontItalic": false,
                       "fontWeight": "normal",
-                      "text": "Testing paragraphs",
+                      "text": "Testing Paragraph",
                       "textAlign": "justify",
                       "textMonoSpace": false,
                       "textTransform": "",
@@ -778,7 +778,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -793,7 +793,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -826,7 +826,7 @@ ReactWrapper {
         "color": "body",
         "fontItalic": false,
         "fontWeight": "normal",
-        "text": "Testing paragraphs",
+        "text": "Testing Paragraph",
         "textAlign": "justify",
         "textMonoSpace": false,
         "textTransform": "",
@@ -847,7 +847,7 @@ ReactWrapper {
       "color": "body",
       "fontItalic": false,
       "fontWeight": "normal",
-      "text": "Testing paragraphs",
+      "text": "Testing Paragraph",
       "textAlign": "justify",
       "textMonoSpace": false,
       "textTransform": "",
@@ -858,19 +858,19 @@ ReactWrapper {
       "instance": <p
         class="text-justify  font-weight-normal text-body"
       >
-        Testing paragraphs
+        Testing Paragraph
       </p>,
       "key": undefined,
       "nodeType": "host",
       "props": Object {
         "children": Array [
-          "Testing paragraphs",
+          "Testing Paragraph",
         ],
         "className": "text-justify  font-weight-normal text-body",
       },
       "ref": null,
       "rendered": Array [
-        "Testing paragraphs",
+        "Testing Paragraph",
       ],
       "type": "p",
     },
@@ -878,7 +878,7 @@ ReactWrapper {
   },
   Symbol(enzyme.__nodes__): Array [
     Object {
-      "instance": Paragraphs {
+      "instance": Paragraph {
         "_reactInternalFiber": FiberNode {
           "_debugID": 50,
           "_debugIsCurrentlyTiming": false,
@@ -907,7 +907,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -921,7 +921,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -937,7 +937,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -984,7 +984,7 @@ ReactWrapper {
                     <p
                       class="text-justify  font-weight-normal text-body"
                     >
-                      Testing paragraphs
+                      Testing Paragraph
                     </p>
                   </div>,
                   "context": Object {},
@@ -1031,7 +1031,7 @@ ReactWrapper {
                             "color": "body",
                             "fontItalic": false,
                             "fontWeight": "normal",
-                            "text": "Testing paragraphs",
+                            "text": "Testing Paragraph",
                             "textAlign": "justify",
                             "textMonoSpace": false,
                             "textTransform": "",
@@ -1059,7 +1059,7 @@ ReactWrapper {
                             "color": "body",
                             "fontItalic": false,
                             "fontWeight": "normal",
-                            "text": "Testing paragraphs",
+                            "text": "Testing Paragraph",
                             "textAlign": "justify",
                             "textMonoSpace": false,
                             "textTransform": "",
@@ -1092,7 +1092,7 @@ ReactWrapper {
                       "color": "body",
                       "fontItalic": false,
                       "fontWeight": "normal",
-                      "text": "Testing paragraphs",
+                      "text": "Testing Paragraph",
                       "textAlign": "justify",
                       "textMonoSpace": false,
                       "textTransform": "",
@@ -1113,7 +1113,7 @@ ReactWrapper {
                   <p
                     class="text-justify  font-weight-normal text-body"
                   >
-                    Testing paragraphs
+                    Testing Paragraph
                   </p>
                 </div>,
                 "context": Object {},
@@ -1151,7 +1151,7 @@ ReactWrapper {
                         "color": "body",
                         "fontItalic": false,
                         "fontWeight": "normal",
-                        "text": "Testing paragraphs",
+                        "text": "Testing Paragraph",
                         "textAlign": "justify",
                         "textMonoSpace": false,
                         "textTransform": "",
@@ -1183,7 +1183,7 @@ ReactWrapper {
                   "color": "body",
                   "fontItalic": false,
                   "fontWeight": "normal",
-                  "text": "Testing paragraphs",
+                  "text": "Testing Paragraph",
                   "textAlign": "justify",
                   "textMonoSpace": false,
                   "textTransform": "",
@@ -1198,7 +1198,7 @@ ReactWrapper {
                   "color": "body",
                   "fontItalic": false,
                   "fontWeight": "normal",
-                  "text": "Testing paragraphs",
+                  "text": "Testing Paragraph",
                   "textAlign": "justify",
                   "textMonoSpace": false,
                   "textTransform": "",
@@ -1247,16 +1247,16 @@ ReactWrapper {
               "index": 0,
               "key": null,
               "lastEffect": null,
-              "memoizedProps": "Testing paragraphs",
+              "memoizedProps": "Testing Paragraph",
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
-              "pendingProps": "Testing paragraphs",
+              "pendingProps": "Testing Paragraph",
               "ref": null,
               "return": [Circular],
               "selfBaseDuration": 0,
               "sibling": null,
-              "stateNode": Testing paragraphs,
+              "stateNode": Testing Paragraph,
               "tag": 6,
               "treeBaseDuration": 0,
               "type": null,
@@ -1273,7 +1273,7 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "children": Array [
-                "Testing paragraphs",
+                "Testing Paragraph",
               ],
               "className": "text-justify  font-weight-normal text-body",
             },
@@ -1282,7 +1282,7 @@ ReactWrapper {
             "nextEffect": null,
             "pendingProps": Object {
               "children": Array [
-                "Testing paragraphs",
+                "Testing Paragraph",
               ],
               "className": "text-justify  font-weight-normal text-body",
             },
@@ -1293,7 +1293,7 @@ ReactWrapper {
             "stateNode": <p
               class="text-justify  font-weight-normal text-body"
             >
-              Testing paragraphs
+              Testing Paragraph
             </p>,
             "tag": 5,
             "treeBaseDuration": 0,
@@ -1313,7 +1313,7 @@ ReactWrapper {
             "color": "body",
             "fontItalic": false,
             "fontWeight": "normal",
-            "text": "Testing paragraphs",
+            "text": "Testing Paragraph",
             "textAlign": "justify",
             "textMonoSpace": false,
             "textTransform": "",
@@ -1326,7 +1326,7 @@ ReactWrapper {
             "color": "body",
             "fontItalic": false,
             "fontWeight": "normal",
-            "text": "Testing paragraphs",
+            "text": "Testing Paragraph",
             "textAlign": "justify",
             "textMonoSpace": false,
             "textTransform": "",
@@ -1358,7 +1358,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -1372,7 +1372,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -1388,7 +1388,7 @@ ReactWrapper {
                 "color": "body",
                 "fontItalic": false,
                 "fontWeight": "normal",
-                "text": "Testing paragraphs",
+                "text": "Testing Paragraph",
                 "textAlign": "justify",
                 "textMonoSpace": false,
                 "textTransform": "",
@@ -1435,7 +1435,7 @@ ReactWrapper {
                     <p
                       class="text-justify  font-weight-normal text-body"
                     >
-                      Testing paragraphs
+                      Testing Paragraph
                     </p>
                   </div>,
                   "context": Object {},
@@ -1482,7 +1482,7 @@ ReactWrapper {
                             "color": "body",
                             "fontItalic": false,
                             "fontWeight": "normal",
-                            "text": "Testing paragraphs",
+                            "text": "Testing Paragraph",
                             "textAlign": "justify",
                             "textMonoSpace": false,
                             "textTransform": "",
@@ -1510,7 +1510,7 @@ ReactWrapper {
                             "color": "body",
                             "fontItalic": false,
                             "fontWeight": "normal",
-                            "text": "Testing paragraphs",
+                            "text": "Testing Paragraph",
                             "textAlign": "justify",
                             "textMonoSpace": false,
                             "textTransform": "",
@@ -1543,7 +1543,7 @@ ReactWrapper {
                       "color": "body",
                       "fontItalic": false,
                       "fontWeight": "normal",
-                      "text": "Testing paragraphs",
+                      "text": "Testing Paragraph",
                       "textAlign": "justify",
                       "textMonoSpace": false,
                       "textTransform": "",
@@ -1564,7 +1564,7 @@ ReactWrapper {
                   <p
                     class="text-justify  font-weight-normal text-body"
                   >
-                    Testing paragraphs
+                    Testing Paragraph
                   </p>
                 </div>,
                 "context": Object {},
@@ -1602,7 +1602,7 @@ ReactWrapper {
                         "color": "body",
                         "fontItalic": false,
                         "fontWeight": "normal",
-                        "text": "Testing paragraphs",
+                        "text": "Testing Paragraph",
                         "textAlign": "justify",
                         "textMonoSpace": false,
                         "textTransform": "",
@@ -1634,7 +1634,7 @@ ReactWrapper {
                   "color": "body",
                   "fontItalic": false,
                   "fontWeight": "normal",
-                  "text": "Testing paragraphs",
+                  "text": "Testing Paragraph",
                   "textAlign": "justify",
                   "textMonoSpace": false,
                   "textTransform": "",
@@ -1649,7 +1649,7 @@ ReactWrapper {
                   "color": "body",
                   "fontItalic": false,
                   "fontWeight": "normal",
-                  "text": "Testing paragraphs",
+                  "text": "Testing Paragraph",
                   "textAlign": "justify",
                   "textMonoSpace": false,
                   "textTransform": "",
@@ -1682,7 +1682,7 @@ ReactWrapper {
           "color": "body",
           "fontItalic": false,
           "fontWeight": "normal",
-          "text": "Testing paragraphs",
+          "text": "Testing Paragraph",
           "textAlign": "justify",
           "textMonoSpace": false,
           "textTransform": "",
@@ -1703,7 +1703,7 @@ ReactWrapper {
         "color": "body",
         "fontItalic": false,
         "fontWeight": "normal",
-        "text": "Testing paragraphs",
+        "text": "Testing Paragraph",
         "textAlign": "justify",
         "textMonoSpace": false,
         "textTransform": "",
@@ -1714,19 +1714,19 @@ ReactWrapper {
         "instance": <p
           class="text-justify  font-weight-normal text-body"
         >
-          Testing paragraphs
+          Testing Paragraph
         </p>,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "children": Array [
-            "Testing paragraphs",
+            "Testing Paragraph",
           ],
           "className": "text-justify  font-weight-normal text-body",
         },
         "ref": null,
         "rendered": Array [
-          "Testing paragraphs",
+          "Testing Paragraph",
         ],
         "type": "p",
       },

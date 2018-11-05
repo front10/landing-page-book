@@ -37,7 +37,7 @@ const components = [
     components: [
       'Button',
       'TextBox',
-      'Paragraphs',
+      'Paragraph',
       'Header',
       'Link',
       'Card',

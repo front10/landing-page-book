@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Container extends Component {
   render() {
@@ -30,4 +31,5 @@ Container.defaultProps = {
   className: ''
 };
 
-export default Container;
+const ContainerWithStyles = withStyles(Container);
+export default ContainerWithStyles;

@@ -9,7 +9,7 @@ export default {
     {
       name: 'Basic',
       summary: '',
-      code: `<Button tooltip="Tis is a button tooltip">
+      code: `<Button color="primary" tooltip="This is a tooltip">
   <Icon icon="fa fa-home" /> Home
 </Button>`,
       tabsActive: ['code']
@@ -17,32 +17,32 @@ export default {
     {
       name: 'Buttons',
       summary: '',
-      code: `<React.Fragment>
-  <Button className="mr-1" color="primary"> Primary </Button>
-  <Button className="mr-1" color="secondary"> Secondary </Button>
-  <Button className="mr-1" color="success"> Success </Button>
-  <Button className="mr-1" color="danger"> Danger </Button>
-  <Button className="mr-1" color="warning"> Warning </Button>
-  <Button className="mr-1" color="info"> Info </Button>
-  <Button className="mr-1" color="light"> Light </Button>
-  <Button className="mr-1" color="dark"> Dark </Button>
-  <Button className="mr-1" color="link"> Link </Button>
-</React.Fragment>`,
+      code: `<div>
+  <Button marginRight="1" color="primary"> Primary </Button>
+  <Button marginRight="1" color="secondary"> Secondary </Button>
+  <Button marginRight="1" color="success"> Success </Button>
+  <Button marginRight="1" color="danger"> Danger </Button>
+  <Button marginRight="1" color="warning"> Warning </Button>
+  <Button marginRight="1" color="info"> Info </Button>
+  <Button marginRight="1" color="light"> Light </Button>
+  <Button marginRight="1" color="dark"> Dark </Button>
+  <Button marginRight="1" color="link"> Link </Button>
+</div>`,
       tabsActive: []
     },
     {
       name: 'Buttons Outline',
       summary: '',
       code: `<React.Fragment>
-  <Button className="mr-1" outline color="primary">Primary</Button>
-  <Button className="mr-1" outline color="secondary">Secondary</Button>
-  <Button className="mr-1" outline color="success">Success</Button>
-  <Button className="mr-1" outline color="danger">Danger</Button>
-  <Button className="mr-1" outline color="warning">Warning</Button>
-  <Button className="mr-1" outline color="info">Info</Button>
-  <Button className="mr-1" outline color="light">Light</Button>
-  <Button className="mr-1" outline color="dark">Dark</Button>
-  <Button className="mr-1" outline color="link">Link</Button>
+  <Button marginRight="1" outline color="primary">Primary</Button>
+  <Button marginRight="1" outline color="secondary">Secondary</Button>
+  <Button marginRight="1" outline color="success">Success</Button>
+  <Button marginRight="1" outline color="danger">Danger</Button>
+  <Button marginRight="1" outline color="warning">Warning</Button>
+  <Button marginRight="1" outline color="info">Info</Button>
+  <Button marginRight="1" outline color="light">Light</Button>
+  <Button marginRight="1" outline color="dark">Dark</Button>
+  <Button marginRight="1" outline color="link">Link</Button>
 </React.Fragment>`,
       tabsActive: []
     },
@@ -50,8 +50,8 @@ export default {
       name: 'Size (small)',
       summary: '',
       code: `<React.Fragment>
-  <Button className="mr-1" color="primary" size="sm">Small button</Button>
-  <Button className="mr-1" color="secondary" size="sm">Small button</Button>
+  <Button marginRight="1" color="primary" size="sm">Small button</Button>
+  <Button marginRight="1" color="secondary" size="sm">Small button</Button>
 </React.Fragment>`,
       tabsActive: []
     },
@@ -59,8 +59,8 @@ export default {
       name: 'Size (large)',
       summary: '',
       code: `<React.Fragment>
-  <Button className="mr-1" color="primary" size="lg">Large button</Button>
-  <Button className="mr-1" color="secondary" size="lg">Large button</Button>
+  <Button marginRight="1" color="primary" size="lg">Large button</Button>
+  <Button marginRight="1" color="secondary" size="lg">Large button</Button>
 </React.Fragment>`,
       tabsActive: []
     },
@@ -68,8 +68,8 @@ export default {
       name: 'Desactivate state',
       summary: '',
       code: `<React.Fragment>
-  <Button className="mr-1" color="primary" disabled>Disabled button</Button>
-  <Button className="mr-1" color="secondary" disabled>Disabled button</Button>
+  <Button marginRight="1" color="primary" disabled>Disabled button</Button>
+  <Button marginRight="1" color="secondary" disabled>Disabled button</Button>
 </React.Fragment>`,
       tabsActive: []
     },
@@ -77,8 +77,8 @@ export default {
       name: 'Active state',
       summary: '',
       code: `<React.Fragment>
-  <Button className="mr-1" color="primary" active>Active button</Button>
-  <Button className="mr-1" color="secondary" active>Active button</Button>
+  <Button marginRight="1" color="primary" active>Active button</Button>
+  <Button marginRight="1" color="secondary" active>Active button</Button>
 </React.Fragment>`,
       tabsActive: []
     }

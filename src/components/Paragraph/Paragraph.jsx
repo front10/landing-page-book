@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ReactHtmlParser from 'react-html-parser';
 import withStyles from '../../helpers/WithStyles';
 
-class Paragraphs extends Component {
+class Paragraph extends Component {
   render() {
     const {
       text,
@@ -13,15 +13,15 @@ class Paragraphs extends Component {
   }
 }
 
-Paragraphs.propTypes = {
+Paragraph.propTypes = {
   /**
-   * Text of the paragraphs,  this prop is required.
+   * Text of the Paragraph,  this prop is required.
    */
   text: PropTypes.string.isRequired
 };
-Paragraphs.defaultProps = {
+Paragraph.defaultProps = {
   text: ''
 };
 
-const ParagraphsWithStyles = withStyles(Paragraphs);
-export default ParagraphsWithStyles;
+const ParagraphWithStyles = withStyles(Paragraph);
+export default ParagraphWithStyles;

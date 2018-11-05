@@ -1,31 +1,31 @@
 import React from 'react';
 import { configure, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
-import Paragraphs from './Paragraphs';
+import Paragraph from './Paragraph';
 
 configure({ adapter: new Adapter() });
 
-describe('Paragraphs', () => {
+describe('Paragraph', () => {
   let props;
   let mounted;
-  const paragraphs = () => {
+  const Paragraph = () => {
     if (!mounted) {
-      mounted = mount(<Paragraphs {...props} />);
+      mounted = mount(<Paragraph {...props} />);
     }
     return mounted;
   };
-  describe('Paragraphs', () => {
+  describe('Paragraph', () => {
     beforeEach(() => {
-      props = { text: "Testing paragraphs" };
+      props = { text: "Testing Paragraph" };
       mounted = undefined;
     });
 
     it('should render', () => {
-      expect(mount(<Paragraphs {...props} />)).toMatchSnapshot();
+      expect(mount(<Paragraph {...props} />)).toMatchSnapshot();
     });
 
-    it('always renders a paragraphs', () => {
-      const div = paragraphs().find('p');
+    it('always renders a Paragraph', () => {
+      const div = Paragraph().find('p');
       expect(div.length).toBeGreaterThan(0);
     });
   });

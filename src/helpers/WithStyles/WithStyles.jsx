@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const withStyles = WrappedComponent => {
   class Styled extends Component {
     getLayoutBasedStyles() {
-      const { marginRight, marginLeft, margin } = this.props;
+      const { marginRight, marginLeft, marginTop, marginBottom, margin } = this.props;
       let layoutClasses = '';
       if (margin) {
         layoutClasses = `${layoutClasses} m-${margin}`;
@@ -14,6 +14,12 @@ const withStyles = WrappedComponent => {
       }
       if (marginLeft) {
         layoutClasses = `${layoutClasses} ml-${marginLeft}`;
+      }
+      if (marginTop) {
+        layoutClasses = `${layoutClasses} mt-${marginTop}`;
+      }
+      if (marginBottom) {
+        layoutClasses = `${layoutClasses} mb-${marginBottom}`;
       }
       return layoutClasses;
     }
@@ -99,6 +105,8 @@ const withStyles = WrappedComponent => {
     margin: PropTypes.string,
     marginRight: PropTypes.string,
     marginLeft: PropTypes.string,
+    marginTop: PropTypes.string,
+    marginBottom: PropTypes.string,
     color: PropTypes.string,
     bgColor: PropTypes.string,
     textColor: PropTypes.string,
@@ -141,6 +149,8 @@ const withStyles = WrappedComponent => {
     margin: null,
     marginRight: null,
     marginLeft: null,
+    marginTop: null,
+    marginBottom: null,
     color: null,
     bgColor: null,
     textColor: null,

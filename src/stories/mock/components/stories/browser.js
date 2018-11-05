@@ -5,7 +5,8 @@ export default {
   stories: [
     {
       name: 'Basic',
-      summary: '',
+      summary:
+        'The icons of web browsers are very used whenever you want to show the compatibility of your website for different versions of browsers ...',
       code: `<Browser vendor="chrome" version=">= 20.0" />`,
       tabsActive: ['code']
     }

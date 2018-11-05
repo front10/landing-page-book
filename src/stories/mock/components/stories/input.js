@@ -6,7 +6,7 @@ export default {
   stories: [
     {
       name: 'Basic',
-      summary: '',
+      summary: 'The component supports differents input types: text, number, email and textarea.',
       code: `<Input
     name="myInput"
     placeholder="Enter a value"
@@ -17,7 +17,8 @@ export default {
     },
     {
       name: 'Size',
-      summary: '',
+      summary:
+        'Differentiating input sizes helps the user to know which is the most important part of the form.',
       code: `<React.Fragment>
     <Input name="Large" value="This is an large input" placeholder="Enter a value" icon="fa fa-user" size="lg"/>
     <Input name="Normal" value="This is an normal input" placeholder="Enter a value" icon="fa fa-user"/>

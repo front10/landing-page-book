@@ -82,7 +82,6 @@ export default {
                         contentAlign="left"
                         image="/images/card/image1.jpg"
                         imageCircle={false}
-                        imageShadow
                         subTitle="A tool for Component-Driven Development"
                         summary="A component explorer is a separate application which showcases the components in your app in various test “states”. A state is essentially a visual test case an typical input to the component."
                         title="Component Explorer"
@@ -101,23 +100,6 @@ export default {
                     well-specified role is nothing new; modularization has been one of the key tenets
                     of software engineering since long before I learned the concepts of “coupling and
                     cohesion”.
-                </p>
-                <p style={{color: '#3d3d3d'}}>
-                    Using the explorer you can test a given component in all the states that have been
-                    defined to be important. This isolation is key in enabling a workflow where you
-                    build one component at a time.
-                </p>
-                <p style={{color: '#3d3d3d'}}>
-                    Adding a component to an explorer is typically as simple as programmatically
-                    enumerating the interesting states (in React this is the props and context of that
-                    component). This may be familiar to you enumerating states is exactly how you do
-                    snapshot testing or screenshot testing (and it’s no surprise to see features that
-                    combine the above with component explorers).
-                </p>
-                <p style={{color: '#3d3d3d'}}>
-                    Once you have detailed the interesting states of a component, you can exhaustively
-                    visually test the component with just a few clicks. Learn more about component
-                    explorers below.
                 </p>
             </Column>
         </Row>

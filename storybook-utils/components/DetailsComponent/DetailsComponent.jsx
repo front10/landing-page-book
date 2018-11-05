@@ -1,7 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link as LinkScroll, Element } from 'react-scroll';
-import back from './back.png';
 import {
   // Section,
   Column,
@@ -17,6 +16,9 @@ import {
 
 import PropsManager from '../PropsManager';
 import './style.css';
+
+const image =
+  'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAS1BMVEUAAABmd4hggI9peIdkeoVidoloe45mdYpmeIpneIpmeItneIpmeIpmeYpmd4pmeIlmeIpmeIpmeIpmeIpmeItmeIpmeIpmeIr////qXIHVAAAAF3RSTlMADxARFxobI7u9xcfIy83O0tTY2tvu9cW9EVEAAAABYktHRBibaYUeAAAATElEQVQY02NgIA6wCHCh8gXFuZH5bMLiPIx4+ED1QuzMUAAS4BdHAjxAAT5xcTFRGOAECjDxiouwoVgKFBHGFGFFdxgPmtN5OBiIBgBwewSBxP8LIAAAAABJRU5ErkJggg==';
 
 class DetailsComponent extends React.Component {
   constructor(props) {
@@ -66,7 +68,7 @@ class DetailsComponent extends React.Component {
         <div className="title-component bg-light p-2">
           <Container className="pb-4 pt-3 prl-11">
             <Link href="/components" tooltip="Go Back" className="btn btn-back btn-everblue">
-              <img src={back} alt="Go Back" />
+              <img src={image} alt="Go Back" />
             </Link>
             <Header type="h2" className="name title-component d-inline">
               {name}

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import Browser from '../Browser';
 
 class BrowserSupport extends Component {
@@ -15,6 +16,7 @@ class BrowserSupport extends Component {
               showBrowserVendor={showBrowserVendor}
               showBrowserVersion={showBrowserVersion}
               imgFilter={imgFilter}
+              {...extractProps('browser', this.props)}
             />
           </div>
         ))}

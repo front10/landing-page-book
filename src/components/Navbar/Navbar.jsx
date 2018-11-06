@@ -122,9 +122,21 @@ Navbar.propTypes = {
    */
   brandName: PropTypes.string,
   /**
+   * Text color of brand. Default `"light"`
+   */
+  brandTextColor: PropTypes.string,
+  /**
    * Link to go when brand name or logo has clicked. Default `""`
    */
   brandLink: PropTypes.string,
+  /**
+   * Background color of navar. Default `"dark"`
+   */
+  bgColor: PropTypes.string,
+  /**
+   * Color of navar link. Default `"light"`
+   */
+  linkTextColor: PropTypes.string,
   /**
    * Image logo url. Default `""`
    */
@@ -175,6 +187,9 @@ Navbar.defaultProps = {
   brandLink: '',
   brandLogo: '',
   className: '',
+  bgColor: 'dark',
+  brandTextColor: 'light',
+  linkTextColor: 'light',
   expand: '',
   leftItems: [],
   rightItems: [],
@@ -182,4 +197,4 @@ Navbar.defaultProps = {
   onItemClick: () => {}
 };
 
-export default withStyles(Navbar);
+export default withStyles(Navbar, Navbar.defaultProps);

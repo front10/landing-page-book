@@ -1,10 +1,3 @@
-const ctaButtonStyles = {
-  color: 'white',
-  border: '2px solid white',
-  padding: '5px 15px',
-  float: 'left'
-};
-
 export default {
   name: 'Hero',
   summary:

@@ -5,7 +5,18 @@ const withStyles = (WrappedComponent, defaultProps) => {
   const wrappedDefaultProps = defaultProps || {};
   class Styled extends Component {
     getLayoutBasedStyles() {
-      const { marginRight, marginLeft, marginTop, marginBottom, margin } = this.props;
+      const {
+        marginRight,
+        marginLeft,
+        marginTop,
+        marginBottom,
+        margin,
+        paddingRight,
+        paddingLeft,
+        paddingTop,
+        paddingBottom,
+        padding
+      } = this.props;
       let layoutClasses = '';
       if (margin) {
         layoutClasses = `${layoutClasses} m-${margin}`;
@@ -21,6 +32,21 @@ const withStyles = (WrappedComponent, defaultProps) => {
       }
       if (marginBottom) {
         layoutClasses = `${layoutClasses} mb-${marginBottom}`;
+      }
+      if (padding) {
+        layoutClasses = `${layoutClasses} p-${padding}`;
+      }
+      if (paddingRight) {
+        layoutClasses = `${layoutClasses} pr-${paddingRight}`;
+      }
+      if (paddingLeft) {
+        layoutClasses = `${layoutClasses} pl-${paddingLeft}`;
+      }
+      if (paddingTop) {
+        layoutClasses = `${layoutClasses} pt-${paddingTop}`;
+      }
+      if (paddingBottom) {
+        layoutClasses = `${layoutClasses} pb-${paddingBottom}`;
       }
       return layoutClasses;
     }
@@ -118,6 +144,11 @@ const withStyles = (WrappedComponent, defaultProps) => {
     marginLeft: PropTypes.string,
     marginTop: PropTypes.string,
     marginBottom: PropTypes.string,
+    padding: PropTypes.string,
+    paddingRight: PropTypes.string,
+    paddingLeft: PropTypes.string,
+    paddingTop: PropTypes.string,
+    paddingBottom: PropTypes.string,
     bgColor: PropTypes.string,
     textColor: PropTypes.string,
     border: PropTypes.bool,
@@ -177,6 +208,11 @@ const withStyles = (WrappedComponent, defaultProps) => {
     fontItalic: wrappedDefaultProps.fontItalic || null,
     fontWeight: wrappedDefaultProps.fontWeight || null,
     style: wrappedDefaultProps.style || null
+    padding: null,
+    paddingRight: null,
+    paddingLeft: null,
+    paddingTop: null,
+    paddingBottom: null,
   };
   return Styled;
 };

@@ -46,12 +46,14 @@ class Browser extends Component {
     return (
       <div className={`Browser d-inline ${className}`}>
         <Image
-          src={available[vendor].icon}
-          alt={`Browser ${available[vendor].name} icon`}
+          src={available[vendor] && available[vendor].icon}
+          alt={`Browser ${available[vendor] && available[vendor].name} icon`}
           className="Browser__Icon"
           imgFilter={imgFilter}
         />
-        {showBrowserVendor && <div className="Browser__Text"> {available[vendor].name}</div>}
+        {showBrowserVendor && (
+          <div className="Browser__Text"> {available[vendor] && available[vendor].name}</div>
+        )}
         {showBrowserVersion && <div className="Browser__Version">{version}</div>}
       </div>
     );

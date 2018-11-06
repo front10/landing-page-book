@@ -90,14 +90,14 @@ class MainLayout extends React.Component {
               height="30"
             />
             <a
-              title="Github"
+              title="Github issues"
               className="text-secondary pull-right nav-link NavbarLink"
-              href="https://github.com/front10/landing-page-book/tree/master/src/components/Button"
+              href="https://github.com/front10/landing-page-book/issues"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <i className="fa fa-slack github-link-icon" title="" />
-              <span className="d-none d-sm-inline">Slack</span>
+              <i className="fa fa-question-circle github-link-icon" title="" />
+              <span className="d-none d-sm-inline">Support</span>
             </a>
             <a
               title="Github"

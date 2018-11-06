@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactFlagsSelect from 'react-flags-select';
+import withStyles from '../../helpers/WithStyles';
 
 class LanguageSwitcher extends Component {
   constructor(props) {
@@ -36,11 +37,12 @@ class LanguageSwitcher extends Component {
       customLabels,
       showOptionLabel,
       showFlag,
-      showArrow
+      showArrow,
+      className
     } = this.props;
     return (
       <div
-        className={`LanguageSwitcher ${!showFlag ? 'LanguageSwitcher--noflag' : ''} ${
+        className={` ${className} LanguageSwitcher ${!showFlag ? 'LanguageSwitcher--noflag' : ''} ${
           !showArrow ? 'LanguageSwitcher--noarrow' : ''
         }`}
       >
@@ -98,6 +100,10 @@ LanguageSwitcher.propTypes = {
    */
   customLabels: PropTypes.objectOf(PropTypes.any),
   /**
+   * Class to apply. Default `""`
+   */
+  className: PropTypes.string,
+  /**
    * Called when language selection change. Params `{language}`
    */
   onSelect: PropTypes.func
@@ -112,7 +118,8 @@ LanguageSwitcher.defaultProps = {
   placeholder: 'Language',
   languages: [],
   customLabels: {},
+  className: '',
   onSelect: () => {}
 };
 
-export default LanguageSwitcher;
+export default withStyles(LanguageSwitcher);

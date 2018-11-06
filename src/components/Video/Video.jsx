@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactPlayer from 'react-player';
+import withStyles from '../../helpers/WithStyles';
 
 class Video extends Component {
   render() {
@@ -138,4 +139,4 @@ Video.defaultProps = {
   onError: () => {}
 };
 
-export default Video;
+export default withStyles(Video);

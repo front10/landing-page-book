@@ -64,6 +64,7 @@ class GridComponent extends React.Component {
             className="grid-component"
             title={item.name}
             subTitle={item.description}
+            alignHeader="left"
           >
             {GridComponent.paintItems(item.components)}
           </Section>

@@ -38,7 +38,7 @@ stories.add(
     lat={26.5}
     lng={-80.2}
     zoom={10}
-    markers={markers}
+    markers={${JSON.stringify(markers, null, 8)}}
 />`}
       </PropsManager>
     </ThemeSelector>

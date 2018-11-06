@@ -74,7 +74,13 @@ const IndexPage = () => (
       </Section>
       <Section subTitle="Landing page book is a scalable choice for developers" title="FEATURES">
         <Container>
-          <Features features={features} imageCircle={false} showBorder={false} showSubtitle />
+          <Features
+            columnClassName="col-12 col-md-3 col-sm-6 blue-text"
+            features={features}
+            imageCircle={false}
+            showBorder={false}
+            showSubtitle
+          />
         </Container>
         <Container className="text-center">
           <Link
@@ -91,8 +97,8 @@ const IndexPage = () => (
           <Slider {...carousel}>
             {sliders.map(item => (
               <div key={item.name}>
-                <Link href={item.link} target="_blank">
-                  <Image src={item.image} alt="Navigation" width="50" />
+                <Link href={item.link}>
+                  <Image src={item.image} alt="Navigation" width="100" />
                   <Header className="mt-3 component-link text-center" type="h6">
                     {item.name}
                   </Header>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Image extends Component {
   constructor(props) {
@@ -34,6 +35,7 @@ class Image extends Component {
     const { alt, src, rounded, border, width, tooltip, className, imgFilter, shadow } = this.props;
     const { loaded } = this.state;
     let tempClass = className;
+    tempClass += ` img-fluid`;
     if (rounded) tempClass += ` rounded-circle`;
     if (border) tempClass += ` img-thumbnail`;
     const styles = {
@@ -114,4 +116,4 @@ Image.defaultProps = {
   imgFilter: null
 };
 
-export default Image;
+export default withStyles(Image);

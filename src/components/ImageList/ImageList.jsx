@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Image from '../Image';
+import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 
 class ImageList extends Component {
   constructor(props) {
@@ -9,13 +11,13 @@ class ImageList extends Component {
   }
 
   render() {
-    const { images, gray, imageRounded, imageWidth, imageBordered, ccsClassName } = this.props;
+    const { images, gray, imageRounded, imageWidth, imageBordered, className } = this.props;
     /* eslint-disable react/no-array-index-key */
     return (
       <div className="ImageList">
         {images.map((imag, key) => (
           <div
-            className={`ImageList__Container ${ccsClassName} ${
+            className={`ImageList__Container ${className} ${
               gray ? 'ImageList__Container--grayScale' : ''
             }`}
             key={key}
@@ -28,6 +30,7 @@ class ImageList extends Component {
                 rounded={imageRounded}
                 width={imageWidth}
                 border={imageBordered}
+                {...extractProps('image', this.props)}
               />
             </a>
           </div>
@@ -42,7 +45,7 @@ ImageList.propTypes = {
   /**
    * CSS class name for custom styles
    */
-  ccsClassName: PropTypes.string,
+  className: PropTypes.string,
   /**
    * Define if image is gray scale. Default `false`
    */
@@ -69,7 +72,7 @@ ImageList.propTypes = {
   )
 };
 ImageList.defaultProps = {
-  ccsClassName: 'px-2',
+  className: 'px-2',
   gray: false,
   imageRounded: false,
   imageBordered: false,
@@ -77,4 +80,4 @@ ImageList.defaultProps = {
   images: []
 };
 
-export default ImageList;
+export default withStyles(ImageList);

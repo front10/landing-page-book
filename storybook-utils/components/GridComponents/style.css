@@ -38,3 +38,8 @@ a .Card__Title.mb-2 {
         padding-right: 0px !important;
     }
 }
+
+section.Section.grid-component div.card img.p-3.img-fluid{
+    padding: 0.2rem !important;
+    height: 150px;
+}

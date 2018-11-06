@@ -5,6 +5,8 @@ import ContactUsService from '../../service/ContactUs.services';
 import Button from '../Button';
 import FormGroup from '../FormGroup';
 import Input from '../Input/Input';
+import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 
 class ContactUs extends Component {
   constructor(props) {
@@ -83,11 +85,12 @@ class ContactUs extends Component {
       showPlaceholder,
       submitButtonText,
       submitButtonAlign,
-      submitButtonColor
+      submitButtonColor,
+      className
     } = this.props;
     const { name, mail, phone, message, loading } = this.state;
     return (
-      <div className="ContactUs">
+      <div className={`ContactUs ${className}`}>
         <FormGroup>
           <Input
             label={showText ? nameText : ''}
@@ -95,6 +98,7 @@ class ContactUs extends Component {
             placeholder={showPlaceholder ? nameText : ''}
             value={name}
             onChange={this.onChangeName}
+            {...extractProps('input', this.props)}
           />
         </FormGroup>
         <FormGroup>
@@ -105,6 +109,7 @@ class ContactUs extends Component {
             placeholder={showPlaceholder ? mailText : ''}
             value={mail}
             onChange={this.onChangeMail}
+            {...extractProps('input', this.props)}
           />
         </FormGroup>
         <FormGroup>
@@ -114,6 +119,7 @@ class ContactUs extends Component {
             placeholder={showPlaceholder ? phoneText : ''}
             value={phone}
             onChange={this.onChangePhone}
+            {...extractProps('input', this.props)}
           />
         </FormGroup>
         <FormGroup>
@@ -124,6 +130,7 @@ class ContactUs extends Component {
             placeholder={showPlaceholder ? messageText : ''}
             value={message}
             onChange={this.onChangeMessage}
+            {...extractProps('input', this.props)}
           />
         </FormGroup>
         <div className={`text-${submitButtonAlign}`}>
@@ -132,6 +139,7 @@ class ContactUs extends Component {
             disabled={!name || !message || !EmailValidator.validate(mail) || loading}
             onClick={this.onSubmit}
             color={submitButtonColor}
+            {...extractProps('button', this.props)}
           >
             {submitButtonText}
           </Button>
@@ -142,6 +150,10 @@ class ContactUs extends Component {
 }
 
 ContactUs.propTypes = {
+  /**
+   * Class to apply to icon. Default `""`
+   */
+  className: PropTypes.string,
   /**
    * Show or hide labels to inputs. Default `false`
    */
@@ -216,6 +228,7 @@ ContactUs.propTypes = {
   onApiFail: PropTypes.func
 };
 ContactUs.defaultProps = {
+  className: '',
   showText: false,
   showPlaceholder: true,
   loading: false,
@@ -236,4 +249,4 @@ ContactUs.defaultProps = {
   onApiFail: () => {}
 };
 
-export default ContactUs;
+export default withStyles(ContactUs);

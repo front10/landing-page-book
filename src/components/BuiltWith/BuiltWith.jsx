@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ImageList from '../ImageList';
+import withStyles from '../../helpers/WithStyles';
 
 class BuiltWith extends Component {
   constructor(props) {
@@ -9,12 +10,16 @@ class BuiltWith extends Component {
   }
 
   render() {
-    const { gray, companies } = this.props;
-    return <ImageList gray={gray} images={companies} />;
+    const { gray, companies, className } = this.props;
+    return <ImageList gray={gray} images={companies} className={className} />;
   }
 }
 
 BuiltWith.propTypes = {
+  /**
+   * Class to apply to icon. Default `""`
+   */
+  className: PropTypes.string,
   /**
    * Define if image is gray scale. Default `false`
    */
@@ -29,8 +34,9 @@ BuiltWith.propTypes = {
   )
 };
 BuiltWith.defaultProps = {
+  className: '',
   gray: false,
   companies: []
 };
 
-export default BuiltWith;
+export default withStyles(BuiltWith);

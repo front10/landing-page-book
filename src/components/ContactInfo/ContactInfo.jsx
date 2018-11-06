@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import Card from '../Card/Card';
 import Location from '../Location/Location';
 import Icon from '../Icon/Icon';
+import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 
 class ContactInfo extends Component {
   render() {
@@ -18,10 +20,11 @@ class ContactInfo extends Component {
       fax,
       website,
       contentAlign,
-      showIcons
+      showIcons,
+      className
     } = this.props;
     return (
-      <Card showBorder={showBorder} contentAlign={contentAlign}>
+      <Card showBorder={showBorder} contentAlign={contentAlign} className={className}>
         {lng &&
           lat &&
           locationApiKey && (
@@ -38,42 +41,43 @@ class ContactInfo extends Component {
                   }
                 ]}
                 apiKey={locationApiKey}
+                {...extractProps('location', this.props)}
               />
             </div>
           )}
         {address && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-map-marker" />}
+            {showIcons && <Icon icon="fa fa-map-marker" {...extractProps('icon', this.props)} />}
             {address}
           </div>
         )}
         {email && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-envelope" />}
+            {showIcons && <Icon icon="fa fa-envelope" {...extractProps('icon', this.props)} />}
             {email}
           </div>
         )}
         {phone && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-phone" />}
+            {showIcons && <Icon icon="fa fa-phone" {...extractProps('icon', this.props)} />}
             {phone}
           </div>
         )}
         {mobile && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-mobile" />}
+            {showIcons && <Icon icon="fa fa-mobile" {...extractProps('icon', this.props)} />}
             {mobile}
           </div>
         )}
         {fax && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-fax" />}
+            {showIcons && <Icon icon="fa fa-fax" {...extractProps('icon', this.props)} />}
             {fax}
           </div>
         )}
         {website && (
           <div className="ContactInfo__Information">
-            {showIcons && <Icon icon="fa fa-globe" />}
+            {showIcons && <Icon icon="fa fa-globe" {...extractProps('icon', this.props)} />}
             {website}
           </div>
         )}
@@ -83,6 +87,10 @@ class ContactInfo extends Component {
 }
 
 ContactInfo.propTypes = {
+  /**
+   * Class to apply to icon. Default `""`
+   */
+  className: PropTypes.string,
   /**
    * Show or hide card border. Default `true`
    */
@@ -133,6 +141,7 @@ ContactInfo.propTypes = {
   contentAlign: PropTypes.string
 };
 ContactInfo.defaultProps = {
+  className: '',
   showBorder: true,
   showIcons: true,
   lng: 0,
@@ -147,4 +156,4 @@ ContactInfo.defaultProps = {
   contentAlign: 'left'
 };
 
-export default ContactInfo;
+export default withStyles(ContactInfo);

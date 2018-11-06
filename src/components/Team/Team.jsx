@@ -44,7 +44,13 @@ class Team extends Component {
               {...extractProps('member', this.props)}
             >
               {member.profile.map(item => (
-                <Social key={item.social} url={item.url} type={item.social} gray={socialGray} />
+                <Social
+                  key={item.social}
+                  url={item.url}
+                  type={item.social}
+                  gray={socialGray}
+                  {...extractProps('social', this.props)}
+                />
               ))}
             </Card>
           </div>

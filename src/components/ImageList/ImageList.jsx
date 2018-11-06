@@ -63,6 +63,10 @@ ImageList.propTypes = {
    */
   imageWidth: PropTypes.string,
   /**
+   *  Padding to apply to Footer.
+   */
+  padding: PropTypes.string,
+  /**
    * Images to show. Default `[]`
    */
   images: PropTypes.arrayOf(
@@ -72,7 +76,8 @@ ImageList.propTypes = {
   )
 };
 ImageList.defaultProps = {
-  className: 'px-2',
+  className: '',
+  padding: '2',
   gray: false,
   imageRounded: false,
   imageBordered: false,
@@ -80,4 +85,4 @@ ImageList.defaultProps = {
   images: []
 };
 
-export default withStyles(ImageList);
+export default withStyles(ImageList, ImageList.defaultProps);

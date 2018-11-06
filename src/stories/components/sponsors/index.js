@@ -19,7 +19,6 @@ stories.add(
       />
       <PropsManager scope={{ React, Sponsors }}>
         {`<Sponsors
-    ccsClassName="px-4"
     gray
     sponsors={[
         { image: 'images/sponsors/facebook.png' },

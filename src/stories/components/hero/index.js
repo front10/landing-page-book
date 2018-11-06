@@ -82,13 +82,6 @@ stories.add(
   ))
 );
 
-const ctaButtonStyles = {
-  color: 'white',
-  border: '2px solid white',
-  padding: '5px 15px',
-  float: 'left'
-};
-
 stories.add(
   'With image',
   withReadme([Readme], () => (

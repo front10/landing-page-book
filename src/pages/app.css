@@ -110,8 +110,8 @@ a .Card .Card__Title{
     max-width: 800px;
 }
 
-.component-link {
-    color: #2393d8;
+.component-link, .blue-text .Card .Card__Summary, .blue-text .Card .Card__Title {
+    color: #1f4160;
 }
 
 .component-link:hover {

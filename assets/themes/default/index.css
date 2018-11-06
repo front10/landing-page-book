@@ -696,6 +696,7 @@ a span {
   box-shadow: var(--Image-boxShadow); }
 
 .Card {
+  border: none;
   background-color: transparent;
   border-radius: var(--Card-borderRadius); }
   .Card .Card__Summary {
@@ -1031,6 +1032,7 @@ a span {
   box-shadow: var(--Image-boxShadow); }
 
 .Card {
+  border: none;
   background-color: transparent;
   border-radius: var(--Card-borderRadius); }
   .Card .Card__Summary {

@@ -30,7 +30,6 @@ class Features extends React.Component {
       }
       return featureWithId;
     });
-
     return (
       <div className={`Features d-flex flex-wrap Features--${contentAlign}`}>
         {featuresWithId.map(feature => (
@@ -103,9 +102,9 @@ Features.propTypes = {
    */
   buttonOutline: PropTypes.bool,
   /**
-   * Establishes if feature card has border. Default `true`
+   * Establishes if feature card has border. Default `false`
    */
-  featureBorderNone: PropTypes.bool,
+  featureBorder: PropTypes.bool,
   /**
    * Align of a component content. Default `"center"`, can be `left` and `right` too
    */
@@ -141,7 +140,7 @@ Features.defaultProps = {
   imageShadow: false,
   showFooter: true,
   buttonOutline: true,
-  featureBorderNone: true,
+  featureBorder: false,
   contentAlign: 'center',
   columnClassName: 'col-12 col-sm- col-md',
   features: []

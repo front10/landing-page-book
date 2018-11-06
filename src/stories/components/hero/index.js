@@ -99,23 +99,18 @@ stories.add(
         description="The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content."
       />
       <PropsManager scope={{ React, Hero, Container, Header, Link }}>
-        {`<Hero
-    image="images/hero/alone-architecture-buildings-220444.jpg"
-    parallaxOffset={350}
-    particles={false}
->
-    <Container>
-        <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
-        <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
-        <div className="">
-            <Link 
-                href="https://front10.com"
-                style={${JSON.stringify(ctaButtonStyles)}}
-                target="_blank">
-                READ MORE
-            </Link>
-        </div>
-    </Container>
+        {`<Hero image="images/hero/alone-architecture-buildings-220444.jpg"
+  parallaxOffset={350}
+  particles={false}>
+  <Container>
+    <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
+    <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
+    <div className="text-left">
+      <Link href="https://front10.com" target="_blank" border textColor="light">
+        READ MORE
+      </Link>
+    </div>
+  </Container>
 </Hero>`}
       </PropsManager>
     </ThemeSelector>
@@ -133,23 +128,19 @@ stories.add(
       />
       <PropsManager scope={{ React, Hero, Container, Header, Link }}>
         {`<Hero
-    image="images/hero/alone-architecture-buildings-220444.jpg"
-    parallaxOffset={350}
-    particles={false}
-    imgFilter="blur(2px)"
->
-    <Container>
-        <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
-        <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
-        <div className="">
-            <Link
-                href="https://front10.com" 
-                style={${JSON.stringify(ctaButtonStyles)}}
-                target="_blank">
-                READ MORE
-            </Link>
-        </div>
-    </Container>
+  image="images/hero/alone-architecture-buildings-220444.jpg"
+  parallaxOffset={350}
+  particles={false}
+  imgFilter="blur(2px)">
+  <Container>
+  <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
+  <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
+  <div className="text-left">
+    <Link href="https://front10.com" target="_blank" border textColor="light">
+      READ MORE
+    </Link>
+  </div>
+  </Container>
 </Hero>`}
       </PropsManager>
     </ThemeSelector>
@@ -167,22 +158,19 @@ stories.add(
       />
       <PropsManager scope={{ React, Hero, Container, Header, Link }}>
         {`<Hero
-    image="images/hero/alone-architecture-buildings-220444.jpg"
-    parallaxOffset={350}
-    particles={false}
-    imgFilter="grayscale(90%)"
->
-    <Container>
-        <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
-        <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
-        <div className="">
-            <Link 
-                href="https://front10.com"
-                style={${JSON.stringify(ctaButtonStyles)}}
-                target="_blank">READ MORE
-            </Link>
-        </div>
-    </Container>
+  image="images/hero/alone-architecture-buildings-220444.jpg"
+  parallaxOffset={350}
+  particles={false}
+  imgFilter="grayscale(90%)">
+  <Container>
+  <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
+  <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
+  <div className="text-left">
+    <Link href="https://front10.com" target="_blank" border textColor="light">
+      READ MORE
+    </Link>
+  </div>
+  </Container>
 </Hero>`}
       </PropsManager>
     </ThemeSelector>

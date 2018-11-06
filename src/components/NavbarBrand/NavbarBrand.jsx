@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class NavbarBrand extends Component {
   render() {
@@ -32,4 +33,4 @@ NavbarBrand.defaultProps = {
   children: null
 };
 
-export default NavbarBrand;
+export default withStyles(NavbarBrand);

@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Image from '../Image';
 import extractProps from '../../helpers/ExtractProps';
+import withStyles from '../../helpers/WithStyles';
 import CardTitle from './CardTitle';
 import CardSubtitle from './CardSubtitle';
 import CardFooter from './CardFooter';
@@ -65,6 +66,10 @@ class Card extends React.Component {
 
 Card.propTypes = {
   /**
+   * Define if card have border. Default `true`
+   */
+  border: PropTypes.bool,
+  /**
    * Define if image is circular. Default `true`
    */
   imageCircle: PropTypes.bool,
@@ -103,6 +108,7 @@ Card.propTypes = {
   className: PropTypes.string
 };
 Card.defaultProps = {
+  border: true,
   imageCircle: false,
   imageBorder: false,
   imageShadow: false,
@@ -115,4 +121,4 @@ Card.defaultProps = {
   className: null
 };
 
-export default Card;
+export default withStyles(Card, Card.defaultProps);

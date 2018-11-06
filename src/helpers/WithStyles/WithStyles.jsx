@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-const withStyles = WrappedComponent => {
+const withStyles = (WrappedComponent, defaultProps) => {
+  const wrappedDefaultProps = defaultProps || {};
   class Styled extends Component {
     getLayoutBasedStyles() {
       const { marginRight, marginLeft, marginTop, marginBottom, margin } = this.props;
@@ -156,26 +157,26 @@ const withStyles = WrappedComponent => {
   };
 
   Styled.defaultProps = {
-    margin: null,
-    marginRight: null,
-    marginLeft: null,
-    marginTop: null,
-    marginBottom: null,
-    bgColor: null,
-    textColor: null,
-    border: null,
-    borderTop: null,
-    borderRight: null,
-    borderBottom: null,
-    borderLeft: null,
-    borderNone: null,
-    textAlign: null,
-    textTransform: null,
-    textTruncate: null,
-    textMonoSpace: null,
-    fontItalic: null,
-    fontWeight: null,
-    style: null
+    margin: wrappedDefaultProps.margin || null,
+    marginRight: wrappedDefaultProps.marginRight || null,
+    marginLeft: wrappedDefaultProps.marginLeft || null,
+    marginTop: wrappedDefaultProps.marginTop || null,
+    marginBottom: wrappedDefaultProps.marginBottom || null,
+    bgColor: wrappedDefaultProps.bgColor || null,
+    textColor: wrappedDefaultProps.textColor || null,
+    border: wrappedDefaultProps.border || null,
+    borderTop: wrappedDefaultProps.borderTop || null,
+    borderRight: wrappedDefaultProps.borderRight || null,
+    borderBottom: wrappedDefaultProps.borderBottom || null,
+    borderLeft: wrappedDefaultProps.borderLeft || null,
+    borderNone: wrappedDefaultProps.borderNone || null,
+    textAlign: wrappedDefaultProps.textAlign || null,
+    textTransform: wrappedDefaultProps.textTransform || null,
+    textTruncate: wrappedDefaultProps.textTruncate || null,
+    textMonoSpace: wrappedDefaultProps.textMonoSpace || null,
+    fontItalic: wrappedDefaultProps.fontItalic || null,
+    fontWeight: wrappedDefaultProps.fontWeight || null,
+    style: wrappedDefaultProps.style || null
   };
   return Styled;
 };

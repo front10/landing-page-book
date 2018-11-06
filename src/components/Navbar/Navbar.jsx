@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 import Button from '../Button/Button';
 import NavbarBrand from '../NavbarBrand/NavbarBrand';
 import Image from '../Image/Image';
@@ -39,6 +40,7 @@ class Navbar extends Component {
         href={item.href}
         target={item.target}
         onClick={() => onItemClick({ item })}
+        {...extractProps('link', this.props)}
       >
         {item.icon && <Icon icon={item.icon} className="mr-1" />}
         {item.title}
@@ -78,7 +80,7 @@ class Navbar extends Component {
         >
           <Icon icon="fa fa-bars" />
         </Button>
-        <NavbarBrand className="mr-auto" href={brandLink}>
+        <NavbarBrand className="mr-auto" href={brandLink} {...extractProps('brand', this.props)}>
           {brandLogo && (
             <Image
               alt="Company logo"

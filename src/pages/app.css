@@ -261,9 +261,6 @@ a .Card .Card__Title{
     color: rgb(66, 90, 112);
 }
 
-.Section__Title, .Section .Section__Subtitle, .name, {
-}
-
 .page h1, .page h2,.page h3,.page h4,.page h5,.page h6,.page p,
 p,.page .text-body, .Section .Section__Title, .Section .Section__Subtitle,
 .Card .Card__Title, .Card .Card__Summary{

@@ -1,30 +1,34 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import Header from '../Header';
+import withStyles from '../../helpers/WithStyles';
 
 class Section extends Component {
   render() {
-    const {
-      gray,
-      title,
-      subTitle,
-      children,
-      className,
-      contentClassName,
-      alignHeader
-    } = this.props;
+    const { gray, title, subTitle, children, className, contentClassName } = this.props;
     return (
       <section className={`Section ${gray ? 'Section--gray' : ''} ${className}`}>
         <div className={`p-5 ${contentClassName}`}>
           {(title || subTitle) && (
             <div className="mb-5 text-center">
               {title && (
-                <Header textAlign={alignHeader} type="h2" className="Section__Title mb-2">
+                <Header
+                  type="h2"
+                  className="Section__Title"
+                  marginBottom="2"
+                  {...extractProps('title', this.props)}
+                >
                   {title}
                 </Header>
               )}
               {subTitle && (
-                <Header textAlign={alignHeader} type="h3" className="Section__Subtitle mb-2">
+                <Header
+                  type="h3"
+                  className="Section__Subtitle"
+                  marginBottom="2"
+                  {...extractProps('subTitle', this.props)}
+                >
                   {subTitle}
                 </Header>
               )}
@@ -55,10 +59,6 @@ Section.propTypes = {
    */
   className: PropTypes.string,
   /**
-   *  Define aligment of the component. Default `"center"`, can be `"right"` or `"left"`
-   */
-  alignHeader: PropTypes.string,
-  /**
    * Section content css class. Default `""`
    */
   contentClassName: PropTypes.string,
@@ -72,9 +72,9 @@ Section.defaultProps = {
   title: '',
   subTitle: '',
   className: '',
-  alignHeader: 'center',
   contentClassName: '',
   children: null
 };
 
-export default Section;
+const SectionWithStyles = withStyles(Section);
+export default SectionWithStyles;

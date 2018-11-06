@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Label from '../Label';
 import Icon from '../Icon';
+import withStyles from '../../helpers/WithStyles';
 
 class Input extends Component {
   constructor(props) {
@@ -28,18 +29,7 @@ class Input extends Component {
   }
 
   render() {
-    const {
-      className,
-      type,
-      id,
-      name,
-      placeholder,
-      label,
-      labelColon,
-      icon,
-      iconAlign,
-      size
-    } = this.props;
+    const { className, type, id, name, placeholder, label, icon, iconAlign, size } = this.props;
     let inputcls = className;
     if (size) inputcls += ` form-control-${size}`;
     const { value } = this.state;
@@ -56,8 +46,8 @@ class Input extends Component {
     };
 
     return (
-      <React.Fragment>
-        {label && <Label label={label} htmlFor={id} colon={labelColon} />}
+      <div className={className}>
+        {label && <Label content={label} htmlFor={id} />}
         <div className="Input__Container">
           {type !== 'textarea' && <input {...props} />}
           {type === 'textarea' && <textarea {...props} />}
@@ -68,16 +58,12 @@ class Input extends Component {
             />
           )}
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }
 
 Input.propTypes = {
-  /**
-   *  Show or hide `:` in label. Default `false`
-   */
-  labelColon: PropTypes.bool,
   /**
    *  CSS Class to apply to input. Default `""`
    */
@@ -124,7 +110,6 @@ Input.propTypes = {
   onChange: PropTypes.func
 };
 Input.defaultProps = {
-  labelColon: false,
   className: '',
   type: 'text',
   id: '',
@@ -138,4 +123,5 @@ Input.defaultProps = {
   onChange: () => {}
 };
 
-export default Input;
+const InputWithStyles = withStyles(Input);
+export default InputWithStyles;

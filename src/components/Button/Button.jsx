@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 import Icon from '../Icon/Icon';
 
 class Button extends Component {
@@ -25,15 +26,9 @@ class Button extends Component {
     let cssclass = `${className} btn-${color}`;
     if (circle) cssclass += ` rounded-circle`;
     if (!rounded) cssclass += ` rounded-0`;
-    if (outline) {
-      cssclass = `${className} btn-outline-${color}`;
-    }
-    if (size) {
-      cssclass = `${cssclass} btn-${size}`;
-    }
-    if (active) {
-      cssclass = `${cssclass} ${active}`;
-    }
+    if (outline) cssclass += `${className} btn-outline-${color}`;
+    if (size) cssclass += `${cssclass} btn-${size}`;
+    if (active) cssclass += `${cssclass} ${active}`;
 
     /* eslint-disable react/button-has-type */
     return (
@@ -139,4 +134,6 @@ Button.defaultProps = {
   onClick: () => {}
 };
 
-export default Button;
+const ButtonWithStyles = withStyles(Button);
+
+export default ButtonWithStyles;

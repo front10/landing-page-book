@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import Card from '../Card';
 import Link from '../Link';
 import Button from '../Button';
@@ -18,8 +19,7 @@ class Features extends React.Component {
       showFooter,
       shadow,
       imageShadow,
-      outlineButton,
-      buttonColor,
+      buttonOutline,
       columnClassName
     } = this.props;
 
@@ -36,7 +36,6 @@ class Features extends React.Component {
         {featuresWithId.map(feature => (
           <div className={`${columnClassName} text-${contentAlign} mb-4`} key={feature.id}>
             <Card
-              showBorder={false}
               imageCircle={imageCircle}
               subTitle={showSubtitle ? feature.subtitle : ''}
               title={showTitle ? feature.title : ''}
@@ -46,10 +45,11 @@ class Features extends React.Component {
               image={showImage ? feature.image : ''}
               shadow={shadow}
               imageShadow={imageShadow}
+              {...extractProps('feature', this.props)}
             >
               {showFooter &&
                 feature.link && (
-                  <Button outline={outlineButton} color={buttonColor}>
+                  <Button buttonOutline={buttonOutline} {...extractProps('button', this.props)}>
                     <Link href={feature.link}>See more</Link>
                   </Button>
                 )}
@@ -101,11 +101,11 @@ Features.propTypes = {
   /**
    * Establishes if `See more` button is outline. Default `true`
    */
-  outlineButton: PropTypes.bool,
+  buttonOutline: PropTypes.bool,
   /**
-   * Button color, can by any of bootstrap colors. Default `default`
+   * Establishes if feature card has border. Default `true`
    */
-  buttonColor: PropTypes.string,
+  featureBorderNone: PropTypes.bool,
   /**
    * Align of a component content. Default `"center"`, can be `left` and `right` too
    */
@@ -136,12 +136,12 @@ Features.defaultProps = {
   showTitle: true,
   showSubtitle: true,
   showSummary: true,
-  imageCircle: true,
+  imageCircle: false,
   imageBorder: false,
   imageShadow: false,
   showFooter: true,
-  outlineButton: true,
-  buttonColor: 'default',
+  buttonOutline: true,
+  featureBorderNone: true,
   contentAlign: 'center',
   columnClassName: 'col-12 col-sm- col-md',
   features: []

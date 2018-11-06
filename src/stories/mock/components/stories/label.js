@@ -7,7 +7,7 @@ export default {
     {
       name: 'Basic',
       summary: '',
-      code: `<Label colon={false} className="" label="This is a label" />`,
+      code: `<Label content="This is a label" />`,
       tabsActive: ['code']
     }
   ]

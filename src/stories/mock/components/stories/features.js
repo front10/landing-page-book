@@ -10,17 +10,8 @@ export default {
       name: 'Basic',
       summary: '',
       code: `<Features
-    shadow={false}
-    showTitle
-    showImage
-    showSubtitle={false}
-    showSummary
-    imageCircle={false}
-    imageBorder={false}
-    imageShadow={false}
-    showFooter
-    outlineButton
-    contentAlign="center"
+    buttonOutline
+    buttonColor="primary"
     features={${JSON.stringify(features, null, 8)}}
 />`,
       tabsActive: ['code']
@@ -29,14 +20,9 @@ export default {
       name: 'Image & title',
       summary: '',
       code: `<Features
-    shadow={false}
     showSubtitle={false}
     showSummary={false}
-    imageCircle={false}
-    imageBorder={false}
-    imageShadow={false}
     showFooter={false}
-    contentAlign="center"
     features={${JSON.stringify(features, null, 8)}}
 />`,
       tabsActive: []
@@ -47,11 +33,7 @@ export default {
       code: `<Features
     shadow
     showSubtitle={false}
-    imageCircle={false}
-    imageBorder={false}
-    imageShadow={false}
     showFooter={false}
-    contentAlign="center"
     features={${JSON.stringify(features, null, 8)}}
 />`,
       tabsActive: []
@@ -60,11 +42,10 @@ export default {
       name: 'With image shadow',
       summary: '',
       code: `<Features
-    imageShadow
-    shadow={false}
-    showSubtitle={false}
-    showFooter={false}
-    contentAlign="center"
+      imageShadow
+      showSubtitle={false}
+      showFooter={false}
+      imageCircle={true}
     features={${JSON.stringify(features, null, 8)}}
 />`,
       tabsActive: []

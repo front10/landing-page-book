@@ -653,12 +653,8 @@ h6, .h6 {
 :root {
   --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
-  --Card__Summary-color: #000;
-  --Card__Summary-backgroundColor: #fff;
   --Card__Title-fontSize: 1.2rem;
-  --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -671,17 +667,13 @@ h6, .h6 {
   background-color: transparent;
   border-radius: var(--Card-borderRadius); }
   .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-    color: var(--Card__Summary-color);
-    background-color: var(--Card__Summary-backgroundColor); }
+    font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
     text-align: justify; }
   .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-    color: var(--Card__Title-color); }
+    font-size: var(--Card__Title-fontSize); }
   .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-    color: var(--Card__Subtitle-color); }
+    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
   box-shadow: var(--Card-boxShadow); }
@@ -809,12 +801,8 @@ a span {
 :root {
   --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
-  --Card__Summary-color: #000;
-  --Card__Summary-backgroundColor: #fff;
   --Card__Title-fontSize: 1.2rem;
-  --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -827,17 +815,13 @@ a span {
   background-color: transparent;
   border-radius: var(--Card-borderRadius); }
   .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-    color: var(--Card__Summary-color);
-    background-color: var(--Card__Summary-backgroundColor); }
+    font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
     text-align: justify; }
   .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-    color: var(--Card__Title-color); }
+    font-size: var(--Card__Title-fontSize); }
   .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-    color: var(--Card__Subtitle-color); }
+    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
   box-shadow: var(--Card-boxShadow); }
@@ -994,33 +978,15 @@ a span {
 
 :root {
   --Hero__Header-fontSize: 75px;
-  --Hero__Header-fontStyle: normal;
-  --Hero__Header-color: #fff;
-  --Hero__Header-fontWeight: 700;
   --Hero__Header--phone-fontSize: 30px;
   --Hero__SubHeader-fontSize: 40px;
-  --Hero__SubHeader-color: #fff;
-  --Hero__SubHeader-fontStyle: italic;
-  --Hero__SubHeader--phone-fontSize: 20px;
-  --Hero__Button-color: #383e45;
-  --Hero__Button-backgroundColor: #fed136;
-  --Hero__Button-padding: 0.375rem 0.75rem; }
+  --Hero__SubHeader--phone-fontSize: 20px; }
 
 .Hero .Hero__Header {
-  font-weight: var(--Hero__Header-fontWeight);
-  font-size: var(--Hero__Header-fontSize);
-  font-style: var(--Hero__Header-fontStyle);
-  color: var(--Hero__Header-color); }
+  font-size: var(--Hero__Header-fontSize); }
 
 .Hero .Hero__SubHeader {
-  font-size: var(--Hero__SubHeader-fontSize);
-  font-style: var(--Hero__SubHeader-fontStyle);
-  color: var(--Hero__SubHeader-color); }
-
-.Hero .Hero__Button {
-  padding: var(--Hero__Button-padding);
-  color: var(--Hero__Button-color);
-  background-color: var(--Hero__Button-backgroundColor); }
+  font-size: var(--Hero__SubHeader-fontSize); }
 
 .Hero .Hero__Particles {
   position: absolute;
@@ -1170,12 +1136,8 @@ a span {
 :root {
   --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
-  --Card__Summary-color: #000;
-  --Card__Summary-backgroundColor: #fff;
   --Card__Title-fontSize: 1.2rem;
-  --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -1188,17 +1150,13 @@ a span {
   background-color: transparent;
   border-radius: var(--Card-borderRadius); }
   .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-    color: var(--Card__Summary-color);
-    background-color: var(--Card__Summary-backgroundColor); }
+    font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
     text-align: justify; }
   .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-    color: var(--Card__Title-color); }
+    font-size: var(--Card__Title-fontSize); }
   .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-    color: var(--Card__Subtitle-color); }
+    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
   box-shadow: var(--Card-boxShadow); }
@@ -1246,12 +1204,8 @@ a span {
 :root {
   --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
-  --Card__Summary-color: #000;
-  --Card__Summary-backgroundColor: #fff;
   --Card__Title-fontSize: 1.2rem;
-  --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -1264,17 +1218,13 @@ a span {
   background-color: transparent;
   border-radius: var(--Card-borderRadius); }
   .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-    color: var(--Card__Summary-color);
-    background-color: var(--Card__Summary-backgroundColor); }
+    font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
     text-align: justify; }
   .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-    color: var(--Card__Title-color); }
+    font-size: var(--Card__Title-fontSize); }
   .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-    color: var(--Card__Subtitle-color); }
+    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
   box-shadow: var(--Card-boxShadow); }

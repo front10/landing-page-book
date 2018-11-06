@@ -230,7 +230,7 @@ const IndexPage = () => (
       </Section>
       <Section subTitle="These are our members" title="TEAM" gray>
         <Container>
-          <Team showBorder={false} members={team} socials={['linkedin', 'twitter']} />
+          <Team memberBorder={false} members={team} socials={['linkedin', 'twitter']} />
         </Container>
         <Container className="text-center">
           <Link

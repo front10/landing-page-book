@@ -64,6 +64,7 @@ class MainLayout extends React.Component {
           expand="md"
           brandLogo="/images/logo/logoMainBLACK.png"
           fixed
+          bgColor="light"
           className="main-navbar"
         >
           <NavbarNav>

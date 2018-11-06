@@ -193,6 +193,11 @@ const withStyles = (WrappedComponent, defaultProps) => {
     marginLeft: wrappedDefaultProps.marginLeft || null,
     marginTop: wrappedDefaultProps.marginTop || null,
     marginBottom: wrappedDefaultProps.marginBottom || null,
+    padding: wrappedDefaultProps.padding || null,
+    paddingRight: wrappedDefaultProps.paddingRight || null,
+    paddingLeft: wrappedDefaultProps.paddingLeft || null,
+    paddingTop: wrappedDefaultProps.paddingTop || null,
+    paddingBottom: wrappedDefaultProps.paddingBottom || null,
     bgColor: wrappedDefaultProps.bgColor || null,
     textColor: wrappedDefaultProps.textColor || null,
     border: wrappedDefaultProps.border || null,
@@ -208,11 +213,6 @@ const withStyles = (WrappedComponent, defaultProps) => {
     fontItalic: wrappedDefaultProps.fontItalic || null,
     fontWeight: wrappedDefaultProps.fontWeight || null,
     style: wrappedDefaultProps.style || null
-    padding: null,
-    paddingRight: null,
-    paddingLeft: null,
-    paddingTop: null,
-    paddingBottom: null,
   };
   return Styled;
 };

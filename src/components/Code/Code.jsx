@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
+import extractProps from '../../helpers/ExtractProps';
 import Navbar from '../Navbar/Navbar';
 import NavbarNav from '../NavbarNav/NavbarNav';
 import Icon from '../Icon/Icon';
@@ -127,7 +128,15 @@ class Code extends React.Component {
       collapsed,
       hideMessages
     } = this.state;
-    const { theme, codeLink, children, collapsible, showDeleteButton, showCopyButton } = this.props;
+    const {
+      theme,
+      codeLink,
+      children,
+      collapsible,
+      showDeleteButton,
+      showCopyButton,
+      buttonTextColor
+    } = this.props;
     const options = {
       lineNumbers: slineNumbers,
       readOnly: sreadOnly,
@@ -140,12 +149,12 @@ class Code extends React.Component {
         {!collapsed && (
           <React.Fragment>
             {sshowheader && (
-              <Navbar className="CodeMirror__header">
+              <Navbar className="CodeMirror__header" {...extractProps('header', this.props)}>
                 <NavbarNav alignItems="right">
                   {codeLink && (
-                    <Button className="CodeMirror_btn">
+                    <Button className="CodeMirror_btn" {...extractProps('button', this.props)}>
                       <Link href={codeLink} target="_blank" tooltip="Test code">
-                        <Icon icon="fa fa-codepen" role="link" />
+                        <Icon icon="fa fa-codepen" role="link" textColor={buttonTextColor} />
                       </Link>
                     </Button>
                   )}
@@ -155,6 +164,7 @@ class Code extends React.Component {
                         onClick={this.copyToClipboard}
                         className={`btn ${scopied ? 'disabled' : ''} CodeMirror_btn`}
                         tooltip="Copy"
+                        {...extractProps('button', this.props)}
                       >
                         <Icon icon="fa fa-clone" role="link" />
                       </Button>
@@ -165,6 +175,7 @@ class Code extends React.Component {
                       onClick={this.clearCode}
                       className={`btn ${sreadOnly ? 'disabled' : ''} CodeMirror_btn`}
                       tooltip="Clear"
+                      {...extractProps('button', this.props)}
                     >
                       <Icon icon="fa fa-trash-o" />
                     </Button>
@@ -184,9 +195,13 @@ class Code extends React.Component {
           </React.Fragment>
         )}
         {collapsible && (
-          <Navbar className="CodeMirror__footer">
+          <Navbar className="CodeMirror__footer" {...extractProps('footer', this.props)}>
             <Container className="text-center">
-              <Button onClick={this.toggleCollapse} className="btn CodeMirror_btn">
+              <Button
+                onClick={this.toggleCollapse}
+                className="btn CodeMirror_btn"
+                {...extractProps('button', this.props)}
+              >
                 <Icon icon="fa fa-code" />
                 <span className="ml-2">{hideMessages}</span>
               </Button>
@@ -244,6 +259,26 @@ Code.propTypes = {
    */
   codeLink: PropTypes.string,
   /**
+   * Background color of the buttons in the header. Default `"dark"`
+   */
+  buttonBgColor: PropTypes.string,
+  /**
+   * Hide or show buttons border. Default `true`
+   */
+  buttonBorderNone: PropTypes.string,
+  /**
+   * Color of the buttons in the header. Default `"warning"`
+   */
+  buttonTextColor: PropTypes.string,
+  /**
+   * Paddin top of the buttons in the header. Default `"0"`
+   */
+  buttonPaddingTop: PropTypes.string,
+  /**
+   * Paddin bottom of the buttons in the header. Default `"0"`
+   */
+  buttonPaddingBottom: PropTypes.string,
+  /**
    * Function to handle the change made in the code.
    */
   updateCode: PropTypes.func,
@@ -265,6 +300,11 @@ Code.defaultProps = {
   showDeleteButton: true,
   showCopyButton: true,
   children: null,
+  buttonBgColor: 'dark',
+  buttonTextColor: 'warning',
+  buttonBorderNone: true,
+  buttonPaddingTop: '0',
+  buttonPaddingBottom: '0',
   updateCode: () => {}
 };
 

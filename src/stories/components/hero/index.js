@@ -99,7 +99,7 @@ stories.add(
     <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
     <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
     <div className="text-left">
-      <Link href="https://front10.com" target="_blank" border textColor="light">
+      <Link href="https://front10.com" target="_blank" border textColor="light" padding="2">
         READ MORE
       </Link>
     </div>
@@ -129,7 +129,7 @@ stories.add(
   <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
   <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
   <div className="text-left">
-    <Link href="https://front10.com" target="_blank" border textColor="light">
+    <Link href="https://front10.com" target="_blank" border textColor="light" padding="2">
       READ MORE
     </Link>
   </div>
@@ -159,7 +159,7 @@ stories.add(
   <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
   <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
   <div className="text-left">
-    <Link href="https://front10.com" target="_blank" border textColor="light">
+    <Link href="https://front10.com" target="_blank" border textColor="light" padding="2">
       READ MORE
     </Link>
   </div>

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import GithubService from '../../service/GithubDetail.services';
 import Icon from '../Icon/Icon';
 import Button from '../Button/Button';
@@ -173,7 +174,13 @@ class GithubButton extends React.Component {
     const { btnText, loadingClass, rounded, disabled, color, className } = this.props;
     return (
       <div className={`${className} GithubDetail_btn_container d-inline`}>
-        <Button rounded={rounded} circle={false} disabled={disabled} color={color}>
+        <Button
+          rounded={rounded}
+          circle={false}
+          disabled={disabled}
+          color={color}
+          {...extractProps('button', this.props)}
+        >
           <i className={showGithubIcon ? 'fa fa-github' : iconClass} aria-hidden="true" />{' '}
           {showBtnText && <span className="buttonText">{btnText}</span>}
         </Button>
@@ -185,6 +192,7 @@ class GithubButton extends React.Component {
             disabled={disabled}
             color={color}
             onClick={this.openUrl}
+            {...extractProps('counter', this.props)}
           >
             {counter != null ? counter : <Icon icon={loadingClass} />}
           </Button>

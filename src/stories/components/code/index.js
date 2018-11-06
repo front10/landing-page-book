@@ -22,7 +22,7 @@ stories.add(
     languageCode="jsx"
     collapsible
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code=""
+    code="import {React} from 'react';"
 />`}
       </PropsManager>
     </ThemeSelector>
@@ -47,7 +47,7 @@ stories.add(
     showCopyButton={false}
     showDeleteButton={false}
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code=""
+    code="import {React} from 'react';"
 />`}
       </PropsManager>
     </ThemeSelector>
@@ -73,7 +73,7 @@ stories.add(
     showCopyButton
     showDeleteButton
     codeLink="https://codesandbox.io/s/pmjvk5wl27"
-    code=""
+    code=".my-class{background-color: #fff}"
 />`}
       </PropsManager>
     </ThemeSelector>

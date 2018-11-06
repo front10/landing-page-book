@@ -680,25 +680,15 @@ h6, .h6 {
   box-shadow: var(--Card-boxShadow); }
 
 :root {
-  --CodeMirror__header_with: 100%;
   --CodeMirror__header_height: 30px;
-  --CodeMirror__header_backgroundColor: #304148;
-  --CodeMirror__header_color: #fed136;
   --CodeMirror__height: auto;
   --CodeMirror__font_family: Lato;
-  --CodeMirror__Btn-background-color: transparent;
-  --CodeMirror__Btn-padding: 6px 20px;
   --CodeMirror__Container-border: solid 1px #304148;
   --CodeMirror-fontSize: 16px;
-  --CodeMirror__Footer-backgroundColor: #304148;
-  --CodeMirror__Footer-color: whitesmoke;
   --CodeMirror-borderRadius: 5px; }
 
 :root {
-  --Navbar-backgroundColor: #383d45;
-  --Navbar-color: #b9bfc7;
   --Navbar-backgroundImage: none;
-  --Navbar--hover-color: #fed136;
   --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
   --Navbar--boxShadow: rgba(0, 0, 0, 0.124); }
 
@@ -709,20 +699,16 @@ h6, .h6 {
   box-shadow: var(--Image-boxShadow); }
 
 .Navbar {
-  background-color: var(--Navbar-backgroundColor);
   background-image: var(--Navbar-backgroundImage); }
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
-    color: var(--Navbar-color);
     cursor: pointer; }
     @media (max-width: 768px) {
       .Navbar .NavbarLink img,
       .Navbar .Navbar__Toggler img,
       .Navbar .NavbarBrand img {
         padding: 0rem 1rem; } }
-  .Navbar .NavbarLink:hover {
-    color: var(--Navbar--hover-color); }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
   .Navbar .LanguageSwitcher,
@@ -755,45 +741,19 @@ a[disabled] {
 a span {
   margin: 0px 5px; }
 
-.CodeMirror__header {
-  width: var(--CodeMirror__header_with);
-  height: var(--CodeMirror__header_height);
-  background-color: var(--CodeMirror__header_backgroundColor) !important;
-  box-shadow: none !important; }
-  .CodeMirror__header button,
-  .CodeMirror__header a {
-    color: var(--CodeMirror__header_color); }
+.CodeMirror__header,
+.CodeMirror__footer {
+  height: var(--CodeMirror__header_height); }
 
 .CodeMirror__Container {
   border: var(--CodeMirror__Container-border);
   border-radius: var(--CodeMirror-borderRadius); }
 
-.CodeMirror__footer {
-  box-shadow: none !important;
-  width: var(--CodeMirror__header_with);
-  height: var(--CodeMirror__header_height);
-  background-color: var(--CodeMirror__Footer-backgroundColor) !important; }
-  .CodeMirror__footer button,
-  .CodeMirror__footer a {
-    color: var(--CodeMirror__Footer-color) !important; }
-
 .CodeMirror {
   height: var(--CodeMirror__height) !important; }
 
-.CodeMirror_btn {
-  font-weight: 400;
-  background-color: var(--CodeMirror__Btn-background-color) !important;
-  padding: var(--CodeMirror__Btn-padding) !important;
-  color: var(--CodeMirror__header_color) !important;
-  border: none; }
-
 .ReactCodeMirror {
   font-size: var(--CodeMirror-fontSize); }
-
-.btn.CodeMirror_btn:hover,
-.btn.CodeMirror_btn:focus,
-.btn.CodeMirror_btn:active {
-  background-color: var(--CodeMirror__Btn-background-color) !important; }
 
 :root {
   --ContactInfo__Location-height: 300px;
@@ -924,10 +884,7 @@ a span {
   border-color: transparent #343a40 transparent transparent; }
 
 :root {
-  --Navbar-backgroundColor: #383d45;
-  --Navbar-color: #b9bfc7;
   --Navbar-backgroundImage: none;
-  --Navbar--hover-color: #fed136;
   --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
   --Navbar--boxShadow: rgba(0, 0, 0, 0.124); }
 
@@ -938,20 +895,16 @@ a span {
   box-shadow: var(--Image-boxShadow); }
 
 .Navbar {
-  background-color: var(--Navbar-backgroundColor);
   background-image: var(--Navbar-backgroundImage); }
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
-    color: var(--Navbar-color);
     cursor: pointer; }
     @media (max-width: 768px) {
       .Navbar .NavbarLink img,
       .Navbar .Navbar__Toggler img,
       .Navbar .NavbarBrand img {
         padding: 0rem 1rem; } }
-  .Navbar .NavbarLink:hover {
-    color: var(--Navbar--hover-color); }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
   .Navbar .LanguageSwitcher,

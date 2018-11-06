@@ -60,16 +60,26 @@ class DetailsComponent extends React.Component {
   }
 
   render() {
-    const { name, linkGithub, description, stories, pagePushed, propsDescription } = this.props;
+    const {
+      name,
+      linkGithub,
+      description,
+      stories,
+      pagePushed,
+      propsDescription,
+      showBack
+    } = this.props;
     // const { open } = this.state;
     return (
       <div id="container" className={`page ${pagePushed ? 'pushed' : ''}`}>
         {/* <Section sectionClass="p-2 title-component" gray> */}
         <div className="title-component bg-light p-2">
           <Container className="pb-4 pt-3 prl-11">
-            <Link href="/components" tooltip="Go Back" className="btn btn-back btn-everblue">
-              <img src={image} alt="Go Back" />
-            </Link>
+            {showBack && (
+              <Link href="/components" tooltip="Go Back" className="btn btn-back btn-everblue">
+                <img src={image} alt="Go Back" />
+              </Link>
+            )}
             <Header type="h2" className="name title-component d-inline">
               {name}
             </Header>
@@ -146,7 +156,8 @@ DetailsComponent.propTypes = {
       tabsActive: PropTypes.arrayOf(PropTypes.string)
     })
   ),
-  pagePushed: PropTypes.bool
+  pagePushed: PropTypes.bool,
+  showBack: PropTypes.bool
 };
 
 DetailsComponent.defaultProps = {
@@ -155,7 +166,8 @@ DetailsComponent.defaultProps = {
   propsDescription: null,
   linkGithub: 'Link',
   stories: [],
-  pagePushed: false
+  pagePushed: false,
+  showBack: true
 };
 
 export default DetailsComponent;

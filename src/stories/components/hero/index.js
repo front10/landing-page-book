@@ -2,33 +2,37 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
-import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
-import PropsManager from '../../../../storybook-utils/components/PropsManager';
-import VariableManager from '../../../../storybook-utils/components/VariableManager';
-
+import DetailsComponent from '../../../../storybook-utils/components/DetailsComponent';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
 
-import { Hero, Container, Image, Header, GithubButton, Button, Link } from '../../../components';
 import Readme from '../../../components/Hero/README.md';
-
-const themingVariables = [
-  '--Hero__Header-fontSize',
-  '--Hero__Header-fontStyle',
-  '--Hero__Header-color',
-  '--Hero__Header-fontWeight',
-  '--Hero__Header--phone-fontSize',
-  '--Hero__SubHeader-fontSize',
-  '--Hero__SubHeader-color',
-  '--Hero__SubHeader-fontStyle',
-  '--Hero__SubHeader--phone-fontSize',
-  '--Hero__Button-color',
-  '--Hero__Button-backgroundColor',
-  '--Hero__Button-padding'
-];
+import Component from '../../mock/components/stories/hero';
+import map from '../../../components/Hero/map.json';
 
 const stories = storiesOf('Components/Hero', module);
 
-stories.add(
+Component.stories.map(story =>
+  stories.add(
+    story.name,
+    withReadme([Readme], () => (
+      <ThemeSelector>
+        <DetailsComponent
+          name={Component.name}
+          linkGithub={`https://github.com/front10/landing-page-book/tree/master/src/components/${
+            Component.name
+          }`}
+          description={Component.summary}
+          stories={[story]}
+          importCode={Component.import}
+          propsDescription={map.props}
+          showBack={false}
+        />
+      </ThemeSelector>
+    ))
+  )
+);
+
+/* stories.add(
   'Default',
   withReadme([Readme], () => (
     <ThemeSelector>
@@ -306,3 +310,4 @@ stories.add(
 //   )),
 //   jsxConfig
 // );
+*/

@@ -1,10 +1,3 @@
-const ctaButtonStyles = {
-  color: 'white',
-  border: '2px solid white',
-  padding: '5px 15px',
-  float: 'left'
-};
-
 export default {
   name: 'Hero',
   summary:
@@ -48,19 +41,15 @@ export default {
       summary: '',
       code: `<Hero
     image="/images/hero/alone-architecture-buildings-220444.jpg"
-    parallaxOffset={350}
     particles={false}
     minHeight="50vh"
 >
     <Container>
         <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
         <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
-        <div className="">
-            <Link
-                href="https://front10.com"
-                style={${JSON.stringify(ctaButtonStyles)}}
-                target="_blank">
-                    READ MORE
+        <div className="text-left">
+            <Link href="https://front10.com" target="_blank" border textColor="light" padding="2">
+                READ MORE
             </Link>
         </div>
     </Container>
@@ -72,7 +61,6 @@ export default {
       summary: '',
       code: `<Hero
     image="/images/hero/alone-architecture-buildings-220444.jpg"
-    parallaxOffset={350}
     particles={false}
     imgFilter="blur(2px)"
     minHeight="50vh"
@@ -80,11 +68,8 @@ export default {
     <Container>
         <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
         <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
-        <div className="">
-            <Link
-                href="https://front10.com"
-                style={${JSON.stringify(ctaButtonStyles)}}
-                target="_blank">
+        <div className="text-left">
+            <Link href="https://front10.com" target="_blank" border textColor="light" padding="2">
                 READ MORE
             </Link>
         </div>
@@ -97,7 +82,6 @@ export default {
       summary: '',
       code: `<Hero
     image="/images/hero/alone-architecture-buildings-220444.jpg"
-    parallaxOffset={350}
     particles={false}
     imgFilter="grayscale(90%)"
     minHeight="50vh"
@@ -105,11 +89,9 @@ export default {
     <Container>
         <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
         <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
-        <div className="">
-            <Link
-                href="https://front10.com"
-                style={${JSON.stringify(ctaButtonStyles)}}
-                target="_blank">READ MORE
+        <div className="text-left">
+            <Link href="https://front10.com" target="_blank" border textColor="light" padding="2">
+                READ MORE
             </Link>
         </div>
     </Container>

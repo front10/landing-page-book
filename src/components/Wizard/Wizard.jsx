@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import StepZilla from 'react-stepzilla/dist/main';
 import Header from '../Header';
 import Card from '../Card';
+import extractProps from '../../helpers/ExtractProps';
+import withStyles from '../../helpers/WithStyles';
 
 class Wizard extends Component {
   constructor(props) {
@@ -34,14 +36,20 @@ class Wizard extends Component {
       hocValidationAppliedTo,
       contentAlign,
       showHeader,
-      steps
+      steps,
+      className
     } = this.props;
     const { currentItem } = this.state;
     return (
       <div className="Wizard">
-        <Card contentAlign={contentAlign}>
+        <Card contentAlign={contentAlign} className={className}>
           {showHeader && (
-            <Header type="h5" className="pb-3" borderBottom={showHeaderBorder}>
+            <Header
+              type="h5"
+              className="pb-3"
+              borderBottom={showHeaderBorder}
+              {...extractProps('header', this.props)}
+            >
               {currentItem}
             </Header>
           )}
@@ -69,6 +77,10 @@ class Wizard extends Component {
 }
 
 Wizard.propTypes = {
+  /**
+   * Class name of header. Default `""`
+   */
+  className: PropTypes.string,
   /**
    * Show or hide the header with steps. Default `true`
    */
@@ -140,6 +152,7 @@ Wizard.propTypes = {
   onStepChange: PropTypes.func
 };
 Wizard.defaultProps = {
+  className: '',
   showHeader: true,
   showHeaderBorder: true,
   showNavigation: true,
@@ -157,4 +170,4 @@ Wizard.defaultProps = {
   onStepChange: () => {}
 };
 
-export default Wizard;
+export default withStyles(Wizard);

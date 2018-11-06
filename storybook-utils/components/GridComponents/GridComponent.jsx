@@ -28,6 +28,7 @@ class GridComponent extends React.Component {
           <Column key={component} className="col-12 col-sm-6 col-md-4 col-lg-3">
             <Link href={`/components/${component.toLowerCase()}`} tooltip="View more details">
               <Card
+                textAlign="center"
                 border={false}
                 margin="2"
                 showBorder={false}

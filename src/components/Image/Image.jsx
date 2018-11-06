@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Image extends Component {
   constructor(props) {
@@ -115,4 +116,4 @@ Image.defaultProps = {
   imgFilter: null
 };
 
-export default Image;
+export default withStyles(Image);

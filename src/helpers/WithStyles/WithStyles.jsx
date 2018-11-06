@@ -4,7 +4,18 @@ import PropTypes from 'prop-types';
 const withStyles = WrappedComponent => {
   class Styled extends Component {
     getLayoutBasedStyles() {
-      const { marginRight, marginLeft, marginTop, marginBottom, margin } = this.props;
+      const {
+        marginRight,
+        marginLeft,
+        marginTop,
+        marginBottom,
+        margin,
+        paddingRight,
+        paddingLeft,
+        paddingTop,
+        paddingBottom,
+        padding
+      } = this.props;
       let layoutClasses = '';
       if (margin) {
         layoutClasses = `${layoutClasses} m-${margin}`;
@@ -20,6 +31,21 @@ const withStyles = WrappedComponent => {
       }
       if (marginBottom) {
         layoutClasses = `${layoutClasses} mb-${marginBottom}`;
+      }
+      if (padding) {
+        layoutClasses = `${layoutClasses} p-${padding}`;
+      }
+      if (paddingRight) {
+        layoutClasses = `${layoutClasses} pr-${paddingRight}`;
+      }
+      if (paddingLeft) {
+        layoutClasses = `${layoutClasses} pl-${paddingLeft}`;
+      }
+      if (paddingTop) {
+        layoutClasses = `${layoutClasses} pt-${paddingTop}`;
+      }
+      if (paddingBottom) {
+        layoutClasses = `${layoutClasses} pb-${paddingBottom}`;
       }
       return layoutClasses;
     }
@@ -117,6 +143,11 @@ const withStyles = WrappedComponent => {
     marginLeft: PropTypes.string,
     marginTop: PropTypes.string,
     marginBottom: PropTypes.string,
+    padding: PropTypes.string,
+    paddingRight: PropTypes.string,
+    paddingLeft: PropTypes.string,
+    paddingTop: PropTypes.string,
+    paddingBottom: PropTypes.string,
     bgColor: PropTypes.string,
     textColor: PropTypes.string,
     border: PropTypes.bool,
@@ -161,6 +192,11 @@ const withStyles = WrappedComponent => {
     marginLeft: null,
     marginTop: null,
     marginBottom: null,
+    padding: null,
+    paddingRight: null,
+    paddingLeft: null,
+    paddingTop: null,
+    paddingBottom: null,
     bgColor: null,
     textColor: null,
     border: null,

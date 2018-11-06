@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Copyright extends Component {
   render() {
@@ -10,10 +11,11 @@ class Copyright extends Component {
       showAllRightText,
       allRightText,
       copyRightText,
-      text
+      text,
+      className
     } = this.props;
     return (
-      <div className="Copyright">
+      <div className={`Copyright ${className}`}>
         {showCopyRightText && <span className="mr-1">{copyRightText}</span>}
         {showCopyRightSymbol && <span className="mr-1">©</span>}
         {showYear && <span className="mr-1">{new Date().getFullYear()}</span>}
@@ -52,7 +54,11 @@ Copyright.propTypes = {
   /**
    *  Text in copyright, ex: `Front10, Inc`. Default `""`
    */
-  text: PropTypes.string
+  text: PropTypes.string,
+  /**
+   * Class to apply to icon. Default `""`
+   */
+  className: PropTypes.string
 };
 Copyright.defaultProps = {
   showCopyRightSymbol: true,
@@ -61,7 +67,8 @@ Copyright.defaultProps = {
   showAllRightText: true,
   copyRightText: 'Copyright',
   allRightText: 'All rights reserved',
-  text: ''
+  text: '',
+  className: ''
 };
 
-export default Copyright;
+export default withStyles(Copyright);

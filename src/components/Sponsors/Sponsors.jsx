@@ -42,4 +42,4 @@ Sponsors.defaultProps = {
   sponsors: []
 };
 
-export default withStyles(Sponsors, Sponsors.defaultProps);
+export default withStyles(Sponsors);

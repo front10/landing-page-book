@@ -5,6 +5,7 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
+| className | `string` | Class to apply. Default `""` | `''` |
 | customLabels | `objectOf` | Configure label of languages. Default `"{}"` | `{}` |
 | disabled | `bool` | Disable or enable the component. Default `false` | `false` |
 | languages | `arrayOf` | Array of languages to show, an array with countries codes. Default `"[]"`, see example section. The complete list of countries can be found https://github.com/ekwonye-richard/react-flags-select/blob/master/src/countries.js | `[]` |

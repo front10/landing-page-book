@@ -9,6 +9,5 @@
 | className | `string` | CSS Class to apply to button. Default `""` | `''` |
 | disabled | `bool` | Disable or enable button. Default `false` | `false` |
 | href<font color="red">*</font> | `string` | Link to open. Default `undefined`, this prop is required |  |
-| style | `union` | In case you wanted to pass custom styles `""` | `null` |
 | target | `string` | Target of link. Default `""` | `''` |
 | tooltip | `string` | Button tooltip. Default `""` | `''` |

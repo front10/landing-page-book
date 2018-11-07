@@ -6,4 +6,5 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | children | `union` | Elements show into the NavbarCollapse | `null` |
+| className | `string` | Class of the component. Default `""` | `''` |
 | isOpen | `bool` | Open or close component. Default `true` | `true` |

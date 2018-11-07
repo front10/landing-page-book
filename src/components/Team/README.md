@@ -12,7 +12,6 @@
 | imageShadow | `bool` | Establishes a shadow in user picture in each card. Default `false` | `false` |
 | members | `arrayOf` | Array of members to show. Default `[]`, see example section. | `[]` |
 | shadow | `bool` | Establishes a shadow in each card. Default `false` | `false` |
-| showBorder | `bool` | Show or hide card border. Default `true` | `true` |
 | showImage | `bool` | Show or hide image. Default `true` | `true` |
 | showJob | `bool` | Show or hide job. Default `true` | `true` |
 | showName | `bool` | Show or hide name. Default `true` | `true` |

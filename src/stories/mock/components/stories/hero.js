@@ -13,17 +13,21 @@ export default {
     header="Landing Page Book"
     subHeader="React components to build!"
     particlesSugar="crazyStars"
-    minHeight="50vh"
-    buttons={[
-        { text: 'TELL ME MORE', onClick: () => { } }
-    ]}
+    minHeight="75vh"
+    headerTextColor="warning"
+    subHeaderTextColor="warning"
+    callToActionColor="warning"
+    secondaryCallToActionColor="warning"
+    secondaryCallToActionMarginLeft="2"
+    callToAction="Call to action"
+    secondaryCallToAction="Secondary call to action"
 />`,
       tabsActive: ['code']
     },
     {
       name: 'Via children',
       summary: '',
-      code: `<Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars" minHeight="50vh">
+      code: `<Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars" minHeight="75vh">
     <Container>
         <Image src="/images/logo/front10.png" rounded width="160" alt="Front10 logo" className="main-logo"/>
         <Header textAlign="center" className="text-warning">Landing Page Book</Header>

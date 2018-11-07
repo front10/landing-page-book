@@ -5,6 +5,7 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
+| className | `string` | Class to apply. Default `""` | `''` |
 | directLink | `bool` | Indicates if it is redirected to a link within the social network or a floating window is displayed to share the link using the social network. Default `true` | `true` |
 | gray | `bool` | Define if image is gray scale. Default `false` | `false` |
 | rounded | `bool` | Show buttons rounded or square. Default `true` | `true` |

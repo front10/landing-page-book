@@ -85,4 +85,4 @@ ImageList.defaultProps = {
   images: []
 };
 
-export default withStyles(ImageList, ImageList.defaultProps);
+export default withStyles(ImageList);

@@ -5,6 +5,11 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
+| buttonBgColor | `string` | Background color of the buttons in the header. Default `"dark"` | `'dark'` |
+| buttonBorderNone | `string` | Hide or show buttons border. Default `true` | `true` |
+| buttonPaddingBottom | `string` | Paddin bottom of the buttons in the header. Default `"0"` | `'0'` |
+| buttonPaddingTop | `string` | Paddin top of the buttons in the header. Default `"0"` | `'0'` |
+| buttonTextColor | `string` | Color of the buttons in the header. Default `"warning"` | `'warning'` |
 | children | `union` | Array of element to show inside Code | `null` |
 | code<font color="red">*</font> | `string` | Code to show on component, Default `Js code example` |  |
 | codeLink | `string` | Link to code, ex: CodeSandbox, CodePen. Default `""` | `''` |

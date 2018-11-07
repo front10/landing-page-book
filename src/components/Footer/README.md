@@ -5,8 +5,10 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| children | `union` |  | `null` |
+| children | `union` | Elements to show inside of Footer. | `null` |
+| className | `string` | Class to apply to icon. Default `""` | `''` |
 | copyright | `string` | Text of copyright. Default `""` | `''` |
+| padding | `string` | Padding to apply to Footer. | `'5'` |
 | sections | `arrayOf` | Sections to show . Default `[]` | `[]` |
 | socialGray | `bool` | Define if socials buttons are gray. Default `false` | `false` |
 | socialRounded | `bool` | Define if socials buttons are rounded. Default `true` | `true` |

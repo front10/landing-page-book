@@ -1,7 +1,10 @@
 const fs = require('fs');
 const path = require('path');
 
-const componentFolder = './src/components/';
+const { resolve } = path;
+const absolute = resolve();
+
+const componentFolder = `${absolute}/src/components/`;
 const exclude = [
   'Column',
   'Container',
@@ -82,7 +85,7 @@ filewalker(componentFolder, (err, data) => {
     const name = getComponentName(component);
     const content = generateTemplate(name);
     fs.writeFile(
-      `${__dirname}/src/pages/components/${name.toLowerCase()}.js`,
+      `${absolute}/src/pages/components/${name.toLowerCase()}.js`,
       content,
       'utf8',
       () => {}

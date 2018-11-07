@@ -2,10 +2,14 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import extractProps from '../../helpers/ExtractProps';
 import Card from '../Card';
-import Link from '../Link';
 import Button from '../Button';
 
 class Features extends React.Component {
+  static routeChange(path) {
+    if (window !== 'undefined' && typeof window.location !== 'undefined')
+      window.location.assign(path);
+  }
+
   render() {
     const {
       showImage,
@@ -20,6 +24,7 @@ class Features extends React.Component {
       shadow,
       imageShadow,
       buttonOutline,
+      buttonColor,
       columnClassName
     } = this.props;
 
@@ -48,8 +53,13 @@ class Features extends React.Component {
             >
               {showFooter &&
                 feature.link && (
-                  <Button buttonOutline={buttonOutline} {...extractProps('button', this.props)}>
-                    <Link href={feature.link}>See more</Link>
+                  <Button
+                    outline={buttonOutline}
+                    color={buttonColor}
+                    onClick={() => Features.routeChange(feature.link)}
+                    {...extractProps('button', this.props)}
+                  >
+                    See more
                   </Button>
                 )}
             </Card>
@@ -102,6 +112,10 @@ Features.propTypes = {
    */
   buttonOutline: PropTypes.bool,
   /**
+   * Establishes color button. Default `primary`, can be `secondary`, `success`, `danger`, `warning`, `info`, `light`, `dark` and `link`.
+   */
+  buttonColor: PropTypes.string,
+  /**
    * Establishes if feature card has border. Default `false`
    */
   featureBorder: PropTypes.bool,
@@ -140,6 +154,7 @@ Features.defaultProps = {
   imageShadow: false,
   showFooter: true,
   buttonOutline: true,
+  buttonColor: 'primary',
   featureBorder: false,
   contentAlign: 'center',
   columnClassName: 'col-12 col-sm- col-md',

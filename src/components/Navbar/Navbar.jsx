@@ -197,4 +197,4 @@ Navbar.defaultProps = {
   onItemClick: () => {}
 };
 
-export default withStyles(Navbar, Navbar.defaultProps);
+export default withStyles(Navbar);

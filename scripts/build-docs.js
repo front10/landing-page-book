@@ -9,7 +9,10 @@ const fs = require('fs');
 const path = require('path');
 const reactDocs = require('react-docgen');
 
-const componentFolder = './src/components/';
+const { resolve } = path;
+const absolute = resolve();
+
+const componentFolder = `${absolute}/src/components/`;
 const componentDataArray = [];
 
 function pushComponent(component) {
@@ -29,7 +32,6 @@ function parseComponent(component, filename) {
   const shortname = filename.substring(splitIndex + 4);
 
   componentInfo.filename = shortname;
-
   pushComponent(componentInfo);
 }
 
@@ -57,35 +59,29 @@ function loadComponent(file, resolve) {
  * @param {Function} done
  */
 function filewalker(dir, done) {
-  let results = [];
+  const results = [];
 
   fs.readdir(dir, async (err, list) => {
     if (err) return done(err);
 
-    let pending = list.length;
-
+    let pending = list.length - 1;
     if (!pending) return done(null, results);
-
     list.forEach(file => {
       file = path.resolve(dir, file);
 
       fs.stat(file, async (err, stat) => {
         // If directory, execute a recursive call
         if (stat && stat.isDirectory()) {
-          filewalker(file, (err, res) => {
-            results = results.concat(res);
-            if (!--pending) done(null, results);
-          });
-        } else {
-          // Check if is a Javascript file
-          // And not a story or test
-          if (file.endsWith('.jsx') && !file.endsWith('.test.js')) {
+          let component = file.split('/');
+          component = `${file}/${component[component.length - 1]}.jsx`;
+          if (fs.existsSync(component)) {
             await new Promise(resolve => {
-              loadComponent(file, resolve);
+              loadComponent(component, resolve);
             });
-            await results.push(file);
+            await results.push(component);
+            pending--;
           }
-          if (!--pending) done(null, results);
+          if (!pending) done(null, results);
         }
       });
     });
@@ -136,7 +132,7 @@ function generateMarkdown(name, reactAPI) {
 }
 
 function getComponentPath(component) {
-  return `src${component.filename.split(`${component.displayName}.jsx`)[0]}`;
+  return `${absolute}/src${component.filename.split(`${component.displayName}.jsx`)[0]}`;
 }
 
 filewalker(componentFolder, (err, data) => {

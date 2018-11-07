@@ -7,6 +7,7 @@
 | ---- | ---- | ---- | ---- |
 | backButtonCls | `string` | Specify the back button class. Default `"btn btn-primary pull-left"` | `'btn btn-primary pull-left'` |
 | backButtonText | `string` | Specify the back button text. Default `"Back"` | `'Back'` |
+| className | `string` | Class name of header. Default `""` | `''` |
 | contentAlign | `string` | Specify the align of wizard components. Default `"left"`, can be `left`, `right` and `center` | `'left'` |
 | dontValidate | `bool` | Dev control to disable validation rules called in step components. Default `true` | `true` |
 | hocValidationAppliedTo | `arrayOf` | Its recommended that you use basic javascript validation. Default `[]` | `[]` |

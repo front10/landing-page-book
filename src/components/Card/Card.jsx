@@ -31,7 +31,6 @@ class Card extends React.Component {
             src={image}
             shadow={imageShadow}
             alt="Generic placeholder"
-            className="p-3"
           />
         )}
         {(title || subTitle || summary) && (
@@ -122,4 +121,4 @@ Card.defaultProps = {
   className: null
 };
 
-export default withStyles(Card, Card.defaultProps);
+export default withStyles(Card);

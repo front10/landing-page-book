@@ -6,6 +6,7 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | apiKey | `string` | Key of google maps project. Default `""` | `''` |
+| className | `string` | Class to apply. Default `""` | `''` |
 | language | `string` | Language of map. Default `"en"` | `'en'` |
 | lat | `number` | Latitude to initial center map. Default `0` | `0` |
 | lng | `number` | Longitude to initial center map. Default `0` | `0` |

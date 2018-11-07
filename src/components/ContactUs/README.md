@@ -6,6 +6,7 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | apiUrl | `string` | Url to send contact data, component make a request via post method and send `name`, `email`, `phone` and `message` params. Default `""` | `''` |
+| className | `string` | Class to apply to icon. Default `""` | `''` |
 | loading | `bool` | Define if component is loading. Default `false` | `false` |
 | mail | `string` | Value of mail input. Default `""` | `''` |
 | mailText | `string` | Label and placeholder of email input. Default `"Your Email"` | `'Your Email'` |

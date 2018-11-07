@@ -5,6 +5,7 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
+| className | `string` | Class to apply to icon. Default `""` | `''` |
 | image | `string` | Link image. Default `"https://opencollective.com/webpack/donate/button@2x.png?color=blue"` | `'https://opencollective.com/webpack/donate/button@2x.png?color=blue'` |
 | imageAlt | `string` | Image alt to accessibility. Default `"Open collective logo"` | `'Open collective logo'` |
 | imageWidth | `string` | Image width. Default `"300"` | `'300'` |

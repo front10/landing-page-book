@@ -23,10 +23,28 @@ const image =
 class DetailsComponent extends React.Component {
   constructor(props) {
     super(props);
-    this.state = {
-      open: false
-    };
     this.toogle = this.toogle.bind(this);
+    this.extractProps = this.extractProps.bind(this);
+    this.state = {
+      open: false,
+      propsDescription: this.extractProps()
+    };
+  }
+
+  extractProps() {
+    const { extractProps, withStyles, propsDescription } = this.props;
+    const newPropsDescription = Object.assign(propsDescription, withStyles);
+    extractProps.map(extractProp => {
+      Object.keys(withStyles).map(withStyle => {
+        newPropsDescription[
+          `${extractProp}${withStyle.charAt(0).toUpperCase() + withStyle.slice(1)}`
+        ] =
+          withStyles[withStyle];
+        return withStyle;
+      });
+      return extractProp;
+    });
+    return newPropsDescription;
   }
 
   toogle() {
@@ -60,15 +78,8 @@ class DetailsComponent extends React.Component {
   }
 
   render() {
-    const {
-      name,
-      linkGithub,
-      description,
-      stories,
-      pagePushed,
-      propsDescription,
-      showBack
-    } = this.props;
+    const { name, linkGithub, description, stories, pagePushed, showBack } = this.props;
+    const { propsDescription } = this.state;
     // const { open } = this.state;
     return (
       <div id="container" className={`page ${pagePushed ? 'pushed' : ''}`}>
@@ -157,7 +168,9 @@ DetailsComponent.propTypes = {
     })
   ),
   pagePushed: PropTypes.bool,
-  showBack: PropTypes.bool
+  showBack: PropTypes.bool,
+  withStyles: PropTypes.objectOf(PropTypes.any),
+  extractProps: PropTypes.arrayOf(PropTypes.string)
 };
 
 DetailsComponent.defaultProps = {
@@ -167,7 +180,9 @@ DetailsComponent.defaultProps = {
   linkGithub: 'Link',
   stories: [],
   pagePushed: false,
-  showBack: true
+  showBack: true,
+  withStyles: {},
+  extractProps: []
 };
 
 export default DetailsComponent;

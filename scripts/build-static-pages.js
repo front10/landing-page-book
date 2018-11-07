@@ -59,6 +59,8 @@ class ComponentView extends React.Component {
             description={component.summary}
             stories={component.stories}
             importCode={component.import}
+            withStyles={component.withStyles}
+            extractProps={component.extractProps}
             propsDescription={map.props}
           />
         )}

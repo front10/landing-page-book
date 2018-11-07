@@ -1,34 +1,34 @@
 export default {
-    name: 'Section',
-    summary:
-        'A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information.',
-    import: '',
-    stories: [
-        {
-            name: 'Basic',
-            summary: '',
-            code: `<Section gray title="Introduction" subTitle="Once upon a time...">
+  name: 'Section',
+  summary:
+    'A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information.',
+  import: '',
+  stories: [
+    {
+      name: 'Basic',
+      summary: '',
+      code: `<Section gray title="Introduction" subTitle="Once upon a time...">
     <Container>
         <Paragraph text="Once upon a time, there was a boy named James. He always got pushed around. One day, a wizard appeared in front of the boy. The wizard gave James three wishes. One of James wishes was that tge wizard could make James go away. The next day James tried to make a wish, but he found himself to be in the land of the forgotten." />
     </Container>
 </Section>`,
-            tabsActive: ['code']
-        },
-        {
-            name: 'With Video',
-            summary: '',
-            code: `<Section title="WHAT WE DO" subTitle="One Look Is Worth A Thousand Words."  textAlign="center">
+      tabsActive: ['code']
+    },
+    {
+      name: 'With Video',
+      summary: '',
+      code: `<Section title="WHAT WE DO" subTitle="One Look Is Worth A Thousand Words."  textAlign="center">
     <Container>
         <Video source="https://youtu.be/dCrLwWdju68"/>
         <Button color="warning" className="mt-5">Explore</Button>
     </Container>
 </Section>`,
-            tabsActive: []
-        },
-        {
-            name: 'Two Columns Text',
-            summary: '',
-            code: `<Section title="WHO WE ARE ?" subTitle="One Look Is Worth A Thousand Words.">
+      tabsActive: []
+    },
+    {
+      name: 'Two Columns Text',
+      summary: '',
+      code: `<Section title="WHO WE ARE ?" subTitle="One Look Is Worth A Thousand Words.">
     <Container className="text-justify">
         <Row>
             <Column className="col-12 col-sm-6">
@@ -41,12 +41,12 @@ export default {
         </Row>
     </Container>
 </Section>`,
-            tabsActive: []
-        },
-        {
-            name: 'Two Columns Cards',
-            summary: '',
-            code: `<Section
+      tabsActive: []
+    },
+    {
+      name: 'Two Columns Cards',
+      summary: '',
+      code: `<Section
     title="COMPONENT-DRIVEN DEVELOPMENT"
     subTitle="Build UIs in a better way: from the component up"
 >
@@ -71,8 +71,8 @@ export default {
         </Row>
     </Container>
 </Section>`,
-            tabsActive: []
-        }
-    ]
+      tabsActive: []
+    }
+  ]
 };
 

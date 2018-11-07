@@ -1,18 +1,8 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link as LinkScroll, Element } from 'react-scroll';
-import {
-  // Section,
-  Column,
-  Row,
-  Link,
-  // Icon,
-  Header,
-  Paragraph,
-  // NavbarCollapse,
-  // Button,
-  Container
-} from '../../../src/components';
+import { Column, Row, Link, Header, Paragraph, Container } from '../../../src/components';
+import withStylesMap from '../../../src/helpers/WithStyles/map.json';
 
 import PropsManager from '../PropsManager';
 import './style.css';
@@ -33,13 +23,15 @@ class DetailsComponent extends React.Component {
 
   extractProps() {
     const { extractProps, withStyles, propsDescription } = this.props;
-    const newPropsDescription = Object.assign(propsDescription, withStyles);
+    const newPropsDescription = withStyles
+      ? Object.assign(propsDescription, withStylesMap)
+      : propsDescription;
     extractProps.map(extractProp => {
-      Object.keys(withStyles).map(withStyle => {
+      Object.keys(withStylesMap).map(withStyle => {
         newPropsDescription[
           `${extractProp}${withStyle.charAt(0).toUpperCase() + withStyle.slice(1)}`
         ] =
-          withStyles[withStyle];
+          withStylesMap[withStyle];
         return withStyle;
       });
       return extractProp;
@@ -169,7 +161,7 @@ DetailsComponent.propTypes = {
   ),
   pagePushed: PropTypes.bool,
   showBack: PropTypes.bool,
-  withStyles: PropTypes.objectOf(PropTypes.any),
+  withStyles: PropTypes.bool,
   extractProps: PropTypes.arrayOf(PropTypes.string)
 };
 
@@ -181,7 +173,7 @@ DetailsComponent.defaultProps = {
   stories: [],
   pagePushed: false,
   showBack: true,
-  withStyles: {},
+  withStyles: false,
   extractProps: []
 };
 

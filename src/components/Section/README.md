@@ -5,7 +5,6 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| alignHeader | `string` | Define aligment of the component. Default `"center"`, can be `"right"` or `"left"` | `'center'` |
 | children | `union` | Elements to show inside of Section. | `null` |
 | className | `string` | Section css class. Default `""` | `''` |
 | contentClassName | `string` | Section content css class. Default `""` | `''` |

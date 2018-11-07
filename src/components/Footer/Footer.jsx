@@ -125,4 +125,4 @@ Footer.defaultProps = {
   children: null
 };
 
-export default withStyles(Footer, Footer.defaultProps);
+export default withStyles(Footer);

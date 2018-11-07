@@ -121,4 +121,4 @@ Card.defaultProps = {
   className: null
 };
 
-export default withStyles(Card, Card.defaultProps);
+export default withStyles(Card);

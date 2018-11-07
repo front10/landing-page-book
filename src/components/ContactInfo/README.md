@@ -6,6 +6,7 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | address | `string` | Address info. Default `""` | `''` |
+| className | `string` | Class to apply to icon. Default `""` | `''` |
 | contentAlign | `string` | Card content align. Default `"left"`, can be `left`, `center` and `right` | `'left'` |
 | email | `string` | Email contact info. Default `""` | `''` |
 | fax | `string` | Fax contact info. Default `""` | `''` |

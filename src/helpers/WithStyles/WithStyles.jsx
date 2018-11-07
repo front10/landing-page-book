@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
-const withStyles = (WrappedComponent, defaultProps) => {
-  const wrappedDefaultProps = defaultProps || {};
+const withStyles = WrappedComponent => {
+  const defaultProps = WrappedComponent ? WrappedComponent.defaultProps : {};
   class Styled extends Component {
     getLayoutBasedStyles() {
       const {
@@ -188,31 +188,31 @@ const withStyles = (WrappedComponent, defaultProps) => {
   };
 
   Styled.defaultProps = {
-    margin: wrappedDefaultProps.margin || null,
-    marginRight: wrappedDefaultProps.marginRight || null,
-    marginLeft: wrappedDefaultProps.marginLeft || null,
-    marginTop: wrappedDefaultProps.marginTop || null,
-    marginBottom: wrappedDefaultProps.marginBottom || null,
-    padding: wrappedDefaultProps.padding || null,
-    paddingRight: wrappedDefaultProps.paddingRight || null,
-    paddingLeft: wrappedDefaultProps.paddingLeft || null,
-    paddingTop: wrappedDefaultProps.paddingTop || null,
-    paddingBottom: wrappedDefaultProps.paddingBottom || null,
-    bgColor: wrappedDefaultProps.bgColor || null,
-    textColor: wrappedDefaultProps.textColor || null,
-    border: wrappedDefaultProps.border || null,
-    borderTop: wrappedDefaultProps.borderTop || null,
-    borderRight: wrappedDefaultProps.borderRight || null,
-    borderBottom: wrappedDefaultProps.borderBottom || null,
-    borderLeft: wrappedDefaultProps.borderLeft || null,
-    borderNone: wrappedDefaultProps.borderNone || null,
-    textAlign: wrappedDefaultProps.textAlign || null,
-    textTransform: wrappedDefaultProps.textTransform || null,
-    textTruncate: wrappedDefaultProps.textTruncate || null,
-    textMonoSpace: wrappedDefaultProps.textMonoSpace || null,
-    fontItalic: wrappedDefaultProps.fontItalic || null,
-    fontWeight: wrappedDefaultProps.fontWeight || null,
-    style: wrappedDefaultProps.style || null
+    margin: defaultProps.margin || null,
+    marginRight: defaultProps.marginRight || null,
+    marginLeft: defaultProps.marginLeft || null,
+    marginTop: defaultProps.marginTop || null,
+    marginBottom: defaultProps.marginBottom || null,
+    padding: defaultProps.padding || null,
+    paddingRight: defaultProps.paddingRight || null,
+    paddingLeft: defaultProps.paddingLeft || null,
+    paddingTop: defaultProps.paddingTop || null,
+    paddingBottom: defaultProps.paddingBottom || null,
+    bgColor: defaultProps.bgColor || null,
+    textColor: defaultProps.textColor || null,
+    border: defaultProps.border || null,
+    borderTop: defaultProps.borderTop || null,
+    borderRight: defaultProps.borderRight || null,
+    borderBottom: defaultProps.borderBottom || null,
+    borderLeft: defaultProps.borderLeft || null,
+    borderNone: defaultProps.borderNone || null,
+    textAlign: defaultProps.textAlign || null,
+    textTransform: defaultProps.textTransform || null,
+    textTruncate: defaultProps.textTruncate || null,
+    textMonoSpace: defaultProps.textMonoSpace || null,
+    fontItalic: defaultProps.fontItalic || null,
+    fontWeight: defaultProps.fontWeight || null,
+    style: defaultProps.style || null
   };
   return Styled;
 };

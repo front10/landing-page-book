@@ -15,7 +15,6 @@ class Button extends Component {
       type,
       onClick,
       loadingClass,
-      style,
       rounded,
       circle,
       color,
@@ -39,7 +38,6 @@ class Button extends Component {
         onClick={onClick}
         aria-label={ariaLabel}
         type={type}
-        style={style}
       >
         {!loading && children}
         {loading && <Icon icon={loadingClass} />}
@@ -103,10 +101,6 @@ Button.propTypes = {
    */
   color: PropTypes.string,
   /**
-   *
-   */
-  style: PropTypes.objectOf(PropTypes.any),
-  /**
    * Button styles. Default `""`
    */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
@@ -129,7 +123,6 @@ Button.defaultProps = {
   size: '',
   type: 'button',
   color: 'light',
-  style: {},
   children: null,
   onClick: () => {}
 };

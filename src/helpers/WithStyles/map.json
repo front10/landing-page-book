@@ -1,0 +1,227 @@
+{
+  "margin": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Margin of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "marginRight": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Margin right of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "marginLeft": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Margin left of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "marginTop": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Margin top of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "marginBottom": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Margin bottom of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "padding": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Padding of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "paddingRight": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Padding right of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "paddingLeft": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Padding left of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "paddingTop": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Padding top of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "paddingBottom": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Padding bottom of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "bgColor": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Background color of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "textColor": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Text color of the component",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "border": {
+    "type": { "name": "bool" },
+    "required": false,
+    "description": "Show component boder",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "borderTop": {
+    "type": { "name": "bool" },
+    "required": false,
+    "description": "Show component boder top",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "borderRight": {
+    "type": { "name": "bool" },
+    "required": false,
+    "description": "Show component boder right",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "borderLeft": {
+    "type": { "name": "bool" },
+    "required": false,
+    "description": "Show component boder left",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "borderBottom": {
+    "type": { "name": "bool" },
+    "required": false,
+    "description": "Show component boder bottom",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "borderNone": {
+    "type": { "name": "bool" },
+    "required": false,
+    "description": "Hide component boder bottom",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "textAlign": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Text alignment. Can be `left`, `center` and `right`",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "textTransform": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Text text transform. Can be `lowercase`, `uppercase`, `capitalize`",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "textTruncate": {
+    "type": { "name": "bool" },
+    "required": false,
+    "description": "Truncate the paragraph. Default `false",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "textMonoSpace": {
+    "type": { "name": "bool" },
+    "required": false,
+    "description": "Show content using mono spaced text",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "fontItalic": {
+    "type": { "name": "bool" },
+    "required": false,
+    "description": "Show content using an italic font",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "fontWeight": {
+    "type": { "name": "string" },
+    "required": false,
+    "description": "Weight of the font. Can be `bold`, `normal`, `light`",
+    "defaultValue": {
+      "value": "normal",
+      "computed": false
+    }
+  },
+  "style": {
+    "type": { "name": "object" },
+    "required": false,
+    "description": "In case you wanted to pass custom styles",
+    "defaultValue": {
+      "value": "{}",
+      "computed": false
+    }
+  }
+}

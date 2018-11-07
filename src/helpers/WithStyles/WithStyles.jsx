@@ -157,33 +157,12 @@ const withStyles = WrappedComponent => {
     borderBottom: PropTypes.bool,
     borderLeft: PropTypes.bool,
     borderNone: PropTypes.bool,
-    /**
-     * Paragraph alignment. Default  `justify`, can be `left`, `center` and `right`
-     */
     textAlign: PropTypes.oneOf(['center', 'right', 'left', 'justify']),
-    /**
-     * Paragraph text transform. Default `""` , can be `lowercase`, `uppercase`, `capitalize`
-     */
     textTransform: PropTypes.oneOf(['lowercase', 'uppercase', 'capitalize', '']),
-    /**
-     * Truncate the paragraph. Default `false`
-     */
     textTruncate: PropTypes.bool,
-    /**
-     * Show content using mono spaced text. Default `false`
-     */
     textMonoSpace: PropTypes.bool,
-    /**
-     * Show content using an italic font. Default `false`
-     */
     fontItalic: PropTypes.bool,
-    /**
-     * Weight of the font. Default `normal`, can be `bold`, `normal`, `light`
-     */
     fontWeight: PropTypes.oneOf(['bold', 'normal', 'light']),
-    /**
-     * In case you wanted to pass custom styles `""`
-     */
     style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
   };
 

@@ -1,5 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import { withPrefix } from 'gatsby-link';
 import { Header, Input, Link, Row, Column, Card, Section } from '../../../src/components';
 import '../../../src/components/Features/style.css';
 import '../../../src/components/Header/style.css';
@@ -36,7 +37,7 @@ class GridComponent extends React.Component {
                 imageBorder={false}
                 shadow={false}
                 title={component}
-                image={`images/components/${component.toLowerCase()}.svg`}
+                image={withPrefix(`images/components/${component.toLowerCase()}.svg`)}
               />
             </Link>
           </Column>

@@ -1,3 +1,4 @@
+import withStyles from '../../../../helpers/WithStyles/map.json';
 import features from '../features';
 
 export default {
@@ -5,6 +6,8 @@ export default {
   summary:
     'Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service.',
   import: '',
+  withStyles,
+  extractProps: ['feature', 'button'],
   stories: [
     {
       name: 'Basic',

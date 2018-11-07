@@ -1,8 +1,12 @@
+import withStyles from '../../../../helpers/WithStyles/map.json';
+
 export default {
   name: 'Hero',
   summary:
     "The hero image is often the first visual element a visitor encounters on the site. It presents an overview of the site's most important content.",
   import: ``,
+  withStyles,
+  extractProps: ['header', 'subHeader', 'callToAction', 'secondaryCallToAction'],
   stories: [
     {
       name: 'Basic',

@@ -43,6 +43,8 @@ NavbarLink.propTypes = {
   className: PropTypes.string
 };
 NavbarLink.defaultProps = {
+  // eslint-disable-next-line react/default-props-match-prop-types
+  textColor: 'light',
   href: '#',
   target: '',
   onClick: () => {},

@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 const withStyles = WrappedComponent => {
-  const defaultProps = WrappedComponent ? WrappedComponent.defaultProps: {};
+  const defaultProps = WrappedComponent ? WrappedComponent.defaultProps : {};
   class Styled extends Component {
     getLayoutBasedStyles() {
       const {

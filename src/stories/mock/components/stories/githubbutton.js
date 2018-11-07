@@ -11,7 +11,7 @@ export default {
       code: `<GithubButton
     username="front10"
     repository="landing-page-book"
-    btnRounded color="primary"
+    color="secondary"
 />`,
       tabsActive: ['code']
     },
@@ -20,14 +20,14 @@ export default {
       summary: '',
       code: `<React.Fragment>
     <div className="mb-3">
-        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="fork" btnText="Fork" color="secondary"/>
-        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="follow" btnText="Follow" color="secondary"/>
-        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="star" btnText="Stars" color="secondary"/>
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="fork" text="Fork" color="secondary" />
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="follow" text="Follow" color="secondary" />
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="star" text="Stars" color="secondary"/>
     </div>
     <div>
-        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="watch" btnText="Watch" color="secondary"/>
-        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="issue" btnText="Issues" color="secondary"/>
-        <GithubButton className="mr-3" username="front10" repository="landing-page-book" btnType="download" btnText="Download" showCounter={false} color="secondary"/>
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="watch" text="Watch" color="secondary" />
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="issue" text="Issues" color="secondary" />
+        <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="download" text="Download" showCounter={false} color="secondary" />
     </div>
 </React.Fragment>`,
       tabsActive: []

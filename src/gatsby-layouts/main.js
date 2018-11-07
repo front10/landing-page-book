@@ -60,20 +60,20 @@ class MainLayout extends React.Component {
         </Helmet>
         <Analytics idTracking="UA-44521541-9" />
         <Navbar
-          brandLink="/"
+          brandLink=""
           expand="md"
-          brandLogo="/images/logo/logoMainBLACK.png"
+          brandLogo="images/logo/logoMainBLACK.png"
           fixed
           bgColor="light"
           className="main-navbar"
         >
           <NavbarNav>
-            <GatsbyLink className="nav-link NavbarLink" to="/" activeClassName="activeLink" exact>
+            <GatsbyLink className="nav-link NavbarLink" to="" activeClassName="activeLink" exact>
               Introduction
             </GatsbyLink>
             <GatsbyLink
               className="nav-link NavbarLink"
-              to="/components"
+              to="components"
               activeClassName="activeLink"
               exact
             >

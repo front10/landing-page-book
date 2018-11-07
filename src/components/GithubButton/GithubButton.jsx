@@ -21,20 +21,20 @@ class GithubButton extends React.Component {
   }
 
   componentDidMount() {
-    const { btnType, showCounter, showBtnText, showGithubIcon, repository, username } = this.props;
+    const { type, showCounter, showBtnText, showGithubIcon, repository, username } = this.props;
     this.setState({
       showCounter,
       showBtnText,
       showGithubIcon
     });
-    if (btnType === 'fork' || btnType === 'star' || btnType === 'watch' || btnType === 'issue') {
-      this.getRepositoryStats(username, repository, btnType);
+    if (type === 'fork' || type === 'star' || type === 'watch' || type === 'issue') {
+      this.getRepositoryStats(username, repository, type);
     }
-    if (btnType === 'follow') {
+    if (type === 'follow') {
       this.getUserFallowers(username);
     }
 
-    if (btnType === 'download') {
+    if (type === 'download') {
       this.setState({
         counter: null,
         showCounter: false,
@@ -171,24 +171,22 @@ class GithubButton extends React.Component {
 
   render() {
     const { showGithubIcon, iconClass, showBtnText, showCounter, counter } = this.state;
-    const { btnText, loadingClass, rounded, disabled, color, className } = this.props;
+    const { text, loadingClass, disabled, color, className } = this.props;
     return (
       <div className={`${className} GithubDetail_btn_container d-inline`}>
         <Button
-          rounded={rounded}
           circle={false}
           disabled={disabled}
           color={color}
           {...extractProps('button', this.props)}
         >
           <i className={showGithubIcon ? 'fa fa-github' : iconClass} aria-hidden="true" />{' '}
-          {showBtnText && <span className="buttonText">{btnText}</span>}
+          {showBtnText && <span className="buttonText">{text}</span>}
         </Button>
 
         {showCounter && (
           <Button
             className="speech-bubble"
-            rounded={rounded}
             disabled={disabled}
             color={color}
             onClick={this.openUrl}
@@ -220,10 +218,6 @@ GithubButton.propTypes = {
    */
   disabled: PropTypes.bool,
   /**
-   * Shows github button rounded, Default `true`
-   */
-  rounded: PropTypes.bool,
-  /**
    * Class to loading indicator. Default `"fa fa-circle-o-notch fa-spin"`
    */
   loadingClass: PropTypes.string,
@@ -238,11 +232,11 @@ GithubButton.propTypes = {
   /**
    * What button show, options: `fork, follow, star, download, watch, issue`
    */
-  btnType: PropTypes.string,
+  type: PropTypes.string,
   /**
    * text to show inside the button
    */
-  btnText: PropTypes.string,
+  text: PropTypes.string,
   /**
    * Color of button, Default `Light`
    */
@@ -258,12 +252,13 @@ GithubButton.defaultProps = {
   showBtnText: true,
   showGithubIcon: false,
   disabled: false,
+  // eslint-disable-next-line react/default-props-match-prop-types
   rounded: true,
   loadingClass: 'fa fa-circle-o-notch fa-spin',
   username: 'front10',
   repository: 'landing-page-book',
-  btnType: 'fork',
-  btnText: 'Fork',
+  type: 'fork',
+  text: 'Fork',
   color: 'light',
   className: ''
 };

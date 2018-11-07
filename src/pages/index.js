@@ -41,7 +41,7 @@ const IndexPage = () => (
       <Hero opacity={1} overlayColor="#212529" particlesParams={particles}>
         <Container>
           <Image
-            src="/images/logo/front10.png"
+            src="images/logo/front10.png"
             rounded
             width="160"
             alt="Front10 logo"
@@ -69,7 +69,7 @@ const IndexPage = () => (
       </Hero>
       <Section gray>
         <Container className="text-center">
-          <Gif autoplay image="/images/demo/code.gif" />
+          <Gif autoplay image="images/demo/code.gif" />
         </Container>
       </Section>
       <Section subTitle="Landing page book is a scalable choice for developers" title="FEATURES">
@@ -162,7 +162,7 @@ const IndexPage = () => (
                 <Hero
                   backgroundColor="#212529"
                   minHeight="350px"
-                  image="/images/hero/map-image.png"
+                  image="images/hero/map-image.png"
                   particlesParams={{
                     particles: {
                       shape: {
@@ -209,7 +209,7 @@ const IndexPage = () => (
         <Container>
           <Row>
             <Column>
-              <Gif autoplay image="/images/demo/themes.gif" />
+              <Gif autoplay image="images/demo/themes.gif" />
             </Column>
           </Row>
         </Container>
@@ -245,13 +245,13 @@ const IndexPage = () => (
       <Section subTitle="We are very happy to help ;)" title="FEEDBACK AND SUPPORT">
         <Container className="text-center BuildWith">
           <Image
-            src="/images/support/maintenance.svg"
+            src="images/support/maintenance.svg"
             alt="Maintenance"
             width="100"
             className="ml-3 mr-3"
           />
           <Image
-            src="/images/support/happy.svg"
+            src="images/support/happy.svg"
             alt="Maintenance"
             width="100"
             className="ml-3 mr-3"

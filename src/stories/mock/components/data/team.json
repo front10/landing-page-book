@@ -1,6 +1,6 @@
 [
   {
-    "image": "/images/team/ninja.svg",
+    "image": "images/team/ninja.svg",
     "job": "Ninja",
     "name": "Leonardo",
     "profile": [
@@ -16,7 +16,7 @@
     "summary": "Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media."
   },
   {
-    "image": "/images/team/bohemian.svg",
+    "image": "images/team/bohemian.svg",
     "job": "Painter",
     "name": "Van Gogh",
     "profile": [
@@ -32,7 +32,7 @@
     "summary": "He was a Dutch painter, one of the main exponents of post-impressionism, he painted some 900 paintings and made more than 1,600 drawings."
   },
   {
-    "image": "/images/team/astronaut.svg",
+    "image": "images/team/astronaut.svg",
     "job": "Astronaut",
     "name": "Neil",
     "profile": [

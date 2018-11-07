@@ -15,16 +15,12 @@ class Button extends Component {
       type,
       onClick,
       loadingClass,
-      rounded,
-      circle,
       color,
       outline,
       size,
       active
     } = this.props;
     let cssclass = `${className} btn-${color}`;
-    if (circle) cssclass += ` rounded-circle`;
-    if (!rounded) cssclass += ` rounded-0`;
     if (outline) cssclass += `${className} btn-outline-${color}`;
     if (size) cssclass += `${cssclass} btn-${size}`;
     if (active) cssclass += `${cssclass} ${active}`;
@@ -56,14 +52,6 @@ Button.propTypes = {
    * Show loading mode. Default `false`
    */
   loading: PropTypes.bool,
-  /**
-   * Show rounded button. Default `true`
-   */
-  rounded: PropTypes.bool,
-  /**
-   * Show circle button. Default `false`
-   */
-  circle: PropTypes.bool,
   /**
    * Define if button is only with border. Default `false`
    */
@@ -112,8 +100,6 @@ Button.propTypes = {
 Button.defaultProps = {
   disabled: false,
   loading: false,
-  rounded: true,
-  circle: false,
   outline: false,
   active: false,
   loadingClass: 'fa fa-circle-o-notch fa-spin',

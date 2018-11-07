@@ -58,8 +58,8 @@ const IndexPage = () => (
               Explore
             </Link>
             <GithubButton
-              btnType="star"
-              btnText="Stars"
+              type="star"
+              text="Stars"
               username="front10"
               repository="landing-page-book"
             />

@@ -74,7 +74,7 @@ class MainLayout extends React.Component {
             </GatsbyLink>
             <GatsbyLink
               className="nav-link NavbarLink"
-              to="components"
+              to="/components"
               activeClassName="activeLink"
               exact
             >

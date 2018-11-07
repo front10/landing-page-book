@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import GatsbyLink from 'gatsby-link';
 import Helmet from 'react-helmet';
+import logo from '../../assets/images/logo/logoMainBLACK.png';
 
 import {
   Navbar,
@@ -62,7 +63,7 @@ class MainLayout extends React.Component {
         <Navbar
           brandLink=""
           expand="md"
-          brandLogo="images/logo/logoMainBLACK.png"
+          brandLogo={logo}
           fixed
           bgColor="light"
           className="main-navbar"

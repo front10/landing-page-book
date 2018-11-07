@@ -9,6 +9,7 @@ import ReactHtmlParser from 'react-html-parser';
 import VariableManager from '../VariableManager';
 import Icon from '../../../src/components/Icon';
 import Button from '../../../src/components/Button';
+import Input from '../../../src/components/Input';
 import Row from '../../../src/components/Row';
 import Column from '../../../src/components/Column';
 import * as scope from '../../../src/components/index';
@@ -27,13 +28,22 @@ class PropsManager extends React.Component {
       textCode: props.children,
       external: true,
       active: props.active,
-      scopied: false
+      scopied: false,
+      initialpropsDescription: null,
+      propsDescription: null
     };
     this.handleCodeChange = this.handleCodeChange.bind(this);
     this.handleActive = this.handleActive.bind(this);
     this.showOrHideCodeAndIcon = this.showOrHideCodeAndIcon.bind(this);
     this.showCopyButton = this.showCopyButton.bind(this);
     this.copyToClipboard = this.copyToClipboard.bind(this);
+    this.filterList = this.filterList.bind(this);
+    this.renderTableDocs = this.renderTableDocs.bind(this);
+  }
+
+  componentDidMount() {
+    const { propsDescription } = this.props;
+    this.setState({ propsDescription, initialpropsDescription: propsDescription });
   }
 
   handleCodeChange(textCode) {
@@ -100,6 +110,68 @@ class PropsManager extends React.Component {
     );
   }
 
+  filterList({ value }) {
+    const { initialpropsDescription } = this.state;
+    const propsDesc = {};
+    Object.keys(initialpropsDescription).filter(item => {
+      if (item.toLowerCase().search(value.toLowerCase()) !== -1) {
+        propsDesc[item] = initialpropsDescription[item];
+      }
+    });
+    this.setState({ propsDescription: propsDesc });
+  }
+
+  renderTableDocs() {
+    const { propsDescription, active } = this.state;
+    return (
+      <React.Fragment>
+        <div className="filter-list">
+          <Input
+            icon="fa fa-search"
+            size="sm"
+            placeholder="Filter component"
+            onChange={this.filterList}
+          />
+        </div>
+        <table
+          className={`table table-striped table-bordered m-0 table-sm ${
+            active.indexOf('readme') === -1 ? 'playgroundProperties--rounded' : ''
+          }`}
+        >
+          <thead>
+            <tr>
+              <th scope="row">Name</th>
+              <th scope="col">Type</th>
+              <th scope="col">Summary</th>
+              <th scope="col">Default</th>
+            </tr>
+          </thead>
+          <tbody>
+            {Object.keys(propsDescription).map(prop => (
+              <tr key={prop}>
+                <td>
+                  <span className="propName">{prop}</span>
+                </td>
+                <td>
+                  {' '}
+                  <span className="propType">{propsDescription[prop].type.name}</span>
+                </td>
+                <td>{propsDescription[prop].description}</td>
+                <td>
+                  <code>
+                    {propsDescription[prop].defaultValue
+                      ? propsDescription[prop].defaultValue.value
+                      : ReactHtmlParser('<span class="text-required">* required </span>')}
+                  </code>
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </React.Fragment>
+    );
+  }
+
   render() {
     const { external, expandedCode, textCode, active } = this.state;
     const { readme, cssVariables, columnSize, propsDescription, columnAlign } = this.props;
@@ -162,43 +234,7 @@ class PropsManager extends React.Component {
               </div>
             )}
             {active.indexOf('props') !== -1 && (
-              <div className="playgroundProperties p-0">
-                <table
-                  className={`table table-striped table-bordered m-0 table-sm ${
-                    active.indexOf('readme') === -1 ? 'playgroundProperties--rounded' : ''
-                  }`}
-                >
-                  <thead>
-                    <tr>
-                      <th scope="row">Name</th>
-                      <th scope="col">Type</th>
-                      <th scope="col">Summary</th>
-                      <th scope="col">Default</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {Object.keys(propsDescription).map(prop => (
-                      <tr key={prop}>
-                        <td>
-                          <span className="propName">{prop}</span>
-                        </td>
-                        <td>
-                          {' '}
-                          <span className="propType">{propsDescription[prop].type.name}</span>
-                        </td>
-                        <td>{propsDescription[prop].description}</td>
-                        <td>
-                          <code>
-                            {propsDescription[prop].defaultValue
-                              ? propsDescription[prop].defaultValue.value
-                              : ReactHtmlParser('<span class="text-required">* required </span>')}
-                          </code>
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+              <div className="playgroundProperties p-0">{this.renderTableDocs()}</div>
             )}
           </Column>
         </Row>

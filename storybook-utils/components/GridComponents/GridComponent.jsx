@@ -37,7 +37,7 @@ class GridComponent extends React.Component {
                 imageBorder={false}
                 shadow={false}
                 title={component}
-                image={withPrefix(`images/components/${component.toLowerCase()}.svg`)}
+                image={withPrefix(`/images/components/${component.toLowerCase()}.svg`)}
               />
             </Link>
           </Column>

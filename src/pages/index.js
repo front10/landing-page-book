@@ -3,21 +3,21 @@ import Slider from 'react-slick';
 import Main from '../gatsby-layouts/main';
 import Container from '../components/Container';
 
-import sliders from './data/slider.json';
-import team from './data/team.json';
-import features from './data/features.json';
-import particles from './data/particles.json';
-import build from './data/build.json';
-import backers from './data/backers.json';
-import carousel from './data/carousel.json';
-import { navBarCode, importThemes } from './data/code';
+import sliders from '../stories/mock/components/data/slider.json';
+import team from '../stories/mock/components/data/team.json';
+import features from '../stories/mock/components/data/features.json';
+import particles from '../stories/mock/components/data/particles.json';
+import build from '../stories/mock/components/data/build.json';
+import backers from '../stories/mock/components/data/backers.json';
+import carousel from '../stories/mock/components/data/carousel.json';
+import { navBarCode, importThemes } from '../stories/mock/components/data/code';
 // core
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 // theme for code
 import 'codemirror/theme/oceanic-next.css';
 
-import AnimatedHero from './data/hero';
+import AnimatedHero from '../stories/mock/components/data/hero';
 import {
   Hero,
   Image,

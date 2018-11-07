@@ -252,6 +252,18 @@ a .Card .Card__Title{
     }
 }
 
+@media (max-width: 415px) {
+    .row {
+        display: block;
+    }
+}
+
+@media (max-width: 1000px) {
+    .col-11 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
 /* GIf style */
 .Section .Gif .gif_player img {
   width: auto !important;

@@ -1,6 +1,6 @@
 import React from 'react';
 import Main from '../gatsby-layouts/main';
-import AnimatedHero from './data/hero';
+import AnimatedHero from '../stories/mock/components/data/hero';
 import { Row, Column } from '../components';
 
 const NotFoundPage = () => (

@@ -1,11 +1,9 @@
-import withStyles from '../../../../helpers/WithStyles/map.json';
-
 export default {
   name: 'Navbar',
   summary:
     'A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site.',
   import: '',
-  withStyles,
+  withStyles: true,
   extractProps: ['link', 'brand'],
   stories: [
     {

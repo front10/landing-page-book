@@ -1,18 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link as LinkScroll, Element } from 'react-scroll';
-import {
-  // Section,
-  Column,
-  Row,
-  Link,
-  // Icon,
-  Header,
-  Paragraph,
-  // NavbarCollapse,
-  // Button,
-  Container
-} from '../../../src/components';
+import { withPrefix } from 'gatsby-link';
+import { Column, Row, Link, Header, Paragraph, Container } from '../../../src/components';
+import withStylesMap from '../../../src/helpers/WithStyles/map.json';
 
 import PropsManager from '../PropsManager';
 import './style.css';
@@ -33,13 +24,15 @@ class DetailsComponent extends React.Component {
 
   extractProps() {
     const { extractProps, withStyles, propsDescription } = this.props;
-    const newPropsDescription = Object.assign(propsDescription, withStyles);
+    const newPropsDescription = withStyles
+      ? Object.assign(propsDescription, withStylesMap)
+      : propsDescription;
     extractProps.map(extractProp => {
-      Object.keys(withStyles).map(withStyle => {
+      Object.keys(withStylesMap).map(withStyle => {
         newPropsDescription[
           `${extractProp}${withStyle.charAt(0).toUpperCase() + withStyle.slice(1)}`
         ] =
-          withStyles[withStyle];
+          withStylesMap[withStyle];
         return withStyle;
       });
       return extractProp;
@@ -87,7 +80,11 @@ class DetailsComponent extends React.Component {
         <div className="title-component bg-light p-2">
           <Container className="pb-4 pt-3 prl-11">
             {showBack && (
-              <Link href="/components" tooltip="Go Back" className="btn btn-back btn-everblue">
+              <Link
+                href={withPrefix('/components')}
+                tooltip="Go Back"
+                className="btn btn-back btn-everblue"
+              >
                 <img src={image} alt="Go Back" />
               </Link>
             )}
@@ -169,7 +166,7 @@ DetailsComponent.propTypes = {
   ),
   pagePushed: PropTypes.bool,
   showBack: PropTypes.bool,
-  withStyles: PropTypes.objectOf(PropTypes.any),
+  withStyles: PropTypes.bool,
   extractProps: PropTypes.arrayOf(PropTypes.string)
 };
 
@@ -181,7 +178,7 @@ DetailsComponent.defaultProps = {
   stories: [],
   pagePushed: false,
   showBack: true,
-  withStyles: {},
+  withStyles: false,
   extractProps: []
 };
 

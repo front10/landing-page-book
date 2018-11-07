@@ -1,11 +1,9 @@
-import withStyles from '../../../../helpers/WithStyles/map.json';
-
 export default {
   name: 'Section',
   summary:
     'A section is a thematic grouping of content, typically with a heading. A landing page could normally be split into sections for introduction, content, and contact information.',
   import: '',
-  withStyles,
+  withStyles: true,
   extractProps: ['title', 'subTitle'],
   stories: [
     {

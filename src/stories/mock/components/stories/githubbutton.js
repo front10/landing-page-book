@@ -3,6 +3,7 @@ export default {
   summary:
     'Showcase the success of any GitHub repo or user with these simple, static buttons with dynamic counts.',
   import: '',
+  extractProps: ['button', 'counter'],
   stories: [
     {
       name: 'Basic',

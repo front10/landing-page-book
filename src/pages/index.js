@@ -1,5 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
+import Link from 'gatsby-link';
 import Main from '../gatsby-layouts/main';
 import Container from '../components/Container';
 
@@ -22,7 +23,6 @@ import {
   Hero,
   Image,
   Header,
-  Link,
   GithubButton,
   Features,
   Section,
@@ -54,7 +54,7 @@ const IndexPage = () => (
             React components to build!
           </Header>
           <div className="mt-5">
-            <Link className="btn btn-primary btn-started" href="/components">
+            <Link className="btn btn-primary btn-started" to="/components">
               Explore
             </Link>
             <GithubButton
@@ -83,11 +83,7 @@ const IndexPage = () => (
           />
         </Container>
         <Container className="text-center">
-          <Link
-            className="btn btn-primary btn-started"
-            href="https://front10.com/landing-page-book"
-            target="_blank"
-          >
+          <Link className="btn btn-primary btn-started" to="/components">
             Explore
           </Link>
         </Container>
@@ -97,7 +93,7 @@ const IndexPage = () => (
           <Slider {...carousel}>
             {sliders.map(item => (
               <div key={item.name}>
-                <Link href={item.link}>
+                <Link to={item.link}>
                   <Image src={item.image} alt="Navigation" width="100" />
                   <Header className="mt-3 component-link text-center" type="h6">
                     {item.name}
@@ -108,11 +104,7 @@ const IndexPage = () => (
           </Slider>
         </Container>
         <Container className="text-center mt-5">
-          <Link
-            className="btn btn-primary btn-started"
-            href="https://front10.com/landing-page-book"
-            target="_blank"
-          >
+          <Link className="btn btn-primary btn-started" to="/components">
             Explore
           </Link>
         </Container>
@@ -192,11 +184,7 @@ const IndexPage = () => (
           </Row>
         </Container>
         <Container className="text-center mt-5">
-          <Link
-            className="btn btn-primary btn-started"
-            href="https://front10.com/landing-page-book"
-            target="_blank"
-          >
+          <Link className="btn btn-primary btn-started" to="/components">
             Explore
           </Link>
         </Container>
@@ -214,11 +202,7 @@ const IndexPage = () => (
           </Row>
         </Container>
         <Container className="text-center mt-5">
-          <Link
-            className="btn btn-primary btn-started"
-            href="https://front10.com/landing-page-book"
-            target="_blank"
-          >
+          <Link className="btn btn-primary btn-started" to="/components">
             Explore
           </Link>
         </Container>
@@ -230,14 +214,10 @@ const IndexPage = () => (
       </Section>
       <Section subTitle="These are our members" title="TEAM" gray>
         <Container>
-          <Team memberBorder={false} members={team} socials={['linkedin', 'twitter']} />
+          <Team memberBorderNone members={team} socials={['linkedin', 'twitter']} />
         </Container>
         <Container className="text-center">
-          <Link
-            className="btn btn-primary btn-started"
-            href="https://front10.com/landing-page-book"
-            target="_blank"
-          >
+          <Link className="btn btn-primary btn-started" to="/components">
             Explore
           </Link>
         </Container>

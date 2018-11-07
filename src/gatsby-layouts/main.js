@@ -1,6 +1,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import GatsbyLink from 'gatsby-link';
+import GatsbyLink, { withPrefix } from 'gatsby-link';
 import Helmet from 'react-helmet';
 import logo from '../../assets/images/logo/logoMainBLACK.png';
 
@@ -69,12 +69,17 @@ class MainLayout extends React.Component {
           className="main-navbar"
         >
           <NavbarNav>
-            <GatsbyLink className="nav-link NavbarLink" to="" activeClassName="activeLink" exact>
+            <GatsbyLink
+              className="nav-link NavbarLink"
+              to={withPrefix('')}
+              activeClassName="activeLink"
+              exact
+            >
               Introduction
             </GatsbyLink>
             <GatsbyLink
               className="nav-link NavbarLink"
-              to="components"
+              to={withPrefix('components')}
               activeClassName="activeLink"
               exact
             >

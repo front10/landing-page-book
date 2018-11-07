@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link as LinkScroll, Element } from 'react-scroll';
+import { withPrefix } from 'gatsby-link';
 import { Column, Row, Link, Header, Paragraph, Container } from '../../../src/components';
 import withStylesMap from '../../../src/helpers/WithStyles/map.json';
 
@@ -79,7 +80,11 @@ class DetailsComponent extends React.Component {
         <div className="title-component bg-light p-2">
           <Container className="pb-4 pt-3 prl-11">
             {showBack && (
-              <Link href="/components" tooltip="Go Back" className="btn btn-back btn-everblue">
+              <Link
+                href={withPrefix('/components')}
+                tooltip="Go Back"
+                className="btn btn-back btn-everblue"
+              >
                 <img src={image} alt="Go Back" />
               </Link>
             )}

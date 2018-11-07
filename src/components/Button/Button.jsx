@@ -15,7 +15,6 @@ class Button extends Component {
       type,
       onClick,
       loadingClass,
-      style,
       rounded,
       circle,
       color,

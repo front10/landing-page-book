@@ -1,6 +1,8 @@
 {
   "margin": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Margin of the component",
     "defaultValue": {
@@ -9,7 +11,9 @@
     }
   },
   "marginRight": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Margin right of the component",
     "defaultValue": {
@@ -18,7 +22,9 @@
     }
   },
   "marginLeft": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Margin left of the component",
     "defaultValue": {
@@ -27,7 +33,9 @@
     }
   },
   "marginTop": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Margin top of the component",
     "defaultValue": {
@@ -36,7 +44,9 @@
     }
   },
   "marginBottom": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Margin bottom of the component",
     "defaultValue": {
@@ -45,7 +55,9 @@
     }
   },
   "padding": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Padding of the component",
     "defaultValue": {
@@ -54,7 +66,9 @@
     }
   },
   "paddingRight": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Padding right of the component",
     "defaultValue": {
@@ -63,7 +77,9 @@
     }
   },
   "paddingLeft": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Padding left of the component",
     "defaultValue": {
@@ -72,7 +88,9 @@
     }
   },
   "paddingTop": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Padding top of the component",
     "defaultValue": {
@@ -81,7 +99,9 @@
     }
   },
   "paddingBottom": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Padding bottom of the component",
     "defaultValue": {
@@ -89,8 +109,87 @@
       "computed": false
     }
   },
+  "rounded": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges are rounded. Default is `false`",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "roundedRight": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges to the right are rounded. Default is `false`",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "roundedLeft": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges to the left are rounded. Default is `false`",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "roundedTop": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges to the top are rounded. Default is `false`",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "roundedBottom": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges to the bottom are rounded. Default is `false`",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "roundedCircle": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "If the edges form a circle. Default is `false`",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "roundedNone": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges are not rounded. Default is `false`",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
   "bgColor": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Background color of the component",
     "defaultValue": {
@@ -99,7 +198,9 @@
     }
   },
   "textColor": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Text color of the component",
     "defaultValue": {
@@ -108,7 +209,9 @@
     }
   },
   "border": {
-    "type": { "name": "bool" },
+    "type": {
+      "name": "bool"
+    },
     "required": false,
     "description": "Show component boder",
     "defaultValue": {
@@ -117,7 +220,9 @@
     }
   },
   "borderTop": {
-    "type": { "name": "bool" },
+    "type": {
+      "name": "bool"
+    },
     "required": false,
     "description": "Show component boder top",
     "defaultValue": {
@@ -126,7 +231,9 @@
     }
   },
   "borderRight": {
-    "type": { "name": "bool" },
+    "type": {
+      "name": "bool"
+    },
     "required": false,
     "description": "Show component boder right",
     "defaultValue": {
@@ -135,7 +242,9 @@
     }
   },
   "borderLeft": {
-    "type": { "name": "bool" },
+    "type": {
+      "name": "bool"
+    },
     "required": false,
     "description": "Show component boder left",
     "defaultValue": {
@@ -144,7 +253,9 @@
     }
   },
   "borderBottom": {
-    "type": { "name": "bool" },
+    "type": {
+      "name": "bool"
+    },
     "required": false,
     "description": "Show component boder bottom",
     "defaultValue": {
@@ -153,7 +264,9 @@
     }
   },
   "borderNone": {
-    "type": { "name": "bool" },
+    "type": {
+      "name": "bool"
+    },
     "required": false,
     "description": "Hide component boder bottom",
     "defaultValue": {
@@ -162,7 +275,9 @@
     }
   },
   "textAlign": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Text alignment. Can be `left`, `center` and `right`",
     "defaultValue": {
@@ -171,7 +286,9 @@
     }
   },
   "textTransform": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Text text transform. Can be `lowercase`, `uppercase`, `capitalize`",
     "defaultValue": {
@@ -180,7 +297,9 @@
     }
   },
   "textTruncate": {
-    "type": { "name": "bool" },
+    "type": {
+      "name": "bool"
+    },
     "required": false,
     "description": "Truncate the paragraph. Default `false",
     "defaultValue": {
@@ -189,7 +308,9 @@
     }
   },
   "textMonoSpace": {
-    "type": { "name": "bool" },
+    "type": {
+      "name": "bool"
+    },
     "required": false,
     "description": "Show content using mono spaced text",
     "defaultValue": {
@@ -198,7 +319,9 @@
     }
   },
   "fontItalic": {
-    "type": { "name": "bool" },
+    "type": {
+      "name": "bool"
+    },
     "required": false,
     "description": "Show content using an italic font",
     "defaultValue": {
@@ -207,7 +330,9 @@
     }
   },
   "fontWeight": {
-    "type": { "name": "string" },
+    "type": {
+      "name": "string"
+    },
     "required": false,
     "description": "Weight of the font. Can be `bold`, `normal`, `light`",
     "defaultValue": {
@@ -216,7 +341,9 @@
     }
   },
   "style": {
-    "type": { "name": "object" },
+    "type": {
+      "name": "object"
+    },
     "required": false,
     "description": "In case you wanted to pass custom styles",
     "defaultValue": {

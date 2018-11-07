@@ -106,6 +106,41 @@ const withStyles = WrappedComponent => {
       return textAlignBasedClasses;
     }
 
+    getRoundedBasedStyles() {
+      const {
+        rounded,
+        roundedRight,
+        roundedLeft,
+        roundedTop,
+        roundedBottom,
+        roundedCircle,
+        roundedNone
+      } = this.props;
+      let roundedBasedClasses = '';
+      if (rounded) {
+        roundedBasedClasses = `${roundedBasedClasses} rounded`;
+      }
+      if (roundedTop) {
+        roundedBasedClasses = `${roundedBasedClasses} rounded-top`;
+      }
+      if (roundedRight) {
+        roundedBasedClasses = `${roundedBasedClasses} rounded-right`;
+      }
+      if (roundedBottom) {
+        roundedBasedClasses = `${roundedBasedClasses} rounded-bottom`;
+      }
+      if (roundedLeft) {
+        roundedBasedClasses = `${roundedBasedClasses} rounded-left`;
+      }
+      if (roundedCircle) {
+        roundedBasedClasses = `${roundedBasedClasses} rounded-circle`;
+      }
+      if (roundedNone) {
+        roundedBasedClasses = `${roundedBasedClasses} rounded-0`;
+      }
+      return roundedBasedClasses;
+    }
+
     translatePropsStyles() {
       const { className, classNames } = this.props;
       let finalClasses = '';
@@ -115,6 +150,7 @@ const withStyles = WrappedComponent => {
       const colorBasedClasses = this.getColorBasedStyles();
       const borderBasedClasses = this.getBorderBasedStyles();
       const textBasedClasses = this.getTextBasedStyles();
+      const roundedBasedClasses = this.getRoundedBasedStyles();
 
       if (layoutBasedClasses) {
         finalClasses = `${finalClasses} ${layoutBasedClasses}`;
@@ -127,6 +163,9 @@ const withStyles = WrappedComponent => {
       }
       if (textBasedClasses) {
         finalClasses = `${finalClasses} ${textBasedClasses}`;
+      }
+      if (roundedBasedClasses) {
+        finalClasses = `${finalClasses} ${roundedBasedClasses}`;
       }
       return finalClasses;
     }
@@ -149,6 +188,13 @@ const withStyles = WrappedComponent => {
     paddingLeft: PropTypes.string,
     paddingTop: PropTypes.string,
     paddingBottom: PropTypes.string,
+    rounded: PropTypes.bool,
+    roundedRight: PropTypes.bool,
+    roundedLeft: PropTypes.bool,
+    roundedTop: PropTypes.bool,
+    roundedBottom: PropTypes.bool,
+    roundedCircle: PropTypes.bool,
+    roundedNone: PropTypes.bool,
     bgColor: PropTypes.string,
     textColor: PropTypes.string,
     border: PropTypes.bool,
@@ -177,6 +223,13 @@ const withStyles = WrappedComponent => {
     paddingLeft: defaultProps.paddingLeft || null,
     paddingTop: defaultProps.paddingTop || null,
     paddingBottom: defaultProps.paddingBottom || null,
+    rounded: defaultProps.rounded || null,
+    roundedRight: defaultProps.roundedRight || null,
+    roundedLeft: defaultProps.roundedLeft || null,
+    roundedTop: defaultProps.roundedTop || null,
+    roundedBottom: defaultProps.roundedBottom || null,
+    roundedCircle: defaultProps.roundedCircle || null,
+    roundedNone: defaultProps.roundedNone || null,
     bgColor: defaultProps.bgColor || null,
     textColor: defaultProps.textColor || null,
     border: defaultProps.border || null,

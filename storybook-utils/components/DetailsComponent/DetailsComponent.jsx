@@ -70,7 +70,7 @@ class DetailsComponent extends React.Component {
     );
   }
 
-  render() {
+  render() {console.log(withPrefix('/components'))
     const { name, linkGithub, description, stories, pagePushed, showBack } = this.props;
     const { propsDescription } = this.state;
     // const { open } = this.state;

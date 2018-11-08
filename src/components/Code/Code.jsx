@@ -265,7 +265,7 @@ Code.propTypes = {
   /**
    * Hide or show buttons border. Default `true`
    */
-  buttonBorderNone: PropTypes.string,
+  buttonBorderNone: PropTypes.bool,
   /**
    * Color of the buttons in the header. Default `"warning"`
    */

@@ -85,7 +85,7 @@ class MainLayout extends React.Component {
             {/* eslint-disable */}
             <iframe
               className="first-iframe mt-2"
-              src="http://ghbtns.com/github-btn.html?user=front10&amp;repo=landing-page-book&amp;type=watch&amp;count=true"
+              src="//ghbtns.com/github-btn.html?user=front10&amp;repo=landing-page-book&amp;type=watch&amp;count=true"
               frameBorder="0"
               scrolling="0"
               width="86"

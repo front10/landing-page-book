@@ -74,7 +74,8 @@
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "gulp compile-components-legacy & gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & npm run transpile",
     "test-browser": "node ./selenium/browser-test.js",
-    "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-book.git"
+    "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-book.git",
+    "local-build": "rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby build --prefix-paths && cp -r public/* /var/www/html/landing-page-book"
   },
   "devDependencies": {
     "@kadira/storybook-addon-options": "^1.0.2",

@@ -1,45 +1,11 @@
-<a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/src/components/LocationMarker/README.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
-</a>
-
 # LocationMarker
+  [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+  
 
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-
-## Overview
-`@front10/landing-page-book/LocationMarker` is used to create a map marker.
-
-## How to use
-1- Importing bootstrap style
-
-```js
-import "bootstrap/dist/css/bootstrap.min.css";
-```
-
-2- Importing font-awesome or any other font (Optional)
-
-```js
-import "font-awesome/css/font-awesome.min.css";
-```
-
-3- Add following content to import the component:
-
-```js
-import LocationMarker from "@front10/landing-page-book/dist/components/LocationMarker";
-import "@front10/landing-page-book/dist/components/LocationMarker/style.css";
-```
-
-> Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
-
-4- Put this code into jsx page:
-```html
-<LocationMarker />
-```
-
-## Properties:
-
-| </br>Name   | </br>Type | </br>Summary                                                                                 | 
-| ------------| - | ------------------------------------------------------------------------------------------------------ |
-| lat | `Number` | Marker latitude. Default `undefined`, this field is required |
-| lng | `Number` | Marker longitude. Default `undefined`, this field is required |
-| icon | `String` | Icon to show in the marker. Default `"fa fa-map-marker"` |
-| color | `String` | Marker color. Default `"#d43131"` |
+  ## Properties
+  | </br>Name | </br>Type | </br>Summary | </br>Default | 
+| ---- | ---- | ---- | ---- |
+| className | `string` | Class to apply. | `''` |
+| icon | `string` | Icon to show in the marker. | `'fa fa-map-marker'` |
+| lat<font color="red">*</font> | `number` | Marker latitude. |  |
+| lng<font color="red">*</font> | `number` | Marker longitude. |  |

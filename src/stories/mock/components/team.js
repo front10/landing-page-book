@@ -1,23 +1,17 @@
 const team = [
   {
-    image: 'images/team/ninja.svg',
+    image: 'https://front10.com/landing-page-book/images/team/ninja.svg',
     name: 'Leonardo',
     job: 'Ninja',
     summary:
       'Leonardo, nickname Leo, is a fictional character and one of the four main characters in the Teenage Mutant Ninja Turtles comics and related media.',
     profile: [
-      {
-        social: 'facebook',
-        url: 'https://www.facebook.com/JavaScriptTeam/'
-      },
-      {
-        social: 'twitter',
-        url: 'https://twitter.com/front10hello?lang=es'
-      }
+      { social: 'facebook', url: 'https://www.facebook.com/JavaScriptTeam/' },
+      { social: 'twitter', url: 'https://twitter.com/front10hello?lang=es' }
     ]
   },
   {
-    image: 'images/team/bohemian.svg',
+    image: 'https://front10.com/landing-page-book/images/team/bohemian.svg',
     name: 'Van Gogh',
     job: 'Painter',
     summary:
@@ -34,7 +28,7 @@ const team = [
     ]
   },
   {
-    image: 'images/team/astronaut.svg',
+    image: 'https://front10.com/landing-page-book/images/team/astronaut.svg',
     name: 'Neil',
     job: 'Astronaut',
     summary:

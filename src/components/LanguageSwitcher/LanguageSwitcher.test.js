@@ -20,7 +20,18 @@ describe('LanguageSwitcher', () => {
   }
   describe('LanguageSwitcher', () => {
     beforeEach(() => {
-      props = { onSelect: l => changeLanguage(l) };
+      props = {
+        showLabel: false,
+        disabled: false,
+        showOptionLabel: true,
+        showFlag: true,
+        showArrow: true,
+        selectedLanguage: '',
+        placeholder: 'Language',
+        languages: ['US', 'ES', 'UK', 'JP'],
+        customLabels: {},
+        onSelect: l => changeLanguage(l)
+      };
       mounted = undefined;
     });
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import BackersOpenCollective from './BackersOpenCollective';
 
@@ -10,14 +10,14 @@ describe('Backers', () => {
   let mounted;
   const backersOpenCollective = () => {
     if (!mounted) {
-      mounted = mount(<BackersOpenCollective {...props} />);
+      mounted = shallow(<BackersOpenCollective {...props} />);
     }
     return mounted;
   };
   describe('BackersOpenCollective', () => {
     beforeEach(() => {
       props = {
-        collective: "webpack"
+        collective: 'webpack'
       };
       mounted = undefined;
     });
@@ -30,7 +30,7 @@ describe('Backers', () => {
     });
 
     it('should render', () => {
-      expect(mount(<BackersOpenCollective {...props} />)).toMatchSnapshot();
+      expect(shallow(<BackersOpenCollective {...props} />)).toMatchSnapshot();
     });
 
     it('always renders a div', () => {
@@ -39,9 +39,15 @@ describe('Backers', () => {
       expect(divs.length).toBeGreaterThan(0);
     });
 
-    it('sort function', ()=>{
-      const backers = [{contributionAmount: 1, name:'Nick', image: 'image.jpg'}, {contributionAmount: 23, name:'John', image: 'image.jpg'}];
-      backersOpenCollective().instance().sort(backers, 'asc');
+    it('sort function', () => {
+      const backers = [
+        { contributionAmount: 1, name: 'Nick', image: 'image.jpg' },
+        { contributionAmount: 23, name: 'John', image: 'image.jpg' }
+      ];
+      backersOpenCollective()
+        .instance()
+        .sort(backers, 'asc');
+
       expect(backersOpenCollective().state('backersOrdered')[0].name).toEqual('Nick');
     });
   });

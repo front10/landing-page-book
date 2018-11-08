@@ -1,9 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import Card from '../Card';
 import Button from '../Button';
 
 class Features extends React.Component {
+  static routeChange(path) {
+    if (window !== 'undefined' && typeof window.location !== 'undefined')
+      window.location.assign(path);
+  }
+
   render() {
     const {
       showImage,
@@ -17,7 +23,9 @@ class Features extends React.Component {
       showFooter,
       shadow,
       imageShadow,
-      outlineButton
+      buttonOutline,
+      buttonColor,
+      columnClassName
     } = this.props;
 
     const featuresWithId = features.map(feature => {
@@ -27,13 +35,11 @@ class Features extends React.Component {
       }
       return featureWithId;
     });
-
     return (
       <div className={`Features d-flex flex-wrap Features--${contentAlign}`}>
         {featuresWithId.map(feature => (
-          <div className={`col-12 col-sm-6 col-lg-3 text-${contentAlign} mb-4`} key={feature.id}>
+          <div className={`${columnClassName} text-${contentAlign} mb-4`} key={feature.id}>
             <Card
-              showBorder={false}
               imageCircle={imageCircle}
               subTitle={showSubtitle ? feature.subtitle : ''}
               title={showTitle ? feature.title : ''}
@@ -43,8 +49,19 @@ class Features extends React.Component {
               image={showImage ? feature.image : ''}
               shadow={shadow}
               imageShadow={imageShadow}
+              {...extractProps('feature', this.props)}
             >
-              {showFooter && feature.link && <Button outline={outlineButton}>See more</Button>}
+              {showFooter &&
+                feature.link && (
+                  <Button
+                    outline={buttonOutline}
+                    color={buttonColor}
+                    onClick={() => Features.routeChange(feature.link)}
+                    {...extractProps('button', this.props)}
+                  >
+                    See more
+                  </Button>
+                )}
             </Card>
           </div>
         ))}
@@ -54,17 +71,65 @@ class Features extends React.Component {
 }
 
 Features.propTypes = {
+  /**
+   * Establishes shadow for each card
+   */
   shadow: PropTypes.bool,
+  /**
+   * Show or hide image
+   */
   showImage: PropTypes.bool,
+  /**
+   * Show or hide title
+   */
   showTitle: PropTypes.bool,
+  /**
+   * Show or hide subtitle
+   */
   showSubtitle: PropTypes.bool,
+  /**
+   * Show or hide summary
+   */
   showSummary: PropTypes.bool,
+  /**
+   * Establishes if image is circled
+   */
   imageCircle: PropTypes.bool,
+  /**
+   * Establishes if image is with border
+   */
   imageBorder: PropTypes.bool,
+  /**
+   * Establishes image with shadow
+   */
   imageShadow: PropTypes.bool,
+  /**
+   * Show or hide Card footer
+   */
   showFooter: PropTypes.bool,
-  outlineButton: PropTypes.bool,
+  /**
+   * Establishes if <code>'See more'</code> button is outline
+   */
+  buttonOutline: PropTypes.bool,
+  /**
+   * Establishes color button
+   */
+  buttonColor: PropTypes.string,
+  /**
+   * Establishes if feature card has border
+   */
+  featureBorder: PropTypes.bool,
+  /**
+   * Align of a component content. Can be <code>'left'</code>, <code>'center'</code> and <code>'right'</code>
+   */
   contentAlign: PropTypes.string,
+  /**
+   * CSS class name for column
+   */
+  columnClassName: PropTypes.string,
+  /**
+   * Array of features to show
+   */
   features: PropTypes.arrayOf(
     PropTypes.shape({
       id: PropTypes.oneOfType([PropTypes.string, PropTypes.number]),
@@ -84,12 +149,15 @@ Features.defaultProps = {
   showTitle: true,
   showSubtitle: true,
   showSummary: true,
-  imageCircle: true,
+  imageCircle: false,
   imageBorder: false,
   imageShadow: false,
   showFooter: true,
-  outlineButton: true,
+  buttonOutline: true,
+  buttonColor: 'primary',
+  featureBorder: false,
   contentAlign: 'center',
+  columnClassName: 'col-12 col-sm- col-md',
   features: []
 };
 

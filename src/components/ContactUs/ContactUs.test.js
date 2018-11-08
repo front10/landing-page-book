@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import ContactUs from './ContactUs';
 
@@ -10,7 +10,7 @@ describe('ContactUs', () => {
   let mounted;
   const contactUs = () => {
     if (!mounted) {
-      mounted = mount(<ContactUs {...props} />);
+      mounted = shallow(<ContactUs {...props} />);
     }
     return mounted;
   };
@@ -25,18 +25,8 @@ describe('ContactUs', () => {
       mounted = undefined;
     });
 
-    beforeEach(() => {
-      props = {
-        name: 'name',
-        mail: 'mail@gmail.com',
-        phone: '5476',
-        message: 'This is a new message'
-      };
-      mounted = undefined;
-    });
-
     it('should render', () => {
-      expect(mount(<ContactUs {...props} />)).toMatchSnapshot();
+      expect(shallow(<ContactUs {...props} />)).toMatchSnapshot();
     });
 
     it('always renders a div', () => {

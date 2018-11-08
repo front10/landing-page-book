@@ -53,7 +53,9 @@ stories.add(
         description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
       />
       <PropsManager scope={{ React, BrowserSupport }}>
-        <BrowserSupport browsers={browsers} />
+        {`<BrowserSupport
+    browsers={${JSON.stringify(browsers, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -69,7 +71,11 @@ stories.add(
         description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
       />
       <PropsManager scope={{ React, BrowserSupport }}>
-        <BrowserSupport browsers={browsers} showBrowserVendor={false} showBrowserVersion={false} />
+        {`<BrowserSupport
+    showBrowserVendor={false}
+    showBrowserVersion={false} 
+    browsers={${JSON.stringify(browsers, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -85,12 +91,12 @@ stories.add(
         description="Browser compatibility is the capability or flexibility of a website, web application, script or HTML design to function on different web browsers available in the market. Showing this information to your users will help them to save valuable time."
       />
       <PropsManager scope={{ React, BrowserSupport }}>
-        <BrowserSupport
-          browsers={browsers}
-          showBrowserVendor={false}
-          showBrowserVersion={false}
-          imgFilter="grayscale(90%)"
-        />
+        {`<BrowserSupport 
+    showBrowserVendor={false}
+    showBrowserVersion={false}
+    imgFilter="grayscale(90%)"
+    browsers={${JSON.stringify(browsers, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))

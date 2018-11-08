@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Image from '../Image';
+import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 
 class ImageList extends Component {
   constructor(props) {
@@ -9,13 +11,13 @@ class ImageList extends Component {
   }
 
   render() {
-    const { images, gray, imageRounded, imageWidth, imageBordered, ccsClassName } = this.props;
+    const { images, gray, imageWidth, className } = this.props;
     /* eslint-disable react/no-array-index-key */
     return (
       <div className="ImageList">
         {images.map((imag, key) => (
           <div
-            className={`ImageList__Container ${ccsClassName} ${
+            className={`ImageList__Container ${className} ${
               gray ? 'ImageList__Container--grayScale' : ''
             }`}
             key={key}
@@ -25,9 +27,8 @@ class ImageList extends Component {
                 tooltip={imag.tooltip}
                 alt="This is an image example"
                 src={imag.image}
-                rounded={imageRounded}
                 width={imageWidth}
-                border={imageBordered}
+                {...extractProps('image', this.props)}
               />
             </a>
           </div>
@@ -39,11 +40,25 @@ class ImageList extends Component {
 }
 
 ImageList.propTypes = {
-  ccsClassName: PropTypes.string,
+  /**
+   * CSS class name for custom styles
+   */
+  className: PropTypes.string,
+  /**
+   * Define if image is gray scale
+   */
   gray: PropTypes.bool,
-  imageRounded: PropTypes.bool,
-  imageBordered: PropTypes.bool,
+  /**
+   * Image width
+   */
   imageWidth: PropTypes.string,
+  /**
+   *  Padding to apply to Footer.
+   */
+  padding: PropTypes.string,
+  /**
+   * Images to show
+   */
   images: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.string
@@ -51,12 +66,11 @@ ImageList.propTypes = {
   )
 };
 ImageList.defaultProps = {
-  ccsClassName: 'px-2',
+  className: '',
+  padding: '2',
   gray: false,
-  imageRounded: false,
-  imageBordered: false,
   imageWidth: '100',
   images: []
 };
 
-export default ImageList;
+export default withStyles(ImageList);

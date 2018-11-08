@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Video from './Video';
 
@@ -10,7 +10,7 @@ describe('Video', () => {
   let mounted;
   const video = () => {
     if (!mounted) {
-      mounted = mount(<Video {...props} />);
+      mounted = shallow(<Video {...props} />);
     }
     return mounted;
   };
@@ -21,7 +21,7 @@ describe('Video', () => {
     });
 
     it('should render', () => {
-      expect(mount(<Video {...props} />)).toMatchSnapshot();
+      expect(shallow(<Video {...props} />)).toMatchSnapshot();
     });
 
     it('always renders a div', () => {

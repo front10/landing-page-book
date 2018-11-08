@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactFlagsSelect from 'react-flags-select';
+import withStyles from '../../helpers/WithStyles';
 
 class LanguageSwitcher extends Component {
   constructor(props) {
@@ -36,11 +37,12 @@ class LanguageSwitcher extends Component {
       customLabels,
       showOptionLabel,
       showFlag,
-      showArrow
+      showArrow,
+      className
     } = this.props;
     return (
       <div
-        className={`LanguageSwitcher ${!showFlag ? 'LanguageSwitcher--noflag' : ''} ${
+        className={` ${className} LanguageSwitcher ${!showFlag ? 'LanguageSwitcher--noflag' : ''} ${
           !showArrow ? 'LanguageSwitcher--noarrow' : ''
         }`}
       >
@@ -61,15 +63,49 @@ class LanguageSwitcher extends Component {
 }
 
 LanguageSwitcher.propTypes = {
+  /**
+   * Show or hide the label of selected language.
+   */
   showLabel: PropTypes.bool,
+  /**
+   * Disable or enable the component.
+   */
   disabled: PropTypes.bool,
+  /**
+   * Show or hide labels in option list.
+   */
   showOptionLabel: PropTypes.bool,
+  /**
+   * Show or hide flags.
+   */
   showFlag: PropTypes.bool,
+  /**
+   * Show or hide arrow expand.
+   */
   showArrow: PropTypes.bool,
+  /**
+   * Selected language.
+   */
   selectedLanguage: PropTypes.string,
+  /**
+   *  Placeholder to show when not selected language.
+   */
   placeholder: PropTypes.string,
+  /**
+   * Array of languages to show, an array with countries codes. The complete list of countries can be found https://github.com/ekwonye-richard/react-flags-select/blob/master/src/countries.js
+   */
   languages: PropTypes.arrayOf(PropTypes.string),
+  /**
+   * Configure label of languages.
+   */
   customLabels: PropTypes.objectOf(PropTypes.any),
+  /**
+   * Class to apply.
+   */
+  className: PropTypes.string,
+  /**
+   * Called when language selection change. Params `{language}`
+   */
   onSelect: PropTypes.func
 };
 LanguageSwitcher.defaultProps = {
@@ -82,7 +118,8 @@ LanguageSwitcher.defaultProps = {
   placeholder: 'Language',
   languages: [],
   customLabels: {},
+  className: '',
   onSelect: () => {}
 };
 
-export default LanguageSwitcher;
+export default withStyles(LanguageSwitcher);

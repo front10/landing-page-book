@@ -11,7 +11,13 @@ class NavbarNav extends Component {
 }
 
 NavbarNav.propTypes = {
+  /**
+   * Position of items. Can be <code>'left'</code> or <code>'right'</code>
+   */
   alignItems: PropTypes.string,
+  /**
+   * Elements show into NavbarNav
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 NavbarNav.defaultProps = {

@@ -14,19 +14,22 @@ describe('Code', () => {
     }
     return mounted;
   };
+
   describe('Code', () => {
     beforeEach(() => {
       props = {
-        code:
-          'const component = {\n\tname: "react-code",\n\tauthor: "front10-devs",\n\trepo: "ht' +
-          'tps://gitlab.com/front10-devs/landing-page-book"\n};',
-        bgColorDark: false,
         languageCode: 'javascript',
-        theme: 'idea',
+        collapsible: true,
+        collapsed: false,
+        theme: 'monokai',
+        codeLink: '',
         readOnly: false,
         lineNumbers: true,
         showheader: true,
-        showfooter: true,
+        showDeleteButton: true,
+        showCopyButton: true,
+        children: null,
+        code: '<h1>Title</h1>',
         updateCode: () => {}
       };
       mounted = undefined;
@@ -48,6 +51,15 @@ describe('Code', () => {
         .copyToClipboard();
 
       expect(code().state('scopied')).toBeTruthy();
+    });
+
+    it('Should Collapse', () => {
+      code()
+        .instance()
+        .toggleCollapse();
+
+      expect(code().state('collapsed')).toBeTruthy();
+      expect(code().state('hideMessages')).toMatch(/Show code/);
     });
   });
 });

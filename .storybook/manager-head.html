@@ -27,7 +27,7 @@
             shiftKey: true,
             keyCode: 39,
             key: 'ArrowRight',
-            preventDefault: function () {},
+            preventDefault: function () { },
             target: document.body
         };
         window.onkeydown(e);
@@ -39,16 +39,26 @@
             shiftKey: true,
             keyCode: 37,
             key: 'ArrowLeft',
-            preventDefault: function () {},
+            preventDefault: function () { },
             target: document.body
         };
         window.onkeydown(e);
     }
 
-    function changeTheme(theme) {
-        document.body.setAttribute("theme", theme);
-        if (localStorage)
-            localStorage.setItem("theme", theme);
+    function changeTheme() {
+        let toogle = document.querySelector(".toggle");
+        if (localStorage.getItem("theme") == 'gray') {
+            toogle.className = "toggle active";
+            document.body.setAttribute("theme", "black");
+            if (localStorage)
+                localStorage.setItem("theme", "black");
+        }
+        else {
+            toogle.className = "toggle";
+            document.body.setAttribute("theme", "gray");
+            if (localStorage)
+                localStorage.setItem("theme", "gray");
+        }
     }
 </script>
 <!-- Google Tag Manager -->
@@ -73,15 +83,50 @@
 <link rel="icon" type="image/icon" href="images/logo/favicon.png">
 <link rel="stylesheet" type="text/css" href="css/storybook.css">
 <style>
-  .Pane.Pane2 form label {
-    font-size: 13px!important;
-    font-weight: normal!important;
-    width: 139px!important;
-    text-align: left!important;
-    padding-left: 10px;
-    padding-right: 0px!important;
-}
-</style>  
+    .Pane.Pane2 form label {
+        font-size: 13px !important;
+        font-weight: normal !important;
+        width: 139px !important;
+        text-align: left !important;
+        padding-left: 10px;
+        padding-right: 0px !important;
+    }
+
+    .toggle {
+        position: absolute;
+        top: 15px;
+        right: 150px;
+        background: #fff;
+        border: 2px solid #061F2F;
+        width: 45px;
+        height: 20px;
+        cursor: pointer;
+        border-radius: 20px;
+        transition: 0.5s;
+    }
+
+    .toggle.active {
+        background: #061F2F;
+        border: 2px solid #fff;
+    }
+
+    .toggle:before {
+        content: '';
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        width: 16px;
+        height: 16px;
+        background: #061F2F;
+        border-radius: 50%;
+        transition: 0.5s;
+    }
+
+    .toggle.active:before {
+        left: 27px;
+        background: #fff;
+    }
+</style>
 <div class="storybook__mainMenu">
     <!-- Google Tag Manager (noscript) -->
     <!-- We MUST use this just in the production live website -->
@@ -90,8 +135,8 @@
     </noscript>
     <!-- End Google Tag Manager (noscript) -->
     <img src="images/logo/click-me.png" id="clickme" class="clickme animated bounceInUp">
-    <button id="storybook__mainMenu__btn__menu" class="storybook__mainMenu__btn animated shake" data-collapsed="true" onclick="toggleMenu()"
-        title="">
+    <button id="storybook__mainMenu__btn__menu" class="storybook__mainMenu__btn animated shake" data-collapsed="true"
+        onclick="toggleMenu()" title="">
         <svg xmlns="http://www.w3.org/2000/svg" width="24" height="28" viewBox="0 0 20 20" ratio="1">
             <rect x="1" y="3" width="18" height="0.5" stroke="#fff"></rect>
             <rect x="1" y="8" width="18" height="0.5" stroke="#fff"></rect>
@@ -116,10 +161,11 @@
             <polyline fill="none" stroke="#fff" stroke-width="1.03" points="7 4 13 10 7 16"></polyline>
         </svg>
     </button>
-    <a class="storybook__mainMenu__a" href="https://front10.com" target="_blank">
+    <!-- <a class="storybook__mainMenu__a" href="https://front10.com" target="_blank">
         <img class="storybook__mainMenu__a__logo" src="images/logo/logo-frton10.jpg">
-    </a>
-    <button class="storybook__mainMenu__btnTheme dark" onclick="changeTheme('black')">
+    </a> -->
+    <div class="toggle" onclick="changeTheme()"></div>
+    <!-- <button class="storybook__mainMenu__btnTheme dark" onclick="changeTheme('black')">
         <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 20 20" ratio="1">
             <rect x="5" y="2" width="10" height="1"></rect>
             <rect x="3" y="4" width="14" height="1"></rect>
@@ -132,11 +178,34 @@
             <rect x="3" y="4" width="14" height="1"></rect>
             <rect fill="#fafafa" stroke="#000" x="1.5" y="6.5" width="17" height="11"></rect>
         </svg>
-    </button>
-    <a class="storybook__mainMenu__btnTheme" href="https://github.com/front10/landing-page-book" target="_blank" title="GitHub">
-        <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd" clip-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8C0 11.54 2.29 14.53 5.47 15.59C5.87 15.66 6.02 15.42 6.02 15.21C6.02 15.02 6.01 14.39 6.01 13.72C4 14.09 3.48 13.23 3.32 12.78C3.23 12.55 2.84 11.84 2.5 11.65C2.22 11.5 1.82 11.13 2.49 11.12C3.12 11.11 3.57 11.7 3.72 11.94C4.44 13.15 5.59 12.81 6.05 12.6C6.12 12.08 6.33 11.73 6.56 11.53C4.78 11.33 2.92 10.64 2.92 7.58C2.92 6.71 3.23 5.99 3.74 5.43C3.66 5.23 3.38 4.41 3.82 3.31C3.82 3.31 4.49 3.1 6.02 4.13C6.66 3.95 7.34 3.86 8.02 3.86C8.7 3.86 9.38 3.95 10.02 4.13C11.55 3.09 12.22 3.31 12.22 3.31C12.66 4.41 12.38 5.23 12.3 5.43C12.81 5.99 13.12 6.7 13.12 7.58C13.12 10.65 11.25 11.33 9.47 11.53C9.76 11.78 10.01 12.26 10.01 13.01C10.01 14.08 10 14.94 10 15.21C10 15.42 10.15 15.67 10.55 15.59C13.71 14.53 16 11.53 16 8C16 3.58 12.42 0 8 0Z"
-                transform="scale(1.7)" fill="#1B1F23"></path>
+    </button> -->
+    <a class="storybook__mainMenu__btnTheme github" style="position: absolute; float: right; right: 100px;" href="https://github.com/front10/landing-page-book"
+        target="_blank" title="GitHub">
+        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+            y="0px" width="32px" height="32px" viewBox="0 0 438.549 438.549" style="enable-background:new 0 0 438.549 438.549;"
+            xml:space="preserve">
+            <g>
+                <path d="M409.132,114.573c-19.608-33.596-46.205-60.194-79.798-79.8C295.736,15.166,259.057,5.365,219.271,5.365
+		c-39.781,0-76.472,9.804-110.063,29.408c-33.596,19.605-60.192,46.204-79.8,79.8C9.803,148.168,0,184.854,0,224.63
+		c0,47.78,13.94,90.745,41.827,128.906c27.884,38.164,63.906,64.572,108.063,79.227c5.14,0.954,8.945,0.283,11.419-1.996
+		c2.475-2.282,3.711-5.14,3.711-8.562c0-0.571-0.049-5.708-0.144-15.417c-0.098-9.709-0.144-18.179-0.144-25.406l-6.567,1.136
+		c-4.187,0.767-9.469,1.092-15.846,1c-6.374-0.089-12.991-0.757-19.842-1.999c-6.854-1.231-13.229-4.086-19.13-8.559
+		c-5.898-4.473-10.085-10.328-12.56-17.556l-2.855-6.57c-1.903-4.374-4.899-9.233-8.992-14.559
+		c-4.093-5.331-8.232-8.945-12.419-10.848l-1.999-1.431c-1.332-0.951-2.568-2.098-3.711-3.429c-1.142-1.331-1.997-2.663-2.568-3.997
+		c-0.572-1.335-0.098-2.43,1.427-3.289c1.525-0.859,4.281-1.276,8.28-1.276l5.708,0.853c3.807,0.763,8.516,3.042,14.133,6.851
+		c5.614,3.806,10.229,8.754,13.846,14.842c4.38,7.806,9.657,13.754,15.846,17.847c6.184,4.093,12.419,6.136,18.699,6.136
+		c6.28,0,11.704-0.476,16.274-1.423c4.565-0.952,8.848-2.383,12.847-4.285c1.713-12.758,6.377-22.559,13.988-29.41
+		c-10.848-1.14-20.601-2.857-29.264-5.14c-8.658-2.286-17.605-5.996-26.835-11.14c-9.235-5.137-16.896-11.516-22.985-19.126
+		c-6.09-7.614-11.088-17.61-14.987-29.979c-3.901-12.374-5.852-26.648-5.852-42.826c0-23.035,7.52-42.637,22.557-58.817
+		c-7.044-17.318-6.379-36.732,1.997-58.24c5.52-1.715,13.706-0.428,24.554,3.853c10.85,4.283,18.794,7.952,23.84,10.994
+		c5.046,3.041,9.089,5.618,12.135,7.708c17.705-4.947,35.976-7.421,54.818-7.421s37.117,2.474,54.823,7.421l10.849-6.849
+		c7.419-4.57,16.18-8.758,26.262-12.565c10.088-3.805,17.802-4.853,23.134-3.138c8.562,21.509,9.325,40.922,2.279,58.24
+		c15.036,16.18,22.559,35.787,22.559,58.817c0,16.178-1.958,30.497-5.853,42.966c-3.9,12.471-8.941,22.457-15.125,29.979
+		c-6.191,7.521-13.901,13.85-23.131,18.986c-9.232,5.14-18.182,8.85-26.84,11.136c-8.662,2.286-18.415,4.004-29.263,5.146
+		c9.894,8.562,14.842,22.077,14.842,40.539v60.237c0,3.422,1.19,6.279,3.572,8.562c2.379,2.279,6.136,2.95,11.276,1.995
+		c44.163-14.653,80.185-41.062,108.068-79.226c27.88-38.161,41.825-81.126,41.825-128.906
+		C438.536,184.851,428.728,148.168,409.132,114.573z" />
+            </g>
         </svg>
     </a>
 </div>

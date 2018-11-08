@@ -2,6 +2,19 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactGA from 'react-ga';
 
+/**
+  ## Overview
+  `@front10/landing-page-book/Analytics` is used to send statistics of visits to google analytics
+  ## How to use
+  1- Add following content to import the component:
+  ```js
+   import Analytics from "@front10/landing-page-book/dist/components/Analytics";
+  ```
+  2- Put this code into jsx page:
+  ```html
+   <Analytics idTracking='UA-0000000-1' />
+  ```
+ */
 class Analytics extends Component {
   constructor(props) {
     super(props);
@@ -26,9 +39,21 @@ class Analytics extends Component {
 }
 
 Analytics.propTypes = {
+  /**
+   * Tracking ID code of your property in google analytics
+   */
   idTracking: PropTypes.string.isRequired,
+  /**
+   * Path you want to track, for example '/section/page1'
+   */
   urlPath: PropTypes.string,
+  /**
+   * If set to true, will output additional feedback to the console
+   */
   debug: PropTypes.bool,
+  /**
+   * Enable test mode in the component
+   */
   testMode: PropTypes.bool
 };
 Analytics.defaultProps = {

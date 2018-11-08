@@ -3,36 +3,9 @@ import { storiesOf } from '@storybook/react';
 import withReadme from 'storybook-readme/with-readme';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import { ThemeSelector } from '../../../addons/ThemeSwitcher';
-import { ImageList, Container } from '../../../components';
+import { ImageList } from '../../../components';
 import Readme from '../../../components/ImageList/README.md';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
-
-const companies = [
-  {
-    image: 'images/image-list/react.png'
-  },
-  {
-    image: 'images/image-list/graphql.png'
-  },
-  {
-    image: 'images/image-list/apollo.png'
-  },
-  {
-    image: 'images/image-list/storybook.png'
-  },
-  {
-    image: 'images/image-list/angularjs.png'
-  },
-  {
-    image: 'images/image-list/bootstrap.png'
-  },
-  {
-    image: 'images/image-list/browserstack.png'
-  },
-  {
-    image: 'images/image-list/jest.png'
-  }
-];
 
 const stories = storiesOf('Components/ImageList', module);
 
@@ -44,10 +17,22 @@ stories.add(
         name="Image List"
         description="Easy way to show an image list on your website."
       />
-      <PropsManager scope={{ React, ImageList, Container }}>
-        <Container>
-          <ImageList gray imageRounded={false} imageBordered={false} images={companies} />
-        </Container>
+      <PropsManager scope={{ React, ImageList }}>
+        {`<ImageList 
+    gray
+    imageRounded={false}
+    imageBordered={false}
+    images={[
+      {image: 'images/image-list/react.png'},
+      {image: 'images/image-list/graphql.png'},
+      {image: 'images/image-list/apollo.png'},
+      {image: 'images/image-list/storybook.png'},
+      {image: 'images/image-list/angularjs.png'},
+      {image: 'images/image-list/bootstrap.png'},
+      {image: 'images/image-list/browserstack.png'},
+      {image: 'images/image-list/jest.png'}
+    ]}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))

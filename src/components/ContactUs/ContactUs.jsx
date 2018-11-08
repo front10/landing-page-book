@@ -5,28 +5,26 @@ import ContactUsService from '../../service/ContactUs.services';
 import Button from '../Button';
 import FormGroup from '../FormGroup';
 import Input from '../Input/Input';
+import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 
 class ContactUs extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    const { name, mail, phone, message, loading } = this.props;
+    this.state = {
+      name,
+      mail,
+      phone,
+      message,
+      loading
+    };
     this.onSubmit = this.onSubmit.bind(this);
     this.onChangeName = this.onChangeName.bind(this);
     this.onChangeMail = this.onChangeMail.bind(this);
     this.onChangePhone = this.onChangePhone.bind(this);
     this.onChangeMessage = this.onChangeMessage.bind(this);
     this.onUpdate = this.onUpdate.bind(this);
-  }
-
-  componentWillMount() {
-    const { name, mail, phone, message, loading } = this.props;
-    this.setState({
-      name,
-      mail,
-      phone,
-      message,
-      loading
-    });
   }
 
   componentDidUpdate(prevProps) {
@@ -86,11 +84,13 @@ class ContactUs extends Component {
       showText,
       showPlaceholder,
       submitButtonText,
-      submitButtonAlign
+      submitButtonAlign,
+      submitButtonColor,
+      className
     } = this.props;
     const { name, mail, phone, message, loading } = this.state;
     return (
-      <div className="ContactUs">
+      <div className={`ContactUs ${className}`}>
         <FormGroup>
           <Input
             label={showText ? nameText : ''}
@@ -98,6 +98,7 @@ class ContactUs extends Component {
             placeholder={showPlaceholder ? nameText : ''}
             value={name}
             onChange={this.onChangeName}
+            {...extractProps('input', this.props)}
           />
         </FormGroup>
         <FormGroup>
@@ -108,6 +109,7 @@ class ContactUs extends Component {
             placeholder={showPlaceholder ? mailText : ''}
             value={mail}
             onChange={this.onChangeMail}
+            {...extractProps('input', this.props)}
           />
         </FormGroup>
         <FormGroup>
@@ -117,6 +119,7 @@ class ContactUs extends Component {
             placeholder={showPlaceholder ? phoneText : ''}
             value={phone}
             onChange={this.onChangePhone}
+            {...extractProps('input', this.props)}
           />
         </FormGroup>
         <FormGroup>
@@ -127,14 +130,16 @@ class ContactUs extends Component {
             placeholder={showPlaceholder ? messageText : ''}
             value={message}
             onChange={this.onChangeMessage}
+            {...extractProps('input', this.props)}
           />
         </FormGroup>
         <div className={`text-${submitButtonAlign}`}>
           <Button
             loading={loading}
             disabled={!name || !message || !EmailValidator.validate(mail) || loading}
-            className="btn ContactUs__SubmitButton"
             onClick={this.onSubmit}
+            color={submitButtonColor}
+            {...extractProps('button', this.props)}
           >
             {submitButtonText}
           </Button>
@@ -145,25 +150,85 @@ class ContactUs extends Component {
 }
 
 ContactUs.propTypes = {
+  /**
+   * Class to apply to icon
+   */
+  className: PropTypes.string,
+  /**
+   * Show or hide labels to inputs
+   */
   showText: PropTypes.bool,
+  /**
+   * Show or hide placeholders to inputs
+   */
   showPlaceholder: PropTypes.bool,
+  /**
+   * Define if component is loading
+   */
   loading: PropTypes.bool,
+  /**
+   * Label and placeholder of name input
+   */
   nameText: PropTypes.string,
+  /**
+   *  Label and placeholder of email input
+   */
   mailText: PropTypes.string,
+  /**
+   *  Label and placeholder of phone input
+   */
   phoneText: PropTypes.string,
+  /**
+   * Label and placeholder of message input
+   */
   messageText: PropTypes.string,
+  /**
+   * Value of name input
+   */
   name: PropTypes.string,
+  /**
+   *  Value of mail input
+   */
   mail: PropTypes.string,
+  /**
+   * Value of phone input
+   */
   phone: PropTypes.string,
+  /**
+   * Value of message input
+   */
   message: PropTypes.string,
+  /**
+   * Label of submit button
+   */
   submitButtonText: PropTypes.string,
+  /**
+   * Align of Submit button
+   */
   submitButtonAlign: PropTypes.string,
+  /**
+   * Color of Submit button
+   */
+  submitButtonColor: PropTypes.string,
+  /**
+   * Url to send contact data, component make a request via post method and send <code>name</code>, <code>email</code>, <code>phone</code> and <code>message</code> params
+   */
   apiUrl: PropTypes.string,
+  /**
+   * Function called when Submit button has clicked. Params <code>{name, mail, phone, message}</code>
+   */
   onSubmit: PropTypes.func,
+  /**
+   * Function called when <code>apiUrl</code> is defined and request was executed successfully
+   */
   onApiSuccess: PropTypes.func,
+  /**
+   * Function called when <code>apiUrl</code> is defined and request was error
+   */
   onApiFail: PropTypes.func
 };
 ContactUs.defaultProps = {
+  className: '',
   showText: false,
   showPlaceholder: true,
   loading: false,
@@ -177,10 +242,11 @@ ContactUs.defaultProps = {
   message: '',
   submitButtonText: 'Submit',
   submitButtonAlign: 'center',
+  submitButtonColor: 'default',
   apiUrl: '',
   onSubmit: () => {},
   onApiSuccess: () => {},
   onApiFail: () => {}
 };
 
-export default ContactUs;
+export default withStyles(ContactUs);

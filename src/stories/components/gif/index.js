@@ -18,7 +18,7 @@ stories.add(
         description="A lossless format for image files that supports both animated and static images, Its one of the most used image format on web."
       />
       <PropsManager scope={{ React, Gif }}>
-        <Gif image="images/gif/write.gif" preview="images/demo/develop.png" />
+        {`<Gif image="images/gif/write.gif" preview="images/demo/develop.png" />`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -34,7 +34,7 @@ stories.add(
         description="A lossless format for image files that supports both animated and static images, Its one of the most used image format on web."
       />
       <PropsManager scope={{ React, Gif }}>
-        <Gif image="images/gif/write.gif" preview="images/demo/develop.png" autoplay />
+        {`<Gif image="images/gif/write.gif" preview="images/demo/develop.png" autoplay />`}
       </PropsManager>
     </ThemeSelector>
   ))

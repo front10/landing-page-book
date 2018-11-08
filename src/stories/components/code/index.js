@@ -6,7 +6,6 @@ import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
 import { Code } from '../../../components';
 import Readme from '../../../components/Code/README.md';
-import { def, css } from '../../mock/components/codes/code';
 
 const stories = storiesOf('Components/Code', module);
 
@@ -19,12 +18,12 @@ stories.add(
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
       <PropsManager scope={{ React, Code }}>
-        <Code
-          code={def}
-          languageCode="jsx"
-          collapsible
-          codeLink="https://codesandbox.io/s/pmjvk5wl27"
-        />
+        {`<Code
+    languageCode="jsx"
+    collapsible
+    codeLink="https://codesandbox.io/s/pmjvk5wl27"
+    code="import {React} from 'react';"
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -40,16 +39,16 @@ stories.add(
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
       <PropsManager scope={{ React, Code }}>
-        <Code
-          code={def}
-          languageCode="jsx"
-          lineNumbers
-          showheader
-          collapsible={false}
-          showCopyButton={false}
-          showDeleteButton={false}
-          codeLink="https://codesandbox.io/s/pmjvk5wl27"
-        />
+        {`<Code
+    languageCode="jsx"
+    lineNumbers
+    showheader
+    collapsible={false}
+    showCopyButton={false}
+    showDeleteButton={false}
+    codeLink="https://codesandbox.io/s/pmjvk5wl27"
+    code="import {React} from 'react';"
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -65,17 +64,17 @@ stories.add(
         description="Show code chunks can help to quickly explain the most complicated stuff ;)"
       />
       <PropsManager scope={{ React, Code }}>
-        <Code
-          code={css}
-          languageCode="css"
-          readOnly={false}
-          lineNumbers
-          showheader={false}
-          collapsible
-          showCopyButton
-          showDeleteButton
-          codeLink="https://codesandbox.io/s/pmjvk5wl27"
-        />
+        {`<Code
+    languageCode="css"
+    readOnly={false}
+    lineNumbers
+    showheader={false}
+    collapsible
+    showCopyButton
+    showDeleteButton
+    codeLink="https://codesandbox.io/s/pmjvk5wl27"
+    code=".my-class{background-color: #fff}"
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))

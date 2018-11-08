@@ -1,7 +1,4 @@
 {
-    "presets": ["env", "react"],
-    "plugins": [
-        "babel-plugin-macros",
-        "transform-object-rest-spread"
-    ]
+  "presets": ["env", "react"],
+  "plugins": ["babel-plugin-macros", "transform-object-rest-spread"]
 }

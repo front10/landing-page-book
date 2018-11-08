@@ -1,0 +1,63 @@
+.content-style-sidebar{
+	position: fixed;
+    top: 0px;
+    z-index: 99999;
+    background-color: yellow;
+    width: 250px;
+	transform: translateX(-250px);
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+}
+
+.content-style-sidebar.open{
+	transform: translateX(0px);
+	transition-duration: 0.5s;
+	-webkit-transition-duration: 0.5s;
+}
+
+
+@media screen and (max-width: 400px) {
+	.content-style-sidebar {
+		width: 85%;
+	}
+}
+/* Button style */
+.morph-button > button {
+	position: relative;
+	padding: 0 1em;
+	border: none;
+	background-color: #fed136;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	line-height: 50px;
+	overflow: hidden;
+}
+
+.morph-button-fixed{
+	position: fixed;
+	top: 80vh;
+	/* left: 0; */
+	margin-left: 50px;
+	margin-bottom: 50px;
+}
+
+.content-style-sidebar .sidebar-title{
+	padding-top: 30px;
+	margin-bottom: 60px;
+}
+
+.content-style-sidebar .sidebar-title span.fa.fa-close{
+	float: right;
+	font-size: 1.5rem;
+	padding-right: 30px;
+}
+
+.content-style-sidebar .sidebar-title .title{
+	float: left;
+	padding-left: 30px;
+}
+
+.content-style-sidebar .search-box{
+	margin: 10px;
+	width: 90%;
+}

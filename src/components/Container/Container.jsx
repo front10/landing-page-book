@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Container extends Component {
   render() {
@@ -11,8 +12,17 @@ class Container extends Component {
 }
 
 Container.propTypes = {
+  /**
+   * A fluid container is shown
+   */
   fluid: PropTypes.bool,
+  /**
+   * Class of the component
+   */
   className: PropTypes.string,
+  /**
+   * Childrens
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Container.defaultProps = {
@@ -21,4 +31,5 @@ Container.defaultProps = {
   className: ''
 };
 
-export default Container;
+const ContainerWithStyles = withStyles(Container);
+export default ContainerWithStyles;

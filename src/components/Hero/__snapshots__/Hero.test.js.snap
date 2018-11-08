@@ -67,14 +67,22 @@ ShallowWrapper {
           >
             <Header
               borderBottom={false}
+              borderTop={false}
               className="Hero__Header mb-5"
+              color=""
+              icon=""
+              textAlign="center"
               type="h1"
             >
               AAAAAAAAAAAAAAA
             </Header>
             <Header
               borderBottom={false}
+              borderTop={false}
               className="Hero__SubHeader mb-5"
+              color=""
+              icon=""
+              textAlign="center"
               type="h2"
             >
               BBBBBBBBBB
@@ -82,7 +90,7 @@ ShallowWrapper {
           </Container>
         </div>
       </LazyHero>,
-      "className": "Hero",
+      "className": "Hero Hero_1541105775050_04648036763981598",
       "style": Object {
         "backgroundColor": "transparent",
       },
@@ -113,14 +121,22 @@ ShallowWrapper {
             >
               <Header
                 borderBottom={false}
+                borderTop={false}
                 className="Hero__Header mb-5"
+                color=""
+                icon=""
+                textAlign="center"
                 type="h1"
               >
                 AAAAAAAAAAAAAAA
               </Header>
               <Header
                 borderBottom={false}
+                borderTop={false}
                 className="Hero__SubHeader mb-5"
+                color=""
+                icon=""
+                textAlign="center"
                 type="h2"
               >
                 BBBBBBBBBB
@@ -185,14 +201,22 @@ ShallowWrapper {
               >
                 <Header
                   borderBottom={false}
+                  borderTop={false}
                   className="Hero__Header mb-5"
+                  color=""
+                  icon=""
+                  textAlign="center"
                   type="h1"
                 >
                   AAAAAAAAAAAAAAA
                 </Header>
                 <Header
                   borderBottom={false}
+                  borderTop={false}
                   className="Hero__SubHeader mb-5"
+                  color=""
+                  icon=""
+                  textAlign="center"
                   type="h2"
                 >
                   BBBBBBBBBB
@@ -213,14 +237,22 @@ ShallowWrapper {
                   false,
                   <Header
                     borderBottom={false}
+                    borderTop={false}
                     className="Hero__Header mb-5"
+                    color=""
+                    icon=""
+                    textAlign="center"
                     type="h1"
                   >
                     AAAAAAAAAAAAAAA
                   </Header>,
                   <Header
                     borderBottom={false}
+                    borderTop={false}
                     className="Hero__SubHeader mb-5"
+                    color=""
+                    icon=""
+                    textAlign="center"
                     type="h2"
                   >
                     BBBBBBBBBB
@@ -239,8 +271,12 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "borderBottom": false,
+                    "borderTop": false,
                     "children": "AAAAAAAAAAAAAAA",
                     "className": "Hero__Header mb-5",
+                    "color": "",
+                    "icon": "",
+                    "textAlign": "center",
                     "type": "h1",
                   },
                   "ref": null,
@@ -253,8 +289,12 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "borderBottom": false,
+                    "borderTop": false,
                     "children": "BBBBBBBBBB",
                     "className": "Hero__SubHeader mb-5",
+                    "color": "",
+                    "icon": "",
+                    "textAlign": "center",
                     "type": "h2",
                   },
                   "ref": null,
@@ -312,14 +352,22 @@ ShallowWrapper {
             >
               <Header
                 borderBottom={false}
+                borderTop={false}
                 className="Hero__Header mb-5"
+                color=""
+                icon=""
+                textAlign="center"
                 type="h1"
               >
                 AAAAAAAAAAAAAAA
               </Header>
               <Header
                 borderBottom={false}
+                borderTop={false}
                 className="Hero__SubHeader mb-5"
+                color=""
+                icon=""
+                textAlign="center"
                 type="h2"
               >
                 BBBBBBBBBB
@@ -327,7 +375,7 @@ ShallowWrapper {
             </Container>
           </div>
         </LazyHero>,
-        "className": "Hero",
+        "className": "Hero Hero_1541105775050_04648036763981598",
         "style": Object {
           "backgroundColor": "transparent",
         },
@@ -358,14 +406,22 @@ ShallowWrapper {
               >
                 <Header
                   borderBottom={false}
+                  borderTop={false}
                   className="Hero__Header mb-5"
+                  color=""
+                  icon=""
+                  textAlign="center"
                   type="h1"
                 >
                   AAAAAAAAAAAAAAA
                 </Header>
                 <Header
                   borderBottom={false}
+                  borderTop={false}
                   className="Hero__SubHeader mb-5"
+                  color=""
+                  icon=""
+                  textAlign="center"
                   type="h2"
                 >
                   BBBBBBBBBB
@@ -430,14 +486,22 @@ ShallowWrapper {
                 >
                   <Header
                     borderBottom={false}
+                    borderTop={false}
                     className="Hero__Header mb-5"
+                    color=""
+                    icon=""
+                    textAlign="center"
                     type="h1"
                   >
                     AAAAAAAAAAAAAAA
                   </Header>
                   <Header
                     borderBottom={false}
+                    borderTop={false}
                     className="Hero__SubHeader mb-5"
+                    color=""
+                    icon=""
+                    textAlign="center"
                     type="h2"
                   >
                     BBBBBBBBBB
@@ -458,14 +522,22 @@ ShallowWrapper {
                     false,
                     <Header
                       borderBottom={false}
+                      borderTop={false}
                       className="Hero__Header mb-5"
+                      color=""
+                      icon=""
+                      textAlign="center"
                       type="h1"
                     >
                       AAAAAAAAAAAAAAA
                     </Header>,
                     <Header
                       borderBottom={false}
+                      borderTop={false}
                       className="Hero__SubHeader mb-5"
+                      color=""
+                      icon=""
+                      textAlign="center"
                       type="h2"
                     >
                       BBBBBBBBBB
@@ -484,8 +556,12 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "borderBottom": false,
+                      "borderTop": false,
                       "children": "AAAAAAAAAAAAAAA",
                       "className": "Hero__Header mb-5",
+                      "color": "",
+                      "icon": "",
+                      "textAlign": "center",
                       "type": "h1",
                     },
                     "ref": null,
@@ -498,8 +574,12 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "borderBottom": false,
+                      "borderTop": false,
                       "children": "BBBBBBBBBB",
                       "className": "Hero__SubHeader mb-5",
+                      "color": "",
+                      "icon": "",
+                      "textAlign": "center",
                       "type": "h2",
                     },
                     "ref": null,

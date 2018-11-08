@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Gif from './Gif';
 
@@ -10,7 +10,7 @@ describe('Gif', () => {
   let mounted;
   const gif = () => {
     if (!mounted) {
-      mounted = mount(<Gif {...props} />);
+      mounted = shallow(<Gif {...props} />);
     }
     return mounted;
   };
@@ -21,7 +21,7 @@ describe('Gif', () => {
     });
 
     it('should render', () => {
-      expect(mount(<Gif {...props} />)).toMatchSnapshot();
+      expect(shallow(<Gif {...props} />)).toMatchSnapshot();
     });
 
     it('always renders a div', () => {

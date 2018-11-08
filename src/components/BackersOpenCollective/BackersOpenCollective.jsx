@@ -3,17 +3,23 @@ import PropTypes from 'prop-types';
 import Backers from '../Backers';
 import Icon from '../Icon';
 import BackersOpenCollectiveService from '../../service/BackersOpenCollective.services';
+import extractProps from '../../helpers/ExtractProps';
+import withStyles from '../../helpers/WithStyles';
 
 class BackersOpenCollective extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = {
+      backers: [],
+      backersOrdered: [],
+      loading: false
+    };
     this.getMembers = this.getMembers.bind(this);
     this.sort = this.sort.bind(this);
     this.onUpdate = this.onUpdate.bind(this);
   }
 
-  componentWillMount() {
+  componentDidMount() {
     this.setState(
       {
         backers: [],
@@ -45,8 +51,9 @@ class BackersOpenCollective extends Component {
         profile: backer.profile,
         contributionAmount: backer.totalAmountDonated
       }));
-      this.setState({ backers, loading: false });
-      this.sort(backers, sortDirection);
+      this.setState({ backers, loading: false }, () => {
+        this.sort(backers, sortDirection);
+      });
     });
   }
 
@@ -68,12 +75,19 @@ class BackersOpenCollective extends Component {
 
   render() {
     const { backersOrdered, loading } = this.state;
-    const { imageRounded, imageBordered, imageGray, loadingClass, loadingText } = this.props;
+    const {
+      imageRounded,
+      imageBordered,
+      imageGray,
+      loadingClass,
+      loadingText,
+      className
+    } = this.props;
     return (
       <React.Fragment>
         {loading && (
           <div className="text-center">
-            <Icon icon={loadingClass} />
+            <Icon icon={loadingClass} {...extractProps('icon', this.props)} />
             {loadingText && <p>{loadingText}</p>}
           </div>
         )}
@@ -83,6 +97,7 @@ class BackersOpenCollective extends Component {
             imageRounded={imageRounded}
             imageBordered={imageBordered}
             imageGray={imageGray}
+            className={className}
           />
         )}
       </React.Fragment>
@@ -91,15 +106,41 @@ class BackersOpenCollective extends Component {
 }
 
 BackersOpenCollective.propTypes = {
+  /**
+   * Class name applied of the container
+   */
+  className: PropTypes.string,
+  /**
+   * If true the image will be rounded as a circle
+   */
   imageRounded: PropTypes.bool,
+  /**
+   * If true the image will have a solid border
+   */
   imageBordered: PropTypes.bool,
+  /**
+   * If true the image doesn't show colors
+   */
   imageGray: PropTypes.bool,
+  /**
+   * Name of collective in opencollective.
+   */
   collective: PropTypes.string.isRequired,
+  /**
+   * Sort direction to show the list of backers
+   */
   sortDirection: PropTypes.string,
+  /**
+   * CSS class for loading animation
+   */
   loadingClass: PropTypes.string,
+  /**
+   * Loading text to show
+   */
   loadingText: PropTypes.string
 };
 BackersOpenCollective.defaultProps = {
+  className: '',
   imageRounded: true,
   imageBordered: true,
   imageGray: false,
@@ -108,4 +149,4 @@ BackersOpenCollective.defaultProps = {
   loadingText: 'Loading...'
 };
 
-export default BackersOpenCollective;
+export default withStyles(BackersOpenCollective);

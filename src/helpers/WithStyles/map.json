@@ -4,7 +4,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -15,7 +15,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -26,7 +26,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -37,7 +37,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -48,7 +48,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -59,7 +59,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -70,7 +70,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -81,7 +81,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -92,7 +92,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -103,7 +103,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -114,9 +114,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Edges are rounded. Default is `false`",
+        "description": "Edges are rounded.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -125,9 +125,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Edges to the right are rounded. Default is `false`",
+        "description": "Edges to the right are rounded.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -136,9 +136,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Edges to the left are rounded. Default is `false`",
+        "description": "Edges to the left are rounded.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -147,9 +147,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Edges to the top are rounded. Default is `false`",
+        "description": "Edges to the top are rounded.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -158,9 +158,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Edges to the bottom are rounded. Default is `false`",
+        "description": "Edges to the bottom are rounded.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -169,9 +169,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "If the edges form a circle. Default is `false`",
+        "description": "If the edges form a circle.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -180,9 +180,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Edges are not rounded. Default is `false`",
+        "description": "Edges are not rounded.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -191,7 +191,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Background color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>",
+        "description": "Background color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -202,7 +202,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Text color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>",
+        "description": "Text color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -213,9 +213,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Show component boder",
+        "description": "Show component boder.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -224,9 +224,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Show component boder top",
+        "description": "Show component boder top.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -235,9 +235,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Show component boder right",
+        "description": "Show component boder right.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -246,9 +246,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Show component boder left",
+        "description": "Show component boder left.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -257,9 +257,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Show component boder bottom",
+        "description": "Show component boder bottom.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -268,9 +268,9 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Hide component boder bottom",
+        "description": "Hide component boder bottom.",
         "defaultValue": {
-            "value": "null",
+            "value": "false",
             "computed": false
         }
     },
@@ -279,7 +279,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Text alignment. can be `left`, `center` and `right`",
+        "description": "Text alignment. Can be <code>'left'</code>, <code>'center'</code> and <code>'right</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -290,7 +290,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Text text transform. can be `lowercase`, `uppercase`, `capitalize`",
+        "description": "Text text transform. Can be <code>'lowercase'</code>, <code>'uppercase'</code>, <code>'capitalize'</code>.",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -301,7 +301,7 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Truncate the paragraph",
+        "description": "Truncate the paragraph.",
         "defaultValue": {
             "value": "false",
             "computed": false
@@ -312,7 +312,7 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Show content using mono spaced text",
+        "description": "Show content using mono spaced text.",
         "defaultValue": {
             "value": "false",
             "computed": false
@@ -323,7 +323,7 @@
             "name": "bool"
         },
         "required": false,
-        "description": "Show content using an italic font",
+        "description": "Show content using an italic font.",
         "defaultValue": {
             "value": "false",
             "computed": false
@@ -334,7 +334,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Weight of the font. can be `bold`, `normal`, `light`",
+        "description": "Weight of the font. Can be <code>'bold'</code>, <code>'normal'</code>, <code>'light'</code>.",
         "defaultValue": {
             "value": "normal",
             "computed": false
@@ -345,7 +345,7 @@
             "name": "object"
         },
         "required": false,
-        "description": "In case you wanted to pass custom styles",
+        "description": "In case you wanted to pass custom styles.",
         "defaultValue": {
             "value": "{}",
             "computed": false

@@ -3,6 +3,7 @@ export default {
   summary:
     'A person or organization that provides funds for you project or activity, give them an acknowledgment.',
   import: '',
+  withStyles: true,
   extractProps: ['image'],
   stories: [
     {

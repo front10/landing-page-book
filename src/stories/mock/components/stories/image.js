@@ -3,6 +3,7 @@ export default {
   summary:
     'Simple element image to use on your website. Images can improve the design and the appearance of a web page.',
   import: '',
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

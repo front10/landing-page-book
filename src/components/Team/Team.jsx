@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import extractProps from '../../helpers/ExtractProps';
 import Social from '../Social';
+import withStyles from '../../helpers/WithStyles';
 import Card from '../Card';
 
 class Team extends Component {
@@ -143,4 +144,4 @@ Team.defaultProps = {
   members: []
 };
 
-export default Team;
+export default withStyles(Team);

@@ -3,6 +3,8 @@ export default {
   summary:
     'It is always important to have the most information of your contacts, our component provides it.',
   import: ``,
+  withStyles: true,
+  extractProps: ['icon'],
   stories: [
     {
       name: 'Basic',

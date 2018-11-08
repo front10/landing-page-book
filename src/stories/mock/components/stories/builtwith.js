@@ -1,6 +1,8 @@
 export default {
   name: 'Built With',
   summary: 'Libraries or projects that you used to achieve your goals.',
+  withStyles: true,
+  extractProps: ['image'],
   import: ``,
   stories: [
     {

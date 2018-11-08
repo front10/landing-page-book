@@ -4,7 +4,9 @@ export default {
   name: 'Team',
   summary:
     'Teamwork helps solve problems. Collaboration within a group can help solve difficult problems. do not forget to recognize the members of your team.',
+  withStyles: true,
   import: ``,
+  extractProps: ['member', 'social'],
   stories: [
     {
       name: 'Basic',

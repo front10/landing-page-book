@@ -2,6 +2,8 @@ export default {
   name: 'Contact Us',
   summary: 'Simple contact form, so that your users communicate easily through your website.',
   import: ``,
+  withStyles: true,
+  extractProps: ['input', 'button'],
   stories: [
     {
       name: 'Basic',

@@ -3,6 +3,8 @@ export default {
   summary:
     'A person, institution, or country that supports something, especially financially throw opencollective platform. Its important show the people who support your idea.',
   import: ``,
+  withStyles: true,
+  extractProps: ['icon'],
   stories: [
     {
       name: 'Basic',

@@ -3,6 +3,7 @@ export default {
   summary:
     'A lossless format for image files that supports both animated and static images, Its one of the most used image format on web.',
   import: '',
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

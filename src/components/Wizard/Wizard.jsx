@@ -167,7 +167,7 @@ Wizard.defaultProps = {
   nextTextOnFinalActionStep: 'Next',
   contentAlign: 'left',
   hocValidationAppliedTo: [],
-  onStepChange: () => { }
+  onStepChange: () => {}
 };
 
 export default withStyles(Wizard);

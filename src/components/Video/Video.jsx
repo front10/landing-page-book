@@ -127,16 +127,16 @@ Video.defaultProps = {
   volume: 1,
   source: '',
   className: '',
-  onReady: () => { },
-  onStart: () => { },
-  onPlay: () => { },
-  onProgress: () => { },
-  onDuration: () => { },
-  onPause: () => { },
-  onBuffer: () => { },
-  onSeek: () => { },
-  onEnded: () => { },
-  onError: () => { }
+  onReady: () => {},
+  onStart: () => {},
+  onPlay: () => {},
+  onProgress: () => {},
+  onDuration: () => {},
+  onPause: () => {},
+  onBuffer: () => {},
+  onSeek: () => {},
+  onEnded: () => {},
+  onError: () => {}
 };
 
 export default withStyles(Video);

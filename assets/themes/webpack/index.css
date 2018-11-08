@@ -752,7 +752,6 @@ body {
     filter: grayscale(1); }
 
 :root {
-  --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
   --Card__Title-fontSize: 1.2rem;
   --Card__Subtitle-fontSize: 0.9rem;
@@ -766,8 +765,7 @@ body {
 
 .Card {
   border: none;
-  background-color: transparent;
-  border-radius: var(--Card-borderRadius); }
+  background-color: transparent; }
   .Card .Card__Summary {
     font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
@@ -860,7 +858,6 @@ a span {
   --ContactInfo__Information-fontSize: 0.7rem; }
 
 :root {
-  --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
   --Card__Title-fontSize: 1.2rem;
   --Card__Subtitle-fontSize: 0.9rem;
@@ -874,8 +871,7 @@ a span {
 
 .Card {
   border: none;
-  background-color: transparent;
-  border-radius: var(--Card-borderRadius); }
+  background-color: transparent; }
   .Card .Card__Summary {
     font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
@@ -1168,7 +1164,6 @@ a span {
   filter: grayscale(1); }
 
 :root {
-  --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
   --Card__Title-fontSize: 1.2rem;
   --Card__Subtitle-fontSize: 0.9rem;
@@ -1182,8 +1177,7 @@ a span {
 
 .Card {
   border: none;
-  background-color: transparent;
-  border-radius: var(--Card-borderRadius); }
+  background-color: transparent; }
   .Card .Card__Summary {
     font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
@@ -1237,7 +1231,6 @@ a span {
     width: 100%; }
 
 :root {
-  --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
   --Card__Title-fontSize: 1.2rem;
   --Card__Subtitle-fontSize: 0.9rem;
@@ -1251,8 +1244,7 @@ a span {
 
 .Card {
   border: none;
-  background-color: transparent;
-  border-radius: var(--Card-borderRadius); }
+  background-color: transparent; }
   .Card .Card__Summary {
     font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {

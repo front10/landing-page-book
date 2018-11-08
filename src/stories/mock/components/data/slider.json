@@ -1,57 +1,57 @@
 [
-    {
-        "link": "components/navbar",
-        "image": "images/carousel/navbar.svg",
-        "name": "Navbar"
-    },
-    {
-        "link": "components/hero",
-        "image": "images/carousel/hero.svg",
-        "name": "Hero"
-    },
-    {
-        "link": "components/team",
-        "image": "images/carousel/team.svg",
-        "name": "Team"
-    },
-    {
-        "link": "components/backers",
-        "image": "images/carousel/backers.svg",
-        "name": "Backers"
-    },
-    {
-        "link": "components/social",
-        "image": "images/carousel/social.svg",
-        "name": "Socials"
-    },
-    {
-        "link": "components/browsersupport",
-        "image": "images/carousel/browsers.svg",
-        "name": "Browser supports"
-    },
-    {
-        "link": "components/image",
-        "image": "images/carousel/image.svg",
-        "name": "Images"
-    },
-    {
-        "link": "components/video",
-        "image": "images/carousel/video.svg",
-        "name": "Video"
-    },
-    {
-        "link": "components/code",
-        "image": "images/carousel/code.svg",
-        "name": "Code"
-    },
-    {
-        "link": "components/gif",
-        "image": "images/carousel/gif.svg",
-        "name": "Gif"
-    },
-    {
-        "link": "components/githubbutton",
-        "image": "images/carousel/githubbutton.svg",
-        "name": "Github button"
-    }
+  {
+    "link": "/components/navbar",
+    "image": "images/carousel/navbar.svg",
+    "name": "Navbar"
+  },
+  {
+    "link": "/components/hero",
+    "image": "images/carousel/hero.svg",
+    "name": "Hero"
+  },
+  {
+    "link": "/components/team",
+    "image": "images/carousel/team.svg",
+    "name": "Team"
+  },
+  {
+    "link": "/components/backers",
+    "image": "images/carousel/backers.svg",
+    "name": "Backers"
+  },
+  {
+    "link": "/components/social",
+    "image": "images/carousel/social.svg",
+    "name": "Socials"
+  },
+  {
+    "link": "/components/browsersupport",
+    "image": "images/carousel/browsers.svg",
+    "name": "Browser supports"
+  },
+  {
+    "link": "/components/image",
+    "image": "images/carousel/image.svg",
+    "name": "Images"
+  },
+  {
+    "link": "/components/video",
+    "image": "images/carousel/video.svg",
+    "name": "Video"
+  },
+  {
+    "link": "/components/code",
+    "image": "images/carousel/code.svg",
+    "name": "Code"
+  },
+  {
+    "link": "/components/gif",
+    "image": "images/carousel/gif.svg",
+    "name": "Gif"
+  },
+  {
+    "link": "/components/githubbutton",
+    "image": "images/carousel/githubbutton.svg",
+    "name": "Github button"
+  }
 ]

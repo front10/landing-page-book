@@ -1,6 +1,6 @@
 import React from 'react';
 import Slider from 'react-slick';
-import Link from 'gatsby-link';
+import Link, { withPrefix } from 'gatsby-link';
 import Main from '../gatsby-layouts/main';
 import Container from '../components/Container';
 
@@ -94,12 +94,12 @@ const IndexPage = () => (
           <Slider {...carousel}>
             {sliders.map(item => (
               <div key={item.name}>
-                <Link to={item.link}>
+                <Front10Link href={withPrefix(item.link)}>
                   <Image src={item.image} alt="Navigation" width="100" />
                   <Header className="mt-3 component-link text-center" type="h6">
                     {item.name}
                   </Header>
-                </Link>
+                </Front10Link>
               </div>
             ))}
           </Slider>

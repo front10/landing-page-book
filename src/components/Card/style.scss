@@ -1,5 +1,4 @@
 :root {
-  --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
   --Card__Title-fontSize: 1.2rem;
   --Card__Subtitle-fontSize: 0.9rem;
@@ -10,7 +9,6 @@
 .Card {
   border: none;
   background-color: transparent;
-  border-radius: var(--Card-borderRadius);
   .Card__Summary {
     font-size: var(--Card__Summary-fontSize);
   }

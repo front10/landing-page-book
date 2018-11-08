@@ -23,6 +23,7 @@ export default {
   name: 'Icon',
   summary: 'Icon element.',
   import: '',
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

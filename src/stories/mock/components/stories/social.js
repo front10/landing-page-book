@@ -3,6 +3,7 @@ export default {
   summary:
     'Websites and applications that enable users to create and share content or to participate in social networking. Allow your users to share the content of your website in their social networks.',
   import: ``,
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

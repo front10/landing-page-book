@@ -3,6 +3,8 @@ export default {
   summary:
     'Cards are surfaces that display content and actions on a single topic. They should be easy to scan for relevant and actionable information. Elements, like text and images, should be placed on them in a way that clearly indicates hierarchy.',
   import: '',
+  withStyles: true,
+  extractProps: ['title', 'subTitle', 'summary'],
   stories: [
     {
       name: 'Basic',
@@ -15,17 +17,6 @@ export default {
     image="/images/card/image1.jpg"
 />`,
       tabsActive: ['code'],
-      cssVariables: [
-        '--Card-borderRadius',
-        '--Card__Summary-fontSize',
-        '--Card__Summary-color',
-        '--Card__Summary-backgroundColor',
-        '--Card__Title-fontSize',
-        '--Card__Title-color',
-        '--Card__Subtitle-fontSize',
-        '--Card__Subtitle-color',
-        '--Card-boxShadow'
-      ],
       columnSize: 'col col-md-6',
       columnAlign: 'center'
     },
@@ -39,17 +30,6 @@ export default {
     image="/images/card/image2.jpg"
 />`,
       tabsActive: [],
-      cssVariables: [
-        '--Card-borderRadius',
-        '--Card__Summary-fontSize',
-        '--Card__Summary-color',
-        '--Card__Summary-backgroundColor',
-        '--Card__Title-fontSize',
-        '--Card__Title-color',
-        '--Card__Subtitle-fontSize',
-        '--Card__Subtitle-color',
-        '--Card-boxShadow'
-      ],
       columnSize: 'col col-md-6',
       columnAlign: 'center'
     },
@@ -65,17 +45,6 @@ export default {
     image="/images/card/image3.jpg"
 />`,
       tabsActive: [],
-      cssVariables: [
-        '--Card-borderRadius',
-        '--Card__Summary-fontSize',
-        '--Card__Summary-color',
-        '--Card__Summary-backgroundColor',
-        '--Card__Title-fontSize',
-        '--Card__Title-color',
-        '--Card__Subtitle-fontSize',
-        '--Card__Subtitle-color',
-        '--Card-boxShadow'
-      ],
       columnSize: 'col col-md-6',
       columnAlign: 'center'
     },
@@ -100,17 +69,6 @@ export default {
     </Card>
 </React.Fragment>`,
       tabsActive: [],
-      cssVariables: [
-        '--Card-borderRadius',
-        '--Card__Summary-fontSize',
-        '--Card__Summary-color',
-        '--Card__Summary-backgroundColor',
-        '--Card__Title-fontSize',
-        '--Card__Title-color',
-        '--Card__Subtitle-fontSize',
-        '--Card__Subtitle-color',
-        '--Card-boxShadow'
-      ],
       columnSize: 'col col-md-6',
       columnAlign: 'center'
     },
@@ -123,17 +81,6 @@ export default {
     image="/images/card/image5.jpg"
 />`,
       tabsActive: [],
-      cssVariables: [
-        '--Card-borderRadius',
-        '--Card__Summary-fontSize',
-        '--Card__Summary-color',
-        '--Card__Summary-backgroundColor',
-        '--Card__Title-fontSize',
-        '--Card__Title-color',
-        '--Card__Subtitle-fontSize',
-        '--Card__Subtitle-color',
-        '--Card-boxShadow'
-      ],
       columnSize: 'col col-md-6',
       columnAlign: 'center'
     }

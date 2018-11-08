@@ -2,6 +2,7 @@ export default {
   name: 'Browser',
   summary: 'Show the browser logo with the version.',
   import: '',
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

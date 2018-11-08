@@ -3,6 +3,7 @@ export default {
   summary:
     'The Input specifies an input field where the user can enter data. Input elements are used within a <form> element to declare input controls that allow users to input data. An input field can vary in many ways, depending on the type attribute.',
   import: '',
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

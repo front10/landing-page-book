@@ -1,7 +1,9 @@
 module.exports = {
   verbose: true,
   collectCoverage: true,
-  collectCoverageFrom: ['src/components/**/*.jsx'],
+  collectCoverageFrom: ['<rootDir>/src/components/**/*.jsx'],
+  testPathIgnorePatterns: ['<rootDir>/dist/'],
+  roots: ['<rootDir>/src/components/'],
   setupTestFrameworkScriptFile: '<rootDir>/jest/setup.js',
   transform: {
     '^.+\\.(js|jsx)$': 'babel-jest',

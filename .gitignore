@@ -42,3 +42,11 @@ src/themes/**/*.css
 
 #css components
 src/components/**/*.css
+
+#gatsby cache
+.cache
+
+#all autogenerate pages
+src/pages/components/*
+!src/pages/components/index.js
+    

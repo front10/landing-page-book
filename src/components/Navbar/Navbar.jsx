@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 import Button from '../Button/Button';
 import NavbarBrand from '../NavbarBrand/NavbarBrand';
 import Image from '../Image/Image';
@@ -38,6 +40,7 @@ class Navbar extends Component {
         href={item.href}
         target={item.target}
         onClick={() => onItemClick({ item })}
+        {...extractProps('link', this.props)}
       >
         {item.icon && <Icon icon={item.icon} className="mr-1" />}
         {item.title}
@@ -77,7 +80,7 @@ class Navbar extends Component {
         >
           <Icon icon="fa fa-bars" />
         </Button>
-        <NavbarBrand className="mr-auto" href={brandLink}>
+        <NavbarBrand className="mr-auto" href={brandLink} {...extractProps('brand', this.props)}>
           {brandLogo && (
             <Image
               alt="Company logo"
@@ -106,13 +109,49 @@ class Navbar extends Component {
 }
 
 Navbar.propTypes = {
+  /**
+   * Define if component is transparent.
+   */
   transparent: PropTypes.bool,
+  /**
+   * Define if component is fixed.
+   */
   fixed: PropTypes.bool,
+  /**
+   * Brand name of component.
+   */
   brandName: PropTypes.string,
+  /**
+   * Text color of brand.
+   */
+  brandTextColor: PropTypes.string,
+  /**
+   * Link to go when brand name or logo has clicked.
+   */
   brandLink: PropTypes.string,
+  /**
+   * Background color of navar.
+   */
+  bgColor: PropTypes.string,
+  /**
+   * Color of navar link.
+   */
+  linkTextColor: PropTypes.string,
+  /**
+   * Image logo url.
+   */
   brandLogo: PropTypes.string,
+  /**
+   * Class to apply.
+   */
   className: PropTypes.string,
+  /**
+   * Resolution to expand Navbar.
+   */
   expand: PropTypes.string,
+  /**
+   * Array of items to show in nav-bar left side.
+   */
   leftItems: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
@@ -121,6 +160,9 @@ Navbar.propTypes = {
       icon: PropTypes.string
     })
   ),
+  /**
+   * Array of items to show in nav-bar right side.
+   */
   rightItems: PropTypes.arrayOf(
     PropTypes.shape({
       title: PropTypes.string,
@@ -129,7 +171,13 @@ Navbar.propTypes = {
       icon: PropTypes.string
     })
   ),
+  /**
+   * Elements show into the Navbar
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   * Called when item has clecked. See example section
+   */
   onItemClick: PropTypes.func
 };
 Navbar.defaultProps = {
@@ -139,6 +187,9 @@ Navbar.defaultProps = {
   brandLink: '',
   brandLogo: '',
   className: '',
+  bgColor: 'dark',
+  brandTextColor: 'light',
+  linkTextColor: 'light',
   expand: '',
   leftItems: [],
   rightItems: [],
@@ -146,4 +197,4 @@ Navbar.defaultProps = {
   onItemClick: () => {}
 };
 
-export default Navbar;
+export default withStyles(Navbar);

@@ -1,6 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Image from '../Image';
+import extractProps from '../../helpers/ExtractProps';
+import withStyles from '../../helpers/WithStyles';
+import CardTitle from './CardTitle';
+import CardSubtitle from './CardSubtitle';
+import CardFooter from './CardFooter';
+import Paragraph from '../Paragraph';
 
 class Card extends React.Component {
   render() {
@@ -11,19 +17,13 @@ class Card extends React.Component {
       title,
       subTitle,
       summary,
-      showBorder,
-      contentAlign,
       children,
       imageShadow,
-      summaryJustified,
-      shadow
+      shadow,
+      className
     } = this.props;
     return (
-      <div
-        className={`card h-100 Card ${!showBorder ? 'border-0' : ''} ${
-          shadow ? 'Card--shadow' : ''
-        }`}
-      >
+      <div className={`card h-100 Card ${className} ${shadow ? 'Card--shadow' : ''}`}>
         {image && (
           <Image
             border={imageBorder}
@@ -34,28 +34,30 @@ class Card extends React.Component {
           />
         )}
         {(title || subTitle || summary) && (
-          <div className={`card-body text-${contentAlign}`}>
-            {title && <div className="Card__Title mb-2">{title}</div>}
-            {subTitle && <div className="Card__Subtitle mb-3">{subTitle}</div>}
+          <div className="card-body">
+            {title && (
+              <CardTitle marginBottom="2" content={title} {...extractProps('title', this.props)} />
+            )}
+            {subTitle && (
+              <CardSubtitle
+                marginBottom="3"
+                content={subTitle}
+                {...extractProps('subTitle', this.props)}
+              />
+            )}
             {summary && (
-              <p
-                className={`Card__Summary m-0 ${
-                  summaryJustified ? 'Card__Summary--justified' : ''
-                }`}
-              >
-                {summary}
-              </p>
+              <Paragraph
+                className="Card__Summary"
+                text={summary}
+                {...extractProps('summary', this.props)}
+              />
             )}
           </div>
         )}
         {children && (
-          <div
-            className={`card-footer bg-transparent border-0 ${
-              title || subTitle || summary ? 'pt-0' : ''
-            } text-${contentAlign}`}
-          >
+          <CardFooter bgColor="transparent" borderNone>
             <React.Fragment>{children}</React.Fragment>
-          </div>
+          </CardFooter>
         )}
       </div>
     );
@@ -63,32 +65,63 @@ class Card extends React.Component {
 }
 
 Card.propTypes = {
-  showBorder: PropTypes.bool,
+  /**
+   * Define if card have border
+   */
+  border: PropTypes.bool,
+  /**
+   * Define if image is circular
+   */
   imageCircle: PropTypes.bool,
+  /**
+   * Define if image is with border
+   */
   imageBorder: PropTypes.bool,
+  /**
+   * Define if image   with shadow
+   */
   imageShadow: PropTypes.bool,
-  summaryJustified: PropTypes.bool,
+  /**
+   * Define if card show with shadow
+   */
   shadow: PropTypes.bool,
+  /**
+   * Image url
+   */
   image: PropTypes.string,
+  /**
+   * Card title
+   */
   title: PropTypes.string,
+  /**
+   * Card subtitle
+   */
   subTitle: PropTypes.string,
+  /**
+   * Card summary
+   */
   summary: PropTypes.string,
+  /**
+   * Array of elements to show inside a card
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
-  contentAlign: PropTypes.string
+  /**
+   *  Component class name
+   */
+  className: PropTypes.string
 };
 Card.defaultProps = {
-  showBorder: true,
-  imageCircle: true,
+  border: true,
+  imageCircle: false,
   imageBorder: false,
   imageShadow: false,
   shadow: false,
-  summaryJustified: false,
   image: '',
   title: '',
   subTitle: '',
   summary: '',
   children: null,
-  contentAlign: 'center'
+  className: null
 };
 
-export default Card;
+export default withStyles(Card);

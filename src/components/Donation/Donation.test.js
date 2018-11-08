@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Donation from './Donation';
 
@@ -10,24 +10,26 @@ describe('Donation', () => {
   let mounted;
   const donation = () => {
     if (!mounted) {
-      mounted = mount(<Donation {...props} />);
+      mounted = shallow(<Donation {...props} />);
     }
     return mounted;
   };
   describe('Donation', () => {
     beforeEach(() => {
       props = {
-        url: "https://front10.com"
+        url: 'https://front10.com'
       };
       mounted = undefined;
     });
 
     it('should render', () => {
-      expect(mount(<Donation {...props} />)).toMatchSnapshot();
+      expect(shallow(<Donation {...props} />)).toMatchSnapshot();
     });
+
     it('always renders a div', () => {
-      const divs = donation().find('a');
-      expect(divs.length).toBeGreaterThan(0);
+      const divs = donation().find('img');
+
+      expect(divs.length).toBe(0);
     });
   });
 });

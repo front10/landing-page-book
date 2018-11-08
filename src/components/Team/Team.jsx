@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import Social from '../Social';
+import withStyles from '../../helpers/WithStyles';
 import Card from '../Card';
 
 class Team extends Component {
@@ -10,7 +12,6 @@ class Team extends Component {
       showName,
       showJob,
       showSummary,
-      showBorder,
       socialGray,
       members,
       imageCircle,
@@ -18,13 +19,14 @@ class Team extends Component {
       imageBorder,
       shadow,
       topColor,
-      imageShadow
+      imageShadow,
+      columnClassName
     } = this.props;
     return (
       <div className="Team row">
         {members.map(member => (
           <div
-            className={`col-12 col-sm- col-md text-${contentAlign} mb-4 Team--${contentAlign}`}
+            className={`${columnClassName} text-${contentAlign} mb-4 Team--${contentAlign}`}
             key={`${member.name}${member.job}`}
           >
             <div className="Team__Color">
@@ -35,15 +37,21 @@ class Team extends Component {
               subTitle={showJob ? member.job : ''}
               title={showName ? member.name : ''}
               summary={showSummary ? member.summary : ''}
-              showBorder={showBorder}
               contentAlign={contentAlign}
               imageBorder={imageBorder}
               image={showImage ? member.image : ''}
               shadow={shadow}
               imageShadow={imageShadow}
+              {...extractProps('member', this.props)}
             >
               {member.profile.map(item => (
-                <Social key={item.social} url={item.url} type={item.social} gray={socialGray} />
+                <Social
+                  key={item.social}
+                  url={item.url}
+                  type={item.social}
+                  gray={socialGray}
+                  {...extractProps('social', this.props)}
+                />
               ))}
             </Card>
           </div>
@@ -54,18 +62,57 @@ class Team extends Component {
 }
 
 Team.propTypes = {
-  showBorder: PropTypes.bool,
+  /**
+   * Show or hide image.
+   */
   showImage: PropTypes.bool,
+  /**
+   * Show or hide name.
+   */
   showName: PropTypes.bool,
+  /**
+   * Show or hide job.
+   */
   showJob: PropTypes.bool,
+  /**
+   * Show or hide summary.
+   */
   showSummary: PropTypes.bool,
+  /**
+   * Establishes if image is circled.
+   */
   imageCircle: PropTypes.bool,
+  /**
+   * Establishes if image is with border.
+   */
   imageBorder: PropTypes.bool,
+  /**
+   * Establishes if social icon is gray scale.
+   */
   socialGray: PropTypes.bool,
+  /**
+   * Establishes a shadow in each card.
+   */
   shadow: PropTypes.bool,
+  /**
+   * Establishes a shadow in user picture in each card.
+   */
   imageShadow: PropTypes.bool,
+  /**
+   * Color of each card.
+   */
   topColor: PropTypes.string,
+  /**
+   * Align of a component content. Can be <code>'center'</code>, <code>'left'</code> and <code>'right'</code> too
+   */
   contentAlign: PropTypes.string,
+  /**
+   * Class name of apply to the colums.
+   */
+  columnClassName: PropTypes.string,
+  /**
+   * Array of members to show.
+   */
   members: PropTypes.arrayOf(
     PropTypes.shape({
       image: PropTypes.string,
@@ -82,7 +129,6 @@ Team.propTypes = {
   )
 };
 Team.defaultProps = {
-  showBorder: true,
   showImage: true,
   showName: true,
   showJob: true,
@@ -94,7 +140,8 @@ Team.defaultProps = {
   imageShadow: false,
   topColor: 'transparent',
   contentAlign: 'center',
+  columnClassName: 'col-12 col-sm- col-md',
   members: []
 };
 
-export default Team;
+export default withStyles(Team);

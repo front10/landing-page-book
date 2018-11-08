@@ -5,12 +5,27 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.4.0] Unreleased
+
+#### Added
+
+- [#](https://github.com/front10/landing-page-book/pull/151) Added props `alignHeader` to  Section component, by [@jlfalcon3589]
+- [#151](https://github.com/front10/landing-page-book/pull/151) Props `circle`, `rounded`, `active`, `size`, `color`, `style` to component Button, by [@rootlinux2](https://github.com/rootlinux2)
+- [#151](https://github.com/front10/landing-page-book/pull/151) Props `btnRounded`, `btnDisabled` to component GithubButton, by [@rootlinux2](https://github.com/rootlinux2)
+- [#151](https://github.com/front10/landing-page-book/pull/151) CSS variable --GithubDetail_speech-rounded to component GithubButton, by [@rootlinux2](https://github.com/rootlinux2)
+- [#](https://github.com/front10/landing-page-book/pull/#) Added aligment `center` in the Header component , by [@jlfalcon3589](https://github.com/jlfalcon3589)
+
+#### Change
+
+- [#151](https://github.com/front10/landing-page-book/pull/151) All components API to work with Button, by [@rootlinux2](https://github.com/rootlinux2)
+- [#](https://github.com/front10/landing-page-book/pull/#) Added paragraphs component, by [@jlfalcon](https://github.com/jlfalcon)
+- [#](https://github.com/front10/landing-page-book/pull/#) Fixed `isCentered` props in the Hero component, by [@jlfalcon3589](https://github.com/jlfalcon3589)
+
 ## [1.3.1] 2018-10-20
 
 #### Change
 
 - Feature component removed required ID.
-
 
 ## [1.3.0] 2018-10-19
 

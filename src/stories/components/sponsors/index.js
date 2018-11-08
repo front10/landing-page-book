@@ -9,24 +9,6 @@ import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
 const stories = storiesOf('Components/Sponsors', module);
 
-const sponsors = [
-  {
-    image: 'images/sponsors/facebook.png'
-  },
-  {
-    image: 'images/sponsors/google.png'
-  },
-  {
-    image: 'images/sponsors/twitter.png'
-  },
-  {
-    image: 'images/sponsors/salesforce.png'
-  },
-  {
-    image: 'images/sponsors/amazon.png'
-  }
-];
-
 stories.add(
   'Default',
   withReadme([Readme], () => (
@@ -36,7 +18,16 @@ stories.add(
         description="A person or organization that provides funds for you project or activity, give them an acknowledgment."
       />
       <PropsManager scope={{ React, Sponsors }}>
-        <Sponsors ccsClassName="px-3" gray sponsors={sponsors} />
+        {`<Sponsors
+    gray
+    sponsors={[
+        { image: 'images/sponsors/facebook.png' },
+        { image: 'images/sponsors/google.png' },
+        { image: 'images/sponsors/twitter.png' },
+        { image: 'images/sponsors/salesforce.png' },
+        { image: 'images/sponsors/amazon.png' }
+    ]}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))

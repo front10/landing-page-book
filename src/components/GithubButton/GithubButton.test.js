@@ -11,7 +11,7 @@ describe('GithubButton', () => {
 
   const githubButton = () => {
     if (!mounted) {
-      mounted = mount(<GithubButton {...props} />);
+      mounted = shallow(<GithubButton {...props} />);
     }
     return mounted;
   };
@@ -27,7 +27,7 @@ describe('GithubButton', () => {
     });
 
     it('should render', () => {
-      expect(mount(<GithubButton {...props} />)).toMatchSnapshot();
+      expect(shallow(<GithubButton {...props} />)).toMatchSnapshot();
     });
 
     it('always renders a span', () => {

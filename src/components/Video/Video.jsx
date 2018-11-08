@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ReactPlayer from 'react-player';
+import withStyles from '../../helpers/WithStyles';
 
 class Video extends Component {
   render() {
@@ -49,22 +50,73 @@ class Video extends Component {
 }
 
 Video.propTypes = {
+  /**
+   * Set to true or false to pause or play the media.
+   */
   playing: PropTypes.bool,
+  /**
+   * Set to true or false to loop the media.
+   */
   loop: PropTypes.bool,
+  /**
+   * Set to true or false to display native player controls. Vimeo, Twitch and Wistia player will always display controls.
+   */
   controls: PropTypes.bool,
+  /**
+   * Mutes the player.
+   */
   muted: PropTypes.bool,
+  /**
+   * Set the volume of the player, between 0 and 1.
+   */
   volume: PropTypes.number,
+  /**
+   * The url of a video or song to play.
+   */
   source: PropTypes.string,
+  /**
+   * Class to apply to button.
+   */
   className: PropTypes.string,
+  /**
+   * Called when media is loaded and ready to play. If playing is set to true, media will play immediately
+   */
   onReady: PropTypes.func,
+  /**
+   * Called when media starts playing
+   */
   onStart: PropTypes.func,
+  /**
+   * Called when media starts or resumes playing after pausing or buffering
+   */
   onPlay: PropTypes.func,
+  /**
+   * Callback containing played and loaded progress as a fraction ('{ played: 0.12, playedSeconds: 11.3, loaded: 0.34, loadedSeconds: 16.7 }')
+   */
   onProgress: PropTypes.func,
+  /**
+   * Callback containing duration of the media, in seconds
+   */
   onDuration: PropTypes.func,
+  /**
+   * Called when media is paused
+   */
   onPause: PropTypes.func,
+  /**
+   * Called when media starts buffering
+   */
   onBuffer: PropTypes.func,
+  /**
+   * Called when media seeks with seconds parameter
+   */
   onSeek: PropTypes.func,
+  /**
+   * Called when media finishes playing
+   */
   onEnded: PropTypes.func,
+  /**
+   * Called when an error occurs whilst attempting to play media
+   */
   onError: PropTypes.func
 };
 Video.defaultProps = {
@@ -87,4 +139,4 @@ Video.defaultProps = {
   onError: () => {}
 };
 
-export default Video;
+export default withStyles(Video);

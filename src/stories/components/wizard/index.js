@@ -7,6 +7,8 @@ import { Wizard, Container, Video, Gif, FormGroup, Input, Social } from '../../.
 import Readme from '../../../components/Wizard/README.md';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
+const stories = storiesOf('Components/Wizard', module);
+
 const steps = [
   {
     name: 'Step 1',
@@ -46,8 +48,6 @@ const steps = [
   }
 ];
 
-const stories = storiesOf('Components/Wizard', module);
-
 stories.add(
   'Default',
   withReadme([Readme], () => (
@@ -56,8 +56,10 @@ stories.add(
         name="Wizard"
         description="Easy way to make a wizard on your website. you can guide your users step by step."
       />
-      <PropsManager scope={{ React, Wizard, Container, Gif, Social, FormGroup, Input, Video }}>
-        <Wizard contentAlign="center" steps={steps} />
+      <PropsManager
+        scope={{ React, Wizard, Container, Gif, Social, FormGroup, Input, Video, steps }}
+      >
+        {`<Wizard contentAlign="center" steps={steps} />`}
       </PropsManager>
     </ThemeSelector>
   ))

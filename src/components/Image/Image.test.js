@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Image from './Image';
 
@@ -10,7 +10,7 @@ describe('Image', () => {
   let mounted;
   const image = () => {
     if (!mounted) {
-      mounted = mount(<Image {...props} />);
+      mounted = shallow(<Image {...props} />);
     }
     return mounted;
   };
@@ -18,13 +18,13 @@ describe('Image', () => {
     beforeEach(() => {
       props = {
         alt: 'This is an image',
-        src: "logo.png"
+        src: 'logo.png'
       };
       mounted = undefined;
     });
 
     it('should render', () => {
-      expect(mount(<Image {...props} />)).toMatchSnapshot();
+      expect(shallow(<Image {...props} />)).toMatchSnapshot();
     });
 
     it('always renders a div', () => {

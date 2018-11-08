@@ -19,20 +19,11 @@ stories.add(
         description="Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service."
       />
       <PropsManager scope={{ React, Features }}>
-        <Features
-          shadow={false}
-          showTitle
-          showImage
-          showSubtitle={false}
-          showSummary
-          imageCircle={false}
-          imageBorder={false}
-          imageShadow={false}
-          showFooter
-          outlineButton
-          contentAlign="center"
-          features={features}
-        />
+        {`<Features
+    showSubtitle={false}
+    buttonColor="primary"
+    features={${JSON.stringify(features, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -48,20 +39,12 @@ stories.add(
         description="Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service."
       />
       <PropsManager scope={{ React, Features }}>
-        <Features
-          shadow={false}
-          showTitle
-          showImage
-          showSubtitle={false}
-          showSummary={false}
-          imageCircle={false}
-          imageBorder={false}
-          imageShadow={false}
-          showFooter={false}
-          outlineButton
-          contentAlign="center"
-          features={features}
-        />
+        {`<Features
+    showSubtitle={false}
+    showSummary={false}
+    showFooter={false}
+    features={${JSON.stringify(features, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -77,20 +60,12 @@ stories.add(
         description="Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service."
       />
       <PropsManager scope={{ React, Features }}>
-        <Features
-          shadow
-          showTitle
-          showImage
-          showSubtitle={false}
-          showSummary
-          imageCircle={false}
-          imageBorder={false}
-          imageShadow={false}
-          showFooter={false}
-          outlineButton
-          contentAlign="center"
-          features={features}
-        />
+        {`<Features
+    shadow
+    showSubtitle={false}
+    showFooter={false}
+    features={${JSON.stringify(features, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))
@@ -106,20 +81,13 @@ stories.add(
         description="Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service."
       />
       <PropsManager scope={{ React, Features }}>
-        <Features
-          shadow={false}
-          showTitle
-          showImage
-          showSubtitle={false}
-          showSummary
-          imageCircle
-          imageBorder
-          imageShadow
-          showFooter={false}
-          outlineButton
-          contentAlign="center"
-          features={features}
-        />
+        {`<Features
+    imageShadow
+    imageCircle
+    showSubtitle={false}
+    showFooter={false}
+    features={${JSON.stringify(features, null, 8)}}
+/>`}
       </PropsManager>
     </ThemeSelector>
   ))

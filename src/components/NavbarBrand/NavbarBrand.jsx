@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class NavbarBrand extends Component {
   render() {
@@ -13,8 +14,17 @@ class NavbarBrand extends Component {
 }
 
 NavbarBrand.propTypes = {
+  /**
+   * Class to apply to button.
+   */
   className: PropTypes.string,
+  /**
+   * Url to go when NavbarBrand is clicked.
+   */
   href: PropTypes.string,
+  /**
+   * Elements show into the NavbarBrand
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 NavbarBrand.defaultProps = {
@@ -23,4 +33,4 @@ NavbarBrand.defaultProps = {
   children: null
 };
 
-export default NavbarBrand;
+export default withStyles(NavbarBrand);

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import Browser from '../Browser';
 
 class BrowserSupport extends Component {
@@ -15,6 +16,7 @@ class BrowserSupport extends Component {
               showBrowserVendor={showBrowserVendor}
               showBrowserVersion={showBrowserVersion}
               imgFilter={imgFilter}
+              {...extractProps('browser', this.props)}
             />
           </div>
         ))}
@@ -24,14 +26,26 @@ class BrowserSupport extends Component {
 }
 
 BrowserSupport.propTypes = {
+  /**
+   * Define if the browser name is displayed
+   */
   showBrowserVendor: PropTypes.bool,
+  /**
+   * Define if the browser version is displayed
+   */
   showBrowserVersion: PropTypes.bool,
+  /**
+   * Array of browsers
+   */
   browsers: PropTypes.arrayOf(
     PropTypes.shape({
       vendor: PropTypes.string,
       version: PropTypes.string
     })
   ),
+  /**
+   * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
+   */
   imgFilter: PropTypes.string
 };
 BrowserSupport.defaultProps = {

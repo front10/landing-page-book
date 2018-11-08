@@ -4,23 +4,17 @@ exports[`Code Code should render 1`] = `
 ShallowWrapper {
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <Code
-    bgColorDark={false}
-    code="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+    code="<h1>Title</h1>"
     codeLink=""
     collapsed={false}
-    collapsible={false}
+    collapsible={true}
     languageCode="javascript"
     lineNumbers={true}
     readOnly={false}
     showCopyButton={true}
     showDeleteButton={true}
-    showfooter={true}
     showheader={true}
-    theme="idea"
+    theme="monokai"
     updateCode={[Function]}
   />,
   Symbol(enzyme.__renderer__): Object {
@@ -58,46 +52,58 @@ ShallowWrapper {
               <CopyToClipboard
                 onCopy={[Function]}
                 options={undefined}
-                text="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+                text="<h1>Title</h1>"
               >
                 <Button
+                  active={false}
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="light"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
                   tooltip="Copy"
                   type="button"
                 >
                   <Icon
                     className=""
                     icon="fa fa-clone"
+                    onClick={[Function]}
                     role="link"
                     style={Object {}}
+                    title=""
                   />
                 </Button>
               </CopyToClipboard>
               <Button
+                active={false}
                 ariaLabel=""
+                circle={false}
                 className="btn  CodeMirror_btn"
+                color="light"
                 disabled={false}
                 loading={false}
                 loadingClass="fa fa-circle-o-notch fa-spin"
                 onClick={[Function]}
                 outline={false}
+                rounded={true}
+                size=""
+                style={Object {}}
                 tooltip="Clear"
                 type="button"
               >
                 <Icon
                   className=""
                   icon="fa fa-trash-o"
+                  onClick={[Function]}
                   style={Object {}}
+                  title=""
                 />
               </Button>
             </NavbarNav>
@@ -110,18 +116,61 @@ ShallowWrapper {
                 "lineNumbers": true,
                 "mode": "javascript",
                 "readOnly": false,
-                "theme": "idea",
+                "theme": "monokai",
               }
             }
             preserveScrollPosition={false}
-            value="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+            value="<h1>Title</h1>"
           />
         </UNDEFINED>,
-        false,
+        <Navbar
+          brandLink=""
+          brandLogo=""
+          brandName=""
+          className="CodeMirror__footer"
+          expand=""
+          fixed={false}
+          leftItems={Array []}
+          onItemClick={[Function]}
+          rightItems={Array []}
+          transparent={false}
+        >
+          <Container
+            className="text-center"
+            fluid={false}
+          >
+            <Button
+              active={false}
+              ariaLabel=""
+              circle={false}
+              className="btn CodeMirror_btn"
+              color="light"
+              disabled={false}
+              loading={false}
+              loadingClass="fa fa-circle-o-notch fa-spin"
+              onClick={[Function]}
+              outline={false}
+              rounded={true}
+              size=""
+              style={Object {}}
+              tooltip=""
+              type="button"
+            >
+              <Icon
+                className=""
+                icon="fa fa-code"
+                onClick={[Function]}
+                style={Object {}}
+                title=""
+              />
+              <span
+                className="ml-2"
+              >
+                Hide code
+              </span>
+            </Button>
+          </Container>
+        </Navbar>,
       ],
       "className": "CodeMirror__Container",
     },
@@ -153,46 +202,58 @@ ShallowWrapper {
                 <CopyToClipboard
                   onCopy={[Function]}
                   options={undefined}
-                  text="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+                  text="<h1>Title</h1>"
                 >
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="light"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Copy"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-clone"
+                      onClick={[Function]}
                       role="link"
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </CopyToClipboard>
                 <Button
+                  active={false}
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="light"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
                   tooltip="Clear"
                   type="button"
                 >
                   <Icon
                     className=""
                     icon="fa fa-trash-o"
+                    onClick={[Function]}
                     style={Object {}}
+                    title=""
                   />
                 </Button>
               </NavbarNav>
@@ -205,15 +266,11 @@ ShallowWrapper {
                   "lineNumbers": true,
                   "mode": "javascript",
                   "readOnly": false,
-                  "theme": "idea",
+                  "theme": "monokai",
                 }
               }
               preserveScrollPosition={false}
-              value="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+              value="<h1>Title</h1>"
             />,
           ],
         },
@@ -234,46 +291,58 @@ ShallowWrapper {
                 <CopyToClipboard
                   onCopy={[Function]}
                   options={undefined}
-                  text="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+                  text="<h1>Title</h1>"
                 >
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="light"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Copy"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-clone"
+                      onClick={[Function]}
                       role="link"
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </CopyToClipboard>
                 <Button
+                  active={false}
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="light"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
                   tooltip="Clear"
                   type="button"
                 >
                   <Icon
                     className=""
                     icon="fa fa-trash-o"
+                    onClick={[Function]}
                     style={Object {}}
+                    title=""
                   />
                 </Button>
               </NavbarNav>,
@@ -297,46 +366,58 @@ ShallowWrapper {
                   <CopyToClipboard
                     onCopy={[Function]}
                     options={undefined}
-                    text="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+                    text="<h1>Title</h1>"
                   >
                     <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="light"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />
                     </Button>
                   </CopyToClipboard>,
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="light"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Clear"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-trash-o"
+                      onClick={[Function]}
                       style={Object {}}
+                      title=""
                     />
                   </Button>,
                 ],
@@ -350,30 +431,34 @@ ShallowWrapper {
                   "nodeType": "class",
                   "props": Object {
                     "children": <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="light"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />
                     </Button>,
                     "onCopy": [Function],
                     "options": undefined,
-                    "text": "const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};",
+                    "text": "<h1>Title</h1>",
                   },
                   "ref": null,
                   "rendered": Object {
@@ -381,19 +466,27 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
+                      "active": false,
                       "ariaLabel": "",
                       "children": <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />,
+                      "circle": false,
                       "className": "btn  CodeMirror_btn",
+                      "color": "light",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "size": "",
+                      "style": Object {},
                       "tooltip": "Copy",
                       "type": "button",
                     },
@@ -405,8 +498,10 @@ ShallowWrapper {
                       "props": Object {
                         "className": "",
                         "icon": "fa fa-clone",
+                        "onClick": [Function],
                         "role": "link",
                         "style": Object {},
+                        "title": "",
                       },
                       "ref": null,
                       "rendered": null,
@@ -421,18 +516,26 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
+                    "active": false,
                     "ariaLabel": "",
                     "children": <Icon
                       className=""
                       icon="fa fa-trash-o"
+                      onClick={[Function]}
                       style={Object {}}
+                      title=""
                     />,
+                    "circle": false,
                     "className": "btn  CodeMirror_btn",
+                    "color": "light",
                     "disabled": false,
                     "loading": false,
                     "loadingClass": "fa fa-circle-o-notch fa-spin",
                     "onClick": [Function],
                     "outline": false,
+                    "rounded": true,
+                    "size": "",
+                    "style": Object {},
                     "tooltip": "Clear",
                     "type": "button",
                   },
@@ -444,7 +547,9 @@ ShallowWrapper {
                     "props": Object {
                       "className": "",
                       "icon": "fa fa-trash-o",
+                      "onClick": [Function],
                       "style": Object {},
+                      "title": "",
                     },
                     "ref": null,
                     "rendered": null,
@@ -468,14 +573,10 @@ ShallowWrapper {
                 "lineNumbers": true,
                 "mode": "javascript",
                 "readOnly": false,
-                "theme": "idea",
+                "theme": "monokai",
               },
               "preserveScrollPosition": false,
-              "value": "const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};",
+              "value": "<h1>Title</h1>",
             },
             "ref": "editor",
             "rendered": null,
@@ -484,7 +585,168 @@ ShallowWrapper {
         ],
         "type": Symbol(react.fragment),
       },
-      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "brandLink": "",
+          "brandLogo": "",
+          "brandName": "",
+          "children": <Container
+            className="text-center"
+            fluid={false}
+          >
+            <Button
+              active={false}
+              ariaLabel=""
+              circle={false}
+              className="btn CodeMirror_btn"
+              color="light"
+              disabled={false}
+              loading={false}
+              loadingClass="fa fa-circle-o-notch fa-spin"
+              onClick={[Function]}
+              outline={false}
+              rounded={true}
+              size=""
+              style={Object {}}
+              tooltip=""
+              type="button"
+            >
+              <Icon
+                className=""
+                icon="fa fa-code"
+                onClick={[Function]}
+                style={Object {}}
+                title=""
+              />
+              <span
+                className="ml-2"
+              >
+                Hide code
+              </span>
+            </Button>
+          </Container>,
+          "className": "CodeMirror__footer",
+          "expand": "",
+          "fixed": false,
+          "leftItems": Array [],
+          "onItemClick": [Function],
+          "rightItems": Array [],
+          "transparent": false,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <Button
+              active={false}
+              ariaLabel=""
+              circle={false}
+              className="btn CodeMirror_btn"
+              color="light"
+              disabled={false}
+              loading={false}
+              loadingClass="fa fa-circle-o-notch fa-spin"
+              onClick={[Function]}
+              outline={false}
+              rounded={true}
+              size=""
+              style={Object {}}
+              tooltip=""
+              type="button"
+            >
+              <Icon
+                className=""
+                icon="fa fa-code"
+                onClick={[Function]}
+                style={Object {}}
+                title=""
+              />
+              <span
+                className="ml-2"
+              >
+                Hide code
+              </span>
+            </Button>,
+            "className": "text-center",
+            "fluid": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "active": false,
+              "ariaLabel": "",
+              "children": Array [
+                <Icon
+                  className=""
+                  icon="fa fa-code"
+                  onClick={[Function]}
+                  style={Object {}}
+                  title=""
+                />,
+                <span
+                  className="ml-2"
+                >
+                  Hide code
+                </span>,
+              ],
+              "circle": false,
+              "className": "btn CodeMirror_btn",
+              "color": "light",
+              "disabled": false,
+              "loading": false,
+              "loadingClass": "fa fa-circle-o-notch fa-spin",
+              "onClick": [Function],
+              "outline": false,
+              "rounded": true,
+              "size": "",
+              "style": Object {},
+              "tooltip": "",
+              "type": "button",
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "className": "",
+                  "icon": "fa fa-code",
+                  "onClick": [Function],
+                  "style": Object {},
+                  "title": "",
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": "Hide code",
+                  "className": "ml-2",
+                },
+                "ref": null,
+                "rendered": "Hide code",
+                "type": "span",
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        "type": [Function],
+      },
     ],
     "type": "div",
   },
@@ -516,46 +778,58 @@ ShallowWrapper {
                 <CopyToClipboard
                   onCopy={[Function]}
                   options={undefined}
-                  text="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+                  text="<h1>Title</h1>"
                 >
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="light"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Copy"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-clone"
+                      onClick={[Function]}
                       role="link"
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </CopyToClipboard>
                 <Button
+                  active={false}
                   ariaLabel=""
+                  circle={false}
                   className="btn  CodeMirror_btn"
+                  color="light"
                   disabled={false}
                   loading={false}
                   loadingClass="fa fa-circle-o-notch fa-spin"
                   onClick={[Function]}
                   outline={false}
+                  rounded={true}
+                  size=""
+                  style={Object {}}
                   tooltip="Clear"
                   type="button"
                 >
                   <Icon
                     className=""
                     icon="fa fa-trash-o"
+                    onClick={[Function]}
                     style={Object {}}
+                    title=""
                   />
                 </Button>
               </NavbarNav>
@@ -568,18 +842,61 @@ ShallowWrapper {
                   "lineNumbers": true,
                   "mode": "javascript",
                   "readOnly": false,
-                  "theme": "idea",
+                  "theme": "monokai",
                 }
               }
               preserveScrollPosition={false}
-              value="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+              value="<h1>Title</h1>"
             />
           </UNDEFINED>,
-          false,
+          <Navbar
+            brandLink=""
+            brandLogo=""
+            brandName=""
+            className="CodeMirror__footer"
+            expand=""
+            fixed={false}
+            leftItems={Array []}
+            onItemClick={[Function]}
+            rightItems={Array []}
+            transparent={false}
+          >
+            <Container
+              className="text-center"
+              fluid={false}
+            >
+              <Button
+                active={false}
+                ariaLabel=""
+                circle={false}
+                className="btn CodeMirror_btn"
+                color="light"
+                disabled={false}
+                loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
+                onClick={[Function]}
+                outline={false}
+                rounded={true}
+                size=""
+                style={Object {}}
+                tooltip=""
+                type="button"
+              >
+                <Icon
+                  className=""
+                  icon="fa fa-code"
+                  onClick={[Function]}
+                  style={Object {}}
+                  title=""
+                />
+                <span
+                  className="ml-2"
+                >
+                  Hide code
+                </span>
+              </Button>
+            </Container>
+          </Navbar>,
         ],
         "className": "CodeMirror__Container",
       },
@@ -611,46 +928,58 @@ ShallowWrapper {
                   <CopyToClipboard
                     onCopy={[Function]}
                     options={undefined}
-                    text="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+                    text="<h1>Title</h1>"
                   >
                     <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="light"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />
                     </Button>
                   </CopyToClipboard>
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="light"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Clear"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-trash-o"
+                      onClick={[Function]}
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </NavbarNav>
@@ -663,15 +992,11 @@ ShallowWrapper {
                     "lineNumbers": true,
                     "mode": "javascript",
                     "readOnly": false,
-                    "theme": "idea",
+                    "theme": "monokai",
                   }
                 }
                 preserveScrollPosition={false}
-                value="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+                value="<h1>Title</h1>"
               />,
             ],
           },
@@ -692,46 +1017,58 @@ ShallowWrapper {
                   <CopyToClipboard
                     onCopy={[Function]}
                     options={undefined}
-                    text="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+                    text="<h1>Title</h1>"
                   >
                     <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="light"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Copy"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-clone"
+                        onClick={[Function]}
                         role="link"
                         style={Object {}}
+                        title=""
                       />
                     </Button>
                   </CopyToClipboard>
                   <Button
+                    active={false}
                     ariaLabel=""
+                    circle={false}
                     className="btn  CodeMirror_btn"
+                    color="light"
                     disabled={false}
                     loading={false}
                     loadingClass="fa fa-circle-o-notch fa-spin"
                     onClick={[Function]}
                     outline={false}
+                    rounded={true}
+                    size=""
+                    style={Object {}}
                     tooltip="Clear"
                     type="button"
                   >
                     <Icon
                       className=""
                       icon="fa fa-trash-o"
+                      onClick={[Function]}
                       style={Object {}}
+                      title=""
                     />
                   </Button>
                 </NavbarNav>,
@@ -755,46 +1092,58 @@ ShallowWrapper {
                     <CopyToClipboard
                       onCopy={[Function]}
                       options={undefined}
-                      text="const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};"
+                      text="<h1>Title</h1>"
                     >
                       <Button
+                        active={false}
                         ariaLabel=""
+                        circle={false}
                         className="btn  CodeMirror_btn"
+                        color="light"
                         disabled={false}
                         loading={false}
                         loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         outline={false}
+                        rounded={true}
+                        size=""
+                        style={Object {}}
                         tooltip="Copy"
                         type="button"
                       >
                         <Icon
                           className=""
                           icon="fa fa-clone"
+                          onClick={[Function]}
                           role="link"
                           style={Object {}}
+                          title=""
                         />
                       </Button>
                     </CopyToClipboard>,
                     <Button
+                      active={false}
                       ariaLabel=""
+                      circle={false}
                       className="btn  CodeMirror_btn"
+                      color="light"
                       disabled={false}
                       loading={false}
                       loadingClass="fa fa-circle-o-notch fa-spin"
                       onClick={[Function]}
                       outline={false}
+                      rounded={true}
+                      size=""
+                      style={Object {}}
                       tooltip="Clear"
                       type="button"
                     >
                       <Icon
                         className=""
                         icon="fa fa-trash-o"
+                        onClick={[Function]}
                         style={Object {}}
+                        title=""
                       />
                     </Button>,
                   ],
@@ -808,30 +1157,34 @@ ShallowWrapper {
                     "nodeType": "class",
                     "props": Object {
                       "children": <Button
+                        active={false}
                         ariaLabel=""
+                        circle={false}
                         className="btn  CodeMirror_btn"
+                        color="light"
                         disabled={false}
                         loading={false}
                         loadingClass="fa fa-circle-o-notch fa-spin"
                         onClick={[Function]}
                         outline={false}
+                        rounded={true}
+                        size=""
+                        style={Object {}}
                         tooltip="Copy"
                         type="button"
                       >
                         <Icon
                           className=""
                           icon="fa fa-clone"
+                          onClick={[Function]}
                           role="link"
                           style={Object {}}
+                          title=""
                         />
                       </Button>,
                       "onCopy": [Function],
                       "options": undefined,
-                      "text": "const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};",
+                      "text": "<h1>Title</h1>",
                     },
                     "ref": null,
                     "rendered": Object {
@@ -839,19 +1192,27 @@ ShallowWrapper {
                       "key": undefined,
                       "nodeType": "class",
                       "props": Object {
+                        "active": false,
                         "ariaLabel": "",
                         "children": <Icon
                           className=""
                           icon="fa fa-clone"
+                          onClick={[Function]}
                           role="link"
                           style={Object {}}
+                          title=""
                         />,
+                        "circle": false,
                         "className": "btn  CodeMirror_btn",
+                        "color": "light",
                         "disabled": false,
                         "loading": false,
                         "loadingClass": "fa fa-circle-o-notch fa-spin",
                         "onClick": [Function],
                         "outline": false,
+                        "rounded": true,
+                        "size": "",
+                        "style": Object {},
                         "tooltip": "Copy",
                         "type": "button",
                       },
@@ -863,8 +1224,10 @@ ShallowWrapper {
                         "props": Object {
                           "className": "",
                           "icon": "fa fa-clone",
+                          "onClick": [Function],
                           "role": "link",
                           "style": Object {},
+                          "title": "",
                         },
                         "ref": null,
                         "rendered": null,
@@ -879,18 +1242,26 @@ ShallowWrapper {
                     "key": undefined,
                     "nodeType": "class",
                     "props": Object {
+                      "active": false,
                       "ariaLabel": "",
                       "children": <Icon
                         className=""
                         icon="fa fa-trash-o"
+                        onClick={[Function]}
                         style={Object {}}
+                        title=""
                       />,
+                      "circle": false,
                       "className": "btn  CodeMirror_btn",
+                      "color": "light",
                       "disabled": false,
                       "loading": false,
                       "loadingClass": "fa fa-circle-o-notch fa-spin",
                       "onClick": [Function],
                       "outline": false,
+                      "rounded": true,
+                      "size": "",
+                      "style": Object {},
                       "tooltip": "Clear",
                       "type": "button",
                     },
@@ -902,7 +1273,9 @@ ShallowWrapper {
                       "props": Object {
                         "className": "",
                         "icon": "fa fa-trash-o",
+                        "onClick": [Function],
                         "style": Object {},
+                        "title": "",
                       },
                       "ref": null,
                       "rendered": null,
@@ -926,14 +1299,10 @@ ShallowWrapper {
                   "lineNumbers": true,
                   "mode": "javascript",
                   "readOnly": false,
-                  "theme": "idea",
+                  "theme": "monokai",
                 },
                 "preserveScrollPosition": false,
-                "value": "const component = {
-	name: \\"react-code\\",
-	author: \\"front10-devs\\",
-	repo: \\"https://gitlab.com/front10-devs/landing-page-book\\"
-};",
+                "value": "<h1>Title</h1>",
               },
               "ref": "editor",
               "rendered": null,
@@ -942,7 +1311,168 @@ ShallowWrapper {
           ],
           "type": Symbol(react.fragment),
         },
-        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "brandLink": "",
+            "brandLogo": "",
+            "brandName": "",
+            "children": <Container
+              className="text-center"
+              fluid={false}
+            >
+              <Button
+                active={false}
+                ariaLabel=""
+                circle={false}
+                className="btn CodeMirror_btn"
+                color="light"
+                disabled={false}
+                loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
+                onClick={[Function]}
+                outline={false}
+                rounded={true}
+                size=""
+                style={Object {}}
+                tooltip=""
+                type="button"
+              >
+                <Icon
+                  className=""
+                  icon="fa fa-code"
+                  onClick={[Function]}
+                  style={Object {}}
+                  title=""
+                />
+                <span
+                  className="ml-2"
+                >
+                  Hide code
+                </span>
+              </Button>
+            </Container>,
+            "className": "CodeMirror__footer",
+            "expand": "",
+            "fixed": false,
+            "leftItems": Array [],
+            "onItemClick": [Function],
+            "rightItems": Array [],
+            "transparent": false,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Button
+                active={false}
+                ariaLabel=""
+                circle={false}
+                className="btn CodeMirror_btn"
+                color="light"
+                disabled={false}
+                loading={false}
+                loadingClass="fa fa-circle-o-notch fa-spin"
+                onClick={[Function]}
+                outline={false}
+                rounded={true}
+                size=""
+                style={Object {}}
+                tooltip=""
+                type="button"
+              >
+                <Icon
+                  className=""
+                  icon="fa fa-code"
+                  onClick={[Function]}
+                  style={Object {}}
+                  title=""
+                />
+                <span
+                  className="ml-2"
+                >
+                  Hide code
+                </span>
+              </Button>,
+              "className": "text-center",
+              "fluid": false,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "active": false,
+                "ariaLabel": "",
+                "children": Array [
+                  <Icon
+                    className=""
+                    icon="fa fa-code"
+                    onClick={[Function]}
+                    style={Object {}}
+                    title=""
+                  />,
+                  <span
+                    className="ml-2"
+                  >
+                    Hide code
+                  </span>,
+                ],
+                "circle": false,
+                "className": "btn CodeMirror_btn",
+                "color": "light",
+                "disabled": false,
+                "loading": false,
+                "loadingClass": "fa fa-circle-o-notch fa-spin",
+                "onClick": [Function],
+                "outline": false,
+                "rounded": true,
+                "size": "",
+                "style": Object {},
+                "tooltip": "",
+                "type": "button",
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "className": "",
+                    "icon": "fa fa-code",
+                    "onClick": [Function],
+                    "style": Object {},
+                    "title": "",
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Hide code",
+                    "className": "ml-2",
+                  },
+                  "ref": null,
+                  "rendered": "Hide code",
+                  "type": "span",
+                },
+              ],
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          "type": [Function],
+        },
       ],
       "type": "div",
     },

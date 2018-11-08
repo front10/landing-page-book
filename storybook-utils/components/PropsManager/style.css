@@ -1,0 +1,156 @@
+.playgroundEditor--rounded .CodeMirror,
+.playgroundVariables--rounded .CodeMirror,
+.playgroundProperties--rounded {
+  border-bottom-left-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+}
+
+.playgroundHeader {
+  background-color: #272822;
+}
+
+.react-live-error {
+  border-left: solid #212529;
+  padding: 5px;
+  background-color: #dc3545;
+  color: #ffffff;
+  border-right: solid #212529;
+}
+
+.playgroundHeader__icon {
+  padding: 1px 3px 7px 0px;
+}
+
+.hidde {
+  display: none;
+}
+
+.playgroundHeader__icon:hover {
+  background-color: #141511;
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.font-weight-light.fs-10.text-uppercase:hover > span.hidde {
+  display: inline;
+  animation: showNav 0.7s ease-in-out both;
+}
+
+@keyframes showNav {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.playgroundVariables .CodeMirror__Container {
+  border-top: none;
+  border-radius: 0;
+}
+
+.border-preview {
+  padding: 0.8em;
+  border-radius: 4px;
+  border: solid;
+}
+
+.mt--4p {
+  margin-top: -4px;
+}
+
+.playgroundEditor--rounded {
+  border-radius: 4px;
+  border-bottom: solid;
+}
+
+.fs-10 {
+  font-size: 10px;
+}
+
+.fs-12 {
+  font-size: 12px;
+}
+
+.propType {
+  background-color: #435a6f;
+  background-color: rgba(67, 90, 111, 0.2);
+  border-radius: 2px;
+  color: #1f4160;
+  font-weight: 500;
+  padding: 2px 4px;
+}
+
+.propName {
+  background-color: #14b5d0;
+  background-color: rgba(20, 181, 208, 0.114);
+  border-radius: 2px;
+  color: #056f8a;
+  font-family: SF Mono, Monaco, Inconsolata, Fira Mono, Droid Sans Mono, Source Code Pro, monospace;
+  font-weight: 500;
+  margin-right: 12px;
+  padding: 2px 4px;
+}
+
+.table-props {
+  border: 2px solid #232426;
+  max-height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.table * {
+  font-size: 12px;
+}
+
+.border-preview .column-align-left {
+  margin-right: auto;
+}
+
+.border-preview .column-align-right {
+  margin-left: auto;
+}
+
+.border-preview .column-align-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text-required {
+  color: #dc3545;
+  background-color: rgba(220, 53, 69, 0.114);
+  padding: 2px 4px;
+  border-radius: 2px;
+  margin-right: 12px;
+}
+
+.filter-list .Input__Container .Input__Container__Conponent--left {
+  border-right: 2px solid #272822;
+  border-left: 2px solid #272822;
+  border-radius: 0px;
+}
+
+/* CSS Temporaly */
+
+.token.tag {
+  color: #c85a62 !important;
+}
+
+.token.attr-name {
+  color: #c0af27 !important;
+}
+
+.token.attr-value {
+  color: #00f891 !important;
+}
+
+.token.string {
+  color: #ba5d26;
+}
+
+.prism-code {
+  font-size: 16px;
+}
+
+/* END CSS Temporaly */

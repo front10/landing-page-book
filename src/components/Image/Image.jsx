@@ -1,19 +1,14 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Image extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    this.state = { loaded: false };
     this.image = React.createRef();
     this.onUpdate = this.onUpdate.bind(this);
     this.handleImageLoaded = this.handleImageLoaded.bind(this);
-  }
-
-  componentWillMount() {
-    this.setState({
-      loaded: false
-    });
   }
 
   componentDidMount() {
@@ -40,6 +35,7 @@ class Image extends Component {
     const { alt, src, rounded, border, width, tooltip, className, imgFilter, shadow } = this.props;
     const { loaded } = this.state;
     let tempClass = className;
+    tempClass += ` img-fluid`;
     if (rounded) tempClass += ` rounded-circle`;
     if (border) tempClass += ` img-thumbnail`;
     const styles = {
@@ -73,14 +69,41 @@ class Image extends Component {
 }
 
 Image.propTypes = {
+  /**
+   * Show or hide image borders.
+   */
   border: PropTypes.bool,
+  /**
+   * Show circled image.
+   */
   rounded: PropTypes.bool,
+  /**
+   * Define if image is show with shadow.
+   */
   shadow: PropTypes.bool,
+  /**
+   * CSS class to apply to image.
+   */
   className: PropTypes.string,
+  /**
+   * Image width.
+   */
   width: PropTypes.string,
+  /**
+   * Image tooltip.
+   */
   tooltip: PropTypes.string,
+  /**
+   * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
+   */
   imgFilter: PropTypes.string,
+  /**
+   *  Image alt.
+   */
   alt: PropTypes.string.isRequired,
+  /**
+   *  Image source.
+   */
   src: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired
 };
 Image.defaultProps = {
@@ -93,4 +116,4 @@ Image.defaultProps = {
   imgFilter: null
 };
 
-export default Image;
+export default withStyles(Image);

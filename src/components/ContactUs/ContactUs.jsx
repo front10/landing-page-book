@@ -151,79 +151,79 @@ class ContactUs extends Component {
 
 ContactUs.propTypes = {
   /**
-   * Class to apply to icon. Default `""`
+   * Class to apply to icon
    */
   className: PropTypes.string,
   /**
-   * Show or hide labels to inputs. Default `false`
+   * Show or hide labels to inputs
    */
   showText: PropTypes.bool,
   /**
-   * Show or hide placeholders to inputs. Default `true`
+   * Show or hide placeholders to inputs
    */
   showPlaceholder: PropTypes.bool,
   /**
-   * Define if component is loading. Default `false`
+   * Define if component is loading
    */
   loading: PropTypes.bool,
   /**
-   * Label and placeholder of name input. Default `"Your Name"`
+   * Label and placeholder of name input
    */
   nameText: PropTypes.string,
   /**
-   *  Label and placeholder of email input. Default `"Your Email"`
+   *  Label and placeholder of email input
    */
   mailText: PropTypes.string,
   /**
-   *  Label and placeholder of phone input. Default `"Your Phone"`
+   *  Label and placeholder of phone input
    */
   phoneText: PropTypes.string,
   /**
-   * Label and placeholder of message input. Default `"Your Message"`
+   * Label and placeholder of message input
    */
   messageText: PropTypes.string,
   /**
-   * Value of name input. Default `""`
+   * Value of name input
    */
   name: PropTypes.string,
   /**
-   *  Value of mail input. Default `""`
+   *  Value of mail input
    */
   mail: PropTypes.string,
   /**
-   * Value of phone input. Default `""`
+   * Value of phone input
    */
   phone: PropTypes.string,
   /**
-   * Value of message input. Default `""`
+   * Value of message input
    */
   message: PropTypes.string,
   /**
-   * Label of submit button. Default `"Submit"`
+   * Label of submit button
    */
   submitButtonText: PropTypes.string,
   /**
-   * Align of Submit button. Default `"center"`
+   * Align of Submit button
    */
   submitButtonAlign: PropTypes.string,
   /**
-   * Color of Submit button. Default `"default"`
+   * Color of Submit button
    */
   submitButtonColor: PropTypes.string,
   /**
-   * Url to send contact data, component make a request via post method and send `name`, `email`, `phone` and `message` params. Default `""`
+   * Url to send contact data, component make a request via post method and send <code>name</code>, <code>email</code>, <code>phone</code> and <code>message</code> params
    */
   apiUrl: PropTypes.string,
   /**
-   * Function called when Submit button has clicked. Params `{name, mail, phone, message}`
+   * Function called when Submit button has clicked. Params <code>{name, mail, phone, message}</code>
    */
   onSubmit: PropTypes.func,
   /**
-   * Function called when `apiUrl` is defined and request was executed successfully
+   * Function called when <code>apiUrl</code> is defined and request was executed successfully
    */
   onApiSuccess: PropTypes.func,
   /**
-   * Function called when `apiUrl` is defined and request was error
+   * Function called when <code>apiUrl</code> is defined and request was error
    */
   onApiFail: PropTypes.func
 };

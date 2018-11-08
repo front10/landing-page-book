@@ -62,25 +62,28 @@ class Browser extends Component {
 
 Browser.propTypes = {
   /**
-   * Define if the browser name is displayed. Default `true`
+   * Define if the browser name is displayed
    */
   showBrowserVendor: PropTypes.bool,
   /**
-   * Define if the browser version is displayed. Default `true`
+   * Define if the browser version is displayed
    */
   showBrowserVersion: PropTypes.bool,
   /**
-   * Vendor of button. Default `""`, can be `firefox`, `chrome`, `iexplore`, `safari`, `opera`, `maxthon`, `flock`
+   * Vendor of button. Can be <code>'firefox'</code>, <code>'chrome'</code>, <code>'iexplore'</code>, <code>'safari'</code>, <code>'opera'</code>, <code>'maxthon'</code>, <code>'flock'</code>
    */
   vendor: PropTypes.string,
   /**
-   * Version of browser. Default `""`
+   * Version of browser
    */
   version: PropTypes.string,
   /**
    * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
    */
   imgFilter: PropTypes.string,
+  /**
+   * Component class name
+   */
   className: PropTypes.string
 };
 Browser.defaultProps = {

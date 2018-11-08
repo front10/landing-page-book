@@ -66,45 +66,48 @@ class Card extends React.Component {
 
 Card.propTypes = {
   /**
-   * Define if card have border. Default `true`
+   * Define if card have border
    */
   border: PropTypes.bool,
   /**
-   * Define if image is circular. Default `true`
+   * Define if image is circular
    */
   imageCircle: PropTypes.bool,
   /**
-   * Define if image is with border. Default `false`
+   * Define if image is with border
    */
   imageBorder: PropTypes.bool,
   /**
-   * Define if image   with shadow. Default `false`
+   * Define if image   with shadow
    */
   imageShadow: PropTypes.bool,
   /**
-   * Define if card show with shadow. Default `false`
+   * Define if card show with shadow
    */
   shadow: PropTypes.bool,
   /**
-   * Image url. Default `""`
+   * Image url
    */
   image: PropTypes.string,
   /**
-   * Card title. Default `""`
+   * Card title
    */
   title: PropTypes.string,
   /**
-   * Card subtitle. Default `""`
+   * Card subtitle
    */
   subTitle: PropTypes.string,
   /**
-   * Card summary. Default `""`
+   * Card summary
    */
   summary: PropTypes.string,
   /**
-   * Array of elements to show inside a card, For example ['Buttons', 'Links', 'tables', etc]
+   * Array of elements to show inside a card
    */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   *  Component class name
+   */
   className: PropTypes.string
 };
 Card.defaultProps = {

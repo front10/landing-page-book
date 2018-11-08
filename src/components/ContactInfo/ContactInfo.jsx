@@ -88,57 +88,53 @@ class ContactInfo extends Component {
 
 ContactInfo.propTypes = {
   /**
-   * Class to apply to icon. Default `""`
+   * Class to apply to icon
    */
   className: PropTypes.string,
   /**
-   * Show or hide card border. Default `true`
+   * Show or hide card border
    */
   showBorder: PropTypes.bool,
   /**
-   * Show or hide icons in the information. Default `true`
+   * Show or hide icons in the information
    */
   showIcons: PropTypes.bool,
   /**
-   * Marker longitude. Default `0`
+   * Marker longitude
    */
   lng: PropTypes.number,
   /**
-   * Marker latitude. Default `0`
+   * Marker latitude
    */
   lat: PropTypes.number,
   /**
-   * Key of the map. Default `""`
+   * Key of the map
    */
   locationApiKey: PropTypes.string,
   /**
-   *  Address info. Default `""`
+   *  Address info
    */
   address: PropTypes.string,
   /**
-   * Email contact info. Default `""`
+   * Email contact info
    */
   email: PropTypes.string,
   /**
-   * Phone contact info. Default `""`
+   * Phone contact info
    */
   phone: PropTypes.string,
   /**
-   * Mobile contact info. Default `""`
+   * Mobile contact info
    */
   mobile: PropTypes.string,
   /**
-   * Fax contact info. Default `""`
+   * Fax contact info
    */
   fax: PropTypes.string,
   /**
-   * Web contact info. Default `""`
+   * Web contact info
    */
-  website: PropTypes.string,
-  /**
-   * Card content align. Default `"left"`, can be `left`, `center` and `right`
-   */
-  contentAlign: PropTypes.string
+  website: PropTypes.string
 };
 ContactInfo.defaultProps = {
   className: '',
@@ -152,8 +148,7 @@ ContactInfo.defaultProps = {
   phone: '',
   mobile: '',
   fax: '',
-  website: '',
-  contentAlign: 'left'
+  website: ''
 };
 
 export default withStyles(ContactInfo);

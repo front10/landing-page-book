@@ -44,15 +44,15 @@ Analytics.propTypes = {
    */
   idTracking: PropTypes.string.isRequired,
   /**
-   * Path you want to track, for example '/section/page1'. Default route is obtained from the window object
+   * Path you want to track, for example '/section/page1'
    */
   urlPath: PropTypes.string,
   /**
-   * If set to true, will output additional feedback to the console. Default `false`.
+   * If set to true, will output additional feedback to the console
    */
   debug: PropTypes.bool,
   /**
-   * Enable test mode in the component .Default `false`
+   * Enable test mode in the component
    */
   testMode: PropTypes.bool
 };

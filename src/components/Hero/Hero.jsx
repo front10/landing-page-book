@@ -170,71 +170,71 @@ class Hero extends Component {
 
 Hero.propTypes = {
   /**
-   * Define if background image is fixed. Default `true`
+   * Define if background image is fixed
    */
   isFixed: PropTypes.bool,
   /**
-   *  Define if content is centered. Default `true`
+   *  Define if content is centered
    */
   isCentered: PropTypes.bool,
   /**
-   * Define if component show particles animations. Default `true`
+   * Define if component show particles animations
    */
   particles: PropTypes.bool,
   /**
-   * Opacity level. Default `0`
+   * Opacity level
    */
   opacity: PropTypes.number,
   /**
-   * Offset of background image. Default `0`
+   * Offset of background image
    */
   parallaxOffset: PropTypes.number,
   /**
-   * Url of background image. Default `""`
+   * Url of background image
    */
   image: PropTypes.string,
   /**
-   * Overlay color of the component . Default `#fff`
+   * Overlay color of the component
    */
   overlayColor: PropTypes.string,
   /**
-   *  Header of the hero . Default `""`
+   *  Header of the hero
    */
   header: PropTypes.string,
   /**
-   * Sub header of the hero . Default `""`
+   * Sub header of the hero
    */
   subHeader: PropTypes.string,
   /**
-   * Position of hero sub header. Default `"bottom"`, can be `"top"`
+   * Position of hero sub header. Can be <code>'top'</code> or <code>'bottom'</code>
    */
   subHeaderPosition: PropTypes.string,
   /**
-   * Min height of hero. Default `"100vh"`
+   * Min height of hero
    */
   minHeight: PropTypes.string,
   /**
-   * Background color of the hero. Default `"transparent"`
+   * Background color of the hero
    */
   backgroundColor: PropTypes.string,
   /**
-   * Margin bottom of hero header. Default `"5"`
+   * Margin bottom of hero header
    */
   headerMarginBottom: PropTypes.string,
   /**
-   * Color of hero header. Default `"light"`
+   * Color of hero header
    */
   headerTextColor: PropTypes.string,
   /**
-   * Margin bottom of hero subheader. Default `"5"`
+   * Margin bottom of hero subheader
    */
   subHeaderMarginBottom: PropTypes.string,
   /**
-   * Color of hero subheader. Default `"light"`
+   * Color of hero subheader
    */
   subHeaderTextColor: PropTypes.string,
   /**
-   * Array with buttons to show in hero. Default `[]`, each element must be a object with this structure: `{text: "TELL ME MORE", onClick: ({button})=>{}}`
+   * Hero call to action
    */
   callToAction: PropTypes.string,
   /**

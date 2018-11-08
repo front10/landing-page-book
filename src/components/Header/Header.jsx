@@ -28,15 +28,15 @@ class Header extends Component {
 
 Header.propTypes = {
   /**
-   * Class name of header. Default `""`
+   * Class name of header
    */
   className: PropTypes.string,
   /**
-   * Type of tag element. Default `"h1"`, can be `h1`, `h2`, `h3`, `h4`, `h5`, `h6`
+   * Type of tag element. Can be <code>'h1'</code>, <code>'h2'</code>, <code>'h3'</code>, <code>'h4'</code>, <code>'h5'</code> and <code>'h6'</code>
    */
   type: PropTypes.string,
   /**
-   * Icon to show in component. Default `""`
+   * Icon to show in component
    */
   icon: PropTypes.string,
   /**
@@ -44,7 +44,7 @@ Header.propTypes = {
    */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   /**
-   * Icon to show in component. Default `""`
+   * Icon to show in component
    */
   textAlign: PropTypes.string
 };

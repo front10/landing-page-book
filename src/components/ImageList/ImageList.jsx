@@ -45,11 +45,11 @@ ImageList.propTypes = {
    */
   className: PropTypes.string,
   /**
-   * Define if image is gray scale. Default `false`
+   * Define if image is gray scale
    */
   gray: PropTypes.bool,
   /**
-   * Image width. Default `"100"`
+   * Image width
    */
   imageWidth: PropTypes.string,
   /**
@@ -57,7 +57,7 @@ ImageList.propTypes = {
    */
   padding: PropTypes.string,
   /**
-   * Images to show. Default `[]`
+   * Images to show
    */
   images: PropTypes.arrayOf(
     PropTypes.shape({

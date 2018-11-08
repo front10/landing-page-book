@@ -107,19 +107,19 @@ class BackersOpenCollective extends Component {
 
 BackersOpenCollective.propTypes = {
   /**
-   * Class name applied of the container. Default `"px-2"`
+   * Class name applied of the container
    */
   className: PropTypes.string,
   /**
-   * If true the image will be rounded as a circle, default `true`
+   * If true the image will be rounded as a circle
    */
   imageRounded: PropTypes.bool,
   /**
-   * If true the image will have a solid border, default `true`
+   * If true the image will have a solid border
    */
   imageBordered: PropTypes.bool,
   /**
-   * If true the image doesn't show colors, default `false`
+   * If true the image doesn't show colors
    */
   imageGray: PropTypes.bool,
   /**
@@ -127,15 +127,15 @@ BackersOpenCollective.propTypes = {
    */
   collective: PropTypes.string.isRequired,
   /**
-   * Sort direction to show the list of backers, default `desc`
+   * Sort direction to show the list of backers
    */
   sortDirection: PropTypes.string,
   /**
-   * CSS class for loading animation, default `fa fa-circle-o-notch fa-spin`
+   * CSS class for loading animation
    */
   loadingClass: PropTypes.string,
   /**
-   * Loading text to show, default `Loading...`
+   * Loading text to show
    */
   loadingText: PropTypes.string
 };

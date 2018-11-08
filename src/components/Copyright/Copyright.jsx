@@ -28,35 +28,35 @@ class Copyright extends Component {
 
 Copyright.propTypes = {
   /**
-   *  Show or hide `©` symbol. Default `true`
+   *  Show or hide `©` symbol
    */
   showCopyRightSymbol: PropTypes.bool,
   /**
-   * Show or hide copy right text. Default `true`
+   * Show or hide copy right text
    */
   showCopyRightText: PropTypes.bool,
   /**
-   *  Show or hide year in copyright. Default `true`
+   *  Show or hide year in copyright
    */
   showYear: PropTypes.bool,
   /**
-   *  Show or hide all right reserved text. Default `true`
+   *  Show or hide all right reserved text
    */
   showAllRightText: PropTypes.bool,
   /**
-   * Copy right text. Default `"Copyright"`
+   * Copy right text
    */
   copyRightText: PropTypes.string,
   /**
-   * All rights reserved text. Default `"All rights reserved"`
+   * All rights reserved text
    */
   allRightText: PropTypes.string,
   /**
-   *  Text in copyright, ex: `Front10, Inc`. Default `""`
+   *  Text in copyright, ex: <code>'Front10, Inc'</code>
    */
   text: PropTypes.string,
   /**
-   * Class to apply to icon. Default `""`
+   * Class to apply to icon
    */
   className: PropTypes.string
 };

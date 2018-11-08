@@ -45,51 +45,51 @@ class Button extends Component {
 
 Button.propTypes = {
   /**
-   * Disable or enable button. Default `false`
+   * Disable or enable button
    */
   disabled: PropTypes.bool,
   /**
-   * Show loading mode. Default `false`
+   * Show loading mode
    */
   loading: PropTypes.bool,
   /**
-   * Define if button is only with border. Default `false`
+   * Define if button is only with border
    */
   outline: PropTypes.bool,
   /**
-   * Define if button is active. Default `false`
+   * Define if button is active
    */
   active: PropTypes.bool,
   /**
-   * Class to show loading indicator. Default `"fa fa-circle-o-notch fa-spin"`
+   * Class to show loading indicator
    */
   loadingClass: PropTypes.string,
   /**
-   * Class to apply to button. Default `""`
+   * Class to apply to button
    */
   className: PropTypes.string,
   /**
-   * Aria label of the button. Default `""`
+   * Aria label of the button
    */
   ariaLabel: PropTypes.string,
   /**
-   * Button tooltip. Default `""`
+   * Button tooltip
    */
   tooltip: PropTypes.string,
   /**
-   * Button size, can be `lg` or `sm`. Default `""`
+   * Button size. Can be <code>'lg'</code>, <code>'sm'</code>
    */
   size: PropTypes.string,
   /**
-   * Type of the button. Default `"button"`
+   * Type of the button
    */
   type: PropTypes.string,
   /**
-   * Color to apply to button. Default `"default"`
+   * Color to apply to button
    */
   color: PropTypes.string,
   /**
-   * Button styles. Default `""`
+   * Button styles
    */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   /**

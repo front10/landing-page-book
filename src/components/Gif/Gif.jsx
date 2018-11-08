@@ -16,15 +16,15 @@ class Gif extends Component {
 
 Gif.propTypes = {
   /**
-   * Define if gif is auto play. Default `false`
+   * Define if gif is auto play
    */
   autoplay: PropTypes.bool,
   /**
-   * Image gif url. Default `""`
+   * Image gif url
    */
   image: PropTypes.string,
   /**
-   * Initial image url. Default `""`
+   * Initial image url
    */
   preview: PropTypes.string,
   /**
@@ -32,7 +32,7 @@ Gif.propTypes = {
    */
   onPlayPause: PropTypes.func,
   /**
-   * Class of the component. Default `""`
+   * Class of the component
    */
   className: PropTypes.string
 };

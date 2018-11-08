@@ -23,23 +23,23 @@ class Donation extends Component {
 
 Donation.propTypes = {
   /**
-   * Image width. Default `"300"`
+   * Image width
    */
   imageWidth: PropTypes.string,
   /**
-   * Url of the project to donate. Default `undefined`, this prop is `required`
+   * Url of the project to donate
    */
   url: PropTypes.string.isRequired,
   /**
-   * Link image. Default `"https://opencollective.com/webpack/donate/button@2x.png?color=blue"`
+   * Link image
    */
   image: PropTypes.string,
   /**
-   * Image alt to accessibility. Default `"Open collective logo"`
+   * Image alt to accessibility
    */
   imageAlt: PropTypes.string,
   /**
-   * Class to apply to icon. Default `""`
+   * Class to apply to icon
    */
   className: PropTypes.string
 };

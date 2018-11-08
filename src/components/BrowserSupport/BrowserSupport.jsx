@@ -27,15 +27,15 @@ class BrowserSupport extends Component {
 
 BrowserSupport.propTypes = {
   /**
-   * Define if the browser name is displayed. Default `true`
+   * Define if the browser name is displayed
    */
   showBrowserVendor: PropTypes.bool,
   /**
-   * Define if the browser version is displayed. Default `true`
+   * Define if the browser version is displayed
    */
   showBrowserVersion: PropTypes.bool,
   /**
-   * Array of browsers. Default `[]`
+   * Array of browsers
    */
   browsers: PropTypes.arrayOf(
     PropTypes.shape({

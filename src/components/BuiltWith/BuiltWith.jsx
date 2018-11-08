@@ -25,15 +25,15 @@ class BuiltWith extends Component {
 
 BuiltWith.propTypes = {
   /**
-   * Class to apply to icon. Default `""`
+   * Class to apply to icon
    */
   className: PropTypes.string,
   /**
-   * Define if image is gray scale. Default `false`
+   * Define if image is gray scale
    */
   gray: PropTypes.bool,
   /**
-   * Companies to show. Default `[]`
+   * Companies to show
    */
   companies: PropTypes.arrayOf(
     PropTypes.shape({

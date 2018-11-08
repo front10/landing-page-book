@@ -10,7 +10,7 @@ class Column extends Component {
 
 Column.propTypes = {
   /**
-   * Class name of the column. Default `""`
+   * Class name of the column
    */
   className: PropTypes.string,
   /**

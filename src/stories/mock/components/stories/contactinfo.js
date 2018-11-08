@@ -21,7 +21,6 @@ export default {
     mobile="+001 3521 4587"
     fax="208-658744"
     website="www.front10.com"
-    contentAlign="left"
 />`,
       tabsActive: ['code']
     }

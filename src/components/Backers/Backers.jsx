@@ -53,19 +53,19 @@ Backers.propTypes = {
    */
   className: PropTypes.string,
   /**
-   * If true the image will be rounded as a circle, default `true`
+   * If true the image will be rounded as a circle
    */
   imageRounded: PropTypes.bool,
   /**
-   * If true the image will have a solid border, default `true`
+   * If true the image will have a solid border
    */
   imageBordered: PropTypes.bool,
   /**
-   * If true the image doesn't show colors, default `false`
+   * If true the image doesn't show colors
    */
   imageGray: PropTypes.bool,
   /**
-   * List of backers, default will be empty `[]`.
+   * List of backers
    */
   backers: PropTypes.arrayOf(
     PropTypes.shape({

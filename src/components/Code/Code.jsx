@@ -215,67 +215,67 @@ class Code extends React.Component {
 
 Code.propTypes = {
   /**
-   * No allow to change the code, Default `false`
+   * No allow to change the code
    */
   readOnly: PropTypes.bool,
   /**
-   * Define if component is collapsible, Default `false`
+   * Define if component is collapsible
    */
   collapsible: PropTypes.bool,
   /**
-   * Define if component is collapsed, Default `false`
+   * Define if component is collapsed
    */
   collapsed: PropTypes.bool,
   /**
-   * Shows line numbers, Default `true`
+   * Shows line numbers
    */
   lineNumbers: PropTypes.bool,
   /**
-   * Shows header bar, Default `true`
+   * Shows header bar
    */
   showheader: PropTypes.bool,
   /**
-   * Show or hide delete button, Default `true`
+   * Show or hide delete button
    */
   showDeleteButton: PropTypes.bool,
   /**
-   * Show or hide copy button, Default `true`
+   * Show or hide copy button
    */
   showCopyButton: PropTypes.bool,
   /**
-   * Code to show on component, Default `Js code example`
+   * Code to show on component
    */
   code: PropTypes.string.isRequired,
   /**
-   * language in which the code is written to embellish the syntax, Default `javascript`
+   * language in which the code is written to embellish the syntax
    */
   languageCode: PropTypes.string,
   /**
-   * Theme of code, Default `"idea"`
+   * Theme of code
    */
   theme: PropTypes.string,
   /**
-   * Link to code, ex: CodeSandbox, CodePen. Default `""`
+   * Link to code, ex: CodeSandbox, CodePen
    */
   codeLink: PropTypes.string,
   /**
-   * Background color of the buttons in the header. Default `"dark"`
+   * Background color of the buttons in the header
    */
   buttonBgColor: PropTypes.string,
   /**
-   * Hide or show buttons border. Default `true`
+   * Hide or show buttons border
    */
   buttonBorderNone: PropTypes.bool,
   /**
-   * Color of the buttons in the header. Default `"warning"`
+   * Color of the buttons in the header
    */
   buttonTextColor: PropTypes.string,
   /**
-   * Paddin top of the buttons in the header. Default `"0"`
+   * Paddin top of the buttons in the header
    */
   buttonPaddingTop: PropTypes.string,
   /**
-   * Paddin bottom of the buttons in the header. Default `"0"`
+   * Paddin bottom of the buttons in the header
    */
   buttonPaddingBottom: PropTypes.string,
   /**

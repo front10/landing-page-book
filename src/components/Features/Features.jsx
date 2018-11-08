@@ -72,63 +72,63 @@ class Features extends React.Component {
 
 Features.propTypes = {
   /**
-   * Establishes shadow for each card. Default `false`
+   * Establishes shadow for each card
    */
   shadow: PropTypes.bool,
   /**
-   * Show or hide image. Default `true`
+   * Show or hide image
    */
   showImage: PropTypes.bool,
   /**
-   * Show or hide title. Default `true`
+   * Show or hide title
    */
   showTitle: PropTypes.bool,
   /**
-   * Show or hide subtitle. Default `true`
+   * Show or hide subtitle
    */
   showSubtitle: PropTypes.bool,
   /**
-   * Show or hide summary. Default `true`
+   * Show or hide summary
    */
   showSummary: PropTypes.bool,
   /**
-   * Establishes if image is circled. Default `true`
+   * Establishes if image is circled
    */
   imageCircle: PropTypes.bool,
   /**
-   * Establishes if image is with border. Default `false`
+   * Establishes if image is with border
    */
   imageBorder: PropTypes.bool,
   /**
-   * Establishes image with shadow. Default `false`
+   * Establishes image with shadow
    */
   imageShadow: PropTypes.bool,
   /**
-   * Show or hide Card footer. Default `true`
+   * Show or hide Card footer
    */
   showFooter: PropTypes.bool,
   /**
-   * Establishes if `See more` button is outline. Default `true`
+   * Establishes if <code>'See more'</code> button is outline
    */
   buttonOutline: PropTypes.bool,
   /**
-   * Establishes color button. Default `primary`, can be `secondary`, `success`, `danger`, `warning`, `info`, `light`, `dark` and `link`.
+   * Establishes color button
    */
   buttonColor: PropTypes.string,
   /**
-   * Establishes if feature card has border. Default `false`
+   * Establishes if feature card has border
    */
   featureBorder: PropTypes.bool,
   /**
-   * Align of a component content. Default `"center"`, can be `left` and `right` too
+   * Align of a component content. Can be <code>'left'</code>, <code>'center'</code> and <code>'right'</code>
    */
   contentAlign: PropTypes.string,
   /**
-   * CSS class name for column, Default `col-12 col-sm- col-md`
+   * CSS class name for column
    */
   columnClassName: PropTypes.string,
   /**
-   * Array of features to show. Default `[]`
+   * Array of features to show
    */
   features: PropTypes.arrayOf(
     PropTypes.shape({

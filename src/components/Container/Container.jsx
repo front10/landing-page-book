@@ -13,11 +13,11 @@ class Container extends Component {
 
 Container.propTypes = {
   /**
-   * A fluid container is shown. Default `false`
+   * A fluid container is shown
    */
   fluid: PropTypes.bool,
   /**
-   * Class of the component. Default `""`
+   * Class of the component
    */
   className: PropTypes.string,
   /**

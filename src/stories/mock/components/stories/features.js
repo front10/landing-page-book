@@ -11,6 +11,7 @@ export default {
       name: 'Basic',
       summary: '',
       code: `<Features
+    featureBorderNone
     buttonOutline
     buttonColor="primary"
     features={${JSON.stringify(features, null, 8)}}
@@ -21,6 +22,7 @@ export default {
       name: 'Image & title',
       summary: '',
       code: `<Features
+    featureBorderNone
     showSubtitle={false}
     showSummary={false}
     showFooter={false}
@@ -32,6 +34,7 @@ export default {
       name: 'With shadow',
       summary: '',
       code: `<Features
+    featureBorderNone
     shadow
     showSubtitle={false}
     showFooter={false}
@@ -43,6 +46,7 @@ export default {
       name: 'With image shadow',
       summary: '',
       code: `<Features
+      featureBorderNone
       imageShadow
       showSubtitle={false}
       showFooter={false}

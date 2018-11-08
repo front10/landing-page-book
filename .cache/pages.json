@@ -1,0 +1,242 @@
+[
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": null,
+        "jsonName": "404.json",
+        "path": "/404/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-analytics-js",
+        "layout": null,
+        "jsonName": "components-analytics.json",
+        "path": "/components/analytics/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-backers-js",
+        "layout": null,
+        "jsonName": "components-backers.json",
+        "path": "/components/backers/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-backersopencollective-js",
+        "layout": null,
+        "jsonName": "components-backersopencollective.json",
+        "path": "/components/backersopencollective/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-browser-js",
+        "layout": null,
+        "jsonName": "components-browser.json",
+        "path": "/components/browser/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-browsersupport-js",
+        "layout": null,
+        "jsonName": "components-browsersupport.json",
+        "path": "/components/browsersupport/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-builtwith-js",
+        "layout": null,
+        "jsonName": "components-builtwith.json",
+        "path": "/components/builtwith/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-button-js",
+        "layout": null,
+        "jsonName": "components-button.json",
+        "path": "/components/button/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-card-js",
+        "layout": null,
+        "jsonName": "components-card.json",
+        "path": "/components/card/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-code-js",
+        "layout": null,
+        "jsonName": "components-code.json",
+        "path": "/components/code/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-contactinfo-js",
+        "layout": null,
+        "jsonName": "components-contactinfo.json",
+        "path": "/components/contactinfo/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-contactus-js",
+        "layout": null,
+        "jsonName": "components-contactus.json",
+        "path": "/components/contactus/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-copyright-js",
+        "layout": null,
+        "jsonName": "components-copyright.json",
+        "path": "/components/copyright/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-donation-js",
+        "layout": null,
+        "jsonName": "components-donation.json",
+        "path": "/components/donation/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-features-js",
+        "layout": null,
+        "jsonName": "components-features.json",
+        "path": "/components/features/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-footer-js",
+        "layout": null,
+        "jsonName": "components-footer.json",
+        "path": "/components/footer/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-gif-js",
+        "layout": null,
+        "jsonName": "components-gif.json",
+        "path": "/components/gif/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-githubbutton-js",
+        "layout": null,
+        "jsonName": "components-githubbutton.json",
+        "path": "/components/githubbutton/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-header-js",
+        "layout": null,
+        "jsonName": "components-header.json",
+        "path": "/components/header/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-hero-js",
+        "layout": null,
+        "jsonName": "components-hero.json",
+        "path": "/components/hero/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-icon-js",
+        "layout": null,
+        "jsonName": "components-icon.json",
+        "path": "/components/icon/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-image-js",
+        "layout": null,
+        "jsonName": "components-image.json",
+        "path": "/components/image/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-imagelist-js",
+        "layout": null,
+        "jsonName": "components-imagelist.json",
+        "path": "/components/imagelist/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-index-js",
+        "layout": null,
+        "jsonName": "components.json",
+        "path": "/components/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-input-js",
+        "layout": null,
+        "jsonName": "components-input.json",
+        "path": "/components/input/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-label-js",
+        "layout": null,
+        "jsonName": "components-label.json",
+        "path": "/components/label/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-languageswitcher-js",
+        "layout": null,
+        "jsonName": "components-languageswitcher.json",
+        "path": "/components/languageswitcher/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-link-js",
+        "layout": null,
+        "jsonName": "components-link.json",
+        "path": "/components/link/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-location-js",
+        "layout": null,
+        "jsonName": "components-location.json",
+        "path": "/components/location/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-navbar-js",
+        "layout": null,
+        "jsonName": "components-navbar.json",
+        "path": "/components/navbar/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-paragraph-js",
+        "layout": null,
+        "jsonName": "components-paragraph.json",
+        "path": "/components/paragraph/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-section-js",
+        "layout": null,
+        "jsonName": "components-section.json",
+        "path": "/components/section/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-social-js",
+        "layout": null,
+        "jsonName": "components-social.json",
+        "path": "/components/social/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-sponsors-js",
+        "layout": null,
+        "jsonName": "components-sponsors.json",
+        "path": "/components/sponsors/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-team-js",
+        "layout": null,
+        "jsonName": "components-team.json",
+        "path": "/components/team/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-textbox-js",
+        "layout": null,
+        "jsonName": "components-textbox.json",
+        "path": "/components/textbox/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-video-js",
+        "layout": null,
+        "jsonName": "components-video.json",
+        "path": "/components/video/"
+    },
+    {
+        "componentChunkName": "component---src-pages-components-wizard-js",
+        "layout": null,
+        "jsonName": "components-wizard.json",
+        "path": "/components/wizard/"
+    },
+    {
+        "componentChunkName": "component---src-pages-index-js",
+        "layout": null,
+        "jsonName": "index.json",
+        "path": "/"
+    },
+    {
+        "componentChunkName": "component---src-pages-404-js",
+        "layout": null,
+        "jsonName": "404-html.json",
+        "path": "/404.html"
+    }
+]

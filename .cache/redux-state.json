@@ -1,0 +1,1714 @@
+{
+  "nodes": {
+    "SitePage /dev-404-page/": {
+      "path": "/dev-404-page/",
+      "id": "SitePage /dev-404-page/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin dev-404-page": {
+      "resolve": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "id": "Plugin dev-404-page",
+      "name": "dev-404-page",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/dev-404-page",
+      "packageJson": {
+        "name": "dev-404-page",
+        "description": "Internal plugin to add a 404 page in development with helpful information",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "79b74b2bb2569a83d2ade0ad749919e1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin component-layout-creator": {
+      "resolve": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "id": "Plugin component-layout-creator",
+      "name": "component-layout-creator",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "createLayouts"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/component-layout-creator",
+      "packageJson": {
+        "name": "component-layout-creator",
+        "description": "An internal Gatsby plugin that creates pages from component files in src/layouts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "ade2f8c8936cc6f8ca6c638677bae801",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin internal-data-bridge": {
+      "resolve": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "id": "Plugin internal-data-bridge",
+      "name": "internal-data-bridge",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "sourceNodes",
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/internal-data-bridge",
+      "packageJson": {
+        "name": "internal-data-bridge",
+        "description": "An internal Gatsby plugin which creates data nodes from internal data",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "894bcf5a7af928bdfbae59e6d07c06a1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin prod-404": {
+      "resolve": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "id": "Plugin prod-404",
+      "name": "prod-404",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/prod-404",
+      "packageJson": {
+        "name": "prod-404",
+        "description": "Internal plugin to detect various flavors of 404 pages and ensure there's a 404.html path created as well to ensure compatability with static hosts",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "95c2700c99a3372de1ffba06fa2cfee9",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin query-runner": {
+      "resolve": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "id": "Plugin query-runner",
+      "name": "query-runner",
+      "version": "1.0.0",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "onCreatePage",
+        "onCreateLayout"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby/dist/internal-plugins/query-runner",
+      "packageJson": {
+        "name": "query-runner",
+        "description": "Internal plugin for running queries",
+        "version": "1.0.0",
+        "main": "index.js",
+        "author": "",
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "c2808e08ec3885685ead3cf7cfdd895f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-react-helmet": {
+      "resolve": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby-plugin-react-helmet",
+      "id": "Plugin gatsby-plugin-react-helmet",
+      "name": "gatsby-plugin-react-helmet",
+      "version": "1.0.8",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby-plugin-react-helmet",
+      "packageJson": {
+        "name": "gatsby-plugin-react-helmet",
+        "description": "Stub description for gatsby-plugin-react-helmet",
+        "version": "1.0.8",
+        "main": "index.js",
+        "keywords": [
+          "gatsby"
+        ],
+        "author": {
+          "name": "Kyle Mathews &lt;mathews.kyle@gmail.com&gt;"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "react-helmet",
+            "version": "^5.1.3"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "81ad322d8914b08717f86510a1fd2e12",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.1.0-alpha.6",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.1.0-alpha.6",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "@babel/runtime",
+            "version": "^7.0.0-beta.42"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@babel/cli",
+            "version": "^7.0.0-beta.42"
+          },
+          {
+            "name": "@babel/core",
+            "version": "^7.0.0-beta.42"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e79ac44fab63096d29570eccebdb35b1",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin default-site-plugin": {
+      "resolve": "/mnt/data/Front10/Task/landing-page-book",
+      "id": "Plugin default-site-plugin",
+      "name": "default-site-plugin",
+      "version": "77397c77881367227dbdda3650454b62",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/mnt/data/Front10/Task/landing-page-book",
+      "packageJson": {
+        "name": "@front10/landing-page-book",
+        "description": "A react library for landing page",
+        "version": "1.3.1",
+        "main": "dist/index.js",
+        "keywords": [
+          "React",
+          "Landing",
+          "React Components",
+          "Landing Pages",
+          "Storybook",
+          "Component Explorer"
+        ],
+        "author": "front10",
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "bootstrap",
+            "version": "^4.1.1"
+          },
+          {
+            "name": "codemirror",
+            "version": "^5.39.0"
+          },
+          {
+            "name": "color",
+            "version": "^3.1.0"
+          },
+          {
+            "name": "email-validator",
+            "version": "^2.0.4"
+          },
+          {
+            "name": "font-awesome",
+            "version": "^4.7.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.9.45"
+          },
+          {
+            "name": "gatsby-link",
+            "version": "^1.6.17"
+          },
+          {
+            "name": "gatsby-plugin-react-helmet",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "google-map-react",
+            "version": "^1.0.5"
+          },
+          {
+            "name": "graphql-syntax-highlighter-react",
+            "version": "^0.3.5"
+          },
+          {
+            "name": "highlight.js",
+            "version": "^9.12.0"
+          },
+          {
+            "name": "node-fetch",
+            "version": "^2.1.2"
+          },
+          {
+            "name": "react",
+            "version": "^16.6.1"
+          },
+          {
+            "name": "react-codemirror",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "react-copy-to-clipboard",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.2.0"
+          },
+          {
+            "name": "react-flags-select",
+            "version": "^1.1.9"
+          },
+          {
+            "name": "react-ga",
+            "version": "^2.5.3"
+          },
+          {
+            "name": "react-gif-player",
+            "version": "^0.4.1"
+          },
+          {
+            "name": "react-html-parser",
+            "version": "^2.0.2"
+          },
+          {
+            "name": "react-json-pretty",
+            "version": "^1.7.9"
+          },
+          {
+            "name": "react-lazy-hero",
+            "version": "^0.4.0"
+          },
+          {
+            "name": "react-particles-js",
+            "version": "^2.3.0"
+          },
+          {
+            "name": "react-player",
+            "version": "^1.6.4"
+          },
+          {
+            "name": "react-scroll",
+            "version": "^1.7.10"
+          },
+          {
+            "name": "react-share",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "react-slick",
+            "version": "^0.23.2"
+          },
+          {
+            "name": "react-stepzilla",
+            "version": "^4.7.2"
+          },
+          {
+            "name": "slick-carousel",
+            "version": "^1.8.1"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "@kadira/storybook-addon-options",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "@storybook/addon-actions",
+            "version": "^3.2.12"
+          },
+          {
+            "name": "@storybook/addon-centered",
+            "version": "^3.3.12"
+          },
+          {
+            "name": "@storybook/addon-knobs",
+            "version": "^3.2.12"
+          },
+          {
+            "name": "@storybook/addon-options",
+            "version": "^3.2.12"
+          },
+          {
+            "name": "@storybook/addon-viewport",
+            "version": "^3.3.12"
+          },
+          {
+            "name": "@storybook/addons",
+            "version": "^3.4.2"
+          },
+          {
+            "name": "@storybook/react",
+            "version": "^3.2.12"
+          },
+          {
+            "name": "@types/prop-types",
+            "version": "^15.5.3"
+          },
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-core",
+            "version": "^6.26.3"
+          },
+          {
+            "name": "babel-eslint",
+            "version": "^8.2.1"
+          },
+          {
+            "name": "babel-jest",
+            "version": "^22.4.3"
+          },
+          {
+            "name": "babel-loader",
+            "version": "7.1.1"
+          },
+          {
+            "name": "babel-plugin-macros",
+            "version": "^2.2.0"
+          },
+          {
+            "name": "babel-plugin-transform-object-rest-spread",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "babel-plugin-transform-runtime",
+            "version": "^6.23.0"
+          },
+          {
+            "name": "babel-preset-env",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "babel-preset-react",
+            "version": "^6.24.1"
+          },
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "body-parser",
+            "version": "^1.18.3"
+          },
+          {
+            "name": "cors",
+            "version": "^2.8.4"
+          },
+          {
+            "name": "coveralls",
+            "version": "^3.0.2"
+          },
+          {
+            "name": "css-loader",
+            "version": "^0.28.11"
+          },
+          {
+            "name": "enzyme",
+            "version": "^3.3.0"
+          },
+          {
+            "name": "enzyme-adapter-react-16",
+            "version": "^1.1.1"
+          },
+          {
+            "name": "eslint",
+            "version": "^4.19.1"
+          },
+          {
+            "name": "eslint-config-airbnb",
+            "version": "^17.0.0"
+          },
+          {
+            "name": "eslint-config-prettier",
+            "version": "^2.9.0"
+          },
+          {
+            "name": "eslint-loader",
+            "version": "^1.9.0"
+          },
+          {
+            "name": "eslint-plugin-import",
+            "version": "^2.13.0"
+          },
+          {
+            "name": "eslint-plugin-jasmine",
+            "version": "^2.10.1"
+          },
+          {
+            "name": "eslint-plugin-jsx-a11y",
+            "version": "^6.1.1"
+          },
+          {
+            "name": "eslint-plugin-prettier",
+            "version": "^2.6.2"
+          },
+          {
+            "name": "eslint-plugin-react",
+            "version": "^7.10.0"
+          },
+          {
+            "name": "gatsby-plugin-compile-es6-packages",
+            "version": "^1.0.6"
+          },
+          {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.1.0-alpha.6"
+          },
+          {
+            "name": "get-sass-vars",
+            "version": "^2.0.0"
+          },
+          {
+            "name": "gh-pages",
+            "version": "^1.2.0"
+          },
+          {
+            "name": "gh-pages-with-token",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "github-markdown-css",
+            "version": "^2.10.0"
+          },
+          {
+            "name": "gulp",
+            "version": "^4.0.0"
+          },
+          {
+            "name": "gulp-cssimport",
+            "version": "^6.0.1"
+          },
+          {
+            "name": "gulp-rename",
+            "version": "^1.4.0"
+          },
+          {
+            "name": "gulp-sass",
+            "version": "^4.0.1"
+          },
+          {
+            "name": "gulp-vars",
+            "version": "^0.1.6"
+          },
+          {
+            "name": "highlight-loader",
+            "version": "^0.7.3"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^3.2.0"
+          },
+          {
+            "name": "husky",
+            "version": "^0.14.3"
+          },
+          {
+            "name": "ignore-styles",
+            "version": "^5.0.1"
+          },
+          {
+            "name": "jest",
+            "version": "^22.4.3"
+          },
+          {
+            "name": "node-sass",
+            "version": "^4.7.2"
+          },
+          {
+            "name": "node-sass-tilde-importer",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "prettier",
+            "version": "1.14.0"
+          },
+          {
+            "name": "raw-loader",
+            "version": "^0.5.1"
+          },
+          {
+            "name": "react-docgen",
+            "version": "^2.21.0"
+          },
+          {
+            "name": "react-icons",
+            "version": "^3.2.1"
+          },
+          {
+            "name": "react-live",
+            "version": "^1.12.0"
+          },
+          {
+            "name": "react-markdown",
+            "version": "^3.1.5"
+          },
+          {
+            "name": "react-remarkable",
+            "version": "^1.1.3"
+          },
+          {
+            "name": "react-scroll",
+            "version": "^1.7.10"
+          },
+          {
+            "name": "react-test-renderer",
+            "version": "^16.3.2"
+          },
+          {
+            "name": "regenerator-runtime",
+            "version": "^0.11.1"
+          },
+          {
+            "name": "sass-loader",
+            "version": "^6.0.6"
+          },
+          {
+            "name": "selenium-webdriver",
+            "version": "^4.0.0-alpha.1"
+          },
+          {
+            "name": "storybook-readme",
+            "version": "^3.0.6"
+          },
+          {
+            "name": "style-loader",
+            "version": "^0.20.3"
+          },
+          {
+            "name": "styled-components",
+            "version": "^4.0.3"
+          },
+          {
+            "name": "wix-storybook-utils",
+            "version": "^2.0.22"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "react",
+            "version": "^16.2.0"
+          },
+          {
+            "name": "react-dom",
+            "version": "^16.2.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "e518b02fafa92b672f1e18012c18fabd",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Plugin gatsby-plugin-page-creator": {
+      "resolve": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby-plugin-page-creator",
+      "id": "Plugin gatsby-plugin-page-creator",
+      "name": "gatsby-plugin-page-creator",
+      "version": "1.0.1",
+      "pluginOptions": {
+        "plugins": [],
+        "path": "/mnt/data/Front10/Task/landing-page-book/src/pages",
+        "pathCheck": false
+      },
+      "nodeAPIs": [
+        "createPagesStatefully"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [],
+      "pluginFilepath": "/mnt/data/Front10/Task/landing-page-book/node_modules/gatsby-plugin-page-creator",
+      "packageJson": {
+        "name": "gatsby-plugin-page-creator",
+        "description": "Gatsby plugin that automatically creates pages from React components in specified directories",
+        "version": "1.0.1",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin"
+        ],
+        "author": {
+          "name": "Kyle Mathews",
+          "email": "mathews.kyle@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "bluebird",
+            "version": "^3.5.0"
+          },
+          {
+            "name": "chokidar",
+            "version": "^1.7.0"
+          },
+          {
+            "name": "glob",
+            "version": "^7.1.1"
+          },
+          {
+            "name": "lodash",
+            "version": "^4.17.4"
+          },
+          {
+            "name": "parse-filepath",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "slash",
+            "version": "^1.0.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.0.5"
+          }
+        ],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "785f8da6d7c461494fcaaf5291d0127f",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "Site": {
+      "siteMetadata": {},
+      "pathPrefix": "/landing-page-book",
+      "polyfill": true,
+      "buildTime": "2018-11-08T21:03:29.326Z",
+      "id": "Site",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bcfce9d28f1fc49b841d1def391d0d8f",
+        "type": "Site",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404/": {
+      "layout": null,
+      "jsonName": "404.json",
+      "internalComponentName": "Component404",
+      "path": "/404/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/404.js",
+      "id": "SitePage /404/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "488c2b430d635bdc1ac05840607fcd4e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/analytics/": {
+      "layout": null,
+      "jsonName": "components-analytics.json",
+      "internalComponentName": "ComponentComponentsAnalytics",
+      "path": "/components/analytics/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/analytics.js",
+      "componentChunkName": "component---src-pages-components-analytics-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/analytics.js",
+      "id": "SitePage /components/analytics/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "f87bfa56e5b84011127dc655f534f8da",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/backers/": {
+      "layout": null,
+      "jsonName": "components-backers.json",
+      "internalComponentName": "ComponentComponentsBackers",
+      "path": "/components/backers/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/backers.js",
+      "componentChunkName": "component---src-pages-components-backers-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/backers.js",
+      "id": "SitePage /components/backers/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "7eeed1a595438bd75ca06b284f8e9733",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/backersopencollective/": {
+      "layout": null,
+      "jsonName": "components-backersopencollective.json",
+      "internalComponentName": "ComponentComponentsBackersopencollective",
+      "path": "/components/backersopencollective/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/backersopencollective.js",
+      "componentChunkName": "component---src-pages-components-backersopencollective-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/backersopencollective.js",
+      "id": "SitePage /components/backersopencollective/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "1876befea72704218a10821327cd132e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/browser/": {
+      "layout": null,
+      "jsonName": "components-browser.json",
+      "internalComponentName": "ComponentComponentsBrowser",
+      "path": "/components/browser/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/browser.js",
+      "componentChunkName": "component---src-pages-components-browser-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/browser.js",
+      "id": "SitePage /components/browser/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ebbb96e06b9f9292c0df55ea5477fe86",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/browsersupport/": {
+      "layout": null,
+      "jsonName": "components-browsersupport.json",
+      "internalComponentName": "ComponentComponentsBrowsersupport",
+      "path": "/components/browsersupport/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/browsersupport.js",
+      "componentChunkName": "component---src-pages-components-browsersupport-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/browsersupport.js",
+      "id": "SitePage /components/browsersupport/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "908e185b767a69244a96da40b712dff8",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/builtwith/": {
+      "layout": null,
+      "jsonName": "components-builtwith.json",
+      "internalComponentName": "ComponentComponentsBuiltwith",
+      "path": "/components/builtwith/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/builtwith.js",
+      "componentChunkName": "component---src-pages-components-builtwith-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/builtwith.js",
+      "id": "SitePage /components/builtwith/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ee29da80da639c147b48c09c61373984",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/button/": {
+      "layout": null,
+      "jsonName": "components-button.json",
+      "internalComponentName": "ComponentComponentsButton",
+      "path": "/components/button/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/button.js",
+      "componentChunkName": "component---src-pages-components-button-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/button.js",
+      "id": "SitePage /components/button/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "9cfeb531dbcac6039dc7fbfeff1b9296",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/card/": {
+      "layout": null,
+      "jsonName": "components-card.json",
+      "internalComponentName": "ComponentComponentsCard",
+      "path": "/components/card/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/card.js",
+      "componentChunkName": "component---src-pages-components-card-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/card.js",
+      "id": "SitePage /components/card/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "32a6475318f1fc3204234d02e6bf47d8",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/code/": {
+      "layout": null,
+      "jsonName": "components-code.json",
+      "internalComponentName": "ComponentComponentsCode",
+      "path": "/components/code/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/code.js",
+      "componentChunkName": "component---src-pages-components-code-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/code.js",
+      "id": "SitePage /components/code/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ff9e3162f97ae1852a43bc6a34d80276",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/contactinfo/": {
+      "layout": null,
+      "jsonName": "components-contactinfo.json",
+      "internalComponentName": "ComponentComponentsContactinfo",
+      "path": "/components/contactinfo/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/contactinfo.js",
+      "componentChunkName": "component---src-pages-components-contactinfo-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/contactinfo.js",
+      "id": "SitePage /components/contactinfo/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c44506d53c97e3586ed0bb20a8afab90",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/contactus/": {
+      "layout": null,
+      "jsonName": "components-contactus.json",
+      "internalComponentName": "ComponentComponentsContactus",
+      "path": "/components/contactus/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/contactus.js",
+      "componentChunkName": "component---src-pages-components-contactus-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/contactus.js",
+      "id": "SitePage /components/contactus/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3248f540992aa397b9692c04bca1b340",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/copyright/": {
+      "layout": null,
+      "jsonName": "components-copyright.json",
+      "internalComponentName": "ComponentComponentsCopyright",
+      "path": "/components/copyright/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/copyright.js",
+      "componentChunkName": "component---src-pages-components-copyright-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/copyright.js",
+      "id": "SitePage /components/copyright/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c4f010011ad724784e9d39547b033921",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/donation/": {
+      "layout": null,
+      "jsonName": "components-donation.json",
+      "internalComponentName": "ComponentComponentsDonation",
+      "path": "/components/donation/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/donation.js",
+      "componentChunkName": "component---src-pages-components-donation-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/donation.js",
+      "id": "SitePage /components/donation/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "97fede923320f2905e0f8be034f0c2bb",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/features/": {
+      "layout": null,
+      "jsonName": "components-features.json",
+      "internalComponentName": "ComponentComponentsFeatures",
+      "path": "/components/features/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/features.js",
+      "componentChunkName": "component---src-pages-components-features-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/features.js",
+      "id": "SitePage /components/features/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e0c49fc9c01dd2f57ae7853bb13bde56",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/footer/": {
+      "layout": null,
+      "jsonName": "components-footer.json",
+      "internalComponentName": "ComponentComponentsFooter",
+      "path": "/components/footer/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/footer.js",
+      "componentChunkName": "component---src-pages-components-footer-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/footer.js",
+      "id": "SitePage /components/footer/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "3d4c775d94f16d02837622dafba64aad",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/gif/": {
+      "layout": null,
+      "jsonName": "components-gif.json",
+      "internalComponentName": "ComponentComponentsGif",
+      "path": "/components/gif/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/gif.js",
+      "componentChunkName": "component---src-pages-components-gif-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/gif.js",
+      "id": "SitePage /components/gif/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "25f8ad0f991df021e603ff63c9fb4ff4",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/githubbutton/": {
+      "layout": null,
+      "jsonName": "components-githubbutton.json",
+      "internalComponentName": "ComponentComponentsGithubbutton",
+      "path": "/components/githubbutton/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/githubbutton.js",
+      "componentChunkName": "component---src-pages-components-githubbutton-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/githubbutton.js",
+      "id": "SitePage /components/githubbutton/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c095c5faf8c29fbba8a18f6ae864b732",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/header/": {
+      "layout": null,
+      "jsonName": "components-header.json",
+      "internalComponentName": "ComponentComponentsHeader",
+      "path": "/components/header/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/header.js",
+      "componentChunkName": "component---src-pages-components-header-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/header.js",
+      "id": "SitePage /components/header/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "0aef3bd5d868a23e16a426a843ff553d",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/hero/": {
+      "layout": null,
+      "jsonName": "components-hero.json",
+      "internalComponentName": "ComponentComponentsHero",
+      "path": "/components/hero/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/hero.js",
+      "componentChunkName": "component---src-pages-components-hero-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/hero.js",
+      "id": "SitePage /components/hero/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ac63e48c7204f1bb6ffc353183175494",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/icon/": {
+      "layout": null,
+      "jsonName": "components-icon.json",
+      "internalComponentName": "ComponentComponentsIcon",
+      "path": "/components/icon/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/icon.js",
+      "componentChunkName": "component---src-pages-components-icon-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/icon.js",
+      "id": "SitePage /components/icon/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "26fae8bd56aa55df59a71698bf429625",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/image/": {
+      "layout": null,
+      "jsonName": "components-image.json",
+      "internalComponentName": "ComponentComponentsImage",
+      "path": "/components/image/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/image.js",
+      "componentChunkName": "component---src-pages-components-image-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/image.js",
+      "id": "SitePage /components/image/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "4ba39f3eb1fb921fd87db01bf4e72dee",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/imagelist/": {
+      "layout": null,
+      "jsonName": "components-imagelist.json",
+      "internalComponentName": "ComponentComponentsImagelist",
+      "path": "/components/imagelist/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/imagelist.js",
+      "componentChunkName": "component---src-pages-components-imagelist-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/imagelist.js",
+      "id": "SitePage /components/imagelist/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ee3689d1b4044e07d1c58f0aa0af1f6a",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/": {
+      "layout": null,
+      "jsonName": "components.json",
+      "internalComponentName": "ComponentComponents",
+      "path": "/components/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/index.js",
+      "componentChunkName": "component---src-pages-components-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/index.js",
+      "id": "SitePage /components/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2b7b16f4b9401cbc112abab3cbb6e4f7",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/input/": {
+      "layout": null,
+      "jsonName": "components-input.json",
+      "internalComponentName": "ComponentComponentsInput",
+      "path": "/components/input/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/input.js",
+      "componentChunkName": "component---src-pages-components-input-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/input.js",
+      "id": "SitePage /components/input/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fbb6fd09f7cc41a75bf17ecbb5f44c78",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/label/": {
+      "layout": null,
+      "jsonName": "components-label.json",
+      "internalComponentName": "ComponentComponentsLabel",
+      "path": "/components/label/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/label.js",
+      "componentChunkName": "component---src-pages-components-label-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/label.js",
+      "id": "SitePage /components/label/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6f3fc06eb7fe7c8e35acf1e5e5b13fc2",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/languageswitcher/": {
+      "layout": null,
+      "jsonName": "components-languageswitcher.json",
+      "internalComponentName": "ComponentComponentsLanguageswitcher",
+      "path": "/components/languageswitcher/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/languageswitcher.js",
+      "componentChunkName": "component---src-pages-components-languageswitcher-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/languageswitcher.js",
+      "id": "SitePage /components/languageswitcher/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "75aea7fa8faad98a3d63e6f0eff656a3",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/link/": {
+      "layout": null,
+      "jsonName": "components-link.json",
+      "internalComponentName": "ComponentComponentsLink",
+      "path": "/components/link/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/link.js",
+      "componentChunkName": "component---src-pages-components-link-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/link.js",
+      "id": "SitePage /components/link/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5a0c04fab04aa030fa2ddff4cde0adf2",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/location/": {
+      "layout": null,
+      "jsonName": "components-location.json",
+      "internalComponentName": "ComponentComponentsLocation",
+      "path": "/components/location/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/location.js",
+      "componentChunkName": "component---src-pages-components-location-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/location.js",
+      "id": "SitePage /components/location/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "fc0249aa36550716975c30e3173c7495",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/navbar/": {
+      "layout": null,
+      "jsonName": "components-navbar.json",
+      "internalComponentName": "ComponentComponentsNavbar",
+      "path": "/components/navbar/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/navbar.js",
+      "componentChunkName": "component---src-pages-components-navbar-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/navbar.js",
+      "id": "SitePage /components/navbar/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "cf3b8b926acb196c76219f44b133b8f6",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/paragraph/": {
+      "layout": null,
+      "jsonName": "components-paragraph.json",
+      "internalComponentName": "ComponentComponentsParagraph",
+      "path": "/components/paragraph/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/paragraph.js",
+      "componentChunkName": "component---src-pages-components-paragraph-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/paragraph.js",
+      "id": "SitePage /components/paragraph/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ac873e6f6f31f5b8065385898e959ea6",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/section/": {
+      "layout": null,
+      "jsonName": "components-section.json",
+      "internalComponentName": "ComponentComponentsSection",
+      "path": "/components/section/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/section.js",
+      "componentChunkName": "component---src-pages-components-section-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/section.js",
+      "id": "SitePage /components/section/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "070743f2bf719908a784e522e71d28c4",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/social/": {
+      "layout": null,
+      "jsonName": "components-social.json",
+      "internalComponentName": "ComponentComponentsSocial",
+      "path": "/components/social/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/social.js",
+      "componentChunkName": "component---src-pages-components-social-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/social.js",
+      "id": "SitePage /components/social/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "14fcb6fa6198d88f66de130bb8817f44",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/sponsors/": {
+      "layout": null,
+      "jsonName": "components-sponsors.json",
+      "internalComponentName": "ComponentComponentsSponsors",
+      "path": "/components/sponsors/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/sponsors.js",
+      "componentChunkName": "component---src-pages-components-sponsors-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/sponsors.js",
+      "id": "SitePage /components/sponsors/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "378f62c728d810c0ce7c11850249d606",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/team/": {
+      "layout": null,
+      "jsonName": "components-team.json",
+      "internalComponentName": "ComponentComponentsTeam",
+      "path": "/components/team/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/team.js",
+      "componentChunkName": "component---src-pages-components-team-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/team.js",
+      "id": "SitePage /components/team/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "edadaba19b23a05113a0e758e324743c",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/textbox/": {
+      "layout": null,
+      "jsonName": "components-textbox.json",
+      "internalComponentName": "ComponentComponentsTextbox",
+      "path": "/components/textbox/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/textbox.js",
+      "componentChunkName": "component---src-pages-components-textbox-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/textbox.js",
+      "id": "SitePage /components/textbox/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "233b09864c32918188f97717b7afe0b0",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/video/": {
+      "layout": null,
+      "jsonName": "components-video.json",
+      "internalComponentName": "ComponentComponentsVideo",
+      "path": "/components/video/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/video.js",
+      "componentChunkName": "component---src-pages-components-video-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/video.js",
+      "id": "SitePage /components/video/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "e050ba87b9e44811814b9494be4ed37e",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /components/wizard/": {
+      "layout": null,
+      "jsonName": "components-wizard.json",
+      "internalComponentName": "ComponentComponentsWizard",
+      "path": "/components/wizard/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/wizard.js",
+      "componentChunkName": "component---src-pages-components-wizard-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/components/wizard.js",
+      "id": "SitePage /components/wizard/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "99586e2b490fdffcb130dffcd8190c43",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": null,
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "c53e70cec924aa0b54a47c2a452ba9a3",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": null,
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/mnt/data/Front10/Task/landing-page-book/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/mnt/data/Front10/Task/landing-page-book/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "5a4ab211f51b97a2aaccf4eead5e0418",
+        "description": "Plugin prod-404",
+        "owner": "internal-data-bridge"
+      }
+    }
+  },
+  "status": {
+    "plugins": {},
+    "PLUGINS_HASH": "191b96b99978305592ac12edb75d4948"
+  },
+  "componentDataDependencies": {
+    "nodes": {},
+    "connections": {}
+  }
+}

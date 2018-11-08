@@ -7,8 +7,6 @@
 | ---- | ---- | ---- | ---- |
 | className | `string` | CSS class name for custom styles | `''` |
 | gray | `bool` | Define if image is gray scale. Default `false` | `false` |
-| imageBordered | `bool` | Define if image is borded. Default `false` | `false` |
-| imageRounded | `bool` | Define if image is rounded. Default `false` | `false` |
 | imageWidth | `string` | Image width. Default `"100"` | `'100'` |
 | images | `arrayOf` | Images to show. Default `[]` | `[]` |
 | padding | `string` | Padding to apply to Footer. | `'2'` |

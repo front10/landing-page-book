@@ -2,15 +2,14 @@ export default {
   name: 'Image List',
   summary: 'Easy way to show an image list on your website.',
   import: ``,
+  withStyles: true,
+  extractProps: ['image'],
   stories: [
     {
       name: 'Basic',
       summary: '',
       code: `<ImageList 
     gray
-    ccsClassName='p-4'
-    imageRounded={false}
-    imageBordered={false}
     images={[
         {image: '/images/image-list/react.png'},
         {image: '/images/image-list/graphql.png'},

@@ -11,7 +11,7 @@ class ImageList extends Component {
   }
 
   render() {
-    const { images, gray, imageRounded, imageWidth, imageBordered, className } = this.props;
+    const { images, gray, imageWidth, className } = this.props;
     /* eslint-disable react/no-array-index-key */
     return (
       <div className="ImageList">
@@ -27,9 +27,7 @@ class ImageList extends Component {
                 tooltip={imag.tooltip}
                 alt="This is an image example"
                 src={imag.image}
-                rounded={imageRounded}
                 width={imageWidth}
-                border={imageBordered}
                 {...extractProps('image', this.props)}
               />
             </a>
@@ -51,14 +49,6 @@ ImageList.propTypes = {
    */
   gray: PropTypes.bool,
   /**
-   * Define if image is rounded. Default `false`
-   */
-  imageRounded: PropTypes.bool,
-  /**
-   * Define if image is borded. Default `false`
-   */
-  imageBordered: PropTypes.bool,
-  /**
    * Image width. Default `"100"`
    */
   imageWidth: PropTypes.string,
@@ -79,8 +69,6 @@ ImageList.defaultProps = {
   className: '',
   padding: '2',
   gray: false,
-  imageRounded: false,
-  imageBordered: false,
   imageWidth: '100',
   images: []
 };

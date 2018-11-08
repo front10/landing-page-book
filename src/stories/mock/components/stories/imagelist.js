@@ -11,14 +11,14 @@ export default {
       code: `<ImageList 
     gray
     images={[
-        {image: '/images/image-list/react.png'},
-        {image: '/images/image-list/graphql.png'},
-        {image: '/images/image-list/apollo.png'},
-        {image: '/images/image-list/storybook.png'},
-        {image: '/images/image-list/angularjs.png'},
-        {image: '/images/image-list/bootstrap.png'},
-        {image: '/images/image-list/browserstack.png'},
-        {image: '/images/image-list/jest.png'}
+        {image: 'https://front10.com/landing-page-book/images/image-list/react.png'},
+        {image: 'https://front10.com/landing-page-book/images/image-list/graphql.png'},
+        {image: 'https://front10.com/landing-page-book/images/image-list/apollo.png'},
+        {image: 'https://front10.com/landing-page-book/images/image-list/storybook.png'},
+        {image: 'https://front10.com/landing-page-book/images/image-list/angularjs.png'},
+        {image: 'https://front10.com/landing-page-book/images/image-list/bootstrap.png'},
+        {image: 'https://front10.com/landing-page-book/images/image-list/browserstack.png'},
+        {image: 'https://front10.com/landing-page-book/images/image-list/jest.png'}
     ]}
 />`,
       tabsActive: ['code']

@@ -58,7 +58,7 @@ export default {
                 <div>
                     <Card
                         contentAlign="left"
-                        image="/images/card/image1.jpg"
+                        image="https://front10.com/landing-page-book/images/card/image1.jpg"
                         imageCircle={false}
                         subTitle="A tool for Component-Driven Development"
                         summary="A component explorer is a separate application which showcases the components in your app in various test “states”. A state is essentially a visual test case an typical input to the component."

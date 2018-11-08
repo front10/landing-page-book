@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ImageList from '../ImageList';
+import withStyles from '../../helpers/WithStyles';
 import extractProps from '../../helpers/ExtractProps';
 
 class Sponsors extends React.Component {
@@ -35,4 +36,4 @@ Sponsors.defaultProps = {
   sponsors: []
 };
 
-export default Sponsors;
+export default withStyles(Sponsors);

@@ -81,8 +81,11 @@
   padding: 2px 4px;
 }
 
-.table-bordered {
+.table-props {
   border: 2px solid #232426;
+  max-height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
 }
 
 .table * {

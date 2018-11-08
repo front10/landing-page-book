@@ -133,41 +133,43 @@ class PropsManager extends React.Component {
             onChange={this.filterList}
           />
         </div>
-        <table
-          className={`table table-striped table-bordered m-0 table-sm ${
-            active.indexOf('readme') === -1 ? 'playgroundProperties--rounded' : ''
+        <div className="table-props">
+          <table
+            className={`table table-striped table-fixed m-0 table-sm ${
+              active.indexOf('readme') === -1 ? 'playgroundProperties--rounded' : ''
             }`}
-        >
-          <thead>
-            <tr>
-              <th scope="row">Name</th>
-              <th scope="col">Type</th>
-              <th scope="col">Summary</th>
-              <th scope="col">Default</th>
-            </tr>
-          </thead>
-          <tbody>
-            {Object.keys(propsDescription).map(prop => (
-              <tr key={prop}>
-                <td>
-                  <span className="propName">{prop}</span>
-                </td>
-                <td>
-                  {' '}
-                  <span className="propType">{propsDescription[prop].type.name}</span>
-                </td>
-                <td>{propsDescription[prop].description}</td>
-                <td>
-                  <code>
-                    {propsDescription[prop].defaultValue
-                      ? propsDescription[prop].defaultValue.value
-                      : ReactHtmlParser('<span class="text-required">* required </span>')}
-                  </code>
-                </td>
+          >
+            <thead>
+              <tr>
+                <th scope="row">Name</th>
+                <th scope="col">Type</th>
+                <th scope="col">Summary</th>
+                <th scope="col">Default</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {Object.keys(propsDescription).map(prop => (
+                <tr key={prop}>
+                  <td>
+                    <span className="propName">{prop}</span>
+                  </td>
+                  <td>
+                    {' '}
+                    <span className="propType">{propsDescription[prop].type.name}</span>
+                  </td>
+                  <td>{propsDescription[prop].description}</td>
+                  <td>
+                    <code>
+                      {propsDescription[prop].defaultValue
+                        ? propsDescription[prop].defaultValue.value
+                        : ReactHtmlParser('<span class="text-required">* required </span>')}
+                    </code>
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </React.Fragment>
     );
   }
@@ -189,22 +191,22 @@ class PropsManager extends React.Component {
             <div
               className={`text-right playgroundHeader ${
                 active.indexOf('code') === -1 &&
-                  active.indexOf('css') === -1 &&
-                  active.indexOf('props') === -1
+                active.indexOf('css') === -1 &&
+                active.indexOf('props') === -1
                   ? `rounded`
                   : 'rounded-top'
-                }`}
+              }`}
             >
               {tabs.map(
                 tab =>
                   tab.key === 'code' ||
-                    (tab.key === 'props' && propsDescription) ||
-                    (tab.key === 'css' && cssVariables.length) ||
-                    (tab.key === 'readme' && readme) ? (
-                      <React.Fragment key={tab.key}>
-                        {this.showOrHideCodeAndIcon(tab, active)}
-                      </React.Fragment>
-                    ) : null
+                  (tab.key === 'props' && propsDescription) ||
+                  (tab.key === 'css' && cssVariables.length) ||
+                  (tab.key === 'readme' && readme) ? (
+                    <React.Fragment key={tab.key}>
+                      {this.showOrHideCodeAndIcon(tab, active)}
+                    </React.Fragment>
+                  ) : null
               )}
               {this.showCopyButton()}
             </div>
@@ -212,8 +214,8 @@ class PropsManager extends React.Component {
               <div
                 className={
                   active.indexOf('css') === -1 &&
-                    active.indexOf('props') === -1 &&
-                    active.indexOf('readme') === -1
+                  active.indexOf('props') === -1 &&
+                  active.indexOf('readme') === -1
                     ? `playgroundEditor--rounded`
                     : ''
                 }
@@ -228,7 +230,7 @@ class PropsManager extends React.Component {
                   active.indexOf('props') === -1 && active.indexOf('readme') === -1
                     ? `playgroundVariables--rounded`
                     : ''
-                  }`}
+                }`}
               >
                 <VariableManager variables={cssVariables} />
               </div>

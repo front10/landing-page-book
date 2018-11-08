@@ -15,11 +15,11 @@ class Icon extends Component {
 
 Icon.propTypes = {
   /**
-   * Class to apply to icon. Default `""`
+   * Class to apply to icon.
    */
   className: PropTypes.string,
   /**
-   *  Icon name. Default `undefined`, this prop is required
+   *  Icon name.
    */
   icon: PropTypes.string.isRequired,
   /**

@@ -667,7 +667,6 @@ a span {
   font-size: var(--CodeMirror-fontSize); }
 
 :root {
-  --ContactInfo__Location-height: 300px;
   --ContactInfo__Information-fontSize: 0.7rem; }
 
 :root {
@@ -698,9 +697,6 @@ a span {
 
 .Card--shadow {
   box-shadow: var(--Card-boxShadow); }
-
-.ContactInfo__Location {
-  height: var(--ContactInfo__Location-height); }
 
 .ContactInfo__Information {
   font-size: var(--ContactInfo__Information-fontSize);

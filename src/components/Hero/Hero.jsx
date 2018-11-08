@@ -257,27 +257,27 @@ Hero.propTypes = {
    * Preconfigured params for particles, you can find this on particlesSugarMapping.js file.
    */
   particlesSugar: PropTypes.string,
-  /*
-   * Event is fire when call to action button is pressed 
+  /**
+   * Event is fire when call to action button is pressed
    */
   callToActionOnClick: PropTypes.func,
-  /*
+  /**
    * Color of call to action button
    */
   callToActionColor: PropTypes.string,
-  /*
+  /**
    * Outline of call to action button
    */
   callToActionOutline: PropTypes.bool,
-  /*
-   * Event is fire when secondary call to action button is pressed 
+  /**
+   * Event is fire when secondary call to action button is pressed
    */
   secondaryCallToActionOnClick: PropTypes.func,
-  /*
+  /**
    * Color of secondary call to action button
    */
   secondaryCallToActionColor: PropTypes.string,
-  /*
+  /**
    * Outline of secondary call to action button
    */
   secondaryCallToActionOutline: PropTypes.bool

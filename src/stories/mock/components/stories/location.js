@@ -1,13 +1,13 @@
 const markers = [
   {
     icon: 'fa fa-map-marker',
-    color: '#d20000',
+    color: 'danger',
     lat: 26.5,
     lng: -80.2
   },
   {
     icon: 'fa fa-map-marker',
-    color: '#d2a430',
+    color: 'primary',
     lat: 26.6,
     lng: -80.3
   }

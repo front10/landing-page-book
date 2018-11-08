@@ -21,7 +21,8 @@ class ContactInfo extends Component {
       website,
       contentAlign,
       showIcons,
-      className
+      className,
+      mapHeight
     } = this.props;
     return (
       <Card showBorder={showBorder} contentAlign={contentAlign} className={className}>
@@ -35,12 +36,13 @@ class ContactInfo extends Component {
                 zoom={12}
                 markers={[
                   {
-                    color: '#d20000',
+                    color: 'danger',
                     lat,
                     lng
                   }
                 ]}
                 apiKey={locationApiKey}
+                height={mapHeight}
                 {...extractProps('location', this.props)}
               />
             </div>
@@ -134,7 +136,11 @@ ContactInfo.propTypes = {
   /**
    * Web contact info
    */
-  website: PropTypes.string
+  website: PropTypes.string,
+  /**
+   * Height of the map
+   */
+  mapHeight: PropTypes.string
 };
 ContactInfo.defaultProps = {
   className: '',
@@ -148,7 +154,8 @@ ContactInfo.defaultProps = {
   phone: '',
   mobile: '',
   fax: '',
-  website: ''
+  website: '',
+  mapHeight: '50vh'
 };
 
 export default withStyles(ContactInfo);

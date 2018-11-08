@@ -40,7 +40,7 @@ export default {
     {
       name: 'Container Mode',
       summary: '',
-      code: `<Navbar expand="lg" className="mb-2">
+      code: `<Navbar expand="lg">
       <Container>
           <NavbarCollapse>
               <NavbarBrand>
@@ -66,7 +66,7 @@ export default {
     {
       name: 'Reverse',
       summary: '',
-      code: `<Navbar expand="lg" className="mb-2">
+      code: `<Navbar expand="lg">
       <Container>
           <NavbarCollapse>
               <NavbarNav>

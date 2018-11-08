@@ -1347,7 +1347,7 @@ a span {
 .Video div {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 25px;
+  margin-bottom: 20px;
   height: 0 !important;
   width: 100% !important; }
   .Video div iframe {

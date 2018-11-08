@@ -1,22 +1,34 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import extractProps from '../../helpers/ExtractProps';
 import Header from '../Header';
+import withStyles from '../../helpers/WithStyles';
 
 class Section extends Component {
   render() {
-    const { gray, title, subTitle, children, className, contentClassName } = this.props;
+    const { title, subTitle, children, className, contentClassName } = this.props;
     return (
-      <section className={`Section ${gray ? 'Section--gray' : ''} ${className}`}>
+      <section className={`Section ${className}`}>
         <div className={`p-5 ${contentClassName}`}>
           {(title || subTitle) && (
             <div className="mb-5 text-center">
               {title && (
-                <Header type="h2" className="Section__Title mb-2">
+                <Header
+                  type="h2"
+                  className="Section__Title"
+                  marginBottom="2"
+                  {...extractProps('title', this.props)}
+                >
                   {title}
                 </Header>
               )}
               {subTitle && (
-                <Header type="h3" className="Section__Subtitle mb-2">
+                <Header
+                  type="h3"
+                  className="Section__Subtitle"
+                  marginBottom="2"
+                  {...extractProps('subTitle', this.props)}
+                >
                   {subTitle}
                 </Header>
               )}
@@ -30,15 +42,28 @@ class Section extends Component {
 }
 
 Section.propTypes = {
-  gray: PropTypes.bool,
+  /**
+   * Section title.
+   */
   title: PropTypes.string,
+  /**
+   * Section subtitle.
+   */
   subTitle: PropTypes.string,
+  /**
+   * Section css class.
+   */
   className: PropTypes.string,
+  /**
+   * Section content css class.
+   */
   contentClassName: PropTypes.string,
+  /**
+   * Elements to show inside of Section.
+   */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Section.defaultProps = {
-  gray: false,
   title: '',
   subTitle: '',
   className: '',
@@ -46,4 +71,5 @@ Section.defaultProps = {
   children: null
 };
 
-export default Section;
+const SectionWithStyles = withStyles(Section);
+export default SectionWithStyles;

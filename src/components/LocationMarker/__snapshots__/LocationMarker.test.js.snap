@@ -33,6 +33,7 @@ ReactWrapper {
           "child": [Circular],
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": null,
@@ -90,6 +91,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": null,
               "expirationTime": 1,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -110,6 +112,7 @@ ReactWrapper {
                   <i
                     class="fa fa-map-marker "
                     style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -134,7 +137,7 @@ ReactWrapper {
                 "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
-              "tag": 5,
+              "tag": 3,
               "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
@@ -192,6 +195,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 32,
+            "elementType": null,
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": [Circular],
@@ -225,6 +229,7 @@ ReactWrapper {
                 <i
                   class="fa fa-map-marker "
                   style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                  title=""
                 />
               </div>,
               "context": Object {},
@@ -249,7 +254,7 @@ ReactWrapper {
               "pendingInteractionMap": Map {},
               "timeoutHandle": -1,
             },
-            "tag": 5,
+            "tag": 3,
             "treeBaseDuration": 0,
             "type": null,
             "updateQueue": Object {
@@ -311,7 +316,7 @@ ReactWrapper {
               "isMounted": [Function],
             },
           },
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
@@ -339,6 +344,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 0,
+            "elementType": "i",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -347,20 +353,24 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "className": "fa fa-map-marker ",
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "className": "fa fa-map-marker ",
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "ref": null,
             "return": [Circular],
@@ -369,14 +379,16 @@ ReactWrapper {
             "stateNode": <i
               class="fa fa-map-marker "
               style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+              title=""
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "i",
             "updateQueue": null,
           },
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": null,
@@ -388,10 +400,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "memoizedState": null,
           "mode": 0,
@@ -401,10 +415,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "ref": null,
           "return": [Circular],
@@ -419,10 +435,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "refs": Object {},
             "state": null,
@@ -433,13 +451,14 @@ ReactWrapper {
               "isMounted": [Function],
             },
           },
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
         },
         "childExpirationTime": 0,
         "effectTag": 1,
+        "elementType": [Function],
         "expirationTime": 0,
         "firstContextDependency": null,
         "firstEffect": null,
@@ -473,6 +492,7 @@ ReactWrapper {
           "child": [Circular],
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": null,
@@ -530,6 +550,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": null,
               "expirationTime": 1,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -550,6 +571,7 @@ ReactWrapper {
                   <i
                     class="fa fa-map-marker "
                     style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -574,7 +596,7 @@ ReactWrapper {
                 "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
-              "tag": 5,
+              "tag": 3,
               "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
@@ -632,6 +654,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 32,
+            "elementType": null,
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": [Circular],
@@ -665,6 +688,7 @@ ReactWrapper {
                 <i
                   class="fa fa-map-marker "
                   style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                  title=""
                 />
               </div>,
               "context": Object {},
@@ -689,7 +713,7 @@ ReactWrapper {
               "pendingInteractionMap": Map {},
               "timeoutHandle": -1,
             },
-            "tag": 5,
+            "tag": 3,
             "treeBaseDuration": 0,
             "type": null,
             "updateQueue": Object {
@@ -751,7 +775,7 @@ ReactWrapper {
               "isMounted": [Function],
             },
           },
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
@@ -759,7 +783,7 @@ ReactWrapper {
         "selfBaseDuration": 0,
         "sibling": null,
         "stateNode": [Circular],
-        "tag": 2,
+        "tag": 1,
         "treeBaseDuration": 0,
         "type": [Function],
         "updateQueue": null,
@@ -809,6 +833,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -866,6 +891,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": null,
                   "expirationTime": 1,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -886,6 +912,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -910,7 +937,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -968,6 +995,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -1001,6 +1029,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -1025,7 +1054,7 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -1087,7 +1116,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -1099,6 +1128,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -1132,6 +1162,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -1189,6 +1220,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": null,
                   "expirationTime": 1,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -1209,6 +1241,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -1233,7 +1266,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -1291,6 +1324,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -1324,6 +1358,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -1348,7 +1383,7 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -1410,7 +1445,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -1436,7 +1471,7 @@ ReactWrapper {
                 "isMounted": [Function],
               },
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -1456,6 +1491,7 @@ ReactWrapper {
             "child": null,
             "childExpirationTime": 0,
             "effectTag": 0,
+            "elementType": "i",
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -1464,20 +1500,24 @@ ReactWrapper {
             "lastEffect": null,
             "memoizedProps": Object {
               "className": "fa fa-map-marker ",
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "memoizedState": null,
             "mode": 0,
             "nextEffect": null,
             "pendingProps": Object {
               "className": "fa fa-map-marker ",
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "ref": null,
             "return": [Circular],
@@ -1486,14 +1526,16 @@ ReactWrapper {
             "stateNode": <i
               class="fa fa-map-marker "
               style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+              title=""
             />,
-            "tag": 7,
+            "tag": 5,
             "treeBaseDuration": 0,
             "type": "i",
             "updateQueue": null,
           },
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": null,
@@ -1505,10 +1547,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "memoizedState": null,
           "mode": 0,
@@ -1518,10 +1562,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "ref": null,
           "return": FiberNode {
@@ -1538,6 +1584,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -1595,6 +1642,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": null,
                   "expirationTime": 1,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -1615,6 +1663,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -1639,7 +1688,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -1697,6 +1746,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -1730,6 +1780,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -1754,7 +1805,7 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -1816,7 +1867,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -1828,6 +1879,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -1861,6 +1913,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -1918,6 +1971,7 @@ ReactWrapper {
                   "child": null,
                   "childExpirationTime": 0,
                   "effectTag": 0,
+                  "elementType": null,
                   "expirationTime": 1,
                   "firstContextDependency": null,
                   "firstEffect": null,
@@ -1938,6 +1992,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -1962,7 +2017,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -2020,6 +2075,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 32,
+                "elementType": null,
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": [Circular],
@@ -2053,6 +2109,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -2077,7 +2134,7 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -2139,7 +2196,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -2165,7 +2222,7 @@ ReactWrapper {
                 "isMounted": [Function],
               },
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -2173,7 +2230,7 @@ ReactWrapper {
           "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": [Circular],
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
@@ -2185,10 +2242,12 @@ ReactWrapper {
           "icon": "fa fa-map-marker",
           "lat": 82,
           "lng": 20,
+          "onClick": [Function],
           "style": Object {
             "color": "#d43131",
             "fontSize": "1.5rem",
           },
+          "title": "",
         },
         "refs": Object {},
         "state": null,
@@ -2206,25 +2265,30 @@ ReactWrapper {
         "icon": "fa fa-map-marker",
         "lat": 82,
         "lng": 20,
+        "onClick": [Function],
         "style": Object {
           "color": "#d43131",
           "fontSize": "1.5rem",
         },
+        "title": "",
       },
       "ref": null,
       "rendered": Object {
         "instance": <i
           class="fa fa-map-marker "
           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+          title=""
         />,
         "key": undefined,
         "nodeType": "host",
         "props": Object {
           "className": "fa fa-map-marker ",
+          "onClick": [Function],
           "style": Object {
             "color": "#d43131",
             "fontSize": "1.5rem",
           },
+          "title": "",
         },
         "ref": null,
         "rendered": Array [
@@ -2253,6 +2317,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -2310,6 +2375,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": null,
                 "expirationTime": 1,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -2330,6 +2396,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -2354,7 +2421,7 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -2412,6 +2479,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 32,
+              "elementType": null,
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -2445,6 +2513,7 @@ ReactWrapper {
                   <i
                     class="fa fa-map-marker "
                     style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -2469,7 +2538,7 @@ ReactWrapper {
                 "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
-              "tag": 5,
+              "tag": 3,
               "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
@@ -2531,7 +2600,7 @@ ReactWrapper {
                 "isMounted": [Function],
               },
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -2559,6 +2628,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": "i",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -2567,20 +2637,24 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "className": "fa fa-map-marker ",
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
                 "className": "fa fa-map-marker ",
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "ref": null,
               "return": [Circular],
@@ -2589,14 +2663,16 @@ ReactWrapper {
               "stateNode": <i
                 class="fa fa-map-marker "
                 style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                title=""
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "i",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -2608,10 +2684,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "memoizedState": null,
             "mode": 0,
@@ -2621,10 +2699,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "ref": null,
             "return": [Circular],
@@ -2639,10 +2719,12 @@ ReactWrapper {
                 "icon": "fa fa-map-marker",
                 "lat": 82,
                 "lng": 20,
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "refs": Object {},
               "state": null,
@@ -2653,13 +2735,14 @@ ReactWrapper {
                 "isMounted": [Function],
               },
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
           },
           "childExpirationTime": 0,
           "effectTag": 1,
+          "elementType": [Function],
           "expirationTime": 0,
           "firstContextDependency": null,
           "firstEffect": null,
@@ -2693,6 +2776,7 @@ ReactWrapper {
             "child": [Circular],
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -2750,6 +2834,7 @@ ReactWrapper {
                 "child": null,
                 "childExpirationTime": 0,
                 "effectTag": 0,
+                "elementType": null,
                 "expirationTime": 1,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -2770,6 +2855,7 @@ ReactWrapper {
                     <i
                       class="fa fa-map-marker "
                       style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                      title=""
                     />
                   </div>,
                   "context": Object {},
@@ -2794,7 +2880,7 @@ ReactWrapper {
                   "pendingInteractionMap": Map {},
                   "timeoutHandle": -1,
                 },
-                "tag": 5,
+                "tag": 3,
                 "treeBaseDuration": 0,
                 "type": null,
                 "updateQueue": Object {
@@ -2852,6 +2938,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 32,
+              "elementType": null,
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": [Circular],
@@ -2885,6 +2972,7 @@ ReactWrapper {
                   <i
                     class="fa fa-map-marker "
                     style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                    title=""
                   />
                 </div>,
                 "context": Object {},
@@ -2909,7 +2997,7 @@ ReactWrapper {
                 "pendingInteractionMap": Map {},
                 "timeoutHandle": -1,
               },
-              "tag": 5,
+              "tag": 3,
               "treeBaseDuration": 0,
               "type": null,
               "updateQueue": Object {
@@ -2971,7 +3059,7 @@ ReactWrapper {
                 "isMounted": [Function],
               },
             },
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -2979,7 +3067,7 @@ ReactWrapper {
           "selfBaseDuration": 0,
           "sibling": null,
           "stateNode": [Circular],
-          "tag": 2,
+          "tag": 1,
           "treeBaseDuration": 0,
           "type": [Function],
           "updateQueue": null,
@@ -3029,6 +3117,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -3086,6 +3175,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 0,
+                    "elementType": null,
                     "expirationTime": 1,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -3106,6 +3196,7 @@ ReactWrapper {
                         <i
                           class="fa fa-map-marker "
                           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                          title=""
                         />
                       </div>,
                       "context": Object {},
@@ -3130,7 +3221,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -3188,6 +3279,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -3221,6 +3313,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -3245,7 +3338,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -3307,7 +3400,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -3319,6 +3412,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -3352,6 +3446,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -3409,6 +3504,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 0,
+                    "elementType": null,
                     "expirationTime": 1,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -3429,6 +3525,7 @@ ReactWrapper {
                         <i
                           class="fa fa-map-marker "
                           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                          title=""
                         />
                       </div>,
                       "context": Object {},
@@ -3453,7 +3550,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -3511,6 +3608,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -3544,6 +3642,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -3568,7 +3667,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -3630,7 +3729,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -3656,7 +3755,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -3676,6 +3775,7 @@ ReactWrapper {
               "child": null,
               "childExpirationTime": 0,
               "effectTag": 0,
+              "elementType": "i",
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -3684,20 +3784,24 @@ ReactWrapper {
               "lastEffect": null,
               "memoizedProps": Object {
                 "className": "fa fa-map-marker ",
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "memoizedState": null,
               "mode": 0,
               "nextEffect": null,
               "pendingProps": Object {
                 "className": "fa fa-map-marker ",
+                "onClick": [Function],
                 "style": Object {
                   "color": "#d43131",
                   "fontSize": "1.5rem",
                 },
+                "title": "",
               },
               "ref": null,
               "return": [Circular],
@@ -3706,14 +3810,16 @@ ReactWrapper {
               "stateNode": <i
                 class="fa fa-map-marker "
                 style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                title=""
               />,
-              "tag": 7,
+              "tag": 5,
               "treeBaseDuration": 0,
               "type": "i",
               "updateQueue": null,
             },
             "childExpirationTime": 0,
             "effectTag": 1,
+            "elementType": [Function],
             "expirationTime": 0,
             "firstContextDependency": null,
             "firstEffect": null,
@@ -3725,10 +3831,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "memoizedState": null,
             "mode": 0,
@@ -3738,10 +3846,12 @@ ReactWrapper {
               "icon": "fa fa-map-marker",
               "lat": 82,
               "lng": 20,
+              "onClick": [Function],
               "style": Object {
                 "color": "#d43131",
                 "fontSize": "1.5rem",
               },
+              "title": "",
             },
             "ref": null,
             "return": FiberNode {
@@ -3758,6 +3868,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -3815,6 +3926,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 0,
+                    "elementType": null,
                     "expirationTime": 1,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -3835,6 +3947,7 @@ ReactWrapper {
                         <i
                           class="fa fa-map-marker "
                           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                          title=""
                         />
                       </div>,
                       "context": Object {},
@@ -3859,7 +3972,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -3917,6 +4030,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -3950,6 +4064,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -3974,7 +4089,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -4036,7 +4151,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -4048,6 +4163,7 @@ ReactWrapper {
               "child": [Circular],
               "childExpirationTime": 0,
               "effectTag": 1,
+              "elementType": [Function],
               "expirationTime": 0,
               "firstContextDependency": null,
               "firstEffect": null,
@@ -4081,6 +4197,7 @@ ReactWrapper {
                 "child": [Circular],
                 "childExpirationTime": 0,
                 "effectTag": 1,
+                "elementType": [Function],
                 "expirationTime": 0,
                 "firstContextDependency": null,
                 "firstEffect": null,
@@ -4138,6 +4255,7 @@ ReactWrapper {
                     "child": null,
                     "childExpirationTime": 0,
                     "effectTag": 0,
+                    "elementType": null,
                     "expirationTime": 1,
                     "firstContextDependency": null,
                     "firstEffect": null,
@@ -4158,6 +4276,7 @@ ReactWrapper {
                         <i
                           class="fa fa-map-marker "
                           style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                          title=""
                         />
                       </div>,
                       "context": Object {},
@@ -4182,7 +4301,7 @@ ReactWrapper {
                       "pendingInteractionMap": Map {},
                       "timeoutHandle": -1,
                     },
-                    "tag": 5,
+                    "tag": 3,
                     "treeBaseDuration": 0,
                     "type": null,
                     "updateQueue": Object {
@@ -4240,6 +4359,7 @@ ReactWrapper {
                   "child": [Circular],
                   "childExpirationTime": 0,
                   "effectTag": 32,
+                  "elementType": null,
                   "expirationTime": 0,
                   "firstContextDependency": null,
                   "firstEffect": [Circular],
@@ -4273,6 +4393,7 @@ ReactWrapper {
                       <i
                         class="fa fa-map-marker "
                         style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+                        title=""
                       />
                     </div>,
                     "context": Object {},
@@ -4297,7 +4418,7 @@ ReactWrapper {
                     "pendingInteractionMap": Map {},
                     "timeoutHandle": -1,
                   },
-                  "tag": 5,
+                  "tag": 3,
                   "treeBaseDuration": 0,
                   "type": null,
                   "updateQueue": Object {
@@ -4359,7 +4480,7 @@ ReactWrapper {
                     "isMounted": [Function],
                   },
                 },
-                "tag": 2,
+                "tag": 1,
                 "treeBaseDuration": 0,
                 "type": [Function],
                 "updateQueue": null,
@@ -4385,7 +4506,7 @@ ReactWrapper {
                   "isMounted": [Function],
                 },
               },
-              "tag": 2,
+              "tag": 1,
               "treeBaseDuration": 0,
               "type": [Function],
               "updateQueue": null,
@@ -4393,7 +4514,7 @@ ReactWrapper {
             "selfBaseDuration": 0,
             "sibling": null,
             "stateNode": [Circular],
-            "tag": 2,
+            "tag": 1,
             "treeBaseDuration": 0,
             "type": [Function],
             "updateQueue": null,
@@ -4405,10 +4526,12 @@ ReactWrapper {
             "icon": "fa fa-map-marker",
             "lat": 82,
             "lng": 20,
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "refs": Object {},
           "state": null,
@@ -4426,25 +4549,30 @@ ReactWrapper {
           "icon": "fa fa-map-marker",
           "lat": 82,
           "lng": 20,
+          "onClick": [Function],
           "style": Object {
             "color": "#d43131",
             "fontSize": "1.5rem",
           },
+          "title": "",
         },
         "ref": null,
         "rendered": Object {
           "instance": <i
             class="fa fa-map-marker "
             style="color: rgb(212, 49, 49); font-size: 1.5rem;"
+            title=""
           />,
           "key": undefined,
           "nodeType": "host",
           "props": Object {
             "className": "fa fa-map-marker ",
+            "onClick": [Function],
             "style": Object {
               "color": "#d43131",
               "fontSize": "1.5rem",
             },
+            "title": "",
           },
           "ref": null,
           "rendered": Array [

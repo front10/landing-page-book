@@ -6,7 +6,14 @@ ShallowWrapper {
   Symbol(enzyme.__unrendered__): <LanguageSwitcher
     customLabels={Object {}}
     disabled={false}
-    languages={Array []}
+    languages={
+      Array [
+        "US",
+        "ES",
+        "UK",
+        "JP",
+      ]
+    }
     onSelect={[Function]}
     placeholder="Language"
     selectedLanguage=""
@@ -31,7 +38,14 @@ ShallowWrapper {
       "children": <ReactFlagsSelect
         alignOptions="right"
         blackList={false}
-        countries={Array []}
+        countries={
+          Array [
+            "US",
+            "ES",
+            "UK",
+            "JP",
+          ]
+        }
         customLabels={Object {}}
         defaultCountry=""
         disabled={false}
@@ -54,7 +68,12 @@ ShallowWrapper {
       "props": Object {
         "alignOptions": "right",
         "blackList": false,
-        "countries": Array [],
+        "countries": Array [
+          "US",
+          "ES",
+          "UK",
+          "JP",
+        ],
         "customLabels": Object {},
         "defaultCountry": "",
         "disabled": false,
@@ -82,7 +101,14 @@ ShallowWrapper {
         "children": <ReactFlagsSelect
           alignOptions="right"
           blackList={false}
-          countries={Array []}
+          countries={
+            Array [
+              "US",
+              "ES",
+              "UK",
+              "JP",
+            ]
+          }
           customLabels={Object {}}
           defaultCountry=""
           disabled={false}
@@ -105,7 +131,12 @@ ShallowWrapper {
         "props": Object {
           "alignOptions": "right",
           "blackList": false,
-          "countries": Array [],
+          "countries": Array [
+            "US",
+            "ES",
+            "UK",
+            "JP",
+          ],
           "customLabels": Object {},
           "defaultCountry": "",
           "disabled": false,

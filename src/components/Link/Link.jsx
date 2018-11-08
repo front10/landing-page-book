@@ -1,19 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Link extends Component {
   render() {
-    const { disabled, className, tooltip, href, target, children, style } = this.props;
+    const { disabled, className, tooltip, href, target, children } = this.props;
     return (
       <React.Fragment>
-        <a
-          style={style}
-          title={tooltip}
-          disabled={disabled}
-          className={className}
-          href={href}
-          target={target}
-        >
+        <a title={tooltip} disabled={disabled} className={className} href={href} target={target}>
           {children}
         </a>
       </React.Fragment>
@@ -22,21 +16,38 @@ class Link extends Component {
 }
 
 Link.propTypes = {
+  /**
+   * Disable or enable button.
+   */
   disabled: PropTypes.bool,
+  /**
+   * CSS Class to apply to button.
+   */
   className: PropTypes.string,
+  /**
+   * Button tooltip.
+   */
   tooltip: PropTypes.string,
+  /**
+   * Link to open.
+   */
   href: PropTypes.string.isRequired,
+  /**
+   * Target of link.
+   */
   target: PropTypes.string,
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
-  style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+  /**
+   * Elements to show inside of Links
+   */
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Link.defaultProps = {
   disabled: false,
   className: '',
   tooltip: '',
   target: '',
-  children: null,
-  style: null
+  children: null
 };
 
-export default Link;
+const LinkWithStyles = withStyles(Link);
+export default LinkWithStyles;

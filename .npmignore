@@ -21,3 +21,4 @@ jest.config.js
 selenium-webdriver
 dist/addons
 dist/stories
+dist/pages

@@ -8,7 +8,7 @@ ShallowWrapper {
     gray={false}
     rounded={true}
     type="email"
-    url=""
+    url="https://front10.com"
   />,
   Symbol(enzyme.__renderer__): Object {
     "batchedUpdates": [Function],
@@ -31,7 +31,7 @@ ShallowWrapper {
         size={64}
       />,
       "className": "SocialMediaShareButton ",
-      "href": "",
+      "href": "https://front10.com",
       "target": "_blank",
     },
     "ref": null,
@@ -66,7 +66,7 @@ ShallowWrapper {
           size={64}
         />,
         "className": "SocialMediaShareButton ",
-        "href": "",
+        "href": "https://front10.com",
         "target": "_blank",
       },
       "ref": null,

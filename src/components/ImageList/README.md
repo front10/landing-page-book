@@ -1,69 +1,12 @@
-<a style="float:right; margin-top: 30px;" target="_blank" href="https://github.com/front10/landing-page-book/edit/master/src/components/ImageList/README.md"> <img width="15px;" src="https://assets-cdn.github.com/images/icons/emoji/unicode/270f.png"/> Edit on Github
-</a>
-
 # ImageList
+  [![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
+  
 
-[![standard-readme compliant](https://img.shields.io/badge/standard--readme-OK-green.svg?style=flat-square)](https://github.com/RichardLitt/standard-readme)
-
-## Overview
-
-`@front10/landing-page-book/ImageList` is used to show a list of images.
-
-## How to use
-1- Importing bootstrap style
-
-```js
-import "bootstrap/dist/css/bootstrap.min.css";
-```
-2- Add following content to import the component:
-
-```js
-import ImageList from "@front10/landing-page-book/dist/components/ImageList";
-import "@front10/landing-page-book/dist/components/ImageList/style.css";
-```
-
-> Note: For including all components styles once you can use [a theme](https://github.com/front10/landing-page-book/wiki/Theming).
-
-3- Put this code into jsx page:
-
-```html
-<ImageList images={images}/>
-```
-
-<a target="_blank" href="https://codesandbox.io/s/mmk3jnjwkj">
-  <img alt="Edit ImageList demo" src="https://codesandbox.io/static/img/play-codesandbox.svg">
-</a>
-
-## Example
-
-```js
-const images = [
-  {
-    image: 'https://cdn.designcrowd.com/blog/2016/January/top-company-logos-black/4_Nike_400.png'
-  },
-  {
-    image: 'https://qph.fs.quoracdn.net/main-qimg-5f4deb2eafbed371d07b24cfe4a11f6e'
-  },
-  {
-    image: 'http://iol13.linguistics-bg.com/wp-content/uploads/2015/05/Coca-Cola-Logo-Red.png'
-  },
-  {
-    image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQizYke0pb5GJsX7q7EhWSIKAcGNZv53eI2H_TTPfF3p5IKNpx'
-  },
-  {
-    image: 'https://i.pinimg.com/originals/de/fd/43/defd4347f12a7fa7bbfa192be11532d6.png'
-  }
-];
-```
-
-## Properties:
-
-| </br>Name     | </br>Type | </br>Summary                                      |
-| ------------- | --------- | ------------------------------------------------- |
-| gray          | `Boolean` | Define if image is gray scale. Default `false`    |
-| imageRounded  | `Boolean` | Define if image is rounded. Default `false`       |
-| imageBordered | `Boolean` | Define if image is borded. Default `false`        |
-| imageWidth    | `String`  | Image width. Default `"100"`                      |
-| imageHeight   | `String`  | Image height. Default `"100"`                     |
-| images        | `Array`   | Images to show. Default `[]`, see example section |
+  ## Properties
+  | </br>Name | </br>Type | </br>Summary | </br>Default | 
+| ---- | ---- | ---- | ---- |
+| className | `string` | CSS class name for custom styles | `''` |
+| gray | `bool` | Define if image is gray scale | `false` |
+| imageWidth | `string` | Image width | `'100'` |
+| images | `arrayOf` | Images to show | `[]` |
+| padding | `string` | Padding to apply to Footer. | `'2'` |

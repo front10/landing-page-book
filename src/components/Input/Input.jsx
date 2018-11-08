@@ -2,18 +2,15 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Label from '../Label';
 import Icon from '../Icon';
+import withStyles from '../../helpers/WithStyles';
 
 class Input extends Component {
   constructor(props) {
     super(props);
-    this.state = {};
+    const { value } = this.props;
+    this.state = { value };
     this.onChange = this.onChange.bind(this);
     this.onUpdate = this.onUpdate.bind(this);
-  }
-
-  componentWillMount() {
-    const { value } = this.props;
-    this.setState({ value });
   }
 
   componentDidUpdate(prevProps) {
@@ -32,20 +29,12 @@ class Input extends Component {
   }
 
   render() {
-    const {
-      className,
-      type,
-      id,
-      name,
-      placeholder,
-      label,
-      labelColon,
-      icon,
-      iconAlign
-    } = this.props;
+    const { className, type, id, name, placeholder, label, icon, iconAlign, size } = this.props;
+    let inputcls = className;
+    if (size) inputcls += ` form-control-${size}`;
     const { value } = this.state;
     const props = {
-      className: `Input__Container__Conponent form-control ${className} ${
+      className: `form-control ${inputcls} ${
         icon ? `Input__Container__Conponent--${iconAlign}` : ''
       }`,
       type,
@@ -55,9 +44,10 @@ class Input extends Component {
       placeholder,
       onChange: this.onChange
     };
+
     return (
-      <React.Fragment>
-        {label && <Label label={label} htmlFor={id} colon={labelColon} />}
+      <div className={className}>
+        {label && <Label content={label} htmlFor={id} />}
         <div className="Input__Container">
           {type !== 'textarea' && <input {...props} />}
           {type === 'textarea' && <textarea {...props} />}
@@ -68,26 +58,58 @@ class Input extends Component {
             />
           )}
         </div>
-      </React.Fragment>
+      </div>
     );
   }
 }
 
 Input.propTypes = {
-  labelColon: PropTypes.bool,
+  /**
+   *  CSS Class to apply to input.
+   */
   className: PropTypes.string,
+  /**
+   *  Input type. Can be <code>'text'</code>, <code>'number'</code>, <code>'email'</code> and <code>'textarea'</code>
+   */
   type: PropTypes.string,
+  /**
+   * Input id.
+   */
   id: PropTypes.string,
+  /**
+   * Input name.
+   */
   name: PropTypes.string,
+  /**
+   * Input value.
+   */
   value: PropTypes.string,
+  /**
+   * Input placeholder.
+   */
   placeholder: PropTypes.string,
+  /**
+   *  Icon to show with input.
+   */
   icon: PropTypes.string,
+  /**
+   * Align of icon. Can be <code>'left'</code> and <code>'right'</code>
+   */
   iconAlign: PropTypes.string,
+  /**
+   * Label to show on input top.
+   */
   label: PropTypes.string,
+  /**
+   * Size of input. Can be <code>'lg'</code> or <code>'sm'</code>.
+   */
+  size: PropTypes.string,
+  /**
+   * Called when input change. Params `{value}`
+   */
   onChange: PropTypes.func
 };
 Input.defaultProps = {
-  labelColon: false,
   className: '',
   type: 'text',
   id: '',
@@ -95,9 +117,11 @@ Input.defaultProps = {
   value: '',
   placeholder: '',
   label: '',
+  size: '',
   icon: '',
   iconAlign: 'left',
   onChange: () => {}
 };
 
-export default Input;
+const InputWithStyles = withStyles(Input);
+export default InputWithStyles;

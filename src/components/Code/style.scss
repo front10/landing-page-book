@@ -1,16 +1,9 @@
 :root {
-  --CodeMirror__header_with: 100%;
   --CodeMirror__header_height: 30px;
-  --CodeMirror__header_backgroundColor: #304148;
-  --CodeMirror__header_color: #fed136;
   --CodeMirror__height: auto;
   --CodeMirror__font_family: Lato;
-  --CodeMirror__Btn-background-color: transparent;
-  --CodeMirror__Btn-padding: 6px 20px;
   --CodeMirror__Container-border: solid 1px #304148;
   --CodeMirror-fontSize: 16px;
-  --CodeMirror__Footer-backgroundColor: #304148;
-  --CodeMirror__Footer-color: whitesmoke;
   --CodeMirror-borderRadius: 5px;
 }
 
@@ -21,15 +14,9 @@
 @import '../NavbarNav/style.scss';
 @import '../Button/style.scss';
 @import '../Link/style.scss';
-.CodeMirror__header {
-  width: var(--CodeMirror__header_with);
+.CodeMirror__header,
+.CodeMirror__footer {
   height: var(--CodeMirror__header_height);
-  background-color: var(--CodeMirror__header_backgroundColor) !important;
-  box-shadow: none !important;
-  button,
-  a {
-    color: var(--CodeMirror__header_color);
-  }
 }
 
 .CodeMirror__Container {
@@ -37,34 +24,10 @@
   border-radius: var(--CodeMirror-borderRadius);
 }
 
-.CodeMirror__footer {
-  box-shadow: none !important;
-  width: var(--CodeMirror__header_with);
-  height: var(--CodeMirror__header_height);
-  background-color: var(--CodeMirror__Footer-backgroundColor) !important;
-  button,
-  a {
-    color: var(--CodeMirror__Footer-color) !important;
-  }
-}
-
 .CodeMirror {
   height: var(--CodeMirror__height) !important;
 }
 
-.CodeMirror_btn {
-  font-weight: 400;
-  background-color: var(--CodeMirror__Btn-background-color) !important;
-  padding: var(--CodeMirror__Btn-padding) !important;
-  color: var(--CodeMirror__header_color) !important;
-}
-
 .ReactCodeMirror {
   font-size: var(--CodeMirror-fontSize);
-}
-
-.btn.CodeMirror_btn:hover,
-.btn.CodeMirror_btn:focus,
-.btn.CodeMirror_btn:active {
-  background-color: var(--CodeMirror__Btn-background-color) !important;
 }

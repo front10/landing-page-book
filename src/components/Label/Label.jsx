@@ -1,29 +1,37 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Label extends Component {
   render() {
-    const { label, className, htmlFor, colon } = this.props;
+    const { content, className, htmlFor } = this.props;
     return (
       <label htmlFor={htmlFor} className={`Label ${className}`}>
-        {label}
-        {colon && ':'}
+        {content}
       </label>
     );
   }
 }
 
 Label.propTypes = {
-  colon: PropTypes.bool,
-  label: PropTypes.string,
+  /**
+   * Content of label.
+   */
+  content: PropTypes.string,
+  /**
+   * CSS Class to apply to label.
+   */
   className: PropTypes.string,
+  /**
+   * Id of input.
+   */
   htmlFor: PropTypes.string
 };
 Label.defaultProps = {
-  colon: false,
-  label: '',
+  content: '',
   className: '',
   htmlFor: ''
 };
 
-export default Label;
+const LabelWithStyles = withStyles(Label);
+export default LabelWithStyles;

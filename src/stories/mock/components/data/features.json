@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "image": "images/features/components.png",
+    "title": "+40 Components",
+    "summary": "Hero, GitHub Buttons, Code, Backers, Donations, Navbar, etc. All of them well documented and tested."
+  },
+  {
+    "id": 2,
+    "image": "images/features/rocket.png",
+    "title": "Easy & Fast",
+    "summary": "Zero config, Online playground, Lots of examples."
+  },
+  {
+    "id": 3,
+    "image": "images/features/themes.png",
+    "title": "Theming",
+    "summary": "Change the components colors, fonts, and  look and feel in general using CSS variables."
+  },
+  {
+    "id": 4,
+    "image": "images/features/testing.png",
+    "title": "Integration",
+    "summary": "Proven and painless integration with Create React App, GatsbyJS and NextJS."
+  }
+]

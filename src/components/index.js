@@ -33,6 +33,7 @@ import NavbarBrand from './NavbarBrand';
 import NavbarCollapse from './NavbarCollapse';
 import NavbarLink from './NavbarLink';
 import NavbarNav from './NavbarNav';
+import Paragraph from './Paragraph';
 import Row from './Row';
 import Section from './Section';
 import Social from './Social';
@@ -78,6 +79,7 @@ export {
   NavbarCollapse,
   NavbarLink,
   NavbarNav,
+  Paragraph,
   Row,
   Section,
   Social,

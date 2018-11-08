@@ -1,5 +1,5 @@
 import React from 'react';
-import { configure, mount } from 'enzyme';
+import { configure, shallow } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 import Input from './Input';
 
@@ -10,7 +10,7 @@ describe('Input', () => {
   let mounted;
   const input = () => {
     if (!mounted) {
-      mounted = mount(<Input {...props} />);
+      mounted = shallow(<Input {...props} />);
     }
     return mounted;
   };
@@ -21,7 +21,7 @@ describe('Input', () => {
     });
 
     it('should render', () => {
-      expect(mount(<Input {...props} />)).toMatchSnapshot();
+      expect(shallow(<Input {...props} />)).toMatchSnapshot();
     });
 
     it('always renders a div', () => {

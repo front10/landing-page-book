@@ -573,103 +573,6 @@ span.CodeMirror-selectedtext { background: none; }
   .flag-select .no--focus {
     pointer-events: none; }
 
-ol.progtrckr {
-  list-style-type: none;
-  padding: 0;
-}
-
-ol.progtrckr li {
-  display: inline-block;
-  text-align: center;
-  line-height: 4.5rem;
-  cursor: pointer;
-}
-
-ol.progtrckr li span {
-  padding: 0 1.5rem;
-}
-
-@media (max-width: 650px) {
-  .progtrckr li span {
-    display: none;
-  }
-}
-.progtrckr em {
-  display: none;
-  font-weight: 700;
-  padding-left: 1rem;
-}
-
-@media (max-width: 650px) {
-  .progtrckr em {
-    display: inline;
-  }
-}
-
-ol.progtrckr li.progtrckr-todo {
-  color: silver;
-  border-bottom: 4px solid silver;
-}
-
-ol.progtrckr li.progtrckr-doing {
-  color: black;
-  border-bottom: 4px solid #CCCCCC;
-}
-
-ol.progtrckr li.progtrckr-done {
-  color: black;
-  border-bottom: 4px solid #5cb85c;
-}
-
-ol.progtrckr li:after {
-  content: "\00a0\00a0";
-}
-
-ol.progtrckr li:before {
-  position: relative;
-  bottom: -3.7rem;
-  float: left;
-  left: 50%;
-}
-
-ol.progtrckr li.progtrckr-todo:before {
-  content: "\039F";
-  color: silver;
-  background-color: white;
-  width: 1.2em;
-  line-height: 1.4em;
-}
-
-ol.progtrckr li.progtrckr-todo:hover:before {
-  color: #ff4500;
-}
-
-ol.progtrckr li.progtrckr-doing:before {
-  content: "\2022";
-  color: white;
-  background-color: #CCCCCC;
-  width: 1.2em;
-  line-height: 1.2em;
-  border-radius: 1.2em;
-}
-
-ol.progtrckr li.progtrckr-doing:hover:before {
-  color: #ff4500;
-}
-
-ol.progtrckr li.progtrckr-done:before {
-  content: "\2713";
-  color: white;
-  background-color: #5cb85c;
-  width: 1.2em;
-  line-height: 1.2em;
-  border-radius: 1.2em;
-}
-
-ol.progtrckr li.progtrckr-done:hover:before {
-  color: #333;
-}
-
 body {
   /*Colors*/
   --blue1: #4285f4;
@@ -849,56 +752,9 @@ body {
     filter: grayscale(1); }
 
 :root {
-  --Button-borderRadius: 0px;
-  --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem;
-  --Button-textShadow: none;
-  --Button-backgroundColor: #fed136;
-  --Button-backgroundColorHover: #fec810;
-  --Button-borderColor: #fed136;
-  --Button-boxShadow: none;
-  --Button-boxShadowHover: none;
-  --Button-border: 0px;
-  --Button-textTransform: none;
-  --Button-textColor: #383e45; }
-
-.Button:not(.navbar-toggler) {
-  border-radius: var(--Button-borderRadius);
-  font-size: var(--Button-fontSize);
-  padding: var(--Button-padding);
-  text-shadow: var(--Button-textShadow);
-  border-color: var(--Button-borderColor);
-  border: var(--Button-border);
-  text-transform: var(--Button-textTransform);
-  box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor);
-  background-color: var(--Button-backgroundColor); }
-
-.Button--outline:not(.navbar-toggler) {
-  background-color: transparent !important;
-  border: solid 1px;
-  border-color: var(--Button-borderColor) !important; }
-
-.Button:not(.navbar-toggler):focus,
-.Button:not(.navbar-toggler):active,
-.Button:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover);
-  box-shadow: var(--Button-boxShadowHover); }
-
-.Button--outline:not(.navbar-toggler):focus,
-.Button--outline:not(.navbar-toggler):active,
-.Button--outline:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover) !important; }
-
-:root {
-  --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
-  --Card__Summary-color: #000;
-  --Card__Summary-backgroundColor: #fff;
   --Card__Title-fontSize: 1.2rem;
-  --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -908,88 +764,32 @@ body {
   box-shadow: var(--Image-boxShadow); }
 
 .Card {
-  background-color: transparent;
-  border-radius: var(--Card-borderRadius); }
+  border: none;
+  background-color: transparent; }
   .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-    color: var(--Card__Summary-color);
-    background-color: var(--Card__Summary-backgroundColor); }
+    font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
     text-align: justify; }
   .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-    color: var(--Card__Title-color); }
+    font-size: var(--Card__Title-fontSize); }
   .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-    color: var(--Card__Subtitle-color); }
+    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
   box-shadow: var(--Card-boxShadow); }
 
 :root {
-  --CodeMirror__header_with: 100%;
   --CodeMirror__header_height: 30px;
-  --CodeMirror__header_backgroundColor: #304148;
-  --CodeMirror__header_color: #fed136;
   --CodeMirror__height: auto;
   --CodeMirror__font_family: Lato;
-  --CodeMirror__Btn-background-color: transparent;
-  --CodeMirror__Btn-padding: 6px 20px;
   --CodeMirror__Container-border: solid 1px #304148;
   --CodeMirror-fontSize: 16px;
-  --CodeMirror__Footer-backgroundColor: #304148;
-  --CodeMirror__Footer-color: whitesmoke;
   --CodeMirror-borderRadius: 5px; }
 
 :root {
-  --Navbar-backgroundColor: #383d45;
-  --Navbar-color: #b9bfc7;
   --Navbar-backgroundImage: none;
-  --Navbar--hover-color: #fed136;
   --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
-  --Navbar--boxShadow: rgba(0, 0, 0, .124); }
-
-:root {
-  --Button-borderRadius: 0px;
-  --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem;
-  --Button-textShadow: none;
-  --Button-backgroundColor: #fed136;
-  --Button-backgroundColorHover: #fec810;
-  --Button-borderColor: #fed136;
-  --Button-boxShadow: none;
-  --Button-boxShadowHover: none;
-  --Button-border: 0px;
-  --Button-textTransform: none;
-  --Button-textColor: #383e45; }
-
-.Button:not(.navbar-toggler) {
-  border-radius: var(--Button-borderRadius);
-  font-size: var(--Button-fontSize);
-  padding: var(--Button-padding);
-  text-shadow: var(--Button-textShadow);
-  border-color: var(--Button-borderColor);
-  border: var(--Button-border);
-  text-transform: var(--Button-textTransform);
-  box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor);
-  background-color: var(--Button-backgroundColor); }
-
-.Button--outline:not(.navbar-toggler) {
-  background-color: transparent !important;
-  border: solid 1px;
-  border-color: var(--Button-borderColor) !important; }
-
-.Button:not(.navbar-toggler):focus,
-.Button:not(.navbar-toggler):active,
-.Button:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover);
-  box-shadow: var(--Button-boxShadowHover); }
-
-.Button--outline:not(.navbar-toggler):focus,
-.Button--outline:not(.navbar-toggler):active,
-.Button--outline:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover) !important; }
+  --Navbar--boxShadow: rgba(0, 0, 0, 0.124); }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
@@ -998,27 +798,26 @@ body {
   box-shadow: var(--Image-boxShadow); }
 
 .Navbar {
-  background-color: var(--Navbar-backgroundColor);
   background-image: var(--Navbar-backgroundImage); }
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
-    color: var(--Navbar-color) !important;
     cursor: pointer; }
     @media (max-width: 768px) {
       .Navbar .NavbarLink img,
       .Navbar .Navbar__Toggler img,
       .Navbar .NavbarBrand img {
         padding: 0rem 1rem; } }
-  .Navbar .NavbarLink:hover {
-    color: var(--Navbar--hover-color) !important; }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
-  .Navbar .LanguageSwitcher, .Navbar .nav-item {
+  .Navbar .LanguageSwitcher,
+  .Navbar .nav-item {
     padding: 0.5rem 1rem; }
-    .Navbar .LanguageSwitcher .flag-select, .Navbar .nav-item .flag-select {
-      padding: .5rem 0rem; }
-      .Navbar .LanguageSwitcher .flag-select .selected--flag--option, .Navbar .nav-item .flag-select .selected--flag--option {
+    .Navbar .LanguageSwitcher .flag-select,
+    .Navbar .nav-item .flag-select {
+      padding: 0.5rem 0rem; }
+      .Navbar .LanguageSwitcher .flag-select .selected--flag--option,
+      .Navbar .nav-item .flag-select .selected--flag--option {
         padding: 0px; }
 
 .Navbar--transparent {
@@ -1035,106 +834,33 @@ body {
     padding-right: 0px;
     padding-left: 0px; } }
 
-:root {
-  --Button-borderRadius: 0px;
-  --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem;
-  --Button-textShadow: none;
-  --Button-backgroundColor: #fed136;
-  --Button-backgroundColorHover: #fec810;
-  --Button-borderColor: #fed136;
-  --Button-boxShadow: none;
-  --Button-boxShadowHover: none;
-  --Button-border: 0px;
-  --Button-textTransform: none;
-  --Button-textColor: #383e45; }
-
-.Button:not(.navbar-toggler) {
-  border-radius: var(--Button-borderRadius);
-  font-size: var(--Button-fontSize);
-  padding: var(--Button-padding);
-  text-shadow: var(--Button-textShadow);
-  border-color: var(--Button-borderColor);
-  border: var(--Button-border);
-  text-transform: var(--Button-textTransform);
-  box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor);
-  background-color: var(--Button-backgroundColor); }
-
-.Button--outline:not(.navbar-toggler) {
-  background-color: transparent !important;
-  border: solid 1px;
-  border-color: var(--Button-borderColor) !important; }
-
-.Button:not(.navbar-toggler):focus,
-.Button:not(.navbar-toggler):active,
-.Button:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover);
-  box-shadow: var(--Button-boxShadowHover); }
-
-.Button--outline:not(.navbar-toggler):focus,
-.Button--outline:not(.navbar-toggler):active,
-.Button--outline:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover) !important; }
-
 a[disabled] {
   pointer-events: none; }
 
 a span {
   margin: 0px 5px; }
 
-.CodeMirror__header {
-  width: var(--CodeMirror__header_with);
-  height: var(--CodeMirror__header_height);
-  background-color: var(--CodeMirror__header_backgroundColor) !important;
-  box-shadow: none !important; }
-  .CodeMirror__header button,
-  .CodeMirror__header a {
-    color: var(--CodeMirror__header_color); }
+.CodeMirror__header,
+.CodeMirror__footer {
+  height: var(--CodeMirror__header_height); }
 
 .CodeMirror__Container {
   border: var(--CodeMirror__Container-border);
   border-radius: var(--CodeMirror-borderRadius); }
 
-.CodeMirror__footer {
-  box-shadow: none !important;
-  width: var(--CodeMirror__header_with);
-  height: var(--CodeMirror__header_height);
-  background-color: var(--CodeMirror__Footer-backgroundColor) !important; }
-  .CodeMirror__footer button,
-  .CodeMirror__footer a {
-    color: var(--CodeMirror__Footer-color) !important; }
-
 .CodeMirror {
   height: var(--CodeMirror__height) !important; }
-
-.CodeMirror_btn {
-  font-weight: 400;
-  background-color: var(--CodeMirror__Btn-background-color) !important;
-  padding: var(--CodeMirror__Btn-padding) !important;
-  color: var(--CodeMirror__header_color) !important; }
 
 .ReactCodeMirror {
   font-size: var(--CodeMirror-fontSize); }
 
-.btn.CodeMirror_btn:hover,
-.btn.CodeMirror_btn:focus,
-.btn.CodeMirror_btn:active {
-  background-color: var(--CodeMirror__Btn-background-color) !important; }
-
 :root {
-  --ContactInfo__Location-height: 300px;
   --ContactInfo__Information-fontSize: 0.7rem; }
 
 :root {
-  --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
-  --Card__Summary-color: #000;
-  --Card__Summary-backgroundColor: #fff;
   --Card__Title-fontSize: 1.2rem;
-  --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -1144,26 +870,19 @@ a span {
   box-shadow: var(--Image-boxShadow); }
 
 .Card {
-  background-color: transparent;
-  border-radius: var(--Card-borderRadius); }
+  border: none;
+  background-color: transparent; }
   .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-    color: var(--Card__Summary-color);
-    background-color: var(--Card__Summary-backgroundColor); }
+    font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
     text-align: justify; }
   .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-    color: var(--Card__Title-color); }
+    font-size: var(--Card__Title-fontSize); }
   .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-    color: var(--Card__Subtitle-color); }
+    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
   box-shadow: var(--Card-boxShadow); }
-
-.ContactInfo__Location {
-  height: var(--ContactInfo__Location-height); }
 
 .ContactInfo__Information {
   font-size: var(--ContactInfo__Information-fontSize);
@@ -1172,103 +891,7 @@ a span {
     width: 25px; }
 
 :root {
-  --ContactUs__SubmitButton-color: #ffffff;
-  --ContactUs__SubmitButton-backgroundColor: #065ac5;
-  --ContactUs__SubmitButton--hover-color: #ffffff;
-  --ContactUs__SubmitButton--hover-backgroundColor: #065ac5; }
-
-:root {
-  --Button-borderRadius: 0px;
-  --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem;
-  --Button-textShadow: none;
-  --Button-backgroundColor: #fed136;
-  --Button-backgroundColorHover: #fec810;
-  --Button-borderColor: #fed136;
-  --Button-boxShadow: none;
-  --Button-boxShadowHover: none;
-  --Button-border: 0px;
-  --Button-textTransform: none;
-  --Button-textColor: #383e45; }
-
-.Button:not(.navbar-toggler) {
-  border-radius: var(--Button-borderRadius);
-  font-size: var(--Button-fontSize);
-  padding: var(--Button-padding);
-  text-shadow: var(--Button-textShadow);
-  border-color: var(--Button-borderColor);
-  border: var(--Button-border);
-  text-transform: var(--Button-textTransform);
-  box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor);
-  background-color: var(--Button-backgroundColor); }
-
-.Button--outline:not(.navbar-toggler) {
-  background-color: transparent !important;
-  border: solid 1px;
-  border-color: var(--Button-borderColor) !important; }
-
-.Button:not(.navbar-toggler):focus,
-.Button:not(.navbar-toggler):active,
-.Button:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover);
-  box-shadow: var(--Button-boxShadowHover); }
-
-.Button--outline:not(.navbar-toggler):focus,
-.Button--outline:not(.navbar-toggler):active,
-.Button--outline:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover) !important; }
-
-:root {
-  --Input-borderRadius: .25rem;
-  --Input-fontSize: 0.9rem;
-  --Input-color: rgba(0,0,0,0.8);
-  --Input-height: calc(2.25rem + 2px); }
-
-:root {
-  --Label-fontSize: 1rem;
-  --Label-color: rgba(0,0,0,0.7); }
-
-.Label {
-  font-size: var(--Label-fontSize);
-  color: var(--Label-color); }
-
-.Input__Container {
-  position: relative; }
-  .Input__Container .Input__Container__Conponent {
-    border-radius: var(--Input-borderRadius);
-    font-size: var(--Input-fontSize);
-    color: var(--Input-color); }
-  .Input__Container .Input__Container__Conponent {
-    height: var(--Input-height); }
-  .Input__Container .Input__Container__Icon {
-    position: absolute;
-    font-size: var(--Input-fontSize);
-    top: 40%;
-    color: var(--Input-color); }
-  .Input__Container .Input__Container__Conponent--left {
-    padding-left: 30px; }
-  .Input__Container .Input__Container__Conponent--right {
-    padding-right: 30px; }
-  .Input__Container .Input__Container__Icon--left {
-    left: 10px; }
-  .Input__Container .Input__Container__Icon--right {
-    right: 10px; }
-
-.ContactUs .ContactUs__SubmitButton {
-  color: var(--ContactUs__SubmitButton-color);
-  background-color: var(--ContactUs__SubmitButton-backgroundColor); }
-
-.ContactUs .ContactUs__SubmitButton:not(:disabled):hover,
-.ContactUs .ContactUs__SubmitButton:not(:disabled):focus {
-  color: var(--ContactUs__SubmitButton--hover-color);
-  background-color: var(--ContactUs__SubmitButton--hover-backgroundColor); }
-
-:root {
-  --Footer-color: #cccccc;
-  --Footer-backgroundColor: #383d45;
   --Footer-backgroundImage: none;
-  --Footer__Sections__Link--hover-color: #fed136;
   --Footer__Sections__Header-fontSize: 1.5rem;
   --Footer__Sections__Link-fontSize: 0.8rem;
   --Footer__Copyright-fontSize: 0.8rem; }
@@ -1277,8 +900,8 @@ a span {
   display: inline-block;
   cursor: pointer; }
   .SocialMediaShareButton div {
-    width: 35px !important;
-    height: 35px !important; }
+    width: 30px !important;
+    height: 30px !important; }
   .SocialMediaShareButton svg {
     width: 30px;
     height: 30px; }
@@ -1288,19 +911,14 @@ a span {
 
 .Footer {
   padding: 2.5rem 0;
-  color: var(--Footer-color);
   text-align: center;
-  background-color: var(--Footer-backgroundColor);
   background-image: var(--Footer-backgroundImage); }
   .Footer .Footer__Copyright {
     font-size: var(--Footer__Copyright-fontSize); }
   .Footer .Footer__Sections__Header {
     font-size: var(--Footer__Sections__Header-fontSize); }
   .Footer a {
-    color: var(--Footer-color);
     font-size: var(--Footer__Sections__Link-fontSize); }
-  .Footer a:hover {
-    color: var(--Footer__Sections__Link--hover-color); }
 
 .Gif .gif_player {
   width: 100%; }
@@ -1308,38 +926,9 @@ a span {
     width: 100%;
     height: auto; }
 
-:root {
-  --GithubDetail__countbubble-padding: 7px 10px 10px 5px;
-  --GithubDetail__countbubble-ml: 11px;
-  --GithubDetail__countbubble-transition: color 0.15s ease-in-out,
-    background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  --GithubDetail__buttonText-ml: 5px;
-  --GithubDetail__btn_container-padding: 5px;
-  --GithubDetail_btn-backgroundColor: #dcdcdc;
-  --GithubDetail_btn-Color: #000;
-  --GithubDetail_Btn-borderRadius: 0;
-  --GithubDetail_Btn-padding: 0.3rem 0.75rem;
-  --GithubDetail_Btn-boxShadow: none;
-  --GithubDetail_Btn-boxShadow--hover: none;
-  --GithubDetail_Btn-backgroundColor--hover: #bbbbbb;
-  --GithubDetail_Btn-textTransform: none;
-  --GithubDetail_Btn-borderColor: transparent;
-  --GithubDetail_Btn-border: 1px solid;
-  --GithubDetail_Btn-fontSize: 1rem;
-  --GithubDetail_Btn-textShadow: none; }
-
 .speech-bubble {
   position: relative;
-  background: var(--GithubDetail_btn-backgroundColor);
-  border-radius: var(--GithubDetail_Btn-borderRadius);
-  padding: var(--GithubDetail__countbubble-padding);
-  margin-left: var(--GithubDetail__countbubble-ml);
-  border: var(--GithubDetail_Btn-border);
-  border-color: var(--GithubDetail_Btn-borderColor);
-  transition: var(--GithubDetail__countbubble-transition);
-  box-shadow: var(--GithubDetail_Btn-boxShadow); }
-  .speech-bubble a {
-    color: var(--GithubDetail_btn-Color); }
+  margin-left: 10px; }
 
 .speech-bubble:after {
   content: '';
@@ -1349,83 +938,40 @@ a span {
   width: 0;
   height: 0;
   border: 7px solid transparent;
-  border-color: transparent var(--GithubDetail_btn-backgroundColor) transparent transparent;
+  border-color: transparent #f8f9fa transparent transparent;
   border-left: 0;
   margin-top: -7px;
   margin-left: -8px;
   z-index: 999; }
 
-.buttonText {
-  margin-left: var(--GithubDetail__buttonText-ml); }
+.speech-bubble.btn-primary:after {
+  border-color: transparent #007bff transparent transparent; }
 
-.GithubDetail_btn {
-  background: var(--GithubDetail_btn-backgroundColor);
-  color: var(--GithubDetail_btn-Color);
-  border-radius: var(--GithubDetail_Btn-borderRadius);
-  padding: var(--GithubDetail_Btn-padding);
-  box-shadow: var(--GithubDetail_Btn-boxShadow);
-  text-transform: var(--GithubDetail_Btn-textTransform);
-  border: var(--GithubDetail_Btn-border);
-  border-color: var(--GithubDetail_Btn-borderColor);
-  font-size: var(--GithubDetail_Btn-fontSize);
-  text-shadow: var(--GithubDetail_Btn-textShadow); }
+.speech-bubble.btn-secondary:after {
+  border-color: transparent #6c757d transparent transparent; }
 
-.GithubDetail_btn:hover {
-  box-shadow: var(--GithubDetail_Btn-boxShadow--hover);
-  background-color: var(--GithubDetail_Btn-backgroundColor--hover); }
+.speech-bubble.btn-success:after {
+  border-color: transparent #28a745 transparent transparent; }
 
-.GithubDetail_btn_container {
-  padding: var(--GithubDetail__btn_container-padding); }
+.speech-bubble.btn-info:after {
+  border-color: transparent #17a2b8 transparent transparent; }
+
+.speech-bubble.btn-warning:after {
+  border-color: transparent #ffc107 transparent transparent; }
+
+.speech-bubble.btn-danger:after {
+  border-color: transparent #dc3545 transparent transparent; }
+
+.speech-bubble.btn-light:after {
+  border-color: transparent #f8f9fa transparent transparent; }
+
+.speech-bubble.btn-dark:after {
+  border-color: transparent #343a40 transparent transparent; }
 
 :root {
-  --Navbar-backgroundColor: #383d45;
-  --Navbar-color: #b9bfc7;
   --Navbar-backgroundImage: none;
-  --Navbar--hover-color: #fed136;
   --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
-  --Navbar--boxShadow: rgba(0, 0, 0, .124); }
-
-:root {
-  --Button-borderRadius: 0px;
-  --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem;
-  --Button-textShadow: none;
-  --Button-backgroundColor: #fed136;
-  --Button-backgroundColorHover: #fec810;
-  --Button-borderColor: #fed136;
-  --Button-boxShadow: none;
-  --Button-boxShadowHover: none;
-  --Button-border: 0px;
-  --Button-textTransform: none;
-  --Button-textColor: #383e45; }
-
-.Button:not(.navbar-toggler) {
-  border-radius: var(--Button-borderRadius);
-  font-size: var(--Button-fontSize);
-  padding: var(--Button-padding);
-  text-shadow: var(--Button-textShadow);
-  border-color: var(--Button-borderColor);
-  border: var(--Button-border);
-  text-transform: var(--Button-textTransform);
-  box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor);
-  background-color: var(--Button-backgroundColor); }
-
-.Button--outline:not(.navbar-toggler) {
-  background-color: transparent !important;
-  border: solid 1px;
-  border-color: var(--Button-borderColor) !important; }
-
-.Button:not(.navbar-toggler):focus,
-.Button:not(.navbar-toggler):active,
-.Button:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover);
-  box-shadow: var(--Button-boxShadowHover); }
-
-.Button--outline:not(.navbar-toggler):focus,
-.Button--outline:not(.navbar-toggler):active,
-.Button--outline:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover) !important; }
+  --Navbar--boxShadow: rgba(0, 0, 0, 0.124); }
 
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
@@ -1434,27 +980,26 @@ a span {
   box-shadow: var(--Image-boxShadow); }
 
 .Navbar {
-  background-color: var(--Navbar-backgroundColor);
   background-image: var(--Navbar-backgroundImage); }
   .Navbar .NavbarLink,
   .Navbar .Navbar__Toggler,
   .Navbar .NavbarBrand {
-    color: var(--Navbar-color) !important;
     cursor: pointer; }
     @media (max-width: 768px) {
       .Navbar .NavbarLink img,
       .Navbar .Navbar__Toggler img,
       .Navbar .NavbarBrand img {
         padding: 0rem 1rem; } }
-  .Navbar .NavbarLink:hover {
-    color: var(--Navbar--hover-color) !important; }
   .Navbar .NavbarBrand .Logo {
     max-height: 60px; }
-  .Navbar .LanguageSwitcher, .Navbar .nav-item {
+  .Navbar .LanguageSwitcher,
+  .Navbar .nav-item {
     padding: 0.5rem 1rem; }
-    .Navbar .LanguageSwitcher .flag-select, .Navbar .nav-item .flag-select {
-      padding: .5rem 0rem; }
-      .Navbar .LanguageSwitcher .flag-select .selected--flag--option, .Navbar .nav-item .flag-select .selected--flag--option {
+    .Navbar .LanguageSwitcher .flag-select,
+    .Navbar .nav-item .flag-select {
+      padding: 0.5rem 0rem; }
+      .Navbar .LanguageSwitcher .flag-select .selected--flag--option,
+      .Navbar .nav-item .flag-select .selected--flag--option {
         padding: 0px; }
 
 .Navbar--transparent {
@@ -1473,75 +1018,15 @@ a span {
 
 :root {
   --Hero__Header-fontSize: 75px;
-  --Hero__Header-fontStyle: normal;
-  --Hero__Header-color: #fff;
-  --Hero__Header-fontWeight: 700;
   --Hero__Header--phone-fontSize: 30px;
   --Hero__SubHeader-fontSize: 40px;
-  --Hero__SubHeader-color: #fff;
-  --Hero__SubHeader-fontStyle: italic;
-  --Hero__SubHeader--phone-fontSize: 20px;
-  --Hero__Button-color: #383e45;
-  --Hero__Button-backgroundColor: #fed136;
-  --Hero__Button-padding: 0.375rem 0.75rem; }
-
-:root {
-  --Button-borderRadius: 0px;
-  --Button-fontSize: 1rem;
-  --Button-padding: 0.375rem 0.75rem;
-  --Button-textShadow: none;
-  --Button-backgroundColor: #fed136;
-  --Button-backgroundColorHover: #fec810;
-  --Button-borderColor: #fed136;
-  --Button-boxShadow: none;
-  --Button-boxShadowHover: none;
-  --Button-border: 0px;
-  --Button-textTransform: none;
-  --Button-textColor: #383e45; }
-
-.Button:not(.navbar-toggler) {
-  border-radius: var(--Button-borderRadius);
-  font-size: var(--Button-fontSize);
-  padding: var(--Button-padding);
-  text-shadow: var(--Button-textShadow);
-  border-color: var(--Button-borderColor);
-  border: var(--Button-border);
-  text-transform: var(--Button-textTransform);
-  box-shadow: var(--Button-boxShadow);
-  color: var(--Button-textColor);
-  background-color: var(--Button-backgroundColor); }
-
-.Button--outline:not(.navbar-toggler) {
-  background-color: transparent !important;
-  border: solid 1px;
-  border-color: var(--Button-borderColor) !important; }
-
-.Button:not(.navbar-toggler):focus,
-.Button:not(.navbar-toggler):active,
-.Button:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover);
-  box-shadow: var(--Button-boxShadowHover); }
-
-.Button--outline:not(.navbar-toggler):focus,
-.Button--outline:not(.navbar-toggler):active,
-.Button--outline:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Button-backgroundColorHover) !important; }
+  --Hero__SubHeader--phone-fontSize: 20px; }
 
 .Hero .Hero__Header {
-  font-weight: var(--Hero__Header-fontWeight);
-  font-size: var(--Hero__Header-fontSize);
-  font-style: var(--Hero__Header-fontStyle);
-  color: var(--Hero__Header-color); }
+  font-size: var(--Hero__Header-fontSize); }
 
 .Hero .Hero__SubHeader {
-  font-size: var(--Hero__SubHeader-fontSize);
-  font-style: var(--Hero__SubHeader-fontStyle);
-  color: var(--Hero__SubHeader-color); }
-
-.Hero .Hero__Button {
-  padding: var(--Hero__Button-padding);
-  color: var(--Hero__Button-color);
-  background-color: var(--Hero__Button-backgroundColor); }
+  font-size: var(--Hero__SubHeader-fontSize); }
 
 .Hero .Hero__Particles {
   position: absolute;
@@ -1570,10 +1055,9 @@ a span {
     font-size: var(--Hero__SubHeader--phone-fontSize) !important; } }
 
 :root {
-  --Input-borderRadius: .25rem;
+  --Input-borderRadius: 0.25rem;
   --Input-fontSize: 0.9rem;
-  --Input-color: rgba(0,0,0,0.8);
-  --Input-height: calc(2.25rem + 2px); }
+  --Input-color: rgba(0, 0, 0, 0.8); }
 
 :root {
   --Label-fontSize: 1rem;
@@ -1589,12 +1073,10 @@ a span {
     border-radius: var(--Input-borderRadius);
     font-size: var(--Input-fontSize);
     color: var(--Input-color); }
-  .Input__Container .Input__Container__Conponent {
-    height: var(--Input-height); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
     font-size: var(--Input-fontSize);
-    top: 40%;
+    top: 30%;
     color: var(--Input-color); }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }
@@ -1656,34 +1138,24 @@ a span {
 
 :root {
   --Section__Title-fontSize: 2rem;
-  --Section__Title-color: #000;
-  --Section__Subtitle-fontSize: 0.9rem;
-  --Section__Subtitle-color: #b5b5b5;
-  --Section--gray-backgroundColor: #f8f9fa;
-  --Section--gray-backgroundImage: none; }
+  --Section__Subtitle-fontSize: 0.9rem; }
 
 .Section div {
   margin-left: auto;
   margin-right: auto; }
 
 .Section .Section__Title {
-  font-size: var(--Section__Title-fontSize);
-  color: var(--Section__Title-color); }
+  font-size: var(--Section__Title-fontSize); }
 
 .Section .Section__Subtitle {
-  font-size: var(--Section__Subtitle-fontSize);
-  color: var(--Section__Subtitle-color); }
-
-.Section--gray {
-  background-color: var(--Section--gray-backgroundColor);
-  background-image: var(--Section--gray-backgroundImage); }
+  font-size: var(--Section__Subtitle-fontSize); }
 
 .SocialMediaShareButton {
   display: inline-block;
   cursor: pointer; }
   .SocialMediaShareButton div {
-    width: 35px !important;
-    height: 35px !important; }
+    width: 30px !important;
+    height: 30px !important; }
   .SocialMediaShareButton svg {
     width: 30px;
     height: 30px; }
@@ -1692,14 +1164,9 @@ a span {
   filter: grayscale(1); }
 
 :root {
-  --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
-  --Card__Summary-color: #000;
-  --Card__Summary-backgroundColor: #fff;
   --Card__Title-fontSize: 1.2rem;
-  --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -1709,20 +1176,16 @@ a span {
   box-shadow: var(--Image-boxShadow); }
 
 .Card {
-  background-color: transparent;
-  border-radius: var(--Card-borderRadius); }
+  border: none;
+  background-color: transparent; }
   .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-    color: var(--Card__Summary-color);
-    background-color: var(--Card__Summary-backgroundColor); }
+    font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
     text-align: justify; }
   .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-    color: var(--Card__Title-color); }
+    font-size: var(--Card__Title-fontSize); }
   .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-    color: var(--Card__Subtitle-color); }
+    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
   box-shadow: var(--Card-boxShadow); }
@@ -1731,8 +1194,8 @@ a span {
   display: inline-block;
   cursor: pointer; }
   .SocialMediaShareButton div {
-    width: 35px !important;
-    height: 35px !important; }
+    width: 30px !important;
+    height: 30px !important; }
   .SocialMediaShareButton svg {
     width: 30px;
     height: 30px; }
@@ -1768,14 +1231,9 @@ a span {
     width: 100%; }
 
 :root {
-  --Card-borderRadius: 0px;
   --Card__Summary-fontSize: 0.8rem;
-  --Card__Summary-color: #000;
-  --Card__Summary-backgroundColor: #fff;
   --Card__Title-fontSize: 1.2rem;
-  --Card__Title-color: #000;
   --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -1785,20 +1243,16 @@ a span {
   box-shadow: var(--Image-boxShadow); }
 
 .Card {
-  background-color: transparent;
-  border-radius: var(--Card-borderRadius); }
+  border: none;
+  background-color: transparent; }
   .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-    color: var(--Card__Summary-color);
-    background-color: var(--Card__Summary-backgroundColor); }
+    font-size: var(--Card__Summary-fontSize); }
   .Card .Card__Summary--justified {
     text-align: justify; }
   .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-    color: var(--Card__Title-color); }
+    font-size: var(--Card__Title-fontSize); }
   .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-    color: var(--Card__Subtitle-color); }
+    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
   box-shadow: var(--Card-boxShadow); }
@@ -1812,15 +1266,13 @@ a span {
   --Features__CardFooter__Link-color: none;
   --Features__CardFooter__Link-fontSize: none;
   --Features__Image-width: 100px;
-  --Features__Image-height: 100px;
-  --Features__Button-backgroundColor: #0780cf;
-  --Features__Button-backgroundColorHover: #05598f;
-  --Features__Button-color: #fff; }
+  --Features__Image-height: 100px; }
 
 .Features .Card img {
   width: var(--Features__Image-width);
   height: var(--Features__Image-height);
-  margin-top: 1.25rem; }
+  margin-top: 1.25rem;
+  padding: 1rem; }
 
 .Features--center .Card img {
   margin-left: auto;
@@ -1845,27 +1297,6 @@ a span {
   background-color: var(--Features__CardFooter__Link-background-color-hover) !important;
   box-shadow: var(--Features__CardFooter__Link-box-shadow-hover) !important; }
 
-.Features .Button {
-  background-color: var(--Features__Button-backgroundColor);
-  color: var(--Features__Button-color); }
-
-.Features .Button--outline:not(.navbar-toggler) {
-  background-color: transparent !important;
-  border: solid 1px;
-  border-color: var(--Features__Button-backgroundColor) !important;
-  color: var(--Features__Button-backgroundColor) !important; }
-
-.Features .Button:not(.navbar-toggler):focus,
-.Features .Button:not(.navbar-toggler):active,
-.Features .Button:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Features__Button-backgroundColorHover); }
-
-.Features .Button--outline:not(.navbar-toggler):focus,
-.Features .Button--outline:not(.navbar-toggler):active,
-.Features .Button--outline:not(.navbar-toggler):not(:disabled):hover {
-  background-color: var(--Features__Button-backgroundColorHover) !important;
-  color: var(--Features__Button-color) !important; }
-
 :root {
   --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
@@ -1886,7 +1317,7 @@ a span {
 .Video div {
   position: relative;
   padding-bottom: 56.25%;
-  padding-top: 25px;
+  margin-bottom: 20px;
   height: 0 !important;
   width: 100% !important; }
   .Video div iframe {
@@ -1895,59 +1326,3 @@ a span {
     left: 0;
     width: 100%;
     height: 100%; }
-
-:root {
-  --Wizard__Buttons-borderRadius: 0px;
-  --Wizard__Buttons-padding: 0.375rem 0.75rem;
-  --Wizard__Buttons-backgroundColor: #fed136;
-  --Wizard__Buttons-backgroundColorHover: #fec810;
-  --Wizard__Buttons-borderColor: #fed136;
-  --Wizard__Buttons-textColor: #383e45; }
-
-:root {
-  --Card-borderRadius: 0px;
-  --Card__Summary-fontSize: 0.8rem;
-  --Card__Summary-color: #000;
-  --Card__Summary-backgroundColor: #fff;
-  --Card__Title-fontSize: 1.2rem;
-  --Card__Title-color: #000;
-  --Card__Subtitle-fontSize: 0.9rem;
-  --Card__Subtitle-color: #b5b5b5;
-  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
-
-:root {
-  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
-
-.img-shadow {
-  box-shadow: var(--Image-boxShadow); }
-
-.Card {
-  background-color: transparent;
-  border-radius: var(--Card-borderRadius); }
-  .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-    color: var(--Card__Summary-color);
-    background-color: var(--Card__Summary-backgroundColor); }
-  .Card .Card__Summary--justified {
-    text-align: justify; }
-  .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-    color: var(--Card__Title-color); }
-  .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-    color: var(--Card__Subtitle-color); }
-
-.Card--shadow {
-  box-shadow: var(--Card-boxShadow); }
-
-.Wizard .multi-step .footer-buttons {
-  padding-top: 20px;
-  margin-top: 20px; }
-  .Wizard .multi-step .footer-buttons button {
-    border-radius: var(--Wizard__Buttons-borderRadius);
-    padding: var(--Wizard__Buttons-padding);
-    background-color: var(--Wizard__Buttons-backgroundColor);
-    border-color: var(--Wizard__Buttons-borderColor);
-    color: var(--Wizard__Buttons-textColor); }
-  .Wizard .multi-step .footer-buttons button:not(:disabled):hover {
-    background-color: var(--Wizard__Buttons-backgroundColorHover); }

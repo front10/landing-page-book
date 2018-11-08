@@ -17,9 +17,11 @@ stories.add(
         name="Video"
         description="Now you can show video of vimeo, youtube and many other platforms very easily on your website."
       />
-      <PropsManager scope={{ React, Video }}>
-        <Video source="https://youtu.be/dCrLwWdju68" />
-      </PropsManager>
+      <div className="mt-5">
+        <PropsManager scope={{ React, Video }}>
+          {`<Video source="https://youtu.be/dCrLwWdju68" />`}
+        </PropsManager>
+      </div>
     </ThemeSelector>
   ))
 );

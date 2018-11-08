@@ -7,24 +7,6 @@ import Readme from '../../../components/BuiltWith/README.md';
 import StoryHeader from '../../../../storybook-utils/components/StoryHeader';
 import PropsManager from '../../../../storybook-utils/components/PropsManager';
 
-const companies = [
-  {
-    image: 'images/buildwith/bootstrap.png'
-  },
-  {
-    image: 'images/buildwith/browserstack.png'
-  },
-  {
-    image: 'images/buildwith/jest.png'
-  },
-  {
-    image: 'images/buildwith/react.png'
-  },
-  {
-    image: 'images/buildwith/storybook.png'
-  }
-];
-
 const stories = storiesOf('Components/BuiltWith', module);
 
 stories.add(
@@ -37,7 +19,16 @@ stories.add(
       />
       <Container>
         <PropsManager scope={{ React, BuiltWith }}>
-          <BuiltWith gray companies={companies} />
+          {`<BuiltWith
+    gray
+    companies={[
+        { image: 'images/buildwith/bootstrap.png' },
+        { image: 'images/buildwith/browserstack.png' },
+        { image: 'images/buildwith/jest.png' },
+        { image: 'images/buildwith/react.png' },
+        { image: 'images/buildwith/storybook.png' }
+    ]}
+/>`}
         </PropsManager>
       </Container>
     </ThemeSelector>

@@ -1,5 +1,10 @@
 /*Components*/
 
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 @import '../../components/Backers/style.scss';
 @import '../../components/Browser/style.scss';
 @import '../../components/BuiltWith/style.scss';
@@ -21,7 +26,8 @@
 @import '../../components/Section/style.scss';
 @import '../../components/Social/style.scss';
 @import '../../components/Team/style.scss';
-@import '../../components/Features/style.scss';
+/*@import '../../components/Features/style.scss';*/
+
 @import '../../components/ImageList/style.scss';
 @import '../../components/Video/style.scss';
 @import '../../components/Wizard/style.scss';

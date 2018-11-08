@@ -23,7 +23,7 @@ jobs:
       script: npm run test:badge 
       script: npm run test-browser    
 before_deploy: 
-  - npm run build-storybook
+  - npm run build
 deploy:
   provider: pages
   local-dir: public

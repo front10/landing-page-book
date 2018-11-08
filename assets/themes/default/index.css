@@ -561,7 +561,35 @@ span.CodeMirror-selectedtext { background: none; }
   .ImageList .ImageList__Container--grayScale img {
     filter: grayscale(1); }
 
-/*@import '../../components/Card/style.scss';*/
+:root {
+  --Card-borderRadius: 0px;
+  --Card__Summary-fontSize: 0.8rem;
+  --Card__Title-fontSize: 1.2rem;
+  --Card__Subtitle-fontSize: 0.9rem;
+  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+:root {
+  --Image-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
+
+.img-shadow {
+  box-shadow: var(--Image-boxShadow); }
+
+.Card {
+  border: none;
+  background-color: transparent;
+  border-radius: var(--Card-borderRadius); }
+  .Card .Card__Summary {
+    font-size: var(--Card__Summary-fontSize); }
+  .Card .Card__Summary--justified {
+    text-align: justify; }
+  .Card .Card__Title {
+    font-size: var(--Card__Title-fontSize); }
+  .Card .Card__Subtitle {
+    font-size: var(--Card__Subtitle-fontSize); }
+
+.Card--shadow {
+  box-shadow: var(--Card-boxShadow); }
+
 :root {
   --CodeMirror__header_height: 30px;
   --CodeMirror__height: auto;

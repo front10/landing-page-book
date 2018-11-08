@@ -118,10 +118,10 @@ class MainLayout extends React.Component {
         <Footer>
           <Row>
             <Column className="col-sm-12 col-md">
-              <Copyright showAllRightText={false} text="Front10, LLC" />
+              <Copyright textColor="light" showAllRightText={false} text="Front10, LLC" />
             </Column>
             <Column className="col-sm-12 col-md mt-3 mt-md-0">
-              <span>With ♥ by </span>
+              <span className="text-light">With ♥ by </span>
               <Link href="https://front10.com/" target="_blank">
                 <Image
                   alt="Front 10 logo"

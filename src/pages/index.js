@@ -68,7 +68,7 @@ const IndexPage = () => (
           <AnimatedHero />
         </Container>
       </Hero>
-      <Section gray>
+      <Section bgColor="light">
         <Container className="text-center">
           <Gif autoplay image="images/demo/code.gif" />
         </Container>
@@ -89,7 +89,7 @@ const IndexPage = () => (
           </Link>
         </Container>
       </Section>
-      <Section title="AT A GLANCE" subTitle="Some of the components" gray>
+      <Section title="AT A GLANCE" subTitle="Some of the components" bgColor="light">
         <Container className="text-center">
           <Slider {...carousel}>
             {sliders.map(item => (
@@ -193,7 +193,7 @@ const IndexPage = () => (
       <Section
         title="THEMING"
         subTitle=" Change the appearance of the components using standard CSS variables"
-        gray
+        bgColor="light"
       >
         <Container>
           <Row>
@@ -213,7 +213,7 @@ const IndexPage = () => (
           <BuiltWith gray companies={build} />
         </Container>
       </Section>
-      <Section subTitle="These are our members" title="TEAM" gray>
+      <Section subTitle="These are our members" title="TEAM" bgColor="light">
         <Container>
           <Team memberBorderNone members={team} socials={['linkedin', 'twitter']} />
         </Container>
@@ -246,7 +246,7 @@ const IndexPage = () => (
           </p>
         </Container>
       </Section>
-      <Section subTitle="Who donates us" title="BACKERS" gray>
+      <Section subTitle="Who donates us" title="BACKERS" bgColor="light">
         <Container className="text-center">
           <Backers backers={backers} imageBordered={false} />
         </Container>

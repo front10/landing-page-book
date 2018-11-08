@@ -12,11 +12,11 @@ export default {
       code: `<Sponsors
     gray
     sponsors={[
-        { image: '/images/sponsors/facebook.png' },
-        { image: '/images/sponsors/google.png' },
-        { image: '/images/sponsors/twitter.png' },
-        { image: '/images/sponsors/salesforce.png' },
-        { image: '/images/sponsors/amazon.png' }
+        { image: 'https://front10.com/landing-page-book/images/sponsors/facebook.png' },
+        { image: 'https://front10.com/landing-page-book/images/sponsors/google.png' },
+        { image: 'https://front10.com/landing-page-book/images/sponsors/twitter.png' },
+        { image: 'https://front10.com/landing-page-book/images/sponsors/salesforce.png' },
+        { image: 'https://front10.com/landing-page-book/images/sponsors/amazon.png' }
     ]}
 />`,
       tabsActive: ['code']

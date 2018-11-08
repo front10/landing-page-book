@@ -8,13 +8,13 @@ export default {
     {
       name: 'Basic',
       summary: '',
-      code: `<Gif image="/images/gif/write.gif" preview="/images/demo/develop.png" />`,
+      code: `<Gif image="https://front10.com/landing-page-book/images/gif/write.gif" preview="https://front10.com/landing-page-book/images/demo/develop.png" />`,
       tabsActive: ['code']
     },
     {
       name: 'Autoplay',
       summary: '',
-      code: `<Gif image="/images/gif/write.gif" preview="/images/demo/develop.png" autoplay />`,
+      code: `<Gif image="https://front10.com/landing-page-book/images/gif/write.gif" preview="https://front10.com/landing-page-book/images/demo/develop.png" autoplay />`,
       tabsActive: []
     }
   ]

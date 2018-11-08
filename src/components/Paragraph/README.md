@@ -6,4 +6,4 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | className | `string` |  | `null` |
-| text<font color="red">*</font> | `string` | Text of the Paragraph,  this prop is required. |  |
+| text<font color="red">*</font> | `string` | Text of the Paragraph. |  |

@@ -18,11 +18,11 @@ class Sponsors extends React.Component {
 
 Sponsors.propTypes = {
   /**
-   * Define if image is gray scale. Default `false`
+   * Define if image is gray scale.
    */
   gray: PropTypes.bool,
   /**
-   * Companies to show. Default `[]`, see example section
+   * Companies to show.
    */
   sponsors: PropTypes.arrayOf(
     PropTypes.shape({

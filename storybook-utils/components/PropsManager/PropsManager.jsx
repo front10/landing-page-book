@@ -157,7 +157,7 @@ class PropsManager extends React.Component {
                     {' '}
                     <span className="propType">{propsDescription[prop].type.name}</span>
                   </td>
-                  <td>{propsDescription[prop].description}</td>
+                  <td>{ReactHtmlParser(propsDescription[prop].description)}</td>
                   <td>
                     <code>
                       {propsDescription[prop].defaultValue

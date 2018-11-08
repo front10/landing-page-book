@@ -6,5 +6,5 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | className | `string` |  | `null` |
-| text | `string` | Text to show as content. Default `""` | `''` |
-| title | `string` | Text to show as title. Default `""` | `''` |
+| text | `string` | Text to show as content. | `''` |
+| title | `string` | Text to show as title. | `''` |

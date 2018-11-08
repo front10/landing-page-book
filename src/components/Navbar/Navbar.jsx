@@ -110,47 +110,47 @@ class Navbar extends Component {
 
 Navbar.propTypes = {
   /**
-   * Define if component is transparent. Default `false`
+   * Define if component is transparent.
    */
   transparent: PropTypes.bool,
   /**
-   * Define if component is fixed. Default `false`
+   * Define if component is fixed.
    */
   fixed: PropTypes.bool,
   /**
-   * Brand name of component. Default `""`
+   * Brand name of component.
    */
   brandName: PropTypes.string,
   /**
-   * Text color of brand. Default `"light"`
+   * Text color of brand.
    */
   brandTextColor: PropTypes.string,
   /**
-   * Link to go when brand name or logo has clicked. Default `""`
+   * Link to go when brand name or logo has clicked.
    */
   brandLink: PropTypes.string,
   /**
-   * Background color of navar. Default `"dark"`
+   * Background color of navar.
    */
   bgColor: PropTypes.string,
   /**
-   * Color of navar link. Default `"light"`
+   * Color of navar link.
    */
   linkTextColor: PropTypes.string,
   /**
-   * Image logo url. Default `""`
+   * Image logo url.
    */
   brandLogo: PropTypes.string,
   /**
-   * Class to apply. Default `""`
+   * Class to apply.
    */
   className: PropTypes.string,
   /**
-   * Resolution to expand Navbar. Default `""`
+   * Resolution to expand Navbar.
    */
   expand: PropTypes.string,
   /**
-   * Array of items to show in nav-bar left side. Default `[]`
+   * Array of items to show in nav-bar left side.
    */
   leftItems: PropTypes.arrayOf(
     PropTypes.shape({
@@ -161,7 +161,7 @@ Navbar.propTypes = {
     })
   ),
   /**
-   * Array of items to show in nav-bar right side. Default `[]`, see example section
+   * Array of items to show in nav-bar right side.
    */
   rightItems: PropTypes.arrayOf(
     PropTypes.shape({

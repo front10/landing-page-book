@@ -6,4 +6,4 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | children | `union` | Elements to show inside of Row | `null` |
-| className | `string` | Class name of the row. Default `""` | `''` |
+| className | `string` | Class name of the row. | `''` |

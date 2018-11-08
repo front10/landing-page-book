@@ -10,7 +10,7 @@ class Row extends Component {
 
 Row.propTypes = {
   /**
-   * Class name of the row. Default `""`
+   * Class name of the row.
    */
   className: PropTypes.string,
   /**

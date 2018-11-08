@@ -22,11 +22,11 @@ class NavbarLink extends Component {
 
 NavbarLink.propTypes = {
   /**
-   * Url to redirect on intem click. Default `"#"`
+   * Url to redirect on intem click.
    */
   href: PropTypes.string,
   /**
-   * Link target. Default `""`
+   * Link target.
    */
   target: PropTypes.string,
   /**
@@ -38,7 +38,7 @@ NavbarLink.propTypes = {
    */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   /**
-   * Class of the component. Default `""`
+   * Class of the component.
    */
   className: PropTypes.string
 };

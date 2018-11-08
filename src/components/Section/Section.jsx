@@ -43,19 +43,19 @@ class Section extends Component {
 
 Section.propTypes = {
   /**
-   * Section title. Default `""`
+   * Section title.
    */
   title: PropTypes.string,
   /**
-   * Section subtitle. Default `""`
+   * Section subtitle.
    */
   subTitle: PropTypes.string,
   /**
-   * Section css class. Default `""`
+   * Section css class.
    */
   className: PropTypes.string,
   /**
-   * Section content css class. Default `""`
+   * Section content css class.
    */
   contentClassName: PropTypes.string,
   /**

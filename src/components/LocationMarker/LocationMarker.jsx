@@ -12,19 +12,19 @@ class LocationMarker extends Component {
 
 LocationMarker.propTypes = {
   /**
-   * Class to apply. Default `""`
+   * Class to apply.
    */
   className: PropTypes.string,
   /**
-   * Marker latitude. Default `undefined`, this field is required
+   * Marker latitude.
    */
   lat: PropTypes.number.isRequired,
   /**
-   * Marker longitude. Default `undefined`, this field is required
+   * Marker longitude.
    */
   lng: PropTypes.number.isRequired,
   /**
-   * Icon to show in the marker. Default `"fa fa-map-marker"`
+   * Icon to show in the marker.
    */
   icon: PropTypes.string
   // /**

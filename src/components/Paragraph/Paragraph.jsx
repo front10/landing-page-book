@@ -12,7 +12,7 @@ class Paragraph extends Component {
 
 Paragraph.propTypes = {
   /**
-   * Text of the Paragraph,  this prop is required.
+   * Text of the Paragraph.
    */
   text: PropTypes.string.isRequired,
   className: PropTypes.string

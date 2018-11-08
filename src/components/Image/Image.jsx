@@ -70,27 +70,27 @@ class Image extends Component {
 
 Image.propTypes = {
   /**
-   * Show or hide image borders. Default `false`
+   * Show or hide image borders.
    */
   border: PropTypes.bool,
   /**
-   * Show circled image. Default `false`
+   * Show circled image.
    */
   rounded: PropTypes.bool,
   /**
-   * Define if image is show with shadow. Default `false`
+   * Define if image is show with shadow.
    */
   shadow: PropTypes.bool,
   /**
-   * CSS class to apply to image. Default `"img-fluid"`
+   * CSS class to apply to image.
    */
   className: PropTypes.string,
   /**
-   * Image width. Default `undefined`
+   * Image width.
    */
   width: PropTypes.string,
   /**
-   * Image tooltip. Default `""`
+   * Image tooltip.
    */
   tooltip: PropTypes.string,
   /**
@@ -98,11 +98,11 @@ Image.propTypes = {
    */
   imgFilter: PropTypes.string,
   /**
-   *  Image alt. Default `undefined`, this field is required
+   *  Image alt.
    */
   alt: PropTypes.string.isRequired,
   /**
-   *  Image source. Default `undefined`, this field is required
+   *  Image source.
    */
   src: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired
 };

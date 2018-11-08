@@ -10,7 +10,7 @@ class FormGroup extends Component {
 
 FormGroup.propTypes = {
   /**
-   *  Class name of the row. Default `""`
+   *  Class name of the row.
    */
   className: PropTypes.string,
   /**

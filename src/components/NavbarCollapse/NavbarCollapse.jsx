@@ -13,7 +13,7 @@ class NavbarCollapse extends Component {
 
 NavbarCollapse.propTypes = {
   /**
-   * Open or close component. Default `true`
+   * Open or close component.
    */
   isOpen: PropTypes.bool,
   /**
@@ -21,7 +21,7 @@ NavbarCollapse.propTypes = {
    */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
   /**
-   * Class of the component. Default `""`
+   * Class of the component.
    */
   className: PropTypes.string
 };

@@ -51,31 +51,31 @@ class Video extends Component {
 
 Video.propTypes = {
   /**
-   * Set to true or false to pause or play the media. Default `false`
+   * Set to true or false to pause or play the media.
    */
   playing: PropTypes.bool,
   /**
-   * Set to true or false to loop the media. Default `false`
+   * Set to true or false to loop the media.
    */
   loop: PropTypes.bool,
   /**
-   * Set to true or false to display native player controls. Vimeo, Twitch and Wistia player will always display controls. Default `false`
+   * Set to true or false to display native player controls. Vimeo, Twitch and Wistia player will always display controls.
    */
   controls: PropTypes.bool,
   /**
-   * Mutes the player. Default `false`
+   * Mutes the player.
    */
   muted: PropTypes.bool,
   /**
-   * Set the volume of the player, between 0 and 1. Default `1`
+   * Set the volume of the player, between 0 and 1.
    */
   volume: PropTypes.number,
   /**
-   * The url of a video or song to play. Default `""`
+   * The url of a video or song to play.
    */
   source: PropTypes.string,
   /**
-   * Class to apply to button. Default `""`
+   * Class to apply to button.
    */
   className: PropTypes.string,
   /**
@@ -91,7 +91,7 @@ Video.propTypes = {
    */
   onPlay: PropTypes.func,
   /**
-   * Callback containing played and loaded progress as a fraction (`{ played: 0.12, playedSeconds: 11.3, loaded: 0.34, loadedSeconds: 16.7 }`)
+   * Callback containing played and loaded progress as a fraction ('{ played: 0.12, playedSeconds: 11.3, loaded: 0.34, loadedSeconds: 16.7 }')
    */
   onProgress: PropTypes.func,
   /**

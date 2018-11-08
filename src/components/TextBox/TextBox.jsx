@@ -11,11 +11,11 @@ const TextBox = ({ className, title, text }) => (
 
 TextBox.propTypes = {
   /**
-   * Text to show as title. Default `""`
+   * Text to show as title.
    */
   title: PropTypes.string,
   /**
-   * Text to show as content. Default `""`
+   * Text to show as content.
    */
   text: PropTypes.string,
   className: PropTypes.string

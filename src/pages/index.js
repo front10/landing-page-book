@@ -79,8 +79,8 @@ const IndexPage = () => (
             columnClassName="col-12 col-md-3 col-sm-6 blue-text"
             features={features}
             imageCircle={false}
-            showBorder={false}
             showSubtitle
+            featureBorderNone
           />
         </Container>
         <Container className="text-center">

@@ -1,6 +1,6 @@
 const team = [
   {
-    image: '/images/team/ninja.svg',
+    image: 'https://front10.com/landing-page-book/images/team/ninja.svg',
     name: 'Leonardo',
     job: 'Ninja',
     summary:
@@ -11,7 +11,7 @@ const team = [
     ]
   },
   {
-    image: '/images/team/bohemian.svg',
+    image: 'https://front10.com/landing-page-book/images/team/bohemian.svg',
     name: 'Van Gogh',
     job: 'Painter',
     summary:
@@ -28,7 +28,7 @@ const team = [
     ]
   },
   {
-    image: '/images/team/astronaut.svg',
+    image: 'https://front10.com/landing-page-book/images/team/astronaut.svg',
     name: 'Neil',
     job: 'Astronaut',
     summary:

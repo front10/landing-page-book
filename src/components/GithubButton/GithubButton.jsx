@@ -202,35 +202,35 @@ class GithubButton extends React.Component {
 
 GithubButton.propTypes = {
   /**
-   * Shows the total next to the button, Default `true`
+   * Shows the total next to the button.
    */
   showCounter: PropTypes.bool,
   /**
-   * Shows the text inside the button, Default `true`
+   * Shows the text inside the button.
    */
   showBtnText: PropTypes.bool,
   /**
-   * Shows github icon on the button, Default `false`
+   * Shows github icon on the button.
    */
   showGithubIcon: PropTypes.bool,
   /**
-   * Shows github button disabled, Default `false`
+   * Shows github button disabled.
    */
   disabled: PropTypes.bool,
   /**
-   * Class to loading indicator. Default `"fa fa-circle-o-notch fa-spin"`
+   * Class to loading indicator.
    */
   loadingClass: PropTypes.string,
   /**
-   * Github username, it is mandatory
+   * Github username.
    */
   username: PropTypes.string,
   /**
-   * Github repository, it is mandatory
+   * Github repository.
    */
   repository: PropTypes.string,
   /**
-   * What button show, options: `fork, follow, star, download, watch, issue`
+   * What button show. Can be: <code>fork</code>,<code>follow</code>,<code>star</code>,<code>download</code>,<code>watch</code>,<code>issue</code>`
    */
   type: PropTypes.string,
   /**
@@ -238,7 +238,7 @@ GithubButton.propTypes = {
    */
   text: PropTypes.string,
   /**
-   * Color of button, Default `Light`
+   * Color of button.
    */
   color: PropTypes.string,
   /**

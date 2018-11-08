@@ -4,7 +4,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -15,7 +15,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin right of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -26,7 +26,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin left of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -37,7 +37,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin top of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -48,7 +48,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Margin bottom of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Margin bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -59,7 +59,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -70,7 +70,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding right of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -81,7 +81,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding left of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -92,7 +92,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding top of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -103,7 +103,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Padding bottom of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "description": "Padding bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -191,7 +191,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Background color of the component, can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>",
+        "description": "Background color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false
@@ -202,7 +202,7 @@
             "name": "string"
         },
         "required": false,
-        "description": "Text color of the component, can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>",
+        "description": "Text color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>",
         "defaultValue": {
             "value": "null",
             "computed": false

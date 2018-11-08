@@ -8,13 +8,13 @@
 | backButtonCls | `string` | Specify the back button class. | `'btn btn-primary pull-left'` |
 | backButtonText | `string` | Specify the back button text. | `'Back'` |
 | className | `string` | Class name of header. | `''` |
-| contentAlign | `string` | Specify the align of wizard components. Can be <code>`left`</code>, <code>`right`</code> and <code>`center`</code> | `'left'` |
+| contentAlign | `string` | Specify the align of wizard components. Can be <code>'left'</code>, <code>'right'</code> and <code>'center'</code> | `'left'` |
 | dontValidate | `bool` | Dev control to disable validation rules called in step components. | `true` |
 | hocValidationAppliedTo | `arrayOf` | Its recommended that you use basic javascript validation. | `[]` |
 | nextButtonCls | `string` | Specify the next button class. | `'btn btn-primary pull-right'` |
 | nextButtonText | `string` | Specify the next button text. | `'Next'` |
 | nextTextOnFinalActionStep | `string` | Specify what the next button text should be in the step before the last. | `'Next'` |
-| onStepChange | `func` | Called when `Back` or `Next` button is clicked. | `() => {}` |
+| onStepChange | `func` | Called when 'Back' or 'Next' button is clicked. | `() => {}` |
 | prevBtnOnLastStep | `bool` | Show or hide the previous button in the last step (maybe the last step is a thank you message and you don't want them to go back). | `true` |
 | preventEnterSubmission | `bool` | By default if you hit the Enter key on any element it validates the form and moves to next step if validation passes. Use this to prevent this behaviour. | `true` |
 | showHeader | `bool` | Show or hide the header with steps. | `true` |

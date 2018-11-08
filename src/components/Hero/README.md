@@ -5,31 +5,31 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| backgroundColor | `string` | Background color of the hero. Default `"transparent"` | `'transparent'` |
-| callToAction | `string` | Array with buttons to show in hero. Default `[]`, each element must be a object with this structure: `{text: "TELL ME MORE", onClick: ({button})=>{}}` | `null` |
+| backgroundColor | `string` | Background color of the hero | `'transparent'` |
+| callToAction | `string` | Hero call to action | `null` |
 | callToActionColor | `string` |  | `''` |
 | callToActionOnClick | `func` |  | `() => {}` |
 | callToActionOutline | `bool` |  | `true` |
 | children | `union` | Elements to show inside of Hero. | `null` |
-| header | `string` | Header of the hero . Default `""` | `''` |
-| headerMarginBottom | `string` | Margin bottom of hero header. Default `"5"` | `'5'` |
-| headerTextColor | `string` | Color of hero header. Default `"light"` | `'light'` |
-| image | `string` | Url of background image. Default `""` | `''` |
+| header | `string` | Header of the hero | `''` |
+| headerMarginBottom | `string` | Margin bottom of hero header | `'5'` |
+| headerTextColor | `string` | Color of hero header | `'light'` |
+| image | `string` | Url of background image | `''` |
 | imgFilter | `string` | The filter property defines visual effects (like blur and saturation) to an element (often <img>). | `null` |
-| isCentered | `bool` | Define if content is centered. Default `true` | `true` |
-| isFixed | `bool` | Define if background image is fixed. Default `true` | `true` |
-| minHeight | `string` | Min height of hero. Default `"100vh"` | `'100vh'` |
-| opacity | `number` | Opacity level. Default `0` | `0` |
-| overlayColor | `string` | Overlay color of the component . Default `#fff` | `'#fff'` |
-| parallaxOffset | `number` | Offset of background image. Default `0` | `0` |
-| particles | `bool` | Define if component show particles animations. Default `true` | `true` |
+| isCentered | `bool` | Define if content is centered | `true` |
+| isFixed | `bool` | Define if background image is fixed | `true` |
+| minHeight | `string` | Min height of hero | `'100vh'` |
+| opacity | `number` | Opacity level | `0` |
+| overlayColor | `string` | Overlay color of the component | `'#fff'` |
+| parallaxOffset | `number` | Offset of background image | `0` |
+| particles | `bool` | Define if component show particles animations | `true` |
 | particlesParams | `objectOf` | Config params for particles animation. | `null` |
 | particlesSugar | `string` | Preconfigured params for particles, you can find this on particlesSugarMapping.js file. | `null` |
 | secondaryCallToActionColor | `string` |  | `''` |
 | secondaryCallToActionOnClick | `func` |  | `() => {}` |
 | secondaryCallToActionOutline | `bool` |  | `true` |
 | style | `string` | Customs styles to tramsform your Hero | `null` |
-| subHeader | `string` | Sub header of the hero . Default `""` | `''` |
-| subHeaderMarginBottom | `string` | Margin bottom of hero subheader. Default `"5"` | `'5'` |
-| subHeaderPosition | `string` | Position of hero sub header. Default `"bottom"`, can be `"top"` | `'bottom'` |
-| subHeaderTextColor | `string` | Color of hero subheader. Default `"light"` | `'light'` |
+| subHeader | `string` | Sub header of the hero | `''` |
+| subHeaderMarginBottom | `string` | Margin bottom of hero subheader | `'5'` |
+| subHeaderPosition | `string` | Position of hero sub header. Can be <code>'top'</code> or <code>'bottom'</code> | `'bottom'` |
+| subHeaderTextColor | `string` | Color of hero subheader | `'light'` |

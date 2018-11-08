@@ -5,7 +5,7 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| className | `string` | Class to apply to icon. Default `""` | `''` |
-| icon<font color="red">*</font> | `string` | Icon name. Default `undefined`, this prop is required |  |
+| className | `string` | Class to apply to icon. | `''` |
+| icon<font color="red">*</font> | `string` | Icon name. |  |
 | onClick | `func` | callback function to call when onClick event is fire. | `() => {}` |
 | title | `string` | Title of the icon. | `''` |

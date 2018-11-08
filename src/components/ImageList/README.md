@@ -6,7 +6,7 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | className | `string` | CSS class name for custom styles | `''` |
-| gray | `bool` | Define if image is gray scale. Default `false` | `false` |
-| imageWidth | `string` | Image width. Default `"100"` | `'100'` |
-| images | `arrayOf` | Images to show. Default `[]` | `[]` |
+| gray | `bool` | Define if image is gray scale | `false` |
+| imageWidth | `string` | Image width | `'100'` |
+| images | `arrayOf` | Images to show | `[]` |
 | padding | `string` | Padding to apply to Footer. | `'2'` |

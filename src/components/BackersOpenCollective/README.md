@@ -5,11 +5,11 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| className | `string` | Class name applied of the container. Default `"px-2"` | `''` |
+| className | `string` | Class name applied of the container | `''` |
 | collective<font color="red">*</font> | `string` | Name of collective in opencollective. |  |
-| imageBordered | `bool` | If true the image will have a solid border, default `true` | `true` |
-| imageGray | `bool` | If true the image doesn't show colors, default `false` | `false` |
-| imageRounded | `bool` | If true the image will be rounded as a circle, default `true` | `true` |
-| loadingClass | `string` | CSS class for loading animation, default `fa fa-circle-o-notch fa-spin` | `'fa fa-circle-o-notch fa-spin'` |
-| loadingText | `string` | Loading text to show, default `Loading...` | `'Loading...'` |
-| sortDirection | `string` | Sort direction to show the list of backers, default `desc` | `'desc'` |
+| imageBordered | `bool` | If true the image will have a solid border | `true` |
+| imageGray | `bool` | If true the image doesn't show colors | `false` |
+| imageRounded | `bool` | If true the image will be rounded as a circle | `true` |
+| loadingClass | `string` | CSS class for loading animation | `'fa fa-circle-o-notch fa-spin'` |
+| loadingText | `string` | Loading text to show | `'Loading...'` |
+| sortDirection | `string` | Sort direction to show the list of backers | `'desc'` |

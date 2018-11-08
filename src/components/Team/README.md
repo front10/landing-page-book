@@ -6,7 +6,7 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | columnClassName | `string` | Class name of apply to the colums. | `'col-12 col-sm- col-md'` |
-| contentAlign | `string` | Align of a component content. Can be <code>`center`</code>, <code>`left`</code> and <code>`right`</code> too | `'center'` |
+| contentAlign | `string` | Align of a component content. Can be <code>'center'</code>, <code>'left'</code> and <code>'right'</code> too | `'center'` |
 | imageBorder | `bool` | Establishes if image is with border. | `false` |
 | imageCircle | `bool` | Establishes if image is circled. | `true` |
 | imageShadow | `bool` | Establishes a shadow in user picture in each card. | `false` |

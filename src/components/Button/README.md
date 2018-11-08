@@ -5,16 +5,16 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| active | `bool` | Define if button is active. Default `false` | `false` |
-| ariaLabel | `string` | Aria label of the button. Default `""` | `''` |
-| children | `union` | Button styles. Default `""` | `null` |
-| className | `string` | Class to apply to button. Default `""` | `''` |
-| color | `string` | Color to apply to button. Default `"default"` | `'light'` |
-| disabled | `bool` | Disable or enable button. Default `false` | `false` |
-| loading | `bool` | Show loading mode. Default `false` | `false` |
-| loadingClass | `string` | Class to show loading indicator. Default `"fa fa-circle-o-notch fa-spin"` | `'fa fa-circle-o-notch fa-spin'` |
+| active | `bool` | Define if button is active | `false` |
+| ariaLabel | `string` | Aria label of the button | `''` |
+| children | `union` | Button styles | `null` |
+| className | `string` | Class to apply to button | `''` |
+| color | `string` | Color to apply to button | `'light'` |
+| disabled | `bool` | Disable or enable button | `false` |
+| loading | `bool` | Show loading mode | `false` |
+| loadingClass | `string` | Class to show loading indicator | `'fa fa-circle-o-notch fa-spin'` |
 | onClick | `func` | Called when button is clicked | `() => {}` |
-| outline | `bool` | Define if button is only with border. Default `false` | `false` |
-| size | `string` | Button size, can be `lg` or `sm`. Default `""` | `''` |
-| tooltip | `string` | Button tooltip. Default `""` | `''` |
-| type | `string` | Type of the button. Default `"button"` | `'button'` |
+| outline | `bool` | Define if button is only with border | `false` |
+| size | `string` | Button size. Can be <code>'lg'</code>, <code>'sm'</code> | `''` |
+| tooltip | `string` | Button tooltip | `''` |
+| type | `string` | Type of the button | `'button'` |

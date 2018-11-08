@@ -6,7 +6,7 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | children | `union` | List of element to show inside as childrens. | `null` |
-| className | `string` | Class name of header. Default `""` | `''` |
-| icon | `string` | Icon to show in component. Default `""` | `''` |
-| textAlign | `string` | Icon to show in component. Default `""` | `null` |
-| type | `string` | Type of tag element. Default `"h1"`, can be `h1`, `h2`, `h3`, `h4`, `h5`, `h6` | `'h1'` |
+| className | `string` | Class name of header | `''` |
+| icon | `string` | Icon to show in component | `''` |
+| textAlign | `string` | Icon to show in component | `null` |
+| type | `string` | Type of tag element. Can be <code>'h1'</code>, <code>'h2'</code>, <code>'h3'</code>, <code>'h4'</code>, <code>'h5'</code> and <code>'h6'</code> | `'h1'` |

@@ -15,7 +15,7 @@
 | onError | `func` | Called when an error occurs whilst attempting to play media | `() => {}` |
 | onPause | `func` | Called when media is paused | `() => {}` |
 | onPlay | `func` | Called when media starts or resumes playing after pausing or buffering | `() => {}` |
-| onProgress | `func` | Callback containing played and loaded progress as a fraction (`{ played: 0.12, playedSeconds: 11.3, loaded: 0.34, loadedSeconds: 16.7 }`) | `() => {}` |
+| onProgress | `func` | Callback containing played and loaded progress as a fraction ('{ played: 0.12, playedSeconds: 11.3, loaded: 0.34, loadedSeconds: 16.7 }') | `() => {}` |
 | onReady | `func` | Called when media is loaded and ready to play. If playing is set to true, media will play immediately | `() => {}` |
 | onSeek | `func` | Called when media seeks with seconds parameter | `() => {}` |
 | onStart | `func` | Called when media starts playing | `() => {}` |

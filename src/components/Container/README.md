@@ -6,5 +6,5 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | children | `union` | Childrens | `null` |
-| className | `string` | Class of the component. Default `""` | `''` |
-| fluid | `bool` | A fluid container is shown. Default `false` | `false` |
+| className | `string` | Class of the component | `''` |
+| fluid | `bool` | A fluid container is shown | `false` |

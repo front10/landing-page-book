@@ -5,6 +5,6 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| className | `string` | Class to apply to icon. Default `""` | `''` |
-| companies | `arrayOf` | Companies to show. Default `[]` | `[]` |
-| gray | `bool` | Define if image is gray scale. Default `false` | `false` |
+| className | `string` | Class to apply to icon | `''` |
+| companies | `arrayOf` | Companies to show | `[]` |
+| gray | `bool` | Define if image is gray scale | `false` |

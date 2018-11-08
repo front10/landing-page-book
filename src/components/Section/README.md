@@ -8,6 +8,5 @@
 | children | `union` | Elements to show inside of Section. | `null` |
 | className | `string` | Section css class. | `''` |
 | contentClassName | `string` | Section content css class. | `''` |
-| gray | `bool` | If section background color is gray. | `false` |
 | subTitle | `string` | Section subtitle. | `''` |
 | title | `string` | Section title. | `''` |

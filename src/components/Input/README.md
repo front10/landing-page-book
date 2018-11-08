@@ -5,14 +5,14 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| className | `string` | CSS Class to apply to input. Default `""` | `''` |
-| icon | `string` | Icon to show with input. Default `""` | `''` |
-| iconAlign | `string` | Align of icon. Default `"left"`, can be `"left"` and `"right"` | `'left'` |
-| id | `string` | Input id. Default `""` | `''` |
-| label | `string` | Label to show on input top. Default `""` | `''` |
-| name | `string` | Input name. Default `""` | `''` |
+| className | `string` | CSS Class to apply to input. | `''` |
+| icon | `string` | Icon to show with input. | `''` |
+| iconAlign | `string` | Align of icon. Can be <code>'left'</code> and <code>'right'</code> | `'left'` |
+| id | `string` | Input id. | `''` |
+| label | `string` | Label to show on input top. | `''` |
+| name | `string` | Input name. | `''` |
 | onChange | `func` | Called when input change. Params `{value}` | `() => {}` |
-| placeholder | `string` | Input placeholder. Default `""` | `''` |
-| size | `string` | Size of input, can be `lg` or `sm`. Default `""` | `''` |
-| type | `string` | Input type. Default `"text"`, can be `text`, `number`, `email` and `textarea` | `'text'` |
-| value | `string` | Input value. Default `""` | `''` |
+| placeholder | `string` | Input placeholder. | `''` |
+| size | `string` | Size of input. Can be <code>'lg'</code> or <code>'sm'</code>. | `''` |
+| type | `string` | Input type. Can be <code>'text'</code>, <code>'number'</code>, <code>'email'</code> and <code>'textarea'</code> | `'text'` |
+| value | `string` | Input value. | `''` |

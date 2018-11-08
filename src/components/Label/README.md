@@ -5,6 +5,6 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| className | `string` | CSS Class to apply to label. Default `""` | `''` |
-| content | `string` | Content of label. Default `""` | `''` |
-| htmlFor | `string` | Id of input. Default `""` | `''` |
+| className | `string` | CSS Class to apply to label. | `''` |
+| content | `string` | Content of label. | `''` |
+| htmlFor | `string` | Id of input. | `''` |

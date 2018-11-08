@@ -6,4 +6,4 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | children | `union` | Elements to show as childrens | `null` |
-| className | `string` | Class name of the row. Default `""` | `'form-group'` |
+| className | `string` | Class name of the row. | `'form-group'` |

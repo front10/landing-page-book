@@ -5,11 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [2.0.0] 2018-11-08 beta
+
+#### Added
+
+- New version with gastby.
+
 ## [1.4.0] Unreleased
 
 #### Added
 
-- [#](https://github.com/front10/landing-page-book/pull/151) Added props `alignHeader` to  Section component, by [@jlfalcon3589]
+- [#](https://github.com/front10/landing-page-book/pull/151) Added props `alignHeader` to Section component, by [@jlfalcon3589]
 - [#151](https://github.com/front10/landing-page-book/pull/151) Props `circle`, `rounded`, `active`, `size`, `color`, `style` to component Button, by [@rootlinux2](https://github.com/rootlinux2)
 - [#151](https://github.com/front10/landing-page-book/pull/151) Props `btnRounded`, `btnDisabled` to component GithubButton, by [@rootlinux2](https://github.com/rootlinux2)
 - [#151](https://github.com/front10/landing-page-book/pull/151) CSS variable --GithubDetail_speech-rounded to component GithubButton, by [@rootlinux2](https://github.com/rootlinux2)

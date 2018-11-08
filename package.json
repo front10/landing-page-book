@@ -1,6 +1,6 @@
 {
     "name": "@front10/landing-page-book",
-    "version": "1.3.1",
+    "version": "2.0.0-beta.0",
     "description": "A react library for landing page",
     "main": "dist/index.js",
     "dependencies": {
@@ -55,7 +55,7 @@
     "bugs": {
         "url": "https://github.com/front10/landing-page-book/issues"
     },
-    "homepage": "https://rootlinux2.github.io/landing-page-book/",
+    "homepage": "https://front10.com/landing-page-book/",
     "scripts": {
         "build-static-pages": "node scripts/build-static-pages.js",
         "build": "rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby build --prefix-paths",
@@ -74,7 +74,7 @@
         "transpile": "babel src -d dist --copy-files",
         "prepublishOnly": "gulp compile-components-legacy & gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & npm run transpile",
         "test-browser": "node ./selenium/browser-test.js",
-        "deploy": "gh-pages -d public -b gh-pages -r git@github.com:rootlinux2/landing-page-book.git"
+        "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-book.git"
     },
     "devDependencies": {
         "@kadira/storybook-addon-options": "^1.0.2",

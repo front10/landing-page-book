@@ -1,354 +1,354 @@
 {
-  "margin": {
-    "type": {
-      "name": "string"
+    "margin": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Margin of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Margin of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "marginRight": {
-    "type": {
-      "name": "string"
+    "marginRight": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Margin right of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Margin right of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "marginLeft": {
-    "type": {
-      "name": "string"
+    "marginLeft": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Margin left of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Margin left of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "marginTop": {
-    "type": {
-      "name": "string"
+    "marginTop": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Margin top of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Margin top of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "marginBottom": {
-    "type": {
-      "name": "string"
+    "marginBottom": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Margin bottom of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Margin bottom of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "padding": {
-    "type": {
-      "name": "string"
+    "padding": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Padding of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Padding of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "paddingRight": {
-    "type": {
-      "name": "string"
+    "paddingRight": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Padding right of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Padding right of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "paddingLeft": {
-    "type": {
-      "name": "string"
+    "paddingLeft": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Padding left of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Padding left of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "paddingTop": {
-    "type": {
-      "name": "string"
+    "paddingTop": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Padding top of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Padding top of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "paddingBottom": {
-    "type": {
-      "name": "string"
+    "paddingBottom": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Padding bottom of the component, can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Padding bottom of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "rounded": {
-    "type": {
-      "name": "bool"
+    "rounded": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Edges are rounded. Default is `false`",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Edges are rounded. Default is `false`",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "roundedRight": {
-    "type": {
-      "name": "bool"
+    "roundedRight": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Edges to the right are rounded. Default is `false`",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Edges to the right are rounded. Default is `false`",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "roundedLeft": {
-    "type": {
-      "name": "bool"
+    "roundedLeft": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Edges to the left are rounded. Default is `false`",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Edges to the left are rounded. Default is `false`",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "roundedTop": {
-    "type": {
-      "name": "bool"
+    "roundedTop": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Edges to the top are rounded. Default is `false`",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Edges to the top are rounded. Default is `false`",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "roundedBottom": {
-    "type": {
-      "name": "bool"
+    "roundedBottom": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Edges to the bottom are rounded. Default is `false`",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Edges to the bottom are rounded. Default is `false`",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "roundedCircle": {
-    "type": {
-      "name": "bool"
+    "roundedCircle": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "If the edges form a circle. Default is `false`",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "If the edges form a circle. Default is `false`",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "roundedNone": {
-    "type": {
-      "name": "bool"
+    "roundedNone": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Edges are not rounded. Default is `false`",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Edges are not rounded. Default is `false`",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "bgColor": {
-    "type": {
-      "name": "string"
+    "bgColor": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Background color of the component, can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Background color of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "textColor": {
-    "type": {
-      "name": "string"
+    "textColor": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Text color of the component, can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Text color of the component",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "border": {
-    "type": {
-      "name": "bool"
+    "border": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Show component boder",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Show component boder",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "borderTop": {
-    "type": {
-      "name": "bool"
+    "borderTop": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Show component boder top",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Show component boder top",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "borderRight": {
-    "type": {
-      "name": "bool"
+    "borderRight": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Show component boder right",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Show component boder right",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "borderLeft": {
-    "type": {
-      "name": "bool"
+    "borderLeft": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Show component boder left",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Show component boder left",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "borderBottom": {
-    "type": {
-      "name": "bool"
+    "borderBottom": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Show component boder bottom",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Show component boder bottom",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "borderNone": {
-    "type": {
-      "name": "bool"
+    "borderNone": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Hide component boder bottom",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Hide component boder bottom",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "textAlign": {
-    "type": {
-      "name": "string"
+    "textAlign": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Text alignment. can be `left`, `center` and `right`",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Text alignment. Can be `left`, `center` and `right`",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "textTransform": {
-    "type": {
-      "name": "string"
+    "textTransform": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Text text transform. can be `lowercase`, `uppercase`, `capitalize`",
+        "defaultValue": {
+            "value": "null",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Text text transform. Can be `lowercase`, `uppercase`, `capitalize`",
-    "defaultValue": {
-      "value": "null",
-      "computed": false
-    }
-  },
-  "textTruncate": {
-    "type": {
-      "name": "bool"
+    "textTruncate": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Truncate the paragraph",
+        "defaultValue": {
+            "value": "false",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Truncate the paragraph. Default `false",
-    "defaultValue": {
-      "value": "false",
-      "computed": false
-    }
-  },
-  "textMonoSpace": {
-    "type": {
-      "name": "bool"
+    "textMonoSpace": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Show content using mono spaced text",
+        "defaultValue": {
+            "value": "false",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Show content using mono spaced text",
-    "defaultValue": {
-      "value": "false",
-      "computed": false
-    }
-  },
-  "fontItalic": {
-    "type": {
-      "name": "bool"
+    "fontItalic": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Show content using an italic font",
+        "defaultValue": {
+            "value": "false",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Show content using an italic font",
-    "defaultValue": {
-      "value": "false",
-      "computed": false
-    }
-  },
-  "fontWeight": {
-    "type": {
-      "name": "string"
+    "fontWeight": {
+        "type": {
+            "name": "string"
+        },
+        "required": false,
+        "description": "Weight of the font. can be `bold`, `normal`, `light`",
+        "defaultValue": {
+            "value": "normal",
+            "computed": false
+        }
     },
-    "required": false,
-    "description": "Weight of the font. Can be `bold`, `normal`, `light`",
-    "defaultValue": {
-      "value": "normal",
-      "computed": false
+    "style": {
+        "type": {
+            "name": "object"
+        },
+        "required": false,
+        "description": "In case you wanted to pass custom styles",
+        "defaultValue": {
+            "value": "{}",
+            "computed": false
+        }
     }
-  },
-  "style": {
-    "type": {
-      "name": "object"
-    },
-    "required": false,
-    "description": "In case you wanted to pass custom styles",
-    "defaultValue": {
-      "value": "{}",
-      "computed": false
-    }
-  }
 }

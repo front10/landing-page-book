@@ -35,7 +35,7 @@ export default {
         <Header  textAlign="center" type="h5" className="text-warning">React components to build!</Header>
         <div className="mt-5">
             <Button color="warning" className="mr-1">Explore</Button>
-            <GithubButton btnType="star" btnText="Stars" username="front10" repository="landing-page-book"/>
+            <GithubButton type="star" text="Stars" username="front10" repository="landing-page-book"/>
         </div>
     </Container>
 </Hero>`,

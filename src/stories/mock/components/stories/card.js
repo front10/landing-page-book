@@ -90,10 +90,10 @@ export default {
         image="/images/card/image4.jpg"
     >
         <Row>
-            <Column className="text-left">
+            <Column>
                 <Link href="https://es.wikipedia.org/wiki/Saturno_(planeta)" target="_blank">See more</Link>
             </Column>
-            <Column className="text-right">
+            <Column>
                 <span className="text-muted">21 views</span>
             </Column>
         </Row>

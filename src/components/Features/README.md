@@ -5,6 +5,7 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
+| buttonColor | `string` | Establishes color button. Default `primary`, can be `secondary`, `success`, `danger`, `warning`, `info`, `light`, `dark` and `link`. | `'primary'` |
 | buttonOutline | `bool` | Establishes if `See more` button is outline. Default `true` | `true` |
 | columnClassName | `string` | CSS class name for column, Default `col-12 col-sm- col-md` | `'col-12 col-sm- col-md'` |
 | contentAlign | `string` | Align of a component content. Default `"center"`, can be `left` and `right` too | `'center'` |

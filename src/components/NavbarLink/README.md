@@ -10,3 +10,4 @@
 | href | `string` | Url to redirect on intem click. Default `"#"` | `'#'` |
 | onClick | `func` | Called when link is clicked | `() => {}` |
 | target | `string` | Link target. Default `""` | `''` |
+| textColor |  |  | `'light'` |

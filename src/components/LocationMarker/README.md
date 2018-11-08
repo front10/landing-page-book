@@ -5,7 +5,7 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| color | `string` | Marker color. Default `"#d43131"` | `'#d43131'` |
+| className | `string` | Class to apply. Default `""` | `''` |
 | icon | `string` | Icon to show in the marker. Default `"fa fa-map-marker"` | `'fa fa-map-marker'` |
 | lat<font color="red">*</font> | `number` | Marker latitude. Default `undefined`, this field is required |  |
 | lng<font color="red">*</font> | `number` | Marker longitude. Default `undefined`, this field is required |  |

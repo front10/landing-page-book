@@ -15,15 +15,15 @@ class Label extends Component {
 
 Label.propTypes = {
   /**
-   * Content of label. Default `""`
+   * Content of label.
    */
   content: PropTypes.string,
   /**
-   * CSS Class to apply to label. Default `""`
+   * CSS Class to apply to label.
    */
   className: PropTypes.string,
   /**
-   * Id of input. Default `""`
+   * Id of input.
    */
   htmlFor: PropTypes.string
 };

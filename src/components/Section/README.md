@@ -6,8 +6,8 @@
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
 | children | `union` | Elements to show inside of Section. | `null` |
-| className | `string` | Section css class. Default `""` | `''` |
-| contentClassName | `string` | Section content css class. Default `""` | `''` |
-| gray | `bool` | If section background color is gray. Default `false` | `false` |
-| subTitle | `string` | Section subtitle. Default `""` | `''` |
-| title | `string` | Section title. Default `""` | `''` |
+| className | `string` | Section css class. | `''` |
+| contentClassName | `string` | Section content css class. | `''` |
+| gray | `bool` | If section background color is gray. | `false` |
+| subTitle | `string` | Section subtitle. | `''` |
+| title | `string` | Section title. | `''` |

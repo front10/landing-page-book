@@ -63,55 +63,55 @@ class Team extends Component {
 
 Team.propTypes = {
   /**
-   * Show or hide image. Default `true`
+   * Show or hide image.
    */
   showImage: PropTypes.bool,
   /**
-   * Show or hide name. Default `true`
+   * Show or hide name.
    */
   showName: PropTypes.bool,
   /**
-   * Show or hide job. Default `true`
+   * Show or hide job.
    */
   showJob: PropTypes.bool,
   /**
-   * Show or hide summary. Default `true`
+   * Show or hide summary.
    */
   showSummary: PropTypes.bool,
   /**
-   * Establishes if image is circled. Default `true`
+   * Establishes if image is circled.
    */
   imageCircle: PropTypes.bool,
   /**
-   * Establishes if image is with border. Default `false`
+   * Establishes if image is with border.
    */
   imageBorder: PropTypes.bool,
   /**
-   * Establishes if social icon is gray scale. Default `false`
+   * Establishes if social icon is gray scale.
    */
   socialGray: PropTypes.bool,
   /**
-   * Establishes a shadow in each card. Default `false`
+   * Establishes a shadow in each card.
    */
   shadow: PropTypes.bool,
   /**
-   * Establishes a shadow in user picture in each card. Default `false`
+   * Establishes a shadow in user picture in each card.
    */
   imageShadow: PropTypes.bool,
   /**
-   * Color of each card. Default `transparent`
+   * Color of each card.
    */
   topColor: PropTypes.string,
   /**
-   * Align of a component content. Default `"center"`, can be `left` and `right` too
+   * Align of a component content. Can be <code>'center'</code>, <code>'left'</code> and <code>'right'</code> too
    */
   contentAlign: PropTypes.string,
   /**
-   * Class name of apply to the colums. Default `"col-12 col-sm- col-md"`
+   * Class name of apply to the colums.
    */
   columnClassName: PropTypes.string,
   /**
-   * Array of members to show. Default `[]`, see example section.
+   * Array of members to show.
    */
   members: PropTypes.arrayOf(
     PropTypes.shape({

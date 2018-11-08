@@ -82,27 +82,27 @@ class Social extends Component {
 
 Social.propTypes = {
   /**
-   * Define if image is gray scale. Default `false`
+   * Define if image is gray scale.
    */
   gray: PropTypes.bool,
   /**
-   * Show buttons rounded or square. Default `true`
+   * Show buttons rounded or square.
    */
   rounded: PropTypes.bool,
   /**
-   * Type of button. Default `"email"`, possibles values are: `facebook`, `google`, `linkedin`, `twitter`, `telegram`, `whatsapp`, `pinterest`, `vk`, `ok`, `reddit`, `tumblr`, `livejournal`, `email`, `viber`
+   * Type of button. Possibles values are: <code>'email'</code>, <code>'facebook'</code>, <code>'google'</code>, <code>'linkedin'</code>, <code>'twitter'</code>, <code>'telegram'</code>, <code>'whatsapp'</code>, <code>'pinterest'</code>, <code>'vk'</code>, <code>'ok'</code>, <code>'reddit'</code>, <code>'tumblr'</code>, <code>'livejournal'</code>, <code>'email'</code>, <code>'viber'</code>
    */
   type: PropTypes.string,
   /**
-   * Url to share. Default `""`
+   * Url to share.
    */
   url: PropTypes.string,
   /**
-   * Indicates if it is redirected to a link within the social network or a floating window is displayed to share the link using the social network. Default `true`
+   * Indicates if it is redirected to a link within the social network or a floating window is displayed to share the link using the social network.
    */
   directLink: PropTypes.bool,
   /**
-   * Class to apply. Default `""`
+   * Class to apply.
    */
   className: PropTypes.string
 };

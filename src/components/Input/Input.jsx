@@ -65,43 +65,43 @@ class Input extends Component {
 
 Input.propTypes = {
   /**
-   *  CSS Class to apply to input. Default `""`
+   *  CSS Class to apply to input.
    */
   className: PropTypes.string,
   /**
-   *  Input type. Default `"text"`, can be `text`, `number`, `email` and `textarea`
+   *  Input type. Can be <code>'text'</code>, <code>'number'</code>, <code>'email'</code> and <code>'textarea'</code>
    */
   type: PropTypes.string,
   /**
-   * Input id. Default `""`
+   * Input id.
    */
   id: PropTypes.string,
   /**
-   * Input name. Default `""`
+   * Input name.
    */
   name: PropTypes.string,
   /**
-   * Input value. Default `""`
+   * Input value.
    */
   value: PropTypes.string,
   /**
-   * Input placeholder. Default `""`
+   * Input placeholder.
    */
   placeholder: PropTypes.string,
   /**
-   *  Icon to show with input. Default `""`
+   *  Icon to show with input.
    */
   icon: PropTypes.string,
   /**
-   * Align of icon. Default `"left"`, can be `"left"` and `"right"`
+   * Align of icon. Can be <code>'left'</code> and <code>'right'</code>
    */
   iconAlign: PropTypes.string,
   /**
-   * Label to show on input top. Default `""`
+   * Label to show on input top.
    */
   label: PropTypes.string,
   /**
-   * Size of input, can be `lg` or `sm`. Default `""`
+   * Size of input. Can be <code>'lg'</code> or <code>'sm'</code>.
    */
   size: PropTypes.string,
   /**

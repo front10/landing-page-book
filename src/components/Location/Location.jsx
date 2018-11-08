@@ -29,27 +29,27 @@ class Location extends Component {
 
 Location.propTypes = {
   /**
-   * Latitude to initial center map. Default `0`
+   * Latitude to initial center map.
    */
   lat: PropTypes.number,
   /**
-   * Longitude to initial center map. Default `0`
+   * Longitude to initial center map.
    */
   lng: PropTypes.number,
   /**
-   * Zoom level of map. Default `1`
+   * Zoom level of map.
    */
   zoom: PropTypes.number,
   /**
-   * Key of google maps project. Default `""`
+   * Key of google maps project.
    */
   apiKey: PropTypes.string,
   /**
-   * Language of map. Default `"en"`
+   * Language of map.
    */
   language: PropTypes.string,
   /**
-   * Markers to shoe in the map. Default `[]`, see example section
+   * Markers to shoe in the map.
    */
   markers: PropTypes.arrayOf(
     PropTypes.shape({
@@ -60,7 +60,7 @@ Location.propTypes = {
     })
   ),
   /**
-   * Class to apply. Default `""`
+   * Class to apply.
    */
   className: PropTypes.string
 };

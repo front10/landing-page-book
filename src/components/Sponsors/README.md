@@ -5,5 +5,5 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| gray | `bool` | Define if image is gray scale. Default `false` | `false` |
-| sponsors | `arrayOf` | Companies to show. Default `[]`, see example section | `[]` |
+| gray | `bool` | Define if image is gray scale. | `false` |
+| sponsors | `arrayOf` | Companies to show. | `[]` |

@@ -33,7 +33,7 @@ class GridComponent extends React.Component {
             >
               <Card
                 textAlign="center"
-                border={false}
+                borderNone
                 margin="2"
                 showBorder={false}
                 imageCircle={false}

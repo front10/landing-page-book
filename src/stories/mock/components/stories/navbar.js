@@ -14,7 +14,7 @@ export default {
               fixed={false}
               brandName=""
               brandLink="https://front10.com"
-              brandLogo="/images/logo/front10.png"
+              brandLogo="https://front10.com/landing-page-book/images/logo/front10.png"
               expand="md"
               rightItems={[
                   {title: 'Services'},
@@ -120,7 +120,7 @@ export default {
       summary: '',
       code: `<Navbar 
       transparent={false} fixed={false} brandName="Front10" 
-      brandLink="https://front10.com" brandLogo="/images/logo/front10.png" expand="md"
+      brandLink="https://front10.com" brandLogo="https://front10.com/landing-page-book/images/logo/front10.png" expand="md"
   >
       <NavbarNav alignItems="right">
           <Input placeholder="Search" icon="fa fa-search" />

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ImageList from '../ImageList';
 import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 
 class BuiltWith extends Component {
   constructor(props) {
@@ -11,7 +12,14 @@ class BuiltWith extends Component {
 
   render() {
     const { gray, companies, className } = this.props;
-    return <ImageList gray={gray} images={companies} className={className} />;
+    return (
+      <ImageList
+        gray={gray}
+        images={companies}
+        className={className}
+        {...extractProps('image', this.props)}
+      />
+    );
   }
 }
 

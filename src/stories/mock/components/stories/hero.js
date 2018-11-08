@@ -30,7 +30,7 @@ export default {
       summary: '',
       code: `<Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars" minHeight="75vh">
     <Container>
-        <Image src="/images/logo/front10.png" rounded width="160" alt="Front10 logo" className="main-logo"/>
+        <Image src="https://front10.com/landing-page-book/images/logo/front10.png" rounded width="160" alt="Front10 logo" className="main-logo"/>
         <Header textAlign="center" className="text-warning">Landing Page Book</Header>
         <Header  textAlign="center" type="h5" className="text-warning">React components to build!</Header>
         <div className="mt-5">
@@ -45,7 +45,7 @@ export default {
       name: 'With image',
       summary: '',
       code: `<Hero
-    image="/images/hero/alone-architecture-buildings-220444.jpg"
+    image="https://front10.com/landing-page-book/images/hero/alone-architecture-buildings-220444.jpg"
     particles={false}
     minHeight="50vh"
 >
@@ -65,7 +65,7 @@ export default {
       name: 'With image (blurred)',
       summary: '',
       code: `<Hero
-    image="/images/hero/alone-architecture-buildings-220444.jpg"
+    image="https://front10.com/landing-page-book/images/hero/alone-architecture-buildings-220444.jpg"
     particles={false}
     imgFilter="blur(2px)"
     minHeight="50vh"
@@ -86,7 +86,7 @@ export default {
       name: 'With image (gray)',
       summary: '',
       code: `<Hero
-    image="/images/hero/alone-architecture-buildings-220444.jpg"
+    image="https://front10.com/landing-page-book/images/hero/alone-architecture-buildings-220444.jpg"
     particles={false}
     imgFilter="grayscale(90%)"
     minHeight="50vh"

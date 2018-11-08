@@ -23,7 +23,7 @@ export default {
         name: 'Step 2',
         component: (
             <Container>
-                <Gif autoplay image="/images/gif/write.gif" />
+                <Gif autoplay image="https://front10.com/landing-page-book/images/gif/write.gif" />
             </Container>
         )
     },

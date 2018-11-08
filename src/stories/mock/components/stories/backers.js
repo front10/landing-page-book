@@ -5,6 +5,7 @@ export default {
   summary:
     'A person, institution, or country that supports something, especially financially. Its important show the people who support your idea.',
   import: ``,
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

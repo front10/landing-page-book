@@ -3,6 +3,8 @@ export default {
   summary:
     'Something that is given to a charity, especially a sum of money. Allow your users to donate easily and safely.',
   import: ``,
+  withStyles: true,
+  extractProps: ['image'],
   stories: [
     {
       name: 'Basic',

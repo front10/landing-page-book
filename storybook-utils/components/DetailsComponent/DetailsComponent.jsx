@@ -8,6 +8,8 @@ import withStylesMap from '../../../src/helpers/WithStyles/map.json';
 import PropsManager from '../PropsManager';
 import './style.css';
 
+const github =
+  'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFAAAABQCAMAAAC5zwKfAAABZVBMVEUAAAAfQWAfQF8fQmH///8fQWD///8eQV8eQGAxUW0eQGAgQmD///8lR2T1+fn///////////8gQmAkRGRtgpcuTmr6+vsfQWAgQmEiQ2IjRGIkRWQlRmQmR2UnSGYoSGYpSWcqSmcrS2kuTmswT2wxUGwyUW4zUm42VHA4V3I8WnVAXXhEYHpFYXtKZn9LZn9MZ4BNaIBOaIFTbYVUboVVb4dcdYxgeI5lfZJmfZNqgJVtg5dyiJt5jaB6jqF7kKJ9kaN+kaN/kqSBlKWBlKaFl6iHmaqImqqImquJm6uKnKyPoK+UpLObqrijsb6lsr+mtMCotcGptsKqt8Ort8OtusWvu8ayvci6xc7DzNXI0NjJ0tnL09rQ2N7S2d/T2uDU2uDV2+HW3OLX3eLa4OXg5enh5urk6Ozp7O/t7/Lv8vTx8/Xz9fb09vj3+Pn4+fr5+vv6+/v7+/z7/P38/f3+/v7///+Rr4cJAAAAF3RSTlMAcnN0dHV1dnd3f4CAgoSFhoeIzdvs/pTfOK0AAAABYktHRHYxY8lBAAAB/ElEQVRYw63Wd1vUQBTF4WMvsbcbQBcQVKxYEOyIsnYRe0cRe1nRZc/n94/AkiwT9iae3wd4n8xMnrmDHaYNiNSgWIRahFqEWoRahFqEWoRahFqEWkQ5sdsHesX4yrdbPtAnxhPk7wEf6BLHSfKeE2wrHh57+JMk33vB5cWeB3UmNQ55weXE/ndsNjPoBfPFrldMVa96wVxxgtkmO51gjjjUaAH5PHaCYfEFl3TTC7aKHWZWqS0F5057wRaxWjU7xkBT+71gVrxc67cTIZD117cP+sCMeIlnra/BcLW7sQtMi/d5ymw6B+SPPh+YEj/xgNnVPPC6OcGmeJTca7bvc9h7GrvBBfE4OWRmw6Fd/HWnw/zgvNj5nW96rev8hwD4zPvbZMRr5PRoeMU3CoKJGD8h/wa9uSNFwXnxUdjjpBUGEZnZuT9hb6pSAsTmnbv2LBofU2f9dsDKgNie/qgLI18W5srjipUDsW3R+9pjlbEZkrMvz3hHQKCtzdtlOBlXJwe73UMq2NrEmx0p8lhqL7b1CoBY7fGKgNjEiyYFsWW3GMQGNYgVarC9WBTESjXYToRahFqEWoRaLAdilRrMF6EWoRahFqEWoRb/C8QaNRgQoRahFqEWoRYFINapwYwItQi1CLUItQi1qAOxXg0mohLERjWISA0iUoOI/gEF0t9LkkpxtQAAAABJRU5ErkJggg==';
 const image =
   'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAAS1BMVEUAAABmd4hggI9peIdkeoVidoloe45mdYpmeIpneIpmeItneIpmeIpmeYpmd4pmeIlmeIpmeIpmeIpmeIpmeItmeIpmeIpmeIr////qXIHVAAAAF3RSTlMADxARFxobI7u9xcfIy83O0tTY2tvu9cW9EVEAAAABYktHRBibaYUeAAAATElEQVQY02NgIA6wCHCh8gXFuZH5bMLiPIx4+ED1QuzMUAAS4BdHAjxAAT5xcTFRGOAECjDxiouwoVgKFBHGFGFFdxgPmtN5OBiIBgBwewSBxP8LIAAAAABJRU5ErkJggg==';
 
@@ -92,12 +94,20 @@ class DetailsComponent extends React.Component {
               {name}
             </Header>
             <Link
-              className="btn btn-everblue pull-right pt-2"
+              className="github-component btn btn-everblue pull-right pt-2"
               href={linkGithub}
               tooltip="View on Github"
               target="_blank"
             >
               <span>View on Github</span>
+            </Link>
+            <Link
+              href={linkGithub}
+              className="git-component-fixed"
+              tooltip="View on Github"
+              target="_blank"
+            >
+              <img src={github} alt="View on Github" />
             </Link>
           </Container>
         </div>

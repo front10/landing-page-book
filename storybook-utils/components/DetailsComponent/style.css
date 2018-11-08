@@ -189,3 +189,30 @@ p {
 .title-component{
   color: #1f4160;
 }
+
+
+.git-component-fixed{
+  position: absolute;
+  right: 0px;
+  top: 56px;
+  display: none;
+}
+
+
+@media only screen and (max-width: 400px) {
+  .github-component{
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .git-component-fixed{
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 275px) {
+  .git-component-fixed{
+    display: none;
+  }
+}

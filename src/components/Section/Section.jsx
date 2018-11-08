@@ -6,9 +6,9 @@ import withStyles from '../../helpers/WithStyles';
 
 class Section extends Component {
   render() {
-    const { gray, title, subTitle, children, className, contentClassName } = this.props;
+    const { title, subTitle, children, className, contentClassName } = this.props;
     return (
-      <section className={`Section ${gray ? 'Section--gray' : ''} ${className}`}>
+      <section className={`Section ${className}`}>
         <div className={`p-5 ${contentClassName}`}>
           {(title || subTitle) && (
             <div className="mb-5 text-center">
@@ -43,10 +43,6 @@ class Section extends Component {
 
 Section.propTypes = {
   /**
-   * If section background color is gray. Default `false`
-   */
-  gray: PropTypes.bool,
-  /**
    * Section title. Default `""`
    */
   title: PropTypes.string,
@@ -68,7 +64,6 @@ Section.propTypes = {
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
 };
 Section.defaultProps = {
-  gray: false,
   title: '',
   subTitle: '',
   className: '',

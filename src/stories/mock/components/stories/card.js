@@ -51,7 +51,7 @@ export default {
     {
       name: 'With Footer',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
     <Card
         title="Saturn"
         subTitle=""
@@ -67,7 +67,7 @@ export default {
             </Column>
         </Row>
     </Card>
-</React.Fragment>`,
+</>`,
       tabsActive: [],
       columnSize: 'col col-md-6',
       columnAlign: 'center'

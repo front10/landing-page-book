@@ -22,7 +22,7 @@ export default {
       code: `<Section title="WHAT WE DO" subTitle="One Look Is Worth A Thousand Words."  textAlign="center">
     <Container>
         <Video source="https://youtu.be/dCrLwWdju68"/>
-        <Button color="warning" className="mt-5">Explore</Button>
+        <Button color="warning">Explore</Button>
     </Container>
 </Section>`,
       tabsActive: []

@@ -29,14 +29,14 @@ export default {
     {
       name: 'Like a button',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
     <Link className="btn btn-primary mr-1" href="https://github.com/front10/landing-page-book" tooltip="This is a tooltip" target="_blank">
         <Icon icon="fa fa-github" /> View code on Github
     </Link>
     <Link className="btn btn-outline-success mr-1" href="https://front10.com/#contactForm" tooltip="Contact us" target="_blank">
         <Icon icon="fa fa-info-circle" /> Contact us
     </Link>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     }
   ]

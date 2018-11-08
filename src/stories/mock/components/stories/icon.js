@@ -34,25 +34,25 @@ export default {
     {
       name: 'Differents sizes',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
     <Icon icon="fa fa-home" className="fa-1x" />
     <Icon icon="fa fa-home" className="fa-2x" />
     <Icon icon="fa fa-home" className="fa-3x" />
     <Icon icon="fa fa-home" className="fa-4x" />
     <Icon icon="fa fa-home" className="fa-5x" />
-</React.Fragment>`,
+</>`,
       tabsActive: []
     },
     {
       name: 'Differents colors',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
     <Icon icon="fa fa-home" className="fa-1x text-primary" />
     <Icon icon="fa fa-home" className="fa-2x text-secondary" />
     <Icon icon="fa fa-home" className="fa-3x text-success" />
     <Icon icon="fa fa-home" className="fa-4x text-danger" />
     <Icon icon="fa fa-home" className="fa-5x text-warning" />
-</React.Fragment>`,
+</>`,
       tabsActive: []
     },
     {

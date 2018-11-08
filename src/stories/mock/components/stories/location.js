@@ -17,6 +17,7 @@ export default {
   name: 'Location',
   summary: 'A simple way to point out a place will be easier for users to locate.',
   import: ``,
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

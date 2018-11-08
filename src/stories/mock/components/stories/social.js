@@ -14,7 +14,7 @@ export default {
     {
       name: 'All',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
     <Social gray={false} type="email" rounded url="https://front10.com" />
     <Social gray={false} type="facebook" rounded url="https://front10.com" />
     <Social gray={false} type="google" rounded url="https://front10.com" />
@@ -29,7 +29,7 @@ export default {
     <Social gray={false} type="viber" rounded url="https://front10.com" />
     <Social gray={false} type="vk" rounded url="https://front10.com" />
     <Social gray={false} type="whatsapp" rounded url="https://front10.com" />
-</React.Fragment>`,
+</>`,
       tabsActive: []
     }
   ]

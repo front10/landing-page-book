@@ -7,6 +7,7 @@ exports.layouts = {
 }
 
 exports.components = {
+  "component---cache-dev-404-page-js": preferDefault(require("/mnt/data/Front10/Task/landing-page-book/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/mnt/data/Front10/Task/landing-page-book/src/pages/404.js")),
   "component---src-pages-components-analytics-js": preferDefault(require("/mnt/data/Front10/Task/landing-page-book/src/pages/components/analytics.js")),
   "component---src-pages-components-backers-js": preferDefault(require("/mnt/data/Front10/Task/landing-page-book/src/pages/components/backers.js")),
@@ -49,6 +50,7 @@ exports.components = {
 }
 
 exports.json = {
+  "dev-404-page.json": require("/mnt/data/Front10/Task/landing-page-book/.cache/json/dev-404-page.json"),
   "404.json": require("/mnt/data/Front10/Task/landing-page-book/.cache/json/404.json"),
   "components-analytics.json": require("/mnt/data/Front10/Task/landing-page-book/.cache/json/components-analytics.json"),
   "components-backers.json": require("/mnt/data/Front10/Task/landing-page-book/.cache/json/components-backers.json"),

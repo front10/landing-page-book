@@ -2,6 +2,7 @@
 const preferDefault = m => m && m.default || m
 
 exports.components = {
+  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/mnt/data/Front10/Task/landing-page-book/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/mnt/data/Front10/Task/landing-page-book/src/pages/404.js"),
   "component---src-pages-components-analytics-js": require("gatsby-module-loader?name=component---src-pages-components-analytics-js!/mnt/data/Front10/Task/landing-page-book/src/pages/components/analytics.js"),
   "component---src-pages-components-backers-js": require("gatsby-module-loader?name=component---src-pages-components-backers-js!/mnt/data/Front10/Task/landing-page-book/src/pages/components/backers.js"),
@@ -44,6 +45,7 @@ exports.components = {
 }
 
 exports.json = {
+  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/mnt/data/Front10/Task/landing-page-book/.cache/json/dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/mnt/data/Front10/Task/landing-page-book/.cache/json/404.json"),
   "components-analytics.json": require("gatsby-module-loader?name=path---components-analytics!/mnt/data/Front10/Task/landing-page-book/.cache/json/components-analytics.json"),
   "components-backers.json": require("gatsby-module-loader?name=path---components-backers!/mnt/data/Front10/Task/landing-page-book/.cache/json/components-backers.json"),

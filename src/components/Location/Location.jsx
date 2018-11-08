@@ -6,11 +6,11 @@ import withStyles from '../../helpers/WithStyles';
 
 class Location extends Component {
   render() {
-    const { lat, lng, zoom, apiKey, language, markers, className } = this.props;
+    const { lat, lng, zoom, apiKey, language, markers, className, height } = this.props;
     const bootstrapURLKeys = { key: apiKey, language };
 
     return (
-      <div className={className}>
+      <div className={className} style={{ height }}>
         <GoogleMapReact center={{ lat, lng }} zoom={zoom} bootstrapURLKeys={bootstrapURLKeys}>
           {markers.map(marker => (
             <LocationMarker
@@ -62,7 +62,11 @@ Location.propTypes = {
   /**
    * Class to apply.
    */
-  className: PropTypes.string
+  className: PropTypes.string,
+  /**
+   * Height of the map.
+   */
+  height: PropTypes.number
 };
 Location.defaultProps = {
   lat: 0,
@@ -71,7 +75,8 @@ Location.defaultProps = {
   apiKey: '',
   language: 'en',
   markers: [],
-  className: ''
+  className: '',
+  height: '50vh'
 };
 
 export default withStyles(Location);

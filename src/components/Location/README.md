@@ -7,6 +7,7 @@
 | ---- | ---- | ---- | ---- |
 | apiKey | `string` | Key of google maps project. | `''` |
 | className | `string` | Class to apply. | `''` |
+| height | `number` | Height of the map. | `'50vh'` |
 | language | `string` | Language of map. | `'en'` |
 | lat | `number` | Latitude to initial center map. | `0` |
 | lng | `number` | Longitude to initial center map. | `0` |

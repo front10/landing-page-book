@@ -29,7 +29,7 @@ export default {
     {
       name: 'Aligning images',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
     <Image
         alt="This is an image example"
         src="/images/backers/astronaut.svg"
@@ -45,13 +45,13 @@ export default {
         className="float-right"
     />
     <div className="clearfix"/>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     },
     {
       name: 'Aligning images with classname',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
     <Image 
         alt="This is an image example"
         src="/images/backers/astronaut.svg" 
@@ -67,7 +67,7 @@ export default {
             width="150"
         />
     </div>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     }
   ]

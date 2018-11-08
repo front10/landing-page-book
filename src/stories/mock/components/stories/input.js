@@ -19,11 +19,11 @@ export default {
       name: 'Size',
       summary:
         'Differentiating input sizes helps the user to know which is the most important part of the form.',
-      code: `<React.Fragment>
+      code: `<>
     <Input name="Large" value="This is an large input" placeholder="Enter a value" icon="fa fa-user" size="lg"/>
     <Input name="Normal" value="This is an normal input" placeholder="Enter a value" icon="fa fa-user"/>
     <Input name="Small" value="This is an small input" placeholder="Enter a value" icon="fa fa-user" size="sm"/>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     }
   ]

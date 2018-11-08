@@ -18,7 +18,7 @@ export default {
     {
       name: 'All',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
     <div className="mb-3">
         <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="fork" text="Fork" color="secondary" />
         <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="follow" text="Follow" color="secondary" />
@@ -29,7 +29,7 @@ export default {
         <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="issue" text="Issues" color="secondary" />
         <GithubButton className="mr-3" username="front10" repository="landing-page-book" type="download" text="Download" showCounter={false} color="secondary" />
     </div>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     }
   ]

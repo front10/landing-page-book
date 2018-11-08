@@ -30,11 +30,11 @@ export default {
       summary: '',
       code: `<Hero opacity={1} overlayColor="#373D45" particlesSugar="crazyStars" minHeight="75vh">
     <Container>
-        <Image src="/images/logo/front10.png" rounded width="160" alt="Front10 logo" className="main-logo"/>
-        <Header textAlign="center" className="text-warning">Landing Page Book</Header>
-        <Header  textAlign="center" type="h5" className="text-warning">React components to build!</Header>
+        <Image src="/images/logo/front10.png" rounded width="160" alt="Front10 logo"/>
+        <Header textAlign="center" textColor="warning">Landing Page Book</Header>
+        <Header textAlign="center" type="h5" textColor="warning">React components to build!</Header>
         <div className="mt-5">
-            <Button color="warning" className="mr-1">Explore</Button>
+            <Button color="warning" marginRight="1">Explore</Button>
             <GithubButton type="star" text="Stars" username="front10" repository="landing-page-book"/>
         </div>
     </Container>
@@ -50,8 +50,8 @@ export default {
     minHeight="50vh"
 >
     <Container>
-        <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
-        <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
+        <Header type="h6" textColor="white" textAlign="left">LANDING PAGE BOOK</Header>
+        <Header textColor="white" textAlign="left" marginTop="4" marginBottom="4">React UI Kit to easily build landing pages.</Header>
         <div className="text-left">
             <Link href="https://front10.com" target="_blank" border textColor="light" padding="2">
                 READ MORE
@@ -71,8 +71,8 @@ export default {
     minHeight="50vh"
 >
     <Container>
-        <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
-        <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
+        <Header type="h6" textColor="white" textAlign="left">LANDING PAGE BOOK</Header>
+        <Header textColor="white" textAlign="left" marginTop="4" marginBottom="4">React UI Kit to easily build landing pages.</Header>
         <div className="text-left">
             <Link href="https://front10.com" target="_blank" border textColor="light" padding="2">
                 READ MORE
@@ -92,8 +92,8 @@ export default {
     minHeight="50vh"
 >
     <Container>
-        <Header type="h6" className="text-white text-left">LANDING PAGE BOOK</Header>
-        <Header className="text-white text-left mt-4 mb-4">React UI Kit to easily build landing pages.</Header>
+        <Header type="h6" textColor="white" textAlign="left">LANDING PAGE BOOK</Header>
+        <Header textColor="white" textAlign="left" marginTop="4" marginBottom="4">React UI Kit to easily build landing pages.</Header>
         <div className="text-left">
             <Link href="https://front10.com" target="_blank" border textColor="light" padding="2">
                 READ MORE

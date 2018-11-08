@@ -36,7 +36,7 @@ export default {
     {
       name: 'Buttons Outline',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
   <Button marginRight="1" outline color="primary">Primary</Button>
   <Button marginRight="1" outline color="secondary">Secondary</Button>
   <Button marginRight="1" outline color="success">Success</Button>
@@ -46,43 +46,43 @@ export default {
   <Button marginRight="1" outline color="light">Light</Button>
   <Button marginRight="1" outline color="dark">Dark</Button>
   <Button marginRight="1" outline color="link">Link</Button>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     },
     {
       name: 'Size (small)',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
   <Button marginRight="1" color="primary" size="sm">Small button</Button>
   <Button marginRight="1" color="secondary" size="sm">Small button</Button>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     },
     {
       name: 'Size (large)',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
   <Button marginRight="1" color="primary" size="lg">Large button</Button>
   <Button marginRight="1" color="secondary" size="lg">Large button</Button>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     },
     {
       name: 'Desactivate state',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
   <Button marginRight="1" color="primary" disabled>Disabled button</Button>
   <Button marginRight="1" color="secondary" disabled>Disabled button</Button>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     },
     {
       name: 'Active state',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
   <Button marginRight="1" color="primary" active>Active button</Button>
   <Button marginRight="1" color="secondary" active>Active button</Button>
-</React.Fragment>`,
+</>`,
       tabsActive: []
     }
   ]

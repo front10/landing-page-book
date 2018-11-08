@@ -7,14 +7,14 @@ export default {
     {
       name: 'Basic',
       summary: '',
-      code: `<React.Fragment>
+      code: `<>
     <Header type="h1">h1. Landing Page Heading</Header>
     <Header type="h2">h2. Landing Page Heading</Header>
     <Header type="h3">h3. Landing Page Heading</Header>
     <Header type="h4">h4. Landing Page Heading</Header>
     <Header type="h5">h5. Landing Page Heading</Header>
     <Header type="h6">h6. Landing Page Heading</Header>
-</React.Fragment>`,
+</>`,
       tabsActive: ['code']
     }
   ]

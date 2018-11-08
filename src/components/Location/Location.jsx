@@ -17,7 +17,7 @@ class Location extends Component {
               key={`${marker.lat}_${marker.lng}`}
               lat={marker.lat}
               lng={marker.lng}
-              color={marker.color}
+              textColor={marker.color}
               icon={marker.icon}
             />
           ))}

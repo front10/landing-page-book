@@ -3,6 +3,8 @@ export default {
   summary:
     'A document footer is a small section at the bottom of each page within a document. It is often used to display company data or copyright information.',
   import: ``,
+  withStyles: true,
+  extractProps: ['social', 'header', 'link', 'copyright'],
   stories: [
     {
       name: 'Basic',

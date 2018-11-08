@@ -3,6 +3,7 @@ export default {
   summary:
     'Now you can show video of vimeo, youtube and many other platforms very easily on your website.',
   import: ``,
+  withStyles: true,
   stories: [
     {
       name: 'Video',

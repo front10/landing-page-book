@@ -3,6 +3,7 @@ export default {
   summary:
     'Search engines use the headings to index the structure and content of your web pages. Users skim your pages by its headings. It is important to use headings to show the document structure.',
   import: '',
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

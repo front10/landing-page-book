@@ -2,6 +2,8 @@ export default {
   name: 'Wizard',
   summary: 'Easy way to make a wizard on your website. you can guide your users step by step.',
   import: ``,
+  withStyles: true,
+  extractProps: ['header'],
   stories: [
     {
       name: 'Basic',

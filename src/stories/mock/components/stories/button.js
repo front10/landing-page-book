@@ -1,5 +1,3 @@
-import withStyles from '../../../../helpers/WithStyles/map.json';
-
 export default {
   name: 'Button',
   summary: `<code class="code">Buttons</code> is based on <code class="code">Bootstrap</code> buttons and includes several predefined button styles, 
@@ -7,7 +5,7 @@ export default {
   import: `import { ThemeSelector } from '../../../addons/ThemeSwitcher';
     import DetailsComponent from '../../../../storybook-utils/components/DetailsComponent';
     import { Navbar, Footer } from '../../../components';`,
-  withStyles,
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

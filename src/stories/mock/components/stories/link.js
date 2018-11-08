@@ -3,6 +3,7 @@ export default {
   summary:
     'Link are hyperlink. You can click on a link and jump to another document. When you move the mouse over a link, the mouse arrow will turn into a little hand.',
   import: '',
+  withStyles: true,
   stories: [
     {
       name: 'Basic',

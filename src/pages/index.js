@@ -32,7 +32,8 @@ import {
   Code,
   Team,
   BuiltWith,
-  Backers
+  Backers,
+  Link as Front10Link
 } from '../components';
 
 const IndexPage = () => (
@@ -238,9 +239,9 @@ const IndexPage = () => (
           />
           <p className="mt-3">
             For feedback, issues or if you want us to include <i>**new components**</i> please{' '}
-            <Link href="https://github.com/front10/landing-page-book/issues" target="_blank">
+            <Front10Link href="https://github.com/front10/landing-page-book/issues" target="_blank">
               click here
-            </Link>
+            </Front10Link>
             .
           </p>
         </Container>

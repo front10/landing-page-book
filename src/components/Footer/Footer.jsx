@@ -109,6 +109,22 @@ Footer.propTypes = {
    */
   padding: PropTypes.string,
   /**
+   *  Text color of headers.
+   */
+  headerTextColor: PropTypes.string,
+  /**
+   *  Text color of links.
+   */
+  linkTextColor: PropTypes.string,
+  /**
+   *  Text color of copy right.
+   */
+  copyrightTextColor: PropTypes.string,
+  /**
+   *  Background color of the footer.
+   */
+  bgColor: PropTypes.string,
+  /**
    *  Elements to show inside of Footer.
    */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
@@ -122,7 +138,11 @@ Footer.defaultProps = {
   sections: [],
   className: '',
   padding: '5',
-  children: null
+  children: null,
+  headerTextColor: 'light',
+  linkTextColor: 'light',
+  copyrightTextColor: 'light',
+  bgColor: 'dark'
 };
 
 export default withStyles(Footer);

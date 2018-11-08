@@ -798,10 +798,7 @@ a span {
     width: 25px; }
 
 :root {
-  --Footer-color: #cccccc;
-  --Footer-backgroundColor: #383d45;
   --Footer-backgroundImage: none;
-  --Footer__Sections__Link--hover-color: #fed136;
   --Footer__Sections__Header-fontSize: 1.5rem;
   --Footer__Sections__Link-fontSize: 0.8rem;
   --Footer__Copyright-fontSize: 0.8rem; }
@@ -810,8 +807,8 @@ a span {
   display: inline-block;
   cursor: pointer; }
   .SocialMediaShareButton div {
-    width: 35px !important;
-    height: 35px !important; }
+    width: 30px !important;
+    height: 30px !important; }
   .SocialMediaShareButton svg {
     width: 30px;
     height: 30px; }
@@ -821,19 +818,14 @@ a span {
 
 .Footer {
   padding: 2.5rem 0;
-  color: var(--Footer-color);
   text-align: center;
-  background-color: var(--Footer-backgroundColor);
   background-image: var(--Footer-backgroundImage); }
   .Footer .Footer__Copyright {
     font-size: var(--Footer__Copyright-fontSize); }
   .Footer .Footer__Sections__Header {
     font-size: var(--Footer__Sections__Header-fontSize); }
   .Footer a {
-    color: var(--Footer-color);
     font-size: var(--Footer__Sections__Link-fontSize); }
-  .Footer a:hover {
-    color: var(--Footer__Sections__Link--hover-color); }
 
 .Gif .gif_player {
   width: 100%; }
@@ -1079,8 +1071,8 @@ a span {
   display: inline-block;
   cursor: pointer; }
   .SocialMediaShareButton div {
-    width: 35px !important;
-    height: 35px !important; }
+    width: 30px !important;
+    height: 30px !important; }
   .SocialMediaShareButton svg {
     width: 30px;
     height: 30px; }
@@ -1121,8 +1113,8 @@ a span {
   display: inline-block;
   cursor: pointer; }
   .SocialMediaShareButton div {
-    width: 35px !important;
-    height: 35px !important; }
+    width: 30px !important;
+    height: 30px !important; }
   .SocialMediaShareButton svg {
     width: 30px;
     height: 30px; }

@@ -31,21 +31,21 @@ export default {
       name: 'Aligning images',
       summary: '',
       code: `<>
-    <Image
+  <Image
         alt="This is an image example"
         src="https://front10.com/landing-page-book/images/backers/astronaut.svg"
         tooltip="Float left"
         width="150"
         className="float-left"
     />
-    <Image
+ <Image
         alt="This is an image example"
         src="https://front10.com/landing-page-book/images/backers/doctor.svg"
         tooltip="Float right"
         width="150"
         className="float-right"
     />
-    <div className="clearfix"/>
+ <div className="clearfix"/>
 </>`,
       tabsActive: []
     },
@@ -53,21 +53,21 @@ export default {
       name: 'Aligning images with classname',
       summary: '',
       code: `<>
-    <Image 
+  <Image 
         alt="This is an image example"
         src="https://front10.com/landing-page-book/images/backers/astronaut.svg" 
         tooltip="Centered with MX-AUTO"
         width="150"
         className="mx-auto d-block"
     />
-    <div className="text-center mt-5">
-        <Image 
-            alt="This is an image example"
-            src="https://front10.com/landing-page-book/images/backers/doctor.svg" 
-            tooltip="Centered with TEXT-CENTER"
-            width="150"
-        />
-    </div>
+  <Image 
+        alt="This is an image example"
+        src="https://front10.com/landing-page-book/images/backers/doctor.svg" 
+        tooltip="Centered with TEXT-CENTER"
+        width="150"
+        marginTop="2"
+        className="mx-auto d-block"
+    />
 </>`,
       tabsActive: []
     }

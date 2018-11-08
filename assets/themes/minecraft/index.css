@@ -1045,27 +1045,17 @@ a span {
 
 :root {
   --Section__Title-fontSize: 2rem;
-  --Section__Title-color: #000;
-  --Section__Subtitle-fontSize: 0.9rem;
-  --Section__Subtitle-color: #b5b5b5;
-  --Section--gray-backgroundColor: #f8f9fa;
-  --Section--gray-backgroundImage: none; }
+  --Section__Subtitle-fontSize: 0.9rem; }
 
 .Section div {
   margin-left: auto;
   margin-right: auto; }
 
 .Section .Section__Title {
-  font-size: var(--Section__Title-fontSize);
-  color: var(--Section__Title-color); }
+  font-size: var(--Section__Title-fontSize); }
 
 .Section .Section__Subtitle {
-  font-size: var(--Section__Subtitle-fontSize);
-  color: var(--Section__Subtitle-color); }
-
-.Section--gray {
-  background-color: var(--Section--gray-backgroundColor);
-  background-image: var(--Section--gray-backgroundImage); }
+  font-size: var(--Section__Subtitle-fontSize); }
 
 .SocialMediaShareButton {
   display: inline-block;

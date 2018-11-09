@@ -13,11 +13,7 @@ notifications:
 jobs:
   include:
     - stage: Installing dependencies
-      script: npm install
-    - stage: Test code      
-      script: 
-      - npm run build-theme
-      - npm run eslint        
+      script: npm install       
 before_deploy: 
   - npm run build
 deploy:

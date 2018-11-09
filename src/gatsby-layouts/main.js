@@ -66,6 +66,7 @@ class MainLayout extends React.Component {
           brandLogo={logo}
           fixed
           bgColor="light"
+          imageRoundedCircle
           className="main-navbar"
         >
           <NavbarNav>
@@ -99,7 +100,7 @@ class MainLayout extends React.Component {
               rel="noopener noreferrer"
             >
               <i className="fa fa-question-circle github-link-icon" title="" />
-              <span className="d-none d-sm-inline">Support</span>
+              <span>Support</span>
             </a>
             <a
               title="Github"
@@ -109,11 +110,21 @@ class MainLayout extends React.Component {
               rel="noopener noreferrer"
             >
               <i className="fa fa-github github-link-icon" title="" />
-              <span className="d-none d-sm-inline">Github</span>
+              <span>Github</span>
             </a>
             {/* eslint-enable */}
           </NavbarNav>
         </Navbar>
+        <div className="github-show-xs">
+          <iframe
+            title="iframe-github"
+            src="//ghbtns.com/github-btn.html?user=front10&amp;repo=landing-page-book&amp;type=watch&amp;count=true"
+            frameBorder="0"
+            scrolling="0"
+            width="86"
+            height="30"
+          />
+        </div>
         {children}
         <Footer>
           <Row>

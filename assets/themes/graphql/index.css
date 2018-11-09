@@ -914,9 +914,6 @@ body {
     filter: grayscale(1); }
 
 :root {
-  --Card__Summary-fontSize: 0.8rem;
-  --Card__Title-fontSize: 1.2rem;
-  --Card__Subtitle-fontSize: 0.9rem;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -928,17 +925,9 @@ body {
 .Card {
   border: none;
   background-color: transparent; }
-  .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize); }
-  .Card .Card__Summary--justified {
-    text-align: justify; }
-  .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize); }
-  .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
-  box-shadow: var(--Card-boxShadow); }
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
   --CodeMirror__header_height: 30px;
@@ -1020,9 +1009,6 @@ a span {
   --ContactInfo__Information-fontSize: 0.7rem; }
 
 :root {
-  --Card__Summary-fontSize: 0.8rem;
-  --Card__Title-fontSize: 1.2rem;
-  --Card__Subtitle-fontSize: 0.9rem;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -1034,17 +1020,9 @@ a span {
 .Card {
   border: none;
   background-color: transparent; }
-  .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize); }
-  .Card .Card__Summary--justified {
-    text-align: justify; }
-  .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize); }
-  .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
-  box-shadow: var(--Card-boxShadow); }
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 .ContactInfo__Information {
   font-size: var(--ContactInfo__Information-fontSize);
@@ -1311,9 +1289,6 @@ a span {
   filter: grayscale(1); }
 
 :root {
-  --Card__Summary-fontSize: 0.8rem;
-  --Card__Title-fontSize: 1.2rem;
-  --Card__Subtitle-fontSize: 0.9rem;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -1325,17 +1300,9 @@ a span {
 .Card {
   border: none;
   background-color: transparent; }
-  .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize); }
-  .Card .Card__Summary--justified {
-    text-align: justify; }
-  .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize); }
-  .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
-  box-shadow: var(--Card-boxShadow); }
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 .SocialMediaShareButton {
   display: inline-block;
@@ -1378,9 +1345,6 @@ a span {
     width: 100%; }
 
 :root {
-  --Card__Summary-fontSize: 0.8rem;
-  --Card__Title-fontSize: 1.2rem;
-  --Card__Subtitle-fontSize: 0.9rem;
   --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
@@ -1392,17 +1356,9 @@ a span {
 .Card {
   border: none;
   background-color: transparent; }
-  .Card .Card__Summary {
-    font-size: var(--Card__Summary-fontSize); }
-  .Card .Card__Summary--justified {
-    text-align: justify; }
-  .Card .Card__Title {
-    font-size: var(--Card__Title-fontSize); }
-  .Card .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize); }
 
 .Card--shadow {
-  box-shadow: var(--Card-boxShadow); }
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15); }
 
 :root {
   --Features__CardFooter__Link-padding: none;

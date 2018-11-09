@@ -888,12 +888,6 @@ a span {
   .ContactInfo__Information i {
     width: 25px; }
 
-:root {
-  --Footer-backgroundImage: none;
-  --Footer__Sections__Header-fontSize: 1.5rem;
-  --Footer__Sections__Link-fontSize: 0.8rem;
-  --Footer__Copyright-fontSize: 0.8rem; }
-
 .SocialMediaShareButton {
   display: inline-block;
   cursor: pointer; }
@@ -909,14 +903,7 @@ a span {
 
 .Footer {
   padding: 2.5rem 0;
-  text-align: center;
-  background-image: var(--Footer-backgroundImage); }
-  .Footer .Footer__Copyright {
-    font-size: var(--Footer__Copyright-fontSize); }
-  .Footer .Footer__Sections__Header {
-    font-size: var(--Footer__Sections__Header-fontSize); }
-  .Footer a {
-    font-size: var(--Footer__Sections__Link-fontSize); }
+  text-align: center; }
 
 .Gif .gif_player {
   width: 100%; }

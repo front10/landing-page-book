@@ -378,7 +378,7 @@
       "name": "string"
     },
     "required": false,
-    "description": "Define text font size. Can be <code>'1'</code>, <code>'2'</code>, <code>'3'</code>, <code>'4'</code>, <code>'5'</code>, <code>'6'</code>, <code>'7'</code>, <code>'8'</code>, <code>'9'</code>",
+    "description": "Define text font size. Can be from <code>'1'</code> to <code>'9'</code>",
     "defaultValue": {
       "value": "null",
       "computed": false
@@ -389,7 +389,7 @@
       "name": "string"
     },
     "required": false,
-    "description": "Define text font size on <code>sm</code> screen. Can be <code>'1'</code>, <code>'2'</code>, <code>'3'</code>, <code>'4'</code>, <code>'5'</code>, <code>'6'</code>, <code>'7'</code>, <code>'8'</code>, <code>'9'</code>",
+    "description": "Define text font size on <code>sm</code> screen. Can be from <code>'1'</code> to <code>'9'</code>",
     "defaultValue": {
       "value": "null",
       "computed": false
@@ -400,7 +400,7 @@
       "name": "string"
     },
     "required": false,
-    "description": "Define text font size on <code>md</code> screen. Can be <code>'1'</code>, <code>'2'</code>, <code>'3'</code>, <code>'4'</code>, <code>'5'</code>, <code>'6'</code>, <code>'7'</code>, <code>'8'</code>, <code>'9'</code>",
+    "description": "Define text font size on <code>md</code> screen. Can be from <code>'1'</code> to <code>'9'</code>",
     "defaultValue": {
       "value": "null",
       "computed": false
@@ -411,7 +411,7 @@
       "name": "string"
     },
     "required": false,
-    "description": "Define text font size on <code>lg</code> screen. Can be <code>'1'</code>, <code>'2'</code>, <code>'3'</code>, <code>'4'</code>, <code>'5'</code>, <code>'6'</code>, <code>'7'</code>, <code>'8'</code>, <code>'9'</code>",
+    "description": "Define text font size on <code>lg</code> screen. Can be from <code>'1'</code> to <code>'9'</code>",
     "defaultValue": {
       "value": "null",
       "computed": false
@@ -422,7 +422,7 @@
       "name": "string"
     },
     "required": false,
-    "description": "Define text font size on <code>x-lg</code> screen. Can be <code>'1'</code>, <code>'2'</code>, <code>'3'</code>, <code>'4'</code>, <code>'5'</code>, <code>'6'</code>, <code>'7'</code>, <code>'8'</code>, <code>'9'</code>",
+    "description": "Define text font size on <code>x-lg</code> screen. Can be from <code>'1'</code> to <code>'9'</code>",
     "defaultValue": {
       "value": "null",
       "computed": false

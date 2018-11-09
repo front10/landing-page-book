@@ -47,16 +47,17 @@ a .Card.h-100 {
 }
 
 a .Card:hover {
-    background-color: rgba(1,108,209,.079);
+    background-color: rgba(1, 108, 209, .079);
 }
 
-a .Card:hover .Card__Title{
+a .Card:hover .Card__Title {
     color: #016cd1;
 }
 
-a .Card .Card__Title{
+a .Card .Card__Title {
     color: #435a6f;
 }
+
 .Section .Section__Subtitle {
     color: #525252;
 }
@@ -110,7 +111,9 @@ a .Card .Card__Title{
     max-width: 800px;
 }
 
-.component-link, .blue-text .Card .Card__Summary, .blue-text .Card .Card__Title {
+.component-link,
+.blue-text .Card .Card__Summary,
+.blue-text .Card .Card__Title {
     color: #1f4160;
 }
 
@@ -242,10 +245,6 @@ a .Card .Card__Title{
     padding-top: 8rem;
 }
 
-.main-svg {
-    display: block;
-}
-
 @media (max-width: 991px) {
     .text-404 {
         padding-top: 2rem;
@@ -264,29 +263,43 @@ a .Card .Card__Title{
         max-width: 100%;
     }
 }
+
 /* GIf style */
+
 .Section .Gif .gif_player img {
-  width: auto !important;
+    width: auto !important;
 }
 
-.Input__Container > input, .Input__Container .fa.fa-search{
+.Input__Container>input,
+.Input__Container .fa.fa-search {
     color: rgb(66, 90, 112);
 }
 
-.page h1, .page h2,.page h3,.page h4,.page h5,.page h6,.page p,
-p,.page .text-body, .Section .Section__Title, .Section .Section__Subtitle,
-.Card .Card__Title, .Card .Card__Summary{
+.page h1,
+.page h2,
+.page h3,
+.page h4,
+.page h5,
+.page h6,
+.page p,
+p,
+.page .text-body,
+.Section .Section__Title,
+.Section .Section__Subtitle,
+.Card .Card__Title,
+.Card .Card__Summary {
     color: #1f4160;
 }
 
-.page p.text-justify.font-weight-light.text-body{
+.page p.text-justify.font-weight-light.text-body {
     color: #1f4160 !important;
 }
+
 .storiesList ul li a {
-    color: rgba(31,65,96,0.5) !important;
+    color: rgba(31, 65, 96, 0.5) !important;
 }
 
 .storiesList ul li a:hover,
 .storiesList ul li a.active {
-  color: rgba(31,65,96,1) !important;
+    color: rgba(31, 65, 96, 1) !important;
 }

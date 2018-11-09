@@ -947,6 +947,9 @@ a span {
   .Hero .Hero__Container .container {
     margin: auto; }
 
+.Hero .sc-htpNat {
+  opacity: 1; }
+
 @media (max-width: 768px) {
   .Hero__Header {
     font-size: var(--Hero__Header--phone-fontSize) !important; }

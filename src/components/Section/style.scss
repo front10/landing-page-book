@@ -1,18 +1,7 @@
-:root {
-  --Section__Title-fontSize: 2rem;
-  --Section__Subtitle-fontSize: 0.9rem;
-}
-
 @import '../Header/style.scss';
 .Section {
   div {
     margin-left: auto;
     margin-right: auto;
-  }
-  .Section__Title {
-    font-size: var(--Section__Title-fontSize);
-  }
-  .Section__Subtitle {
-    font-size: var(--Section__Subtitle-fontSize);
   }
 }

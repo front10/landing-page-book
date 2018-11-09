@@ -61,14 +61,24 @@ Section.propTypes = {
   /**
    * Elements to show inside of Section.
    */
-  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+  children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   * Font size of title.
+   */
+  titleFontSize: PropTypes.string,
+  /**
+   * Font size of sub title.
+   */
+  subTitleFontSize: PropTypes.string
 };
 Section.defaultProps = {
   title: '',
   subTitle: '',
   className: '',
   contentClassName: '',
-  children: null
+  children: null,
+  titleFontSize: '3',
+  subTitleFontSize: '1'
 };
 
 const SectionWithStyles = withStyles(Section);

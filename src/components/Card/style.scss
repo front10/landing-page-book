@@ -1,28 +1,13 @@
 :root {
-  --Card__Summary-fontSize: 0.8rem;
-  --Card__Title-fontSize: 1.2rem;
-  --Card__Subtitle-fontSize: 0.9rem;
-  --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    --Card-boxShadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 
 @import '../Image/style.scss';
 .Card {
-  border: none;
-  background-color: transparent;
-  .Card__Summary {
-    font-size: var(--Card__Summary-fontSize);
-  }
-  .Card__Summary--justified {
-    text-align: justify;
-  }
-  .Card__Title {
-    font-size: var(--Card__Title-fontSize);
-  }
-  .Card__Subtitle {
-    font-size: var(--Card__Subtitle-fontSize);
-  }
+    border: none;
+    background-color: transparent;
 }
 
 .Card--shadow {
-  box-shadow: var(--Card-boxShadow);
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }

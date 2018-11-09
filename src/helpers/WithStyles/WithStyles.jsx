@@ -141,6 +141,21 @@ const withStyles = WrappedComponent => {
       return roundedBasedClasses;
     }
 
+    getFloatBasedStyles() {
+      const { floatLeft, floatRight, floatNone } = this.props;
+      let floatBasedClasses = '';
+      if (floatLeft) {
+        floatBasedClasses = `${floatBasedClasses} float-left`;
+      }
+      if (floatRight) {
+        floatBasedClasses = `${floatBasedClasses} float-right`;
+      }
+      if (floatNone) {
+        floatBasedClasses = `${floatBasedClasses} float-none`;
+      }
+      return floatBasedClasses;
+    }
+
     translatePropsStyles() {
       const { className, classNames } = this.props;
       let finalClasses = '';
@@ -151,6 +166,7 @@ const withStyles = WrappedComponent => {
       const borderBasedClasses = this.getBorderBasedStyles();
       const textBasedClasses = this.getTextBasedStyles();
       const roundedBasedClasses = this.getRoundedBasedStyles();
+      const floatBasedClasses = this.getFloatBasedStyles();
 
       if (layoutBasedClasses) {
         finalClasses = `${finalClasses} ${layoutBasedClasses}`;
@@ -166,6 +182,9 @@ const withStyles = WrappedComponent => {
       }
       if (roundedBasedClasses) {
         finalClasses = `${finalClasses} ${roundedBasedClasses}`;
+      }
+      if (floatBasedClasses) {
+        finalClasses = `${finalClasses} ${floatBasedClasses}`;
       }
       return finalClasses;
     }
@@ -209,6 +228,9 @@ const withStyles = WrappedComponent => {
     textMonoSpace: PropTypes.bool,
     fontItalic: PropTypes.bool,
     fontWeight: PropTypes.oneOf(['bold', 'normal', 'light']),
+    floatLeft: PropTypes.bool,
+    floatRight: PropTypes.bool,
+    floatNone: PropTypes.bool,
     style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
   };
 
@@ -244,6 +266,9 @@ const withStyles = WrappedComponent => {
     textMonoSpace: defaultProps.textMonoSpace || null,
     fontItalic: defaultProps.fontItalic || null,
     fontWeight: defaultProps.fontWeight || null,
+    floatLeft: defaultProps.floatLeft || null,
+    floatRight: defaultProps.floatRight || null,
+    floatNone: defaultProps.floatNone || null,
     style: defaultProps.style || null
   };
   return Styled;

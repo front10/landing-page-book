@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Row extends Component {
   render() {
@@ -23,4 +24,4 @@ Row.defaultProps = {
   children: null
 };
 
-export default Row;
+export default withStyles(Row);

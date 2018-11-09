@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import withStyles from '../../helpers/WithStyles';
 
 class Column extends Component {
   render() {
@@ -23,4 +24,4 @@ Column.defaultProps = {
   children: null
 };
 
-export default Column;
+export default withStyles(Column);

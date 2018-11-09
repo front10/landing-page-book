@@ -903,27 +903,11 @@ a span {
 .Hero .sc-htpNat {
   opacity: 1; }
 
-:root {
-  --Input-borderRadius: 0.25rem;
-  --Input-color: rgba(0, 0, 0, 0.8); }
-
-:root {
-  --Label-fontSize: 1rem;
-  --Label-color: rgba(0,0,0,0.7); }
-
-.Label {
-  font-size: var(--Label-fontSize);
-  color: var(--Label-color); }
-
 .Input__Container {
   position: relative; }
-  .Input__Container .Input__Container__Conponent {
-    border-radius: var(--Input-borderRadius);
-    color: var(--Input-color); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
-    top: 30%;
-    color: var(--Input-color); }
+    top: 30%; }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }
   .Input__Container .Input__Container__Conponent--right {
@@ -932,14 +916,6 @@ a span {
     left: 10px; }
   .Input__Container .Input__Container__Icon--right {
     right: 10px; }
-
-:root {
-  --Label-fontSize: 1rem;
-  --Label-color: rgba(0,0,0,0.7); }
-
-.Label {
-  font-size: var(--Label-fontSize);
-  color: var(--Label-color); }
 
 a[disabled] {
   pointer-events: none; }
@@ -982,19 +958,9 @@ a span {
 .LanguageSwitcher--noarrow .arrow-down {
   display: none; }
 
-:root {
-  --Section__Title-fontSize: 2rem;
-  --Section__Subtitle-fontSize: 0.9rem; }
-
 .Section div {
   margin-left: auto;
   margin-right: auto; }
-
-.Section .Section__Title {
-  font-size: var(--Section__Title-fontSize); }
-
-.Section .Section__Subtitle {
-  font-size: var(--Section__Subtitle-fontSize); }
 
 .SocialMediaShareButton {
   display: inline-block;

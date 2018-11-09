@@ -105,8 +105,8 @@
       "component---src-pages-components-contactus-js-3b4513db61f0b6d705d7.js.map"
     ],
     "component---src-pages-components-hero-js": [
-      "component---src-pages-components-hero-js-02e8ab235f7659e278dd.js",
-      "component---src-pages-components-hero-js-02e8ab235f7659e278dd.js.map"
+      "component---src-pages-components-hero-js-6eea45599b16a625e0ca.js",
+      "component---src-pages-components-hero-js-6eea45599b16a625e0ca.js.map"
     ],
     "path---components-icon": [
       "path---components-icon-a0e39f21c11f6a62c5ab.js",
@@ -241,9 +241,9 @@
       "component---src-pages-components-location-js-3860a2f4f0291d8b0aa9.js.map"
     ],
     "commons": [
-      "commons-b770af079e42d25f1b38.js",
+      "commons-ef11a781f1e123f14622.js",
       "build-js-styles.css",
-      "commons-b770af079e42d25f1b38.js.map",
+      "commons-ef11a781f1e123f14622.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-components-team-js": [

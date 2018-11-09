@@ -1025,9 +1025,7 @@ a span {
   opacity: 1; }
 
 :root {
-  --Input-borderRadius: 0.25rem;
-  --Input-fontSize: 0.9rem;
-  --Input-color: rgba(0, 0, 0, 0.8); }
+  --Input-borderRadius: 0.25rem; }
 
 :root {
   --Label-fontSize: 1rem;
@@ -1040,14 +1038,10 @@ a span {
 .Input__Container {
   position: relative; }
   .Input__Container .Input__Container__Conponent {
-    border-radius: var(--Input-borderRadius);
-    font-size: var(--Input-fontSize);
-    color: var(--Input-color); }
+    border-radius: var(--Input-borderRadius); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
-    font-size: var(--Input-fontSize);
-    top: 30%;
-    color: var(--Input-color); }
+    top: 30%; }
   .Input__Container .Input__Container__Conponent--left {
     padding-left: 30px; }
   .Input__Container .Input__Container__Conponent--right {

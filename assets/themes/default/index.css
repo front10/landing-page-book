@@ -925,7 +925,6 @@ a span {
 
 :root {
   --Input-borderRadius: 0.25rem;
-  --Input-fontSize: 0.9rem;
   --Input-color: rgba(0, 0, 0, 0.8); }
 
 :root {
@@ -940,11 +939,9 @@ a span {
   position: relative; }
   .Input__Container .Input__Container__Conponent {
     border-radius: var(--Input-borderRadius);
-    font-size: var(--Input-fontSize);
     color: var(--Input-color); }
   .Input__Container .Input__Container__Icon {
     position: absolute;
-    font-size: var(--Input-fontSize);
     top: 30%;
     color: var(--Input-color); }
   .Input__Container .Input__Container__Conponent--left {

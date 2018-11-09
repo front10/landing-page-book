@@ -290,3 +290,7 @@ p,.page .text-body, .Section .Section__Title, .Section .Section__Subtitle,
 .storiesList ul li a.active {
   color: rgba(31,65,96,1) !important;
 }
+
+.NavbarBrand .Logo {
+    border-radius: 2px;
+}

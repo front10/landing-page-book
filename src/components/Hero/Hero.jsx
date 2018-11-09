@@ -280,7 +280,31 @@ Hero.propTypes = {
   /**
    * Outline of secondary call to action button
    */
-  secondaryCallToActionOutline: PropTypes.bool
+  secondaryCallToActionOutline: PropTypes.bool,
+  /**
+   * Define header font size
+   */
+  headerFontSize: PropTypes.string,
+  /**
+   * Define sub header font size
+   */
+  subHeaderFontSize: PropTypes.string,
+  /**
+   * Define header font size on <code>sm</code> screen
+   */
+  headerFontSizeSm: PropTypes.string,
+  /**
+   * Define sub header font size on <code>sm</code> screen
+   */
+  subHeaderFontSizeSm: PropTypes.string,
+  /**
+   * Define sub header font size on <code>md</code> screen
+   */
+  headerFontSizeMd: PropTypes.string,
+  /**
+   * Define sub header font size on <code>md</code> screen
+   */
+  subHeaderFontSizeMd: PropTypes.string
 };
 Hero.defaultProps = {
   isFixed: true,
@@ -310,6 +334,12 @@ Hero.defaultProps = {
   callToActionOnClick: () => {},
   secondaryCallToActionColor: '',
   secondaryCallToActionOutline: true,
+  headerFontSize: '3',
+  subHeaderFontSize: '1',
+  headerFontSizeSm: '5',
+  subHeaderFontSizeSm: '2',
+  headerFontSizeMd: '7',
+  subHeaderFontSizeMd: '3',
   secondaryCallToActionOnClick: () => {}
 };
 

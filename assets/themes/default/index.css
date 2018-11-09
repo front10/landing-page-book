@@ -1,4 +1,4 @@
-/*Components*/
+/* Font */
 @font-face {
   font-family: 'Lato';
   font-style: normal;
@@ -506,6 +506,115 @@ span.CodeMirror-selectedtext { background: none; }
 * {
   font-family: 'Lato', sans-serif; }
 
+/*font size*/
+.fr-font-size-1-x {
+  font-size: 1rem; }
+
+.fr-font-size-2-x {
+  font-size: 1.5rem; }
+
+.fr-font-size-3-x {
+  font-size: 2rem; }
+
+.fr-font-size-4-x {
+  font-size: 2.5rem; }
+
+.fr-font-size-5-x {
+  font-size: 3rem; }
+
+.fr-font-size-6-x {
+  font-size: 3.5rem; }
+
+.fr-font-size-7-x {
+  font-size: 4rem; }
+
+.fr-font-size-8-x {
+  font-size: 4.5rem; }
+
+.fr-font-size-9-x {
+  font-size: 5rem; }
+
+@media (min-width: 576px) {
+  .fr-font-size-sm-1-x {
+    font-size: 1rem; }
+  .fr-font-size-sm-2-x {
+    font-size: 1.5rem; }
+  .fr-font-size-sm-3-x {
+    font-size: 2rem; }
+  .fr-font-size-sm-4-x {
+    font-size: 2.5rem; }
+  .fr-font-size-sm-5-x {
+    font-size: 3rem; }
+  .fr-font-size-sm-6-x {
+    font-size: 3.5rem; }
+  .fr-font-size-sm-7-x {
+    font-size: 4rem; }
+  .fr-font-size-sm-8-x {
+    font-size: 4.5rem; }
+  .fr-font-size-sm-9-x {
+    font-size: 5rem; } }
+
+@media (min-width: 768px) {
+  .fr-font-size-md-1-x {
+    font-size: 1rem; }
+  .fr-font-size-md-2-x {
+    font-size: 1.5rem; }
+  .fr-font-size-md-3-x {
+    font-size: 2rem; }
+  .fr-font-size-md-4-x {
+    font-size: 2.5rem; }
+  .fr-font-size-md-5-x {
+    font-size: 3rem; }
+  .fr-font-size-md-6-x {
+    font-size: 3.5rem; }
+  .fr-font-size-md-7-x {
+    font-size: 4rem; }
+  .fr-font-size-md-8-x {
+    font-size: 4.5rem; }
+  .fr-font-size-md-9-x {
+    font-size: 5rem; } }
+
+@media (min-width: 992px) {
+  .fr-font-size-lg-1-x {
+    font-size: 1rem; }
+  .fr-font-size-lg-2-x {
+    font-size: 1.5rem; }
+  .fr-font-size-lg-3-x {
+    font-size: 2rem; }
+  .fr-font-size-lg-4-x {
+    font-size: 2.5rem; }
+  .fr-font-size-lg-5-x {
+    font-size: 3rem; }
+  .fr-font-size-lg-6-x {
+    font-size: 3.5rem; }
+  .fr-font-size-lg-7-x {
+    font-size: 4rem; }
+  .fr-font-size-lg-8-x {
+    font-size: 4.5rem; }
+  .fr-font-size-lg-9-x {
+    font-size: 5rem; } }
+
+@media (min-width: 1200px) {
+  .fr-font-size-xlg-1-x {
+    font-size: 1rem; }
+  .fr-font-size-xlg-2-x {
+    font-size: 1.5rem; }
+  .fr-font-size-xlg-3-x {
+    font-size: 2rem; }
+  .fr-font-size-xlg-4-x {
+    font-size: 2.5rem; }
+  .fr-font-size-xlg-5-x {
+    font-size: 3rem; }
+  .fr-font-size-xlg-6-x {
+    font-size: 3.5rem; }
+  .fr-font-size-xlg-7-x {
+    font-size: 4rem; }
+  .fr-font-size-xlg-8-x {
+    font-size: 4.5rem; }
+  .fr-font-size-xlg-9-x {
+    font-size: 5rem; } }
+
+/*Components*/
 :root {
   --Backers__Image-width: 50px;
   --Backers__Image-height: 50px; }
@@ -826,18 +935,6 @@ a span {
     padding-right: 0px;
     padding-left: 0px; } }
 
-:root {
-  --Hero__Header-fontSize: 75px;
-  --Hero__Header--phone-fontSize: 30px;
-  --Hero__SubHeader-fontSize: 40px;
-  --Hero__SubHeader--phone-fontSize: 20px; }
-
-.Hero .Hero__Header {
-  font-size: var(--Hero__Header-fontSize); }
-
-.Hero .Hero__SubHeader {
-  font-size: var(--Hero__SubHeader-fontSize); }
-
 .Hero .Hero__Particles {
   position: absolute;
   width: 100%;
@@ -860,12 +957,6 @@ a span {
 
 .Hero .sc-htpNat {
   opacity: 1; }
-
-@media (max-width: 768px) {
-  .Hero__Header {
-    font-size: var(--Hero__Header--phone-fontSize) !important; }
-  .Hero__SubHeader {
-    font-size: var(--Hero__SubHeader--phone-fontSize) !important; } }
 
 :root {
   --Input-borderRadius: 0.25rem;

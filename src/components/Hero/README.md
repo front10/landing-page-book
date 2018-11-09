@@ -12,6 +12,9 @@
 | callToActionOutline | `bool` | Outline of call to action button | `true` |
 | children | `union` | Elements to show inside of Hero. | `null` |
 | header | `string` | Header of the hero | `''` |
+| headerFontSize | `string` | Define header font size | `'3'` |
+| headerFontSizeMd | `string` | Define sub header font size on <code>md</code> screen | `'7'` |
+| headerFontSizeSm | `string` | Define header font size on <code>sm</code> screen | `'5'` |
 | headerMarginBottom | `string` | Margin bottom of hero header | `'5'` |
 | headerTextColor | `string` | Color of hero header | `'light'` |
 | image | `string` | Url of background image | `''` |
@@ -30,6 +33,9 @@
 | secondaryCallToActionOutline | `bool` | Outline of secondary call to action button | `true` |
 | style | `string` | Customs styles to tramsform your Hero | `null` |
 | subHeader | `string` | Sub header of the hero | `''` |
+| subHeaderFontSize | `string` | Define sub header font size | `'1'` |
+| subHeaderFontSizeMd | `string` | Define sub header font size on <code>md</code> screen | `'3'` |
+| subHeaderFontSizeSm | `string` | Define sub header font size on <code>sm</code> screen | `'2'` |
 | subHeaderMarginBottom | `string` | Margin bottom of hero subheader | `'5'` |
 | subHeaderPosition | `string` | Position of hero sub header. Can be <code>'top'</code> or <code>'bottom'</code> | `'bottom'` |
 | subHeaderTextColor | `string` | Color of hero subheader | `'light'` |

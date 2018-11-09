@@ -1,9 +1,7 @@
-/*Components*/
+/* Font */
 
-@import url('https://fonts.googleapis.com/css?family=Lato');
-* {
-  font-family: 'Lato', sans-serif;
-}
+@import './font.scss';
+/*Components*/
 
 @import '../../components/Backers/style.scss';
 @import '../../components/Browser/style.scss';

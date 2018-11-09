@@ -94,7 +94,12 @@ const withStyles = WrappedComponent => {
         textTruncate,
         fontItalic,
         fontWeight,
-        textMonoSpace
+        textMonoSpace,
+        fontSize,
+        fontSizeSm,
+        fontSizeMd,
+        fontSizeLg,
+        fontSizeXlg
       } = this.props;
       let textAlignBasedClasses = '';
       if (textAlign) textAlignBasedClasses += `${textAlignBasedClasses} text-${textAlign}`;
@@ -103,6 +108,15 @@ const withStyles = WrappedComponent => {
       if (fontItalic) textAlignBasedClasses += `${textAlignBasedClasses} font-italic`;
       if (fontWeight) textAlignBasedClasses += `${textAlignBasedClasses} font-weight-${fontWeight}`;
       if (textMonoSpace) textAlignBasedClasses += `${textAlignBasedClasses} text-monospace`;
+      if (fontSize) textAlignBasedClasses += `${textAlignBasedClasses} fr-font-size-${fontSize}-x`;
+      if (fontSizeSm)
+        textAlignBasedClasses += `${textAlignBasedClasses} fr-font-size-sm-${fontSizeSm}-x`;
+      if (fontSizeMd)
+        textAlignBasedClasses += `${textAlignBasedClasses} fr-font-size-md-${fontSizeMd}-x`;
+      if (fontSizeLg)
+        textAlignBasedClasses += `${textAlignBasedClasses} fr-font-size-lg-${fontSizeLg}-x`;
+      if (fontSizeXlg)
+        textAlignBasedClasses += `${textAlignBasedClasses} fr-font-size-xlg-${fontSizeXlg}-x`;
       return textAlignBasedClasses;
     }
 
@@ -157,10 +171,9 @@ const withStyles = WrappedComponent => {
     }
 
     translatePropsStyles() {
-      const { className, classNames } = this.props;
+      const { className } = this.props;
       let finalClasses = '';
       if (className) finalClasses += ` ${className}`;
-      if (classNames) finalClasses += ` ${classNames}`;
       const layoutBasedClasses = this.getLayoutBasedStyles();
       const colorBasedClasses = this.getColorBasedStyles();
       const borderBasedClasses = this.getBorderBasedStyles();
@@ -190,9 +203,9 @@ const withStyles = WrappedComponent => {
     }
 
     render() {
-      const classNames = this.translatePropsStyles();
+      const className = this.translatePropsStyles();
       const { style } = this.props;
-      return <WrappedComponent {...this.props} className={classNames} style={style} />;
+      return <WrappedComponent {...this.props} className={className} style={style} />;
     }
   }
 
@@ -231,6 +244,11 @@ const withStyles = WrappedComponent => {
     floatLeft: PropTypes.bool,
     floatRight: PropTypes.bool,
     floatNone: PropTypes.bool,
+    fontSize: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
+    fontSizeSm: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
+    fontSizeMd: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
+    fontSizeLg: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
+    fontSizeXlg: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
     style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
   };
 
@@ -269,6 +287,11 @@ const withStyles = WrappedComponent => {
     floatLeft: defaultProps.floatLeft || null,
     floatRight: defaultProps.floatRight || null,
     floatNone: defaultProps.floatNone || null,
+    fontSize: defaultProps.fontSize || null,
+    fontSizeSm: defaultProps.fontSizeSm || null,
+    fontSizeMd: defaultProps.fontSizeMd || null,
+    fontSizeLg: defaultProps.fontSizeLg || null,
+    fontSizeXlg: defaultProps.fontSizeXlg || null,
     style: defaultProps.style || null
   };
   return Styled;

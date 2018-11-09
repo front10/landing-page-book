@@ -5,12 +5,12 @@ import { Row, Column } from '../components';
 
 const NotFoundPage = () => (
   <Main>
-    <div className="container p-4 mt-5">
+    <div className="container p-4 mt-5 page">
       <Row>
-        <Column className="col-12 col-md-6 box-error d-sm-none d-md-block">
+        <Column className="col col-12 col-md-6 box-error d-md-none d-lg-block">
           <AnimatedHero />
         </Column>
-        <Column className="col-12 col-md-6">
+        <Column className="col col-12 col-lg-6">
           <div className="text-404 text-left">
             <div>
               <h1>PAGE NOT FOUND</h1>

@@ -14,9 +14,9 @@ jobs:
   include:
     - stage: Installing dependencies
       script: npm install
-    - stage: Test code
-      if: type = pull_request
       script: npm build-theme
+    - stage: Test code    
+      if: type = pull_request
       script: npm run eslint        
 before_deploy: 
   - npm run build

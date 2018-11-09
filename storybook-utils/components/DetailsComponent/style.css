@@ -113,9 +113,9 @@ p {
   .prl-11 {
     padding: 0 1em;
   }
-  ul.ml-auto a.NavbarLink {
-    display: none;
-  }
+  /* ul.ml-auto a.NavbarLink { */
+    /* display: none; */
+  /* } */
 }
 
 .storiesList {
@@ -211,8 +211,8 @@ p {
   }
 }
 
-@media only screen and (max-width: 275px) {
+/* @media only screen and (max-width: 275px) {
   .git-component-fixed{
     display: none;
   }
-}
+} */

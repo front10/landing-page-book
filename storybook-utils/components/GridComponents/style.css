@@ -27,6 +27,12 @@ a .Card__Title.mb-2 {
 .Section.grid-component > div.p-5 {
     padding: 2rem 0rem 2rem 0rem !important;
 }
+
+/* @media (max-width: 400px) {
+    .page > div.container.p-5{
+        padding: 0px !important; 
+    }
+} */
   
 .Section.grid-component {
     width: 100%;

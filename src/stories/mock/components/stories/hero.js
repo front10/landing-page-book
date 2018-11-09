@@ -19,7 +19,8 @@ export default {
     subHeaderTextColor="warning"
     callToActionColor="warning"
     secondaryCallToActionColor="warning"
-    secondaryCallToActionMarginLeft="2"
+    callToActionMargin="2"
+    secondaryCallToActionMargin="2"
     callToAction="Call to action"
     secondaryCallToAction="Secondary call to action"
 />`,

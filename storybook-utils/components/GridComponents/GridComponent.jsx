@@ -32,6 +32,7 @@ class GridComponent extends React.Component {
               tooltip="View more details"
             >
               <Card
+                padding="2"
                 textAlign="center"
                 borderNone
                 margin="2"
@@ -64,9 +65,10 @@ class GridComponent extends React.Component {
     const { filter, components, search } = this.state;
     const items = search ? filter : components;
     return (
-      <Row className="p-3">
+      <Row>
         {items.map(item => (
           <Section
+            padding="3"
             key={item.name}
             className="grid-component"
             title={item.name}
@@ -106,7 +108,7 @@ class GridComponent extends React.Component {
     const { search, filter } = this.state;
     return (
       <div className="page">
-        <div className="container p-5">
+        <div className="container p-3">
           <Input
             value={search}
             icon="fa fa-search"

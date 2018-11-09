@@ -74,7 +74,7 @@ class Navbar extends Component {
     return (
       <nav className={navClassName}>
         <Button
-          className="navbar-toggler mr-3 Navbar__Toggler"
+          className="navbar-toggler Navbar__Toggler"
           ariaLabel="Toggle navigation"
           onClick={this.toggleCollapse}
         >

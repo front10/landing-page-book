@@ -51,9 +51,12 @@
 }
 
 .border-preview {
-  padding: 0.8em;
+  padding: 0.5em;
   border-radius: 4px;
   border: solid;
+}
+.react-live .border-preview .col{
+  padding: 0px;
 }
 
 .mt--4p {

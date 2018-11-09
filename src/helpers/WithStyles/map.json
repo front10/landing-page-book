@@ -340,6 +340,39 @@
             "computed": false
         }
     },
+    "floatLeft": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Float left on all viewport sizes",
+        "defaultValue": {
+            "value": "false",
+            "computed": false
+        }
+    },
+    "floatRight": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Float right on all viewport sizes",
+        "defaultValue": {
+            "value": "false",
+            "computed": false
+        }
+    },
+    "floatNone": {
+        "type": {
+            "name": "bool"
+        },
+        "required": false,
+        "description": "Don't float on all viewport sizes",
+        "defaultValue": {
+            "value": "false",
+            "computed": false
+        }
+    },
     "style": {
         "type": {
             "name": "object"

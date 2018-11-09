@@ -74,7 +74,7 @@ class Navbar extends Component {
     return (
       <nav className={navClassName}>
         <Button
-          className="navbar-toggler mr-3 Navbar__Toggler"
+          className="navbar-toggler Navbar__Toggler"
           ariaLabel="Toggle navigation"
           onClick={this.toggleCollapse}
         >
@@ -86,6 +86,7 @@ class Navbar extends Component {
               alt="Company logo"
               src={brandLogo}
               className="d-inline-block align-top mr-1 Logo"
+              {...extractProps('image', this.props)}
             />
           )}
           {brandName}

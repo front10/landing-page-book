@@ -298,3 +298,24 @@ p,
 .storiesList ul li a.active {
   color: rgba(31, 65, 96, 1) !important;
 }
+
+@media (min-width: 767px) {
+  .github-show-xs{
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .github-show-xs{
+    position: fixed;
+    right: 0px;
+    top: 18px;
+    z-index: 9999;
+    margin-right: 20px;
+  }
+  .first-iframe.mt-2{
+    display: none;
+  }
+  .github-show-xs > iframe{
+    display: block;
+  }
+}

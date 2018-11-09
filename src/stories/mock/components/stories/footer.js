@@ -51,16 +51,16 @@ export default {
       summary: '',
       code: `<Footer>
     <Row>
-        <Column className="col-sm-12 col-md">
-            <Copyright text="Front10, LLC" showAllRightText={false} />
+        <Column margin="2">
+            <Copyright textColor="light" text="Front10, LLC" showAllRightText={false} />
         </Column>
-        <Column className="col-sm-12 col-md mt-3 mt-md-0">
+        <Column margin="2">
             <Image src="https://front10.com/img/logos/logo-main.png" width={80} alt="Front 10 logo"/>
         </Column>
-        <Column className="col-sm-12 col-md mt-3 mt-md-0">
-            <Social type="twitter" url="https://front10.com" gray />
-            <Social type="facebook" url="https://front10.com" gray />
-            <Social type="linkedin" url="https://front10.com" gray />
+        <Column margin="2">
+            <Social margin="2" type="twitter" url="https://front10.com" gray />
+            <Social margin="2" type="facebook" url="https://front10.com" gray />
+            <Social margin="2" type="linkedin" url="https://front10.com" gray />
         </Column>
     </Row>
 </Footer>`,

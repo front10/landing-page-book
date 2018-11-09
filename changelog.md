@@ -9,7 +9,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 #### Added
 
-- New version with gastby.
+- New version with gastby. For this version our team change storybook enviroment for developers and introduce our own enviroment based on gatsby.
+- Functional CSS. Now each component of our library allow functional css.
 
 ## [1.4.0] Unreleased
 

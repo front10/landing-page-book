@@ -4,7 +4,7 @@ export default {
     'A navigation bar is intended to aid visitors in accessing information.  These sections of the webpage will include links to the most important sections of the site.',
   import: '',
   withStyles: true,
-  extractProps: ['link', 'brand'],
+  extractProps: ['link', 'brand', 'image'],
   stories: [
     {
       name: 'Basic',

@@ -86,6 +86,7 @@ class Navbar extends Component {
               alt="Company logo"
               src={brandLogo}
               className="d-inline-block align-top mr-1 Logo"
+              {...extractProps('image', this.props)}
             />
           )}
           {brandName}

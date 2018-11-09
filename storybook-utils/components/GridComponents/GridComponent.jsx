@@ -111,7 +111,7 @@ class GridComponent extends React.Component {
             value={search}
             icon="fa fa-search"
             onChange={this.performanceSearch}
-            placeholder="Search components and elements ..."
+            placeholder="Search components"
           />
           {search && filter.length !== 0 && filter[0].components.length === 0
             ? GridComponent.NotFound()

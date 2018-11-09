@@ -95,10 +95,11 @@ npm run test
 
 - [React](https://reactjs.org/)
 - [React StoryBook](https://storybook.js.org)
+- [Gatsby](https://github.com/front10/landing-page-gatsby)
 
 ## Authors
 
-- **Front10** - _Initial work_ - [Front10](http://front10.com/)
+- **Front10-dev** - _Initial work_ - [Front10](http://front10.com/)
 
 See also the list of [contributors](https://github.com/front10/landing-page-book/graphs/contributors) who participated in this project.
 

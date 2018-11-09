@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+  font-family: 'Lato', sans-serif;
+}
+
+$baseFontSize: 1rem;
+/*font size*/
+
+@mixin font-x-list-normal {
+  $count: 0rem;
+  @for $i from 0 through 8 {
+    .fr-font-size-#{$i + 1}-x {
+      font-size: ($baseFontSize + $count);
+    }
+    $count: $count + 0.5;
+  }
+}
+
+@include font-x-list-normal;
+@media (min-width: 576px) {
+  @mixin font-x-list-sm {
+    $count: 0rem;
+    @for $i from 0 through 8 {
+      .fr-font-size-sm-#{$i + 1}-x {
+        font-size: ($baseFontSize + $count);
+      }
+      $count: $count + 0.5;
+    }
+  }
+  @include font-x-list-sm;
+}
+
+@media (min-width: 768px) {
+  @mixin font-x-list-md {
+    $count: 0rem;
+    @for $i from 0 through 8 {
+      .fr-font-size-md-#{$i + 1}-x {
+        font-size: ($baseFontSize + $count);
+      }
+      $count: $count + 0.5;
+    }
+  }
+  @include font-x-list-md;
+}
+
+@media (min-width: 992px) {
+  @mixin font-x-list-lg {
+    $count: 0rem;
+    @for $i from 0 through 8 {
+      .fr-font-size-lg-#{$i + 1}-x {
+        font-size: ($baseFontSize + $count);
+      }
+      $count: $count + 0.5;
+    }
+  }
+  @include font-x-list-lg;
+}
+
+@media (min-width: 1200px) {
+  @mixin font-x-list-xlg {
+    $count: 0rem;
+    @for $i from 0 through 8 {
+      .fr-font-size-xlg-#{$i + 1}-x {
+        font-size: ($baseFontSize + $count);
+      }
+      $count: $count + 0.5;
+    }
+  }
+  @include font-x-list-xlg;
+}

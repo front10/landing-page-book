@@ -1016,18 +1016,6 @@ a span {
     padding-right: 0px;
     padding-left: 0px; } }
 
-:root {
-  --Hero__Header-fontSize: 75px;
-  --Hero__Header--phone-fontSize: 30px;
-  --Hero__SubHeader-fontSize: 40px;
-  --Hero__SubHeader--phone-fontSize: 20px; }
-
-.Hero .Hero__Header {
-  font-size: var(--Hero__Header-fontSize); }
-
-.Hero .Hero__SubHeader {
-  font-size: var(--Hero__SubHeader-fontSize); }
-
 .Hero .Hero__Particles {
   position: absolute;
   width: 100%;
@@ -1050,12 +1038,6 @@ a span {
 
 .Hero .sc-htpNat {
   opacity: 1; }
-
-@media (max-width: 768px) {
-  .Hero__Header {
-    font-size: var(--Hero__Header--phone-fontSize) !important; }
-  .Hero__SubHeader {
-    font-size: var(--Hero__SubHeader--phone-fontSize) !important; } }
 
 :root {
   --Input-borderRadius: 0.25rem;

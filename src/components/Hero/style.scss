@@ -1,20 +1,7 @@
-:root {
-  --Hero__Header-fontSize: 75px;
-  --Hero__Header--phone-fontSize: 30px;
-  --Hero__SubHeader-fontSize: 40px;
-  --Hero__SubHeader--phone-fontSize: 20px;
-}
-
 @import '../Container/style.scss';
 @import '../Button/style.scss';
 @import '../Header/style.scss';
 .Hero {
-  .Hero__Header {
-    font-size: var(--Hero__Header-fontSize);
-  }
-  .Hero__SubHeader {
-    font-size: var(--Hero__SubHeader-fontSize);
-  }
   .Hero__Particles {
     position: absolute;
     width: 100%;
@@ -39,14 +26,5 @@
   }
   .sc-htpNat {
     opacity: 1;
-  }
-}
-
-@media (max-width: 768px) {
-  .Hero__Header {
-    font-size: var(--Hero__Header--phone-fontSize) !important;
-  }
-  .Hero__SubHeader {
-    font-size: var(--Hero__SubHeader--phone-fontSize) !important;
   }
 }

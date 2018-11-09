@@ -31,10 +31,15 @@ class DetailsComponent extends React.Component {
       : propsDescription;
     extractProps.map(extractProp => {
       Object.keys(withStylesMap).map(withStyle => {
+        const item =
+          propsDescription[
+            `${extractProp}${withStyle.charAt(0).toUpperCase() + withStyle.slice(1)}`
+          ];
         newPropsDescription[
           `${extractProp}${withStyle.charAt(0).toUpperCase() + withStyle.slice(1)}`
-        ] =
-          withStylesMap[withStyle];
+        ] = item
+          ? { ...withStylesMap[withStyle], defaultValue: item.defaultValue }
+          : withStylesMap[withStyle];
         return withStyle;
       });
       return extractProp;

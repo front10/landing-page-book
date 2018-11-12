@@ -47,7 +47,7 @@ class Input extends Component {
     const props = {
       className: `form-control ${inputcls} ${
         icon ? `Input__Container__Conponent--${iconAlign}` : ''
-        }`,
+      }`,
       type,
       name,
       id,
@@ -136,7 +136,7 @@ Input.defaultProps = {
   size: '',
   icon: '',
   iconAlign: 'left',
-  onChange: () => { }
+  onChange: () => {}
 };
 
 export default withStyles(Input);

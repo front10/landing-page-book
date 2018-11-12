@@ -331,7 +331,7 @@ Hero.defaultProps = {
   particlesSugar: null,
   callToActionColor: '',
   callToActionOutline: true,
-  callToActionOnClick: () => { },
+  callToActionOnClick: () => {},
   secondaryCallToActionColor: '',
   secondaryCallToActionOutline: true,
   headerFontSize: '3',
@@ -340,7 +340,7 @@ Hero.defaultProps = {
   subHeaderFontSizeSm: '2',
   headerFontSizeMd: '7',
   subHeaderFontSizeMd: '3',
-  secondaryCallToActionOnClick: () => { }
+  secondaryCallToActionOnClick: () => {}
 };
 
 export default Hero;

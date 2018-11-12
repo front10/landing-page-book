@@ -68,7 +68,7 @@ export default {
       code: `<Hero
     image="https://front10.com/landing-page-book/images/hero/alone-architecture-buildings-220444.jpg"
     particles={false}
-    imgFilter="blur(2px)"
+    imgCssFilter="blur(2px)"
     minHeight="50vh"
 >
     <Container>
@@ -89,7 +89,7 @@ export default {
       code: `<Hero
     image="https://front10.com/landing-page-book/images/hero/alone-architecture-buildings-220444.jpg"
     particles={false}
-    imgFilter="grayscale(90%)"
+    cssFilter="grayscale(100%)"
     minHeight="50vh"
 >
     <Container>

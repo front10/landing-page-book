@@ -38,10 +38,12 @@ class LanguageSwitcher extends Component {
       showOptionLabel,
       showFlag,
       showArrow,
-      className
+      className,
+      style
     } = this.props;
     return (
       <div
+        style={style}
         className={` ${className} LanguageSwitcher ${!showFlag ? 'LanguageSwitcher--noflag' : ''} ${
           !showArrow ? 'LanguageSwitcher--noarrow' : ''
         }`}
@@ -104,6 +106,10 @@ LanguageSwitcher.propTypes = {
    */
   className: PropTypes.string,
   /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
+  /**
    * Called when language selection change. Params `{language}`
    */
   onSelect: PropTypes.func
@@ -119,6 +125,7 @@ LanguageSwitcher.defaultProps = {
   languages: [],
   customLabels: {},
   className: '',
+  style: null,
   onSelect: () => {}
 };
 

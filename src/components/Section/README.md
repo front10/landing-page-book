@@ -7,7 +7,8 @@
 | ---- | ---- | ---- | ---- |
 | children | `union` | Elements to show inside of Section. | `null` |
 | className | `string` | Section css class. | `''` |
-| contentClassName | `string` | Section content css class. | `''` |
+| padding |  |  | `'5'` |
+| style | `objectOf` | Customs styles to tramsform your Hero | `null` |
 | subTitle | `string` | Section subtitle. | `''` |
 | subTitleFontSize | `string` | Font size of sub title. | `'1'` |
 | title | `string` | Section title. | `''` |

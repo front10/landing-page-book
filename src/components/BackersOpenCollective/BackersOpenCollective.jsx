@@ -81,7 +81,8 @@ class BackersOpenCollective extends Component {
       imageGray,
       loadingClass,
       loadingText,
-      className
+      className,
+      style
     } = this.props;
     return (
       <React.Fragment>
@@ -98,6 +99,8 @@ class BackersOpenCollective extends Component {
             imageBordered={imageBordered}
             imageGray={imageGray}
             className={className}
+            style={style}
+            {...this.props}
           />
         )}
       </React.Fragment>
@@ -110,6 +113,10 @@ BackersOpenCollective.propTypes = {
    * Class name applied of the container
    */
   className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
   /**
    * If true the image will be rounded as a circle
    */
@@ -141,6 +148,7 @@ BackersOpenCollective.propTypes = {
 };
 BackersOpenCollective.defaultProps = {
   className: '',
+  style: {},
   imageRounded: true,
   imageBordered: true,
   imageGray: false,

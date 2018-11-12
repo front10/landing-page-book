@@ -72,7 +72,7 @@ class PropsManager extends React.Component {
         <span className="playgroundHeader__icon">
           <CopyToClipboard text={textCode} onCopy={this.copyToClipboard}>
             <span className="font-weight-light fs-10 text-uppercase" onClick={this.copyToClipboard}>
-              <span className="hidde">{scopied ? 'Copied' : 'Copy Code'}</span>
+              <span>{scopied ? 'Copied' : 'Copy Code'}</span>
               <Icon
                 title="Copy code"
                 icon="fa fa-clone"
@@ -94,7 +94,7 @@ class PropsManager extends React.Component {
             className="font-weight-light fs-10 text-uppercase"
             onClick={() => this.handleActive(tab.key)}
           >
-            <span className="hidde">
+            <span>
               {active.indexOf(tab.key) !== -1 ? 'HIDE' : tab.key === 'props' ? '' : 'EDIT'}{' '}
               {tab.title}
             </span>
@@ -137,7 +137,7 @@ class PropsManager extends React.Component {
           <table
             className={`table table-striped table-fixed m-0 table-sm ${
               active.indexOf('readme') === -1 ? 'playgroundProperties--rounded' : ''
-            }`}
+              }`}
           >
             <thead>
               <tr>
@@ -191,22 +191,22 @@ class PropsManager extends React.Component {
             <div
               className={`text-right playgroundHeader ${
                 active.indexOf('code') === -1 &&
-                active.indexOf('css') === -1 &&
-                active.indexOf('props') === -1
+                  active.indexOf('css') === -1 &&
+                  active.indexOf('props') === -1
                   ? `rounded`
                   : 'rounded-top'
-              }`}
+                }`}
             >
               {tabs.map(
                 tab =>
                   tab.key === 'code' ||
-                  (tab.key === 'props' && propsDescription) ||
-                  (tab.key === 'css' && cssVariables.length) ||
-                  (tab.key === 'readme' && readme) ? (
-                    <React.Fragment key={tab.key}>
-                      {this.showOrHideCodeAndIcon(tab, active)}
-                    </React.Fragment>
-                  ) : null
+                    (tab.key === 'props' && propsDescription) ||
+                    (tab.key === 'css' && cssVariables.length) ||
+                    (tab.key === 'readme' && readme) ? (
+                      <React.Fragment key={tab.key}>
+                        {this.showOrHideCodeAndIcon(tab, active)}
+                      </React.Fragment>
+                    ) : null
               )}
               {this.showCopyButton()}
             </div>
@@ -214,8 +214,8 @@ class PropsManager extends React.Component {
               <div
                 className={
                   active.indexOf('css') === -1 &&
-                  active.indexOf('props') === -1 &&
-                  active.indexOf('readme') === -1
+                    active.indexOf('props') === -1 &&
+                    active.indexOf('readme') === -1
                     ? `playgroundEditor--rounded`
                     : ''
                 }
@@ -230,7 +230,7 @@ class PropsManager extends React.Component {
                   active.indexOf('props') === -1 && active.indexOf('readme') === -1
                     ? `playgroundVariables--rounded`
                     : ''
-                }`}
+                  }`}
               >
                 <VariableManager variables={cssVariables} />
               </div>

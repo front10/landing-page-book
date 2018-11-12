@@ -5,9 +5,9 @@ import withStyles from '../../helpers/WithStyles';
 
 class Gif extends Component {
   render() {
-    const { autoplay, image, preview, onPlayPause, className } = this.props;
+    const { autoplay, image, preview, onPlayPause, className, style } = this.props;
     return (
-      <div className={`Gif text-center ${className}`}>
+      <div className={`Gif text-center ${className}`} style={style}>
         <GifPlayer gif={image} autoplay={autoplay} still={preview} onTogglePlay={onPlayPause} />
       </div>
     );
@@ -34,13 +34,18 @@ Gif.propTypes = {
   /**
    * Class of the component
    */
-  className: PropTypes.string
+  className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any)
 };
 Gif.defaultProps = {
   autoplay: false,
   image: '',
   preview: '',
   className: '',
+  style: null,
   onPlayPause: () => {}
 };
 

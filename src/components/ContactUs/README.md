@@ -21,6 +21,7 @@
 | phoneText | `string` | Label and placeholder of phone input | `'Your Phone'` |
 | showPlaceholder | `bool` | Show or hide placeholders to inputs | `true` |
 | showText | `bool` | Show or hide labels to inputs | `false` |
+| style | `objectOf` | Css style applied to the component | `null` |
 | submitButtonAlign | `string` | Align of Submit button | `'center'` |
 | submitButtonColor | `string` | Color of Submit button | `'default'` |
 | submitButtonText | `string` | Label of submit button | `'Submit'` |

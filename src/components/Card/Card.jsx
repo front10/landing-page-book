@@ -31,6 +31,7 @@ class Card extends React.Component {
             src={image}
             shadow={imageShadow}
             alt="Generic placeholder"
+            {...this.props}
           />
         )}
         {(title || subTitle || summary) && (
@@ -108,7 +109,11 @@ Card.propTypes = {
   /**
    *  Component class name
    */
-  className: PropTypes.string
+  className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any)
 };
 Card.defaultProps = {
   border: true,
@@ -121,7 +126,8 @@ Card.defaultProps = {
   subTitle: '',
   summary: '',
   children: null,
-  className: null
+  className: null,
+  style: null
 };
 
 export default withStyles(Card);

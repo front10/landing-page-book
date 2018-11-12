@@ -9,12 +9,11 @@ import extractProps from '../../helpers/ExtractProps';
 
 class Footer extends Component {
   renderSocials() {
-    const { socials, socialRounded, socialUrl, socialGray } = this.props;
+    const { socials, socialRounded, socialUrl } = this.props;
     return socials.map(social => (
       <Social
         key={social}
         type={social}
-        gray={socialGray}
         rounded={socialRounded}
         url={socialUrl}
         {...extractProps('social', this.props)}
@@ -71,10 +70,6 @@ Footer.propTypes = {
    */
   socialRounded: PropTypes.bool,
   /**
-   * Define if socials buttons are gray.
-   */
-  socialGray: PropTypes.bool,
-  /**
    * Url to share in socials networks.
    */
   socialUrl: PropTypes.string,
@@ -105,6 +100,10 @@ Footer.propTypes = {
    */
   className: PropTypes.string,
   /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
+  /**
    *  Padding to apply to Footer.
    */
   padding: PropTypes.string,
@@ -131,12 +130,12 @@ Footer.propTypes = {
 };
 Footer.defaultProps = {
   socialRounded: true,
-  socialGray: false,
   socialUrl: '',
   copyright: '',
   socials: [],
   sections: [],
   className: '',
+  style: null,
   padding: '5',
   children: null,
   headerTextColor: 'light',

@@ -16,5 +16,6 @@
 | onClick | `func` | Called when button is clicked | `() => {}` |
 | outline | `bool` | Define if button is only with border | `false` |
 | size | `string` | Button size. Can be <code>'lg'</code>, <code>'sm'</code> | `''` |
+| style | `objectOf` | Css style applied to the component | `{}` |
 | tooltip | `string` | Button tooltip | `''` |
 | type | `string` | Type of the button | `'button'` |

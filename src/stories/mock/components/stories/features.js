@@ -5,7 +5,7 @@ export default {
   summary:
     'Features are distinctive attribute or aspect of a product or service. Use it to highlight the most valuable pieces of your project, product or service.',
   import: '',
-  extractProps: ['feature', 'button'],
+  extractProps: ['feature', 'featureSubTitle', 'featureSummary', 'button'],
   stories: [
     {
       name: 'Basic',

@@ -8,5 +8,6 @@
 | children | `union` | List of element to show inside as childrens. | `null` |
 | className | `string` | Class name of header | `''` |
 | icon | `string` | Icon to show in component | `''` |
+| style | `objectOf` | Css style applied to the component | `null` |
 | textAlign | `string` | Icon to show in component | `null` |
 | type | `string` | Type of tag element. Can be <code>'h1'</code>, <code>'h2'</code>, <code>'h3'</code>, <code>'h4'</code>, <code>'h5'</code> and <code>'h6'</code> | `'h1'` |

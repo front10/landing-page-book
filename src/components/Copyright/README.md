@@ -12,4 +12,5 @@
 | showCopyRightSymbol | `bool` | Show or hide `©` symbol | `true` |
 | showCopyRightText | `bool` | Show or hide copy right text | `true` |
 | showYear | `bool` | Show or hide year in copyright | `true` |
+| style | `objectOf` | Css style applied to the component | `null` |
 | text | `string` | Text in copyright, ex: <code>'Front10, Inc'</code> | `''` |

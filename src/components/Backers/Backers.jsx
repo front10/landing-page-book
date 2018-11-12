@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import ImageList from '../ImageList/ImageList';
 import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 
 class Backers extends Component {
   constructor(props) {
@@ -31,16 +32,17 @@ class Backers extends Component {
   }
 
   render() {
-    const { imageRounded, imageGray, imageBordered, className } = this.props;
+    const { imageRounded, imageBordered, className, style } = this.props;
     const { backers } = this.state;
     return (
       <div className="Backers">
         <ImageList
           imageRounded={imageRounded}
-          gray={imageGray}
           images={backers}
           imageBordered={imageBordered}
           className={className}
+          style={style}
+          {...extractProps('backer', this.props)}
         />
       </div>
     );
@@ -53,6 +55,10 @@ Backers.propTypes = {
    */
   className: PropTypes.string,
   /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
+  /**
    * If true the image will be rounded as a circle
    */
   imageRounded: PropTypes.bool,
@@ -60,10 +66,6 @@ Backers.propTypes = {
    * If true the image will have a solid border
    */
   imageBordered: PropTypes.bool,
-  /**
-   * If true the image doesn't show colors
-   */
-  imageGray: PropTypes.bool,
   /**
    * List of backers
    */
@@ -78,9 +80,9 @@ Backers.propTypes = {
 };
 Backers.defaultProps = {
   className: '',
+  style: null,
   imageRounded: true,
   imageBordered: true,
-  imageGray: false,
   backers: []
 };
 

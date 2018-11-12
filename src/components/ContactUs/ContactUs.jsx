@@ -155,6 +155,10 @@ ContactUs.propTypes = {
    */
   className: PropTypes.string,
   /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
+  /**
    * Show or hide labels to inputs
    */
   showText: PropTypes.bool,
@@ -229,6 +233,7 @@ ContactUs.propTypes = {
 };
 ContactUs.defaultProps = {
   className: '',
+  style: null,
   showText: false,
   showPlaceholder: true,
   loading: false,

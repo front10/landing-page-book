@@ -18,7 +18,8 @@ class Button extends Component {
       color,
       outline,
       size,
-      active
+      active,
+      style
     } = this.props;
     let cssclass = `${className} btn-${color}`;
     if (outline) cssclass += ` btn-outline-${color}`;
@@ -33,6 +34,7 @@ class Button extends Component {
         onClick={onClick}
         aria-label={ariaLabel}
         type={type}
+        style={style}
       >
         {!loading && children}
         {loading && <Icon icon={loadingClass} />}
@@ -67,6 +69,10 @@ Button.propTypes = {
    * Class to apply to button
    */
   className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
   /**
    * Aria label of the button
    */
@@ -103,6 +109,7 @@ Button.defaultProps = {
   active: false,
   loadingClass: 'fa fa-circle-o-notch fa-spin',
   className: '',
+  style: {},
   ariaLabel: '',
   tooltip: '',
   size: '',

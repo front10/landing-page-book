@@ -11,17 +11,12 @@ class ImageList extends Component {
   }
 
   render() {
-    const { images, gray, imageWidth, className } = this.props;
+    const { images, imageWidth, className, style } = this.props;
     /* eslint-disable react/no-array-index-key */
     return (
       <div className="ImageList">
         {images.map((imag, key) => (
-          <div
-            className={`ImageList__Container ${className} ${
-              gray ? 'ImageList__Container--grayScale' : ''
-            }`}
-            key={key}
-          >
+          <div className={`ImageList__Container ${className} `} style={style} key={key}>
             <a href={imag.url}>
               <Image
                 tooltip={imag.tooltip}
@@ -45,9 +40,9 @@ ImageList.propTypes = {
    */
   className: PropTypes.string,
   /**
-   * Define if image is gray scale
+   * Css style applied to the component
    */
-  gray: PropTypes.bool,
+  style: PropTypes.objectOf(PropTypes.any),
   /**
    * Image width
    */
@@ -67,8 +62,8 @@ ImageList.propTypes = {
 };
 ImageList.defaultProps = {
   className: '',
+  style: {},
   padding: '2',
-  gray: false,
   imageWidth: '100',
   images: []
 };

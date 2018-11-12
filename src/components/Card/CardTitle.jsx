@@ -4,19 +4,30 @@ import withStyles from '../../helpers/WithStyles';
 
 class CardTitle extends React.Component {
   render() {
-    const { content, className } = this.props;
-    return <div className={`Card__Title ${className}`}>{content}</div>;
+    const { content, className, style } = this.props;
+    return (
+      <div className={`Card__Title ${className}`} style={style}>
+        {content}
+      </div>
+    );
   }
 }
 
 CardTitle.propTypes = {
   content: PropTypes.string,
-  className: PropTypes.string
+  /**
+   * Section css class.
+   */
+  className: PropTypes.string,
+  /**
+   * Customs styles to tramsform your Hero
+   */
+  style: PropTypes.objectOf(PropTypes.any)
 };
 CardTitle.defaultProps = {
   content: '',
-  className: null
+  className: null,
+  style: null
 };
 
-const CardTitleWithStyles = withStyles(CardTitle);
-export default CardTitleWithStyles;
+export default withStyles(CardTitle);

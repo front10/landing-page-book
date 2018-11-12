@@ -6,36 +6,34 @@ import withStyles from '../../helpers/WithStyles';
 
 class Section extends Component {
   render() {
-    const { title, subTitle, children, className, contentClassName } = this.props;
+    const { title, subTitle, children, className, style } = this.props;
     return (
-      <section className={`Section ${className}`}>
-        <div className={`p-5 ${contentClassName}`}>
-          {(title || subTitle) && (
-            <div className="mb-5 text-center">
-              {title && (
-                <Header
-                  type="h2"
-                  className="Section__Title"
-                  marginBottom="2"
-                  {...extractProps('title', this.props)}
-                >
-                  {title}
-                </Header>
-              )}
-              {subTitle && (
-                <Header
-                  type="h3"
-                  className="Section__Subtitle"
-                  marginBottom="2"
-                  {...extractProps('subTitle', this.props)}
-                >
-                  {subTitle}
-                </Header>
-              )}
-            </div>
-          )}
-          {children}
-        </div>
+      <section className={`Section ${className}`} style={style}>
+        {(title || subTitle) && (
+          <div className="mb-5 text-center">
+            {title && (
+              <Header
+                type="h2"
+                className="Section__Title"
+                marginBottom="2"
+                {...extractProps('title', this.props)}
+              >
+                {title}
+              </Header>
+            )}
+            {subTitle && (
+              <Header
+                type="h3"
+                className="Section__Subtitle"
+                marginBottom="2"
+                {...extractProps('subTitle', this.props)}
+              >
+                {subTitle}
+              </Header>
+            )}
+          </div>
+        )}
+        {children}
       </section>
     );
   }
@@ -55,9 +53,9 @@ Section.propTypes = {
    */
   className: PropTypes.string,
   /**
-   * Section content css class.
+   * Customs styles to tramsform your Hero
    */
-  contentClassName: PropTypes.string,
+  style: PropTypes.objectOf(PropTypes.any),
   /**
    * Elements to show inside of Section.
    */
@@ -75,11 +73,12 @@ Section.defaultProps = {
   title: '',
   subTitle: '',
   className: '',
-  contentClassName: '',
+  style: null,
+  // eslint-disable-next-line react/default-props-match-prop-types
+  padding: '5',
   children: null,
   titleFontSize: '3',
   subTitleFontSize: '1'
 };
 
-const SectionWithStyles = withStyles(Section);
-export default SectionWithStyles;
+export default withStyles(Section);

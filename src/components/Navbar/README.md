@@ -18,4 +18,5 @@
 | linkTextColor | `string` | Color of navar link. | `'light'` |
 | onItemClick | `func` | Called when item has clecked. See example section | `() => {}` |
 | rightItems | `arrayOf` | Array of items to show in nav-bar right side. | `[]` |
+| style | `objectOf` | Customs styles to tramsform your Hero | `null` |
 | transparent | `bool` | Define if component is transparent. | `false` |

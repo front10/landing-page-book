@@ -7,6 +7,6 @@
 | ---- | ---- | ---- | ---- |
 | className | `string` | Class to apply to icon. | `''` |
 | icon<font color="red">*</font> | `string` | Icon name. |  |
-| onClick | `func` | callback function to call when onClick event is fire. | `() => { }` |
+| onClick | `func` | callback function to call when onClick event is fire. | `() => {}` |
 | style | `objectOf` | Css style applied to the component | `{}` |
 | title | `string` | Title of the icon. | `''` |

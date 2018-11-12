@@ -10,12 +10,13 @@ class Header extends Component {
   }
 
   render() {
-    const { className, type, children, textAlign, icon } = this.props;
+    const { className, type, children, textAlign, icon, style } = this.props;
     const componentClassName = `${className}`;
     return React.createElement(
       type,
       {
-        className: componentClassName
+        className: componentClassName,
+        style
       },
       [
         icon && textAlign === 'left' && <Icon icon={icon} className="mr-1" />,
@@ -31,6 +32,10 @@ Header.propTypes = {
    * Class name of header
    */
   className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
   /**
    * Type of tag element. Can be <code>'h1'</code>, <code>'h2'</code>, <code>'h3'</code>, <code>'h4'</code>, <code>'h5'</code> and <code>'h6'</code>
    */
@@ -51,10 +56,10 @@ Header.propTypes = {
 Header.defaultProps = {
   icon: '',
   className: '',
+  style: null,
   type: 'h1',
   children: null,
   textAlign: null
 };
 
-const HeaderWithStyles = withStyles(Header);
-export default HeaderWithStyles;
+export default withStyles(Header);

@@ -4,10 +4,17 @@ import withStyles from '../../helpers/WithStyles';
 
 class Link extends Component {
   render() {
-    const { disabled, className, tooltip, href, target, children } = this.props;
+    const { disabled, className, tooltip, href, target, children, style } = this.props;
     return (
       <React.Fragment>
-        <a title={tooltip} disabled={disabled} className={className} href={href} target={target}>
+        <a
+          title={tooltip}
+          disabled={disabled}
+          className={className}
+          href={href}
+          target={target}
+          style={style}
+        >
           {children}
         </a>
       </React.Fragment>
@@ -24,6 +31,10 @@ Link.propTypes = {
    * CSS Class to apply to button.
    */
   className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
   /**
    * Button tooltip.
    */
@@ -44,10 +55,10 @@ Link.propTypes = {
 Link.defaultProps = {
   disabled: false,
   className: '',
+  style: null,
   tooltip: '',
   target: '',
   children: null
 };
 
-const LinkWithStyles = withStyles(Link);
-export default LinkWithStyles;
+export default withStyles(Link);

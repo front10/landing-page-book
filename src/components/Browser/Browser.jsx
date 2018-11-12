@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import withStyles from '../../helpers/WithStyles';
+import extractProps from '../../helpers/ExtractProps';
 import Image from '../Image/Image';
+import Label from '../Label/Label';
 
 const images = {
   chrome:
@@ -35,26 +37,28 @@ const available = {
 
 class Browser extends Component {
   render() {
-    const {
-      vendor,
-      version,
-      showBrowserVendor,
-      showBrowserVersion,
-      imgFilter,
-      className
-    } = this.props;
+    const { vendor, version, showBrowserVendor, showBrowserVersion, className } = this.props;
     return (
       <div className={`Browser d-inline ${className}`}>
         <Image
           src={available[vendor] && available[vendor].icon}
           alt={`Browser ${available[vendor] && available[vendor].name} icon`}
           className="Browser__Icon"
-          imgFilter={imgFilter}
+          {...extractProps('image', this.props)}
         />
         {showBrowserVendor && (
-          <div className="Browser__Text"> {available[vendor] && available[vendor].name}</div>
+          <div>
+            <Label
+              content={available[vendor] && available[vendor].name}
+              {...extractProps('vendor', this.props)}
+            />
+          </div>
         )}
-        {showBrowserVersion && <div className="Browser__Version">{version}</div>}
+        {showBrowserVersion && (
+          <div>
+            <Label content={version} {...extractProps('version', this.props)} />
+          </div>
+        )}
       </div>
     );
   }
@@ -78,21 +82,21 @@ Browser.propTypes = {
    */
   version: PropTypes.string,
   /**
-   * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
-   */
-  imgFilter: PropTypes.string,
-  /**
    * Component class name
    */
-  className: PropTypes.string
+  className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any)
 };
 Browser.defaultProps = {
   showBrowserVendor: true,
   showBrowserVersion: true,
   vendor: '',
   version: '',
-  imgFilter: null,
-  className: null
+  className: '',
+  style: null
 };
 
 const BrowserWithStyles = withStyles(Browser);

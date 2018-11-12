@@ -8,7 +8,7 @@
 | backgroundColor | `string` | Background color of the hero | `'transparent'` |
 | callToAction | `string` | Hero call to action | `null` |
 | callToActionColor | `string` | Color of call to action button | `''` |
-| callToActionOnClick | `func` | Event is fire when call to action button is pressed | `() => {}` |
+| callToActionOnClick | `func` | Event is fire when call to action button is pressed | `() => { }` |
 | callToActionOutline | `bool` | Outline of call to action button | `true` |
 | children | `union` | Elements to show inside of Hero. | `null` |
 | header | `string` | Header of the hero | `''` |
@@ -26,7 +26,7 @@
 | particlesParams | `objectOf` | Config params for particles animation. | `null` |
 | particlesSugar | `string` | Preconfigured params for particles, you can find this on particlesSugarMapping.js file. | `null` |
 | secondaryCallToActionColor | `string` | Color of secondary call to action button | `''` |
-| secondaryCallToActionOnClick | `func` | Event is fire when secondary call to action button is pressed | `() => {}` |
+| secondaryCallToActionOnClick | `func` | Event is fire when secondary call to action button is pressed | `() => { }` |
 | secondaryCallToActionOutline | `bool` | Outline of secondary call to action button | `true` |
 | style | `string` | Customs styles to tramsform your Hero | `null` |
 | subHeader | `string` | Sub header of the hero | `''` |

@@ -3,6 +3,7 @@ import PropTypes from 'prop-types';
 import Card from '../Card/Card';
 import Location from '../Location/Location';
 import Icon from '../Icon/Icon';
+import Label from '../Label/Label';
 import withStyles from '../../helpers/WithStyles';
 import extractProps from '../../helpers/ExtractProps';
 
@@ -50,37 +51,37 @@ class ContactInfo extends Component {
         {address && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-map-marker" {...extractProps('icon', this.props)} />}
-            {address}
+            <Label {...extractProps('info', this.props)} content={address} />
           </div>
         )}
         {email && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-envelope" {...extractProps('icon', this.props)} />}
-            {email}
+            <Label {...extractProps('info', this.props)} content={email} />
           </div>
         )}
         {phone && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-phone" {...extractProps('icon', this.props)} />}
-            {phone}
+            <Label {...extractProps('info', this.props)} content={phone} />
           </div>
         )}
         {mobile && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-mobile" {...extractProps('icon', this.props)} />}
-            {mobile}
+            <Label {...extractProps('info', this.props)} content={mobile} />
           </div>
         )}
         {fax && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-fax" {...extractProps('icon', this.props)} />}
-            {fax}
+            <Label {...extractProps('info', this.props)} content={fax} />
           </div>
         )}
         {website && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-globe" {...extractProps('icon', this.props)} />}
-            {website}
+            <Label {...extractProps('info', this.props)} content={website} />
           </div>
         )}
       </Card>

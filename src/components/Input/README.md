@@ -14,5 +14,6 @@
 | onChange | `func` | Called when input change. Params `{value}` | `() => {}` |
 | placeholder | `string` | Input placeholder. | `''` |
 | size | `string` | Size of input. Can be <code>'lg'</code> or <code>'sm'</code>. | `''` |
+| style | `objectOf` | Css style applied to the component | `null` |
 | type | `string` | Input type. Can be <code>'text'</code>, <code>'number'</code>, <code>'email'</code> and <code>'textarea'</code> | `'text'` |
 | value | `string` | Input value. | `''` |

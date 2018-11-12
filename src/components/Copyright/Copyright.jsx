@@ -12,10 +12,11 @@ class Copyright extends Component {
       allRightText,
       copyRightText,
       text,
-      className
+      className,
+      style
     } = this.props;
     return (
-      <div className={`Copyright ${className}`}>
+      <div className={`Copyright ${className}`} style={style}>
         {showCopyRightText && <span className="mr-1">{copyRightText}</span>}
         {showCopyRightSymbol && <span className="mr-1">©</span>}
         {showYear && <span className="mr-1">{new Date().getFullYear()}</span>}
@@ -58,7 +59,11 @@ Copyright.propTypes = {
   /**
    * Class to apply to icon
    */
-  className: PropTypes.string
+  className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any)
 };
 Copyright.defaultProps = {
   showCopyRightSymbol: true,
@@ -68,7 +73,8 @@ Copyright.defaultProps = {
   copyRightText: 'Copyright',
   allRightText: 'All rights reserved',
   text: '',
-  className: ''
+  className: '',
+  style: null
 };
 
 export default withStyles(Copyright);

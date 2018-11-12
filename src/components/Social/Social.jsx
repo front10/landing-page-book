@@ -51,16 +51,15 @@ const available = {
 
 class Social extends Component {
   render() {
-    const { url, rounded, type, gray, directLink, className } = this.props;
+    const { url, rounded, type, directLink, className, style } = this.props;
     return directLink
       ? React.createElement(
           'a',
           {
             href: url,
             target: '_blank',
-            className: `${className} SocialMediaShareButton ${
-              gray ? 'SocialMediaShareButton--grayScale' : ''
-            }`
+            className: `${className} SocialMediaShareButton`,
+            style
           },
           React.createElement(available[type] ? available[type][1] : available.email[1], {
             round: rounded
@@ -69,9 +68,10 @@ class Social extends Component {
       : React.createElement(
           available[type] ? available[type][0] : available.email[0],
           {
-            className: `${className} ${gray ? 'SocialMediaShareButton--grayScale' : ''}`,
+            className: `${className}`,
             url,
-            media: 'Share in Pinterest'
+            media: 'Share in Pinterest',
+            style
           },
           React.createElement(available[type] ? available[type][1] : available.email[1], {
             round: rounded
@@ -81,10 +81,6 @@ class Social extends Component {
 }
 
 Social.propTypes = {
-  /**
-   * Define if image is gray scale.
-   */
-  gray: PropTypes.bool,
   /**
    * Show buttons rounded or square.
    */
@@ -104,15 +100,19 @@ Social.propTypes = {
   /**
    * Class to apply.
    */
-  className: PropTypes.string
+  className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any)
 };
 Social.defaultProps = {
-  gray: false,
   rounded: true,
   type: 'email',
   url: '',
   directLink: true,
-  className: ''
+  className: '',
+  style: null
 };
 
 export default withStyles(Social);

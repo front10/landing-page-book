@@ -13,6 +13,7 @@
 | imageCircle | `bool` | Define if image is circular | `false` |
 | imageShadow | `bool` | Define if image   with shadow | `false` |
 | shadow | `bool` | Define if card show with shadow | `false` |
+| style | `objectOf` | Css style applied to the component | `null` |
 | subTitle | `string` | Card subtitle | `''` |
 | summary | `string` | Card summary | `''` |
 | title | `string` | Card title | `''` |

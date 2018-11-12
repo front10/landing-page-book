@@ -156,6 +156,11 @@ const withStyles = WrappedComponent => {
       return floatBasedClasses;
     }
 
+    getFilter() {
+      const { cssFilter } = this.props;
+      return { filter: cssFilter };
+    }
+
     translatePropsStyles() {
       const { className, classNames } = this.props;
       let finalClasses = '';
@@ -192,7 +197,8 @@ const withStyles = WrappedComponent => {
     render() {
       const classNames = this.translatePropsStyles();
       const { style } = this.props;
-      return <WrappedComponent {...this.props} className={classNames} style={style} />;
+      const newStyles = Object.assign({}, style, this.getFilter());
+      return <WrappedComponent {...this.props} className={classNames} style={newStyles} />;
     }
   }
 
@@ -231,7 +237,8 @@ const withStyles = WrappedComponent => {
     floatLeft: PropTypes.bool,
     floatRight: PropTypes.bool,
     floatNone: PropTypes.bool,
-    style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+    cssFilter: PropTypes.string,
+    style: PropTypes.objectOf(PropTypes.any)
   };
 
   Styled.defaultProps = {
@@ -269,6 +276,7 @@ const withStyles = WrappedComponent => {
     floatLeft: defaultProps.floatLeft || null,
     floatRight: defaultProps.floatRight || null,
     floatNone: defaultProps.floatNone || null,
+    cssFilter: defaultProps.cssFilter || null,
     style: defaultProps.style || null
   };
   return Styled;

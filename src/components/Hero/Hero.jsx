@@ -307,10 +307,10 @@ Hero.defaultProps = {
   particlesSugar: null,
   callToActionColor: '',
   callToActionOutline: true,
-  callToActionOnClick: () => {},
+  callToActionOnClick: () => { },
   secondaryCallToActionColor: '',
   secondaryCallToActionOutline: true,
-  secondaryCallToActionOnClick: () => {}
+  secondaryCallToActionOnClick: () => { }
 };
 
 export default Hero;

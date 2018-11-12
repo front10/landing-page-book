@@ -428,6 +428,17 @@
       "computed": false
     }
   },
+  "cssFilter": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "The filter property defines visual effects (like blur and saturation) to an element (often <img>).",
+    "defaultValue": {
+      "value": "''",
+      "computed": false
+    }
+  },
   "style": {
     "type": {
       "name": "object"

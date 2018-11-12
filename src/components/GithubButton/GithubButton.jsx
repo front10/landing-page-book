@@ -253,7 +253,6 @@ GithubButton.defaultProps = {
   showGithubIcon: false,
   disabled: false,
   // eslint-disable-next-line react/default-props-match-prop-types
-  rounded: true,
   loadingClass: 'fa fa-circle-o-notch fa-spin',
   username: 'front10',
   repository: 'landing-page-book',

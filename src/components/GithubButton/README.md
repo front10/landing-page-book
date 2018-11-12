@@ -10,7 +10,6 @@
 | disabled | `bool` | Shows github button disabled. | `false` |
 | loadingClass | `string` | Class to loading indicator. | `'fa fa-circle-o-notch fa-spin'` |
 | repository | `string` | Github repository. | `'landing-page-book'` |
-| rounded |  |  | `true` |
 | showBtnText | `bool` | Shows the text inside the button. | `true` |
 | showCounter | `bool` | Shows the total next to the button. | `true` |
 | showGithubIcon | `bool` | Shows github icon on the button. | `false` |

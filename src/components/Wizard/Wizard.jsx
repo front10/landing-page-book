@@ -37,12 +37,13 @@ class Wizard extends Component {
       contentAlign,
       showHeader,
       steps,
-      className
+      className,
+      style
     } = this.props;
     const { currentItem } = this.state;
     return (
       <div className="Wizard">
-        <Card contentAlign={contentAlign} className={className}>
+        <Card contentAlign={contentAlign} className={className} style={style}>
           {showHeader && (
             <Header
               type="h5"
@@ -149,7 +150,11 @@ Wizard.propTypes = {
   /**
    * Called when 'Back' or 'Next' button is clicked.
    */
-  onStepChange: PropTypes.func
+  onStepChange: PropTypes.func,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any)
 };
 Wizard.defaultProps = {
   className: '',
@@ -167,6 +172,7 @@ Wizard.defaultProps = {
   nextTextOnFinalActionStep: 'Next',
   contentAlign: 'left',
   hocValidationAppliedTo: [],
+  style: null,
   onStepChange: () => {}
 };
 

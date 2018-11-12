@@ -1,6 +1,12 @@
 /* Bootstrap */
 
 @import '~bootstrap/scss/bootstrap';
+/* Custom variables */
+
+@import './variables.scss';
+/* Custom bootswatch */
+
+@import './bootswatch.scss';
 /* Font */
 
 @import './font.scss';

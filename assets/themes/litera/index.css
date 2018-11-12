@@ -6,6 +6,19 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 @font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Raleway'), local('Raleway-Regular'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptug8zYS_SKggPNyC0ISg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Raleway Bold'), local('Raleway-Bold'), url(https://fonts.gstatic.com/s/raleway/v12/1Ptrg8zYS_SKggPNwJYtWqZPBQ.ttf) format('truetype');
+}
+
+@font-face {
   font-family: 'Lato';
   font-style: normal;
   font-weight: 400;
@@ -6816,6 +6829,181 @@ a.text-dark:hover, a.text-dark:focus {
   .table .thead-dark th {
     color: inherit;
     border-color: #dee2e6; } }
+
+/* Custom variables */
+/* Custom bootswatch */
+.navbar {
+  font-size: 0.875em; }
+
+.bg-dark {
+  background-color: #28a745 !important; }
+
+.bg-light {
+  background-color: #fff !important;
+  border: 1px solid rgba(0, 0, 0, 0.1); }
+  .bg-light.navbar-fixed-top {
+    border-width: 0 0 1px 0; }
+  .bg-light.navbar-fixed-bottom {
+    border-width: 1px 0 0 0; }
+
+.btn {
+  border-radius: 1.078em;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 0.875em; }
+  .btn-lg, .btn-group-lg > .btn {
+    border-radius: 2.688em; }
+  .btn-sm, .btn-group-sm > .btn {
+    border-radius: 0.844em;
+    font-size: 0.688em; }
+  .btn-secondary, .btn-secondary:hover, .btn-warning, .btn-warning:hover {
+    color: #fff; }
+
+p {
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif; }
+
+blockquote {
+  font-style: italic; }
+
+footer {
+  font-size: 0.875em; }
+
+.lead {
+  color: #6c757d;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+
+table,
+.table {
+  font-size: 0.875em; }
+  table-primary, table-secondary, table-success, table-info, table-warning, table-danger,
+  .table-primary,
+  .table-secondary,
+  .table-success,
+  .table-info,
+  .table-warning,
+  .table-danger {
+    color: #fff; }
+
+.table-primary,
+.table-primary > th,
+.table-primary > td {
+  background-color: #007bff; }
+
+.table-secondary,
+.table-secondary > th,
+.table-secondary > td {
+  background-color: #6c757d; }
+
+.table-light,
+.table-light > th,
+.table-light > td {
+  background-color: #f8f9fa; }
+
+.table-dark,
+.table-dark > th,
+.table-dark > td {
+  background-color: #343a40; }
+
+.table-success,
+.table-success > th,
+.table-success > td {
+  background-color: #28a745; }
+
+.table-info,
+.table-info > th,
+.table-info > td {
+  background-color: #17a2b8; }
+
+.table-danger,
+.table-danger > th,
+.table-danger > td {
+  background-color: #dc3545; }
+
+.table-warning,
+.table-warning > th,
+.table-warning > td {
+  background-color: #ffc107; }
+
+.table-active,
+.table-active > th,
+.table-active > td {
+  background-color: rgba(0, 0, 0, 0.075); }
+
+.table-hover .table-primary:hover, .table-hover .table-primary:hover > th, .table-hover .table-primary:hover > td {
+  background-color: #006fe6; }
+
+.table-hover .table-secondary:hover, .table-hover .table-secondary:hover > th, .table-hover .table-secondary:hover > td {
+  background-color: #60686f; }
+
+.table-hover .table-light:hover, .table-hover .table-light:hover > th, .table-hover .table-light:hover > td {
+  background-color: #e9ecef; }
+
+.table-hover .table-dark:hover, .table-hover .table-dark:hover > th, .table-hover .table-dark:hover > td {
+  background-color: #292d32; }
+
+.table-hover .table-success:hover, .table-hover .table-success:hover > th, .table-hover .table-success:hover > td {
+  background-color: #23923d; }
+
+.table-hover .table-info:hover, .table-hover .table-info:hover > th, .table-hover .table-info:hover > td {
+  background-color: #148ea1; }
+
+.table-hover .table-danger:hover, .table-hover .table-danger:hover > th, .table-hover .table-danger:hover > td {
+  background-color: #d32535; }
+
+.table-hover .table-warning:hover, .table-hover .table-warning:hover > th, .table-hover .table-warning:hover > td {
+  background-color: #edb100; }
+
+.table-hover .table-active:hover, .table-hover .table-active:hover > th, .table-hover .table-active:hover > td {
+  background-color: rgba(0, 0, 0, 0.075); }
+
+.nav,
+.breadcrumb,
+.pagination {
+  font-size: 0.875em; }
+
+.dropdown-menu {
+  font-size: 0.875em; }
+
+.alert {
+  border: none;
+  color: #fff;
+  font-size: 0.875em; }
+  .alert, .alert p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  .alert a, .alert .alert-link {
+    color: #fff;
+    font-weight: normal;
+    text-decoration: underline; }
+  .alert-primary {
+    background-color: #007bff; }
+  .alert-secondary {
+    background-color: #6c757d; }
+  .alert-success {
+    background-color: #28a745; }
+  .alert-info {
+    background-color: #17a2b8; }
+  .alert-warning {
+    background-color: #ffc107; }
+  .alert-danger {
+    background-color: #dc3545; }
+  .alert-light {
+    background-color: #f8f9fa; }
+  .alert-dark {
+    background-color: #343a40; }
+  .alert-light,
+  .alert-light a,
+  .alert-light .alert-link {
+    color: #212529; }
+
+.badge {
+  vertical-align: bottom; }
+  .badge-secondary, .badge-warning {
+    color: #fff; }
+
+.tooltip {
+  font-size: 11px; }
+
+.list-group {
+  font-size: 0.875em; }
 
 /* Font */
 * {

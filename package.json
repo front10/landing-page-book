@@ -58,7 +58,7 @@
   "homepage": "https://front10.com/landing-page-book/",
   "scripts": {
     "build-static-pages": "node scripts/build-static-pages.js",
-    "build": "gulp compile-themes-force && gulp compile-components && rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby build --prefix-paths",
+    "build": "gulp compile-themes-force && gulp compile-components && rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby build && mkdir public/themes && cp -r assets/themes/* public/themes",
     "develop": "rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "start": "gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
@@ -74,6 +74,7 @@
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & npm run transpile",
     "test-browser": "node ./selenium/browser-test.js",
+    "predeploy": "gulp compile-themes-force && gulp compile-components && rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby build --prefix-paths && mkdir public/themes && cp -r assets/themes/* public/themes",
     "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-book.git"
   },
   "devDependencies": {
@@ -132,6 +133,8 @@
     "node-sass-tilde-importer": "^1.0.2",
     "prettier": "1.14.0",
     "raw-loader": "^0.5.1",
+    "rc-dropdown": "^2.2.1",
+    "rc-menu": "^7.4.19",
     "react-docgen": "^2.21.0",
     "react-icons": "^3.2.1",
     "react-live": "^1.12.0",

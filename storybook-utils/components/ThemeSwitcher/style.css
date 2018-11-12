@@ -1,0 +1,12 @@
+.rc-dropdown {
+  min-width: 150px;
+  bottom: 80px;
+  top: auto !important;
+  position: fixed;
+}
+
+.ThemeSwitcher {
+  position: fixed;
+  bottom: 10px;
+  left: 10px;
+}

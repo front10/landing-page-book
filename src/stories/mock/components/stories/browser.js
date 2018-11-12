@@ -3,6 +3,7 @@ export default {
   summary: 'Show the browser logo with the version.',
   import: '',
   withStyles: true,
+  extractProps: ['image', 'vendor', 'version'],
   stories: [
     {
       name: 'Basic',

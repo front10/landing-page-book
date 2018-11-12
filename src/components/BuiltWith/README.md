@@ -7,4 +7,3 @@
 | ---- | ---- | ---- | ---- |
 | className | `string` | Class to apply to icon | `''` |
 | companies | `arrayOf` | Companies to show | `[]` |
-| gray | `bool` | Define if image is gray scale | `false` |

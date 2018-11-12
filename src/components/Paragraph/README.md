@@ -5,5 +5,6 @@
   ## Properties
   | </br>Name | </br>Type | </br>Summary | </br>Default | 
 | ---- | ---- | ---- | ---- |
-| className | `string` |  | `null` |
+| className | `string` | CSS class to apply to image. | `null` |
+| style | `objectOf` | Css style applied to the component | `null` |
 | text<font color="red">*</font> | `string` | Text of the Paragraph. |  |

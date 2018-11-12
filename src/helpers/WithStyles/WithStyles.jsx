@@ -136,6 +136,11 @@ const withStyles = WrappedComponent => {
       return floatBasedClasses;
     }
 
+    getFilter() {
+      const { cssFilter } = this.props;
+      return { filter: cssFilter };
+    }
+
     translatePropsStyles() {
       const { className } = this.props;
       let finalClasses = '';
@@ -171,8 +176,9 @@ const withStyles = WrappedComponent => {
     render() {
       const className = this.translatePropsStyles();
       const { style } = this.props;
+      const newStyles = Object.assign({}, style, this.getFilter());
       const props = { ...this.props, className };
-      return <WrappedComponent {...props} style={style} />;
+      return <WrappedComponent {...props} style={newStyles} />;
     }
   }
 
@@ -211,12 +217,13 @@ const withStyles = WrappedComponent => {
     floatLeft: PropTypes.bool,
     floatRight: PropTypes.bool,
     floatNone: PropTypes.bool,
+    cssFilter: PropTypes.string,
     fontSize: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
     fontSizeSm: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
     fontSizeMd: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
     fontSizeLg: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
     fontSizeXlg: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
-    style: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node])
+    style: PropTypes.objectOf(PropTypes.any)
   };
 
   Styled.defaultProps = {
@@ -254,6 +261,7 @@ const withStyles = WrappedComponent => {
     floatLeft: defaultProps.floatLeft || null,
     floatRight: defaultProps.floatRight || null,
     floatNone: defaultProps.floatNone || null,
+    cssFilter: defaultProps.cssFilter || null,
     fontSize: defaultProps.fontSize || null,
     fontSizeSm: defaultProps.fontSizeSm || null,
     fontSizeMd: defaultProps.fontSizeMd || null,

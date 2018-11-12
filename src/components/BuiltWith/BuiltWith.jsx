@@ -11,10 +11,10 @@ class BuiltWith extends Component {
   }
 
   render() {
-    const { gray, companies, className } = this.props;
+    const { companies, className, style } = this.props;
     return (
       <ImageList
-        gray={gray}
+        style={style}
         images={companies}
         className={className}
         {...extractProps('image', this.props)}
@@ -29,10 +29,6 @@ BuiltWith.propTypes = {
    */
   className: PropTypes.string,
   /**
-   * Define if image is gray scale
-   */
-  gray: PropTypes.bool,
-  /**
    * Companies to show
    */
   companies: PropTypes.arrayOf(
@@ -43,7 +39,6 @@ BuiltWith.propTypes = {
 };
 BuiltWith.defaultProps = {
   className: '',
-  gray: false,
   companies: []
 };
 

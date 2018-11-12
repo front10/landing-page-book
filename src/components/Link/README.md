@@ -9,5 +9,6 @@
 | className | `string` | CSS Class to apply to button. | `''` |
 | disabled | `bool` | Disable or enable button. | `false` |
 | href<font color="red">*</font> | `string` | Link to open. |  |
+| style | `objectOf` | Css style applied to the component | `null` |
 | target | `string` | Target of link. | `''` |
 | tooltip | `string` | Button tooltip. | `''` |

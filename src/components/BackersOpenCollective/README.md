@@ -13,3 +13,4 @@
 | loadingClass | `string` | CSS class for loading animation | `'fa fa-circle-o-notch fa-spin'` |
 | loadingText | `string` | Loading text to show | `'Loading...'` |
 | sortDirection | `string` | Sort direction to show the list of backers | `'desc'` |
+| style | `objectOf` | Css style applied to the component | `{}` |

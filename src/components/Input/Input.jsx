@@ -29,7 +29,18 @@ class Input extends Component {
   }
 
   render() {
-    const { className, type, id, name, placeholder, label, icon, iconAlign, size } = this.props;
+    const {
+      className,
+      type,
+      id,
+      name,
+      placeholder,
+      label,
+      icon,
+      iconAlign,
+      size,
+      style
+    } = this.props;
     let inputcls = className;
     if (size) inputcls += ` form-control-${size}`;
     const { value } = this.state;
@@ -46,7 +57,7 @@ class Input extends Component {
     };
 
     return (
-      <div>
+      <div style={style}>
         {label && <Label content={label} htmlFor={id} />}
         <div className="Input__Container">
           {type !== 'textarea' && <input {...props} />}
@@ -68,6 +79,10 @@ Input.propTypes = {
    *  CSS Class to apply to input.
    */
   className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
   /**
    *  Input type. Can be <code>'text'</code>, <code>'number'</code>, <code>'email'</code> and <code>'textarea'</code>
    */
@@ -111,6 +126,7 @@ Input.propTypes = {
 };
 Input.defaultProps = {
   className: '',
+  style: null,
   type: 'text',
   id: '',
   name: '',
@@ -123,5 +139,4 @@ Input.defaultProps = {
   onChange: () => {}
 };
 
-const InputWithStyles = withStyles(Input);
-export default InputWithStyles;
+export default withStyles(Input);

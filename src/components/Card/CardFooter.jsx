@@ -18,6 +18,9 @@ CardFooter.propTypes = {
    * Array of elements to show inside a card, For example ['Buttons', 'Links', 'tables', etc]
    */
   children: PropTypes.oneOfType([PropTypes.arrayOf(PropTypes.node), PropTypes.node]),
+  /**
+   *  Component class name
+   */
   className: PropTypes.string
 };
 CardFooter.defaultProps = {
@@ -25,5 +28,4 @@ CardFooter.defaultProps = {
   className: null
 };
 
-const CardFooterWithStyles = withStyles(CardFooter);
-export default CardFooterWithStyles;
+export default withStyles(CardFooter);

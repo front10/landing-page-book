@@ -5,8 +5,12 @@ import withStyles from '../../helpers/WithStyles';
 
 class Paragraph extends Component {
   render() {
-    const { text, className } = this.props;
-    return <p className={className}>{ReactHtmlParser(text)}</p>;
+    const { text, className, style } = this.props;
+    return (
+      <p style={style} className={className}>
+        {ReactHtmlParser(text)}
+      </p>
+    );
   }
 }
 
@@ -15,11 +19,18 @@ Paragraph.propTypes = {
    * Text of the Paragraph.
    */
   text: PropTypes.string.isRequired,
-  className: PropTypes.string
+  /**
+   * CSS class to apply to image.
+   */
+  className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any)
 };
 Paragraph.defaultProps = {
-  className: null
+  className: null,
+  style: null
 };
 
-const ParagraphWithStyles = withStyles(Paragraph);
-export default ParagraphWithStyles;
+export default withStyles(Paragraph);

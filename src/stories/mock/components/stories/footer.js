@@ -11,6 +11,7 @@ export default {
       summary: '',
       code: `<Footer 
     socialUrl="https://front10.com"
+    socialPadding="2"
     copyright="Front10, LLC"
     socials={['facebook', 'linkedin', 'google', 'twitter']}
     sections={[

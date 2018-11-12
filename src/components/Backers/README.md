@@ -8,5 +8,5 @@
 | backers | `arrayOf` | List of backers | `[]` |
 | className | `string` | CSS class name for custom styles | `''` |
 | imageBordered | `bool` | If true the image will have a solid border | `true` |
-| imageGray | `bool` | If true the image doesn't show colors | `false` |
 | imageRounded | `bool` | If true the image will be rounded as a circle | `true` |
+| style | `objectOf` | Css style applied to the component | `null` |

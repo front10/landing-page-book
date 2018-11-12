@@ -4,10 +4,10 @@ import withStyles from '../../helpers/WithStyles';
 
 class Icon extends Component {
   render() {
-    const { className, icon, title, onClick } = this.props;
+    const { className, icon, title, style, onClick } = this.props;
     /* eslint-disable jsx-a11y/click-events-have-key-events */
     /* eslint-disable jsx-a11y/no-static-element-interactions */
-    return <i className={`${icon} ${className}`} title={title} onClick={onClick} />;
+    return <i className={`${icon} ${className}`} style={style} title={title} onClick={onClick} />;
     /* eslint-enable jsx-a11y/click-events-have-key-events */
     /* eslint-enable jsx-a11y/no-static-element-interactions */
   }
@@ -18,6 +18,10 @@ Icon.propTypes = {
    * Class to apply to icon.
    */
   className: PropTypes.string,
+  /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
   /**
    *  Icon name.
    */
@@ -33,9 +37,9 @@ Icon.propTypes = {
 };
 Icon.defaultProps = {
   className: '',
+  style: {},
   onClick: () => {},
   title: ''
 };
 
-const IconWithStyles = withStyles(Icon);
-export default IconWithStyles;
+export default withStyles(Icon);

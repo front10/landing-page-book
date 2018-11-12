@@ -32,16 +32,13 @@ class Image extends Component {
   }
 
   render() {
-    const { alt, src, rounded, border, width, tooltip, className, imgFilter, shadow } = this.props;
+    const { alt, src, rounded, border, width, tooltip, className, shadow, style } = this.props;
     const { loaded } = this.state;
     let tempClass = className;
     tempClass += ` img-fluid`;
     if (rounded) tempClass += ` rounded-circle`;
     if (border) tempClass += ` img-thumbnail`;
-    const styles = {
-      filter: imgFilter && imgFilter,
-      display: !loaded ? 'none' : ''
-    };
+    const styles = Object.assign({}, { display: !loaded ? 'none' : '' }, style);
     if (shadow) tempClass += ` img-shadow`;
     return (
       <React.Fragment>
@@ -86,6 +83,10 @@ Image.propTypes = {
    */
   className: PropTypes.string,
   /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
+  /**
    * Image width.
    */
   width: PropTypes.string,
@@ -93,10 +94,6 @@ Image.propTypes = {
    * Image tooltip.
    */
   tooltip: PropTypes.string,
-  /**
-   * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
-   */
-  imgFilter: PropTypes.string,
   /**
    *  Image alt.
    */
@@ -111,9 +108,9 @@ Image.defaultProps = {
   rounded: false,
   shadow: false,
   className: 'img-fluid',
+  style: null,
   width: undefined,
-  tooltip: '',
-  imgFilter: null
+  tooltip: ''
 };
 
 export default withStyles(Image);

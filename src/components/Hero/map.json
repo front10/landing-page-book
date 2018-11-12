@@ -1,1 +1,385 @@
-{"description":"","displayName":"Hero","methods":[{"name":"onButtonClick","docblock":null,"modifiers":["static"],"params":[{"name":"button","type":null}],"returns":null},{"name":"getCustomCssFilterForImg","docblock":null,"modifiers":["static"],"params":[{"name":"props","type":null},{"name":"state","type":null}],"returns":null},{"name":"getParticlesParams","docblock":null,"modifiers":["static"],"params":[{"name":"particles","type":null},{"name":"particlesSugar","type":null},{"name":"particlesParams","type":null}],"returns":null}],"props":{"isFixed":{"type":{"name":"bool"},"required":false,"description":"Define if background image is fixed","defaultValue":{"value":"true","computed":false}},"isCentered":{"type":{"name":"bool"},"required":false,"description":"Define if content is centered","defaultValue":{"value":"true","computed":false}},"particles":{"type":{"name":"bool"},"required":false,"description":"Define if component show particles animations","defaultValue":{"value":"true","computed":false}},"opacity":{"type":{"name":"number"},"required":false,"description":"Opacity level","defaultValue":{"value":"0","computed":false}},"parallaxOffset":{"type":{"name":"number"},"required":false,"description":"Offset of background image","defaultValue":{"value":"0","computed":false}},"image":{"type":{"name":"string"},"required":false,"description":"Url of background image","defaultValue":{"value":"''","computed":false}},"overlayColor":{"type":{"name":"string"},"required":false,"description":"Overlay color of the component","defaultValue":{"value":"'#fff'","computed":false}},"header":{"type":{"name":"string"},"required":false,"description":"Header of the hero","defaultValue":{"value":"''","computed":false}},"subHeader":{"type":{"name":"string"},"required":false,"description":"Sub header of the hero","defaultValue":{"value":"''","computed":false}},"subHeaderPosition":{"type":{"name":"string"},"required":false,"description":"Position of hero sub header. Can be <code>'top'</code> or <code>'bottom'</code>","defaultValue":{"value":"'bottom'","computed":false}},"minHeight":{"type":{"name":"string"},"required":false,"description":"Min height of hero","defaultValue":{"value":"'100vh'","computed":false}},"backgroundColor":{"type":{"name":"string"},"required":false,"description":"Background color of the hero","defaultValue":{"value":"'transparent'","computed":false}},"headerMarginBottom":{"type":{"name":"string"},"required":false,"description":"Margin bottom of hero header","defaultValue":{"value":"'5'","computed":false}},"headerTextColor":{"type":{"name":"string"},"required":false,"description":"Color of hero header","defaultValue":{"value":"'light'","computed":false}},"subHeaderMarginBottom":{"type":{"name":"string"},"required":false,"description":"Margin bottom of hero subheader","defaultValue":{"value":"'5'","computed":false}},"subHeaderTextColor":{"type":{"name":"string"},"required":false,"description":"Color of hero subheader","defaultValue":{"value":"'light'","computed":false}},"callToAction":{"type":{"name":"string"},"required":false,"description":"Hero call to action","defaultValue":{"value":"null","computed":false}},"particlesParams":{"type":{"name":"objectOf","value":{"name":"any"}},"required":false,"description":"Config params for particles animation.","defaultValue":{"value":"null","computed":false}},"children":{"type":{"name":"union","value":[{"name":"arrayOf","value":{"name":"node"}},{"name":"node"}]},"required":false,"description":"Elements to show inside of Hero.","defaultValue":{"value":"null","computed":false}},"style":{"type":{"name":"string"},"required":false,"description":"Customs styles to tramsform your Hero","defaultValue":{"value":"null","computed":false}},"imgFilter":{"type":{"name":"string"},"required":false,"description":"The filter property defines visual effects (like blur and saturation) to an element (often <img>).","defaultValue":{"value":"null","computed":false}},"particlesSugar":{"type":{"name":"string"},"required":false,"description":"Preconfigured params for particles, you can find this on particlesSugarMapping.js file.","defaultValue":{"value":"null","computed":false}},"callToActionOnClick":{"type":{"name":"func"},"required":false,"description":"Event is fire when call to action button is pressed","defaultValue":{"value":"() => {}","computed":false}},"callToActionColor":{"type":{"name":"string"},"required":false,"description":"Color of call to action button","defaultValue":{"value":"''","computed":false}},"callToActionOutline":{"type":{"name":"bool"},"required":false,"description":"Outline of call to action button","defaultValue":{"value":"true","computed":false}},"secondaryCallToActionOnClick":{"type":{"name":"func"},"required":false,"description":"Event is fire when secondary call to action button is pressed","defaultValue":{"value":"() => {}","computed":false}},"secondaryCallToActionColor":{"type":{"name":"string"},"required":false,"description":"Color of secondary call to action button","defaultValue":{"value":"''","computed":false}},"secondaryCallToActionOutline":{"type":{"name":"bool"},"required":false,"description":"Outline of secondary call to action button","defaultValue":{"value":"true","computed":false}},"headerFontSize":{"type":{"name":"string"},"required":false,"description":"Define header font size","defaultValue":{"value":"'3'","computed":false}},"subHeaderFontSize":{"type":{"name":"string"},"required":false,"description":"Define sub header font size","defaultValue":{"value":"'1'","computed":false}},"headerFontSizeSm":{"type":{"name":"string"},"required":false,"description":"Define header font size on <code>sm</code> screen","defaultValue":{"value":"'5'","computed":false}},"subHeaderFontSizeSm":{"type":{"name":"string"},"required":false,"description":"Define sub header font size on <code>sm</code> screen","defaultValue":{"value":"'2'","computed":false}},"headerFontSizeMd":{"type":{"name":"string"},"required":false,"description":"Define sub header font size on <code>md</code> screen","defaultValue":{"value":"'7'","computed":false}},"subHeaderFontSizeMd":{"type":{"name":"string"},"required":false,"description":"Define sub header font size on <code>md</code> screen","defaultValue":{"value":"'3'","computed":false}}},"filename":"/components/Hero/Hero.jsx"}
+{
+    "description": "",
+    "displayName": "Hero",
+    "methods": [
+        {
+            "name": "onButtonClick",
+            "docblock": null,
+            "modifiers": [
+                "static"
+            ],
+            "params": [
+                {
+                    "name": "button",
+                    "type": null
+                }
+            ],
+            "returns": null
+        },
+        {
+            "name": "getCustomCssFilterForImg",
+            "docblock": null,
+            "modifiers": [
+                "static"
+            ],
+            "params": [
+                {
+                    "name": "props",
+                    "type": null
+                },
+                {
+                    "name": "state",
+                    "type": null
+                }
+            ],
+            "returns": null
+        },
+        {
+            "name": "getParticlesParams",
+            "docblock": null,
+            "modifiers": [
+                "static"
+            ],
+            "params": [
+                {
+                    "name": "particles",
+                    "type": null
+                },
+                {
+                    "name": "particlesSugar",
+                    "type": null
+                },
+                {
+                    "name": "particlesParams",
+                    "type": null
+                }
+            ],
+            "returns": null
+        }
+    ],
+    "props": {
+        "isFixed": {
+            "type": {
+                "name": "bool"
+            },
+            "required": false,
+            "description": "Define if background image is fixed",
+            "defaultValue": {
+                "value": "true",
+                "computed": false
+            }
+        },
+        "isCentered": {
+            "type": {
+                "name": "bool"
+            },
+            "required": false,
+            "description": "Define if content is centered",
+            "defaultValue": {
+                "value": "true",
+                "computed": false
+            }
+        },
+        "particles": {
+            "type": {
+                "name": "bool"
+            },
+            "required": false,
+            "description": "Define if component show particles animations",
+            "defaultValue": {
+                "value": "true",
+                "computed": false
+            }
+        },
+        "opacity": {
+            "type": {
+                "name": "number"
+            },
+            "required": false,
+            "description": "Opacity level",
+            "defaultValue": {
+                "value": "0",
+                "computed": false
+            }
+        },
+        "parallaxOffset": {
+            "type": {
+                "name": "number"
+            },
+            "required": false,
+            "description": "Offset of background image",
+            "defaultValue": {
+                "value": "0",
+                "computed": false
+            }
+        },
+        "image": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Url of background image",
+            "defaultValue": {
+                "value": "''",
+                "computed": false
+            }
+        },
+        "overlayColor": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Overlay color of the component",
+            "defaultValue": {
+                "value": "'#fff'",
+                "computed": false
+            }
+        },
+        "header": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Header of the hero",
+            "defaultValue": {
+                "value": "''",
+                "computed": false
+            }
+        },
+        "subHeader": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Sub header of the hero",
+            "defaultValue": {
+                "value": "''",
+                "computed": false
+            }
+        },
+        "subHeaderPosition": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Position of hero sub header. Can be <code>'top'</code> or <code>'bottom'</code>",
+            "defaultValue": {
+                "value": "'bottom'",
+                "computed": false
+            }
+        },
+        "minHeight": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Min height of hero",
+            "defaultValue": {
+                "value": "'100vh'",
+                "computed": false
+            }
+        },
+        "backgroundColor": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Background color of the hero",
+            "defaultValue": {
+                "value": "'transparent'",
+                "computed": false
+            }
+        },
+        "headerMarginBottom": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Margin bottom of hero header",
+            "defaultValue": {
+                "value": "'5'",
+                "computed": false
+            }
+        },
+        "headerTextColor": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Color of hero header",
+            "defaultValue": {
+                "value": "'light'",
+                "computed": false
+            }
+        },
+        "subHeaderMarginBottom": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Margin bottom of hero subheader",
+            "defaultValue": {
+                "value": "'5'",
+                "computed": false
+            }
+        },
+        "subHeaderTextColor": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Color of hero subheader",
+            "defaultValue": {
+                "value": "'light'",
+                "computed": false
+            }
+        },
+        "callToAction": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Hero call to action",
+            "defaultValue": {
+                "value": "null",
+                "computed": false
+            }
+        },
+        "particlesParams": {
+            "type": {
+                "name": "objectOf",
+                "value": {
+                    "name": "any"
+                }
+            },
+            "required": false,
+            "description": "Config params for particles animation.",
+            "defaultValue": {
+                "value": "null",
+                "computed": false
+            }
+        },
+        "children": {
+            "type": {
+                "name": "union",
+                "value": [
+                    {
+                        "name": "arrayOf",
+                        "value": {
+                            "name": "node"
+                        }
+                    },
+                    {
+                        "name": "node"
+                    }
+                ]
+            },
+            "required": false,
+            "description": "Elements to show inside of Hero.",
+            "defaultValue": {
+                "value": "null",
+                "computed": false
+            }
+        },
+        "style": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Customs styles to tramsform your Hero",
+            "defaultValue": {
+                "value": "null",
+                "computed": false
+            }
+        },
+        "imgFilter": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "The filter property defines visual effects (like blur and saturation) to an element (often <img>).",
+            "defaultValue": {
+                "value": "null",
+                "computed": false
+            }
+        },
+        "particlesSugar": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Preconfigured params for particles, you can find this on particlesSugarMapping.js file.",
+            "defaultValue": {
+                "value": "null",
+                "computed": false
+            }
+        },
+        "callToActionOnClick": {
+            "type": {
+                "name": "func"
+            },
+            "required": false,
+            "description": "Event is fire when call to action button is pressed",
+            "defaultValue": {
+                "value": "() => { }",
+                "computed": false
+            }
+        },
+        "callToActionColor": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Color of call to action button",
+            "defaultValue": {
+                "value": "''",
+                "computed": false
+            }
+        },
+        "callToActionOutline": {
+            "type": {
+                "name": "bool"
+            },
+            "required": false,
+            "description": "Outline of call to action button",
+            "defaultValue": {
+                "value": "true",
+                "computed": false
+            }
+        },
+        "secondaryCallToActionOnClick": {
+            "type": {
+                "name": "func"
+            },
+            "required": false,
+            "description": "Event is fire when secondary call to action button is pressed",
+            "defaultValue": {
+                "value": "() => { }",
+                "computed": false
+            }
+        },
+        "secondaryCallToActionColor": {
+            "type": {
+                "name": "string"
+            },
+            "required": false,
+            "description": "Color of secondary call to action button",
+            "defaultValue": {
+                "value": "''",
+                "computed": false
+            }
+        },
+        "secondaryCallToActionOutline": {
+            "type": {
+                "name": "bool"
+            },
+            "required": false,
+            "description": "Outline of secondary call to action button",
+            "defaultValue": {
+                "value": "true",
+                "computed": false
+            }
+        }
+    },
+    "filename": "/components/Hero/Hero.jsx"
+}

@@ -10,3 +10,4 @@
 | image | `string` | Image gif url | `''` |
 | onPlayPause | `func` | Called when gif is payed or paused | `() => {}` |
 | preview | `string` | Initial image url | `''` |
+| style | `objectOf` | Css style applied to the component | `null` |

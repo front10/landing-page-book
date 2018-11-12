@@ -4,9 +4,9 @@ import withStyles from '../../helpers/WithStyles';
 
 class Label extends Component {
   render() {
-    const { content, className, htmlFor } = this.props;
+    const { content, className, htmlFor, style } = this.props;
     return (
-      <label htmlFor={htmlFor} className={`Label ${className}`}>
+      <label style={style} htmlFor={htmlFor} className={`Label ${className}`}>
         {content}
       </label>
     );
@@ -23,6 +23,10 @@ Label.propTypes = {
    */
   className: PropTypes.string,
   /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
+  /**
    * Id of input.
    */
   htmlFor: PropTypes.string
@@ -30,8 +34,8 @@ Label.propTypes = {
 Label.defaultProps = {
   content: '',
   className: '',
+  style: null,
   htmlFor: ''
 };
 
-const LabelWithStyles = withStyles(Label);
-export default LabelWithStyles;
+export default withStyles(Label);

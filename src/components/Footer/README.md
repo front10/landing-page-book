@@ -14,7 +14,7 @@
 | linkTextColor | `string` | Text color of links. | `'light'` |
 | padding | `string` | Padding to apply to Footer. | `'5'` |
 | sections | `arrayOf` | Sections to show. | `[]` |
-| socialGray | `bool` | Define if socials buttons are gray. | `false` |
 | socialRounded | `bool` | Define if socials buttons are rounded. | `true` |
 | socialUrl | `string` | Url to share in socials networks. | `''` |
 | socials | `arrayOf` | Array of string with values of socials networks to display. | `[]` |
+| style | `objectOf` | Css style applied to the component | `null` |

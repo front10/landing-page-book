@@ -6817,6 +6817,99 @@ a.text-dark:hover, a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6; } }
 
+/* Custom variables */
+/* Custom bootswatch */
+.bg-primary {
+  background-image: linear-gradient(#2990ff, #007bff 60%, #0071eb);
+  background-repeat: no-repeat; }
+
+.bg-dark {
+  background-image: linear-gradient(#2990ff, #007bff 60%, #0071eb);
+  background-repeat: no-repeat; }
+
+.bg-light {
+  background-image: linear-gradient(white, #e9ecef 60%, #e3e7eb);
+  background-repeat: no-repeat; }
+
+.navbar-brand,
+.nav-link {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05); }
+
+.btn {
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.05); }
+
+.btn-primary {
+  background-image: linear-gradient(#2990ff, #007bff 60%, #0071eb);
+  background-repeat: no-repeat; }
+
+.btn-secondary {
+  background-image: linear-gradient(#808992, #6c757d 60%, #636b72);
+  background-repeat: no-repeat;
+  color: #495057; }
+
+.btn-success {
+  background-image: linear-gradient(#30c853, #28a745 60%, #24973e);
+  background-repeat: no-repeat; }
+
+.btn-info {
+  background-image: linear-gradient(#1cc2dc, #17a2b8 60%, #1592a6);
+  background-repeat: no-repeat; }
+
+.btn-warning {
+  background-image: linear-gradient(#ffcb30, #ffc107 60%, #f2b500);
+  background-repeat: no-repeat; }
+
+.btn-danger {
+  background-image: linear-gradient(#e25865, #dc3545 60%, #d72536);
+  background-repeat: no-repeat; }
+
+.btn-light {
+  background-image: linear-gradient(white, #f8f9fa 60%, #eceff2);
+  background-repeat: no-repeat; }
+
+.btn-dark {
+  background-image: linear-gradient(#464e57, #343a40 60%, #2b3035);
+  background-repeat: no-repeat; }
+
+.text-secondary {
+  color: #adb5bd !important; }
+
+.bg-primary h1, .bg-primary h2, .bg-primary h3, .bg-primary h4, .bg-primary h5, .bg-primary h6,
+.bg-success h1,
+.bg-success h2,
+.bg-success h3,
+.bg-success h4,
+.bg-success h5,
+.bg-success h6,
+.bg-info h1,
+.bg-info h2,
+.bg-info h3,
+.bg-info h4,
+.bg-info h5,
+.bg-info h6,
+.bg-warning h1,
+.bg-warning h2,
+.bg-warning h3,
+.bg-warning h4,
+.bg-warning h5,
+.bg-warning h6,
+.bg-danger h1,
+.bg-danger h2,
+.bg-danger h3,
+.bg-danger h4,
+.bg-danger h5,
+.bg-danger h6,
+.bg-dark h1,
+.bg-dark h2,
+.bg-dark h3,
+.bg-dark h4,
+.bg-dark h5,
+.bg-dark h6 {
+  color: #fff; }
+
+.dropdown-menu .dropdown-header {
+  color: #6c757d; }
+
 /* Font */
 * {
   font-family: 'Lato', sans-serif; }

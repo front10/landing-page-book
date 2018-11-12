@@ -1,12 +1,3 @@
-:root {
-  --CodeMirror__header_height: 30px;
-  --CodeMirror__height: auto;
-  --CodeMirror__font_family: Lato;
-  --CodeMirror__Container-border: solid 1px #304148;
-  --CodeMirror-fontSize: 16px;
-  --CodeMirror-borderRadius: 5px;
-}
-
 @import '~codemirror/lib/codemirror.css';
 @import '~codemirror/theme/monokai.css';
 @import '../Navbar/style.scss';
@@ -16,18 +7,18 @@
 @import '../Link/style.scss';
 .CodeMirror__header,
 .CodeMirror__footer {
-  height: var(--CodeMirror__header_height);
+    height: 30px;
 }
 
 .CodeMirror__Container {
-  border: var(--CodeMirror__Container-border);
-  border-radius: var(--CodeMirror-borderRadius);
+    border: solid 1px #304148;
+    border-radius: 5px;
 }
 
 .CodeMirror {
-  height: var(--CodeMirror__height) !important;
+    height: auto !important;
 }
 
 .ReactCodeMirror {
-  font-size: var(--CodeMirror-fontSize);
+    font-size: 16px;
 }

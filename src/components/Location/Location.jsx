@@ -66,7 +66,7 @@ Location.propTypes = {
   /**
    * Height of the map.
    */
-  height: PropTypes.number
+  height: PropTypes.string
 };
 Location.defaultProps = {
   lat: 0,

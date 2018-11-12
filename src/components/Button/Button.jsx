@@ -21,10 +21,9 @@ class Button extends Component {
       active
     } = this.props;
     let cssclass = `${className} btn-${color}`;
-    if (outline) cssclass += `${className} btn-outline-${color}`;
-    if (size) cssclass += `${cssclass} btn-${size}`;
-    if (active) cssclass += `${cssclass} ${active}`;
-
+    if (outline) cssclass += ` btn-outline-${color}`;
+    if (size) cssclass += ` btn-${size}`;
+    if (active) cssclass += ` active`;
     /* eslint-disable react/button-has-type */
     return (
       <button

@@ -46,7 +46,7 @@ class Input extends Component {
     };
 
     return (
-      <div className={className}>
+      <div>
         {label && <Label content={label} htmlFor={id} />}
         <div className="Input__Container">
           {type !== 'textarea' && <input {...props} />}

@@ -4,7 +4,15 @@ export default [
     name: 'Default'
   },
   {
-    id: 'minecraft',
-    name: 'Minecraft'
+    id: 'cerulean',
+    name: 'Cerulean'
+  },
+  {
+    id: 'litera',
+    name: 'Litera'
+  },
+  {
+    id: 'material',
+    name: 'Material'
   }
 ];

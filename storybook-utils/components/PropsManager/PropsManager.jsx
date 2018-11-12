@@ -66,13 +66,12 @@ class PropsManager extends React.Component {
   }
 
   showCopyButton() {
-    const { textCode, scopied } = this.state;
+    const { textCode } = this.state;
     return (
       <div className="text-white d-inline">
         <span className="playgroundHeader__icon">
           <CopyToClipboard text={textCode} onCopy={this.copyToClipboard}>
             <span className="font-weight-light fs-10 text-uppercase" onClick={this.copyToClipboard}>
-              <span>{scopied ? 'Copied' : 'Copy Code'}</span>
               <Icon
                 title="Copy code"
                 icon="fa fa-clone"

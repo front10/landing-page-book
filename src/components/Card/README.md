@@ -9,8 +9,6 @@
 | children | `union` | Array of elements to show inside a card | `null` |
 | className | `string` | Component class name | `null` |
 | image | `string` | Image url | `''` |
-| imageBorder | `bool` | Define if image is with border | `false` |
-| imageCircle | `bool` | Define if image is circular | `false` |
 | imageShadow | `bool` | Define if image   with shadow | `false` |
 | shadow | `bool` | Define if card show with shadow | `false` |
 | style | `objectOf` | Css style applied to the component | `null` |

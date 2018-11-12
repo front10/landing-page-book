@@ -60,7 +60,8 @@ class Navbar extends Component {
       fixed,
       className,
       expand,
-      children
+      children,
+      style
     } = this.props;
 
     let navClassName = `${className} navbar ${
@@ -72,7 +73,7 @@ class Navbar extends Component {
     navClassName += ` ${isTop ? 'navbar-up' : 'navbar-down'}`;
 
     return (
-      <nav className={navClassName}>
+      <nav className={navClassName} style={style}>
         <Button
           className="navbar-toggler Navbar__Toggler"
           ariaLabel="Toggle navigation"
@@ -147,6 +148,10 @@ Navbar.propTypes = {
    */
   className: PropTypes.string,
   /**
+   * Customs styles to tramsform your Hero
+   */
+  style: PropTypes.objectOf(PropTypes.any),
+  /**
    * Resolution to expand Navbar.
    */
   expand: PropTypes.string,
@@ -188,6 +193,7 @@ Navbar.defaultProps = {
   brandLink: '',
   brandLogo: '',
   className: '',
+  style: null,
   bgColor: 'dark',
   brandTextColor: 'light',
   linkTextColor: 'light',

@@ -11,16 +11,12 @@ class Sponsors extends React.Component {
   }
 
   render() {
-    const { gray, sponsors } = this.props;
-    return <ImageList gray={gray} images={sponsors} {...extractProps('image', this.props)} />;
+    const { sponsors } = this.props;
+    return <ImageList images={sponsors} {...extractProps('image', this.props)} />;
   }
 }
 
 Sponsors.propTypes = {
-  /**
-   * Define if image is gray scale.
-   */
-  gray: PropTypes.bool,
   /**
    * Companies to show.
    */
@@ -32,7 +28,6 @@ Sponsors.propTypes = {
 };
 
 Sponsors.defaultProps = {
-  gray: false,
   sponsors: []
 };
 

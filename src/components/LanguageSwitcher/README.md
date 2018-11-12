@@ -16,3 +16,4 @@
 | showFlag | `bool` | Show or hide flags. | `true` |
 | showLabel | `bool` | Show or hide the label of selected language. | `false` |
 | showOptionLabel | `bool` | Show or hide labels in option list. | `true` |
+| style | `objectOf` | Css style applied to the component | `null` |

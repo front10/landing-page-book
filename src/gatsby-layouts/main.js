@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import GatsbyLink from 'gatsby-link';
 import Helmet from 'react-helmet';
+import TemeSwitcher from '../../storybook-utils/components/ThemeSwitcher';
 import logo from '../../assets/images/logo/logoMainBLACK.png';
 
 import {
@@ -17,7 +18,6 @@ import {
   Link
 } from '../components';
 
-import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css';
 import '../themes/default/index.css';
 import '../pages/app.css';
@@ -147,6 +147,7 @@ class MainLayout extends React.Component {
             </Column>
           </Row>
         </Footer>
+        <TemeSwitcher />
       </React.Fragment>
     );
   }

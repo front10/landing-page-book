@@ -8,6 +8,7 @@ import Button from '../Button/Button';
 import Header from '../Header/Header';
 // import StarMeUpTemplate from './templates/StarMeUpTemplate';
 import { crazyStars } from './particlesSugarMapping';
+import withStyles from '../../helpers/WithStyles';
 
 class Hero extends Component {
   static onButtonClick(button) {
@@ -15,11 +16,11 @@ class Hero extends Component {
   }
 
   static getCustomCssFilterForImg(props, state) {
-    const { imgFilter } = props;
+    const { imgCssFilter } = props;
     const { randomClass } = state;
     return `
     .Hero.${randomClass} [src] {
-      filter: ${imgFilter};
+      filter: ${imgCssFilter};
     }`;
   }
 
@@ -67,7 +68,7 @@ class Hero extends Component {
       callToAction,
       children,
       style,
-      imgFilter,
+      imgCssFilter,
       callToActionOnClick,
       callToActionColor,
       callToActionOutline,
@@ -85,9 +86,9 @@ class Hero extends Component {
       particlesSugar,
       particlesParams
     );
-
+    const newStyles = Object.assign({}, backgroundColor, style);
     return (
-      <div className={`Hero ${randomClass}`} style={{ backgroundColor }}>
+      <div className={`Hero ${randomClass}`} style={{ newStyles }}>
         <LazyHero
           isFixed={isFixed}
           isCentered={isCentered}
@@ -161,7 +162,7 @@ class Hero extends Component {
             )}
             {children}
           </div>
-          {imgFilter && <style>{customCssFilter}</style>}
+          {imgCssFilter && <style>{customCssFilter}</style>}
         </LazyHero>
       </div>
     );
@@ -248,11 +249,11 @@ Hero.propTypes = {
   /**
    * Customs styles to tramsform your Hero
    */
-  style: PropTypes.string,
+  style: PropTypes.objectOf(PropTypes.any),
   /**
    * The filter property defines visual effects (like blur and saturation) to an element (often <img>).
    */
-  imgFilter: PropTypes.string,
+  imgCssFilter: PropTypes.string,
   /**
    * Preconfigured params for particles, you can find this on particlesSugarMapping.js file.
    */
@@ -327,7 +328,7 @@ Hero.defaultProps = {
   particlesParams: null,
   children: null,
   style: null,
-  imgFilter: null,
+  imgCssFilter: null,
   particlesSugar: null,
   callToActionColor: '',
   callToActionOutline: true,
@@ -343,4 +344,4 @@ Hero.defaultProps = {
   secondaryCallToActionOnClick: () => {}
 };
 
-export default Hero;
+export default withStyles(Hero);

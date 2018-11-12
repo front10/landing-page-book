@@ -4,6 +4,10 @@ import PropTypes from 'prop-types';
 const withStyles = WrappedComponent => {
   const defaultProps = WrappedComponent ? WrappedComponent.defaultProps : {};
   class Styled extends Component {
+    static mapper(clase, prop) {
+      return !clase.includes(prop) ? `${clase} ${prop}` : clase;
+    }
+
     getLayoutBasedStyles() {
       const {
         marginRight,
@@ -18,72 +22,36 @@ const withStyles = WrappedComponent => {
         padding
       } = this.props;
       let layoutClasses = '';
-      if (margin) {
-        layoutClasses = `${layoutClasses} m-${margin}`;
-      }
-      if (marginRight) {
-        layoutClasses = `${layoutClasses} mr-${marginRight}`;
-      }
-      if (marginLeft) {
-        layoutClasses = `${layoutClasses} ml-${marginLeft}`;
-      }
-      if (marginTop) {
-        layoutClasses = `${layoutClasses} mt-${marginTop}`;
-      }
-      if (marginBottom) {
-        layoutClasses = `${layoutClasses} mb-${marginBottom}`;
-      }
-      if (padding) {
-        layoutClasses = `${layoutClasses} p-${padding}`;
-      }
-      if (paddingRight) {
-        layoutClasses = `${layoutClasses} pr-${paddingRight}`;
-      }
-      if (paddingLeft) {
-        layoutClasses = `${layoutClasses} pl-${paddingLeft}`;
-      }
-      if (paddingTop) {
-        layoutClasses = `${layoutClasses} pt-${paddingTop}`;
-      }
-      if (paddingBottom) {
-        layoutClasses = `${layoutClasses} pb-${paddingBottom}`;
-      }
+      if (margin) layoutClasses = Styled.mapper(layoutClasses, `m-${margin}`);
+      if (marginRight) layoutClasses = Styled.mapper(layoutClasses, `mr-${marginRight}`);
+      if (marginLeft) layoutClasses = Styled.mapper(layoutClasses, `ml-${marginLeft}`);
+      if (marginTop) layoutClasses = Styled.mapper(layoutClasses, `mt-${marginTop}`);
+      if (marginBottom) layoutClasses = Styled.mapper(layoutClasses, `mb-${marginBottom}`);
+      if (padding) layoutClasses = Styled.mapper(layoutClasses, `p-${padding}`);
+      if (paddingRight) layoutClasses = Styled.mapper(layoutClasses, `pr-${paddingRight}`);
+      if (paddingLeft) layoutClasses = Styled.mapper(layoutClasses, `pl-${paddingLeft}`);
+      if (paddingTop) layoutClasses = Styled.mapper(layoutClasses, `pt-${paddingTop}`);
+      if (paddingBottom) layoutClasses = Styled.mapper(layoutClasses, `pb-${paddingBottom}`);
       return layoutClasses;
     }
 
     getColorBasedStyles() {
       const { bgColor, textColor } = this.props;
       let colorBasedClasses = '';
-      if (bgColor) {
-        colorBasedClasses = `${colorBasedClasses} bg-${bgColor}`;
-      }
-      if (textColor) {
-        colorBasedClasses = `${colorBasedClasses} text-${textColor}`;
-      }
+      if (bgColor) colorBasedClasses = Styled.mapper(colorBasedClasses, `bg-${bgColor}`);
+      if (textColor) colorBasedClasses = Styled.mapper(colorBasedClasses, `text-${textColor}`);
       return colorBasedClasses;
     }
 
     getBorderBasedStyles() {
       const { border, borderTop, borderRight, borderBottom, borderLeft, borderNone } = this.props;
       let borderBasedClasses = '';
-      if (border) {
-        borderBasedClasses = `${borderBasedClasses} border`;
-      }
-      if (borderTop) {
-        borderBasedClasses = `${borderBasedClasses} border-top`;
-      }
-      if (borderRight) {
-        borderBasedClasses = `${borderBasedClasses} border-right`;
-      }
-      if (borderBottom) {
-        borderBasedClasses = `${borderBasedClasses} border-bottom`;
-      }
-      if (borderLeft) {
-        borderBasedClasses = `${borderBasedClasses} border-left`;
-      }
-      if (borderNone) {
-        borderBasedClasses = `${borderBasedClasses} border-0`;
-      }
+      if (border) borderBasedClasses = Styled.mapper(borderBasedClasses, `border`);
+      if (borderTop) borderBasedClasses = Styled.mapper(borderBasedClasses, `border-top`);
+      if (borderRight) borderBasedClasses = Styled.mapper(borderBasedClasses, `border-right`);
+      if (borderBottom) borderBasedClasses = Styled.mapper(borderBasedClasses, `border-bottom`);
+      if (borderLeft) borderBasedClasses = Styled.mapper(borderBasedClasses, `border-left`);
+      if (borderNone) borderBasedClasses = Styled.mapper(borderBasedClasses, `border-0`);
       return borderBasedClasses;
     }
 
@@ -94,15 +62,47 @@ const withStyles = WrappedComponent => {
         textTruncate,
         fontItalic,
         fontWeight,
-        textMonoSpace
+        textMonoSpace,
+        fontSize,
+        fontSizeSm,
+        fontSizeMd,
+        fontSizeLg,
+        fontSizeXlg
       } = this.props;
       let textAlignBasedClasses = '';
-      if (textAlign) textAlignBasedClasses += `${textAlignBasedClasses} text-${textAlign}`;
-      if (textTransform) textAlignBasedClasses += `${textAlignBasedClasses} text-${textTransform}`;
-      if (textTruncate) textAlignBasedClasses += `${textAlignBasedClasses} text-truncate`;
-      if (fontItalic) textAlignBasedClasses += `${textAlignBasedClasses} font-italic`;
-      if (fontWeight) textAlignBasedClasses += `${textAlignBasedClasses} font-weight-${fontWeight}`;
-      if (textMonoSpace) textAlignBasedClasses += `${textAlignBasedClasses} text-monospace`;
+      if (textAlign)
+        textAlignBasedClasses = Styled.mapper(textAlignBasedClasses, `text-${textAlign}`);
+      if (textTransform)
+        textAlignBasedClasses = Styled.mapper(textAlignBasedClasses, `text-${textTransform}`);
+      if (textTruncate)
+        textAlignBasedClasses = Styled.mapper(textAlignBasedClasses, `text-truncate`);
+      if (fontItalic) textAlignBasedClasses = Styled.mapper(textAlignBasedClasses, `font-italic`);
+      if (fontWeight)
+        textAlignBasedClasses = Styled.mapper(textAlignBasedClasses, `font-weight-${fontWeight}`);
+      if (textMonoSpace)
+        textAlignBasedClasses = Styled.mapper(textAlignBasedClasses, `text-monospace`);
+      if (fontSize)
+        textAlignBasedClasses = Styled.mapper(textAlignBasedClasses, `fr-font-size-${fontSize}-x`);
+      if (fontSizeSm)
+        textAlignBasedClasses = Styled.mapper(
+          textAlignBasedClasses,
+          `fr-font-size-sm-${fontSizeSm}-x`
+        );
+      if (fontSizeMd)
+        textAlignBasedClasses = Styled.mapper(
+          textAlignBasedClasses,
+          `fr-font-size-md-${fontSizeMd}-x`
+        );
+      if (fontSizeLg)
+        textAlignBasedClasses = Styled.mapper(
+          textAlignBasedClasses,
+          `fr-font-size-lg-${fontSizeLg}-x`
+        );
+      if (fontSizeXlg)
+        textAlignBasedClasses = Styled.mapper(
+          textAlignBasedClasses,
+          `fr-font-size-xlg-${fontSizeXlg}-x`
+        );
       return textAlignBasedClasses;
     }
 
@@ -117,42 +117,22 @@ const withStyles = WrappedComponent => {
         roundedNone
       } = this.props;
       let roundedBasedClasses = '';
-      if (rounded) {
-        roundedBasedClasses = `${roundedBasedClasses} rounded`;
-      }
-      if (roundedTop) {
-        roundedBasedClasses = `${roundedBasedClasses} rounded-top`;
-      }
-      if (roundedRight) {
-        roundedBasedClasses = `${roundedBasedClasses} rounded-right`;
-      }
-      if (roundedBottom) {
-        roundedBasedClasses = `${roundedBasedClasses} rounded-bottom`;
-      }
-      if (roundedLeft) {
-        roundedBasedClasses = `${roundedBasedClasses} rounded-left`;
-      }
-      if (roundedCircle) {
-        roundedBasedClasses = `${roundedBasedClasses} rounded-circle`;
-      }
-      if (roundedNone) {
-        roundedBasedClasses = `${roundedBasedClasses} rounded-0`;
-      }
+      if (rounded) roundedBasedClasses = Styled.mapper(roundedBasedClasses, `rounded`);
+      if (roundedTop) roundedBasedClasses = Styled.mapper(roundedBasedClasses, `rounded-top`);
+      if (roundedRight) roundedBasedClasses = Styled.mapper(roundedBasedClasses, `rounded-right`);
+      if (roundedBottom) roundedBasedClasses = Styled.mapper(roundedBasedClasses, `rounded-bottom`);
+      if (roundedLeft) roundedBasedClasses = Styled.mapper(roundedBasedClasses, `rounded-left`);
+      if (roundedCircle) roundedBasedClasses = Styled.mapper(roundedBasedClasses, `rounded-circle`);
+      if (roundedNone) roundedBasedClasses = Styled.mapper(roundedBasedClasses, `rounded-0`);
       return roundedBasedClasses;
     }
 
     getFloatBasedStyles() {
       const { floatLeft, floatRight, floatNone } = this.props;
       let floatBasedClasses = '';
-      if (floatLeft) {
-        floatBasedClasses = `${floatBasedClasses} float-left`;
-      }
-      if (floatRight) {
-        floatBasedClasses = `${floatBasedClasses} float-right`;
-      }
-      if (floatNone) {
-        floatBasedClasses = `${floatBasedClasses} float-none`;
-      }
+      if (floatLeft) floatBasedClasses = Styled.mapper(floatBasedClasses, `float-left`);
+      if (floatRight) floatBasedClasses = Styled.mapper(floatBasedClasses, `float-right`);
+      if (floatNone) floatBasedClasses = Styled.mapper(floatBasedClasses, `float-none`);
       return floatBasedClasses;
     }
 
@@ -162,10 +142,9 @@ const withStyles = WrappedComponent => {
     }
 
     translatePropsStyles() {
-      const { className, classNames } = this.props;
+      const { className } = this.props;
       let finalClasses = '';
       if (className) finalClasses += ` ${className}`;
-      if (classNames) finalClasses += ` ${classNames}`;
       const layoutBasedClasses = this.getLayoutBasedStyles();
       const colorBasedClasses = this.getColorBasedStyles();
       const borderBasedClasses = this.getBorderBasedStyles();
@@ -195,10 +174,11 @@ const withStyles = WrappedComponent => {
     }
 
     render() {
-      const classNames = this.translatePropsStyles();
+      const className = this.translatePropsStyles();
       const { style } = this.props;
       const newStyles = Object.assign({}, style, this.getFilter());
-      return <WrappedComponent {...this.props} className={classNames} style={newStyles} />;
+      const props = { ...this.props, className };
+      return <WrappedComponent {...props} style={newStyles} />;
     }
   }
 
@@ -238,6 +218,11 @@ const withStyles = WrappedComponent => {
     floatRight: PropTypes.bool,
     floatNone: PropTypes.bool,
     cssFilter: PropTypes.string,
+    fontSize: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
+    fontSizeSm: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
+    fontSizeMd: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
+    fontSizeLg: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
+    fontSizeXlg: PropTypes.oneOf(['1', '2', '3', '4', '5', '6', '7', '8', '9']),
     style: PropTypes.objectOf(PropTypes.any)
   };
 
@@ -277,6 +262,11 @@ const withStyles = WrappedComponent => {
     floatRight: defaultProps.floatRight || null,
     floatNone: defaultProps.floatNone || null,
     cssFilter: defaultProps.cssFilter || null,
+    fontSize: defaultProps.fontSize || null,
+    fontSizeSm: defaultProps.fontSizeSm || null,
+    fontSizeMd: defaultProps.fontSizeMd || null,
+    fontSizeLg: defaultProps.fontSizeLg || null,
+    fontSizeXlg: defaultProps.fontSizeXlg || null,
     style: defaultProps.style || null
   };
   return Styled;

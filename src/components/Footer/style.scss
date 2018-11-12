@@ -1,23 +1,6 @@
-:root {
-  --Footer-backgroundImage: none;
-  --Footer__Sections__Header-fontSize: 1.5rem;
-  --Footer__Sections__Link-fontSize: 0.8rem;
-  --Footer__Copyright-fontSize: 0.8rem;
-}
-
 @import '../Social/style.scss';
 @import '../Copyright/style.scss';
 .Footer {
   padding: 2.5rem 0;
   text-align: center;
-  background-image: var(--Footer-backgroundImage);
-  .Footer__Copyright {
-    font-size: var(--Footer__Copyright-fontSize);
-  }
-  .Footer__Sections__Header {
-    font-size: var(--Footer__Sections__Header-fontSize);
-  }
-  a {
-    font-size: var(--Footer__Sections__Link-fontSize);
-  }
 }

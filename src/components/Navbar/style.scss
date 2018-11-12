@@ -1,9 +1,3 @@
-:root {
-  --Navbar-backgroundImage: none;
-  --Navbar--backgroundColor: rgba(250, 250, 250, 0.9);
-  --Navbar--boxShadow: rgba(0, 0, 0, 0.124);
-}
-
 @import '../Button/style.scss';
 @import '../NavbarBrand/style.scss';
 @import '../Image/style.scss';
@@ -11,7 +5,6 @@
 @import '../NavbarNav/style.scss';
 @import '../NavbarLink/style.scss';
 .Navbar {
-  background-image: var(--Navbar-backgroundImage);
   .NavbarLink,
   .Navbar__Toggler,
   .NavbarBrand {
@@ -44,11 +37,11 @@
 }
 
 .Navbar.navbar-down {
-  box-shadow: 0 0 4px var(--Navbar--boxShadow), 0 4px 8px var(--Navbar--boxShadow);
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.124), 0 4px 8px rgba(0, 0, 0, 0.124);
 }
 
 .Navbar.Navbar--transparent.navbar-down {
-  background-color: var(--Navbar--backgroundColor) !important;
+  background-color: rgba(250, 250, 250, 0.9) !important;
 }
 
 @media (min-width: 768px) {

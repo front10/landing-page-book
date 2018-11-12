@@ -51,37 +51,37 @@ class ContactInfo extends Component {
         {address && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-map-marker" {...extractProps('icon', this.props)} />}
-            <Label {...extractProps('info', this.props)} content={address} />
+            <Label content={address} {...extractProps('info', this.props)} />
           </div>
         )}
         {email && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-envelope" {...extractProps('icon', this.props)} />}
-            <Label {...extractProps('info', this.props)} content={email} />
+            <Label content={email} {...extractProps('info', this.props)} />
           </div>
         )}
         {phone && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-phone" {...extractProps('icon', this.props)} />}
-            <Label {...extractProps('info', this.props)} content={phone} />
+            <Label content={phone} {...extractProps('info', this.props)} />
           </div>
         )}
         {mobile && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-mobile" {...extractProps('icon', this.props)} />}
-            <Label {...extractProps('info', this.props)} content={mobile} />
+            <Label content={mobile} {...extractProps('info', this.props)} />
           </div>
         )}
         {fax && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-fax" {...extractProps('icon', this.props)} />}
-            <Label {...extractProps('info', this.props)} content={fax} />
+            <Label content={fax} {...extractProps('info', this.props)} />
           </div>
         )}
         {website && (
           <div className="ContactInfo__Information">
             {showIcons && <Icon icon="fa fa-globe" {...extractProps('icon', this.props)} />}
-            <Label {...extractProps('info', this.props)} content={website} />
+            <Label content={website} {...extractProps('info', this.props)} />
           </div>
         )}
       </Card>
@@ -141,7 +141,11 @@ ContactInfo.propTypes = {
   /**
    * Height of the map
    */
-  mapHeight: PropTypes.string
+  mapHeight: PropTypes.string,
+  /**
+   * Margin bottom of text
+   */
+  infoMarginBottom: PropTypes.string
 };
 ContactInfo.defaultProps = {
   className: '',
@@ -156,7 +160,8 @@ ContactInfo.defaultProps = {
   mobile: '',
   fax: '',
   website: '',
-  mapHeight: '50vh'
+  mapHeight: '50vh',
+  infoMarginBottom: '0'
 };
 
 export default withStyles(ContactInfo);

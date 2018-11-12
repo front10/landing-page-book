@@ -1,387 +1,442 @@
 {
-    "margin": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Margin of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
+  "margin": {
+    "type": {
+      "name": "string"
     },
-    "marginRight": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Margin right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "marginLeft": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Margin left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "marginTop": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Margin top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "marginBottom": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Margin bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "padding": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Padding of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "paddingRight": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Padding right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "paddingLeft": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Padding left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "paddingTop": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Padding top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "paddingBottom": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Padding bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "rounded": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Edges are rounded.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "roundedRight": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Edges to the right are rounded.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "roundedLeft": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Edges to the left are rounded.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "roundedTop": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Edges to the top are rounded.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "roundedBottom": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Edges to the bottom are rounded.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "roundedCircle": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "If the edges form a circle.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "roundedNone": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Edges are not rounded.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "bgColor": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Background color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "textColor": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Text color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "border": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Show component boder.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "borderTop": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Show component boder top.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "borderRight": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Show component boder right.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "borderLeft": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Show component boder left.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "borderBottom": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Show component boder bottom.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "borderNone": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Hide component boder bottom.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "textAlign": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Text alignment. Can be <code>'left'</code>, <code>'center'</code> and <code>'right</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "textTransform": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Text text transform. Can be <code>'lowercase'</code>, <code>'uppercase'</code>, <code>'capitalize'</code>.",
-        "defaultValue": {
-            "value": "null",
-            "computed": false
-        }
-    },
-    "textTruncate": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Truncate the paragraph.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "textMonoSpace": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Show content using mono spaced text.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "fontItalic": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Show content using an italic font.",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "fontWeight": {
-        "type": {
-            "name": "string"
-        },
-        "required": false,
-        "description": "Weight of the font. Can be <code>'bold'</code>, <code>'normal'</code>, <code>'light'</code>.",
-        "defaultValue": {
-            "value": "normal",
-            "computed": false
-        }
-    },
-    "floatLeft": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Float left on all viewport sizes",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "floatRight": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Float right on all viewport sizes",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "floatNone": {
-        "type": {
-            "name": "bool"
-        },
-        "required": false,
-        "description": "Don't float on all viewport sizes",
-        "defaultValue": {
-            "value": "false",
-            "computed": false
-        }
-    },
-    "style": {
-        "type": {
-            "name": "object"
-        },
-        "required": false,
-        "description": "In case you wanted to pass custom styles.",
-        "defaultValue": {
-            "value": "{}",
-            "computed": false
-        }
+    "required": false,
+    "description": "Margin of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
     }
+  },
+  "marginRight": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Margin right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "marginLeft": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Margin left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "marginTop": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Margin top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "marginBottom": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Margin bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "padding": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Padding of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "paddingRight": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Padding right of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "paddingLeft": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Padding left of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "paddingTop": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Padding top of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "paddingBottom": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Padding bottom of the component. Can be <code>'0'</code>,<code>'1'</code>,<code>'2'</code>,<code>'3'</code>,<code>'4'</code>,<code>'5'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "rounded": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges are rounded.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "roundedRight": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges to the right are rounded.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "roundedLeft": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges to the left are rounded.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "roundedTop": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges to the top are rounded.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "roundedBottom": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges to the bottom are rounded.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "roundedCircle": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "If the edges form a circle.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "roundedNone": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Edges are not rounded.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "bgColor": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Background color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "textColor": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Text color of the component. Can be <code>'primary'</code>,<code>'secundary'</code>,<code>'warning'</code>,<code>'success'</code>,<code>'info'</code>,<code>'dark'</code>,<code>'light'</code>,<code>'default'</code>,<code>'link'</code>,<code>'danger'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "border": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Show component boder.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "borderTop": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Show component boder top.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "borderRight": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Show component boder right.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "borderLeft": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Show component boder left.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "borderBottom": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Show component boder bottom.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "borderNone": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Hide component boder bottom.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "textAlign": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Text alignment. Can be <code>'left'</code>, <code>'center'</code> and <code>'right</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "textTransform": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Text text transform. Can be <code>'lowercase'</code>, <code>'uppercase'</code>, <code>'capitalize'</code>.",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "textTruncate": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Truncate the paragraph.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "textMonoSpace": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Show content using mono spaced text.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "fontItalic": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Show content using an italic font.",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "fontWeight": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Weight of the font. Can be <code>'bold'</code>, <code>'normal'</code>, <code>'light'</code>.",
+    "defaultValue": {
+      "value": "normal",
+      "computed": false
+    }
+  },
+  "floatLeft": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Float left on all viewport sizes",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "floatRight": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Float right on all viewport sizes",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "floatNone": {
+    "type": {
+      "name": "bool"
+    },
+    "required": false,
+    "description": "Don't float on all viewport sizes",
+    "defaultValue": {
+      "value": "false",
+      "computed": false
+    }
+  },
+  "fontSize": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Define text font size. Can be from <code>'1'</code> to <code>'9'</code>",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "fontSizeSm": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Define text font size on <code>sm</code> screen. Can be from <code>'1'</code> to <code>'9'</code>",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "fontSizeMd": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Define text font size on <code>md</code> screen. Can be from <code>'1'</code> to <code>'9'</code>",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "fontSizeLg": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Define text font size on <code>lg</code> screen. Can be from <code>'1'</code> to <code>'9'</code>",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "fontSizeXlg": {
+    "type": {
+      "name": "string"
+    },
+    "required": false,
+    "description": "Define text font size on <code>x-lg</code> screen. Can be from <code>'1'</code> to <code>'9'</code>",
+    "defaultValue": {
+      "value": "null",
+      "computed": false
+    }
+  },
+  "style": {
+    "type": {
+      "name": "object"
+    },
+    "required": false,
+    "description": "In case you wanted to pass custom styles.",
+    "defaultValue": {
+      "value": "{}",
+      "computed": false
+    }
+  }
 }

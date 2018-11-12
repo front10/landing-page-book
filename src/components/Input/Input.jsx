@@ -47,7 +47,7 @@ class Input extends Component {
     const props = {
       className: `form-control ${inputcls} ${
         icon ? `Input__Container__Conponent--${iconAlign}` : ''
-      }`,
+        }`,
       type,
       name,
       id,
@@ -57,7 +57,7 @@ class Input extends Component {
     };
 
     return (
-      <div className={className} style={style}>
+      <div style={style}>
         {label && <Label content={label} htmlFor={id} />}
         <div className="Input__Container">
           {type !== 'textarea' && <input {...props} />}
@@ -136,7 +136,7 @@ Input.defaultProps = {
   size: '',
   icon: '',
   iconAlign: 'left',
-  onChange: () => {}
+  onChange: () => { }
 };
 
 export default withStyles(Input);

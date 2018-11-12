@@ -1,7 +1,9 @@
 import withStyles from '../WithStyles';
 
 const isAvailable = prop => {
+  /* eslint-disable react/forbid-foreign-prop-types */
   const stylesProps = withStyles().propTypes;
+  /* eslint-enable react/forbid-foreign-prop-types */
   return (
     Object.keys(stylesProps).filter(item => {
       const patt = new RegExp(`[a-z]+[a-z|A-Z]${item.charAt(0).toUpperCase()}${item.slice(1)}`);

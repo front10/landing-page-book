@@ -4,7 +4,7 @@ export default {
     'It is always important to have the most information of your contacts, our component provides it.',
   import: ``,
   withStyles: true,
-  extractProps: ['icon'],
+  extractProps: ['icon', 'info'],
   stories: [
     {
       name: 'Basic',

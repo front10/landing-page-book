@@ -105,8 +105,8 @@
       "component---src-pages-components-contactus-js-407daae179e6d740d311.js.map"
     ],
     "component---src-pages-components-hero-js": [
-      "component---src-pages-components-hero-js-3ff1d0956e1a555973f8.js",
-      "component---src-pages-components-hero-js-3ff1d0956e1a555973f8.js.map"
+      "component---src-pages-components-hero-js-895548d98db95ef06994.js",
+      "component---src-pages-components-hero-js-895548d98db95ef06994.js.map"
     ],
     "path---components-icon": [
       "path---components-icon-a0e39f21c11f6a62c5ab.js",
@@ -201,12 +201,12 @@
       "path---index-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-components-section-js": [
-      "component---src-pages-components-section-js-5d2ec5e3248ad23fc4c5.js",
-      "component---src-pages-components-section-js-5d2ec5e3248ad23fc4c5.js.map"
+      "component---src-pages-components-section-js-d123ed84a2cf273cb445.js",
+      "component---src-pages-components-section-js-d123ed84a2cf273cb445.js.map"
     ],
     "component---src-pages-components-languageswitcher-js": [
-      "component---src-pages-components-languageswitcher-js-0b97865169bf0fbba324.js",
-      "component---src-pages-components-languageswitcher-js-0b97865169bf0fbba324.js.map"
+      "component---src-pages-components-languageswitcher-js-52ffae2e6d6b36e721d5.js",
+      "component---src-pages-components-languageswitcher-js-52ffae2e6d6b36e721d5.js.map"
     ],
     "path---components-backersopencollective": [
       "path---components-backersopencollective-a0e39f21c11f6a62c5ab.js",
@@ -221,8 +221,8 @@
       "component---src-pages-components-browser-js-2344f932472b51ebae84.js.map"
     ],
     "component---src-pages-components-icon-js": [
-      "component---src-pages-components-icon-js-7bf3d9b6a7aeb7f2f193.js",
-      "component---src-pages-components-icon-js-7bf3d9b6a7aeb7f2f193.js.map"
+      "component---src-pages-components-icon-js-b2572ec4b898f15b2d18.js",
+      "component---src-pages-components-icon-js-b2572ec4b898f15b2d18.js.map"
     ],
     "path---components-navbarbrand": [
       "path---components-navbarbrand-a0e39f21c11f6a62c5ab.js",
@@ -241,14 +241,14 @@
       "component---src-pages-components-location-js-51b8f900511207eeb03c.js.map"
     ],
     "commons": [
-      "commons-c09b9c9b1e2c5ddd5fb7.js",
+      "commons-e409b21cd1024ee6450e.js",
       "build-js-styles.css",
-      "commons-c09b9c9b1e2c5ddd5fb7.js.map",
+      "commons-e409b21cd1024ee6450e.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-components-team-js": [
-      "component---src-pages-components-team-js-d6fed5673d2ace816e57.js",
-      "component---src-pages-components-team-js-d6fed5673d2ace816e57.js.map"
+      "component---src-pages-components-team-js-0852c51fb36d84072401.js",
+      "component---src-pages-components-team-js-0852c51fb36d84072401.js.map"
     ],
     "path---components-location": [
       "path---components-location-a0e39f21c11f6a62c5ab.js",
@@ -343,9 +343,9 @@
       "component---src-pages-components-features-js-73a491a779f2144c48e3.js.map"
     ],
     "app": [
-      "app-5d176087913376096440.js",
+      "app-b102a85a87677dc801a1.js",
       "build-js-styles.css",
-      "app-5d176087913376096440.js.map",
+      "app-b102a85a87677dc801a1.js.map",
       "build-js-styles.css.map"
     ],
     "component---src-pages-components-container-js": [
@@ -361,8 +361,8 @@
       "component---src-pages-components-video-js-4b33e2b12d9209b2189d.js.map"
     ],
     "component---src-pages-components-navbar-js": [
-      "component---src-pages-components-navbar-js-9cf078de0bd77be26669.js",
-      "component---src-pages-components-navbar-js-9cf078de0bd77be26669.js.map"
+      "component---src-pages-components-navbar-js-a4419179a2bb30be0443.js",
+      "component---src-pages-components-navbar-js-a4419179a2bb30be0443.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
@@ -389,8 +389,8 @@
       "component---src-pages-components-analytics-js-a2766917778c05af4d9a.js.map"
     ],
     "component---src-pages-components-sponsors-js": [
-      "component---src-pages-components-sponsors-js-03be147074162adef168.js",
-      "component---src-pages-components-sponsors-js-03be147074162adef168.js.map"
+      "component---src-pages-components-sponsors-js-8ff16d71bb17e9ab5b4c.js",
+      "component---src-pages-components-sponsors-js-8ff16d71bb17e9ab5b4c.js.map"
     ],
     "path---components-navbar": [
       "path---components-navbar-a0e39f21c11f6a62c5ab.js",

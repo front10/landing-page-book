@@ -38,7 +38,7 @@ Icon.propTypes = {
 Icon.defaultProps = {
   className: '',
   style: {},
-  onClick: () => { },
+  onClick: () => {},
   title: ''
 };
 

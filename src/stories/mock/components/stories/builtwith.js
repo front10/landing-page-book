@@ -9,7 +9,7 @@ export default {
       name: 'Basic',
       summary: '',
       code: `<BuiltWith
-    gray
+    imageCssFilter="grayscale(100%)"
     companies={[
         { image: 'https://front10.com/landing-page-book/images/buildwith/bootstrap.png' },
         { image: 'https://front10.com/landing-page-book/images/buildwith/browserstack.png' },

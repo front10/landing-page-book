@@ -8,6 +8,13 @@ import Image from '../../../src/components/Image';
 import './style.css';
 
 class ThemeSwitcher extends React.Component {
+  componentDidMount() {
+    if (typeof localStorage !== 'undefined') {
+      const e = localStorage.getItem('landing-page-book-theme');
+      if (e) this.changeTheme({ key: e });
+    }
+  }
+
   changeTheme = e => {
     if (typeof window !== 'undefined') {
       let themeLink = document.getElementById('landing-page-book-theme');
@@ -18,6 +25,8 @@ class ThemeSwitcher extends React.Component {
         document.head.appendChild(themeLink);
       }
       themeLink.setAttribute('href', withPrefix(`/themes/${e.key}/index.css`));
+      if (typeof localStorage !== 'undefined')
+        localStorage.setItem('landing-page-book-theme', e.key);
     }
   };
 

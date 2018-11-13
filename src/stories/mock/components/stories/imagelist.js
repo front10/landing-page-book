@@ -9,7 +9,7 @@ export default {
       name: 'Basic',
       summary: '',
       code: `<ImageList 
-    gray
+    imageCssFilter="grayscale(100%)"
     images={[
         {image: 'https://front10.com/landing-page-book/images/image-list/react.png'},
         {image: 'https://front10.com/landing-page-book/images/image-list/graphql.png'},

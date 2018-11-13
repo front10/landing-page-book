@@ -59,9 +59,9 @@ export default {
             <Image src="https://front10.com/img/logos/logo-main.png" width={80} alt="Front 10 logo"/>
         </Column>
         <Column margin="2">
-            <Social margin="2" type="twitter" url="https://front10.com" gray />
-            <Social margin="2" type="facebook" url="https://front10.com" gray />
-            <Social margin="2" type="linkedin" url="https://front10.com" gray />
+            <Social margin="2" type="twitter" url="https://front10.com" cssFilter="grayscale(100%)" />
+            <Social margin="2" type="facebook" url="https://front10.com" cssFilter="grayscale(100%)" />
+            <Social margin="2" type="linkedin" url="https://front10.com" cssFilter="grayscale(100%)" />
         </Column>
     </Row>
 </Footer>`,

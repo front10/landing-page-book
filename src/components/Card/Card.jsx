@@ -12,8 +12,6 @@ class Card extends React.Component {
   render() {
     const {
       image,
-      imageCircle,
-      imageBorder,
       title,
       subTitle,
       summary,
@@ -26,12 +24,10 @@ class Card extends React.Component {
       <div className={`card h-100 Card ${className} ${shadow ? 'Card--shadow' : ''}`}>
         {image && (
           <Image
-            border={imageBorder}
-            rounded={imageCircle}
             src={image}
             shadow={imageShadow}
             alt="Generic placeholder"
-            {...this.props}
+            {...extractProps('image', this.props)}
           />
         )}
         {(title || subTitle || summary) && (
@@ -71,14 +67,6 @@ Card.propTypes = {
    */
   border: PropTypes.bool,
   /**
-   * Define if image is circular
-   */
-  imageCircle: PropTypes.bool,
-  /**
-   * Define if image is with border
-   */
-  imageBorder: PropTypes.bool,
-  /**
    * Define if image   with shadow
    */
   imageShadow: PropTypes.bool,
@@ -117,8 +105,6 @@ Card.propTypes = {
 };
 Card.defaultProps = {
   border: true,
-  imageCircle: false,
-  imageBorder: false,
   imageShadow: false,
   shadow: false,
   image: '',

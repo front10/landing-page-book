@@ -58,7 +58,7 @@
   "homepage": "https://front10.com/landing-page-book/",
   "scripts": {
     "build-static-pages": "node scripts/build-static-pages.js",
-    "build": "gulp compile-themes-force && gulp compile-components && rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby build && mkdir public/themes && cp -r assets/themes/* public/themes",
+    "build": "gulp compile-themes-force && gulp compile-components && rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby build --prefix-paths && mkdir public/themes && cp -r assets/themes/* public/themes",
     "develop": "rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby develop",
     "format": "prettier --trailing-comma es5 --no-semi --single-quote --write 'src/**/*.js'",
     "start": "gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & start-storybook -p 9001 -c .storybook -s ./assets",
@@ -74,7 +74,6 @@
     "transpile": "babel src -d dist --copy-files",
     "prepublishOnly": "gulp compile-components-watch & gulp compile-components & gulp compile-themes-watch & gulp compile-themes-force & npm run transpile",
     "test-browser": "node ./selenium/browser-test.js",
-    "predeploy": "gulp compile-themes-force && gulp compile-components && rm -rf public && mkdir public && mkdir public/images && cp -r assets/images/* public/images && npm run build-static-pages && gatsby build --prefix-paths && mkdir public/themes && cp -r assets/themes/* public/themes",
     "deploy": "gh-pages -d public -b gh-pages -r git@github.com:front10/landing-page-book.git"
   },
   "devDependencies": {

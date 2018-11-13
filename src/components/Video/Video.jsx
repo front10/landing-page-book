@@ -22,10 +22,11 @@ class Video extends Component {
       onBuffer,
       onSeek,
       onEnded,
-      onError
+      onError,
+      style
     } = this.props;
     return (
-      <div className={`Video ${className}`}>
+      <div className={`Video ${className}`} style={style}>
         <ReactPlayer
           url={source}
           playing={playing}
@@ -79,6 +80,10 @@ Video.propTypes = {
    */
   className: PropTypes.string,
   /**
+   * Css style applied to the component
+   */
+  style: PropTypes.objectOf(PropTypes.any),
+  /**
    * Called when media is loaded and ready to play. If playing is set to true, media will play immediately
    */
   onReady: PropTypes.func,
@@ -127,6 +132,7 @@ Video.defaultProps = {
   volume: 1,
   source: '',
   className: '',
+  style: null,
   onReady: () => {},
   onStart: () => {},
   onPlay: () => {},

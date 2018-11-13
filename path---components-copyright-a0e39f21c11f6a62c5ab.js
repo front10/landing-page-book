@@ -1,2 +1,2 @@
-webpackJsonp([0x935b95893ca2],{1015:function(t,n){t.exports={pathContext:{}}}});
+webpackJsonp([0x935b95893ca2],{1018:function(t,n){t.exports={pathContext:{}}}});
 //# sourceMappingURL=path---components-copyright-a0e39f21c11f6a62c5ab.js.map

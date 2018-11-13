@@ -124,18 +124,21 @@
   border-radius: 0px;
 }
 
-/* CSS Temporaly */
-
-.token.tag {
-  color: #c85a62 !important;
+/* CSS CODE */
+.token.constant, .token.deleted, .token.property, .token.symbol, .token.tag {
+  color: #ff8985 !important;
 }
 
-.token.attr-name {
-  color: #c0af27 !important;
+.token.attr-name, .token.builtin, .token.char, .token.inserted, .token.selector {
+  color: #f7d154 !important;
 }
 
-.token.attr-value {
-  color: #00f891 !important;
+.token.atrule, .token.attr-value {
+  color: #45ffa5 !important;
+}
+
+.token.punctuation {
+  color: #fefefe;
 }
 
 .token.string {
@@ -146,4 +149,4 @@
   font-size: 16px;
 }
 
-/* END CSS Temporaly */
+/* END CSS CODE */

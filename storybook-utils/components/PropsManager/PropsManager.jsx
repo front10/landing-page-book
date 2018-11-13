@@ -7,6 +7,7 @@ import { LiveProvider, LiveEditor, LiveError, LivePreview } from 'react-live';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
 import ReactHtmlParser from 'react-html-parser';
 import VariableManager from '../VariableManager';
+import DocGenerator from '../DocGenerator';
 import Icon from '../../../src/components/Icon';
 import Button from '../../../src/components/Button';
 import Input from '../../../src/components/Input';
@@ -28,29 +29,24 @@ class PropsManager extends React.Component {
       textCode: props.children,
       external: true,
       active: props.active,
-      scopied: false,
-      initialpropsDescription: null,
       propsDescription: null
     };
     this.handleCodeChange = this.handleCodeChange.bind(this);
     this.handleActive = this.handleActive.bind(this);
     this.showOrHideCodeAndIcon = this.showOrHideCodeAndIcon.bind(this);
     this.showCopyButton = this.showCopyButton.bind(this);
-    this.copyToClipboard = this.copyToClipboard.bind(this);
-    this.filterList = this.filterList.bind(this);
     this.renderTableDocs = this.renderTableDocs.bind(this);
   }
 
   componentDidMount() {
     const { propsDescription } = this.props;
-    this.setState({ propsDescription, initialpropsDescription: propsDescription });
+    this.setState({ propsDescription });
   }
 
   handleCodeChange(textCode) {
     this.setState({
       textCode,
-      external: false,
-      scopied: false
+      external: false
     });
   }
 
@@ -61,17 +57,13 @@ class PropsManager extends React.Component {
     this.setState({ active });
   }
 
-  copyToClipboard() {
-    this.setState({ scopied: true });
-  }
-
   showCopyButton() {
     const { textCode } = this.state;
     return (
       <div className="text-white d-inline">
         <span className="playgroundHeader__icon">
-          <CopyToClipboard text={textCode} onCopy={this.copyToClipboard}>
-            <span className="font-weight-light fs-10 text-uppercase" onClick={this.copyToClipboard}>
+          <CopyToClipboard text={textCode}>
+            <span className="font-weight-light fs-10 text-uppercase">
               <Icon
                 title="Copy code"
                 icon="fa fa-clone"
@@ -109,68 +101,9 @@ class PropsManager extends React.Component {
     );
   }
 
-  filterList({ value }) {
-    const { initialpropsDescription } = this.state;
-    const propsDesc = {};
-    Object.keys(initialpropsDescription).filter(item => {
-      if (item.toLowerCase().search(value.toLowerCase()) !== -1) {
-        propsDesc[item] = initialpropsDescription[item];
-      }
-    });
-    this.setState({ propsDescription: propsDesc });
-  }
-
   renderTableDocs() {
     const { propsDescription, active } = this.state;
-    return (
-      <React.Fragment>
-        <div className="filter-list">
-          <Input
-            icon="fa fa-search"
-            size="sm"
-            placeholder="Filter props"
-            onChange={this.filterList}
-          />
-        </div>
-        <div className="table-props">
-          <table
-            className={`table table-striped table-fixed m-0 table-sm ${
-              active.indexOf('readme') === -1 ? 'playgroundProperties--rounded' : ''
-              }`}
-          >
-            <thead>
-              <tr>
-                <th scope="row">Name</th>
-                <th scope="col">Type</th>
-                <th scope="col">Summary</th>
-                <th scope="col">Default</th>
-              </tr>
-            </thead>
-            <tbody>
-              {Object.keys(propsDescription).map(prop => (
-                <tr key={prop}>
-                  <td>
-                    <span className="propName">{prop}</span>
-                  </td>
-                  <td>
-                    {' '}
-                    <span className="propType">{propsDescription[prop].type.name}</span>
-                  </td>
-                  <td>{ReactHtmlParser(propsDescription[prop].description)}</td>
-                  <td>
-                    <code>
-                      {propsDescription[prop].defaultValue
-                        ? propsDescription[prop].defaultValue.value
-                        : ReactHtmlParser('<span class="text-required">* required </span>')}
-                    </code>
-                  </td>
-                </tr>
-              ))}
-            </tbody>
-          </table>
-        </div>
-      </React.Fragment>
-    );
+    return <DocGenerator propsDescription={propsDescription} active={active} />;
   }
 
   render() {
@@ -190,22 +123,22 @@ class PropsManager extends React.Component {
             <div
               className={`text-right playgroundHeader ${
                 active.indexOf('code') === -1 &&
-                  active.indexOf('css') === -1 &&
-                  active.indexOf('props') === -1
+                active.indexOf('css') === -1 &&
+                active.indexOf('props') === -1
                   ? `rounded`
                   : 'rounded-top'
-                }`}
+              }`}
             >
               {tabs.map(
                 tab =>
                   tab.key === 'code' ||
-                    (tab.key === 'props' && propsDescription) ||
-                    (tab.key === 'css' && cssVariables.length) ||
-                    (tab.key === 'readme' && readme) ? (
-                      <React.Fragment key={tab.key}>
-                        {this.showOrHideCodeAndIcon(tab, active)}
-                      </React.Fragment>
-                    ) : null
+                  (tab.key === 'props' && propsDescription) ||
+                  (tab.key === 'css' && cssVariables.length) ||
+                  (tab.key === 'readme' && readme) ? (
+                    <React.Fragment key={tab.key}>
+                      {this.showOrHideCodeAndIcon(tab, active)}
+                    </React.Fragment>
+                  ) : null
               )}
               {this.showCopyButton()}
             </div>
@@ -213,8 +146,8 @@ class PropsManager extends React.Component {
               <div
                 className={
                   active.indexOf('css') === -1 &&
-                    active.indexOf('props') === -1 &&
-                    active.indexOf('readme') === -1
+                  active.indexOf('props') === -1 &&
+                  active.indexOf('readme') === -1
                     ? `playgroundEditor--rounded`
                     : ''
                 }
@@ -229,7 +162,7 @@ class PropsManager extends React.Component {
                   active.indexOf('props') === -1 && active.indexOf('readme') === -1
                     ? `playgroundVariables--rounded`
                     : ''
-                  }`}
+                }`}
               >
                 <VariableManager variables={cssVariables} />
               </div>

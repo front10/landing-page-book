@@ -8,27 +8,27 @@ export default {
     {
       name: 'Basic',
       summary: '',
-      code: `<Social gray type="facebook" rounded url="https://front10.com" directLink={false} />`,
+      code: `<Social cssFilter="grayscale(100%)" type="facebook" rounded url="https://front10.com" directLink={false} />`,
       tabsActive: ['code']
     },
     {
       name: 'All',
       summary: '',
       code: `<>
-    <Social gray={false} type="email" rounded url="https://front10.com" />
-    <Social gray={false} type="facebook" rounded url="https://front10.com" />
-    <Social gray={false} type="google" rounded url="https://front10.com" />
-    <Social gray={false} type="linkedin" rounded url="https://front10.com" />
-    <Social gray={false} type="livejournal" rounded url="https://front10.com" />
-    <Social gray={false} type="ok" rounded url="https://front10.com" />
-    <Social gray={false} type="pinterest" rounded url="https://front10.com" />
-    <Social gray={false} type="reddit" rounded url="https://front10.com" />
-    <Social gray={false} type="telegram" rounded url="https://front10.com" />
-    <Social gray={false} type="tumblr" rounded url="https://front10.com" />
-    <Social gray={false} type="twitter" rounded url="https://front10.com" />
-    <Social gray={false} type="viber" rounded url="https://front10.com" />
-    <Social gray={false} type="vk" rounded url="https://front10.com" />
-    <Social gray={false} type="whatsapp" rounded url="https://front10.com" />
+    <Social type="email" rounded url="https://front10.com" />
+    <Social type="facebook" rounded url="https://front10.com" />
+    <Social type="google" rounded url="https://front10.com" />
+    <Social type="linkedin" rounded url="https://front10.com" />
+    <Social type="livejournal" rounded url="https://front10.com" />
+    <Social type="ok" rounded url="https://front10.com" />
+    <Social type="pinterest" rounded url="https://front10.com" />
+    <Social type="reddit" rounded url="https://front10.com" />
+    <Social type="telegram" rounded url="https://front10.com" />
+    <Social type="tumblr" rounded url="https://front10.com" />
+    <Social type="twitter" rounded url="https://front10.com" />
+    <Social type="viber" rounded url="https://front10.com" />
+    <Social type="vk" rounded url="https://front10.com" />
+    <Social type="whatsapp" rounded url="https://front10.com" />
 </>`,
       tabsActive: []
     }

@@ -10,7 +10,7 @@ export default {
       name: 'Basic',
       summary: '',
       code: `<Sponsors
-    gray
+    imageCssFilter="grayscale(100%)"
     sponsors={[
         { image: 'https://front10.com/landing-page-book/images/sponsors/facebook.png' },
         { image: 'https://front10.com/landing-page-book/images/sponsors/google.png' },

@@ -2,7 +2,7 @@
   "version": 2,
   "name": "landing-page-book",
   "scope": "front10",
-  "alias": ["landing-page-book.front10.cloud"],
+  "alias": "landing-page-book.front10.cloud",
   "builds": [
     {
       "src": "package.json",

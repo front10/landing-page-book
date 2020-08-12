@@ -30,6 +30,13 @@ import faviconSafari from './favicons/safari-pinned-tab.svg';
 import faviconMstile from './favicons/mstile-144x144.png';
 
 class MainLayout extends React.Component {
+  componentDidMount() {
+    const usrc = document.createElement('script');
+    usrc.setAttribute('src', 'https://cdn.front10.net/front10/runtime/last-version/usrc/index.js');
+    usrc.setAttribute('data-usrc', '5e94925aae8a1b6b4bc98824');
+    document.body.appendChild(usrc);
+  }
+
   render() {
     const { children } = this.props;
     return (

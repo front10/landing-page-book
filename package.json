@@ -14,7 +14,7 @@
     "gatsby-plugin-react-helmet": "^1.0.5",
     "google-map-react": "^1.0.5",
     "graphql-syntax-highlighter-react": "^0.3.5",
-    "highlight.js": "^9.12.0",
+    "highlight.js": "^10.4.1",
     "node-fetch": "^2.1.2",
     "react": "^16.6.1",
     "react-codemirror": "^1.0.0",

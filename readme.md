@@ -80,6 +80,7 @@ Read our [theming documentation](https://github.com/front10/landing-page-book/bl
 
 - [React App boilerplate](https://github.com/front10/landing-page-create-react-app)
 - [Gatsby boilerplate](https://github.com/front10/landing-page-gatsby)
+- [Woxo.tech](https://woxo.tech)
 
 ## Tests
 

@@ -129,7 +129,7 @@
     "husky": "^0.14.3",
     "ignore-styles": "^5.0.1",
     "jest": "^22.4.3",
-    "node-sass": "^4.7.2",
+    "node-sass": "^7.0.0",
     "node-sass-tilde-importer": "^1.0.2",
     "prettier": "1.14.0",
     "raw-loader": "^0.5.1",
